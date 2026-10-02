@@ -1,0 +1,447 @@
+import { createClient, SupabaseClient } from '@supabase/supabase-js';
+import { VocabEntry, ProgressStats, ConjugationRecord, RaceState, SentenceProgress, GrammarRecord, UserExtras } from './types';
+import { normWord } from './norm';
+import { Profile, LevelOverrides, Level, mergeProfiles } from './profiles';
+import { Lang, LANGUAGES, dataUserId, parseDataUserId } from './lang';
+import { WissenProgress, normalizeProgress } from './wissen/progress';
+
+// ─── client ──────────────────────────────────────────────────────────────────
+
+let client: SupabaseClient | null = null;
+
+function db(): SupabaseClient {
+  if (client) return client;
+  const url = process.env.SUPABASE_URL ?? process.env.NEXT_PUBLIC_SUPABASE_URL;
+  const key = process.env.SUPABASE_SERVICE_ROLE_KEY;
+  if (!url || !key) {
+    throw new Error('Supabase env not configured (SUPABASE_URL / SUPABASE_SERVICE_ROLE_KEY)');
+  }
+  client = createClient(url, key, { auth: { persistSession: false } });
+  return client;
+}
+
+export function dbConfigured(): boolean {
+  return Boolean(
+    (process.env.SUPABASE_URL ?? process.env.NEXT_PUBLIC_SUPABASE_URL) &&
+      process.env.SUPABASE_SERVICE_ROLE_KEY
+  );
+}
+
+// ─── row ↔ VocabEntry mapping ──────────────────────────────────────────────────
+
+interface VocabRow {
+  id: string;
+  user_id: string;
+  norm_word: string;
+  word: string;
+  translation: string;
+  example: string | null;
+  level: number;
+  next_review: string | null;
+  last_reviewed: string | null;
+  review_count: number;
+  added_at: string;
+}
+
+function rowToEntry(r: VocabRow): VocabEntry {
+  return {
+    id: r.id,
+    word: r.word,
+    translation: r.translation,
+    example: r.example ?? undefined,
+    level: r.level,
+    nextReview: r.next_review ?? '',
+    lastReviewed: r.last_reviewed ?? undefined,
+    reviewCount: r.review_count ?? 0,
+    addedAt: r.added_at,
+  };
+}
+
+function entryToRow(userId: string, e: VocabEntry): Omit<VocabRow, 'id'> & { id?: string } {
+  return {
+    id: e.id && !e.id.startsWith('local-') ? e.id : undefined,
+    user_id: userId,
+    norm_word: normWord(e.word, parseDataUserId(userId).lang),
+    word: e.word,
+    translation: e.translation,
+    example: e.example ?? null,
+    level: e.level ?? 1,
+    next_review: e.nextReview ? e.nextReview : null,
+    last_reviewed: e.lastReviewed ? e.lastReviewed : null,
+    review_count: e.reviewCount ?? 0,
+    added_at: e.addedAt ?? new Date().toISOString(),
+  };
+}
+
+// ─── vocab (per-row) ───────────────────────────────────────────────────────────
+
+const VOCAB_PAGE = 1000; // Supabase default max rows per request
+
+export async function getVocab(userId: string): Promise<VocabEntry[]> {
+  const all: VocabEntry[] = [];
+  let from = 0;
+
+  while (true) {
+    const { data, error } = await db()
+      .from('vocab')
+      .select('*')
+      .eq('user_id', userId)
+      .order('added_at', { ascending: true })
+      .range(from, from + VOCAB_PAGE - 1);
+    if (error) throw new Error(error.message);
+    const page = data as VocabRow[];
+    if (!page.length) break;
+    all.push(...page.map(rowToEntry));
+    if (page.length < VOCAB_PAGE) break;
+    from += VOCAB_PAGE;
+  }
+
+  return all;
+}
+
+export async function upsertVocabWord(userId: string, entry: VocabEntry): Promise<void> {
+  const row = entryToRow(userId, entry);
+  const { error } = await db()
+    .from('vocab')
+    .upsert(row, { onConflict: 'user_id,norm_word' });
+  if (error) throw new Error(error.message);
+}
+
+export async function deleteVocabWord(userId: string, id: string): Promise<void> {
+  const { error } = await db().from('vocab').delete().eq('user_id', userId).eq('id', id);
+  if (error) throw new Error(error.message);
+}
+
+// ─── stats (one row) ────────────────────────────────────────────────────────────
+
+interface StatsRow {
+  user_id: string;
+  exercises_completed: number;
+  correct_answers: number;
+  total_answers: number;
+  streak: number;
+  last_activity: string | null;
+  exercises_by_type: Record<string, number>;
+  daily: Record<string, number> | null;
+}
+
+export async function getStats(userId: string): Promise<ProgressStats | null> {
+  const { data, error } = await db()
+    .from('stats')
+    .select('*')
+    .eq('user_id', userId)
+    .maybeSingle();
+  if (error) throw new Error(error.message);
+  if (!data) return null;
+  const r = data as StatsRow;
+  return {
+    exercisesCompleted: r.exercises_completed,
+    correctAnswers: r.correct_answers,
+    totalAnswers: r.total_answers,
+    streak: r.streak,
+    lastActivity: r.last_activity ?? '',
+    exercisesByType: r.exercises_by_type ?? {},
+    daily: r.daily ?? {},
+  };
+}
+
+export async function setStats(userId: string, s: ProgressStats): Promise<void> {
+  const row: StatsRow = {
+    user_id: userId,
+    exercises_completed: s.exercisesCompleted,
+    correct_answers: s.correctAnswers,
+    total_answers: s.totalAnswers,
+    streak: s.streak,
+    last_activity: s.lastActivity || null,
+    exercises_by_type: s.exercisesByType ?? {},
+    daily: s.daily ?? {},
+  };
+  const { error } = await db().from('stats').upsert(row, { onConflict: 'user_id' });
+  if (error) throw new Error(error.message);
+}
+
+// Flashcard actions per user on `date` (Berlin 'YYYY-MM-DD'), from the stats rows.
+// Counts every flashcard, including repeated reviews of the same word.
+export async function getDailyActionCounts(date: string): Promise<Record<string, number>> {
+  const { data, error } = await db().from('stats').select('user_id, daily');
+  if (error) throw new Error(error.message);
+  const counts: Record<string, number> = {};
+  for (const row of (data as { user_id: string; daily: Record<string, number> | null }[]) ?? []) {
+    const n = row.daily?.[date] ?? 0;
+    if (n > 0) counts[row.user_id] = n;
+  }
+  return counts;
+}
+
+// Every user's race-relevant stats for one language in one read, keyed by profile
+// id: daily activity powers the chart, while streak + last activity let the
+// standings show each active learning streak.
+export async function getAllRaceStats(lang: Lang): Promise<
+  Record<string, { daily: Record<string, number>; streak: number; lastActivity: string }>
+> {
+  const { data, error } = await db()
+    .from('stats')
+    .select('user_id, daily, streak, last_activity');
+  if (error) throw new Error(error.message);
+
+  const out: Record<
+    string,
+    { daily: Record<string, number>; streak: number; lastActivity: string }
+  > = {};
+  for (const row of
+    (data as {
+      user_id: string;
+      daily: Record<string, number> | null;
+      streak: number;
+      last_activity: string | null;
+    }[]) ?? []) {
+    const { profileId, lang: rowLang } = parseDataUserId(row.user_id);
+    if (rowLang !== lang || dataUserId(profileId, lang) !== row.user_id) continue;
+    out[profileId] = {
+      daily: row.daily ?? {},
+      streak: row.streak ?? 0,
+      lastActivity: row.last_activity ?? '',
+    };
+  }
+  return out;
+}
+
+// ─── conjugation (one jsonb row) ─────────────────────────────────────────────────
+
+export async function getConjugation(userId: string): Promise<ConjugationRecord[]> {
+  const { data, error } = await db()
+    .from('conjugation')
+    .select('data')
+    .eq('user_id', userId)
+    .maybeSingle();
+  if (error) throw new Error(error.message);
+  return ((data?.data as ConjugationRecord[]) ?? []);
+}
+
+export async function setConjugation(userId: string, records: ConjugationRecord[]): Promise<void> {
+  const { error } = await db()
+    .from('conjugation')
+    .upsert({ user_id: userId, data: records }, { onConflict: 'user_id' });
+  if (error) throw new Error(error.message);
+}
+
+// ─── sentences (SRS for translating example sentences, one jsonb row per user) ───
+
+export async function getSentenceProgress(userId: string): Promise<SentenceProgress[]> {
+  const { data, error } = await db()
+    .from('sentences')
+    .select('data')
+    .eq('user_id', userId)
+    .maybeSingle();
+  if (error) throw new Error(error.message);
+  return ((data?.data as SentenceProgress[]) ?? []);
+}
+
+export async function setSentenceProgress(userId: string, rows: SentenceProgress[]): Promise<void> {
+  const { error } = await db()
+    .from('sentences')
+    .upsert({ user_id: userId, data: rows }, { onConflict: 'user_id' });
+  if (error) throw new Error(error.message);
+}
+
+// ─── grammar (exercise progress, one jsonb row per user) ────────────────────────
+
+export async function getGrammar(userId: string): Promise<GrammarRecord[]> {
+  const { data, error } = await db()
+    .from('grammar')
+    .select('data')
+    .eq('user_id', userId)
+    .maybeSingle();
+  if (error) throw new Error(error.message);
+  return ((data?.data as GrammarRecord[]) ?? []);
+}
+
+export async function setGrammar(userId: string, records: GrammarRecord[]): Promise<void> {
+  const { error } = await db()
+    .from('grammar')
+    .upsert({ user_id: userId, data: records }, { onConflict: 'user_id' });
+  if (error) throw new Error(error.message);
+}
+
+// ─── extras (mistakes, reading progress, daily rounds; one jsonb row per user) ───
+// Stored in the `race` table (id text + data jsonb) under `extras:<user_id>`, so
+// no new table/migration is needed.
+
+const extrasRowId = (userId: string) => `extras:${userId}`;
+
+export async function getExtras(userId: string): Promise<UserExtras> {
+  const { data, error } = await db()
+    .from('race')
+    .select('data')
+    .eq('id', extrasRowId(userId))
+    .maybeSingle();
+  if (error) throw new Error(error.message);
+  const d = data?.data as Partial<UserExtras> | undefined;
+  return { mistakes: d?.mistakes ?? [], reading: d?.reading ?? {}, rounds: d?.rounds ?? {} };
+}
+
+export async function setExtras(userId: string, extras: UserExtras): Promise<void> {
+  const { error } = await db()
+    .from('race')
+    .upsert({ id: extrasRowId(userId), data: extras }, { onConflict: 'id' });
+  if (error) throw new Error(error.message);
+}
+
+// ─── knowledge subjects (Geschichte, Geografie, …): one jsonb row per profile ───
+// Also in the `race` table, under `wissen:<profile id>` (not per language).
+
+const wissenRowId = (profileId: string) => `wissen:${profileId}`;
+
+export async function getWissen(profileId: string): Promise<WissenProgress> {
+  const { data, error } = await db()
+    .from('race')
+    .select('data')
+    .eq('id', wissenRowId(profileId))
+    .maybeSingle();
+  if (error) throw new Error(error.message);
+  return normalizeProgress(data?.data as Partial<WissenProgress> | undefined);
+}
+
+export async function setWissen(profileId: string, progress: WissenProgress): Promise<void> {
+  const { error } = await db()
+    .from('race')
+    .upsert({ id: wissenRowId(profileId), data: progress }, { onConflict: 'id' });
+  if (error) throw new Error(error.message);
+}
+
+// ─── race (one global jsonb row per language: id='global' for Italian, 'global-es'…) ─
+
+const LANGS = LANGUAGES.map(l => l.id);
+const raceRowId = (lang: Lang) => (lang === 'it' ? 'global' : `global-${lang}`);
+// Note: `settledMonths` is intentionally left undefined here — the race route treats
+// "undefined" as "first run on the monthly model" and seeds it (no retroactive stars).
+const EMPTY_RACE: RaceState = { dailyCounts: {}, settledDates: [], highscores: [], stars: {} };
+
+export async function getRaceState(lang: Lang): Promise<RaceState> {
+  const { data, error } = await db()
+    .from('race')
+    .select('data')
+    .eq('id', raceRowId(lang))
+    .maybeSingle();
+  if (error) throw new Error(error.message);
+  const s = data?.data as Partial<RaceState> | undefined;
+  if (!s) return { ...EMPTY_RACE };
+  return {
+    dailyCounts: s.dailyCounts ?? {},
+    settledDates: s.settledDates ?? [],
+    highscores: s.highscores ?? [],
+    stars: s.stars ?? {},
+    settledMonths: s.settledMonths, // pass through; undefined ⇒ migrate/seed
+  };
+}
+
+export async function setRaceState(state: RaceState, lang: Lang): Promise<void> {
+  const { error } = await db()
+    .from('race')
+    .upsert({ id: raceRowId(lang), data: state }, { onConflict: 'id' });
+  if (error) throw new Error(error.message);
+}
+
+// ─── accounts (name + password; one row per profile, table `accounts`) ───────────
+
+// Names are unique ignoring case and surrounding/double spaces.
+export const nameKey = (name: string) => name.trim().replace(/\s+/g, ' ').toLowerCase();
+
+export async function getAccountByName(name: string): Promise<{ profileId: string; passwordHash: string } | null> {
+  const { data, error } = await db()
+    .from('accounts')
+    .select('profile_id, password_hash')
+    .eq('name_key', nameKey(name))
+    .maybeSingle();
+  if (error) throw new Error(error.message);
+  return data ? { profileId: data.profile_id as string, passwordHash: data.password_hash as string } : null;
+}
+
+export async function createAccount(profileId: string, name: string, passwordHash: string): Promise<void> {
+  const { error } = await db()
+    .from('accounts')
+    .insert({ profile_id: profileId, name_key: nameKey(name), password_hash: passwordHash });
+  if (error) throw new Error(error.message);
+}
+
+export async function deleteAccount(profileId: string): Promise<void> {
+  const { error } = await db().from('accounts').delete().eq('profile_id', profileId);
+  if (error) throw new Error(error.message);
+}
+
+// ─── profiles (created in the app + level choices; row id='profiles' in `race`) ──
+
+const PROFILES_ROW_ID = 'profiles';
+
+export interface ProfilesRow {
+  profiles: Profile[];    // custom profiles created in the app
+  levels: LevelOverrides; // level per language chosen in the app, by profile id
+  deleted: string[];      // built-in profile ids deleted in the app (hidden)
+}
+
+export async function getProfilesRow(): Promise<ProfilesRow> {
+  const { data, error } = await db()
+    .from('race')
+    .select('data')
+    .eq('id', PROFILES_ROW_ID)
+    .maybeSingle();
+  if (error) throw new Error(error.message);
+  const d = data?.data as Partial<ProfilesRow> | undefined;
+  return { profiles: d?.profiles ?? [], levels: d?.levels ?? {}, deleted: d?.deleted ?? [] };
+}
+
+export async function setProfilesRow(row: ProfilesRow): Promise<void> {
+  const { error } = await db()
+    .from('race')
+    .upsert({ id: PROFILES_ROW_ID, data: row }, { onConflict: 'id' });
+  if (error) throw new Error(error.message);
+}
+
+export async function setProfileLevel(profileId: string, lang: Lang, level: Level): Promise<void> {
+  const row = await getProfilesRow();
+  row.levels[profileId] = { ...row.levels[profileId], [lang]: level };
+  await setProfilesRow(row);
+}
+
+// Built-in profiles plus the ones created in the app, with level choices applied.
+// Falls back to the built-ins if the database is unavailable.
+export async function getAllProfiles(): Promise<Profile[]> {
+  if (!dbConfigured()) return mergeProfiles([]);
+  try {
+    const row = await getProfilesRow();
+    return mergeProfiles(row.profiles, row.levels, row.deleted);
+  } catch {
+    return mergeProfiles([]);
+  }
+}
+
+// Permanently delete a profile and everything stored for it, in every language:
+// its rows in all per-user tables and its entries in each language's race
+// (highscores, stars, daily snapshots). Built-in profiles are hidden instead of
+// removed from the code.
+export async function deleteProfile(profileId: string, isBuiltIn: boolean): Promise<void> {
+  const userIds = LANGS.map(l => dataUserId(profileId, l));
+  for (const table of ['vocab', 'stats', 'conjugation', 'sentences', 'grammar']) {
+    const { error } = await db().from(table).delete().in('user_id', userIds);
+    if (error) throw new Error(error.message);
+  }
+  {
+    const { error } = await db()
+      .from('race')
+      .delete()
+      .in('id', [...userIds.map(extrasRowId), wissenRowId(profileId)]);
+    if (error) throw new Error(error.message);
+  }
+  for (const lang of LANGS) {
+    const state = await getRaceState(lang);
+    state.highscores = state.highscores.filter(h => h.userId !== profileId);
+    delete state.stars[profileId];
+    for (const day of Object.values(state.dailyCounts)) delete day[profileId];
+    await setRaceState(state, lang);
+  }
+  const row = await getProfilesRow();
+  row.profiles = row.profiles.filter(p => p.id !== profileId);
+  delete row.levels[profileId];
+  if (isBuiltIn && !row.deleted.includes(profileId)) row.deleted.push(profileId);
+  await setProfilesRow(row);
+}
