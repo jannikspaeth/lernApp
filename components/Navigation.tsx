@@ -30,10 +30,16 @@ const nav: readonly NavItem[] = [
 ];
 
 // Home + knowledge subjects (shown on / and /wissen/*); languages lead into the nav above.
+// The first five are the mobile bottom bar.
+const subjectItems = SUBJECTS.map(s => ({ href: `/wissen/${s.id}`, label: s.name, short: s.name, icon: s.icon }));
 const subjectNav: readonly NavItem[] = [
   { href: '/', label: ['All subjects', 'Alle Fächer'], short: ['Home', 'Start'], icon: '🎓' },
-  ...SUBJECTS.map(s => ({ href: `/wissen/${s.id}`, label: s.name, short: s.name, icon: s.icon })),
+  ...subjectItems.slice(0, 2),
+  { href: '/karte', label: ['World map quiz', 'Weltkarten-Quiz'], short: ['Map', 'Karte'], icon: '🗺️' },
   { href: '/heute', label: ['Languages', 'Sprachen'], short: ['Languages', 'Sprachen'], icon: '🗣️' },
+  ...subjectItems.slice(2),
+  { href: '/wissen/mix', label: ['Mixed round', 'Gemischte Runde'], short: ['Mixed', 'Gemischt'], icon: '🎲' },
+  { href: '/zeitstrahl', label: ['Timeline game', 'Zeitstrahl'], short: ['Timeline', 'Zeitstrahl'], icon: '⏳' },
 ];
 
 const isActive = (path: string, href: string) => (href === '/' ? path === '/' : path.startsWith(href));
@@ -48,7 +54,7 @@ export default function Navigation() {
   const t = useT();
   const langName = info ? t(info.name, info.nameDe) : '…';
 
-  const wissenMode = path === '/' || path.startsWith('/wissen');
+  const wissenMode = path === '/' || ['/wissen', '/karte', '/zeitstrahl'].some(p => path.startsWith(p));
   const items = wissenMode ? subjectNav : nav;
 
   // Mobile: keep the core practice/engagement tabs visible; tuck the rest behind "More".

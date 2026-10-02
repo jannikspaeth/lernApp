@@ -25,6 +25,7 @@ type Mode = 'quiz' | 'cards';
 interface Session {
   title: string;
   pool: Card[]; // what "again" picks the next round from
+  mixed: boolean;
   cards: Card[];
   mode: Mode;
   idx: number;
@@ -34,7 +35,7 @@ interface Session {
 const MODE_KEY = 'lernapp_wissen_mode';
 const isMode = (v: string): v is Mode => v === 'quiz' || v === 'cards';
 
-export default function SubjectView({ subjectId }: { subjectId: string }) {
+export default function SubjectView({ subjectId, hideTopics = false }: { subjectId: string; hideTopics?: boolean }) {
   const subject = getSubject(subjectId) as Subject;
   const { profile, ready } = useProfile();
   const router = useRouter();
@@ -67,10 +68,10 @@ export default function SubjectView({ subjectId }: { subjectId: string }) {
   const cards = useMemo(() => allCards(subject), [subject]);
   const total = summarize(cards, prog);
 
-  function start(title: string, pool: Card[]) {
-    const round = pickRound(pool, prog);
+  function start(title: string, pool: Card[], mixed = false) {
+    const round = pickRound(pool, prog, ROUND_SIZE, mixed);
     if (round.length === 0) return;
-    setSession({ title, pool, cards: round, mode, idx: 0, right: 0 });
+    setSession({ title, pool, mixed, cards: round, mode, idx: 0, right: 0 });
     window.scrollTo({ top: 0 });
   }
 
@@ -85,6 +86,10 @@ export default function SubjectView({ subjectId }: { subjectId: string }) {
   }, []);
 
   const name = t(...subject.name);
+  const topicLabel = (c: Card) => {
+    const tp = topicOf(subject, c.id);
+    return tp.group ? `${t(...tp.group)} · ${t(...tp.name)}` : t(...tp.name);
+  };
 
   if (!ready || !profile) {
     return (
@@ -135,7 +140,7 @@ export default function SubjectView({ subjectId }: { subjectId: string }) {
               <QuizCard
                 key={current.id + session.idx}
                 card={current}
-                label={t(...topicOf(subject, current.id).name)}
+                label={topicLabel(current)}
                 options={quizOptions(current, topicOf(subject, current.id))}
                 onResult={c => answer(current, c)}
               />
@@ -143,7 +148,7 @@ export default function SubjectView({ subjectId }: { subjectId: string }) {
               <FlashCard
                 key={current.id + session.idx}
                 card={current}
-                label={t(...topicOf(subject, current.id).name)}
+                label={topicLabel(current)}
                 onResult={c => answer(current, c)}
               />
             )}
@@ -165,7 +170,7 @@ export default function SubjectView({ subjectId }: { subjectId: string }) {
                 {t('Done', 'Fertig')}
               </button>
               <button
-                onClick={() => start(session.title, session.pool)}
+                onClick={() => start(session.title, session.pool, session.mixed)}
                 className="px-4 py-2.5 bg-gray-900 hover:bg-gray-800 text-white rounded-xl text-sm font-semibold transition-colors"
               >
                 {t('Next round →', 'Nächste Runde →')}
@@ -194,26 +199,45 @@ export default function SubjectView({ subjectId }: { subjectId: string }) {
               </div>
               <ProgressBar value={total.mastered} max={total.total} color={subject.color.bar} />
               <button
-                onClick={() => start(t('Mixed', 'Gemischt'), cards)}
+                onClick={() => start(t('Mixed', 'Gemischt'), cards, true)}
                 className="w-full py-3 bg-gray-900 hover:bg-gray-800 text-white rounded-xl font-semibold transition-colors"
               >
                 {t(`Mixed round (${ROUND_SIZE})`, `Gemischte Runde (${ROUND_SIZE})`)} →
               </button>
             </div>
 
-            <div className="space-y-3">
-              {subject.topics.map(topic => (
+            {subject.links?.map(l => (
+              <Link
+                key={l.href}
+                href={l.href}
+                className="flex items-center gap-3 bg-white rounded-2xl border border-gray-100 shadow-sm p-4 hover:shadow-md transition-shadow"
+              >
+                <span className="text-3xl">{l.icon}</span>
+                <div className="flex-1 min-w-0">
+                  <p className="font-semibold text-gray-900">{t(...l.name)}</p>
+                  <p className="text-xs text-gray-500">{t(...l.blurb)}</p>
+                </div>
+                <span className={`font-semibold ${subject.color.text}`}>→</span>
+              </Link>
+            ))}
+
+            {!hideTopics && <div className="space-y-3">
+              {subject.topics.map((topic, i) => (
+                <div key={topic.id} className="space-y-3">
+                {topic.group && topic.group !== subject.topics[i - 1]?.group && (
+                  <h2 className="text-sm font-semibold text-gray-500 uppercase tracking-wide pt-2">{t(...topic.group)}</h2>
+                )}
                 <TopicRow
-                  key={topic.id}
                   subject={subject}
                   topic={topic}
                   prog={prog}
                   open={openTopic === topic.id}
                   onToggle={() => setOpenTopic(o => (o === topic.id ? null : topic.id))}
-                  onStart={() => start(t(...topic.name), topic.cards)}
+                  onStart={() => start(topic.group ? `${t(...topic.group)} · ${t(...topic.name)}` : t(...topic.name), topic.cards, !!topic.shuffle)}
                 />
+                </div>
               ))}
-            </div>
+            </div>}
           </>
         )}
       </div>
@@ -269,6 +293,8 @@ function TopicRow({
 }) {
   const t = useT();
   const s = summarize(topic.cards, prog);
+  // Flag topics ask the same question every time — the list only needs the answers.
+  const sameQ = topic.cards.every(c => c.q === topic.cards[0].q);
   return (
     <div className="bg-white rounded-2xl border border-gray-100 shadow-sm overflow-hidden">
       <div className="p-4 flex items-center gap-3">
@@ -302,8 +328,12 @@ function TopicRow({
           {topic.cards.map(c => (
             <li key={c.id} className="px-4 py-2.5 text-sm flex gap-2">
               <span className="w-4 shrink-0">{isMastered(prog.cards[c.id]) ? '✅' : prog.cards[c.id] ? '🔸' : ''}</span>
+              {c.img && (
+                // eslint-disable-next-line @next/next/no-img-element -- local SVG flags
+                <img src={c.img} alt="" loading="lazy" className="h-6 w-8 object-cover rounded-sm border border-gray-200 shrink-0 mt-0.5" />
+              )}
               <div>
-                <p className="text-gray-600">{c.q}</p>
+                {!sameQ && <p className="text-gray-600">{c.q}</p>}
                 <p className="font-medium text-gray-900">{c.a}</p>
                 {c.info && <p className="text-xs text-gray-400 mt-0.5">{c.info}</p>}
               </div>

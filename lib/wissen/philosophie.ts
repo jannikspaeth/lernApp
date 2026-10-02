@@ -1,0 +1,56 @@
+import { Subject, topic } from './types';
+
+const S = 'philosophie';
+
+export const philosophie: Subject = {
+  id: S,
+  name: ['Philosophy & religion', 'Philosophie & Religion'],
+  icon: '🦉',
+  blurb: ['Thinkers, world religions, myths', 'Denker, Weltreligionen, Mythen'],
+  color: { bg: 'bg-teal-50', text: 'text-teal-800', bar: 'bg-teal-500', border: 'border-teal-200' },
+  topics: [
+    topic(S, 'denker', ['Philosophers', 'Philosophen'], '💭', [
+      ['Wem wird der Satz „Ich weiß, dass ich nichts weiß“ zugeschrieben?', 'Sokrates', ['Platon', 'Aristoteles', 'Diogenes']],
+      ['Wer schrieb „Der Staat“ mit dem berühmten Höhlengleichnis?', 'Platon', ['Aristoteles', 'Sokrates', 'Seneca']],
+      ['Wer war der Lehrer Alexanders des Großen?', 'Aristoteles', ['Platon', 'Sokrates', 'Diogenes']],
+      ['Von wem stammt „Ich denke, also bin ich“?', 'René Descartes', ['Blaise Pascal', 'Baruch de Spinoza', 'Immanuel Kant']],
+      ['Wer formulierte den kategorischen Imperativ?', 'Immanuel Kant', ['Georg Wilhelm Friedrich Hegel', 'Johann Gottlieb Fichte', 'Arthur Schopenhauer']],
+      ['Wer schrieb „Also sprach Zarathustra“?', 'Friedrich Nietzsche', ['Arthur Schopenhauer', 'Martin Heidegger', 'Karl Marx']],
+      ['Wer machte den Satz „Der Mensch ist dem Menschen ein Wolf“ berühmt?', 'Thomas Hobbes', ['John Locke', 'Niccolò Machiavelli', 'Jean-Jacques Rousseau'], 'Ursprünglich stammt er vom römischen Dichter Plautus.'],
+      ['Wer schrieb „Der Fürst“ (Il Principe)?', 'Niccolò Machiavelli', ['Thomas Hobbes', 'Thomas Morus', 'Erasmus von Rotterdam']],
+      ['Welche chinesische Lehre geht auf Kong Fuzi zurück?', 'Konfuzianismus', ['Daoismus', 'Buddhismus', 'Legalismus']],
+      ['Wer schrieb „Das Sein und das Nichts“?', 'Jean-Paul Sartre', ['Albert Camus', 'Simone de Beauvoir', 'Martin Heidegger']],
+      ['Wer schrieb 1949 „Das andere Geschlecht“?', 'Simone de Beauvoir', ['Hannah Arendt', 'Virginia Woolf', 'Judith Butler']],
+      ['Wer prägte den Ausdruck „Banalität des Bösen“?', 'Hannah Arendt', ['Theodor W. Adorno', 'Jürgen Habermas', 'Jean-Paul Sartre']],
+    ]),
+    topic(S, 'religionen', ['World religions', 'Weltreligionen'], '🕊️', [
+      ['Wie heißt die heilige Schrift des Islam?', 'Koran', ['Tora', 'Veden', 'Talmud']],
+      ['In welcher Stadt steht die Kaaba?', 'Mekka', ['Medina', 'Jerusalem', 'Kairo']],
+      ['Wer begründete den Buddhismus?', 'Siddhartha Gautama', ['Laozi', 'Konfuzius', 'Mahavira']],
+      ['Wie heißt das Gotteshaus im Judentum?', 'Synagoge', ['Moschee', 'Pagode', 'Kathedrale']],
+      ['Welches christliche Fest feiert die Auferstehung Jesu?', 'Ostern', ['Pfingsten', 'Weihnachten', 'Christi Himmelfahrt']],
+      ['Welche Religion hat weltweit die meisten Anhänger?', 'Christentum', ['Islam', 'Hinduismus', 'Buddhismus']],
+      ['Für welche Religion ist der Ganges ein heiliger Fluss?', 'Hinduismus', ['Buddhismus', 'Sikhismus', 'Jainismus']],
+      ['Wie heißt der Fastenmonat im Islam?', 'Ramadan', ['Schawwal', 'Muharram', 'Dhu l-Hiddscha']],
+      ['Wie viele Gebote erhielt Mose der Bibel nach auf den Gesetzestafeln?', 'Zehn', ['Sieben', 'Zwölf', 'Fünf']],
+      ['Wo residiert heute der Papst?', 'Vatikanstadt', ['Avignon', 'Assisi', 'Mailand']],
+      ['Wie heißen die vier Evangelisten?', 'Matthäus, Markus, Lukas, Johannes', ['Matthäus, Markus, Lukas, Paulus', 'Petrus, Paulus, Lukas, Johannes', 'Matthäus, Jakobus, Lukas, Johannes']],
+      ['Wie heißt das jüdische Lichterfest im Winter?', 'Chanukka', ['Pessach', 'Jom Kippur', 'Purim']],
+    ]),
+    topic(S, 'mythen', ['Mythology', 'Mythologie'], '⚡', [
+      ['Wer ist in der griechischen Mythologie der Göttervater?', 'Zeus', ['Poseidon', 'Hades', 'Apollon']],
+      ['Wie heißt Zeus bei den Römern?', 'Jupiter', ['Mars', 'Neptun', 'Merkur']],
+      ['Wer ist der griechische Gott des Meeres?', 'Poseidon', ['Hades', 'Hermes', 'Ares']],
+      ['Welcher Held musste zwölf Aufgaben bewältigen?', 'Herakles', ['Achilles', 'Odysseus', 'Perseus']],
+      ['Wer ist der Göttervater der germanischen Mythologie?', 'Odin', ['Thor', 'Loki', 'Freyr']],
+      ['Wie heißt der Hammer des Donnergottes Thor?', 'Mjölnir', ['Gungnir', 'Excalibur', 'Gram']],
+      ['Wer öffnete das Gefäß mit allen Übeln der Welt?', 'Pandora', ['Helena', 'Medusa', 'Persephone']],
+      ['Wer flog mit Flügeln aus Wachs zu nah an die Sonne?', 'Ikarus', ['Dädalus', 'Phaethon', 'Prometheus'], 'Sein Vater Dädalus hatte die Flügel gebaut.'],
+      ['Wer brachte den Menschen das Feuer?', 'Prometheus', ['Hephaistos', 'Zeus', 'Apollon']],
+      ['Wessen Blick ließ Menschen zu Stein erstarren?', 'Medusa', ['Kirke', 'Hydra', 'Sphinx']],
+      ['Wie heißt die römische Göttin der Liebe?', 'Venus', ['Juno', 'Minerva', 'Diana']],
+      ['Welche Stadt wurde mit dem Trojanischen Pferd eingenommen?', 'Troja', ['Sparta', 'Athen', 'Theben']],
+      ['Wer ist der Held von Homers „Odyssee“?', 'Odysseus', ['Achilles', 'Agamemnon', 'Hektor']],
+    ]),
+  ],
+};

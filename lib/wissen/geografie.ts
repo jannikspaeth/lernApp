@@ -1,54 +1,57 @@
-import { Subject, topic } from './types';
+import { Subject, Topic, topic } from './types';
+import { CONTINENTS, countriesIn, flagUrl } from '../welt';
 
 const S = 'geografie';
+
+const FLAGS: [string, string] = ['Flags', 'Flaggen'];
+const CAPITALS: [string, string] = ['Capitals', 'Hauptstädte'];
+const MORE: [string, string] = ['Germany & nature', 'Deutschland & Natur'];
+
+// One topic per continent, generated from the country list (card id = ISO code).
+const flagTopics: Topic[] = CONTINENTS.map(k => ({
+  id: `flaggen-${k.id}`,
+  name: k.name,
+  icon: k.icon,
+  group: FLAGS,
+  shuffle: true,
+  cards: countriesIn(k.id).map(c => ({
+    id: `${S}.flaggen.${c.code}`,
+    q: 'Zu welchem Land gehört diese Flagge?',
+    img: flagUrl(c.code),
+    a: c.name,
+  })),
+}));
+
+const capitalTopics: Topic[] = CONTINENTS.map(k => ({
+  id: `hauptstadt-${k.id}`,
+  name: k.name,
+  icon: k.icon,
+  group: CAPITALS,
+  shuffle: true,
+  cards: countriesIn(k.id)
+    .filter(c => c.capital)
+    .map(c => ({
+      id: `${S}.hauptstadt.${c.code}`,
+      q: `Was ist die Hauptstadt von ${c.name}?`,
+      img: flagUrl(c.code),
+      a: c.capital as string,
+      ...(c.capitalInfo ? { info: c.capitalInfo } : {}),
+    })),
+}));
 
 export const geografie: Subject = {
   id: S,
   name: ['Geography', 'Geografie'],
   icon: '🗺️',
-  blurb: ['Capitals, rivers, mountains and records', 'Hauptstädte, Flüsse, Gebirge und Rekorde'],
+  blurb: ['Flags, capitals, the world map and more', 'Flaggen, Hauptstädte, Weltkarte und mehr'],
   color: { bg: 'bg-emerald-50', text: 'text-emerald-800', bar: 'bg-emerald-500', border: 'border-emerald-200' },
+  links: [
+    { href: '/karte', icon: '🗺️', name: ['World map quiz', 'Weltkarten-Quiz'], blurb: ['Find or type in every country', 'Alle Länder finden oder eintippen'] },
+  ],
   topics: [
-    topic(S, 'europa', ['Capitals of Europe', 'Hauptstädte Europas'], '🇪🇺', [
-      ['Was ist die Hauptstadt von Spanien?', 'Madrid'],
-      ['Was ist die Hauptstadt von Portugal?', 'Lissabon'],
-      ['Was ist die Hauptstadt von Polen?', 'Warschau'],
-      ['Was ist die Hauptstadt von Schweden?', 'Stockholm'],
-      ['Was ist die Hauptstadt von Norwegen?', 'Oslo'],
-      ['Was ist die Hauptstadt von Finnland?', 'Helsinki'],
-      ['Was ist die Hauptstadt von Ungarn?', 'Budapest'],
-      ['Was ist die Hauptstadt von Rumänien?', 'Bukarest'],
-      ['Was ist die Hauptstadt von Bulgarien?', 'Sofia'],
-      ['Was ist die Hauptstadt von Tschechien?', 'Prag'],
-      ['Was ist die Hauptstadt von Kroatien?', 'Zagreb'],
-      ['Was ist die Hauptstadt von Irland?', 'Dublin'],
-      ['Was ist die Hauptstadt der Schweiz?', 'Bern', null, 'Offiziell „Bundesstadt“ – die Schweiz hat keine Hauptstadt im Gesetz.'],
-      ['Was ist die Hauptstadt der Slowakei?', 'Bratislava'],
-      ['Was ist die Hauptstadt von Slowenien?', 'Ljubljana'],
-      ['Was ist die Hauptstadt von Litauen?', 'Vilnius'],
-      ['Was ist die Hauptstadt von Lettland?', 'Riga'],
-      ['Was ist die Hauptstadt von Estland?', 'Tallinn'],
-    ]),
-    topic(S, 'welt', ['Capitals of the world', 'Hauptstädte der Welt'], '🌐', [
-      ['Was ist die Hauptstadt von Kanada?', 'Ottawa'],
-      ['Was ist die Hauptstadt von Australien?', 'Canberra'],
-      ['Was ist die Hauptstadt von Brasilien?', 'Brasília'],
-      ['Was ist die Hauptstadt der Türkei?', 'Ankara'],
-      ['Was ist die Hauptstadt von Japan?', 'Tokio'],
-      ['Was ist die Hauptstadt von China?', 'Peking'],
-      ['Was ist die Hauptstadt von Indien?', 'Neu-Delhi'],
-      ['Was ist die Hauptstadt von Ägypten?', 'Kairo'],
-      ['Was ist die Hauptstadt von Argentinien?', 'Buenos Aires'],
-      ['Was ist die Hauptstadt von Nigeria?', 'Abuja'],
-      ['Was ist die Hauptstadt von Kenia?', 'Nairobi'],
-      ['Was ist die Hauptstadt von Thailand?', 'Bangkok'],
-      ['Was ist die Hauptstadt von Neuseeland?', 'Wellington'],
-      ['Was ist die Hauptstadt von Marokko?', 'Rabat'],
-      ['Was ist die Hauptstadt von Peru?', 'Lima'],
-      ['Was ist die Hauptstadt von Vietnam?', 'Hanoi'],
-      ['Was ist die Hauptstadt von Südkorea?', 'Seoul'],
-      ['Was ist die Hauptstadt des Iran?', 'Teheran'],
-    ]),
+    ...flagTopics,
+    ...capitalTopics,
+    ...[
     topic(S, 'deutschland', ['German states', 'Bundesländer'], '🇩🇪', [
       ['Was ist die Landeshauptstadt von Bayern?', 'München'],
       ['Was ist die Landeshauptstadt von Baden-Württemberg?', 'Stuttgart'],
@@ -80,5 +83,6 @@ export const geografie: Subject = {
       ['Welcher Kontinent hat die meisten Länder?', 'Afrika', ['Asien', 'Europa', 'Südamerika'], '54 Staaten.'],
       ['Welches Land hat die meisten Einwohner?', 'Indien', ['China', 'USA', 'Indonesien'], 'Indien hat China um 2023 überholt.'],
     ]),
+    ].map(t => ({ ...t, group: MORE })),
   ],
 };

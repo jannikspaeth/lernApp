@@ -3,7 +3,8 @@
 # Lern App — general-knowledge + language-learning web app
 
 A small, personal learning app for German speakers with **subjects** — Geschichte, Geografie, Kunst,
-Literatur (`/wissen/*`) — and **Sprachen** (Italian, Spanish, French: the full language app).
+Literatur, Wissenschaft, Musik, Politik, Philosophie & Religion (`/wissen/*`), games (world map quiz `/karte`,
+timeline `/zeitstrahl`) — and **Sprachen** (Italian, Spanish, French: the full language app).
 Started as a copy of the Italian app (github.com/jannikspaeth/learnItalian) but is a **separate project with
 its own Supabase database and Vercel deployment** — never point it at the Italian app's database.
 Plain, mobile-first UI in **English or German** (per-device switch 🇬🇧/🇩🇪, `lib/ui-lang.ts`:
@@ -69,11 +70,23 @@ Flow: `/login` → `/` (subjects) → Sprachen: `/heute` (→ `/sprache` for lan
 - `/` is the subject overview (`app/page.tsx`); `/wissen/[fach]` (static, `generateStaticParams`) renders
   `components/wissen/SubjectView.tsx`. The nav (`components/Navigation.tsx`) switches to subject items on
   `/` and `/wissen/*` and to the language items everywhere else.
-- Content in `lib/wissen/{geschichte,geografie,kunst,literatur}.ts`, German only: topics of cards
-  `[question, answer, wrong answers?, info?]` built with `topic()`. Card ids are positional
+- Content in `lib/wissen/<subject>.ts` (listed in `SUBJECTS`, `lib/wissen/index.ts`), German only: topics of cards
+  `[question, answer, wrong answers?, info?]` built with `topic()`; optional `group` (heading in the topic list),
+  `shuffle` (new cards in random order), card `img`, subject `links` (games shown above the topics). Card ids are positional
   (`<subject>.<topic>.<n>`) — **only append cards**, never insert/reorder. Without `wrong`, the quiz takes
   distractors from the topic's other answers (only for topics whose answers are all of one kind).
   New subject: add the file, list it in `SUBJECTS` (`lib/wissen/index.ts`) and its route in `sw.js` `ROUTES`.
+- `/wissen/mix` (`MIX`): every topic of every subject, new cards shuffled; the hub's "Gemischte Runde".
+- **Countries** (`lib/welt/`): `countries.ts` is **generated** by `node scripts/build-countries.mjs` from the
+  `world-countries` package (ODbL) — all 193 UN members + VA, PS, XK, TW, with German names/capitals corrected in
+  the script (edit there, never the generated file). The script also copies the flags (`flag-icons`, MIT) to
+  `public/flags/<code>.svg` and the map (`world-atlas` 50m, Natural Earth) to `public/maps/`. Geografie's flag and
+  capital topics are generated per continent from it (card id `geografie.flaggen.<ISO>` / `geografie.hauptstadt.<ISO>`).
+- **World map quiz** `/karte` (`components/welt/`): `WorldMap` = d3-geo + topojson SVG with pan/wheel/pinch zoom,
+  one projection + bounding box per region, round tap targets for tiny countries (Tuvalu isn't on the map).
+  Modes: find the named country (3 tries) or type all names (`normName`, accepted spellings in `alt`; a name that
+  begins another, e.g. "Niger", waits for Enter). Records per device in localStorage.
+- **Timeline** `/zeitstrahl`: order 5 events from `lib/wissen/zeitstrahl.ts` (picked client-side only).
 - Modes: **Quiz** (4 options) or **Flashcards** (reveal + self-grade), per-device choice. Rounds of 10:
   due first, then new (`pickRound`). SRS in `lib/wissen/progress.ts` (levels 0–6, 0/1/3/7/14/30/60 days,
   learned from level 4, wrong → level 1).

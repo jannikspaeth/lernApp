@@ -64,13 +64,21 @@ export function summarize(cards: Card[], prog: WissenProgress): Summary {
   return { total: cards.length, seen, mastered, due };
 }
 
-// A round: due cards first (most overdue first), then new ones in content order,
-// topped up with the cards coming up next when everything is learned.
-export function pickRound(cards: Card[], prog: WissenProgress, size = ROUND_SIZE): Card[] {
+// A round: due cards first (most overdue first), then new ones (in content order,
+// or shuffled for mixed rounds), topped up with the cards coming up next when
+// everything is learned.
+export function pickRound(cards: Card[], prog: WissenProgress, size = ROUND_SIZE, shuffleNew = false): Card[] {
   const now = new Date();
   const time = (c: Card) => new Date(prog.cards[c.id]?.n ?? 0).getTime();
   const due = cards.filter(c => isDue(prog.cards[c.id], now)).sort((a, b) => time(a) - time(b));
-  const fresh = cards.filter(c => !prog.cards[c.id]);
+  let fresh = cards.filter(c => !prog.cards[c.id]);
+  if (shuffleNew) {
+    fresh = [...fresh];
+    for (let i = fresh.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [fresh[i], fresh[j]] = [fresh[j], fresh[i]];
+    }
+  }
   const later = cards
     .filter(c => prog.cards[c.id] && !isDue(prog.cards[c.id], now))
     .sort((a, b) => time(a) - time(b));

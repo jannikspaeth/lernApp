@@ -6,7 +6,7 @@ import { useProfile } from '@/lib/use-profile';
 import { useT } from '@/lib/ui-lang';
 import { getWissen } from '@/lib/storage';
 import { langInfo } from '@/lib/lang';
-import { SUBJECTS, allCards } from '@/lib/wissen';
+import { MIX, SUBJECTS, allCards } from '@/lib/wissen';
 import { WissenProgress, summarize } from '@/lib/wissen/progress';
 
 // Home: every subject at a glance. Languages lead into the language app
@@ -39,6 +39,45 @@ export default function Home() {
           </p>
         </div>
 
+        {(() => {
+          const sum = prog ? summarize(allCards(MIX), prog) : null;
+          return (
+            <Link
+              href="/wissen/mix"
+              className="flex items-center gap-3 rounded-2xl bg-gray-900 text-white p-4 hover:bg-gray-800 transition-colors"
+            >
+              <span className="text-3xl">🎲</span>
+              <div className="flex-1 min-w-0">
+                <p className="font-bold">{t('Mixed round', 'Gemischte Runde')}</p>
+                <p className="text-xs text-gray-300">
+                  {sum && sum.due > 0
+                    ? t(`${sum.due} questions due for review — from every subject`, `${sum.due} Fragen zur Wiederholung fällig – aus allen Fächern`)
+                    : t('10 questions from every subject', '10 Fragen quer durch alle Fächer')}
+                </p>
+              </div>
+              <span className="font-semibold">→</span>
+            </Link>
+          );
+        })()}
+
+        <div className="grid grid-cols-2 gap-3">
+          {[
+            { href: '/karte', icon: '🗺️', name: t('World map quiz', 'Weltkarten-Quiz'), blurb: t('Find every country', 'Alle Länder finden') },
+            { href: '/zeitstrahl', icon: '⏳', name: t('Timeline', 'Zeitstrahl'), blurb: t('Order historic events', 'Ereignisse ordnen') },
+          ].map(g => (
+            <Link
+              key={g.href}
+              href={g.href}
+              className="rounded-2xl border border-gray-100 bg-white shadow-sm p-4 hover:shadow-md transition-shadow"
+            >
+              <span className="text-2xl">{g.icon}</span>
+              <p className="font-semibold text-gray-900 mt-1">{g.name}</p>
+              <p className="text-xs text-gray-500">{g.blurb}</p>
+            </Link>
+          ))}
+        </div>
+
+        <h2 className="text-sm font-semibold text-gray-500 uppercase tracking-wide pt-1">{t('Subjects', 'Fächer')}</h2>
         <div className="grid sm:grid-cols-2 gap-3">
           {SUBJECTS.map(s => {
             const sum = prog ? summarize(allCards(s), prog) : null;

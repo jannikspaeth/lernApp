@@ -3,8 +3,9 @@
 // languages.
 
 export interface Card {
-  id: string; // `<subject>.<topic>.<n>` — stable, progress is stored under it
+  id: string; // `<subject>.<topic>.<n>` (or `.<ISO code>`) — stable, progress is stored under it
   q: string;
+  img?: string; // picture shown with the question (e.g. a flag)
   a: string;
   // Three wrong answers for the quiz. Missing → taken from the other answers of
   // the same topic (only for topics whose answers are all of one kind).
@@ -16,6 +17,8 @@ export interface Topic {
   id: string;
   name: [string, string]; // [en, de]
   icon: string;
+  group?: [string, string]; // heading the topic list is grouped by
+  shuffle?: boolean; // new cards in random order (e.g. alphabetical country lists)
   cards: Card[];
 }
 
@@ -27,6 +30,8 @@ export interface Subject {
   // Full Tailwind class strings (must stay literal so Tailwind picks them up).
   color: { bg: string; text: string; bar: string; border: string };
   topics: Topic[];
+  // Games/pages of this subject, shown above its topics.
+  links?: { href: string; icon: string; name: [string, string]; blurb: [string, string] }[];
 }
 
 // Compact card notation: c('Frage', 'Antwort', ['falsch', 'falsch', 'falsch'], 'Info').
@@ -40,11 +45,13 @@ export function topic(
   name: [string, string],
   icon: string,
   raw: RawCard[],
+  group?: [string, string],
 ): Topic {
   return {
     id,
     name,
     icon,
+    ...(group ? { group } : {}),
     cards: raw.map(([q, a, wrong, info], i) => ({
       id: `${subjectId}.${id}.${i + 1}`,
       q,

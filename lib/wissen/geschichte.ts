@@ -8,6 +8,9 @@ export const geschichte: Subject = {
   icon: '🏛️',
   blurb: ['From antiquity to reunification', 'Von der Antike bis zur Wiedervereinigung'],
   color: { bg: 'bg-amber-50', text: 'text-amber-800', bar: 'bg-amber-500', border: 'border-amber-200' },
+  links: [
+    { href: '/zeitstrahl', icon: '⏳', name: ['Timeline game', 'Zeitstrahl-Spiel'], blurb: ['Put events in the right order', 'Ereignisse in die richtige Reihenfolge bringen'] },
+  ],
   topics: [
     topic(S, 'antike', ['Antiquity', 'Antike'], '🏺', [
       ['In welchem Jahr wurde Rom der Sage nach gegründet?', '753 v. Chr.', ['509 v. Chr.', '776 v. Chr.', '44 v. Chr.'], 'Merkspruch: „Sieben-fünf-drei – Rom schlüpft aus dem Ei.“'],

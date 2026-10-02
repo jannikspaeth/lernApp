@@ -39,21 +39,6 @@ export function dbConfigured(): boolean {
   );
 }
 
-// Setup check for /api/auth/health: can every table be read? (Error text per table.)
-export async function checkTables(): Promise<Record<string, string>> {
-  const out: Record<string, string> = {};
-  for (const table of ['accounts', 'race', 'vocab', 'stats', 'conjugation', 'sentences', 'grammar']) {
-    // A real GET (not head): head requests swallow error messages.
-    const { error } = await db().from(table).select('*').limit(1);
-    out[table] = error ? `FEHLER: ${error.message}` : 'ok';
-  }
-  // Writing needs the service-role key (RLS blocks every other key without an error on reads).
-  const w = await db().from('race').upsert({ id: 'healthcheck', data: { at: new Date().toISOString() } }, { onConflict: 'id' });
-  if (!w.error) await db().from('race').delete().eq('id', 'healthcheck');
-  out['schreiben'] = w.error ? `FEHLER: ${w.error.message}` : 'ok';
-  return out;
-}
-
 // ─── row ↔ VocabEntry mapping ──────────────────────────────────────────────────
 
 interface VocabRow {

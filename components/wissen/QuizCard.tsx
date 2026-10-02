@@ -41,6 +41,10 @@ export default function QuizCard({
   return (
     <div className="bg-white rounded-2xl border border-gray-100 shadow-sm p-5 space-y-4">
       <p className="text-xs text-gray-400 uppercase tracking-wide text-center">{label}</p>
+      {card.img && (
+        // eslint-disable-next-line @next/next/no-img-element -- local SVG flags, no optimisation needed
+        <img src={card.img} alt="" className="mx-auto h-28 max-w-full rounded-md border border-gray-200 shadow-sm" />
+      )}
       <p className="text-lg text-gray-900 leading-relaxed text-center font-medium">{card.q}</p>
       <div className="grid gap-2">
         {shown.map(opt => {

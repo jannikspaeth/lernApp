@@ -12,13 +12,15 @@
  *   and always before any fresh read, so a read can never overtake a pending write.
  */
 
-const PAGES = 'pages-v2';
-const STATIC = 'static-v2';
-const DATA = 'data-v2';
+const PAGES = 'pages-v3';
+const STATIC = 'static-v3';
+const DATA = 'data-v3';
 const KEEP = [PAGES, STATIC, DATA];
 
 const ROUTES = [
   '/', '/wissen/geschichte', '/wissen/geografie', '/wissen/kunst', '/wissen/literatur',
+  '/wissen/wissenschaft', '/wissen/musik', '/wissen/politik', '/wissen/philosophie', '/wissen/mix',
+  '/karte', '/zeitstrahl',
   '/heute', '/vokabeln', '/konjugation', '/grammar', '/saetze', '/lesen',
   '/race', '/erfolge', '/help', '/profile', '/sprache',
 ];
