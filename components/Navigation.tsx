@@ -39,6 +39,7 @@ const subjectNav: readonly NavItem[] = [
   { href: '/heute', label: ['Languages', 'Sprachen'], short: ['Languages', 'Sprachen'], icon: '🗣️' },
   ...subjectItems.slice(2),
   { href: '/wissen/mix', label: ['Mixed round', 'Gemischte Runde'], short: ['Mixed', 'Gemischt'], icon: '🎲' },
+  { href: '/weltgeschichte', label: ['World history', 'Weltgeschichte'], short: ['World history', 'Weltgeschichte'], icon: '🌍' },
   { href: '/zeitstrahl', label: ['Timeline game', 'Zeitstrahl'], short: ['Timeline', 'Zeitstrahl'], icon: '⏳' },
 ];
 
@@ -54,7 +55,7 @@ export default function Navigation() {
   const t = useT();
   const langName = info ? t(info.name, info.nameDe) : '…';
 
-  const wissenMode = path === '/' || ['/wissen', '/karte', '/zeitstrahl'].some(p => path.startsWith(p));
+  const wissenMode = path === '/' || ['/wissen', '/karte', '/zeitstrahl', '/weltgeschichte'].some(p => path.startsWith(p));
   const items = wissenMode ? subjectNav : nav;
 
   // Mobile: keep the core practice/engagement tabs visible; tuck the rest behind "More".

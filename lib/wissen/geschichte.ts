@@ -1,17 +1,37 @@
-import { Subject, topic } from './types';
+import { Subject, Topic, topic } from './types';
+import { TIMELINE_REGIONS, TIMELINES, formatYear } from './zeitstrahl';
 
 const S = 'geschichte';
+
+const EPOCHS: [string, string] = ['Epochs', 'Epochen'];
+
+// "When was …?" for every event of every region (answers are all dates, so the
+// wrong options come from the same region).
+const timelineTopics: Topic[] = TIMELINE_REGIONS.map(r => ({
+  id: `zeitleiste-${r.id}`,
+  name: r.name,
+  icon: r.icon,
+  group: ['Timelines', 'Zeitleisten'],
+  shuffle: true,
+  cards: TIMELINES[r.id].map((ev, i) => ({
+    id: `${S}.zeitleiste-${r.id}.${i + 1}`,
+    q: `Wann? ${ev.text}`,
+    a: formatYear(ev.y, ev.ca),
+  })),
+}));
 
 export const geschichte: Subject = {
   id: S,
   name: ['History', 'Geschichte'],
   icon: '🏛️',
-  blurb: ['From antiquity to reunification', 'Von der Antike bis zur Wiedervereinigung'],
+  blurb: ['From the Stone Age to today, every continent', 'Von der Steinzeit bis heute, alle Kontinente'],
   color: { bg: 'bg-amber-50', text: 'text-amber-800', bar: 'bg-amber-500', border: 'border-amber-200' },
   links: [
+    { href: '/weltgeschichte', icon: '🌍', name: ['World history', 'Weltgeschichte'], blurb: ['Timelines, continents and the history of every country', 'Zeittafeln, Kontinente und die Geschichte aller Länder'] },
     { href: '/zeitstrahl', icon: '⏳', name: ['Timeline game', 'Zeitstrahl-Spiel'], blurb: ['Put events in the right order', 'Ereignisse in die richtige Reihenfolge bringen'] },
   ],
   topics: [
+    ...[
     topic(S, 'antike', ['Antiquity', 'Antike'], '🏺', [
       ['In welchem Jahr wurde Rom der Sage nach gegründet?', '753 v. Chr.', ['509 v. Chr.', '776 v. Chr.', '44 v. Chr.'], 'Merkspruch: „Sieben-fünf-drei – Rom schlüpft aus dem Ei.“'],
       ['Für welchen Pharao wurde die größte Pyramide von Gizeh gebaut?', 'Cheops', ['Tutanchamun', 'Ramses II.', 'Echnaton']],
@@ -96,5 +116,7 @@ export const geschichte: Subject = {
       ['Seit welchem Jahr zahlt man in Deutschland mit Euro-Bargeld?', '2002', ['1999', '1990', '2005'], 'Als Buchgeld gab es den Euro schon seit 1999.'],
       ['Wer war die erste Bundeskanzlerin?', 'Angela Merkel', ['Ursula von der Leyen', 'Annegret Kramp-Karrenbauer', 'Andrea Nahles']],
     ]),
+    ].map(t => ({ ...t, group: EPOCHS })),
+    ...timelineTopics,
   ],
 };

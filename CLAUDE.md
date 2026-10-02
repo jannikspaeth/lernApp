@@ -86,7 +86,17 @@ Flow: `/login` → `/` (subjects) → Sprachen: `/heute` (→ `/sprache` for lan
   one projection + bounding box per region, round tap targets for tiny countries (Tuvalu isn't on the map).
   Modes: find the named country (3 tries) or type all names (`normName`, accepted spellings in `alt`; a name that
   begins another, e.g. "Niger", waits for Enter). Records per device in localStorage.
-- **Timeline** `/zeitstrahl`: order 5 events from `lib/wissen/zeitstrahl.ts` (picked client-side only).
+- **Timelines** (`lib/wissen/zeitstrahl.ts`): events per region (Urgeschichte after Wikipedia's "Zeittafel der
+  Menschheitsgeschichte", Europa, Asien, Afrika, Amerika, Ozeanien, Welt). Used by the timeline game `/zeitstrahl`
+  (5 events, region filter, picked client-side only), the world-history pages and Geschichte's "Zeitleisten" quiz
+  topics (card id = position in the region list — **only append events**).
+- **World history** `/weltgeschichte` (+ `/kontinent/[id]`, `/land/[code]` for all 197 countries, static): timeline,
+  continents, every country with flag, map and a history overview from the German Wikipedia. The texts are
+  **generated** by `node scripts/build-history.mjs` into `lib/welt/geschichte.json` (Wikidata P2184 "history of"
+  article per ISO code, else the "Geschichte" section of the country article; ~1.2 s per request because
+  Wikipedia rate-limits). CC BY-SA 4.0: every text shows source, authors link and licence (`WikiArticle`).
+  Import `lib/welt/geschichte.ts` only in server components so the JSON stays out of client bundles.
+  `components/Tx.tsx` gives bilingual UI text inside server components.
 - Modes: **Quiz** (4 options) or **Flashcards** (reveal + self-grade), per-device choice. Rounds of 10:
   due first, then new (`pickRound`). SRS in `lib/wissen/progress.ts` (levels 0–6, 0/1/3/7/14/30/60 days,
   learned from level 4, wrong → level 1).

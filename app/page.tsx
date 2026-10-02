@@ -60,18 +60,19 @@ export default function Home() {
           );
         })()}
 
-        <div className="grid grid-cols-2 gap-3">
+        <div className="grid grid-cols-3 gap-2 sm:gap-3">
           {[
+            { href: '/weltgeschichte', icon: '🌍', name: t('World history', 'Weltgeschichte'), blurb: t('Every country', 'Alle Länder') },
             { href: '/karte', icon: '🗺️', name: t('World map quiz', 'Weltkarten-Quiz'), blurb: t('Find every country', 'Alle Länder finden') },
             { href: '/zeitstrahl', icon: '⏳', name: t('Timeline', 'Zeitstrahl'), blurb: t('Order historic events', 'Ereignisse ordnen') },
           ].map(g => (
             <Link
               key={g.href}
               href={g.href}
-              className="rounded-2xl border border-gray-100 bg-white shadow-sm p-4 hover:shadow-md transition-shadow"
+              className="rounded-2xl border border-gray-100 bg-white shadow-sm p-3 sm:p-4 hover:shadow-md transition-shadow min-w-0"
             >
               <span className="text-2xl">{g.icon}</span>
-              <p className="font-semibold text-gray-900 mt-1">{g.name}</p>
+              <p className="font-semibold text-gray-900 mt-1 text-sm sm:text-base leading-tight">{g.name}</p>
               <p className="text-xs text-gray-500">{g.blurb}</p>
             </Link>
           ))}
