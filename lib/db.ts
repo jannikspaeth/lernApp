@@ -27,6 +27,16 @@ export function dbConfigured(): boolean {
   );
 }
 
+// Setup check for /api/auth/health: can every table be read? (Error text per table.)
+export async function checkTables(): Promise<Record<string, string>> {
+  const out: Record<string, string> = {};
+  for (const table of ['accounts', 'race', 'vocab', 'stats', 'conjugation', 'sentences', 'grammar']) {
+    const { error } = await db().from(table).select('*', { count: 'exact', head: true });
+    out[table] = error ? `FEHLER: ${error.message}` : 'ok';
+  }
+  return out;
+}
+
 // ─── row ↔ VocabEntry mapping ──────────────────────────────────────────────────
 
 interface VocabRow {
