@@ -11,13 +11,25 @@ let client: SupabaseClient | null = null;
 
 function db(): SupabaseClient {
   if (client) return client;
-  const url = process.env.SUPABASE_URL ?? process.env.NEXT_PUBLIC_SUPABASE_URL;
-  const key = process.env.SUPABASE_SERVICE_ROLE_KEY;
+  const url = supabaseUrl();
+  const key = process.env.SUPABASE_SERVICE_ROLE_KEY?.trim();
   if (!url || !key) {
     throw new Error('Supabase env not configured (SUPABASE_URL / SUPABASE_SERVICE_ROLE_KEY)');
   }
   client = createClient(url, key, { auth: { persistSession: false } });
   return client;
+}
+
+// Project URL without any path: the dashboard also shows it as
+// https://xxxx.supabase.co/rest/v1/, which the client would double up.
+export function supabaseUrl(): string | undefined {
+  const raw = (process.env.SUPABASE_URL ?? process.env.NEXT_PUBLIC_SUPABASE_URL)?.trim();
+  if (!raw) return undefined;
+  try {
+    return new URL(raw).origin;
+  } catch {
+    return raw;
+  }
 }
 
 export function dbConfigured(): boolean {
@@ -31,7 +43,8 @@ export function dbConfigured(): boolean {
 export async function checkTables(): Promise<Record<string, string>> {
   const out: Record<string, string> = {};
   for (const table of ['accounts', 'race', 'vocab', 'stats', 'conjugation', 'sentences', 'grammar']) {
-    const { error } = await db().from(table).select('*', { count: 'exact', head: true });
+    // A real GET (not head): head requests swallow error messages.
+    const { error } = await db().from(table).select('*').limit(1);
     out[table] = error ? `FEHLER: ${error.message}` : 'ok';
   }
   // Writing needs the service-role key (RLS blocks every other key without an error on reads).

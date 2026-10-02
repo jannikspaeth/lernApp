@@ -19,7 +19,11 @@ export async function GET() {
   const key = process.env.SUPABASE_SERVICE_ROLE_KEY ?? '';
   const secret = process.env.AUTH_SECRET ?? '';
   const env = {
-    SUPABASE_URL: !url ? 'FEHLT' : /^https:\/\/[a-z0-9-]+\.supabase\.co\/?$/.test(url.trim()) ? 'ok' : 'gesetzt, aber Format ungewöhnlich (erwartet https://xxxx.supabase.co)',
+    SUPABASE_URL: !url
+      ? 'FEHLT'
+      : /^https:\/\/[a-z0-9-]+\.supabase\.co\/?$/.test(url.trim())
+      ? 'ok'
+      : `gesetzt, mit Pfad (${url.trim().replace(/^https:\/\/[^/]+/, '')}) – wird ignoriert, besser nur https://xxxx.supabase.co eintragen`,
     SUPABASE_SERVICE_ROLE_KEY: !key
       ? 'FEHLT'
       : key.startsWith('sb_publishable_')
