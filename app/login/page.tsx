@@ -25,7 +25,10 @@ export default function LoginPage() {
       case 'invalid_name': return t('Please enter a name.', 'Bitte gib einen Namen ein.');
       case 'invalid_password':
         return t(`The password needs at least ${MIN_PASSWORD_LENGTH} characters.`, `Das Passwort braucht mindestens ${MIN_PASSWORD_LENGTH} Zeichen.`);
-      default: return t('That didn’t work. Please try again.', 'Das hat nicht geklappt. Bitte versuch es noch einmal.');
+      default: {
+        const detail = code.startsWith('failed: ') ? ` (${code.slice(8)})` : '';
+        return t('That didn’t work. Please try again.', 'Das hat nicht geklappt. Bitte versuch es noch einmal.') + detail;
+      }
     }
   }
 

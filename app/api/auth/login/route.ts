@@ -5,6 +5,16 @@ import { setSessionCookie, verifyPassword } from '@/lib/auth';
 // Sign in with { name, password }. Same answer for an unknown name and a wrong
 // password, so names can't be probed.
 export async function POST(req: NextRequest) {
+  try {
+    return await handle(req);
+  } catch (err) {
+    const detail = err instanceof Error ? err.message : String(err);
+    console.error('login failed:', detail);
+    return NextResponse.json({ error: 'server', detail }, { status: 500 });
+  }
+}
+
+async function handle(req: NextRequest): Promise<NextResponse> {
   if (!dbConfigured()) {
     return NextResponse.json({ error: 'Database not configured' }, { status: 503 });
   }

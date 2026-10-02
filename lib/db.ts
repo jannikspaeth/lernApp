@@ -34,6 +34,10 @@ export async function checkTables(): Promise<Record<string, string>> {
     const { error } = await db().from(table).select('*', { count: 'exact', head: true });
     out[table] = error ? `FEHLER: ${error.message}` : 'ok';
   }
+  // Writing needs the service-role key (RLS blocks every other key without an error on reads).
+  const w = await db().from('race').upsert({ id: 'healthcheck', data: { at: new Date().toISOString() } }, { onConflict: 'id' });
+  if (!w.error) await db().from('race').delete().eq('id', 'healthcheck');
+  out['schreiben'] = w.error ? `FEHLER: ${w.error.message}` : 'ok';
   return out;
 }
 

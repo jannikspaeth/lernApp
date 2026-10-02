@@ -427,8 +427,8 @@ export async function authenticate(kind: 'login' | 'register', name: string, pas
     throw new Error('failed' satisfies AuthError);
   }
   if (!res.ok) {
-    const { error } = (await res.json().catch(() => ({}))) as { error?: AuthError };
-    throw new Error(error ?? 'failed');
+    const { error, detail } = (await res.json().catch(() => ({}))) as { error?: AuthError | 'server'; detail?: string };
+    throw new Error(error === 'server' ? `failed: ${detail ?? ''}` : error ?? `failed: HTTP ${res.status}`);
   }
   const { profile, profiles } = (await res.json()) as { profile: Profile; profiles: Profile[] };
   cacheProfiles(profiles);

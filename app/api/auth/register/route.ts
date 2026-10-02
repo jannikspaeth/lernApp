@@ -5,6 +5,16 @@ import { MAX_PASSWORD_LENGTH, MIN_PASSWORD_LENGTH, hashPassword, setSessionCooki
 
 // Sign up with { name, password }: creates the profile + account and signs in.
 export async function POST(req: NextRequest) {
+  try {
+    return await handle(req);
+  } catch (err) {
+    const detail = err instanceof Error ? err.message : String(err);
+    console.error('register failed:', detail);
+    return NextResponse.json({ error: 'server', detail }, { status: 500 });
+  }
+}
+
+async function handle(req: NextRequest): Promise<NextResponse> {
   if (!dbConfigured()) {
     return NextResponse.json({ error: 'Database not configured' }, { status: 503 });
   }

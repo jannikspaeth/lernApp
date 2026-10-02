@@ -39,5 +39,7 @@ export async function GET() {
       database = `FEHLER: ${err instanceof Error ? err.message : String(err)}`;
     }
   }
-  return NextResponse.json({ env, database });
+  return new NextResponse(JSON.stringify({ env, database }, null, 2), {
+    headers: { 'Content-Type': 'application/json; charset=utf-8' },
+  });
 }
