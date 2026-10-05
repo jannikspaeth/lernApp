@@ -1,4 +1,4 @@
-import type { CountryHistory, HistEvent, Epoch } from './types';
+import type { CountryHistory, HistEvent, Epoch, Subtopic } from './types';
 import { DE } from './de';
 import { FR } from './fr';
 import { GB } from './gb';
@@ -52,4 +52,13 @@ export function findEvent(code: string, eventId: string): { epoch: Epoch; event:
   const i = all.findIndex(x => x.event.id === eventId);
   if (i < 0) return null;
   return { ...all[i], next: all[i + 1]?.event, prev: all[i - 1]?.event };
+}
+
+export function findSubtopic(code: string, eventId: string, subId: string): { epoch: Epoch; event: HistEvent; sub: Subtopic; next?: Subtopic; prev?: Subtopic } | null {
+  const found = findEvent(code, eventId);
+  const subs = found?.event.subtopics;
+  if (!found || !subs) return null;
+  const i = subs.findIndex(s => s.id === subId);
+  if (i < 0) return null;
+  return { epoch: found.epoch, event: found.event, sub: subs[i], next: subs[i + 1], prev: subs[i - 1] };
 }
