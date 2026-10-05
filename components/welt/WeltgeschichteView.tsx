@@ -13,7 +13,7 @@ const isTab = (v: string): v is Tab => v === 'zeittafel' || v === 'kontinente' |
 type Pick = TimelineRegion | 'alle';
 
 // /weltgeschichte: the timeline of mankind, the continents and every country.
-export default function WeltgeschichteView({ intro }: { intro: React.ReactNode }) {
+export default function WeltgeschichteView({ intro, detailed }: { intro: React.ReactNode; detailed: string[] }) {
   const t = useT();
   const [tab, setTab] = useLocalSetting<Tab>('lernapp_weltgeschichte_tab', 'zeittafel', isTab);
   const [region, setRegion] = useState<Pick>('alle');
@@ -114,6 +114,11 @@ export default function WeltgeschichteView({ intro }: { intro: React.ReactNode }
               placeholder={t('Search country…', 'Land suchen …')}
               className="w-full border border-gray-200 rounded-xl px-3 py-2.5 text-base bg-white focus:outline-none focus:border-amber-400"
             />
+            {detailed.length > 0 && (
+              <p className="text-xs text-gray-500">
+                ★ {t('= detailed: epochs, events, info texts and quizzes', '= ausführlich: Epochen, Ereignisse, Infotexte und Quiz')}
+              </p>
+            )}
             {CONTINENTS.map(k => {
               const list = matches.filter(c => c.continent === k.id);
               if (!list.length) return null;
@@ -129,7 +134,8 @@ export default function WeltgeschichteView({ intro }: { intro: React.ReactNode }
                       >
                         {/* eslint-disable-next-line @next/next/no-img-element -- local SVG flag */}
                         <img src={flagUrl(c.code)} alt="" loading="lazy" className="h-4 w-6 object-cover rounded-sm border border-gray-200 shrink-0" />
-                        <span className="text-sm text-gray-800 truncate">{c.name}</span>
+                        <span className="text-sm text-gray-800 truncate flex-1">{c.name}</span>
+                        {detailed.includes(c.code) && <span className="text-amber-500 text-xs" title={t('Detailed', 'Ausführlich')}>★</span>}
                       </Link>
                     ))}
                   </div>

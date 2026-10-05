@@ -97,6 +97,12 @@ Flow: `/login` → `/` (subjects) → Sprachen: `/heute` (→ `/sprache` for lan
   Wikipedia rate-limits). CC BY-SA 4.0: every text shows source, authors link and licence (`WikiArticle`).
   Import `lib/welt/geschichte.ts` only in server components so the JSON stays out of client bundles.
   `components/Tx.tsx` gives bilingual UI text inside server components.
+- **Detailed country histories** (`lib/laender/<code>.ts`, registered in `DETAILED`, `lib/laender/index.ts`):
+  epochs → events, each with an info text written for the app and a quiz in three levels (leicht/mittel/schwer,
+  `[question, answer, 3 wrong, info?]`). Country page lists epochs/events with ★ per finished level; event page
+  `/weltgeschichte/land/[code]/[event]` (`components/laender/EventView.tsx`) has Info / Quiz tabs. Answers go into
+  the knowledge progress blob under `land.<code>.<event>.<level>.<n>` — keep event ids stable, only append
+  questions. A level is "done" when every question was answered correctly once. So far: Germany.
 - Modes: **Quiz** (4 options) or **Flashcards** (reveal + self-grade), per-device choice. Rounds of 10:
   due first, then new (`pickRound`). SRS in `lib/wissen/progress.ts` (levels 0–6, 0/1/3/7/14/30/60 days,
   learned from level 4, wrong → level 1).
