@@ -103,7 +103,7 @@ Flow: `/login` → `/` (subjects) → Sprachen: `/heute` (→ `/sprache` for lan
   `/weltgeschichte/land/[code]/[event]` (`components/laender/EventView.tsx`) has Info / Quiz tabs. Answers go into
   the knowledge progress blob under `land.<code>.<event>.<level>.<n>` — keep event ids stable, only append
   questions. A level is "done" when every question was answered correctly once. Check the data with
-  `npx tsx scripts/check-laender.ts`. Planned: the 35 most important countries (written by hand, in batches).
+  `npx tsx scripts/check-laender.ts`. Done: the 35 most important countries (written by hand); other countries show the Wikipedia overview only.
 - Modes: **Quiz** (4 options) or **Flashcards** (reveal + self-grade), per-device choice. Rounds of 10:
   due first, then new (`pickRound`). SRS in `lib/wissen/progress.ts` (levels 0–6, 0/1/3/7/14/30/60 days,
   learned from level 4, wrong → level 1).

@@ -22,12 +22,24 @@ import { MX } from './mx';
 import { BR } from './br';
 import { AR } from './ar';
 import { AU } from './au';
+import { CN } from './cn';
+import { JP } from './jp';
+import { IN } from './in';
+import { KR } from './kr';
+import { IR } from './ir';
+import { IL } from './il';
+import { VN } from './vn';
+import { ID } from './id';
+import { EG } from './eg';
+import { ZA } from './za';
+import { NG } from './ng';
+import { ET } from './et';
 
 export * from './types';
 
 // Countries with a detailed history (epochs → events → info + quiz).
 // Server-side only: pass the one event a page needs to client components.
-export const DETAILED: Record<string, CountryHistory> = { DE, FR, GB, IT, ES, AT, CH, PL, NL, US, RU, GR, PT, SE, CZ, HU, UA, TR, CA, MX, BR, AR, AU };
+export const DETAILED: Record<string, CountryHistory> = { DE, FR, GB, IT, ES, AT, CH, PL, NL, US, RU, GR, PT, SE, CZ, HU, UA, TR, CA, MX, BR, AR, AU, CN, JP, IN, KR, IR, IL, VN, ID, EG, ZA, NG, ET };
 
 export function detailedHistory(code: string): CountryHistory | null {
   return DETAILED[code.toUpperCase()] ?? null;
