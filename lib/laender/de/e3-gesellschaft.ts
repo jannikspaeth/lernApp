@@ -191,7 +191,7 @@ export const GESELLSCHAFT: HistEvent = {
           ['Wie nannte man die vollwertigen Einwohner einer Stadt?', 'Bürger', ['Bauern', 'Vasallen', 'Ritter']],
           ['Wie hießen die Zusammenschlüsse der Handwerker?', 'Zünfte', ['Hansen', 'Orden', 'Gilden der Ritter']],
           ['Wie nannte man reiche Kaufmannsfamilien in der Stadt?', 'Patrizier', ['Plebejer', 'Ministeriale', 'Hörige']],
-          ['Wer regierte eine mittelalterliche Stadt?', 'Der Rat mit den Bürgermeistern', ['Der Papst', 'Der Abt', 'Die Zunft der Bäcker allein']],
+          ['Wer regierte eine mittelalterliche Stadt?', 'Der Rat mit den Bürgermeistern', ['Der Papst', 'Der Abt', 'Die Zunft der Bäcker']],
           ['Welcher Städtebund beherrschte den Handel an Nord- und Ostsee?', 'Die Hanse', ['Der Lombardische Bund', 'Der Schwäbische Bund', 'Die Eidgenossenschaft']],
           ['Welche Stadt war die „Königin der Hanse“?', 'Lübeck', ['Hamburg', 'Bremen', 'Danzig']],
           ['Mit welchem Schiffstyp segelten die Hansekaufleute?', 'Mit der Kogge', ['Mit der Galeere', 'Mit dem Drachenboot', 'Mit dem Dampfer']],

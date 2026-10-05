@@ -41,7 +41,7 @@ export const PREUSSEN: HistEvent = {
           ['Welcher Freund half Friedrich bei der Flucht?', 'Hans Hermann von Katte', ['Voltaire', 'Leibniz', 'Moses Mendelssohn']],
           ['Was geschah mit Katte?', 'Er wurde hingerichtet', ['Er wurde König', 'Er floh nach England', 'Er wurde begnadigt']],
           ['Wie hinterließ Friedrich Wilhelm I. den Staat?', 'Schuldenfrei mit vollen Kassen', ['Völlig verschuldet', 'Ohne Heer', 'Zerstört']],
-          ['Welche Akademie wurde 1700 in Berlin gegründet?', 'Die Akademie der Wissenschaften', ['Die Akademie der Künste allein', 'Die Militärakademie', 'Die Musikakademie']],
+          ['Welche Akademie wurde 1700 in Berlin gegründet?', 'Die Akademie der Wissenschaften', ['Die Akademie der Künste', 'Die Militärakademie', 'Die Musikakademie']],
         ],
         mittel: [
           ['Seit wann regierten die Hohenzollern in Brandenburg?', '1415', ['1618', '1701', '1525']],

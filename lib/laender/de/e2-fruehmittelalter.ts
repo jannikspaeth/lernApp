@@ -638,7 +638,7 @@ export const E2: Epoch = {
               ['Wohin verlegte Ansgar nach 845 seinen Sitz?', 'Nach Bremen', ['Nach Köln', 'Nach Lübeck', 'Nach Magdeburg']],
               ['Welchen Beinamen hatte Kaiser Karl III.?', 'Der Dicke', ['Der Kahle', 'Der Fromme', 'Das Kind']],
               ['Wer besiegte 891 die Normannen?', 'Arnulf von Kärnten', ['Karl der Dicke', 'Ludwig das Kind', 'Konrad I.']],
-              ['Wer wählte Könige wie Konrad I.?', 'Die Großen des Reiches, Adlige und Bischöfe', ['Das ganze Volk', 'Der Papst allein', 'Die Bürger der Städte']],
+              ['Wer wählte Könige wie Konrad I.?', 'Die Großen des Reiches, Adlige und Bischöfe', ['Das ganze Volk', 'Der Papst', 'Die Bürger der Städte']],
               ['Wo wurden Ludwig das Kind und Konrad I. König?', 'In Forchheim', ['In Aachen', 'In Frankfurt', 'In Rom']],
             ],
             mittel: [
