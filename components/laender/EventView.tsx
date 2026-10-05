@@ -26,14 +26,14 @@ function shuffle<T>(arr: T[]): T[] {
 // One historic event: info text and a quiz in three levels.
 export default function EventView({
   code,
-  eventId,
+  path,
   text,
   quiz,
   next,
   sourceUrl,
 }: {
   code: string;
-  eventId: string;
+  path: string; // event id, or <event>.<subtopic>
   text: string[];
   quiz: Record<Level, RawCard[]>;
   next?: { href: string; title: string };
@@ -47,7 +47,7 @@ export default function EventView({
   const [doneNow, setDoneNow] = useState<Partial<Record<Level, boolean>>>({});
   const [saveError, setSaveError] = useState(false);
 
-  const done = (l: Level) => doneNow[l] || levelDone(prog, code, eventId, l, quiz[l].length);
+  const done = (l: Level) => doneNow[l] || levelDone(prog, code, path, l, quiz[l].length);
 
   function start(l: Level) {
     setLevel(l);
@@ -60,7 +60,7 @@ export default function EventView({
 
   function answer(correct: boolean) {
     if (!run || current == null) return;
-    const id = questionId(code, eventId, run.level, current);
+    const id = questionId(code, path, run.level, current);
     updateWissen(p => {
       p.cards[id] = applyAnswer(p.cards[id], correct);
     })
@@ -152,7 +152,7 @@ export default function EventView({
           </div>
           <QuizCard
             key={`${run.level}-${current}-${run.idx}`}
-            card={{ id: questionId(code, eventId, run.level, current!), q: card[0], a: card[1], ...(card[3] ? { info: card[3] } : {}) }}
+            card={{ id: questionId(code, path, run.level, current!), q: card[0], a: card[1], ...(card[3] ? { info: card[3] } : {}) }}
             label={t(...LEVELS.find(l => l.id === run.level)!.name)}
             options={options}
             onResult={answer}

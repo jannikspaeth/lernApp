@@ -6,7 +6,7 @@ import { WikiArticle } from '@/components/welt/History';
 import CountryMap from '@/components/welt/CountryMap';
 import Tx from '@/components/Tx';
 import EventStars from '@/components/laender/EventProgress';
-import { detailedHistory } from '@/lib/laender';
+import { detailedHistory, quizItems, quizCounts } from '@/lib/laender';
 
 export const dynamicParams = false;
 
@@ -66,11 +66,10 @@ export default async function LandPage({ params }: { params: Promise<{ code: str
                         <p className="text-xs font-bold text-amber-700">{ev.date}</p>
                         <p className="text-gray-900 font-medium leading-snug">{ev.title}</p>
                       </div>
-                      <EventStars
-                        code={c.code}
-                        eventId={ev.id}
-                        counts={{ leicht: ev.quiz.leicht.length, mittel: ev.quiz.mittel.length, schwer: ev.quiz.schwer.length }}
-                      />
+                      {ev.subtopics && (
+                        <span className="text-xs text-gray-400 shrink-0">{ev.subtopics.length} <Tx en="parts" de="Teile" /></span>
+                      )}
+                      <EventStars code={c.code} items={quizItems(ev).map(i => ({ path: i.path, counts: quizCounts(i.quiz) }))} />
                       <span className="text-gray-300">›</span>
                     </Link>
                   ))}
