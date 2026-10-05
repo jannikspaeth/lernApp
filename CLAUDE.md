@@ -104,6 +104,10 @@ Flow: `/login` → `/` (subjects) → Sprachen: `/heute` (→ `/sprache` for lan
   the knowledge progress blob under `land.<code>.<event>.<level>.<n>` — keep event ids stable, only append
   questions. A level is "done" when every question was answered correctly once. Check the data with
   `npx tsx scripts/check-laender.ts`. Done: the 35 most important countries (written by hand); other countries show the Wikipedia overview only.
+  A topic can instead have `subtopics` (each with long text + 20 questions per level, page
+  `/weltgeschichte/land/[code]/[event]/[sub]`, progress `land.<code>.<event>.<sub>.<level>.<n>`; the check script then
+  requires ≥ 20 per level). Germany is written this way in full depth (`lib/laender/de/`, one file per epoch, 60 subtopics);
+  the other 34 countries still use the short format (one quiz per topic).
 - Modes: **Quiz** (4 options) or **Flashcards** (reveal + self-grade), per-device choice. Rounds of 10:
   due first, then new (`pickRound`). SRS in `lib/wissen/progress.ts` (levels 0–6, 0/1/3/7/14/30/60 days,
   learned from level 4, wrong → level 1).
