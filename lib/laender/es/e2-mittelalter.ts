@@ -326,7 +326,7 @@ export const E2: Epoch = {
               ['Was ging dem Thron Isabellas voraus?', 'Ein Erbfolgekrieg', ['Eine Revolution', 'Eine Pest', 'Ein Krieg gegen Frankreich']],
               ['Welche drei Ereignisse machen 1492 berühmt?', 'Fall Granadas, Vertreibung der Juden, Kolumbus', ['Gründung der Inquisition, Hochzeit, Isabellas Tod', 'Armada, Lepanto, Escorial', 'El Cid, Toledo, Las Navas']],
               ['Was verdächtigte man die Conversos?', 'Heimlich ihren alten Glauben zu leben', ['Spionage für Frankreich', 'Diebstahl', 'Hexerei']],
-              ['Wie wurden viele Verurteilte der Inquisition bestraft?', 'Tausende wurden verbrannt', ['Mit Geldstrafen allein', 'Gar nicht', 'Mit Verbannung nach Amerika']],
+              ['Wie wurden viele Verurteilte der Inquisition bestraft?', 'Tausende wurden verbrannt', ['Nur mit Geldstrafen', 'Gar nicht', 'Mit Verbannung nach Amerika']],
               ['Was bezeichnet der Beginn des modernen Spanien?', 'Die gemeinsame Regierung von Kastilien und Aragón', ['Die Ankunft der Römer', 'Die Landung Tariqs', 'Der Tod Francos']],
               ['Wie lange sprachen Sepharden Ladino?', 'Jahrhundertelang', ['Nur ein Jahr', 'Gar nicht', 'Bis 1500']],
               ['Mit wessen Erlaubnis entstand die Inquisition?', 'Mit Erlaubnis des Papstes', ['Ohne Erlaubnis', 'Mit Erlaubnis des Kaisers', 'Mit Erlaubnis der Kalifen']],
