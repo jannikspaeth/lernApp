@@ -223,7 +223,7 @@ export const E5: Epoch = {
               ['Wann erklärte Mussolini den Krieg?', 'Als Frankreich schon fast besiegt war', ['Vor Deutschland', 'Gleichzeitig mit Deutschland 1939', 'Nach Kriegsende']],
               ['Warum wollte Mussolini „ein paar tausend Tote“?', 'Um am Verhandlungstisch zu sitzen', ['Um Hitler zu stürzen', 'Um Frankreich zu helfen', 'Um den König zu schwächen']],
               ['Von wo aus griff Italien Griechenland an?', 'Von Albanien aus', ['Von Sizilien aus', 'Von Libyen aus', 'Von Jugoslawien aus']],
-              ['Was geschah in Griechenland?', 'Italien wurde zurückgeschlagen, bis Deutsche eingriffen', ['Italien siegte schnell allein', 'Griechenland wurde neutral', 'Italien eroberte Athen sofort']],
+              ['Was geschah in Griechenland?', 'Italien wurde zurückgeschlagen, bis Deutsche eingriffen', ['Italien siegte schnell ohne Hilfe', 'Griechenland wurde neutral', 'Italien eroberte Athen sofort']],
               ['Gegen wen verlor Italien in Nordafrika Zehntausende Soldaten?', 'Gegen die Briten', ['Gegen die Franzosen', 'Gegen Ägypten', 'Gegen die Amerikaner']],
               ['Wann ging Ostafrika verloren?', '1941', ['1936', '1943', '1945']],
               ['Wann war die Niederlage bei El Alamein?', 'November 1942', ['Juli 1943', 'Oktober 1940', 'Juni 1941']],
