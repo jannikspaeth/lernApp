@@ -428,7 +428,7 @@ export const E3: Epoch = {
               ['Wie viele Jahre regierte Ludwig XIV. selbst nach Mazarins Tod?', 'Rund 54 Jahre', ['Rund 5 Jahre', 'Rund 72 Jahre', 'Rund 20 Jahre']],
               ['Wann begann Ludwigs Herrschaft offiziell?', '1643', ['1661', '1638', '1648']],
               ['Was unterscheidet Ludwigs Regierungsdauer von allen anderen?', 'Sie ist die längste eines europäischen Königs', ['Sie ist die kürzeste', 'Sie fiel ins Mittelalter', 'Sie war unterbrochen']],
-              ['Welche Handelskompanie gründete Colbert 1664?', 'Die Ostindische', ['Die Hanse', 'Die Hudson’s Bay Company', 'Die Hanse']],
+              ['Welche Handelskompanie gründete Colbert 1664?', 'Die Ostindische', ['Die Hanse', 'Die Hudson’s Bay Company', 'Die Medici-Bank']],
               ['Was ist Vaux-le-Vicomte?', 'Fouquets prächtiges Schloss', ['Ein Kloster', 'Ein Palast der Medici', 'Eine Festung Vaubans']],
               ['Welcher Komponist kam aus Italien an Ludwigs Hof?', 'Lully', ['Rameau', 'Couperin', 'Charpentier']],
               ['Was bedeutet „Lever“?', 'Das Aufstehen', ['Das Zubettgehen', 'Das Essen', 'Das Beten']],
