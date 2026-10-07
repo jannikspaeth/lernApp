@@ -59,7 +59,7 @@ export const E1: Epoch = {
               ['Was kam außer der Schrift aus Byzanz?', 'Kuppelkirchen und Ikonenmalerei', ['Gotische Kathedralen', 'Moscheen', 'Pagoden']],
               ['Wann regierte Jaroslaw der Weise?', '1019–1054', ['862–879', '1462–1505', '980–1015']],
               ['Mit welchen Königen verheiratete Jaroslaw seine Töchter?', 'Frankreich, Ungarn, Norwegen', ['Spanien und Portugal', 'England und Schottland', 'Der Mongolei']],
-              ['Was konnte die Wetsche?', 'Beamte wählen und Fürsten absetzen', ['Den Papst wählen allein', 'Den Papst wählen', 'Nichts']],
+              ['Was konnte die Wetsche?', 'Beamte wählen und Fürsten absetzen', ['Kaiser in Byzanz krönen', 'Den Papst wählen', 'Nichts']],
               ['Wie viele Birkenrindenbriefe fand man?', 'Über 1000', ['Rund 10', 'Rund 100', 'Über 100.000']],
               ['Was beweisen die Birkenrindenbriefe?', 'Viele konnten lesen und schreiben', ['Niemand konnte lesen', 'Nur Mönche schrieben', 'Die Briefe sind gefälscht']],
               ['Wer schrieb Birkenrindenbriefe?', 'Auch einfache Leute und Kinder', ['Nur Fürsten', 'Nur Priester', 'Nur Waräger']],
