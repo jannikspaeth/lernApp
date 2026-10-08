@@ -1,6 +1,6 @@
 import type { CountryHistory } from './types';
 
-export const UA: CountryHistory = {
+export const UA_ALT: CountryHistory = {
   code: 'UA',
   epochs: [
     {
