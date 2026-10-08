@@ -1,6 +1,6 @@
 import type { CountryHistory } from './types';
 
-export const SE: CountryHistory = {
+export const SE_ALT: CountryHistory = {
   code: 'SE',
   epochs: [
     {
