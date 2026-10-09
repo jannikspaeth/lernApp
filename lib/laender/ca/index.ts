@@ -1,16 +1,11 @@
 import type { CountryHistory } from '../types';
-import { CA_ALT } from '../ca-alt';
 import { E1 } from './e1-kolonie';
 import { E2 } from './e2-expansion';
+import { E3 } from './e3-jh20';
+import { E4 } from './e4-heute';
 
-// Canada in full depth (epochs → topics → subtopics, 20 questions per level).
-// Epochs not yet rewritten still come from the short version in ca-alt.ts.
-const ORDER = ['kolonie', 'expansion', 'jh20', 'heute'];
-const rewritten = [E1, E2];
-const done = new Set(rewritten.map(e => e.id));
-const epochs = [...rewritten, ...CA_ALT.epochs.filter(e => !done.has(e.id))];
-
+// Canada in full depth: epochs → topics → subtopics with 20 questions per level.
 export const CA: CountryHistory = {
   code: 'CA',
-  epochs: epochs.sort((a, b) => ORDER.indexOf(a.id) - ORDER.indexOf(b.id)),
+  epochs: [E1, E2, E3, E4],
 };
