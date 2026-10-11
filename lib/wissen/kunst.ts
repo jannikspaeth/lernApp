@@ -7,7 +7,7 @@ export const kunst: Subject = {
   name: ['Art', 'Kunst'],
   icon: '🎨',
   blurb: ['Painters, masterpieces and architecture', 'Maler, Meisterwerke und Architektur'],
-  color: { bg: 'bg-rose-50', text: 'text-rose-800', bar: 'bg-rose-500', border: 'border-rose-200' },
+  color: { bg: 'bg-rose-50 dark:bg-rose-950/50', text: 'text-rose-800 dark:text-rose-300', bar: 'bg-rose-500', border: 'border-rose-200 dark:border-rose-900' },
   topics: [
     topic(S, 'renaissance', ['Renaissance', 'Renaissance'], '🖼️', [
       ['Wer malte die „Mona Lisa“?', 'Leonardo da Vinci', ['Raffael', 'Michelangelo', 'Sandro Botticelli'], 'Heute im Louvre in Paris.'],

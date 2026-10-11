@@ -44,7 +44,7 @@ export const geografie: Subject = {
   name: ['Geography', 'Geografie'],
   icon: '🗺️',
   blurb: ['Flags, capitals, the world map and more', 'Flaggen, Hauptstädte, Weltkarte und mehr'],
-  color: { bg: 'bg-emerald-50', text: 'text-emerald-800', bar: 'bg-emerald-500', border: 'border-emerald-200' },
+  color: { bg: 'bg-emerald-50 dark:bg-emerald-950/50', text: 'text-emerald-800 dark:text-emerald-300', bar: 'bg-emerald-500', border: 'border-emerald-200 dark:border-emerald-900' },
   links: [
     { href: '/karte', icon: '🗺️', name: ['World map quiz', 'Weltkarten-Quiz'], blurb: ['Find or type in every country', 'Alle Länder finden oder eintippen'] },
   ],

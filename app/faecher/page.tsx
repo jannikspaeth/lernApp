@@ -67,12 +67,12 @@ export default function FaecherPage() {
 
         <Link
           href="/wissen/mix"
-          className="flex items-center gap-4 p-4 rounded-2xl bg-ink hover:bg-ink/85 text-white transition-colors"
+          className="flex items-center gap-4 p-4 rounded-2xl bg-ink hover:bg-ink/85 text-canvas transition-colors"
         >
           <Icon name="shuffle" size={22} />
           <span className="flex-1 min-w-0">
             <span className="block font-semibold">{t('Mixed round', 'Gemischte Runde')}</span>
-            <span className="block text-[13px] text-white/70">
+            <span className="block text-[13px] text-canvas/70">
               {mix && mix.due > 0
                 ? t(`${mix.due} questions due — from every subject`, `${mix.due} Fragen fällig – aus allen Fächern`)
                 : t('10 questions from every subject', '10 Fragen quer durch alle Fächer')}

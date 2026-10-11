@@ -7,7 +7,7 @@ export const literatur: Subject = {
   name: ['Literature', 'Literatur'],
   icon: '📚',
   blurb: ['Authors, works, epochs and characters', 'Autoren, Werke, Epochen und Figuren'],
-  color: { bg: 'bg-sky-50', text: 'text-sky-800', bar: 'bg-sky-500', border: 'border-sky-200' },
+  color: { bg: 'bg-sky-50 dark:bg-sky-950/50', text: 'text-sky-800 dark:text-sky-300', bar: 'bg-sky-500', border: 'border-sky-200 dark:border-sky-900' },
   topics: [
     topic(S, 'deutsch', ['German classics', 'Deutsche Klassiker'], '🖋️', [
       ['Wer schrieb „Faust“?', 'Johann Wolfgang von Goethe'],

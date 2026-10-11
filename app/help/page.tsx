@@ -2,6 +2,9 @@
 
 import type { ReactNode } from 'react';
 import { useUiLang } from '@/lib/ui-lang';
+import {
+  BookMarked, BookOpen, FolderOpen, Globe, Newspaper, Smartphone, SpellCheck, Sun, User, Volume2, type LucideIcon,
+} from 'lucide-react';
 
 // Rich text in both interface languages.
 function Tx({ en, de }: { en: ReactNode; de: ReactNode }) {
@@ -9,11 +12,19 @@ function Tx({ en, de }: { en: ReactNode; de: ReactNode }) {
   return <>{lang === 'de' ? de : en}</>;
 }
 
+// Section icons (the call sites still name them by their old emoji).
+const SECTION_ICONS: Record<string, LucideIcon> = {
+  '📲': Smartphone, '☀️': Sun, '🔊': Volume2, '📰': Newspaper, '📖': BookOpen, '🗂': FolderOpen,
+  '🔤': SpellCheck, '📘': BookMarked, '👤': User, '🌍': Globe,
+};
+
 function Section({ icon, title, children }: { icon: string; title: ReactNode; children: ReactNode }) {
+  const Icon = SECTION_ICONS[icon] ?? BookOpen;
   return (
-    <section className="bg-surface rounded-2xl border border-line shadow-sm p-5 space-y-3">
-      <h2 className="font-bold text-ink text-base flex items-center gap-2">
-        <span>{icon}</span> {title}
+    <section className="bg-surface rounded-2xl border border-line p-5 space-y-3">
+      <h2 className="font-semibold text-ink text-base flex items-center gap-2.5">
+        <span className="w-8 h-8 rounded-lg bg-accent-soft text-accent flex items-center justify-center"><Icon className="w-[18px] h-[18px]" /></span>
+        {title}
       </h2>
       {children}
     </section>
@@ -26,12 +37,12 @@ const P = ({ children }: { children: ReactNode }) => (
 
 const PHASES = [
   { label: 'Phase 1', color: 'bg-bad-soft text-bad', en: 'New — review again tomorrow', de: 'Neu – morgen wiederholen' },
-  { label: 'Phase 2', color: 'bg-orange-100 text-orange-700', en: 'Review in 3 days', de: 'Wiederholung in 3 Tagen' },
+  { label: 'Phase 2', color: 'bg-warn-soft text-warn', en: 'Review in 3 days', de: 'Wiederholung in 3 Tagen' },
   { label: 'Phase 3', color: 'bg-warn-soft text-warn', en: 'Review in 7 days', de: 'Wiederholung in 7 Tagen' },
-  { label: 'Phase 4', color: 'bg-blue-100 text-blue-700', en: 'Review in 14 days', de: 'Wiederholung in 14 Tagen' },
-  { label: 'Phase 5', color: 'bg-indigo-100 text-indigo-700', en: 'Review in 30 days', de: 'Wiederholung in 30 Tagen' },
-  { label: 'Phase 6', color: 'bg-violet-100 text-violet-700', en: 'Review in 60 days', de: 'Wiederholung in 60 Tagen' },
-  { label: 'Phase 7', color: 'bg-purple-100 text-purple-700', en: 'Review in 90 days', de: 'Wiederholung in 90 Tagen' },
+  { label: 'Phase 4', color: 'bg-accent-soft text-accent', en: 'Review in 14 days', de: 'Wiederholung in 14 Tagen' },
+  { label: 'Phase 5', color: 'bg-accent-soft text-accent', en: 'Review in 30 days', de: 'Wiederholung in 30 Tagen' },
+  { label: 'Phase 6', color: 'bg-good-soft text-good', en: 'Review in 60 days', de: 'Wiederholung in 60 Tagen' },
+  { label: 'Phase 7', color: 'bg-good-soft text-good', en: 'Review in 90 days', de: 'Wiederholung in 90 Tagen' },
 ];
 
 export default function HelpPage() {
@@ -40,9 +51,9 @@ export default function HelpPage() {
 
   return (
     <main className="md:ml-56 min-h-screen bg-canvas pb-24 md:pb-8">
-      <div className="max-w-xl mx-auto p-5 space-y-6">
+      <div className="max-w-2xl mx-auto px-5 pt-6 md:pt-10 space-y-5">
         <div>
-          <h1 className="text-3xl text-ink">{de ? 'So funktioniert’s' : 'How it works'}</h1>
+          <h1 className="text-[28px] md:text-3xl font-bold tracking-tight text-ink">{de ? 'So funktioniert’s' : 'How it works'}</h1>
           <p className="text-muted text-sm mt-0.5">{de ? 'Eine kurze Anleitung zur App' : 'A quick guide to the app'}</p>
         </div>
 
@@ -93,14 +104,14 @@ export default function HelpPage() {
         <Section icon="🔊" title={<Tx en="Listening" de="Hören" />}>
           <P>
             <Tx
-              en={<>Tap 🔊 next to a word, sentence, verb table or grammar example to hear it (🐢 = slowly). The voice comes from your device – if it sounds odd, install a better Italian/Spanish/French voice in your phone&apos;s or computer&apos;s speech settings. On the Vocabulary page you can switch on <strong>Read words aloud automatically</strong>.</>}
-              de={<>Tippe auf 🔊 neben einem Wort, Satz, einer Verbtabelle oder einem Grammatikbeispiel, um es zu hören (🐢 = langsam). Die Stimme kommt von deinem Gerät – klingt sie seltsam, installiere in den Sprach-Einstellungen deines Handys oder Computers eine bessere italienische/spanische/französische Stimme. Auf der Vokabel-Seite kannst du <strong>Wörter automatisch vorlesen</strong> einschalten.</>}
+              en={<>Tap the speaker icon next to a word, sentence, verb table or grammar example to hear it (the turtle = slowly). The voice comes from your device – if it sounds odd, install a better Italian/Spanish/French voice in your phone&apos;s or computer&apos;s speech settings. On the Vocabulary page you can switch on <strong>Read words aloud automatically</strong>.</>}
+              de={<>Tippe auf das Lautsprecher-Symbol neben einem Wort, Satz, einer Verbtabelle oder einem Grammatikbeispiel, um es zu hören (die Schildkröte = langsam). Die Stimme kommt von deinem Gerät – klingt sie seltsam, installiere in den Sprach-Einstellungen deines Handys oder Computers eine bessere italienische/spanische/französische Stimme. Auf der Vokabel-Seite kannst du <strong>Wörter automatisch vorlesen</strong> einschalten.</>}
             />
           </P>
           <P>
             <Tx
-              en={<><strong>Dictation</strong> (Sentences → 🎧): listen to a sentence and write it down. You get feedback word by word; accents and punctuation don&apos;t count as mistakes.</>}
-              de={<><strong>Diktat</strong> (Sätze → 🎧): Hör dir einen Satz an und schreib ihn auf. Du bekommst Rückmeldung Wort für Wort; Akzente und Satzzeichen zählen nicht als Fehler.</>}
+              en={<><strong>Dictation</strong> (Sentences → Dictation): listen to a sentence and write it down. You get feedback word by word; accents and punctuation don&apos;t count as mistakes.</>}
+              de={<><strong>Diktat</strong> (Sätze → Diktat): Hör dir einen Satz an und schreib ihn auf. Du bekommst Rückmeldung Wort für Wort; Akzente und Satzzeichen zählen nicht als Fehler.</>}
             />
           </P>
         </Section>
@@ -237,8 +248,8 @@ export default function HelpPage() {
           </P>
           <P>
             <Tx
-              en={<>The app&apos;s own texts can be shown in <strong>English or German</strong> – switch with 🇬🇧 / 🇩🇪 in the sidebar, under ☰ More or on the profile and language pages. The choice is saved per device.</>}
-              de={<>Die Texte der App gibt es auf <strong>Englisch oder Deutsch</strong> – umschalten mit 🇬🇧 / 🇩🇪 in der Seitenleiste, unter ☰ Mehr oder auf der Profil- und Sprachauswahl. Die Wahl gilt pro Gerät.</>}
+              en={<>The app&apos;s own texts can be shown in <strong>English or German</strong> – switch with English / Deutsch in the sidebar or on the profile page. The choice is saved per device.</>}
+              de={<>Die Texte der App gibt es auf <strong>Englisch oder Deutsch</strong> – umschalten mit Deutsch / English in der Seitenleiste oder auf der Profilseite. Die Wahl gilt pro Gerät.</>}
             />
           </P>
         </Section>

@@ -3,6 +3,7 @@ import { Geist } from 'next/font/google';
 import './globals.css';
 import Navigation from '@/components/Navigation';
 import OfflineSupport from '@/components/OfflineSupport';
+import { THEME_SCRIPT } from '@/lib/theme';
 
 const geist = Geist({ subsets: ['latin'], variable: '--font-geist' });
 
@@ -14,13 +15,20 @@ export const metadata: Metadata = {
 };
 
 export const viewport: Viewport = {
-  themeColor: '#FAFAFA',
+  themeColor: [
+    { media: '(prefers-color-scheme: light)', color: '#FAFAFA' },
+    { media: '(prefers-color-scheme: dark)', color: '#0C0C0E' },
+  ],
   viewportFit: 'cover', // lets env(safe-area-inset-*) report the notch / home bar
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="de" className={`h-full ${geist.variable}`}>
+    <html lang="de" className={`h-full ${geist.variable}`} suppressHydrationWarning>
+      <head>
+        {/* Theme before first paint (no flash of the wrong colours). */}
+        <script dangerouslySetInnerHTML={{ __html: THEME_SCRIPT }} />
+      </head>
       <body className="min-h-full">
         <Navigation />
         <OfflineSupport />

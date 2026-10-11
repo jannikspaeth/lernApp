@@ -1,5 +1,17 @@
 @import "tailwindcss";
 
+/* `dark:` follows the theme: the system setting unless the user picked one (html[data-theme]). */
+@custom-variant dark {
+  &:where([data-theme="dark"], [data-theme="dark"] *) {
+    @slot;
+  }
+  @media (prefers-color-scheme: dark) {
+    &:where(:root:not([data-theme="light"]), :root:not([data-theme="light"]) *) {
+      @slot;
+    }
+  }
+}
+
 /* Design tokens (direction B, "Modern Clean"): neutral greys, one blue accent. */
 @theme {
   --font-sans: var(--font-geist), system-ui, -apple-system, sans-serif;
@@ -28,6 +40,67 @@
 :root {
   --background: var(--color-canvas);
   --foreground: var(--color-ink);
+  --map-water: #EAF2FB;
+  --map-land: #D4D6DC;
+  --map-inactive: #ECEDF0;
+  --map-border: #FFFFFF;
+  --map-dot: #8B8B95;
+  --chart-grid: #E7E7EA;
+  color-scheme: light;
+}
+
+/* Dark theme: same token names, other values. */
+:root[data-theme="dark"] {
+  --color-canvas: #0C0C0E;
+  --color-surface: #16161A;
+  --color-line: #2A2A31;
+  --color-line-soft: #202026;
+  --color-ink: #F1F1F3;
+  --color-muted: #A3A3AD;
+  --color-faint: #73737D;
+  --color-accent: #4A68E8;
+  --color-accent-strong: #3D5AD6;
+  --color-accent-soft: #1B2240;
+  --color-good: #1F8F64;
+  --color-good-soft: #10291F;
+  --color-bad: #D9453B;
+  --color-bad-soft: #2E1716;
+  --color-warn: #F5B93D;
+  --color-warn-soft: #2A2011;
+  --map-water: #101826;
+  --map-land: #3A3A43;
+  --map-inactive: #24242A;
+  --map-border: #0C0C0E;
+  --map-dot: #73737D;
+  --chart-grid: #2A2A31;
+  color-scheme: dark;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --color-canvas: #0C0C0E;
+    --color-surface: #16161A;
+    --color-line: #2A2A31;
+    --color-line-soft: #202026;
+    --color-ink: #F1F1F3;
+    --color-muted: #A3A3AD;
+    --color-faint: #73737D;
+    --color-accent: #4A68E8;
+    --color-accent-strong: #3D5AD6;
+    --color-accent-soft: #1B2240;
+    --color-good: #1F8F64;
+    --color-good-soft: #10291F;
+    --color-bad: #D9453B;
+    --color-bad-soft: #2E1716;
+    --color-warn: #F5B93D;
+    --color-warn-soft: #2A2011;
+    --map-water: #101826;
+    --map-land: #3A3A43;
+    --map-inactive: #24242A;
+    --map-border: #0C0C0E;
+    --map-dot: #73737D;
+    --chart-grid: #2A2A31;
+    color-scheme: dark;
+  }
 }
 
 body {
@@ -68,6 +141,20 @@ h1,
 .font-display {
   font-weight: 700;
   letter-spacing: -0.02em;
+}
+
+/* Dark theme: coloured fills stay deep enough for white text, coloured text gets lighter. */
+:root[data-theme="dark"] {
+  :is(.text-accent, .text-accent-strong, .hover\:text-accent:hover, .hover\:text-accent-strong:hover) { color: #8DA5FF; }
+  :is(.text-good) { color: #4ADE9F; }
+  :is(.text-bad, .hover\:text-bad:hover) { color: #FF8F86; }
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    :is(.text-accent, .text-accent-strong, .hover\:text-accent:hover, .hover\:text-accent-strong:hover) { color: #8DA5FF; }
+    :is(.text-good) { color: #4ADE9F; }
+    :is(.text-bad, .hover\:text-bad:hover) { color: #FF8F86; }
+  }
 }
 
 /* Mobile pages leave room for the bottom bar — plus the home indicator. */

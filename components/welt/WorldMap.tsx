@@ -103,12 +103,12 @@ export function useMapShapes(region: RegionId): { shapes: MapShape[] | null; err
 export type Fill = 'idle' | 'inactive' | 'found' | 'wrong' | 'reveal' | 'missed';
 
 const FILL: Record<Fill, string> = {
-  idle: '#cbd5e1',
-  inactive: '#e5e7eb',
-  found: '#22c55e',
-  wrong: '#f87171',
-  reveal: '#f59e0b',
-  missed: '#ef4444',
+  idle: 'var(--map-land)',
+  inactive: 'var(--map-inactive)',
+  found: 'var(--color-good)',
+  wrong: 'var(--color-bad)',
+  reveal: 'var(--color-warn)',
+  missed: 'var(--color-bad)',
 };
 
 // Pan (drag), zoom (wheel, pinch, buttons) around a pointer position.
@@ -200,10 +200,10 @@ export function WorldMap({
     onPick(code);
   }
 
-  const btn = 'w-9 h-9 rounded-lg bg-surface/90 border border-line text-lg font-semibold text-ink hover:bg-white';
+  const btn = 'w-9 h-9 rounded-lg bg-surface/90 border border-line text-lg font-semibold text-ink hover:bg-surface';
 
   return (
-    <div className="relative rounded-2xl overflow-hidden border border-line bg-sky-50">
+    <div className="relative rounded-2xl overflow-hidden border border-line bg-[var(--map-water)]">
       <svg
         ref={svgRef}
         viewBox={`0 0 ${W} ${H}`}
@@ -221,7 +221,7 @@ export function WorldMap({
             const clickable = !!s.code && fillOf(s.code) !== 'inactive' && !!onPick;
             const common = {
               fill,
-              stroke: '#ffffff',
+              stroke: 'var(--map-border)',
               strokeWidth: 0.6,
               vectorEffect: 'non-scaling-stroke' as const,
               onClick: () => pick(s.code),
@@ -231,7 +231,7 @@ export function WorldMap({
               <g key={i}>
                 <path d={s.d} {...common}>{title && <title>{title}</title>}</path>
                 {s.small && fillOf(s.code) !== 'inactive' && (
-                  <circle cx={s.cx} cy={s.cy} r={5 / Math.sqrt(view.k)} {...common} stroke="#64748b">
+                  <circle cx={s.cx} cy={s.cy} r={5 / Math.sqrt(view.k)} {...common} stroke="var(--map-dot)">
                     {title && <title>{title}</title>}
                   </circle>
                 )}

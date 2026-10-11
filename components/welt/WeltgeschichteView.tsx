@@ -55,7 +55,7 @@ export default function WeltgeschichteView({ intro, detailed }: { intro: React.R
             <button
               key={id}
               onClick={() => setTab(id)}
-              className={`flex-1 h-9 rounded-lg font-semibold transition-colors ${tab === id ? 'bg-ink text-white' : 'text-muted hover:text-ink'}`}
+              className={`flex-1 h-9 rounded-lg font-semibold transition-colors ${tab === id ? 'bg-ink text-canvas' : 'text-muted hover:text-ink'}`}
             >
               {name}
             </button>
@@ -71,7 +71,7 @@ export default function WeltgeschichteView({ intro, detailed }: { intro: React.R
                   key={id}
                   onClick={() => setRegion(id)}
                   className={`px-3 h-8 rounded-full text-[13px] font-medium border transition-colors ${
-                    region === id ? 'bg-ink border-ink text-white' : 'bg-surface border-line text-muted hover:text-ink'
+                    region === id ? 'bg-ink border-ink text-canvas' : 'bg-surface border-line text-muted hover:text-ink'
                   }`}
                 >
                   {name}

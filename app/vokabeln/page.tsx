@@ -826,7 +826,7 @@ export default function VokabelnPage() {
             <p className="text-xs text-muted mt-0.5">{t('Due today', 'Heute fällig')}</p>
           </div>
           <div className="bg-surface rounded-xl p-3 border border-line shadow-sm text-center">
-            <p className="text-xl font-bold text-blue-500">{upcoming.length}</p>
+            <p className="text-xl font-bold text-accent">{upcoming.length}</p>
             <p className="text-xs text-muted mt-0.5">{t('Coming up', 'Demnächst')}</p>
           </div>
         </div>

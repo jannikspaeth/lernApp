@@ -7,7 +7,7 @@ export const wissenschaft: Subject = {
   name: ['Science', 'Wissenschaft'],
   icon: '🔬',
   blurb: ['Space, elements, the body, animals, inventions', 'Weltall, Elemente, Körper, Tiere, Erfindungen'],
-  color: { bg: 'bg-violet-50', text: 'text-violet-800', bar: 'bg-violet-500', border: 'border-violet-200' },
+  color: { bg: 'bg-violet-50 dark:bg-violet-950/50', text: 'text-violet-800 dark:text-violet-300', bar: 'bg-violet-500', border: 'border-violet-200 dark:border-violet-900' },
   topics: [
     topic(S, 'weltall', ['Space', 'Weltall'], '🪐', [
       ['Welcher Planet ist der Sonne am nächsten?', 'Merkur', ['Venus', 'Mars', 'Erde']],

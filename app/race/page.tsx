@@ -11,10 +11,10 @@ import { Crown, Flame, Flag, TrendingUp, Medal, Clock, Star } from 'lucide-react
 
 const REFRESH_MS = 20000;
 
-// One colour per racer (by sorted index), warm and told apart by lightness too:
-// terracotta, slate blue, olive, ochre, plum. Used for the token on the track
-// and the matching line in the progress chart.
-const LINE_COLORS = ['#A63F24', '#3E6A8A', '#5A6B2F', '#B7791F', '#7B4B6B'];
+// One colour per racer (by sorted index), mid-tones that read on light and dark:
+// blue, orange, green, violet, pink. Used for the token on the track and the
+// matching line in the progress chart.
+const LINE_COLORS = ['#3B6BF5', '#E8710A', '#12A16B', '#8B5CF6', '#D9467A'];
 
 function fmtPoints(n: number): string {
   return Number.isInteger(n) ? String(n) : n.toFixed(1);
@@ -90,8 +90,8 @@ function ProgressOverTime({
             {/* y baseline + top gridline with labels */}
             {[0, yMax].map((v, k) => (
               <g key={k}>
-                <line x1={PL} x2={W - PR} y1={y(v)} y2={y(v)} stroke="#E8DDCC" strokeWidth={1} />
-                <text x={PL - 4} y={y(v) + 3} textAnchor="end" fontSize={8} fill="#94a3b8">
+                <line x1={PL} x2={W - PR} y1={y(v)} y2={y(v)} stroke="var(--chart-grid)" strokeWidth={1} />
+                <text x={PL - 4} y={y(v) + 3} textAnchor="end" fontSize={8} fill="var(--color-faint)">
                   {Math.round(v)}
                 </text>
               </g>
@@ -128,7 +128,7 @@ function ProgressOverTime({
                 y={H - 6}
                 textAnchor={i === 0 ? 'start' : i === n - 1 ? 'end' : 'middle'}
                 fontSize={8}
-                fill="#94a3b8"
+                fill="var(--color-faint)"
               >
                 {fmtDate(dates[i], loc)}
               </text>

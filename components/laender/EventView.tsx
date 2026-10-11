@@ -86,7 +86,7 @@ export default function EventView({
             role="tab"
             aria-selected={tab === id}
             onClick={() => setTab(id)}
-            className={`flex-1 h-9 rounded-lg font-semibold transition-colors ${tab === id ? 'bg-ink text-white' : 'text-muted hover:text-ink'}`}
+            className={`flex-1 h-9 rounded-lg font-semibold transition-colors ${tab === id ? 'bg-ink text-canvas' : 'text-muted hover:text-ink'}`}
           >
             {name}
           </button>
@@ -193,7 +193,7 @@ export default function EventView({
               </button>
             )}
             {next && (
-              <Link href={next.href} className="h-11 px-4 inline-flex items-center gap-1.5 bg-ink hover:bg-ink/85 text-white rounded-xl text-sm font-semibold">
+              <Link href={next.href} className="h-11 px-4 inline-flex items-center gap-1.5 bg-ink hover:bg-ink/85 text-canvas rounded-xl text-sm font-semibold">
                 <span className="max-w-[14rem] truncate">{next.title}</span> <Icon name="arrowRight" size={16} />
               </Link>
             )}

@@ -10,6 +10,7 @@ import { formatStars } from '@/lib/race';
 import { deleteProfile, logout } from '@/lib/storage';
 import { useT } from '@/lib/ui-lang';
 import UiLangToggle from '@/components/UiLangToggle';
+import ThemeToggle from '@/components/ThemeToggle';
 import { ChevronRight, Globe, LogOut } from 'lucide-react';
 import { ACCOUNT } from '@/lib/sections';
 
@@ -79,6 +80,11 @@ export default function AccountPage() {
         <section className="space-y-2">
           <p className="px-1 text-xs font-semibold uppercase tracking-wider text-muted">{t('App language', 'App-Sprache')}</p>
           <UiLangToggle />
+        </section>
+
+        <section className="space-y-2">
+          <p className="px-1 text-xs font-semibold uppercase tracking-wider text-muted">{t('Appearance', 'Darstellung')}</p>
+          <ThemeToggle />
         </section>
 
         <button

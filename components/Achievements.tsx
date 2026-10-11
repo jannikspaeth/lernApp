@@ -15,11 +15,11 @@ function BadgeTile({ b, isNew }: { b: Badge; isNew: boolean }) {
   return (
     <div
       className={`relative rounded-xl border p-3 ${
-        b.unlocked ? 'border-amber-200 bg-amber-50' : 'border-line bg-canvas'
+        b.unlocked ? 'border-warn/30 bg-warn-soft' : 'border-line bg-canvas'
       }`}
     >
       {isNew && (
-        <span className="absolute -top-1.5 -right-1.5 text-[9px] font-bold bg-red-600 text-white px-1.5 py-0.5 rounded-full">
+        <span className="absolute -top-1.5 -right-1.5 text-[9px] font-bold bg-accent text-white px-1.5 py-0.5 rounded-full">
           {uiLang === 'de' ? 'NEU' : 'NEW'}
         </span>
       )}
@@ -34,8 +34,8 @@ function BadgeTile({ b, isNew }: { b: Badge; isNew: boolean }) {
       </div>
       {!b.unlocked && b.progress && b.progress.need > 1 && (
         <div className="mt-2 flex items-center gap-1.5">
-          <div className="flex-1 h-1 bg-gray-200 rounded-full overflow-hidden">
-            <div className="h-full bg-amber-400 rounded-full" style={{ width: `${pct}%` }} />
+          <div className="flex-1 h-1 bg-line rounded-full overflow-hidden">
+            <div className="h-full bg-warn rounded-full" style={{ width: `${pct}%` }} />
           </div>
           <span className="text-[9px] text-muted tabular-nums">
             {b.progress.have}/{b.progress.need}

@@ -18,7 +18,7 @@ export const MIX: Subject = {
   name: ['Mixed', 'Gemischt'],
   icon: '🎲',
   blurb: ['Questions from every subject', 'Fragen aus allen Fächern'],
-  color: { bg: 'bg-gray-100', text: 'text-gray-800', bar: 'bg-gray-700', border: 'border-gray-200' },
+  color: { bg: 'bg-line-soft', text: 'text-ink', bar: 'bg-ink', border: 'border-line' },
   topics: SUBJECTS.flatMap(s => s.topics.map(t => ({ ...t, group: s.name }))),
 };
 

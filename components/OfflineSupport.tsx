@@ -87,11 +87,11 @@ export default function OfflineSupport() {
     <div className="fixed top-[calc(0.5rem+env(safe-area-inset-top))] left-1/2 -translate-x-1/2 md:ml-28 z-[60] pointer-events-none">
       <div
         className={`px-3 py-1.5 rounded-full text-xs font-semibold shadow-md whitespace-nowrap ${
-          online ? 'bg-blue-600 text-white' : 'bg-ink text-white'
+          online ? 'bg-accent text-white' : 'bg-ink text-canvas'
         }`}
       >
         {online
-          ? t(`⏳ Syncing ${pending} answer${pending === 1 ? '' : 's'}…`, `⏳ Übertrage ${pending} Antwort${pending === 1 ? '' : 'en'} …`)
+          ? t(`Syncing ${pending} answer${pending === 1 ? '' : 's'}…`, `Übertrage ${pending} Antwort${pending === 1 ? '' : 'en'} …`)
           : pending > 0
             ? t(`Offline · ${pending} answer${pending === 1 ? '' : 's'} to sync`, `Offline · ${pending} Antwort${pending === 1 ? '' : 'en'} ausstehend`)
             : t('Offline · progress syncs later', 'Offline · Fortschritt wird später übertragen')}

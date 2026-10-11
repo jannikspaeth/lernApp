@@ -123,6 +123,13 @@ Flow: `/login` → `/` (subjects) → Sprachen: `/heute` (→ `/sprache` for lan
 - Tokens in `app/globals.css` (`@theme`): `canvas`, `surface`, `line`, `line-soft`, `ink`, `muted`, `faint`,
   `accent` (+ `-strong`, `-soft`), `good`/`bad`/`warn` (+ `-soft`). Use them (`bg-surface`, `text-muted`, …) instead
   of raw Tailwind greys/brand colours. Font: Geist via `next/font` (`--font-geist`).
+- **Dark mode**: the same tokens get dark values in `globals.css` (`:root[data-theme="dark"]` and the
+  `prefers-color-scheme` media query when no choice is stored). Per-device choice System/Hell/Dunkel in
+  `lib/theme.ts` (`useTheme`, localStorage `lernapp_theme`), set before first paint by `THEME_SCRIPT` in
+  `app/layout.tsx`; toggle `components/ThemeToggle.tsx` (sidebar + profile). `dark:` variants follow the same rule
+  (`@custom-variant dark`). Never use raw palette colours (`bg-white`, `text-gray-*`, `#hex`) — they don't switch;
+  on `bg-ink` use `text-canvas`, on `bg-accent`/`bg-good`/`bg-bad` use `text-white`. Map and chart colours are
+  CSS variables (`--map-*`, `--chart-grid`).
 - Icons: `components/Icon.tsx` (line icons, `<Icon name="globe" />`, `SUBJECT_ICONS` per subject) and `lucide-react`
   (used by the language pages) — no emojis as UI icons.
 - Pages: `max-w-2xl mx-auto px-5 pt-6 md:pt-10`, title `text-[28px] md:text-3xl font-bold tracking-tight`,

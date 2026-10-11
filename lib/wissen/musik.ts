@@ -7,7 +7,7 @@ export const musik: Subject = {
   name: ['Music', 'Musik'],
   icon: '🎵',
   blurb: ['Composers, opera, instruments, pop & rock', 'Komponisten, Oper, Instrumente, Pop & Rock'],
-  color: { bg: 'bg-fuchsia-50', text: 'text-fuchsia-800', bar: 'bg-fuchsia-500', border: 'border-fuchsia-200' },
+  color: { bg: 'bg-fuchsia-50 dark:bg-fuchsia-950/50', text: 'text-fuchsia-800 dark:text-fuchsia-300', bar: 'bg-fuchsia-500', border: 'border-fuchsia-200 dark:border-fuchsia-900' },
   topics: [
     topic(S, 'klassik', ['Classical music', 'Klassik'], '🎻', [
       ['Wer komponierte „Die Zauberflöte“?', 'Wolfgang Amadeus Mozart', ['Ludwig van Beethoven', 'Joseph Haydn', 'Richard Wagner']],

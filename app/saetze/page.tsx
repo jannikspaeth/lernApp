@@ -294,7 +294,7 @@ export default function SaetzePage() {
             <p className="text-xs text-muted mt-0.5">{t('Due', 'Fällig')}</p>
           </div>
           <div className="bg-surface rounded-xl p-3 border border-line shadow-sm text-center">
-            <p className="text-xl font-bold text-blue-500">{unseen.length}</p>
+            <p className="text-xl font-bold text-accent">{unseen.length}</p>
             <p className="text-xs text-muted mt-0.5">{t('New', 'Neu')}</p>
           </div>
         </div>

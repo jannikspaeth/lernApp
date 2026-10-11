@@ -7,7 +7,7 @@ export const politik: Subject = {
   name: ['Politics', 'Politik'],
   icon: '⚖️',
   blurb: ['Basic Law, state, EU and the UN', 'Grundgesetz, Staat, EU und Vereinte Nationen'],
-  color: { bg: 'bg-indigo-50', text: 'text-indigo-800', bar: 'bg-indigo-500', border: 'border-indigo-200' },
+  color: { bg: 'bg-indigo-50 dark:bg-indigo-950/50', text: 'text-indigo-800 dark:text-indigo-300', bar: 'bg-indigo-500', border: 'border-indigo-200 dark:border-indigo-900' },
   topics: [
     topic(S, 'staat', ['German state', 'Staat & Grundgesetz'], '🏛️', [
       ['Wie heißt die Verfassung der Bundesrepublik Deutschland?', 'Grundgesetz', ['Reichsverfassung', 'Bundesverfassung', 'Staatsvertrag']],

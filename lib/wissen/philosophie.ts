@@ -7,7 +7,7 @@ export const philosophie: Subject = {
   name: ['Philosophy & religion', 'Philosophie & Religion'],
   icon: '🦉',
   blurb: ['Thinkers, world religions, myths', 'Denker, Weltreligionen, Mythen'],
-  color: { bg: 'bg-teal-50', text: 'text-teal-800', bar: 'bg-teal-500', border: 'border-teal-200' },
+  color: { bg: 'bg-teal-50 dark:bg-teal-950/50', text: 'text-teal-800 dark:text-teal-300', bar: 'bg-teal-500', border: 'border-teal-200 dark:border-teal-900' },
   topics: [
     topic(S, 'denker', ['Philosophers', 'Philosophen'], '💭', [
       ['Wem wird der Satz „Ich weiß, dass ich nichts weiß“ zugeschrieben?', 'Sokrates', ['Platon', 'Aristoteles', 'Diogenes']],

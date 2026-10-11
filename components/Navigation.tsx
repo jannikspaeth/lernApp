@@ -8,6 +8,7 @@ import { formatStars } from '@/lib/race';
 import { langInfo } from '@/lib/lang';
 import { useT } from '@/lib/ui-lang';
 import UiLangToggle from '@/components/UiLangToggle';
+import ThemeToggle from '@/components/ThemeToggle';
 import Icon, { SUBJECT_ICONS, type IconName } from '@/components/Icon';
 import { SUBJECTS } from '@/lib/wissen';
 
@@ -74,7 +75,7 @@ export default function Navigation() {
       {/* ── Desktop sidebar ── */}
       <aside className="hidden md:flex flex-col fixed left-0 top-0 h-full w-56 bg-surface border-r border-line z-50">
         <Link href="/" className="flex items-center gap-2.5 px-5 h-16 border-b border-line">
-          <span className="w-8 h-8 rounded-lg bg-ink text-white flex items-center justify-center text-sm font-bold">L</span>
+          <span className="w-8 h-8 rounded-lg bg-ink text-canvas flex items-center justify-center text-sm font-bold">L</span>
           <span className="font-semibold text-ink tracking-tight">{t('Learning app', 'Lern-App')}</span>
         </Link>
         <nav className="flex-1 overflow-y-auto p-3 space-y-0.5" aria-label={t('Main navigation', 'Hauptnavigation')}>
@@ -136,6 +137,7 @@ export default function Navigation() {
             </Link>
           )}
           <UiLangToggle />
+          <ThemeToggle />
           <Link href="/help" className="flex items-center justify-center gap-1.5 text-xs text-muted hover:text-ink h-8">
             <Icon name="help" size={14} /> {t('Help', 'Hilfe')}
           </Link>
@@ -153,7 +155,7 @@ export default function Navigation() {
               <Link
                 href="/sprache"
                 className={`shrink-0 flex items-center gap-1.5 px-3 h-9 rounded-full border text-[13px] font-semibold ${
-                  path.startsWith('/sprache') ? 'bg-ink text-white border-ink' : 'bg-surface border-line text-ink'
+                  path.startsWith('/sprache') ? 'bg-ink text-canvas border-ink' : 'bg-surface border-line text-ink'
                 }`}
               >
                 {info?.flag && <span aria-hidden="true">{info.flag}</span>}
@@ -168,7 +170,7 @@ export default function Navigation() {
                   href={it.href}
                   aria-current={on ? 'page' : undefined}
                   className={`shrink-0 flex items-center gap-1.5 px-3 h-9 rounded-full border text-[13px] font-medium transition-colors ${
-                    on ? 'bg-ink text-white border-ink' : 'bg-surface border-line text-muted'
+                    on ? 'bg-ink text-canvas border-ink' : 'bg-surface border-line text-muted'
                   }`}
                 >
                   <Icon name={it.icon} size={15} />

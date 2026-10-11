@@ -115,7 +115,7 @@ export default function GrammarPage() {
 
         <div className="flex items-center gap-3 text-xs">
           {lesson && (
-            <button onClick={() => openLesson(lesson.id)} className="text-blue-600 hover:underline">
+            <button onClick={() => openLesson(lesson.id)} className="text-accent hover:underline">
               <BookMarked className="inline w-3.5 h-3.5 -mt-0.5" /> {t('Lesson', 'Lektion')}: {lesson.title}
             </button>
           )}

@@ -111,10 +111,10 @@ export default function QuizCard({
           <button
             onClick={() => onResult(correct)}
             autoFocus
-            className="w-full h-12 flex items-center justify-center gap-2 bg-ink hover:bg-ink/85 text-white rounded-xl font-semibold transition-colors"
+            className="w-full h-12 flex items-center justify-center gap-2 bg-ink hover:bg-ink/85 text-canvas rounded-xl font-semibold transition-colors"
           >
             {t('Next', 'Weiter')}
-            <span className="hidden sm:inline text-white/60 font-medium text-sm">↵</span>
+            <span className="hidden sm:inline text-canvas/60 font-medium text-sm">↵</span>
           </button>
         </>
       )}

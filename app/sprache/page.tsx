@@ -1,6 +1,6 @@
 'use client';
 
-import { Globe } from 'lucide-react';
+import { Globe, User } from 'lucide-react';
 import { useEffect, useState } from 'react';
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
@@ -90,7 +90,7 @@ export default function SprachePage() {
               <div
                 key={l.id}
                 className={`bg-surface border-2 rounded-2xl shadow-sm transition-colors ${
-                  open ? 'border-red-200' : current === l.id ? 'border-red-100' : 'border-line'
+                  open ? 'border-accent/50' : current === l.id ? 'border-accent/30' : 'border-line'
                 }`}
               >
                 <button
@@ -119,14 +119,14 @@ export default function SprachePage() {
                         onClick={() => chooseLevel(l.id, x.id)}
                         disabled={saving}
                         className={`w-full text-left rounded-xl border-2 p-3 transition-colors disabled:opacity-50 ${
-                          level === x.id ? 'border-red-300 bg-red-50' : 'border-line hover:border-red-300'
+                          level === x.id ? 'border-accent bg-accent-soft' : 'border-line bg-surface hover:border-accent/40'
                         }`}
                       >
                         <span className="block font-semibold text-ink text-sm">{t(x.label[0], x.label[1])}</span>
                         <span className="block text-xs text-muted mt-0.5">{t(x.hint[0], x.hint[1])}</span>
                       </button>
                     ))}
-                    {error && <p className="text-sm text-red-600">{error}</p>}
+                    {error && <p className="text-sm text-bad">{error}</p>}
                     <button
                       onClick={() => setChoosing(null)}
                       className="w-full text-xs text-muted hover:text-ink pt-1"
@@ -151,8 +151,8 @@ export default function SprachePage() {
           })}
         </div>
 
-        <Link href="/profile" className="block text-center text-xs text-muted hover:text-ink">
-          👤 {t('Account', 'Konto')}
+        <Link href="/profile" className="flex items-center justify-center gap-1.5 h-10 text-sm text-muted hover:text-ink">
+          <User className="w-4 h-4" /> {t('Account', 'Konto')}
         </Link>
         <UiLangToggle />
       </div>

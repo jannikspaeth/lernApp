@@ -2,6 +2,7 @@
 
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import Link from 'next/link';
+import Icon from '@/components/Icon';
 import { useT } from '@/lib/ui-lang';
 import { useLocalSetting } from '@/lib/use-local-setting';
 import { CONTINENTS, COUNTRIES, countryNames, flagUrl, normName, type Country } from '@/lib/welt';
@@ -69,17 +70,17 @@ export default function MapQuiz() {
 
   return (
     <main className="md:ml-56 min-h-screen bg-canvas pb-24 md:pb-8">
-      <div className="max-w-4xl mx-auto p-4 md:p-5 space-y-4">
-        <div>
-          <Link href="/wissen/geografie" className="text-xs text-muted hover:text-ink">← {t('Geography', 'Geografie')}</Link>
-          <h1 className="text-2xl font-bold text-ink flex items-center gap-2 mt-1">
-            <span>🗺️</span> {t('World map quiz', 'Weltkarten-Quiz')}
-          </h1>
+      <div className="max-w-4xl mx-auto px-4 md:px-5 pt-4 md:pt-8 space-y-5">
+        <div className="space-y-2">
+          <Link href="/wissen/geografie" className="inline-flex items-center gap-1 -ml-1 h-9 pr-2 text-sm font-medium text-muted hover:text-ink">
+            <Icon name="chevronLeft" size={18} /> {t('Geography', 'Geografie')}
+          </Link>
+          <h1 className="text-[28px] md:text-3xl font-bold text-ink tracking-tight">{t('World map quiz', 'Weltkarten-Quiz')}</h1>
         </div>
 
         {error && (
-          <div className="bg-red-50 border border-red-200 rounded-xl p-3 text-sm text-red-700">
-            ⚠ {t('The map could not be loaded.', 'Die Karte konnte nicht geladen werden.')}
+          <div className="bg-bad-soft border border-bad/30 rounded-xl p-3 text-sm text-bad">
+            {t('The map could not be loaded.', 'Die Karte konnte nicht geladen werden.')}
           </div>
         )}
 
@@ -93,7 +94,7 @@ export default function MapQuiz() {
                     key={r}
                     onClick={() => setRegion(r)}
                     className={`px-3 py-1.5 rounded-xl text-sm font-medium border transition-colors ${
-                      region === r ? 'bg-emerald-600 border-emerald-600 text-white' : 'bg-surface border-line text-muted hover:bg-canvas'
+                      region === r ? 'bg-ink border-ink text-canvas' : 'bg-surface border-line text-muted hover:bg-canvas'
                     }`}
                   >
                     {regionName(r)}
@@ -105,17 +106,17 @@ export default function MapQuiz() {
               <p className="text-sm font-medium text-ink">{t('Mode', 'Modus')}</p>
               <div className="grid sm:grid-cols-2 gap-2">
                 {([
-                  ['click', '👆', t('Find the country', 'Land finden'), t('A country is named — tap it on the map.', 'Ein Land wird genannt – tipp es auf der Karte an.')],
-                  ['type', '⌨️', t('Name them all', 'Alle eintragen'), t('Type every country you know; it fills in on the map.', 'Tipp alle Länder ein, die du kennst – sie erscheinen auf der Karte.')],
+                  ['click', 'target', t('Find the country', 'Land finden'), t('A country is named — tap it on the map.', 'Ein Land wird genannt – tipp es auf der Karte an.')],
+                  ['type', 'type', t('Name them all', 'Alle eintragen'), t('Type every country you know; it fills in on the map.', 'Tipp alle Länder ein, die du kennst – sie erscheinen auf der Karte.')],
                 ] as const).map(([m, icon, name, blurb]) => (
                   <button
                     key={m}
                     onClick={() => setMode(m)}
-                    className={`text-left p-3 rounded-xl border-2 transition-colors ${
-                      mode === m ? 'border-emerald-500 bg-emerald-50' : 'border-line hover:bg-canvas'
+                    className={`text-left p-3.5 rounded-xl border transition-colors ${
+                      mode === m ? 'border-accent bg-accent-soft' : 'border-line bg-surface hover:bg-canvas'
                     }`}
                   >
-                    <p className="font-semibold text-ink">{icon} {name}</p>
+                    <p className="font-semibold text-ink flex items-center gap-2"><Icon name={icon} size={18} className="text-accent" /> {name}</p>
                     <p className="text-xs text-muted mt-0.5">{blurb}</p>
                   </button>
                 ))}
@@ -125,7 +126,7 @@ export default function MapQuiz() {
             <button
               disabled={!shapes}
               onClick={() => setPlaying(true)}
-              className="w-full py-3 bg-ink hover:bg-ink/85 text-white rounded-xl font-semibold transition-colors disabled:opacity-50"
+              className="w-full py-3 bg-ink hover:bg-ink/85 text-canvas rounded-xl font-semibold transition-colors disabled:opacity-50"
             >
               {shapes ? `${t('Start', 'Los geht’s')} · ${pool.length} ${t('countries', 'Länder')} →` : t('Loading map…', 'Karte lädt …')}
             </button>
@@ -159,7 +160,7 @@ function BestLine({ mode, region, total }: { mode: Mode; region: RegionId; total
     return () => clearTimeout(id);
   }, [mode, region]);
   if (best == null || !total) return null;
-  return <p className="text-xs text-muted">🏆 {t('Your best', 'Dein Rekord')}: {best} / {total}</p>;
+  return <p className="text-xs text-muted flex items-center gap-1.5"><Icon name="trophy" size={14} /> {t('Your best', 'Dein Rekord')}: {best} / {total}</p>;
 }
 
 // ─── Find the country: one name at a time, tap it ──────────────────────────────
@@ -230,9 +231,9 @@ function ClickGame({
         {done ? (
           <div className="flex-1">
             <p className="font-semibold text-ink">
-              🎉 {t('Done!', 'Fertig!')} {score} / {queue.length} {t('on the first try', 'beim ersten Versuch')}
+              {t('Done!', 'Fertig!')} {score} / {queue.length} {t('on the first try', 'beim ersten Versuch')}
             </p>
-            {newBest && <p className="text-sm text-emerald-700">🏆 {t('New record!', 'Neuer Rekord!')}</p>}
+            {newBest && <p className="text-sm text-good font-semibold">{t('New record!', 'Neuer Rekord!')}</p>}
           </div>
         ) : (
           <>
@@ -242,19 +243,19 @@ function ClickGame({
               <p className="text-xs text-muted">{t('Where is…', 'Wo liegt …')}</p>
               <p className="font-bold text-ink text-lg leading-tight truncate">{target.name}</p>
             </div>
-            <p className="text-xs text-muted tabular-nums">{idx + 1}/{queue.length} · ✓ {score}</p>
+            <p className="text-xs text-muted tabular-nums">{idx + 1}/{queue.length} · {t('correct', 'richtig')}: {score}</p>
           </>
         )}
       </div>
 
       {wrong && !done && (
-        <p className="text-sm text-red-600 text-center">
-          ✗ {t('That is', 'Das ist')} <strong>{BY_CODE.get(wrong)?.name}</strong>
+        <p className="text-sm text-bad text-center">
+          {t('That is', 'Das ist')} <strong>{BY_CODE.get(wrong)?.name}</strong>
           {!revealed && ` · ${t('tries left', 'noch')} ${MAX_TRIES - tries}`}
         </p>
       )}
       {revealed && (
-        <p className="text-sm text-amber-700 text-center">
+        <p className="text-sm text-warn text-center">
           {t('Here it is (orange).', 'Hier liegt es (orange).')}
         </p>
       )}
@@ -273,7 +274,7 @@ function ClickGame({
         {!done && (
           <button
             onClick={() => next({ ...result, [target.code]: 'missed' })}
-            className="flex-1 py-2.5 bg-ink hover:bg-ink/85 text-white rounded-xl text-sm font-semibold transition-colors"
+            className="flex-1 py-2.5 bg-ink hover:bg-ink/85 text-canvas rounded-xl text-sm font-semibold transition-colors"
           >
             {revealed ? t('Next →', 'Weiter →') : t('Skip', 'Überspringen')}
           </button>
@@ -396,7 +397,7 @@ function TypeGame({
           <span className="text-muted tabular-nums">⏱ {start ? fmtTime(now - start) : '0:00'}</span>
         </div>
         <div className="h-1.5 bg-line-soft rounded-full overflow-hidden">
-          <div className="h-full bg-emerald-500 rounded-full transition-all" style={{ width: `${(found.length / Math.max(1, pool.length)) * 100}%` }} />
+          <div className="h-full bg-good rounded-full transition-all" style={{ width: `${(found.length / Math.max(1, pool.length)) * 100}%` }} />
         </div>
         {!finished ? (
           <input
@@ -415,19 +416,19 @@ function TypeGame({
             autoComplete="off"
             autoCorrect="off"
             spellCheck={false}
-            className="w-full border border-line rounded-xl px-3 py-2.5 text-base focus:outline-none focus:border-emerald-400"
+            className="w-full border border-line rounded-xl px-3 py-2.5 text-base bg-surface focus:outline-none focus:border-accent"
           />
         ) : (
           <div className="text-sm">
             <p className="font-semibold text-ink">
-              {found.length === pool.length ? `🎉 ${t('All found!', 'Alle gefunden!')}` : t('Result', 'Ergebnis')}: {found.length} / {pool.length}
+              {found.length === pool.length ? t('All found!', 'Alle gefunden!') : t('Result', 'Ergebnis')}: {found.length} / {pool.length}
               {start ? ` · ${fmtTime(now - start)}` : ''}
             </p>
-            {newBest && <p className="text-emerald-700">🏆 {t('New record!', 'Neuer Rekord!')}</p>}
+            {newBest && <p className="text-good font-semibold">{t('New record!', 'Neuer Rekord!')}</p>}
           </div>
         )}
-        {flash && !finished && <p className="text-sm text-emerald-700">✓ {BY_CODE.get(flash)?.name}</p>}
-        {note && !flash && !finished && <p className="text-sm text-amber-700">{note}</p>}
+        {flash && !finished && <p className="text-sm text-good font-medium">{BY_CODE.get(flash)?.name}</p>}
+        {note && !flash && !finished && <p className="text-sm text-warn">{note}</p>}
       </div>
 
       <WorldMap
@@ -454,7 +455,7 @@ function TypeGame({
               setNow(Date.now());
               finish(found.length);
             }}
-            className="flex-1 py-2.5 bg-ink hover:bg-ink/85 text-white rounded-xl text-sm font-semibold transition-colors"
+            className="flex-1 py-2.5 bg-ink hover:bg-ink/85 text-canvas rounded-xl text-sm font-semibold transition-colors"
           >
             {t('Give up · show missing', 'Aufgeben · fehlende zeigen')}
           </button>
