@@ -57,26 +57,26 @@ export default function LoginPage() {
     setPassword2('');
   }
 
-  const input = 'w-full border border-gray-200 rounded-xl px-3 py-2.5 text-base focus:outline-none focus:border-red-300';
+  const input = 'w-full border border-line rounded-xl px-3 py-2.5 text-base focus:outline-none focus:border-red-300';
 
   return (
-    <main className="min-h-screen bg-gray-50 flex items-center justify-center p-6 pb-24 md:pb-6">
+    <main className="min-h-screen bg-canvas flex items-center justify-center p-6 pb-24 md:pb-6">
       <div className="w-full max-w-sm space-y-6">
         <div className="text-center">
           <p className="text-4xl mb-3">🎓</p>
-          <h1 className="text-2xl font-bold text-gray-900">
+          <h1 className="text-2xl font-bold text-ink">
             {register ? t('Create account', 'Konto erstellen') : t('Sign in', 'Anmelden')}
           </h1>
-          <p className="text-sm text-gray-400 mt-1">
+          <p className="text-sm text-muted mt-1">
             {register
               ? t('Choose a name and a password.', 'Wähl einen Namen und ein Passwort.')
               : t('Welcome back to the learning app.', 'Willkommen zurück in der Lern-App.')}
           </p>
         </div>
 
-        <form onSubmit={submit} className="bg-white border border-gray-100 rounded-2xl p-5 space-y-3 shadow-sm">
+        <form onSubmit={submit} className="bg-surface border border-line rounded-2xl p-5 space-y-3">
           <div className="space-y-1">
-            <label htmlFor="name" className="text-sm font-medium text-gray-700">{t('Name', 'Name')}</label>
+            <label htmlFor="name" className="text-sm font-medium text-ink">{t('Name', 'Name')}</label>
             <input
               id="name"
               autoComplete="username"
@@ -88,7 +88,7 @@ export default function LoginPage() {
             />
           </div>
           <div className="space-y-1">
-            <label htmlFor="password" className="text-sm font-medium text-gray-700">{t('Password', 'Passwort')}</label>
+            <label htmlFor="password" className="text-sm font-medium text-ink">{t('Password', 'Passwort')}</label>
             <input
               id="password"
               type="password"
@@ -100,7 +100,7 @@ export default function LoginPage() {
           </div>
           {register && (
             <div className="space-y-1">
-              <label htmlFor="password2" className="text-sm font-medium text-gray-700">
+              <label htmlFor="password2" className="text-sm font-medium text-ink">
                 {t('Repeat password', 'Passwort wiederholen')}
               </label>
               <input
@@ -123,7 +123,7 @@ export default function LoginPage() {
           </button>
         </form>
 
-        <button onClick={switchKind} className="block mx-auto text-sm text-gray-500 hover:text-gray-800">
+        <button onClick={switchKind} className="block mx-auto text-sm text-muted hover:text-ink">
           {register
             ? t('Already have an account? Sign in', 'Schon ein Konto? Anmelden')
             : t('New here? Create an account', 'Neu hier? Konto erstellen')}

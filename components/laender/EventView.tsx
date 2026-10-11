@@ -9,6 +9,7 @@ import { applyAnswer } from '@/lib/wissen/progress';
 import { LEVELS, questionId, type Level } from '@/lib/laender/types';
 import type { RawCard } from '@/lib/wissen/types';
 import QuizCard from '@/components/wissen/QuizCard';
+import Icon from '@/components/Icon';
 import { levelDone, useWissenProgress } from './EventProgress';
 
 type Tab = 'info' | 'quiz';
@@ -30,14 +31,12 @@ export default function EventView({
   text,
   quiz,
   next,
-  sourceUrl,
 }: {
   code: string;
   path: string; // event id, or <event>.<subtopic>
   text: string[];
   quiz: Record<Level, RawCard[]>;
   next?: { href: string; title: string };
-  sourceUrl?: string;
 }) {
   const t = useT();
   const [tab, setTab] = useState<Tab>('info');
@@ -73,18 +72,21 @@ export default function EventView({
   }
 
   const tabs: [Tab, string][] = [
-    ['info', t('📖 Info', '📖 Info')],
-    ['quiz', t('❓ Quiz', '❓ Quiz')],
+    ['info', t('Read', 'Lesen')],
+    ['quiz', t('Quiz', 'Quiz')],
   ];
+  const minutes = Math.max(1, Math.round(text.join(' ').split(/\s+/).length / 200));
 
   return (
-    <div className="space-y-4">
-      <div className="flex bg-white rounded-xl border border-gray-200 p-0.5 text-sm">
+    <div className="space-y-5">
+      <div className="flex bg-surface rounded-xl border border-line p-1 text-sm" role="tablist">
         {tabs.map(([id, name]) => (
           <button
             key={id}
+            role="tab"
+            aria-selected={tab === id}
             onClick={() => setTab(id)}
-            className={`flex-1 py-2 rounded-lg font-medium transition-colors ${tab === id ? 'bg-gray-900 text-white' : 'text-gray-500 hover:text-gray-800'}`}
+            className={`flex-1 h-9 rounded-lg font-semibold transition-colors ${tab === id ? 'bg-ink text-white' : 'text-muted hover:text-ink'}`}
           >
             {name}
           </button>
@@ -92,63 +94,69 @@ export default function EventView({
       </div>
 
       {tab === 'info' && (
-        <div className="space-y-3">
-          <article className="bg-white rounded-2xl border border-gray-100 shadow-sm p-5 space-y-3">
+        <div className="space-y-6">
+          <p className="flex items-center gap-1.5 text-[13px] font-medium text-muted">
+            <Icon name="clock" size={15} /> {t(`${minutes} min read`, `${minutes} Min. Lesezeit`)}
+          </p>
+          <article className="space-y-4">
             {text.map((p, i) => (
-              <p key={i} className="text-[15px] leading-relaxed text-gray-800">{p}</p>
+              <p key={i} className="text-[17px] leading-[1.75] text-ink/90">{p}</p>
             ))}
-            {sourceUrl && (
-              <a href={sourceUrl} target="_blank" rel="noopener noreferrer" className="inline-block pt-1 text-xs font-medium text-sky-700 hover:text-sky-800">
-                {t('More on Wikipedia ↗', 'Mehr bei Wikipedia ↗')}
-              </a>
-            )}
           </article>
           <button
             onClick={() => setTab('quiz')}
-            className="w-full py-3 bg-gray-900 hover:bg-gray-800 text-white rounded-xl font-semibold transition-colors"
+            className="w-full h-12 flex items-center justify-center gap-2 bg-accent hover:bg-accent-strong text-white rounded-xl font-semibold transition-colors"
           >
-            {t('Test yourself →', 'Wissen testen →')}
+            {t('Test yourself', 'Wissen testen')} <Icon name="arrowRight" size={18} />
           </button>
         </div>
       )}
 
       {tab === 'quiz' && !run && (
-        <div className="bg-white rounded-2xl border border-gray-100 shadow-sm p-4 space-y-3">
-          <p className="text-sm font-medium text-gray-700">{t('Choose a level', 'Schwierigkeit wählen')}</p>
-          <div className="grid grid-cols-3 gap-2">
+        <div className="bg-surface rounded-2xl border border-line p-4 space-y-4">
+          <p className="text-sm font-semibold text-ink">{t('Choose a level', 'Schwierigkeit wählen')}</p>
+          <div className="grid grid-cols-3 gap-2" role="radiogroup">
             {LEVELS.map(l => (
               <button
                 key={l.id}
+                role="radio"
+                aria-checked={level === l.id}
                 onClick={() => setLevel(l.id)}
-                className={`py-3 rounded-xl border-2 text-sm font-semibold transition-colors ${
-                  level === l.id ? 'border-amber-500 bg-amber-50 text-amber-800' : 'border-gray-200 text-gray-600 hover:bg-gray-50'
+                className={`h-16 rounded-xl border text-sm font-semibold transition-colors flex flex-col items-center justify-center gap-1 ${
+                  level === l.id ? 'border-accent bg-accent-soft text-accent' : 'border-line text-muted hover:bg-canvas'
                 }`}
               >
                 {t(...l.name)}
-                <span className={`block text-base ${done(l.id) ? 'text-amber-500' : 'text-gray-200'}`}>★</span>
+                <Icon name={done(l.id) ? 'check' : 'star'} size={16} className={done(l.id) ? 'text-good' : 'text-line'} strokeWidth={2} />
               </button>
             ))}
           </div>
           <button
             onClick={() => start(level)}
-            className="w-full py-3 bg-gray-900 hover:bg-gray-800 text-white rounded-xl font-semibold transition-colors"
+            className="w-full h-12 flex items-center justify-center gap-2 bg-accent hover:bg-accent-strong text-white rounded-xl font-semibold transition-colors"
           >
-            {t(`Start · ${quiz[level].length} questions`, `Los geht’s · ${quiz[level].length} Fragen`)} →
+            {t(`Start · ${quiz[level].length} questions`, `Starten · ${quiz[level].length} Fragen`)} <Icon name="arrowRight" size={18} />
           </button>
-          <p className="text-xs text-gray-400">
-            {t('A star means: every question of this level answered correctly.', 'Ein Stern heißt: alle Fragen dieser Stufe richtig beantwortet.')}
+          <p className="text-xs text-muted">
+            {t('A check mark means: every question of this level answered correctly.', 'Ein Haken heißt: alle Fragen dieser Stufe richtig beantwortet.')}
           </p>
         </div>
       )}
 
       {tab === 'quiz' && run && card && (
-        <div className="space-y-3">
-          <div className="flex items-center justify-between text-xs text-gray-400">
-            <span className="font-medium text-gray-600">{t(...LEVELS.find(l => l.id === run.level)!.name)}</span>
-            <div className="flex items-center gap-3">
-              <span className="tabular-nums">{run.idx + 1} / {run.order.length}</span>
-              <button onClick={() => setRun(null)} className="hover:text-gray-600">{t('Finish', 'Beenden')}</button>
+        <div className="space-y-4">
+          <div className="flex items-center gap-3">
+            <button
+              onClick={() => setRun(null)}
+              aria-label={t('Finish quiz', 'Quiz beenden')}
+              className="w-9 h-9 -ml-1 flex items-center justify-center rounded-lg text-muted hover:text-ink hover:bg-surface"
+            >
+              <Icon name="x" size={20} />
+            </button>
+            <div className="flex-1 h-1.5 bg-line rounded-full overflow-hidden">
+              <div className="h-full bg-accent rounded-full transition-[width] duration-300" style={{ width: `${(run.idx / run.order.length) * 100}%` }} />
             </div>
+            <span className="text-[13px] font-semibold text-muted tabular-nums">{run.idx + 1}/{run.order.length}</span>
           </div>
           <QuizCard
             key={`${run.level}-${current}-${run.idx}`}
@@ -161,29 +169,32 @@ export default function EventView({
       )}
 
       {tab === 'quiz' && run && !card && (
-        <div className="bg-white rounded-2xl border border-gray-200 p-6 text-center space-y-4">
-          <p className="text-4xl">{run.right === run.order.length ? '⭐' : '💪'}</p>
-          <p className="font-semibold text-gray-900">
-            {run.right} / {run.order.length} {t('correct', 'richtig')}
-          </p>
+        <div className="bg-surface rounded-2xl border border-line p-6 text-center space-y-4">
+          <div className={`mx-auto w-14 h-14 rounded-full flex items-center justify-center ${run.right === run.order.length ? 'bg-good-soft text-good' : 'bg-accent-soft text-accent'}`}>
+            <Icon name={run.right === run.order.length ? 'check' : 'target'} size={28} strokeWidth={2} />
+          </div>
+          <div>
+            <p className="text-3xl font-bold text-ink tabular-nums">{run.right} / {run.order.length}</p>
+            <p className="text-sm text-muted mt-1">{t('correct answers', 'richtige Antworten')}</p>
+          </div>
           {run.right === run.order.length && (
-            <p className="text-sm text-amber-700">{t('Level complete — star earned!', 'Stufe geschafft – Stern verdient!')}</p>
+            <p className="text-sm font-semibold text-good">{t('Level complete!', 'Stufe geschafft!')}</p>
           )}
           <div className="flex flex-wrap gap-2 justify-center">
-            <button onClick={() => start(run.level)} className="px-4 py-2.5 border border-gray-200 hover:bg-gray-50 text-gray-600 rounded-xl text-sm">
+            <button onClick={() => start(run.level)} className="h-11 px-4 border border-line hover:bg-canvas text-ink rounded-xl text-sm font-medium">
               {t('Again', 'Nochmal')}
             </button>
             {run.level !== 'schwer' && (
               <button
                 onClick={() => start(run.level === 'leicht' ? 'mittel' : 'schwer')}
-                className="px-4 py-2.5 bg-amber-500 hover:bg-amber-600 text-white rounded-xl text-sm font-semibold"
+                className="h-11 px-4 bg-accent hover:bg-accent-strong text-white rounded-xl text-sm font-semibold"
               >
-                {t('Next level', 'Nächste Stufe')} →
+                {t('Next level', 'Nächste Stufe')}
               </button>
             )}
             {next && (
-              <Link href={next.href} className="px-4 py-2.5 bg-gray-900 hover:bg-gray-800 text-white rounded-xl text-sm font-semibold">
-                {next.title} →
+              <Link href={next.href} className="h-11 px-4 inline-flex items-center gap-1.5 bg-ink hover:bg-ink/85 text-white rounded-xl text-sm font-semibold">
+                <span className="max-w-[14rem] truncate">{next.title}</span> <Icon name="arrowRight" size={16} />
               </Link>
             )}
           </div>
@@ -191,7 +202,7 @@ export default function EventView({
       )}
 
       {saveError && (
-        <p className="text-sm text-red-600">⚠ {t('Progress could not be saved.', 'Der Fortschritt konnte nicht gespeichert werden.')}</p>
+        <p className="text-sm text-bad">{t('Progress could not be saved.', 'Der Fortschritt konnte nicht gespeichert werden.')}</p>
       )}
     </div>
   );

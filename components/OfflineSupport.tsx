@@ -87,7 +87,7 @@ export default function OfflineSupport() {
     <div className="fixed top-[calc(0.5rem+env(safe-area-inset-top))] left-1/2 -translate-x-1/2 md:ml-28 z-[60] pointer-events-none">
       <div
         className={`px-3 py-1.5 rounded-full text-xs font-semibold shadow-md whitespace-nowrap ${
-          online ? 'bg-blue-600 text-white' : 'bg-gray-900 text-white'
+          online ? 'bg-blue-600 text-white' : 'bg-ink text-white'
         }`}
       >
         {online

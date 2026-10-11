@@ -36,13 +36,13 @@ export function useWissenProgress(): WissenProgress | null {
   return prog;
 }
 
-// Three stars (easy / medium / hard) for a topic or subtopic.
+// Three level markers (easy / medium / hard) for a topic or subtopic.
 export default function EventStars({ code, items }: { code: string; items: StarItem[] }) {
   const prog = useWissenProgress();
   return (
-    <span className="flex gap-0.5 text-sm shrink-0" aria-hidden>
+    <span className="flex gap-1 shrink-0" aria-hidden>
       {LEVELS.map(l => (
-        <span key={l.id} className={allDone(prog, code, items, l.id) ? 'text-amber-500' : 'text-gray-200'}>★</span>
+        <span key={l.id} className={`w-1.5 h-4 rounded-full ${allDone(prog, code, items, l.id) ? 'bg-good' : 'bg-line'}`} />
       ))}
     </span>
   );

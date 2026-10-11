@@ -94,8 +94,8 @@ export default function ErfolgePage() {
 
   if (!ready || !profile) {
     return (
-      <main className="md:ml-56 min-h-screen bg-gray-50 flex items-center justify-center">
-        <p className="text-gray-400 text-sm">{t('Loading…', 'Lädt …')}</p>
+      <main className="md:ml-56 min-h-screen bg-canvas flex items-center justify-center">
+        <p className="text-muted text-sm">{t('Loading…', 'Lädt …')}</p>
       </main>
     );
   }
@@ -118,13 +118,13 @@ export default function ErfolgePage() {
   const unlocked = badges.filter(b => b.unlocked);
 
   return (
-    <main className="md:ml-56 min-h-screen bg-gray-50 pb-24 md:pb-8">
+    <main className="md:ml-56 min-h-screen bg-canvas pb-24 md:pb-8">
       <div className="max-w-xl mx-auto p-5 space-y-5">
         <div>
-          <h1 className="text-2xl font-bold text-gray-900 flex items-center gap-2">
+          <h1 className="text-2xl font-bold text-ink flex items-center gap-2">
             <span>🏆</span> {t('Achievements', 'Erfolge')}
           </h1>
-          <p className="text-gray-400 text-sm mt-0.5">
+          <p className="text-muted text-sm mt-0.5">
             {t(
               `${unlocked.length} of ${badges.length} unlocked. Keep learning to earn more!`,
               `${unlocked.length} von ${badges.length} freigeschaltet. Lern weiter, um mehr zu holen!`,
@@ -133,7 +133,7 @@ export default function ErfolgePage() {
         </div>
 
         {!loaded ? (
-          <p className="text-gray-400 text-sm text-center py-6">{t('Loading…', 'Lädt …')}</p>
+          <p className="text-muted text-sm text-center py-6">{t('Loading…', 'Lädt …')}</p>
         ) : (
           <Achievements badges={badges} newIds={newIds} />
         )}

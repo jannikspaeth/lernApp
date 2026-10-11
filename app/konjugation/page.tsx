@@ -56,10 +56,10 @@ function TotalBar({ record }: { record: ConjugationRecord }) {
   const color = pct === 100 ? 'bg-green-500' : pct >= 70 ? 'bg-amber-400' : 'bg-red-400';
   return (
     <div className="flex items-center gap-2">
-      <div className="flex-1 h-1.5 bg-gray-100 rounded-full overflow-hidden">
+      <div className="flex-1 h-1.5 bg-line-soft rounded-full overflow-hidden">
         <div className={`h-full rounded-full ${color}`} style={{ width: `${pct}%` }} />
       </div>
-      <span className="text-xs text-gray-400 tabular-nums">{pct}%</span>
+      <span className="text-xs text-muted tabular-nums">{pct}%</span>
     </div>
   );
 }
@@ -105,8 +105,8 @@ export default function KonjugationPage() {
 
   if (!ready || !profile || !verbPack) {
     return (
-      <main className="md:ml-56 min-h-screen bg-gray-50 flex items-center justify-center">
-        <p className="text-gray-400 text-sm">{t('Loading…', 'Lädt …')}</p>
+      <main className="md:ml-56 min-h-screen bg-canvas flex items-center justify-center">
+        <p className="text-muted text-sm">{t('Loading…', 'Lädt …')}</p>
       </main>
     );
   }
@@ -206,18 +206,18 @@ export default function KonjugationPage() {
   }
 
   return (
-    <main className="md:ml-56 min-h-screen bg-gray-50 pb-24 md:pb-8">
+    <main className="md:ml-56 min-h-screen bg-canvas pb-24 md:pb-8">
       <div className="max-w-xl mx-auto p-5 space-y-5">
         <div>
-          <h1 className="text-2xl font-bold text-gray-900">{t('Verbs', 'Verben')}</h1>
-          <p className="text-gray-400 text-sm mt-0.5">
+          <h1 className="text-2xl font-bold text-ink">{t('Verbs', 'Verben')}</h1>
+          <p className="text-muted text-sm mt-0.5">
             {t('Practice conjugations and review mistakes', 'Konjugieren üben und Fehler wiederholen')}
           </p>
         </div>
 
         {/* Tense picker */}
-        <div className="bg-white rounded-xl border border-gray-100 shadow-sm p-4 space-y-2">
-          <p className="text-xs font-semibold text-gray-500 uppercase tracking-wide">{t('Tenses to practise', 'Zeitformen zum Üben')}</p>
+        <div className="bg-surface rounded-xl border border-line p-4 space-y-2">
+          <p className="text-xs font-semibold text-muted uppercase tracking-wide">{t('Tenses to practise', 'Zeitformen zum Üben')}</p>
           <div className="flex flex-wrap gap-1.5">
             {TENSES.map(t => {
               const on = tenses.includes(t.id);
@@ -226,11 +226,11 @@ export default function KonjugationPage() {
                   key={t.id}
                   onClick={() => { toggleTense(t.id); setPracticing(null); setExercise(null); }}
                   className={`px-2.5 py-1 rounded-lg text-xs font-medium transition-colors ${
-                    on ? 'bg-red-700 text-white' : 'bg-gray-100 text-gray-500 hover:bg-gray-200'
+                    on ? 'bg-accent text-white' : 'bg-line-soft text-muted hover:bg-line'
                   }`}
                 >
                   {t.label}
-                  <span className={`ml-1 text-[10px] ${on ? 'opacity-70' : 'text-gray-400'}`}>{t.level}</span>
+                  <span className={`ml-1 text-[10px] ${on ? 'opacity-70' : 'text-muted'}`}>{t.level}</span>
                 </button>
               );
             })}
@@ -239,22 +239,22 @@ export default function KonjugationPage() {
 
         {/* Stats */}
         <div className="grid grid-cols-3 gap-3">
-          <div className="bg-white rounded-xl p-3 border border-gray-100 shadow-sm text-center">
-            <p className="text-xl font-bold text-gray-800">{records.length}</p>
-            <p className="text-xs text-gray-400 mt-0.5">{t('Verbs learned', 'Verben gelernt')}</p>
+          <div className="bg-surface rounded-xl p-3 border border-line text-center">
+            <p className="text-xl font-bold text-ink">{records.length}</p>
+            <p className="text-xs text-muted mt-0.5">{t('Verbs learned', 'Verben gelernt')}</p>
           </div>
-          <div className="bg-white rounded-xl p-3 border border-gray-100 shadow-sm text-center">
+          <div className="bg-surface rounded-xl p-3 border border-line text-center">
             <p className="text-xl font-bold text-green-600">{mastered}</p>
-            <p className="text-xs text-gray-400 mt-0.5">{t('Mastered', 'Gemeistert')}</p>
+            <p className="text-xs text-muted mt-0.5">{t('Mastered', 'Gemeistert')}</p>
           </div>
-          <div className="bg-white rounded-xl p-3 border border-gray-100 shadow-sm text-center">
+          <div className="bg-surface rounded-xl p-3 border border-line text-center">
             <p className="text-xl font-bold text-red-600">{withMistakes.length}</p>
-            <p className="text-xs text-gray-400 mt-0.5">{t('With errors', 'Mit Fehlern')}</p>
+            <p className="text-xs text-muted mt-0.5">{t('With errors', 'Mit Fehlern')}</p>
           </div>
         </div>
 
         {/* Tabs */}
-        <div className="flex gap-1 bg-gray-100 rounded-xl p-1">
+        <div className="flex gap-1 bg-line-soft rounded-xl p-1">
           {([
             ['lernen', t('Learn', 'Lernen')],
             ['all', t('All Verbs', 'Alle Verben')],
@@ -264,7 +264,7 @@ export default function KonjugationPage() {
               key={id}
               onClick={() => { setTab(id); setPracticing(null); setExercise(null); }}
               className={`flex-1 py-2 text-sm font-medium rounded-lg transition-colors ${
-                tab === id ? 'bg-white text-gray-900 shadow-sm' : 'text-gray-500 hover:text-gray-700'
+                tab === id ? 'bg-surface text-ink shadow-sm' : 'text-muted hover:text-ink'
               }`}
             >
               {label}
@@ -279,20 +279,20 @@ export default function KonjugationPage() {
 
         {/* ── Lernen tab ── */}
         {tab === 'lernen' && (
-          <div className="bg-white rounded-xl border border-gray-100 shadow-sm p-5 space-y-4">
+          <div className="bg-surface rounded-xl border border-line p-5 space-y-4">
             <div>
-              <p className="text-sm text-gray-500">
-                <span className="font-semibold text-gray-800">{unseenCount}</span> {t('of', 'von')}{' '}
-                <span className="font-semibold text-gray-800">{catalog.length}</span>{' '}
+              <p className="text-sm text-muted">
+                <span className="font-semibold text-ink">{unseenCount}</span> {t('of', 'von')}{' '}
+                <span className="font-semibold text-ink">{catalog.length}</span>{' '}
                 {t('verbs not practiced yet', 'Verben noch nicht geübt')}
               </p>
-              <div className="mt-2 h-2 bg-gray-100 rounded-full overflow-hidden">
+              <div className="mt-2 h-2 bg-line-soft rounded-full overflow-hidden">
                 <div
                   className="h-full bg-red-600 rounded-full transition-all"
                   style={{ width: `${Math.round(((catalog.length - unseenCount) / catalog.length) * 100)}%` }}
                 />
               </div>
-              <p className="text-xs text-gray-400 mt-1">
+              <p className="text-xs text-muted mt-1">
                 {catalog.length - unseenCount} {t('learned', 'gelernt')} · {mastered} {t('mastered', 'gemeistert')}
               </p>
             </div>
@@ -302,18 +302,18 @@ export default function KonjugationPage() {
                 {due.length > 0 && (
                   <button
                     onClick={() => startNew(due[0].verb)}
-                    className="w-full py-3 bg-amber-500 hover:bg-amber-600 text-white rounded-xl font-semibold transition-colors"
+                    className="w-full py-3 bg-accent hover:bg-accent-strong text-white rounded-xl font-semibold transition-colors"
                   >
                     {t('Review due verbs', 'Fällige Verben wiederholen')} ({due.length}) →
                   </button>
                 )}
                 <button
                   onClick={() => startNew()}
-                  className="w-full py-3 bg-red-700 hover:bg-red-800 text-white rounded-xl font-semibold transition-colors"
+                  className="w-full py-3 bg-accent hover:bg-accent-strong text-white rounded-xl font-semibold transition-colors"
                 >
                   {unseenCount > 0 ? t('Learn next verb →', 'Nächstes Verb lernen →') : t('Review random verb →', 'Zufälliges Verb wiederholen →')}
                 </button>
-                <p className="text-[11px] text-gray-400 text-center">
+                <p className="text-[11px] text-muted text-center">
                   {t(
                     'Verbs come back for review: soon after a mistake, less often once you get them right.',
                     'Verben kommen zur Wiederholung zurück: bald nach einem Fehler, seltener, wenn du sie kannst.',
@@ -325,7 +325,7 @@ export default function KonjugationPage() {
             {practicing === '__new__' && (
               <div>
                 {loading && (
-                  <p className="text-center text-sm text-gray-400 animate-pulse py-4">{t('Loading…', 'Lädt …')}</p>
+                  <p className="text-center text-sm text-muted animate-pulse py-4">{t('Loading…', 'Lädt …')}</p>
                 )}
                 {error && (
                   <div className="bg-red-50 rounded-xl p-3 text-sm text-red-700">{error}</div>
@@ -342,7 +342,7 @@ export default function KonjugationPage() {
                 {exercise && !loading && (
                   <button
                     onClick={() => startNew(due.find(r => r.verb !== exercise.verb)?.verb)}
-                    className="w-full mt-3 text-xs text-gray-400 hover:text-gray-600"
+                    className="w-full mt-3 text-xs text-muted hover:text-ink"
                   >
                     {t('Skip this verb', 'Verb überspringen')}
                   </button>
@@ -356,7 +356,7 @@ export default function KonjugationPage() {
         {tab !== 'lernen' && displayed.length === 0 && (
           <div className="text-center py-14">
             <p className="text-4xl mb-3">{tab === 'mistakes' ? '🎉' : '🔤'}</p>
-            <p className="text-sm text-gray-500 font-medium">
+            <p className="text-sm text-muted font-medium">
               {tab === 'mistakes' ? t('No errors – all mastered!', 'Keine Fehler – alles gemeistert!') : t('No verbs practiced yet.', 'Noch keine Verben geübt.')}
             </p>
           </div>
@@ -380,7 +380,7 @@ export default function KonjugationPage() {
                   onClick={() => cycleSort(id)}
                   title={t('Tap to add/flip/remove. Multiple can combine.', 'Antippen: hinzufügen/umdrehen/entfernen. Mehrere kombinierbar.')}
                   className={`px-2.5 py-1 rounded-lg text-xs font-medium transition-colors ${
-                    active ? 'bg-red-700 text-white' : 'bg-gray-100 text-gray-500 hover:bg-gray-200'
+                    active ? 'bg-accent text-white' : 'bg-line-soft text-muted hover:bg-line'
                   }`}
                 >
                   {/* priority number only shown when more than one sort is active */}
@@ -408,8 +408,8 @@ export default function KonjugationPage() {
             return (
               <div
                 key={record.id}
-                className={`bg-white rounded-xl border-2 shadow-sm transition-colors ${
-                  isPracticing ? 'border-red-300' : 'border-gray-100'
+                className={`bg-surface rounded-xl border-2 shadow-sm transition-colors ${
+                  isPracticing ? 'border-red-300' : 'border-line'
                 }`}
               >
                 <div className="p-4 space-y-3">
@@ -417,7 +417,7 @@ export default function KonjugationPage() {
                   <div className="flex items-start justify-between gap-3">
                     <div className="min-w-0 flex-1">
                       <div className="flex items-center gap-2 flex-wrap">
-                        <span className="font-bold text-gray-900 text-lg">{record.verb}</span>
+                        <span className="font-bold text-ink text-lg">{record.verb}</span>
                         {record.mastered ? (
                           <span className="text-xs bg-green-100 text-green-700 px-2 py-0.5 rounded-md font-medium">
                             ✓ {t('Mastered', 'Gemeistert')}
@@ -428,7 +428,7 @@ export default function KonjugationPage() {
                           </span>
                         ) : null}
                       </div>
-                      <p className="text-xs text-gray-400 mt-0.5">
+                      <p className="text-xs text-muted mt-0.5">
                         {record.sections.length} {t('tenses', 'Zeitformen')} · {record.totalAttempts}× {t('practiced', 'geübt')} ·{' '}
                         {timeAgo(record.lastAttempted, t)} ·{' '}
                         {isVerbDue(record) ? (
@@ -442,7 +442,7 @@ export default function KonjugationPage() {
                       onClick={() => startPractice(record)}
                       className={`shrink-0 text-sm font-medium px-3 py-1.5 rounded-lg transition-colors ${
                         isPracticing
-                          ? 'bg-gray-100 text-gray-500'
+                          ? 'bg-line-soft text-muted'
                           : 'bg-red-50 text-red-700 hover:bg-red-100'
                       }`}
                     >
@@ -456,7 +456,7 @@ export default function KonjugationPage() {
                   {/* Per-tense breakdown toggle */}
                   <button
                     onClick={() => toggleExpand(record.id)}
-                    className="text-xs text-gray-400 hover:text-gray-600 transition-colors"
+                    className="text-xs text-muted hover:text-ink transition-colors"
                   >
                     {isExpanded ? t('Hide tenses ▲', 'Zeitformen ausblenden ▲') : t(`Show ${record.sections.length} tenses ▼`, `${record.sections.length} Zeitformen zeigen ▼`)}
                   </button>
@@ -471,7 +471,7 @@ export default function KonjugationPage() {
                         return (
                           <div key={s.tense} className="space-y-1">
                             <div className="flex items-center justify-between text-xs">
-                              <span className="text-gray-600 font-medium">{tenseName(s.tenseName_de, uiLang)}</span>
+                              <span className="text-muted font-medium">{tenseName(s.tenseName_de, uiLang)}</span>
                               <span
                                 className={`font-semibold ${
                                   pct === 100
@@ -488,9 +488,9 @@ export default function KonjugationPage() {
                               <div className="pl-2 space-y-0.5">
                                 {s.recentMistakes.map((m, i) => (
                                   <div key={i} className="flex items-center gap-2 text-xs">
-                                    <span className="text-gray-400 w-32 shrink-0">{m.pronoun}</span>
+                                    <span className="text-muted w-32 shrink-0">{m.pronoun}</span>
                                     <span className="text-red-400 line-through">{m.userAnswer || '–'}</span>
-                                    <span className="text-gray-300">→</span>
+                                    <span className="text-faint">→</span>
                                     <span className="text-green-700 font-medium">{m.correct}</span>
                                   </div>
                                 ))}
@@ -505,9 +505,9 @@ export default function KonjugationPage() {
 
                 {/* Inline practice */}
                 {isPracticing && (
-                  <div className="border-t border-gray-100 p-4">
+                  <div className="border-t border-line p-4">
                     {loading && (
-                      <p className="text-center text-sm text-gray-400 animate-pulse py-6">
+                      <p className="text-center text-sm text-muted animate-pulse py-6">
                         {t('Loading exercise…', 'Übung lädt …')}
                       </p>
                     )}

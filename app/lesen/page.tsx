@@ -30,8 +30,8 @@ export default function LesenPage() {
 
   if (!ready || !profile || !reading) {
     return (
-      <main className="md:ml-56 min-h-screen bg-gray-50 flex items-center justify-center">
-        <p className="text-gray-400 text-sm">{t('Loading…', 'Lädt …')}</p>
+      <main className="md:ml-56 min-h-screen bg-canvas flex items-center justify-center">
+        <p className="text-muted text-sm">{t('Loading…', 'Lädt …')}</p>
       </main>
     );
   }
@@ -68,13 +68,13 @@ export default function LesenPage() {
   const readCount = texts.filter(t => done[t.id]).length;
 
   return (
-    <main className="md:ml-56 min-h-screen bg-gray-50 pb-24 md:pb-8">
+    <main className="md:ml-56 min-h-screen bg-canvas pb-24 md:pb-8">
       <div className="max-w-xl mx-auto p-5 space-y-5">
         <div>
-          <h1 className="text-2xl font-bold text-gray-900 flex items-center gap-2">
+          <h1 className="text-2xl font-bold text-ink flex items-center gap-2">
             <span>📰</span> {t('Reading', 'Lesen')}
           </h1>
-          <p className="text-gray-400 text-sm mt-0.5">
+          <p className="text-muted text-sm mt-0.5">
             {t(
               'Short texts from A1 to B1. Tap any word to see what it means, listen along, then answer a few questions.',
               'Kurze Texte von A1 bis B1. Tippe auf ein Wort, um seine Bedeutung zu sehen, hör mit und beantworte danach ein paar Fragen.',
@@ -84,8 +84,8 @@ export default function LesenPage() {
         </div>
 
         {texts.length === 0 && (
-          <div className="bg-white rounded-xl border border-gray-200 p-6 text-center">
-            <p className="text-sm text-gray-500">{t(`No texts for ${langInfo(lang).name} yet.`, `Noch keine Texte auf ${langInfo(lang).nameDe}.`)}</p>
+          <div className="bg-surface rounded-xl border border-line p-6 text-center">
+            <p className="text-sm text-muted">{t(`No texts for ${langInfo(lang).name} yet.`, `Noch keine Texte auf ${langInfo(lang).nameDe}.`)}</p>
           </div>
         )}
 
@@ -96,8 +96,8 @@ export default function LesenPage() {
           return (
             <section key={level.id} className="space-y-3">
               <h2 className="flex items-baseline justify-between px-1">
-                <span className="text-sm font-bold text-gray-800">{level.label}</span>
-                <span className="text-xs text-gray-400">
+                <span className="text-sm font-bold text-ink">{level.label}</span>
+                <span className="text-xs text-muted">
                   {list.filter(x => done[x.id]).length}/{list.length} {t('read', 'gelesen')}
                 </span>
               </h2>
@@ -107,14 +107,14 @@ export default function LesenPage() {
                   <button
                     key={text.id}
                     onClick={() => { setOpenId(text.id); window.scrollTo(0, 0); }}
-                    className={`w-full text-left bg-white rounded-xl border border-gray-100 shadow-sm p-4 flex items-center gap-3 hover:bg-gray-50 transition-colors ${
+                    className={`w-full text-left bg-surface rounded-xl border border-line p-4 flex items-center gap-3 hover:bg-canvas transition-colors ${
                       muted ? 'opacity-80' : ''
                     }`}
                   >
                     <span className="text-2xl shrink-0">{text.icon}</span>
                     <span className="min-w-0 flex-1">
-                      <span className="block font-semibold text-gray-900">{text.title}</span>
-                      <span className="block text-xs text-gray-400">{text.titleDe}</span>
+                      <span className="block font-semibold text-ink">{text.title}</span>
+                      <span className="block text-xs text-muted">{text.titleDe}</span>
                     </span>
                     {rec ? (
                       <span
@@ -125,7 +125,7 @@ export default function LesenPage() {
                         ✓ {rec.correct}/{rec.total}
                       </span>
                     ) : (
-                      <span className="shrink-0 text-xs font-medium px-2 py-1 rounded-lg bg-gray-100 text-gray-500">{t('New', 'Neu')}</span>
+                      <span className="shrink-0 text-xs font-medium px-2 py-1 rounded-lg bg-line-soft text-muted">{t('New', 'Neu')}</span>
                     )}
                   </button>
                 );
@@ -235,46 +235,46 @@ function Reader({
   }
 
   return (
-    <main className="md:ml-56 min-h-screen bg-gray-50 pb-48 md:pb-40">
+    <main className="md:ml-56 min-h-screen bg-canvas pb-48 md:pb-40">
       <div className="max-w-xl mx-auto p-5 space-y-5">
         <div className="flex items-center justify-between gap-3">
-          <button onClick={onBack} className="text-sm text-gray-500 hover:text-gray-800">← {t('All texts', 'Alle Texte')}</button>
-          <span className="text-xs font-semibold px-2 py-0.5 rounded-md bg-gray-100 text-gray-500">{text.level}</span>
+          <button onClick={onBack} className="text-sm text-muted hover:text-ink">← {t('All texts', 'Alle Texte')}</button>
+          <span className="text-xs font-semibold px-2 py-0.5 rounded-md bg-line-soft text-muted">{text.level}</span>
         </div>
 
         <div>
-          <h1 className="text-2xl font-bold text-gray-900 flex items-center gap-2">
+          <h1 className="text-2xl font-bold text-ink flex items-center gap-2">
             <span>{text.icon}</span> {text.title}
           </h1>
-          <p className="text-gray-400 text-sm mt-0.5">{text.titleDe}</p>
+          <p className="text-muted text-sm mt-0.5">{text.titleDe}</p>
         </div>
 
         <div className="flex flex-wrap items-center gap-2">
           <button
             onClick={() => readAll()}
-            className="px-3 py-1.5 rounded-lg bg-red-700 hover:bg-red-800 text-white text-sm font-semibold transition-colors"
+            className="px-3 py-1.5 rounded-lg bg-accent hover:bg-accent-strong text-white text-sm font-semibold transition-colors"
           >
             🔊 {t('Listen', 'Anhören')}
           </button>
           <button
             onClick={() => readAll(SLOW_RATE)}
-            className="px-3 py-1.5 rounded-lg bg-gray-100 hover:bg-gray-200 text-gray-700 text-sm font-semibold transition-colors"
+            className="px-3 py-1.5 rounded-lg bg-line-soft hover:bg-line text-ink text-sm font-semibold transition-colors"
           >
             🐢 {t('Slowly', 'Langsam')}
           </button>
           <button
             onClick={() => { readingAll.current = false; stopSpeaking(); }}
-            className="px-3 py-1.5 rounded-lg bg-gray-100 hover:bg-gray-200 text-gray-700 text-sm font-semibold transition-colors"
+            className="px-3 py-1.5 rounded-lg bg-line-soft hover:bg-line text-ink text-sm font-semibold transition-colors"
           >
             ⏹ {t('Stop', 'Stopp')}
           </button>
-          <span className="text-xs text-gray-400">{t('Tap a word for its meaning.', 'Tippe auf ein Wort für die Bedeutung.')}</span>
+          <span className="text-xs text-muted">{t('Tap a word for its meaning.', 'Tippe auf ein Wort für die Bedeutung.')}</span>
         </div>
 
-        <article className="bg-white rounded-2xl border border-gray-100 shadow-sm p-5 space-y-5">
+        <article className="bg-surface rounded-2xl border border-line p-5 space-y-5">
           {paragraphs.map((tokens, p) => (
             <div key={p} className="space-y-2">
-              <p className="text-[17px] leading-8 text-gray-900 whitespace-pre-line">
+              <p className="text-[17px] leading-8 text-ink whitespace-pre-line">
                 {tokens.map((tok, t) =>
                   tok.word ? (
                     <span
@@ -304,13 +304,13 @@ function Reader({
                       return n;
                     })
                   }
-                  className="text-xs text-gray-400 hover:text-gray-600"
+                  className="text-xs text-muted hover:text-ink"
                 >
                   🇩🇪 {showDe.has(p) ? t('Hide translation', 'Übersetzung ausblenden') : t('Translation', 'Übersetzung')}
                 </button>
               </div>
               {showDe.has(p) && (
-                <p className="text-sm text-gray-500 italic leading-relaxed whitespace-pre-line bg-gray-50 rounded-lg p-3">
+                <p className="text-sm text-muted italic leading-relaxed whitespace-pre-line bg-canvas rounded-lg p-3">
                   {text.translation[p]}
                 </p>
               )}
@@ -319,11 +319,11 @@ function Reader({
         </article>
 
         {/* Comprehension questions */}
-        <section className="bg-white rounded-2xl border border-gray-100 shadow-sm p-5 space-y-4">
-          <h2 className="font-bold text-gray-900">{t('Did you understand it?', 'Hast du es verstanden?')}</h2>
+        <section className="bg-surface rounded-2xl border border-line p-5 space-y-4">
+          <h2 className="font-bold text-ink">{t('Did you understand it?', 'Hast du es verstanden?')}</h2>
           {text.questions.map((q, i) => (
             <div key={i} className="space-y-2">
-              <p className="text-sm font-medium text-gray-800">{i + 1}. {q.q}</p>
+              <p className="text-sm font-medium text-ink">{i + 1}. {q.q}</p>
               <div className="grid gap-1.5">
                 {q.options.map((opt, o) => {
                   const picked = answers[i] === o;
@@ -341,7 +341,7 @@ function Reader({
                           ? 'border-red-400 bg-red-50 text-red-700'
                           : picked
                           ? 'border-red-600 bg-red-50 text-red-800'
-                          : 'border-gray-200 text-gray-700 hover:bg-gray-50'
+                          : 'border-line text-ink hover:bg-canvas'
                       }`}
                     >
                       {opt}
@@ -355,7 +355,7 @@ function Reader({
             <button
               onClick={check}
               disabled={answers.some(a => a === null)}
-              className="w-full py-3 bg-red-700 hover:bg-red-800 disabled:bg-gray-200 disabled:text-gray-400 text-white rounded-xl font-semibold transition-colors"
+              className="w-full py-3 bg-accent hover:bg-accent-strong disabled:bg-line disabled:text-faint text-white rounded-xl font-semibold transition-colors"
             >
               {t('Check answers', 'Antworten prüfen')}
             </button>
@@ -372,14 +372,14 @@ function Reader({
               <div className="flex gap-2">
                 <button
                   onClick={onBack}
-                  className="flex-1 py-2.5 border border-gray-200 hover:bg-gray-50 text-gray-600 rounded-xl text-sm transition-colors"
+                  className="flex-1 py-2.5 border border-line hover:bg-canvas text-muted rounded-xl text-sm transition-colors"
                 >
                   {t('All texts', 'Alle Texte')}
                 </button>
                 {onNext && (
                   <button
                     onClick={onNext}
-                    className="flex-1 py-2.5 bg-gray-900 hover:bg-gray-800 text-white rounded-xl text-sm font-semibold transition-colors"
+                    className="flex-1 py-2.5 bg-ink hover:bg-ink/85 text-white rounded-xl text-sm font-semibold transition-colors"
                   >
                     {t('Next text →', 'Nächster Text →')}
                   </button>
@@ -393,27 +393,27 @@ function Reader({
       {/* Word panel */}
       {selected && (
         <div className="fixed left-0 right-0 bottom-[calc(4rem+env(safe-area-inset-bottom))] md:bottom-4 md:left-56 z-40 px-3">
-          <div className="max-w-xl mx-auto bg-white rounded-2xl border border-gray-200 shadow-xl p-4 space-y-2">
+          <div className="max-w-xl mx-auto bg-surface rounded-2xl border border-line shadow-xl p-4 space-y-2">
             <div className="flex items-start justify-between gap-3">
               <div className="min-w-0">
-                <p className="text-lg font-bold text-gray-900 flex items-center gap-2">
+                <p className="text-lg font-bold text-ink flex items-center gap-2">
                   {selected.text}
                   <SpeakButton text={selected.text} lang={lang} />
                 </p>
                 {selected.info ? (
                   <>
-                    <p className="text-sm text-gray-700">{selected.info.de}</p>
-                    {selected.info.also && <p className="text-xs text-gray-500">{t('also', 'auch')}: {selected.info.also}</p>}
-                    {selected.info.note && <p className="text-xs text-gray-400">{selected.info.note}</p>}
+                    <p className="text-sm text-ink">{selected.info.de}</p>
+                    {selected.info.also && <p className="text-xs text-muted">{t('also', 'auch')}: {selected.info.also}</p>}
+                    {selected.info.note && <p className="text-xs text-muted">{selected.info.note}</p>}
                   </>
                 ) : (
-                  <p className="text-sm text-gray-400">{index ? t('No translation found.', 'Keine Übersetzung gefunden.') : t('Loading dictionary…', 'Wörterbuch lädt …')}</p>
+                  <p className="text-sm text-muted">{index ? t('No translation found.', 'Keine Übersetzung gefunden.') : t('Loading dictionary…', 'Wörterbuch lädt …')}</p>
                 )}
               </div>
               <button
                 onClick={() => setSelected(null)}
                 aria-label={t('Close', 'Schließen')}
-                className="shrink-0 w-7 h-7 rounded-lg bg-gray-100 text-gray-400 hover:bg-gray-200"
+                className="shrink-0 w-7 h-7 rounded-lg bg-line-soft text-muted hover:bg-line"
               >
                 ✕
               </button>

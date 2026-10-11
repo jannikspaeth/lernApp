@@ -50,7 +50,7 @@ export default function SpeakButton({
       title={slow ? t('Read aloud slowly', 'Langsam vorlesen') : t('Read aloud', 'Vorlesen')}
       aria-label={slow ? t('Read aloud slowly', 'Langsam vorlesen') : t('Read aloud', 'Vorlesen')}
       className={`inline-flex items-center justify-center gap-1 px-1.5 rounded-full shrink-0 transition-colors ${dims} ${
-        playing ? 'bg-red-100 text-red-700' : 'bg-gray-100 text-gray-500 hover:bg-gray-200 hover:text-gray-700'
+        playing ? 'bg-red-100 text-red-700' : 'bg-line-soft text-muted hover:bg-line hover:text-ink'
       } ${className}`}
     >
       <span aria-hidden>{slow ? '🐢' : '🔊'}</span>

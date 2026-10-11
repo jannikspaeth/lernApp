@@ -151,8 +151,8 @@ export default function HeutePage() {
 
   if (!ready || !profile || !vocabPack || !verbPack) {
     return (
-      <main className="md:ml-56 min-h-screen bg-gray-50 flex items-center justify-center">
-        <p className="text-gray-400 text-sm">{t('Loading…', 'Lädt …')}</p>
+      <main className="md:ml-56 min-h-screen bg-canvas flex items-center justify-center">
+        <p className="text-muted text-sm">{t('Loading…', 'Lädt …')}</p>
       </main>
     );
   }
@@ -376,7 +376,7 @@ export default function HeutePage() {
           <TypeCard
             key={key}
             label={`${t('Conjugate', 'Konjugiere')} · ${tenseName(step.tenseLabel, uiLang)}`}
-            prompt={<span><span className="text-gray-400 font-medium">{step.pronoun}</span> ＿＿</span>}
+            prompt={<span><span className="text-muted font-medium">{step.pronoun}</span> ＿＿</span>}
             sub={step.verb}
             answer={step.answer}
             check={v => ({ correct: conjugationMatches(v, step.answer) })}
@@ -452,7 +452,7 @@ export default function HeutePage() {
           <TypeCard
             key={key}
             label={`${t('Conjugate', 'Konjugiere')} · ${tenseName(m.hint ?? '', uiLang)}`}
-            prompt={<span><span className="text-gray-400 font-medium">{m.prompt}</span> ＿＿</span>}
+            prompt={<span><span className="text-muted font-medium">{m.prompt}</span> ＿＿</span>}
             sub={last}
             answer={m.answer}
             check={v => ({ correct: conjugationMatches(v, m.answer) })}
@@ -521,13 +521,13 @@ export default function HeutePage() {
   const active = (mode === 'round' || mode === 'mistakes') && steps.length > 0;
 
   return (
-    <main className="md:ml-56 min-h-screen bg-gray-50 pb-24 md:pb-8">
+    <main className="md:ml-56 min-h-screen bg-canvas pb-24 md:pb-8">
       <div className="max-w-xl mx-auto p-5 space-y-5">
         <div>
-          <h1 className="text-2xl font-bold text-gray-900 flex items-center gap-2">
+          <h1 className="text-2xl font-bold text-ink flex items-center gap-2">
             <span>☀️</span> {t('Today', 'Heute')}
           </h1>
-          <p className="text-gray-400 text-sm mt-0.5">
+          <p className="text-muted text-sm mt-0.5">
             {new Date().toLocaleDateString(uiLang === 'de' ? 'de-DE' : 'en-GB', { weekday: 'long', day: 'numeric', month: 'long' })} · {info.flag} {langName}
           </p>
         </div>
@@ -538,14 +538,14 @@ export default function HeutePage() {
 
         {active && !finished && steps[idx] && (
           <div className="space-y-3">
-            <div className="flex items-center justify-between text-xs text-gray-400">
-              <span className="font-medium text-gray-600">{block(steps[idx].kind)}</span>
+            <div className="flex items-center justify-between text-xs text-muted">
+              <span className="font-medium text-muted">{block(steps[idx].kind)}</span>
               <div className="flex items-center gap-3">
                 <span className="tabular-nums">{idx + 1} / {steps.length}</span>
-                <button onClick={backHome} className="hover:text-gray-600 transition-colors">{t('Finish', 'Beenden')}</button>
+                <button onClick={backHome} className="hover:text-ink transition-colors">{t('Finish', 'Beenden')}</button>
               </div>
             </div>
-            <div className="h-1 bg-gray-100 rounded-full overflow-hidden">
+            <div className="h-1 bg-line-soft rounded-full overflow-hidden">
               <div
                 className="h-full bg-red-600 rounded-full transition-all"
                 style={{ width: `${Math.round((idx / steps.length) * 100)}%` }}
@@ -556,20 +556,20 @@ export default function HeutePage() {
         )}
 
         {active && finished && (
-          <div className="bg-white rounded-2xl border border-gray-200 p-6 text-center space-y-4">
+          <div className="bg-surface rounded-2xl border border-line p-6 text-center space-y-4">
             <p className="text-4xl">{mode === 'round' ? '🎉' : '💪'}</p>
-            <p className="font-semibold text-gray-900">
+            <p className="font-semibold text-ink">
               {mode === 'round' ? t("Today's round is done!", 'Die Tagesrunde ist geschafft!') : t('Mistake training done', 'Fehlertraining geschafft')}
             </p>
             <div className="space-y-1">
               {(Object.entries(tally) as [RoundStep['kind'], { c: number; t: number }][]).map(([k, v]) => (
-                <p key={k} className="text-sm text-gray-500">
-                  {block(k)}: <span className="font-semibold text-gray-800">{v.c} / {v.t}</span>
+                <p key={k} className="text-sm text-muted">
+                  {block(k)}: <span className="font-semibold text-ink">{v.c} / {v.t}</span>
                 </p>
               ))}
             </div>
             {mode === 'mistakes' && (
-              <p className="text-xs text-gray-400">
+              <p className="text-xs text-muted">
                 {t(
                   `A mistake disappears after you get it right ${MISTAKE_CLEAR_AFTER}× in a row.`,
                   `Ein Fehler verschwindet, wenn du ihn ${MISTAKE_CLEAR_AFTER}× hintereinander richtig hast.`,
@@ -579,14 +579,14 @@ export default function HeutePage() {
             <div className="flex gap-2 justify-center">
               <button
                 onClick={backHome}
-                className="px-4 py-2.5 border border-gray-200 hover:bg-gray-50 text-gray-600 rounded-xl text-sm transition-colors"
+                className="px-4 py-2.5 border border-line hover:bg-canvas text-muted rounded-xl text-sm transition-colors"
               >
                 {t('Done', 'Fertig')}
               </button>
               {mistakes.length > 0 && (
                 <button
                   onClick={() => { setFilter('all'); begin('mistakes', pickTraining(mistakes).map(m => ({ kind: 'mistake', mistake: m }))); }}
-                  className="px-4 py-2.5 bg-amber-500 hover:bg-amber-600 text-white rounded-xl text-sm font-semibold transition-colors"
+                  className="px-4 py-2.5 bg-accent hover:bg-accent-strong text-white rounded-xl text-sm font-semibold transition-colors"
                 >
                   {t('Practise mistakes', 'Fehler üben')} ({mistakes.length}) →
                 </button>
@@ -598,11 +598,11 @@ export default function HeutePage() {
         {mode === 'home' && (
           <>
             {/* Daily round */}
-            <section className="bg-white rounded-2xl border border-gray-100 shadow-sm p-5 space-y-4">
+            <section className="bg-surface rounded-2xl border border-line p-5 space-y-4">
               <div className="flex items-start justify-between gap-3">
                 <div>
-                  <h2 className="font-bold text-gray-900 text-lg">{t('Today’s round', 'Tagesrunde')}</h2>
-                  <p className="text-sm text-gray-500 mt-0.5">
+                  <h2 className="font-bold text-ink text-lg">{t('Today’s round', 'Tagesrunde')}</h2>
+                  <p className="text-sm text-muted mt-0.5">
                     {t(
                       'A bit of everything, about 10 minutes – no need to decide what to practise.',
                       'Von allem etwas, etwa 10 Minuten – ohne zu überlegen, was du üben sollst.',
@@ -616,13 +616,13 @@ export default function HeutePage() {
                 )}
               </div>
               <div className="flex flex-wrap gap-1.5 text-xs">
-                <span className="px-2 py-1 rounded-lg bg-gray-100 text-gray-600">📖 {ROUND_PLAN.vocab} {t('words', 'Wörter')}</span>
-                <span className="px-2 py-1 rounded-lg bg-gray-100 text-gray-600">🔤 {ROUND_PLAN.verbs} {t('verb forms', 'Verbformen')}</span>
-                <span className="px-2 py-1 rounded-lg bg-gray-100 text-gray-600">📘 {ROUND_PLAN.grammar} {t('grammar', 'Grammatik')}</span>
-                <span className="px-2 py-1 rounded-lg bg-gray-100 text-gray-600">✍️ {ROUND_PLAN.sentences} {t('sentences', 'Sätze')}</span>
-                <span className="px-2 py-1 rounded-lg bg-gray-100 text-gray-600">🎧 {ROUND_PLAN.dictation} {t('dictation', 'Diktat')}</span>
+                <span className="px-2 py-1 rounded-lg bg-line-soft text-muted">📖 {ROUND_PLAN.vocab} {t('words', 'Wörter')}</span>
+                <span className="px-2 py-1 rounded-lg bg-line-soft text-muted">🔤 {ROUND_PLAN.verbs} {t('verb forms', 'Verbformen')}</span>
+                <span className="px-2 py-1 rounded-lg bg-line-soft text-muted">📘 {ROUND_PLAN.grammar} {t('grammar', 'Grammatik')}</span>
+                <span className="px-2 py-1 rounded-lg bg-line-soft text-muted">✍️ {ROUND_PLAN.sentences} {t('sentences', 'Sätze')}</span>
+                <span className="px-2 py-1 rounded-lg bg-line-soft text-muted">🎧 {ROUND_PLAN.dictation} {t('dictation', 'Diktat')}</span>
               </div>
-              <p className="text-xs text-gray-400">
+              <p className="text-xs text-muted">
                 {t(
                   'Reviews that are due come first, then new material. Everything counts for the race.',
                   'Zuerst kommt, was fällig ist, dann Neues. Alles zählt fürs Rennen.',
@@ -631,7 +631,7 @@ export default function HeutePage() {
               <button
                 onClick={startRound}
                 disabled={building}
-                className="w-full py-3 bg-red-700 hover:bg-red-800 disabled:bg-gray-300 text-white rounded-xl font-semibold transition-colors"
+                className="w-full py-3 bg-accent hover:bg-accent-strong disabled:bg-gray-300 text-white rounded-xl font-semibold transition-colors"
               >
                 {building
                   ? t('Putting your round together…', 'Deine Runde wird zusammengestellt …')
@@ -642,11 +642,11 @@ export default function HeutePage() {
             </section>
 
             {/* My mistakes */}
-            <section className="bg-white rounded-2xl border border-gray-100 shadow-sm p-5 space-y-4">
+            <section className="bg-surface rounded-2xl border border-line p-5 space-y-4">
               <div className="flex items-start justify-between gap-3">
                 <div>
-                  <h2 className="font-bold text-gray-900 text-lg">🩹 {t('My mistakes', 'Meine Fehler')}</h2>
-                  <p className="text-sm text-gray-500 mt-0.5">
+                  <h2 className="font-bold text-ink text-lg">🩹 {t('My mistakes', 'Meine Fehler')}</h2>
+                  <p className="text-sm text-muted mt-0.5">
                     {t(
                       `Everything you got wrong – words, verbs, grammar, sentences, dictation. Get it right ${MISTAKE_CLEAR_AFTER}× in a row and it disappears.`,
                       `Alles, was du falsch hattest – Wörter, Verben, Grammatik, Sätze, Diktat. Hast du es ${MISTAKE_CLEAR_AFTER}× hintereinander richtig, verschwindet es.`,
@@ -657,7 +657,7 @@ export default function HeutePage() {
               </div>
 
               {mistakes.length === 0 ? (
-                <p className="text-sm text-gray-400 text-center py-2">
+                <p className="text-sm text-muted text-center py-2">
                   {extras ? t('No mistakes collected – great! 🎉', 'Keine Fehler gesammelt – super! 🎉') : t('Loading…', 'Lädt …')}
                 </p>
               ) : (
@@ -671,7 +671,7 @@ export default function HeutePage() {
                           key={k.id}
                           onClick={() => setFilter(k.id)}
                           className={`px-2.5 py-1 rounded-lg text-xs font-medium transition-colors ${
-                            filter === k.id ? 'bg-red-700 text-white' : 'bg-gray-100 text-gray-500 hover:bg-gray-200'
+                            filter === k.id ? 'bg-accent text-white' : 'bg-line-soft text-muted hover:bg-line'
                           }`}
                         >
                           {k.icon} {t(k.label, k.labelDe)} <span className="opacity-70">{n}</span>
@@ -681,13 +681,13 @@ export default function HeutePage() {
                   </div>
                   <button
                     onClick={startMistakes}
-                    className="w-full py-3 bg-amber-500 hover:bg-amber-600 text-white rounded-xl font-semibold transition-colors"
+                    className="w-full py-3 bg-accent hover:bg-accent-strong text-white rounded-xl font-semibold transition-colors"
                   >
                     {t('Practise mistakes →', 'Fehler üben →')}
                   </button>
                   <button
                     onClick={() => setMode('list')}
-                    className="w-full text-xs text-gray-400 hover:text-gray-600"
+                    className="w-full text-xs text-muted hover:text-ink"
                   >
                     {t('Show all mistakes', 'Alle Fehler anzeigen')}
                   </button>
@@ -697,15 +697,15 @@ export default function HeutePage() {
 
             {/* More to do */}
             <section className="grid grid-cols-2 gap-3">
-              <Link href="/lesen" className="bg-white rounded-2xl border border-gray-100 shadow-sm p-4 hover:bg-gray-50 transition-colors">
+              <Link href="/lesen" className="bg-surface rounded-2xl border border-line p-4 hover:bg-canvas transition-colors">
                 <p className="text-2xl">📰</p>
-                <p className="font-semibold text-gray-900 text-sm mt-1">{t('Reading', 'Lesen')}</p>
-                <p className="text-xs text-gray-400">{t('Short stories with tap-to-translate', 'Kurze Geschichten, Wörter per Antippen übersetzen')}</p>
+                <p className="font-semibold text-ink text-sm mt-1">{t('Reading', 'Lesen')}</p>
+                <p className="text-xs text-muted">{t('Short stories with tap-to-translate', 'Kurze Geschichten, Wörter per Antippen übersetzen')}</p>
               </Link>
-              <Link href="/saetze" className="bg-white rounded-2xl border border-gray-100 shadow-sm p-4 hover:bg-gray-50 transition-colors">
+              <Link href="/saetze" className="bg-surface rounded-2xl border border-line p-4 hover:bg-canvas transition-colors">
                 <p className="text-2xl">🎧</p>
-                <p className="font-semibold text-gray-900 text-sm mt-1">{t('Dictation', 'Diktat')}</p>
-                <p className="text-xs text-gray-400">{t('Listen and write it down', 'Hören und aufschreiben')}</p>
+                <p className="font-semibold text-ink text-sm mt-1">{t('Dictation', 'Diktat')}</p>
+                <p className="text-xs text-muted">{t('Listen and write it down', 'Hören und aufschreiben')}</p>
               </Link>
             </section>
           </>
@@ -714,22 +714,22 @@ export default function HeutePage() {
         {mode === 'list' && (
           <div className="space-y-3">
             <div className="flex items-center justify-between">
-              <h2 className="font-bold text-gray-900">{t('All mistakes', 'Alle Fehler')} ({mistakes.length})</h2>
-              <button onClick={() => setMode('home')} className="text-sm text-gray-500 hover:text-gray-800">← {t('Back', 'Zurück')}</button>
+              <h2 className="font-bold text-ink">{t('All mistakes', 'Alle Fehler')} ({mistakes.length})</h2>
+              <button onClick={() => setMode('home')} className="text-sm text-muted hover:text-ink">← {t('Back', 'Zurück')}</button>
             </div>
             {mistakes.map(m => (
-              <div key={m.id} className="bg-white rounded-xl border border-gray-100 p-3 flex items-start gap-3">
+              <div key={m.id} className="bg-surface rounded-xl border border-line p-3 flex items-start gap-3">
                 <span className="text-lg shrink-0" title={t(kindInfo(m.kind).label, kindInfo(m.kind).labelDe)}>{kindInfo(m.kind).icon}</span>
                 <div className="min-w-0 flex-1 text-sm">
-                  <p className="text-gray-700">
-                    {m.kind === 'verb' && <span className="text-gray-400">{tenseName(m.hint ?? '', uiLang)} · </span>}
+                  <p className="text-ink">
+                    {m.kind === 'verb' && <span className="text-muted">{tenseName(m.hint ?? '', uiLang)} · </span>}
                     {m.kind === 'grammar' ? m.prompt.replace('___', '＿') : m.prompt}
                   </p>
                   <p className="font-semibold text-green-700 flex items-center gap-2">
                     {m.answer}
                     {m.speak && <SpeakButton text={m.speak} lang={lang} />}
                   </p>
-                  <p className="text-xs text-gray-400">
+                  <p className="text-xs text-muted">
                     {m.wrong}× {t('wrong', 'falsch')}{m.userAnswer ? ` · ${t('last', 'zuletzt')}: „${m.userAnswer}“` : ''}
                     {m.right > 0 ? ` · ${m.right}/${MISTAKE_CLEAR_AFTER} ${t('right', 'richtig')}` : ''}
                   </p>
@@ -742,7 +742,7 @@ export default function HeutePage() {
                     );
                   }}
                   title={t('Remove', 'Entfernen')}
-                  className="shrink-0 w-7 h-7 rounded-lg bg-gray-100 text-gray-400 hover:bg-red-100 hover:text-red-600 transition-colors"
+                  className="shrink-0 w-7 h-7 rounded-lg bg-line-soft text-muted hover:bg-red-100 hover:text-red-600 transition-colors"
                 >
                   ✕
                 </button>

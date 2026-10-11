@@ -214,8 +214,8 @@ export default function VokabelnPage() {
 
   if (!ready || !profile || !pack) {
     return (
-      <main className="md:ml-56 min-h-screen bg-gray-50 flex items-center justify-center">
-        <p className="text-gray-400 text-sm">{t('Loading…', 'Lädt …')}</p>
+      <main className="md:ml-56 min-h-screen bg-canvas flex items-center justify-center">
+        <p className="text-muted text-sm">{t('Loading…', 'Lädt …')}</p>
       </main>
     );
   }
@@ -561,7 +561,7 @@ export default function VokabelnPage() {
     }
     wordSections = [...buckets.entries()]
       .sort((a, b) => a[1].sortKey.localeCompare(b[1].sortKey))
-      .map(([key, b]) => ({ key, label: b.label, badgeClass: 'bg-gray-100 text-gray-600', entries: b.entries }));
+      .map(([key, b]) => ({ key, label: b.label, badgeClass: 'bg-line-soft text-muted', entries: b.entries }));
   } else if (group === 'topic') {
     const byTopic = new Map<string, VocabEntry[]>();
     for (const w of wordsFiltered) {
@@ -575,7 +575,7 @@ export default function VokabelnPage() {
         return {
           key: `topic:${id}`,
           label: info ? `${info.icon} ${info.label}` : `✏️ ${t('Own words', 'Eigene Wörter')}`,
-          badgeClass: 'bg-gray-100 text-gray-600',
+          badgeClass: 'bg-line-soft text-muted',
           entries: byTopic.get(id)!,
         };
       });
@@ -597,11 +597,11 @@ export default function VokabelnPage() {
     return (
       <div
         key={entry.id}
-        className="bg-white rounded-xl border border-gray-100 p-3.5 flex items-start gap-3"
+        className="bg-surface rounded-xl border border-line p-3.5 flex items-start gap-3"
       >
         <div className="min-w-0 flex-1">
           <div className="flex items-center gap-2 flex-wrap">
-            <p className="font-semibold text-gray-900 text-sm">
+            <p className="font-semibold text-ink text-sm">
               {entry.word}
             </p>
             <SpeakButton text={entry.word} lang={lang} />
@@ -609,16 +609,16 @@ export default function VokabelnPage() {
               {levelLabel(level, t)}
             </span>
           </div>
-          <p className="text-gray-500 text-sm">
+          <p className="text-muted text-sm">
             {entry.translation}
           </p>
           {level < VOCAB_KNOWN_LEVEL && reviewDate && (
-            <p className="text-gray-400 text-xs mt-0.5">
+            <p className="text-muted text-xs mt-0.5">
               {t('Next review', 'Nächste Wiederholung')}: {reviewDate}
             </p>
           )}
           {entry.example && (
-            <p className="text-gray-400 text-xs mt-0.5 italic">&bdquo;{entry.example}&ldquo;</p>
+            <p className="text-muted text-xs mt-0.5 italic">&bdquo;{entry.example}&ldquo;</p>
           )}
         </div>
         <div className="flex flex-col gap-1 shrink-0">
@@ -626,7 +626,7 @@ export default function VokabelnPage() {
             onClick={() => setWordLevel(entry, level + 1)}
             disabled={level >= VOCAB_KNOWN_LEVEL}
             title={t('Move up a phase', 'Eine Phase hoch')}
-            className="w-7 h-7 flex items-center justify-center rounded-lg bg-gray-100 text-gray-500 hover:bg-green-100 hover:text-green-700 disabled:opacity-30 disabled:hover:bg-gray-100 disabled:hover:text-gray-500 transition-colors"
+            className="w-7 h-7 flex items-center justify-center rounded-lg bg-line-soft text-muted hover:bg-green-100 hover:text-green-700 disabled:opacity-30 disabled:hover:bg-gray-100 disabled:hover:text-gray-500 transition-colors"
           >
             ▲
           </button>
@@ -634,7 +634,7 @@ export default function VokabelnPage() {
             onClick={() => setWordLevel(entry, level - 1)}
             disabled={level <= 1}
             title={t('Move down a phase', 'Eine Phase runter')}
-            className="w-7 h-7 flex items-center justify-center rounded-lg bg-gray-100 text-gray-500 hover:bg-amber-100 hover:text-amber-700 disabled:opacity-30 disabled:hover:bg-gray-100 disabled:hover:text-gray-500 transition-colors"
+            className="w-7 h-7 flex items-center justify-center rounded-lg bg-line-soft text-muted hover:bg-amber-100 hover:text-amber-700 disabled:opacity-30 disabled:hover:bg-gray-100 disabled:hover:text-gray-500 transition-colors"
           >
             ▼
           </button>
@@ -647,44 +647,44 @@ export default function VokabelnPage() {
     !showAddForm ? (
       <button
         onClick={() => { setShowAddForm(true); setAddError(''); }}
-        className="w-full py-2.5 border border-dashed border-gray-300 text-gray-500 hover:border-red-400 hover:text-red-600 rounded-xl text-sm font-medium transition-colors"
+        className="w-full py-2.5 border border-dashed border-line text-muted hover:border-red-400 hover:text-red-600 rounded-xl text-sm font-medium transition-colors"
       >
         ＋ {t('Add a word', 'Wort hinzufügen')}
       </button>
     ) : (
-      <div className="bg-white rounded-xl border border-gray-200 p-4 space-y-3">
+      <div className="bg-surface rounded-xl border border-line p-4 space-y-3">
         <input
           type="text"
           value={addGerman}
           onChange={e => setAddGerman(e.target.value)}
           placeholder={t('German word', 'Deutsches Wort')}
-          className="w-full border border-gray-200 rounded-xl px-4 py-2.5 text-sm focus:border-red-400 outline-none"
+          className="w-full border border-line rounded-xl px-4 py-2.5 text-sm focus:border-accent outline-none"
         />
         <input
           type="text"
           value={addTarget}
           onChange={e => setAddTarget(e.target.value)}
           placeholder={t(`${info.name} translation`, `Auf ${info.nameDe}`)}
-          className="w-full border border-gray-200 rounded-xl px-4 py-2.5 text-sm focus:border-red-400 outline-none"
+          className="w-full border border-line rounded-xl px-4 py-2.5 text-sm focus:border-accent outline-none"
         />
         <input
           type="text"
           value={addExample}
           onChange={e => setAddExample(e.target.value)}
           placeholder={t('Example sentence (optional)', 'Beispielsatz (optional)')}
-          className="w-full border border-gray-200 rounded-xl px-4 py-2.5 text-sm focus:border-red-400 outline-none"
+          className="w-full border border-line rounded-xl px-4 py-2.5 text-sm focus:border-accent outline-none"
         />
         {addError && <p className="text-xs text-red-600">{addError}</p>}
         <div className="flex gap-2">
           <button
             onClick={handleAddWord}
-            className="flex-1 py-2.5 bg-red-700 hover:bg-red-800 text-white rounded-xl text-sm font-semibold transition-colors"
+            className="flex-1 py-2.5 bg-accent hover:bg-accent-strong text-white rounded-xl text-sm font-semibold transition-colors"
           >
             {t('Add word', 'Hinzufügen')}
           </button>
           <button
             onClick={() => { setShowAddForm(false); setAddError(''); }}
-            className="px-4 py-2.5 border border-gray-200 hover:bg-gray-50 text-gray-600 rounded-xl text-sm transition-colors"
+            className="px-4 py-2.5 border border-line hover:bg-canvas text-muted rounded-xl text-sm transition-colors"
           >
             {t('Cancel', 'Abbrechen')}
           </button>
@@ -709,23 +709,23 @@ export default function VokabelnPage() {
         onFinish={() => { setPhase('done'); drainAndRefresh(); }}
       />
     ) : phase === 'done' ? (
-      <div className="bg-white rounded-xl border border-gray-200 p-6 text-center space-y-3">
+      <div className="bg-surface rounded-xl border border-line p-6 text-center space-y-3">
         <p className="text-4xl">🎉</p>
-        <p className="font-semibold text-gray-900">{t('Session complete', 'Runde geschafft')}</p>
-        <p className="text-sm text-gray-500">
+        <p className="font-semibold text-ink">{t('Session complete', 'Runde geschafft')}</p>
+        <p className="text-sm text-muted">
           {sessionCorrect} / {doneCount} {t('correct', 'richtig')}
         </p>
         <div className="flex gap-2 justify-center pt-1">
           <button
             onClick={reset}
-            className="px-4 py-2.5 border border-gray-200 hover:bg-gray-50 text-gray-600 rounded-xl text-sm transition-colors"
+            className="px-4 py-2.5 border border-line hover:bg-canvas text-muted rounded-xl text-sm transition-colors"
           >
             {t('Done', 'Fertig')}
           </button>
           {tab === 'lernen' && unseenCount > 0 && (
             <button
               onClick={startLernen}
-              className="px-4 py-2.5 bg-red-700 hover:bg-red-800 text-white rounded-xl text-sm font-semibold transition-colors"
+              className="px-4 py-2.5 bg-accent hover:bg-accent-strong text-white rounded-xl text-sm font-semibold transition-colors"
             >
               {t('Keep learning →', 'Weiterlernen →')}
             </button>
@@ -733,7 +733,7 @@ export default function VokabelnPage() {
           {tab === 'wiederholen' && dueToday.length > 0 && (
             <button
               onClick={startWiederholen}
-              className="px-4 py-2.5 bg-amber-500 hover:bg-amber-600 text-white rounded-xl text-sm font-semibold transition-colors"
+              className="px-4 py-2.5 bg-accent hover:bg-accent-strong text-white rounded-xl text-sm font-semibold transition-colors"
             >
               {t('Keep reviewing →', 'Weiter wiederholen →')}
             </button>
@@ -743,11 +743,11 @@ export default function VokabelnPage() {
     ) : null;
 
   return (
-    <main className="md:ml-56 min-h-screen bg-gray-50 pb-24 md:pb-8">
+    <main className="md:ml-56 min-h-screen bg-canvas pb-24 md:pb-8">
       <div className="max-w-xl mx-auto p-5 space-y-5">
         <div>
-          <h1 className="text-2xl font-bold text-gray-900">{t('Vocabulary', 'Vokabeln')}</h1>
-          <p className="text-gray-400 text-sm mt-0.5">
+          <h1 className="text-2xl font-bold text-ink">{t('Vocabulary', 'Vokabeln')}</h1>
+          <p className="text-muted text-sm mt-0.5">
             {bekanntWords.length} {t('known', 'gekonnt')} · {dueToday.length} {t('due today', 'heute fällig')}
             {upcoming.length > 0 && ` · ${upcoming.length} ${t('coming up', 'demnächst')}`}
           </p>
@@ -796,22 +796,22 @@ export default function VokabelnPage() {
         )}
 
         <div className="grid grid-cols-3 gap-3">
-          <div className="bg-white rounded-xl p-3 border border-gray-100 shadow-sm text-center">
+          <div className="bg-surface rounded-xl p-3 border border-line text-center">
             <p className="text-xl font-bold text-green-600">{bekanntWords.length}</p>
-            <p className="text-xs text-gray-400 mt-0.5">{t('Known', 'Gekonnt')}</p>
+            <p className="text-xs text-muted mt-0.5">{t('Known', 'Gekonnt')}</p>
           </div>
-          <div className="bg-white rounded-xl p-3 border border-gray-100 shadow-sm text-center">
+          <div className="bg-surface rounded-xl p-3 border border-line text-center">
             <p className="text-xl font-bold text-amber-500">{dueToday.length}</p>
-            <p className="text-xs text-gray-400 mt-0.5">{t('Due today', 'Heute fällig')}</p>
+            <p className="text-xs text-muted mt-0.5">{t('Due today', 'Heute fällig')}</p>
           </div>
-          <div className="bg-white rounded-xl p-3 border border-gray-100 shadow-sm text-center">
+          <div className="bg-surface rounded-xl p-3 border border-line text-center">
             <p className="text-xl font-bold text-blue-500">{upcoming.length}</p>
-            <p className="text-xs text-gray-400 mt-0.5">{t('Coming up', 'Demnächst')}</p>
+            <p className="text-xs text-muted mt-0.5">{t('Coming up', 'Demnächst')}</p>
           </div>
         </div>
 
         {/* Tabs */}
-        <div className="flex gap-1 bg-gray-100 rounded-xl p-1">
+        <div className="flex gap-1 bg-line-soft rounded-xl p-1">
           {(
             [
               ['lernen', t('Learn', 'Lernen')],
@@ -823,7 +823,7 @@ export default function VokabelnPage() {
               key={id}
               onClick={() => switchTab(id)}
               className={`flex-1 py-2 text-xs font-medium rounded-lg transition-colors ${
-                tab === id ? 'bg-white text-gray-900 shadow-sm' : 'text-gray-500 hover:text-gray-700'
+                tab === id ? 'bg-surface text-ink shadow-sm' : 'text-muted hover:text-ink'
               }`}
             >
               {label}
@@ -836,21 +836,21 @@ export default function VokabelnPage() {
           <div className="space-y-4">
             {phase === 'idle' ? (
               <>
-                <div className="bg-white rounded-xl border border-gray-200 p-5 space-y-4">
+                <div className="bg-surface rounded-xl border border-line p-5 space-y-4">
                   <div>
-                    <p className="text-sm text-gray-600">{t('Learn new words one at a time.', 'Lerne neue Wörter, eins nach dem anderen.')}</p>
+                    <p className="text-sm text-muted">{t('Learn new words one at a time.', 'Lerne neue Wörter, eins nach dem anderen.')}</p>
                     {pack.hasTopics && (
                       <div className="mt-3">
                         <TopicPicker value={topic} onChange={setTopic} progress={topicProgress} />
                       </div>
                     )}
-                    <p className="text-xs text-gray-400 mt-3">
+                    <p className="text-xs text-muted mt-3">
                       {unseenCount > 0
                         ? t(`${unseenCount} of ${topicCatalog.length} words not seen yet`, `${unseenCount} von ${topicCatalog.length} Wörtern noch nicht gesehen`)
                         : t(`All ${topicCatalog.length} words in this topic already seen 🎉`, `Alle ${topicCatalog.length} Wörter dieses Themas schon gesehen 🎉`)}
                     </p>
                     {topicCatalog.length > 0 && (
-                      <div className="mt-2 h-1.5 bg-gray-100 rounded-full overflow-hidden">
+                      <div className="mt-2 h-1.5 bg-line-soft rounded-full overflow-hidden">
                         <div
                           className="h-full bg-green-500 rounded-full"
                           style={{ width: `${Math.round(((topicCatalog.length - unseenCount) / topicCatalog.length) * 100)}%` }}
@@ -861,7 +861,7 @@ export default function VokabelnPage() {
                   <button
                     onClick={startLernen}
                     disabled={unseenCount === 0 || !vocabLoaded}
-                    className="w-full py-3 bg-red-700 hover:bg-red-800 disabled:bg-gray-200 disabled:text-gray-400 text-white rounded-xl font-semibold transition-colors"
+                    className="w-full py-3 bg-accent hover:bg-accent-strong disabled:bg-line disabled:text-faint text-white rounded-xl font-semibold transition-colors"
                   >
                     {!vocabLoaded ? t('Loading…', 'Lädt …') : unseenCount > 0 ? t('Start learning →', 'Lernen starten →') : t('All words learned', 'Alle Wörter gelernt')}
                   </button>
@@ -883,22 +883,22 @@ export default function VokabelnPage() {
               dueToday.length === 0 ? (
                 <div className="text-center py-14">
                   <p className="text-4xl mb-3">🎉</p>
-                  <p className="text-sm font-medium text-gray-500">{t('No words due today!', 'Heute ist nichts fällig!')}</p>
+                  <p className="text-sm font-medium text-muted">{t('No words due today!', 'Heute ist nichts fällig!')}</p>
                   {upcoming.length > 0 && (
-                    <p className="text-xs text-gray-400 mt-1">
+                    <p className="text-xs text-muted mt-1">
                       {t(`${upcoming.length} words coming up soon.`, `${upcoming.length} Wörter sind bald fällig.`)}
                     </p>
                   )}
                 </div>
               ) : (
-                <div className="bg-white rounded-xl border border-gray-200 p-5 space-y-4">
-                  <p className="text-sm text-gray-600">
+                <div className="bg-surface rounded-xl border border-line p-5 space-y-4">
+                  <p className="text-sm text-muted">
                     <strong>{dueToday.length}</strong>{' '}
                     {t('words due today. Review them one at a time.', 'Wörter heute fällig. Wiederhole sie eins nach dem anderen.')}
                   </p>
                   <button
                     onClick={startWiederholen}
-                    className="w-full py-3 bg-amber-500 hover:bg-amber-600 text-white rounded-xl font-semibold transition-colors"
+                    className="w-full py-3 bg-accent hover:bg-accent-strong text-white rounded-xl font-semibold transition-colors"
                   >
                     {t('Start review →', 'Wiederholung starten →')}
                   </button>
@@ -920,7 +920,7 @@ export default function VokabelnPage() {
             {vocab.length === 0 ? (
               <div className="text-center py-14">
                 <p className="text-4xl mb-3">📚</p>
-                <p className="text-sm text-gray-400">
+                <p className="text-sm text-muted">
                   {t('No words seen yet. Start a learning round!', 'Noch keine Wörter gesehen. Starte eine Lernrunde!')}
                 </p>
               </div>
@@ -931,10 +931,10 @@ export default function VokabelnPage() {
                   value={wordSearch}
                   onChange={e => setWordSearch(e.target.value)}
                   placeholder={t('Search…', 'Suchen …')}
-                  className="w-full border border-gray-200 rounded-xl px-4 py-2.5 text-sm focus:border-red-400 outline-none"
+                  className="w-full border border-line rounded-xl px-4 py-2.5 text-sm focus:border-accent outline-none"
                 />
                 <div className="flex items-center justify-between gap-2">
-                  <p className="text-xs text-gray-400 shrink-0">{wordsFiltered.length} {t('words', 'Wörter')}</p>
+                  <p className="text-xs text-muted shrink-0">{wordsFiltered.length} {t('words', 'Wörter')}</p>
                   <div className="flex gap-1">
                     {([
                       ['alpha', 'A–Z'],
@@ -950,8 +950,8 @@ export default function VokabelnPage() {
                           }}
                           className={`px-2.5 py-1 rounded-lg text-xs font-medium transition-colors ${
                             active
-                              ? 'bg-red-700 text-white'
-                              : 'bg-gray-100 text-gray-500 hover:bg-gray-200'
+                              ? 'bg-accent text-white'
+                              : 'bg-line-soft text-muted hover:bg-line'
                           }`}
                         >
                           {label}{active ? (wordSortDir === 'asc' ? ' ↑' : ' ↓') : ''}
@@ -961,7 +961,7 @@ export default function VokabelnPage() {
                   </div>
                 </div>
                 <div className="flex items-center gap-2">
-                  <span className="text-xs text-gray-400 shrink-0">{t('Group', 'Gruppieren')}</span>
+                  <span className="text-xs text-muted shrink-0">{t('Group', 'Gruppieren')}</span>
                   <div className="flex gap-1">
                     {([
                       ['none', t('None', 'Keine')],
@@ -974,8 +974,8 @@ export default function VokabelnPage() {
                         onClick={() => setWordGroup(id)}
                         className={`px-2.5 py-1 rounded-lg text-xs font-medium transition-colors ${
                           group === id
-                            ? 'bg-red-700 text-white'
-                            : 'bg-gray-100 text-gray-500 hover:bg-gray-200'
+                            ? 'bg-accent text-white'
+                            : 'bg-line-soft text-muted hover:bg-line'
                         }`}
                       >
                         {label}
@@ -997,11 +997,11 @@ export default function VokabelnPage() {
                             onClick={() => toggleExpanded(section.key)}
                             className="w-full flex items-center gap-2 px-1 py-1 text-left"
                           >
-                            <span className="text-gray-400 text-xs w-3">{expanded ? '▾' : '▸'}</span>
+                            <span className="text-muted text-xs w-3">{expanded ? '▾' : '▸'}</span>
                             <span className={`text-xs px-1.5 py-0.5 rounded-md font-medium ${section.badgeClass}`}>
                               {section.label}
                             </span>
-                            <span className="text-xs text-gray-400 tabular-nums">{section.entries.length}</span>
+                            <span className="text-xs text-muted tabular-nums">{section.entries.length}</span>
                           </button>
                           {expanded && (
                             <div className="space-y-2">{section.entries.map(renderCard)}</div>
@@ -1083,9 +1083,9 @@ function Flashcard({
   }
 
   return (
-    <div className="bg-white rounded-xl border border-gray-200 p-5 space-y-5">
+    <div className="bg-surface rounded-xl border border-line p-5 space-y-5">
       {/* Progress header */}
-      <div className="flex items-center justify-between text-xs text-gray-400">
+      <div className="flex items-center justify-between text-xs text-muted">
         <div className="flex items-center gap-2">
           <span className="tabular-nums">{position} / {total}</span>
           <span className={`px-1.5 py-0.5 rounded-md font-medium ${LEVEL_COLORS[item.currentLevel]}`}>
@@ -1098,12 +1098,12 @@ function Flashcard({
               🔥 {combo} {t('in a row', 'in Folge')}
             </span>
           )}
-          <button onClick={onFinish} className="hover:text-gray-600 transition-colors">
+          <button onClick={onFinish} className="hover:text-ink transition-colors">
             {t('Finish', 'Beenden')}
           </button>
         </div>
       </div>
-      <div className="h-1 bg-gray-100 rounded-full overflow-hidden">
+      <div className="h-1 bg-line-soft rounded-full overflow-hidden">
         <div
           className="h-full bg-red-600 rounded-full transition-all"
           style={{ width: `${Math.round((position / total) * 100)}%` }}
@@ -1112,10 +1112,10 @@ function Flashcard({
 
       {/* Question */}
       <div className="text-center py-3">
-        <p className="text-xs text-gray-400 uppercase tracking-wide">
+        <p className="text-xs text-muted uppercase tracking-wide">
           {t('Translate', 'Übersetze')} {item.askTarget ? `${flag} → 🇩🇪` : `🇩🇪 → ${flag}`}
         </p>
-        <p className="text-3xl font-bold text-gray-900 mt-1 inline-flex items-center gap-2">
+        <p className="text-3xl font-bold text-ink mt-1 inline-flex items-center gap-2">
           {item.question}
           {item.askTarget && <SpeakButton text={item.target} lang={lang} size="md" />}
         </p>
@@ -1130,11 +1130,11 @@ function Flashcard({
             onChange={e => setAnswer(e.target.value)}
             onKeyDown={e => { if (e.key === 'Enter') setChecked(true); }}
             placeholder={item.askTarget ? t('German…', 'Deutsch …') : `${t(langInfo(lang).name, langInfo(lang).nameDe)} …`}
-            className="w-full border-b-2 border-gray-300 focus:border-red-600 bg-transparent text-lg text-center py-1.5 outline-none transition-colors"
+            className="w-full border-b-2 border-line focus:border-accent bg-transparent text-lg text-center py-1.5 outline-none transition-colors"
           />
           <button
             onClick={() => setChecked(true)}
-            className="w-full py-3 bg-red-700 hover:bg-red-800 text-white rounded-xl font-semibold transition-colors"
+            className="w-full py-3 bg-accent hover:bg-accent-strong text-white rounded-xl font-semibold transition-colors"
           >
             {t('Check', 'Prüfen')}
           </button>
@@ -1151,11 +1151,11 @@ function Flashcard({
               {correct ? t('✓ Correct', '✓ Richtig') : t('✗ Not quite', '✗ Nicht ganz')}
             </p>
             {!correct && (
-              <p className="text-sm text-gray-600 mt-1">
+              <p className="text-sm text-muted mt-1">
                 {t('Your answer:', 'Deine Antwort:')} <span className="line-through">{answer || '—'}</span>
               </p>
             )}
-            <p className="text-base font-semibold text-gray-900 mt-1 inline-flex items-center gap-2">
+            <p className="text-base font-semibold text-ink mt-1 inline-flex items-center gap-2">
               {item.answer}
               {!item.askTarget && <SpeakButton text={item.target} lang={lang} />}
             </p>
@@ -1168,15 +1168,15 @@ function Flashcard({
 
           {/* Example sentence + (for verbs) present-tense conjugations */}
           {(item.example || item.conj) && (
-            <div className="rounded-xl border border-gray-100 bg-gray-50 p-3 space-y-2">
+            <div className="rounded-xl border border-line bg-canvas p-3 space-y-2">
               {item.example && (
                 <div>
-                  <p className="text-sm text-gray-800 flex items-start justify-between gap-2">
+                  <p className="text-sm text-ink flex items-start justify-between gap-2">
                     <span>{item.example}</span>
                     <SpeakButton text={item.example} lang={lang} />
                   </p>
                   {item.exampleDe && (
-                    <p className="text-xs text-gray-400 italic mt-0.5">{item.exampleDe}</p>
+                    <p className="text-xs text-muted italic mt-0.5">{item.exampleDe}</p>
                   )}
                 </div>
               )}
@@ -1185,7 +1185,7 @@ function Flashcard({
                   <button
                     type="button"
                     onClick={() => setShowConj(v => !v)}
-                    className="text-[11px] font-semibold text-gray-400 uppercase tracking-wide hover:text-gray-600 transition-colors"
+                    className="text-[11px] font-semibold text-muted uppercase tracking-wide hover:text-ink transition-colors"
                   >
                     {TENSES_BY_LANG[lang][0].label} {showConj ? '▲' : '▼'}
                   </button>
@@ -1193,8 +1193,8 @@ function Flashcard({
                     <div className="grid grid-cols-2 gap-x-3 gap-y-0.5 mt-1">
                       {pronouns.map((p, i) => (
                         <div key={p} className="flex justify-between gap-2 text-sm">
-                          <span className="text-gray-400">{p}</span>
-                          <span className="font-medium text-gray-800 tabular-nums">{item.conj![i]}</span>
+                          <span className="text-muted">{p}</span>
+                          <span className="font-medium text-ink tabular-nums">{item.conj![i]}</span>
                         </div>
                       ))}
                     </div>
@@ -1244,7 +1244,7 @@ function Flashcard({
             <>
               {/* Write-it-again reinforcement */}
               <div>
-                <label className="block text-xs text-gray-500 mb-1.5">
+                <label className="block text-xs text-muted mb-1.5">
                   {t('Write it again to remember:', 'Schreib es zum Einprägen noch einmal:')}
                 </label>
                 <input
@@ -1254,10 +1254,10 @@ function Flashcard({
                   onChange={e => setRetype(e.target.value)}
                   placeholder={item.answer}
                   className={`w-full border-b-2 bg-transparent text-lg text-center py-1.5 outline-none transition-colors ${
-                    retypeOk ? 'border-green-500 text-green-700' : 'border-gray-300 focus:border-red-600'
+                    retypeOk ? 'border-green-500 text-green-700' : 'border-line focus:border-accent'
                   }`}
                 />
-                <p className="text-[11px] text-gray-400 text-center mt-1">
+                <p className="text-[11px] text-muted text-center mt-1">
                   {retypeOk ? t('✓ Now choose below', '✓ Jetzt unten wählen') : t('Type the correct word to continue', 'Tippe das richtige Wort, um weiterzumachen')}
                 </p>
               </div>
@@ -1288,7 +1288,7 @@ function Flashcard({
                   <span className="block text-[10px] font-normal opacity-80">{t('mark known', 'als gekonnt')}</span>
                 </button>
               </div>
-              <p className="text-[11px] text-gray-400 text-center">
+              <p className="text-[11px] text-muted text-center">
                 {t('Was it a typo? Keep the phase or mark it known instead of going back.', 'War es ein Tippfehler? Behalte die Phase oder markiere es als gekonnt, statt zurückzufallen.')}
               </p>
             </>
@@ -1307,10 +1307,10 @@ function AutoplayToggle({ value, onChange }: { value: boolean; onChange: (v: boo
     <button
       type="button"
       onClick={() => onChange(!value)}
-      className="w-full flex items-center justify-between px-3 py-2 rounded-xl bg-gray-50 text-xs text-gray-500 hover:bg-gray-100 transition-colors"
+      className="w-full flex items-center justify-between px-3 py-2 rounded-xl bg-canvas text-xs text-muted hover:bg-line-soft transition-colors"
     >
       <span>🔊 {t('Read words aloud automatically', 'Wörter automatisch vorlesen')}</span>
-      <span className={`font-semibold ${value ? 'text-green-700' : 'text-gray-400'}`}>{value ? t('On', 'An') : t('Off', 'Aus')}</span>
+      <span className={`font-semibold ${value ? 'text-green-700' : 'text-muted'}`}>{value ? t('On', 'An') : t('Off', 'Aus')}</span>
     </button>
   );
 }

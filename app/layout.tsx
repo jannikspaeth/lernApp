@@ -1,7 +1,10 @@
 import type { Metadata, Viewport } from 'next';
+import { Geist } from 'next/font/google';
 import './globals.css';
 import Navigation from '@/components/Navigation';
 import OfflineSupport from '@/components/OfflineSupport';
+
+const geist = Geist({ subsets: ['latin'], variable: '--font-geist' });
 
 export const metadata: Metadata = {
   title: 'Lern App',
@@ -11,13 +14,13 @@ export const metadata: Metadata = {
 };
 
 export const viewport: Viewport = {
-  themeColor: '#B91C1C',
+  themeColor: '#FAFAFA',
   viewportFit: 'cover', // lets env(safe-area-inset-*) report the notch / home bar
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="de" className="h-full">
+    <html lang="de" className={`h-full ${geist.variable}`}>
       <body className="min-h-full">
         <Navigation />
         <OfflineSupport />

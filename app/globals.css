@@ -1,15 +1,40 @@
 @import "tailwindcss";
 
+/* Design tokens (direction B, "Modern Clean"): neutral greys, one blue accent. */
+@theme {
+  --font-sans: var(--font-geist), system-ui, -apple-system, sans-serif;
+
+  --color-canvas: #FAFAFA;   /* page background */
+  --color-surface: #FFFFFF;  /* cards, bars */
+  --color-line: #E7E7EA;     /* borders */
+  --color-line-soft: #F0F0F2;/* dividers inside cards */
+  --color-ink: #111113;      /* main text */
+  --color-muted: #5B5B66;    /* secondary text, 4.5:1 on canvas */
+  --color-faint: #8B8B95;    /* only for large or decorative text */
+
+  --color-accent: #2F5BEA;
+  --color-accent-strong: #1E44C4;
+  --color-accent-soft: #EEF2FF;
+
+  --color-good: #047857;
+  --color-good-soft: #ECFDF5;
+  --color-bad: #B42318;
+  --color-bad-soft: #FEF3F2;
+  --color-warn: #B54708;
+  --color-warn-soft: #FFFAEB;
+}
+
 :root {
-  --background: #F9FAFB;
-  --foreground: #111827;
+  --background: var(--color-canvas);
+  --foreground: var(--color-ink);
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: system-ui, -apple-system, sans-serif;
+  font-family: var(--font-sans);
   -webkit-font-smoothing: antialiased;
+  font-feature-settings: "ss01", "cv11";
   /* Installed app (full screen): keep content clear of the notch and side edges. */
   padding-top: env(safe-area-inset-top);
   padding-left: env(safe-area-inset-left);
@@ -23,6 +48,13 @@ body {
 
 * {
   scroll-behavior: smooth;
+}
+
+/* Visible keyboard focus everywhere (mouse clicks stay clean). */
+:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 2px;
+  border-radius: 6px;
 }
 
 input[type="text"]:focus,

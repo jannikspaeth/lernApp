@@ -66,14 +66,14 @@ export default function TypeCard({
   }
 
   return (
-    <div className="bg-white rounded-2xl border border-gray-100 shadow-sm p-5 space-y-4">
-      <p className="text-xs text-gray-400 uppercase tracking-wide text-center">{label}</p>
+    <div className="bg-surface rounded-2xl border border-line p-5 space-y-4">
+      <p className="text-xs text-muted uppercase tracking-wide text-center">{label}</p>
       <div className="text-center space-y-1">
-        <div className="text-2xl font-bold text-gray-900 inline-flex items-center gap-2 flex-wrap justify-center">
+        <div className="text-2xl font-bold text-ink inline-flex items-center gap-2 flex-wrap justify-center">
           {prompt}
           {speakPrompt && speakText && <SpeakButton text={speakText} lang={lang} size="md" />}
         </div>
-        {sub && <p className="text-sm text-gray-500">{sub}</p>}
+        {sub && <p className="text-sm text-muted">{sub}</p>}
       </div>
 
       {!result ? (
@@ -88,11 +88,11 @@ export default function TypeCard({
             autoCorrect="off"
             spellCheck={false}
             placeholder={placeholder ?? '…'}
-            className="w-full border-b-2 border-gray-300 focus:border-red-600 bg-transparent text-lg text-center py-1.5 outline-none transition-colors"
+            className="w-full border-b-2 border-line focus:border-accent bg-transparent text-lg text-center py-1.5 outline-none transition-colors"
           />
           <button
             onClick={doCheck}
-            className="w-full py-3 bg-red-700 hover:bg-red-800 text-white rounded-xl font-semibold transition-colors"
+            className="w-full py-3 bg-accent hover:bg-accent-strong text-white rounded-xl font-semibold transition-colors"
           >
             {t('Check', 'Prüfen')}
           </button>
@@ -104,11 +104,11 @@ export default function TypeCard({
               {result.correct ? t('✓ Correct', '✓ Richtig') : t('✗ Not quite', '✗ Nicht ganz')}
             </p>
             {!result.correct && (
-              <p className="text-sm text-gray-600 mt-1">
+              <p className="text-sm text-muted mt-1">
                 {t('Your answer:', 'Deine Antwort:')} <span className="line-through">{value || '—'}</span>
               </p>
             )}
-            <p className="text-base font-semibold text-gray-900 mt-1 inline-flex items-center gap-2">
+            <p className="text-base font-semibold text-ink mt-1 inline-flex items-center gap-2">
               {answer}
               {speakText && !speakPrompt && <SpeakButton text={speakText} lang={lang} />}
             </p>
@@ -129,7 +129,7 @@ export default function TypeCard({
             )}
             <button
               onClick={() => onResult(result.correct, value)}
-              className="flex-1 py-3 bg-gray-900 hover:bg-gray-800 text-white rounded-xl font-semibold transition-colors"
+              className="flex-1 py-3 bg-ink hover:bg-ink/85 text-white rounded-xl font-semibold transition-colors"
             >
               {t('Next →', 'Weiter →')}
             </button>

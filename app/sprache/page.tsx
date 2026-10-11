@@ -39,8 +39,8 @@ export default function SprachePage() {
 
   if (!ready || !profile) {
     return (
-      <main className="min-h-screen bg-gray-50 flex items-center justify-center">
-        <p className="text-gray-400 text-sm">{t('Loading…', 'Lädt …')}</p>
+      <main className="min-h-screen bg-canvas flex items-center justify-center">
+        <p className="text-muted text-sm">{t('Loading…', 'Lädt …')}</p>
       </main>
     );
   }
@@ -71,12 +71,12 @@ export default function SprachePage() {
   }
 
   return (
-    <main className="min-h-screen bg-gray-50 flex items-center justify-center p-6 pb-24 md:pb-6">
+    <main className="min-h-screen bg-canvas flex items-center justify-center p-6 pb-24 md:pb-6">
       <div className="w-full max-w-sm space-y-6">
         <div className="text-center">
           <p className="text-4xl mb-3">🌍</p>
-          <h1 className="text-2xl font-bold text-gray-900">{t('Hi', 'Hallo')} {profile.name}!</h1>
-          <p className="text-sm text-gray-400 mt-1">{t('Which language do you want to learn?', 'Welche Sprache möchtest du lernen?')}</p>
+          <h1 className="text-2xl font-bold text-ink">{t('Hi', 'Hallo')} {profile.name}!</h1>
+          <p className="text-sm text-muted mt-1">{t('Which language do you want to learn?', 'Welche Sprache möchtest du lernen?')}</p>
         </div>
 
         <div className="space-y-3">
@@ -88,28 +88,28 @@ export default function SprachePage() {
             return (
               <div
                 key={l.id}
-                className={`bg-white border-2 rounded-2xl shadow-sm transition-colors ${
-                  open ? 'border-red-200' : current === l.id ? 'border-red-100' : 'border-gray-100'
+                className={`bg-surface border-2 rounded-2xl shadow-sm transition-colors ${
+                  open ? 'border-red-200' : current === l.id ? 'border-red-100' : 'border-line'
                 }`}
               >
                 <button
                   onClick={() => pick(l.id)}
                   disabled={saving}
-                  className="w-full p-5 text-left flex items-center gap-4 rounded-2xl hover:bg-gray-50 transition-colors"
+                  className="w-full p-5 text-left flex items-center gap-4 rounded-2xl hover:bg-canvas transition-colors"
                 >
                   <span className="text-4xl">{l.flag}</span>
                   <span className="min-w-0 flex-1">
-                    <span className="block font-bold text-gray-900 text-lg">{t(l.name, l.nameDe)}</span>
-                    <span className="block text-sm text-gray-400 mt-0.5">
+                    <span className="block font-bold text-ink text-lg">{t(l.name, l.nameDe)}</span>
+                    <span className="block text-sm text-muted mt-0.5">
                       {levelLabel ?? t('Not started yet', 'Noch nicht begonnen')}
                     </span>
                   </span>
-                  <span className="text-gray-300">→</span>
+                  <span className="text-faint">→</span>
                 </button>
 
                 {open ? (
                   <div className="px-5 pb-5 space-y-2">
-                    <p className="text-sm font-semibold text-gray-900">
+                    <p className="text-sm font-semibold text-ink">
                       {level ? t('Change your level', 'Niveau ändern') : t('What is your level?', 'Wie ist dein Niveau?')}
                     </p>
                     {LEVELS.map(x => (
@@ -118,17 +118,17 @@ export default function SprachePage() {
                         onClick={() => chooseLevel(l.id, x.id)}
                         disabled={saving}
                         className={`w-full text-left rounded-xl border-2 p-3 transition-colors disabled:opacity-50 ${
-                          level === x.id ? 'border-red-300 bg-red-50' : 'border-gray-100 hover:border-red-300'
+                          level === x.id ? 'border-red-300 bg-red-50' : 'border-line hover:border-red-300'
                         }`}
                       >
-                        <span className="block font-semibold text-gray-900 text-sm">{t(x.label[0], x.label[1])}</span>
-                        <span className="block text-xs text-gray-400 mt-0.5">{t(x.hint[0], x.hint[1])}</span>
+                        <span className="block font-semibold text-ink text-sm">{t(x.label[0], x.label[1])}</span>
+                        <span className="block text-xs text-muted mt-0.5">{t(x.hint[0], x.hint[1])}</span>
                       </button>
                     ))}
                     {error && <p className="text-sm text-red-600">{error}</p>}
                     <button
                       onClick={() => setChoosing(null)}
-                      className="w-full text-xs text-gray-400 hover:text-gray-600 pt-1"
+                      className="w-full text-xs text-muted hover:text-ink pt-1"
                     >
                       {t('Cancel', 'Abbrechen')}
                     </button>
@@ -138,7 +138,7 @@ export default function SprachePage() {
                     <div className="px-5 pb-3 -mt-2 text-right">
                       <button
                         onClick={() => { setError(''); setChoosing(l.id); }}
-                        className="text-xs text-gray-400 hover:text-gray-600"
+                        className="text-xs text-muted hover:text-ink"
                       >
                         {t('Change level', 'Niveau ändern')}
                       </button>
@@ -150,7 +150,7 @@ export default function SprachePage() {
           })}
         </div>
 
-        <Link href="/profile" className="block text-center text-xs text-gray-400 hover:text-gray-600">
+        <Link href="/profile" className="block text-center text-xs text-muted hover:text-ink">
           👤 {t('Account', 'Konto')}
         </Link>
         <UiLangToggle />

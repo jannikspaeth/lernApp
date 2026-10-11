@@ -93,8 +93,8 @@ export default function SubjectView({ subjectId, hideTopics = false }: { subject
 
   if (!ready || !profile) {
     return (
-      <main className="md:ml-56 min-h-screen bg-gray-50 flex items-center justify-center">
-        <p className="text-gray-400 text-sm">…</p>
+      <main className="md:ml-56 min-h-screen bg-canvas flex items-center justify-center">
+        <p className="text-muted text-sm">…</p>
       </main>
     );
   }
@@ -103,14 +103,14 @@ export default function SubjectView({ subjectId, hideTopics = false }: { subject
   const finished = session && session.idx >= session.cards.length;
 
   return (
-    <main className="md:ml-56 min-h-screen bg-gray-50 pb-24 md:pb-8">
+    <main className="md:ml-56 min-h-screen bg-canvas pb-24 md:pb-8">
       <div className="max-w-xl mx-auto p-5 space-y-5">
         <div>
-          <Link href="/" className="text-xs text-gray-400 hover:text-gray-600">← {t('All subjects', 'Alle Fächer')}</Link>
-          <h1 className="text-2xl font-bold text-gray-900 flex items-center gap-2 mt-1">
+          <Link href="/" className="text-xs text-muted hover:text-ink">← {t('All subjects', 'Alle Fächer')}</Link>
+          <h1 className="text-2xl font-bold text-ink flex items-center gap-2 mt-1">
             <span>{subject.icon}</span> {name}
           </h1>
-          <p className="text-gray-400 text-sm mt-0.5">{t(...subject.blurb)}</p>
+          <p className="text-muted text-sm mt-0.5">{t(...subject.blurb)}</p>
         </div>
 
         {saveError && (
@@ -121,16 +121,16 @@ export default function SubjectView({ subjectId, hideTopics = false }: { subject
 
         {session && current && (
           <div className="space-y-3">
-            <div className="flex items-center justify-between text-xs text-gray-400">
-              <span className="font-medium text-gray-600">{session.title}</span>
+            <div className="flex items-center justify-between text-xs text-muted">
+              <span className="font-medium text-muted">{session.title}</span>
               <div className="flex items-center gap-3">
                 <span className="tabular-nums">{session.idx + 1} / {session.cards.length}</span>
-                <button onClick={() => setSession(null)} className="hover:text-gray-600 transition-colors">
+                <button onClick={() => setSession(null)} className="hover:text-ink transition-colors">
                   {t('Finish', 'Beenden')}
                 </button>
               </div>
             </div>
-            <div className="h-1 bg-gray-100 rounded-full overflow-hidden">
+            <div className="h-1 bg-line-soft rounded-full overflow-hidden">
               <div
                 className={`h-full ${subject.color.bar} rounded-full transition-all`}
                 style={{ width: `${Math.round((session.idx / session.cards.length) * 100)}%` }}
@@ -156,22 +156,22 @@ export default function SubjectView({ subjectId, hideTopics = false }: { subject
         )}
 
         {session && finished && (
-          <div className="bg-white rounded-2xl border border-gray-200 p-6 text-center space-y-4">
+          <div className="bg-surface rounded-2xl border border-line p-6 text-center space-y-4">
             <p className="text-4xl">{session.right === session.cards.length ? '🎉' : '💪'}</p>
-            <p className="font-semibold text-gray-900">{t('Round done!', 'Runde geschafft!')}</p>
-            <p className="text-sm text-gray-500">
-              {t('Correct', 'Richtig')}: <span className="font-semibold text-gray-800">{session.right} / {session.cards.length}</span>
+            <p className="font-semibold text-ink">{t('Round done!', 'Runde geschafft!')}</p>
+            <p className="text-sm text-muted">
+              {t('Correct', 'Richtig')}: <span className="font-semibold text-ink">{session.right} / {session.cards.length}</span>
             </p>
             <div className="flex gap-2 justify-center">
               <button
                 onClick={() => setSession(null)}
-                className="px-4 py-2.5 border border-gray-200 hover:bg-gray-50 text-gray-600 rounded-xl text-sm transition-colors"
+                className="px-4 py-2.5 border border-line hover:bg-canvas text-muted rounded-xl text-sm transition-colors"
               >
                 {t('Done', 'Fertig')}
               </button>
               <button
                 onClick={() => start(session.title, session.pool, session.mixed)}
-                className="px-4 py-2.5 bg-gray-900 hover:bg-gray-800 text-white rounded-xl text-sm font-semibold transition-colors"
+                className="px-4 py-2.5 bg-ink hover:bg-ink/85 text-white rounded-xl text-sm font-semibold transition-colors"
               >
                 {t('Next round →', 'Nächste Runde →')}
               </button>
@@ -187,7 +187,7 @@ export default function SubjectView({ subjectId, hideTopics = false }: { subject
                   <p className={`font-semibold ${subject.color.text}`}>
                     {total.mastered} / {total.total} {t('learned', 'gelernt')}
                   </p>
-                  <p className="text-xs text-gray-500 mt-0.5">
+                  <p className="text-xs text-muted mt-0.5">
                     {loaded
                       ? total.due > 0
                         ? t(`${total.due} due for review`, `${total.due} zur Wiederholung fällig`)
@@ -200,7 +200,7 @@ export default function SubjectView({ subjectId, hideTopics = false }: { subject
               <ProgressBar value={total.mastered} max={total.total} color={subject.color.bar} />
               <button
                 onClick={() => start(t('Mixed', 'Gemischt'), cards, true)}
-                className="w-full py-3 bg-gray-900 hover:bg-gray-800 text-white rounded-xl font-semibold transition-colors"
+                className="w-full py-3 bg-ink hover:bg-ink/85 text-white rounded-xl font-semibold transition-colors"
               >
                 {t(`Mixed round (${ROUND_SIZE})`, `Gemischte Runde (${ROUND_SIZE})`)} →
               </button>
@@ -210,12 +210,12 @@ export default function SubjectView({ subjectId, hideTopics = false }: { subject
               <Link
                 key={l.href}
                 href={l.href}
-                className="flex items-center gap-3 bg-white rounded-2xl border border-gray-100 shadow-sm p-4 hover:shadow-md transition-shadow"
+                className="flex items-center gap-3 bg-surface rounded-2xl border border-line p-4 hover:border-accent/40 transition-colors"
               >
                 <span className="text-3xl">{l.icon}</span>
                 <div className="flex-1 min-w-0">
-                  <p className="font-semibold text-gray-900">{t(...l.name)}</p>
-                  <p className="text-xs text-gray-500">{t(...l.blurb)}</p>
+                  <p className="font-semibold text-ink">{t(...l.name)}</p>
+                  <p className="text-xs text-muted">{t(...l.blurb)}</p>
                 </div>
                 <span className={`font-semibold ${subject.color.text}`}>→</span>
               </Link>
@@ -225,7 +225,7 @@ export default function SubjectView({ subjectId, hideTopics = false }: { subject
               {subject.topics.map((topic, i) => (
                 <div key={topic.id} className="space-y-3">
                 {topic.group && topic.group !== subject.topics[i - 1]?.group && (
-                  <h2 className="text-sm font-semibold text-gray-500 uppercase tracking-wide pt-2">{t(...topic.group)}</h2>
+                  <h2 className="text-sm font-semibold text-muted uppercase tracking-wide pt-2">{t(...topic.group)}</h2>
                 )}
                 <TopicRow
                   subject={subject}
@@ -252,13 +252,13 @@ function ModeToggle({ mode, setMode }: { mode: Mode; setMode: (m: Mode) => void 
     ['cards', t('Flashcards', 'Karteikarten')],
   ];
   return (
-    <div className="flex bg-white rounded-xl border border-gray-200 p-0.5 text-xs shrink-0">
+    <div className="flex bg-surface rounded-xl border border-line p-0.5 text-xs shrink-0">
       {opts.map(([m, label]) => (
         <button
           key={m}
           onClick={() => setMode(m)}
           className={`px-2.5 py-1.5 rounded-lg font-medium transition-colors ${
-            mode === m ? 'bg-gray-900 text-white' : 'text-gray-500 hover:text-gray-800'
+            mode === m ? 'bg-ink text-white' : 'text-muted hover:text-ink'
           }`}
         >
           {label}
@@ -270,7 +270,7 @@ function ModeToggle({ mode, setMode }: { mode: Mode; setMode: (m: Mode) => void 
 
 function ProgressBar({ value, max, color }: { value: number; max: number; color: string }) {
   return (
-    <div className="h-1.5 bg-white/70 rounded-full overflow-hidden">
+    <div className="h-1.5 bg-surface/70 rounded-full overflow-hidden">
       <div className={`h-full ${color} rounded-full transition-all`} style={{ width: `${max ? (value / max) * 100 : 0}%` }} />
     </div>
   );
@@ -296,46 +296,46 @@ function TopicRow({
   // Flag topics ask the same question every time — the list only needs the answers.
   const sameQ = topic.cards.every(c => c.q === topic.cards[0].q);
   return (
-    <div className="bg-white rounded-2xl border border-gray-100 shadow-sm overflow-hidden">
+    <div className="bg-surface rounded-2xl border border-line overflow-hidden">
       <div className="p-4 flex items-center gap-3">
         <span className="text-2xl">{topic.icon}</span>
         <div className="flex-1 min-w-0 space-y-1.5">
           <div className="flex items-baseline justify-between gap-2">
-            <p className="font-semibold text-gray-900 truncate">{t(...topic.name)}</p>
-            <p className="text-xs text-gray-400 tabular-nums shrink-0">
+            <p className="font-semibold text-ink truncate">{t(...topic.name)}</p>
+            <p className="text-xs text-muted tabular-nums shrink-0">
               {s.mastered}/{s.total}
               {s.due > 0 && <span className="text-amber-600 ml-1.5">· {s.due} {t('due', 'fällig')}</span>}
             </p>
           </div>
-          <div className="h-1.5 bg-gray-100 rounded-full overflow-hidden">
+          <div className="h-1.5 bg-line-soft rounded-full overflow-hidden">
             <div className={`h-full ${subject.color.bar} rounded-full`} style={{ width: `${(s.mastered / s.total) * 100}%` }} />
           </div>
         </div>
       </div>
-      <div className="flex border-t border-gray-100 text-sm">
-        <button onClick={onToggle} className="flex-1 py-2.5 text-gray-500 hover:bg-gray-50 transition-colors">
+      <div className="flex border-t border-line text-sm">
+        <button onClick={onToggle} className="flex-1 py-2.5 text-muted hover:bg-canvas transition-colors">
           {open ? t('Hide cards', 'Karten ausblenden') : t('Show cards', 'Karten ansehen')}
         </button>
         <button
           onClick={onStart}
-          className={`flex-1 py-2.5 font-semibold ${subject.color.text} hover:bg-gray-50 border-l border-gray-100 transition-colors`}
+          className={`flex-1 py-2.5 font-semibold ${subject.color.text} hover:bg-canvas border-l border-line transition-colors`}
         >
           {t('Practise', 'Üben')} →
         </button>
       </div>
       {open && (
-        <ul className="border-t border-gray-100 divide-y divide-gray-50">
+        <ul className="border-t border-line divide-y divide-line-soft">
           {topic.cards.map(c => (
             <li key={c.id} className="px-4 py-2.5 text-sm flex gap-2">
               <span className="w-4 shrink-0">{isMastered(prog.cards[c.id]) ? '✅' : prog.cards[c.id] ? '🔸' : ''}</span>
               {c.img && (
                 // eslint-disable-next-line @next/next/no-img-element -- local SVG flags
-                <img src={c.img} alt="" loading="lazy" className="h-6 w-8 object-cover rounded-sm border border-gray-200 shrink-0 mt-0.5" />
+                <img src={c.img} alt="" loading="lazy" className="h-6 w-8 object-cover rounded-sm border border-line shrink-0 mt-0.5" />
               )}
               <div>
-                {!sameQ && <p className="text-gray-600">{c.q}</p>}
-                <p className="font-medium text-gray-900">{c.a}</p>
-                {c.info && <p className="text-xs text-gray-400 mt-0.5">{c.info}</p>}
+                {!sameQ && <p className="text-muted">{c.q}</p>}
+                <p className="font-medium text-ink">{c.a}</p>
+                {c.info && <p className="text-xs text-muted mt-0.5">{c.info}</p>}
               </div>
             </li>
           ))}

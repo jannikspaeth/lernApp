@@ -15,7 +15,7 @@ function BadgeTile({ b, isNew }: { b: Badge; isNew: boolean }) {
   return (
     <div
       className={`relative rounded-xl border p-3 ${
-        b.unlocked ? 'border-amber-200 bg-amber-50' : 'border-gray-100 bg-gray-50'
+        b.unlocked ? 'border-amber-200 bg-amber-50' : 'border-line bg-canvas'
       }`}
     >
       {isNew && (
@@ -26,10 +26,10 @@ function BadgeTile({ b, isNew }: { b: Badge; isNew: boolean }) {
       <div className="flex items-center gap-2">
         <span className={`text-xl ${b.unlocked ? '' : 'grayscale opacity-40'}`}>{b.icon}</span>
         <div className="min-w-0">
-          <p className={`text-xs font-semibold truncate ${b.unlocked ? 'text-gray-900' : 'text-gray-500'}`}>
+          <p className={`text-xs font-semibold truncate ${b.unlocked ? 'text-ink' : 'text-muted'}`}>
             {text.label}
           </p>
-          <p className="text-[10px] text-gray-400 truncate">{text.desc}</p>
+          <p className="text-[10px] text-muted truncate">{text.desc}</p>
         </div>
       </div>
       {!b.unlocked && b.progress && b.progress.need > 1 && (
@@ -37,7 +37,7 @@ function BadgeTile({ b, isNew }: { b: Badge; isNew: boolean }) {
           <div className="flex-1 h-1 bg-gray-200 rounded-full overflow-hidden">
             <div className="h-full bg-amber-400 rounded-full" style={{ width: `${pct}%` }} />
           </div>
-          <span className="text-[9px] text-gray-400 tabular-nums">
+          <span className="text-[9px] text-muted tabular-nums">
             {b.progress.have}/{b.progress.need}
           </span>
         </div>
@@ -63,10 +63,10 @@ export default function Achievements({
         const got = list.filter(b => b.unlocked).length;
         const visible = visibleBadges(list);
         return (
-          <section key={cat} className="bg-white rounded-2xl border border-gray-100 shadow-sm p-5 space-y-3">
+          <section key={cat} className="bg-surface rounded-2xl border border-line p-5 space-y-3">
             <div className="flex items-center justify-between">
-              <h2 className="font-bold text-gray-900 text-base">{de ? CATEGORY_DE[cat] ?? cat : cat}</h2>
-              <span className="text-xs text-gray-400 tabular-nums">{got} {de ? 'freigeschaltet' : 'unlocked'}</span>
+              <h2 className="font-bold text-ink text-base">{de ? CATEGORY_DE[cat] ?? cat : cat}</h2>
+              <span className="text-xs text-muted tabular-nums">{got} {de ? 'freigeschaltet' : 'unlocked'}</span>
             </div>
             <div className="grid grid-cols-2 gap-2.5">
               {visible.map(b => (

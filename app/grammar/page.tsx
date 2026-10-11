@@ -32,8 +32,8 @@ export default function GrammarPage() {
 
   if (!ready || !profile) {
     return (
-      <main className="md:ml-56 min-h-screen bg-gray-50 flex items-center justify-center">
-        <p className="text-gray-400 text-sm">{t('Loading…', 'Lädt …')}</p>
+      <main className="md:ml-56 min-h-screen bg-canvas flex items-center justify-center">
+        <p className="text-muted text-sm">{t('Loading…', 'Lädt …')}</p>
       </main>
     );
   }
@@ -68,15 +68,15 @@ export default function GrammarPage() {
     return (
       <div
         key={tp.id}
-        className="bg-white rounded-xl border border-gray-100 shadow-sm p-4 space-y-3"
+        className="bg-surface rounded-xl border border-line p-4 space-y-3"
       >
         <div className="flex items-start justify-between gap-3">
           <div className="min-w-0">
-            <p className="font-semibold text-gray-900 flex items-center gap-2">
+            <p className="font-semibold text-ink flex items-center gap-2">
               <span>{tp.icon}</span>
               <span>{tp.title}</span>
             </p>
-            <p className="text-xs text-gray-400 mt-0.5">
+            <p className="text-xs text-muted mt-0.5">
               {tp.items.length} {t('sentences', 'Sätze')}
               {rec && ` · ${rec.totalAttempts}× ${t('practised', 'geübt')}`}
               {rec?.mastered && ` · ✓ ${t('mastered', 'gemeistert')}`}
@@ -92,13 +92,13 @@ export default function GrammarPage() {
 
         {pct !== null && (
           <div className="flex items-center gap-2">
-            <div className="flex-1 h-1.5 bg-gray-100 rounded-full overflow-hidden">
+            <div className="flex-1 h-1.5 bg-line-soft rounded-full overflow-hidden">
               <div
                 className={`h-full rounded-full ${pct === 100 ? 'bg-green-500' : pct >= 70 ? 'bg-amber-400' : 'bg-red-400'}`}
                 style={{ width: `${pct}%` }}
               />
             </div>
-            <span className="text-xs text-gray-400 tabular-nums">
+            <span className="text-xs text-muted tabular-nums">
               {t('last', 'zuletzt')} {rec!.lastCorrect}/{rec!.lastTotal}
             </span>
           </div>
@@ -129,7 +129,7 @@ export default function GrammarPage() {
         {rec && showMistakes.has(tp.id) && (
           <div className="space-y-1 pt-1">
             {rec.recentMistakes.map((m, i) => (
-              <p key={i} className="text-xs text-gray-600">
+              <p key={i} className="text-xs text-muted">
                 {m.prompt.replace('___', '＿')}{' '}
                 <span className="text-red-400 line-through">{m.userAnswer || '–'}</span>{' '}
                 <span className="text-green-700 font-medium">{m.correct}</span>
@@ -146,20 +146,20 @@ export default function GrammarPage() {
     return (
       <section
         key={lesson.id}
-        className="bg-white rounded-2xl border border-gray-100 shadow-sm overflow-hidden"
+        className="bg-surface rounded-2xl border border-line overflow-hidden"
       >
         <button
           onClick={() => toggle(open, setOpen, lesson.id)}
-          className="w-full flex items-center justify-between gap-3 p-5 text-left hover:bg-gray-50 transition-colors"
+          className="w-full flex items-center justify-between gap-3 p-5 text-left hover:bg-canvas transition-colors"
         >
           <span className="flex items-center gap-2.5 min-w-0">
             <span className="text-xl shrink-0">{lesson.icon}</span>
             <span className="min-w-0">
-              <span className="block font-bold text-gray-900 text-base">{lesson.title}</span>
-              <span className="block text-xs text-gray-400 mt-0.5">{lesson.intro}</span>
+              <span className="block font-bold text-ink text-base">{lesson.title}</span>
+              <span className="block text-xs text-muted mt-0.5">{lesson.intro}</span>
             </span>
           </span>
-          <span className={`text-gray-300 transition-transform shrink-0 ${isOpen ? 'rotate-90' : ''}`}>
+          <span className={`text-faint transition-transform shrink-0 ${isOpen ? 'rotate-90' : ''}`}>
             ▶
           </span>
         </button>
@@ -168,21 +168,21 @@ export default function GrammarPage() {
           <div className="px-5 pb-5 space-y-4 border-t border-gray-50 pt-4">
             {lesson.sections.map((s, i) => (
               <div key={i} className="space-y-2">
-                <h3 className="text-xs font-semibold text-gray-500 uppercase tracking-wide">
+                <h3 className="text-xs font-semibold text-muted uppercase tracking-wide">
                   {s.heading}
                 </h3>
-                <p className="text-sm text-gray-600 leading-relaxed">{s.body}</p>
+                <p className="text-sm text-muted leading-relaxed">{s.body}</p>
                 {s.examples && s.examples.length > 0 && (
                   <div className="space-y-1.5 pt-1">
                     {s.examples.map((ex, j) => (
                       <div
                         key={j}
-                        className="flex flex-wrap items-baseline gap-x-2 gap-y-0.5 bg-gray-50 rounded-lg px-3 py-2"
+                        className="flex flex-wrap items-baseline gap-x-2 gap-y-0.5 bg-canvas rounded-lg px-3 py-2"
                       >
                         <SpeakButton text={ex.target} lang={lang} className="self-center" />
-                        <span className="font-semibold text-gray-900 text-sm">{ex.target}</span>
-                        <span className="text-gray-300 text-sm">→</span>
-                        <span className="text-gray-500 text-sm">{ex.de}</span>
+                        <span className="font-semibold text-ink text-sm">{ex.target}</span>
+                        <span className="text-faint text-sm">→</span>
+                        <span className="text-muted text-sm">{ex.de}</span>
                       </div>
                     ))}
                   </div>
@@ -196,11 +196,11 @@ export default function GrammarPage() {
   }
 
   return (
-    <main className="md:ml-56 min-h-screen bg-gray-50 pb-24 md:pb-8">
+    <main className="md:ml-56 min-h-screen bg-canvas pb-24 md:pb-8">
       <div className="max-w-xl mx-auto p-5 space-y-5">
         <div>
-          <h1 className="text-2xl font-bold text-gray-900">{t('Grammar', 'Grammatik')}</h1>
-          <p className="text-gray-400 text-sm mt-0.5">
+          <h1 className="text-2xl font-bold text-ink">{t('Grammar', 'Grammatik')}</h1>
+          <p className="text-muted text-sm mt-0.5">
             {tab === 'exercises'
               ? t(`${mastered} of ${GRAMMAR_TOPICS.length} topics mastered · A1 to B1`, `${mastered} von ${GRAMMAR_TOPICS.length} Themen gemeistert · A1 bis B1`)
               : lessonsByLevel
@@ -210,7 +210,7 @@ export default function GrammarPage() {
         </div>
 
         {hasExercises && (
-        <div className="flex gap-1 bg-gray-100 rounded-xl p-1">
+        <div className="flex gap-1 bg-line-soft rounded-xl p-1">
           {([
             ['exercises', t('Exercises', 'Übungen')],
             ['lessons', t('Lessons', 'Lektionen')],
@@ -219,7 +219,7 @@ export default function GrammarPage() {
               key={id}
               onClick={() => { setTab(id); setPracticing(null); }}
               className={`flex-1 py-2 text-sm font-medium rounded-lg transition-colors ${
-                tab === id ? 'bg-white text-gray-900 shadow-sm' : 'text-gray-500 hover:text-gray-700'
+                tab === id ? 'bg-surface text-ink shadow-sm' : 'text-muted hover:text-ink'
               }`}
             >
               {label}
@@ -233,12 +233,12 @@ export default function GrammarPage() {
           active ? (
             <div className="space-y-4">
               <div className="flex items-center justify-between gap-3">
-                <h2 className="font-bold text-gray-900 flex items-center gap-2">
+                <h2 className="font-bold text-ink flex items-center gap-2">
                   <span>{active.icon}</span> {active.title}
                 </h2>
                 <button
                   onClick={() => setPracticing(null)}
-                  className="shrink-0 text-sm text-gray-500 hover:text-gray-800"
+                  className="shrink-0 text-sm text-muted hover:text-ink"
                 >
                   ← {t('All topics', 'Alle Themen')}
                 </button>
@@ -253,8 +253,8 @@ export default function GrammarPage() {
                 return (
                   <section key={level.id} className="space-y-3">
                     <h2 className="flex items-baseline justify-between px-1">
-                      <span className="text-sm font-bold text-gray-800">{level.label}</span>
-                      <span className="text-xs text-gray-400">{done}/{topics.length} {t('mastered', 'gemeistert')}</span>
+                      <span className="text-sm font-bold text-ink">{level.label}</span>
+                      <span className="text-xs text-muted">{done}/{topics.length} {t('mastered', 'gemeistert')}</span>
                     </h2>
                     {topics.map(topicCard)}
                   </section>
@@ -272,7 +272,7 @@ export default function GrammarPage() {
                 if (lessons.length === 0) return null;
                 return (
                   <section key={level.id} className="space-y-3">
-                    <h2 className="text-sm font-bold text-gray-800 px-1">{level.label}</h2>
+                    <h2 className="text-sm font-bold text-ink px-1">{level.label}</h2>
                     {lessons.map(renderLesson)}
                   </section>
                 );

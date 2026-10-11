@@ -44,8 +44,8 @@ export default function DictationCard({
   }
 
   return (
-    <div className="bg-white rounded-2xl border border-gray-100 shadow-sm p-5 space-y-4">
-      <div className="flex justify-between text-xs text-gray-400">
+    <div className="bg-surface rounded-2xl border border-line p-5 space-y-4">
+      <div className="flex justify-between text-xs text-muted">
         <span>🎧 {t('Write what you hear', 'Schreib auf, was du hörst')}</span>
         <span className="tabular-nums">{position} / {total}</span>
       </div>
@@ -54,14 +54,14 @@ export default function DictationCard({
         <button
           type="button"
           onClick={() => speak(item.text, lang)}
-          className="h-14 px-5 rounded-2xl bg-red-700 hover:bg-red-800 text-white text-lg font-semibold transition-colors"
+          className="h-14 px-5 rounded-2xl bg-accent hover:bg-accent-strong text-white text-lg font-semibold transition-colors"
         >
           🔊 {t('Play', 'Abspielen')}
         </button>
         <button
           type="button"
           onClick={() => speak(item.text, lang, { rate: SLOW_RATE })}
-          className="h-14 px-5 rounded-2xl bg-gray-100 hover:bg-gray-200 text-gray-700 text-lg font-semibold transition-colors"
+          className="h-14 px-5 rounded-2xl bg-line-soft hover:bg-line text-ink text-lg font-semibold transition-colors"
         >
           🐢 {t('Slow', 'Langsam')}
         </button>
@@ -81,11 +81,11 @@ export default function DictationCard({
             autoCorrect="off"
             spellCheck={false}
             placeholder={t('Type the sentence…', 'Schreib den Satz …')}
-            className="w-full border border-gray-200 rounded-xl p-3 text-base outline-none focus:border-red-400 transition-colors resize-none"
+            className="w-full border border-line rounded-xl p-3 text-base outline-none focus:border-accent transition-colors resize-none"
           />
           <button
             onClick={check}
-            className="w-full py-2.5 bg-gray-900 hover:bg-gray-800 text-white rounded-xl text-sm font-semibold transition-colors"
+            className="w-full py-2.5 bg-ink hover:bg-ink/85 text-white rounded-xl text-sm font-semibold transition-colors"
           >
             {t('Check', 'Prüfen')}
           </button>
@@ -101,7 +101,7 @@ export default function DictationCard({
             <p className="mt-2 leading-relaxed flex flex-wrap gap-x-1.5 gap-y-1">
               {result.words.map((w, i) =>
                 w.status === 'ok' ? (
-                  <span key={i} className="text-gray-900">{w.expected}</span>
+                  <span key={i} className="text-ink">{w.expected}</span>
                 ) : w.status === 'accent' ? (
                   <span key={i} className="text-blue-700 underline decoration-dotted" title={`${t('You wrote', 'Du hast geschrieben')}: ${w.typed}`}>
                     {w.expected}
@@ -122,13 +122,13 @@ export default function DictationCard({
               <p className="text-[11px] text-blue-600 mt-1.5">{t('Blue: right word, check the accent.', 'Blau: richtiges Wort, achte auf den Akzent.')}</p>
             )}
           </div>
-          <div className="rounded-xl bg-gray-50 p-3 space-y-0.5">
-            <p className="text-sm font-semibold text-gray-900">{item.text}</p>
-            <p className="text-xs text-gray-500 italic">{item.de}</p>
+          <div className="rounded-xl bg-canvas p-3 space-y-0.5">
+            <p className="text-sm font-semibold text-ink">{item.text}</p>
+            <p className="text-xs text-muted italic">{item.de}</p>
           </div>
           <button
             onClick={() => onDone(item, typed, result)}
-            className="w-full py-2.5 bg-red-700 hover:bg-red-800 text-white rounded-xl text-sm font-semibold transition-colors"
+            className="w-full py-2.5 bg-accent hover:bg-accent-strong text-white rounded-xl text-sm font-semibold transition-colors"
           >
             {t('Next →', 'Weiter →')}
           </button>

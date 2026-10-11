@@ -38,18 +38,18 @@ export default function TopicPicker({
         key={id}
         onClick={() => pick(id)}
         className={`text-left rounded-xl border px-3 py-2 transition-colors ${
-          active ? 'border-red-400 bg-red-50' : 'border-gray-100 bg-white hover:bg-gray-50'
+          active ? 'border-red-400 bg-red-50' : 'border-line bg-surface hover:bg-canvas'
         }`}
       >
         <div className="flex items-center gap-2">
           <span className="text-base shrink-0">{icon}</span>
-          <span className="text-sm font-medium text-gray-800 truncate">{label}</span>
+          <span className="text-sm font-medium text-ink truncate">{label}</span>
         </div>
         <div className="mt-1.5 flex items-center gap-2">
-          <div className="flex-1 h-1 bg-gray-100 rounded-full overflow-hidden">
+          <div className="flex-1 h-1 bg-line-soft rounded-full overflow-hidden">
             <div className="h-full bg-green-500 rounded-full" style={{ width: `${pct}%` }} />
           </div>
-          <span className="text-[11px] text-gray-400 tabular-nums shrink-0">
+          <span className="text-[11px] text-muted tabular-nums shrink-0">
             {p.seen}/{p.total}
           </span>
         </div>
@@ -61,15 +61,15 @@ export default function TopicPicker({
     <div className="space-y-2">
       <button
         onClick={() => setOpen(o => !o)}
-        className="w-full flex items-center justify-between gap-2 rounded-xl border border-gray-200 px-3 py-2 text-sm hover:bg-gray-50 transition-colors"
+        className="w-full flex items-center justify-between gap-2 rounded-xl border border-line px-3 py-2 text-sm hover:bg-canvas transition-colors"
       >
         <span className="flex items-center gap-2 min-w-0">
-          <span className="text-gray-400 shrink-0">{t('Topic', 'Thema')}</span>
-          <span className="font-medium text-gray-800 truncate">
+          <span className="text-muted shrink-0">{t('Topic', 'Thema')}</span>
+          <span className="font-medium text-ink truncate">
             {current ? `${current.icon} ${current.label}` : `📚 ${t('All topics', 'Alle Themen')}`}
           </span>
         </span>
-        <span className="text-gray-400 shrink-0">{open ? '▲' : '▼'}</span>
+        <span className="text-muted shrink-0">{open ? '▲' : '▼'}</span>
       </button>
       {open && (
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-1.5">

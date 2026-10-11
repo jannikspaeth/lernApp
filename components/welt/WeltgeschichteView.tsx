@@ -21,7 +21,7 @@ export default function WeltgeschichteView({ intro, detailed }: { intro: React.R
 
   const regionName = (id: TimelineRegion) => {
     const r = TIMELINE_REGIONS.find(x => x.id === id)!;
-    return `${r.icon} ${t(...r.name)}`;
+    return t(...r.name);
   };
   const events = useMemo(
     () => eventsOf(region).map(e => ({ ...e, regionLabel: regionName(e.region) })),
@@ -39,24 +39,23 @@ export default function WeltgeschichteView({ intro, detailed }: { intro: React.R
   ];
 
   return (
-    <main className="md:ml-56 min-h-screen bg-gray-50 pb-24 md:pb-8">
-      <div className="max-w-2xl mx-auto p-5 space-y-5">
+    <main className="md:ml-56 min-h-screen bg-canvas pb-24 md:pb-8">
+      <div className="max-w-2xl mx-auto px-5 pt-6 md:pt-10 space-y-5">
         <div>
-          <Link href="/wissen/geschichte" className="text-xs text-gray-400 hover:text-gray-600">← {t('History', 'Geschichte')}</Link>
-          <h1 className="text-2xl font-bold text-gray-900 flex items-center gap-2 mt-1">
-            <span>🌍</span> {t('World history', 'Weltgeschichte')}
+          <h1 className="text-[28px] md:text-3xl font-bold text-ink tracking-tight">
+            {t('World history', 'Weltgeschichte')}
           </h1>
-          <p className="text-gray-400 text-sm mt-0.5">
+          <p className="text-muted text-sm mt-1">
             {t('From the first humans to today — and the history of every country.', 'Von den ersten Menschen bis heute – und die Geschichte aller Länder.')}
           </p>
         </div>
 
-        <div className="flex bg-white rounded-xl border border-gray-200 p-0.5 text-sm">
+        <div className="flex bg-surface rounded-xl border border-line p-1 text-sm">
           {tabs.map(([id, name]) => (
             <button
               key={id}
               onClick={() => setTab(id)}
-              className={`flex-1 py-2 rounded-lg font-medium transition-colors ${tab === id ? 'bg-gray-900 text-white' : 'text-gray-500 hover:text-gray-800'}`}
+              className={`flex-1 h-9 rounded-lg font-semibold transition-colors ${tab === id ? 'bg-ink text-white' : 'text-muted hover:text-ink'}`}
             >
               {name}
             </button>
@@ -67,23 +66,23 @@ export default function WeltgeschichteView({ intro, detailed }: { intro: React.R
           <div className="space-y-4">
             {intro}
             <div className="flex flex-wrap gap-1.5">
-              {([['alle', '🌐 ' + t('All', 'Alle')], ...TIMELINE_REGIONS.map(r => [r.id, regionName(r.id)])] as [Pick, string][]).map(([id, name]) => (
+              {([['alle', t('All', 'Alle')], ...TIMELINE_REGIONS.map(r => [r.id, regionName(r.id)])] as [Pick, string][]).map(([id, name]) => (
                 <button
                   key={id}
                   onClick={() => setRegion(id)}
-                  className={`px-2.5 py-1 rounded-lg text-xs font-medium border transition-colors ${
-                    region === id ? 'bg-amber-500 border-amber-500 text-white' : 'bg-white border-gray-200 text-gray-600 hover:bg-gray-50'
+                  className={`px-3 h-8 rounded-full text-[13px] font-medium border transition-colors ${
+                    region === id ? 'bg-ink border-ink text-white' : 'bg-surface border-line text-muted hover:text-ink'
                   }`}
                 >
                   {name}
                 </button>
               ))}
             </div>
-            <div className="bg-white rounded-2xl border border-gray-100 shadow-sm p-5">
+            <div className="bg-surface rounded-2xl border border-line p-5">
               <Timeline events={events} showRegion={region === 'alle'} />
             </div>
-            <Link href="/zeitstrahl" className="block text-center text-sm font-medium text-amber-700 hover:text-amber-800">
-              ⏳ {t('Test yourself in the timeline game →', 'Im Zeitstrahl-Spiel üben →')}
+            <Link href="/zeitstrahl" className="block text-center text-sm font-medium text-accent hover:text-accent-strong">
+              {t('Practise in the timeline game →', 'Im Zeitstrahl-Spiel üben →')}
             </Link>
           </div>
         )}
@@ -94,11 +93,10 @@ export default function WeltgeschichteView({ intro, detailed }: { intro: React.R
               <Link
                 key={k.id}
                 href={`/weltgeschichte/kontinent/${k.id}`}
-                className="bg-white rounded-2xl border border-gray-100 shadow-sm p-4 hover:shadow-md transition-shadow"
+                className="bg-surface rounded-2xl border border-line p-4 hover:border-accent/40 transition-colors"
               >
-                <span className="text-2xl">{k.icon}</span>
-                <p className="font-semibold text-gray-900 mt-1">{t(...k.name)}</p>
-                <p className="text-xs text-gray-500">
+                <p className="font-semibold text-ink">{t(...k.name)}</p>
+                <p className="text-xs text-muted">
                   {COUNTRIES.filter(c => c.continent === k.id).length} {t('countries', 'Länder')}
                 </p>
               </Link>
@@ -112,11 +110,11 @@ export default function WeltgeschichteView({ intro, detailed }: { intro: React.R
               value={query}
               onChange={e => setQuery(e.target.value)}
               placeholder={t('Search country…', 'Land suchen …')}
-              className="w-full border border-gray-200 rounded-xl px-3 py-2.5 text-base bg-white focus:outline-none focus:border-amber-400"
+              className="w-full border border-line rounded-xl px-3 py-2.5 text-base bg-surface focus:outline-none focus:border-accent"
             />
             {detailed.length > 0 && (
-              <p className="text-xs text-gray-500">
-                ★ {t('= detailed: epochs, events, info texts and quizzes', '= ausführlich: Epochen, Ereignisse, Infotexte und Quiz')}
+              <p className="text-xs text-muted">
+                <span className="inline-block w-1.5 h-1.5 rounded-full bg-accent align-middle mr-1.5" />{t('detailed: epochs, chapters and quizzes', 'ausführlich: Epochen, Kapitel und Quiz')}
               </p>
             )}
             {CONTINENTS.map(k => {
@@ -124,18 +122,18 @@ export default function WeltgeschichteView({ intro, detailed }: { intro: React.R
               if (!list.length) return null;
               return (
                 <div key={k.id} className="space-y-2">
-                  <h2 className="text-sm font-semibold text-gray-500 uppercase tracking-wide">{t(...k.name)}</h2>
+                  <h2 className="text-xs font-semibold text-muted uppercase tracking-wider">{t(...k.name)}</h2>
                   <div className="grid grid-cols-2 sm:grid-cols-3 gap-2">
                     {list.map(c => (
                       <Link
                         key={c.code}
                         href={`/weltgeschichte/land/${c.code.toLowerCase()}`}
-                        className="flex items-center gap-2 bg-white rounded-xl border border-gray-100 shadow-sm px-3 py-2 hover:shadow-md transition-shadow"
+                        className="flex items-center gap-2 bg-surface rounded-xl border border-line px-3 py-2 hover:border-accent/40 transition-colors"
                       >
                         {/* eslint-disable-next-line @next/next/no-img-element -- local SVG flag */}
-                        <img src={flagUrl(c.code)} alt="" loading="lazy" className="h-4 w-6 object-cover rounded-sm border border-gray-200 shrink-0" />
-                        <span className="text-sm text-gray-800 truncate flex-1">{c.name}</span>
-                        {detailed.includes(c.code) && <span className="text-amber-500 text-xs" title={t('Detailed', 'Ausführlich')}>★</span>}
+                        <img src={flagUrl(c.code)} alt="" loading="lazy" className="h-4 w-6 object-cover rounded-sm border border-line shrink-0" />
+                        <span className="text-sm text-ink truncate flex-1">{c.name}</span>
+                        {detailed.includes(c.code) && <span className="w-1.5 h-1.5 rounded-full bg-accent shrink-0" title={t('Detailed', 'Ausführlich')} />}
                       </Link>
                     ))}
                   </div>

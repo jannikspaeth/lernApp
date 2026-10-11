@@ -59,14 +59,14 @@ export default function ChoiceCard({
   }, [picked, answer, onResult]);
 
   return (
-    <div className="bg-white rounded-2xl border border-gray-100 shadow-sm p-5 space-y-4">
-      <p className="text-xs text-gray-400 uppercase tracking-wide text-center">{label}</p>
-      <p className="text-lg text-gray-900 leading-relaxed text-center">
+    <div className="bg-surface rounded-2xl border border-line p-5 space-y-4">
+      <p className="text-xs text-muted uppercase tracking-wide text-center">{label}</p>
+      <p className="text-lg text-ink leading-relaxed text-center">
         {before}
         {picked ? (
           <span className={`font-bold ${correct ? 'text-green-700' : 'text-red-600'}`}>{answer}</span>
         ) : (
-          <span className="font-semibold text-gray-400">＿＿</span>
+          <span className="font-semibold text-muted">＿＿</span>
         )}
         {after}
       </p>
@@ -84,7 +84,7 @@ export default function ChoiceCard({
                   ? 'border-green-500 bg-green-50 text-green-800'
                   : isWrongPick
                   ? 'border-red-400 bg-red-50 text-red-700'
-                  : 'border-gray-200 bg-white text-gray-700 hover:border-gray-300 hover:bg-gray-50 disabled:hover:bg-white'
+                  : 'border-line bg-surface text-ink hover:border-faint hover:bg-canvas disabled:hover:bg-white'
               }`}
             >
               {opt}
@@ -97,13 +97,13 @@ export default function ChoiceCard({
           <div className={`rounded-xl p-3 text-sm flex items-center justify-between gap-2 ${correct ? 'bg-green-50 text-green-800' : 'bg-red-50 text-red-700'}`}>
             <span>
               {correct ? t('✓ Correct', '✓ Richtig') : <>✓ <strong>{answer}</strong></>}
-              {hint && <span className="text-gray-500 ml-2">({hint})</span>}
+              {hint && <span className="text-muted ml-2">({hint})</span>}
             </span>
             <SpeakButton text={`${before}${answer}${after}`} lang={lang} />
           </div>
           <button
             onClick={() => onResult(correct, picked)}
-            className="w-full py-3 bg-gray-900 hover:bg-gray-800 text-white rounded-xl font-semibold transition-colors"
+            className="w-full py-3 bg-ink hover:bg-ink/85 text-white rounded-xl font-semibold transition-colors"
           >
             {t('Next →', 'Weiter →')}
           </button>

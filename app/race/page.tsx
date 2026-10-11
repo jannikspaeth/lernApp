@@ -82,13 +82,13 @@ function ProgressOverTime({
   const tickIdx = n <= 1 ? [0] : [...new Set([0, Math.floor((n - 1) / 2), n - 1])];
 
   return (
-    <section className="bg-white rounded-2xl border border-gray-100 shadow-sm p-5 space-y-3">
-      <h2 className="font-bold text-gray-900 text-base flex items-center gap-2">
+    <section className="bg-surface rounded-2xl border border-line p-5 space-y-3">
+      <h2 className="font-bold text-ink text-base flex items-center gap-2">
         <span>📈</span> {t('Progress over time', 'Verlauf')}
       </h2>
 
       {empty ? (
-        <p className="text-sm text-gray-400 py-3 text-center">
+        <p className="text-sm text-muted py-3 text-center">
           {t('No activity yet — start learning to grow your line! 🚀', 'Noch keine Aktivität – fang an zu lernen, damit deine Linie wächst! 🚀')}
         </p>
       ) : (
@@ -151,19 +151,19 @@ function ProgressOverTime({
                   (a.cumulative[a.cumulative.length - 1] ?? 0)
               )
               .map(s => (
-                <span key={s.id} className="flex items-center gap-1.5 text-xs text-gray-600">
+                <span key={s.id} className="flex items-center gap-1.5 text-xs text-muted">
                   <span
                     className="inline-block w-3 h-0.5 rounded-full"
                     style={{ backgroundColor: colorOf(s.id) }}
                   />
-                  <span className="font-medium text-gray-800">{s.name}</span>
-                  <span className="tabular-nums text-gray-500">
+                  <span className="font-medium text-ink">{s.name}</span>
+                  <span className="tabular-nums text-muted">
                     {s.cumulative[s.cumulative.length - 1] ?? 0}
                   </span>
                 </span>
               ))}
           </div>
-          <p className="text-[11px] text-gray-400 pt-1">
+          <p className="text-[11px] text-muted pt-1">
             {t('Total flashcards & conjugations practiced, added up day by day.', 'Alle geübten Karten und Verbformen, Tag für Tag aufaddiert.')}
           </p>
         </>
@@ -200,8 +200,8 @@ export default function RacePage() {
 
   if (!loaded || !race) {
     return (
-      <main className="md:ml-56 min-h-screen bg-gray-50 flex items-center justify-center">
-        <p className="text-gray-400 text-sm">{t('Loading…', 'Lädt …')}</p>
+      <main className="md:ml-56 min-h-screen bg-canvas flex items-center justify-center">
+        <p className="text-muted text-sm">{t('Loading…', 'Lädt …')}</p>
       </main>
     );
   }
@@ -224,14 +224,14 @@ export default function RacePage() {
   const maxToday = Math.max(1, ...todayActive.map(r => r.todayCount));
 
   return (
-    <main className="md:ml-56 min-h-screen bg-gray-50 pb-24 md:pb-8">
+    <main className="md:ml-56 min-h-screen bg-canvas pb-24 md:pb-8">
       <div className="max-w-xl mx-auto p-5 space-y-5">
         <div>
-          <h1 className="text-2xl font-bold text-gray-900 flex items-center gap-2">
+          <h1 className="text-2xl font-bold text-ink flex items-center gap-2">
             <span>🏁</span> {t('THE RACE', 'DAS RENNEN')}
             {lang && <span title={t(`${langInfo(lang).name} race`, `Rennen auf ${langInfo(lang).nameDe}`)}>{langInfo(lang).flag}</span>}
           </h1>
-          <p className="text-gray-400 text-sm mt-0.5">
+          <p className="text-muted text-sm mt-0.5">
             {t(
               'Most points this calendar month wins a ⭐ — then it resets on the 1st. Most learning each day scores 5 · 4 · 3 · 2 · 1; flashcards, verbs, grammar and sentences count.',
               'Wer in diesem Kalendermonat die meisten Punkte hat, gewinnt einen ⭐ – am 1. geht es von vorn los. Wer am Tag am meisten lernt, bekommt 5 · 4 · 3 · 2 · 1 Punkte; Karten, Verben, Grammatik und Sätze zählen.',
@@ -240,13 +240,13 @@ export default function RacePage() {
         </div>
 
         {/* ===== Cars racing the month's leader ===== */}
-        <section className="bg-white rounded-2xl border border-gray-100 shadow-sm p-5 space-y-4">
+        <section className="bg-surface rounded-2xl border border-line p-5 space-y-4">
           <div className="flex items-center justify-between">
-            <h2 className="font-bold text-gray-900 text-base">{t('Standings', 'Stand')}</h2>
+            <h2 className="font-bold text-ink text-base">{t('Standings', 'Stand')}</h2>
             <div className="text-right leading-tight">
-              <p className="text-xs font-medium text-gray-500">{fmtMonth(month, loc)}</p>
+              <p className="text-xs font-medium text-muted">{fmtMonth(month, loc)}</p>
               {daysLeft > 0 && (
-                <p className="text-[11px] text-gray-400">
+                <p className="text-[11px] text-muted">
                   ⏳ {t(`${daysLeft} ${daysLeft === 1 ? 'day' : 'days'} left`, `noch ${daysLeft} ${daysLeft === 1 ? 'Tag' : 'Tage'}`)}
                 </p>
               )}
@@ -261,7 +261,7 @@ export default function RacePage() {
               return (
                 <div key={r.id}>
                   <div className="flex items-center justify-between gap-3 mb-1">
-                    <span className="text-sm font-semibold text-gray-800 flex items-center gap-1.5 min-w-0">
+                    <span className="text-sm font-semibold text-ink flex items-center gap-1.5 min-w-0">
                       {leader && <span title={t('Leader', 'Spitze')}>👑</span>}
                       <span className="truncate">{r.name + formatStars(r.stars)}</span>
                       {r.streak > 0 && (
@@ -275,7 +275,7 @@ export default function RacePage() {
                         </span>
                       )}
                     </span>
-                    <span className="text-sm font-bold tabular-nums text-gray-900 shrink-0">
+                    <span className="text-sm font-bold tabular-nums text-ink shrink-0">
                       {fmtPoints(r.points)}
                     </span>
                   </div>
@@ -285,7 +285,7 @@ export default function RacePage() {
                       🏁
                     </span>
                     {/* dashed track */}
-                    <div className="absolute left-0 right-7 top-1/2 -translate-y-1/2 border-t-2 border-dashed border-gray-200" />
+                    <div className="absolute left-0 right-7 top-1/2 -translate-y-1/2 border-t-2 border-dashed border-line" />
                     {/* car */}
                     <span
                       className="absolute top-1/2 -translate-y-1/2 -scale-x-100 text-lg transition-all duration-700 select-none"
@@ -308,33 +308,33 @@ export default function RacePage() {
         </section>
 
         {/* ===== Today so far (live) ===== */}
-        <section className="bg-white rounded-2xl border border-gray-100 shadow-sm p-5 space-y-3">
+        <section className="bg-surface rounded-2xl border border-line p-5 space-y-3">
           <div className="flex items-center justify-between">
-            <h2 className="font-bold text-gray-900 text-base">{t('Today so far', 'Heute bisher')}</h2>
+            <h2 className="font-bold text-ink text-base">{t('Today so far', 'Heute bisher')}</h2>
             <span className="flex items-center gap-1 text-xs text-green-600 font-medium">
               <span className="w-1.5 h-1.5 rounded-full bg-green-500 animate-pulse" /> live
             </span>
           </div>
 
           {todayActive.length === 0 ? (
-            <p className="text-sm text-gray-400 py-3 text-center">
+            <p className="text-sm text-muted py-3 text-center">
               {t('No activity yet today. Be the first! 🚀', 'Heute noch keine Aktivität. Sei der/die Erste! 🚀')}
             </p>
           ) : (
             <div className="space-y-2.5">
               {todayActive.map((r, i) => (
                 <div key={r.id} className="flex items-center gap-3">
-                  <span className="text-xs text-gray-400 w-4 tabular-nums">{i + 1}.</span>
-                  <span className="text-sm font-medium text-gray-800 w-20 shrink-0 truncate">
+                  <span className="text-xs text-muted w-4 tabular-nums">{i + 1}.</span>
+                  <span className="text-sm font-medium text-ink w-20 shrink-0 truncate">
                     {r.name}
                   </span>
-                  <div className="flex-1 h-2 bg-gray-100 rounded-full overflow-hidden">
+                  <div className="flex-1 h-2 bg-line-soft rounded-full overflow-hidden">
                     <div
                       className="h-full bg-red-500 rounded-full transition-all"
                       style={{ width: `${Math.round((r.todayCount / maxToday) * 100)}%` }}
                     />
                   </div>
-                  <span className="text-xs text-gray-500 tabular-nums w-10 text-right">
+                  <span className="text-xs text-muted tabular-nums w-10 text-right">
                     {r.todayCount}
                   </span>
                   <span
@@ -347,18 +347,18 @@ export default function RacePage() {
               ))}
             </div>
           )}
-          <p className="text-[11px] text-gray-400 pt-1">
+          <p className="text-[11px] text-muted pt-1">
             {t('Points are locked in at the end of each day (Europe/Berlin time).', 'Die Punkte werden am Ende jedes Tages vergeben (deutsche Zeit).')}
           </p>
         </section>
 
         {/* ===== All-time daily records ===== */}
-        <section className="bg-white rounded-2xl border border-gray-100 shadow-sm p-5 space-y-3">
-          <h2 className="font-bold text-gray-900 text-base flex items-center gap-2">
+        <section className="bg-surface rounded-2xl border border-line p-5 space-y-3">
+          <h2 className="font-bold text-ink text-base flex items-center gap-2">
             <span>🏅</span> {t('Daily records', 'Tagesrekorde')}
           </h2>
           {highscores.length === 0 ? (
-            <p className="text-sm text-gray-400 py-2 text-center">{t('No records yet — go set one!', 'Noch keine Rekorde – stell einen auf!')}</p>
+            <p className="text-sm text-muted py-2 text-center">{t('No records yet — go set one!', 'Noch keine Rekorde – stell einen auf!')}</p>
           ) : (
             <div className="space-y-2">
               {highscores.map((h, i) => {
@@ -366,15 +366,15 @@ export default function RacePage() {
                 return (
                   <div key={`${h.date}-${h.name}-${i}`} className="flex items-center gap-3">
                     <span className="w-6 text-center text-sm shrink-0">
-                      {medal ?? <span className="text-gray-400">{i + 1}.</span>}
+                      {medal ?? <span className="text-muted">{i + 1}.</span>}
                     </span>
-                    <span className="text-sm font-semibold text-gray-800 flex-1 truncate">
+                    <span className="text-sm font-semibold text-ink flex-1 truncate">
                       {h.name}
                     </span>
-                    <span className="text-xs text-gray-400 tabular-nums shrink-0">
+                    <span className="text-xs text-muted tabular-nums shrink-0">
                       {fmtDate(h.date, loc)}
                     </span>
-                    <span className="text-sm font-bold text-gray-900 tabular-nums w-10 text-right shrink-0">
+                    <span className="text-sm font-bold text-ink tabular-nums w-10 text-right shrink-0">
                       {h.count}
                     </span>
                   </div>
@@ -385,15 +385,15 @@ export default function RacePage() {
 
           {otherBests.length > 0 && (
             <div className="pt-1 space-y-2">
-              <p className="text-[11px] font-semibold text-gray-400 uppercase tracking-wide">
+              <p className="text-[11px] font-semibold text-muted uppercase tracking-wide">
                 {t('Personal bests', 'Persönliche Rekorde')}
               </p>
               {otherBests.map(h => (
                 <div key={`pb-${h.name}`} className="flex items-center gap-3">
-                  <span className="w-6 text-center text-sm shrink-0 text-gray-300">★</span>
-                  <span className="text-sm font-medium text-gray-600 flex-1 truncate">{h.name}</span>
-                  <span className="text-xs text-gray-400 tabular-nums shrink-0">{fmtDate(h.date, loc)}</span>
-                  <span className="text-sm font-bold text-gray-700 tabular-nums w-10 text-right shrink-0">
+                  <span className="w-6 text-center text-sm shrink-0 text-faint">★</span>
+                  <span className="text-sm font-medium text-muted flex-1 truncate">{h.name}</span>
+                  <span className="text-xs text-muted tabular-nums shrink-0">{fmtDate(h.date, loc)}</span>
+                  <span className="text-sm font-bold text-ink tabular-nums w-10 text-right shrink-0">
                     {h.count}
                   </span>
                 </div>
@@ -401,7 +401,7 @@ export default function RacePage() {
             </div>
           )}
 
-          <p className="text-[11px] text-gray-400 pt-1">{t('Highest single-day scores ever.', 'Die höchsten Tageswerte aller Zeiten.')}</p>
+          <p className="text-[11px] text-muted pt-1">{t('Highest single-day scores ever.', 'Die höchsten Tageswerte aller Zeiten.')}</p>
         </section>
 
         {/* ===== Progress over time (cumulative) ===== */}

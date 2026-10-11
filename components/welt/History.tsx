@@ -1,23 +1,17 @@
 import type { WikiText } from '@/lib/welt/geschichte';
-import Tx from '@/components/Tx';
 import { formatYear, type TimelineEvent } from '@/lib/wissen/zeitstrahl';
 
 // Building blocks of the world-history pages (no hooks: usable on the server).
 
 export function WikiArticle({ text, fetched }: { text: WikiText; fetched: string }) {
   return (
-    <article className="bg-white rounded-2xl border border-gray-100 shadow-sm p-5 space-y-3">
+    <article className="space-y-4">
       {text.paragraphs.map((p, i) => (
-        <p key={i} className="text-[15px] leading-relaxed text-gray-800">{p}</p>
+        <p key={i} className="text-[17px] leading-[1.75] text-ink/90">{p}</p>
       ))}
-      <div className="pt-2 border-t border-gray-100 text-xs text-gray-400 space-y-1">
-        <a href={text.url} target="_blank" rel="noopener noreferrer" className="inline-block font-medium text-sky-700 hover:text-sky-800">
-          <Tx en="Read more on Wikipedia" de="Weiterlesen auf Wikipedia" />: „{text.title}“ ↗
-        </a>
+      <div className="pt-3 border-t border-line text-xs text-muted space-y-1">
         <p>
-          Quelle: Wikipedia, Artikel „{text.title}“ (
-          <a href={text.url.replace(/#.*$/, '') + '?action=history'} target="_blank" rel="noopener noreferrer" className="underline">Autoren</a>
-          ), Text unter{' '}
+          Quelle: Wikipedia, Artikel „{text.title}“ und seine Autoren; Text unter{' '}
           <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.de" target="_blank" rel="noopener noreferrer" className="underline">CC BY-SA 4.0</a>
           , gekürzt; Stand {new Date(fetched).toLocaleDateString('de-DE')}.
         </p>
@@ -29,15 +23,15 @@ export function WikiArticle({ text, fetched }: { text: WikiText; fetched: string
 export function Timeline({ events, showRegion }: { events: (TimelineEvent & { regionLabel?: string })[]; showRegion?: boolean }) {
   const sorted = [...events].sort((a, b) => a.y - b.y);
   return (
-    <ol className="relative border-l-2 border-amber-300 ml-3 space-y-3">
+    <ol className="relative border-l border-line ml-2 space-y-4">
       {sorted.map((ev, i) => (
         <li key={i} className="ml-4">
-          <span className="absolute -left-[7px] mt-1.5 w-3 h-3 rounded-full bg-amber-500" />
-          <p className="text-xs font-bold text-amber-700">
+          <span className="absolute -left-[5px] mt-1.5 w-2.5 h-2.5 rounded-full bg-accent ring-4 ring-surface" />
+          <p className="text-xs font-semibold text-accent tabular-nums">
             {formatYear(ev.y, ev.ca)}
-            {showRegion && ev.regionLabel && <span className="ml-2 font-medium text-gray-400">{ev.regionLabel}</span>}
+            {showRegion && ev.regionLabel && <span className="ml-2 font-medium text-muted">{ev.regionLabel}</span>}
           </p>
-          <p className="text-gray-900">{ev.text}</p>
+          <p className="text-ink">{ev.text}</p>
         </li>
       ))}
     </ol>

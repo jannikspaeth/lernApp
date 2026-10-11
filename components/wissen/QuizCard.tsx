@@ -3,8 +3,9 @@
 import { useEffect, useState } from 'react';
 import type { Card } from '@/lib/wissen';
 import { useT } from '@/lib/ui-lang';
+import Icon from '@/components/Icon';
 
-// One knowledge question with four options: tap → feedback (+ background info) → Next.
+// One knowledge question with four options: tap (or key 1–4) → feedback (+ background info) → Next (or Enter).
 export default function QuizCard({
   card,
   label,
@@ -21,6 +22,23 @@ export default function QuizCard({
   const [picked, setPicked] = useState<string | null>(null);
   const t = useT();
   const correct = picked === card.a;
+
+  // Before picking: keys 1–4 choose an option.
+  useEffect(() => {
+    if (picked !== null) return;
+    const onKey = (e: KeyboardEvent) => {
+      if (e.repeat || e.metaKey || e.ctrlKey || e.altKey) return;
+      const target = e.target as HTMLElement | null;
+      if (target && (target.tagName === 'INPUT' || target.tagName === 'TEXTAREA')) return;
+      const n = Number(e.key);
+      if (n >= 1 && n <= shown.length) {
+        e.preventDefault();
+        setPicked(shown[n - 1]);
+      }
+    };
+    window.addEventListener('keydown', onKey);
+    return () => window.removeEventListener('keydown', onKey);
+  }, [picked, shown]);
 
   // After picking, Enter moves on (registered a tick later, see ChoiceCard).
   useEffect(() => {
@@ -39,15 +57,17 @@ export default function QuizCard({
   }, [picked, card.a, onResult]);
 
   return (
-    <div className="bg-white rounded-2xl border border-gray-100 shadow-sm p-5 space-y-4">
-      <p className="text-xs text-gray-400 uppercase tracking-wide text-center">{label}</p>
-      {card.img && (
-        // eslint-disable-next-line @next/next/no-img-element -- local SVG flags, no optimisation needed
-        <img src={card.img} alt="" className="mx-auto h-28 max-w-full rounded-md border border-gray-200 shadow-sm" />
-      )}
-      <p className="text-lg text-gray-900 leading-relaxed text-center font-medium">{card.q}</p>
+    <div className="space-y-5">
+      <div className="space-y-3">
+        <span className="inline-flex items-center h-6 px-2 rounded-md bg-surface border border-line text-xs font-semibold text-muted">{label}</span>
+        {card.img && (
+          // eslint-disable-next-line @next/next/no-img-element -- local SVG flags, no optimisation needed
+          <img src={card.img} alt="" className="h-28 max-w-full rounded-lg border border-line" />
+        )}
+        <p className="text-xl md:text-[22px] text-ink leading-snug font-semibold tracking-tight">{card.q}</p>
+      </div>
       <div className="grid gap-2">
-        {shown.map(opt => {
+        {shown.map((opt, i) => {
           const isAnswer = picked !== null && opt === card.a;
           const isWrongPick = picked === opt && opt !== card.a;
           return (
@@ -55,30 +75,46 @@ export default function QuizCard({
               key={opt}
               disabled={picked !== null}
               onClick={() => setPicked(opt)}
-              className={`px-4 py-3 rounded-xl border-2 text-sm font-medium text-left transition-all ${
+              className={`min-h-13 px-3.5 py-3 rounded-xl border text-[15px] font-medium text-left flex items-center gap-3 transition-colors ${
                 isAnswer
-                  ? 'border-green-500 bg-green-50 text-green-800'
+                  ? 'border-good bg-good-soft text-good'
                   : isWrongPick
-                  ? 'border-red-400 bg-red-50 text-red-700'
-                  : 'border-gray-200 bg-white text-gray-700 hover:border-gray-300 hover:bg-gray-50 disabled:hover:bg-white'
+                  ? 'border-bad bg-bad-soft text-bad'
+                  : picked !== null
+                  ? 'border-line bg-surface text-muted'
+                  : 'border-line bg-surface text-ink hover:border-accent/50 hover:bg-accent-soft/40'
               }`}
             >
-              {opt}
+              <span
+                className={`hidden sm:flex w-6 h-6 shrink-0 items-center justify-center rounded-md border text-xs font-semibold ${
+                  isAnswer ? 'border-good bg-surface' : isWrongPick ? 'border-bad bg-surface' : 'border-line bg-canvas text-muted'
+                }`}
+                aria-hidden="true"
+              >
+                {i + 1}
+              </span>
+              <span className="flex-1">{opt}</span>
+              {isAnswer && <Icon name="check" size={20} strokeWidth={2} />}
+              {isWrongPick && <Icon name="x" size={20} strokeWidth={2} />}
             </button>
           );
         })}
       </div>
       {picked !== null && (
         <>
-          <div className={`rounded-xl p-3 text-sm ${correct ? 'bg-green-50 text-green-800' : 'bg-red-50 text-red-700'}`}>
-            {correct ? t('✓ Correct', '✓ Richtig') : <>✓ <strong>{card.a}</strong></>}
-            {card.info && <p className="text-gray-600 mt-1">{card.info}</p>}
+          <div className="rounded-xl border border-line bg-surface p-4 text-sm" role="status">
+            <p className={`font-semibold ${correct ? 'text-good' : 'text-bad'}`}>
+              {correct ? t('Correct', 'Richtig') : <>{t('Correct answer', 'Richtige Antwort')}: {card.a}</>}
+            </p>
+            {card.info && <p className="text-muted mt-1 leading-relaxed">{card.info}</p>}
           </div>
           <button
             onClick={() => onResult(correct)}
-            className="w-full py-3 bg-gray-900 hover:bg-gray-800 text-white rounded-xl font-semibold transition-colors"
+            autoFocus
+            className="w-full h-12 flex items-center justify-center gap-2 bg-ink hover:bg-ink/85 text-white rounded-xl font-semibold transition-colors"
           >
-            {t('Next →', 'Weiter →')}
+            {t('Next', 'Weiter')}
+            <span className="hidden sm:inline text-white/60 font-medium text-sm">↵</span>
           </button>
         </>
       )}

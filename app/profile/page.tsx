@@ -41,20 +41,20 @@ export default function AccountPage() {
   }
 
   return (
-    <main className="min-h-screen bg-gray-50 flex items-center justify-center p-6 pb-24 md:pb-6 md:ml-56">
+    <main className="min-h-screen bg-canvas flex items-center justify-center p-6 pb-24 md:pb-6 md:ml-56">
       <div className="w-full max-w-sm space-y-6">
         <div className="text-center">
           <p className="text-4xl mb-3">👤</p>
-          <h1 className="text-2xl font-bold text-gray-900">
+          <h1 className="text-2xl font-bold text-ink">
             {profile ? profile.name + formatStars(stars[profile.id] ?? 0) : '…'}
           </h1>
-          <p className="text-sm text-gray-400 mt-1">{t('Your account', 'Dein Konto')}</p>
+          <p className="text-sm text-muted mt-1">{t('Your account', 'Dein Konto')}</p>
         </div>
 
         {profile && (
-          <div className="bg-white border border-gray-100 rounded-2xl p-5 shadow-sm space-y-2">
-            <p className="text-sm font-medium text-gray-700">{t('Languages', 'Sprachen')}</p>
-            <p className="text-sm text-gray-500">
+          <div className="bg-surface border border-line rounded-2xl p-5 space-y-2">
+            <p className="text-sm font-medium text-ink">{t('Languages', 'Sprachen')}</p>
+            <p className="text-sm text-muted">
               {LANGUAGES.filter(l => levelFor(profile, l.id))
                 .map(l => `${l.flag} ${levelFor(profile, l.id)}`)
                 .join(' · ') || t('No language set up yet', 'Noch keine Sprache eingerichtet')}
@@ -68,14 +68,14 @@ export default function AccountPage() {
         <div className="space-y-2">
           <Link
             href="/"
-            className="block w-full text-center rounded-xl py-3 font-semibold text-white bg-gray-900 hover:bg-gray-800 transition-colors"
+            className="block w-full text-center rounded-xl py-3 font-semibold text-white bg-ink hover:bg-ink/85 transition-colors"
           >
             🎓 {t('To the subjects', 'Zu den Fächern')}
           </Link>
           <button
             onClick={signOut}
             disabled={busy}
-            className="w-full rounded-xl py-3 font-semibold text-gray-600 bg-white border border-gray-200 hover:bg-gray-50 disabled:opacity-50 transition-colors"
+            className="w-full rounded-xl py-3 font-semibold text-muted bg-surface border border-line hover:bg-canvas disabled:opacity-50 transition-colors"
           >
             {t('Sign out', 'Abmelden')}
           </button>
@@ -94,7 +94,7 @@ export default function AccountPage() {
               <button
                 onClick={() => setConfirming(false)}
                 disabled={busy}
-                className="flex-1 rounded-lg py-1.5 text-sm font-semibold text-gray-600 bg-white hover:bg-gray-100"
+                className="flex-1 rounded-lg py-1.5 text-sm font-semibold text-muted bg-surface hover:bg-line-soft"
               >
                 {t('Cancel', 'Abbrechen')}
               </button>
@@ -108,7 +108,7 @@ export default function AccountPage() {
             </div>
           </div>
         ) : (
-          <button onClick={() => setConfirming(true)} className="block mx-auto text-xs text-gray-400 hover:text-red-600">
+          <button onClick={() => setConfirming(true)} className="block mx-auto text-xs text-muted hover:text-red-600">
             {t('Delete account', 'Konto löschen')}
           </button>
         )}

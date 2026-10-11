@@ -200,10 +200,10 @@ export function WorldMap({
     onPick(code);
   }
 
-  const btn = 'w-9 h-9 rounded-lg bg-white/90 border border-gray-200 shadow-sm text-lg font-semibold text-gray-700 hover:bg-white';
+  const btn = 'w-9 h-9 rounded-lg bg-surface/90 border border-line text-lg font-semibold text-ink hover:bg-white';
 
   return (
-    <div className="relative rounded-2xl overflow-hidden border border-gray-200 bg-sky-50">
+    <div className="relative rounded-2xl overflow-hidden border border-line bg-sky-50">
       <svg
         ref={svgRef}
         viewBox={`0 0 ${W} ${H}`}

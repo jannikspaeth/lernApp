@@ -68,11 +68,11 @@ export default function MapQuiz() {
     r === 'welt' ? t('Whole world', 'Ganze Welt') : t(...CONTINENTS.find(c => c.id === r)!.name);
 
   return (
-    <main className="md:ml-56 min-h-screen bg-gray-50 pb-24 md:pb-8">
+    <main className="md:ml-56 min-h-screen bg-canvas pb-24 md:pb-8">
       <div className="max-w-4xl mx-auto p-4 md:p-5 space-y-4">
         <div>
-          <Link href="/wissen/geografie" className="text-xs text-gray-400 hover:text-gray-600">← {t('Geography', 'Geografie')}</Link>
-          <h1 className="text-2xl font-bold text-gray-900 flex items-center gap-2 mt-1">
+          <Link href="/wissen/geografie" className="text-xs text-muted hover:text-ink">← {t('Geography', 'Geografie')}</Link>
+          <h1 className="text-2xl font-bold text-ink flex items-center gap-2 mt-1">
             <span>🗺️</span> {t('World map quiz', 'Weltkarten-Quiz')}
           </h1>
         </div>
@@ -84,16 +84,16 @@ export default function MapQuiz() {
         )}
 
         {!playing && (
-          <div className="bg-white rounded-2xl border border-gray-100 shadow-sm p-4 space-y-4">
+          <div className="bg-surface rounded-2xl border border-line p-4 space-y-4">
             <div className="space-y-2">
-              <p className="text-sm font-medium text-gray-700">{t('Region', 'Region')}</p>
+              <p className="text-sm font-medium text-ink">{t('Region', 'Region')}</p>
               <div className="flex flex-wrap gap-2">
                 {REGION_IDS.map(r => (
                   <button
                     key={r}
                     onClick={() => setRegion(r)}
                     className={`px-3 py-1.5 rounded-xl text-sm font-medium border transition-colors ${
-                      region === r ? 'bg-emerald-600 border-emerald-600 text-white' : 'bg-white border-gray-200 text-gray-600 hover:bg-gray-50'
+                      region === r ? 'bg-emerald-600 border-emerald-600 text-white' : 'bg-surface border-line text-muted hover:bg-canvas'
                     }`}
                   >
                     {regionName(r)}
@@ -102,7 +102,7 @@ export default function MapQuiz() {
               </div>
             </div>
             <div className="space-y-2">
-              <p className="text-sm font-medium text-gray-700">{t('Mode', 'Modus')}</p>
+              <p className="text-sm font-medium text-ink">{t('Mode', 'Modus')}</p>
               <div className="grid sm:grid-cols-2 gap-2">
                 {([
                   ['click', '👆', t('Find the country', 'Land finden'), t('A country is named — tap it on the map.', 'Ein Land wird genannt – tipp es auf der Karte an.')],
@@ -112,11 +112,11 @@ export default function MapQuiz() {
                     key={m}
                     onClick={() => setMode(m)}
                     className={`text-left p-3 rounded-xl border-2 transition-colors ${
-                      mode === m ? 'border-emerald-500 bg-emerald-50' : 'border-gray-200 hover:bg-gray-50'
+                      mode === m ? 'border-emerald-500 bg-emerald-50' : 'border-line hover:bg-canvas'
                     }`}
                   >
-                    <p className="font-semibold text-gray-900">{icon} {name}</p>
-                    <p className="text-xs text-gray-500 mt-0.5">{blurb}</p>
+                    <p className="font-semibold text-ink">{icon} {name}</p>
+                    <p className="text-xs text-muted mt-0.5">{blurb}</p>
                   </button>
                 ))}
               </div>
@@ -125,7 +125,7 @@ export default function MapQuiz() {
             <button
               disabled={!shapes}
               onClick={() => setPlaying(true)}
-              className="w-full py-3 bg-gray-900 hover:bg-gray-800 text-white rounded-xl font-semibold transition-colors disabled:opacity-50"
+              className="w-full py-3 bg-ink hover:bg-ink/85 text-white rounded-xl font-semibold transition-colors disabled:opacity-50"
             >
               {shapes ? `${t('Start', 'Los geht’s')} · ${pool.length} ${t('countries', 'Länder')} →` : t('Loading map…', 'Karte lädt …')}
             </button>
@@ -141,7 +141,7 @@ export default function MapQuiz() {
         {shapes && !playing && (
           <WorldMap shapes={shapes} fillOf={code => (code && pool.some(c => c.code === code) ? 'idle' : 'inactive')} />
         )}
-        <p className="text-[11px] text-gray-400 text-center">
+        <p className="text-[11px] text-muted text-center">
           {t('Drag to move, scroll or pinch to zoom. Map: Natural Earth / world-atlas.', 'Ziehen zum Verschieben, scrollen oder mit zwei Fingern zoomen. Karte: Natural Earth / world-atlas.')}
         </p>
       </div>
@@ -159,7 +159,7 @@ function BestLine({ mode, region, total }: { mode: Mode; region: RegionId; total
     return () => clearTimeout(id);
   }, [mode, region]);
   if (best == null || !total) return null;
-  return <p className="text-xs text-gray-500">🏆 {t('Your best', 'Dein Rekord')}: {best} / {total}</p>;
+  return <p className="text-xs text-muted">🏆 {t('Your best', 'Dein Rekord')}: {best} / {total}</p>;
 }
 
 // ─── Find the country: one name at a time, tap it ──────────────────────────────
@@ -226,10 +226,10 @@ function ClickGame({
 
   return (
     <div className="space-y-3">
-      <div className="bg-white rounded-2xl border border-gray-100 shadow-sm p-3 flex items-center gap-3">
+      <div className="bg-surface rounded-2xl border border-line p-3 flex items-center gap-3">
         {done ? (
           <div className="flex-1">
-            <p className="font-semibold text-gray-900">
+            <p className="font-semibold text-ink">
               🎉 {t('Done!', 'Fertig!')} {score} / {queue.length} {t('on the first try', 'beim ersten Versuch')}
             </p>
             {newBest && <p className="text-sm text-emerald-700">🏆 {t('New record!', 'Neuer Rekord!')}</p>}
@@ -237,12 +237,12 @@ function ClickGame({
         ) : (
           <>
             {/* eslint-disable-next-line @next/next/no-img-element -- local SVG flag */}
-            <img src={flagUrl(target.code)} alt="" className="h-8 w-11 object-cover rounded border border-gray-200" />
+            <img src={flagUrl(target.code)} alt="" className="h-8 w-11 object-cover rounded border border-line" />
             <div className="flex-1 min-w-0">
-              <p className="text-xs text-gray-400">{t('Where is…', 'Wo liegt …')}</p>
-              <p className="font-bold text-gray-900 text-lg leading-tight truncate">{target.name}</p>
+              <p className="text-xs text-muted">{t('Where is…', 'Wo liegt …')}</p>
+              <p className="font-bold text-ink text-lg leading-tight truncate">{target.name}</p>
             </div>
-            <p className="text-xs text-gray-400 tabular-nums">{idx + 1}/{queue.length} · ✓ {score}</p>
+            <p className="text-xs text-muted tabular-nums">{idx + 1}/{queue.length} · ✓ {score}</p>
           </>
         )}
       </div>
@@ -267,13 +267,13 @@ function ClickGame({
       />
 
       <div className="flex gap-2">
-        <button onClick={onExit} className="flex-1 py-2.5 border border-gray-200 bg-white hover:bg-gray-50 text-gray-600 rounded-xl text-sm transition-colors">
+        <button onClick={onExit} className="flex-1 py-2.5 border border-line bg-surface hover:bg-canvas text-muted rounded-xl text-sm transition-colors">
           {t('End', 'Beenden')}
         </button>
         {!done && (
           <button
             onClick={() => next({ ...result, [target.code]: 'missed' })}
-            className="flex-1 py-2.5 bg-gray-900 hover:bg-gray-800 text-white rounded-xl text-sm font-semibold transition-colors"
+            className="flex-1 py-2.5 bg-ink hover:bg-ink/85 text-white rounded-xl text-sm font-semibold transition-colors"
           >
             {revealed ? t('Next →', 'Weiter →') : t('Skip', 'Überspringen')}
           </button>
@@ -388,14 +388,14 @@ function TypeGame({
 
   return (
     <div className="space-y-3">
-      <div className="bg-white rounded-2xl border border-gray-100 shadow-sm p-3 space-y-2">
+      <div className="bg-surface rounded-2xl border border-line p-3 space-y-2">
         <div className="flex items-center justify-between text-sm">
-          <span className="font-semibold text-gray-900 tabular-nums">
+          <span className="font-semibold text-ink tabular-nums">
             {found.length} / {pool.length} {t('countries', 'Länder')}
           </span>
-          <span className="text-gray-400 tabular-nums">⏱ {start ? fmtTime(now - start) : '0:00'}</span>
+          <span className="text-muted tabular-nums">⏱ {start ? fmtTime(now - start) : '0:00'}</span>
         </div>
-        <div className="h-1.5 bg-gray-100 rounded-full overflow-hidden">
+        <div className="h-1.5 bg-line-soft rounded-full overflow-hidden">
           <div className="h-full bg-emerald-500 rounded-full transition-all" style={{ width: `${(found.length / Math.max(1, pool.length)) * 100}%` }} />
         </div>
         {!finished ? (
@@ -415,11 +415,11 @@ function TypeGame({
             autoComplete="off"
             autoCorrect="off"
             spellCheck={false}
-            className="w-full border border-gray-200 rounded-xl px-3 py-2.5 text-base focus:outline-none focus:border-emerald-400"
+            className="w-full border border-line rounded-xl px-3 py-2.5 text-base focus:outline-none focus:border-emerald-400"
           />
         ) : (
           <div className="text-sm">
-            <p className="font-semibold text-gray-900">
+            <p className="font-semibold text-ink">
               {found.length === pool.length ? `🎉 ${t('All found!', 'Alle gefunden!')}` : t('Result', 'Ergebnis')}: {found.length} / {pool.length}
               {start ? ` · ${fmtTime(now - start)}` : ''}
             </p>
@@ -437,14 +437,14 @@ function TypeGame({
       />
 
       {gaveUp && missing.length > 0 && (
-        <div className="bg-white rounded-2xl border border-gray-100 shadow-sm p-4">
-          <p className="text-sm font-semibold text-gray-700 mb-2">{t('Missing', 'Gefehlt haben')} ({missing.length})</p>
-          <p className="text-sm text-gray-600 leading-relaxed">{missing.map(c => c.name).join(' · ')}</p>
+        <div className="bg-surface rounded-2xl border border-line p-4">
+          <p className="text-sm font-semibold text-ink mb-2">{t('Missing', 'Gefehlt haben')} ({missing.length})</p>
+          <p className="text-sm text-muted leading-relaxed">{missing.map(c => c.name).join(' · ')}</p>
         </div>
       )}
 
       <div className="flex gap-2">
-        <button onClick={onExit} className="flex-1 py-2.5 border border-gray-200 bg-white hover:bg-gray-50 text-gray-600 rounded-xl text-sm transition-colors">
+        <button onClick={onExit} className="flex-1 py-2.5 border border-line bg-surface hover:bg-canvas text-muted rounded-xl text-sm transition-colors">
           {t('End', 'Beenden')}
         </button>
         {!finished && (
@@ -454,7 +454,7 @@ function TypeGame({
               setNow(Date.now());
               finish(found.length);
             }}
-            className="flex-1 py-2.5 bg-gray-900 hover:bg-gray-800 text-white rounded-xl text-sm font-semibold transition-colors"
+            className="flex-1 py-2.5 bg-ink hover:bg-ink/85 text-white rounded-xl text-sm font-semibold transition-colors"
           >
             {t('Give up · show missing', 'Aufgeben · fehlende zeigen')}
           </button>

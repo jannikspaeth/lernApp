@@ -44,7 +44,7 @@ export default function Celebration({
         );
       })}
       <div
-        className="mt-20 bg-gray-900 text-white text-sm font-semibold px-4 py-2.5 rounded-full shadow-lg"
+        className="mt-20 bg-ink text-white text-sm font-semibold px-4 py-2.5 rounded-full shadow-lg"
         style={{ animation: 'toastPop 2.6s ease-out forwards' }}
       >
         {message}

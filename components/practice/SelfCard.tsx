@@ -28,9 +28,9 @@ export default function SelfCard({
   const t = useT();
 
   return (
-    <div className="bg-white rounded-2xl border border-gray-100 shadow-sm p-5 space-y-4">
-      <p className="text-xs text-gray-400 uppercase tracking-wide">{label}</p>
-      <p className="text-lg font-semibold text-gray-900 flex items-start justify-between gap-2">
+    <div className="bg-surface rounded-2xl border border-line p-5 space-y-4">
+      <p className="text-xs text-muted uppercase tracking-wide">{label}</p>
+      <p className="text-lg font-semibold text-ink flex items-start justify-between gap-2">
         <span>{source}</span>
         {speakSource && speakText && <SpeakButton text={speakText} lang={lang} size="md" />}
       </p>
@@ -41,11 +41,11 @@ export default function SelfCard({
             onChange={e => setTyped(e.target.value)}
             rows={2}
             placeholder={t('Your translation (optional)…', 'Deine Übersetzung (optional) …')}
-            className="w-full border border-gray-200 rounded-xl p-3 text-sm outline-none focus:border-red-400 transition-colors resize-none"
+            className="w-full border border-line rounded-xl p-3 text-sm outline-none focus:border-accent transition-colors resize-none"
           />
           <button
             onClick={() => setRevealed(true)}
-            className="w-full py-2.5 bg-gray-900 hover:bg-gray-800 text-white rounded-xl text-sm font-semibold transition-colors"
+            className="w-full py-2.5 bg-ink hover:bg-ink/85 text-white rounded-xl text-sm font-semibold transition-colors"
           >
             {t('Show answer', 'Lösung zeigen')}
           </button>
@@ -53,13 +53,13 @@ export default function SelfCard({
       ) : (
         <>
           {typed.trim() && (
-            <p className="text-sm text-gray-400">
+            <p className="text-sm text-muted">
               {t('You:', 'Du:')} <span className="italic">{typed.trim()}</span>
             </p>
           )}
           <div className="rounded-xl bg-green-50 p-3">
-            <p className="text-[11px] font-semibold text-gray-400 uppercase tracking-wide mb-0.5">{t('Answer', 'Lösung')}</p>
-            <p className="text-base font-semibold text-gray-900 flex items-start justify-between gap-2">
+            <p className="text-[11px] font-semibold text-muted uppercase tracking-wide mb-0.5">{t('Answer', 'Lösung')}</p>
+            <p className="text-base font-semibold text-ink flex items-start justify-between gap-2">
               <span>{target}</span>
               {!speakSource && speakText && <SpeakButton text={speakText} lang={lang} />}
             </p>

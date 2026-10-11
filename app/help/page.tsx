@@ -11,8 +11,8 @@ function Tx({ en, de }: { en: ReactNode; de: ReactNode }) {
 
 function Section({ icon, title, children }: { icon: string; title: ReactNode; children: ReactNode }) {
   return (
-    <section className="bg-white rounded-2xl border border-gray-100 shadow-sm p-5 space-y-3">
-      <h2 className="font-bold text-gray-900 text-base flex items-center gap-2">
+    <section className="bg-surface rounded-2xl border border-line p-5 space-y-3">
+      <h2 className="font-bold text-ink text-base flex items-center gap-2">
         <span>{icon}</span> {title}
       </h2>
       {children}
@@ -21,7 +21,7 @@ function Section({ icon, title, children }: { icon: string; title: ReactNode; ch
 }
 
 const P = ({ children }: { children: ReactNode }) => (
-  <p className="text-sm text-gray-600 leading-relaxed">{children}</p>
+  <p className="text-sm text-muted leading-relaxed">{children}</p>
 );
 
 const PHASES = [
@@ -39,11 +39,11 @@ export default function HelpPage() {
   const de = lang === 'de';
 
   return (
-    <main className="md:ml-56 min-h-screen bg-gray-50 pb-24 md:pb-8">
+    <main className="md:ml-56 min-h-screen bg-canvas pb-24 md:pb-8">
       <div className="max-w-xl mx-auto p-5 space-y-6">
         <div>
-          <h1 className="text-2xl font-bold text-gray-900">{de ? 'So funktioniert’s' : 'How it works'}</h1>
-          <p className="text-gray-400 text-sm mt-0.5">{de ? 'Eine kurze Anleitung zur App' : 'A quick guide to the app'}</p>
+          <h1 className="text-2xl font-bold text-ink">{de ? 'So funktioniert’s' : 'How it works'}</h1>
+          <p className="text-muted text-sm mt-0.5">{de ? 'Eine kurze Anleitung zur App' : 'A quick guide to the app'}</p>
         </div>
 
         <Section icon="📲" title={<Tx en="Install as an app" de="Als App installieren" />}>
@@ -53,7 +53,7 @@ export default function HelpPage() {
               de="Leg die App auf deinen Startbildschirm – sie öffnet dann im Vollbild mit eigenem Symbol, wie eine normale App. Updates kommen automatisch."
             />
           </P>
-          <div className="space-y-1.5 text-sm text-gray-600">
+          <div className="space-y-1.5 text-sm text-muted">
             <Tx
               en={<>
                 <p><strong>iPhone (Safari):</strong> tap the Share button <span className="whitespace-nowrap">(□↑)</span> → <em>Add to Home Screen</em> → <em>Add</em>.</p>
@@ -122,19 +122,19 @@ export default function HelpPage() {
             />
           </P>
           <div className="space-y-2">
-            <h3 className="text-xs font-semibold text-gray-500 uppercase tracking-wide">{de ? 'Lernphasen' : 'Learning phases'}</h3>
+            <h3 className="text-xs font-semibold text-muted uppercase tracking-wide">{de ? 'Lernphasen' : 'Learning phases'}</h3>
             <div className="space-y-1.5">
               {[...PHASES, { label: de ? 'Gekonnt' : 'Known', color: 'bg-green-100 text-green-700', en: 'No more reviews needed', de: 'Keine Wiederholung mehr nötig' }].map(p => (
                 <div key={p.label} className="flex items-center gap-3">
                   <span className={`text-xs px-2 py-0.5 rounded-md font-semibold shrink-0 ${p.color}`}>{p.label}</span>
-                  <span className="text-sm text-gray-500">{de ? p.de : p.en}</span>
+                  <span className="text-sm text-muted">{de ? p.de : p.en}</span>
                 </div>
               ))}
             </div>
           </div>
           <div className="space-y-2 pt-1">
-            <h3 className="text-xs font-semibold text-gray-500 uppercase tracking-wide">{de ? 'Nach dem Prüfen' : 'After checking answers'}</h3>
-            <div className="space-y-1.5 text-sm text-gray-600">
+            <h3 className="text-xs font-semibold text-muted uppercase tracking-wide">{de ? 'Nach dem Prüfen' : 'After checking answers'}</h3>
+            <div className="space-y-1.5 text-sm text-muted">
               <Tx
                 en={<>
                   <p><span className="font-semibold text-red-700">Again</span> — start the word over; it comes back today.</p>
@@ -156,41 +156,41 @@ export default function HelpPage() {
         </Section>
 
         <Section icon="🗂" title={<Tx en="Vocabulary tabs" de="Vokabel-Tabs" />}>
-          <div className="space-y-2 text-sm text-gray-600">
+          <div className="space-y-2 text-sm text-muted">
             <Tx
               en={<>
                 <div>
-                  <p className="font-semibold text-gray-800">Learn</p>
+                  <p className="font-semibold text-ink">Learn</p>
                   <p>Introduces 20 new words you haven&apos;t seen yet. Use <strong>Topic</strong> to learn one area at a time (food, family, travel, verbs …) – each topic shows how much of it you&apos;ve seen.</p>
                 </div>
                 <div>
-                  <p className="font-semibold text-gray-800">Ask 🇩🇪 → 🇮🇹 / 🇮🇹 → 🇩🇪 / Mixed</p>
+                  <p className="font-semibold text-ink">Ask 🇩🇪 → 🇮🇹 / 🇮🇹 → 🇩🇪 / Mixed</p>
                   <p>Choose which side of the card you&apos;re asked. Target language → German trains recognition, German → target language trains actively using the word. Mixed (the default) picks at random per card.</p>
                 </div>
                 <div>
-                  <p className="font-semibold text-gray-800">Review</p>
+                  <p className="font-semibold text-ink">Review</p>
                   <p>Words that are due for review today. Do this before learning new words.</p>
                 </div>
                 <div>
-                  <p className="font-semibold text-gray-800">Words</p>
+                  <p className="font-semibold text-ink">Words</p>
                   <p>All words you&apos;ve ever seen, with their current phase and next review date.</p>
                 </div>
               </>}
               de={<>
                 <div>
-                  <p className="font-semibold text-gray-800">Lernen</p>
+                  <p className="font-semibold text-ink">Lernen</p>
                   <p>Bringt dir 20 neue Wörter bei, die du noch nicht gesehen hast. Mit <strong>Thema</strong> lernst du einen Bereich nach dem anderen (Essen, Familie, Reisen, Verben …) – bei jedem Thema siehst du, wie viel du schon kennst.</p>
                 </div>
                 <div>
-                  <p className="font-semibold text-gray-800">Abfrage 🇩🇪 → 🇮🇹 / 🇮🇹 → 🇩🇪 / Gemischt</p>
+                  <p className="font-semibold text-ink">Abfrage 🇩🇪 → 🇮🇹 / 🇮🇹 → 🇩🇪 / Gemischt</p>
                   <p>Wähle, welche Seite der Karte abgefragt wird. Fremdsprache → Deutsch trainiert das Verstehen, Deutsch → Fremdsprache das aktive Benutzen. Gemischt (Standard) entscheidet pro Karte zufällig.</p>
                 </div>
                 <div>
-                  <p className="font-semibold text-gray-800">Wiederholen</p>
+                  <p className="font-semibold text-ink">Wiederholen</p>
                   <p>Wörter, die heute fällig sind. Am besten vor neuen Wörtern erledigen.</p>
                 </div>
                 <div>
-                  <p className="font-semibold text-gray-800">Wörter</p>
+                  <p className="font-semibold text-ink">Wörter</p>
                   <p>Alle Wörter, die du je gesehen hast, mit Phase und nächstem Wiederholungstermin.</p>
                 </div>
               </>}

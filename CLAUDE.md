@@ -67,9 +67,11 @@ Flow: `/login` → `/` (subjects) → Sprachen: `/heute` (→ `/sprache` for lan
 
 ## Knowledge subjects (`/`, `/wissen/[fach]`)
 
-- `/` is the subject overview (`app/page.tsx`); `/wissen/[fach]` (static, `generateStaticParams`) renders
-  `components/wissen/SubjectView.tsx`. The nav (`components/Navigation.tsx`) switches to subject items on
-  `/` and `/wissen/*` and to the language items everywhere else.
+- `/` is the home page (`app/page.tsx`: continue card from `RememberVisit`, due reviews, discover, subjects);
+  `/faecher` lists every subject; `/wissen/[fach]` (static, `generateStaticParams`) renders
+  `components/wissen/SubjectView.tsx`. The nav (`components/Navigation.tsx`) has five fixed sections — Start,
+  Fächer, Geschichte, Sprachen, Profil — each with its sub-pages (desktop: under the section in the sidebar;
+  mobile: a sticky chip bar at the top, the five sections in the bottom bar).
 - Content in `lib/wissen/<subject>.ts` (listed in `SUBJECTS`, `lib/wissen/index.ts`), German only: topics of cards
   `[question, answer, wrong answers?, info?]` built with `topic()`; optional `group` (heading in the topic list),
   `shuffle` (new cards in random order), card `img`, subject `links` (games shown above the topics). Card ids are positional
@@ -94,7 +96,8 @@ Flow: `/login` → `/` (subjects) → Sprachen: `/heute` (→ `/sprache` for lan
   continents, every country with flag, map and a history overview from the German Wikipedia. The texts are
   **generated** by `node scripts/build-history.mjs` into `lib/welt/geschichte.json` (Wikidata P2184 "history of"
   article per ISO code, else the "Geschichte" section of the country article; ~1.2 s per request because
-  Wikipedia rate-limits). CC BY-SA 4.0: every text shows source, authors link and licence (`WikiArticle`).
+  Wikipedia rate-limits). CC BY-SA 4.0: every text shows source and licence (`WikiArticle`); there are no
+  "read more on Wikipedia" links any more, and countries with a detailed history no longer show the overview.
   Import `lib/welt/geschichte.ts` only in server components so the JSON stays out of client bundles.
   `components/Tx.tsx` gives bilingual UI text inside server components.
 - **Detailed country histories** (`lib/laender/<code>.ts`, registered in `DETAILED`, `lib/laender/index.ts`):
@@ -114,6 +117,15 @@ Flow: `/login` → `/` (subjects) → Sprachen: `/heute` (→ `/sprache` for lan
 - Progress: one blob per profile (not per language) in the `race` table, row `wissen:<profile id>`
   (`/api/data/wissen`, `getWissen`/`updateWissen` in `lib/storage.ts`, queued read-modify-write).
   Not counted for the race.
+
+## Design (direction "Modern Clean")
+
+- Tokens in `app/globals.css` (`@theme`): `canvas`, `surface`, `line`, `line-soft`, `ink`, `muted`, `faint`,
+  `accent` (+ `-strong`, `-soft`), `good`/`bad`/`warn` (+ `-soft`). Use them (`bg-surface`, `text-muted`, …) instead
+  of raw Tailwind greys/brand colours. Font: Geist via `next/font` (`--font-geist`).
+- Icons: `components/Icon.tsx` (line icons, `<Icon name="globe" />`, `SUBJECT_ICONS` per subject) — no emojis as UI icons.
+- Pages: `max-w-2xl mx-auto px-5 pt-6 md:pt-10`, title `text-[28px] md:text-3xl font-bold tracking-tight`,
+  cards `bg-surface border border-line rounded-2xl`, primary buttons `bg-accent text-white h-12 rounded-xl`.
 
 ## Installable & offline (PWA)
 

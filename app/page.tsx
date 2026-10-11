@@ -8,13 +8,15 @@ import { getWissen } from '@/lib/storage';
 import { langInfo } from '@/lib/lang';
 import { MIX, SUBJECTS, allCards } from '@/lib/wissen';
 import { WissenProgress, summarize } from '@/lib/wissen/progress';
+import Icon, { SUBJECT_ICONS, type IconName } from '@/components/Icon';
+import { useLastVisit } from '@/components/RememberVisit';
 
-// Home: every subject at a glance. Languages lead into the language app
-// (/heute → language picker if none is set up yet).
+// Home: continue where you left off, due reviews, then every subject at a glance.
 export default function Home() {
   const { profile, lang } = useProfile();
   const t = useT();
   const [prog, setProg] = useState<WissenProgress | null>(null);
+  const last = useLastVisit();
 
   useEffect(() => {
     if (!profile) return;
@@ -26,109 +28,115 @@ export default function Home() {
   }, [profile]);
 
   const info = lang ? langInfo(lang) : null;
+  const mix = prog ? summarize(allCards(MIX), prog) : null;
+  const hour = new Date().getHours();
+  const greeting =
+    hour < 11 ? t('Good morning', 'Guten Morgen') : hour < 18 ? t('Hello', 'Hallo') : t('Good evening', 'Guten Abend');
+
+  const discover: { href: string; icon: IconName; name: string; blurb: string }[] = [
+    { href: '/weltgeschichte', icon: 'globe', name: t('World history', 'Weltgeschichte'), blurb: t('Every country', 'Alle Länder') },
+    { href: '/karte', icon: 'map', name: t('Map quiz', 'Weltkarte'), blurb: t('Find countries', 'Länder finden') },
+    { href: '/zeitstrahl', icon: 'hourglass', name: t('Timeline', 'Zeitstrahl'), blurb: t('Order events', 'Ereignisse ordnen') },
+  ];
 
   return (
-    <main className="md:ml-56 min-h-screen bg-gray-50 pb-24 md:pb-8">
-      <div className="max-w-xl mx-auto p-5 space-y-5">
-        <div>
-          <h1 className="text-2xl font-bold text-gray-900 flex items-center gap-2">
-            <span>🎓</span> {t('Learn', 'Lernen')}
-          </h1>
-          <p className="text-gray-400 text-sm mt-0.5">
-            {profile ? t(`Hi ${profile.name}! What do you feel like today?`, `Hallo ${profile.name}! Worauf hast du heute Lust?`) : t('Pick a subject', 'Such dir ein Fach aus')}
-          </p>
-        </div>
+    <main className="md:ml-56 min-h-screen bg-canvas pb-24 md:pb-10">
+      <div className="max-w-2xl mx-auto px-5 pt-6 md:pt-10 space-y-6">
+        <header>
+          <p className="text-sm font-medium text-muted">{greeting}{profile ? `, ${profile.name}` : ''}</p>
+          <h1 className="text-[28px] md:text-3xl font-bold text-ink tracking-tight mt-0.5">{t('What do you want to learn?', 'Was lernst du heute?')}</h1>
+        </header>
 
-        {(() => {
-          const sum = prog ? summarize(allCards(MIX), prog) : null;
-          return (
+        <div className="space-y-3">
+          {last && (
             <Link
-              href="/wissen/mix"
-              className="flex items-center gap-3 rounded-2xl bg-gray-900 text-white p-4 hover:bg-gray-800 transition-colors"
+              href={last.href}
+              className="flex items-center gap-4 p-4 rounded-2xl bg-surface border border-line hover:border-accent/40 transition-colors"
             >
-              <span className="text-3xl">🎲</span>
-              <div className="flex-1 min-w-0">
-                <p className="font-bold">{t('Mixed round', 'Gemischte Runde')}</p>
-                <p className="text-xs text-gray-300">
-                  {sum && sum.due > 0
-                    ? t(`${sum.due} questions due for review — from every subject`, `${sum.due} Fragen zur Wiederholung fällig – aus allen Fächern`)
-                    : t('10 questions from every subject', '10 Fragen quer durch alle Fächer')}
-                </p>
-              </div>
-              <span className="font-semibold">→</span>
+              <span className="w-11 h-11 rounded-xl bg-accent-soft text-accent flex items-center justify-center">
+                <Icon name="bookOpen" size={22} />
+              </span>
+              <span className="flex-1 min-w-0">
+                <span className="block text-xs font-semibold text-muted">{t('Continue', 'Weiterlernen')}</span>
+                <span className="block font-semibold text-ink truncate">{last.title}</span>
+                <span className="block text-[13px] text-muted truncate">{last.context}</span>
+              </span>
+              <Icon name="chevronRight" size={20} className="text-faint" />
             </Link>
-          );
-        })()}
-
-        <div className="grid grid-cols-3 gap-2 sm:gap-3">
-          {[
-            { href: '/weltgeschichte', icon: '🌍', name: t('World history', 'Weltgeschichte'), blurb: t('Every country', 'Alle Länder') },
-            { href: '/karte', icon: '🗺️', name: t('World map quiz', 'Weltkarten-Quiz'), blurb: t('Find every country', 'Alle Länder finden') },
-            { href: '/zeitstrahl', icon: '⏳', name: t('Timeline', 'Zeitstrahl'), blurb: t('Order historic events', 'Ereignisse ordnen') },
-          ].map(g => (
-            <Link
-              key={g.href}
-              href={g.href}
-              className="rounded-2xl border border-gray-100 bg-white shadow-sm p-3 sm:p-4 hover:shadow-md transition-shadow min-w-0"
-            >
-              <span className="text-2xl">{g.icon}</span>
-              <p className="font-semibold text-gray-900 mt-1 text-sm sm:text-base leading-tight">{g.name}</p>
-              <p className="text-xs text-gray-500">{g.blurb}</p>
-            </Link>
-          ))}
-        </div>
-
-        <h2 className="text-sm font-semibold text-gray-500 uppercase tracking-wide pt-1">{t('Subjects', 'Fächer')}</h2>
-        <div className="grid sm:grid-cols-2 gap-3">
-          {SUBJECTS.map(s => {
-            const sum = prog ? summarize(allCards(s), prog) : null;
-            return (
-              <Link
-                key={s.id}
-                href={`/wissen/${s.id}`}
-                className={`rounded-2xl border ${s.color.border} ${s.color.bg} p-4 space-y-2 hover:shadow-md transition-shadow`}
-              >
-                <div className="flex items-center gap-2">
-                  <span className="text-3xl">{s.icon}</span>
-                  <div className="min-w-0">
-                    <p className={`font-bold ${s.color.text}`}>{t(...s.name)}</p>
-                    <p className="text-xs text-gray-500 truncate">{t(...s.blurb)}</p>
-                  </div>
-                </div>
-                <div className="h-1.5 bg-white/70 rounded-full overflow-hidden">
-                  <div
-                    className={`h-full ${s.color.bar} rounded-full`}
-                    style={{ width: `${sum ? (sum.mastered / sum.total) * 100 : 0}%` }}
-                  />
-                </div>
-                <p className="text-xs text-gray-500">
-                  {sum ? `${sum.mastered} / ${sum.total} ${t('learned', 'gelernt')}` : `${allCards(s).length} ${t('cards', 'Karten')}`}
-                  {sum && sum.due > 0 && <span className="text-amber-700"> · {sum.due} {t('due', 'fällig')}</span>}
-                </p>
-              </Link>
-            );
-          })}
-
+          )}
           <Link
-            href="/heute"
-            className="rounded-2xl border border-red-200 bg-red-50 p-4 space-y-2 hover:shadow-md transition-shadow"
+            href="/wissen/mix"
+            className="flex items-center gap-4 p-4 rounded-2xl bg-accent hover:bg-accent-strong text-white transition-colors"
           >
-            <div className="flex items-center gap-2">
-              <span className="text-3xl">{info?.flag ?? '🗣️'}</span>
-              <div className="min-w-0">
-                <p className="font-bold text-red-800">{t('Languages', 'Sprachen')}</p>
-                <p className="text-xs text-gray-500 truncate">
-                  {t('Italian, Spanish, French', 'Italienisch, Spanisch, Französisch')}
-                </p>
-              </div>
-            </div>
-            <p className="text-xs text-gray-500">
-              {info
-                ? t(`Continue with ${info.name} →`, `Weiter mit ${info.nameDe} →`)
-                : t('Vocabulary, verbs, grammar, reading →', 'Vokabeln, Verben, Grammatik, Lesen →')}
-            </p>
+            <span className="w-11 h-11 rounded-xl bg-white/15 flex items-center justify-center">
+              <Icon name="shuffle" size={22} />
+            </span>
+            <span className="flex-1 min-w-0">
+              <span className="block font-semibold">
+                {mix && mix.due > 0
+                  ? t(`${mix.due} reviews due`, `${mix.due} Wiederholungen fällig`)
+                  : t('Mixed round', 'Gemischte Runde')}
+              </span>
+              <span className="block text-[13px] text-white/80">{t('10 questions from every subject', '10 Fragen quer durch alle Fächer')}</span>
+            </span>
+            <Icon name="arrowRight" size={20} />
           </Link>
         </div>
+
+        <section className="space-y-2.5">
+          <h2 className="text-xs font-semibold text-muted uppercase tracking-wider">{t('Discover', 'Entdecken')}</h2>
+          <div className="grid grid-cols-3 gap-2.5">
+            {discover.map(g => (
+              <Link
+                key={g.href}
+                href={g.href}
+                className="rounded-2xl bg-surface border border-line p-3.5 hover:border-accent/40 transition-colors min-w-0"
+              >
+                <Icon name={g.icon} size={22} className="text-accent" />
+                <p className="font-semibold text-ink mt-3 text-sm leading-tight">{g.name}</p>
+                <p className="text-xs text-muted mt-0.5 truncate">{g.blurb}</p>
+              </Link>
+            ))}
+          </div>
+        </section>
+
+        <section className="space-y-2.5">
+          <div className="flex items-baseline justify-between">
+            <h2 className="text-xs font-semibold text-muted uppercase tracking-wider">{t('Subjects', 'Fächer')}</h2>
+            <Link href="/faecher" className="text-sm font-medium text-accent hover:text-accent-strong">{t('All', 'Alle')}</Link>
+          </div>
+          <div className="bg-surface rounded-2xl border border-line divide-y divide-line-soft overflow-hidden">
+            {SUBJECTS.map(s => {
+              const sum = prog ? summarize(allCards(s), prog) : null;
+              const pct = sum && sum.total ? Math.round((sum.mastered / sum.total) * 100) : 0;
+              return (
+                <Link key={s.id} href={`/wissen/${s.id}`} className="flex items-center gap-3 px-4 py-3 hover:bg-canvas transition-colors">
+                  <span className={`w-9 h-9 rounded-lg flex items-center justify-center ${s.color.bg} ${s.color.text}`}>
+                    <Icon name={SUBJECT_ICONS[s.id] ?? 'book'} size={19} />
+                  </span>
+                  <span className="flex-1 min-w-0">
+                    <span className="block font-medium text-ink">{t(...s.name)}</span>
+                    {sum && sum.due > 0 && <span className="block text-xs text-warn">{sum.due} {t('due', 'fällig')}</span>}
+                  </span>
+                  <span className="text-[13px] text-muted tabular-nums">{prog ? `${pct} %` : ''}</span>
+                  <Icon name="chevronRight" size={18} className="text-faint" />
+                </Link>
+              );
+            })}
+            <Link href="/heute" className="flex items-center gap-3 px-4 py-3 hover:bg-canvas transition-colors">
+              <span className="w-9 h-9 rounded-lg flex items-center justify-center bg-accent-soft text-accent">
+                <Icon name="languages" size={19} />
+              </span>
+              <span className="flex-1 min-w-0">
+                <span className="block font-medium text-ink">{t('Languages', 'Sprachen')}</span>
+                <span className="block text-xs text-muted truncate">
+                  {info ? t(`Continue with ${info.name}`, `Weiter mit ${info.nameDe}`) : t('Italian, Spanish, French', 'Italienisch, Spanisch, Französisch')}
+                </span>
+              </span>
+              <Icon name="chevronRight" size={18} className="text-faint" />
+            </Link>
+          </div>
+        </section>
       </div>
     </main>
   );

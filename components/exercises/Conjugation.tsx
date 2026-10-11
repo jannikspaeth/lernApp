@@ -127,18 +127,18 @@ export default function Conjugation({ exercise, lang, onComplete, continueLabel 
   return (
     <div className="space-y-5">
       {/* Verb header */}
-      <div className="bg-gray-50 rounded-xl p-4 flex items-center justify-between">
+      <div className="bg-canvas rounded-xl p-4 flex items-center justify-between">
         <div>
-          <p className="text-xs text-gray-400 uppercase tracking-wide font-medium">{t('Verb', 'Verb')}</p>
-          <p className="text-3xl font-bold text-gray-900 mt-0.5">{exercise.verb}</p>
+          <p className="text-xs text-muted uppercase tracking-wide font-medium">{t('Verb', 'Verb')}</p>
+          <p className="text-3xl font-bold text-ink mt-0.5">{exercise.verb}</p>
         </div>
         <div className="text-right">
-          <p className="text-xs text-gray-400 uppercase tracking-wide font-medium">{t('Tenses', 'Zeitformen')}</p>
+          <p className="text-xs text-muted uppercase tracking-wide font-medium">{t('Tenses', 'Zeitformen')}</p>
           <p className="text-sm font-semibold text-red-700 mt-0.5">{exercise.sections.length}</p>
         </div>
       </div>
 
-      <p className="text-gray-600 text-sm">{uiLang === 'de'
+      <p className="text-muted text-sm">{uiLang === 'de'
           ? exercise.instruction.replace(/^Conjugate "(.+?)" \((.+?)\): (.+)$/, 'Konjugiere „$1“ ($2): $3')
           : exercise.instruction}</p>
 
@@ -158,7 +158,7 @@ export default function Conjugation({ exercise, lang, onComplete, continueLabel 
                   ? 'border-green-300'
                   : sectionWrong
                   ? 'border-red-200'
-                  : 'border-gray-200'
+                  : 'border-line'
               }`}
             >
               {/* Section header */}
@@ -168,12 +168,12 @@ export default function Conjugation({ exercise, lang, onComplete, continueLabel 
                     ? 'bg-green-50'
                     : sectionWrong
                     ? 'bg-red-50'
-                    : 'bg-gray-50'
+                    : 'bg-canvas'
                 }`}
               >
                 <div>
-                  <span className="font-semibold text-gray-800 text-sm">{tenseName(section.tenseName_de, uiLang)}</span>
-                  <span className="text-gray-400 text-xs ml-2 italic">{section.tense}</span>
+                  <span className="font-semibold text-ink text-sm">{tenseName(section.tenseName_de, uiLang)}</span>
+                  <span className="text-muted text-xs ml-2 italic">{section.tense}</span>
                 </div>
                 {checked && (
                   <span className="flex items-center gap-2">
@@ -194,7 +194,7 @@ export default function Conjugation({ exercise, lang, onComplete, continueLabel 
               </div>
 
               {/* Pronoun rows */}
-              <div className="bg-white divide-y divide-gray-100">
+              <div className="bg-surface divide-y divide-line-soft">
                 {section.pronouns.map((pronoun, pi) => {
                   const isCorrect = checked && effectiveResults[si][pi];
                   const isWrong = checked && !results[si][pi] && !typoForgiven[si][pi];
@@ -209,7 +209,7 @@ export default function Conjugation({ exercise, lang, onComplete, continueLabel 
                       }`}
                     >
                       <div className="flex items-center gap-3">
-                        <span className="text-sm text-gray-400 w-36 shrink-0">{pronoun}</span>
+                        <span className="text-sm text-muted w-36 shrink-0">{pronoun}</span>
                         <input
                           type="text"
                           value={answers[si][pi]}
@@ -233,7 +233,7 @@ export default function Conjugation({ exercise, lang, onComplete, continueLabel 
                               ? 'border-green-400 text-green-700'
                               : isWrong
                               ? 'border-red-400 text-red-600'
-                              : 'border-gray-300 focus:border-red-600 text-gray-900'
+                              : 'border-line focus:border-accent text-ink'
                           }`}
                         />
                         {isTypo && (
@@ -291,7 +291,7 @@ export default function Conjugation({ exercise, lang, onComplete, continueLabel 
       {!checked ? (
         <button
           onClick={check}
-          className="w-full py-3 bg-red-700 hover:bg-red-800 text-white rounded-xl font-medium transition-colors"
+          className="w-full py-3 bg-accent hover:bg-accent-strong text-white rounded-xl font-medium transition-colors"
         >
           {t('Check', 'Prüfen')}
         </button>
@@ -311,7 +311,7 @@ export default function Conjugation({ exercise, lang, onComplete, continueLabel 
             {totalCorrect === totalQuestions && ' 🎉'}
           </div>
           {!allWrongHandled && results.some(row => row.some(ok => !ok)) && (
-            <p className="text-xs text-gray-500 text-center">
+            <p className="text-xs text-muted text-center">
               {t(
                 'Rewrite each wrong form correctly – and tap “Typo” if it was just a slip.',
                 'Schreib jede falsche Form richtig ab – und tippe auf „Tippfehler“, wenn es nur ein Vertipper war.',
@@ -321,13 +321,13 @@ export default function Conjugation({ exercise, lang, onComplete, continueLabel 
           <button
             onClick={saveAndContinue}
             disabled={!allWrongHandled}
-            className="w-full py-3 bg-red-700 hover:bg-red-800 disabled:bg-gray-200 disabled:text-gray-400 text-white rounded-xl font-medium transition-colors"
+            className="w-full py-3 bg-accent hover:bg-accent-strong disabled:bg-line disabled:text-faint text-white rounded-xl font-medium transition-colors"
           >
             {continueLabel ?? t('Continue', 'Weiter')}
           </button>
           <button
             onClick={reset}
-            className="w-full py-2 border border-gray-200 hover:bg-gray-50 text-gray-600 rounded-xl text-sm transition-colors"
+            className="w-full py-2 border border-line hover:bg-canvas text-muted rounded-xl text-sm transition-colors"
           >
             {t('Try again', 'Nochmal')}
           </button>

@@ -92,7 +92,7 @@ export default function GrammarExercise({ topic, lang, onComplete }: Props) {
   return (
     <div className="space-y-5">
       {/* Mode toggle */}
-      <div className="flex gap-1 bg-gray-100 rounded-xl p-1">
+      <div className="flex gap-1 bg-line-soft rounded-xl p-1">
         {([
           ['mc', t('Choose', 'Auswählen')],
           ['type', t('Type', 'Tippen')],
@@ -101,7 +101,7 @@ export default function GrammarExercise({ topic, lang, onComplete }: Props) {
             key={id}
             onClick={() => { if (id !== mode) restart(id); }}
             className={`flex-1 py-1.5 text-sm font-medium rounded-lg transition-colors ${
-              mode === id ? 'bg-white text-gray-900 shadow-sm' : 'text-gray-500 hover:text-gray-700'
+              mode === id ? 'bg-surface text-ink shadow-sm' : 'text-muted hover:text-ink'
             }`}
           >
             {label}
@@ -125,9 +125,9 @@ export default function GrammarExercise({ topic, lang, onComplete }: Props) {
               {topic.examples.map((ex, i) => (
                 <p key={i} className="text-sm flex items-center gap-1.5 flex-wrap">
                   <SpeakButton text={ex.target} lang={lang} />
-                  <span className="font-semibold text-gray-900">{ex.target}</span>
-                  <span className="text-gray-400"> → </span>
-                  <span className="text-gray-600">{ex.de}</span>
+                  <span className="font-semibold text-ink">{ex.target}</span>
+                  <span className="text-muted"> → </span>
+                  <span className="text-muted">{ex.de}</span>
                 </p>
               ))}
             </div>
@@ -135,7 +135,7 @@ export default function GrammarExercise({ topic, lang, onComplete }: Props) {
         )}
       </div>
 
-      <p className="text-gray-600 text-sm">{topic.instruction}</p>
+      <p className="text-muted text-sm">{topic.instruction}</p>
 
       <div className="space-y-3">
         {round.map(({ item, options }, i) => {
@@ -146,11 +146,11 @@ export default function GrammarExercise({ topic, lang, onComplete }: Props) {
             <div
               key={i}
               className={`p-4 rounded-xl border-2 transition-colors ${
-                ok ? 'border-green-400 bg-green-50' : wrong ? 'border-red-300 bg-red-50' : 'border-gray-200 bg-white'
+                ok ? 'border-green-400 bg-green-50' : wrong ? 'border-red-300 bg-red-50' : 'border-line bg-surface'
               }`}
             >
               {mode === 'type' ? (
-                <p className="text-gray-800 leading-relaxed flex items-baseline flex-wrap gap-x-1">
+                <p className="text-ink leading-relaxed flex items-baseline flex-wrap gap-x-1">
                   <span>{item.before}</span>
                   <input
                     type="text"
@@ -166,16 +166,16 @@ export default function GrammarExercise({ topic, lang, onComplete }: Props) {
                         ? 'border-green-500 text-green-700'
                         : wrong
                         ? 'border-red-400 text-red-700'
-                        : 'border-gray-400 focus:border-red-600 text-gray-900'
+                        : 'border-gray-400 focus:border-accent text-ink'
                     }`}
                   />
                   <span>{item.after}</span>
                 </p>
               ) : (
                 <div className="space-y-2">
-                  <p className="text-gray-800 leading-relaxed">
+                  <p className="text-ink leading-relaxed">
                     {item.before}
-                    <span className="font-semibold text-gray-400">＿＿</span>
+                    <span className="font-semibold text-muted">＿＿</span>
                     {item.after}
                   </p>
                   <div className="grid grid-cols-2 sm:grid-cols-4 gap-2">
@@ -195,7 +195,7 @@ export default function GrammarExercise({ topic, lang, onComplete }: Props) {
                               ? 'border-red-400 bg-red-50 text-red-700'
                               : isSel
                               ? 'border-red-600 bg-red-50 text-red-800'
-                              : 'border-gray-200 bg-white text-gray-700 hover:border-gray-300 hover:bg-gray-50 disabled:hover:border-gray-200 disabled:hover:bg-white'
+                              : 'border-line bg-surface text-ink hover:border-faint hover:bg-canvas disabled:hover:border-gray-200 disabled:hover:bg-white'
                           }`}
                         >
                           {opt}
@@ -210,7 +210,7 @@ export default function GrammarExercise({ topic, lang, onComplete }: Props) {
                 <p className="mt-2 text-sm text-red-700 flex items-center gap-2 flex-wrap">
                   <span>
                     ✓ <strong>{item.answer}</strong>
-                    <span className="text-gray-500 ml-2 font-normal">({item.hint})</span>
+                    <span className="text-muted ml-2 font-normal">({item.hint})</span>
                   </span>
                   <SpeakButton text={`${item.before}${item.answer}${item.after}`} lang={lang} />
                 </p>
@@ -251,7 +251,7 @@ export default function GrammarExercise({ topic, lang, onComplete }: Props) {
       {!checked ? (
         <button
           onClick={check}
-          className="w-full py-3 bg-red-700 hover:bg-red-800 text-white rounded-xl font-medium transition-colors"
+          className="w-full py-3 bg-accent hover:bg-accent-strong text-white rounded-xl font-medium transition-colors"
         >
           {t('Check', 'Prüfen')}{' '}
           {answeredCount < round.length && t(`(${answeredCount}/${round.length} answered)`, `(${answeredCount}/${round.length} beantwortet)`)}
@@ -272,7 +272,7 @@ export default function GrammarExercise({ topic, lang, onComplete }: Props) {
           </div>
           <button
             onClick={() => restart()}
-            className="w-full py-2 border border-gray-200 hover:bg-gray-50 text-gray-600 rounded-xl text-sm transition-colors"
+            className="w-full py-2 border border-line hover:bg-canvas text-muted rounded-xl text-sm transition-colors"
           >
             {t('Try again', 'Nochmal')}
           </button>

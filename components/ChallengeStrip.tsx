@@ -92,8 +92,8 @@ export default function ChallengeStrip({
   if (lines.length === 0) return null;
 
   return (
-    <div className="bg-white rounded-xl border border-gray-100 shadow-sm p-4 space-y-1.5">
-      <p className="text-[11px] font-semibold text-gray-400 uppercase tracking-wide flex items-center gap-1">
+    <div className="bg-surface rounded-xl border border-line p-4 space-y-1.5">
+      <p className="text-[11px] font-semibold text-muted uppercase tracking-wide flex items-center gap-1">
         <span>🎯</span> {t('Challenges', 'Herausforderungen')}
       </p>
       {lines.map((l, i) => (
@@ -102,10 +102,10 @@ export default function ChallengeStrip({
           {l.achieved != null ? (
             <span>
               <span className="font-semibold text-green-700">{l.achieved}</span>
-              {l.next && <span className="text-gray-700"> — {l.next}</span>}
+              {l.next && <span className="text-ink"> — {l.next}</span>}
             </span>
           ) : (
-            <span className={l.done ? 'font-semibold text-green-700' : 'text-gray-700'}>{l.text}</span>
+            <span className={l.done ? 'font-semibold text-green-700' : 'text-ink'}>{l.text}</span>
           )}
         </div>
       ))}

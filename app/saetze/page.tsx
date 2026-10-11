@@ -93,8 +93,8 @@ export default function SaetzePage() {
 
   if (!ready || !profile) {
     return (
-      <main className="md:ml-56 min-h-screen bg-gray-50 flex items-center justify-center">
-        <p className="text-gray-400 text-sm">{t('Loading…', 'Lädt …')}</p>
+      <main className="md:ml-56 min-h-screen bg-canvas flex items-center justify-center">
+        <p className="text-muted text-sm">{t('Loading…', 'Lädt …')}</p>
       </main>
     );
   }
@@ -206,13 +206,13 @@ export default function SaetzePage() {
   }
 
   return (
-    <main className="md:ml-56 min-h-screen bg-gray-50 pb-24 md:pb-8">
+    <main className="md:ml-56 min-h-screen bg-canvas pb-24 md:pb-8">
       <div className="max-w-xl mx-auto p-5 space-y-5">
         <div>
-          <h1 className="text-2xl font-bold text-gray-900 flex items-center gap-2">
+          <h1 className="text-2xl font-bold text-ink flex items-center gap-2">
             <span>✍️</span> {t('Sentences', 'Sätze')}
           </h1>
-          <p className="text-gray-400 text-sm mt-0.5">
+          <p className="text-muted text-sm mt-0.5">
             {t(
               'Translate example sentences from words you’ve learned, or write down what you hear. Each one is worth 2 race points.',
               'Übersetze Beispielsätze zu deinen Wörtern oder schreib auf, was du hörst. Jeder Satz bringt 2 Punkte im Rennen.',
@@ -230,22 +230,22 @@ export default function SaetzePage() {
         )}
 
         <div className="grid grid-cols-3 gap-3">
-          <div className="bg-white rounded-xl p-3 border border-gray-100 shadow-sm text-center">
+          <div className="bg-surface rounded-xl p-3 border border-line text-center">
             <p className="text-xl font-bold text-green-600">{known}</p>
-            <p className="text-xs text-gray-400 mt-0.5">{t('Known', 'Gekonnt')}</p>
+            <p className="text-xs text-muted mt-0.5">{t('Known', 'Gekonnt')}</p>
           </div>
-          <div className="bg-white rounded-xl p-3 border border-gray-100 shadow-sm text-center">
+          <div className="bg-surface rounded-xl p-3 border border-line text-center">
             <p className="text-xl font-bold text-amber-500">{dueItems.length}</p>
-            <p className="text-xs text-gray-400 mt-0.5">{t('Due', 'Fällig')}</p>
+            <p className="text-xs text-muted mt-0.5">{t('Due', 'Fällig')}</p>
           </div>
-          <div className="bg-white rounded-xl p-3 border border-gray-100 shadow-sm text-center">
+          <div className="bg-surface rounded-xl p-3 border border-line text-center">
             <p className="text-xl font-bold text-blue-500">{unseen.length}</p>
-            <p className="text-xs text-gray-400 mt-0.5">{t('New', 'Neu')}</p>
+            <p className="text-xs text-muted mt-0.5">{t('New', 'Neu')}</p>
           </div>
         </div>
 
         {/* Tabs */}
-        <div className="flex gap-1 bg-gray-100 rounded-xl p-1">
+        <div className="flex gap-1 bg-line-soft rounded-xl p-1">
           {(
             [
               ['learn', t('Learn', 'Lernen')],
@@ -257,7 +257,7 @@ export default function SaetzePage() {
               key={id}
               onClick={() => { setTab(id); reset(); }}
               className={`flex-1 py-2 text-xs font-medium rounded-lg transition-colors ${
-                tab === id ? 'bg-white text-gray-900 shadow-sm' : 'text-gray-500 hover:text-gray-700'
+                tab === id ? 'bg-surface text-ink shadow-sm' : 'text-muted hover:text-ink'
               }`}
             >
               {label}
@@ -266,7 +266,7 @@ export default function SaetzePage() {
         </div>
 
         {!loaded ? (
-          <p className="text-gray-400 text-sm text-center py-6">{t('Loading…', 'Lädt …')}</p>
+          <p className="text-muted text-sm text-center py-6">{t('Loading…', 'Lädt …')}</p>
         ) : tab === 'dictation' ? (
           phase === 'active' && dictItems[current] ? (
             <DictationCard
@@ -278,52 +278,52 @@ export default function SaetzePage() {
               onDone={finishDictation}
             />
           ) : phase === 'done' ? (
-            <div className="bg-white rounded-xl border border-gray-200 p-6 text-center space-y-3">
+            <div className="bg-surface rounded-xl border border-line p-6 text-center space-y-3">
               <p className="text-4xl">🎧</p>
-              <p className="font-semibold text-gray-900">{t('Dictation complete', 'Diktat geschafft')}</p>
-              <p className="text-sm text-gray-500">
+              <p className="font-semibold text-ink">{t('Dictation complete', 'Diktat geschafft')}</p>
+              <p className="text-sm text-muted">
                 {dictPerfect} / {doneCount} {t('without mistakes', 'fehlerfrei')} · +{doneCount * 2} {t('points', 'Punkte')}
               </p>
               <div className="flex gap-2 justify-center">
                 <button
                   onClick={reset}
-                  className="px-4 py-2.5 border border-gray-200 hover:bg-gray-50 text-gray-600 rounded-xl text-sm transition-colors"
+                  className="px-4 py-2.5 border border-line hover:bg-canvas text-muted rounded-xl text-sm transition-colors"
                 >
                   {t('Done', 'Fertig')}
                 </button>
                 <button
                   onClick={startDictation}
-                  className="px-4 py-2.5 bg-red-700 hover:bg-red-800 text-white rounded-xl text-sm font-semibold transition-colors"
+                  className="px-4 py-2.5 bg-accent hover:bg-accent-strong text-white rounded-xl text-sm font-semibold transition-colors"
                 >
                   {t('Again →', 'Nochmal →')}
                 </button>
               </div>
             </div>
           ) : (
-            <div className="bg-white rounded-xl border border-gray-200 p-5 space-y-3 text-center">
-              <p className="text-sm text-gray-600">
+            <div className="bg-surface rounded-xl border border-line p-5 space-y-3 text-center">
+              <p className="text-sm text-muted">
                 {t(
                   'Listen to a sentence and write down what you hear. Replay it as often as you like – also slowly 🐢.',
                   'Hör dir einen Satz an und schreib auf, was du hörst. Du kannst ihn beliebig oft abspielen – auch langsam 🐢.',
                 )}
               </p>
-              <p className="text-xs text-gray-400">
+              <p className="text-xs text-muted">
                 {t('Accents and punctuation don’t count as mistakes. Turn your sound on.', 'Akzente und Satzzeichen zählen nicht als Fehler. Mach den Ton an.')}
               </p>
               <button
                 onClick={startDictation}
                 disabled={dictPool.length === 0}
-                className="px-5 py-2.5 bg-red-700 hover:bg-red-800 disabled:bg-gray-200 disabled:text-gray-400 text-white rounded-xl text-sm font-semibold transition-colors"
+                className="px-5 py-2.5 bg-accent hover:bg-accent-strong disabled:bg-line disabled:text-faint text-white rounded-xl text-sm font-semibold transition-colors"
               >
                 {t('Start dictation →', 'Diktat starten →')}
               </button>
             </div>
           )
         ) : pool.length === 0 ? (
-          <div className="bg-white rounded-xl border border-gray-200 p-6 text-center space-y-2">
+          <div className="bg-surface rounded-xl border border-line p-6 text-center space-y-2">
             <p className="text-3xl">📖</p>
-            <p className="font-semibold text-gray-900">{t('No sentences yet', 'Noch keine Sätze')}</p>
-            <p className="text-sm text-gray-500">
+            <p className="font-semibold text-ink">{t('No sentences yet', 'Noch keine Sätze')}</p>
+            <p className="text-sm text-muted">
               {t('Learn some vocabulary first — sentences appear for words you’re studying.', 'Lern zuerst ein paar Vokabeln – Sätze gibt es zu den Wörtern, die du lernst.')}
             </p>
           </div>
@@ -338,28 +338,28 @@ export default function SaetzePage() {
             onRate={rate}
           />
         ) : phase === 'done' ? (
-          <div className="bg-white rounded-xl border border-gray-200 p-6 text-center space-y-3">
+          <div className="bg-surface rounded-xl border border-line p-6 text-center space-y-3">
             <p className="text-4xl">🎉</p>
-            <p className="font-semibold text-gray-900">{t('Session complete', 'Runde geschafft')}</p>
-            <p className="text-sm text-gray-500">{doneCount} {t('sentences', 'Sätze')} · +{doneCount * 2} {t('points', 'Punkte')}</p>
+            <p className="font-semibold text-ink">{t('Session complete', 'Runde geschafft')}</p>
+            <p className="text-sm text-muted">{doneCount} {t('sentences', 'Sätze')} · +{doneCount * 2} {t('points', 'Punkte')}</p>
             <button
               onClick={reset}
-              className="px-4 py-2.5 border border-gray-200 hover:bg-gray-50 text-gray-600 rounded-xl text-sm transition-colors"
+              className="px-4 py-2.5 border border-line hover:bg-canvas text-muted rounded-xl text-sm transition-colors"
             >
               {t('Done', 'Fertig')}
             </button>
           </div>
         ) : (
-          <div className="bg-white rounded-xl border border-gray-200 p-5 space-y-4 text-center">
+          <div className="bg-surface rounded-xl border border-line p-5 space-y-4 text-center">
             {tab === 'learn' ? (
               unseen.length > 0 ? (
                 <>
-                  <p className="text-sm text-gray-600">
+                  <p className="text-sm text-muted">
                     {t(`${unseen.length} new sentence${unseen.length === 1 ? '' : 's'} ready.`, `${unseen.length} neue${unseen.length === 1 ? 'r Satz' : ' Sätze'} bereit.`)}
                   </p>
                   <button
                     onClick={() => start('learn')}
-                    className="px-5 py-2.5 bg-red-700 hover:bg-red-800 text-white rounded-xl text-sm font-semibold transition-colors"
+                    className="px-5 py-2.5 bg-accent hover:bg-accent-strong text-white rounded-xl text-sm font-semibold transition-colors"
                   >
                     {t('Start learning →', 'Lernen starten →')}
                   </button>
@@ -368,14 +368,14 @@ export default function SaetzePage() {
                   </div>
                 </>
               ) : (
-                <p className="text-sm text-gray-500">{t('No new sentences. Learn more vocabulary to unlock more.', 'Keine neuen Sätze. Lern mehr Vokabeln, um weitere freizuschalten.')}</p>
+                <p className="text-sm text-muted">{t('No new sentences. Learn more vocabulary to unlock more.', 'Keine neuen Sätze. Lern mehr Vokabeln, um weitere freizuschalten.')}</p>
               )
             ) : dueItems.length > 0 ? (
               <>
-                <p className="text-sm text-gray-600">{t(`${dueItems.length} sentence(s) due for review.`, `${dueItems.length} Satz/Sätze zur Wiederholung fällig.`)}</p>
+                <p className="text-sm text-muted">{t(`${dueItems.length} sentence(s) due for review.`, `${dueItems.length} Satz/Sätze zur Wiederholung fällig.`)}</p>
                 <button
                   onClick={() => start('review')}
-                  className="px-5 py-2.5 bg-amber-500 hover:bg-amber-600 text-white rounded-xl text-sm font-semibold transition-colors"
+                  className="px-5 py-2.5 bg-accent hover:bg-accent-strong text-white rounded-xl text-sm font-semibold transition-colors"
                 >
                   {t('Start review →', 'Wiederholung starten →')}
                 </button>
@@ -384,7 +384,7 @@ export default function SaetzePage() {
                 </div>
               </>
             ) : (
-              <p className="text-sm text-gray-500">{t('Nothing due right now. Come back later! ✅', 'Gerade ist nichts fällig. Schau später wieder vorbei! ✅')}</p>
+              <p className="text-sm text-muted">{t('Nothing due right now. Come back later! ✅', 'Gerade ist nichts fällig. Schau später wieder vorbei! ✅')}</p>
             )}
           </div>
         )}
@@ -413,13 +413,13 @@ function SentenceCard({
   const t = useT();
 
   return (
-    <div className="bg-white rounded-2xl border border-gray-100 shadow-sm p-5 space-y-4">
-      <div className="flex justify-between text-xs text-gray-400">
+    <div className="bg-surface rounded-2xl border border-line p-5 space-y-4">
+      <div className="flex justify-between text-xs text-muted">
         <span>{t('Translate', 'Übersetze')} {item.askTarget ? `${flag} → 🇩🇪` : `🇩🇪 → ${flag}`}</span>
         <span className="tabular-nums">{position} / {total}</span>
       </div>
 
-      <p className="text-lg font-semibold text-gray-900 flex items-start justify-between gap-2">
+      <p className="text-lg font-semibold text-ink flex items-start justify-between gap-2">
         <span>{item.source}</span>
         {item.askTarget && <SpeakButton text={item.text} lang={lang} size="md" />}
       </p>
@@ -431,11 +431,11 @@ function SentenceCard({
             onChange={e => setTyped(e.target.value)}
             rows={2}
             placeholder={t('Your translation (optional)…', 'Deine Übersetzung (optional) …')}
-            className="w-full border border-gray-200 rounded-xl p-3 text-sm outline-none focus:border-red-400 transition-colors resize-none"
+            className="w-full border border-line rounded-xl p-3 text-sm outline-none focus:border-accent transition-colors resize-none"
           />
           <button
             onClick={() => setRevealed(true)}
-            className="w-full py-2.5 bg-gray-900 hover:bg-gray-800 text-white rounded-xl text-sm font-semibold transition-colors"
+            className="w-full py-2.5 bg-ink hover:bg-ink/85 text-white rounded-xl text-sm font-semibold transition-colors"
           >
             {t('Show answer', 'Lösung zeigen')}
           </button>
@@ -443,18 +443,18 @@ function SentenceCard({
       ) : (
         <>
           {typed.trim() && (
-            <p className="text-sm text-gray-400">
+            <p className="text-sm text-muted">
               {t('You:', 'Du:')} <span className="italic">{typed.trim()}</span>
             </p>
           )}
           <div className="rounded-xl bg-green-50 p-3">
-            <p className="text-[11px] font-semibold text-gray-400 uppercase tracking-wide mb-0.5">{t('Answer', 'Lösung')}</p>
-            <p className="text-base font-semibold text-gray-900 flex items-start justify-between gap-2">
+            <p className="text-[11px] font-semibold text-muted uppercase tracking-wide mb-0.5">{t('Answer', 'Lösung')}</p>
+            <p className="text-base font-semibold text-ink flex items-start justify-between gap-2">
               <span>{item.target}</span>
               {!item.askTarget && <SpeakButton text={item.text} lang={lang} />}
             </p>
           </div>
-          <p className="text-xs text-gray-400 text-center">{t('How did you do?', 'Wie lief es?')}</p>
+          <p className="text-xs text-muted text-center">{t('How did you do?', 'Wie lief es?')}</p>
           <div className="grid grid-cols-4 gap-1.5">
             <button
               onClick={() => onRate(false, 'again')}
