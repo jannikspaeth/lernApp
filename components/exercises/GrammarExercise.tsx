@@ -8,11 +8,14 @@ import type { Lang } from '@/lib/lang';
 import SpeakButton from '@/components/SpeakButton';
 import { useT } from '@/lib/ui-lang';
 import { checkClozeAnswer } from '@/lib/answer-check';
+import { BookMarked, ChevronDown, ChevronUp } from 'lucide-react';
+import FeedbackBar from '@/components/practice/FeedbackBar';
 
 interface Props {
   topic: GrammarTopic;
   lang: Lang;
   onComplete?: (correct: number, total: number) => void;
+  onDone?: () => void; // "Done" in the feedback bar: back to the topic list
 }
 
 type Mode = 'type' | 'mc';
@@ -35,7 +38,7 @@ function newRound(topic: GrammarTopic) {
   return shuffle(topic.items).map(item => ({ item, options: shuffle(item.options) }));
 }
 
-export default function GrammarExercise({ topic, lang, onComplete }: Props) {
+export default function GrammarExercise({ topic, lang, onComplete, onDone }: Props) {
   const t = useT();
   const [round, setRound] = useState(() => newRound(topic));
   const [mode, setMode] = useState<Mode>('mc');
@@ -110,17 +113,17 @@ export default function GrammarExercise({ topic, lang, onComplete }: Props) {
       </div>
 
       {/* Rule + examples (collapsible) */}
-      <div className="rounded-xl bg-blue-50 border border-blue-100">
+      <div className="rounded-2xl bg-surface border border-line">
         <button
           onClick={() => setShowRule(v => !v)}
-          className="w-full flex items-center justify-between px-4 py-2.5 text-sm font-semibold text-blue-900"
+          className="w-full flex items-center justify-between px-4 py-3 text-sm font-semibold text-ink"
         >
-          <span>📘 {t('Rule', 'Regel')}</span>
-          <span className="text-blue-400">{showRule ? '▲' : '▼'}</span>
+          <span className="flex items-center gap-2"><BookMarked className="w-4 h-4 text-accent" /> {t('Rule', 'Regel')}</span>
+          {showRule ? <ChevronUp className="w-4 h-4 text-muted" /> : <ChevronDown className="w-4 h-4 text-muted" />}
         </button>
         {showRule && (
           <div className="px-4 pb-4 space-y-2">
-            <p className="text-sm text-blue-900 leading-relaxed">{topic.explanation}</p>
+            <p className="text-sm text-ink leading-relaxed">{topic.explanation}</p>
             <div className="space-y-1">
               {topic.examples.map((ex, i) => (
                 <p key={i} className="text-sm flex items-center gap-1.5 flex-wrap">
@@ -145,8 +148,8 @@ export default function GrammarExercise({ topic, lang, onComplete }: Props) {
           return (
             <div
               key={i}
-              className={`p-4 rounded-xl border-2 transition-colors ${
-                ok ? 'border-green-400 bg-green-50' : wrong ? 'border-red-300 bg-red-50' : 'border-line bg-surface'
+              className={`p-4 rounded-2xl border-2 transition-colors ${
+                ok ? 'border-good/40 bg-good-soft' : wrong ? 'border-bad/30 bg-bad-soft' : 'border-line bg-surface'
               }`}
             >
               {mode === 'type' ? (
@@ -163,10 +166,10 @@ export default function GrammarExercise({ topic, lang, onComplete }: Props) {
                     placeholder="..."
                     className={`border-b-2 bg-transparent px-1 min-w-16 max-w-40 text-center outline-none transition-colors disabled:opacity-100 ${
                       ok
-                        ? 'border-green-500 text-green-700'
+                        ? 'border-good text-good'
                         : wrong
-                        ? 'border-red-400 text-red-700'
-                        : 'border-gray-400 focus:border-accent text-ink'
+                        ? 'border-bad/60 text-bad'
+                        : 'border-faint focus:border-accent text-ink'
                     }`}
                   />
                   <span>{item.after}</span>
@@ -188,14 +191,14 @@ export default function GrammarExercise({ topic, lang, onComplete }: Props) {
                           key={opt}
                           disabled={checked}
                           onClick={() => setAt(answers, setAnswers, i, opt)}
-                          className={`px-3 py-2 rounded-xl border-2 text-sm font-medium transition-all ${
+                          className={`px-3 py-2.5 rounded-xl border-2 text-base font-medium transition-all ${
                             isAnswer
-                              ? 'border-green-500 bg-green-50 text-green-800'
+                              ? 'border-good bg-good-soft text-good'
                               : isWrongSel
-                              ? 'border-red-400 bg-red-50 text-red-700'
+                              ? 'border-bad/60 bg-bad-soft text-bad'
                               : isSel
-                              ? 'border-red-600 bg-red-50 text-red-800'
-                              : 'border-line bg-surface text-ink hover:border-faint hover:bg-canvas disabled:hover:border-gray-200 disabled:hover:bg-white'
+                              ? 'border-accent bg-accent-soft text-accent-strong'
+                              : 'border-line bg-surface text-ink hover:border-line hover:bg-canvas disabled:hover:border-line disabled:hover:bg-surface'
                           }`}
                         >
                           {opt}
@@ -207,17 +210,17 @@ export default function GrammarExercise({ topic, lang, onComplete }: Props) {
               )}
 
               {wrong && (
-                <p className="mt-2 text-sm text-red-700 flex items-center gap-2 flex-wrap">
+                <p className="mt-2 text-sm text-accent flex items-center gap-2 flex-wrap">
                   <span>
-                    ✓ <strong>{item.answer}</strong>
+                    → <strong>{item.answer}</strong>
                     <span className="text-muted ml-2 font-normal">({item.hint})</span>
                   </span>
                   <SpeakButton text={`${item.before}${item.answer}${item.after}`} lang={lang} />
                 </p>
               )}
               {ok && (
-                <p className="mt-2 text-xs text-green-700 flex items-center gap-2">
-                  <span>✓ {item.answer} · {item.hint}</span>
+                <p className="mt-2 text-xs text-good flex items-center gap-2">
+                  <span>{item.answer} · {item.hint}</span>
                   <SpeakButton text={`${item.before}${item.answer}${item.after}`} lang={lang} />
                 </p>
               )}
@@ -225,7 +228,7 @@ export default function GrammarExercise({ topic, lang, onComplete }: Props) {
               {/* Rewrite-to-learn (type mode only) */}
               {mode === 'type' && wrong && (
                 <div className="flex items-center gap-2 mt-2">
-                  <span className="text-xs text-amber-600 shrink-0">{t('Rewrite to learn:', 'Zum Einprägen abschreiben:')}</span>
+                  <span className="text-xs text-warn shrink-0">{t('Rewrite to learn:', 'Zum Einprägen abschreiben:')}</span>
                   <input
                     type="text"
                     value={retypes[i]}
@@ -236,11 +239,11 @@ export default function GrammarExercise({ topic, lang, onComplete }: Props) {
                     placeholder={item.answer}
                     className={`flex-1 min-w-0 border-b bg-transparent text-sm py-0.5 outline-none transition-colors ${
                       retypeOk
-                        ? 'border-green-500 text-green-700'
-                        : 'border-amber-400 text-amber-700 focus:border-amber-600'
+                        ? 'border-good text-good'
+                        : 'border-warn/50 text-warn focus:border-warn'
                     }`}
                   />
-                  {retypeOk && <span className="text-green-600 text-sm shrink-0">✓</span>}
+                  {retypeOk && <span className="text-good text-sm shrink-0">✓</span>}
                 </div>
               )}
             </div>
@@ -251,32 +254,42 @@ export default function GrammarExercise({ topic, lang, onComplete }: Props) {
       {!checked ? (
         <button
           onClick={check}
-          className="w-full py-3 bg-accent hover:bg-accent-strong text-white rounded-xl font-medium transition-colors"
+          className="w-full h-12 bg-accent hover:bg-accent-strong text-white rounded-full font-semibold transition-colors"
         >
           {t('Check', 'Prüfen')}{' '}
           {answeredCount < round.length && t(`(${answeredCount}/${round.length} answered)`, `(${answeredCount}/${round.length} beantwortet)`)}
         </button>
       ) : (
-        <div className="space-y-3">
-          <div
-            className={`p-4 rounded-xl text-center font-medium ${
-              correct === round.length
-                ? 'bg-green-100 text-green-800'
-                : correct >= round.length / 2
-                ? 'bg-amber-50 text-amber-800'
-                : 'bg-red-50 text-red-800'
-            }`}
-          >
-            {t(`${correct} of ${round.length} correct`, `${correct} von ${round.length} richtig`)}
-            {correct === round.length && ' – Perfetto! 🎉'}
-          </div>
-          <button
-            onClick={() => restart()}
-            className="w-full py-2 border border-line hover:bg-canvas text-muted rounded-xl text-sm transition-colors"
-          >
-            {t('Try again', 'Nochmal')}
-          </button>
-        </div>
+        <FeedbackBar
+          correct={correct === round.length}
+          title={correct === round.length ? 'Perfetto!' : t(`${correct} of ${round.length} correct`, `${correct} von ${round.length} richtig`)}
+          actions={
+            <div className="flex gap-2 pt-1">
+              <button
+                type="button"
+                onClick={() => restart()}
+                className="px-5 h-12 rounded-full border-2 border-line text-ink text-sm font-semibold hover:bg-surface/60 transition-colors"
+              >
+                {t('Try again', 'Nochmal')}
+              </button>
+              <button
+                type="button"
+                onClick={onDone ?? (() => restart())}
+                className={`flex-1 h-12 rounded-full text-white font-semibold transition-colors ${
+                  correct === round.length ? 'bg-good hover:bg-good/90' : 'bg-bad hover:bg-bad/90'
+                }`}
+              >
+                {onDone ? t('Done', 'Fertig') : t('New round', 'Neue Runde')}
+              </button>
+            </div>
+          }
+        >
+          {correct < round.length && (
+            <p className="text-sm text-ink">
+              {t('The correct answers are marked above.', 'Die richtigen Antworten stehen oben bei den Sätzen.')}
+            </p>
+          )}
+        </FeedbackBar>
       )}
     </div>
   );

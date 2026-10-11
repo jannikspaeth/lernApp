@@ -1,8 +1,9 @@
 'use client';
 
-import { useState, useEffect, useCallback } from 'react';
+import { useState, useEffect, useCallback, useRef } from 'react';
 import { getConjugationRecords, recordExercise } from '@/lib/storage';
 import { ConjugationRecord, ConjugationExercise } from '@/lib/types';
+import { X, PartyPopper, SpellCheck } from 'lucide-react';
 import Conjugation from '@/components/exercises/Conjugation';
 import { TENSES_BY_LANG, defaultTenses, TENSE_STORAGE_KEY, TENSE_VALIDATORS } from '@/lib/tenses';
 import { useLocalSetting } from '@/lib/use-local-setting';
@@ -53,7 +54,7 @@ function timeUntil(ms: number, t: T): string {
 
 function TotalBar({ record }: { record: ConjugationRecord }) {
   const { pct } = lastTry(record);
-  const color = pct === 100 ? 'bg-green-500' : pct >= 70 ? 'bg-amber-400' : 'bg-red-400';
+  const color = pct === 100 ? 'bg-good' : pct >= 70 ? 'bg-warn' : 'bg-accent/70';
   return (
     <div className="flex items-center gap-2">
       <div className="flex-1 h-1.5 bg-line-soft rounded-full overflow-hidden">
@@ -71,6 +72,8 @@ export default function KonjugationPage() {
   const [uiLang] = useUiLang();
 
   const [records, setRecords] = useState<ConjugationRecord[]>([]);
+  // Verbs finished in this visit — known even while their save is still running.
+  const doneHere = useRef<Set<string>>(new Set());
   const [tab, setTab] = useState<Tab>('lernen');
   const [practicing, setPracticing] = useState<string | null>(null);
   const [exercise, setExercise] = useState<ConjugationExercise | null>(null);
@@ -102,6 +105,14 @@ export default function KonjugationPage() {
 
   const refresh = useCallback(async () => setRecords(await getConjugationRecords()), []);
   useEffect(() => { refresh(); }, [refresh]);
+
+  // Focus mode while learning a verb: the tab bar steps aside (see globals.css).
+  const learning = practicing === '__new__';
+  useEffect(() => {
+    if (!learning) return;
+    document.body.dataset.focus = '1';
+    return () => { delete document.body.dataset.focus; };
+  }, [learning]);
 
   if (!ready || !profile || !verbPack) {
     return (
@@ -187,36 +198,87 @@ export default function KonjugationPage() {
     }
   }
 
-  // "Next verb" in Learn: the result is saved, then the next due (or new) verb opens.
-  async function handleLearnComplete(correct: number, total: number) {
-    const done = exercise?.verb;
-    await recordExercise('conjugation', correct, total).catch(() => {});
-    const fresh = await getConjugationRecords();
-    setRecords(fresh);
-    const nextDue = dueVerbs(fresh).find(r => r.verb !== done);
-    startNew(nextDue?.verb, fresh.map(r => r.verb));
+  // A background save failed: say so (offline writes are queued and don't fail).
+  function saveFailed() {
+    setError(t('Could not save the last verb.', 'Das letzte Verb konnte nicht gespeichert werden.'));
   }
 
-  // Reviewing a verb from the list: save, then close the panel.
-  async function handleReviewComplete(correct: number, total: number) {
-    await recordExercise('conjugation', correct, total).catch(() => {});
+  // "Save & next verb" in Learn: the next due (or new) verb opens at once while
+  // the result is stored in the background.
+  function handleLearnComplete(correct: number, total: number, saved: Promise<ConjugationRecord[]>) {
+    if (exercise) doneHere.current.add(exercise.verb);
+    const nextDue = dueVerbs(records).find(r => !doneHere.current.has(r.verb));
+    const known = [...new Set([...records.map(r => r.verb), ...doneHere.current])];
+    startNew(nextDue?.verb, known);
+    saved.then(setRecords, saveFailed);
+    recordExercise('conjugation', correct, total).catch(() => {});
+  }
+
+  // Reviewing a verb from the list: close the panel, save in the background.
+  function handleReviewComplete(correct: number, total: number, saved: Promise<ConjugationRecord[]>) {
     setPracticing(null);
     setExercise(null);
-    await refresh();
+    saved.then(setRecords, saveFailed);
+    recordExercise('conjugation', correct, total).catch(() => {});
+  }
+
+  // Learning a verb: nothing but the drill (focus mode).
+  if (learning) {
+    const stop = () => { setPracticing(null); setExercise(null); };
+    return (
+      <main className="md:ml-56 min-h-screen bg-canvas pb-24 md:pb-8">
+        <div className="max-w-xl mx-auto p-5 space-y-4">
+          <div className="flex items-center gap-3">
+            <button
+              onClick={stop}
+              aria-label={t('Finish', 'Beenden')}
+              title={t('Finish', 'Beenden')}
+              className="w-11 h-11 -ml-2 shrink-0 rounded-full flex items-center justify-center text-muted hover:bg-line-soft transition-colors"
+            >
+              <X className="w-6 h-6" />
+            </button>
+            <p className="flex-1 text-xs font-semibold uppercase tracking-wider text-muted">
+              {t('Verbs', 'Verben')} · {catalog.length - unseenCount}/{catalog.length} {t('learned', 'gelernt')}
+            </p>
+            {exercise && !loading && (
+              <button
+                onClick={() => startNew(due.find(r => r.verb !== exercise.verb)?.verb)}
+                className="text-xs font-semibold text-muted hover:text-ink px-2 py-2"
+              >
+                {t('Skip', 'Überspringen')}
+              </button>
+            )}
+          </div>
+          {loading && (
+            <p className="text-center text-sm text-muted animate-pulse py-4">{t('Loading…', 'Lädt …')}</p>
+          )}
+          {error && <div className="bg-bad-soft rounded-xl p-3 text-sm text-bad">{error}</div>}
+          {exercise && !loading && (
+            <Conjugation
+              key={exercise.verb}
+              exercise={exercise}
+              lang={lang}
+              onComplete={handleLearnComplete}
+              continueLabel={t('Save & next verb', 'Speichern & nächstes Verb')}
+            />
+          )}
+        </div>
+      </main>
+    );
   }
 
   return (
     <main className="md:ml-56 min-h-screen bg-canvas pb-24 md:pb-8">
       <div className="max-w-xl mx-auto p-5 space-y-5">
         <div>
-          <h1 className="text-2xl font-bold text-ink">{t('Verbs', 'Verben')}</h1>
+          <h1 className="text-3xl text-ink">{t('Verbs', 'Verben')}</h1>
           <p className="text-muted text-sm mt-0.5">
             {t('Practice conjugations and review mistakes', 'Konjugieren üben und Fehler wiederholen')}
           </p>
         </div>
 
         {/* Tense picker */}
-        <div className="bg-surface rounded-xl border border-line p-4 space-y-2">
+        <div className="bg-surface rounded-xl border border-line shadow-sm p-4 space-y-2">
           <p className="text-xs font-semibold text-muted uppercase tracking-wide">{t('Tenses to practise', 'Zeitformen zum Üben')}</p>
           <div className="flex flex-wrap gap-1.5">
             {TENSES.map(t => {
@@ -239,16 +301,16 @@ export default function KonjugationPage() {
 
         {/* Stats */}
         <div className="grid grid-cols-3 gap-3">
-          <div className="bg-surface rounded-xl p-3 border border-line text-center">
+          <div className="bg-surface rounded-xl p-3 border border-line shadow-sm text-center">
             <p className="text-xl font-bold text-ink">{records.length}</p>
             <p className="text-xs text-muted mt-0.5">{t('Verbs learned', 'Verben gelernt')}</p>
           </div>
-          <div className="bg-surface rounded-xl p-3 border border-line text-center">
-            <p className="text-xl font-bold text-green-600">{mastered}</p>
+          <div className="bg-surface rounded-xl p-3 border border-line shadow-sm text-center">
+            <p className="text-xl font-bold text-good">{mastered}</p>
             <p className="text-xs text-muted mt-0.5">{t('Mastered', 'Gemeistert')}</p>
           </div>
-          <div className="bg-surface rounded-xl p-3 border border-line text-center">
-            <p className="text-xl font-bold text-red-600">{withMistakes.length}</p>
+          <div className="bg-surface rounded-xl p-3 border border-line shadow-sm text-center">
+            <p className="text-xl font-bold text-bad">{withMistakes.length}</p>
             <p className="text-xs text-muted mt-0.5">{t('With errors', 'Mit Fehlern')}</p>
           </div>
         </div>
@@ -269,7 +331,7 @@ export default function KonjugationPage() {
             >
               {label}
               {id === 'mistakes' && withMistakes.length > 0 && (
-                <span className="ml-1.5 text-xs px-1.5 py-0.5 rounded-full bg-red-100 text-red-600">
+                <span className="ml-1.5 text-xs px-1.5 py-0.5 rounded-full bg-accent-soft text-accent">
                   {withMistakes.length}
                 </span>
               )}
@@ -279,7 +341,7 @@ export default function KonjugationPage() {
 
         {/* ── Lernen tab ── */}
         {tab === 'lernen' && (
-          <div className="bg-surface rounded-xl border border-line p-5 space-y-4">
+          <div className="bg-surface rounded-xl border border-line shadow-sm p-5 space-y-4">
             <div>
               <p className="text-sm text-muted">
                 <span className="font-semibold text-ink">{unseenCount}</span> {t('of', 'von')}{' '}
@@ -288,7 +350,7 @@ export default function KonjugationPage() {
               </p>
               <div className="mt-2 h-2 bg-line-soft rounded-full overflow-hidden">
                 <div
-                  className="h-full bg-red-600 rounded-full transition-all"
+                  className="h-full bg-accent rounded-full transition-all"
                   style={{ width: `${Math.round(((catalog.length - unseenCount) / catalog.length) * 100)}%` }}
                 />
               </div>
@@ -297,65 +359,35 @@ export default function KonjugationPage() {
               </p>
             </div>
 
-            {practicing !== '__new__' && (
-              <div className="space-y-2">
-                {due.length > 0 && (
-                  <button
-                    onClick={() => startNew(due[0].verb)}
-                    className="w-full py-3 bg-accent hover:bg-accent-strong text-white rounded-xl font-semibold transition-colors"
-                  >
-                    {t('Review due verbs', 'Fällige Verben wiederholen')} ({due.length}) →
-                  </button>
-                )}
+            <div className="space-y-2">
+              {due.length > 0 && (
                 <button
-                  onClick={() => startNew()}
-                  className="w-full py-3 bg-accent hover:bg-accent-strong text-white rounded-xl font-semibold transition-colors"
+                  onClick={() => startNew(due[0].verb)}
+                  className="w-full py-3 border-2 border-accent text-accent hover:bg-accent-soft rounded-full font-semibold transition-colors"
                 >
-                  {unseenCount > 0 ? t('Learn next verb →', 'Nächstes Verb lernen →') : t('Review random verb →', 'Zufälliges Verb wiederholen →')}
+                  {t('Review due verbs', 'Fällige Verben wiederholen')} ({due.length}) →
                 </button>
-                <p className="text-[11px] text-muted text-center">
-                  {t(
-                    'Verbs come back for review: soon after a mistake, less often once you get them right.',
-                    'Verben kommen zur Wiederholung zurück: bald nach einem Fehler, seltener, wenn du sie kannst.',
-                  )}
-                </p>
-              </div>
-            )}
-
-            {practicing === '__new__' && (
-              <div>
-                {loading && (
-                  <p className="text-center text-sm text-muted animate-pulse py-4">{t('Loading…', 'Lädt …')}</p>
+              )}
+              <button
+                onClick={() => startNew()}
+                className="w-full py-3 bg-accent hover:bg-accent-strong text-white rounded-full font-semibold transition-colors"
+              >
+                {unseenCount > 0 ? t('Learn next verb →', 'Nächstes Verb lernen →') : t('Review random verb →', 'Zufälliges Verb wiederholen →')}
+              </button>
+              <p className="text-[11px] text-muted text-center">
+                {t(
+                  'Verbs come back for review: soon after a mistake, less often once you get them right.',
+                  'Verben kommen zur Wiederholung zurück: bald nach einem Fehler, seltener, wenn du sie kannst.',
                 )}
-                {error && (
-                  <div className="bg-red-50 rounded-xl p-3 text-sm text-red-700">{error}</div>
-                )}
-                {exercise && !loading && (
-                  <Conjugation
-                    key={exercise.verb}
-                    exercise={exercise}
-                    lang={lang}
-                    onComplete={handleLearnComplete}
-                    continueLabel={t('Save & next verb →', 'Speichern & nächstes Verb →')}
-                  />
-                )}
-                {exercise && !loading && (
-                  <button
-                    onClick={() => startNew(due.find(r => r.verb !== exercise.verb)?.verb)}
-                    className="w-full mt-3 text-xs text-muted hover:text-ink"
-                  >
-                    {t('Skip this verb', 'Verb überspringen')}
-                  </button>
-                )}
-              </div>
-            )}
+              </p>
+            </div>
           </div>
         )}
 
         {/* Empty states for other tabs */}
         {tab !== 'lernen' && displayed.length === 0 && (
           <div className="text-center py-14">
-            <p className="text-4xl mb-3">{tab === 'mistakes' ? '🎉' : '🔤'}</p>
+            {tab === 'mistakes' ? <PartyPopper className="w-10 h-10 text-accent mx-auto mb-3" /> : <SpellCheck className="w-10 h-10 text-accent mx-auto mb-3" />}
             <p className="text-sm text-muted font-medium">
               {tab === 'mistakes' ? t('No errors – all mastered!', 'Keine Fehler – alles gemeistert!') : t('No verbs practiced yet.', 'Noch keine Verben geübt.')}
             </p>
@@ -409,7 +441,7 @@ export default function KonjugationPage() {
               <div
                 key={record.id}
                 className={`bg-surface rounded-xl border-2 shadow-sm transition-colors ${
-                  isPracticing ? 'border-red-300' : 'border-line'
+                  isPracticing ? 'border-accent/40' : 'border-line'
                 }`}
               >
                 <div className="p-4 space-y-3">
@@ -419,11 +451,11 @@ export default function KonjugationPage() {
                       <div className="flex items-center gap-2 flex-wrap">
                         <span className="font-bold text-ink text-lg">{record.verb}</span>
                         {record.mastered ? (
-                          <span className="text-xs bg-green-100 text-green-700 px-2 py-0.5 rounded-md font-medium">
+                          <span className="text-xs bg-good-soft text-good px-2 py-0.5 rounded-md font-medium">
                             ✓ {t('Mastered', 'Gemeistert')}
                           </span>
                         ) : totalMistakes > 0 ? (
-                          <span className="text-xs bg-red-100 text-red-700 px-2 py-0.5 rounded-md font-medium">
+                          <span className="text-xs bg-accent-soft text-accent px-2 py-0.5 rounded-md font-medium">
                             ⚠ {totalMistakes} {totalMistakes === 1 ? t('error', 'Fehler') : t('errors', 'Fehler')}
                           </span>
                         ) : null}
@@ -432,7 +464,7 @@ export default function KonjugationPage() {
                         {record.sections.length} {t('tenses', 'Zeitformen')} · {record.totalAttempts}× {t('practiced', 'geübt')} ·{' '}
                         {timeAgo(record.lastAttempted, t)} ·{' '}
                         {isVerbDue(record) ? (
-                          <span className="text-amber-600 font-medium">{t('due for review', 'fällig')}</span>
+                          <span className="text-warn font-medium">{t('due for review', 'fällig')}</span>
                         ) : (
                           <>{t('review', 'Wiederholung')} {timeUntil(verbDueDate(record), t)}</>
                         )}
@@ -443,7 +475,7 @@ export default function KonjugationPage() {
                       className={`shrink-0 text-sm font-medium px-3 py-1.5 rounded-lg transition-colors ${
                         isPracticing
                           ? 'bg-line-soft text-muted'
-                          : 'bg-red-50 text-red-700 hover:bg-red-100'
+                          : 'bg-accent-soft text-accent hover:bg-accent-soft'
                       }`}
                     >
                       {isPracticing ? t('Close', 'Schließen') : t('Review', 'Üben')}
@@ -475,10 +507,10 @@ export default function KonjugationPage() {
                               <span
                                 className={`font-semibold ${
                                   pct === 100
-                                    ? 'text-green-600'
+                                    ? 'text-good'
                                     : pct >= 70
-                                    ? 'text-amber-600'
-                                    : 'text-red-500'
+                                    ? 'text-warn'
+                                    : 'text-accent'
                                 }`}
                               >
                                 {s.totalCorrect}/{s.totalQuestions}
@@ -489,9 +521,9 @@ export default function KonjugationPage() {
                                 {s.recentMistakes.map((m, i) => (
                                   <div key={i} className="flex items-center gap-2 text-xs">
                                     <span className="text-muted w-32 shrink-0">{m.pronoun}</span>
-                                    <span className="text-red-400 line-through">{m.userAnswer || '–'}</span>
+                                    <span className="text-bad line-through">{m.userAnswer || '–'}</span>
                                     <span className="text-faint">→</span>
-                                    <span className="text-green-700 font-medium">{m.correct}</span>
+                                    <span className="text-good font-medium">{m.correct}</span>
                                   </div>
                                 ))}
                               </div>
@@ -512,7 +544,7 @@ export default function KonjugationPage() {
                       </p>
                     )}
                     {error && (
-                      <div className="bg-red-50 rounded-xl p-3 text-sm text-red-700">{error}</div>
+                      <div className="bg-bad-soft rounded-xl p-3 text-sm text-bad">{error}</div>
                     )}
                     {exercise && !loading && (
                       <Conjugation

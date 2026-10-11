@@ -22,7 +22,7 @@ const ROUTES = [
   '/wissen/wissenschaft', '/wissen/musik', '/wissen/politik', '/wissen/philosophie', '/wissen/mix',
   '/karte', '/zeitstrahl', '/weltgeschichte',
   '/heute', '/vokabeln', '/konjugation', '/grammar', '/saetze', '/lesen',
-  '/race', '/erfolge', '/help', '/profile', '/sprache',
+  '/race', '/erfolge', '/help', '/profile', '/sprache', '/ueben',
 ];
 const FILES = ['/manifest.webmanifest', '/icon-192.png', '/icon-512.png', '/favicon.ico'];
 

@@ -121,8 +121,8 @@ export default function ErfolgePage() {
     <main className="md:ml-56 min-h-screen bg-canvas pb-24 md:pb-8">
       <div className="max-w-xl mx-auto p-5 space-y-5">
         <div>
-          <h1 className="text-2xl font-bold text-ink flex items-center gap-2">
-            <span>🏆</span> {t('Achievements', 'Erfolge')}
+          <h1 className="text-3xl text-ink flex items-center gap-2">
+            {t('Achievements', 'Erfolge')}
           </h1>
           <p className="text-muted text-sm mt-0.5">
             {t(

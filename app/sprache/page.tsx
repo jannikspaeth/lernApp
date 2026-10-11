@@ -1,5 +1,6 @@
 'use client';
 
+import { Globe } from 'lucide-react';
 import { useEffect, useState } from 'react';
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
@@ -74,8 +75,8 @@ export default function SprachePage() {
     <main className="min-h-screen bg-canvas flex items-center justify-center p-6 pb-24 md:pb-6">
       <div className="w-full max-w-sm space-y-6">
         <div className="text-center">
-          <p className="text-4xl mb-3">🌍</p>
-          <h1 className="text-2xl font-bold text-ink">{t('Hi', 'Hallo')} {profile.name}!</h1>
+          <Globe className="w-10 h-10 text-accent mx-auto mb-3" strokeWidth={1.5} />
+          <h1 className="text-[28px] font-bold tracking-tight text-ink">{t('Hi', 'Hallo')} {profile.name}!</h1>
           <p className="text-sm text-muted mt-1">{t('Which language do you want to learn?', 'Welche Sprache möchtest du lernen?')}</p>
         </div>
 

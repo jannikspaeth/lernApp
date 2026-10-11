@@ -3,6 +3,7 @@
 /* Design tokens (direction B, "Modern Clean"): neutral greys, one blue accent. */
 @theme {
   --font-sans: var(--font-geist), system-ui, -apple-system, sans-serif;
+  --font-display: var(--font-geist), system-ui, -apple-system, sans-serif;
 
   --color-canvas: #FAFAFA;   /* page background */
   --color-surface: #FFFFFF;  /* cards, bars */
@@ -62,9 +63,37 @@ textarea:focus {
   outline: none;
 }
 
+/* Page titles and big words (pages from the language app use h1 / .font-display without weights). */
+h1,
+.font-display {
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
 /* Mobile pages leave room for the bottom bar — plus the home indicator. */
 @media (max-width: 767px) {
   .pb-24 {
     padding-bottom: calc(6rem + env(safe-area-inset-bottom));
   }
+}
+
+/* Answer feedback slides up from the bottom. */
+@keyframes feedback-up {
+  from { transform: translateY(100%); }
+  to { transform: translateY(0); }
+}
+.feedback-bar {
+  animation: feedback-up 0.22s ease-out;
+}
+
+/* Focus mode during a practice round: the tab bars step aside. */
+body[data-focus] .app-tabs {
+  display: none;
+}
+/* While the feedback bar is up, the page keeps room to scroll above it. */
+main:has(.feedback-bar) {
+  padding-bottom: calc(15rem + env(safe-area-inset-bottom));
+}
+@media (prefers-reduced-motion: reduce) {
+  .feedback-bar { animation: none; }
 }

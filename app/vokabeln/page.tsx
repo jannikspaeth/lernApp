@@ -12,7 +12,7 @@ import {
 import { vocabMistake } from '@/lib/mistakes';
 import { VocabEntry, ProgressStats, RaceResponse } from '@/lib/types';
 import { useLearner } from '@/lib/use-profile';
-import { berlinToday } from '@/lib/race';
+import { berlinToday, DAILY_GOAL } from '@/lib/race';
 import { usePack, presentOf, VerbPack } from '@/lib/content';
 import { Lang, langInfo } from '@/lib/lang';
 import { TENSES_BY_LANG } from '@/lib/tenses';
@@ -37,11 +37,12 @@ import StreakBanner from '@/components/StreakBanner';
 import ChallengeStrip from '@/components/ChallengeStrip';
 import Celebration from '@/components/Celebration';
 import SpeakButton from '@/components/SpeakButton';
+import FeedbackBar from '@/components/practice/FeedbackBar';
+import { X, Flame, PartyPopper, BookOpen, Volume2 } from 'lucide-react';
 import { speak } from '@/lib/speech';
 import { useAutoplay } from '@/lib/use-autoplay';
 import { useT, useUiLang, T } from '@/lib/ui-lang';
 
-const DAILY_GOAL = 20;
 // One Learn session introduces this many new words; finish early or keep going.
 const ROUND_SIZE = 20;
 
@@ -93,16 +94,17 @@ const LEVEL_LABELS = [
   'Known',
 ];
 const levelLabel = (level: number, t: T) => (level === VOCAB_KNOWN_LEVEL ? t('Known', 'Gekonnt') : LEVEL_LABELS[level]);
+// Phases warm up from terracotta through ochre to olive (known).
 const LEVEL_COLORS = [
   '',
-  'bg-red-100 text-red-700',
-  'bg-orange-100 text-orange-700',
-  'bg-amber-100 text-amber-700',
-  'bg-blue-100 text-blue-700',
-  'bg-indigo-100 text-indigo-700',
-  'bg-violet-100 text-violet-700',
-  'bg-purple-100 text-purple-700',
-  'bg-green-100 text-green-700',
+  'bg-accent-soft text-accent-strong',
+  'bg-accent-soft text-accent',
+  'bg-warn-soft text-warn',
+  'bg-warn-soft text-warn',
+  'bg-good-soft text-good',
+  'bg-good-soft text-good',
+  'bg-good-soft text-good',
+  'bg-good text-white',
 ];
 
 function getLevel(v: VocabEntry): number {
@@ -211,6 +213,13 @@ export default function VokabelnPage() {
     setStats(s);
   }, [celebrate, t]);
   useEffect(() => { refresh(); }, [refresh]);
+
+  // Focus mode while a card is on screen: the tab bar steps aside (see globals.css).
+  useEffect(() => {
+    if (phase !== 'active') return;
+    document.body.dataset.focus = '1';
+    return () => { delete document.body.dataset.focus; };
+  }, [phase]);
 
   if (!ready || !profile || !pack) {
     return (
@@ -626,7 +635,7 @@ export default function VokabelnPage() {
             onClick={() => setWordLevel(entry, level + 1)}
             disabled={level >= VOCAB_KNOWN_LEVEL}
             title={t('Move up a phase', 'Eine Phase hoch')}
-            className="w-7 h-7 flex items-center justify-center rounded-lg bg-line-soft text-muted hover:bg-green-100 hover:text-green-700 disabled:opacity-30 disabled:hover:bg-gray-100 disabled:hover:text-gray-500 transition-colors"
+            className="w-7 h-7 flex items-center justify-center rounded-lg bg-line-soft text-muted hover:bg-good-soft hover:text-good disabled:opacity-30 disabled:hover:bg-line-soft disabled:hover:text-ink transition-colors"
           >
             ▲
           </button>
@@ -634,7 +643,7 @@ export default function VokabelnPage() {
             onClick={() => setWordLevel(entry, level - 1)}
             disabled={level <= 1}
             title={t('Move down a phase', 'Eine Phase runter')}
-            className="w-7 h-7 flex items-center justify-center rounded-lg bg-line-soft text-muted hover:bg-amber-100 hover:text-amber-700 disabled:opacity-30 disabled:hover:bg-gray-100 disabled:hover:text-gray-500 transition-colors"
+            className="w-7 h-7 flex items-center justify-center rounded-lg bg-line-soft text-muted hover:bg-warn-soft hover:text-warn disabled:opacity-30 disabled:hover:bg-line-soft disabled:hover:text-ink transition-colors"
           >
             ▼
           </button>
@@ -647,7 +656,7 @@ export default function VokabelnPage() {
     !showAddForm ? (
       <button
         onClick={() => { setShowAddForm(true); setAddError(''); }}
-        className="w-full py-2.5 border border-dashed border-line text-muted hover:border-red-400 hover:text-red-600 rounded-xl text-sm font-medium transition-colors"
+        className="w-full py-2.5 border border-dashed border-line text-muted hover:border-accent/40 hover:text-accent rounded-xl text-sm font-medium transition-colors"
       >
         ＋ {t('Add a word', 'Wort hinzufügen')}
       </button>
@@ -674,7 +683,7 @@ export default function VokabelnPage() {
           placeholder={t('Example sentence (optional)', 'Beispielsatz (optional)')}
           className="w-full border border-line rounded-xl px-4 py-2.5 text-sm focus:border-accent outline-none"
         />
-        {addError && <p className="text-xs text-red-600">{addError}</p>}
+        {addError && <p className="text-xs text-bad">{addError}</p>}
         <div className="flex gap-2">
           <button
             onClick={handleAddWord}
@@ -710,7 +719,7 @@ export default function VokabelnPage() {
       />
     ) : phase === 'done' ? (
       <div className="bg-surface rounded-xl border border-line p-6 text-center space-y-3">
-        <p className="text-4xl">🎉</p>
+        <PartyPopper className="w-10 h-10 text-accent mx-auto" />
         <p className="font-semibold text-ink">{t('Session complete', 'Runde geschafft')}</p>
         <p className="text-sm text-muted">
           {sessionCorrect} / {doneCount} {t('correct', 'richtig')}
@@ -733,7 +742,7 @@ export default function VokabelnPage() {
           {tab === 'wiederholen' && dueToday.length > 0 && (
             <button
               onClick={startWiederholen}
-              className="px-4 py-2.5 bg-accent hover:bg-accent-strong text-white rounded-xl text-sm font-semibold transition-colors"
+              className="px-4 py-2.5 bg-warn hover:bg-warn/90 text-white rounded-xl text-sm font-semibold transition-colors"
             >
               {t('Keep reviewing →', 'Weiter wiederholen →')}
             </button>
@@ -742,11 +751,23 @@ export default function VokabelnPage() {
       </div>
     ) : null;
 
+  // A card on screen: nothing but the card (focus mode).
+  if (phase === 'active' && sessionView) {
+    return (
+      <main className="md:ml-56 min-h-screen bg-canvas pb-24 md:pb-8">
+        <div className="max-w-xl mx-auto p-5">
+          {sessionView}
+          <Celebration message={celebration} onDone={() => setCelebration(null)} />
+        </div>
+      </main>
+    );
+  }
+
   return (
     <main className="md:ml-56 min-h-screen bg-canvas pb-24 md:pb-8">
       <div className="max-w-xl mx-auto p-5 space-y-5">
         <div>
-          <h1 className="text-2xl font-bold text-ink">{t('Vocabulary', 'Vokabeln')}</h1>
+          <h1 className="text-3xl text-ink">{t('Vocabulary', 'Vokabeln')}</h1>
           <p className="text-muted text-sm mt-0.5">
             {bekanntWords.length} {t('known', 'gekonnt')} · {dueToday.length} {t('due today', 'heute fällig')}
             {upcoming.length > 0 && ` · ${upcoming.length} ${t('coming up', 'demnächst')}`}
@@ -754,7 +775,7 @@ export default function VokabelnPage() {
         </div>
 
         {loadError && (
-          <div className="bg-red-50 border border-red-200 rounded-xl p-3 text-sm text-red-700 flex items-center justify-between gap-3">
+          <div className="bg-accent-soft border border-accent/30 rounded-xl p-3 text-sm text-accent flex items-center justify-between gap-3">
             <span>⚠ {t('Couldn’t load your words. Learning is paused so nothing gets overwritten.', 'Deine Wörter konnten nicht geladen werden. Lernen ist pausiert, damit nichts überschrieben wird.')}</span>
             <button
               onClick={() => { refresh(); }}
@@ -766,7 +787,7 @@ export default function VokabelnPage() {
         )}
 
         {saveError && (
-          <div className="bg-red-50 border border-red-200 rounded-xl p-3 text-sm text-red-700 flex items-center justify-between gap-3">
+          <div className="bg-accent-soft border border-accent/30 rounded-xl p-3 text-sm text-accent flex items-center justify-between gap-3">
             <span>⚠ {t('Some changes couldn’t be saved. Check your connection.', 'Einige Änderungen konnten nicht gespeichert werden. Prüf deine Verbindung.')}</span>
             <button
               onClick={() => { setSaveError(false); refresh(); }}
@@ -796,15 +817,15 @@ export default function VokabelnPage() {
         )}
 
         <div className="grid grid-cols-3 gap-3">
-          <div className="bg-surface rounded-xl p-3 border border-line text-center">
-            <p className="text-xl font-bold text-green-600">{bekanntWords.length}</p>
+          <div className="bg-surface rounded-xl p-3 border border-line shadow-sm text-center">
+            <p className="text-xl font-bold text-good">{bekanntWords.length}</p>
             <p className="text-xs text-muted mt-0.5">{t('Known', 'Gekonnt')}</p>
           </div>
-          <div className="bg-surface rounded-xl p-3 border border-line text-center">
-            <p className="text-xl font-bold text-amber-500">{dueToday.length}</p>
+          <div className="bg-surface rounded-xl p-3 border border-line shadow-sm text-center">
+            <p className="text-xl font-bold text-warn">{dueToday.length}</p>
             <p className="text-xs text-muted mt-0.5">{t('Due today', 'Heute fällig')}</p>
           </div>
-          <div className="bg-surface rounded-xl p-3 border border-line text-center">
+          <div className="bg-surface rounded-xl p-3 border border-line shadow-sm text-center">
             <p className="text-xl font-bold text-blue-500">{upcoming.length}</p>
             <p className="text-xs text-muted mt-0.5">{t('Coming up', 'Demnächst')}</p>
           </div>
@@ -847,12 +868,12 @@ export default function VokabelnPage() {
                     <p className="text-xs text-muted mt-3">
                       {unseenCount > 0
                         ? t(`${unseenCount} of ${topicCatalog.length} words not seen yet`, `${unseenCount} von ${topicCatalog.length} Wörtern noch nicht gesehen`)
-                        : t(`All ${topicCatalog.length} words in this topic already seen 🎉`, `Alle ${topicCatalog.length} Wörter dieses Themas schon gesehen 🎉`)}
+                        : t(`All ${topicCatalog.length} words in this topic already seen`, `Alle ${topicCatalog.length} Wörter dieses Themas schon gesehen`)}
                     </p>
                     {topicCatalog.length > 0 && (
                       <div className="mt-2 h-1.5 bg-line-soft rounded-full overflow-hidden">
                         <div
-                          className="h-full bg-green-500 rounded-full"
+                          className="h-full bg-good rounded-full"
                           style={{ width: `${Math.round(((topicCatalog.length - unseenCount) / topicCatalog.length) * 100)}%` }}
                         />
                       </div>
@@ -882,7 +903,7 @@ export default function VokabelnPage() {
             {phase === 'idle' ? (
               dueToday.length === 0 ? (
                 <div className="text-center py-14">
-                  <p className="text-4xl mb-3">🎉</p>
+                  <PartyPopper className="w-10 h-10 text-accent mx-auto mb-3" />
                   <p className="text-sm font-medium text-muted">{t('No words due today!', 'Heute ist nichts fällig!')}</p>
                   {upcoming.length > 0 && (
                     <p className="text-xs text-muted mt-1">
@@ -898,7 +919,7 @@ export default function VokabelnPage() {
                   </p>
                   <button
                     onClick={startWiederholen}
-                    className="w-full py-3 bg-accent hover:bg-accent-strong text-white rounded-xl font-semibold transition-colors"
+                    className="w-full py-3 bg-warn hover:bg-warn/90 text-white rounded-xl font-semibold transition-colors"
                   >
                     {t('Start review →', 'Wiederholung starten →')}
                   </button>
@@ -919,7 +940,7 @@ export default function VokabelnPage() {
 
             {vocab.length === 0 ? (
               <div className="text-center py-14">
-                <p className="text-4xl mb-3">📚</p>
+                <BookOpen className="w-10 h-10 text-accent mx-auto mb-3" />
                 <p className="text-sm text-muted">
                   {t('No words seen yet. Start a learning round!', 'Noch keine Wörter gesehen. Starte eine Lernrunde!')}
                 </p>
@@ -1082,40 +1103,60 @@ function Flashcard({
     // component is remounted (key changes) on advance; no local reset needed
   }
 
+  // Enter after a correct answer = "Good"; after a wrong one (once retyped) = "Again".
+  // Registered on the next tick so the Enter that checked doesn't count (see TypeCard).
+  useEffect(() => {
+    if (!checked) return;
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key !== 'Enter' || e.repeat) return;
+      if (correct) { e.preventDefault(); rate(true, 'sicher'); }
+      else if (retypeOk) { e.preventDefault(); rate(false, 'sicher'); }
+    };
+    const id = setTimeout(() => window.addEventListener('keydown', onKey), 0);
+    return () => { clearTimeout(id); window.removeEventListener('keydown', onKey); };
+  });
+
+  const rateBtn = 'h-14 rounded-2xl text-sm font-semibold disabled:opacity-40 transition-colors leading-tight';
+
   return (
-    <div className="bg-surface rounded-xl border border-line p-5 space-y-5">
+    <div className="space-y-4">
       {/* Progress header */}
-      <div className="flex items-center justify-between text-xs text-muted">
-        <div className="flex items-center gap-2">
-          <span className="tabular-nums">{position} / {total}</span>
-          <span className={`px-1.5 py-0.5 rounded-md font-medium ${LEVEL_COLORS[item.currentLevel]}`}>
-            {levelLabel(item.currentLevel, t)}
-          </span>
+      <div className="flex items-center gap-3">
+        <button
+          onClick={onFinish}
+          aria-label={t('Finish', 'Beenden')}
+          title={t('Finish', 'Beenden')}
+          className="w-11 h-11 -ml-2 shrink-0 rounded-full flex items-center justify-center text-muted hover:bg-line-soft transition-colors"
+        >
+          <X className="w-6 h-6" />
+        </button>
+        <div className="flex-1 h-2 bg-line rounded-full overflow-hidden">
+          <div
+            className="h-full bg-good rounded-full transition-all"
+            style={{ width: `${Math.round(((position - 1) / total) * 100)}%` }}
+          />
         </div>
-        <div className="flex items-center gap-2">
-          {combo >= 2 && (
-            <span className="px-1.5 py-0.5 rounded-md font-semibold bg-orange-100 text-orange-700">
-              🔥 {combo} {t('in a row', 'in Folge')}
-            </span>
-          )}
-          <button onClick={onFinish} className="hover:text-ink transition-colors">
-            {t('Finish', 'Beenden')}
-          </button>
-        </div>
+        <span className="text-xs font-semibold text-muted tabular-nums">{position}/{total}</span>
       </div>
-      <div className="h-1 bg-line-soft rounded-full overflow-hidden">
-        <div
-          className="h-full bg-red-600 rounded-full transition-all"
-          style={{ width: `${Math.round((position / total) * 100)}%` }}
-        />
+
+      <div className="bg-surface rounded-3xl border border-line p-5 space-y-5">
+      <div className="flex items-center justify-between text-xs">
+        <span className={`px-2 py-0.5 rounded-full font-medium ${LEVEL_COLORS[item.currentLevel]}`}>
+          {levelLabel(item.currentLevel, t)}
+        </span>
+        {combo >= 2 && (
+          <span className="flex items-center gap-1 px-2 py-0.5 rounded-full font-semibold bg-accent-soft text-accent">
+            <Flame className="w-3.5 h-3.5" /> {combo} {t('in a row', 'in Folge')}
+          </span>
+        )}
       </div>
 
       {/* Question */}
-      <div className="text-center py-3">
-        <p className="text-xs text-muted uppercase tracking-wide">
+      <div className="text-center pb-1">
+        <p className="text-xs font-semibold text-muted uppercase tracking-wider">
           {t('Translate', 'Übersetze')} {item.askTarget ? `${flag} → 🇩🇪` : `🇩🇪 → ${flag}`}
         </p>
-        <p className="text-3xl font-bold text-ink mt-1 inline-flex items-center gap-2">
+        <p className="font-display text-4xl text-ink mt-2 inline-flex items-center gap-2 flex-wrap justify-center">
           {item.question}
           {item.askTarget && <SpeakButton text={item.target} lang={lang} size="md" />}
         </p>
@@ -1129,46 +1170,31 @@ function Flashcard({
             value={answer}
             onChange={e => setAnswer(e.target.value)}
             onKeyDown={e => { if (e.key === 'Enter') setChecked(true); }}
+            autoCapitalize="off"
+            autoCorrect="off"
+            spellCheck={false}
             placeholder={item.askTarget ? t('German…', 'Deutsch …') : `${t(langInfo(lang).name, langInfo(lang).nameDe)} …`}
             className="w-full border-b-2 border-line focus:border-accent bg-transparent text-lg text-center py-1.5 outline-none transition-colors"
           />
           <button
             onClick={() => setChecked(true)}
-            className="w-full py-3 bg-accent hover:bg-accent-strong text-white rounded-xl font-semibold transition-colors"
+            className="w-full h-12 bg-accent hover:bg-accent-strong text-white rounded-full font-semibold transition-colors"
           >
             {t('Check', 'Prüfen')}
           </button>
         </>
       ) : (
         <>
-          {/* Result */}
-          <div
-            className={`rounded-xl p-4 text-center ${
-              correct ? 'bg-green-50' : 'bg-red-50'
+          <p
+            className={`w-full border-b-2 text-lg text-center py-1.5 ${
+              correct ? 'border-good text-good' : 'border-bad/60 text-bad line-through decoration-bad/60'
             }`}
           >
-            <p className={`text-lg font-bold ${correct ? 'text-green-700' : 'text-red-600'}`}>
-              {correct ? t('✓ Correct', '✓ Richtig') : t('✗ Not quite', '✗ Nicht ganz')}
-            </p>
-            {!correct && (
-              <p className="text-sm text-muted mt-1">
-                {t('Your answer:', 'Deine Antwort:')} <span className="line-through">{answer || '—'}</span>
-              </p>
-            )}
-            <p className="text-base font-semibold text-ink mt-1 inline-flex items-center gap-2">
-              {item.answer}
-              {!item.askTarget && <SpeakButton text={item.target} lang={lang} />}
-            </p>
-            {evaluation?.accentHint && correct && (
-              <p className="text-xs text-blue-600 mt-1">
-                {t('Tip: with accent →', 'Tipp: mit Akzent →')} <span className="font-semibold">{evaluation.accentHint}</span>
-              </p>
-            )}
-          </div>
-
+            {answer || '—'}
+          </p>
           {/* Example sentence + (for verbs) present-tense conjugations */}
           {(item.example || item.conj) && (
-            <div className="rounded-xl border border-line bg-canvas p-3 space-y-2">
+            <div className="rounded-2xl bg-canvas p-3 space-y-2">
               {item.example && (
                 <div>
                   <p className="text-sm text-ink flex items-start justify-between gap-2">
@@ -1187,7 +1213,7 @@ function Flashcard({
                     onClick={() => setShowConj(v => !v)}
                     className="text-[11px] font-semibold text-muted uppercase tracking-wide hover:text-ink transition-colors"
                   >
-                    {TENSES_BY_LANG[lang][0].label} {showConj ? '▲' : '▼'}
+                    {TENSES_BY_LANG[lang][0].label} {showConj ? '−' : '+'}
                   </button>
                   {showConj && (
                     <div className="grid grid-cols-2 gap-x-3 gap-y-0.5 mt-1">
@@ -1204,97 +1230,87 @@ function Flashcard({
             </div>
           )}
 
-          {/* Rating */}
-          {correct ? (
-            <div className="grid grid-cols-4 gap-1.5">
-              <button
-                onClick={() => rate(true, 'again')}
-                disabled={saving}
-                className="py-2.5 rounded-xl text-sm font-semibold bg-red-100 text-red-700 hover:bg-red-200 disabled:opacity-50 transition-colors"
-              >
-                {t('Again', 'Nochmal')}
-                <span className="block text-[10px] font-normal opacity-70">{t('restart · today', 'neu · heute')}</span>
-              </button>
-              <button
-                onClick={() => rate(true, 'unsicher')}
-                disabled={saving}
-                className="py-2.5 rounded-xl text-sm font-semibold bg-amber-100 text-amber-700 hover:bg-amber-200 disabled:opacity-50 transition-colors"
-              >
-                {t('Stay', 'Bleiben')}
-                <span className="block text-[10px] font-normal opacity-70">{t('keep phase', 'Phase halten')}</span>
-              </button>
-              <button
-                onClick={() => rate(true, 'sicher')}
-                disabled={saving}
-                className="py-2.5 rounded-xl text-sm font-semibold bg-green-100 text-green-700 hover:bg-green-200 disabled:opacity-50 transition-colors"
-              >
-                {t('Good', 'Gut')}
-                <span className="block text-[10px] font-normal opacity-70">{t('level up', 'Phase hoch')}</span>
-              </button>
-              <button
-                onClick={() => rate(true, 'bekannt')}
-                disabled={saving}
-                className="py-2.5 rounded-xl text-sm font-semibold bg-green-700 text-white hover:bg-green-800 disabled:opacity-50 transition-colors"
-              >
-                {t('Known', 'Gekonnt')}
-                <span className="block text-[10px] font-normal opacity-80">{t('mark known', 'als gekonnt')}</span>
-              </button>
+          {!correct && (
+            <div>
+              <label className="block text-xs font-medium text-muted mb-1.5 text-center">
+                {t('Write it again to remember:', 'Schreib es zum Einprägen noch einmal:')}
+              </label>
+              <input
+                ref={retypeRef}
+                type="text"
+                value={retype}
+                onChange={e => setRetype(e.target.value)}
+                autoCapitalize="off"
+                autoCorrect="off"
+                spellCheck={false}
+                placeholder={item.answer}
+                className={`w-full border-b-2 bg-transparent text-lg text-center py-1.5 outline-none transition-colors ${
+                  retypeOk ? 'border-good text-good' : 'border-line focus:border-accent'
+                }`}
+              />
             </div>
-          ) : (
-            <>
-              {/* Write-it-again reinforcement */}
-              <div>
-                <label className="block text-xs text-muted mb-1.5">
-                  {t('Write it again to remember:', 'Schreib es zum Einprägen noch einmal:')}
-                </label>
-                <input
-                  ref={retypeRef}
-                  type="text"
-                  value={retype}
-                  onChange={e => setRetype(e.target.value)}
-                  placeholder={item.answer}
-                  className={`w-full border-b-2 bg-transparent text-lg text-center py-1.5 outline-none transition-colors ${
-                    retypeOk ? 'border-green-500 text-green-700' : 'border-line focus:border-accent'
-                  }`}
-                />
-                <p className="text-[11px] text-muted text-center mt-1">
-                  {retypeOk ? t('✓ Now choose below', '✓ Jetzt unten wählen') : t('Type the correct word to continue', 'Tippe das richtige Wort, um weiterzumachen')}
-                </p>
-              </div>
-
-              <div className="grid grid-cols-3 gap-2">
-                <button
-                  onClick={() => rate(false, 'sicher')}
-                  disabled={saving || !retypeOk}
-                  className="py-2.5 rounded-xl text-sm font-semibold bg-red-100 text-red-700 hover:bg-red-200 disabled:opacity-40 transition-colors"
-                >
-                  {t('Again', 'Nochmal')}
-                  <span className="block text-[10px] font-normal opacity-70">{t('review today', 'heute wiederholen')}</span>
-                </button>
-                <button
-                  onClick={() => rate(true, 'unsicher')}
-                  disabled={saving || !retypeOk}
-                  className="py-2.5 rounded-xl text-sm font-semibold bg-amber-100 text-amber-700 hover:bg-amber-200 disabled:opacity-40 transition-colors"
-                >
-                  {t('Keep phase', 'Phase halten')}
-                  <span className="block text-[10px] font-normal opacity-70">{t('typo / misclick', 'Tipp-/Klickfehler')}</span>
-                </button>
-                <button
-                  onClick={() => rate(true, 'bekannt')}
-                  disabled={saving || !retypeOk}
-                  className="py-2.5 rounded-xl text-sm font-semibold bg-green-700 text-white hover:bg-green-800 disabled:opacity-40 transition-colors"
-                >
-                  {t('Known', 'Gekonnt')}
-                  <span className="block text-[10px] font-normal opacity-80">{t('mark known', 'als gekonnt')}</span>
-                </button>
-              </div>
-              <p className="text-[11px] text-muted text-center">
-                {t('Was it a typo? Keep the phase or mark it known instead of going back.', 'War es ein Tippfehler? Behalte die Phase oder markiere es als gekonnt, statt zurückzufallen.')}
-              </p>
-            </>
           )}
+
+          <FeedbackBar
+            correct={correct}
+            actions={
+              correct ? (
+                <div className="grid grid-cols-4 gap-1.5 pt-1">
+                  <button onClick={() => rate(true, 'again')} disabled={saving} className={`${rateBtn} bg-surface text-bad border border-bad/30 hover:bg-bad-soft`}>
+                    {t('Again', 'Nochmal')}
+                    <span className="block text-[10px] font-normal opacity-75">{t('restart', 'neu')}</span>
+                  </button>
+                  <button onClick={() => rate(true, 'unsicher')} disabled={saving} className={`${rateBtn} bg-surface text-warn border border-warn/30 hover:bg-warn-soft`}>
+                    {t('Stay', 'Bleiben')}
+                    <span className="block text-[10px] font-normal opacity-75">{t('keep phase', 'Phase halten')}</span>
+                  </button>
+                  <button onClick={() => rate(true, 'sicher')} disabled={saving} className={`${rateBtn} bg-good text-white hover:bg-good/90`}>
+                    {t('Good', 'Gut')}
+                    <span className="block text-[10px] font-normal opacity-85">{t('level up', 'Phase hoch')}</span>
+                  </button>
+                  <button onClick={() => rate(true, 'bekannt')} disabled={saving} className={`${rateBtn} bg-surface text-good border border-good/40 hover:bg-good-soft`}>
+                    {t('Known', 'Gekonnt')}
+                    <span className="block text-[10px] font-normal opacity-75">{t('mark known', 'als gekonnt')}</span>
+                  </button>
+                </div>
+              ) : (
+                <div className="space-y-2 pt-1">
+                  <div className="grid grid-cols-3 gap-1.5">
+                    <button onClick={() => rate(false, 'sicher')} disabled={saving || !retypeOk} className={`${rateBtn} bg-accent text-white hover:bg-accent-strong`}>
+                      {t('Again', 'Nochmal')}
+                      <span className="block text-[10px] font-normal opacity-85">{t('review today', 'heute wiederholen')}</span>
+                    </button>
+                    <button onClick={() => rate(true, 'unsicher')} disabled={saving || !retypeOk} className={`${rateBtn} bg-surface text-warn border border-warn/30 hover:bg-warn-soft`}>
+                      {t('Keep phase', 'Phase halten')}
+                      <span className="block text-[10px] font-normal opacity-75">{t('typo', 'Tippfehler')}</span>
+                    </button>
+                    <button onClick={() => rate(true, 'bekannt')} disabled={saving || !retypeOk} className={`${rateBtn} bg-surface text-good border border-good/40 hover:bg-good-soft`}>
+                      {t('Known', 'Gekonnt')}
+                      <span className="block text-[10px] font-normal opacity-75">{t('mark known', 'als gekonnt')}</span>
+                    </button>
+                  </div>
+                  {!retypeOk && (
+                    <p className="text-xs text-accent-strong text-center">
+                      {t('Write the word again above to continue.', 'Schreib das Wort oben noch einmal, um weiterzumachen.')}
+                    </p>
+                  )}
+                </div>
+              )
+            }
+          >
+            <p className="text-lg font-semibold flex items-center gap-2">
+              {item.answer}
+              {!item.askTarget && <SpeakButton text={item.target} lang={lang} />}
+            </p>
+            {evaluation?.accentHint && correct && (
+              <p className="text-sm text-muted mt-0.5">
+                {t('Tip: with accent →', 'Tipp: mit Akzent →')} <span className="font-semibold">{evaluation.accentHint}</span>
+              </p>
+            )}
+          </FeedbackBar>
         </>
       )}
+      </div>
     </div>
   );
 }
@@ -1309,8 +1325,8 @@ function AutoplayToggle({ value, onChange }: { value: boolean; onChange: (v: boo
       onClick={() => onChange(!value)}
       className="w-full flex items-center justify-between px-3 py-2 rounded-xl bg-canvas text-xs text-muted hover:bg-line-soft transition-colors"
     >
-      <span>🔊 {t('Read words aloud automatically', 'Wörter automatisch vorlesen')}</span>
-      <span className={`font-semibold ${value ? 'text-green-700' : 'text-muted'}`}>{value ? t('On', 'An') : t('Off', 'Aus')}</span>
+      <span className="inline-flex items-center gap-1.5"><Volume2 className="w-4 h-4 text-accent" /> {t('Read words aloud automatically', 'Wörter automatisch vorlesen')}</span>
+      <span className={`font-semibold ${value ? 'text-good' : 'text-muted'}`}>{value ? t('On', 'An') : t('Off', 'Aus')}</span>
     </button>
   );
 }

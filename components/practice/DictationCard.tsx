@@ -5,6 +5,8 @@ import { compareDictation, DictationResult } from '@/lib/dictation';
 import { speak, SLOW_RATE } from '@/lib/speech';
 import type { Lang } from '@/lib/lang';
 import { useT } from '@/lib/ui-lang';
+import { Volume2, Turtle, Headphones } from 'lucide-react';
+import FeedbackBar from './FeedbackBar';
 
 // ─── Dictation (listen → type) ─────────────────────────────────────────────────
 
@@ -44,9 +46,9 @@ export default function DictationCard({
   }
 
   return (
-    <div className="bg-surface rounded-2xl border border-line p-5 space-y-4">
+    <div className="bg-surface rounded-2xl border border-line shadow-sm p-5 space-y-4">
       <div className="flex justify-between text-xs text-muted">
-        <span>🎧 {t('Write what you hear', 'Schreib auf, was du hörst')}</span>
+        <span className="flex items-center gap-1.5 font-semibold uppercase tracking-wider text-muted"><Headphones className="w-4 h-4" /> {t('Write what you hear', 'Schreib auf, was du hörst')}</span>
         <span className="tabular-nums">{position} / {total}</span>
       </div>
 
@@ -54,16 +56,16 @@ export default function DictationCard({
         <button
           type="button"
           onClick={() => speak(item.text, lang)}
-          className="h-14 px-5 rounded-2xl bg-accent hover:bg-accent-strong text-white text-lg font-semibold transition-colors"
+          className="h-14 px-6 rounded-full bg-accent hover:bg-accent-strong text-white text-lg font-semibold transition-colors inline-flex items-center gap-2"
         >
-          🔊 {t('Play', 'Abspielen')}
+          <Volume2 className="w-5 h-5" /> {t('Play', 'Abspielen')}
         </button>
         <button
           type="button"
           onClick={() => speak(item.text, lang, { rate: SLOW_RATE })}
-          className="h-14 px-5 rounded-2xl bg-line-soft hover:bg-line text-ink text-lg font-semibold transition-colors"
+          className="h-14 px-6 rounded-full bg-accent-soft hover:bg-accent-soft text-accent text-lg font-semibold transition-colors inline-flex items-center gap-2"
         >
-          🐢 {t('Slow', 'Langsam')}
+          <Turtle className="w-5 h-5" /> {t('Slow', 'Langsam')}
         </button>
       </div>
 
@@ -81,57 +83,51 @@ export default function DictationCard({
             autoCorrect="off"
             spellCheck={false}
             placeholder={t('Type the sentence…', 'Schreib den Satz …')}
-            className="w-full border border-line rounded-xl p-3 text-base outline-none focus:border-accent transition-colors resize-none"
+            className="w-full border border-line rounded-2xl p-3 text-base bg-canvas outline-none focus:border-accent transition-colors resize-none"
           />
           <button
             onClick={check}
-            className="w-full py-2.5 bg-ink hover:bg-ink/85 text-white rounded-xl text-sm font-semibold transition-colors"
+            className="w-full h-12 bg-accent hover:bg-accent-strong text-white rounded-full font-semibold transition-colors"
           >
             {t('Check', 'Prüfen')}
           </button>
         </>
       ) : (
         <>
-          <div className={`rounded-xl p-3 ${result.perfect ? 'bg-green-50' : 'bg-amber-50'}`}>
-            <p className={`text-sm font-bold ${result.perfect ? 'text-green-700' : 'text-amber-700'}`}>
-              {result.perfect
-                ? t('✓ Perfect', '✓ Perfekt')
-                : t(`${result.correct} / ${result.total} words right`, `${result.correct} / ${result.total} Wörter richtig`)}
-            </p>
-            <p className="mt-2 leading-relaxed flex flex-wrap gap-x-1.5 gap-y-1">
+          <div className="rounded-2xl bg-canvas p-3">
+            <p className="text-[11px] font-semibold text-muted uppercase tracking-wider">{t('What you wrote', 'Dein Text')}</p>
+            <p className="mt-1 text-base leading-relaxed flex flex-wrap gap-x-1.5 gap-y-1">
               {result.words.map((w, i) =>
                 w.status === 'ok' ? (
                   <span key={i} className="text-ink">{w.expected}</span>
                 ) : w.status === 'accent' ? (
-                  <span key={i} className="text-blue-700 underline decoration-dotted" title={`${t('You wrote', 'Du hast geschrieben')}: ${w.typed}`}>
+                  <span key={i} className="text-warn underline decoration-dotted" title={`${t('You wrote', 'Du hast geschrieben')}: ${w.typed}`}>
                     {w.expected}
                   </span>
                 ) : w.status === 'wrong' ? (
                   <span key={i}>
-                    <span className="text-red-500 line-through">{w.typed}</span>{' '}
-                    <span className="text-green-700 font-semibold">{w.expected}</span>
+                    <span className="text-bad line-through">{w.typed}</span>{' '}
+                    <span className="text-good font-semibold">{w.expected}</span>
                   </span>
                 ) : w.status === 'missing' ? (
-                  <span key={i} className="text-green-700 font-semibold bg-green-100 rounded px-0.5">{w.expected}</span>
+                  <span key={i} className="text-good font-semibold bg-good-soft rounded px-0.5">{w.expected}</span>
                 ) : (
-                  <span key={i} className="text-red-500 line-through">{w.typed}</span>
+                  <span key={i} className="text-bad line-through">{w.typed}</span>
                 ),
               )}
             </p>
             {result.words.some(w => w.status === 'accent') && (
-              <p className="text-[11px] text-blue-600 mt-1.5">{t('Blue: right word, check the accent.', 'Blau: richtiges Wort, achte auf den Akzent.')}</p>
+              <p className="text-[11px] text-warn mt-1.5">{t('Dotted: right word, check the accent.', 'Gepunktet: richtiges Wort, achte auf den Akzent.')}</p>
             )}
           </div>
-          <div className="rounded-xl bg-canvas p-3 space-y-0.5">
-            <p className="text-sm font-semibold text-ink">{item.text}</p>
-            <p className="text-xs text-muted italic">{item.de}</p>
-          </div>
-          <button
-            onClick={() => onDone(item, typed, result)}
-            className="w-full py-2.5 bg-accent hover:bg-accent-strong text-white rounded-xl text-sm font-semibold transition-colors"
+          <FeedbackBar
+            correct={result.perfect}
+            title={result.perfect ? t('Perfect!', 'Perfekt!') : t(`${result.correct} of ${result.total} words right`, `${result.correct} von ${result.total} Wörtern richtig`)}
+            onNext={() => onDone(item, typed, result)}
           >
-            {t('Next →', 'Weiter →')}
-          </button>
+            <p className="text-base font-semibold">{item.text}</p>
+            <p className="text-sm text-muted italic">{item.de}</p>
+          </FeedbackBar>
         </>
       )}
     </div>

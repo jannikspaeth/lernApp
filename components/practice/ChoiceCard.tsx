@@ -3,7 +3,7 @@
 import { useEffect, useMemo, useState } from 'react';
 import type { Lang } from '@/lib/lang';
 import SpeakButton from '@/components/SpeakButton';
-import { useT } from '@/lib/ui-lang';
+import FeedbackBar from './FeedbackBar';
 
 function shuffle<T>(arr: T[]): T[] {
   const a = [...arr];
@@ -36,7 +36,6 @@ export default function ChoiceCard({
 }) {
   const shuffled = useMemo(() => shuffle(options), [options]);
   const [picked, setPicked] = useState<string | null>(null);
-  const t = useT();
   const correct = picked === answer;
 
   // After picking, a new Enter press moves on (see TypeCard for why not autoFocus).
@@ -59,12 +58,12 @@ export default function ChoiceCard({
   }, [picked, answer, onResult]);
 
   return (
-    <div className="bg-surface rounded-2xl border border-line p-5 space-y-4">
-      <p className="text-xs text-muted uppercase tracking-wide text-center">{label}</p>
+    <div className="bg-surface rounded-2xl border border-line shadow-sm p-5 space-y-4">
+      <p className="text-xs font-semibold text-muted uppercase tracking-wider text-center">{label}</p>
       <p className="text-lg text-ink leading-relaxed text-center">
         {before}
         {picked ? (
-          <span className={`font-bold ${correct ? 'text-green-700' : 'text-red-600'}`}>{answer}</span>
+          <span className={`font-bold ${correct ? 'text-good' : 'text-bad'}`}>{answer}</span>
         ) : (
           <span className="font-semibold text-muted">＿＿</span>
         )}
@@ -79,12 +78,12 @@ export default function ChoiceCard({
               key={opt}
               disabled={picked !== null}
               onClick={() => setPicked(opt)}
-              className={`px-3 py-2.5 rounded-xl border-2 text-sm font-medium transition-all ${
+              className={`px-3 py-3 rounded-xl border-2 text-base font-medium transition-all ${
                 isAnswer
-                  ? 'border-green-500 bg-green-50 text-green-800'
+                  ? 'border-good bg-good-soft text-good'
                   : isWrongPick
-                  ? 'border-red-400 bg-red-50 text-red-700'
-                  : 'border-line bg-surface text-ink hover:border-faint hover:bg-canvas disabled:hover:bg-white'
+                  ? 'border-bad/60 bg-bad-soft text-bad'
+                  : 'border-line bg-surface text-ink hover:border-line hover:bg-canvas disabled:hover:bg-surface'
               }`}
             >
               {opt}
@@ -93,21 +92,15 @@ export default function ChoiceCard({
         })}
       </div>
       {picked !== null && (
-        <>
-          <div className={`rounded-xl p-3 text-sm flex items-center justify-between gap-2 ${correct ? 'bg-green-50 text-green-800' : 'bg-red-50 text-red-700'}`}>
+        <FeedbackBar correct={correct} onNext={() => onResult(correct, picked)}>
+          <p className="text-base flex items-center justify-between gap-2">
             <span>
-              {correct ? t('✓ Correct', '✓ Richtig') : <>✓ <strong>{answer}</strong></>}
-              {hint && <span className="text-muted ml-2">({hint})</span>}
+              {before}<strong>{answer}</strong>{after}
+              {hint && <span className="block text-sm text-muted mt-0.5">{hint}</span>}
             </span>
             <SpeakButton text={`${before}${answer}${after}`} lang={lang} />
-          </div>
-          <button
-            onClick={() => onResult(correct, picked)}
-            className="w-full py-3 bg-ink hover:bg-ink/85 text-white rounded-xl font-semibold transition-colors"
-          >
-            {t('Next →', 'Weiter →')}
-          </button>
-        </>
+          </p>
+        </FeedbackBar>
       )}
     </div>
   );

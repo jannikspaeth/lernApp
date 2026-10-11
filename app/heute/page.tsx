@@ -4,6 +4,7 @@ import { useState, useEffect, useRef, useCallback } from 'react';
 import Link from 'next/link';
 import {
   getExtras,
+  getStats,
   updateExtras,
   loadVocabStrict,
   upsertVocabWord,
@@ -17,6 +18,7 @@ import {
 import {
   ExerciseType,
   MistakeItem,
+  ProgressStats,
   MistakeKind,
   SentenceProgress,
   UserExtras,
@@ -30,7 +32,8 @@ import { useQuizDirection, askTarget } from '@/lib/use-quiz-direction';
 import { chosenTenses } from '@/lib/tenses';
 import { getConjugationExercise } from '@/lib/conjugation-client';
 import { TOPICS_BY_LANG } from '@/lib/grammar-by-lang';
-import { berlinToday } from '@/lib/race';
+import { berlinToday, DAILY_GOAL } from '@/lib/race';
+import { ArrowRight, Flame, BookOpen, SpellCheck, BookMarked, PenLine, Headphones, Newspaper, RotateCcw, X, PartyPopper } from 'lucide-react';
 import { checkWordAnswer, checkClozeAnswer } from '@/lib/answer-check';
 import { conjugationMatches } from '@/lib/conjugation-match';
 import { spokenForm } from '@/lib/speech';
@@ -85,12 +88,12 @@ function exerciseType(step: RoundStep): ExerciseType {
 }
 
 const BLOCK_LABEL: Record<RoundStep['kind'], [string, string]> = {
-  vocab: ['📖 Words', '📖 Wörter'],
-  verb: ['🔤 Verbs', '🔤 Verben'],
-  grammar: ['📘 Grammar', '📘 Grammatik'],
-  sentence: ['✍️ Sentences', '✍️ Sätze'],
-  dictation: ['🎧 Dictation', '🎧 Diktat'],
-  mistake: ['🩹 My mistakes', '🩹 Meine Fehler'],
+  vocab: ['Words', 'Wörter'],
+  verb: ['Verbs', 'Verben'],
+  grammar: ['Grammar', 'Grammatik'],
+  sentence: ['Sentences', 'Sätze'],
+  dictation: ['Dictation', 'Diktat'],
+  mistake: ['My mistakes', 'Meine Fehler'],
 };
 
 function shuffle<T>(arr: T[]): T[] {
@@ -114,6 +117,7 @@ export default function HeutePage() {
   const langName = t(info.name, info.nameDe);
 
   const [extras, setExtras] = useState<UserExtras | null>(null);
+  const [stats, setStats] = useState<ProgressStats | null>(null);
   const [mode, setMode] = useState<Mode>('home');
   const [steps, setSteps] = useState<RoundStep[]>([]);
   const [idx, setIdx] = useState(0);
@@ -136,8 +140,9 @@ export default function HeutePage() {
     if (!ready) return;
     let alive = true;
     getExtras().then(e => { if (alive) setExtras(e); });
+    getStats().then(s => { if (alive) setStats(s); });
     return () => { alive = false; };
-  }, [ready]);
+  }, [ready, mode]);
 
   const flushActivity = useCallback(() => {
     const batch = pending.current;
@@ -148,6 +153,14 @@ export default function HeutePage() {
   }, []);
   // Leaving the page mid-round still counts what was done.
   useEffect(() => () => flushActivity(), [flushActivity]);
+
+  // Focus mode while practising: the tab bar steps aside (see globals.css).
+  const practising = (mode === 'round' || mode === 'mistakes') && steps.length > 0 && !finished;
+  useEffect(() => {
+    if (!practising) return;
+    document.body.dataset.focus = '1';
+    return () => { delete document.body.dataset.focus; };
+  }, [practising]);
 
   if (!ready || !profile || !vocabPack || !verbPack) {
     return (
@@ -161,6 +174,9 @@ export default function HeutePage() {
   const roundsToday = extras?.rounds[today] ?? 0;
   const mistakes = extras?.mistakes ?? [];
   const countByKind = (k: MistakeKind) => mistakes.filter(m => m.kind === k).length;
+  const todayCount = stats?.daily?.[today] ?? 0;
+  const goalPct = Math.min(100, Math.round((todayCount / DAILY_GOAL) * 100));
+  const streak = Math.max(stats?.streak ?? 0, todayCount > 0 ? 1 : 0);
 
   // ── Building a round ──
 
@@ -523,41 +539,56 @@ export default function HeutePage() {
   return (
     <main className="md:ml-56 min-h-screen bg-canvas pb-24 md:pb-8">
       <div className="max-w-xl mx-auto p-5 space-y-5">
-        <div>
-          <h1 className="text-2xl font-bold text-ink flex items-center gap-2">
-            <span>☀️</span> {t('Today', 'Heute')}
-          </h1>
-          <p className="text-muted text-sm mt-0.5">
-            {new Date().toLocaleDateString(uiLang === 'de' ? 'de-DE' : 'en-GB', { weekday: 'long', day: 'numeric', month: 'long' })} · {info.flag} {langName}
-          </p>
-        </div>
+        {!active && (
+          <div className="flex items-start justify-between gap-4 pt-1">
+            <div className="min-w-0">
+              <p className="text-xs font-semibold uppercase tracking-wider text-muted">
+                {new Date().toLocaleDateString(uiLang === 'de' ? 'de-DE' : 'en-GB', { weekday: 'long', day: 'numeric', month: 'long' })}
+              </p>
+              <h1 className="text-[32px] leading-tight text-ink mt-1">
+                {greeting(lang)},<br />
+                {profile.name}
+              </h1>
+            </div>
+            <div className="shrink-0 flex flex-col items-center px-3 py-2 rounded-2xl bg-line-soft" title={t('Days in a row', 'Tage in Folge')}>
+              <Flame className="w-5 h-5 text-accent" />
+              <span className="text-base font-bold text-ink tabular-nums">{streak}</span>
+              <span className="text-[11px] text-muted">{streak === 1 ? t('day', 'Tag') : t('days', 'Tage')}</span>
+            </div>
+          </div>
+        )}
 
         {error && (
-          <div className="bg-red-50 border border-red-200 rounded-xl p-3 text-sm text-red-700">⚠ {error}</div>
+          <div className="bg-bad-soft border border-bad/30 rounded-xl p-3 text-sm text-bad">⚠ {error}</div>
         )}
 
         {active && !finished && steps[idx] && (
           <div className="space-y-3">
-            <div className="flex items-center justify-between text-xs text-muted">
-              <span className="font-medium text-muted">{block(steps[idx].kind)}</span>
-              <div className="flex items-center gap-3">
-                <span className="tabular-nums">{idx + 1} / {steps.length}</span>
-                <button onClick={backHome} className="hover:text-ink transition-colors">{t('Finish', 'Beenden')}</button>
+            <div className="flex items-center gap-3">
+              <button
+                onClick={backHome}
+                aria-label={t('Finish', 'Beenden')}
+                title={t('Finish', 'Beenden')}
+                className="w-11 h-11 -ml-2 shrink-0 rounded-full flex items-center justify-center text-muted hover:bg-line-soft transition-colors"
+              >
+                <X className="w-6 h-6" />
+              </button>
+              <div className="flex-1 h-2 bg-line rounded-full overflow-hidden">
+                <div
+                  className="h-full bg-good rounded-full transition-all"
+                  style={{ width: `${Math.round((idx / steps.length) * 100)}%` }}
+                />
               </div>
+              <span className="text-xs font-semibold text-muted tabular-nums">{idx + 1}/{steps.length}</span>
             </div>
-            <div className="h-1 bg-line-soft rounded-full overflow-hidden">
-              <div
-                className="h-full bg-red-600 rounded-full transition-all"
-                style={{ width: `${Math.round((idx / steps.length) * 100)}%` }}
-              />
-            </div>
+            <p className="text-xs font-semibold uppercase tracking-wider text-muted text-center pt-2">{block(steps[idx].kind)}</p>
             {renderStep(steps[idx], idx)}
           </div>
         )}
 
         {active && finished && (
           <div className="bg-surface rounded-2xl border border-line p-6 text-center space-y-4">
-            <p className="text-4xl">{mode === 'round' ? '🎉' : '💪'}</p>
+            <PartyPopper className="w-10 h-10 text-accent mx-auto" />
             <p className="font-semibold text-ink">
               {mode === 'round' ? t("Today's round is done!", 'Die Tagesrunde ist geschafft!') : t('Mistake training done', 'Fehlertraining geschafft')}
             </p>
@@ -586,7 +617,7 @@ export default function HeutePage() {
               {mistakes.length > 0 && (
                 <button
                   onClick={() => { setFilter('all'); begin('mistakes', pickTraining(mistakes).map(m => ({ kind: 'mistake', mistake: m }))); }}
-                  className="px-4 py-2.5 bg-accent hover:bg-accent-strong text-white rounded-xl text-sm font-semibold transition-colors"
+                  className="px-4 py-2.5 bg-warn hover:bg-warn/90 text-white rounded-xl text-sm font-semibold transition-colors"
                 >
                   {t('Practise mistakes', 'Fehler üben')} ({mistakes.length}) →
                 </button>
@@ -598,54 +629,52 @@ export default function HeutePage() {
         {mode === 'home' && (
           <>
             {/* Daily round */}
-            <section className="bg-surface rounded-2xl border border-line p-5 space-y-4">
-              <div className="flex items-start justify-between gap-3">
-                <div>
-                  <h2 className="font-bold text-ink text-lg">{t('Today’s round', 'Tagesrunde')}</h2>
-                  <p className="text-sm text-muted mt-0.5">
-                    {t(
-                      'A bit of everything, about 10 minutes – no need to decide what to practise.',
-                      'Von allem etwas, etwa 10 Minuten – ohne zu überlegen, was du üben sollst.',
-                    )}
-                  </p>
-                </div>
-                {roundsToday > 0 && (
-                  <span className="shrink-0 text-xs font-semibold px-2 py-1 rounded-lg bg-green-100 text-green-700">
-                    ✓ {roundsToday > 1 ? `${roundsToday}×` : ''} {t('done', 'erledigt')}
-                  </span>
-                )}
+            <section className="bg-accent text-white rounded-3xl p-5 space-y-4">
+              <div className="flex items-center justify-between text-xs font-semibold uppercase tracking-wider">
+                <span className="opacity-90">{t('Today’s goal', 'Tagesziel')}</span>
+                <span className="tabular-nums">{todayCount} / {DAILY_GOAL} {t('points', 'Punkte')}</span>
               </div>
-              <div className="flex flex-wrap gap-1.5 text-xs">
-                <span className="px-2 py-1 rounded-lg bg-line-soft text-muted">📖 {ROUND_PLAN.vocab} {t('words', 'Wörter')}</span>
-                <span className="px-2 py-1 rounded-lg bg-line-soft text-muted">🔤 {ROUND_PLAN.verbs} {t('verb forms', 'Verbformen')}</span>
-                <span className="px-2 py-1 rounded-lg bg-line-soft text-muted">📘 {ROUND_PLAN.grammar} {t('grammar', 'Grammatik')}</span>
-                <span className="px-2 py-1 rounded-lg bg-line-soft text-muted">✍️ {ROUND_PLAN.sentences} {t('sentences', 'Sätze')}</span>
-                <span className="px-2 py-1 rounded-lg bg-line-soft text-muted">🎧 {ROUND_PLAN.dictation} {t('dictation', 'Diktat')}</span>
+              <div className="h-1.5 rounded-full bg-surface/25 overflow-hidden">
+                <div className="h-full rounded-full bg-surface transition-all" style={{ width: `${goalPct}%` }} />
               </div>
-              <p className="text-xs text-muted">
-                {t(
-                  'Reviews that are due come first, then new material. Everything counts for the race.',
-                  'Zuerst kommt, was fällig ist, dann Neues. Alles zählt fürs Rennen.',
-                )}
-              </p>
+              <div>
+                <h2 className="font-display text-[26px] leading-tight">
+                  {roundsToday > 0 ? t('Another round?', 'Noch eine Runde?') : t('Today’s round', 'Tagesrunde')}
+                </h2>
+                <p className="text-sm opacity-90 mt-1">
+                  {roundsToday > 0
+                    ? t(`Done ${roundsToday}× today – well done!`, `Heute schon ${roundsToday}× geschafft – stark!`)
+                    : t('A bit of everything, about 10 minutes.', 'Von allem etwas, etwa 10 Minuten.')}
+                </p>
+              </div>
+              <div className="flex flex-wrap gap-x-3 gap-y-1.5 text-xs opacity-95">
+                <span className="flex items-center gap-1"><BookOpen className="w-3.5 h-3.5" /> {ROUND_PLAN.vocab} {t('words', 'Wörter')}</span>
+                <span className="flex items-center gap-1"><SpellCheck className="w-3.5 h-3.5" /> {ROUND_PLAN.verbs} {t('verb forms', 'Verbformen')}</span>
+                <span className="flex items-center gap-1"><BookMarked className="w-3.5 h-3.5" /> {ROUND_PLAN.grammar} {t('grammar', 'Grammatik')}</span>
+                <span className="flex items-center gap-1"><PenLine className="w-3.5 h-3.5" /> {ROUND_PLAN.sentences} {t('sentences', 'Sätze')}</span>
+                <span className="flex items-center gap-1"><Headphones className="w-3.5 h-3.5" /> {ROUND_PLAN.dictation} {t('dictation', 'Diktat')}</span>
+              </div>
               <button
                 onClick={startRound}
                 disabled={building}
-                className="w-full py-3 bg-accent hover:bg-accent-strong disabled:bg-gray-300 text-white rounded-xl font-semibold transition-colors"
+                className="inline-flex items-center gap-2 px-5 py-3 bg-surface text-accent hover:bg-accent-soft disabled:opacity-70 rounded-full font-semibold transition-colors"
               >
                 {building
                   ? t('Putting your round together…', 'Deine Runde wird zusammengestellt …')
                   : roundsToday > 0
-                    ? t('Another round →', 'Noch eine Runde →')
-                    : t("Start today's round →", 'Tagesrunde starten →')}
+                    ? t('Start another round', 'Noch eine Runde')
+                    : t('Start', 'Starten')}
+                {!building && <ArrowRight className="w-4 h-4" />}
               </button>
             </section>
 
             {/* My mistakes */}
-            <section className="bg-surface rounded-2xl border border-line p-5 space-y-4">
+            <section className="bg-surface rounded-2xl border border-line shadow-sm p-5 space-y-4">
               <div className="flex items-start justify-between gap-3">
                 <div>
-                  <h2 className="font-bold text-ink text-lg">🩹 {t('My mistakes', 'Meine Fehler')}</h2>
+                  <h2 className="font-display text-xl text-ink flex items-center gap-2">
+                    <RotateCcw className="w-5 h-5 text-bad" /> {t('My mistakes', 'Meine Fehler')}
+                  </h2>
                   <p className="text-sm text-muted mt-0.5">
                     {t(
                       `Everything you got wrong – words, verbs, grammar, sentences, dictation. Get it right ${MISTAKE_CLEAR_AFTER}× in a row and it disappears.`,
@@ -653,17 +682,17 @@ export default function HeutePage() {
                     )}
                   </p>
                 </div>
-                <span className="shrink-0 text-2xl font-bold text-amber-500 tabular-nums">{extras ? mistakes.length : '…'}</span>
+                <span className="shrink-0 font-display text-3xl text-bad tabular-nums">{extras ? mistakes.length : '…'}</span>
               </div>
 
               {mistakes.length === 0 ? (
                 <p className="text-sm text-muted text-center py-2">
-                  {extras ? t('No mistakes collected – great! 🎉', 'Keine Fehler gesammelt – super! 🎉') : t('Loading…', 'Lädt …')}
+                  {extras ? t('No mistakes collected – great!', 'Keine Fehler gesammelt – super!') : t('Loading…', 'Lädt …')}
                 </p>
               ) : (
                 <>
                   <div className="flex flex-wrap gap-1.5">
-                    {[{ id: 'all' as const, icon: '🧩', label: 'All', labelDe: 'Alle' }, ...MISTAKE_KINDS].map(k => {
+                    {[{ id: 'all' as const, label: 'All', labelDe: 'Alle' }, ...MISTAKE_KINDS].map(k => {
                       const n = k.id === 'all' ? mistakes.length : countByKind(k.id);
                       if (n === 0) return null;
                       return (
@@ -674,14 +703,14 @@ export default function HeutePage() {
                             filter === k.id ? 'bg-accent text-white' : 'bg-line-soft text-muted hover:bg-line'
                           }`}
                         >
-                          {k.icon} {t(k.label, k.labelDe)} <span className="opacity-70">{n}</span>
+                          {t(k.label, k.labelDe)} <span className="opacity-70">{n}</span>
                         </button>
                       );
                     })}
                   </div>
                   <button
                     onClick={startMistakes}
-                    className="w-full py-3 bg-accent hover:bg-accent-strong text-white rounded-xl font-semibold transition-colors"
+                    className="w-full py-3 border-2 border-accent text-accent hover:bg-accent-soft rounded-full font-semibold transition-colors"
                   >
                     {t('Practise mistakes →', 'Fehler üben →')}
                   </button>
@@ -697,14 +726,14 @@ export default function HeutePage() {
 
             {/* More to do */}
             <section className="grid grid-cols-2 gap-3">
-              <Link href="/lesen" className="bg-surface rounded-2xl border border-line p-4 hover:bg-canvas transition-colors">
-                <p className="text-2xl">📰</p>
-                <p className="font-semibold text-ink text-sm mt-1">{t('Reading', 'Lesen')}</p>
+              <Link href="/lesen" className="bg-surface rounded-2xl border border-line shadow-sm p-4 hover:bg-canvas transition-colors">
+                <Newspaper className="w-6 h-6 text-accent" />
+                <p className="font-semibold text-ink text-sm mt-2">{t('Reading', 'Lesen')}</p>
                 <p className="text-xs text-muted">{t('Short stories with tap-to-translate', 'Kurze Geschichten, Wörter per Antippen übersetzen')}</p>
               </Link>
-              <Link href="/saetze" className="bg-surface rounded-2xl border border-line p-4 hover:bg-canvas transition-colors">
-                <p className="text-2xl">🎧</p>
-                <p className="font-semibold text-ink text-sm mt-1">{t('Dictation', 'Diktat')}</p>
+              <Link href="/saetze" className="bg-surface rounded-2xl border border-line shadow-sm p-4 hover:bg-canvas transition-colors">
+                <Headphones className="w-6 h-6 text-accent" />
+                <p className="font-semibold text-ink text-sm mt-2">{t('Dictation', 'Diktat')}</p>
                 <p className="text-xs text-muted">{t('Listen and write it down', 'Hören und aufschreiben')}</p>
               </Link>
             </section>
@@ -725,7 +754,7 @@ export default function HeutePage() {
                     {m.kind === 'verb' && <span className="text-muted">{tenseName(m.hint ?? '', uiLang)} · </span>}
                     {m.kind === 'grammar' ? m.prompt.replace('___', '＿') : m.prompt}
                   </p>
-                  <p className="font-semibold text-green-700 flex items-center gap-2">
+                  <p className="font-semibold text-good flex items-center gap-2">
                     {m.answer}
                     {m.speak && <SpeakButton text={m.speak} lang={lang} />}
                   </p>
@@ -742,7 +771,7 @@ export default function HeutePage() {
                     );
                   }}
                   title={t('Remove', 'Entfernen')}
-                  className="shrink-0 w-7 h-7 rounded-lg bg-line-soft text-muted hover:bg-red-100 hover:text-red-600 transition-colors"
+                  className="shrink-0 w-7 h-7 rounded-lg bg-line-soft text-muted hover:bg-accent-soft hover:text-accent transition-colors"
                 >
                   ✕
                 </button>
@@ -753,6 +782,14 @@ export default function HeutePage() {
       </div>
     </main>
   );
+}
+
+// "Good morning" in the language being learned (evening after 6 pm).
+function greeting(lang: Lang): string {
+  const evening = new Date().getHours() >= 18;
+  if (lang === 'es') return evening ? 'Buenas tardes' : 'Buenos días';
+  if (lang === 'fr') return evening ? 'Bonsoir' : 'Bonjour';
+  return evening ? 'Buonasera' : 'Buongiorno';
 }
 
 // Keep ~2 months of round history.

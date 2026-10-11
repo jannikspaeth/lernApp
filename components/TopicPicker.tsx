@@ -38,7 +38,7 @@ export default function TopicPicker({
         key={id}
         onClick={() => pick(id)}
         className={`text-left rounded-xl border px-3 py-2 transition-colors ${
-          active ? 'border-red-400 bg-red-50' : 'border-line bg-surface hover:bg-canvas'
+          active ? 'border-accent/60 bg-accent-soft' : 'border-line bg-surface hover:bg-canvas'
         }`}
       >
         <div className="flex items-center gap-2">
@@ -47,7 +47,7 @@ export default function TopicPicker({
         </div>
         <div className="mt-1.5 flex items-center gap-2">
           <div className="flex-1 h-1 bg-line-soft rounded-full overflow-hidden">
-            <div className="h-full bg-green-500 rounded-full" style={{ width: `${pct}%` }} />
+            <div className="h-full bg-good rounded-full" style={{ width: `${pct}%` }} />
           </div>
           <span className="text-[11px] text-muted tabular-nums shrink-0">
             {p.seen}/{p.total}
@@ -66,7 +66,7 @@ export default function TopicPicker({
         <span className="flex items-center gap-2 min-w-0">
           <span className="text-muted shrink-0">{t('Topic', 'Thema')}</span>
           <span className="font-medium text-ink truncate">
-            {current ? `${current.icon} ${current.label}` : `📚 ${t('All topics', 'Alle Themen')}`}
+            {current ? `${current.icon} ${current.label}` : t('All topics', 'Alle Themen')}
           </span>
         </span>
         <span className="text-muted shrink-0">{open ? '▲' : '▼'}</span>

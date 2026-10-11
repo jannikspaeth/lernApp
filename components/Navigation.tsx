@@ -17,6 +17,7 @@ type Section = Item & { id: string; paths: string[]; sub?: readonly Item[] };
 // Language tools (sub-navigation of "Languages").
 const LANGUAGE_TOOLS: readonly Item[] = [
   { href: '/heute', label: ['Today', 'Heute'], icon: 'sun' },
+  { href: '/ueben', label: ['Practise', 'Üben'], icon: 'target' },
   { href: '/vokabeln', label: ['Vocabulary', 'Vokabeln'], icon: 'book' },
   { href: '/konjugation', label: ['Verbs', 'Verben'], icon: 'type' },
   { href: '/grammar', label: ['Grammar', 'Grammatik'], icon: 'bookOpen' },
@@ -43,10 +44,10 @@ const SECTIONS: readonly Section[] = [
   { id: 'geschichte', href: '/weltgeschichte', label: ['History', 'Geschichte'], icon: 'globe', paths: ['/weltgeschichte', '/karte', '/zeitstrahl'], sub: HISTORY_TOOLS },
   {
     id: 'sprachen', href: '/heute', label: ['Languages', 'Sprachen'], icon: 'languages',
-    paths: ['/heute', '/vokabeln', '/konjugation', '/grammar', '/lesen', '/saetze', '/race', '/erfolge', '/sprache'],
+    paths: ['/heute', '/ueben', '/vokabeln', '/konjugation', '/grammar', '/lesen', '/saetze', '/race', '/erfolge', '/sprache'],
     sub: LANGUAGE_TOOLS,
   },
-  { id: 'profil', href: '/profile', label: ['Profile', 'Profil'], icon: 'user', paths: ['/profile', '/help'] },
+  { id: 'profil', href: '/profile', label: ['Profile', 'Profil'], icon: 'user', paths: ['/profile', '/konto', '/help'] },
 ];
 
 const sectionOf = (path: string) =>
@@ -145,7 +146,7 @@ export default function Navigation() {
       {sub && (
         <nav
           aria-label={t('Section navigation', 'Bereichsnavigation')}
-          className="md:hidden sticky top-0 z-40 bg-canvas/90 backdrop-blur border-b border-line"
+          className="app-tabs md:hidden sticky top-0 z-40 bg-canvas/90 backdrop-blur border-b border-line"
         >
           <div className="flex gap-1.5 overflow-x-auto px-4 py-2 [scrollbar-width:none]">
             {current?.id === 'sprachen' && (
@@ -182,7 +183,7 @@ export default function Navigation() {
       {/* ── Mobile bottom bar ── */}
       <nav
         aria-label={t('Main navigation', 'Hauptnavigation')}
-        className="md:hidden fixed bottom-0 left-0 right-0 bg-surface/95 backdrop-blur border-t border-line z-50 flex safe-area-inset-bottom"
+        className="app-tabs md:hidden fixed bottom-0 left-0 right-0 bg-surface/95 backdrop-blur border-t border-line z-50 flex safe-area-inset-bottom"
       >
         {SECTIONS.map(s => {
           const active = current?.id === s.id;

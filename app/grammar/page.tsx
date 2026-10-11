@@ -7,6 +7,7 @@ import { getGrammarRecords, recordExercise } from '@/lib/storage';
 import { GrammarRecord } from '@/lib/types';
 import { useLearner } from '@/lib/use-profile';
 import { langInfo } from '@/lib/lang';
+import { X, BookMarked } from 'lucide-react';
 import GrammarExercise from '@/components/exercises/GrammarExercise';
 import SpeakButton from '@/components/SpeakButton';
 import { useT } from '@/lib/ui-lang';
@@ -29,6 +30,14 @@ export default function GrammarPage() {
 
   const refresh = useCallback(async () => setRecords(await getGrammarRecords()), []);
   useEffect(() => { refresh(); }, [refresh]);
+
+  // Focus mode while practising a topic: the tab bar steps aside (see globals.css).
+  const focused = practicing !== null && tab === 'exercises';
+  useEffect(() => {
+    if (!focused) return;
+    document.body.dataset.focus = '1';
+    return () => { delete document.body.dataset.focus; };
+  }, [focused]);
 
   if (!ready || !profile) {
     return (
@@ -68,7 +77,7 @@ export default function GrammarPage() {
     return (
       <div
         key={tp.id}
-        className="bg-surface rounded-xl border border-line p-4 space-y-3"
+        className="bg-surface rounded-xl border border-line shadow-sm p-4 space-y-3"
       >
         <div className="flex items-start justify-between gap-3">
           <div className="min-w-0">
@@ -84,7 +93,7 @@ export default function GrammarPage() {
           </div>
           <button
             onClick={() => setPracticing(tp.id)}
-            className="shrink-0 text-sm font-medium px-3 py-1.5 rounded-lg bg-red-50 text-red-700 hover:bg-red-100 transition-colors"
+            className="shrink-0 text-sm font-medium px-3 py-1.5 rounded-lg bg-accent-soft text-accent hover:bg-accent-soft transition-colors"
           >
             {rec ? t('Practise', 'Üben') : t('Start', 'Starten')}
           </button>
@@ -94,7 +103,7 @@ export default function GrammarPage() {
           <div className="flex items-center gap-2">
             <div className="flex-1 h-1.5 bg-line-soft rounded-full overflow-hidden">
               <div
-                className={`h-full rounded-full ${pct === 100 ? 'bg-green-500' : pct >= 70 ? 'bg-amber-400' : 'bg-red-400'}`}
+                className={`h-full rounded-full ${pct === 100 ? 'bg-good' : pct >= 70 ? 'bg-warn' : 'bg-accent/70'}`}
                 style={{ width: `${pct}%` }}
               />
             </div>
@@ -107,13 +116,13 @@ export default function GrammarPage() {
         <div className="flex items-center gap-3 text-xs">
           {lesson && (
             <button onClick={() => openLesson(lesson.id)} className="text-blue-600 hover:underline">
-              📘 {t('Lesson', 'Lektion')}: {lesson.title}
+              <BookMarked className="inline w-3.5 h-3.5 -mt-0.5" /> {t('Lesson', 'Lektion')}: {lesson.title}
             </button>
           )}
           {rec && rec.recentMistakes.length > 0 && (
             <button
               onClick={() => toggle(showMistakes, setShowMistakes, tp.id)}
-              className="text-red-600 hover:underline"
+              className="text-accent hover:underline"
             >
               {(() => {
                 const n = rec.recentMistakes.length;
@@ -131,8 +140,8 @@ export default function GrammarPage() {
             {rec.recentMistakes.map((m, i) => (
               <p key={i} className="text-xs text-muted">
                 {m.prompt.replace('___', '＿')}{' '}
-                <span className="text-red-400 line-through">{m.userAnswer || '–'}</span>{' '}
-                <span className="text-green-700 font-medium">{m.correct}</span>
+                <span className="text-bad line-through">{m.userAnswer || '–'}</span>{' '}
+                <span className="text-good font-medium">{m.correct}</span>
               </p>
             ))}
           </div>
@@ -146,7 +155,7 @@ export default function GrammarPage() {
     return (
       <section
         key={lesson.id}
-        className="bg-surface rounded-2xl border border-line overflow-hidden"
+        className="bg-surface rounded-2xl border border-line shadow-sm overflow-hidden"
       >
         <button
           onClick={() => toggle(open, setOpen, lesson.id)}
@@ -165,7 +174,7 @@ export default function GrammarPage() {
         </button>
 
         {isOpen && (
-          <div className="px-5 pb-5 space-y-4 border-t border-gray-50 pt-4">
+          <div className="px-5 pb-5 space-y-4 border-t border-line-soft pt-4">
             {lesson.sections.map((s, i) => (
               <div key={i} className="space-y-2">
                 <h3 className="text-xs font-semibold text-muted uppercase tracking-wide">
@@ -195,11 +204,42 @@ export default function GrammarPage() {
     );
   }
 
+  // Practising a topic: nothing but the exercise (focus mode).
+  if (focused && active) {
+    return (
+      <main className="md:ml-56 min-h-screen bg-canvas pb-24 md:pb-8">
+        <div className="max-w-xl mx-auto p-5 space-y-4">
+          <div className="flex items-center gap-3">
+            <button
+              onClick={() => setPracticing(null)}
+              aria-label={t('All topics', 'Alle Themen')}
+              title={t('All topics', 'Alle Themen')}
+              className="w-11 h-11 -ml-2 shrink-0 rounded-full flex items-center justify-center text-muted hover:bg-line-soft transition-colors"
+            >
+              <X className="w-6 h-6" />
+            </button>
+            <p className="text-xs font-semibold uppercase tracking-wider text-muted">
+              {t('Grammar', 'Grammatik')} · {active.level}
+            </p>
+          </div>
+          <h1 className="text-3xl text-ink">{active.title}</h1>
+          <GrammarExercise
+            key={active.id}
+            topic={active}
+            lang={lang}
+            onComplete={handleComplete}
+            onDone={() => setPracticing(null)}
+          />
+        </div>
+      </main>
+    );
+  }
+
   return (
     <main className="md:ml-56 min-h-screen bg-canvas pb-24 md:pb-8">
       <div className="max-w-xl mx-auto p-5 space-y-5">
         <div>
-          <h1 className="text-2xl font-bold text-ink">{t('Grammar', 'Grammatik')}</h1>
+          <h1 className="text-3xl text-ink">{t('Grammar', 'Grammatik')}</h1>
           <p className="text-muted text-sm mt-0.5">
             {tab === 'exercises'
               ? t(`${mastered} of ${GRAMMAR_TOPICS.length} topics mastered · A1 to B1`, `${mastered} von ${GRAMMAR_TOPICS.length} Themen gemeistert · A1 bis B1`)
@@ -230,38 +270,21 @@ export default function GrammarPage() {
 
         {/* ===== EXERCISES ===== */}
         {tab === 'exercises' && (
-          active ? (
-            <div className="space-y-4">
-              <div className="flex items-center justify-between gap-3">
-                <h2 className="font-bold text-ink flex items-center gap-2">
-                  <span>{active.icon}</span> {active.title}
-                </h2>
-                <button
-                  onClick={() => setPracticing(null)}
-                  className="shrink-0 text-sm text-muted hover:text-ink"
-                >
-                  ← {t('All topics', 'Alle Themen')}
-                </button>
-              </div>
-              <GrammarExercise key={active.id} topic={active} lang={lang} onComplete={handleComplete} />
-            </div>
-          ) : (
-            <div className="space-y-6">
-              {GRAMMAR_LEVELS.map(level => {
-                const topics = GRAMMAR_TOPICS.filter(t => t.level === level.id);
-                const done = topics.filter(t => recordOf.get(t.id)?.mastered).length;
-                return (
-                  <section key={level.id} className="space-y-3">
-                    <h2 className="flex items-baseline justify-between px-1">
-                      <span className="text-sm font-bold text-ink">{level.label}</span>
-                      <span className="text-xs text-muted">{done}/{topics.length} {t('mastered', 'gemeistert')}</span>
-                    </h2>
-                    {topics.map(topicCard)}
-                  </section>
-                );
-              })}
-            </div>
-          )
+          <div className="space-y-6">
+            {GRAMMAR_LEVELS.map(level => {
+              const topics = GRAMMAR_TOPICS.filter(t => t.level === level.id);
+              const done = topics.filter(t => recordOf.get(t.id)?.mastered).length;
+              return (
+                <section key={level.id} className="space-y-3">
+                  <h2 className="flex items-baseline justify-between px-1">
+                    <span className="text-sm font-bold text-ink">{level.label}</span>
+                    <span className="text-xs text-muted">{done}/{topics.length} {t('mastered', 'gemeistert')}</span>
+                  </h2>
+                  {topics.map(topicCard)}
+                </section>
+              );
+            })}
+          </div>
         )}
 
         {/* ===== LESSONS ===== */}

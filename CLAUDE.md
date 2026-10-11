@@ -123,7 +123,8 @@ Flow: `/login` → `/` (subjects) → Sprachen: `/heute` (→ `/sprache` for lan
 - Tokens in `app/globals.css` (`@theme`): `canvas`, `surface`, `line`, `line-soft`, `ink`, `muted`, `faint`,
   `accent` (+ `-strong`, `-soft`), `good`/`bad`/`warn` (+ `-soft`). Use them (`bg-surface`, `text-muted`, …) instead
   of raw Tailwind greys/brand colours. Font: Geist via `next/font` (`--font-geist`).
-- Icons: `components/Icon.tsx` (line icons, `<Icon name="globe" />`, `SUBJECT_ICONS` per subject) — no emojis as UI icons.
+- Icons: `components/Icon.tsx` (line icons, `<Icon name="globe" />`, `SUBJECT_ICONS` per subject) and `lucide-react`
+  (used by the language pages) — no emojis as UI icons.
 - Pages: `max-w-2xl mx-auto px-5 pt-6 md:pt-10`, title `text-[28px] md:text-3xl font-bold tracking-tight`,
   cards `bg-surface border border-line rounded-2xl`, primary buttons `bg-accent text-white h-12 rounded-xl`.
 
@@ -240,7 +241,15 @@ alter table grammar     enable row level security;
   per topic in the `grammar` table) and **Lessons** (`lib/grammar-lessons.ts`; Italian: 29 lessons A1–B1 with a
   `level`, grouped by level, every exercise topic links one via `lessonId`; es/fr: first-steps lessons only).
 - `/race` — **THE RACE**: global competitive leaderboard (see below).
-- `/help`, `/profile`. Nav in `components/Navigation.tsx` (filters items by `onlyDirection`/`onlyLevel`).
+- `/help`, `/profile` (account: language & level, achievements, help, app language, sign out, delete; `/konto`
+  redirects here). `/ueben` is the hub of all exercise types (`PRACTICE` in `lib/sections.ts`). Practice rounds run in
+  focus mode (`document.body.dataset.focus` hides the `.app-tabs` bars) and show the verdict in
+  `components/practice/FeedbackBar.tsx`.
+- **Sync with the Italian app** (github.com/jannikspaeth/learnItalian, local copy in `../../Italienisch App/italienisch`):
+  the language pages were last brought up to its commit `b23ceb8` (2026-10-08). Its look ("warm italiano": re-tuned
+  `gray`/`red`/`green` palettes) is *not* taken over — when porting, map its classes to this app's tokens
+  (`red-*` = accent → `accent`, but `red-*` for mistakes → `bad`; `green-*` → `good`; `gray-*` → `canvas`/`surface`/
+  `line`/`ink`/`muted`).
 
 ## THE RACE (scoring model)
 

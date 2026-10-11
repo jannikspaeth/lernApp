@@ -11,7 +11,7 @@ function Tx({ en, de }: { en: ReactNode; de: ReactNode }) {
 
 function Section({ icon, title, children }: { icon: string; title: ReactNode; children: ReactNode }) {
   return (
-    <section className="bg-surface rounded-2xl border border-line p-5 space-y-3">
+    <section className="bg-surface rounded-2xl border border-line shadow-sm p-5 space-y-3">
       <h2 className="font-bold text-ink text-base flex items-center gap-2">
         <span>{icon}</span> {title}
       </h2>
@@ -25,9 +25,9 @@ const P = ({ children }: { children: ReactNode }) => (
 );
 
 const PHASES = [
-  { label: 'Phase 1', color: 'bg-red-100 text-red-700', en: 'New — review again tomorrow', de: 'Neu – morgen wiederholen' },
+  { label: 'Phase 1', color: 'bg-bad-soft text-bad', en: 'New — review again tomorrow', de: 'Neu – morgen wiederholen' },
   { label: 'Phase 2', color: 'bg-orange-100 text-orange-700', en: 'Review in 3 days', de: 'Wiederholung in 3 Tagen' },
-  { label: 'Phase 3', color: 'bg-amber-100 text-amber-700', en: 'Review in 7 days', de: 'Wiederholung in 7 Tagen' },
+  { label: 'Phase 3', color: 'bg-warn-soft text-warn', en: 'Review in 7 days', de: 'Wiederholung in 7 Tagen' },
   { label: 'Phase 4', color: 'bg-blue-100 text-blue-700', en: 'Review in 14 days', de: 'Wiederholung in 14 Tagen' },
   { label: 'Phase 5', color: 'bg-indigo-100 text-indigo-700', en: 'Review in 30 days', de: 'Wiederholung in 30 Tagen' },
   { label: 'Phase 6', color: 'bg-violet-100 text-violet-700', en: 'Review in 60 days', de: 'Wiederholung in 60 Tagen' },
@@ -42,7 +42,7 @@ export default function HelpPage() {
     <main className="md:ml-56 min-h-screen bg-canvas pb-24 md:pb-8">
       <div className="max-w-xl mx-auto p-5 space-y-6">
         <div>
-          <h1 className="text-2xl font-bold text-ink">{de ? 'So funktioniert’s' : 'How it works'}</h1>
+          <h1 className="text-3xl text-ink">{de ? 'So funktioniert’s' : 'How it works'}</h1>
           <p className="text-muted text-sm mt-0.5">{de ? 'Eine kurze Anleitung zur App' : 'A quick guide to the app'}</p>
         </div>
 
@@ -124,7 +124,7 @@ export default function HelpPage() {
           <div className="space-y-2">
             <h3 className="text-xs font-semibold text-muted uppercase tracking-wide">{de ? 'Lernphasen' : 'Learning phases'}</h3>
             <div className="space-y-1.5">
-              {[...PHASES, { label: de ? 'Gekonnt' : 'Known', color: 'bg-green-100 text-green-700', en: 'No more reviews needed', de: 'Keine Wiederholung mehr nötig' }].map(p => (
+              {[...PHASES, { label: de ? 'Gekonnt' : 'Known', color: 'bg-good-soft text-good', en: 'No more reviews needed', de: 'Keine Wiederholung mehr nötig' }].map(p => (
                 <div key={p.label} className="flex items-center gap-3">
                   <span className={`text-xs px-2 py-0.5 rounded-md font-semibold shrink-0 ${p.color}`}>{p.label}</span>
                   <span className="text-sm text-muted">{de ? p.de : p.en}</span>
@@ -137,17 +137,17 @@ export default function HelpPage() {
             <div className="space-y-1.5 text-sm text-muted">
               <Tx
                 en={<>
-                  <p><span className="font-semibold text-red-700">Again</span> — start the word over; it comes back today.</p>
-                  <p><span className="font-semibold text-amber-700">Stay</span> — right, but unsure: keep the phase.</p>
-                  <p><span className="font-semibold text-green-700">Good</span> — confident: move to the next phase.</p>
-                  <p><span className="font-semibold text-green-800">Known</span> — you know it perfectly: mark it known.</p>
+                  <p><span className="font-semibold text-bad">Again</span> — start the word over; it comes back today.</p>
+                  <p><span className="font-semibold text-warn">Stay</span> — right, but unsure: keep the phase.</p>
+                  <p><span className="font-semibold text-good">Good</span> — confident: move to the next phase.</p>
+                  <p><span className="font-semibold text-good">Known</span> — you know it perfectly: mark it known.</p>
                   <p>Wrong answer? Type the word once correctly, then choose. A typo can keep its phase.</p>
                 </>}
                 de={<>
-                  <p><span className="font-semibold text-red-700">Nochmal</span> – das Wort beginnt von vorn und kommt heute wieder.</p>
-                  <p><span className="font-semibold text-amber-700">Bleiben</span> – richtig, aber unsicher: Die Phase bleibt.</p>
-                  <p><span className="font-semibold text-green-700">Gut</span> – sicher: eine Phase weiter.</p>
-                  <p><span className="font-semibold text-green-800">Gekonnt</span> – du kannst es perfekt: als gekonnt markieren.</p>
+                  <p><span className="font-semibold text-bad">Nochmal</span> – das Wort beginnt von vorn und kommt heute wieder.</p>
+                  <p><span className="font-semibold text-warn">Bleiben</span> – richtig, aber unsicher: Die Phase bleibt.</p>
+                  <p><span className="font-semibold text-good">Gut</span> – sicher: eine Phase weiter.</p>
+                  <p><span className="font-semibold text-good">Gekonnt</span> – du kannst es perfekt: als gekonnt markieren.</p>
                   <p>Falsch? Schreib das Wort einmal richtig ab und wähle dann. Bei einem Tippfehler kannst du die Phase behalten.</p>
                 </>}
               />
