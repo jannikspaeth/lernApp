@@ -110,7 +110,7 @@ Flow: `/login` → `/` (subjects) → Sprachen: `/heute` (→ `/sprache` for lan
   A topic can instead have `subtopics` (each with long text + 20 questions per level, page
   `/weltgeschichte/land/[code]/[event]/[sub]`, progress `land.<code>.<event>.<sub>.<level>.<n>`; the check script then
   requires ≥ 20 per level). Germany is written this way in full depth (`lib/laender/de/`, one file per epoch, 60 subtopics);
-  the other 34 countries still use the short format (one quiz per topic).
+  all 35 detailed countries are now written in this format (rewrite finished 2026-10-11).
 - Modes: **Quiz** (4 options) or **Flashcards** (reveal + self-grade), per-device choice. Rounds of 10:
   due first, then new (`pickRound`). SRS in `lib/wissen/progress.ts` (levels 0–6, 0/1/3/7/14/30/60 days,
   learned from level 4, wrong → level 1).
