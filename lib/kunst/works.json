@@ -1,0 +1,158 @@
+{
+  "mona-lisa": {
+    "wiki": "Mona Lisa",
+    "title": "Mona Lisa",
+    "artist": "Leonardo da Vinci",
+    "year": "um 1503–1519"
+  },
+  "abendmahl": {
+    "wiki": "Das Abendmahl (Leonardo da Vinci)",
+    "title": "Das Abendmahl",
+    "artist": "Leonardo da Vinci",
+    "year": "1494–1498"
+  },
+  "dame-hermelin": {
+    "wiki": "Dame mit dem Hermelin",
+    "title": "Dame mit dem Hermelin",
+    "artist": "Leonardo da Vinci",
+    "year": "um 1490"
+  },
+  "vitruvianischer-mensch": {
+    "wiki": "Proportionsstudie nach Vitruv",
+    "title": "Der Vitruvianische Mensch",
+    "artist": "Leonardo da Vinci",
+    "year": "um 1490",
+    "file": "Da Vinci Vitruve Luc Viatour.jpg"
+  },
+  "felsgrottenmadonna": {
+    "wiki": "Felsgrottenmadonna",
+    "title": "Felsgrottenmadonna",
+    "artist": "Leonardo da Vinci",
+    "year": "1483–1486"
+  },
+  "david": {
+    "wiki": "David (Michelangelo)",
+    "title": "David",
+    "artist": "Michelangelo",
+    "year": "1501–1504"
+  },
+  "erschaffung-adams": {
+    "wiki": "Die Erschaffung Adams",
+    "title": "Die Erschaffung Adams",
+    "artist": "Michelangelo",
+    "year": "um 1511"
+  },
+  "pieta": {
+    "wiki": "Pietà (Michelangelo)",
+    "title": "Pietà",
+    "artist": "Michelangelo",
+    "year": "1498–1499",
+    "file": "Michelangelo's Pieta 5450 cropncleaned edit.jpg"
+  },
+  "sixtinische-kapelle": {
+    "wiki": "Sixtinische Kapelle",
+    "title": "Sixtinische Kapelle",
+    "artist": "Michelangelo (Deckenfresken)",
+    "year": "1508–1512"
+  },
+  "schule-von-athen": {
+    "wiki": "Die Schule von Athen",
+    "title": "Die Schule von Athen",
+    "artist": "Raffael",
+    "year": "1510–1511"
+  },
+  "sixtinische-madonna": {
+    "wiki": "Sixtinische Madonna",
+    "title": "Sixtinische Madonna",
+    "artist": "Raffael",
+    "year": "um 1512"
+  },
+  "galatea": {
+    "wiki": "Triumph der Galatea",
+    "title": "Der Triumph der Galatea",
+    "artist": "Raffael",
+    "year": "um 1512"
+  },
+  "geburt-der-venus": {
+    "wiki": "Die Geburt der Venus",
+    "title": "Die Geburt der Venus",
+    "artist": "Sandro Botticelli",
+    "year": "um 1485",
+    "file": "Sandro Botticelli - La nascita di Venere - Google Art Project - edited.jpg"
+  },
+  "primavera": {
+    "wiki": "Primavera (Botticelli)",
+    "title": "Primavera",
+    "artist": "Sandro Botticelli",
+    "year": "um 1480"
+  },
+  "selbstbildnis-pelzrock": {
+    "wiki": "Selbstbildnis im Pelzrock",
+    "title": "Selbstbildnis im Pelzrock",
+    "artist": "Albrecht Dürer",
+    "year": "1500",
+    "file": "Albrecht Dürer - 1500 self-portrait (High resolution and detail).jpg"
+  },
+  "feldhase": {
+    "wiki": "Feldhase (Dürer)",
+    "title": "Feldhase",
+    "artist": "Albrecht Dürer",
+    "year": "1502"
+  },
+  "betende-haende": {
+    "wiki": "Betende Hände",
+    "title": "Betende Hände",
+    "artist": "Albrecht Dürer",
+    "year": "um 1508"
+  },
+  "melencolia": {
+    "wiki": "Melencolia I",
+    "title": "Melencolia I",
+    "artist": "Albrecht Dürer",
+    "year": "1514"
+  },
+  "ritter-tod-teufel": {
+    "wiki": "Ritter, Tod und Teufel",
+    "title": "Ritter, Tod und Teufel",
+    "artist": "Albrecht Dürer",
+    "year": "1513"
+  },
+  "venus-von-urbino": {
+    "wiki": "Venus von Urbino",
+    "title": "Venus von Urbino",
+    "artist": "Tizian",
+    "year": "1538"
+  },
+  "himmlische-irdische-liebe": {
+    "wiki": "Himmlische und irdische Liebe",
+    "title": "Himmlische und irdische Liebe",
+    "artist": "Tizian",
+    "year": "um 1514",
+    "file": "Tiziano - Amor Sacro y Amor Profano (Galería Borghese, Roma, 1514).jpg"
+  },
+  "bacchus-ariadne": {
+    "wiki": "Bacchus und Ariadne",
+    "title": "Bacchus und Ariadne",
+    "artist": "Tizian",
+    "year": "1520–1523",
+    "file": "Titian - Bacchus and Ariadne - Google Art Project.jpg"
+  },
+  "arnolfini": {
+    "wiki": "Arnolfini-Hochzeit",
+    "title": "Die Arnolfini-Hochzeit",
+    "artist": "Jan van Eyck",
+    "year": "1434"
+  },
+  "florenzer-dom": {
+    "wiki": "Florentiner Dom",
+    "title": "Dom von Florenz (Santa Maria del Fiore)",
+    "artist": "Filippo Brunelleschi (Kuppel)",
+    "year": "Kuppel 1420–1436"
+  },
+  "dreifaltigkeit-masaccio": {
+    "wiki": "Dreifaltigkeit (Masaccio)",
+    "title": "Die Dreifaltigkeit",
+    "artist": "Masaccio",
+    "year": "um 1427"
+  }
+}

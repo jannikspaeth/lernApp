@@ -8,6 +8,9 @@ export const kunst: Subject = {
   icon: '🎨',
   blurb: ['Painters, masterpieces and architecture', 'Maler, Meisterwerke und Architektur'],
   color: { bg: 'bg-rose-50 dark:bg-rose-950/50', text: 'text-rose-800 dark:text-rose-300', bar: 'bg-rose-500', border: 'border-rose-200 dark:border-rose-900' },
+  links: [
+    { href: '/kunst', icon: '🎨', name: ['Art history', 'Kunstgeschichte'], blurb: ['Styles, artists and masterpieces with pictures', 'Stile, Künstler und Meisterwerke mit Bildern'] },
+  ],
   topics: [
     topic(S, 'renaissance', ['Renaissance', 'Renaissance'], '🖼️', [
       ['Wer malte die „Mona Lisa“?', 'Leonardo da Vinci', ['Raffael', 'Michelangelo', 'Sandro Botticelli'], 'Heute im Louvre in Paris.'],

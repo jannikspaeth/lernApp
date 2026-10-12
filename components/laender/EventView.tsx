@@ -11,6 +11,7 @@ import type { RawCard } from '@/lib/wissen/types';
 import QuizCard from '@/components/wissen/QuizCard';
 import Icon from '@/components/Icon';
 import { levelDone, useWissenProgress } from './EventProgress';
+import { workView } from '@/lib/kunst/works';
 
 type Tab = 'info' | 'quiz';
 const isLevel = (v: string): v is Level => v === 'leicht' || v === 'mittel' || v === 'schwer';
@@ -30,12 +31,14 @@ export default function EventView({
   path,
   text,
   quiz,
+  images,
   next,
 }: {
   code: string;
   path: string; // event id, or <event>.<subtopic>
   text: string[];
   quiz: Record<Level, RawCard[]>;
+  images?: string[]; // Kunst: artwork keys shown below the text
   next?: { href: string; title: string };
 }) {
   const t = useT();
@@ -103,6 +106,25 @@ export default function EventView({
               <p key={i} className="text-[17px] leading-[1.75] text-ink/90">{p}</p>
             ))}
           </article>
+          {images && images.length > 0 && (
+            <section className="space-y-4">
+              {images.map(k => {
+                const w = workView(k);
+                return w && (
+                  <figure key={k} className="bg-surface rounded-2xl border border-line p-3 space-y-2">
+                    {/* eslint-disable-next-line @next/next/no-img-element -- local artwork files */}
+                    <img src={w.src} alt={`${w.title} – ${w.artist}`} loading="lazy" className="mx-auto max-h-96 max-w-full rounded-lg object-contain" />
+                    <figcaption className="text-sm text-ink">
+                      <span className="font-semibold">{w.title}</span> · {w.artist}, {w.year}
+                      <span className="block text-xs text-faint mt-0.5">
+                        <a href={w.page} target="_blank" rel="noreferrer" className="underline decoration-line">{w.credit}</a>
+                      </span>
+                    </figcaption>
+                  </figure>
+                );
+              })}
+            </section>
+          )}
           <button
             onClick={() => setTab('quiz')}
             className="w-full h-12 flex items-center justify-center gap-2 bg-accent hover:bg-accent-strong text-white rounded-xl font-semibold transition-colors"
@@ -160,7 +182,13 @@ export default function EventView({
           </div>
           <QuizCard
             key={`${run.level}-${current}-${run.idx}`}
-            card={{ id: questionId(code, path, run.level, current!), q: card[0], a: card[1], ...(card[3] ? { info: card[3] } : {}) }}
+            card={{
+              id: questionId(code, path, run.level, current!),
+              q: card[0],
+              a: card[1],
+              ...(card[3] ? { info: card[3] } : {}),
+              ...(card[4] && workView(card[4]) ? { img: workView(card[4])!.src, credit: `${workView(card[4])!.title} – ${workView(card[4])!.artist}, ${workView(card[4])!.year} · ${workView(card[4])!.credit}` } : {}),
+            }}
             label={t(...LEVELS.find(l => l.id === run.level)!.name)}
             options={options}
             onResult={answer}

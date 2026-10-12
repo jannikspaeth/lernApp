@@ -20,6 +20,7 @@ export interface Subtopic {
   date?: string;
   text: string[];
   quiz: Quiz;
+  images?: string[]; // Kunst: keys of artworks (lib/kunst/works.json) shown in the text
 }
 
 export interface HistEvent {

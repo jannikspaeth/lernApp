@@ -5,7 +5,8 @@
 export interface Card {
   id: string; // `<subject>.<topic>.<n>` (or `.<ISO code>`) — stable, progress is stored under it
   q: string;
-  img?: string; // picture shown with the question (e.g. a flag)
+  img?: string; // picture shown with the question (e.g. a flag, or an artwork: /kunst/<key>.jpg)
+  credit?: string; // picture credit shown after answering (artworks)
   a: string;
   // Three wrong answers for the quiz. Missing → taken from the other answers of
   // the same topic (only for topics whose answers are all of one kind).
@@ -35,7 +36,8 @@ export interface Subject {
 }
 
 // Compact card notation: c('Frage', 'Antwort', ['falsch', 'falsch', 'falsch'], 'Info').
-export type RawCard = [q: string, a: string, wrong?: string[] | null, info?: string];
+// Optional 5th entry (Kunst): key of an artwork from lib/kunst/works.json shown with the question.
+export type RawCard = [q: string, a: string, wrong?: string[] | null, info?: string | null, work?: string];
 
 // Build a topic; card ids are the 1-based position, so only ever append new
 // cards (inserting or reordering would mix up stored progress).

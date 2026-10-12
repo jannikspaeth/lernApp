@@ -61,8 +61,12 @@ export default function QuizCard({
       <div className="space-y-3">
         <span className="inline-flex items-center h-6 px-2 rounded-md bg-surface border border-line text-xs font-semibold text-muted">{label}</span>
         {card.img && (
-          // eslint-disable-next-line @next/next/no-img-element -- local SVG flags, no optimisation needed
-          <img src={card.img} alt="" className="h-28 max-w-full rounded-lg border border-line" />
+          // eslint-disable-next-line @next/next/no-img-element -- local files (flags, artworks), no optimisation needed
+          <img
+            src={card.img}
+            alt=""
+            className={card.img.startsWith('/kunst/') ? 'max-h-80 max-w-full rounded-lg border border-line bg-surface object-contain' : 'h-28 max-w-full rounded-lg border border-line'}
+          />
         )}
         <p className="text-xl md:text-[22px] text-ink leading-snug font-semibold tracking-tight">{card.q}</p>
       </div>
@@ -107,6 +111,7 @@ export default function QuizCard({
               {correct ? t('Correct', 'Richtig') : <>{t('Correct answer', 'Richtige Antwort')}: {card.a}</>}
             </p>
             {card.info && <p className="text-muted mt-1 leading-relaxed">{card.info}</p>}
+            {card.credit && <p className="text-xs text-faint mt-2">{card.credit}</p>}
           </div>
           <button
             onClick={() => onResult(correct)}
