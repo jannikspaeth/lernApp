@@ -154,5 +154,127 @@
     "author": "Titian",
     "licence": "Public domain",
     "page": "https://commons.wikimedia.org/wiki/File:Titian_-_Bacchus_and_Ariadne_-_Google_Art_Project.jpg"
+  },
+  "parthenon": {
+    "file": "Parthenon_(30276156187).jpg",
+    "author": "Phanatic",
+    "licence": "CC BY-SA 2.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Parthenon_(30276156187).jpg"
+  },
+  "diskobolos": {
+    "file": "Discobulus.jpg",
+    "author": "Copy of Myron",
+    "licence": "CC BY-SA 3.0",
+    "licenceUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Discobulus.jpg"
+  },
+  "laokoon": {
+    "file": "Laocoon_and_His_Sons.jpg",
+    "author": "Hagesandros, Athenedoros, and Polydoros",
+    "licence": "CC BY-SA 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Laocoon_and_His_Sons.jpg"
+  },
+  "venus-von-milo": {
+    "file": "Vénus_de_Milo_-_Musée_du_Louvre_AGER_LL_299_;_N_527_;_Ma_399.jpg",
+    "author": "Shonagon",
+    "licence": "CC0",
+    "licenceUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:V%C3%A9nus_de_Milo_-_Mus%C3%A9e_du_Louvre_AGER_LL_299_;_N_527_;_Ma_399.jpg"
+  },
+  "nike-samothrake": {
+    "file": "F4135_Paris_Louvre_victoire_Samontrace_rwk.jpg",
+    "author": "Mbzt",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:F4135_Paris_Louvre_victoire_Samontrace_rwk.jpg"
+  },
+  "pantheon-rom": {
+    "file": "Pantheon_Rom_1_cropped.jpg",
+    "author": "Rabax63",
+    "licence": "CC BY-SA 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Pantheon_Rom_1_cropped.jpg"
+  },
+  "kolosseum": {
+    "file": "Colosseo_2020.jpg",
+    "author": "FeaturedPics",
+    "licence": "CC BY-SA 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Colosseo_2020.jpg"
+  },
+  "augustus-primaporta": {
+    "file": "Augustus_of_Prima_Porta_(inv._2290).jpg",
+    "author": "Joel Bellviure",
+    "licence": "CC BY-SA 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Augustus_of_Prima_Porta_(inv._2290).jpg"
+  },
+  "speyerer-dom": {
+    "file": "Speyer---Cathedral---South-View---(Gentry).jpg",
+    "author": "Sole Creator and Copyright Holder: Alfred Hutter aka Gentry",
+    "licence": "Attribution",
+    "page": "https://commons.wikimedia.org/wiki/File:Speyer---Cathedral---South-View---(Gentry).jpg"
+  },
+  "pisa-dom": {
+    "file": "The_Leaning_Tower_of_Pisa_2026.jpg",
+    "author": "Deerpeter",
+    "licence": "CC BY-SA 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:The_Leaning_Tower_of_Pisa_2026.jpg"
+  },
+  "notre-dame": {
+    "file": "Cathédrale_Notre-Dame_de_Paris,_20_March_2014.jpg",
+    "author": "DXR",
+    "licence": "CC BY-SA 3.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Cath%C3%A9drale_Notre-Dame_de_Paris,_20_March_2014.jpg"
+  },
+  "chartres": {
+    "file": "Notre_Dame_de_Chartres.jpg",
+    "author": "Olvr",
+    "licence": "CC BY-SA 3.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Notre_Dame_de_Chartres.jpg"
+  },
+  "koelner-dom": {
+    "file": "Kölner_Dom_nachts_2013.jpg",
+    "author": "Thomas Wolf, www.foto-tw.de",
+    "licence": "CC BY-SA 3.0 de",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:K%C3%B6lner_Dom_nachts_2013.jpg"
+  },
+  "uta-naumburg": {
+    "file": "Naumburg-Uta.JPG",
+    "author": "Linsengericht",
+    "licence": "CC BY-SA 3.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Naumburg-Uta.JPG"
+  },
+  "scrovegni": {
+    "file": "La_Cappella_degli_Scrovegni.JPG",
+    "author": "Andrea Piroddi",
+    "licence": "CC BY-SA 3.0",
+    "licenceUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:La_Cappella_degli_Scrovegni.JPG"
+  },
+  "hermes-praxiteles": {
+    "file": "Hermes Praxiteles 1887.jpg",
+    "author": "Baumeister",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Hermes_Praxiteles_1887.jpg"
+  },
+  "beweinung-giotto": {
+    "file": "Giotto - Scrovegni - -36- - Lamentation (The Mourning of Christ) adj.jpg",
+    "author": "Giotto",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Giotto_-_Scrovegni_-_-36-_-_Lamentation_(The_Mourning_of_Christ)_adj.jpg"
+  },
+  "ognissanti-madonna": {
+    "file": "Giotto, Maestà di Ognissanti, Uffizi, Firenze.jpg",
+    "author": "Ghislainn",
+    "licence": "CC BY-SA 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Giotto,_Maest%C3%A0_di_Ognissanti,_Uffizi,_Firenze.jpg"
   }
 }

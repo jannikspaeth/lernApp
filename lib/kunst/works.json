@@ -154,5 +154,116 @@
     "title": "Die Dreifaltigkeit",
     "artist": "Masaccio",
     "year": "um 1427"
+  },
+  "parthenon": {
+    "wiki": "Parthenon",
+    "title": "Der Parthenon",
+    "artist": "Iktinos und Kallikrates (Bildhauerschmuck: Phidias)",
+    "year": "447–432 v. Chr."
+  },
+  "diskobolos": {
+    "wiki": "Diskobolos",
+    "title": "Diskobolos (Diskuswerfer)",
+    "artist": "Myron (römische Kopie)",
+    "year": "um 450 v. Chr."
+  },
+  "laokoon": {
+    "wiki": "Laokoon-Gruppe",
+    "title": "Laokoon-Gruppe",
+    "artist": "Agesandros, Athanadoros und Polydoros",
+    "year": "um 40–20 v. Chr."
+  },
+  "venus-von-milo": {
+    "wiki": "Venus von Milo",
+    "title": "Venus von Milo",
+    "artist": "Alexandros von Antiochia (zugeschrieben)",
+    "year": "um 150–100 v. Chr."
+  },
+  "nike-samothrake": {
+    "wiki": "Nike von Samothrake",
+    "title": "Nike von Samothrake",
+    "artist": "unbekannt",
+    "year": "um 190 v. Chr."
+  },
+  "hermes-praxiteles": {
+    "wiki": "Hermes mit dem Dionysosknaben",
+    "title": "Hermes mit dem Dionysosknaben",
+    "artist": "Praxiteles (zugeschrieben)",
+    "year": "um 340 v. Chr.",
+    "file": "Hermes Praxiteles 1887.jpg"
+  },
+  "pantheon-rom": {
+    "wiki": "Pantheon (Rom)",
+    "title": "Das Pantheon in Rom",
+    "artist": "Kaiser Hadrian (Bauherr)",
+    "year": "um 125 n. Chr."
+  },
+  "kolosseum": {
+    "wiki": "Kolosseum",
+    "title": "Das Kolosseum",
+    "artist": "Kaiser Vespasian und Titus (Bauherren)",
+    "year": "72–80 n. Chr."
+  },
+  "augustus-primaporta": {
+    "wiki": "Augustus von Primaporta",
+    "title": "Augustus von Primaporta",
+    "artist": "unbekannt",
+    "year": "um 20 v. Chr."
+  },
+  "speyerer-dom": {
+    "wiki": "Speyerer Dom",
+    "title": "Der Dom zu Speyer",
+    "artist": "Kaiser Konrad II. (Bauherr)",
+    "year": "1030–1106"
+  },
+  "pisa-dom": {
+    "wiki": "Schiefer Turm von Pisa",
+    "title": "Der Schiefe Turm von Pisa",
+    "artist": "Buscheto und andere",
+    "year": "ab 1063"
+  },
+  "notre-dame": {
+    "wiki": "Notre-Dame de Paris",
+    "title": "Notre-Dame de Paris",
+    "artist": "Maurice de Sully (Bauherr)",
+    "year": "1163–um 1345"
+  },
+  "chartres": {
+    "wiki": "Kathedrale von Chartres",
+    "title": "Kathedrale von Chartres",
+    "artist": "unbekannt",
+    "year": "1194–1260"
+  },
+  "koelner-dom": {
+    "wiki": "Kölner Dom",
+    "title": "Der Kölner Dom",
+    "artist": "Gerhard von Rile (Baumeister)",
+    "year": "1248–1880"
+  },
+  "uta-naumburg": {
+    "wiki": "Uta von Naumburg",
+    "title": "Uta von Naumburg",
+    "artist": "Naumburger Meister",
+    "year": "um 1250"
+  },
+  "scrovegni": {
+    "wiki": "Scrovegni-Kapelle",
+    "title": "Die Scrovegni-Kapelle",
+    "artist": "Giotto di Bondone",
+    "year": "1303–1305"
+  },
+  "beweinung-giotto": {
+    "wiki": "Scrovegni-Kapelle",
+    "title": "Beweinung Christi",
+    "artist": "Giotto di Bondone",
+    "year": "um 1305",
+    "file": "Giotto - Scrovegni - -36- - Lamentation (The Mourning of Christ) adj.jpg"
+  },
+  "ognissanti-madonna": {
+    "wiki": "Ognissanti-Madonna",
+    "title": "Ognissanti-Madonna",
+    "artist": "Giotto di Bondone",
+    "year": "um 1310",
+    "file": "Giotto, Maestà di Ognissanti, Uffizi, Firenze.jpg"
   }
 }

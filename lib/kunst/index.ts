@@ -1,4 +1,7 @@
 import type { CountryHistory, Epoch, HistEvent, Subtopic } from '../laender/types';
+import { ANTIKE } from './antike';
+import { ROMANIK } from './romanik';
+import { GOTIK } from './gotik';
 import { RENAISSANCE } from './renaissance';
 
 // Kunst: epochs → styles (events) → overview + artists (subtopics), reusing the history types.
@@ -8,6 +11,7 @@ export const KUNST_CODE = 'KUNST';
 export const KUNST: CountryHistory = {
   code: KUNST_CODE,
   epochs: [
+    { id: 'antike-mittelalter', name: 'Antike und Mittelalter', period: 'ca. 800 v. Chr. – 1500', events: [ANTIKE, ROMANIK, GOTIK] },
     { id: 'neuzeit', name: 'Renaissance und Barock', period: 'um 1400–1750', events: [RENAISSANCE] },
   ],
 };
