@@ -3,6 +3,8 @@ import { ANTIKE } from './antike';
 import { ROMANIK } from './romanik';
 import { GOTIK } from './gotik';
 import { RENAISSANCE } from './renaissance';
+import { BAROCK } from './barock';
+import { ROKOKO } from './rokoko';
 
 // Kunst: epochs → styles (events) → overview + artists (subtopics), reusing the history types.
 // Progress is stored like the countries' under `land.kunst.<style>.<subtopic>.<level>.<n>`.
@@ -12,7 +14,7 @@ export const KUNST: CountryHistory = {
   code: KUNST_CODE,
   epochs: [
     { id: 'antike-mittelalter', name: 'Antike und Mittelalter', period: 'ca. 800 v. Chr. – 1500', events: [ANTIKE, ROMANIK, GOTIK] },
-    { id: 'neuzeit', name: 'Renaissance und Barock', period: 'um 1400–1750', events: [RENAISSANCE] },
+    { id: 'neuzeit', name: 'Renaissance bis Rokoko', period: 'um 1400–1780', events: [RENAISSANCE, BAROCK, ROKOKO] },
   ],
 };
 

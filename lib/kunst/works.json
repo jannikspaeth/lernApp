@@ -265,5 +265,132 @@
     "artist": "Giotto di Bondone",
     "year": "um 1310",
     "file": "Giotto, Maestà di Ognissanti, Uffizi, Firenze.jpg"
+  },
+  "berufung-matthaeus": {
+    "wiki": "Berufung des Matthäus (Caravaggio)",
+    "title": "Die Berufung des Matthäus",
+    "artist": "Caravaggio",
+    "year": "1599–1600",
+    "file": "Caravaggio — The Calling of Saint Matthew.jpg"
+  },
+  "judith-caravaggio": {
+    "wiki": "Judith und Holofernes (Caravaggio)",
+    "title": "Judith enthauptet Holofernes",
+    "artist": "Caravaggio",
+    "year": "um 1599"
+  },
+  "nachtwache": {
+    "wiki": "Die Nachtwache",
+    "title": "Die Nachtwache",
+    "artist": "Rembrandt",
+    "year": "1642"
+  },
+  "anatomie-tulp": {
+    "wiki": "Die Anatomie des Dr. Tulp",
+    "title": "Die Anatomie des Dr. Tulp",
+    "artist": "Rembrandt",
+    "year": "1632"
+  },
+  "rembrandt-selbst": {
+    "wiki": "Rembrandt van Rijn",
+    "title": "Selbstbildnis (Kenwood House)",
+    "artist": "Rembrandt",
+    "year": "um 1665"
+  },
+  "judenbraut": {
+    "wiki": "Die Judenbraut",
+    "title": "Die Judenbraut",
+    "artist": "Rembrandt",
+    "year": "um 1665"
+  },
+  "perlenohrring": {
+    "wiki": "Das Mädchen mit dem Perlenohrring",
+    "title": "Das Mädchen mit dem Perlenohrring",
+    "artist": "Jan Vermeer",
+    "year": "um 1665"
+  },
+  "milchmagd": {
+    "wiki": "Die Milchmagd",
+    "title": "Die Milchmagd",
+    "artist": "Jan Vermeer",
+    "year": "um 1658",
+    "file": "Johannes Vermeer - Het melkmeisje - Google Art Project.jpg"
+  },
+  "ansicht-delft": {
+    "wiki": "Ansicht von Delft",
+    "title": "Ansicht von Delft",
+    "artist": "Jan Vermeer",
+    "year": "um 1660"
+  },
+  "las-meninas": {
+    "wiki": "Las Meninas",
+    "title": "Las Meninas",
+    "artist": "Diego Velázquez",
+    "year": "1656"
+  },
+  "uebergabe-breda": {
+    "wiki": "Die Übergabe von Breda",
+    "title": "Die Übergabe von Breda",
+    "artist": "Diego Velázquez",
+    "year": "1634/35"
+  },
+  "rubens-raub": {
+    "wiki": "Raub der Töchter des Leukippos",
+    "title": "Der Raub der Töchter des Leukippos",
+    "artist": "Peter Paul Rubens",
+    "year": "um 1618",
+    "file": "Peter Paul Rubens - The Rape of the Daughters of Leucippus.jpg"
+  },
+  "rubens-kreuzabnahme": {
+    "wiki": "Kreuzabnahme (Rubens)",
+    "title": "Die Kreuzabnahme",
+    "artist": "Peter Paul Rubens",
+    "year": "1612–1614"
+  },
+  "apollo-daphne": {
+    "wiki": "Apollo und Daphne (Bernini)",
+    "title": "Apollo und Daphne",
+    "artist": "Gian Lorenzo Bernini",
+    "year": "1622–1625",
+    "file": "Apollo and Daphne (Bernini).jpg"
+  },
+  "theresa-bernini": {
+    "wiki": "Die Verzückung der heiligen Theresa",
+    "title": "Die Verzückung der heiligen Theresa",
+    "artist": "Gian Lorenzo Bernini",
+    "year": "1647–1652",
+    "file": "Santa Maria della Vittoria - Ecstasy of Saint Teresa.jpg"
+  },
+  "versailles": {
+    "wiki": "Schloss Versailles",
+    "title": "Schloss Versailles",
+    "artist": "Louis Le Vau, Jules Hardouin-Mansart u. a.",
+    "year": "ab 1661"
+  },
+  "lachender-kavalier": {
+    "wiki": "Der lachende Kavalier",
+    "title": "Der lachende Kavalier",
+    "artist": "Frans Hals",
+    "year": "1624",
+    "file": "Frans Hals – The Laughing Cavalier.jpg"
+  },
+  "sanssouci": {
+    "wiki": "Schloss Sanssouci",
+    "title": "Schloss Sanssouci",
+    "artist": "Georg Wenzeslaus von Knobelsdorff",
+    "year": "1745–1747"
+  },
+  "schaukel": {
+    "wiki": "Die Schaukel (Fragonard)",
+    "title": "Die Schaukel",
+    "artist": "Jean-Honoré Fragonard",
+    "year": "um 1767"
+  },
+  "kythera": {
+    "wiki": "Die Einschiffung nach Kythera",
+    "title": "Die Einschiffung nach Kythera",
+    "artist": "Antoine Watteau",
+    "year": "1717",
+    "file": "L'Embarquement pour Cythère, by Antoine Watteau, from C2RMF retouched.jpg"
   }
 }
