@@ -392,5 +392,113 @@
     "artist": "Antoine Watteau",
     "year": "1717",
     "file": "L'Embarquement pour Cythère, by Antoine Watteau, from C2RMF retouched.jpg"
+  },
+  "marat": {
+    "wiki": "Der Tod des Marat",
+    "title": "Der Tod des Marat",
+    "artist": "Jacques-Louis David",
+    "year": "1793"
+  },
+  "horatier": {
+    "wiki": "Der Schwur der Horatier",
+    "title": "Der Schwur der Horatier",
+    "artist": "Jacques-Louis David",
+    "year": "1784"
+  },
+  "napoleon-bernhard": {
+    "wiki": "Napoleon überquert die Alpen",
+    "title": "Napoleon überquert den Großen Sankt Bernhard",
+    "artist": "Jacques-Louis David",
+    "year": "1801",
+    "file": "David - Napoleon crossing the Alps - Malmaison1.jpg"
+  },
+  "amor-psyche": {
+    "wiki": "Amor und Psyche (Canova)",
+    "title": "Amor und Psyche",
+    "artist": "Antonio Canova",
+    "year": "1787–1793",
+    "file": "Psyché ranimée par le baiser de l'Amour, Louvre.jpg"
+  },
+  "odaliske": {
+    "wiki": "Die große Odaliske",
+    "title": "Die große Odaliske",
+    "artist": "Jean-Auguste-Dominique Ingres",
+    "year": "1814",
+    "file": "Jean Auguste Dominique Ingres, La Grande Odalisque, 1814.jpg"
+  },
+  "nebelmeer": {
+    "wiki": "Der Wanderer über dem Nebelmeer",
+    "title": "Der Wanderer über dem Nebelmeer",
+    "artist": "Caspar David Friedrich",
+    "year": "um 1818"
+  },
+  "kreidefelsen": {
+    "wiki": "Kreidefelsen auf Rügen",
+    "title": "Kreidefelsen auf Rügen",
+    "artist": "Caspar David Friedrich",
+    "year": "um 1818"
+  },
+  "moench-meer": {
+    "wiki": "Der Mönch am Meer",
+    "title": "Der Mönch am Meer",
+    "artist": "Caspar David Friedrich",
+    "year": "1808–1810"
+  },
+  "temeraire": {
+    "wiki": "The Fighting Temeraire",
+    "title": "The Fighting Temeraire",
+    "artist": "William Turner",
+    "year": "1839"
+  },
+  "regen-dampf": {
+    "wiki": "Rain, Steam and Speed – The Great Western Railway",
+    "title": "Regen, Dampf und Geschwindigkeit",
+    "artist": "William Turner",
+    "year": "1844"
+  },
+  "dritter-mai": {
+    "wiki": "Der 3. Mai 1808",
+    "title": "Der 3. Mai 1808",
+    "artist": "Francisco de Goya",
+    "year": "1814",
+    "file": "El Tres de Mayo, by Francisco de Goya, from Prado thin black margin.jpg"
+  },
+  "saturn": {
+    "wiki": "Saturn verschlingt seinen Sohn",
+    "title": "Saturn verschlingt seinen Sohn",
+    "artist": "Francisco de Goya",
+    "year": "1819–1823",
+    "file": "Francisco de Goya, Saturno devorando a su hijo (1819-1823).jpg"
+  },
+  "nackte-maja": {
+    "wiki": "Die nackte Maja",
+    "title": "Die nackte Maja",
+    "artist": "Francisco de Goya",
+    "year": "um 1797–1800"
+  },
+  "freiheit-volk": {
+    "wiki": "Die Freiheit führt das Volk",
+    "title": "Die Freiheit führt das Volk",
+    "artist": "Eugène Delacroix",
+    "year": "1830"
+  },
+  "floss-medusa": {
+    "wiki": "Das Floß der Medusa",
+    "title": "Das Floß der Medusa",
+    "artist": "Théodore Géricault",
+    "year": "1818–1819"
+  },
+  "heuwagen": {
+    "wiki": "Der Heuwagen (Constable)",
+    "title": "Der Heuwagen",
+    "artist": "John Constable",
+    "year": "1821",
+    "file": "John Constable - The Hay Wain (1821).jpg"
+  },
+  "armer-poet": {
+    "wiki": "Der arme Poet",
+    "title": "Der arme Poet",
+    "artist": "Carl Spitzweg",
+    "year": "1839"
   }
 }

@@ -402,5 +402,108 @@
     "author": "Jean-Antoine Watteau",
     "licence": "Public domain",
     "page": "https://commons.wikimedia.org/wiki/File:L%27Embarquement_pour_Cyth%C3%A8re,_by_Antoine_Watteau,_from_C2RMF_retouched.jpg"
+  },
+  "marat": {
+    "file": "Death_of_Marat_by_David.jpg",
+    "author": "Jacques-Louis David",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Death_of_Marat_by_David.jpg"
+  },
+  "horatier": {
+    "file": "Le_Serment_des_Horaces_-_Jacques-Louis_David_-_Musée_du_Louvre_Peintures_INV_3692_;_MR_1432.jpg",
+    "author": "Jacques-Louis David",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Le_Serment_des_Horaces_-_Jacques-Louis_David_-_Mus%C3%A9e_du_Louvre_Peintures_INV_3692_;_MR_1432.jpg"
+  },
+  "nebelmeer": {
+    "file": "Ueber-die-sammlung-19-jahrhundert-caspar-david-friedrich-wanderer-ueber-dem-nebelmeer.jpg",
+    "author": "Caspar David Friedrich",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Ueber-die-sammlung-19-jahrhundert-caspar-david-friedrich-wanderer-ueber-dem-nebelmeer.jpg"
+  },
+  "kreidefelsen": {
+    "file": "Caspar_David_Friedrich's_Chalk_Cliffs_on_Rügen.jpg",
+    "author": "Caspar David Friedrich",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Caspar_David_Friedrich%27s_Chalk_Cliffs_on_R%C3%BCgen.jpg"
+  },
+  "moench-meer": {
+    "file": "Caspar_David_Friedrich_-_Der_Mönch_am_Meer_-_Google_Art_Project.jpg",
+    "author": "Caspar David Friedrich",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Caspar_David_Friedrich_-_Der_M%C3%B6nch_am_Meer_-_Google_Art_Project.jpg"
+  },
+  "temeraire": {
+    "file": "Turner,_J._M._W._-_The_Fighting_Téméraire_tugged_to_her_last_Berth_to_be_broken.jpg",
+    "author": "J. M. W. Turner",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Turner,_J._M._W._-_The_Fighting_T%C3%A9m%C3%A9raire_tugged_to_her_last_Berth_to_be_broken.jpg"
+  },
+  "regen-dampf": {
+    "file": "Turner_-_Rain,_Steam_and_Speed_-_National_Gallery_file.jpg",
+    "author": "J. M. W. Turner",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Turner_-_Rain,_Steam_and_Speed_-_National_Gallery_file.jpg"
+  },
+  "nackte-maja": {
+    "file": "La_Maja_desnuda_por_Goya.jpg",
+    "author": "Francisco Goya",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:La_Maja_desnuda_por_Goya.jpg"
+  },
+  "freiheit-volk": {
+    "file": "La_Liberté_guidant_le_peuple_-_Eugène_Delacroix_-_Musée_du_Louvre_Peintures_RF_129_-_après_restauration_2024.jpg",
+    "author": "Eugène Delacroix",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:La_Libert%C3%A9_guidant_le_peuple_-_Eug%C3%A8ne_Delacroix_-_Mus%C3%A9e_du_Louvre_Peintures_RF_129_-_apr%C3%A8s_restauration_2024.jpg"
+  },
+  "floss-medusa": {
+    "file": "JEAN_LOUIS_THÉODORE_GÉRICAULT_-_La_Balsa_de_la_Medusa_(Museo_del_Louvre,_1818-19).jpg",
+    "author": "Théodore Géricault",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:JEAN_LOUIS_TH%C3%89ODORE_G%C3%89RICAULT_-_La_Balsa_de_la_Medusa_(Museo_del_Louvre,_1818-19).jpg"
+  },
+  "heuwagen": {
+    "file": "John Constable - The Hay Wain (1821).jpg",
+    "author": "John Constable",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:John_Constable_-_The_Hay_Wain_(1821).jpg"
+  },
+  "armer-poet": {
+    "file": "Carl_Spitzweg_-_Der_arme_Poet_(Neue_Pinakothek).jpg",
+    "author": "Carl Spitzweg",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Carl_Spitzweg_-_Der_arme_Poet_(Neue_Pinakothek).jpg"
+  },
+  "napoleon-bernhard": {
+    "file": "David - Napoleon crossing the Alps - Malmaison1.jpg",
+    "author": "Jacques-Louis David",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:David_-_Napoleon_crossing_the_Alps_-_Malmaison1.jpg"
+  },
+  "amor-psyche": {
+    "file": "Psyché ranimée par le baiser de l'Amour, Louvre.jpg",
+    "author": "Antonio Canova",
+    "licence": "CC0",
+    "licenceUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:Psych%C3%A9_ranim%C3%A9e_par_le_baiser_de_l%27Amour,_Louvre.jpg"
+  },
+  "dritter-mai": {
+    "file": "El Tres de Mayo, by Francisco de Goya, from Prado thin black margin.jpg",
+    "author": "El_Tres_de_Mayo,_by_Francisco_de_Goya,_from_Prado_in_Google_Earth.jpg: Francisco de Goya derivative work: Papa Lima Whiskey 2",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:El_Tres_de_Mayo,_by_Francisco_de_Goya,_from_Prado_thin_black_margin.jpg"
+  },
+  "saturn": {
+    "file": "Francisco de Goya, Saturno devorando a su hijo (1819-1823).jpg",
+    "author": "Francisco Goya",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Francisco_de_Goya,_Saturno_devorando_a_su_hijo_(1819-1823).jpg"
+  },
+  "odaliske": {
+    "file": "Jean Auguste Dominique Ingres, La Grande Odalisque, 1814.jpg",
+    "author": "Jean-Auguste-Dominique Ingres",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Jean_Auguste_Dominique_Ingres,_La_Grande_Odalisque,_1814.jpg"
   }
 }
