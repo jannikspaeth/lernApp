@@ -14,6 +14,8 @@ import { EXPRESSIONISMUS } from './expressionismus';
 import { ABSTRAKTION } from './abstraktion';
 import { BAUKUNST_ANTIKE } from './baukunst-antike';
 import { BAUKUNST_MITTELALTER } from './baukunst-mittelalter';
+import { BAUKUNST_NEUZEIT } from './baukunst-neuzeit';
+import { BAUKUNST_MODERNE } from './baukunst-moderne';
 
 // Kunst: epochs → styles (events) → overview + artists (subtopics), reusing the history types.
 // Progress is stored like the countries' under `land.kunst.<style>.<subtopic>.<level>.<n>`.
@@ -27,7 +29,7 @@ export const KUNST: CountryHistory = {
     { id: 'revolutionszeit', name: 'Klassizismus und Romantik', period: 'um 1750–1850', events: [KLASSIZISMUS, ROMANTIK] },
     { id: 'moderne-anfaenge', name: 'Impressionismus und Postimpressionismus', period: 'um 1860–1905', events: [IMPRESSIONISMUS, POSTIMPRESSIONISMUS] },
     { id: 'moderne', name: 'Moderne bis 1950', period: 'um 1890–1950', events: [JUGENDSTIL, EXPRESSIONISMUS, ABSTRAKTION] },
-    { id: 'architektur', name: 'Architektur', period: 'Antike bis Gegenwart', events: [BAUKUNST_ANTIKE, BAUKUNST_MITTELALTER] },
+    { id: 'architektur', name: 'Architektur', period: 'Antike bis Gegenwart', events: [BAUKUNST_ANTIKE, BAUKUNST_MITTELALTER, BAUKUNST_NEUZEIT, BAUKUNST_MODERNE] },
   ],
 };
 

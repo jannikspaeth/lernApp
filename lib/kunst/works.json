@@ -710,5 +710,49 @@
     "title": "Aachener Dom",
     "artist": "Odo von Metz (zugeschrieben)",
     "year": "um 800"
+  },
+  "petersdom": {
+    "wiki": "Petersdom",
+    "title": "Petersdom",
+    "artist": "Bramante, Michelangelo, Maderno, Bernini",
+    "year": "1506–1626"
+  },
+  "zwinger": {
+    "wiki": "Dresdner Zwinger",
+    "title": "Dresdner Zwinger",
+    "artist": "Matthäus Daniel Pöppelmann",
+    "year": "1710–1728"
+  },
+  "eiffelturm": {
+    "wiki": "Eiffelturm",
+    "title": "Eiffelturm",
+    "artist": "Gustave Eiffel",
+    "year": "1887–1889"
+  },
+  "sagrada-familia": {
+    "wiki": "Sagrada Família",
+    "title": "Sagrada Família",
+    "artist": "Antoni Gaudí",
+    "year": "ab 1882"
+  },
+  "bauhaus-dessau": {
+    "wiki": "Bauhaus Dessau",
+    "title": "Bauhausgebäude in Dessau",
+    "artist": "Walter Gropius",
+    "year": "1925–1926",
+    "file": "Bauhaus Dessau 2018.jpg"
+  },
+  "fallingwater": {
+    "wiki": "Fallingwater",
+    "title": "Fallingwater",
+    "artist": "Frank Lloyd Wright",
+    "year": "1935–1937",
+    "file": "Frank Lloyd Wright - Mill Run, PA - Fallingwater (A).jpg"
+  },
+  "sydney-oper": {
+    "wiki": "Sydney Opera House",
+    "title": "Sydney Opera House",
+    "artist": "Jørn Utzon",
+    "year": "1959–1973"
   }
 }

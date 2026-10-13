@@ -694,5 +694,53 @@
     "licence": "CC BY-SA 3.0",
     "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
     "page": "https://commons.wikimedia.org/wiki/File:Aachen_Germany_Imperial-Cathedral-01.jpg"
+  },
+  "petersdom": {
+    "file": "St._Peter's_Basilica_Rome_-_20140808_2350.jpg",
+    "author": "Jakub Hałun",
+    "licence": "CC BY-SA 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:St._Peter%27s_Basilica_Rome_-_20140808_2350.jpg"
+  },
+  "zwinger": {
+    "file": "Dresden_Germany_Zwinger-01.jpg",
+    "author": "CEphoto, Uwe Aranas",
+    "licence": "CC BY-SA 3.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Dresden_Germany_Zwinger-01.jpg"
+  },
+  "eiffelturm": {
+    "file": "Tour_Eiffel_Wikimedia_Commons.jpg",
+    "author": "Benh LIEU SONG",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Tour_Eiffel_Wikimedia_Commons.jpg"
+  },
+  "sagrada-familia": {
+    "file": "Σαγράδα_Φαμίλια_2941.jpg",
+    "author": "C messier",
+    "licence": "CC BY-SA 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:%CE%A3%CE%B1%CE%B3%CF%81%CE%AC%CE%B4%CE%B1_%CE%A6%CE%B1%CE%BC%CE%AF%CE%BB%CE%B9%CE%B1_2941.jpg"
+  },
+  "sydney-oper": {
+    "file": "Sydney_Australia._(21339175489).jpg",
+    "author": "Bernard Spragg. NZ from Christchurch, New Zealand",
+    "licence": "CC0",
+    "licenceUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:Sydney_Australia._(21339175489).jpg"
+  },
+  "bauhaus-dessau": {
+    "file": "Bauhaus Dessau 2018.jpg",
+    "author": "Aufbacksalami",
+    "licence": "CC BY-SA 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Bauhaus_Dessau_2018.jpg"
+  },
+  "fallingwater": {
+    "file": "Frank Lloyd Wright - Mill Run, PA - Fallingwater (A).jpg",
+    "author": "Bmzuckerman",
+    "licence": "CC BY 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Frank_Lloyd_Wright_-_Mill_Run,_PA_-_Fallingwater_(A).jpg"
   }
 }
