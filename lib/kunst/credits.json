@@ -505,5 +505,96 @@
     "author": "Jean-Auguste-Dominique Ingres",
     "licence": "Public domain",
     "page": "https://commons.wikimedia.org/wiki/File:Jean_Auguste_Dominique_Ingres,_La_Grande_Odalisque,_1814.jpg"
+  },
+  "kathedrale-rouen": {
+    "file": "Claude_Monet_033.jpg",
+    "author": "Claude Monet",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Claude_Monet_033.jpg"
+  },
+  "sternennacht": {
+    "file": "Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg",
+    "author": "Vincent van Gogh",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg"
+  },
+  "schlafzimmer": {
+    "file": "Vincent_Willem_van_Gogh_137.jpg",
+    "author": "Vincent van Gogh",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Vincent_Willem_van_Gogh_137.jpg"
+  },
+  "sainte-victoire": {
+    "file": "Mont Sainte-Victoire Seen from Les Lauves (Basel) 1904-1906 Paul Cezzane.jpg",
+    "author": "Paul Cézanne",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Mont_Sainte-Victoire_Seen_from_Les_Lauves_(Basel)_1904-1906_Paul_Cezzane.jpg"
+  },
+  "kartenspieler": {
+    "file": "Les_Joueurs_de_cartes,_par_Paul_Cézanne,_Metropolitan_Museum_of_Art.jpg",
+    "author": "Paul Cézanne",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Les_Joueurs_de_cartes,_par_Paul_C%C3%A9zanne,_Metropolitan_Museum_of_Art.jpg"
+  },
+  "grande-jatte": {
+    "file": "Georges_Seurat_-_Un_dimanche_après-midi_à_l'Île_de_la_Grande_Jatte.jpg",
+    "author": "Georges Seurat",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Georges_Seurat_-_Un_dimanche_apr%C3%A8s-midi_%C3%A0_l%27%C3%8Ele_de_la_Grande_Jatte.jpg"
+  },
+  "impression-sonnenaufgang": {
+    "file": "Claude Monet, Impression, soleil levant, 1872.jpg",
+    "author": "Claude Monet",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Claude_Monet,_Impression,_soleil_levant,_1872.jpg"
+  },
+  "seerosen": {
+    "file": "Claude Monet - Water Lilies - 1906, Ryerson.jpg",
+    "author": "Claude Monet",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Claude_Monet_-_Water_Lilies_-_1906,_Ryerson.jpg"
+  },
+  "mohnfeld": {
+    "file": "Claude Monet - Poppy Field - Google Art Project.jpg",
+    "author": "Claude Monet",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Claude_Monet_-_Poppy_Field_-_Google_Art_Project.jpg"
+  },
+  "moulin-galette": {
+    "file": "Auguste Renoir - Dance at Le Moulin de la Galette - Google Art Project.jpg",
+    "author": "Pierre-Auguste Renoir",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Auguste_Renoir_-_Dance_at_Le_Moulin_de_la_Galette_-_Google_Art_Project.jpg"
+  },
+  "olympia": {
+    "file": "Edouard Manet - Olympia - Google Art Project 3.jpg",
+    "author": "Édouard Manet",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Edouard_Manet_-_Olympia_-_Google_Art_Project_3.jpg"
+  },
+  "tanzstunde": {
+    "file": "Edgar Degas The Dance Class.jpg",
+    "author": "Edgar Degas",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Edgar_Degas_The_Dance_Class.jpg"
+  },
+  "sonnenblumen": {
+    "file": "Sunflowers - Vincent van Gogh (Munich version).jpg",
+    "author": "GoldenArtists",
+    "licence": "CC BY 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Sunflowers_-_Vincent_van_Gogh_(Munich_version).jpg"
+  },
+  "kornfeld-kraehen": {
+    "file": "Vincent van Gogh - Wheatfield with crows - Google Art Project.jpg",
+    "author": "Vincent van Gogh",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Vincent_van_Gogh_-_Wheatfield_with_crows_-_Google_Art_Project.jpg"
+  },
+  "moulin-rouge": {
+    "file": "Lautrec moulin rouge, la goulue (poster) 1891.jpg",
+    "author": "Henri de Toulouse-Lautrec",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Lautrec_moulin_rouge,_la_goulue_(poster)_1891.jpg"
   }
 }

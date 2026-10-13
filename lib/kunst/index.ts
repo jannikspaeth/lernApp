@@ -7,6 +7,8 @@ import { BAROCK } from './barock';
 import { ROKOKO } from './rokoko';
 import { KLASSIZISMUS } from './klassizismus';
 import { ROMANTIK } from './romantik';
+import { IMPRESSIONISMUS } from './impressionismus';
+import { POSTIMPRESSIONISMUS } from './postimpressionismus';
 
 // Kunst: epochs → styles (events) → overview + artists (subtopics), reusing the history types.
 // Progress is stored like the countries' under `land.kunst.<style>.<subtopic>.<level>.<n>`.
@@ -18,6 +20,7 @@ export const KUNST: CountryHistory = {
     { id: 'antike-mittelalter', name: 'Antike und Mittelalter', period: 'ca. 800 v. Chr. – 1500', events: [ANTIKE, ROMANIK, GOTIK] },
     { id: 'neuzeit', name: 'Renaissance bis Rokoko', period: 'um 1400–1780', events: [RENAISSANCE, BAROCK, ROKOKO] },
     { id: 'revolutionszeit', name: 'Klassizismus und Romantik', period: 'um 1750–1850', events: [KLASSIZISMUS, ROMANTIK] },
+    { id: 'moderne-anfaenge', name: 'Impressionismus und Postimpressionismus', period: 'um 1860–1905', events: [IMPRESSIONISMUS, POSTIMPRESSIONISMUS] },
   ],
 };
 

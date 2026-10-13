@@ -500,5 +500,105 @@
     "title": "Der arme Poet",
     "artist": "Carl Spitzweg",
     "year": "1839"
+  },
+  "impression-sonnenaufgang": {
+    "wiki": "Impression, soleil levant",
+    "title": "Impression, Sonnenaufgang",
+    "artist": "Claude Monet",
+    "year": "1872",
+    "file": "Claude Monet, Impression, soleil levant, 1872.jpg"
+  },
+  "seerosen": {
+    "wiki": "Seerosen (Monet)",
+    "title": "Seerosen",
+    "artist": "Claude Monet",
+    "year": "1906",
+    "file": "Claude Monet - Water Lilies - 1906, Ryerson.jpg"
+  },
+  "mohnfeld": {
+    "wiki": "Mohnfeld bei Argenteuil",
+    "title": "Mohnfeld bei Argenteuil",
+    "artist": "Claude Monet",
+    "year": "1873",
+    "file": "Claude Monet - Poppy Field - Google Art Project.jpg"
+  },
+  "kathedrale-rouen": {
+    "wiki": "Kathedrale von Rouen (Monet)",
+    "title": "Kathedrale von Rouen",
+    "artist": "Claude Monet",
+    "year": "1894"
+  },
+  "moulin-galette": {
+    "wiki": "Le Bal du moulin de la Galette",
+    "title": "Bal du moulin de la Galette",
+    "artist": "Auguste Renoir",
+    "year": "1876",
+    "file": "Auguste Renoir - Dance at Le Moulin de la Galette - Google Art Project.jpg"
+  },
+  "olympia": {
+    "wiki": "Olympia (Manet)",
+    "title": "Olympia",
+    "artist": "Édouard Manet",
+    "year": "1863",
+    "file": "Edouard Manet - Olympia - Google Art Project 3.jpg"
+  },
+  "tanzstunde": {
+    "wiki": "Die Tanzklasse",
+    "title": "Die Tanzstunde",
+    "artist": "Edgar Degas",
+    "year": "1874",
+    "file": "Edgar Degas The Dance Class.jpg"
+  },
+  "sternennacht": {
+    "wiki": "Sternennacht",
+    "title": "Sternennacht",
+    "artist": "Vincent van Gogh",
+    "year": "1889"
+  },
+  "sonnenblumen": {
+    "wiki": "Sonnenblumen (Van Gogh)",
+    "title": "Sonnenblumen",
+    "artist": "Vincent van Gogh",
+    "year": "1888",
+    "file": "Sunflowers - Vincent van Gogh (Munich version).jpg"
+  },
+  "schlafzimmer": {
+    "wiki": "Schlafzimmer in Arles",
+    "title": "Schlafzimmer in Arles",
+    "artist": "Vincent van Gogh",
+    "year": "1888"
+  },
+  "kornfeld-kraehen": {
+    "wiki": "Kornfeld mit Krähen",
+    "title": "Kornfeld mit Krähen",
+    "artist": "Vincent van Gogh",
+    "year": "1890",
+    "file": "Vincent van Gogh - Wheatfield with crows - Google Art Project.jpg"
+  },
+  "sainte-victoire": {
+    "wiki": "Montagne Sainte-Victoire",
+    "title": "Montagne Sainte-Victoire",
+    "artist": "Paul Cézanne",
+    "year": "um 1904",
+    "file": "Mont Sainte-Victoire Seen from Les Lauves (Basel) 1904-1906 Paul Cezzane.jpg"
+  },
+  "kartenspieler": {
+    "wiki": "Die Kartenspieler",
+    "title": "Die Kartenspieler",
+    "artist": "Paul Cézanne",
+    "year": "1894–1895"
+  },
+  "grande-jatte": {
+    "wiki": "Ein Sonntagnachmittag auf der Insel La Grande Jatte",
+    "title": "Sonntagnachmittag auf der Insel La Grande Jatte",
+    "artist": "Georges Seurat",
+    "year": "1884–1886"
+  },
+  "moulin-rouge": {
+    "wiki": "Moulin Rouge",
+    "title": "Moulin Rouge: La Goulue",
+    "artist": "Henri de Toulouse-Lautrec",
+    "year": "1891",
+    "file": "Lautrec moulin rouge, la goulue (poster) 1891.jpg"
   }
 }
