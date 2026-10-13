@@ -698,5 +698,17 @@
     "artist": "Egon Schiele",
     "year": "1915",
     "file": "Egon Schiele - Tod und Mädchen - 3171 - Österreichische Galerie Belvedere.jpg"
+  },
+  "hagia-sophia": {
+    "wiki": "Hagia Sophia",
+    "title": "Hagia Sophia",
+    "artist": "Anthemios von Tralles und Isidor von Milet",
+    "year": "532–537"
+  },
+  "aachener-dom": {
+    "wiki": "Aachener Dom",
+    "title": "Aachener Dom",
+    "artist": "Odo von Metz (zugeschrieben)",
+    "year": "um 800"
   }
 }

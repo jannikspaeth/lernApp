@@ -680,5 +680,19 @@
     "author": "Egon Schiele",
     "licence": "Public domain",
     "page": "https://commons.wikimedia.org/wiki/File:Egon_Schiele_-_Tod_und_M%C3%A4dchen_-_3171_-_%C3%96sterreichische_Galerie_Belvedere.jpg"
+  },
+  "hagia-sophia": {
+    "file": "Hagia_Sophia_Mars_2013.jpg",
+    "author": "Arild Vågen",
+    "licence": "CC BY-SA 3.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Hagia_Sophia_Mars_2013.jpg"
+  },
+  "aachener-dom": {
+    "file": "Aachen_Germany_Imperial-Cathedral-01.jpg",
+    "author": "CEphoto, Uwe Aranas",
+    "licence": "CC BY-SA 3.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Aachen_Germany_Imperial-Cathedral-01.jpg"
   }
 }
