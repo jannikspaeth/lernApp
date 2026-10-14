@@ -11,9 +11,14 @@ import type { RawCard } from '@/lib/wissen/types';
 import QuizCard from '@/components/wissen/QuizCard';
 import Icon from '@/components/Icon';
 import { levelDone, useWissenProgress } from './EventProgress';
-import { workView } from '@/lib/kunst/works';
+import { bildView, bildCaption, type WorkView } from '@/lib/bild';
 
 type Tab = 'info' | 'quiz';
+const bildLabel = (w: WorkView) => {
+  const cap = bildCaption(w);
+  return `${w.title}${cap ? ` \u2013 ${cap}` : ''} \u00b7 ${w.credit}`;
+};
+
 const isLevel = (v: string): v is Level => v === 'leicht' || v === 'mittel' || v === 'schwer';
 
 function shuffle<T>(arr: T[]): T[] {
@@ -109,13 +114,14 @@ export default function EventView({
           {images && images.length > 0 && (
             <section className="space-y-4">
               {images.map(k => {
-                const w = workView(k);
+                const w = bildView(k);
+                const cap = w && bildCaption(w);
                 return w && (
                   <figure key={k} className="bg-surface rounded-2xl border border-line p-3 space-y-2">
                     {/* eslint-disable-next-line @next/next/no-img-element -- local artwork files */}
                     <img src={w.src} alt={`${w.title} – ${w.artist}`} loading="lazy" className="mx-auto max-h-96 max-w-full rounded-lg object-contain" />
                     <figcaption className="text-sm text-ink">
-                      <span className="font-semibold">{w.title}</span> · {w.artist}, {w.year}
+                      <span className="font-semibold">{w.title}</span>{cap && <> · {cap}</>}
                       <span className="block text-xs text-faint mt-0.5">
                         <a href={w.page} target="_blank" rel="noreferrer" className="underline decoration-line">{w.credit}</a>
                       </span>
@@ -187,7 +193,7 @@ export default function EventView({
               q: card[0],
               a: card[1],
               ...(card[3] ? { info: card[3] } : {}),
-              ...(card[4] && workView(card[4]) ? { img: workView(card[4])!.src, credit: `${workView(card[4])!.title} – ${workView(card[4])!.artist}, ${workView(card[4])!.year} · ${workView(card[4])!.credit}` } : {}),
+              ...(card[4] && bildView(card[4]) ? { img: bildView(card[4])!.src, credit: bildLabel(bildView(card[4])!) } : {}),
             }}
             label={t(...LEVELS.find(l => l.id === run.level)!.name)}
             options={options}

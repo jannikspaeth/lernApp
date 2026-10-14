@@ -65,7 +65,7 @@ export default function QuizCard({
           <img
             src={card.img}
             alt=""
-            className={card.img.startsWith('/kunst/') ? 'max-h-80 max-w-full rounded-lg border border-line bg-surface object-contain' : 'h-28 max-w-full rounded-lg border border-line'}
+            className={/^\/(kunst|literatur)\//.test(card.img) ? 'max-h-80 max-w-full rounded-lg border border-line bg-surface object-contain' : 'h-28 max-w-full rounded-lg border border-line'}
           />
         )}
         <p className="text-xl md:text-[22px] text-ink leading-snug font-semibold tracking-tight">{card.q}</p>

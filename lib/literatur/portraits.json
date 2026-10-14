@@ -1,0 +1,184 @@
+{
+  "walther": {
+    "wiki": "Walther von der Vogelweide",
+    "title": "Walther von der Vogelweide",
+    "artist": "Codex Manesse",
+    "year": "um 1300"
+  },
+  "nibelungenlied": {
+    "wiki": "Nibelungenlied",
+    "title": "Das Nibelungenlied",
+    "artist": "Handschrift C",
+    "year": "um 1220–1250"
+  },
+  "parzival": {
+    "wiki": "Wolfram von Eschenbach",
+    "title": "Wolfram von Eschenbach",
+    "artist": "Codex Manesse",
+    "year": "um 1300"
+  },
+  "luther-bibel": {
+    "wiki": "Lutherbibel",
+    "title": "Die Lutherbibel",
+    "artist": "Wittenberg",
+    "year": "1534"
+  },
+  "gryphius": {
+    "wiki": "Andreas Gryphius",
+    "title": "Andreas Gryphius",
+    "artist": "",
+    "year": ""
+  },
+  "grimmelshausen": {
+    "wiki": "Hans Jakob Christoffel von Grimmelshausen",
+    "title": "Grimmelshausen",
+    "artist": "",
+    "year": ""
+  },
+  "simplicissimus": {
+    "wiki": "Der abentheurliche Simplicissimus Teutsch",
+    "title": "Simplicissimus",
+    "artist": "Titelkupfer",
+    "year": "1669",
+    "file": "Simplicissimus Cover page1669.jpg"
+  },
+  "lessing": {
+    "wiki": "Gotthold Ephraim Lessing",
+    "title": "Gotthold Ephraim Lessing",
+    "artist": "",
+    "year": ""
+  },
+  "goethe": {
+    "wiki": "Johann Wolfgang von Goethe",
+    "title": "Johann Wolfgang von Goethe",
+    "artist": "Gemälde von Joseph Karl Stieler",
+    "year": "1828"
+  },
+  "goethe-campagna": {
+    "wiki": "Goethe in der römischen Campagna",
+    "title": "Goethe in der römischen Campagna",
+    "artist": "Johann Heinrich Wilhelm Tischbein",
+    "year": "1787",
+    "file": "Johann Heinrich Wilhelm Tischbein - Goethe in the Roman Campagna - Google Art Project.jpg"
+  },
+  "schiller": {
+    "wiki": "Friedrich Schiller",
+    "title": "Friedrich Schiller",
+    "artist": "Gemälde von Anton Graff",
+    "year": "um 1791"
+  },
+  "herder": {
+    "wiki": "Johann Gottfried Herder",
+    "title": "Johann Gottfried Herder",
+    "artist": "",
+    "year": ""
+  },
+  "kleist": {
+    "wiki": "Heinrich von Kleist",
+    "title": "Heinrich von Kleist",
+    "artist": "",
+    "year": ""
+  },
+  "hoelderlin": {
+    "wiki": "Friedrich Hölderlin",
+    "title": "Friedrich Hölderlin",
+    "artist": "",
+    "year": ""
+  },
+  "novalis": {
+    "wiki": "Novalis",
+    "title": "Novalis",
+    "artist": "",
+    "year": ""
+  },
+  "eichendorff": {
+    "wiki": "Joseph von Eichendorff",
+    "title": "Joseph von Eichendorff",
+    "artist": "",
+    "year": ""
+  },
+  "hoffmann": {
+    "wiki": "E. T. A. Hoffmann",
+    "title": "E. T. A. Hoffmann",
+    "artist": "",
+    "year": ""
+  },
+  "grimm": {
+    "wiki": "Brüder Grimm",
+    "title": "Die Brüder Grimm",
+    "artist": "",
+    "year": ""
+  },
+  "heine": {
+    "wiki": "Heinrich Heine",
+    "title": "Heinrich Heine",
+    "artist": "",
+    "year": ""
+  },
+  "buechner": {
+    "wiki": "Georg Büchner",
+    "title": "Georg Büchner",
+    "artist": "",
+    "year": ""
+  },
+  "droste": {
+    "wiki": "Annette von Droste-Hülshoff",
+    "title": "Annette von Droste-Hülshoff",
+    "artist": "",
+    "year": ""
+  },
+  "fontane": {
+    "wiki": "Theodor Fontane",
+    "title": "Theodor Fontane",
+    "artist": "",
+    "year": ""
+  },
+  "storm": {
+    "wiki": "Theodor Storm",
+    "title": "Theodor Storm",
+    "artist": "",
+    "year": ""
+  },
+  "keller": {
+    "wiki": "Gottfried Keller",
+    "title": "Gottfried Keller",
+    "artist": "",
+    "year": ""
+  },
+  "mann": {
+    "wiki": "Thomas Mann",
+    "title": "Thomas Mann",
+    "artist": "",
+    "year": ""
+  },
+  "kafka": {
+    "wiki": "Franz Kafka",
+    "title": "Franz Kafka",
+    "artist": "",
+    "year": ""
+  },
+  "rilke": {
+    "wiki": "Rainer Maria Rilke",
+    "title": "Rainer Maria Rilke",
+    "artist": "",
+    "year": ""
+  },
+  "hesse": {
+    "wiki": "Hermann Hesse",
+    "title": "Hermann Hesse",
+    "artist": "",
+    "year": ""
+  },
+  "brecht": {
+    "wiki": "Bertolt Brecht",
+    "title": "Bertolt Brecht",
+    "artist": "",
+    "year": ""
+  },
+  "doeblin": {
+    "wiki": "Alfred Döblin",
+    "title": "Alfred Döblin",
+    "artist": "",
+    "year": ""
+  }
+}

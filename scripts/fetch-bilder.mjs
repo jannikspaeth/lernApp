@@ -1,16 +1,26 @@
-// Downloads the artwork pictures listed in lib/kunst/works.json from Wikipedia/Wikimedia Commons
-// into public/kunst/<key>.jpg and writes lib/kunst/credits.json (author, licence, source).
-// Usage: node scripts/fetch-kunst-images.mjs [key ...]   (no keys = everything missing)
+// Downloads the pictures of a set from Wikipedia/Wikimedia Commons into public/<set>/<key>.jpg
+// and writes the credits (author, licence, source) next to the registry.
+// Usage: node scripts/fetch-bilder.mjs <kunst|literatur> [key ...]   (no keys = everything missing)
 import fs from 'node:fs';
 import path from 'node:path';
 import { execFileSync } from 'node:child_process';
 
+const SETS = {
+  kunst: { registry: 'lib/kunst/works.json', credits: 'lib/kunst/credits.json', out: 'public/kunst' },
+  literatur: { registry: 'lib/literatur/portraits.json', credits: 'lib/literatur/credits.json', out: 'public/literatur' },
+};
+
 const root = path.resolve(import.meta.dirname, '..');
-const works = JSON.parse(fs.readFileSync(path.join(root, 'lib/kunst/works.json'), 'utf8'));
-const creditsFile = path.join(root, 'lib/kunst/credits.json');
+const [set, ...only] = process.argv.slice(2);
+const cfg = SETS[set];
+if (!cfg) { console.error(`usage: node scripts/fetch-bilder.mjs <${Object.keys(SETS).join('|')}> [key ...]`); process.exit(1); }
+
+const items = JSON.parse(fs.readFileSync(path.join(root, cfg.registry), 'utf8'));
+const creditsFile = path.join(root, cfg.credits);
 const credits = fs.existsSync(creditsFile) ? JSON.parse(fs.readFileSync(creditsFile, 'utf8')) : {};
-const UA = 'LernApp/1.0 (personal learning app; jannik.spaeth@gmx.de)';
+const UA = 'LernApp/1.0 (personal learning app)';
 const sleep = ms => new Promise(r => setTimeout(r, ms));
+const SLEEP = Number(process.env.FETCH_SLEEP ?? 1200); // Wikipedia rate-limits bursts; raise it after a 429
 const ALLOWED = /^(public domain|pd|cc0|cc[ -]by(?!-nc|-nd)|cc-by-sa|cc by-sa|copyrighted free use|attribution)/i;
 
 async function api(host, params) {
@@ -20,12 +30,11 @@ async function api(host, params) {
   return res.json();
 }
 
-const only = process.argv.slice(2);
-const keys = only.length ? only : Object.keys(works).filter(k => !fs.existsSync(path.join(root, `public/kunst/${k}.jpg`)));
+const keys = only.length ? only : Object.keys(items).filter(k => !fs.existsSync(path.join(root, cfg.out, `${k}.jpg`)));
 const problems = [];
 for (const key of keys) {
-  const w = works[key];
-  if (!w) { problems.push(`${key}: not in works.json`); continue; }
+  const w = items[key];
+  if (!w) { problems.push(`${key}: not in ${cfg.registry}`); continue; }
   try {
     let file = w.file; // explicit Commons file name wins over the article's lead image
     if (!file) {
@@ -45,7 +54,7 @@ for (const key of keys) {
     const imgUrl = info.thumburl || info.url;
     const bin = await fetch(imgUrl, { headers: { 'User-Agent': UA } });
     if (!bin.ok) { problems.push(`${key}: download ${bin.status}`); continue; }
-    const out = path.join(root, `public/kunst/${key}.jpg`);
+    const out = path.join(root, cfg.out, `${key}.jpg`);
     fs.writeFileSync(out, Buffer.from(await bin.arrayBuffer()));
     try { execFileSync('sips', ['-Z', '800', '-s', 'format', 'jpeg', '-s', 'formatOptions', '72', out], { stdio: 'ignore' }); } catch { /* no sips: keep the 1000 px original */ }
     credits[key] = {
@@ -59,7 +68,7 @@ for (const key of keys) {
   } catch (e) {
     problems.push(`${key}: ${e.message}`);
   }
-  await sleep(1200);
+  await sleep(SLEEP);
 }
 fs.writeFileSync(creditsFile, JSON.stringify(credits, null, 2) + '\n');
 if (problems.length) console.log('\nPROBLEMS:\n' + problems.join('\n'));

@@ -1,0 +1,184 @@
+{
+  "walther": {
+    "file": "Codex_Manesse_Walther_von_der_Vogelweide.jpg",
+    "author": "Master of the Codex Manesse",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Codex_Manesse_Walther_von_der_Vogelweide.jpg"
+  },
+  "nibelungenlied": {
+    "file": "Nibelungenlied_manuscript-c_f1r.jpg",
+    "author": "Unknown authorUnknown author",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Nibelungenlied_manuscript-c_f1r.jpg"
+  },
+  "parzival": {
+    "file": "Codex_Manesse_149v_Wolfram_von_Eschenbach.jpg",
+    "author": "Master of the Codex Manesse",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Codex_Manesse_149v_Wolfram_von_Eschenbach.jpg"
+  },
+  "luther-bibel": {
+    "file": "Lutherbibel.jpg",
+    "author": "Torsten Schleese",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Lutherbibel.jpg"
+  },
+  "gryphius": {
+    "file": "Andreas_Gryphius_1.jpg",
+    "author": "Philipp Kilian",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Andreas_Gryphius_1.jpg"
+  },
+  "schiller": {
+    "file": "Friedrich_Schiller_by_Ludovike_Simanowiz.jpg",
+    "author": "Ludovike Simanowiz",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Friedrich_Schiller_by_Ludovike_Simanowiz.jpg"
+  },
+  "herder": {
+    "file": "Johann_Gottfried_Herder_2.jpg",
+    "author": "Anton Graff",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Johann_Gottfried_Herder_2.jpg"
+  },
+  "kleist": {
+    "file": "Heinrich_von_Kleist2.jpg",
+    "author": "scannd by Michael Schönitzer unknown",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Heinrich_von_Kleist2.jpg"
+  },
+  "hoelderlin": {
+    "file": "FK_Hiemer_-_Friedrich_Hölderlin_(Pastell_1792).jpg",
+    "author": "Franz Carl Hiemer",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:FK_Hiemer_-_Friedrich_H%C3%B6lderlin_(Pastell_1792).jpg"
+  },
+  "novalis": {
+    "file": "Franz_Gareis_-_Novalis.jpg",
+    "author": "Franz Gareis",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Franz_Gareis_-_Novalis.jpg"
+  },
+  "grimmelshausen": {
+    "file": "Hans_Jakob_Christoffel_von_Grimmelshausen.jpeg",
+    "author": "Circle of Lucas de Wael",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Hans_Jakob_Christoffel_von_Grimmelshausen.jpeg"
+  },
+  "lessing": {
+    "file": "Gotthold_Ephraim_Lessing.PNG",
+    "author": "Anna Rosina de Gasc",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Gotthold_Ephraim_Lessing.PNG"
+  },
+  "goethe": {
+    "file": "Goethe_(Stieler_1828).jpg",
+    "author": "Joseph Karl Stieler",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Goethe_(Stieler_1828).jpg"
+  },
+  "eichendorff": {
+    "file": "Joseph_Freiherr_von_Eichendorff_(1841).jpg",
+    "author": "© Foto H.-P.Haack",
+    "licence": "CC BY-SA 3.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Joseph_Freiherr_von_Eichendorff_(1841).jpg"
+  },
+  "fontane": {
+    "file": "Theodor_Fontane_Breitbach.jpg",
+    "author": "Carl Breitbach",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Theodor_Fontane_Breitbach.jpg"
+  },
+  "storm": {
+    "file": "Theodor_Storm_(1817-1888).jpg",
+    "author": "Unknown authorUnknown author",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Theodor_Storm_(1817-1888).jpg"
+  },
+  "keller": {
+    "file": "Gottfried_Keller_1860.jpeg",
+    "author": "unbekannt",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Gottfried_Keller_1860.jpeg"
+  },
+  "mann": {
+    "file": "Thomas_Mann_1929.jpg",
+    "author": "Nobel Foundation",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Thomas_Mann_1929.jpg"
+  },
+  "kafka": {
+    "file": "Franz_Kafka,_1923.jpg",
+    "author": "Unknown photographer",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Franz_Kafka,_1923.jpg"
+  },
+  "rilke": {
+    "file": "Rainer_Maria_Rilke_1900.jpg",
+    "author": "Unknown authorUnknown author",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Rainer_Maria_Rilke_1900.jpg"
+  },
+  "hesse": {
+    "file": "Hermann_Hesse_1946.jpg",
+    "author": "Nobel Foundation",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Hermann_Hesse_1946.jpg"
+  },
+  "brecht": {
+    "file": "Bundesarchiv_Bild_183-W0409-300,_Bertolt_Brecht.jpg",
+    "author": "Kolbe, Jörg",
+    "licence": "CC BY-SA 3.0 de",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_183-W0409-300,_Bertolt_Brecht.jpg"
+  },
+  "doeblin": {
+    "file": "Doeblin_alfred_1946.jpg",
+    "author": "unknown photographer, Pressebild-Verlag Schirner",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Doeblin_alfred_1946.jpg"
+  },
+  "hoffmann": {
+    "file": "E._T._A._Hoffmann,_autorretrato.jpg",
+    "author": "E. T. A. Hoffmann",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:E._T._A._Hoffmann,_autorretrato.jpg"
+  },
+  "simplicissimus": {
+    "file": "Simplicissimus Cover page1669.jpg",
+    "author": "Hans Jakob Christoffel von Grimmelshausen",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Simplicissimus_Cover_page1669.jpg"
+  },
+  "goethe-campagna": {
+    "file": "Johann Heinrich Wilhelm Tischbein - Goethe in the Roman Campagna - Google Art Project.jpg",
+    "author": "Johann Heinrich Wilhelm Tischbein",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Johann_Heinrich_Wilhelm_Tischbein_-_Goethe_in_the_Roman_Campagna_-_Google_Art_Project.jpg"
+  },
+  "grimm": {
+    "file": "Brothers_Grimm_Blow.jpg",
+    "author": "Hermann Biow",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Brothers_Grimm_Blow.jpg"
+  },
+  "heine": {
+    "file": "Heinrich_Heine-Oppenheim.jpg",
+    "author": "Moritz Daniel Oppenheim",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Heinrich_Heine-Oppenheim.jpg"
+  },
+  "buechner": {
+    "file": "Georg_Büchner.png",
+    "author": "Philipp August Joseph Hoffmann (1807 bis 1883)",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Georg_B%C3%BCchner.png"
+  },
+  "droste": {
+    "file": "Droste-Hülshoff_2.jpg",
+    "author": "Johann Sprick",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Droste-H%C3%BClshoff_2.jpg"
+  }
+}

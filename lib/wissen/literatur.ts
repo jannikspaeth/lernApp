@@ -8,6 +8,9 @@ export const literatur: Subject = {
   icon: '📚',
   blurb: ['Authors, works, epochs and characters', 'Autoren, Werke, Epochen und Figuren'],
   color: { bg: 'bg-sky-50 dark:bg-sky-950/50', text: 'text-sky-800 dark:text-sky-300', bar: 'bg-sky-500', border: 'border-sky-200 dark:border-sky-900' },
+  links: [
+    { href: '/literatur', icon: '📖', name: ['Literary history', 'Literaturgeschichte'], blurb: ['Epochs and authors by country, with texts and quizzes', 'Epochen und Autoren nach Ländern, mit Texten und Quizzen'] },
+  ],
   topics: [
     topic(S, 'deutsch', ['German classics', 'Deutsche Klassiker'], '🖋️', [
       ['Wer schrieb „Faust“?', 'Johann Wolfgang von Goethe'],
