@@ -180,5 +180,53 @@
     "title": "Alfred Döblin",
     "artist": "",
     "year": ""
+  },
+  "boell": {
+    "wiki": "Heinrich Böll",
+    "title": "Heinrich Böll",
+    "artist": "",
+    "year": ""
+  },
+  "grass": {
+    "wiki": "Günter Grass",
+    "title": "Günter Grass",
+    "artist": "",
+    "year": ""
+  },
+  "celan": {
+    "wiki": "Paul Celan",
+    "title": "Paul Celan",
+    "artist": "",
+    "year": ""
+  },
+  "bachmann": {
+    "wiki": "Ingeborg Bachmann",
+    "title": "Ingeborg Bachmann",
+    "artist": "",
+    "year": ""
+  },
+  "frisch": {
+    "wiki": "Max Frisch",
+    "title": "Max Frisch",
+    "artist": "",
+    "year": ""
+  },
+  "duerrenmatt": {
+    "wiki": "Friedrich Dürrenmatt",
+    "title": "Friedrich Dürrenmatt",
+    "artist": "",
+    "year": ""
+  },
+  "wolf": {
+    "wiki": "Christa Wolf",
+    "title": "Christa Wolf",
+    "artist": "",
+    "year": ""
+  },
+  "borchert": {
+    "wiki": "Wolfgang Borchert",
+    "title": "Wolfgang Borchert",
+    "artist": "",
+    "year": ""
   }
 }

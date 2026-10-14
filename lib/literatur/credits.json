@@ -180,5 +180,46 @@
     "author": "Johann Sprick",
     "licence": "Public domain",
     "page": "https://commons.wikimedia.org/wiki/File:Droste-H%C3%BClshoff_2.jpg"
+  },
+  "boell": {
+    "file": "Bundesarchiv_B_145_Bild-F062164-0004,_Bonn,_Heinrich_Böll.jpg",
+    "author": "Hoffmann, Harald",
+    "licence": "CC BY-SA 3.0 de",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_B_145_Bild-F062164-0004,_Bonn,_Heinrich_B%C3%B6ll.jpg"
+  },
+  "grass": {
+    "file": "Günter_Grass_auf_dem_Blauen_Sofa.jpg",
+    "author": "Blaues Sofa from Berlin, Deutschland",
+    "licence": "CC BY 2.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:G%C3%BCnter_Grass_auf_dem_Blauen_Sofa.jpg"
+  },
+  "celan": {
+    "file": "Paul_Celan_(1938).jpg",
+    "author": "Unknown authorUnknown author",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Paul_Celan_(1938).jpg"
+  },
+  "bachmann": {
+    "file": "Ingeborg_Bachmann_Portrait.jpg",
+    "author": "Fritz Peyer",
+    "licence": "CC BY-SA 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Ingeborg_Bachmann_Portrait.jpg"
+  },
+  "frisch": {
+    "file": "ETH-BIB-Max_Frisch-Com_C20-015-023-001.jpg",
+    "author": "Comet Photo AG (Zürich)",
+    "licence": "CC BY-SA 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:ETH-BIB-Max_Frisch-Com_C20-015-023-001.jpg"
+  },
+  "borchert": {
+    "file": "Wolfgang_Borchert_-_Letztes_Foto_als_Zivilist_im_Sommer_1941.jpg",
+    "author": "Staats- und Universitätsbibliothek Hamburg Carl von Ossietzky",
+    "licence": "CC BY-SA 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Wolfgang_Borchert_-_Letztes_Foto_als_Zivilist_im_Sommer_1941.jpg"
   }
 }
