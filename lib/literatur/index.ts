@@ -2,6 +2,8 @@ import type { CountryHistory, Epoch, HistEvent, Subtopic } from '../laender/type
 import { DE_MITTELALTER_BAROCK } from './de-mittelalter-barock';
 import { DE_AUFKLAERUNG } from './de-aufklaerung';
 import { DE_KLASSIK } from './de-klassik';
+import { DE_ROMANTIK } from './de-romantik';
+import { DE_VORMAERZ } from './de-vormaerz';
 
 // Literatur: countries (epochs) → literary epochs (events) → overview + authors (subtopics),
 // reusing the history types. Progress is stored like the countries' under
@@ -15,7 +17,7 @@ export const LITERATUR: CountryHistory = {
       id: 'deutschland',
       name: 'Deutschsprachige Literatur',
       period: 'um 1200 – heute',
-      events: [DE_MITTELALTER_BAROCK, DE_AUFKLAERUNG, DE_KLASSIK],
+      events: [DE_MITTELALTER_BAROCK, DE_AUFKLAERUNG, DE_KLASSIK, DE_ROMANTIK, DE_VORMAERZ],
     },
   ],
 };
