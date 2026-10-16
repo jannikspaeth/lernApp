@@ -228,5 +228,187 @@
     "title": "Wolfgang Borchert",
     "artist": "",
     "year": ""
+  },
+  "shakespeare": {
+    "wiki": "William Shakespeare",
+    "title": "William Shakespeare",
+    "artist": "Chandos-Porträt",
+    "year": "um 1610",
+    "file": "Shakespeare.jpg"
+  },
+  "first-folio": {
+    "wiki": "First Folio",
+    "title": "Die First Folio von 1623",
+    "artist": "Titelseite",
+    "year": "1623"
+  },
+  "marlowe": {
+    "wiki": "Christopher Marlowe",
+    "title": "Christopher Marlowe",
+    "artist": "unbekannter Maler",
+    "year": "1585"
+  },
+  "milton": {
+    "wiki": "John Milton",
+    "title": "John Milton",
+    "artist": "",
+    "year": ""
+  },
+  "donne": {
+    "wiki": "John Donne",
+    "title": "John Donne",
+    "artist": "",
+    "year": ""
+  },
+  "defoe": {
+    "wiki": "Daniel Defoe",
+    "title": "Daniel Defoe",
+    "artist": "",
+    "year": ""
+  },
+  "swift": {
+    "wiki": "Jonathan Swift",
+    "title": "Jonathan Swift",
+    "artist": "",
+    "year": ""
+  },
+  "robinson": {
+    "wiki": "Robinson Crusoe",
+    "title": "Robinson Crusoe",
+    "artist": "Illustration von Walter Paget",
+    "year": ""
+  },
+  "austen": {
+    "wiki": "Jane Austen",
+    "title": "Jane Austen",
+    "artist": "Zeichnung von Cassandra Austen",
+    "year": "um 1810"
+  },
+  "byron": {
+    "wiki": "George Gordon Byron",
+    "title": "Lord Byron",
+    "artist": "",
+    "year": ""
+  },
+  "keats": {
+    "wiki": "John Keats",
+    "title": "John Keats",
+    "artist": "",
+    "year": ""
+  },
+  "percy-shelley": {
+    "wiki": "Percy Bysshe Shelley",
+    "title": "Percy Bysshe Shelley",
+    "artist": "",
+    "year": ""
+  },
+  "mary-shelley": {
+    "wiki": "Mary Shelley",
+    "title": "Mary Shelley",
+    "artist": "",
+    "year": ""
+  },
+  "wordsworth": {
+    "wiki": "William Wordsworth",
+    "title": "William Wordsworth",
+    "artist": "",
+    "year": ""
+  },
+  "coleridge": {
+    "wiki": "Samuel Taylor Coleridge",
+    "title": "Samuel Taylor Coleridge",
+    "artist": "",
+    "year": ""
+  },
+  "dickens": {
+    "wiki": "Charles Dickens",
+    "title": "Charles Dickens",
+    "artist": "",
+    "year": ""
+  },
+  "bronte": {
+    "wiki": "Brontë",
+    "title": "Die Schwestern Brontë",
+    "artist": "Gemälde von Branwell Brontë",
+    "year": "um 1834",
+    "file": "The Brontë Sisters by Patrick Branwell Brontë restored.jpg"
+  },
+  "george-eliot": {
+    "wiki": "George Eliot",
+    "title": "George Eliot",
+    "artist": "",
+    "year": ""
+  },
+  "wilde": {
+    "wiki": "Oscar Wilde",
+    "title": "Oscar Wilde",
+    "artist": "",
+    "year": ""
+  },
+  "hardy": {
+    "wiki": "Thomas Hardy",
+    "title": "Thomas Hardy",
+    "artist": "",
+    "year": ""
+  },
+  "stevenson": {
+    "wiki": "Robert Louis Stevenson",
+    "title": "Robert Louis Stevenson",
+    "artist": "",
+    "year": ""
+  },
+  "doyle": {
+    "wiki": "Arthur Conan Doyle",
+    "title": "Arthur Conan Doyle",
+    "artist": "",
+    "year": ""
+  },
+  "carroll": {
+    "wiki": "Lewis Carroll",
+    "title": "Lewis Carroll",
+    "artist": "",
+    "year": ""
+  },
+  "woolf": {
+    "wiki": "Virginia Woolf",
+    "title": "Virginia Woolf",
+    "artist": "",
+    "year": ""
+  },
+  "joyce": {
+    "wiki": "James Joyce",
+    "title": "James Joyce",
+    "artist": "",
+    "year": ""
+  },
+  "orwell": {
+    "wiki": "George Orwell",
+    "title": "George Orwell",
+    "artist": "",
+    "year": ""
+  },
+  "ts-eliot": {
+    "wiki": "T. S. Eliot",
+    "title": "T. S. Eliot",
+    "artist": "",
+    "year": ""
+  },
+  "conrad": {
+    "wiki": "Joseph Conrad",
+    "title": "Joseph Conrad",
+    "artist": "",
+    "year": ""
+  },
+  "beckett": {
+    "wiki": "Samuel Beckett",
+    "title": "Samuel Beckett",
+    "artist": "",
+    "year": ""
+  },
+  "yeats": {
+    "wiki": "William Butler Yeats",
+    "title": "William Butler Yeats",
+    "artist": "",
+    "year": ""
   }
 }

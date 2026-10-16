@@ -58,7 +58,7 @@ const subActive = (path: string, href: string) =>
   href === '/weltgeschichte' || href === '/heute' ? path.startsWith(href) : path === href || path.startsWith(href + '/');
 
 export default function Navigation() {
-  const path = usePathname();
+  const path = usePathname() ?? '';
   const { profile, lang } = useProfile();
   const info = lang ? langInfo(lang) : null;
   const stars = useStars();

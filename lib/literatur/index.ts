@@ -7,6 +7,9 @@ import { DE_VORMAERZ } from './de-vormaerz';
 import { DE_REALISMUS } from './de-realismus';
 import { DE_MODERNE } from './de-moderne';
 import { DE_GEGENWART } from './de-gegenwart';
+import { EN_RENAISSANCE } from './en-renaissance';
+import { EN_AUFKLAERUNG } from './en-aufklaerung';
+import { EN_ROMANTIK } from './en-romantik';
 
 // Literatur: countries (epochs) → literary epochs (events) → overview + authors (subtopics),
 // reusing the history types. Progress is stored like the countries' under
@@ -21,6 +24,12 @@ export const LITERATUR: CountryHistory = {
       name: 'Deutschsprachige Literatur',
       period: 'um 1200 – heute',
       events: [DE_MITTELALTER_BAROCK, DE_AUFKLAERUNG, DE_KLASSIK, DE_ROMANTIK, DE_VORMAERZ, DE_REALISMUS, DE_MODERNE, DE_GEGENWART],
+    },
+    {
+      id: 'england',
+      name: 'England und Irland',
+      period: 'um 1550 – heute',
+      events: [EN_RENAISSANCE, EN_AUFKLAERUNG, EN_ROMANTIK],
     },
   ],
 };

@@ -221,5 +221,201 @@
     "licence": "CC BY-SA 4.0",
     "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
     "page": "https://commons.wikimedia.org/wiki/File:Wolfgang_Borchert_-_Letztes_Foto_als_Zivilist_im_Sommer_1941.jpg"
+  },
+  "duerrenmatt": {
+    "file": "Friedrich_duerrenmatt_19890427.jpg",
+    "author": "Elke Wetzig (elya)",
+    "licence": "CC BY-SA 3.0",
+    "licenceUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Friedrich_duerrenmatt_19890427.jpg"
+  },
+  "wolf": {
+    "file": "Bundesarchiv_Bild_183-B0509-0010-005,_Christa_Wolf.jpg",
+    "author": "Irene Eckleben",
+    "licence": "CC BY-SA 3.0 de",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_183-B0509-0010-005,_Christa_Wolf.jpg"
+  },
+  "shakespeare": {
+    "file": "Shakespeare.jpg",
+    "author": "Attributed to John Taylor",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Shakespeare.jpg"
+  },
+  "first-folio": {
+    "file": "William_Shakespeare_-_First_Folio_1623.jpg",
+    "author": "William Shakespeare",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:William_Shakespeare_-_First_Folio_1623.jpg"
+  },
+  "marlowe": {
+    "file": "Marlowe-Portrait-1585.jpg",
+    "author": "Unknown authorUnknown author",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Marlowe-Portrait-1585.jpg"
+  },
+  "milton": {
+    "file": "John_Milton_-_Project_Gutenberg_eText_13619.jpg",
+    "author": "unbekannt",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:John_Milton_-_Project_Gutenberg_eText_13619.jpg"
+  },
+  "donne": {
+    "file": "John_Donne_by_Isaac_Oliver.jpg",
+    "author": "After Isaac Oliver",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:John_Donne_by_Isaac_Oliver.jpg"
+  },
+  "robinson": {
+    "file": "Crusoe_2_(by_Paget).jpg",
+    "author": "Walter Paget",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Crusoe_2_(by_Paget).jpg"
+  },
+  "austen": {
+    "file": "Jane_Austen_by_Cassandra_Austen,_groß.jpg",
+    "author": "Cassandra Austen",
+    "licence": "CC BY-SA 3.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Jane_Austen_by_Cassandra_Austen,_gro%C3%9F.jpg"
+  },
+  "byron": {
+    "file": "Byron_1813_by_Phillips.jpg",
+    "author": "Thomas Phillips",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Byron_1813_by_Phillips.jpg"
+  },
+  "keats": {
+    "file": "John_Keats_by_William_Hilton_circa_1822.jpg",
+    "author": "William Hilton",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:John_Keats_by_William_Hilton_circa_1822.jpg"
+  },
+  "percy-shelley": {
+    "file": "Portrait_of_Percy_Bysshe_Shelley_by_Curran,_1819.jpg",
+    "author": "After Amelia Curran",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Portrait_of_Percy_Bysshe_Shelley_by_Curran,_1819.jpg"
+  },
+  "dickens": {
+    "file": "Charlesdickens.jpg",
+    "author": "unbekannt",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Charlesdickens.jpg"
+  },
+  "george-eliot": {
+    "file": "George_Eliot_(1865)_by_Frederick_William_Burton.jpg",
+    "author": "Frederic William Burton",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:George_Eliot_(1865)_by_Frederick_William_Burton.jpg"
+  },
+  "wilde": {
+    "file": "Oscar_Wilde_Sarony.jpg",
+    "author": "Napoleon Sarony",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Oscar_Wilde_Sarony.jpg"
+  },
+  "hardy": {
+    "file": "Thomashardy_restored.jpg",
+    "author": "Bain News Service, publisher",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Thomashardy_restored.jpg"
+  },
+  "joyce": {
+    "file": "Revolutionary_Joyce_Better_Contrast.jpg",
+    "author": "unbekannt",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Revolutionary_Joyce_Better_Contrast.jpg"
+  },
+  "orwell": {
+    "file": "George_Orwell_press_photo.jpg",
+    "author": "Branch of the National Union of Journalists (BNUJ).",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:George_Orwell_press_photo.jpg"
+  },
+  "ts-eliot": {
+    "file": "Thomas_Stearns_Eliot_by_Lady_Ottoline_Morrell_(1934).jpg",
+    "author": "Thomas Stearns Eliot with his sister and his cousin by Lady Ottoline Morrell.jpg: Lady Ottoline Morrell (1873–1938) derivative work: Octave.H",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Thomas_Stearns_Eliot_by_Lady_Ottoline_Morrell_(1934).jpg"
+  },
+  "conrad": {
+    "file": "Joseph_Conrad,_Fotografie_von_George_Charles_Beresford,_1904.jpg",
+    "author": "George Charles Beresford † 1938",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Joseph_Conrad,_Fotografie_von_George_Charles_Beresford,_1904.jpg"
+  },
+  "beckett": {
+    "file": "Samuel_Beckett,_Pic,_1.jpg",
+    "author": "Roger Pic",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Samuel_Beckett,_Pic,_1.jpg"
+  },
+  "defoe": {
+    "file": "Daniel_Defoe_Kneller_Style.jpg",
+    "author": "UnknownUnknown , style of Sir Godfrey Kneller",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Daniel_Defoe_Kneller_Style.jpg"
+  },
+  "swift": {
+    "file": "Jonathan_Swift_by_Charles_Jervas_detail.jpg",
+    "author": "Charles Jervas",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Jonathan_Swift_by_Charles_Jervas_detail.jpg"
+  },
+  "mary-shelley": {
+    "file": "Mary_Wollstonecraft_Shelley_Rothwell.tif",
+    "author": "Richard Rothwell",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Mary_Wollstonecraft_Shelley_Rothwell.tif"
+  },
+  "wordsworth": {
+    "file": "William_wordsworth.jpg",
+    "author": "Margaret Gillies",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:William_wordsworth.jpg"
+  },
+  "coleridge": {
+    "file": "SamuelTaylorColeridge.jpg",
+    "author": "Peter Vandyke",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:SamuelTaylorColeridge.jpg"
+  },
+  "stevenson": {
+    "file": "Robert_Louis_Stevenson_by_Henry_Walter_Barnett.jpg",
+    "author": "Henry Walter Barnett",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Robert_Louis_Stevenson_by_Henry_Walter_Barnett.jpg"
+  },
+  "doyle": {
+    "file": "Conan_doyle.jpg",
+    "author": "Arnold Genthe",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Conan_doyle.jpg"
+  },
+  "carroll": {
+    "file": "Lewis_Carroll_(Charles_Lutwidge_Dodgson)_MET_DP-15137-001_(cropped).jpg",
+    "author": "Creator:Oscar Gustav Rejlander",
+    "licence": "CC0",
+    "licenceUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:Lewis_Carroll_(Charles_Lutwidge_Dodgson)_MET_DP-15137-001_(cropped).jpg"
+  },
+  "woolf": {
+    "file": "George_Charles_Beresford_-_Virginia_Woolf_in_1902_-_Restoration.jpg",
+    "author": "George Charles Beresford / Adam Cuerden",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:George_Charles_Beresford_-_Virginia_Woolf_in_1902_-_Restoration.jpg"
+  },
+  "yeats": {
+    "file": "Yeats_Boughton.jpg",
+    "author": "Alice Boughton",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Yeats_Boughton.jpg"
+  },
+  "bronte": {
+    "file": "The Brontë Sisters by Patrick Branwell Brontë restored.jpg",
+    "author": "Branwell Brontë",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:The_Bront%C3%AB_Sisters_by_Patrick_Branwell_Bront%C3%AB_restored.jpg"
   }
 }
