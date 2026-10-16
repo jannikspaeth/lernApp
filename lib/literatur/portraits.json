@@ -633,5 +633,95 @@
     "title": "Vladimir Nabokov",
     "artist": "",
     "year": ""
+  },
+  "poe": {
+    "wiki": "Edgar Allan Poe",
+    "title": "Edgar Allan Poe",
+    "artist": "",
+    "year": ""
+  },
+  "hawthorne": {
+    "wiki": "Nathaniel Hawthorne",
+    "title": "Nathaniel Hawthorne",
+    "artist": "",
+    "year": ""
+  },
+  "melville": {
+    "wiki": "Herman Melville",
+    "title": "Herman Melville",
+    "artist": "",
+    "year": ""
+  },
+  "whitman": {
+    "wiki": "Walt Whitman",
+    "title": "Walt Whitman",
+    "artist": "",
+    "year": ""
+  },
+  "dickinson": {
+    "wiki": "Emily Dickinson",
+    "title": "Emily Dickinson",
+    "artist": "",
+    "year": ""
+  },
+  "thoreau": {
+    "wiki": "Henry David Thoreau",
+    "title": "Henry David Thoreau",
+    "artist": "",
+    "year": ""
+  },
+  "emerson": {
+    "wiki": "Ralph Waldo Emerson",
+    "title": "Ralph Waldo Emerson",
+    "artist": "",
+    "year": ""
+  },
+  "stowe": {
+    "wiki": "Harriet Beecher Stowe",
+    "title": "Harriet Beecher Stowe",
+    "artist": "",
+    "year": ""
+  },
+  "twain": {
+    "wiki": "Mark Twain",
+    "title": "Mark Twain",
+    "artist": "",
+    "year": ""
+  },
+  "hemingway": {
+    "wiki": "Ernest Hemingway",
+    "title": "Ernest Hemingway",
+    "artist": "",
+    "year": ""
+  },
+  "fitzgerald": {
+    "wiki": "F. Scott Fitzgerald",
+    "title": "F. Scott Fitzgerald",
+    "artist": "",
+    "year": ""
+  },
+  "steinbeck": {
+    "wiki": "John Steinbeck",
+    "title": "John Steinbeck",
+    "artist": "",
+    "year": ""
+  },
+  "faulkner": {
+    "wiki": "William Faulkner",
+    "title": "William Faulkner",
+    "artist": "",
+    "year": ""
+  },
+  "london": {
+    "wiki": "Jack London",
+    "title": "Jack London",
+    "artist": "",
+    "year": ""
+  },
+  "hughes": {
+    "wiki": "Langston Hughes",
+    "title": "Langston Hughes",
+    "artist": "",
+    "year": ""
   }
 }

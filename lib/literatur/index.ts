@@ -17,6 +17,8 @@ import { FR_19JH } from './fr-19jh';
 import { FR_MODERNE } from './fr-moderne';
 import { RU_19JH } from './ru-19jh';
 import { RU_20JH } from './ru-20jh';
+import { US_19JH } from './us-19jh';
+import { US_20JH } from './us-20jh';
 
 // Literatur: countries (epochs) → literary epochs (events) → overview + authors (subtopics),
 // reusing the history types. Progress is stored like the countries' under
@@ -49,6 +51,12 @@ export const LITERATUR: CountryHistory = {
       name: 'Russland',
       period: 'um 1820 – heute',
       events: [RU_19JH, RU_20JH],
+    },
+    {
+      id: 'usa',
+      name: 'USA',
+      period: 'um 1820 – heute',
+      events: [US_19JH, US_20JH],
     },
   ],
 };

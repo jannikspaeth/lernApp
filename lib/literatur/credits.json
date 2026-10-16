@@ -642,5 +642,95 @@
     "author": "Herman Mishkin",
     "licence": "Public domain",
     "page": "https://commons.wikimedia.org/wiki/File:Maxim_Gorky_LOC_Restored.jpg"
+  },
+  "poe": {
+    "file": "Edgar_Allan_Poe_daguerreotype_crop.png",
+    "author": "Unknown authorUnknown author; most likely George C. Gilchrest, Samuel P. Howes, James M. Pearson, or Andrew J. Simpson, all of Lowell, MA",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Edgar_Allan_Poe_daguerreotype_crop.png"
+  },
+  "hawthorne": {
+    "file": "Nathaniel_Hawthorne_by_Brady,_1860-64.jpg",
+    "author": "Mathew Benjamin Brady",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Nathaniel_Hawthorne_by_Brady,_1860-64.jpg"
+  },
+  "melville": {
+    "file": "Herman_Melville_by_Joseph_O_Eaton.jpg",
+    "author": "Joseph Oriel Eaton",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Herman_Melville_by_Joseph_O_Eaton.jpg"
+  },
+  "whitman": {
+    "file": "Whitman_at_about_fifty.jpg",
+    "author": "G. Frank E. Pearsall",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Whitman_at_about_fifty.jpg"
+  },
+  "dickinson": {
+    "file": "Black-white_photograph_of_Emily_Dickinson2.png",
+    "author": "Unknown authorUnknown author",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Black-white_photograph_of_Emily_Dickinson2.png"
+  },
+  "thoreau": {
+    "file": "Benjamin_D._Maxham_-_Henry_David_Thoreau_-_Restored.jpg",
+    "author": "Benjamin D. Maxham active 1848 - 1858",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Benjamin_D._Maxham_-_Henry_David_Thoreau_-_Restored.jpg"
+  },
+  "emerson": {
+    "file": "Emerson_by_Johnson_1846-crop.jpg",
+    "author": "Eastman Johnson",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Emerson_by_Johnson_1846-crop.jpg"
+  },
+  "stowe": {
+    "file": "Beecher-Stowe_3.jpg",
+    "author": "unbekannt",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Beecher-Stowe_3.jpg"
+  },
+  "twain": {
+    "file": "MarkTwain.LOC.jpg",
+    "author": "Unknown authorUnknown author",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:MarkTwain.LOC.jpg"
+  },
+  "hemingway": {
+    "file": "Ernest_Hemingway_Writing_at_Campsite_in_Kenya_-_NARA_-_192655.jpg",
+    "author": "Look Magazine, Photographer (NARA record: 1106476)",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Ernest_Hemingway_Writing_at_Campsite_in_Kenya_-_NARA_-_192655.jpg"
+  },
+  "steinbeck": {
+    "file": "JohnSteinbeck_crop.JPG",
+    "author": "JohnSteinbeck.JPG: US Government derivative work: Homonihilis (talk)",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:JohnSteinbeck_crop.JPG"
+  },
+  "faulkner": {
+    "file": "Carl_Van_Vechten_-_William_Faulkner_(greyscale_and_cropped).jpg",
+    "author": "Carl Van Vechten",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Carl_Van_Vechten_-_William_Faulkner_(greyscale_and_cropped).jpg"
+  },
+  "london": {
+    "file": "JackLondon02.jpeg",
+    "author": "Unknown authorUnknown author",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:JackLondon02.jpeg"
+  },
+  "hughes": {
+    "file": "LangstonHughes_crop.jpg",
+    "author": "Carl Van Vechten; cropped by Beyond My Ken (talk) 07:07, 5 August 2010 (UTC)",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:LangstonHughes_crop.jpg"
+  },
+  "fitzgerald": {
+    "file": "Carl_van_Vechten_-_Francis_Scott_Fitzgerald_1937_Detail.jpg",
+    "author": "Carl Van Vechten",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Carl_van_Vechten_-_Francis_Scott_Fitzgerald_1937_Detail.jpg"
   }
 }
