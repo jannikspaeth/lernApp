@@ -12,6 +12,9 @@ import { EN_AUFKLAERUNG } from './en-aufklaerung';
 import { EN_ROMANTIK } from './en-romantik';
 import { EN_VIKTORIANISCH } from './en-viktorianisch';
 import { EN_MODERNE } from './en-moderne';
+import { FR_KLASSIK } from './fr-klassik';
+import { FR_19JH } from './fr-19jh';
+import { FR_MODERNE } from './fr-moderne';
 
 // Literatur: countries (epochs) → literary epochs (events) → overview + authors (subtopics),
 // reusing the history types. Progress is stored like the countries' under
@@ -32,6 +35,12 @@ export const LITERATUR: CountryHistory = {
       name: 'England und Irland',
       period: 'um 1550 – heute',
       events: [EN_RENAISSANCE, EN_AUFKLAERUNG, EN_ROMANTIK, EN_VIKTORIANISCH, EN_MODERNE],
+    },
+    {
+      id: 'frankreich',
+      name: 'Frankreich',
+      period: 'um 1630 – heute',
+      events: [FR_KLASSIK, FR_19JH, FR_MODERNE],
     },
   ],
 };

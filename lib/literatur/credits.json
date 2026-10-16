@@ -417,5 +417,145 @@
     "author": "Branwell Brontë",
     "licence": "Public domain",
     "page": "https://commons.wikimedia.org/wiki/File:The_Bront%C3%AB_Sisters_by_Patrick_Branwell_Bront%C3%AB_restored.jpg"
+  },
+  "moliere": {
+    "file": "Molière_-_Nicolas_Mignard_(1658).jpg",
+    "author": "unbekannt",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Moli%C3%A8re_-_Nicolas_Mignard_(1658).jpg"
+  },
+  "racine": {
+    "file": "Portrait_de_Jean_Racine_d'après_Jean-Baptiste_Santerre.jpg",
+    "author": "After Jean-Baptiste Santerre",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Portrait_de_Jean_Racine_d%27apr%C3%A8s_Jean-Baptiste_Santerre.jpg"
+  },
+  "corneille": {
+    "file": "Pierre_Corneille_2.jpg",
+    "author": "After Charles Le Brun",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Pierre_Corneille_2.jpg"
+  },
+  "lafontaine": {
+    "file": "Jean_de_La_Fontaine.PNG",
+    "author": "Hyacinthe Rigaud",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Jean_de_La_Fontaine.PNG"
+  },
+  "voltaire": {
+    "file": "Atelier_de_Nicolas_de_Largillière,_portrait_de_Voltaire,_détail_(musée_Carnavalet)_-002.jpg",
+    "author": "Nicolas de Largillière",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Atelier_de_Nicolas_de_Largilli%C3%A8re,_portrait_de_Voltaire,_d%C3%A9tail_(mus%C3%A9e_Carnavalet)_-002.jpg"
+  },
+  "rousseau": {
+    "file": "Jean-Jacques_Rousseau_(painted_portrait).jpg",
+    "author": "Maurice Quentin de La Tour",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Jean-Jacques_Rousseau_(painted_portrait).jpg"
+  },
+  "diderot": {
+    "file": "Denis_Diderot_111.PNG",
+    "author": "Unknown authorUnknown author",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Denis_Diderot_111.PNG"
+  },
+  "stendhal": {
+    "file": "Stendhal.jpg",
+    "author": "Olof Johan Södermark",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Stendhal.jpg"
+  },
+  "flaubert": {
+    "file": "Gustave_Flaubert.jpg",
+    "author": "Nadar",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Gustave_Flaubert.jpg"
+  },
+  "zola": {
+    "file": "Émile_Zola_Nadar.jpg",
+    "author": "Nadar",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:%C3%89mile_Zola_Nadar.jpg"
+  },
+  "baudelaire": {
+    "file": "Étienne_Carjat,_Portrait_of_Charles_Baudelaire,_circa_1862.jpg",
+    "author": "Étienne Carjat",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:%C3%89tienne_Carjat,_Portrait_of_Charles_Baudelaire,_circa_1862.jpg"
+  },
+  "rimbaud": {
+    "file": "Arthur_Rimbaud_by_Carjat_-_Musée_Arthur_Rimbaud.jpg",
+    "author": "Étienne Carjat",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Arthur_Rimbaud_by_Carjat_-_Mus%C3%A9e_Arthur_Rimbaud.jpg"
+  },
+  "proust": {
+    "file": "Otto_Wegener_Proust_vers_1895_bis.jpg",
+    "author": "Otto Wegener",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Otto_Wegener_Proust_vers_1895_bis.jpg"
+  },
+  "camus": {
+    "file": "Albert_Camus,_gagnant_de_prix_Nobel,_portrait_en_buste,_posé_au_bureau,_faisant_face_à_gauche,_cigarette_de_tabagisme.jpg",
+    "author": "Photograph by United Press International",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Albert_Camus,_gagnant_de_prix_Nobel,_portrait_en_buste,_pos%C3%A9_au_bureau,_faisant_face_%C3%A0_gauche,_cigarette_de_tabagisme.jpg"
+  },
+  "sartre": {
+    "file": "Sartre_1967_crop.jpg",
+    "author": "https://www.flickr.com/people/69061470@N05",
+    "licence": "CC BY 3.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Sartre_1967_crop.jpg"
+  },
+  "beauvoir": {
+    "file": "Simone_de_Beauvoir2.png",
+    "author": "Moshe Milner",
+    "licence": "CC BY-SA 3.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Simone_de_Beauvoir2.png"
+  },
+  "saint-exupery": {
+    "file": "Antoine_de_Saint-Exupéry.jpg",
+    "author": "Unknown authorUnknown author",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Antoine_de_Saint-Exup%C3%A9ry.jpg"
+  },
+  "montesquieu": {
+    "file": "Montesquieu_1.png",
+    "author": "After Jacques-Antoine Dassier",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Montesquieu_1.png"
+  },
+  "hugo": {
+    "file": "Victor_Hugo_by_Étienne_Carjat_1876_-_full.jpg",
+    "author": "Étienne Carjat",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Victor_Hugo_by_%C3%89tienne_Carjat_1876_-_full.jpg"
+  },
+  "balzac": {
+    "file": "Honoré_de_Balzac_(1842)_Detail.jpg",
+    "author": "Louis-Auguste Bisson",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Honor%C3%A9_de_Balzac_(1842)_Detail.jpg"
+  },
+  "verlaine": {
+    "file": "Netsurf17_-_Paul_Verlaine.png",
+    "author": "unbekannt",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Netsurf17_-_Paul_Verlaine.png"
+  },
+  "maupassant": {
+    "file": "Maupassant_par_Nadar.jpg",
+    "author": "Nadar",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Maupassant_par_Nadar.jpg"
+  },
+  "dumas": {
+    "file": "Nadar_-_Alexander_Dumas_père_(1802-1870)_-_Google_Art_Project_2.jpg",
+    "author": "Nadar",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Nadar_-_Alexander_Dumas_p%C3%A8re_(1802-1870)_-_Google_Art_Project_2.jpg"
   }
 }

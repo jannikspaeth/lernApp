@@ -410,5 +410,143 @@
     "title": "William Butler Yeats",
     "artist": "",
     "year": ""
+  },
+  "moliere": {
+    "wiki": "Molière",
+    "title": "Molière",
+    "artist": "",
+    "year": ""
+  },
+  "racine": {
+    "wiki": "Jean Racine",
+    "title": "Jean Racine",
+    "artist": "",
+    "year": ""
+  },
+  "corneille": {
+    "wiki": "Pierre Corneille",
+    "title": "Pierre Corneille",
+    "artist": "",
+    "year": ""
+  },
+  "lafontaine": {
+    "wiki": "Jean de La Fontaine",
+    "title": "Jean de La Fontaine",
+    "artist": "",
+    "year": ""
+  },
+  "voltaire": {
+    "wiki": "Voltaire",
+    "title": "Voltaire",
+    "artist": "",
+    "year": ""
+  },
+  "rousseau": {
+    "wiki": "Jean-Jacques Rousseau",
+    "title": "Jean-Jacques Rousseau",
+    "artist": "",
+    "year": ""
+  },
+  "diderot": {
+    "wiki": "Denis Diderot",
+    "title": "Denis Diderot",
+    "artist": "",
+    "year": ""
+  },
+  "montesquieu": {
+    "wiki": "Montesquieu",
+    "title": "Montesquieu",
+    "artist": "",
+    "year": ""
+  },
+  "hugo": {
+    "wiki": "Victor Hugo",
+    "title": "Victor Hugo",
+    "artist": "",
+    "year": ""
+  },
+  "balzac": {
+    "wiki": "Honoré de Balzac",
+    "title": "Honoré de Balzac",
+    "artist": "",
+    "year": ""
+  },
+  "stendhal": {
+    "wiki": "Stendhal",
+    "title": "Stendhal",
+    "artist": "",
+    "year": ""
+  },
+  "flaubert": {
+    "wiki": "Gustave Flaubert",
+    "title": "Gustave Flaubert",
+    "artist": "",
+    "year": ""
+  },
+  "zola": {
+    "wiki": "Émile Zola",
+    "title": "Émile Zola",
+    "artist": "",
+    "year": ""
+  },
+  "baudelaire": {
+    "wiki": "Charles Baudelaire",
+    "title": "Charles Baudelaire",
+    "artist": "",
+    "year": ""
+  },
+  "rimbaud": {
+    "wiki": "Arthur Rimbaud",
+    "title": "Arthur Rimbaud",
+    "artist": "",
+    "year": ""
+  },
+  "verlaine": {
+    "wiki": "Paul Verlaine",
+    "title": "Paul Verlaine",
+    "artist": "",
+    "year": ""
+  },
+  "maupassant": {
+    "wiki": "Guy de Maupassant",
+    "title": "Guy de Maupassant",
+    "artist": "",
+    "year": ""
+  },
+  "dumas": {
+    "wiki": "Alexandre Dumas der Ältere",
+    "title": "Alexandre Dumas",
+    "artist": "",
+    "year": ""
+  },
+  "proust": {
+    "wiki": "Marcel Proust",
+    "title": "Marcel Proust",
+    "artist": "",
+    "year": ""
+  },
+  "camus": {
+    "wiki": "Albert Camus",
+    "title": "Albert Camus",
+    "artist": "",
+    "year": ""
+  },
+  "sartre": {
+    "wiki": "Jean-Paul Sartre",
+    "title": "Jean-Paul Sartre",
+    "artist": "",
+    "year": ""
+  },
+  "beauvoir": {
+    "wiki": "Simone de Beauvoir",
+    "title": "Simone de Beauvoir",
+    "artist": "",
+    "year": ""
+  },
+  "saint-exupery": {
+    "wiki": "Antoine de Saint-Exupéry",
+    "title": "Antoine de Saint-Exupéry",
+    "artist": "",
+    "year": ""
   }
 }
