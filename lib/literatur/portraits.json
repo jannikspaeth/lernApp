@@ -548,5 +548,90 @@
     "title": "Antoine de Saint-Exupéry",
     "artist": "",
     "year": ""
+  },
+  "puschkin": {
+    "wiki": "Alexander Sergejewitsch Puschkin",
+    "title": "Alexander Puschkin",
+    "artist": "",
+    "year": ""
+  },
+  "gogol": {
+    "wiki": "Nikolai Wassiljewitsch Gogol",
+    "title": "Nikolai Gogol",
+    "artist": "",
+    "year": ""
+  },
+  "turgenjew": {
+    "wiki": "Iwan Sergejewitsch Turgenew",
+    "title": "Iwan Turgenjew",
+    "artist": "",
+    "year": ""
+  },
+  "dostojewski": {
+    "wiki": "Fjodor Michailowitsch Dostojewski",
+    "title": "Fjodor Dostojewski",
+    "artist": "",
+    "year": ""
+  },
+  "tolstoi": {
+    "wiki": "Lew Nikolajewitsch Tolstoi",
+    "title": "Lew Tolstoi",
+    "artist": "",
+    "year": ""
+  },
+  "tschechow": {
+    "wiki": "Anton Pawlowitsch Tschechow",
+    "title": "Anton Tschechow",
+    "artist": "",
+    "year": ""
+  },
+  "gorki": {
+    "wiki": "Maxim Gorki",
+    "title": "Maxim Gorki",
+    "artist": "",
+    "year": "",
+    "file": "Maxim Gorky LOC Restored.jpg"
+  },
+  "bulgakow": {
+    "wiki": "Michail Afanassjewitsch Bulgakow",
+    "title": "Michail Bulgakow",
+    "artist": "",
+    "year": ""
+  },
+  "pasternak": {
+    "wiki": "Boris Leonidowitsch Pasternak",
+    "title": "Boris Pasternak",
+    "artist": "",
+    "year": ""
+  },
+  "solschenizyn": {
+    "wiki": "Alexander Issajewitsch Solschenizyn",
+    "title": "Alexander Solschenizyn",
+    "artist": "",
+    "year": ""
+  },
+  "achmatowa": {
+    "wiki": "Anna Andrejewna Achmatowa",
+    "title": "Anna Achmatowa",
+    "artist": "",
+    "year": ""
+  },
+  "zwetajewa": {
+    "wiki": "Marina Iwanowna Zwetajewa",
+    "title": "Marina Zwetajewa",
+    "artist": "",
+    "year": ""
+  },
+  "majakowski": {
+    "wiki": "Wladimir Wladimirowitsch Majakowski",
+    "title": "Wladimir Majakowski",
+    "artist": "",
+    "year": ""
+  },
+  "nabokov": {
+    "wiki": "Vladimir Nabokov",
+    "title": "Vladimir Nabokov",
+    "artist": "",
+    "year": ""
   }
 }
