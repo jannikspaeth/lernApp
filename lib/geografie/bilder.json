@@ -159,5 +159,71 @@
     "title": "Wappen Irlands",
     "artist": "",
     "year": ""
+  },
+  "cover-erde": {
+    "wiki": "Erde",
+    "title": "Erde",
+    "artist": "",
+    "year": ""
+  },
+  "cover-everest": {
+    "wiki": "Mount Everest",
+    "title": "Mount Everest",
+    "artist": "",
+    "year": ""
+  },
+  "cover-matterhorn": {
+    "wiki": "Matterhorn",
+    "title": "Matterhorn",
+    "artist": "",
+    "year": ""
+  },
+  "cover-grandcanyon": {
+    "wiki": "Grand Canyon",
+    "title": "Grand Canyon",
+    "artist": "",
+    "year": ""
+  },
+  "cover-tajmahal": {
+    "wiki": "Taj Mahal",
+    "title": "Taj Mahal",
+    "artist": "",
+    "year": ""
+  },
+  "cover-burj": {
+    "wiki": "Burj Khalifa",
+    "title": "Burj Khalifa",
+    "artist": "",
+    "year": ""
+  },
+  "cover-oper": {
+    "wiki": "Sydney Opera House",
+    "title": "Sydney Opera House",
+    "artist": "",
+    "year": ""
+  },
+  "cover-kili": {
+    "wiki": "Kilimandscharo",
+    "title": "Kilimandscharo",
+    "artist": "",
+    "year": ""
+  },
+  "cover-machu": {
+    "wiki": "Machu Picchu",
+    "title": "Machu Picchu",
+    "artist": "",
+    "year": ""
+  },
+  "cover-eiffel": {
+    "wiki": "Eiffelturm",
+    "title": "Eiffelturm",
+    "artist": "",
+    "year": ""
+  },
+  "cover-skyline": {
+    "wiki": "Shanghai",
+    "title": "Shanghai",
+    "artist": "",
+    "year": ""
   }
 }

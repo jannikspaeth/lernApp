@@ -60,3 +60,13 @@ export const coatsImages = build('wappen-bilder', ['Coats of arms', 'Wappen erke
   ['wappen-tschechien', 'Tschechien', 'Der böhmische Löwe, der mährische Adler und der schlesische Adler.'],
   ['wappen-ungarn', 'Ungarn', 'Die Stephanskrone über dem Doppelkreuz.'],
 ]);
+
+// Title pictures (photos from Wikimedia Commons), only when downloaded and credited.
+export const coverSrc = (key: string): string | null => (CREDITS[key] && key in BILDER ? `/geo/${key}.jpg` : null);
+const CAT_COVER: Record<string, string> = { laender: 'cover-erde', physisch: 'cover-everest', staedte: 'cover-skyline', dach: 'cover-matterhorn', regionen: 'cover-grandcanyon', kultur: 'cover-tajmahal', rekorde: 'cover-kili', spezial: 'sat-nildelta' };
+const CONT_COVER: Record<string, string> = { europa: 'cover-eiffel', asien: 'cover-tajmahal', afrika: 'cover-kili', nordamerika: 'cover-grandcanyon', suedamerika: 'cover-machu', ozeanien: 'cover-oper' };
+export const categoryCover = (cat: string): string | null => (CAT_COVER[cat] ? coverSrc(CAT_COVER[cat]) : null);
+export const quizCover = (cat: string, quizId: string): string | null => {
+  const k = Object.keys(CONT_COVER).find(c => quizId.endsWith(`-${c}`));
+  return (k && coverSrc(CONT_COVER[k])) || categoryCover(cat);
+};

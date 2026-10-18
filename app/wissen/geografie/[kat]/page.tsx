@@ -2,6 +2,7 @@ import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { CATS } from '@/lib/geografie/cats';
 import { QUIZZES } from '@/lib/geografie/quizzes';
+import { quizCover } from '@/lib/geografie/bilder';
 import QuizList from '@/components/geo/QuizList';
 import Icon from '@/components/Icon';
 import { getSubject } from '@/lib/wissen';
@@ -17,7 +18,7 @@ export default async function GeoCategoryPage({ params }: { params: Promise<{ ka
   const { kat } = await params;
   const cat = CATS.find(c => c.id === kat);
   if (!cat) notFound();
-  const rows = QUIZZES.filter(q => q.cat === kat).map(q => ({ id: q.id, title: q.title, blurb: q.blurb, total: q.items.length, seconds: q.seconds, section: q.section, art: q.art ?? [] }));
+  const rows = QUIZZES.filter(q => q.cat === kat).map(q => ({ id: q.id, title: q.title, blurb: q.blurb, total: q.items.length, seconds: q.seconds, section: q.section, art: q.art ?? [], cover: quizCover(q.cat, q.id) }));
   const cardCount = getSubject('geografie')!.topics.filter(tp => tp.group?.[1] === cat.group[1]).reduce((n, tp) => n + tp.cards.length, 0);
   return (
     <main className="md:ml-56 min-h-screen bg-canvas pb-24 md:pb-10">

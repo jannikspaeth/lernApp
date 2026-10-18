@@ -157,5 +157,73 @@
     "author": "unbekannt",
     "licence": "Public domain",
     "page": "https://commons.wikimedia.org/wiki/File:Coat_of_arms_of_the_Czech_Republic.svg"
+  },
+  "cover-erde": {
+    "file": "The_Blue_Marble_(remastered).jpg",
+    "author": "NASA/Apollo 17 crew; taken by either Harrison Schmitt or Ron Evans",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:The_Blue_Marble_(remastered).jpg"
+  },
+  "cover-everest": {
+    "file": "Everest_North_Face_toward_Base_Camp_Tibet_Luca_Galuzzi_2006.jpg",
+    "author": "Luca Galuzzi (Lucag)",
+    "licence": "CC BY-SA 2.5",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+    "page": "https://commons.wikimedia.org/wiki/File:Everest_North_Face_toward_Base_Camp_Tibet_Luca_Galuzzi_2006.jpg"
+  },
+  "cover-matterhorn": {
+    "file": "3818_-_Riffelberg_-_Matterhorn_viewed_from_Gornergratbahn.JPG",
+    "author": "Andrew Bossi",
+    "licence": "CC BY-SA 2.5",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+    "page": "https://commons.wikimedia.org/wiki/File:3818_-_Riffelberg_-_Matterhorn_viewed_from_Gornergratbahn.JPG"
+  },
+  "cover-grandcanyon": {
+    "file": "Grand_Canyon_South_Rim_Trail_P4140464.jpg",
+    "author": "Alexander Migl",
+    "licence": "CC BY-SA 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Grand_Canyon_South_Rim_Trail_P4140464.jpg"
+  },
+  "cover-tajmahal": {
+    "file": "Taj_Mahal,_Agra,_India_edit3.jpg",
+    "author": "Taj_Mahal,_Agra,_India_edit2.jpg: Yann; edited by King of Hearts derivative work: Jbarta (talk)",
+    "licence": "CC BY-SA 3.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Taj_Mahal,_Agra,_India_edit3.jpg"
+  },
+  "cover-oper": {
+    "file": "Sydney_Australia._(21339175489).jpg",
+    "author": "Bernard Spragg. NZ from Christchurch, New Zealand",
+    "licence": "CC0",
+    "licenceUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:Sydney_Australia._(21339175489).jpg"
+  },
+  "cover-kili": {
+    "file": "Kibo_summit_of_Mt_Kilimanjaro_001.JPG",
+    "author": "Yosemite",
+    "licence": "CC BY-SA 3.0",
+    "licenceUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Kibo_summit_of_Mt_Kilimanjaro_001.JPG"
+  },
+  "cover-machu": {
+    "file": "Maccu_Picchu_Peru_(132679159).jpeg",
+    "author": "Keith Gandy",
+    "licence": "CC BY-SA 3.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Maccu_Picchu_Peru_(132679159).jpeg"
+  },
+  "cover-eiffel": {
+    "file": "Tour_Eiffel_Wikimedia_Commons.jpg",
+    "author": "Benh LIEU SONG",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Tour_Eiffel_Wikimedia_Commons.jpg"
+  },
+  "cover-skyline": {
+    "file": "Shanghai_montage.png",
+    "author": "ASDFGHJ, pontmarcheur (compilations, for proper attribution you have to name the authors of source images",
+    "licence": "CC BY-SA 3.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Shanghai_montage.png"
   }
 }

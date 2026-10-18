@@ -49,6 +49,7 @@ export default function SubjectView({
   onlyGroup,
   extra,
   backHref,
+  bare = false,
 }: {
   subjectId: string;
   hideTopics?: boolean;
@@ -56,6 +57,7 @@ export default function SubjectView({
   onlyGroup?: string; // show only the topics of this group (German group name): a category page
   extra?: ReactNode; // server-rendered links below the topics (category page)
   backHref?: string;
+  bare?: boolean; // only the title and the history section (Geografie: the tiles come first)
 }) {
   const full = getSubject(subjectId) as Subject;
   const subject = useMemo<Subject>(
@@ -220,7 +222,7 @@ export default function SubjectView({
 
         {!session && (
           <>
-            <div className="rounded-2xl border border-line bg-surface p-5 space-y-4">
+            {!bare && <div className="rounded-2xl border border-line bg-surface p-5 space-y-4">
               <div className="flex items-center justify-between gap-3">
                 <div>
                   <p className="font-semibold text-ink">
@@ -243,9 +245,9 @@ export default function SubjectView({
               >
                 {t(`Mixed round · ${ROUND_SIZE} cards`, `Gemischte Runde · ${ROUND_SIZE} Karten`)} <Icon name="arrowRight" size={18} />
               </button>
-            </div>
+            </div>}
 
-            {!onlyGroup && subject.links?.map(l => (
+            {!bare && !onlyGroup && subject.links?.map(l => (
               <Link
                 key={l.href}
                 href={l.href}

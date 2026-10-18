@@ -8,7 +8,7 @@ import { useWissenProgress } from '@/components/laender/EventProgress';
 import { recordGeoBest } from '@/lib/storage';
 import { betterGeoBest, type GeoBest } from '@/lib/wissen/progress';
 
-export interface QuizRow { id: string; title: string; blurb: string; total: number; seconds: number; section: string; art: string[] }
+export interface QuizRow { id: string; title: string; blurb: string; total: number; seconds: number; section: string; art: string[]; cover?: string | null }
 
 const LOCAL_KEY = 'lernapp_geo_best';
 
@@ -54,7 +54,7 @@ function Badge({ b }: { b?: GeoBest }) {
 }
 
 // Quizzes of a category: a tile each (picture mosaic, title, best run); long runs of similar quizzes become compact chips.
-export default function QuizList({ rows }: { rows: QuizRow[]; tint?: string }) {
+export default function QuizList({ rows, compactAll = false }: { rows: QuizRow[]; tint?: string; compactAll?: boolean }) {
   const t = useT();
   const best = useBests();
   const sections = [...new Set(rows.map(r => r.section))];
@@ -63,7 +63,7 @@ export default function QuizList({ rows }: { rows: QuizRow[]; tint?: string }) {
       {sections.map((sec, si) => {
         const list = rows.filter(r => r.section === sec);
         const done = list.filter(r => best[r.id] && best[r.id].solved === best[r.id].total).length;
-        const compact = list.length > 14;
+        const compact = compactAll || list.length > 14;
         return (
           <section key={sec} className="space-y-3">
             <div className="flex items-baseline justify-between gap-3">
@@ -98,20 +98,24 @@ export default function QuizList({ rows }: { rows: QuizRow[]; tint?: string }) {
                       href={`/geografie/quiz/${r.id}`}
                       className="group flex flex-col bg-surface rounded-2xl border border-line overflow-hidden hover:border-accent/40 transition-colors focus-visible:outline-2 focus-visible:outline-accent"
                     >
-                      <div className={`relative aspect-[16/10] bg-linear-to-br ${r.art.length ? 'from-slate-100 to-slate-200 dark:from-slate-800 dark:to-slate-900' : TINTS[(si + i) % TINTS.length]}`}>
-                        {r.art.length >= 2 ? (
-                          <div className="absolute inset-2.5 grid grid-cols-2 grid-rows-2 gap-1.5">
+                      <div className={`relative aspect-[16/10] bg-linear-to-br ${TINTS[(si + i) % TINTS.length]}`}>
+                        {r.art.length >= 4 && (r.id.startsWith('umrisse') || r.id === 'wappen' || r.id === 'satellitenbilder' || r.id.startsWith('flaggen')) ? (
+                          <div className="absolute inset-0 grid grid-cols-4 bg-white dark:bg-slate-800">
                             {r.art.slice(0, 4).map(src => (
                               // eslint-disable-next-line @next/next/no-img-element -- local SVG/JPG files
-                              <img key={src} src={src} alt="" loading="lazy" className="w-full h-full object-contain rounded-md bg-white p-0.5 border border-black/5" />
+                              <img key={src} src={src} alt="" loading="lazy" className={`w-full h-full ${r.id.startsWith('flaggen') ? 'object-cover' : 'object-contain p-1.5'}`} />
                             ))}
                           </div>
+                        ) : r.cover ? (
+                          // eslint-disable-next-line @next/next/no-img-element -- local photo
+                          <img src={r.cover} alt="" loading="lazy" className="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-[1.04]" />
                         ) : (
                           <span className="absolute inset-0 flex flex-col items-center justify-center text-white">
                             <span className="text-5xl font-bold tabular-nums leading-none text-white/90">{r.total}</span>
                             <span className="text-[11px] uppercase tracking-wider text-white/70 mt-1.5">{t('answers', 'Antworten')}</span>
                           </span>
                         )}
+                        <div className="absolute inset-0 bg-linear-to-t from-black/45 via-transparent to-black/10" />
                         <div className="absolute top-2 right-2"><Badge b={b} /></div>
                       </div>
                       <div className="p-3 space-y-1.5 flex-1">

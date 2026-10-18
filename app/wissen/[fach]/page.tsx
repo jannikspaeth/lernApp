@@ -5,6 +5,7 @@ import TileWall, { ContinueCard } from '@/components/wissen/TileWall';
 import { geschichteLandTiles, kunstEpochTiles, literaturLandTiles } from '@/lib/wissen/tiles';
 import { KUNST } from '@/lib/kunst';
 import { LITERATUR } from '@/lib/literatur';
+import { categoryCover } from '@/lib/geografie/bilder';
 import QuizList from '@/components/geo/QuizList';
 import { QUIZZES } from '@/lib/geografie/quizzes';
 import CategoryWall from '@/components/wissen/CategoryWall';
@@ -63,30 +64,31 @@ function history(fach: string) {
     };
   }
   if (fach === 'geografie') {
-    const subject = getSubject('geografie')!;
     const tiles = CATS.map((c, i) => {
-      const topics = subject.topics.filter(tp => tp.group?.[1] === c.group[1]);
-      const art = c.id === 'flaggen' ? ['de', 'jp', 'br', 'za'].map(x => `/flags/${x}.svg`)
-        : c.id === 'laender' ? ['it', 'jp', 'br', 'au'].map(x => `/umriss/${x}.svg`)
-        : [];
-      return { key: c.id, href: `/wissen/geografie/${c.id}`, index: i + 1, title: c.group[1], sub: `${QUIZZES.filter(q => q.cat === c.id).length} Quizze · ${c.blurb[1]}`, quizIds: QUIZZES.filter(q => q.cat === c.id).map(q => q.id), tint: c.tint, art, cards: topics.flatMap(tp => tp.cards.map(cd => ({ id: cd.id }))) };
+      const quizIds = QUIZZES.filter(q => q.cat === c.id).map(q => q.id);
+      const cover = categoryCover(c.id);
+      return {
+        key: c.id,
+        href: `/wissen/geografie/${c.id}`,
+        index: i + 1,
+        title: c.group[1],
+        sub: `${quizIds.length} Quizze`,
+        tint: c.tint,
+        cover,
+        mosaic: !cover && c.id === 'flaggen' ? 'de fr it jp br za in au ca'.split(' ').map(x => `/flags/${x}.svg`) : undefined,
+        quizIds,
+      };
     });
+    const quick = ['laender-welt', 'flaggen-europa', 'hauptstaedte-europa', 'umrisse-europa', 'us-staaten', 'achttausender']
+      .flatMap(id => QUIZZES.filter(q => q.id === id))
+      .map(q => ({ id: q.id, title: q.title, blurb: q.blurb, total: q.items.length, seconds: q.seconds, section: 'Direkt loslegen', art: q.art ?? [], cover: null }));
     return {
-      title: ['Typed quizzes', 'Quizze zum Tippen'] as [string, string],
-      sub: [`${QUIZZES.length} quizzes`, `${QUIZZES.length} Quizze`] as [string, string],
+      title: ['Geography', 'Geografie'] as [string, string],
+      sub: [`${QUIZZES.length} quizzes in ${tiles.length} categories`, `${QUIZZES.length} Quizze in ${tiles.length} Kategorien`] as [string, string],
       node: (
         <div className="space-y-8">
-          <QuizList
-            tint=""
-            rows={['laender-welt', 'flaggen-europa', 'hauptstaedte-europa', 'umrisse-europa', 'us-staaten', 'achttausender']
-              .flatMap(id => QUIZZES.filter(q => q.id === id))
-              .slice(0, 6)
-              .map(q => ({ id: q.id, title: q.title, blurb: q.blurb, total: q.items.length, seconds: q.seconds, section: 'Beliebte Quizze', art: q.art ?? [] }))}
-          />
-          <div className="space-y-3">
-            <h2 className="text-lg font-bold text-ink tracking-tight">Kategorien</h2>
-            <CategoryWall tiles={tiles} />
-          </div>
+          <CategoryWall tiles={tiles} />
+          <QuizList rows={quick} compactAll />
         </div>
       ),
     };
@@ -98,5 +100,5 @@ export default async function FachPage({ params }: { params: Promise<{ fach: str
   const { fach } = await params;
   if (!getSubject(fach)) notFound();
   const h = history(fach);
-  return <SubjectView subjectId={fach} hideTopics={fach === MIX.id || fach === 'geografie'} history={h ?? undefined} />;
+  return <SubjectView subjectId={fach} hideTopics={fach === MIX.id || fach === 'geografie'} bare={fach === 'geografie'} history={h ?? undefined} />;
 }
