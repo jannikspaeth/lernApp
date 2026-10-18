@@ -8,6 +8,7 @@ import { execFileSync } from 'node:child_process';
 const SETS = {
   kunst: { registry: 'lib/kunst/works.json', credits: 'lib/kunst/credits.json', out: 'public/kunst' },
   literatur: { registry: 'lib/literatur/portraits.json', credits: 'lib/literatur/credits.json', out: 'public/literatur' },
+  geschichte: { registry: 'lib/geschichte/portraits.json', credits: 'lib/geschichte/credits.json', out: 'public/geschichte' },
 };
 
 const root = path.resolve(import.meta.dirname, '..');

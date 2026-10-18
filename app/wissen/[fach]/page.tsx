@@ -2,7 +2,7 @@ import { notFound } from 'next/navigation';
 import { MIX, SUBJECTS, getSubject } from '@/lib/wissen';
 import SubjectView from '@/components/wissen/SubjectView';
 import TileWall, { ContinueCard } from '@/components/wissen/TileWall';
-import { kunstEpochTiles, literaturLandTiles } from '@/lib/wissen/tiles';
+import { geschichteLandTiles, kunstEpochTiles, literaturLandTiles } from '@/lib/wissen/tiles';
 import { KUNST } from '@/lib/kunst';
 import { LITERATUR } from '@/lib/literatur';
 
@@ -34,6 +34,19 @@ function history(fach: string) {
         <>
           <ContinueCard prefix="/kunst/" label="Weiter in der Kunstgeschichte" />
           <TileWall tiles={kunstEpochTiles()} />
+        </>
+      ),
+    };
+  }
+  if (fach === 'geschichte') {
+    const tiles = geschichteLandTiles();
+    return {
+      title: ['History by country', 'Geschichte nach Ländern'] as [string, string],
+      sub: [`${tiles.length} countries in depth`, `${tiles.length} Länder im Detail`] as [string, string],
+      node: (
+        <>
+          <ContinueCard prefix="/weltgeschichte/land/" label="Weiter in der Geschichte" />
+          <TileWall tiles={tiles} />
         </>
       ),
     };
