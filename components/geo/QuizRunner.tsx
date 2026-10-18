@@ -5,24 +5,14 @@ import Link from 'next/link';
 import Icon from '@/components/Icon';
 import { normName } from '@/lib/welt';
 import { useT } from '@/lib/ui-lang';
+import { useWissenProgress } from '@/components/laender/EventProgress';
 import type { GeoQuiz } from '@/lib/geografie/quizzes';
+import { recordGeoBest } from '@/lib/storage';
+import { betterGeoBest, type GeoBest } from '@/lib/wissen/progress';
+import { readLocalBests, writeLocalBest } from '@/components/geo/QuizList';
 
 type Phase = 'ready' | 'running' | 'done';
-const BEST_KEY = 'lernapp_geo_best';
-
-interface Best { solved: number; total: number; seconds: number }
-function readBest(id: string): Best | null {
-  try { return (JSON.parse(localStorage.getItem(BEST_KEY) ?? '{}') as Record<string, Best>)[id] ?? null; } catch { return null; }
-}
-function saveBest(id: string, b: Best): boolean {
-  try {
-    const all = JSON.parse(localStorage.getItem(BEST_KEY) ?? '{}') as Record<string, Best>;
-    const old = all[id];
-    if (old && (old.solved > b.solved || (old.solved === b.solved && old.seconds <= b.seconds))) return false;
-    localStorage.setItem(BEST_KEY, JSON.stringify({ ...all, [id]: b }));
-    return true;
-  } catch { return false; }
-}
+type Best = GeoBest;
 
 const fmt = (s: number) => `${Math.floor(s / 60)}:${String(Math.max(0, s) % 60).padStart(2, '0')}`;
 
@@ -39,7 +29,12 @@ export default function QuizRunner({ quiz, backHref, backLabel }: { quiz: GeoQui
   const startAt = useRef(0);
   const input = useRef<HTMLInputElement>(null);
 
-  useEffect(() => setBest(readBest(quiz.id)), [quiz.id]);
+  useEffect(() => setBest(readLocalBests()[quiz.id] ?? null), [quiz.id]);
+  const prog = useWissenProgress();
+  useEffect(() => {
+    const acc = prog?.geo?.[quiz.id];
+    if (acc) setBest(old => (betterGeoBest(old ?? undefined, acc) ? acc : old));
+  }, [prog, quiz.id]);
 
   // Normalised spellings per item.
   const keys = useMemo(() => quiz.items.map(i => [i.answer, ...i.accepts].map(normName).filter(Boolean)), [quiz]);
@@ -73,7 +68,12 @@ export default function QuizRunner({ quiz, backHref, backLabel }: { quiz: GeoQui
     setElapsed(e);
     setPhase('done');
     const b = { solved: solvedRef.current.size, total: quiz.items.length, seconds: e };
-    if (b.solved > 0 && saveBest(quiz.id, b)) { setNewBest(true); setBest(b); }
+    if (b.solved > 0) {
+      writeLocalBest(quiz.id, b);
+      recordGeoBest(quiz.id, b).catch(() => {});
+      setBest(cur => (betterGeoBest(cur ?? undefined, b) ? b : cur));
+      if (betterGeoBest(best ?? undefined, b)) setNewBest(true);
+    }
   }
 
   // Type: an exact match fills every cell with that answer at once. Names that begin another name

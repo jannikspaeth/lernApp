@@ -12,8 +12,19 @@ export interface CardProgress {
   w: number; // wrong answers
 }
 
+// Best run of a typed geography quiz (lib/geografie/quizzes.ts).
+export interface GeoBest {
+  solved: number;
+  total: number;
+  seconds: number;
+}
+
+export const betterGeoBest = (old: GeoBest | undefined, b: GeoBest) =>
+  !old || b.solved > old.solved || (b.solved === old.solved && b.seconds < old.seconds);
+
 export interface WissenProgress {
   cards: Record<string, CardProgress>;
+  geo?: Record<string, GeoBest>;
 }
 
 export const INTERVALS = [0, 1, 3, 7, 14, 30, 60];
@@ -26,7 +37,7 @@ export function emptyProgress(): WissenProgress {
 }
 
 export function normalizeProgress(d: Partial<WissenProgress> | null | undefined): WissenProgress {
-  return { cards: d?.cards ?? {} };
+  return { cards: d?.cards ?? {}, ...(d?.geo ? { geo: d.geo } : {}) };
 }
 
 export function applyAnswer(p: CardProgress | undefined, correct: boolean, now = new Date()): CardProgress {

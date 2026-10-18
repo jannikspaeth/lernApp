@@ -17,7 +17,7 @@ export default async function GeoCategoryPage({ params }: { params: Promise<{ ka
   const { kat } = await params;
   const cat = CATS.find(c => c.id === kat);
   if (!cat) notFound();
-  const rows = QUIZZES.filter(q => q.cat === kat).map(q => ({ id: q.id, title: q.title, blurb: q.blurb, total: q.items.length, seconds: q.seconds, section: q.section }));
+  const rows = QUIZZES.filter(q => q.cat === kat).map(q => ({ id: q.id, title: q.title, blurb: q.blurb, total: q.items.length, seconds: q.seconds, section: q.section, art: q.art ?? [] }));
   const cardCount = getSubject('geografie')!.topics.filter(tp => tp.group?.[1] === cat.group[1]).reduce((n, tp) => n + tp.cards.length, 0);
   return (
     <main className="md:ml-56 min-h-screen bg-canvas pb-24 md:pb-10">
@@ -26,9 +26,11 @@ export default async function GeoCategoryPage({ params }: { params: Promise<{ ka
           <Link href="/wissen/geografie" className="inline-flex items-center gap-1 -ml-1 h-9 pr-2 text-sm font-medium text-muted hover:text-ink">
             <Icon name="chevronLeft" size={18} /> Geografie
           </Link>
-          <div>
-            <h1 className="text-[28px] md:text-3xl font-bold text-ink tracking-tight leading-tight">{cat.group[1]}</h1>
-            <p className="text-muted text-sm mt-1">{cat.blurb[1]}</p>
+          <div className={`rounded-3xl bg-linear-to-br ${cat.tint} text-white p-6 md:p-7`}>
+            <p className="text-xs font-semibold uppercase tracking-wider text-white/70">Geografie</p>
+            <h1 className="text-[28px] md:text-3xl font-bold tracking-tight leading-tight mt-1">{cat.group[1]}</h1>
+            <p className="text-white/85 text-sm mt-1.5">{cat.blurb[1]}</p>
+            <p className="text-[13px] text-white/70 mt-4 tabular-nums">{rows.length} Quizze · {cardCount} Karten mit Antwortauswahl</p>
           </div>
         </div>
         {kat === 'spezial' && (
@@ -41,7 +43,7 @@ export default async function GeoCategoryPage({ params }: { params: Promise<{ ka
             <Icon name="chevronRight" size={18} className="text-faint" />
           </Link>
         )}
-        {rows.length > 0 && <QuizList rows={rows} />}
+        {rows.length > 0 && <QuizList rows={rows} tint={cat.tint} />}
         {cardCount > 0 && (
           <Link href={`/wissen/geografie/${kat}/karten`} className="flex items-center gap-3 bg-surface rounded-2xl border border-line p-4 hover:border-accent/40 transition-colors">
             <span className="w-10 h-10 rounded-xl bg-canvas border border-line text-ink flex items-center justify-center"><Icon name="list" size={20} /></span>

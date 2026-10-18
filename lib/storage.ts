@@ -15,7 +15,7 @@ import { Lang, LANG_STORAGE_KEY, dataUserId, isLang } from './lang';
 import { berlinToday } from './race';
 import { conjugationMatches } from './conjugation-match';
 import { nextVerbReview } from './verb-review';
-import { WissenProgress, emptyProgress, normalizeProgress } from './wissen/progress';
+import { GeoBest, WissenProgress, betterGeoBest, emptyProgress, normalizeProgress } from './wissen/progress';
 
 // ─── helpers ─────────────────────────────────────────────────────────────────
 
@@ -405,6 +405,13 @@ export function updateWissen(change: (p: WissenProgress) => WissenProgress | voi
   const p = wissenChain.then(run, run);
   wissenChain = p.catch(() => {});
   return p;
+}
+
+// Best run of a typed geography quiz, kept in the account (the best of old and new wins).
+export function recordGeoBest(id: string, b: GeoBest): Promise<WissenProgress> {
+  return updateWissen(p => {
+    if (betterGeoBest(p.geo?.[id], b)) p.geo = { ...p.geo, [id]: b };
+  });
 }
 
 // A finished blitz round (articles, or numbers/times/dates): bumps the counter and

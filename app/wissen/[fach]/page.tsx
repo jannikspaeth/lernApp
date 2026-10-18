@@ -5,6 +5,7 @@ import TileWall, { ContinueCard } from '@/components/wissen/TileWall';
 import { geschichteLandTiles, kunstEpochTiles, literaturLandTiles } from '@/lib/wissen/tiles';
 import { KUNST } from '@/lib/kunst';
 import { LITERATUR } from '@/lib/literatur';
+import QuizList from '@/components/geo/QuizList';
 import { QUIZZES } from '@/lib/geografie/quizzes';
 import CategoryWall from '@/components/wissen/CategoryWall';
 import { CATS } from '@/lib/geografie/cats';
@@ -71,9 +72,23 @@ function history(fach: string) {
       return { key: c.id, href: `/wissen/geografie/${c.id}`, index: i + 1, title: c.group[1], sub: `${QUIZZES.filter(q => q.cat === c.id).length} Quizze · ${c.blurb[1]}`, quizIds: QUIZZES.filter(q => q.cat === c.id).map(q => q.id), tint: c.tint, art, cards: topics.flatMap(tp => tp.cards.map(cd => ({ id: cd.id }))) };
     });
     return {
-      title: ['Geography by theme', 'Geografie nach Themen'] as [string, string],
-      sub: [`${tiles.length} categories`, `${tiles.length} Kategorien`] as [string, string],
-      node: <CategoryWall tiles={tiles} />,
+      title: ['Typed quizzes', 'Quizze zum Tippen'] as [string, string],
+      sub: [`${QUIZZES.length} quizzes`, `${QUIZZES.length} Quizze`] as [string, string],
+      node: (
+        <div className="space-y-8">
+          <QuizList
+            tint=""
+            rows={['laender-welt', 'flaggen-europa', 'hauptstaedte-europa', 'umrisse-europa', 'us-staaten', 'achttausender']
+              .flatMap(id => QUIZZES.filter(q => q.id === id))
+              .slice(0, 6)
+              .map(q => ({ id: q.id, title: q.title, blurb: q.blurb, total: q.items.length, seconds: q.seconds, section: 'Beliebte Quizze', art: q.art ?? [] }))}
+          />
+          <div className="space-y-3">
+            <h2 className="text-lg font-bold text-ink tracking-tight">Kategorien</h2>
+            <CategoryWall tiles={tiles} />
+          </div>
+        </div>
+      ),
     };
   }
   return null;

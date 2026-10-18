@@ -13,6 +13,7 @@ export interface QuizItem {
   answer: string; // shown when solved or revealed
   accepts: string[]; // accepted spellings, in addition to `answer`
   group?: string; // list quiz: heading the cell belongs to
+  code?: string; // ISO code when the answer is a country (preview flags)
 }
 
 export interface GeoQuiz {
@@ -24,6 +25,7 @@ export interface GeoQuiz {
   seconds: number;
   mode: 'list' | 'grid' | 'tiles'; // tiles: pictures in a grid, the answer under each
   items: QuizItem[];
+  art?: string[]; // preview pictures for the tile (flags, outlines, arms)
 }
 
 // Typing aids for long answers: "Italien (bei Neapel)" is accepted as "Italien", "A und B" as "A" and "B"
@@ -51,7 +53,7 @@ const quizzes: GeoQuiz[] = [];
 const add = (q: GeoQuiz) => { if (q.items.length >= 3) quizzes.push(q); };
 
 // ── Länder & Hauptstädte ──
-const countryItem = (c: Country, extra: Partial<QuizItem> = {}) => ({ answer: c.name, accepts: countryNames(c).filter(n => n !== c.name), ...extra });
+const countryItem = (c: Country, extra: Partial<QuizItem> = {}) => ({ answer: c.name, accepts: countryNames(c).filter(n => n !== c.name), code: c.code, ...extra });
 
 add({
   id: 'laender-welt', cat: 'laender', section: 'Länder', title: 'Alle Länder der Erde', blurb: 'Nenne alle 197 Staaten – in beliebiger Reihenfolge.',
@@ -151,6 +153,15 @@ lst('deutsche-grossstaedte', 'staedte', 'Städte', 'Deutsche Großstädte', 'Die
 const tilesOf = (t: { cards: { img?: string; a: string }[] }) => t.cards.filter(c => c.img).map(c => item(c.a, { img: c.img }));
 add({ id: 'wappen', cat: 'flaggen', section: 'Wappen', title: 'Wappen der Welt', blurb: 'Zu welchem Land gehört das Wappen?', seconds: 300, mode: 'tiles', items: tilesOf(coatsImages) });
 add({ id: 'satellitenbilder', cat: 'spezial', section: 'Bilder', title: 'Satellitenbilder erkennen', blurb: 'Welcher Ort ist von oben zu sehen?', seconds: 300, mode: 'tiles', items: tilesOf(satellites) });
+
+// Preview pictures: the quiz's own pictures, else the flags of the countries it asks for.
+for (const q of quizzes) {
+  const pics = q.items.filter(i => i.img).map(i => i.img as string);
+  const flags = q.items.filter(i => i.code).map(i => flagUrl(i.code as string));
+  const src = q.id.startsWith('umrisse') || q.id === 'wappen' || q.id === 'satellitenbilder' ? pics : flags.length >= 4 ? flags : pics;
+  const step = Math.max(1, Math.floor(src.length / 4));
+  q.art = [0, 1, 2, 3].map(i => src[i * step]).filter(Boolean);
+}
 
 export const QUIZZES = quizzes;
 export const quizById = (id: string) => quizzes.find(q => q.id === id);
