@@ -25,7 +25,7 @@ import { US_20JH } from './us-20jh';
 // `land.lit.<epoch>.<chapter>.<level>.<n>`, so epoch and chapter ids must stay stable.
 export const LITERATUR_CODE = 'LIT';
 
-export const LITERATUR: CountryHistory = {
+const RAW: CountryHistory = {
   code: LITERATUR_CODE,
   epochs: [
     {
@@ -74,3 +74,27 @@ export function findKapitel(epocheId: string, subId: string): { land: Epoch; eve
   const i = subs.findIndex(s => s.id === subId);
   return i < 0 ? null : { land: f.land, event: f.event, sub: subs[i], next: subs[i + 1], prev: subs[i - 1] };
 }
+
+// A well-known person (portrait) per country and per epoch for the tiles.
+const COVERS: Record<string, string> = {
+  deutschland: 'goethe', england: 'shakespeare', frankreich: 'hugo', russland: 'tolstoi', usa: 'twain',
+  'de-mittelalter-barock': 'walther', 'de-aufklaerung': 'lessing', 'de-klassik': 'schiller', 'de-romantik': 'eichendorff',
+  'de-vormaerz': 'heine', 'de-realismus': 'fontane', 'de-moderne': 'kafka', 'de-gegenwart': 'grass',
+  'en-renaissance': 'marlowe', 'en-aufklaerung': 'defoe', 'en-romantik': 'byron', 'en-viktorianisch': 'dickens', 'en-moderne': 'woolf',
+  'fr-klassik': 'moliere', 'fr-19jh': 'balzac', 'fr-moderne': 'camus',
+  'ru-19jh': 'dostojewski', 'ru-20jh': 'bulgakow',
+  'us-19jh': 'poe', 'us-20jh': 'hemingway',
+};
+const FLAGS: Record<string, string> = { deutschland: '🇩🇪', england: '🇬🇧', frankreich: '🇫🇷', russland: '🇷🇺', usa: '🇺🇸' };
+
+export const LITERATUR: CountryHistory = {
+  ...RAW,
+  epochs: RAW.epochs.map(land => ({
+    ...land,
+    cover: COVERS[land.id],
+    flag: FLAGS[land.id],
+    events: land.events.map(ev => ({ ...ev, cover: COVERS[ev.id] })),
+  })),
+};
+
+export const findLand = (id: string) => LITERATUR.epochs.find(l => l.id === id);

@@ -30,6 +30,7 @@ export interface HistEvent {
   text: string[]; // paragraphs, written for the app (with subtopics: a short introduction)
   quiz?: Quiz; // a topic without subtopics has its own quiz
   subtopics?: Subtopic[];
+  cover?: string; // Kunst/Literatur: picture key (lib/bild.ts) shown on the tile
 }
 
 // Everything with a quiz inside a topic, with its progress path.
@@ -49,6 +50,8 @@ export interface Epoch {
   name: string;
   period: string;
   events: HistEvent[];
+  cover?: string; // Kunst/Literatur: picture key (lib/bild.ts) shown on the tile
+  flag?: string; // Literatur: country flag emoji
 }
 
 export interface CountryHistory {

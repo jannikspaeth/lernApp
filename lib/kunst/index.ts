@@ -21,7 +21,7 @@ import { BAUKUNST_MODERNE } from './baukunst-moderne';
 // Progress is stored like the countries' under `land.kunst.<style>.<subtopic>.<level>.<n>`.
 export const KUNST_CODE = 'KUNST';
 
-export const KUNST: CountryHistory = {
+const RAW: CountryHistory = {
   code: KUNST_CODE,
   epochs: [
     { id: 'antike-mittelalter', name: 'Antike und Mittelalter', period: 'ca. 800 v. Chr. – 1500', events: [ANTIKE, ROMANIK, GOTIK] },
@@ -46,3 +46,23 @@ export function findKapitel(stilId: string, subId: string): { epoch: Epoch; even
   const i = subs.findIndex(s => s.id === subId);
   return i < 0 ? null : { epoch: f.epoch, event: f.event, sub: subs[i], next: subs[i + 1], prev: subs[i - 1] };
 }
+
+// A famous work or building per epoch and per style for the tiles.
+const COVERS: Record<string, string> = {
+  'antike-mittelalter': 'parthenon', neuzeit: 'mona-lisa', revolutionszeit: 'nebelmeer', 'moderne-anfaenge': 'sternennacht', moderne: 'schrei', architektur: 'sagrada-familia',
+  antike: 'diskobolos', romanik: 'speyerer-dom', gotik: 'chartres',
+  renaissance: 'mona-lisa', barock: 'nachtwache', rokoko: 'schaukel',
+  klassizismus: 'horatier', romantik: 'nebelmeer',
+  impressionismus: 'impression-sonnenaufgang', postimpressionismus: 'sternennacht',
+  jugendstil: 'kuss', expressionismus: 'blaues-pferd', abstraktion: 'mondrian-komposition',
+  'baukunst-antike': 'kolosseum', 'baukunst-mittelalter': 'koelner-dom', 'baukunst-neuzeit': 'petersdom', 'baukunst-moderne': 'sydney-oper',
+};
+
+export const KUNST: CountryHistory = {
+  ...RAW,
+  epochs: RAW.epochs.map(ep => ({
+    ...ep,
+    cover: COVERS[ep.id],
+    events: ep.events.map(ev => ({ ...ev, cover: COVERS[ev.id] })),
+  })),
+};

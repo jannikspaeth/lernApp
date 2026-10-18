@@ -1,6 +1,6 @@
 'use client';
 
-import { useCallback, useEffect, useMemo, useState } from 'react';
+import { useCallback, useEffect, useMemo, useState, type ReactNode } from 'react';
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
 import { useProfile } from '@/lib/use-profile';
@@ -36,7 +36,13 @@ interface Session {
 const MODE_KEY = 'lernapp_wissen_mode';
 const isMode = (v: string): v is Mode => v === 'quiz' || v === 'cards';
 
-export default function SubjectView({ subjectId, hideTopics = false }: { subjectId: string; hideTopics?: boolean }) {
+export interface SubjectHistory {
+  title: [string, string];
+  sub: [string, string];
+  node: ReactNode; // tile wall, rendered by the server page
+}
+
+export default function SubjectView({ subjectId, hideTopics = false, history }: { subjectId: string; hideTopics?: boolean; history?: SubjectHistory }) {
   const subject = getSubject(subjectId) as Subject;
   const { profile, ready } = useProfile();
   const router = useRouter();
@@ -238,7 +244,41 @@ export default function SubjectView({ subjectId, hideTopics = false }: { subject
               </Link>
             ))}
 
-            {!hideTopics && <div className="space-y-3">
+            {history && (
+              <section className="space-y-3">
+                <div className="flex items-baseline justify-between gap-3">
+                  <h2 className="text-lg font-bold text-ink tracking-tight">{t(...history.title)}</h2>
+                  <p className="text-[13px] text-muted">{t(...history.sub)}</p>
+                </div>
+                {history.node}
+              </section>
+            )}
+
+            {history && !hideTopics && (
+              <section className="space-y-3">
+                <div className="flex items-baseline justify-between gap-3 pt-2">
+                  <h2 className="text-lg font-bold text-ink tracking-tight">{t('Quick practice', 'Schnell üben')}</h2>
+                  <p className="text-[13px] text-muted">{t('by topic', 'nach Thema')}</p>
+                </div>
+                <div className="grid grid-cols-3 sm:grid-cols-4 gap-2.5">
+                  {subject.topics.map(topic => (
+                    <TopicTile
+                      key={topic.id}
+                      topic={topic}
+                      prog={prog}
+                      active={openTopic === topic.id}
+                      onStart={() => start(topic.group ? `${t(...topic.group)} · ${t(...topic.name)}` : t(...topic.name), topic.cards, !!topic.shuffle)}
+                      onList={() => setOpenTopic(o => (o === topic.id ? null : topic.id))}
+                    />
+                  ))}
+                </div>
+                {subject.topics.filter(tp => tp.id === openTopic).map(tp => (
+                  <CardList key={tp.id} topic={tp} prog={prog} />
+                ))}
+              </section>
+            )}
+
+            {!hideTopics && !history && <div className="space-y-3">
               {subject.topics.map((topic, i) => (
                 <div key={topic.id} className="space-y-3">
                 {topic.group && topic.group !== subject.topics[i - 1]?.group && (
@@ -327,8 +367,6 @@ function TopicRow({
 }) {
   const t = useT();
   const s = summarize(topic.cards, prog);
-  // Flag topics ask the same question every time — the list only needs the answers.
-  const sameQ = topic.cards.every(c => c.q === topic.cards[0].q);
   return (
     <div className="bg-surface rounded-2xl border border-line overflow-hidden">
       <div className="p-4 flex items-center gap-3">
@@ -357,26 +395,78 @@ function TopicRow({
           {t('Practise', 'Üben')} <Icon name="arrowRight" size={16} />
         </button>
       </div>
-      {open && (
-        <ul className="border-t border-line divide-y divide-line-soft">
-          {topic.cards.map(c => (
-            <li key={c.id} className="px-4 py-2.5 text-sm flex gap-2">
-              <span className="w-4 shrink-0 pt-0.5" aria-hidden="true">
-                {isMastered(prog.cards[c.id]) ? <Icon name="check" size={16} strokeWidth={2.25} className="text-good" /> : prog.cards[c.id] ? <span className="block w-2 h-2 mt-1.5 rounded-full bg-warn" /> : null}
-              </span>
-              {c.img && (
-                // eslint-disable-next-line @next/next/no-img-element -- local SVG flags
-                <img src={c.img} alt="" loading="lazy" className="h-6 w-8 object-cover rounded-sm border border-line shrink-0 mt-0.5" />
-              )}
-              <div>
-                {!sameQ && <p className="text-muted">{c.q}</p>}
-                <p className="font-medium text-ink">{c.a}</p>
-                {c.info && <p className="text-xs text-muted mt-0.5">{c.info}</p>}
-              </div>
-            </li>
-          ))}
-        </ul>
-      )}
+      {open && <CardList topic={topic} prog={prog} bare />}
+    </div>
+  );
+}
+
+// All cards of a topic with the answer and the learning state.
+function CardList({ topic, prog, bare = false }: { topic: Topic; prog: WissenProgress; bare?: boolean }) {
+  const sameQ = topic.cards.every(c => c.q === topic.cards[0].q);
+  return (
+    <ul className={`divide-y divide-line-soft ${bare ? 'border-t border-line' : 'bg-surface rounded-2xl border border-line overflow-hidden'}`}>
+      {topic.cards.map(c => (
+        <li key={c.id} className="px-4 py-2.5 text-sm flex gap-2">
+          <span className="w-4 shrink-0 pt-0.5" aria-hidden="true">
+            {isMastered(prog.cards[c.id]) ? <Icon name="check" size={16} strokeWidth={2.25} className="text-good" /> : prog.cards[c.id] ? <span className="block w-2 h-2 mt-1.5 rounded-full bg-warn" /> : null}
+          </span>
+          {c.img && (
+            // eslint-disable-next-line @next/next/no-img-element -- local SVG flags
+            <img src={c.img} alt="" loading="lazy" className="h-6 w-8 object-cover rounded-sm border border-line shrink-0 mt-0.5" />
+          )}
+          <div>
+            {!sameQ && <p className="text-muted">{c.q}</p>}
+            <p className="font-medium text-ink">{c.a}</p>
+            {c.info && <p className="text-xs text-muted mt-0.5">{c.info}</p>}
+          </div>
+        </li>
+      ))}
+    </ul>
+  );
+}
+
+// Small square tile for a practice topic: tap to practise, the list icon shows the cards.
+function TopicTile({
+  topic,
+  prog,
+  active,
+  onStart,
+  onList,
+}: {
+  topic: Topic;
+  prog: WissenProgress;
+  active: boolean;
+  onStart: () => void;
+  onList: () => void;
+}) {
+  const t = useT();
+  const s = summarize(topic.cards, prog);
+  const pct = s.total ? (s.mastered / s.total) * 100 : 0;
+  return (
+    <div className={`relative aspect-square rounded-2xl border bg-surface ${active ? 'border-accent' : 'border-line'} overflow-hidden`}>
+      <button
+        onClick={onStart}
+        aria-label={`${t(...topic.name)} – ${t('Practise', 'Üben')}`}
+        className="absolute inset-0 flex flex-col items-center justify-center gap-1 px-1.5 pb-3 text-center hover:bg-canvas transition-colors"
+      >
+        <span className="text-[26px] leading-none" aria-hidden="true">{topic.icon}</span>
+        <span className="text-[12px] font-semibold text-ink leading-tight text-balance">{t(...topic.name)}</span>
+        <span className="text-[11px] text-muted tabular-nums">
+          {s.mastered}/{s.total}
+          {s.due > 0 && <span className="text-warn"> · {s.due}</span>}
+        </span>
+      </button>
+      <button
+        onClick={onList}
+        aria-label={t('Show cards', 'Karten ansehen')}
+        aria-pressed={active}
+        className="absolute top-1 right-1 w-7 h-7 rounded-lg flex items-center justify-center text-faint hover:text-ink hover:bg-canvas"
+      >
+        <Icon name="list" size={15} />
+      </button>
+      <div className="absolute bottom-0 inset-x-0 h-1 bg-line">
+        <div className="h-full bg-accent" style={{ width: `${pct}%` }} />
+      </div>
     </div>
   );
 }

@@ -24,7 +24,7 @@ export default async function EpochePage({ params }: { params: Promise<{ epoche:
     <main className="md:ml-56 min-h-screen bg-canvas pb-24 md:pb-10">
       <div className="max-w-2xl mx-auto px-5 pt-4 md:pt-8 space-y-5">
         <div className="space-y-3">
-          <Link href="/literatur" className="inline-flex items-center gap-1 -ml-1 h-9 pr-2 text-sm font-medium text-muted hover:text-ink">
+          <Link href={`/literatur/laender/${land.id}`} className="inline-flex items-center gap-1 -ml-1 h-9 pr-2 text-sm font-medium text-muted hover:text-ink">
             <Icon name="chevronLeft" size={18} /> <span className="truncate">{land.name}</span>
           </Link>
           <span className="px-2 h-6 inline-flex items-center rounded-md bg-surface border border-line text-xs font-semibold text-muted">{ev.date}</span>
