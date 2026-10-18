@@ -25,9 +25,13 @@ const sleep = ms => new Promise(r => setTimeout(r, ms));
 const SLEEP = Number(process.env.FETCH_SLEEP ?? 1200); // Wikipedia rate-limits bursts; raise it after a 429
 const ALLOWED = /^(public domain|pd|cc0|cc[ -]by(?!-nc|-nd)|cc-by-sa|cc by-sa|copyrighted free use|attribution)/i;
 
-async function api(host, params) {
+async function api(host, params, tries = 5) {
   const url = `https://${host}/w/api.php?format=json&origin=*&${new URLSearchParams(params)}`;
   const res = await fetch(url, { headers: { 'User-Agent': UA } });
+  if (res.status === 429 && tries > 1) { // throttled: back off and try again instead of giving up
+    await sleep(15000 * (6 - tries));
+    return api(host, params, tries - 1);
+  }
   if (!res.ok) throw new Error(`${host} ${res.status}`);
   return res.json();
 }
@@ -40,7 +44,7 @@ for (const key of keys) {
   try {
     let file = w.file; // explicit Commons file name wins over the article's lead image
     if (!file) {
-      const p = await api('de.wikipedia.org', { action: 'query', redirects: 1, titles: w.wiki, prop: 'pageimages', piprop: 'name' });
+      const p = await api(w.en ? 'en.wikipedia.org' : 'de.wikipedia.org', { action: 'query', redirects: 1, titles: w.en ?? w.wiki, prop: 'pageimages', piprop: 'name' });
       file = Object.values(p.query.pages)[0].pageimage;
     }
     if (!file) { problems.push(`${key}: no lead image for "${w.wiki}"`); continue; }

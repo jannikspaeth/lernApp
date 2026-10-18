@@ -67,6 +67,8 @@ const CAT_COVER: Record<string, string> = { laender: 'cover-erde', physisch: 'co
 const CONT_COVER: Record<string, string> = { europa: 'cover-eiffel', asien: 'cover-tajmahal', afrika: 'cover-kili', nordamerika: 'cover-grandcanyon', suedamerika: 'cover-machu', ozeanien: 'cover-oper' };
 export const categoryCover = (cat: string): string | null => (CAT_COVER[cat] ? coverSrc(CAT_COVER[cat]) : null);
 export const quizCover = (cat: string, quizId: string): string | null => {
+  const own = coverSrc(`q-${quizId}`);
+  if (own) return own;
   const k = Object.keys(CONT_COVER).find(c => quizId.endsWith(`-${c}`));
   return (k && coverSrc(CONT_COVER[k])) || categoryCover(cat);
 };

@@ -190,12 +190,6 @@
     "artist": "",
     "year": ""
   },
-  "cover-burj": {
-    "wiki": "Burj Khalifa",
-    "title": "Burj Khalifa",
-    "artist": "",
-    "year": ""
-  },
   "cover-oper": {
     "wiki": "Sydney Opera House",
     "title": "Sydney Opera House",
@@ -225,5 +219,404 @@
     "title": "Shanghai",
     "artist": "",
     "year": ""
+  },
+  "q-p-berge": {
+    "wiki": "K2",
+    "title": "K2",
+    "artist": "",
+    "year": ""
+  },
+  "q-p-fluesse": {
+    "wiki": "Donaudelta",
+    "title": "Donaudelta",
+    "artist": "",
+    "year": "",
+    "en": "Ganges"
+  },
+  "q-p-wuesten": {
+    "wiki": "Rub al-Chali",
+    "title": "Rub al-Chali",
+    "artist": "",
+    "year": "",
+    "en": "Erg Chebbi"
+  },
+  "q-p-vulkane": {
+    "wiki": "Ätna",
+    "title": "Ätna",
+    "artist": "",
+    "year": ""
+  },
+  "q-p-inseln": {
+    "wiki": "Bora Bora",
+    "title": "Bora Bora",
+    "artist": "",
+    "year": ""
+  },
+  "q-p-wasserfaelle": {
+    "wiki": "Iguazú-Wasserfälle",
+    "title": "Iguazú-Wasserfälle",
+    "artist": "",
+    "year": ""
+  },
+  "q-achttausender": {
+    "wiki": "Nanga Parbat",
+    "title": "Nanga Parbat",
+    "artist": "",
+    "year": ""
+  },
+  "q-hoechste-berge-der-welt": {
+    "wiki": "Aconcagua",
+    "title": "Aconcagua",
+    "artist": "",
+    "year": ""
+  },
+  "q-laengste-fluesse": {
+    "wiki": "Nil",
+    "title": "Nil",
+    "artist": "",
+    "year": ""
+  },
+  "q-fluesse-deutschland": {
+    "wiki": "Loreley",
+    "title": "Loreley",
+    "artist": "",
+    "year": ""
+  },
+  "q-grosse-seen": {
+    "wiki": "Oberer See",
+    "title": "Oberer See",
+    "artist": "",
+    "year": ""
+  },
+  "q-ozeane": {
+    "wiki": "Weltmeer",
+    "title": "Weltmeer",
+    "artist": "",
+    "year": "",
+    "en": "Wind wave"
+  },
+  "q-kontinente": {
+    "wiki": "Earthrise",
+    "title": "Earthrise",
+    "artist": "",
+    "year": ""
+  },
+  "q-meere-europas": {
+    "wiki": "Amalfiküste",
+    "title": "Amalfiküste",
+    "artist": "",
+    "year": ""
+  },
+  "q-klimazonen": {
+    "wiki": "Tropischer Regenwald",
+    "title": "Tropischer Regenwald",
+    "artist": "",
+    "year": ""
+  },
+  "q-p-groesste-staedte": {
+    "wiki": "Tokio",
+    "title": "Tokio",
+    "artist": "",
+    "year": ""
+  },
+  "q-p-groesste-nicht-hauptstadt": {
+    "wiki": "Sydney Harbour Bridge",
+    "title": "Sydney Harbour Bridge",
+    "artist": "",
+    "year": ""
+  },
+  "q-p-stadt-fluss": {
+    "wiki": "Tower Bridge",
+    "title": "Tower Bridge",
+    "artist": "",
+    "year": ""
+  },
+  "q-p-wahrzeichen": {
+    "wiki": "Kolosseum",
+    "title": "Kolosseum",
+    "artist": "",
+    "year": ""
+  },
+  "q-p-spitznamen": {
+    "wiki": "Las Vegas Strip",
+    "title": "Las Vegas Strip",
+    "artist": "",
+    "year": ""
+  },
+  "q-groesste-staedte-welt": {
+    "wiki": "Mexiko-Stadt",
+    "title": "Mexiko-Stadt",
+    "artist": "",
+    "year": "",
+    "en": "Mexico City"
+  },
+  "q-deutsche-grossstaedte": {
+    "wiki": "Brandenburger Tor",
+    "title": "Brandenburger Tor",
+    "artist": "",
+    "year": "",
+    "en": "Cologne Cathedral"
+  },
+  "q-p-oesterreich": {
+    "wiki": "Hallstatt",
+    "title": "Hallstatt",
+    "artist": "",
+    "year": "",
+    "en": "Hallstatt"
+  },
+  "q-p-schweiz": {
+    "wiki": "Kapellbrücke",
+    "title": "Kapellbrücke",
+    "artist": "",
+    "year": ""
+  },
+  "q-p-italien": {
+    "wiki": "Val d’Orcia",
+    "title": "Val d’Orcia",
+    "artist": "",
+    "year": "",
+    "en": "Val d'Orcia"
+  },
+  "q-p-kennzeichen": {
+    "wiki": "Kfz-Kennzeichen (Deutschland)",
+    "title": "Kfz-Kennzeichen (Deutschland)",
+    "artist": "",
+    "year": "",
+    "file": "German electric car license plate.jpg"
+  },
+  "q-p-kennzeichen-laender": {
+    "wiki": "Internationales Kfz-Kennzeichen",
+    "title": "Internationales Kfz-Kennzeichen",
+    "artist": "",
+    "year": "",
+    "en": "International vehicle registration code"
+  },
+  "q-bundeslaender": {
+    "wiki": "Schloss Neuschwanstein",
+    "title": "Schloss Neuschwanstein",
+    "artist": "",
+    "year": ""
+  },
+  "q-oesterreich-bundeslaender": {
+    "wiki": "Schloss Schönbrunn",
+    "title": "Schloss Schönbrunn",
+    "artist": "",
+    "year": ""
+  },
+  "q-kantone": {
+    "wiki": "Lauterbrunnental",
+    "title": "Lauterbrunnental",
+    "artist": "",
+    "year": ""
+  },
+  "q-italien-regionen": {
+    "wiki": "Cinque Terre",
+    "title": "Cinque Terre",
+    "artist": "",
+    "year": "",
+    "en": "Manarola"
+  },
+  "q-p-us-staaten": {
+    "wiki": "Kapitol (Washington, D.C.)",
+    "title": "Kapitol (Washington, D.C.)",
+    "artist": "",
+    "year": "",
+    "en": "United States Capitol"
+  },
+  "q-p-kanada-australien": {
+    "wiki": "Moraine Lake",
+    "title": "Moraine Lake",
+    "artist": "",
+    "year": ""
+  },
+  "q-p-frankreich-spanien": {
+    "wiki": "Mont-Saint-Michel",
+    "title": "Mont-Saint-Michel",
+    "artist": "",
+    "year": "",
+    "en": "Mont-Saint-Michel"
+  },
+  "q-p-brasilien-uk": {
+    "wiki": "Zuckerhut",
+    "title": "Zuckerhut",
+    "artist": "",
+    "year": "",
+    "en": "Sugarloaf Mountain"
+  },
+  "q-us-staaten": {
+    "wiki": "Monument Valley",
+    "title": "Monument Valley",
+    "artist": "",
+    "year": ""
+  },
+  "q-kanada-provinzen": {
+    "wiki": "Banff-Nationalpark",
+    "title": "Banff-Nationalpark",
+    "artist": "",
+    "year": ""
+  },
+  "q-australien-staaten": {
+    "wiki": "Uluṟu",
+    "title": "Uluṟu",
+    "artist": "",
+    "year": ""
+  },
+  "q-frankreich-regionen": {
+    "wiki": "Schloss Chambord",
+    "title": "Schloss Chambord",
+    "artist": "",
+    "year": ""
+  },
+  "q-spanien-regionen": {
+    "wiki": "Alhambra",
+    "title": "Alhambra",
+    "artist": "",
+    "year": "",
+    "en": "Alhambra"
+  },
+  "q-brasilien-staaten": {
+    "wiki": "Cristo Redentor",
+    "title": "Cristo Redentor",
+    "artist": "",
+    "year": "",
+    "en": "Christ the Redeemer (statue)"
+  },
+  "q-p-amtssprachen": {
+    "wiki": "Stein von Rosette",
+    "title": "Stein von Rosette",
+    "artist": "",
+    "year": ""
+  },
+  "q-p-waehrungen": {
+    "wiki": "Coin",
+    "en": "Coin",
+    "title": "Münzen",
+    "artist": "",
+    "year": ""
+  },
+  "q-p-religionen": {
+    "wiki": "Petersdom",
+    "title": "Petersdom",
+    "artist": "",
+    "year": ""
+  },
+  "q-p-gerichte": {
+    "wiki": "Paella",
+    "title": "Paella",
+    "artist": "",
+    "year": ""
+  },
+  "q-groesste-laender": {
+    "wiki": "Baikalsee",
+    "title": "Baikalsee",
+    "artist": "",
+    "year": "",
+    "en": "Lake Baikal"
+  },
+  "q-eu-mitglieder": {
+    "wiki": "Europäisches Parlament",
+    "title": "Europäisches Parlament",
+    "artist": "",
+    "year": "",
+    "en": "Louise Weiss building"
+  },
+  "q-g7": {
+    "wiki": "Schloss Elmau",
+    "title": "Schloss Elmau",
+    "artist": "",
+    "year": ""
+  },
+  "q-nato": {
+    "wiki": "NATO-Hauptquartier",
+    "title": "NATO-Hauptquartier",
+    "artist": "",
+    "year": "",
+    "en": "Headquarters of NATO"
+  },
+  "q-sicherheitsrat": {
+    "wiki": "UN-Sicherheitsrat",
+    "title": "UN-Sicherheitsrat",
+    "artist": "",
+    "year": "",
+    "en": "United Nations Headquarters"
+  },
+  "q-opec": {
+    "wiki": "Bohrinsel",
+    "title": "Bohrinsel",
+    "artist": "",
+    "year": "",
+    "en": "Oil platform"
+  },
+  "q-nordische-laender": {
+    "wiki": "Polarlicht",
+    "title": "Polarlicht",
+    "artist": "",
+    "year": ""
+  },
+  "q-baltikum": {
+    "wiki": "Altstadt von Tallinn",
+    "title": "Altstadt von Tallinn",
+    "artist": "",
+    "year": "",
+    "en": "Tallinn Old Town"
+  },
+  "q-suedamerika-laender": {
+    "wiki": "Torres del Paine",
+    "title": "Torres del Paine",
+    "artist": "",
+    "year": "",
+    "en": "Torres del Paine National Park"
+  },
+  "q-mittelamerika": {
+    "wiki": "Tikal",
+    "title": "Tikal",
+    "artist": "",
+    "year": ""
+  },
+  "q-zentralasien": {
+    "wiki": "Registan",
+    "title": "Registan",
+    "artist": "",
+    "year": "",
+    "en": "Registan"
+  },
+  "q-p-hoechste-tiefste": {
+    "wiki": "Totes Meer",
+    "title": "Totes Meer",
+    "artist": "",
+    "year": "",
+    "en": "Dead Sea"
+  },
+  "q-p-weltkulturerbe": {
+    "wiki": "Petra (Jordanien)",
+    "title": "Petra (Jordanien)",
+    "artist": "",
+    "year": ""
+  },
+  "q-p-nationaltiere": {
+    "wiki": "Weißkopfseeadler",
+    "title": "Weißkopfseeadler",
+    "artist": "",
+    "year": ""
+  },
+  "q-p-nationalblumen": {
+    "wiki": "Kirschblüte",
+    "title": "Kirschblüte",
+    "artist": "",
+    "year": ""
+  },
+  "q-binnenstaaten": {
+    "wiki": "Liechtenstein",
+    "title": "Liechtenstein",
+    "artist": "",
+    "year": "",
+    "file": "Vaduz Castle, Liechtenstein, 20250502 1326 8609.jpg"
+  },
+  "q-kleinste-laender": {
+    "wiki": "Monaco",
+    "title": "Monaco",
+    "artist": "",
+    "year": "",
+    "en": "Monte Carlo"
   }
 }
