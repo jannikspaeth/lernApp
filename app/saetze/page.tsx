@@ -13,7 +13,7 @@ import { DictationResult } from '@/lib/dictation';
 import SpeakButton from '@/components/SpeakButton';
 import DictationCard from '@/components/practice/DictationCard';
 import FeedbackBar from '@/components/practice/FeedbackBar';
-import { X, PartyPopper, Headphones, BookOpen } from 'lucide-react';
+import { X, PartyPopper, Headphones, BookOpen, TriangleAlert } from 'lucide-react';
 import { useT } from '@/lib/ui-lang';
 import { VocabEntry, SentenceProgress } from '@/lib/types';
 import { loadExamples, VocabExample } from '@/lib/vocab-examples';
@@ -276,8 +276,8 @@ export default function SaetzePage() {
         </div>
 
         {loadError && (
-          <div className="bg-accent-soft border border-accent/30 rounded-xl p-3 text-sm text-accent flex items-center justify-between gap-3">
-            <span>⚠ {t('Couldn’t load your sentences.', 'Deine Sätze konnten nicht geladen werden.')}</span>
+          <div className="bg-bad-soft border border-bad/30 rounded-xl p-3 text-sm text-bad flex items-center justify-between gap-3">
+            <span><TriangleAlert className="w-4 h-4 inline -mt-0.5 mr-1" />{t('Couldn’t load your sentences.', 'Deine Sätze konnten nicht geladen werden.')}</span>
             <button onClick={() => refresh()} className="shrink-0 text-xs font-semibold underline">
               {t('Retry', 'Nochmal versuchen')}
             </button>

@@ -8,7 +8,7 @@ import type { Lang } from '@/lib/lang';
 import SpeakButton from '@/components/SpeakButton';
 import { useT } from '@/lib/ui-lang';
 import { checkClozeAnswer } from '@/lib/answer-check';
-import { BookMarked, ChevronDown, ChevronUp } from 'lucide-react';
+import { BookMarked, ChevronDown, ChevronUp, Check } from 'lucide-react';
 import FeedbackBar from '@/components/practice/FeedbackBar';
 
 interface Props {
@@ -243,7 +243,7 @@ export default function GrammarExercise({ topic, lang, onComplete, onDone }: Pro
                         : 'border-warn/50 text-warn focus:border-warn'
                     }`}
                   />
-                  {retypeOk && <span className="text-good text-sm shrink-0">✓</span>}
+                  {retypeOk && <Check className="w-4 h-4 shrink-0 text-good" />}
                 </div>
               )}
             </div>

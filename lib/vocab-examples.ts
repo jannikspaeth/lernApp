@@ -19,6 +19,8 @@ const FILES: Record<Lang, string> = {
   it: '/vocab-examples.json',
   es: '/vocab-examples-es.json',
   fr: '/vocab-examples-fr.json',
+  pt: '/vocab-examples-pt.json',
+  br: '/vocab-examples-br.json',
 };
 
 const cache = new Map<Lang, Promise<Map<string, VocabExample>>>();

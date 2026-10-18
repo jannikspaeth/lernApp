@@ -1,19 +1,26 @@
 'use client';
 
 import { useState, useEffect, useCallback, useRef } from 'react';
-import { getConjugationRecords, recordExercise } from '@/lib/storage';
+import { getConjugationRecords, recordExercise, recordMistakes } from '@/lib/storage';
 import { ConjugationRecord, ConjugationExercise } from '@/lib/types';
-import { X, PartyPopper, SpellCheck } from 'lucide-react';
+import { X, PartyPopper, SpellCheck, ChevronDown, TriangleAlert, Check } from 'lucide-react';
 import Conjugation from '@/components/exercises/Conjugation';
 import { TENSES_BY_LANG, defaultTenses, TENSE_STORAGE_KEY, TENSE_VALIDATORS } from '@/lib/tenses';
 import { useLocalSetting } from '@/lib/use-local-setting';
+import { useVerbShort } from '@/lib/use-verb-short';
+import { hasCompoundTense, shortenExercise } from '@/lib/verb-parts';
 import { useLearner } from '@/lib/use-profile';
 import { usePack } from '@/lib/content';
 import { getConjugationExercise } from '@/lib/conjugation-client';
 import { useT, useUiLang, tenseName, T } from '@/lib/ui-lang';
 import { dueVerbs, isVerbDue, verbDueDate } from '@/lib/verb-review';
+import { pickRoundVerbs } from '@/lib/daily-round';
+import { pickVerbStep, CLOZE_TEMPLATES_BY_LANG, VerbStep } from '@/lib/verb-cloze';
+import { verbMistake } from '@/lib/mistakes';
+import VerbClozeCard from '@/components/practice/VerbClozeCard';
 
-type Tab = 'lernen' | 'all' | 'mistakes';
+type Tab = 'lernen' | 'all' | 'satze' | 'mistakes';
+const SENTENCE_ROUND_SIZE = 8;
 type VerbSort = 'alpha' | 'accuracy' | 'recent' | 'practiced';
 
 // Score of the most recent attempt only (not lifetime cumulative). Each section
@@ -80,8 +87,14 @@ export default function KonjugationPage() {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState('');
   const [expanded, setExpanded] = useState<Set<string>>(new Set());
+  // "Sätze" tab: a short round of cloze sentences instead of the full table.
+  const [clozeSteps, setClozeSteps] = useState<VerbStep[] | null>(null);
+  const [clozeIdx, setClozeIdx] = useState(0);
+  const [clozeTally, setClozeTally] = useState({ c: 0, t: 0 });
+  const [clozeLoading, setClozeLoading] = useState(false);
   // Ordered list of active sort keys; each is a tie-breaker for the previous one.
   const [tenseChoice, setTenseChoice] = useLocalSetting<string>(TENSE_STORAGE_KEY[lang], '', TENSE_VALIDATORS[lang]);
+  const [short, setShort] = useVerbShort();
   const [sorts, setSorts] = useState<{ key: VerbSort; dir: 'asc' | 'desc' }[]>([
     { key: 'recent', dir: 'desc' },
   ]);
@@ -125,6 +138,9 @@ export default function KonjugationPage() {
   const catalog = verbPack.verbs;
   const TENSES = TENSES_BY_LANG[lang];
   const tenses: string[] = tenseChoice ? tenseChoice.split(',') : defaultTenses(lang, beginner);
+  // With the short form on, the compound tense is asked as auxiliary + participle.
+  const shortLabels = { aux: t('Auxiliary', 'Hilfsverb'), participle: t('Participle', 'Partizip') };
+  const shown = exercise && short ? shortenExercise(lang, exercise, shortLabels) : exercise;
 
   function toggleTense(id: string) {
     const next = tenses.includes(id) ? tenses.filter(t => t !== id) : [...tenses, id];
@@ -203,6 +219,49 @@ export default function KonjugationPage() {
     setError(t('Could not save the last verb.', 'Das letzte Verb konnte nicht gespeichert werden.'));
   }
 
+  // "Sätze" tab: a short round of cloze sentences (tense hidden, inferred from
+  // context) across a handful of verbs. Only wrong answers go to "My mistakes";
+  // unlike the table, this doesn't move the verbs' review schedule.
+  async function startSentences() {
+    setClozeLoading(true);
+    setError('');
+    try {
+      const verbs = pickRoundVerbs(records, catalog, SENTENCE_ROUND_SIZE);
+      const exercises = await Promise.all(
+        verbs.map(v => getConjugationExercise({ lang, verb: v, beginner, tenses }).catch(() => null)),
+      );
+      const templates = CLOZE_TEMPLATES_BY_LANG[lang];
+      const steps = exercises
+        .filter((ex): ex is ConjugationExercise => !!ex?.sections?.length)
+        .map(ex => {
+          const rec = records.find(r => r.verb === ex.verb);
+          return pickVerbStep(ex, templates, {
+            forceCloze: true,
+            missedPronoun: tense => rec?.sections.find(rs => rs.tense === tense)?.recentMistakes[0]?.pronoun,
+          });
+        });
+      setClozeSteps(steps);
+      setClozeIdx(0);
+      setClozeTally({ c: 0, t: 0 });
+    } catch {
+      setError(t('Could not load the sentences.', 'Die Sätze konnten nicht geladen werden.'));
+    } finally {
+      setClozeLoading(false);
+    }
+  }
+
+  function handleClozeResult(correct: boolean, userAnswer: string) {
+    const step = clozeSteps![clozeIdx];
+    if (!correct) recordMistakes([verbMistake({ ...step, userAnswer })]);
+    const tally = { c: clozeTally.c + (correct ? 1 : 0), t: clozeTally.t + 1 };
+    setClozeTally(tally);
+    const next = clozeIdx + 1;
+    setClozeIdx(next);
+    if (next >= clozeSteps!.length) {
+      recordExercise('conjugation', tally.c, tally.t).catch(() => {});
+    }
+  }
+
   // "Save & next verb" in Learn: the next due (or new) verb opens at once while
   // the result is stored in the background.
   function handleLearnComplete(correct: number, total: number, saved: Promise<ConjugationRecord[]>) {
@@ -255,8 +314,8 @@ export default function KonjugationPage() {
           {error && <div className="bg-bad-soft rounded-xl p-3 text-sm text-bad">{error}</div>}
           {exercise && !loading && (
             <Conjugation
-              key={exercise.verb}
-              exercise={exercise}
+              key={`${exercise.verb}-${short ? 'short' : 'full'}`}
+              exercise={shown!}
               lang={lang}
               onComplete={handleLearnComplete}
               continueLabel={t('Save & next verb', 'Speichern & nächstes Verb')}
@@ -297,6 +356,27 @@ export default function KonjugationPage() {
               );
             })}
           </div>
+          {hasCompoundTense(lang, tenses) && (
+            <label className="flex items-start gap-2.5 pt-1 cursor-pointer">
+              <input
+                type="checkbox"
+                checked={short}
+                onChange={e => { setShort(e.target.checked); setPracticing(null); setExercise(null); }}
+                className="mt-0.5 w-4 h-4 accent-red-700"
+              />
+              <span className="text-xs text-gray-600 leading-snug">
+                <span className="font-semibold text-gray-800">
+                  {t('Compound tense: just the parts', 'Zusammengesetzte Zeit: nur die Bausteine')}
+                </span>
+                <span className="block text-gray-400">
+                  {t(
+                    'Asks the auxiliary and the participle once instead of all six persons.',
+                    'Fragt Hilfsverb und Partizip einmal ab statt aller sechs Personen.',
+                  )}
+                </span>
+              </span>
+            </label>
+          )}
         </div>
 
         {/* Stats */}
@@ -320,6 +400,7 @@ export default function KonjugationPage() {
           {([
             ['lernen', t('Learn', 'Lernen')],
             ['all', t('All Verbs', 'Alle Verben')],
+            ['satze', t('Sentences', 'Sätze')],
             ['mistakes', t('Errors', 'Fehler')],
           ] as const).map(([id, label]) => (
             <button
@@ -384,8 +465,56 @@ export default function KonjugationPage() {
           </div>
         )}
 
+        {/* ── Sätze tab ── */}
+        {tab === 'satze' && (
+          <div className="bg-white rounded-xl border border-gray-100 shadow-sm p-5 space-y-4">
+            {!clozeSteps || clozeIdx >= clozeSteps.length ? (
+              <>
+                {clozeSteps && clozeIdx >= clozeSteps.length && (
+                  <div className="text-center py-2">
+                    <PartyPopper className="w-8 h-8 text-red-700 mx-auto mb-2" />
+                    <p className="text-sm font-medium text-gray-800">
+                      {clozeTally.c}/{clozeTally.t} {t('correct', 'richtig')}
+                    </p>
+                  </div>
+                )}
+                <p className="text-sm text-gray-500">
+                  {t(
+                    'A sentence with the verb missing — you have to work out which tense fits, not just the form.',
+                    'Ein Satz mit fehlendem Verb – du musst erkennen, welche Zeitform passt, nicht nur die Form.',
+                  )}
+                </p>
+                {error && <div className="bg-red-50 rounded-xl p-3 text-sm text-red-700">{error}</div>}
+                <button
+                  onClick={startSentences}
+                  disabled={clozeLoading}
+                  className="w-full py-3 bg-red-700 hover:bg-red-800 disabled:opacity-50 text-white rounded-full font-semibold transition-colors"
+                >
+                  {clozeLoading
+                    ? t('Loading…', 'Lädt …')
+                    : clozeSteps
+                    ? t('Practice again →', 'Nochmal üben →')
+                    : t('Practice verbs in sentences →', 'Verben im Satz üben →')}
+                </button>
+              </>
+            ) : (
+              <>
+                <p className="text-xs font-semibold text-gray-400 text-center">
+                  {clozeIdx + 1}/{clozeSteps.length}
+                </p>
+                <VerbClozeCard
+                  key={clozeIdx}
+                  step={clozeSteps[clozeIdx]}
+                  lang={lang}
+                  onResult={handleClozeResult}
+                />
+              </>
+            )}
+          </div>
+        )}
+
         {/* Empty states for other tabs */}
-        {tab !== 'lernen' && displayed.length === 0 && (
+        {(tab === 'all' || tab === 'mistakes') && displayed.length === 0 && (
           <div className="text-center py-14">
             {tab === 'mistakes' ? <PartyPopper className="w-10 h-10 text-accent mx-auto mb-3" /> : <SpellCheck className="w-10 h-10 text-accent mx-auto mb-3" />}
             <p className="text-sm text-muted font-medium">
@@ -395,7 +524,7 @@ export default function KonjugationPage() {
         )}
 
         {/* Sort controls */}
-        {tab !== 'lernen' && displayed.length > 0 && (
+        {(tab === 'all' || tab === 'mistakes') && displayed.length > 0 && (
           <div className="flex items-center justify-end gap-1 flex-wrap">
             {([
               ['alpha', 'A–Z'],
@@ -427,7 +556,7 @@ export default function KonjugationPage() {
         )}
 
         {/* Verb cards */}
-        {tab !== 'lernen' && (
+        {(tab === 'all' || tab === 'mistakes') && (
         <div className="space-y-3">
           {displayed.map(record => {
             const isPracticing = practicing === record.id;
@@ -452,11 +581,11 @@ export default function KonjugationPage() {
                         <span className="font-bold text-ink text-lg">{record.verb}</span>
                         {record.mastered ? (
                           <span className="text-xs bg-good-soft text-good px-2 py-0.5 rounded-md font-medium">
-                            ✓ {t('Mastered', 'Gemeistert')}
+                            <Check className="w-3.5 h-3.5 inline -mt-0.5 mr-0.5" />{t('Mastered', 'Gemeistert')}
                           </span>
                         ) : totalMistakes > 0 ? (
-                          <span className="text-xs bg-accent-soft text-accent px-2 py-0.5 rounded-md font-medium">
-                            ⚠ {totalMistakes} {totalMistakes === 1 ? t('error', 'Fehler') : t('errors', 'Fehler')}
+                          <span className="text-xs bg-bad-soft text-bad px-2 py-0.5 rounded-md font-medium">
+                            <TriangleAlert className="w-3.5 h-3.5 inline -mt-0.5 mr-0.5" />{totalMistakes} {totalMistakes === 1 ? t('error', 'Fehler') : t('errors', 'Fehler')}
                           </span>
                         ) : null}
                       </div>
@@ -490,7 +619,12 @@ export default function KonjugationPage() {
                     onClick={() => toggleExpand(record.id)}
                     className="text-xs text-muted hover:text-ink transition-colors"
                   >
-                    {isExpanded ? t('Hide tenses ▲', 'Zeitformen ausblenden ▲') : t(`Show ${record.sections.length} tenses ▼`, `${record.sections.length} Zeitformen zeigen ▼`)}
+                    <span className="inline-flex items-center gap-1">
+                      {isExpanded
+                        ? t('Hide tenses', 'Zeitformen ausblenden')
+                        : t(`Show ${record.sections.length} tenses`, `${record.sections.length} Zeitformen zeigen`)}
+                      <ChevronDown className={`w-3.5 h-3.5 transition-transform ${isExpanded ? 'rotate-180' : ''}`} />
+                    </span>
                   </button>
 
                   {isExpanded && (
@@ -548,7 +682,8 @@ export default function KonjugationPage() {
                     )}
                     {exercise && !loading && (
                       <Conjugation
-                        exercise={exercise}
+                        key={short ? 'short' : 'full'}
+                        exercise={shown!}
                         lang={lang}
                         onComplete={handleReviewComplete}
                         continueLabel={t('Save & close', 'Speichern & schließen')}

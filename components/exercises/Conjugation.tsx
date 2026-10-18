@@ -10,7 +10,7 @@ import type { Lang } from '@/lib/lang';
 import SpeakButton from '@/components/SpeakButton';
 import { useT, useUiLang, tenseName } from '@/lib/ui-lang';
 import FeedbackBar from '@/components/practice/FeedbackBar';
-import { Lightbulb, ChevronDown, ChevronUp } from 'lucide-react';
+import { Lightbulb, ChevronDown, ChevronUp, Check } from 'lucide-react';
 
 interface Props {
   exercise: ConjugationExercise;
@@ -194,7 +194,7 @@ export default function Conjugation({ exercise, lang, onComplete, continueLabel 
                       }`}
                     >
                       {sectionCorrect}/{section.pronouns.length}
-                      {sectionPerfect && ' ✓'}
+                      {sectionPerfect && <Check className="w-4 h-4 inline ml-1 text-green-700" />}
                     </span>
                   </span>
                 )}
@@ -281,7 +281,7 @@ export default function Conjugation({ exercise, lang, onComplete, continueLabel 
                                 : 'border-warn/50 text-warn focus:border-warn'
                             }`}
                           />
-                          {retyped && <span className="text-good text-sm shrink-0">✓</span>}
+                          {retyped && <Check className="w-4 h-4 shrink-0 text-good" />}
                           <button
                             type="button"
                             onClick={() => forgiveTypo(si, pi)}

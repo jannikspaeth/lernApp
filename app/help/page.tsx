@@ -2,9 +2,8 @@
 
 import type { ReactNode } from 'react';
 import { useUiLang } from '@/lib/ui-lang';
-import {
-  BookMarked, BookOpen, FolderOpen, Globe, Newspaper, Smartphone, SpellCheck, Sun, User, Volume2, type LucideIcon,
-} from 'lucide-react';
+import Icon from '@/components/LangIcon';
+import type { IconName } from '@/lib/icon-names';
 
 // Rich text in both interface languages.
 function Tx({ en, de }: { en: ReactNode; de: ReactNode }) {
@@ -12,24 +11,21 @@ function Tx({ en, de }: { en: ReactNode; de: ReactNode }) {
   return <>{lang === 'de' ? de : en}</>;
 }
 
-// Section icons (the call sites still name them by their old emoji).
-const SECTION_ICONS: Record<string, LucideIcon> = {
-  '📲': Smartphone, '☀️': Sun, '🔊': Volume2, '📰': Newspaper, '📖': BookOpen, '🗂': FolderOpen,
-  '🔤': SpellCheck, '📘': BookMarked, '👤': User, '🌍': Globe,
-};
-
-function Section({ icon, title, children }: { icon: string; title: ReactNode; children: ReactNode }) {
-  const Icon = SECTION_ICONS[icon] ?? BookOpen;
+function Section({ icon, title, children }: { icon: IconName; title: ReactNode; children: ReactNode }) {
   return (
-    <section className="bg-surface rounded-2xl border border-line p-5 space-y-3">
-      <h2 className="font-semibold text-ink text-base flex items-center gap-2.5">
-        <span className="w-8 h-8 rounded-lg bg-accent-soft text-accent flex items-center justify-center"><Icon className="w-[18px] h-[18px]" /></span>
-        {title}
+    <section className="bg-surface rounded-2xl border border-line  p-5 space-y-3">
+      <h2 className="font-bold text-ink text-base flex items-center gap-2">
+        <Icon name={icon} className="w-5 h-5 text-bad" /> {title}
       </h2>
       {children}
     </section>
   );
 }
+
+// An icon inside a sentence, sitting on the text baseline.
+const Inline = ({ name }: { name: IconName }) => (
+  <Icon name={name} className="inline w-4 h-4 -mt-0.5 text-gray-500" />
+);
 
 const P = ({ children }: { children: ReactNode }) => (
   <p className="text-sm text-muted leading-relaxed">{children}</p>
@@ -57,7 +53,7 @@ export default function HelpPage() {
           <p className="text-muted text-sm mt-0.5">{de ? 'Eine kurze Anleitung zur App' : 'A quick guide to the app'}</p>
         </div>
 
-        <Section icon="📲" title={<Tx en="Install as an app" de="Als App installieren" />}>
+        <Section icon='download' title={<Tx en="Install as an app" de="Als App installieren" />}>
           <P>
             <Tx
               en="Put the app on your home screen – it then opens full screen with its own icon, like a normal app. Updates arrive automatically."
@@ -67,13 +63,13 @@ export default function HelpPage() {
           <div className="space-y-1.5 text-sm text-muted">
             <Tx
               en={<>
-                <p><strong>iPhone (Safari):</strong> tap the Share button <span className="whitespace-nowrap">(□↑)</span> → <em>Add to Home Screen</em> → <em>Add</em>.</p>
-                <p><strong>Android (Chrome):</strong> tap the menu <strong>⋮</strong> → <em>Install app</em> (or <em>Add to Home screen</em>).</p>
+                <p><strong>iPhone (Safari):</strong> tap the Share button → <em>Add to Home Screen</em> → <em>Add</em>.</p>
+                <p><strong>Android (Chrome):</strong> tap the three-dot menu → <em>Install app</em> (or <em>Add to Home screen</em>).</p>
                 <p><strong>Computer (Chrome/Edge):</strong> click the install icon at the right of the address bar.</p>
               </>}
               de={<>
-                <p><strong>iPhone (Safari):</strong> Teilen-Knopf <span className="whitespace-nowrap">(□↑)</span> → <em>Zum Home-Bildschirm</em> → <em>Hinzufügen</em>.</p>
-                <p><strong>Android (Chrome):</strong> Menü <strong>⋮</strong> → <em>App installieren</em> (oder <em>Zum Startbildschirm hinzufügen</em>).</p>
+                <p><strong>iPhone (Safari):</strong> Teilen-Knopf → <em>Zum Home-Bildschirm</em> → <em>Hinzufügen</em>.</p>
+                <p><strong>Android (Chrome):</strong> Drei-Punkte-Menü → <em>App installieren</em> (oder <em>Zum Startbildschirm hinzufügen</em>).</p>
                 <p><strong>Computer (Chrome/Edge):</strong> auf das Installieren-Symbol rechts in der Adressleiste klicken.</p>
               </>}
             />
@@ -86,7 +82,7 @@ export default function HelpPage() {
           </P>
         </Section>
 
-        <Section icon="☀️" title={<Tx en="Today & My mistakes" de="Heute & Meine Fehler" />}>
+        <Section icon='sun' title={<Tx en="Today & My mistakes" de="Heute & Meine Fehler" />}>
           <P>
             <Tx
               en={<><strong>Today&apos;s round</strong> mixes everything in about 10 minutes: 10 words (due reviews first, then new ones), 5 verb forms, 5 grammar sentences, 2 sentences to translate and 1 dictation. It&apos;s the easiest way to practise every day without having to decide what to do.</>}
@@ -101,22 +97,22 @@ export default function HelpPage() {
           </P>
         </Section>
 
-        <Section icon="🔊" title={<Tx en="Listening" de="Hören" />}>
+        <Section icon='volume' title={<Tx en="Listening" de="Hören" />}>
           <P>
             <Tx
-              en={<>Tap the speaker icon next to a word, sentence, verb table or grammar example to hear it (the turtle = slowly). The voice comes from your device – if it sounds odd, install a better Italian/Spanish/French voice in your phone&apos;s or computer&apos;s speech settings. On the Vocabulary page you can switch on <strong>Read words aloud automatically</strong>.</>}
-              de={<>Tippe auf das Lautsprecher-Symbol neben einem Wort, Satz, einer Verbtabelle oder einem Grammatikbeispiel, um es zu hören (die Schildkröte = langsam). Die Stimme kommt von deinem Gerät – klingt sie seltsam, installiere in den Sprach-Einstellungen deines Handys oder Computers eine bessere italienische/spanische/französische Stimme. Auf der Vokabel-Seite kannst du <strong>Wörter automatisch vorlesen</strong> einschalten.</>}
+              en={<>Tap <Inline name="volume" /> next to a word, sentence, verb table or grammar example to hear it (<Inline name="turtle" /> = slowly). The voice comes from your device – if it sounds odd, install a better Italian/Spanish/French voice in your phone&apos;s or computer&apos;s speech settings. On the Vocabulary page you can switch on <strong>Read words aloud automatically</strong>.</>}
+              de={<>Tippe auf <Inline name="volume" /> neben einem Wort, Satz, einer Verbtabelle oder einem Grammatikbeispiel, um es zu hören (<Inline name="turtle" /> = langsam). Die Stimme kommt von deinem Gerät – klingt sie seltsam, installiere in den Sprach-Einstellungen deines Handys oder Computers eine bessere italienische/spanische/französische Stimme. Auf der Vokabel-Seite kannst du <strong>Wörter automatisch vorlesen</strong> einschalten.</>}
             />
           </P>
           <P>
             <Tx
-              en={<><strong>Dictation</strong> (Sentences → Dictation): listen to a sentence and write it down. You get feedback word by word; accents and punctuation don&apos;t count as mistakes.</>}
-              de={<><strong>Diktat</strong> (Sätze → Diktat): Hör dir einen Satz an und schreib ihn auf. Du bekommst Rückmeldung Wort für Wort; Akzente und Satzzeichen zählen nicht als Fehler.</>}
+              en={<><strong>Dictation</strong> (Sentences → <Inline name="headphones" />): listen to a sentence and write it down. You get feedback word by word; accents and punctuation don&apos;t count as mistakes.</>}
+              de={<><strong>Diktat</strong> (Sätze → <Inline name="headphones" />): Hör dir einen Satz an und schreib ihn auf. Du bekommst Rückmeldung Wort für Wort; Akzente und Satzzeichen zählen nicht als Fehler.</>}
             />
           </P>
         </Section>
 
-        <Section icon="📰" title={<Tx en="Reading" de="Lesen" />}>
+        <Section icon='news' title={<Tx en="Reading" de="Lesen" />}>
           <P>
             <Tx
               en="Short stories and dialogues from A1 to B1. Tap any word to see its meaning (verb forms show their infinitive) and add it to your words with one tap. Listen to the whole text, show the German translation per paragraph, then answer a few questions – each answered question counts 2 race points."
@@ -125,7 +121,7 @@ export default function HelpPage() {
           </P>
         </Section>
 
-        <Section icon="📖" title={<Tx en="Vocabulary" de="Vokabeln" />}>
+        <Section icon='book' title={<Tx en="Vocabulary" de="Vokabeln" />}>
           <P>
             <Tx
               en={<>The app teaches you words using <strong>spaced repetition</strong>: the more confidently you know a word, the longer before it appears again. Each word has a phase (1–7); after that it is known.</>}
@@ -166,7 +162,7 @@ export default function HelpPage() {
           </div>
         </Section>
 
-        <Section icon="🗂" title={<Tx en="Vocabulary tabs" de="Vokabel-Tabs" />}>
+        <Section icon="folder" title={<Tx en="Vocabulary tabs" de="Vokabel-Tabs" />}>
           <div className="space-y-2 text-sm text-muted">
             <Tx
               en={<>
@@ -209,7 +205,7 @@ export default function HelpPage() {
           </div>
         </Section>
 
-        <Section icon="🔤" title={<Tx en="Verbs" de="Verben" />}>
+        <Section icon='letters' title={<Tx en="Verbs" de="Verben" />}>
           <P>
             <Tx
               en={<>Practice conjugations. Each session shows a verb and asks you to fill in all forms for the chosen tenses. Your accuracy is tracked per verb and per tense; verbs with recent mistakes are in the <strong>Errors</strong> tab. Verbs come back for review on their own: the day after a mistake, then after 3, 7, 14, 30 and 60 days as long as you get them right – tap <strong>Review due verbs</strong>.</>}
@@ -224,7 +220,22 @@ export default function HelpPage() {
           </P>
         </Section>
 
-        <Section icon="📘" title={<Tx en="Grammar" de="Grammatik" />}>
+        <Section icon='scale' title={<Tx en="Compound tenses: just the parts" de="Zusammengesetzte Zeiten: nur die Bausteine" />}>
+          <P>
+            <Tx
+              en={<>Typing out a compound tense person by person (<em>ho capito, hai capito, ha capito …</em>) only ever asks two things: which auxiliary the verb takes and what its participle is. Tick <strong>Compound tense: just the parts</strong> under the tense picker on the Verbs page and the table asks exactly those two — <em>avere</em> and <em>capito</em> — instead of six forms. The auxiliary is wanted in the infinitive (avere / essere, haber, avoir / être), the participle as it stands, agreement endings included (<em>andato/a</em>, <em>allé(e)</em>).</>}
+              de={<>Eine zusammengesetzte Zeit Person für Person zu tippen (<em>ho capito, hai capito, ha capito …</em>) fragt immer nur zwei Dinge ab: welches Hilfsverb das Verb nimmt und wie sein Partizip aussieht. Setz unter der Zeitformen-Auswahl auf der Verben-Seite den Haken bei <strong>Zusammengesetzte Zeit: nur die Bausteine</strong> – dann fragt die Tabelle genau diese zwei ab, <em>avere</em> und <em>capito</em>, statt sechs Formen. Das Hilfsverb im Infinitiv (avere / essere, haber, avoir / être), das Partizip so wie es dasteht, mit Angleichung (<em>andato/a</em>, <em>allé(e)</em>).</>}
+            />
+          </P>
+          <P>
+            <Tx
+              en={<>Italian, Spanish and French have such a tense (passato prossimo, pretérito perfecto, passé composé); Portuguese doesn&apos;t, so the box doesn&apos;t appear there. The other tenses are always asked in full, and so are the sentence drills.</>}
+              de={<>Italienisch, Spanisch und Französisch haben so eine Zeit (passato prossimo, pretérito perfecto, passé composé); Portugiesisch nicht, dort erscheint der Haken deshalb nicht. Alle anderen Zeitformen werden weiter vollständig abgefragt, die Satzübungen sowieso.</>}
+            />
+          </P>
+        </Section>
+
+        <Section icon='bookmark' title={<Tx en="Grammar" de="Grammatik" />}>
           <P>
             <Tx
               en={<><strong>Exercises</strong>: 34 topics covering the grammar from A1 to B1, grouped by level – from articles and plural up to the subjunctive, pronouns and if-clauses. Each topic opens with a short rule and examples; then fill in the gaps – by choosing or typing. Grammar answers count for the race like verbs (half a point each).</>}
@@ -239,26 +250,68 @@ export default function HelpPage() {
           </P>
         </Section>
 
-        <Section icon="👤" title={<Tx en="Profiles & app language" de="Profile & App-Sprache" />}>
+        <Section icon='pencil' title={<Tx en="Writing" de="Schreiben" />}>
           <P>
             <Tx
-              en={<>Each profile has its own progress, saved in the cloud and synced across your devices. Tap <strong>Switch Profile</strong> in the sidebar (or under ☰ More on mobile) to change who is using the app.</>}
-              de={<>Jedes Profil hat seinen eigenen Fortschritt, in der Cloud gespeichert und auf all deinen Geräten gleich. Mit <strong>Profil wechseln</strong> in der Seitenleiste (oder unter ☰ Mehr auf dem Handy) wechselst du, wer die App benutzt.</>}
+              en={<><strong>Word order</strong>: the German sentence is given and the words are jumbled – tap them into place. <strong>Rewrite</strong>: one sentence, one instruction (into the past, as a question, with a pronoun, politely). Both have exactly one right answer, so the app marks them and wrong ones go to <strong>My mistakes</strong>.</>}
+              de={<><strong>Satzbau</strong>: Der deutsche Satz steht da, die Wörter sind durcheinander – tippe sie an die richtige Stelle. <strong>Umformen</strong>: ein Satz, eine Anweisung (in die Vergangenheit, als Frage, mit Pronomen, höflich). Beides hat genau eine richtige Lösung, die App korrigiert – Falsches landet in <strong>Meine Fehler</strong>.</>}
             />
           </P>
           <P>
             <Tx
-              en={<>The app&apos;s own texts can be shown in <strong>English or German</strong> – switch with English / Deutsch in the sidebar or on the profile page. The choice is saved per device.</>}
-              de={<>Die Texte der App gibt es auf <strong>Englisch oder Deutsch</strong> – umschalten mit Deutsch / English in der Seitenleiste oder auf der Profilseite. Die Wahl gilt pro Gerät.</>}
+              en={<><strong>Letters</strong>: a short e-mail or message with gaps and a word bank; afterwards you get the whole letter in German. <strong>Free writing</strong>: six tasks with phrases to build with – you write, then compare with a model answer and judge yourself. That last one the app cannot correct, so it is honest about it.</>}
+              de={<><strong>Briefe</strong>: eine kurze E-Mail oder Nachricht mit Lücken und Wortbank; danach siehst du den ganzen Brief auf Deutsch. <strong>Frei schreiben</strong>: sechs Aufgaben mit Bausteinen – du schreibst, vergleichst mit einer Musterlösung und bewertest dich selbst. Das kann die App nicht korrigieren, und sie tut auch nicht so.</>}
             />
           </P>
         </Section>
 
-        <Section icon="🌍" title={<Tx en="Languages" de="Sprachen" />}>
+        <Section icon='chat' title={<Tx en="Phrases" de="Redemittel" />}>
           <P>
             <Tx
-              en={<>After choosing your profile you pick a language: 🇮🇹 Italian, 🇪🇸 Spanish or 🇫🇷 French. Each language has its own level (Beginner A1 or Intermediate B1), its own progress and its own race. Tap <strong>Switch Language</strong> in the sidebar (or the flag under ☰ More on mobile) to change it or your level.</>}
-              de={<>Nach dem Profil wählst du die Sprache: 🇮🇹 Italienisch, 🇪🇸 Spanisch oder 🇫🇷 Französisch. Jede Sprache hat ihr eigenes Niveau (Anfänger A1 oder Fortgeschritten B1), ihren eigenen Fortschritt und ihr eigenes Rennen. Mit <strong>Sprache wechseln</strong> in der Seitenleiste (oder der Flagge unter ☰ Mehr) änderst du Sprache oder Niveau.</>}
+              en={<>100 ready-made sentences for ten real situations – greetings, politeness, small talk, restaurant, shopping, getting around, hotel, doctor, phone and emergencies. The German sentence is shown, you write it in the language you are learning; several wordings are accepted, and <Inline name="volume" /> reads the answer out. Each phrase has its own review schedule: four correct answers, spread over three weeks, and it counts as safe. A phrase counts two points for the race, like a sentence.</>}
+              de={<>100 fertige Sätze für zehn echte Situationen – Begrüßung, Höflichkeit, Small Talk, Restaurant, Einkaufen, Unterwegs, Hotel, Arzt, Telefon und Notfall. Der deutsche Satz steht da, du schreibst ihn in deiner Lernsprache; mehrere Formulierungen gelten, und <Inline name="volume" /> liest die Lösung vor. Jede Wendung hat ihren eigenen Wiederholungsplan: vier richtige Antworten über drei Wochen verteilt, dann gilt sie als sicher. Eine Wendung zählt im Rennen zwei Punkte, wie ein Satz.</>}
+            />
+          </P>
+        </Section>
+
+        <Section icon='zap' title={<Tx en="Article blitz" de="Artikel-Blitz" />}>
+          <P>
+            <Tx
+              en={<>Twenty nouns without their article – tap the one that belongs to it, and the next noun comes straight away. Your own words come first, then the rest of the catalog. The round keeps your best score and its time; wrong taps land in <strong>My mistakes</strong>. Articles count half a point each for the race, like verbs.</>}
+              de={<>Zwanzig Nomen ohne Artikel – tippe den passenden an, und das nächste Nomen kommt sofort. Zuerst deine eigenen Wörter, dann der restliche Katalog. Die Runde merkt sich deinen Bestwert und die Zeit; falsche Antworten landen in <strong>Meine Fehler</strong>. Artikel zählen im Rennen je einen halben Punkt, wie Verben.</>}
+            />
+          </P>
+        </Section>
+
+        <Section icon='hash' title={<Tx en="Numbers & time" de="Zahlen & Uhrzeit" />}>
+          <P>
+            <Tx
+              en={<>Numbers, clock times and dates, all generated – so no two rounds are the same. Either you <strong>hear</strong> it and write the digits (as at a counter or on the phone), or you see the digits and pick the written form out of four. 15:45 may be typed as 3:45 too, and 12.3. as 12.03. – only noon and midnight have to be told apart. Each item counts one point for the race.</>}
+              de={<>Zahlen, Uhrzeiten und Datumsangaben, alle generiert – keine Runde ist wie die andere. Entweder du <strong>hörst</strong> sie und schreibst die Ziffern (wie am Schalter oder am Telefon), oder du siehst die Ziffern und wählst die Wortform aus vier. 15:45 darfst du auch als 3:45 tippen und 12.3. als 12.03. – nur Mittag und Mitternacht musst du auseinanderhalten. Jede Aufgabe zählt im Rennen einen Punkt.</>}
+            />
+          </P>
+        </Section>
+
+        <Section icon='user' title={<Tx en="Profiles & app language" de="Profile & App-Sprache" />}>
+          <P>
+            <Tx
+              en={<>Each profile has its own progress, saved in the cloud and synced across your devices. Tap <strong>Switch Profile</strong> in the sidebar (or under Profile on mobile) to change who is using the app.</>}
+              de={<>Jedes Profil hat seinen eigenen Fortschritt, in der Cloud gespeichert und auf all deinen Geräten gleich. Mit <strong>Profil wechseln</strong> in der Seitenleiste (oder auf dem Handy unter Profil) wechselst du, wer die App benutzt.</>}
+            />
+          </P>
+          <P>
+            <Tx
+              en={<>The app&apos;s own texts can be shown in <strong>English or German</strong> – switch with 🇬🇧 / 🇩🇪 in the sidebar, under Profile or on the profile and language pages. The choice is saved per device.</>}
+              de={<>Die Texte der App gibt es auf <strong>Englisch oder Deutsch</strong> – umschalten mit 🇬🇧 / 🇩🇪 in der Seitenleiste, unter Profil oder auf der Profil- und Sprachauswahl. Die Wahl gilt pro Gerät.</>}
+            />
+          </P>
+        </Section>
+
+        <Section icon='globe' title={<Tx en="Languages" de="Sprachen" />}>
+          <P>
+            <Tx
+              en={<>After choosing your profile you pick a language: 🇮🇹 Italian, 🇪🇸 Spanish, 🇫🇷 French, 🇵🇹 Portuguese or 🇧🇷 Brazilian Portuguese. Each language has its own level (Beginner A1 or Intermediate B1), its own progress and its own race. Tap <strong>Switch Language</strong> in the sidebar (or the flag under Profile on mobile) to change it or your level.</>}
+              de={<>Nach dem Profil wählst du die Sprache: 🇮🇹 Italienisch, 🇪🇸 Spanisch, 🇫🇷 Französisch, 🇵🇹 Portugiesisch oder 🇧🇷 brasilianisches Portugiesisch. Jede Sprache hat ihr eigenes Niveau (Anfänger A1 oder Fortgeschritten B1), ihren eigenen Fortschritt und ihr eigenes Rennen. Mit <strong>Sprache wechseln</strong> in der Seitenleiste (oder der Flagge unter Profil) änderst du Sprache oder Niveau.</>}
             />
           </P>
         </Section>

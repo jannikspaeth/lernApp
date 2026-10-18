@@ -1,5 +1,8 @@
 'use client';
 
+import { ChevronDown } from 'lucide-react';
+import Icon from '@/components/LangIcon';
+import type { IconName } from '@/lib/icon-names';
 import { useState } from 'react';
 import { TOPICS, topicInfo } from '@/lib/vocab-topics';
 import { useT } from '@/lib/ui-lang';
@@ -29,7 +32,7 @@ export default function TopicPicker({
     setOpen(false);
   }
 
-  function row(id: string, icon: string, label: string) {
+  function row(id: string, icon: IconName, label: string) {
     const p = progress[id] ?? { seen: 0, total: 0 };
     const pct = p.total > 0 ? Math.round((p.seen / p.total) * 100) : 0;
     const active = value === id;
@@ -42,7 +45,7 @@ export default function TopicPicker({
         }`}
       >
         <div className="flex items-center gap-2">
-          <span className="text-base shrink-0">{icon}</span>
+          <Icon name={icon} className="w-4 h-4 shrink-0 text-muted" />
           <span className="text-sm font-medium text-ink truncate">{label}</span>
         </div>
         <div className="mt-1.5 flex items-center gap-2">
@@ -64,16 +67,18 @@ export default function TopicPicker({
         className="w-full flex items-center justify-between gap-2 rounded-xl border border-line px-3 py-2 text-sm hover:bg-canvas transition-colors"
       >
         <span className="flex items-center gap-2 min-w-0">
-          <span className="text-muted shrink-0">{t('Topic', 'Thema')}</span>
+          <span className="text-faint shrink-0">{t('Topic', 'Thema')}</span>
           <span className="font-medium text-ink truncate">
-            {current ? `${current.icon} ${current.label}` : t('All topics', 'Alle Themen')}
+            {current
+              ? <span className="inline-flex items-center gap-1.5"><Icon name={current.icon} className="w-4 h-4" />{current.label}</span>
+              : t('All topics', 'Alle Themen')}
           </span>
         </span>
-        <span className="text-muted shrink-0">{open ? '▲' : '▼'}</span>
+        <ChevronDown className={`w-4 h-4 text-faint shrink-0 transition-transform ${open ? 'rotate-180' : ''}`} />
       </button>
       {open && (
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-1.5">
-          {row('all', '📚', t('All topics', 'Alle Themen'))}
+          {row('all', 'books', t('All topics', 'Alle Themen'))}
           {TOPICS.map(t => row(t.id, t.icon, t.label))}
         </div>
       )}

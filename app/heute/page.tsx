@@ -33,10 +33,9 @@ import { chosenTenses } from '@/lib/tenses';
 import { getConjugationExercise } from '@/lib/conjugation-client';
 import { TOPICS_BY_LANG } from '@/lib/grammar-by-lang';
 import { berlinToday, DAILY_GOAL } from '@/lib/race';
-import { ArrowRight, Flame, BookOpen, SpellCheck, BookMarked, PenLine, Headphones, Newspaper, RotateCcw, X, PartyPopper } from 'lucide-react';
-import { checkWordAnswer, checkClozeAnswer } from '@/lib/answer-check';
+import { ArrowRight, Flame, BookOpen, SpellCheck, BookMarked, PenLine, Headphones, Newspaper, RotateCcw, X, PartyPopper, TriangleAlert } from 'lucide-react';
+import { checkWordAnswer, checkClozeAnswer, checkPhraseAnswer } from '@/lib/answer-check';
 import { conjugationMatches } from '@/lib/conjugation-match';
-import { spokenForm } from '@/lib/speech';
 import { Confidence, VOCAB_KNOWN_LEVEL, VOCAB_INTERVALS, computeNewLevel, nextReviewDate } from '@/lib/srs';
 import {
   RoundStep,
@@ -59,11 +58,15 @@ import {
   sentenceMistake,
   dictationMistake,
 } from '@/lib/mistakes';
+import { pickVerbStep, CLOZE_TEMPLATES_BY_LANG } from '@/lib/verb-cloze';
+import { checkNumberAnswer, parseNumberMistake } from '@/lib/numbers';
 import TypeCard from '@/components/practice/TypeCard';
+import VerbClozeCard from '@/components/practice/VerbClozeCard';
 import ChoiceCard from '@/components/practice/ChoiceCard';
 import SelfCard from '@/components/practice/SelfCard';
 import DictationCard from '@/components/practice/DictationCard';
 import SpeakButton from '@/components/SpeakButton';
+import Icon from '@/components/LangIcon';
 import { useT, useUiLang, tenseName } from '@/lib/ui-lang';
 
 type Mode = 'home' | 'round' | 'mistakes' | 'list';
@@ -75,6 +78,10 @@ const MISTAKE_TYPE: Record<MistakeKind, ExerciseType> = {
   grammar: 'grammar',
   sentence: 'sentence',
   dictation: 'sentence',
+  article: 'article',
+  number: 'numbers',
+  phrase: 'phrase',
+  writing: 'writing',
 };
 function exerciseType(step: RoundStep): ExerciseType {
   switch (step.kind) {
@@ -95,15 +102,6 @@ const BLOCK_LABEL: Record<RoundStep['kind'], [string, string]> = {
   dictation: ['Dictation', 'Diktat'],
   mistake: ['My mistakes', 'Meine Fehler'],
 };
-
-function shuffle<T>(arr: T[]): T[] {
-  const a = [...arr];
-  for (let i = a.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [a[i], a[j]] = [a[j], a[i]];
-  }
-  return a;
-}
 
 export default function HeutePage() {
   const { profile, lang, beginner, ready } = useLearner();
@@ -214,25 +212,15 @@ export default function HeutePage() {
         getConjugationExercise({ lang, verb, beginner, tenses }).catch(() => null),
       ),
     );
+    const templates = CLOZE_TEMPLATES_BY_LANG[lang];
     const out: RoundStep[] = [];
     for (const ex of exercises) {
       if (!ex?.sections?.length) continue;
       const rec = records.find(r => r.verb === ex.verb);
-      let section = ex.sections[Math.floor(Math.random() * ex.sections.length)];
-      let pi = Math.floor(Math.random() * section.pronouns.length);
-      for (const s of shuffle(ex.sections)) {
-        const miss = rec?.sections.find(rs => rs.tense === s.tense)?.recentMistakes[0];
-        const at = miss ? s.pronouns.indexOf(miss.pronoun) : -1;
-        if (at >= 0) { section = s; pi = at; break; }
-      }
-      out.push({
-        kind: 'verb',
-        verb: ex.verb,
-        tense: section.tense,
-        tenseLabel: section.tenseName_de,
-        pronoun: section.pronouns[pi],
-        answer: section.answers[pi],
+      const step = pickVerbStep(ex, templates, {
+        missedPronoun: tense => rec?.sections.find(rs => rs.tense === tense)?.recentMistakes[0]?.pronoun,
       });
+      out.push({ kind: 'verb', ...step });
     }
     return out;
   }
@@ -388,19 +376,7 @@ export default function HeutePage() {
         );
       }
       case 'verb':
-        return (
-          <TypeCard
-            key={key}
-            label={`${t('Conjugate', 'Konjugiere')} · ${tenseName(step.tenseLabel, uiLang)}`}
-            prompt={<span><span className="text-muted font-medium">{step.pronoun}</span> ＿＿</span>}
-            sub={step.verb}
-            answer={step.answer}
-            check={v => ({ correct: conjugationMatches(v, step.answer) })}
-            speakText={spokenForm(step.pronoun, step.answer, lang)}
-            lang={lang}
-            onResult={handleResult}
-          />
-        );
+        return <VerbClozeCard key={key} step={step} lang={lang} onResult={handleResult} />;
       case 'grammar':
         return (
           <ChoiceCard
@@ -531,6 +507,79 @@ export default function HeutePage() {
             onDone={(_, typed, r) => handleResult(r.perfect, typed)}
           />
         );
+      case 'article': {
+        const noun = m.prompt.replace(/^___\s*/, '');
+        return (
+          <ChoiceCard
+            key={key}
+            label={t('Which article?', 'Welcher Artikel?')}
+            before=""
+            after={` ${noun}`}
+            answer={m.answer}
+            options={m.options ?? []}
+            hint={m.hint}
+            lang={lang}
+            onResult={handleResult}
+          />
+        );
+      }
+      case 'number': {
+        const item = parseNumberMistake(m.id, m.prompt);
+        return (
+          <TypeCard
+            key={key}
+            label={t('Write it in digits', 'In Zahlen schreiben')}
+            prompt={m.prompt}
+            sub={last}
+            answer={m.answer}
+            check={v => ({ correct: item ? checkNumberAnswer(v, item) : checkClozeAnswer(v, m.answer) })}
+            speakText={m.speak}
+            speakPrompt
+            lang={lang}
+            onResult={handleResult}
+          />
+        );
+      }
+      case 'writing':
+        return m.options && m.options.length > 1 ? (
+          <ChoiceCard
+            key={key}
+            label={t('Fill the gap', 'Lücke füllen')}
+            before={m.prompt.split('___')[0]}
+            after={m.prompt.split('___')[1] ?? ''}
+            answer={m.answer}
+            options={m.options}
+            hint={m.hint}
+            lang={lang}
+            onResult={handleResult}
+          />
+        ) : (
+          <TypeCard
+            key={key}
+            label={t('Write the sentence', 'Satz schreiben')}
+            prompt={m.prompt}
+            sub={last}
+            answer={m.answer}
+            check={v => ({ correct: checkPhraseAnswer(v, m.answer, m.alternatives) })}
+            speakText={m.speak}
+            lang={lang}
+            onResult={handleResult}
+          />
+        );
+      case 'phrase':
+        return (
+          <TypeCard
+            key={key}
+            label={`${t('Phrase', 'Wendung')} 🇩🇪 → ${flag}`}
+            prompt={m.prompt}
+            sub={m.hint ?? last}
+            answer={m.answer}
+            check={v => ({ correct: checkPhraseAnswer(v, m.answer, m.alternatives) })}
+            speakText={m.speak}
+            lang={lang}
+            onResult={handleResult}
+          />
+        );
     }
   }
 
@@ -559,7 +608,7 @@ export default function HeutePage() {
         )}
 
         {error && (
-          <div className="bg-bad-soft border border-bad/30 rounded-xl p-3 text-sm text-bad">⚠ {error}</div>
+          <div className="bg-bad-soft border border-bad/30 rounded-xl p-3 text-sm text-bad"><TriangleAlert className="w-4 h-4 inline -mt-0.5 mr-1" />{error}</div>
         )}
 
         {active && !finished && steps[idx] && (
@@ -677,8 +726,8 @@ export default function HeutePage() {
                   </h2>
                   <p className="text-sm text-muted mt-0.5">
                     {t(
-                      `Everything you got wrong – words, verbs, grammar, sentences, dictation. Get it right ${MISTAKE_CLEAR_AFTER}× in a row and it disappears.`,
-                      `Alles, was du falsch hattest – Wörter, Verben, Grammatik, Sätze, Diktat. Hast du es ${MISTAKE_CLEAR_AFTER}× hintereinander richtig, verschwindet es.`,
+                      `Everything you got wrong – words, verbs, grammar, sentences, dictation, articles, numbers, phrases, writing. Get it right ${MISTAKE_CLEAR_AFTER}× in a row and it disappears.`,
+                      `Alles, was du falsch hattest – Wörter, Verben, Grammatik, Sätze, Diktat, Artikel, Zahlen, Redemittel, Schreiben. Hast du es ${MISTAKE_CLEAR_AFTER}× hintereinander richtig, verschwindet es.`,
                     )}
                   </p>
                 </div>
@@ -748,7 +797,9 @@ export default function HeutePage() {
             </div>
             {mistakes.map(m => (
               <div key={m.id} className="bg-surface rounded-xl border border-line p-3 flex items-start gap-3">
-                <span className="text-lg shrink-0" title={t(kindInfo(m.kind).label, kindInfo(m.kind).labelDe)}>{kindInfo(m.kind).icon}</span>
+                <span className="shrink-0 text-faint" title={t(kindInfo(m.kind).label, kindInfo(m.kind).labelDe)}>
+                  <Icon name={kindInfo(m.kind).icon} className="w-4 h-4" />
+                </span>
                 <div className="min-w-0 flex-1 text-sm">
                   <p className="text-ink">
                     {m.kind === 'verb' && <span className="text-muted">{tenseName(m.hint ?? '', uiLang)} · </span>}
@@ -773,7 +824,7 @@ export default function HeutePage() {
                   title={t('Remove', 'Entfernen')}
                   className="shrink-0 w-7 h-7 rounded-lg bg-line-soft text-muted hover:bg-accent-soft hover:text-accent transition-colors"
                 >
-                  ✕
+                  <X className="w-4 h-4" />
                 </button>
               </div>
             ))}

@@ -253,7 +253,7 @@ alter table grammar     enable row level security;
   focus mode (`document.body.dataset.focus` hides the `.app-tabs` bars) and show the verdict in
   `components/practice/FeedbackBar.tsx`.
 - **Sync with the Italian app** (github.com/jannikspaeth/learnItalian, local copy in `../../Italienisch App/italienisch`):
-  the language pages were last brought up to its commit `b23ceb8` (2026-10-08). Its look ("warm italiano": re-tuned
+  the language pages were last brought up to its commit `84c72a8` (2026-10-17) — pull from the GitHub repo (a fresh clone; the local iCloud copy has evicted `.git` files and hangs), classify the changed files against the old base and merge (identical files copy, diverged ones `git merge-file`). Its icon components live in `components/LangIcon.tsx` (content icon names from `lib/icon-names.ts`); `components/Icon.tsx` stays this app's own set. Its look ("warm italiano": re-tuned
   `gray`/`red`/`green` palettes) is *not* taken over — when porting, map its classes to this app's tokens
   (`red-*` = accent → `accent`, but `red-*` for mistakes → `bad`; `green-*` → `good`; `gray-*` → `canvas`/`surface`/
   `line`/`ink`/`muted`).

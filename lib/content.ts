@@ -3,6 +3,8 @@
 import { useEffect, useState } from 'react';
 import type { Lang } from './lang';
 import type { ReadingText } from './reading/types';
+import type { PhrasePack } from './phrases';
+import type { WritingPack } from './writing';
 
 // Per-language learning content, loaded on demand (dynamic import) so each
 // learner only downloads the catalogs of the language they practise.
@@ -33,26 +35,50 @@ export interface ReadingPack {
   texts: ReadingText[];
 }
 
+export type { PhrasePack, WritingPack };
+
 const loaders = {
   vocab: {
     it: () => import('./packs/it-vocab').then(m => m.default),
     es: () => import('./packs/es-vocab').then(m => m.default),
     fr: () => import('./packs/fr-vocab').then(m => m.default),
+    pt: () => import('./packs/pt-vocab').then(m => m.default),
+    br: () => import('./packs/br-vocab').then(m => m.default),
   },
   verbs: {
     it: () => import('./packs/it-verbs').then(m => m.default),
     es: () => import('./packs/es-verbs').then(m => m.default),
     fr: () => import('./packs/fr-verbs').then(m => m.default),
+    pt: () => import('./packs/pt-verbs').then(m => m.default),
+    br: () => import('./packs/br-verbs').then(m => m.default),
   },
   forms: {
     it: () => import('./packs/it-forms').then(m => m.default),
     es: () => import('./packs/es-forms').then(m => m.default),
     fr: () => import('./packs/fr-forms').then(m => m.default),
+    pt: () => import('./packs/pt-forms').then(m => m.default),
+    br: () => import('./packs/br-forms').then(m => m.default),
   },
   reading: {
     it: () => import('./packs/it-reading').then(m => m.default),
     es: () => import('./packs/es-reading').then(m => m.default),
     fr: () => import('./packs/fr-reading').then(m => m.default),
+    pt: () => import('./packs/pt-reading').then(m => m.default),
+    br: () => import('./packs/br-reading').then(m => m.default),
+  },
+  phrases: {
+    it: () => import('./packs/it-phrases').then(m => m.default),
+    es: () => import('./packs/es-phrases').then(m => m.default),
+    fr: () => import('./packs/fr-phrases').then(m => m.default),
+    pt: () => import('./packs/pt-phrases').then(m => m.default),
+    br: () => import('./packs/br-phrases').then(m => m.default),
+  },
+  writing: {
+    it: () => import('./packs/it-writing').then(m => m.default),
+    es: () => import('./packs/es-writing').then(m => m.default),
+    fr: () => import('./packs/fr-writing').then(m => m.default),
+    pt: () => import('./packs/pt-writing').then(m => m.default),
+    br: () => import('./packs/br-writing').then(m => m.default),
   },
 };
 
@@ -63,7 +89,11 @@ type PackOf<K extends Kind> = K extends 'vocab'
     ? VerbPack
     : K extends 'forms'
       ? FormsPack
-      : ReadingPack;
+      : K extends 'reading'
+        ? ReadingPack
+        : K extends 'phrases'
+          ? PhrasePack
+          : WritingPack;
 
 const cache = new Map<string, unknown>();
 

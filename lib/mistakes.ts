@@ -1,3 +1,4 @@
+import type { IconName } from './icon-names';
 import type { MistakeItem, MistakeKind } from './types';
 
 // "My mistakes": everything answered wrong in any exercise lands here (per user and
@@ -10,12 +11,16 @@ export const TRAINING_SIZE = 15;
 
 export type NewMistake = Omit<MistakeItem, 'wrong' | 'right' | 'added'>;
 
-export const MISTAKE_KINDS: { id: MistakeKind; icon: string; label: string; labelDe: string }[] = [
-  { id: 'vocab', icon: '📖', label: 'Words', labelDe: 'Wörter' },
-  { id: 'verb', icon: '🔤', label: 'Verb forms', labelDe: 'Verbformen' },
-  { id: 'grammar', icon: '📘', label: 'Grammar', labelDe: 'Grammatik' },
-  { id: 'sentence', icon: '✍️', label: 'Sentences', labelDe: 'Sätze' },
-  { id: 'dictation', icon: '🎧', label: 'Dictation', labelDe: 'Diktat' },
+export const MISTAKE_KINDS: { id: MistakeKind; icon: IconName; label: string; labelDe: string }[] = [
+  { id: 'vocab', icon: 'book', label: 'Words', labelDe: 'Wörter' },
+  { id: 'verb', icon: 'letters', label: 'Verb forms', labelDe: 'Verbformen' },
+  { id: 'grammar', icon: 'bookmark', label: 'Grammar', labelDe: 'Grammatik' },
+  { id: 'sentence', icon: 'pen', label: 'Sentences', labelDe: 'Sätze' },
+  { id: 'dictation', icon: 'headphones', label: 'Dictation', labelDe: 'Diktat' },
+  { id: 'article', icon: 'article', label: 'Articles', labelDe: 'Artikel' },
+  { id: 'number', icon: 'hash', label: 'Numbers', labelDe: 'Zahlen' },
+  { id: 'phrase', icon: 'chat', label: 'Phrases', labelDe: 'Wendungen' },
+  { id: 'writing', icon: 'pencil', label: 'Writing', labelDe: 'Schreiben' },
 ];
 
 export function kindInfo(kind: MistakeKind) {
@@ -166,6 +171,88 @@ export function dictationMistake(o: { key: string; text: string; de: string; use
     prompt: o.de,
     answer: o.text,
     speak: o.text,
+    userAnswer: o.userAnswer,
+  };
+}
+
+export function articleMistake(o: {
+  key: string;        // normWord of the noun
+  noun: string;       // noun without its article
+  article: string;    // the correct article
+  options: string[];  // all articles offered
+  de: string;
+  userAnswer?: string;
+}): NewMistake {
+  return {
+    id: `article:${o.key}`,
+    kind: 'article',
+    prompt: `___ ${o.noun}`,
+    answer: o.article,
+    options: o.options,
+    hint: o.de,
+    speak: `${o.article}${o.article.endsWith("'") ? '' : ' '}${o.noun}`,
+    userAnswer: o.userAnswer,
+  };
+}
+
+export function numberMistake(o: {
+  key: string;        // kind + value, e.g. 'time:15:45'
+  prompt: string;     // what was shown ("15:45", "342", "12.03.")
+  answer: string;     // the expected answer (digits or words)
+  hint: string;       // the written form, for the solution line
+  speak: string;      // the spoken form in the target language
+  userAnswer?: string;
+}): NewMistake {
+  return {
+    id: `number:${o.key}`,
+    kind: 'number',
+    prompt: o.prompt,
+    answer: o.answer,
+    hint: o.hint,
+    speak: o.speak,
+    userAnswer: o.userAnswer,
+  };
+}
+
+export function phraseMistake(o: {
+  id: string;         // phrase id (lib/phrases)
+  de: string;         // the German phrase, asked
+  target: string;     // the expected phrase
+  alternatives?: string[];
+  situation: string;  // shown as context
+  userAnswer?: string;
+}): NewMistake {
+  return {
+    id: `phrase:${o.id}`,
+    kind: 'phrase',
+    prompt: o.de,
+    answer: o.target,
+    alternatives: o.alternatives,
+    hint: o.situation,
+    speak: o.target,
+    userAnswer: o.userAnswer,
+  };
+}
+
+
+export function writingMistake(o: {
+  id: string;         // item id within the language (lib/writing)
+  prompt: string;     // the German sentence, or the instruction plus the sentence
+  answer: string;
+  alternatives?: string[];
+  hint: string;       // the German rule
+  options?: string[]; // a letter gap offers the word bank
+  userAnswer?: string;
+}): NewMistake {
+  return {
+    id: `writing:${o.id}`,
+    kind: 'writing',
+    prompt: o.prompt,
+    answer: o.answer,
+    alternatives: o.alternatives,
+    options: o.options,
+    hint: o.hint,
+    speak: o.answer,
     userAnswer: o.userAnswer,
   };
 }

@@ -147,17 +147,18 @@ async function recordExerciseNow(
   const lastDay = stats.lastActivity ? new Date(stats.lastActivity).toDateString() : '';
   const yesterday = new Date(Date.now() - 86400000).toDateString();
 
-  // Per-day activity tally: every vocabulary flashcard (+1); every conjugated form
-  // or grammar item counts for half credit, repeats included.
-  // Drives the daily goal and the race.
+  // Per-day activity tally: every vocabulary flashcard and every number, time or
+  // date (+1); every conjugated form, grammar item or tapped article counts for
+  // half credit, repeats included. Drives the daily goal and the race.
   const dayKey = berlinToday();
   const daily = pruneDaily({ ...(stats.daily ?? {}) });
-  if (type === 'vocabulary') {
+  if (type === 'vocabulary' || type === 'numbers') {
     daily[dayKey] = (daily[dayKey] ?? 0) + total;
-  } else if (type === 'conjugation' || type === 'grammar') {
+  } else if (type === 'conjugation' || type === 'grammar' || type === 'article') {
     daily[dayKey] = (daily[dayKey] ?? 0) + Math.round(total / 2); // half credit per item
-  } else if (type === 'sentence' || type === 'reading') {
-    // 2 points per translated/dictated sentence or answered reading question
+  } else if (type === 'sentence' || type === 'reading' || type === 'phrase' || type === 'writing') {
+    // 2 points per translated/dictated sentence, reading question, set phrase or
+    // sentence written from scratch
     daily[dayKey] = (daily[dayKey] ?? 0) + total * 2;
   }
 
@@ -329,8 +330,17 @@ export async function upsertGrammarAttempt(
 
 // ─── extras: mistakes, reading progress, daily rounds ───────────────────────────────
 
+// Keep every key the row holds (see getExtras in lib/db.ts) and default the
+// ones the app reads without checking.
 function normalizeExtras(d: Partial<UserExtras> | null | undefined): UserExtras {
-  return { mistakes: d?.mistakes ?? [], reading: d?.reading ?? {}, rounds: d?.rounds ?? {} };
+  return {
+    ...(d ?? {}),
+    mistakes: d?.mistakes ?? [],
+    reading: d?.reading ?? {},
+    rounds: d?.rounds ?? {},
+    phrases: d?.phrases ?? {},
+    writing: { items: d?.writing?.items ?? {}, texts: d?.writing?.texts ?? {} },
+  };
 }
 
 // Tolerant read for display.
@@ -397,6 +407,31 @@ export function updateWissen(change: (p: WissenProgress) => WissenProgress | voi
   return p;
 }
 
+// A finished blitz round (articles, or numbers/times/dates): bumps the counter and
+// keeps the best score — more correct wins, same score and less time wins.
+export function recordBlitzRound(
+  kind: 'articles' | 'numbers',
+  correct: number,
+  total: number,
+  seconds: number,
+): Promise<UserExtras> {
+  return updateExtras(e => {
+    const prev = e[kind];
+    const better = !prev || correct > prev.best || (correct === prev.best && seconds < (prev.bestSeconds ?? Infinity));
+    return {
+      ...e,
+      [kind]: {
+        rounds: (prev?.rounds ?? 0) + 1,
+        best: better ? correct : prev.best,
+        bestSeconds: better ? Math.round(seconds) : prev.bestSeconds,
+        lastCorrect: correct,
+        lastTotal: total,
+        last: new Date().toISOString(),
+      },
+    };
+  });
+}
+
 // ─── the race (global standings) ───────────────────────────────────────────────
 
 const emptyRace: RaceResponse = {
@@ -414,7 +449,7 @@ export async function getRace(): Promise<RaceResponse> {
   return getJson<RaceResponse>(`/api/race?lang=${currentLang()}`, emptyRace);
 }
 
-// Accumulated months-won (⭐) per user, for app-wide display. Tolerant read.
+// Accumulated months won (stars) per user, for app-wide display. Tolerant read.
 export async function getStars(): Promise<{ stars: Record<string, number>; month: string }> {
   return getJson<{ stars: Record<string, number>; month: string }>(`/api/race/stars?lang=${currentLang()}`, {
     stars: {},

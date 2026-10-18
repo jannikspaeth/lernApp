@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { useProfile } from '@/lib/use-profile';
 import { useStars } from '@/lib/use-stars';
-import { formatStars } from '@/lib/race';
+import Stars from '@/components/Stars';
 import { langInfo } from '@/lib/lang';
 import { useT } from '@/lib/ui-lang';
 import UiLangToggle from '@/components/UiLangToggle';
@@ -38,7 +38,7 @@ const SECTIONS: readonly Section[] = [
   { id: 'faecher', href: '/faecher', label: ['Subjects', 'Fächer'], icon: 'grid', paths: ['/faecher', '/wissen', '/weltgeschichte', '/karte', '/zeitstrahl'], sub: SUBJECT_TOOLS },
   {
     id: 'sprachen', href: '/heute', label: ['Languages', 'Sprachen'], icon: 'languages',
-    paths: ['/heute', '/ueben', '/vokabeln', '/konjugation', '/grammar', '/lesen', '/saetze', '/race', '/erfolge', '/sprache'],
+    paths: ['/heute', '/ueben', '/vokabeln', '/konjugation', '/grammar', '/lesen', '/saetze', '/race', '/erfolge', '/sprache', '/redemittel', '/schreiben', '/artikel', '/zahlen'],
     sub: LANGUAGE_TOOLS,
   },
   { id: 'profil', href: '/profile', label: ['Profile', 'Profil'], icon: 'user', paths: ['/profile', '/konto', '/help'] },
@@ -125,7 +125,7 @@ export default function Navigation() {
               </span>
               <span className="min-w-0">
                 <span className="block text-sm font-medium text-ink truncate">{profile.name}</span>
-                <span className="block text-xs text-muted">{formatStars(stars[profile.id] ?? 0) || t('No stars yet', 'Noch keine Sterne')}</span>
+                <span className="block text-xs text-muted">{(stars[profile.id] ?? 0) > 0 ? <Stars n={stars[profile.id] ?? 0} className="!ml-0" /> : t('No stars yet', 'Noch keine Sterne')}</span>
               </span>
             </Link>
           )}

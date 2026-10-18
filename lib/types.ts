@@ -1,4 +1,13 @@
-export type ExerciseType = 'vocabulary' | 'conjugation' | 'sentence' | 'grammar' | 'reading';
+export type ExerciseType =
+  | 'vocabulary'
+  | 'conjugation'
+  | 'sentence'
+  | 'grammar'
+  | 'reading'
+  | 'article'   // article/gender blitz
+  | 'numbers'   // numbers, clock times and dates
+  | 'phrase'    // set phrases for everyday situations
+  | 'writing';  // word order, rewriting, letters, free texts
 
 // SRS state for translating an example sentence, keyed by the normalized Italian
 // word the sentence belongs to. Stored as one JSONB row per user (table `sentences`).
@@ -159,7 +168,16 @@ export interface RaceResponse {
 // One JSONB blob per user and language, stored in the `race` table under the id
 // `extras:<user_id>` (no extra table needed). See lib/db.ts.
 
-export type MistakeKind = 'vocab' | 'verb' | 'grammar' | 'sentence' | 'dictation';
+export type MistakeKind =
+  | 'vocab'
+  | 'verb'
+  | 'grammar'
+  | 'sentence'
+  | 'dictation'
+  | 'article'
+  | 'number'
+  | 'phrase'
+  | 'writing';
 
 export interface MistakeItem {
   id: string;             // kind + stable key; getting the same thing wrong again bumps it
@@ -184,8 +202,37 @@ export interface ReadingRecord {
   last: string;           // ISO date
 }
 
+// Best result of a drill that is played as a timed round (the article blitz).
+export interface BlitzRecord {
+  rounds: number;         // rounds finished
+  best: number;           // most correct answers in one round
+  bestSeconds?: number;   // time of that best round (tie-breaker)
+  lastCorrect: number;    // most recent round
+  lastTotal: number;
+  last: string;           // ISO date
+}
+
+// Spaced repetition for one set phrase (lib/phrases): level 1-5, 5 = known.
+export interface PhraseRecord {
+  level: number;          // 1-4 learning, 5 = known
+  nextReview: string;     // ISO date; past or empty ⇒ due
+  lastReviewed?: string;
+  reviewCount: number;
+}
+
+// Writing (/schreiben): how often each sentence was built or rewritten
+// correctly, and which free texts have been written.
+export interface WritingProgress {
+  items: Record<string, number>;
+  texts: Record<string, { times: number; last: string; rating: 'good' | 'partly' | 'again' }>;
+}
+
 export interface UserExtras {
   mistakes: MistakeItem[];
   reading: Record<string, ReadingRecord>; // by text id
   rounds: Record<string, number>;         // daily round: Berlin date -> rounds finished
+  articles?: BlitzRecord;                 // article blitz (absent until played once)
+  numbers?: BlitzRecord;                  // numbers, times and dates
+  phrases?: Record<string, PhraseRecord>; // by phrase id
+  writing?: WritingProgress;
 }

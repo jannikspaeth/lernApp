@@ -6,7 +6,7 @@ import { levelFor } from '@/lib/profiles';
 import { LANGUAGES } from '@/lib/lang';
 import { useProfile } from '@/lib/use-profile';
 import { useStars } from '@/lib/use-stars';
-import { formatStars } from '@/lib/race';
+import Stars from '@/components/Stars';
 import { deleteProfile, logout } from '@/lib/storage';
 import { useT } from '@/lib/ui-lang';
 import UiLangToggle from '@/components/UiLangToggle';
@@ -66,7 +66,7 @@ export default function AccountPage() {
           </span>
           <div className="min-w-0">
             <h1 className="text-[28px] font-bold tracking-tight text-ink truncate">
-              {profile ? profile.name + formatStars(stars[profile.id] ?? 0) : '…'}
+              {profile ? <>{profile.name}<Stars n={stars[profile.id] ?? 0} /></> : '…'}
             </h1>
             <p className="text-sm text-muted">{t('Your account', 'Dein Konto')}</p>
           </div>
