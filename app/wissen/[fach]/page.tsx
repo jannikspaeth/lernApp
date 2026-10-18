@@ -5,6 +5,11 @@ import TileWall, { ContinueCard } from '@/components/wissen/TileWall';
 import { geschichteLandTiles, kunstEpochTiles, literaturLandTiles } from '@/lib/wissen/tiles';
 import { KUNST } from '@/lib/kunst';
 import { LITERATUR } from '@/lib/literatur';
+import CategoryWall from '@/components/wissen/CategoryWall';
+import { CATS } from '@/lib/geografie/cats';
+import MoreCountries from '@/components/wissen/MoreCountries';
+import { CONTINENTS, COUNTRIES, countryNames, normName } from '@/lib/welt';
+import { DETAILED } from '@/lib/laender';
 
 export const dynamicParams = false;
 
@@ -47,8 +52,27 @@ function history(fach: string) {
         <>
           <ContinueCard prefix="/weltgeschichte/land/" label="Weiter in der Geschichte" />
           <TileWall tiles={tiles} />
+          <MoreCountries
+            countries={COUNTRIES.filter(c => !(c.code in DETAILED)).map(c => ({ code: c.code, name: c.name, continent: c.continent, match: countryNames(c).map(normName).join(' ') }))}
+            groups={CONTINENTS.map(k => ({ id: k.id, name: k.name }))}
+          />
         </>
       ),
+    };
+  }
+  if (fach === 'geografie') {
+    const subject = getSubject('geografie')!;
+    const tiles = CATS.map((c, i) => {
+      const topics = subject.topics.filter(tp => tp.group?.[1] === c.group[1]);
+      const art = c.id === 'flaggen' ? ['de', 'jp', 'br', 'za'].map(x => `/flags/${x}.svg`)
+        : c.id === 'laender' ? ['it', 'jp', 'br', 'au'].map(x => `/umriss/${x}.svg`)
+        : [];
+      return { key: c.id, href: `/wissen/geografie/${c.id}`, index: i + 1, title: c.group[1], sub: c.blurb[1], tint: c.tint, art, cards: topics.flatMap(tp => tp.cards.map(cd => ({ id: cd.id }))) };
+    });
+    return {
+      title: ['Geography by theme', 'Geografie nach Themen'] as [string, string],
+      sub: [`${tiles.length} categories`, `${tiles.length} Kategorien`] as [string, string],
+      node: <CategoryWall tiles={tiles} />,
     };
   }
   return null;
@@ -58,5 +82,5 @@ export default async function FachPage({ params }: { params: Promise<{ fach: str
   const { fach } = await params;
   if (!getSubject(fach)) notFound();
   const h = history(fach);
-  return <SubjectView subjectId={fach} hideTopics={fach === MIX.id} history={h ?? undefined} />;
+  return <SubjectView subjectId={fach} hideTopics={fach === MIX.id || fach === 'geografie'} history={h ?? undefined} />;
 }

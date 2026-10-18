@@ -42,8 +42,24 @@ export interface SubjectHistory {
   node: ReactNode; // tile wall, rendered by the server page
 }
 
-export default function SubjectView({ subjectId, hideTopics = false, history }: { subjectId: string; hideTopics?: boolean; history?: SubjectHistory }) {
-  const subject = getSubject(subjectId) as Subject;
+export default function SubjectView({
+  subjectId,
+  hideTopics = false,
+  history,
+  onlyGroup,
+  extra,
+}: {
+  subjectId: string;
+  hideTopics?: boolean;
+  history?: SubjectHistory;
+  onlyGroup?: string; // show only the topics of this group (German group name): a category page
+  extra?: ReactNode; // server-rendered links below the topics (category page)
+}) {
+  const full = getSubject(subjectId) as Subject;
+  const subject = useMemo<Subject>(
+    () => (onlyGroup ? { ...full, topics: full.topics.filter(tp => tp.group?.[1] === onlyGroup) } : full),
+    [full, onlyGroup],
+  );
   const { profile, ready } = useProfile();
   const router = useRouter();
   const t = useT();
@@ -116,16 +132,16 @@ export default function SubjectView({ subjectId, hideTopics = false, history }: 
       <div className="max-w-2xl mx-auto px-5 pt-4 md:pt-8 space-y-6">
         {!current && (
           <div className="space-y-3">
-            <Link href="/faecher" className="inline-flex items-center gap-1 -ml-1 h-9 pr-2 text-sm font-medium text-muted hover:text-ink">
-              <Icon name="chevronLeft" size={18} /> {t('Subjects', 'Fächer')}
+            <Link href={onlyGroup ? `/wissen/${subject.id}` : '/faecher'} className="inline-flex items-center gap-1 -ml-1 h-9 pr-2 text-sm font-medium text-muted hover:text-ink">
+              <Icon name="chevronLeft" size={18} /> {onlyGroup ? name : t('Subjects', 'Fächer')}
             </Link>
             <div className="flex items-center gap-4">
               <span className={`w-12 h-12 rounded-xl flex items-center justify-center ${subject.color.bg} ${subject.color.text}`}>
                 <Icon name={SUBJECT_ICONS[subject.id] ?? 'book'} size={24} />
               </span>
               <div className="min-w-0">
-                <h1 className="text-[28px] md:text-3xl font-bold text-ink tracking-tight leading-tight">{name}</h1>
-                <p className="text-muted text-sm">{t(...subject.blurb)}</p>
+                <h1 className="text-[28px] md:text-3xl font-bold text-ink tracking-tight leading-tight">{onlyGroup ?? name}</h1>
+                <p className="text-muted text-sm">{onlyGroup ? t(`${subject.topics.length} topics`, `${subject.topics.length} Themen`) : t(...subject.blurb)}</p>
               </div>
             </div>
           </div>
@@ -227,7 +243,7 @@ export default function SubjectView({ subjectId, hideTopics = false, history }: 
               </button>
             </div>
 
-            {subject.links?.map(l => (
+            {!onlyGroup && subject.links?.map(l => (
               <Link
                 key={l.href}
                 href={l.href}
@@ -254,10 +270,10 @@ export default function SubjectView({ subjectId, hideTopics = false, history }: 
               </section>
             )}
 
-            {history && !hideTopics && (
+            {(history || onlyGroup) && !hideTopics && (
               <section className="space-y-3">
                 <div className="flex items-baseline justify-between gap-3 pt-2">
-                  <h2 className="text-lg font-bold text-ink tracking-tight">{t('Quick practice', 'Schnell üben')}</h2>
+                  <h2 className="text-lg font-bold text-ink tracking-tight">{onlyGroup ? t('Topics', 'Themen') : t('Quick practice', 'Schnell üben')}</h2>
                   <p className="text-[13px] text-muted">{t('by topic', 'nach Thema')}</p>
                 </div>
                 <div className="grid grid-cols-3 sm:grid-cols-4 gap-2.5">
@@ -279,7 +295,9 @@ export default function SubjectView({ subjectId, hideTopics = false, history }: 
               </section>
             )}
 
-            {!hideTopics && !history && <div className="space-y-3">
+            {extra}
+
+            {!hideTopics && !history && !onlyGroup && <div className="space-y-3">
               {subject.topics.map((topic, i) => (
                 <div key={topic.id} className="space-y-3">
                 {topic.group && topic.group !== subject.topics[i - 1]?.group && (

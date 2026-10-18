@@ -1,18 +1,26 @@
 import { Subject, Topic, topic } from './types';
 import { CONTINENTS, countriesIn, flagUrl } from '../welt';
+import { GROUP } from '../geografie/cats';
+import { landlockedTopic, formerNames, neighbourTopics, outlineTopics, reverseTopics, smallStates } from '../geografie/laender';
+import { coatsOfArms, lookalikeTopic, nationalAnimals, nationalFlowers } from '../geografie/flaggen';
+import { physicalTopics } from '../geografie/physisch';
+import { cityTopics } from '../geografie/staedte';
+import { dachTopics } from '../geografie/dach';
+import { regionTopics } from '../geografie/regionen';
+import { cultureTopics } from '../geografie/kultur';
+import { recordTopics } from '../geografie/rekorde';
+import { coatsImages, satellites } from '../geografie/bilder';
+import { specialTopics } from '../geografie/spezial';
 
 const S = 'geografie';
 
-const FLAGS: [string, string] = ['Flags', 'Flaggen'];
-const CAPITALS: [string, string] = ['Capitals', 'Hauptstädte'];
-const MORE: [string, string] = ['Germany & nature', 'Deutschland & Natur'];
 
 // One topic per continent, generated from the country list (card id = ISO code).
 const flagTopics: Topic[] = CONTINENTS.map(k => ({
   id: `flaggen-${k.id}`,
   name: k.name,
   icon: k.icon,
-  group: FLAGS,
+  group: GROUP.flaggen,
   shuffle: true,
   cards: countriesIn(k.id).map(c => ({
     id: `${S}.flaggen.${c.code}`,
@@ -26,7 +34,7 @@ const capitalTopics: Topic[] = CONTINENTS.map(k => ({
   id: `hauptstadt-${k.id}`,
   name: k.name,
   icon: k.icon,
-  group: CAPITALS,
+  group: GROUP.laender,
   shuffle: true,
   cards: countriesIn(k.id)
     .filter(c => c.capital)
@@ -49,8 +57,27 @@ export const geografie: Subject = {
     { href: '/karte', icon: '🗺️', name: ['World map quiz', 'Weltkarten-Quiz'], blurb: ['Find or type in every country', 'Alle Länder finden oder eintippen'] },
   ],
   topics: [
-    ...flagTopics,
     ...capitalTopics,
+    ...reverseTopics,
+    ...outlineTopics,
+    ...neighbourTopics.filter(t => t.cards.length >= 5),
+    landlockedTopic,
+    smallStates,
+    formerNames,
+    ...flagTopics,
+    lookalikeTopic,
+    coatsImages,
+    coatsOfArms,
+    nationalAnimals,
+    nationalFlowers,
+    ...physicalTopics,
+    ...cityTopics,
+    ...dachTopics,
+    ...regionTopics,
+    ...cultureTopics,
+    ...recordTopics,
+    ...specialTopics,
+    satellites,
     ...[
     topic(S, 'deutschland', ['German states', 'Bundesländer'], '🇩🇪', [
       ['Was ist die Landeshauptstadt von Bayern?', 'München'],
@@ -83,6 +110,6 @@ export const geografie: Subject = {
       ['Welcher Kontinent hat die meisten Länder?', 'Afrika', ['Asien', 'Europa', 'Südamerika'], '54 Staaten.'],
       ['Welches Land hat die meisten Einwohner?', 'Indien', ['China', 'USA', 'Indonesien'], 'Indien hat China um 2023 überholt.'],
     ]),
-    ].map(t => ({ ...t, group: MORE })),
+    ].map(t => ({ ...t, group: t.id === 'natur' ? GROUP.physisch : GROUP.dach })),
   ],
 };

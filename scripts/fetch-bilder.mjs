@@ -9,6 +9,7 @@ const SETS = {
   kunst: { registry: 'lib/kunst/works.json', credits: 'lib/kunst/credits.json', out: 'public/kunst' },
   literatur: { registry: 'lib/literatur/portraits.json', credits: 'lib/literatur/credits.json', out: 'public/literatur' },
   geschichte: { registry: 'lib/geschichte/portraits.json', credits: 'lib/geschichte/credits.json', out: 'public/geschichte' },
+  geografie: { registry: 'lib/geografie/bilder.json', credits: 'lib/geografie/credits.json', out: 'public/geo' },
 };
 
 const root = path.resolve(import.meta.dirname, '..');
