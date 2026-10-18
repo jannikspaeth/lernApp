@@ -85,10 +85,3 @@ export const SUBJECT_ICONS: Record<string, IconName> = {
   mix: 'shuffle',
 };
 
-// Topic emoji from the data → line icon (the UI never shows the emoji itself).
-const TOPIC_ICONS: Record<string, IconName> = {
-  '🗺️': 'map', '🏝️': 'map', '🌍': 'globe', '🌐': 'globe', '🦴': 'clock', '🦉': 'lightbulb',
-  '🗽': 'landmark', '🏰': 'landmark', '🏯': 'landmark', '🏛️': 'landmark', '🔬': 'flask',
-  '📚': 'book', '🎵': 'music', '🎲': 'shuffle', '🎨': 'palette', '⚖️': 'scale', '⏳': 'hourglass',
-};
-export const topicIcon = (emoji: string): IconName => TOPIC_ICONS[emoji] ?? 'book';

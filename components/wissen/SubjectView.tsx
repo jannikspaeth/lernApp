@@ -19,7 +19,7 @@ import {
 } from '@/lib/wissen/progress';
 import QuizCard from './QuizCard';
 import FlashCard from './FlashCard';
-import Icon, { SUBJECT_ICONS, topicIcon, type IconName } from '@/components/Icon';
+import Icon, { SUBJECT_ICONS, type IconName } from '@/components/Icon';
 
 type Mode = 'quiz' | 'cards';
 
@@ -265,6 +265,7 @@ export default function SubjectView({ subjectId, hideTopics = false, history }: 
                     <TopicTile
                       key={topic.id}
                       topic={topic}
+                      index={subject.topics.indexOf(topic) + 1}
                       prog={prog}
                       active={openTopic === topic.id}
                       onStart={() => start(topic.group ? `${t(...topic.group)} · ${t(...topic.name)}` : t(...topic.name), topic.cards, !!topic.shuffle)}
@@ -370,7 +371,7 @@ function TopicRow({
   return (
     <div className="bg-surface rounded-2xl border border-line overflow-hidden">
       <div className="p-4 flex items-center gap-3">
-        <span className="w-10 h-10 shrink-0 rounded-xl bg-canvas border border-line flex items-center justify-center text-accent" aria-hidden="true"><Icon name={topicIcon(topic.icon)} size={20} /></span>
+        <span className="w-10 h-10 shrink-0 rounded-xl bg-canvas border border-line flex items-center justify-center text-xl" aria-hidden="true">{topic.icon}</span>
         <div className="flex-1 min-w-0 space-y-1.5">
           <div className="flex items-baseline justify-between gap-2">
             <p className="font-semibold text-ink truncate">{t(...topic.name)}</p>
@@ -428,12 +429,14 @@ function CardList({ topic, prog, bare = false }: { topic: Topic; prog: WissenPro
 // Small square tile for a practice topic: tap to practise, the list icon shows the cards.
 function TopicTile({
   topic,
+  index,
   prog,
   active,
   onStart,
   onList,
 }: {
   topic: Topic;
+  index: number;
   prog: WissenProgress;
   active: boolean;
   onStart: () => void;
@@ -447,13 +450,15 @@ function TopicTile({
       <button
         onClick={onStart}
         aria-label={`${t(...topic.name)} – ${t('Practise', 'Üben')}`}
-        className="absolute inset-0 flex flex-col items-center justify-center gap-1 px-1.5 pb-3 text-center hover:bg-canvas transition-colors"
+        className="absolute inset-0 flex flex-col justify-between p-3 pb-4 text-left hover:bg-canvas transition-colors"
       >
-        <Icon name={topicIcon(topic.icon)} size={26} strokeWidth={1.5} className="text-accent" />
-        <span className="text-[12px] font-semibold text-ink leading-tight text-balance">{t(...topic.name)}</span>
-        <span className="text-[11px] text-muted tabular-nums">
-          {s.mastered}/{s.total}
-          {s.due > 0 && <span className="text-warn"> · {s.due}</span>}
+        <span className="text-[26px] font-bold leading-none tracking-tight text-accent/25 tabular-nums" aria-hidden="true">{String(index).padStart(2, '0')}</span>
+        <span>
+          <span className="block text-[13px] font-semibold text-ink leading-tight text-balance">{t(...topic.name)}</span>
+          <span className="block mt-1 text-[11px] text-muted tabular-nums">
+            {s.mastered}/{s.total}
+            {s.due > 0 && <span className="text-warn"> · {s.due}</span>}
+          </span>
         </span>
       </button>
       <button
