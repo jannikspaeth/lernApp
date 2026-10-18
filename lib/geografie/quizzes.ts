@@ -26,6 +26,7 @@ export interface GeoQuiz {
   mode: 'list' | 'grid' | 'tiles'; // tiles: pictures in a grid, the answer under each
   items: QuizItem[];
   art?: string[]; // preview pictures for the tile (flags, outlines, arms)
+  map?: { region: 'welt' | Country['continent']; focus?: string }; // countries are coloured on a map as they are found
 }
 
 // Typing aids for long answers: "Italien (bei Neapel)" is accepted as "Italien", "A und B" as "A" and "B"
@@ -66,7 +67,7 @@ for (const k of CONTINENTS) {
   add({
     id: `hauptstaedte-${k.id}`, cat: 'laender', section: 'Hauptstädte', title: `Hauptstädte: ${k.name[1]}`, blurb: 'Tippe zu jedem Land die Hauptstadt.',
     seconds: secs(list.length, 22), mode: 'grid',
-    items: list.filter(c => c.capital).map(c => item(c.capital as string, { prompt: c.name })),
+    items: list.filter(c => c.capital).map(c => item(c.capital as string, { prompt: c.name, code: c.code })),
   });
   add({
     id: `land-zur-hauptstadt-${k.id}`, cat: 'laender', section: 'Hauptstädte', title: `Land zur Hauptstadt: ${k.name[1]}`, blurb: 'Zu welchem Land gehört die Hauptstadt?',
@@ -86,13 +87,14 @@ for (const k of CONTINENTS) {
 }
 
 const NB = NEIGH as Record<string, string[]>;
+const regionFor = (cs: Country[]): 'welt' | Country['continent'] => (cs.every(x => x.continent === cs[0].continent) ? cs[0].continent : 'welt');
 const byCode = new Map(COUNTRIES.map(c => [c.code, c]));
 const NEIGHBOUR_PICKS = 'DE FR RU CN BR IN TR AT PL IT UA CD SA IR AR ES ZA NG KZ US CH CZ HU RS SD ET TZ ZM ID CO PE DZ'.split(' ');
 for (const code of NEIGHBOUR_PICKS) {
   const c = byCode.get(code);
   const nb = (NB[code] ?? []).map(x => byCode.get(x)).filter((x): x is Country => !!x);
   if (!c || nb.length < 3) continue;
-  add({ id: `nachbarn-${code.toLowerCase()}`, cat: 'laender', section: 'Nachbarländer', title: `Nachbarländer von ${c.name}`, blurb: `${nb.length} Länder grenzen an ${c.name}.`, seconds: secs(nb.length, 25, 60), mode: 'list', items: nb.map(x => countryItem(x)) });
+  add({ id: `nachbarn-${code.toLowerCase()}`, cat: 'laender', section: 'Nachbarländer', title: `Nachbarländer von ${c.name}`, blurb: `${nb.length} Länder grenzen an ${c.name}.`, seconds: secs(nb.length, 25, 60), mode: 'list', items: nb.map(x => countryItem(x)), art: [flagUrl(c.code)], map: { region: regionFor([c, ...nb]), focus: c.code } });
 }
 
 const LANDLOCKED = 'AF AD AM AT AZ BY BT BO BW BF BI CF TD CZ SZ ET HU KZ KG LA LS LI LU MW ML MD MN NP NE MK PY RW SM RS SK SS CH TJ TM UG UZ VA ZM ZW'.split(' ');
@@ -156,6 +158,12 @@ add({ id: 'satellitenbilder', cat: 'spezial', section: 'Bilder', title: 'Satelli
 
 // Preview pictures: the quiz's own pictures, else the flags of the countries it asks for.
 for (const q of quizzes) {
+  // A map for every quiz about countries (not the picture quizzes), like Jetpunk's map quizzes.
+  const codes = q.items.map(i => i.code).filter((c): c is string => !!c);
+  if (!q.map && q.mode !== 'tiles' && codes.length >= q.items.length * 0.8) {
+    q.map = { region: regionFor(codes.map(c => byCode.get(c)).filter((c): c is Country => !!c)) };
+  }
+  if (q.art?.length) continue; // set by hand (neighbours: the country itself)
   const pics = q.items.filter(i => i.img).map(i => i.img as string);
   const flags = q.items.filter(i => i.code).map(i => flagUrl(i.code as string));
   const src = q.id.startsWith('umrisse') || q.id === 'wappen' || q.id === 'satellitenbilder' ? pics : flags.length >= 4 ? flags : pics;

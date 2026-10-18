@@ -6,6 +6,7 @@ import Icon from '@/components/Icon';
 import { normName } from '@/lib/welt';
 import { useT } from '@/lib/ui-lang';
 import { useWissenProgress } from '@/components/laender/EventProgress';
+import QuizMap from '@/components/geo/QuizMap';
 import type { GeoQuiz } from '@/lib/geografie/quizzes';
 import { recordGeoBest } from '@/lib/storage';
 import { betterGeoBest, type GeoBest } from '@/lib/wissen/progress';
@@ -116,6 +117,9 @@ export default function QuizRunner({ quiz, backHref, backLabel }: { quiz: GeoQui
     );
   };
 
+  const mapCodes = useMemo(() => new Set(quiz.items.map(i => i.code).filter((c): c is string => !!c)), [quiz]);
+  const foundCodes = useMemo(() => new Set([...solved].map(i => quiz.items[i].code).filter((c): c is string => !!c)), [solved, quiz]);
+
   const groups = useMemo(() => {
     const map = new Map<string, number[]>();
     quiz.items.forEach((it, i) => { const g = it.group ?? ''; map.set(g, [...(map.get(g) ?? []), i]); });
@@ -176,6 +180,10 @@ export default function QuizRunner({ quiz, backHref, backLabel }: { quiz: GeoQui
             </p>
             {newBest && <p className="text-sm font-semibold text-good">{t('New best!', 'Neuer Bestwert!')}</p>}
           </div>
+        )}
+
+        {quiz.map && (
+          <QuizMap region={quiz.map.region} focus={quiz.map.focus} codes={mapCodes} found={foundCodes} done={done} />
         )}
 
         {quiz.mode === 'list' && (
