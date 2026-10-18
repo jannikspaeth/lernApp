@@ -7,6 +7,7 @@ import { normName } from '@/lib/welt';
 import { useT } from '@/lib/ui-lang';
 import { useWissenProgress } from '@/components/laender/EventProgress';
 import QuizMap from '@/components/geo/QuizMap';
+import ThemeMapView from '@/components/geo/ThemeMapView';
 import type { GeoQuiz } from '@/lib/geografie/quizzes';
 import { recordGeoBest } from '@/lib/storage';
 import { betterGeoBest, type GeoBest } from '@/lib/wissen/progress';
@@ -185,6 +186,7 @@ export default function QuizRunner({ quiz, backHref, backLabel }: { quiz: GeoQui
         {quiz.map && (
           <QuizMap region={quiz.map.region} focus={quiz.map.focus} codes={mapCodes} found={foundCodes} done={done} />
         )}
+        {!quiz.map && quiz.theme && <ThemeMapView theme={quiz.theme} items={quiz.items} solved={solved} done={done} />}
 
         {quiz.mode === 'list' && (
           <div className="space-y-4">

@@ -30,6 +30,7 @@
     "eslint": "^9",
     "eslint-config-next": "16.2.9",
     "flag-icons": "^7.5.0",
+    "mapshaper": "^0.7.89",
     "tailwindcss": "^4",
     "typescript": "^5",
     "world-atlas": "^2.0.2",

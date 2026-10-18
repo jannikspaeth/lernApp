@@ -6,6 +6,7 @@ import { PAIR_SETS } from './helpers';
 import { CONTINENTS, COUNTRIES, countriesIn, countryNames, flagUrl, type Country } from '../welt';
 import NEIGH from './neighbours.json';
 import { coatsImages, satellites } from './bilder';
+import { POINTS, RIVER_NAMES, SHAPE_NAMES } from './coords';
 
 export interface QuizItem {
   prompt?: string; // grid quiz: what is shown in front of the cell
@@ -14,6 +15,15 @@ export interface QuizItem {
   accepts: string[]; // accepted spellings, in addition to `answer`
   group?: string; // list quiz: heading the cell belongs to
   code?: string; // ISO code when the answer is a country (preview flags)
+  shape?: string; // region in the theme map (public/maps/admin-<cc>.json)
+  river?: string[]; // rivers in public/maps/rivers.json
+  lake?: string; // lake in public/maps/lakes.json
+  pt?: [number, number]; // point [lon, lat]
+}
+
+export interface ThemeMap {
+  layer?: string; // admin-<cc>: states/regions of one country
+  projection?: 'albersUsa' | 'mercator';
 }
 
 export interface GeoQuiz {
@@ -27,6 +37,7 @@ export interface GeoQuiz {
   items: QuizItem[];
   art?: string[]; // preview pictures for the tile (flags, outlines, arms)
   map?: { region: 'welt' | Country['continent']; focus?: string }; // countries are coloured on a map as they are found
+  theme?: ThemeMap; // regions, points, rivers or lakes drawn on a map
 }
 
 // Typing aids for long answers: "Italien (bei Neapel)" is accepted as "Italien", "A und B" as "A" and "B"
@@ -155,6 +166,46 @@ lst('deutsche-grossstaedte', 'staedte', 'Städte', 'Deutsche Großstädte', 'Die
 const tilesOf = (t: { cards: { img?: string; a: string }[] }) => t.cards.filter(c => c.img).map(c => item(c.a, { img: c.img }));
 add({ id: 'wappen', cat: 'flaggen', section: 'Wappen', title: 'Wappen der Welt', blurb: 'Zu welchem Land gehört das Wappen?', seconds: 300, mode: 'tiles', items: tilesOf(coatsImages) });
 add({ id: 'satellitenbilder', cat: 'spezial', section: 'Bilder', title: 'Satellitenbilder erkennen', blurb: 'Welcher Ort ist von oben zu sehen?', seconds: 300, mode: 'tiles', items: tilesOf(satellites) });
+
+// German state capitals (with the map of the states).
+const DE_CAPITALS: [string, string][] = [['Baden-Württemberg', 'Stuttgart'], ['Bayern', 'München'], ['Berlin', 'Berlin'], ['Brandenburg', 'Potsdam'], ['Bremen', 'Bremen'],
+  ['Hamburg', 'Hamburg'], ['Hessen', 'Wiesbaden'], ['Mecklenburg-Vorpommern', 'Schwerin'], ['Niedersachsen', 'Hannover'], ['Nordrhein-Westfalen', 'Düsseldorf'],
+  ['Rheinland-Pfalz', 'Mainz'], ['Saarland', 'Saarbrücken'], ['Sachsen', 'Dresden'], ['Sachsen-Anhalt', 'Magdeburg'], ['Schleswig-Holstein', 'Kiel'], ['Thüringen', 'Erfurt']];
+add({ id: 'landeshauptstaedte', cat: 'dach', section: 'Auflistungen', title: 'Die 16 Landeshauptstädte', blurb: 'Tippe zu jedem Bundesland die Hauptstadt.', seconds: 300, mode: 'grid',
+  items: DE_CAPITALS.map(([land, city]) => item(city, { prompt: land, shape: land, pt: POINTS[city] })), theme: { layer: 'admin-de' } });
+
+// ── Thematic maps: states and regions, mountains, cities, rivers, lakes ──
+const bare = (k: string) => k.replace(/^(der|die|das|dem|den) /, '').replace(/^Bundesstaat /, '');
+const shapeOf = (name: string) => SHAPE_NAMES[name] ?? name;
+const LAYERS: Record<string, string> = {
+  bundeslaender: 'admin-de', 'oesterreich-bundeslaender': 'admin-at', kantone: 'admin-ch', 'italien-regionen': 'admin-it', 'us-staaten': 'admin-us',
+  'kanada-provinzen': 'admin-ca', 'australien-staaten': 'admin-au', 'frankreich-regionen': 'admin-fr', 'spanien-regionen': 'admin-es', 'brasilien-staaten': 'admin-br',
+  'p-oesterreich': 'admin-at', 'p-schweiz': 'admin-ch', 'p-italien': 'admin-it', 'p-us-staaten': 'admin-us',
+};
+const POINT_BY_ANSWER = new Set(['achttausender', 'hoechste-berge-der-welt', 'p-berge', 'groesste-staedte-welt', 'deutsche-grossstaedte']);
+const POINT_BY_KEY = new Set(['p-vulkane', 'p-wasserfaelle', 'p-wuesten']);
+const RIVER_BY_ANSWER = new Set(['laengste-fluesse', 'fluesse-deutschland']);
+const LAKES: Record<string, string> = { 'Oberer See': 'Lake Superior', 'Michigansee': 'Lake Michigan', 'Huronsee': 'Lake Huron', 'Eriesee': 'Lake Erie', 'Ontariosee': 'Lake Ontario' };
+const keyOf = (q: GeoQuiz, i: number) => {
+  const ps = PAIR_SETS.find(p => `p-${p.id}` === q.id);
+  return ps ? bare(ps.rows[i][0]) : q.items[i].prompt ?? '';
+};
+for (const q of quizzes) {
+  const layer = LAYERS[q.id];
+  if (layer) {
+    q.theme = { layer, projection: layer === 'admin-us' ? 'albersUsa' : 'mercator' };
+    q.items.forEach((it, i) => { it.shape = shapeOf(q.mode === 'grid' ? keyOf(q, i).replace(/ \(.*\)$/, '') : it.answer); });
+  } else if (POINT_BY_ANSWER.has(q.id) || POINT_BY_KEY.has(q.id)) {
+    q.theme = {};
+    q.items.forEach((it, i) => { it.pt = POINTS[POINT_BY_KEY.has(q.id) ? keyOf(q, i) : it.answer]; });
+  } else if (RIVER_BY_ANSWER.has(q.id) || q.id === 'p-fluesse') {
+    q.theme = {};
+    q.items.forEach((it, i) => { it.river = RIVER_NAMES[q.id === 'p-fluesse' ? keyOf(q, i) : it.answer]; });
+  } else if (q.id === 'grosse-seen') {
+    q.theme = {};
+    q.items.forEach(it => { it.lake = LAKES[it.answer]; });
+  }
+}
 
 // Preview pictures: the quiz's own pictures, else the flags of the countries it asks for.
 for (const q of quizzes) {
