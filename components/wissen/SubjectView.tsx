@@ -19,7 +19,7 @@ import {
 } from '@/lib/wissen/progress';
 import QuizCard from './QuizCard';
 import FlashCard from './FlashCard';
-import Icon, { SUBJECT_ICONS, type IconName } from '@/components/Icon';
+import Icon, { SUBJECT_ICONS, topicIcon, type IconName } from '@/components/Icon';
 
 type Mode = 'quiz' | 'cards';
 
@@ -370,7 +370,7 @@ function TopicRow({
   return (
     <div className="bg-surface rounded-2xl border border-line overflow-hidden">
       <div className="p-4 flex items-center gap-3">
-        <span className="w-10 h-10 shrink-0 rounded-xl bg-canvas border border-line flex items-center justify-center text-xl" aria-hidden="true">{topic.icon}</span>
+        <span className="w-10 h-10 shrink-0 rounded-xl bg-canvas border border-line flex items-center justify-center text-accent" aria-hidden="true"><Icon name={topicIcon(topic.icon)} size={20} /></span>
         <div className="flex-1 min-w-0 space-y-1.5">
           <div className="flex items-baseline justify-between gap-2">
             <p className="font-semibold text-ink truncate">{t(...topic.name)}</p>
@@ -449,7 +449,7 @@ function TopicTile({
         aria-label={`${t(...topic.name)} – ${t('Practise', 'Üben')}`}
         className="absolute inset-0 flex flex-col items-center justify-center gap-1 px-1.5 pb-3 text-center hover:bg-canvas transition-colors"
       >
-        <span className="text-[26px] leading-none" aria-hidden="true">{topic.icon}</span>
+        <Icon name={topicIcon(topic.icon)} size={26} strokeWidth={1.5} className="text-accent" />
         <span className="text-[12px] font-semibold text-ink leading-tight text-balance">{t(...topic.name)}</span>
         <span className="text-[11px] text-muted tabular-nums">
           {s.mastered}/{s.total}

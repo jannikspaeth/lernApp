@@ -35,6 +35,7 @@ const PATHS = {
   more: 'M5 12h.01M12 12h.01M19 12h.01',
   list: 'M8 6h12M8 12h12M8 18h12M4 6h.01M4 12h.01M4 18h.01',
   settings: 'M12 9a3 3 0 1 0 0 6 3 3 0 0 0 0-6zM19.4 15a1.7 1.7 0 0 0 .3 1.8l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.7 1.7 0 0 0-2.9 1.2V21a2 2 0 1 1-4 0v-.1a1.7 1.7 0 0 0-2.9-1.2l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1A1.7 1.7 0 0 0 3 15H3a2 2 0 1 1 0-4h.1a1.7 1.7 0 0 0 1.2-2.9l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1A1.7 1.7 0 0 0 9 4.6V3a2 2 0 1 1 4 0v.1a1.7 1.7 0 0 0 2.9 1.2l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.7 1.7 0 0 0 1.2 2.9H21a2 2 0 1 1 0 4h-.1a1.7 1.7 0 0 0-1.5 1z',
+  scale: 'M12 3v18M7 21h10M5 7h14M5 7l-3 7a3.5 3.5 0 0 0 6 0zM19 7l-3 7a3.5 3.5 0 0 0 6 0z',
   target: 'M12 3a9 9 0 1 0 0 18 9 9 0 0 0 0-18zM12 7a5 5 0 1 0 0 10 5 5 0 0 0 0-10zM12 11a1 1 0 1 0 0 2 1 1 0 0 0 0-2z',
 } as const;
 
@@ -83,3 +84,11 @@ export const SUBJECT_ICONS: Record<string, IconName> = {
   philosophie: 'lightbulb',
   mix: 'shuffle',
 };
+
+// Topic emoji from the data → line icon (the UI never shows the emoji itself).
+const TOPIC_ICONS: Record<string, IconName> = {
+  '🗺️': 'map', '🏝️': 'map', '🌍': 'globe', '🌐': 'globe', '🦴': 'clock', '🦉': 'lightbulb',
+  '🗽': 'landmark', '🏰': 'landmark', '🏯': 'landmark', '🏛️': 'landmark', '🔬': 'flask',
+  '📚': 'book', '🎵': 'music', '🎲': 'shuffle', '🎨': 'palette', '⚖️': 'scale', '⏳': 'hourglass',
+};
+export const topicIcon = (emoji: string): IconName => TOPIC_ICONS[emoji] ?? 'book';
