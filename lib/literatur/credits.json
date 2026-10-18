@@ -47,23 +47,11 @@
     "licence": "Public domain",
     "page": "https://commons.wikimedia.org/wiki/File:Heinrich_von_Kleist2.jpg"
   },
-  "hoelderlin": {
-    "file": "FK_Hiemer_-_Friedrich_Hölderlin_(Pastell_1792).jpg",
-    "author": "Franz Carl Hiemer",
-    "licence": "Public domain",
-    "page": "https://commons.wikimedia.org/wiki/File:FK_Hiemer_-_Friedrich_H%C3%B6lderlin_(Pastell_1792).jpg"
-  },
   "novalis": {
     "file": "Franz_Gareis_-_Novalis.jpg",
     "author": "Franz Gareis",
     "licence": "Public domain",
     "page": "https://commons.wikimedia.org/wiki/File:Franz_Gareis_-_Novalis.jpg"
-  },
-  "grimmelshausen": {
-    "file": "Hans_Jakob_Christoffel_von_Grimmelshausen.jpeg",
-    "author": "Circle of Lucas de Wael",
-    "licence": "Public domain",
-    "page": "https://commons.wikimedia.org/wiki/File:Hans_Jakob_Christoffel_von_Grimmelshausen.jpeg"
   },
   "lessing": {
     "file": "Gotthold_Ephraim_Lessing.PNG",
@@ -215,27 +203,6 @@
     "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
     "page": "https://commons.wikimedia.org/wiki/File:ETH-BIB-Max_Frisch-Com_C20-015-023-001.jpg"
   },
-  "borchert": {
-    "file": "Wolfgang_Borchert_-_Letztes_Foto_als_Zivilist_im_Sommer_1941.jpg",
-    "author": "Staats- und Universitätsbibliothek Hamburg Carl von Ossietzky",
-    "licence": "CC BY-SA 4.0",
-    "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Wolfgang_Borchert_-_Letztes_Foto_als_Zivilist_im_Sommer_1941.jpg"
-  },
-  "duerrenmatt": {
-    "file": "Friedrich_duerrenmatt_19890427.jpg",
-    "author": "Elke Wetzig (elya)",
-    "licence": "CC BY-SA 3.0",
-    "licenceUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
-    "page": "https://commons.wikimedia.org/wiki/File:Friedrich_duerrenmatt_19890427.jpg"
-  },
-  "wolf": {
-    "file": "Bundesarchiv_Bild_183-B0509-0010-005,_Christa_Wolf.jpg",
-    "author": "Irene Eckleben",
-    "licence": "CC BY-SA 3.0 de",
-    "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
-    "page": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_183-B0509-0010-005,_Christa_Wolf.jpg"
-  },
   "shakespeare": {
     "file": "Shakespeare.jpg",
     "author": "Attributed to John Taylor",
@@ -315,12 +282,6 @@
     "licence": "Public domain",
     "page": "https://commons.wikimedia.org/wiki/File:Oscar_Wilde_Sarony.jpg"
   },
-  "hardy": {
-    "file": "Thomashardy_restored.jpg",
-    "author": "Bain News Service, publisher",
-    "licence": "Public domain",
-    "page": "https://commons.wikimedia.org/wiki/File:Thomashardy_restored.jpg"
-  },
   "joyce": {
     "file": "Revolutionary_Joyce_Better_Contrast.jpg",
     "author": "unbekannt",
@@ -345,12 +306,6 @@
     "licence": "Public domain",
     "page": "https://commons.wikimedia.org/wiki/File:Joseph_Conrad,_Fotografie_von_George_Charles_Beresford,_1904.jpg"
   },
-  "beckett": {
-    "file": "Samuel_Beckett,_Pic,_1.jpg",
-    "author": "Roger Pic",
-    "licence": "Public domain",
-    "page": "https://commons.wikimedia.org/wiki/File:Samuel_Beckett,_Pic,_1.jpg"
-  },
   "defoe": {
     "file": "Daniel_Defoe_Kneller_Style.jpg",
     "author": "UnknownUnknown , style of Sir Godfrey Kneller",
@@ -374,24 +329,6 @@
     "author": "Margaret Gillies",
     "licence": "Public domain",
     "page": "https://commons.wikimedia.org/wiki/File:William_wordsworth.jpg"
-  },
-  "coleridge": {
-    "file": "SamuelTaylorColeridge.jpg",
-    "author": "Peter Vandyke",
-    "licence": "Public domain",
-    "page": "https://commons.wikimedia.org/wiki/File:SamuelTaylorColeridge.jpg"
-  },
-  "stevenson": {
-    "file": "Robert_Louis_Stevenson_by_Henry_Walter_Barnett.jpg",
-    "author": "Henry Walter Barnett",
-    "licence": "Public domain",
-    "page": "https://commons.wikimedia.org/wiki/File:Robert_Louis_Stevenson_by_Henry_Walter_Barnett.jpg"
-  },
-  "doyle": {
-    "file": "Conan_doyle.jpg",
-    "author": "Arnold Genthe",
-    "licence": "Public domain",
-    "page": "https://commons.wikimedia.org/wiki/File:Conan_doyle.jpg"
   },
   "carroll": {
     "file": "Lewis_Carroll_(Charles_Lutwidge_Dodgson)_MET_DP-15137-001_(cropped).jpg",
@@ -430,18 +367,6 @@
     "licence": "Public domain",
     "page": "https://commons.wikimedia.org/wiki/File:Portrait_de_Jean_Racine_d%27apr%C3%A8s_Jean-Baptiste_Santerre.jpg"
   },
-  "corneille": {
-    "file": "Pierre_Corneille_2.jpg",
-    "author": "After Charles Le Brun",
-    "licence": "Public domain",
-    "page": "https://commons.wikimedia.org/wiki/File:Pierre_Corneille_2.jpg"
-  },
-  "lafontaine": {
-    "file": "Jean_de_La_Fontaine.PNG",
-    "author": "Hyacinthe Rigaud",
-    "licence": "Public domain",
-    "page": "https://commons.wikimedia.org/wiki/File:Jean_de_La_Fontaine.PNG"
-  },
   "voltaire": {
     "file": "Atelier_de_Nicolas_de_Largillière,_portrait_de_Voltaire,_détail_(musée_Carnavalet)_-002.jpg",
     "author": "Nicolas de Largillière",
@@ -459,12 +384,6 @@
     "author": "Unknown authorUnknown author",
     "licence": "Public domain",
     "page": "https://commons.wikimedia.org/wiki/File:Denis_Diderot_111.PNG"
-  },
-  "stendhal": {
-    "file": "Stendhal.jpg",
-    "author": "Olof Johan Södermark",
-    "licence": "Public domain",
-    "page": "https://commons.wikimedia.org/wiki/File:Stendhal.jpg"
   },
   "flaubert": {
     "file": "Gustave_Flaubert.jpg",
@@ -522,12 +441,6 @@
     "licence": "Public domain",
     "page": "https://commons.wikimedia.org/wiki/File:Antoine_de_Saint-Exup%C3%A9ry.jpg"
   },
-  "montesquieu": {
-    "file": "Montesquieu_1.png",
-    "author": "After Jacques-Antoine Dassier",
-    "licence": "Public domain",
-    "page": "https://commons.wikimedia.org/wiki/File:Montesquieu_1.png"
-  },
   "hugo": {
     "file": "Victor_Hugo_by_Étienne_Carjat_1876_-_full.jpg",
     "author": "Étienne Carjat",
@@ -540,23 +453,11 @@
     "licence": "Public domain",
     "page": "https://commons.wikimedia.org/wiki/File:Honor%C3%A9_de_Balzac_(1842)_Detail.jpg"
   },
-  "verlaine": {
-    "file": "Netsurf17_-_Paul_Verlaine.png",
-    "author": "unbekannt",
-    "licence": "Public domain",
-    "page": "https://commons.wikimedia.org/wiki/File:Netsurf17_-_Paul_Verlaine.png"
-  },
   "maupassant": {
     "file": "Maupassant_par_Nadar.jpg",
     "author": "Nadar",
     "licence": "Public domain",
     "page": "https://commons.wikimedia.org/wiki/File:Maupassant_par_Nadar.jpg"
-  },
-  "dumas": {
-    "file": "Nadar_-_Alexander_Dumas_père_(1802-1870)_-_Google_Art_Project_2.jpg",
-    "author": "Nadar",
-    "licence": "Public domain",
-    "page": "https://commons.wikimedia.org/wiki/File:Nadar_-_Alexander_Dumas_p%C3%A8re_(1802-1870)_-_Google_Art_Project_2.jpg"
   },
   "puschkin": {
     "file": "Kiprensky_Pushkin.jpg",
@@ -600,24 +501,6 @@
     "licence": "Public domain",
     "page": "https://commons.wikimedia.org/wiki/File:Olga_kardovskaya_portret_ahmatovoy_1914_szh_16.jpg"
   },
-  "zwetajewa": {
-    "file": "Tsvetaeva.jpg",
-    "author": "unbekannt",
-    "licence": "Public domain",
-    "page": "https://commons.wikimedia.org/wiki/File:Tsvetaeva.jpg"
-  },
-  "majakowski": {
-    "file": "Вл._Маяковский.jpg",
-    "author": "Pierre Choumoff",
-    "licence": "Public domain",
-    "page": "https://commons.wikimedia.org/wiki/File:%D0%92%D0%BB._%D0%9C%D0%B0%D1%8F%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B8%D0%B9.jpg"
-  },
-  "nabokov": {
-    "file": "Vladimir_Nabokov_1973.jpg",
-    "author": "Walter Mori (Mondadori Publishers)",
-    "licence": "Public domain",
-    "page": "https://commons.wikimedia.org/wiki/File:Vladimir_Nabokov_1973.jpg"
-  },
   "bulgakow": {
     "file": "Bulgakov1910s.jpg",
     "author": "Unknown authorUnknown author",
@@ -649,23 +532,11 @@
     "licence": "Public domain",
     "page": "https://commons.wikimedia.org/wiki/File:Edgar_Allan_Poe_daguerreotype_crop.png"
   },
-  "hawthorne": {
-    "file": "Nathaniel_Hawthorne_by_Brady,_1860-64.jpg",
-    "author": "Mathew Benjamin Brady",
-    "licence": "Public domain",
-    "page": "https://commons.wikimedia.org/wiki/File:Nathaniel_Hawthorne_by_Brady,_1860-64.jpg"
-  },
   "melville": {
     "file": "Herman_Melville_by_Joseph_O_Eaton.jpg",
     "author": "Joseph Oriel Eaton",
     "licence": "Public domain",
     "page": "https://commons.wikimedia.org/wiki/File:Herman_Melville_by_Joseph_O_Eaton.jpg"
-  },
-  "whitman": {
-    "file": "Whitman_at_about_fifty.jpg",
-    "author": "G. Frank E. Pearsall",
-    "licence": "Public domain",
-    "page": "https://commons.wikimedia.org/wiki/File:Whitman_at_about_fifty.jpg"
   },
   "dickinson": {
     "file": "Black-white_photograph_of_Emily_Dickinson2.png",
@@ -684,12 +555,6 @@
     "author": "Eastman Johnson",
     "licence": "Public domain",
     "page": "https://commons.wikimedia.org/wiki/File:Emerson_by_Johnson_1846-crop.jpg"
-  },
-  "stowe": {
-    "file": "Beecher-Stowe_3.jpg",
-    "author": "unbekannt",
-    "licence": "Public domain",
-    "page": "https://commons.wikimedia.org/wiki/File:Beecher-Stowe_3.jpg"
   },
   "twain": {
     "file": "MarkTwain.LOC.jpg",
@@ -732,5 +597,361 @@
     "author": "Carl Van Vechten",
     "licence": "Public domain",
     "page": "https://commons.wikimedia.org/wiki/File:Carl_van_Vechten_-_Francis_Scott_Fitzgerald_1937_Detail.jpg"
+  },
+  "cervantes": {
+    "file": "Cervantes_Jáuregui.jpg",
+    "author": "Attributed to Juan de Jáuregui",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Cervantes_J%C3%A1uregui.jpg"
+  },
+  "lope": {
+    "file": "LopedeVega.jpg",
+    "author": "Attributed to Eugenio Caxés",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:LopedeVega.jpg"
+  },
+  "calderon": {
+    "file": "Las_Glorias_Nacionales,_1852_\"D._Pedro_Calderón_de_la_Barca\"_(4013195639).jpg",
+    "author": "Fondo Antiguo de la Biblioteca de la Universidad de Sevilla from Sevilla, España",
+    "licence": "CC BY 2.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Las_Glorias_Nacionales,_1852_%22D._Pedro_Calder%C3%B3n_de_la_Barca%22_(4013195639).jpg"
+  },
+  "lorca": {
+    "file": "Federico_García_Lorca._Huerta_de_San_Vicente,_Granada.jpg",
+    "author": "AnonymousUnknown author",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Federico_Garc%C3%ADa_Lorca._Huerta_de_San_Vicente,_Granada.jpg"
+  },
+  "borges": {
+    "file": "Jorge_Luis_Borges_1951,_by_Grete_Stern_(full).jpg",
+    "author": "Grete Stern",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Jorge_Luis_Borges_1951,_by_Grete_Stern_(full).jpg"
+  },
+  "neruda": {
+    "file": "Pablo_Neruda_by_Annemarie_Heinrich,_1967.jpg",
+    "author": "Annemarie Heinrich (1912-2005)",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Pablo_Neruda_by_Annemarie_Heinrich,_1967.jpg"
+  },
+  "garcia-marquez": {
+    "file": "Gabriel_Garcia_Marquez.jpg",
+    "author": "Jose Lara",
+    "licence": "CC BY-SA 2.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Gabriel_Garcia_Marquez.jpg"
+  },
+  "cicero": {
+    "file": "Bust_of_Cicero_(1st-cent._BC)_-_Palazzo_Nuovo_-_Musei_Capitolini_-_Rome_2016.jpg",
+    "author": "José Luiz",
+    "licence": "CC BY-SA 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Bust_of_Cicero_(1st-cent._BC)_-_Palazzo_Nuovo_-_Musei_Capitolini_-_Rome_2016.jpg"
+  },
+  "seneca": {
+    "file": "Duble_herma_of_Socrates_and_Seneca_Antikensammlung_Berlin_07.jpg",
+    "author": "Calidius",
+    "licence": "CC BY-SA 3.0",
+    "licenceUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Duble_herma_of_Socrates_and_Seneca_Antikensammlung_Berlin_07.jpg"
+  },
+  "dante": {
+    "file": "Dante-alighieri.jpg",
+    "author": "Giotto",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Dante-alighieri.jpg"
+  },
+  "petrarca": {
+    "file": "Petrarch_by_Bargilla.jpg",
+    "author": "Andrea del Castagno",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Petrarch_by_Bargilla.jpg"
+  },
+  "andersen": {
+    "file": "Hans_Christian_Andersen_by_Thora_Hallager_1869.jpg",
+    "author": "Thora Hallager",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Hans_Christian_Andersen_by_Thora_Hallager_1869.jpg"
+  },
+  "ibsen": {
+    "file": "Schaarwächter_Henrik_Ibsen_cropped.jpg",
+    "author": "Julius Cornelius Schaarwächter",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Schaarw%C3%A4chter_Henrik_Ibsen_cropped.jpg"
+  },
+  "strindberg": {
+    "file": "August_Strindberg.jpg",
+    "author": "HULTON-DEUTSCH COLLECTION/CORBIS/SCANPIX",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:August_Strindberg.jpg"
+  },
+  "hamsun": {
+    "file": "Hamsun_bldsa_HA0341.jpg",
+    "author": "Anders Beer Wilse",
+    "licence": "CC BY 2.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Hamsun_bldsa_HA0341.jpg"
+  },
+  "lagerloef": {
+    "file": "Selma_Lagerlof_(1908),_painted_by_Carl_Larsson.jpg",
+    "author": "Carl Larsson",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Selma_Lagerlof_(1908),_painted_by_Carl_Larsson.jpg"
+  },
+  "vargas-llosa": {
+    "file": "Mario_Vargas_Llosa_(crop_2).jpg",
+    "author": "power axle",
+    "licence": "CC BY 2.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Mario_Vargas_Llosa_(crop_2).jpg"
+  },
+  "allende": {
+    "file": "Isabel_Allende_Frankfurter_Buchmesse_2015.JPG",
+    "author": "Lesekreis",
+    "licence": "CC BY-SA 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Isabel_Allende_Frankfurter_Buchmesse_2015.JPG"
+  },
+  "paz": {
+    "file": "Paz0.jpg",
+    "author": "No machine-readable author provided. Pintorpereza~commonswiki assumed (based on copyright claims).",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Paz0.jpg"
+  },
+  "galdos": {
+    "file": "Perez_galdos.jpg",
+    "author": "Joaquín Sorolla",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Perez_galdos.jpg"
+  },
+  "homer": {
+    "file": "Homeros_MFA_Munich_272.jpg",
+    "author": "unbekannt",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Homeros_MFA_Munich_272.jpg"
+  },
+  "sappho": {
+    "file": "Sappho_fresco.jpg",
+    "author": "Unknown authorUnknown author",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Sappho_fresco.jpg"
+  },
+  "aischylos": {
+    "file": "Archeologico_firenze,_bronzi_della_Meloria,_eschilo.JPG",
+    "author": "sailko",
+    "licence": "CC BY 2.5",
+    "licenceUrl": "https://creativecommons.org/licenses/by/2.5",
+    "page": "https://commons.wikimedia.org/wiki/File:Archeologico_firenze,_bronzi_della_Meloria,_eschilo.JPG"
+  },
+  "sophokles": {
+    "file": "Archeologico_firenze,_bronzi_della_Meloria,_sofocle.JPG",
+    "author": "sailko",
+    "licence": "CC BY 2.5",
+    "licenceUrl": "https://creativecommons.org/licenses/by/2.5",
+    "page": "https://commons.wikimedia.org/wiki/File:Archeologico_firenze,_bronzi_della_Meloria,_sofocle.JPG"
+  },
+  "euripides": {
+    "file": "Euripide.jpg",
+    "author": "NikonZ7II",
+    "licence": "CC BY-SA 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Euripide.jpg"
+  },
+  "ovid": {
+    "file": "Statue_of_Roman_poet_Ovid_in_Constanţa,_Romania.jpg",
+    "author": "Kurt Wichmann",
+    "licence": "CC BY 3.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Statue_of_Roman_poet_Ovid_in_Constan%C5%A3a,_Romania.jpg"
+  },
+  "horaz": {
+    "file": "Statue_d'Horace.jpg",
+    "author": "D.N.R.",
+    "licence": "CC0",
+    "licenceUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:Statue_d%27Horace.jpg"
+  },
+  "ariost": {
+    "file": "Ludovico_Ariosto_1532.jpg",
+    "author": "Unknown authorUnknown author",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Ludovico_Ariosto_1532.jpg"
+  },
+  "tasso": {
+    "file": "Torq-Tasso.jpg",
+    "author": "The original uploader was Der Bischof mit der E-Gitarre at German Wikipedia. (Original text: de:Federico Zuccari (1542-1609))",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Torq-Tasso.jpg"
+  },
+  "pirandello": {
+    "file": "Luigi_Pirandello_1934b.jpg",
+    "author": "Unknown authorUnknown author",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Luigi_Pirandello_1934b.jpg"
+  },
+  "svevo": {
+    "file": "ItaloSvevo.jpg",
+    "author": "Unknown photographer",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:ItaloSvevo.jpg"
+  },
+  "levi": {
+    "file": "Primo_Levi_(1960).jpg",
+    "author": "AnonymousUnknown author",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Primo_Levi_(1960).jpg"
+  },
+  "calvino": {
+    "file": "Italo-Calvino-i-Oslo_07-04-1961_Fotograf-Johan-Brun.jpg",
+    "author": "Johan Brun",
+    "licence": "CC BY-SA 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Italo-Calvino-i-Oslo_07-04-1961_Fotograf-Johan-Brun.jpg"
+  },
+  "eco": {
+    "file": "Italiaanse_schrijver_Umberto_Eco,_portret.jpg",
+    "author": "Rob Bogaerts for Anefo",
+    "licence": "CC0",
+    "licenceUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:Italiaanse_schrijver_Umberto_Eco,_portret.jpg"
+  },
+  "lindgren": {
+    "file": "Astrid_Lindgren_SPA.jpg",
+    "author": "Tire Burnäs",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Astrid_Lindgren_SPA.jpg"
+  },
+  "kierkegaard": {
+    "file": "Kierkegaard.jpg",
+    "author": "Neils Christian Kierkegaard",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Kierkegaard.jpg"
+  },
+  "bjoernson": {
+    "file": "Portrett_av_Bjørnstjerne_Bjørnson,_1909_-_no-nb_digifoto_20150129_00043_bldsa_BB0791_-_Restoration.jpg",
+    "author": "Erwin Raupp / Adam Cuerden",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Portrett_av_Bj%C3%B8rnstjerne_Bj%C3%B8rnson,_1909_-_no-nb_digifoto_20150129_00043_bldsa_BB0791_-_Restoration.jpg"
+  },
+  "mankell": {
+    "file": "Henning_Mankell_3_2011_Shankbone.jpg",
+    "author": "David Shankbone",
+    "licence": "CC BY 3.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Henning_Mankell_3_2011_Shankbone.jpg"
+  },
+  "fosse": {
+    "file": "Writer_Jon_Fosse_(cropped).jpg",
+    "author": "Tom A. Kolstad/Det norske samlaget.",
+    "licence": "CC BY-SA 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Writer_Jon_Fosse_(cropped).jpg"
+  },
+  "transtroemer": {
+    "file": "Transtroemer.jpg",
+    "author": "Andrei Romanenko",
+    "licence": "CC BY-SA 3.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Transtroemer.jpg"
+  },
+  "unamuno": {
+    "file": "Miguel_de_Unamuno_Meurisse_c_1925.JPG",
+    "author": "Agence de presse Meurisse",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Miguel_de_Unamuno_Meurisse_c_1925.JPG"
+  },
+  "cortazar": {
+    "file": "Cortázar.jpg",
+    "author": "Sara Facio",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Cort%C3%A1zar.jpg"
+  },
+  "quevedo": {
+    "file": "Quevedo_(copia_de_Velázquez).jpg",
+    "author": "Attributed to Juan van der Hamen",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Quevedo_(copia_de_Vel%C3%A1zquez).jpg"
+  },
+  "aristophanes": {
+    "file": "Bust_of_Aristophanes.jpg",
+    "author": "Alexander Mayatsky",
+    "licence": "CC BY-SA 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Bust_of_Aristophanes.jpg"
+  },
+  "machiavelli": {
+    "file": "Portrait_of_Niccolò_Machiavelli_by_Santi_di_Tito.jpg",
+    "author": "Santi di Tito",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Portrait_of_Niccol%C3%B2_Machiavelli_by_Santi_di_Tito.jpg"
+  },
+  "manzoni": {
+    "file": "Francesco_Hayez_-_Ritratto_di_Alessandro_Manzoni.jpg",
+    "author": "Francesco Hayez",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Francesco_Hayez_-_Ritratto_di_Alessandro_Manzoni.jpg"
+  },
+  "leopardi": {
+    "file": "Giacomo_Leopardi.jpg",
+    "author": "it:User:Twice25.",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Giacomo_Leopardi.jpg"
+  },
+  "verga": {
+    "file": "Giovanni-Verga.jpg",
+    "author": "unbekannt",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Giovanni-Verga.jpg"
+  },
+  "undset": {
+    "file": "Sigrid_Undset_OB.RP18176b.jpg",
+    "author": "Ernest Rude",
+    "licence": "CC BY-SA 3.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Sigrid_Undset_OB.RP18176b.jpg"
+  },
+  "blixen": {
+    "file": "Karen_Blixen.jpg",
+    "author": "SAS Scandinavian Airlines",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Karen_Blixen.jpg"
+  },
+  "laxness": {
+    "file": "Halldór_Kiljan_Laxness_1955.jpg",
+    "author": "Nobel Foundation",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Halld%C3%B3r_Kiljan_Laxness_1955.jpg"
+  },
+  "vergil": {
+    "file": "Vergilio_mosaico_de_Monno_Landesmuseum_Trier3000.jpg",
+    "author": "QuartierLatin1968",
+    "licence": "CC BY-SA 3.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Vergilio_mosaico_de_Monno_Landesmuseum_Trier3000.jpg"
+  },
+  "machado": {
+    "file": "Antonio Machado hacia 1917.png",
+    "author": "Unknown authorUnknown author",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Antonio_Machado_hacia_1917.png"
+  },
+  "boccaccio": {
+    "file": "Andrea del Castagno Giovanni Boccaccio c 1450.jpg",
+    "author": "Andrea del Castagno",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Andrea_del_Castagno_Giovanni_Boccaccio_c_1450.jpg"
+  },
+  "montale": {
+    "file": "Eugenio Montale.jpg",
+    "author": "Kaj Hagman.",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Eugenio_Montale.jpg"
+  },
+  "ungaretti": {
+    "file": "Giuseppe Ungaretti.jpg",
+    "author": "AnonymousUnknown author",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Giuseppe_Ungaretti.jpg"
   }
 }

@@ -29,12 +29,6 @@
     "artist": "",
     "year": ""
   },
-  "grimmelshausen": {
-    "wiki": "Hans Jakob Christoffel von Grimmelshausen",
-    "title": "Grimmelshausen",
-    "artist": "",
-    "year": ""
-  },
   "simplicissimus": {
     "wiki": "Der abentheurliche Simplicissimus Teutsch",
     "title": "Simplicissimus",
@@ -76,12 +70,6 @@
   "kleist": {
     "wiki": "Heinrich von Kleist",
     "title": "Heinrich von Kleist",
-    "artist": "",
-    "year": ""
-  },
-  "hoelderlin": {
-    "wiki": "Friedrich Hölderlin",
-    "title": "Friedrich Hölderlin",
     "artist": "",
     "year": ""
   },
@@ -211,24 +199,6 @@
     "artist": "",
     "year": ""
   },
-  "duerrenmatt": {
-    "wiki": "Friedrich Dürrenmatt",
-    "title": "Friedrich Dürrenmatt",
-    "artist": "",
-    "year": ""
-  },
-  "wolf": {
-    "wiki": "Christa Wolf",
-    "title": "Christa Wolf",
-    "artist": "",
-    "year": ""
-  },
-  "borchert": {
-    "wiki": "Wolfgang Borchert",
-    "title": "Wolfgang Borchert",
-    "artist": "",
-    "year": ""
-  },
   "shakespeare": {
     "wiki": "William Shakespeare",
     "title": "William Shakespeare",
@@ -314,12 +284,6 @@
     "artist": "",
     "year": ""
   },
-  "coleridge": {
-    "wiki": "Samuel Taylor Coleridge",
-    "title": "Samuel Taylor Coleridge",
-    "artist": "",
-    "year": ""
-  },
   "dickens": {
     "wiki": "Charles Dickens",
     "title": "Charles Dickens",
@@ -342,24 +306,6 @@
   "wilde": {
     "wiki": "Oscar Wilde",
     "title": "Oscar Wilde",
-    "artist": "",
-    "year": ""
-  },
-  "hardy": {
-    "wiki": "Thomas Hardy",
-    "title": "Thomas Hardy",
-    "artist": "",
-    "year": ""
-  },
-  "stevenson": {
-    "wiki": "Robert Louis Stevenson",
-    "title": "Robert Louis Stevenson",
-    "artist": "",
-    "year": ""
-  },
-  "doyle": {
-    "wiki": "Arthur Conan Doyle",
-    "title": "Arthur Conan Doyle",
     "artist": "",
     "year": ""
   },
@@ -399,12 +345,6 @@
     "artist": "",
     "year": ""
   },
-  "beckett": {
-    "wiki": "Samuel Beckett",
-    "title": "Samuel Beckett",
-    "artist": "",
-    "year": ""
-  },
   "yeats": {
     "wiki": "William Butler Yeats",
     "title": "William Butler Yeats",
@@ -420,18 +360,6 @@
   "racine": {
     "wiki": "Jean Racine",
     "title": "Jean Racine",
-    "artist": "",
-    "year": ""
-  },
-  "corneille": {
-    "wiki": "Pierre Corneille",
-    "title": "Pierre Corneille",
-    "artist": "",
-    "year": ""
-  },
-  "lafontaine": {
-    "wiki": "Jean de La Fontaine",
-    "title": "Jean de La Fontaine",
     "artist": "",
     "year": ""
   },
@@ -453,12 +381,6 @@
     "artist": "",
     "year": ""
   },
-  "montesquieu": {
-    "wiki": "Montesquieu",
-    "title": "Montesquieu",
-    "artist": "",
-    "year": ""
-  },
   "hugo": {
     "wiki": "Victor Hugo",
     "title": "Victor Hugo",
@@ -468,12 +390,6 @@
   "balzac": {
     "wiki": "Honoré de Balzac",
     "title": "Honoré de Balzac",
-    "artist": "",
-    "year": ""
-  },
-  "stendhal": {
-    "wiki": "Stendhal",
-    "title": "Stendhal",
     "artist": "",
     "year": ""
   },
@@ -501,21 +417,9 @@
     "artist": "",
     "year": ""
   },
-  "verlaine": {
-    "wiki": "Paul Verlaine",
-    "title": "Paul Verlaine",
-    "artist": "",
-    "year": ""
-  },
   "maupassant": {
     "wiki": "Guy de Maupassant",
     "title": "Guy de Maupassant",
-    "artist": "",
-    "year": ""
-  },
-  "dumas": {
-    "wiki": "Alexandre Dumas der Ältere",
-    "title": "Alexandre Dumas",
     "artist": "",
     "year": ""
   },
@@ -616,45 +520,15 @@
     "artist": "",
     "year": ""
   },
-  "zwetajewa": {
-    "wiki": "Marina Iwanowna Zwetajewa",
-    "title": "Marina Zwetajewa",
-    "artist": "",
-    "year": ""
-  },
-  "majakowski": {
-    "wiki": "Wladimir Wladimirowitsch Majakowski",
-    "title": "Wladimir Majakowski",
-    "artist": "",
-    "year": ""
-  },
-  "nabokov": {
-    "wiki": "Vladimir Nabokov",
-    "title": "Vladimir Nabokov",
-    "artist": "",
-    "year": ""
-  },
   "poe": {
     "wiki": "Edgar Allan Poe",
     "title": "Edgar Allan Poe",
     "artist": "",
     "year": ""
   },
-  "hawthorne": {
-    "wiki": "Nathaniel Hawthorne",
-    "title": "Nathaniel Hawthorne",
-    "artist": "",
-    "year": ""
-  },
   "melville": {
     "wiki": "Herman Melville",
     "title": "Herman Melville",
-    "artist": "",
-    "year": ""
-  },
-  "whitman": {
-    "wiki": "Walt Whitman",
-    "title": "Walt Whitman",
     "artist": "",
     "year": ""
   },
@@ -673,12 +547,6 @@
   "emerson": {
     "wiki": "Ralph Waldo Emerson",
     "title": "Ralph Waldo Emerson",
-    "artist": "",
-    "year": ""
-  },
-  "stowe": {
-    "wiki": "Harriet Beecher Stowe",
-    "title": "Harriet Beecher Stowe",
     "artist": "",
     "year": ""
   },
@@ -721,6 +589,346 @@
   "hughes": {
     "wiki": "Langston Hughes",
     "title": "Langston Hughes",
+    "artist": "",
+    "year": ""
+  },
+  "cervantes": {
+    "wiki": "Miguel de Cervantes",
+    "title": "Miguel de Cervantes",
+    "artist": "",
+    "year": ""
+  },
+  "lope": {
+    "wiki": "Lope de Vega",
+    "title": "Lope de Vega",
+    "artist": "",
+    "year": ""
+  },
+  "calderon": {
+    "wiki": "Pedro Calderón de la Barca",
+    "title": "Pedro Calderón de la Barca",
+    "artist": "",
+    "year": ""
+  },
+  "lorca": {
+    "wiki": "Federico García Lorca",
+    "title": "Federico García Lorca",
+    "artist": "",
+    "year": ""
+  },
+  "machado": {
+    "wiki": "Antonio Machado",
+    "title": "Antonio Machado",
+    "artist": "",
+    "year": "",
+    "file": "Antonio Machado hacia 1917.png"
+  },
+  "borges": {
+    "wiki": "Jorge Luis Borges",
+    "title": "Jorge Luis Borges",
+    "artist": "",
+    "year": ""
+  },
+  "neruda": {
+    "wiki": "Pablo Neruda",
+    "title": "Pablo Neruda",
+    "artist": "",
+    "year": ""
+  },
+  "garcia-marquez": {
+    "wiki": "Gabriel García Márquez",
+    "title": "Gabriel García Márquez",
+    "artist": "",
+    "year": ""
+  },
+  "vargas-llosa": {
+    "wiki": "Mario Vargas Llosa",
+    "title": "Mario Vargas Llosa",
+    "artist": "",
+    "year": ""
+  },
+  "allende": {
+    "wiki": "Isabel Allende",
+    "title": "Isabel Allende",
+    "artist": "",
+    "year": ""
+  },
+  "paz": {
+    "wiki": "Octavio Paz",
+    "title": "Octavio Paz",
+    "artist": "",
+    "year": ""
+  },
+  "galdos": {
+    "wiki": "Benito Pérez Galdós",
+    "title": "Benito Pérez Galdós",
+    "artist": "",
+    "year": ""
+  },
+  "unamuno": {
+    "wiki": "Miguel de Unamuno",
+    "title": "Miguel de Unamuno",
+    "artist": "",
+    "year": ""
+  },
+  "cortazar": {
+    "wiki": "Julio Cortázar",
+    "title": "Julio Cortázar",
+    "artist": "",
+    "year": ""
+  },
+  "quevedo": {
+    "wiki": "Francisco de Quevedo",
+    "title": "Francisco de Quevedo",
+    "artist": "",
+    "year": ""
+  },
+  "homer": {
+    "wiki": "Homer",
+    "title": "Homer",
+    "artist": "",
+    "year": ""
+  },
+  "sappho": {
+    "wiki": "Sappho",
+    "title": "Sappho",
+    "artist": "",
+    "year": ""
+  },
+  "aischylos": {
+    "wiki": "Aischylos",
+    "title": "Aischylos",
+    "artist": "",
+    "year": ""
+  },
+  "sophokles": {
+    "wiki": "Sophokles",
+    "title": "Sophokles",
+    "artist": "",
+    "year": ""
+  },
+  "euripides": {
+    "wiki": "Euripides",
+    "title": "Euripides",
+    "artist": "",
+    "year": ""
+  },
+  "aristophanes": {
+    "wiki": "Aristophanes",
+    "title": "Aristophanes",
+    "artist": "",
+    "year": ""
+  },
+  "vergil": {
+    "wiki": "Vergil",
+    "title": "Vergil",
+    "artist": "",
+    "year": ""
+  },
+  "ovid": {
+    "wiki": "Ovid",
+    "title": "Ovid",
+    "artist": "",
+    "year": ""
+  },
+  "horaz": {
+    "wiki": "Horaz",
+    "title": "Horaz",
+    "artist": "",
+    "year": ""
+  },
+  "cicero": {
+    "wiki": "Marcus Tullius Cicero",
+    "title": "Marcus Tullius Cicero",
+    "artist": "",
+    "year": ""
+  },
+  "seneca": {
+    "wiki": "Seneca",
+    "title": "Seneca",
+    "artist": "",
+    "year": ""
+  },
+  "dante": {
+    "wiki": "Dante Alighieri",
+    "title": "Dante Alighieri",
+    "artist": "",
+    "year": ""
+  },
+  "petrarca": {
+    "wiki": "Francesco Petrarca",
+    "title": "Francesco Petrarca",
+    "artist": "",
+    "year": ""
+  },
+  "boccaccio": {
+    "wiki": "Giovanni Boccaccio",
+    "title": "Giovanni Boccaccio",
+    "artist": "Andrea del Castagno",
+    "year": "um 1450",
+    "file": "Andrea del Castagno Giovanni Boccaccio c 1450.jpg"
+  },
+  "ariost": {
+    "wiki": "Ludovico Ariosto",
+    "title": "Ludovico Ariosto",
+    "artist": "",
+    "year": ""
+  },
+  "tasso": {
+    "wiki": "Torquato Tasso",
+    "title": "Torquato Tasso",
+    "artist": "",
+    "year": ""
+  },
+  "machiavelli": {
+    "wiki": "Niccolò Machiavelli",
+    "title": "Niccolò Machiavelli",
+    "artist": "",
+    "year": ""
+  },
+  "manzoni": {
+    "wiki": "Alessandro Manzoni",
+    "title": "Alessandro Manzoni",
+    "artist": "",
+    "year": ""
+  },
+  "leopardi": {
+    "wiki": "Giacomo Leopardi",
+    "title": "Giacomo Leopardi",
+    "artist": "",
+    "year": ""
+  },
+  "verga": {
+    "wiki": "Giovanni Verga",
+    "title": "Giovanni Verga",
+    "artist": "",
+    "year": ""
+  },
+  "pirandello": {
+    "wiki": "Luigi Pirandello",
+    "title": "Luigi Pirandello",
+    "artist": "",
+    "year": ""
+  },
+  "svevo": {
+    "wiki": "Italo Svevo",
+    "title": "Italo Svevo",
+    "artist": "",
+    "year": ""
+  },
+  "levi": {
+    "wiki": "Primo Levi",
+    "title": "Primo Levi",
+    "artist": "",
+    "year": ""
+  },
+  "calvino": {
+    "wiki": "Italo Calvino",
+    "title": "Italo Calvino",
+    "artist": "",
+    "year": ""
+  },
+  "eco": {
+    "wiki": "Umberto Eco",
+    "title": "Umberto Eco",
+    "artist": "",
+    "year": ""
+  },
+  "montale": {
+    "wiki": "Eugenio Montale",
+    "title": "Eugenio Montale",
+    "artist": "",
+    "year": "",
+    "file": "Eugenio Montale.jpg"
+  },
+  "ungaretti": {
+    "wiki": "Giuseppe Ungaretti",
+    "title": "Giuseppe Ungaretti",
+    "artist": "",
+    "year": "",
+    "file": "Giuseppe Ungaretti.jpg"
+  },
+  "andersen": {
+    "wiki": "Hans Christian Andersen",
+    "title": "Hans Christian Andersen",
+    "artist": "",
+    "year": ""
+  },
+  "ibsen": {
+    "wiki": "Henrik Ibsen",
+    "title": "Henrik Ibsen",
+    "artist": "",
+    "year": ""
+  },
+  "strindberg": {
+    "wiki": "August Strindberg",
+    "title": "August Strindberg",
+    "artist": "",
+    "year": ""
+  },
+  "hamsun": {
+    "wiki": "Knut Hamsun",
+    "title": "Knut Hamsun",
+    "artist": "",
+    "year": ""
+  },
+  "lagerloef": {
+    "wiki": "Selma Lagerlöf",
+    "title": "Selma Lagerlöf",
+    "artist": "",
+    "year": ""
+  },
+  "lindgren": {
+    "wiki": "Astrid Lindgren",
+    "title": "Astrid Lindgren",
+    "artist": "",
+    "year": ""
+  },
+  "kierkegaard": {
+    "wiki": "Søren Kierkegaard",
+    "title": "Søren Kierkegaard",
+    "artist": "",
+    "year": ""
+  },
+  "bjoernson": {
+    "wiki": "Bjørnstjerne Bjørnson",
+    "title": "Bjørnstjerne Bjørnson",
+    "artist": "",
+    "year": ""
+  },
+  "undset": {
+    "wiki": "Sigrid Undset",
+    "title": "Sigrid Undset",
+    "artist": "",
+    "year": ""
+  },
+  "blixen": {
+    "wiki": "Karen Blixen",
+    "title": "Karen Blixen",
+    "artist": "",
+    "year": ""
+  },
+  "laxness": {
+    "wiki": "Halldór Laxness",
+    "title": "Halldór Laxness",
+    "artist": "",
+    "year": ""
+  },
+  "mankell": {
+    "wiki": "Henning Mankell",
+    "title": "Henning Mankell",
+    "artist": "",
+    "year": ""
+  },
+  "fosse": {
+    "wiki": "Jon Fosse",
+    "title": "Jon Fosse",
+    "artist": "",
+    "year": ""
+  },
+  "transtroemer": {
+    "wiki": "Tomas Tranströmer",
+    "title": "Tomas Tranströmer",
     "artist": "",
     "year": ""
   }

@@ -19,6 +19,15 @@ import { RU_19JH } from './ru-19jh';
 import { RU_20JH } from './ru-20jh';
 import { US_19JH } from './us-19jh';
 import { US_20JH } from './us-20jh';
+import { ES_SIGLO_DE_ORO } from './es-siglo-de-oro';
+import { ES_MODERNE } from './es-moderne';
+import { LA_20JH } from './la-20jh';
+import { AN_GRIECHENLAND } from './an-griechenland';
+import { AN_ROM } from './an-rom';
+import { IT_MITTELALTER_RENAISSANCE } from './it-mittelalter-renaissance';
+import { IT_MODERNE } from './it-moderne';
+import { SK_19JH } from './sk-19jh';
+import { SK_20JH } from './sk-20jh';
 
 // Literatur: countries (epochs) → literary epochs (events) → overview + authors (subtopics),
 // reusing the history types. Progress is stored like the countries' under
@@ -58,6 +67,24 @@ const RAW: CountryHistory = {
       period: 'um 1820 – heute',
       events: [US_19JH, US_20JH],
     },
+    {
+      id: 'spanien',
+      name: 'Spanien und Lateinamerika',
+      period: 'um 1550 – heute',
+      events: [ES_SIGLO_DE_ORO, ES_MODERNE, LA_20JH],
+    },
+    {
+      id: 'antike-italien',
+      name: 'Antike und Italien',
+      period: 'um 750 v. Chr. – heute',
+      events: [AN_GRIECHENLAND, AN_ROM, IT_MITTELALTER_RENAISSANCE, IT_MODERNE],
+    },
+    {
+      id: 'skandinavien',
+      name: 'Skandinavien',
+      period: 'um 1800 – heute',
+      events: [SK_19JH, SK_20JH],
+    },
   ],
 };
 
@@ -77,15 +104,18 @@ export function findKapitel(epocheId: string, subId: string): { land: Epoch; eve
 
 // A well-known person (portrait) per country and per epoch for the tiles.
 const COVERS: Record<string, string> = {
-  deutschland: 'goethe', england: 'shakespeare', frankreich: 'hugo', russland: 'tolstoi', usa: 'twain',
+  deutschland: 'goethe', england: 'shakespeare', frankreich: 'hugo', russland: 'tolstoi', usa: 'twain', spanien: 'cervantes', 'antike-italien': 'dante', skandinavien: 'ibsen',
   'de-mittelalter-barock': 'walther', 'de-aufklaerung': 'lessing', 'de-klassik': 'schiller', 'de-romantik': 'eichendorff',
   'de-vormaerz': 'heine', 'de-realismus': 'fontane', 'de-moderne': 'kafka', 'de-gegenwart': 'grass',
   'en-renaissance': 'marlowe', 'en-aufklaerung': 'defoe', 'en-romantik': 'byron', 'en-viktorianisch': 'dickens', 'en-moderne': 'woolf',
   'fr-klassik': 'moliere', 'fr-19jh': 'balzac', 'fr-moderne': 'camus',
   'ru-19jh': 'dostojewski', 'ru-20jh': 'bulgakow',
   'us-19jh': 'poe', 'us-20jh': 'hemingway',
+  'es-siglo-de-oro': 'cervantes', 'es-moderne': 'lorca', 'la-20jh': 'garcia-marquez',
+  'an-griechenland': 'homer', 'an-rom': 'vergil', 'it-mittelalter-renaissance': 'petrarca', 'it-moderne': 'calvino',
+  'sk-19jh': 'andersen', 'sk-20jh': 'lindgren',
 };
-const FLAGS: Record<string, string> = { deutschland: '🇩🇪', england: '🇬🇧', frankreich: '🇫🇷', russland: '🇷🇺', usa: '🇺🇸' };
+const FLAGS: Record<string, string> = { deutschland: '🇩🇪', england: '🇬🇧', frankreich: '🇫🇷', russland: '🇷🇺', usa: '🇺🇸', spanien: '🇪🇸', 'antike-italien': '🇮🇹', skandinavien: '🇸🇪' };
 
 export const LITERATUR: CountryHistory = {
   ...RAW,
