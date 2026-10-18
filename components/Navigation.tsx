@@ -28,12 +28,6 @@ const LANGUAGE_TOOLS: readonly Item[] = [
   { href: '/erfolge', label: ['Achievements', 'Erfolge'], icon: 'trophy' },
 ];
 
-const HISTORY_TOOLS: readonly Item[] = [
-  { href: '/weltgeschichte', label: ['World history', 'Weltgeschichte'], icon: 'globe' },
-  { href: '/karte', label: ['Map quiz', 'Weltkarte'], icon: 'map' },
-  { href: '/zeitstrahl', label: ['Timeline', 'Zeitstrahl'], icon: 'hourglass' },
-];
-
 const SUBJECT_TOOLS: readonly Item[] = [
   ...SUBJECTS.map(s => ({ href: `/wissen/${s.id}`, label: s.name, icon: SUBJECT_ICONS[s.id] ?? 'book' })),
   { href: '/wissen/mix', label: ['Mixed round', 'Gemischte Runde'], icon: 'shuffle' },
@@ -41,8 +35,7 @@ const SUBJECT_TOOLS: readonly Item[] = [
 
 const SECTIONS: readonly Section[] = [
   { id: 'start', href: '/', label: ['Home', 'Start'], icon: 'home', paths: [] },
-  { id: 'faecher', href: '/faecher', label: ['Subjects', 'Fächer'], icon: 'grid', paths: ['/faecher', '/wissen'], sub: SUBJECT_TOOLS },
-  { id: 'geschichte', href: '/weltgeschichte', label: ['History', 'Geschichte'], icon: 'globe', paths: ['/weltgeschichte', '/karte', '/zeitstrahl'], sub: HISTORY_TOOLS },
+  { id: 'faecher', href: '/faecher', label: ['Subjects', 'Fächer'], icon: 'grid', paths: ['/faecher', '/wissen', '/weltgeschichte', '/karte', '/zeitstrahl'], sub: SUBJECT_TOOLS },
   {
     id: 'sprachen', href: '/heute', label: ['Languages', 'Sprachen'], icon: 'languages',
     paths: ['/heute', '/ueben', '/vokabeln', '/konjugation', '/grammar', '/lesen', '/saetze', '/race', '/erfolge', '/sprache'],
@@ -55,7 +48,7 @@ const sectionOf = (path: string) =>
   path === '/' ? SECTIONS[0] : SECTIONS.find(s => s.paths.some(p => path.startsWith(p)));
 
 const subActive = (path: string, href: string) =>
-  href === '/weltgeschichte' || href === '/heute' ? path.startsWith(href) : path === href || path.startsWith(href + '/');
+  href === '/heute' ? path.startsWith(href) : path === href || path.startsWith(href + '/');
 
 export default function Navigation() {
   const path = usePathname() ?? '';

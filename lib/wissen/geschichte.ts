@@ -26,10 +26,6 @@ export const geschichte: Subject = {
   icon: '🏛️',
   blurb: ['From the Stone Age to today, every continent', 'Von der Steinzeit bis heute, alle Kontinente'],
   color: { bg: 'bg-amber-50 dark:bg-amber-950/50', text: 'text-amber-800 dark:text-amber-300', bar: 'bg-amber-500', border: 'border-amber-200 dark:border-amber-900' },
-  links: [
-    { href: '/weltgeschichte', icon: '🌍', name: ['World history', 'Weltgeschichte'], blurb: ['Timelines, continents and the history of every country', 'Zeittafeln, Kontinente und die Geschichte aller Länder'] },
-    { href: '/zeitstrahl', icon: '⏳', name: ['Timeline game', 'Zeitstrahl-Spiel'], blurb: ['Put events in the right order', 'Ereignisse in die richtige Reihenfolge bringen'] },
-  ],
   topics: [
     ...[
     topic(S, 'antike', ['Antiquity', 'Antike'], '🏺', [
