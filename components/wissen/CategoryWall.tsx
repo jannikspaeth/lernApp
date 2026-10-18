@@ -4,6 +4,7 @@ import Link from 'next/link';
 import { summarize } from '@/lib/wissen/progress';
 import { useWissenProgress } from '@/components/laender/EventProgress';
 import type { Card } from '@/lib/wissen/types';
+import { useBests } from '@/components/geo/QuizList';
 
 export interface CategoryTile {
   key: string;
@@ -14,15 +15,19 @@ export interface CategoryTile {
   tint: string; // Tailwind gradient classes
   art: string[]; // up to four pictures (flags, outlines) shown as a faint mosaic
   cards: Pick<Card, 'id'>[];
+  quizIds?: string[]; // typed quizzes of the category: progress counts perfect runs
 }
 
 // Square tiles for the categories of a subject: gradient, picture mosaic, title and progress.
 export default function CategoryWall({ tiles }: { tiles: CategoryTile[] }) {
   const prog = useWissenProgress();
+  const bests = useBests();
   return (
     <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
       {tiles.map(t => {
-        const s = prog ? summarize(t.cards as Card[], prog) : null;
+        const s = t.quizIds
+          ? { mastered: t.quizIds.filter(id => bests[id] && bests[id].solved === bests[id].total).length, total: t.quizIds.length }
+          : prog ? summarize(t.cards as Card[], prog) : null;
         const pct = s && s.total ? Math.round((s.mastered / s.total) * 100) : 0;
         return (
           <Link

@@ -48,12 +48,14 @@ export default function SubjectView({
   history,
   onlyGroup,
   extra,
+  backHref,
 }: {
   subjectId: string;
   hideTopics?: boolean;
   history?: SubjectHistory;
   onlyGroup?: string; // show only the topics of this group (German group name): a category page
   extra?: ReactNode; // server-rendered links below the topics (category page)
+  backHref?: string;
 }) {
   const full = getSubject(subjectId) as Subject;
   const subject = useMemo<Subject>(
@@ -132,7 +134,7 @@ export default function SubjectView({
       <div className="max-w-2xl mx-auto px-5 pt-4 md:pt-8 space-y-6">
         {!current && (
           <div className="space-y-3">
-            <Link href={onlyGroup ? `/wissen/${subject.id}` : '/faecher'} className="inline-flex items-center gap-1 -ml-1 h-9 pr-2 text-sm font-medium text-muted hover:text-ink">
+            <Link href={backHref ?? (onlyGroup ? `/wissen/${subject.id}` : '/faecher')} className="inline-flex items-center gap-1 -ml-1 h-9 pr-2 text-sm font-medium text-muted hover:text-ink">
               <Icon name="chevronLeft" size={18} /> {onlyGroup ? name : t('Subjects', 'Fächer')}
             </Link>
             <div className="flex items-center gap-4">

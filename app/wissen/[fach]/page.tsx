@@ -5,6 +5,7 @@ import TileWall, { ContinueCard } from '@/components/wissen/TileWall';
 import { geschichteLandTiles, kunstEpochTiles, literaturLandTiles } from '@/lib/wissen/tiles';
 import { KUNST } from '@/lib/kunst';
 import { LITERATUR } from '@/lib/literatur';
+import { QUIZZES } from '@/lib/geografie/quizzes';
 import CategoryWall from '@/components/wissen/CategoryWall';
 import { CATS } from '@/lib/geografie/cats';
 import MoreCountries from '@/components/wissen/MoreCountries';
@@ -67,7 +68,7 @@ function history(fach: string) {
       const art = c.id === 'flaggen' ? ['de', 'jp', 'br', 'za'].map(x => `/flags/${x}.svg`)
         : c.id === 'laender' ? ['it', 'jp', 'br', 'au'].map(x => `/umriss/${x}.svg`)
         : [];
-      return { key: c.id, href: `/wissen/geografie/${c.id}`, index: i + 1, title: c.group[1], sub: c.blurb[1], tint: c.tint, art, cards: topics.flatMap(tp => tp.cards.map(cd => ({ id: cd.id }))) };
+      return { key: c.id, href: `/wissen/geografie/${c.id}`, index: i + 1, title: c.group[1], sub: `${QUIZZES.filter(q => q.cat === c.id).length} Quizze · ${c.blurb[1]}`, quizIds: QUIZZES.filter(q => q.cat === c.id).map(q => q.id), tint: c.tint, art, cards: topics.flatMap(tp => tp.cards.map(cd => ({ id: cd.id }))) };
     });
     return {
       title: ['Geography by theme', 'Geografie nach Themen'] as [string, string],
