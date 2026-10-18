@@ -931,5 +931,115 @@
     "title": "Tomas Tranströmer",
     "artist": "",
     "year": ""
+  },
+  "murasaki": {
+    "wiki": "Murasaki Shikibu",
+    "title": "Murasaki Shikibu",
+    "artist": "",
+    "year": ""
+  },
+  "basho": {
+    "wiki": "Matsuo Bashō",
+    "title": "Matsuo Bashō",
+    "artist": "",
+    "year": "",
+    "file": "Matsuo basho by Buson.jpg"
+  },
+  "li-bai": {
+    "wiki": "Li Bai",
+    "title": "Li Bai",
+    "artist": "",
+    "year": ""
+  },
+  "du-fu": {
+    "wiki": "Du Fu",
+    "title": "Du Fu",
+    "artist": "",
+    "year": ""
+  },
+  "chayyam": {
+    "wiki": "Omar Chayyām",
+    "title": "Omar Chayyām",
+    "artist": "",
+    "year": ""
+  },
+  "rumi": {
+    "wiki": "Dschalāl ad-Dīn ar-Rūmī",
+    "title": "Dschalaladdin Rumi",
+    "artist": "",
+    "year": ""
+  },
+  "tagore": {
+    "wiki": "Rabindranath Tagore",
+    "title": "Rabindranath Tagore",
+    "artist": "",
+    "year": ""
+  },
+  "lu-xun": {
+    "wiki": "Lu Xun",
+    "title": "Lu Xun",
+    "artist": "",
+    "year": ""
+  },
+  "soseki": {
+    "wiki": "Natsume Sōseki",
+    "title": "Natsume Sōseki",
+    "artist": "",
+    "year": "",
+    "file": "Natsume Sōseki.jpg"
+  },
+  "kawabata": {
+    "wiki": "Yasunari Kawabata",
+    "title": "Yasunari Kawabata",
+    "artist": "",
+    "year": ""
+  },
+  "mishima": {
+    "wiki": "Yukio Mishima",
+    "title": "Yukio Mishima",
+    "artist": "",
+    "year": ""
+  },
+  "murakami": {
+    "wiki": "Haruki Murakami",
+    "title": "Haruki Murakami",
+    "artist": "",
+    "year": ""
+  },
+  "achebe": {
+    "wiki": "Chinua Achebe",
+    "title": "Chinua Achebe",
+    "artist": "",
+    "year": ""
+  },
+  "soyinka": {
+    "wiki": "Wole Soyinka",
+    "title": "Wole Soyinka",
+    "artist": "",
+    "year": ""
+  },
+  "mahfus": {
+    "wiki": "Nagib Mahfuz",
+    "title": "Nagib Mahfuz",
+    "artist": "",
+    "year": ""
+  },
+  "gordimer": {
+    "wiki": "Nadine Gordimer",
+    "title": "Nadine Gordimer",
+    "artist": "",
+    "year": ""
+  },
+  "coetzee": {
+    "wiki": "J. M. Coetzee",
+    "title": "J. M. Coetzee",
+    "artist": "",
+    "year": ""
+  },
+  "ngugi": {
+    "wiki": "Ngũgĩ wa Thiong’o",
+    "title": "Ngũgĩ wa Thiong’o",
+    "artist": "",
+    "year": ""
   }
 }

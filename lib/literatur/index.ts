@@ -28,6 +28,9 @@ import { IT_MITTELALTER_RENAISSANCE } from './it-mittelalter-renaissance';
 import { IT_MODERNE } from './it-moderne';
 import { SK_19JH } from './sk-19jh';
 import { SK_20JH } from './sk-20jh';
+import { AS_KLASSIK } from './as-klassik';
+import { AS_MODERNE } from './as-moderne';
+import { AF_MODERNE } from './af-moderne';
 
 // Literatur: countries (epochs) → literary epochs (events) → overview + authors (subtopics),
 // reusing the history types. Progress is stored like the countries' under
@@ -85,6 +88,12 @@ const RAW: CountryHistory = {
       period: 'um 1800 – heute',
       events: [SK_19JH, SK_20JH],
     },
+    {
+      id: 'asien-afrika',
+      name: 'Asien und Afrika',
+      period: 'um 700 – heute',
+      events: [AS_KLASSIK, AS_MODERNE, AF_MODERNE],
+    },
   ],
 };
 
@@ -104,7 +113,7 @@ export function findKapitel(epocheId: string, subId: string): { land: Epoch; eve
 
 // A well-known person (portrait) per country and per epoch for the tiles.
 const COVERS: Record<string, string> = {
-  deutschland: 'goethe', england: 'shakespeare', frankreich: 'hugo', russland: 'tolstoi', usa: 'twain', spanien: 'cervantes', 'antike-italien': 'dante', skandinavien: 'ibsen',
+  deutschland: 'goethe', england: 'shakespeare', frankreich: 'hugo', russland: 'tolstoi', usa: 'twain', spanien: 'cervantes', 'antike-italien': 'dante', skandinavien: 'ibsen', 'asien-afrika': 'murasaki',
   'de-mittelalter-barock': 'walther', 'de-aufklaerung': 'lessing', 'de-klassik': 'schiller', 'de-romantik': 'eichendorff',
   'de-vormaerz': 'heine', 'de-realismus': 'fontane', 'de-moderne': 'kafka', 'de-gegenwart': 'grass',
   'en-renaissance': 'marlowe', 'en-aufklaerung': 'defoe', 'en-romantik': 'byron', 'en-viktorianisch': 'dickens', 'en-moderne': 'woolf',
@@ -114,8 +123,9 @@ const COVERS: Record<string, string> = {
   'es-siglo-de-oro': 'cervantes', 'es-moderne': 'lorca', 'la-20jh': 'garcia-marquez',
   'an-griechenland': 'homer', 'an-rom': 'vergil', 'it-mittelalter-renaissance': 'petrarca', 'it-moderne': 'calvino',
   'sk-19jh': 'andersen', 'sk-20jh': 'lindgren',
+  'as-klassik': 'li-bai', 'as-moderne': 'tagore', 'af-moderne': 'achebe',
 };
-const FLAGS: Record<string, string> = { deutschland: '🇩🇪', england: '🇬🇧', frankreich: '🇫🇷', russland: '🇷🇺', usa: '🇺🇸', spanien: '🇪🇸', 'antike-italien': '🇮🇹', skandinavien: '🇸🇪' };
+const FLAGS: Record<string, string> = { deutschland: '🇩🇪', england: '🇬🇧', frankreich: '🇫🇷', russland: '🇷🇺', usa: '🇺🇸', spanien: '🇪🇸', 'antike-italien': '🇮🇹', skandinavien: '🇸🇪', 'asien-afrika': '🌏' };
 
 export const LITERATUR: CountryHistory = {
   ...RAW,
