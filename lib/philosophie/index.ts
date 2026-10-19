@@ -4,6 +4,13 @@ import { AN_KLASSIK } from './an-klassik';
 import { AN_HELLENISMUS } from './an-hellenismus';
 import { MA_CHRISTLICH } from './ma-christlich';
 import { MA_ISLAM } from './ma-islam';
+import { NZ_RENAISSANCE } from './nz-renaissance';
+import { NZ_RATIONALISMUS } from './nz-rationalismus';
+import { NZ_EMPIRISMUS } from './nz-empirismus';
+import { NZ_AUFKLAERUNG } from './nz-aufklaerung';
+import { NZ_KANT } from './nz-kant';
+import { JH_IDEALISMUS } from './jh-idealismus';
+import { JH_19 } from './jh-19';
 
 // Philosophie: areas (epochs: periods or regions) → schools or periods (events) → overview +
 // one chapter per thinker (subtopics), reusing the history types. Progress is stored like the
@@ -24,6 +31,18 @@ const RAW: CountryHistory = {
       name: 'Mittelalter',
       period: 'um 200 – 1450',
       events: [MA_CHRISTLICH, MA_ISLAM],
+    },
+    {
+      id: 'neuzeit',
+      name: 'Neuzeit und Aufklärung',
+      period: 'um 1350 – 1804',
+      events: [NZ_RENAISSANCE, NZ_RATIONALISMUS, NZ_EMPIRISMUS, NZ_AUFKLAERUNG, NZ_KANT],
+    },
+    {
+      id: 'jh19',
+      name: '19. Jahrhundert',
+      period: 'um 1790 – 1900',
+      events: [JH_IDEALISMUS, JH_19],
     },
   ],
 };
@@ -46,6 +65,9 @@ export function findKapitel(epocheId: string, subId: string): { land: Epoch; eve
 const COVERS: Record<string, string> = {
   antike: 'schule-von-athen', 'an-vorsokratiker': 'heraklit', 'an-klassik': 'sokrates', 'an-hellenismus': 'mark-aurel',
   mittelalter: 'thomas-aquin', 'ma-christlich': 'augustinus', 'ma-islam': 'avicenna',
+  neuzeit: 'kant', 'nz-renaissance': 'machiavelli', 'nz-rationalismus': 'descartes', 'nz-empirismus': 'locke',
+  'nz-aufklaerung': 'voltaire', 'nz-kant': 'kant',
+  jh19: 'nietzsche', 'jh-idealismus': 'hegel', 'jh-19': 'marx',
 };
 
 export const PHILOSOPHIE: CountryHistory = {

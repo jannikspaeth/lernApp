@@ -245,5 +245,278 @@
     "title": "Maimonides-Denkmal in Córdoba",
     "artist": "",
     "year": ""
+  },
+  "pico": {
+    "wiki": "Giovanni Pico della Mirandola",
+    "title": "Giovanni Pico della Mirandola",
+    "artist": "",
+    "year": ""
+  },
+  "ficino": {
+    "wiki": "Marsilio Ficino",
+    "title": "Marsilio Ficino (Ausschnitt)",
+    "artist": "Domenico Ghirlandaio, Fresko",
+    "year": "1486–1490"
+  },
+  "erasmus": {
+    "wiki": "Erasmus von Rotterdam",
+    "title": "Erasmus von Rotterdam",
+    "artist": "Hans Holbein der Jüngere",
+    "year": "1523"
+  },
+  "morus": {
+    "wiki": "Thomas Morus",
+    "title": "Thomas Morus",
+    "artist": "Hans Holbein der Jüngere",
+    "year": "1527"
+  },
+  "montaigne": {
+    "wiki": "Michel de Montaigne",
+    "title": "Michel de Montaigne",
+    "artist": "",
+    "year": ""
+  },
+  "montaigne-turm": {
+    "wiki": "Château de Montaigne",
+    "title": "Der Turm Montaignes",
+    "artist": "Saint-Michel-de-Montaigne",
+    "year": "",
+    "file": "St Michel de Montaigne Tour03.jpg"
+  },
+  "bruno": {
+    "wiki": "Giordano Bruno",
+    "title": "Giordano Bruno",
+    "artist": "",
+    "year": ""
+  },
+  "bruno-denkmal": {
+    "wiki": "Campo de’ Fiori",
+    "en": "Statue of Giordano Bruno",
+    "title": "Bruno-Denkmal auf dem Campo de’ Fiori",
+    "artist": "Ettore Ferrari",
+    "year": "1889"
+  },
+  "bacon": {
+    "wiki": "Francis Bacon",
+    "title": "Francis Bacon",
+    "artist": "",
+    "year": ""
+  },
+  "bacon-instauratio": {
+    "wiki": "Novum Organum",
+    "title": "Titelblatt der „Instauratio Magna“",
+    "artist": "",
+    "year": "1620"
+  },
+  "galilei": {
+    "wiki": "Galileo Galilei",
+    "title": "Galileo Galilei",
+    "artist": "Domenico Tintoretto zugeschrieben",
+    "year": "um 1605"
+  },
+  "descartes-christina": {
+    "wiki": "René Descartes",
+    "title": "Descartes am Hof Königin Christinas",
+    "artist": "Pierre-Louis Dumesnil",
+    "year": "18. Jh.",
+    "file": "René Descartes i samtal med Sveriges drottning, Kristina.jpg"
+  },
+  "descartes": {
+    "wiki": "René Descartes",
+    "title": "René Descartes",
+    "artist": "nach Frans Hals",
+    "year": ""
+  },
+  "pascal": {
+    "wiki": "Blaise Pascal",
+    "title": "Blaise Pascal",
+    "artist": "",
+    "year": ""
+  },
+  "pascaline": {
+    "wiki": "Pascaline",
+    "title": "Die Pascaline",
+    "artist": "",
+    "year": "1652"
+  },
+  "spinoza": {
+    "wiki": "Baruch de Spinoza",
+    "title": "Baruch de Spinoza",
+    "artist": "",
+    "year": "um 1665"
+  },
+  "leibniz": {
+    "wiki": "Gottfried Wilhelm Leibniz",
+    "title": "Gottfried Wilhelm Leibniz",
+    "artist": "Christoph Bernhard Francke",
+    "year": "um 1700"
+  },
+  "glorious-revolution": {
+    "wiki": "Glorious Revolution",
+    "title": "Landung Wilhelms von Oranien in Torbay",
+    "artist": "William Miller nach J. M. W. Turner",
+    "year": "19. Jh.",
+    "file": "William Miller - The Prince of Orange Landing at Torbay - B1977.14.15059 - Yale Center for British Art.jpg"
+  },
+  "newton": {
+    "wiki": "Isaac Newton",
+    "title": "Isaac Newton",
+    "artist": "Godfrey Kneller",
+    "year": "1689"
+  },
+  "hobbes": {
+    "wiki": "Thomas Hobbes",
+    "title": "Thomas Hobbes",
+    "artist": "John Michael Wright",
+    "year": "um 1670"
+  },
+  "leviathan": {
+    "wiki": "Leviathan (Thomas Hobbes)",
+    "title": "Titelbild des „Leviathan“",
+    "artist": "Abraham Bosse",
+    "year": "1651"
+  },
+  "locke": {
+    "wiki": "John Locke",
+    "title": "John Locke",
+    "artist": "Godfrey Kneller",
+    "year": "1697"
+  },
+  "berkeley": {
+    "wiki": "George Berkeley",
+    "title": "George Berkeley",
+    "artist": "John Smibert",
+    "year": "um 1730"
+  },
+  "hume": {
+    "wiki": "David Hume",
+    "title": "David Hume",
+    "artist": "Allan Ramsay",
+    "year": "1766"
+  },
+  "salon-geoffrin": {
+    "wiki": "Marie-Thérèse Rodet Geoffrin",
+    "title": "Lesung im Salon der Madame Geoffrin",
+    "artist": "Anicet Charles Gabriel Lemonnier",
+    "year": "1812",
+    "file": "Anicet-Charles-Gabriel Lemonnier - In the Salon of Madame Geoffrin in 1755 - WGA12652.jpg"
+  },
+  "encyclopedie": {
+    "wiki": "Encyclopédie",
+    "title": "Titelblatt der „Encyclopédie“",
+    "artist": "",
+    "year": "1751",
+    "file": "Encyclopédie, ou Dictionnaire raisonné des sciences, des arts et des métiers frontispice titre 1751.jpg"
+  },
+  "charles-montesquieu": {
+    "wiki": "Montesquieu",
+    "title": "Montesquieu",
+    "artist": "",
+    "year": ""
+  },
+  "adam-smith": {
+    "wiki": "Adam Smith",
+    "title": "Adam Smith",
+    "artist": "",
+    "year": ""
+  },
+  "kant": {
+    "wiki": "Immanuel Kant",
+    "title": "Immanuel Kant",
+    "artist": "",
+    "year": ""
+  },
+  "kant-tischrunde": {
+    "wiki": "Immanuel Kant",
+    "title": "Kant und seine Tischgenossen",
+    "artist": "Emil Doerstling",
+    "year": "1892/93",
+    "file": "Kant doerstling2.jpg"
+  },
+  "kant-grundlegung": {
+    "wiki": "Grundlegung zur Metaphysik der Sitten",
+    "title": "Titelblatt der „Grundlegung zur Metaphysik der Sitten“",
+    "artist": "",
+    "year": "1785",
+    "file": "Kant Groundwork Title.jpg"
+  },
+  "kant-frieden": {
+    "wiki": "Zum ewigen Frieden",
+    "title": "Titelblatt von „Zum ewigen Frieden“",
+    "artist": "",
+    "year": "1795"
+  },
+  "fichte": {
+    "wiki": "Johann Gottlieb Fichte",
+    "title": "Johann Gottlieb Fichte",
+    "artist": "Friedrich Bury",
+    "year": "1801"
+  },
+  "schelling": {
+    "wiki": "Friedrich Wilhelm Joseph Schelling",
+    "title": "Friedrich Wilhelm Joseph Schelling",
+    "artist": "Daguerreotypie",
+    "year": "1848"
+  },
+  "hegel": {
+    "wiki": "Georg Wilhelm Friedrich Hegel",
+    "title": "Georg Wilhelm Friedrich Hegel",
+    "artist": "Jakob Schlesinger",
+    "year": "1831"
+  },
+  "darwin": {
+    "wiki": "Charles Darwin",
+    "title": "Charles Darwin",
+    "artist": "",
+    "year": ""
+  },
+  "comte": {
+    "wiki": "Auguste Comte",
+    "title": "Auguste Comte",
+    "artist": "",
+    "year": ""
+  },
+  "schopenhauer": {
+    "wiki": "Arthur Schopenhauer",
+    "title": "Arthur Schopenhauer",
+    "artist": "",
+    "year": ""
+  },
+  "marx": {
+    "wiki": "Karl Marx",
+    "title": "Karl Marx",
+    "artist": "John Jabez Edwin Mayall",
+    "year": "1875"
+  },
+  "engels": {
+    "wiki": "Friedrich Engels",
+    "title": "Friedrich Engels",
+    "artist": "",
+    "year": ""
+  },
+  "mill": {
+    "wiki": "John Stuart Mill",
+    "title": "John Stuart Mill",
+    "artist": "",
+    "year": ""
+  },
+  "bentham": {
+    "wiki": "Jeremy Bentham",
+    "title": "Jeremy Bentham",
+    "artist": "",
+    "year": ""
+  },
+  "nietzsche": {
+    "wiki": "Friedrich Nietzsche",
+    "title": "Friedrich Nietzsche",
+    "artist": "",
+    "year": "um 1875"
+  },
+  "sils-maria": {
+    "wiki": "Nietzsche-Haus (Sils Maria)",
+    "title": "Nietzsche-Haus in Sils-Maria",
+    "artist": "",
+    "year": "",
+    "file": "Sils Nietzsche Haus.JPG"
   }
 }

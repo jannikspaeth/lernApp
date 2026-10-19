@@ -239,5 +239,275 @@
     "author": "Benozzo Gozzoli",
     "licence": "Public domain",
     "page": "https://commons.wikimedia.org/wiki/File:Benozzo_Gozzoli_-_Triumph_of_St_Thomas_Aquinas_-_WGA10334.jpg"
+  },
+  "pico": {
+    "file": "Pico1.jpg",
+    "author": "Cristofano dell'Altissimo",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Pico1.jpg"
+  },
+  "ficino": {
+    "file": "Marsilio_Ficino_-_Angel_Appearing_to_Zacharias_(detail).jpg",
+    "author": "Domenico Ghirlandaio",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Marsilio_Ficino_-_Angel_Appearing_to_Zacharias_(detail).jpg"
+  },
+  "erasmus": {
+    "file": "Desidrius_Erasmus_by_Hans_Holbein.jpg",
+    "author": "Hans Holbein the Younger",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Desidrius_Erasmus_by_Hans_Holbein.jpg"
+  },
+  "morus": {
+    "file": "Hans_Holbein,_the_Younger_-_Sir_Thomas_More_-_Google_Art_Project.jpg",
+    "author": "Hans Holbein the Younger",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Hans_Holbein,_the_Younger_-_Sir_Thomas_More_-_Google_Art_Project.jpg"
+  },
+  "montaigne": {
+    "file": "Montaigne_1578.jpg",
+    "author": "Thomas de Leu",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Montaigne_1578.jpg"
+  },
+  "bruno": {
+    "file": "Giordano_Bruno.jpg",
+    "author": "unbekannt",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Giordano_Bruno.jpg"
+  },
+  "bruno-denkmal": {
+    "file": "Bronze_statue_of_Giordano_Bruno_by_Ettore_Ferrari_,_Campo_de'_Fiori,_Roma.jpg",
+    "author": "Livioandronico2013",
+    "licence": "CC BY-SA 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Bronze_statue_of_Giordano_Bruno_by_Ettore_Ferrari_,_Campo_de%27_Fiori,_Roma.jpg"
+  },
+  "bacon": {
+    "file": "Somer_Francis_Bacon.jpg",
+    "author": "Paul van Somer I / Formerly attributed to Frans Pourbus the Younger",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Somer_Francis_Bacon.jpg"
+  },
+  "bacon-instauratio": {
+    "file": "Houghton_EC.B1328.620ib_-_Novum_organum_scientiarum.jpg",
+    "author": "Francis Bacon",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Houghton_EC.B1328.620ib_-_Novum_organum_scientiarum.jpg"
+  },
+  "galilei": {
+    "file": "Galileo_Galilei_2.jpg",
+    "author": "Domenico Tintoretto",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Galileo_Galilei_2.jpg"
+  },
+  "descartes": {
+    "file": "Frans_Hals_-_Portret_van_René_Descartes.jpg",
+    "author": "After Frans Hals",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Frans_Hals_-_Portret_van_Ren%C3%A9_Descartes.jpg"
+  },
+  "pascal": {
+    "file": "Pascal_Blaise.jpeg",
+    "author": "unknown; a copy of the painting of François II Quesnel, which was made for Gérard Edelinck in 1691.",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Pascal_Blaise.jpeg"
+  },
+  "pascaline": {
+    "file": "Arts_et_Metiers_Pascaline_dsc03869.jpg",
+    "author": "David.Monniaux",
+    "licence": "CC BY-SA 3.0",
+    "licenceUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Arts_et_Metiers_Pascaline_dsc03869.jpg"
+  },
+  "spinoza": {
+    "file": "Spinoza.jpg",
+    "author": "anonymous",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Spinoza.jpg"
+  },
+  "leibniz": {
+    "file": "Christoph_Bernhard_Francke_-_Bildnis_des_Philosophen_Leibniz_(ca._1695).jpg",
+    "author": "Christoph Bernhard Francke",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Christoph_Bernhard_Francke_-_Bildnis_des_Philosophen_Leibniz_(ca._1695).jpg"
+  },
+  "glorious-revolution": {
+    "file": "William Miller - The Prince of Orange Landing at Torbay - B1977.14.15059 - Yale Center for British Art.jpg",
+    "author": "William Miller",
+    "licence": "CC0",
+    "licenceUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:William_Miller_-_The_Prince_of_Orange_Landing_at_Torbay_-_B1977.14.15059_-_Yale_Center_for_British_Art.jpg"
+  },
+  "newton": {
+    "file": "Sir_Isaac_Newton_by_Sir_Godfrey_Kneller,_Bt.jpg",
+    "author": "Godfrey Kneller",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Sir_Isaac_Newton_by_Sir_Godfrey_Kneller,_Bt.jpg"
+  },
+  "hobbes": {
+    "file": "Thomas_Hobbes_by_John_Michael_Wright_(2).jpg",
+    "author": "John Michael Wright",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Thomas_Hobbes_by_John_Michael_Wright_(2).jpg"
+  },
+  "leviathan": {
+    "file": "Leviathan_frontispiece_cropped_British_Library.jpg",
+    "author": "Abraham Bosse",
+    "licence": "CC0",
+    "licenceUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:Leviathan_frontispiece_cropped_British_Library.jpg"
+  },
+  "locke": {
+    "file": "John_Locke.jpg",
+    "author": "Godfrey Kneller",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:John_Locke.jpg"
+  },
+  "berkeley": {
+    "file": "George_Berkeley_by_John_Smibert.jpg",
+    "author": "John Smibert",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:George_Berkeley_by_John_Smibert.jpg"
+  },
+  "hume": {
+    "file": "Allan_Ramsay_-_David_Hume,_1711_-_1776._Historian_and_philosopher_-_Google_Art_Project.jpg",
+    "author": "Allan Ramsay",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Allan_Ramsay_-_David_Hume,_1711_-_1776._Historian_and_philosopher_-_Google_Art_Project.jpg"
+  },
+  "salon-geoffrin": {
+    "file": "Anicet-Charles-Gabriel Lemonnier - In the Salon of Madame Geoffrin in 1755 - WGA12652.jpg",
+    "author": "Anicet Charles Gabriel Lemonnier",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Anicet-Charles-Gabriel_Lemonnier_-_In_the_Salon_of_Madame_Geoffrin_in_1755_-_WGA12652.jpg"
+  },
+  "encyclopedie": {
+    "file": "Encyclopédie, ou Dictionnaire raisonné des sciences, des arts et des métiers frontispice titre 1751.jpg",
+    "author": "Unknown authorUnknown author",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Encyclop%C3%A9die,_ou_Dictionnaire_raisonn%C3%A9_des_sciences,_des_arts_et_des_m%C3%A9tiers_frontispice_titre_1751.jpg"
+  },
+  "charles-montesquieu": {
+    "file": "Montesquieu_1.png",
+    "author": "After Jacques-Antoine Dassier",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Montesquieu_1.png"
+  },
+  "adam-smith": {
+    "file": "AdamSmith.jpg",
+    "author": "Etching created by Cadell and Davies (1811), John Horsburgh (1828) or R.C. Bell (1872).",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:AdamSmith.jpg"
+  },
+  "kant": {
+    "file": "Immanuel_Kant_-_Gemaelde_1.jpg",
+    "author": "Johann Gottlieb Becker (1720-1782)",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Immanuel_Kant_-_Gemaelde_1.jpg"
+  },
+  "kant-tischrunde": {
+    "file": "Kant doerstling2.jpg",
+    "author": "Emil Doerstling",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Kant_doerstling2.jpg"
+  },
+  "kant-frieden": {
+    "file": "Kant_titlepage_1795.jpg",
+    "author": "Kant",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Kant_titlepage_1795.jpg"
+  },
+  "montaigne-turm": {
+    "file": "St Michel de Montaigne Tour03.jpg",
+    "author": "Henry SALOMÉ",
+    "licence": "CC BY-SA 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:St_Michel_de_Montaigne_Tour03.jpg"
+  },
+  "descartes-christina": {
+    "file": "René Descartes i samtal med Sveriges drottning, Kristina.jpg",
+    "author": "Nils Forsberg",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Ren%C3%A9_Descartes_i_samtal_med_Sveriges_drottning,_Kristina.jpg"
+  },
+  "kant-grundlegung": {
+    "file": "Kant Groundwork Title.jpg",
+    "author": "Immanuel Kant",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Kant_Groundwork_Title.jpg"
+  },
+  "fichte": {
+    "file": "Friedrich_Bury_-_Johann_Gottlieb_Fichte_1801.jpg",
+    "author": "Friedrich Bury",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Friedrich_Bury_-_Johann_Gottlieb_Fichte_1801.jpg"
+  },
+  "schelling": {
+    "file": "Friedrich_Wilhelm_Joseph_Schelling,_1848_daguerreotype_-_cropped.jpg",
+    "author": "Hermann Biow (1804–1850), Berlin",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Friedrich_Wilhelm_Joseph_Schelling,_1848_daguerreotype_-_cropped.jpg"
+  },
+  "hegel": {
+    "file": "1831_Schlesinger_Philosoph_Georg_Friedrich_Wilhelm_Hegel_anagoria.JPG",
+    "author": "Jakob Schlesinger",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:1831_Schlesinger_Philosoph_Georg_Friedrich_Wilhelm_Hegel_anagoria.JPG"
+  },
+  "darwin": {
+    "file": "Charles_Darwin_seated_crop.jpg",
+    "author": "Charles_Darwin_seated.jpg: Henry Maull (1829–1914) and John Fox (1832–1907) (Maull &amp; Fox) [3] derivative work: Beao",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Charles_Darwin_seated_crop.jpg"
+  },
+  "comte": {
+    "file": "Auguste_Comte.jpg",
+    "author": "Johan Hendrik Hoffmeister",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Auguste_Comte.jpg"
+  },
+  "schopenhauer": {
+    "file": "Arthur_Schopenhauer_by_J_Schäfer,_1859b.jpg",
+    "author": "Johann Schäfer",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Arthur_Schopenhauer_by_J_Sch%C3%A4fer,_1859b.jpg"
+  },
+  "marx": {
+    "file": "Karl_Marx_by_John_Jabez_Edwin_Mayall_1875_-_Restored.png",
+    "author": "John Jabez Edwin Mayall",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Karl_Marx_by_John_Jabez_Edwin_Mayall_1875_-_Restored.png"
+  },
+  "engels": {
+    "file": "Friedrich_Engels_portrait_(cropped).jpg",
+    "author": "William Hall (1826–ca. 1898) (cropped and sepia tone removed)",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Friedrich_Engels_portrait_(cropped).jpg"
+  },
+  "mill": {
+    "file": "John_Stuart_Mill_by_London_Stereoscopic_Company,_c1870.jpg",
+    "author": "London Stereoscopic Company",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:John_Stuart_Mill_by_London_Stereoscopic_Company,_c1870.jpg"
+  },
+  "bentham": {
+    "file": "Jeremy_Bentham_by_Henry_William_Pickersgill_detail.jpg",
+    "author": "Henry William Pickersgill",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Jeremy_Bentham_by_Henry_William_Pickersgill_detail.jpg"
+  },
+  "nietzsche": {
+    "file": "Nietzsche187a.jpg",
+    "author": "Friedrich Hermann Hartmann",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Nietzsche187a.jpg"
+  },
+  "sils-maria": {
+    "file": "Sils Nietzsche Haus.JPG",
+    "author": "Paebi",
+    "licence": "CC BY-SA 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Sils_Nietzsche_Haus.JPG"
   }
 }
