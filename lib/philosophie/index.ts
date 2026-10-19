@@ -14,6 +14,8 @@ import { JH_19 } from './jh-19';
 import { ZJ_ANALYTISCH } from './zj-analytisch';
 import { ZJ_EXISTENZ } from './zj-existenz';
 import { ZJ_GESELLSCHAFT } from './zj-gesellschaft';
+import { OS_CHINA } from './os-china';
+import { OS_INDIEN } from './os-indien';
 
 // Philosophie: areas (epochs: periods or regions) → schools or periods (events) → overview +
 // one chapter per thinker (subtopics), reusing the history types. Progress is stored like the
@@ -53,6 +55,12 @@ const RAW: CountryHistory = {
       period: 'um 1880 – heute',
       events: [ZJ_ANALYTISCH, ZJ_EXISTENZ, ZJ_GESELLSCHAFT],
     },
+    {
+      id: 'osten',
+      name: 'Östliche Philosophie',
+      period: 'um 1500 v. Chr. – heute',
+      events: [OS_CHINA, OS_INDIEN],
+    },
   ],
 };
 
@@ -78,6 +86,7 @@ const COVERS: Record<string, string> = {
   'nz-aufklaerung': 'voltaire', 'nz-kant': 'kant',
   jh19: 'nietzsche', 'jh-idealismus': 'hegel', 'jh-19': 'marx',
   jh20: 'sartre', 'zj-analytisch': 'wittgenstein', 'zj-existenz': 'camus', 'zj-gesellschaft': 'arendt',
+  osten: 'konfuzius', 'os-china': 'laozi', 'os-indien': 'buddha',
 };
 
 export const PHILOSOPHIE: CountryHistory = {

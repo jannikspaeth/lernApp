@@ -618,5 +618,73 @@
     "artist": "",
     "year": "",
     "file": "Heidegger Lage Hütte Todtnauberg 20141019 134201.jpg"
+  },
+  "yin-yang": {
+    "wiki": "Yin und Yang",
+    "title": "Das Yin-Yang-Symbol",
+    "artist": "",
+    "year": ""
+  },
+  "konfuzius": {
+    "wiki": "Konfuzius",
+    "title": "Konfuzius",
+    "artist": "nach Wu Daozi",
+    "year": ""
+  },
+  "menzius": {
+    "wiki": "Menzius",
+    "title": "Menzius",
+    "artist": "",
+    "year": ""
+  },
+  "laozi": {
+    "wiki": "Laozi",
+    "title": "Laozi-Statue in Quanzhou",
+    "artist": "Song-Zeit",
+    "year": ""
+  },
+  "zhuangzi": {
+    "wiki": "Zhuangzi",
+    "title": "Zhuangzi träumt, ein Schmetterling zu sein",
+    "artist": "Tuschmalerei",
+    "year": "",
+    "file": "Zhuangzi-Butterfly-Dream.jpg"
+  },
+  "rigveda": {
+    "wiki": "Rigveda",
+    "title": "Handschrift des Rigveda",
+    "artist": "",
+    "year": "",
+    "file": "Rigveda MS2097.jpg"
+  },
+  "mahavira": {
+    "wiki": "Mahavira",
+    "title": "Mahavira",
+    "artist": "",
+    "year": ""
+  },
+  "buddha": {
+    "wiki": "Siddhartha Gautama",
+    "title": "Kopf einer Buddha-Statue",
+    "artist": "",
+    "year": ""
+  },
+  "bodhgaya": {
+    "wiki": "Mahabodhi-Tempel",
+    "title": "Mahabodhi-Tempel in Bodhgaya",
+    "artist": "",
+    "year": ""
+  },
+  "shankara": {
+    "wiki": "Shankara",
+    "title": "Shankara mit Schülern",
+    "artist": "Raja Ravi Varma",
+    "year": "um 1904"
+  },
+  "salzmarsch": {
+    "wiki": "Salzmarsch",
+    "title": "Gandhi beim Salzmarsch",
+    "artist": "",
+    "year": ""
   }
 }

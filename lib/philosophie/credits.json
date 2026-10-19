@@ -612,5 +612,75 @@
     "licence": "CC BY-SA 4.0",
     "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
     "page": "https://commons.wikimedia.org/wiki/File:Plan_of_Jeremy_Bentham%27s_panopticon_prison,_drawn_by_Willey_Reveley_in_1791.jpg"
+  },
+  "yin-yang": {
+    "file": "Yin_and_yang.svg",
+    "author": "Iruka13",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Yin_and_yang.svg"
+  },
+  "konfuzius": {
+    "file": "Confucius_Tang_Dynasty.jpg",
+    "author": "Wu Daozi, 685-758, Tang Dynasty.",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Confucius_Tang_Dynasty.jpg"
+  },
+  "menzius": {
+    "file": "Mencius.jpg",
+    "author": "By Chinese Artists",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Mencius.jpg"
+  },
+  "laozi": {
+    "file": "Statue_of_Lao_Tzu_in_Quanzhou.jpg",
+    "author": "Tom@HK",
+    "licence": "CC BY 2.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Statue_of_Lao_Tzu_in_Quanzhou.jpg"
+  },
+  "mahavira": {
+    "file": "Mahavir.jpg",
+    "author": "Dayodaya",
+    "licence": "CC BY-SA 3.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Mahavir.jpg"
+  },
+  "buddha": {
+    "file": "Buddha_Kopf.jpg",
+    "author": "Panchito",
+    "licence": "CC BY-SA 3.0",
+    "licenceUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Buddha_Kopf.jpg"
+  },
+  "bodhgaya": {
+    "file": "Mahabodhitemple.jpg",
+    "author": "Bpilgrim",
+    "licence": "CC BY-SA 2.5",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+    "page": "https://commons.wikimedia.org/wiki/File:Mahabodhitemple.jpg"
+  },
+  "shankara": {
+    "file": "Raja_Ravi_Varma_-_Sankaracharya.jpg",
+    "author": "Raja Ravi Varma",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Raja_Ravi_Varma_-_Sankaracharya.jpg"
+  },
+  "salzmarsch": {
+    "file": "Gandhi_during_the_Salt_March.jpg",
+    "author": "Unknown authorUnknown author",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Gandhi_during_the_Salt_March.jpg"
+  },
+  "zhuangzi": {
+    "file": "Zhuangzi-Butterfly-Dream.jpg",
+    "author": "Ike no Taiga",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Zhuangzi-Butterfly-Dream.jpg"
+  },
+  "rigveda": {
+    "file": "Rigveda MS2097.jpg",
+    "author": "Unknown authorUnknown author",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Rigveda_MS2097.jpg"
   }
 }
