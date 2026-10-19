@@ -11,6 +11,9 @@ import { NZ_AUFKLAERUNG } from './nz-aufklaerung';
 import { NZ_KANT } from './nz-kant';
 import { JH_IDEALISMUS } from './jh-idealismus';
 import { JH_19 } from './jh-19';
+import { ZJ_ANALYTISCH } from './zj-analytisch';
+import { ZJ_EXISTENZ } from './zj-existenz';
+import { ZJ_GESELLSCHAFT } from './zj-gesellschaft';
 
 // Philosophie: areas (epochs: periods or regions) → schools or periods (events) → overview +
 // one chapter per thinker (subtopics), reusing the history types. Progress is stored like the
@@ -44,6 +47,12 @@ const RAW: CountryHistory = {
       period: 'um 1790 – 1900',
       events: [JH_IDEALISMUS, JH_19],
     },
+    {
+      id: 'jh20',
+      name: '20. Jahrhundert und Gegenwart',
+      period: 'um 1880 – heute',
+      events: [ZJ_ANALYTISCH, ZJ_EXISTENZ, ZJ_GESELLSCHAFT],
+    },
   ],
 };
 
@@ -68,6 +77,7 @@ const COVERS: Record<string, string> = {
   neuzeit: 'kant', 'nz-renaissance': 'machiavelli', 'nz-rationalismus': 'descartes', 'nz-empirismus': 'locke',
   'nz-aufklaerung': 'voltaire', 'nz-kant': 'kant',
   jh19: 'nietzsche', 'jh-idealismus': 'hegel', 'jh-19': 'marx',
+  jh20: 'sartre', 'zj-analytisch': 'wittgenstein', 'zj-existenz': 'camus', 'zj-gesellschaft': 'arendt',
 };
 
 export const PHILOSOPHIE: CountryHistory = {

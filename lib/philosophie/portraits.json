@@ -518,5 +518,105 @@
     "artist": "",
     "year": "",
     "file": "Sils Nietzsche Haus.JPG"
+  },
+  "russell": {
+    "wiki": "Bertrand Russell",
+    "title": "Bertrand Russell",
+    "artist": "",
+    "year": ""
+  },
+  "frege": {
+    "wiki": "Gottlob Frege",
+    "title": "Gottlob Frege",
+    "artist": "",
+    "year": ""
+  },
+  "wittgenstein": {
+    "wiki": "Ludwig Wittgenstein",
+    "title": "Ludwig Wittgenstein",
+    "artist": "",
+    "year": ""
+  },
+  "popper": {
+    "wiki": "Karl Popper",
+    "title": "Büste Karl Poppers",
+    "artist": "Arkadenhof der Universität Wien",
+    "year": "",
+    "file": "Karl Popper (1902-1994), Nr. 104 bust (bronze) in the Arkadenhof of the University of Vienna-2480.jpg"
+  },
+  "husserl": {
+    "wiki": "Edmund Husserl",
+    "title": "Edmund Husserl",
+    "artist": "",
+    "year": ""
+  },
+  "jaspers": {
+    "wiki": "Karl Jaspers",
+    "title": "Karl Jaspers",
+    "artist": "",
+    "year": ""
+  },
+  "heidegger": {
+    "wiki": "Martin Heidegger",
+    "title": "Martin Heidegger",
+    "artist": "",
+    "year": ""
+  },
+  "benjamin": {
+    "wiki": "Walter Benjamin",
+    "title": "Walter Benjamin",
+    "artist": "",
+    "year": ""
+  },
+  "adorno-horkheimer": {
+    "wiki": "Frankfurter Schule",
+    "title": "Horkheimer (vorn links), Adorno (vorn rechts) und Habermas (hinten)",
+    "artist": "Jeremy J. Shapiro",
+    "year": "1964"
+  },
+  "arendt": {
+    "wiki": "Hannah Arendt",
+    "title": "Hannah Arendt",
+    "artist": "",
+    "year": ""
+  },
+  "habermas": {
+    "wiki": "Jürgen Habermas",
+    "title": "Jürgen Habermas",
+    "artist": "",
+    "year": ""
+  },
+  "foucault": {
+    "wiki": "Michel Foucault",
+    "title": "Michel Foucault",
+    "artist": "",
+    "year": ""
+  },
+  "panopticon": {
+    "wiki": "Panoptikum",
+    "title": "Plan von Benthams Panopticon",
+    "artist": "Willey Reveley",
+    "year": "1791",
+    "file": "Plan of Jeremy Bentham's panopticon prison, drawn by Willey Reveley in 1791.jpg"
+  },
+  "rawls": {
+    "wiki": "John Rawls",
+    "title": "John Rawls",
+    "artist": "",
+    "year": ""
+  },
+  "schlick": {
+    "wiki": "Moritz Schlick",
+    "title": "Moritz Schlick",
+    "artist": "",
+    "year": "",
+    "file": "Schlick sitting.jpg"
+  },
+  "heidegger-huette": {
+    "wiki": "Todtnauberg",
+    "title": "Lage von Heideggers Hütte in Todtnauberg",
+    "artist": "",
+    "year": "",
+    "file": "Heidegger Lage Hütte Todtnauberg 20141019 134201.jpg"
   }
 }
