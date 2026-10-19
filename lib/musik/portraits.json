@@ -378,5 +378,127 @@
     "title": "Dmitri Schostakowitsch",
     "artist": "",
     "year": ""
+  },
+  "congo-square": {
+    "wiki": "Congo Square",
+    "title": "Congo Square in New Orleans",
+    "artist": "",
+    "year": ""
+  },
+  "odjb": {
+    "wiki": "Original Dixieland Jass Band",
+    "title": "Original Dixieland Jass Band",
+    "artist": "",
+    "year": "1918",
+    "en": "Original Dixieland Jass Band"
+  },
+  "king-oliver": {
+    "wiki": "King Oliver",
+    "title": "Joe „King“ Oliver",
+    "artist": "",
+    "year": ""
+  },
+  "joplin": {
+    "wiki": "Scott Joplin",
+    "title": "Scott Joplin",
+    "artist": "",
+    "year": "um 1903"
+  },
+  "bessie-smith": {
+    "wiki": "Bessie Smith",
+    "title": "Bessie Smith",
+    "artist": "Fotografie von Carl Van Vechten",
+    "year": "1936"
+  },
+  "ma-rainey": {
+    "wiki": "Ma Rainey",
+    "title": "Ma Rainey",
+    "artist": "",
+    "year": "um 1923"
+  },
+  "armstrong": {
+    "wiki": "Louis Armstrong",
+    "title": "Louis Armstrong",
+    "artist": "",
+    "year": ""
+  },
+  "glenn-miller": {
+    "wiki": "Glenn Miller",
+    "title": "Glenn Miller",
+    "artist": "",
+    "year": ""
+  },
+  "count-basie": {
+    "wiki": "Count Basie",
+    "title": "Count Basie",
+    "artist": "",
+    "year": ""
+  },
+  "ellington": {
+    "wiki": "Duke Ellington",
+    "title": "Duke Ellington",
+    "artist": "",
+    "year": ""
+  },
+  "goodman": {
+    "wiki": "Benny Goodman",
+    "title": "Benny Goodman",
+    "artist": "",
+    "year": ""
+  },
+  "lionel-hampton": {
+    "wiki": "Lionel Hampton",
+    "title": "Lionel Hampton",
+    "artist": "",
+    "year": ""
+  },
+  "billie-holiday": {
+    "wiki": "Billie Holiday",
+    "title": "Billie Holiday",
+    "artist": "Fotografie von William P. Gottlieb",
+    "year": "1947"
+  },
+  "ella-fitzgerald": {
+    "wiki": "Ella Fitzgerald",
+    "title": "Ella Fitzgerald",
+    "artist": "",
+    "year": ""
+  },
+  "gillespie": {
+    "wiki": "Dizzy Gillespie",
+    "title": "Dizzy Gillespie",
+    "artist": "",
+    "year": ""
+  },
+  "monk": {
+    "wiki": "Thelonious Monk",
+    "title": "Thelonious Monk",
+    "artist": "Fotografie von William P. Gottlieb",
+    "year": "1947"
+  },
+  "birdland": {
+    "wiki": "Birdland",
+    "title": "Der Jazzclub Birdland in New York",
+    "artist": "",
+    "year": "",
+    "en": "Birdland (New York jazz club)"
+  },
+  "parker": {
+    "wiki": "Charlie Parker",
+    "title": "Charlie Parker",
+    "artist": "",
+    "year": ""
+  },
+  "miles-davis": {
+    "wiki": "Miles Davis",
+    "title": "Miles Davis",
+    "artist": "",
+    "year": ""
+  },
+  "coltrane": {
+    "wiki": "John Coltrane",
+    "title": "John Coltrane",
+    "artist": "",
+    "year": ""
   }
 }

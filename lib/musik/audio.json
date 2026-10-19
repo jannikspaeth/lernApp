@@ -500,5 +500,47 @@
     "title": "„Pavane pour une infante défunte“",
     "composer": "Maurice Ravel",
     "performer": "Thérèse Dussaut"
+  },
+  "h-livery-stable": {
+    "file": "Original Dixieland Jass Band - Livery Stable Blues (1917) with hiss reduction.ogg",
+    "title": "„Livery Stable Blues“",
+    "composer": "Original Dixieland Jass Band",
+    "performer": "Original Dixieland Jass Band (1917)"
+  },
+  "h-dipper-mouth": {
+    "file": "Dippermouth Blues - KING OLIVER'S JAZZ BAND.flac",
+    "title": "„Dipper Mouth Blues“",
+    "composer": "King Oliver",
+    "performer": "King Oliver’s Creole Jazz Band mit Louis Armstrong (1923)"
+  },
+  "h-maple-leaf": {
+    "file": "Maple leaf rag - played by Scott Joplin 1916 V2.ogg",
+    "title": "„Maple Leaf Rag“",
+    "composer": "Scott Joplin",
+    "performer": "Scott Joplin selbst (Klavierrolle, 1916)"
+  },
+  "h-entertainer": {
+    "file": "Scott Joplin - 04 - The Entertainer 1902 piano roll.mp3",
+    "title": "„The Entertainer“",
+    "composer": "Scott Joplin",
+    "performer": "Klavierrolle"
+  },
+  "h-st-louis-blues": {
+    "file": "Bessie Smith and Louis Armstrong - The St. Louis Blues (1925).mp3",
+    "title": "„St. Louis Blues“",
+    "composer": "W. C. Handy",
+    "performer": "Bessie Smith, Louis Armstrong (1925)"
+  },
+  "h-krooked-blues": {
+    "file": "King Oliver's Creole Jazz Band-- \"Krooked Blues\" (1923).ogg",
+    "title": "„Krooked Blues“",
+    "composer": "King Oliver",
+    "performer": "King Oliver’s Creole Jazz Band mit Louis Armstrong (1923)"
+  },
+  "h-american-patrol": {
+    "file": "Meacham's \"American Patrol\", performed by Glenn Miller.oga",
+    "title": "„American Patrol“",
+    "composer": "Frank W. Meacham",
+    "performer": "Glenn Miller"
   }
 }

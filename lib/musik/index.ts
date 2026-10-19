@@ -6,6 +6,9 @@ import { KL_ROMANTIK } from './kl-romantik';
 import { KL_OPER } from './kl-oper';
 import { KL_SPAETROMANTIK } from './kl-spaetromantik';
 import { KL_MODERNE } from './kl-moderne';
+import { JZ_WURZELN } from './jz-wurzeln';
+import { JZ_SWING } from './jz-swing';
+import { JZ_MODERN } from './jz-modern';
 
 // Musik: genres (epochs) → eras or styles (events) → overview + composers/musicians (subtopics),
 // reusing the history types. Progress is stored like the countries' under
@@ -21,6 +24,12 @@ const RAW: CountryHistory = {
       name: 'Klassische Musik',
       period: 'um 800 – heute',
       events: [KL_MITTELALTER, KL_BAROCK, KL_WIENER_KLASSIK, KL_ROMANTIK, KL_OPER, KL_SPAETROMANTIK, KL_MODERNE],
+    },
+    {
+      id: 'jazz',
+      name: 'Jazz und Blues',
+      period: 'um 1890 – heute',
+      events: [JZ_WURZELN, JZ_SWING, JZ_MODERN],
     },
   ],
 };
@@ -41,7 +50,8 @@ export function findKapitel(epocheId: string, subId: string): { land: Epoch; eve
 
 // A well-known musician (portrait) per genre and per era for the tiles.
 const COVERS: Record<string, string> = {
-  klassik: 'beethoven',
+  klassik: 'beethoven', jazz: 'armstrong',
+  'jz-wurzeln': 'joplin', 'jz-swing': 'ellington', 'jz-modern': 'miles-davis',
   'kl-mittelalter': 'hildegard', 'kl-barock': 'bach', 'kl-wiener-klassik': 'mozart', 'kl-romantik': 'chopin',
   'kl-oper': 'verdi', 'kl-spaetromantik': 'tschaikowsky', 'kl-moderne': 'debussy',
 };

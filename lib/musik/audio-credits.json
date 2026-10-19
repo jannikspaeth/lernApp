@@ -678,5 +678,61 @@
     "author": "Maurice Ravel (1875-1937, composer) Thérèse Dussaut (pianist)",
     "licence": "CC BY-SA 2.0",
     "page": "https://commons.wikimedia.org/wiki/File:Maurice_Ravel_-_Th%C3%A9r%C3%A8se_Dussaut_-_Pavane_pour_une_infante_d%C3%A9funte.ogg"
+  },
+  "h-livery-stable": {
+    "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/1/19/Original_Dixieland_Jass_Band_-_Livery_Stable_Blues_%281917%29_with_hiss_reduction.ogg/Original_Dixieland_Jass_Band_-_Livery_Stable_Blues_%281917%29_with_hiss_reduction.ogg.mp3",
+    "ogg": "https://upload.wikimedia.org/wikipedia/commons/1/19/Original_Dixieland_Jass_Band_-_Livery_Stable_Blues_%281917%29_with_hiss_reduction.ogg",
+    "seconds": 190,
+    "author": "Original Dixieland Jass Band (performer); Ray Lopez (1889–1979), Alcide Nunez (1884–1934) (composers)",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Original_Dixieland_Jass_Band_-_Livery_Stable_Blues_(1917)_with_hiss_reduction.ogg"
+  },
+  "h-dipper-mouth": {
+    "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/e/e6/Dippermouth_Blues_-_KING_OLIVER%27S_JAZZ_BAND.flac/Dippermouth_Blues_-_KING_OLIVER%27S_JAZZ_BAND.flac.mp3",
+    "ogg": "https://upload.wikimedia.org/wikipedia/commons/transcoded/e/e6/Dippermouth_Blues_-_KING_OLIVER%27S_JAZZ_BAND.flac/Dippermouth_Blues_-_KING_OLIVER%27S_JAZZ_BAND.flac.ogg",
+    "seconds": 144,
+    "author": "King Oliver's Creole Jazz Band, Louis Armstrong",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Dippermouth_Blues_-_KING_OLIVER%27S_JAZZ_BAND.flac"
+  },
+  "h-maple-leaf": {
+    "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/d/db/Maple_leaf_rag_-_played_by_Scott_Joplin_1916_V2.ogg/Maple_leaf_rag_-_played_by_Scott_Joplin_1916_V2.ogg.mp3",
+    "ogg": "https://upload.wikimedia.org/wikipedia/commons/d/db/Maple_leaf_rag_-_played_by_Scott_Joplin_1916_V2.ogg",
+    "seconds": 130,
+    "author": "Scott Joplin - composer.",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Maple_leaf_rag_-_played_by_Scott_Joplin_1916_V2.ogg"
+  },
+  "h-entertainer": {
+    "mp3": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Scott_Joplin_-_04_-_The_Entertainer_1902_piano_roll.mp3",
+    "ogg": "https://upload.wikimedia.org/wikipedia/commons/transcoded/6/6d/Scott_Joplin_-_04_-_The_Entertainer_1902_piano_roll.mp3/Scott_Joplin_-_04_-_The_Entertainer_1902_piano_roll.mp3.ogg",
+    "seconds": 157,
+    "author": "Scott Joplin",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Scott_Joplin_-_04_-_The_Entertainer_1902_piano_roll.mp3"
+  },
+  "h-st-louis-blues": {
+    "mp3": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Bessie_Smith_and_Louis_Armstrong_-_The_St._Louis_Blues_%281925%29.mp3",
+    "ogg": "https://upload.wikimedia.org/wikipedia/commons/transcoded/b/b2/Bessie_Smith_and_Louis_Armstrong_-_The_St._Louis_Blues_%281925%29.mp3/Bessie_Smith_and_Louis_Armstrong_-_The_St._Louis_Blues_%281925%29.mp3.ogg",
+    "seconds": 190,
+    "author": "Louis Armstrong, Bessie Smith, W. C. Handy",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Bessie_Smith_and_Louis_Armstrong_-_The_St._Louis_Blues_(1925).mp3"
+  },
+  "h-krooked-blues": {
+    "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c6/King_Oliver%27s_Creole_Jazz_Band--_%22Krooked_Blues%22_%281923%29.ogg/King_Oliver%27s_Creole_Jazz_Band--_%22Krooked_Blues%22_%281923%29.ogg.mp3",
+    "ogg": "https://upload.wikimedia.org/wikipedia/commons/c/c6/King_Oliver%27s_Creole_Jazz_Band--_%22Krooked_Blues%22_%281923%29.ogg",
+    "seconds": 175,
+    "author": "King Oliver's Creole Jazz Band feat. Louis Armstrong",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:King_Oliver%27s_Creole_Jazz_Band--_%22Krooked_Blues%22_(1923).ogg"
+  },
+  "h-american-patrol": {
+    "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/f/f6/Meacham%27s_%22American_Patrol%22%2C_performed_by_Glenn_Miller.oga/Meacham%27s_%22American_Patrol%22%2C_performed_by_Glenn_Miller.oga.mp3",
+    "ogg": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Meacham%27s_%22American_Patrol%22%2C_performed_by_Glenn_Miller.oga",
+    "seconds": 203,
+    "author": "Glenn Miller",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Meacham%27s_%22American_Patrol%22,_performed_by_Glenn_Miller.oga"
   }
 }
