@@ -7,6 +7,7 @@ export interface Card {
   q: string;
   img?: string; // picture shown with the question (e.g. a flag, or an artwork: /kunst/<key>.jpg)
   credit?: string; // picture credit shown after answering (artworks)
+  audio?: { sources: { src: string; type: string }[]; start: number }; // Musik: a listening example played with the question
   a: string;
   // Three wrong answers for the quiz. Missing → taken from the other answers of
   // the same topic (only for topics whose answers are all of one kind).
@@ -36,7 +37,7 @@ export interface Subject {
 }
 
 // Compact card notation: c('Frage', 'Antwort', ['falsch', 'falsch', 'falsch'], 'Info').
-// Optional 5th entry (Kunst): key of an artwork from lib/kunst/works.json shown with the question.
+// Optional 5th entry: key of a picture (lib/bild.ts) or of a listening example (lib/musik/audio.json) shown with the question.
 export type RawCard = [q: string, a: string, wrong?: string[] | null, info?: string | null, work?: string];
 
 // Build a topic; card ids are the 1-based position, so only ever append new

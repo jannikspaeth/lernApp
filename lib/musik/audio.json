@@ -1,0 +1,504 @@
+{
+  "h-veni-sancte": {
+    "file": "Veni.sancte.spiritus.ogg",
+    "title": "„Veni sancte spiritus“ (Gregorianischer Choral)",
+    "composer": "anonym"
+  },
+  "h-o-frondens": {
+    "file": "O frondens.ogg",
+    "title": "„O frondens virga“",
+    "composer": "Hildegard von Bingen",
+    "performer": "Makemi"
+  },
+  "h-papae-marcelli-kyrie": {
+    "file": "Missa Papae Marcelli - I. Kyrie.flac",
+    "title": "„Missa Papae Marcelli“: Kyrie",
+    "composer": "Giovanni Pierluigi da Palestrina"
+  },
+  "h-papae-marcelli-agnus": {
+    "file": "Missa Papae Marcelli - V. Agnus Dei I.flac",
+    "title": "„Missa Papae Marcelli“: Agnus Dei",
+    "composer": "Giovanni Pierluigi da Palestrina"
+  },
+  "h-fireworks-ouverture": {
+    "file": "George Frideric Handel - Music for the Royal Fireworks 1 (Overture).ogg",
+    "title": "„Feuerwerksmusik“: Ouvertüre",
+    "composer": "Georg Friedrich Händel",
+    "performer": "78-RPM-Aufnahme (Internet Archive)"
+  },
+  "h-air": {
+    "file": "Air - Air Force Strings - United States Air Force Band.mp3",
+    "title": "Orchestersuite Nr. 3: „Air“",
+    "composer": "Johann Sebastian Bach",
+    "performer": "Air Force Strings (United States Air Force Band)"
+  },
+  "h-orfeo-toccata": {
+    "file": "Orfeo - Toccata.ogg",
+    "title": "„L’Orfeo“: Toccata",
+    "composer": "Claudio Monteverdi",
+    "performer": "Trisdee na Patalung"
+  },
+  "h-fruehling": {
+    "file": "Vivaldi - Four Seasons 1 Spring mvt 1 Allegro - John Harrison violin.oga",
+    "title": "„Der Frühling“: 1. Satz (Allegro)",
+    "composer": "Antonio Vivaldi",
+    "performer": "John Harrison (Violine), Wichita State University"
+  },
+  "h-winter": {
+    "file": "Vivaldi - Four Seasons 4 Winter mvt 1 Allegro non molto - John Harrison violin.oga",
+    "title": "„Der Winter“: 1. Satz (Allegro non molto)",
+    "composer": "Antonio Vivaldi",
+    "performer": "John Harrison (Violine), Wichita State University"
+  },
+  "h-toccata": {
+    "file": "Toccata et Fugue BWV565.ogg",
+    "title": "Toccata und Fuge d-Moll BWV 565",
+    "composer": "Johann Sebastian Bach",
+    "performer": "Ashtar Moïra"
+  },
+  "h-brandenburg-3": {
+    "file": "Bach - Brandenburg Concerto No. 3 - 1. Allegro.ogg",
+    "title": "Brandenburgisches Konzert Nr. 3: 1. Satz",
+    "composer": "Johann Sebastian Bach",
+    "performer": "Konzertmitschnitt 2006 (Al Goldstein Collection)"
+  },
+  "h-wtk-praeludium-c": {
+    "file": "Kimiko Ishizaka - Bach - Well-Tempered Clavier, Book 1 - 01 Prelude No. 1 in C major, BWV 846.ogg",
+    "title": "„Das Wohltemperierte Klavier“: Präludium C-Dur BWV 846",
+    "composer": "Johann Sebastian Bach",
+    "performer": "Kimiko Ishizaka"
+  },
+  "h-jesus-bleibet": {
+    "file": "Bach, BWV 147, 10. Jesus bleibet meine Freude.ogg",
+    "title": "„Jesus bleibet meine Freude“ (BWV 147)",
+    "composer": "Johann Sebastian Bach",
+    "performer": "Orchestra Gli Armonici"
+  },
+  "h-halleluja": {
+    "file": "Handel Messiah Hallelujah by Oratorio Chorus.ogg",
+    "title": "„Der Messias“: „Halleluja“",
+    "composer": "Georg Friedrich Händel",
+    "performer": "Oratorio Chorus"
+  },
+  "h-wassermusik": {
+    "file": "1-George Frideric Handel - Water Music Suite in F major (Overture) HWV348.ogg",
+    "title": "„Wassermusik“: Suite F-Dur, Ouvertüre",
+    "composer": "Georg Friedrich Händel",
+    "performer": "78-RPM-Aufnahme (Internet Archive)"
+  },
+  "h-zadok": {
+    "file": "Handel - Zadok the Priest, HWV 258 (St Matthew's Concert Choir, Giromella).oga",
+    "title": "„Zadok the Priest“",
+    "composer": "Georg Friedrich Händel",
+    "performer": "St Matthew’s Concert Choir, Damien Giromella"
+  },
+  "h-kleine-nachtmusik": {
+    "file": "Mozart K525 Serenade in G Major 1 - Allegro.ogg",
+    "title": "„Eine kleine Nachtmusik“ KV 525: 1. Satz",
+    "composer": "Wolfgang Amadeus Mozart",
+    "performer": "European Archive (Musopen)"
+  },
+  "h-reigen-seliger-geister": {
+    "file": "PDP-CH - New York Philharmonic - Arturo Toscanini - Orfeo ed Euridice - Dance of the Blessed Spirits - Christoph Willibald Gluck - Hmv-d1784-42-664.flac",
+    "title": "„Orfeo ed Euridice“: Reigen seliger Geister",
+    "composer": "Christoph Willibald Gluck",
+    "performer": "New York Philharmonic, Arturo Toscanini"
+  },
+  "h-paukenschlag": {
+    "file": "Haydn; Symphony No. 94 \"Surprise\", 2. Andante.ogg",
+    "title": "Sinfonie Nr. 94 „mit dem Paukenschlag“: 2. Satz",
+    "composer": "Joseph Haydn",
+    "performer": "Boston Symphony Orchestra, Serge Koussevitzky"
+  },
+  "h-trompetenkonzert": {
+    "file": "Real Filharmonía de Galicia - Haydn's Trumpet Concerto in E-flat major, Hob.VIIe-1 - III. Finale allegro.ogg",
+    "title": "Trompetenkonzert Es-Dur: 3. Satz",
+    "composer": "Joseph Haydn",
+    "performer": "Real Filharmonía de Galicia"
+  },
+  "h-kaiserhymne": {
+    "file": "Gott erhalte, Gott beschütze - (1917 recording).ogg",
+    "title": "„Gott erhalte Franz den Kaiser“ (Kaiserhymne)",
+    "composer": "Joseph Haydn",
+    "performer": "Aufnahme von 1917"
+  },
+  "h-figaro-ouverture": {
+    "file": "Mozart - Le nozze di Figaro, K492 - Overture (Musopen Symphony).flac",
+    "title": "„Le nozze di Figaro“: Ouvertüre",
+    "composer": "Wolfgang Amadeus Mozart",
+    "performer": "Musopen Symphony"
+  },
+  "h-koenigin-der-nacht": {
+    "file": "W. A. Mozart - Die Zauberflöte - 18. Der Hölle Rache kocht in meinem Herzen (Ferenc Fricsay, 1953).ogg",
+    "title": "„Die Zauberflöte“: „Der Hölle Rache kocht in meinem Herzen“",
+    "composer": "Wolfgang Amadeus Mozart",
+    "performer": "Rita Streich, RIAS-Symphonie-Orchester, Ferenc Fricsay (1953)"
+  },
+  "h-sinfonie-40": {
+    "file": "Mozart - Symphony No. 40 in G minor, K550 - I. Molto allegro (Musopen Symphony).flac",
+    "title": "Sinfonie Nr. 40 g-Moll KV 550: 1. Satz",
+    "composer": "Wolfgang Amadeus Mozart",
+    "performer": "Musopen Symphony"
+  },
+  "h-rondo-alla-turca": {
+    "file": "Mozart - Piano Sonata No. 11 in A major - III. Allegro (Turkish March).ogg",
+    "title": "Klaviersonate A-Dur KV 331: „Rondo alla turca“",
+    "composer": "Wolfgang Amadeus Mozart",
+    "performer": "Bernd Krueger (piano-midi.de)"
+  },
+  "h-lacrimosa": {
+    "file": "W. A. Mozart - Requiem, K. 626 (Bruno Walter, Wiener Philharmoniker, Wiener Staatsopernchor, 1956) - 08. Lacrimosa.ogg",
+    "title": "Requiem KV 626: „Lacrimosa“",
+    "composer": "Wolfgang Amadeus Mozart",
+    "performer": "Wiener Philharmoniker, Wiener Staatsopernchor, Bruno Walter (1956)"
+  },
+  "h-beethoven-5": {
+    "file": "Ludwig van Beethoven - symphony no. 5 in c minor, op. 67 - i. allegro con brio.ogg",
+    "title": "Sinfonie Nr. 5 c-Moll: 1. Satz",
+    "composer": "Ludwig van Beethoven",
+    "performer": "Musopen"
+  },
+  "h-mondschein": {
+    "file": "Ludwig van Beethoven - sonata no. 14 in c sharp minor 'moonlight', op. 27 no. 2 - i. adagio sostenuto.ogg",
+    "title": "Klaviersonate Nr. 14 („Mondscheinsonate“): 1. Satz",
+    "composer": "Ludwig van Beethoven",
+    "performer": "Paul Pitman (Musopen)"
+  },
+  "h-fuer-elise": {
+    "file": "For Elise (Für Elise) Beethoven JMC Han.ogg",
+    "title": "„Für Elise“",
+    "composer": "Ludwig van Beethoven",
+    "performer": "Jason M. C. Han"
+  },
+  "h-pathetique": {
+    "file": "Beethoven, Sonata No. 8 in C Minor Pathetique, Op. 13 - II. Adagio cantabile.ogg",
+    "title": "Klaviersonate Nr. 8 „Pathétique“: 2. Satz",
+    "composer": "Ludwig van Beethoven",
+    "performer": "Musopen"
+  },
+  "h-ode-an-die-freude": {
+    "file": "Anthem of Europe (US Navy instrumental long version).ogg",
+    "title": "„Ode an die Freude“ (aus der 9. Sinfonie, als Europahymne)",
+    "composer": "Ludwig van Beethoven",
+    "performer": "United States Navy Band"
+  },
+  "h-marche-au-supplice": {
+    "file": "Hector Berlioz - Symphonie fantastique, op. 14 - 4. Marche au supplice (Igor Markevitch, Orchestre Lamoureux, 1962).ogg",
+    "title": "„Symphonie fantastique“: Gang zum Richtplatz",
+    "composer": "Hector Berlioz",
+    "performer": "Orchestre Lamoureux, Igor Markevitch (1962)"
+  },
+  "h-erlkoenig": {
+    "file": "Schubert - Schumann-Heink - Erlkönig.ogg",
+    "title": "„Erlkönig“ D 328",
+    "composer": "Franz Schubert",
+    "performer": "Ernestine Schumann-Heink"
+  },
+  "h-ave-maria": {
+    "file": "Schubert - Ave Maria, arr. for violin and piano (Menuhin, Baller).flac",
+    "title": "„Ave Maria“ (Ellens dritter Gesang), Fassung für Violine",
+    "composer": "Franz Schubert",
+    "performer": "Yehudi Menuhin, Adolph Baller"
+  },
+  "h-impromptu": {
+    "file": "Schubert- Impromptu B-flat1.ogg",
+    "title": "Impromptu B-Dur D 935 Nr. 3 (Thema)",
+    "composer": "Franz Schubert",
+    "performer": "Al Goldstein Collection"
+  },
+  "h-hochzeitsmarsch": {
+    "file": "A Midsummer Night's Dream Op. 61 Wedding March (Mendelssohn) European Archive.ogg",
+    "title": "„Ein Sommernachtstraum“: Hochzeitsmarsch",
+    "composer": "Felix Mendelssohn Bartholdy",
+    "performer": "European Archive"
+  },
+  "h-hebriden": {
+    "file": "Mendelssohn - Hebrides Overture, Op. 26 (Musopen Symphony).flac",
+    "title": "Ouvertüre „Die Hebriden“",
+    "composer": "Felix Mendelssohn Bartholdy",
+    "performer": "Musopen Symphony"
+  },
+  "h-violinkonzert-mendelssohn": {
+    "file": "Hankyung Arte Philharmonic - Mendelssohn's Violin Concerto in E minor, Op. 64, MWV O 14 - I. Allegro molto appassionato.ogg",
+    "title": "Violinkonzert e-Moll: 1. Satz",
+    "composer": "Felix Mendelssohn Bartholdy",
+    "performer": "Hankyung Arte Philharmonic"
+  },
+  "h-traeumerei": {
+    "file": "Robert Schumann - scenes from childhood, op. 15 - vii. dreaming.ogg",
+    "title": "„Kinderszenen“: „Träumerei“",
+    "composer": "Robert Schumann",
+    "performer": "Musopen"
+  },
+  "h-schumann-klavierkonzert": {
+    "file": "Schumann - Piano Concerto in A minor Op.54 - I. Allegro.ogg",
+    "title": "Klavierkonzert a-Moll: 1. Satz",
+    "composer": "Robert Schumann",
+    "performer": "Musopen"
+  },
+  "h-nocturne-es": {
+    "file": "Chopin - Nocturne No. 2 in E-flat major, Op. 9 No. 2 (Frank Levy).flac",
+    "title": "Nocturne Es-Dur op. 9 Nr. 2",
+    "composer": "Frédéric Chopin",
+    "performer": "Frank Lévy"
+  },
+  "h-minutenwalzer": {
+    "file": "Chopin - Waltz No. 6 in D-flat major, Op. 64, No. 1 'Minute' (Olga Gurevich).flac",
+    "title": "Walzer Des-Dur op. 64 Nr. 1 („Minutenwalzer“)",
+    "composer": "Frédéric Chopin",
+    "performer": "Olga Gurevich"
+  },
+  "h-revolutionsetuede": {
+    "file": "Chopin - 12 Études, Op. 10 - No. 12 in C minor 'Revolutionary' (Edward Neeman).flac",
+    "title": "Etüde c-Moll op. 10 Nr. 12 („Revolutionsetüde“)",
+    "composer": "Frédéric Chopin",
+    "performer": "Edward Neeman"
+  },
+  "h-polonaise-heroique": {
+    "file": "Chopin - Polonaise No. 6 in A-flat major, Op. 53 'Héroïque' (Luke Faulkner).flac",
+    "title": "Polonaise As-Dur op. 53 („Heroische“)",
+    "composer": "Frédéric Chopin",
+    "performer": "Luke Faulkner"
+  },
+  "h-trauermarsch": {
+    "file": "Chopin Pitman sonata no 2 in b flat minor funeral march III marche funebre lento.ogg",
+    "title": "Klaviersonate b-Moll: Trauermarsch",
+    "composer": "Frédéric Chopin",
+    "performer": "Paul Pitman"
+  },
+  "h-liebestraum": {
+    "file": "PDP-CH - Wilhelm Backhaus - Liebestraum No. 3 in A-flat major, S.541-3 (Liszt) - Hmv-d788-05754.flac",
+    "title": "„Liebestraum“ Nr. 3 As-Dur",
+    "composer": "Franz Liszt",
+    "performer": "Wilhelm Backhaus"
+  },
+  "h-ungarische-rhapsodie": {
+    "file": "PDP-CH - Philadelphia Orchestra - Stokowski - Hungarian Rhapsody No. 2 in C-sharp minor, S 244-2 - Liszt - Hmv-db3086-2a03100.flac",
+    "title": "Ungarische Rhapsodie Nr. 2 (Orchesterfassung)",
+    "composer": "Franz Liszt",
+    "performer": "Philadelphia Orchestra, Leopold Stokowski"
+  },
+  "h-campanella": {
+    "file": "Liszt-La Campanella-Greiss.ogg",
+    "title": "„La Campanella“",
+    "composer": "Franz Liszt",
+    "performer": "Greiss"
+  },
+  "h-carmen-vorspiel": {
+    "file": "Carmen - Prelude to Act 1.ogg",
+    "title": "„Carmen“: Vorspiel",
+    "composer": "Georges Bizet",
+    "performer": "Musopen"
+  },
+  "h-habanera": {
+    "file": "Habanera (ISRC USUAN1100656).mp3",
+    "title": "„Carmen“: Habanera („L’amour est un oiseau rebelle“)",
+    "composer": "Georges Bizet",
+    "performer": "Jenny Lee Mitchell, Kevin MacLeod"
+  },
+  "h-barbier-ouverture": {
+    "file": "PDP-CH - New York Philharmonic - Arturo Toscanini - The Barber of Seville - Gioachino Rossini - Overture - Part 1 - Electrola-ej576-42-846.flac",
+    "title": "„Il barbiere di Siviglia“: Ouvertüre (1. Teil)",
+    "composer": "Gioachino Rossini",
+    "performer": "New York Philharmonic, Arturo Toscanini"
+  },
+  "h-tell-ouverture": {
+    "file": "William Tell2.ogg",
+    "title": "„Guillaume Tell“: Ouvertüre (2. Hälfte)",
+    "composer": "Gioachino Rossini",
+    "performer": "Sodero’s Band"
+  },
+  "h-va-pensiero": {
+    "file": "ICBSA Verdi - Nabucco, Va pensiero.ogg",
+    "title": "„Nabucco“: Gefangenenchor „Va, pensiero“",
+    "composer": "Giuseppe Verdi",
+    "performer": "Istituto Centrale per i Beni Sonori ed Audiovisivi"
+  },
+  "h-brindisi": {
+    "file": "\"Brindisi\" from La Traviata - Singing Sergeants - United States Air Force Band.mp3",
+    "title": "„La Traviata“: Trinklied „Libiamo ne’ lieti calici“",
+    "composer": "Giuseppe Verdi",
+    "performer": "Singing Sergeants (United States Air Force Band)"
+  },
+  "h-triumphmarsch": {
+    "file": "Triumphal March from Aida.ogg",
+    "title": "„Aida“: Triumphmarsch",
+    "composer": "Giuseppe Verdi",
+    "performer": "United States Marine Band"
+  },
+  "h-dies-irae-verdi": {
+    "file": "ICBSA Verdi - Messa da requiem parte 03, Dies irae.ogg",
+    "title": "„Messa da Requiem“: „Dies irae“",
+    "composer": "Giuseppe Verdi",
+    "performer": "Istituto Centrale per i Beni Sonori ed Audiovisivi"
+  },
+  "h-walkuerenritt": {
+    "file": "Richard Wagner - Ride of the Valkyries.ogg",
+    "title": "„Die Walküre“: Walkürenritt",
+    "composer": "Richard Wagner"
+  },
+  "h-brautchor": {
+    "file": "Kevin MacLeod - Wagner Bridal Chorus.ogg",
+    "title": "„Lohengrin“: Brautchor (Instrumentalfassung)",
+    "composer": "Richard Wagner",
+    "performer": "Kevin MacLeod"
+  },
+  "h-nessun-dorma": {
+    "file": "'Nessun Dorma', Aureliano Pertile, 1927.ogg",
+    "title": "„Turandot“: „Nessun dorma“",
+    "composer": "Giacomo Puccini",
+    "performer": "Aureliano Pertile (1927)"
+  },
+  "h-babbino-caro": {
+    "file": "Frances Alda, O mio babbino caro (Gianni Schicchi).ogg",
+    "title": "„Gianni Schicchi“: „O mio babbino caro“",
+    "composer": "Giacomo Puccini",
+    "performer": "Frances Alda"
+  },
+  "h-un-bel-di": {
+    "file": "CC0-CH - Rosa Ponselle, soprano with orchestra - Madama Butterfly - Un bel di vedremo - Giacomo Puccini - Columbia-7340-49571.flac",
+    "title": "„Madama Butterfly“: „Un bel dì vedremo“",
+    "composer": "Giacomo Puccini",
+    "performer": "Rosa Ponselle"
+  },
+  "h-gelida-manina": {
+    "file": "PDP-CH - Beniamino Gigli, Tenor - La bohème - Che gelida manina - Puccini - Hmv-db1538-8769a.flac",
+    "title": "„La Bohème“: „Che gelida manina“",
+    "composer": "Giacomo Puccini",
+    "performer": "Beniamino Gigli"
+  },
+  "h-moldau": {
+    "file": "Smetana, Má vlast - Vltava - The Moldau.ogg",
+    "title": "„Mein Vaterland“: „Die Moldau“",
+    "composer": "Bedřich Smetana",
+    "performer": "Musopen Symphony Orchestra"
+  },
+  "h-ungarischer-tanz": {
+    "file": "Hungarian Dances - No. 5 in F Sharp Minor (Collections in piano) JMC,Han.ogg",
+    "title": "Ungarischer Tanz Nr. 5 (Klavier)",
+    "composer": "Johannes Brahms",
+    "performer": "Jason M. C. Han"
+  },
+  "h-wiegenlied": {
+    "file": "Brahms - Schumann-Heink - Wiegenlied (Berceuse) (1915).ogg",
+    "title": "„Wiegenlied“ („Guten Abend, gut’ Nacht“)",
+    "composer": "Johannes Brahms",
+    "performer": "Ernestine Schumann-Heink (1915)"
+  },
+  "h-brahms-1": {
+    "file": "Brahms, Symphony No. 1 in C Minor, Op. 68 - I. Un poco sostenuto - Allegro.ogg",
+    "title": "Sinfonie Nr. 1 c-Moll: 1. Satz",
+    "composer": "Johannes Brahms",
+    "performer": "Musopen Symphony Orchestra"
+  },
+  "h-donauwalzer": {
+    "file": "Strauss, An der schönen blauen Donau.ogg",
+    "title": "„An der schönen blauen Donau“",
+    "composer": "Johann Strauss (Sohn)",
+    "performer": "European Archive"
+  },
+  "h-radetzky": {
+    "file": "USMC Band - Radetzky March.mp3",
+    "title": "Radetzky-Marsch",
+    "composer": "Johann Strauss (Vater)",
+    "performer": "United States Marine Band"
+  },
+  "h-schwanensee": {
+    "file": "Tchaikovsky Swan Lake Op.20 No.10. Scène.ogg",
+    "title": "„Schwanensee“: Szene (Nr. 10)",
+    "composer": "Peter Tschaikowsky"
+  },
+  "h-zuckerfee": {
+    "file": "PDP-CH - National Symphony Orchestra of London - Stanford Robinson, conductor - The Nutcracker Suite, Op. 71 - Dance of the Sugar Plum Fairy - Russian Dance - Tchaikovsky - Decca-k1142-ar9057.flac",
+    "title": "„Der Nussknacker“: Tanz der Zuckerfee",
+    "composer": "Peter Tschaikowsky",
+    "performer": "National Symphony Orchestra of London, Stanford Robinson"
+  },
+  "h-tschaikowsky-klavierkonzert": {
+    "file": "Tchaikovsky, Concerto No.1 in B-flat minor Op.23, I. Allegro.ogg",
+    "title": "Klavierkonzert Nr. 1 b-Moll: 1. Satz",
+    "composer": "Peter Tschaikowsky"
+  },
+  "h-1812": {
+    "file": "1812 Overture - United States Marine Band.opus",
+    "title": "Ouvertüre „1812“",
+    "composer": "Peter Tschaikowsky",
+    "performer": "United States Marine Band"
+  },
+  "h-neue-welt-largo": {
+    "file": "Antonin Dvorak - symphony no. 9 in e minor 'from the new world', op. 95 - ii. largo.ogg",
+    "title": "Sinfonie Nr. 9 „Aus der Neuen Welt“: Largo",
+    "composer": "Antonín Dvořák",
+    "performer": "Musopen"
+  },
+  "h-neue-welt-finale": {
+    "file": "Antonin Dvorak - symphony no. 9 in e minor 'from the new world', op. 95 - iv. allegro con fuoco.ogg",
+    "title": "Sinfonie Nr. 9 „Aus der Neuen Welt“: Finale",
+    "composer": "Antonín Dvořák",
+    "performer": "Musopen"
+  },
+  "h-humoreske": {
+    "file": "Dvořák - Humoresque Op. 101 No. 7.ogg",
+    "title": "Humoreske Ges-Dur op. 101 Nr. 7",
+    "composer": "Antonín Dvořák"
+  },
+  "h-morgenstimmung": {
+    "file": "Grieg - Peer Gynt Suite No. 1, Op. 46 - I. Morning Mood (Musopen Symphony).flac",
+    "title": "„Peer Gynt“: „Morgenstimmung“",
+    "composer": "Edvard Grieg",
+    "performer": "Musopen Symphony"
+  },
+  "h-bergkoenig": {
+    "file": "Grieg - Peer Gynt Suite No. 1, Op. 46 - IV. In the Hall of the Mountain King (Musopen Symphony).flac",
+    "title": "„Peer Gynt“: „In der Halle des Bergkönigs“",
+    "composer": "Edvard Grieg",
+    "performer": "Musopen Symphony"
+  },
+  "h-grieg-klavierkonzert": {
+    "file": "Edvard Grieg - piano concerto in a minor, op. 16 - i. allegro molto moderato.ogg",
+    "title": "Klavierkonzert a-Moll: 1. Satz",
+    "composer": "Edvard Grieg",
+    "performer": "Musopen"
+  },
+  "h-adagietto": {
+    "file": "Mahler Symphony No. 5, IV. Adagietto.ogg",
+    "title": "Sinfonie Nr. 5: Adagietto",
+    "composer": "Gustav Mahler",
+    "performer": "Peabody Symphony Orchestra"
+  },
+  "h-mahler-5": {
+    "file": "Mahler Symphony No. 5, I. Trauermarsch.ogg",
+    "title": "Sinfonie Nr. 5: Trauermarsch",
+    "composer": "Gustav Mahler",
+    "performer": "Peabody Symphony Orchestra"
+  },
+  "h-gymnopedie": {
+    "file": "Satie Gymnopèdie n.1 DariaBaiocchi.wav",
+    "title": "„Gymnopédie“ Nr. 1",
+    "composer": "Erik Satie",
+    "performer": "Daria Baiocchi"
+  },
+  "h-clair-de-lune": {
+    "file": "Clair de Lune by Claude Debussy (1905, piano solo).opus",
+    "title": "„Suite bergamasque“: „Clair de lune“",
+    "composer": "Claude Debussy"
+  },
+  "h-faune": {
+    "file": "Columbia-dwx1550ix-c-wlx1289.ogg",
+    "title": "„Prélude à l’après-midi d’un faune“",
+    "composer": "Claude Debussy",
+    "performer": "Orchestre Straram, Walther Straram (1930)"
+  },
+  "h-bolero": {
+    "file": "Bolero-Maurice Ravel-1930.ogg",
+    "title": "„Boléro“",
+    "composer": "Maurice Ravel",
+    "performer": "Orchestre Lamoureux, dirigiert von Ravel (1930)"
+  },
+  "h-pavane": {
+    "file": "Maurice Ravel - Thérèse Dussaut - Pavane pour une infante défunte.ogg",
+    "title": "„Pavane pour une infante défunte“",
+    "composer": "Maurice Ravel",
+    "performer": "Thérèse Dussaut"
+  }
+}

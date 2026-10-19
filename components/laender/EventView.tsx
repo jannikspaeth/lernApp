@@ -12,12 +12,16 @@ import QuizCard from '@/components/wissen/QuizCard';
 import Icon from '@/components/Icon';
 import { levelDone, useWissenProgress } from './EventProgress';
 import { bildView, bildCaption, type WorkView } from '@/lib/bild';
+import { audioView, type AudioView } from '@/lib/musik/audio';
+import AudioClip from '@/components/musik/AudioClip';
 
 type Tab = 'info' | 'quiz';
 const bildLabel = (w: WorkView) => {
   const cap = bildCaption(w);
   return `${w.title}${cap ? ` \u2013 ${cap}` : ''} \u00b7 ${w.credit}`;
 };
+
+const audioLabel = (a: AudioView) => `${a.title} \u2013 ${a.composer} \u00b7 ${a.credit}`;
 
 const isLevel = (v: string): v is Level => v === 'leicht' || v === 'mittel' || v === 'schwer';
 
@@ -37,6 +41,7 @@ export default function EventView({
   text,
   quiz,
   images,
+  audio,
   next,
 }: {
   code: string;
@@ -44,6 +49,7 @@ export default function EventView({
   text: string[];
   quiz: Record<Level, RawCard[]>;
   images?: string[]; // Kunst: artwork keys shown below the text
+  audio?: string[]; // Musik: listening examples shown between the text and the pictures
   next?: { href: string; title: string };
 }) {
   const t = useT();
@@ -111,6 +117,27 @@ export default function EventView({
               <p key={i} className="text-[17px] leading-[1.75] text-ink/90">{p}</p>
             ))}
           </article>
+          {audio && audio.some(k => audioView(k)) && (
+            <section className="space-y-3">
+              <h2 className="flex items-center gap-1.5 text-xs font-semibold text-muted uppercase tracking-wider">
+                <Icon name="music" size={15} /> {t('Listening examples', 'Hörbeispiele')}
+              </h2>
+              {audio.map(k => {
+                const a = audioView(k);
+                return a && (
+                  <figure key={k} className="bg-surface rounded-2xl border border-line p-3.5 space-y-2.5">
+                    <figcaption className="text-sm text-ink">
+                      <span className="font-semibold">{a.title}</span> · {a.composer}
+                    </figcaption>
+                    <AudioClip sources={a.sources} start={a.start} />
+                    <p className="text-xs text-faint">
+                      <a href={a.page} target="_blank" rel="noreferrer" className="underline decoration-line">{a.credit}</a>
+                    </p>
+                  </figure>
+                );
+              })}
+            </section>
+          )}
           {images && images.length > 0 && (
             <section className="space-y-4">
               {images.map(k => {
@@ -194,6 +221,7 @@ export default function EventView({
               a: card[1],
               ...(card[3] ? { info: card[3] } : {}),
               ...(card[4] && bildView(card[4]) ? { img: bildView(card[4])!.src, credit: bildLabel(bildView(card[4])!) } : {}),
+              ...(card[4] && audioView(card[4]) ? { audio: audioView(card[4])!, credit: audioLabel(audioView(card[4])!) } : {}),
             }}
             label={t(...LEVELS.find(l => l.id === run.level)!.name)}
             options={options}

@@ -2,9 +2,10 @@ import { notFound } from 'next/navigation';
 import { MIX, SUBJECTS, getSubject } from '@/lib/wissen';
 import SubjectView from '@/components/wissen/SubjectView';
 import TileWall, { ContinueCard } from '@/components/wissen/TileWall';
-import { geschichteLandTiles, kunstEpochTiles, literaturLandTiles } from '@/lib/wissen/tiles';
+import { geschichteLandTiles, kunstEpochTiles, literaturLandTiles, musikGenreTiles } from '@/lib/wissen/tiles';
 import { KUNST } from '@/lib/kunst';
 import { LITERATUR } from '@/lib/literatur';
+import { MUSIK } from '@/lib/musik';
 import { categoryCover } from '@/lib/geografie/bilder';
 import QuizList from '@/components/geo/QuizList';
 import { QUIZZES } from '@/lib/geografie/quizzes';
@@ -30,6 +31,18 @@ function history(fach: string) {
         <>
           <ContinueCard prefix="/literatur/" label="Weiter in der Literaturgeschichte" />
           <TileWall tiles={literaturLandTiles()} />
+        </>
+      ),
+    };
+  }
+  if (fach === 'musik') {
+    return {
+      title: ['Music history', 'Musikgeschichte'] as [string, string],
+      sub: [`${MUSIK.epochs.length} genres by era`, `${MUSIK.epochs.length} Genres, nach Epochen`] as [string, string],
+      node: (
+        <>
+          <ContinueCard prefix="/musik/" label="Weiter in der Musikgeschichte" />
+          <TileWall tiles={musikGenreTiles()} />
         </>
       ),
     };

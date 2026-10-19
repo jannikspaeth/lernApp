@@ -21,6 +21,7 @@ export interface Subtopic {
   text: string[];
   quiz: Quiz;
   images?: string[]; // Kunst: keys of artworks (lib/kunst/works.json) shown in the text
+  audio?: string[]; // Musik: listening examples (lib/musik/audio.json) shown below the text
 }
 
 export interface HistEvent {

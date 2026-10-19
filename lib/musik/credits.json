@@ -1,0 +1,390 @@
+{
+  "guido-von-arezzo": {
+    "file": "Statue_of_Guido_of_Arezzo.jpg",
+    "author": "unbekannt",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Statue_of_Guido_of_Arezzo.jpg"
+  },
+  "josquin": {
+    "file": "Josquin.JPG",
+    "author": "unknown, upload by Adrian Michael",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Josquin.JPG"
+  },
+  "hildegard": {
+    "file": "Hildegard_von_Bingen.jpg",
+    "author": "Unknown authorUnknown author",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Hildegard_von_Bingen.jpg"
+  },
+  "palestrina": {
+    "file": "Giovanni_Pierluigi_da_Palestrina.png",
+    "author": "unbekannt",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Giovanni_Pierluigi_da_Palestrina.png"
+  },
+  "purcell": {
+    "file": "Henry_Purcell_by_John_Closterman.jpg",
+    "author": "anonymous",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Henry_Purcell_by_John_Closterman.jpg"
+  },
+  "telemann": {
+    "file": "Telemann.jpg",
+    "author": "Valentin Daniel Preisler",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Telemann.jpg"
+  },
+  "monteverdi": {
+    "file": "Bernardo_Strozzi_-_Claudio_Monteverdi_(c.1630).jpg",
+    "author": "Bernardo Strozzi",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Bernardo_Strozzi_-_Claudio_Monteverdi_(c.1630).jpg"
+  },
+  "vivaldi": {
+    "file": "Vivaldi_La_Cave.jpg",
+    "author": "François Morellon de La Cave",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Vivaldi_La_Cave.jpg"
+  },
+  "bach": {
+    "file": "Johann_Sebastian_Bach.png",
+    "author": "Elias Gottlob Haussmann",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Johann_Sebastian_Bach.png"
+  },
+  "thomaskirche": {
+    "file": "Saint_Thomas_church_in_Leipzig_(18).jpg",
+    "author": "Krzysztof Golik",
+    "licence": "CC BY-SA 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Saint_Thomas_church_in_Leipzig_(18).jpg"
+  },
+  "haendel": {
+    "file": "George_Frideric_Handel_by_Balthasar_Denner.jpg",
+    "author": "Attributed to Balthasar Denner",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:George_Frideric_Handel_by_Balthasar_Denner.jpg"
+  },
+  "gluck": {
+    "file": "Joseph_Siffred_Duplessis_-_Christoph_Willibald_Gluck_-_Google_Art_Project.jpg",
+    "author": "Joseph-Siffred Duplessis",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Joseph_Siffred_Duplessis_-_Christoph_Willibald_Gluck_-_Google_Art_Project.jpg"
+  },
+  "cpe-bach": {
+    "file": "Carl_Philipp_Emanuel_Bach.jpg",
+    "author": "After Johann Philipp Bach",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Carl_Philipp_Emanuel_Bach.jpg"
+  },
+  "haydn": {
+    "file": "Joseph_Haydn.jpg",
+    "author": "Thomas Hardy",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Joseph_Haydn.jpg"
+  },
+  "esterhazy": {
+    "file": "Aerial_image_of_Esterházy_Palace,_Fertőd_(view_from_the_southeast).jpg",
+    "author": "Carsten Steger",
+    "licence": "CC BY-SA 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Aerial_image_of_Esterh%C3%A1zy_Palace,_Fert%C5%91d_(view_from_the_southeast).jpg"
+  },
+  "mozart": {
+    "file": "The_Mozart_Family_-_Wolfgang_Amadeus_Mozart_headshot.jpg",
+    "author": "Johann Nepomuk della Croce",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:The_Mozart_Family_-_Wolfgang_Amadeus_Mozart_headshot.jpg"
+  },
+  "mozart-kinder": {
+    "file": "Leopold_Mozart.jpg",
+    "author": "Pietro Antonio Lorenzoni",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Leopold_Mozart.jpg"
+  },
+  "beethoven": {
+    "file": "Beethoven.jpg",
+    "author": "Joseph Karl Stieler",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Beethoven.jpg"
+  },
+  "beethoven-haus": {
+    "file": "Beethoven-Haus.jpg",
+    "author": "Thomas Wolf, www.foto-tw.de",
+    "licence": "CC BY-SA 3.0 de",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:Beethoven-Haus.jpg"
+  },
+  "berlioz": {
+    "file": "Berlioz_ill05.jpg",
+    "author": "Charles Reutlinger",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Berlioz_ill05.jpg"
+  },
+  "paganini": {
+    "file": "Niccolo-Paganini.jpeg",
+    "author": "Unknown authorUnknown author",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Niccolo-Paganini.jpeg"
+  },
+  "weber": {
+    "file": "Caroline_Bardua_-_Bildnis_des_Komponisten_Carl_Maria_von_Weber.jpg",
+    "author": "Caroline Bardua",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Caroline_Bardua_-_Bildnis_des_Komponisten_Carl_Maria_von_Weber.jpg"
+  },
+  "schubert": {
+    "file": "Franz_Schubert_by_Wilhelm_August_Rieder_1875.jpg",
+    "author": "Wilhelm August Rieder",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Franz_Schubert_by_Wilhelm_August_Rieder_1875.jpg"
+  },
+  "schubertiade": {
+    "file": "Moritz_von_Schwind_Schubertiade.jpg",
+    "author": "Moritz von Schwind",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Moritz_von_Schwind_Schubertiade.jpg"
+  },
+  "mendelssohn": {
+    "file": "Felix_Mendelssohn_Bartholdy_by_Eduard_Magnus_(1833).jpg",
+    "author": "Eduard Magnus",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Felix_Mendelssohn_Bartholdy_by_Eduard_Magnus_(1833).jpg"
+  },
+  "fanny-hensel": {
+    "file": "Fanny_Hensel_1842.jpg",
+    "author": "Moritz Daniel Oppenheim",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Fanny_Hensel_1842.jpg"
+  },
+  "robert-schumann": {
+    "file": "Portrait_of_Robert_Schumann.jpg",
+    "author": "Adolph von Menzel",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Portrait_of_Robert_Schumann.jpg"
+  },
+  "clara-schumann": {
+    "file": "Franz_von_Lenbach_-_Clara_Schumann_(Pastell_1878).jpg",
+    "author": "Franz von Lenbach",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Franz_von_Lenbach_-_Clara_Schumann_(Pastell_1878).jpg"
+  },
+  "chopin": {
+    "file": "Frédéric_Chopin_by_Bisson,_1849.png",
+    "author": "Louis-Auguste Bisson",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Fr%C3%A9d%C3%A9ric_Chopin_by_Bisson,_1849.png"
+  },
+  "george-sand": {
+    "file": "George_Sand.jpg",
+    "author": "Charles Louis Gratia",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:George_Sand.jpg"
+  },
+  "liszt": {
+    "file": "Albert,_Joseph_-_Franz_Liszt_(Zeno_Fotografie).jpg",
+    "author": "Albert, Joseph",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Albert,_Joseph_-_Franz_Liszt_(Zeno_Fotografie).jpg"
+  },
+  "bizet": {
+    "file": "Georges_bizet.jpg",
+    "author": "Étienne Carjat",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Georges_bizet.jpg"
+  },
+  "scala": {
+    "file": "Milano_-_Teatro_alla_Scala_3924.jpg",
+    "author": "Lucalari84",
+    "licence": "CC BY-SA 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Milano_-_Teatro_alla_Scala_3924.jpg"
+  },
+  "offenbach": {
+    "file": "JOffenbach.JPG",
+    "author": "Nadar, upload by Adrian Michael",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:JOffenbach.JPG"
+  },
+  "rossini": {
+    "file": "Composer_Rossini_G_1865_by_Carjat.jpg",
+    "author": "Étienne Carjat",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Composer_Rossini_G_1865_by_Carjat.jpg"
+  },
+  "verdi": {
+    "file": "Verdi-photo-Brogi.jpg",
+    "author": "Giacomo Brogi",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Verdi-photo-Brogi.jpg"
+  },
+  "wagner": {
+    "file": "RichardWagner.jpg",
+    "author": "Franz Hanfstaengl",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:RichardWagner.jpg"
+  },
+  "festspielhaus": {
+    "file": "Richard-Wagner-Festspielhaus_2016_(Frontansicht,_Sichtachse_Siegfried-Wagner-Allee,_unverhüllt_nach_Sanierung).jpg",
+    "author": "Markus Gögelein",
+    "licence": "CC BY-SA 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Richard-Wagner-Festspielhaus_2016_(Frontansicht,_Sichtachse_Siegfried-Wagner-Allee,_unverh%C3%BCllt_nach_Sanierung).jpg"
+  },
+  "puccini": {
+    "file": "GiacomoPuccini.jpg",
+    "author": "Unknown authorUnknown author",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:GiacomoPuccini.jpg"
+  },
+  "caruso": {
+    "file": "Enrico_Caruso_tenor.jpg",
+    "author": "Copyright by Laveccha Studio, Chicago (no. 3).",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Enrico_Caruso_tenor.jpg"
+  },
+  "bruckner": {
+    "file": "Bruckner_final_years.jpg",
+    "author": "Josef Löwy",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Bruckner_final_years.jpg"
+  },
+  "smetana": {
+    "file": "Smetana.jpg",
+    "author": "Unknown, no one has claimed authorship for the photo",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Smetana.jpg"
+  },
+  "mussorgski": {
+    "file": "Modest_Musorgskiy,_1870.jpg",
+    "author": "unbekannt",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Modest_Musorgskiy,_1870.jpg"
+  },
+  "sibelius": {
+    "file": "Jean_Sibelius,_1913.jpg",
+    "author": "fi:Daniel Nyblin (1856–1923)",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Jean_Sibelius,_1913.jpg"
+  },
+  "brahms": {
+    "file": "JohannesBrahms.jpg",
+    "author": "C. Brasch, Berlin (biography)",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:JohannesBrahms.jpg"
+  },
+  "johann-strauss": {
+    "file": "Johann_Strauss_II_by_Fritz_Luckhardt.jpg",
+    "author": "Fritz Luckhardt / Adam Cuerden",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Johann_Strauss_II_by_Fritz_Luckhardt.jpg"
+  },
+  "strauss-vater": {
+    "file": "StraußVaterLitho.jpg",
+    "author": "Josef Kriehuber",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Strau%C3%9FVaterLitho.jpg"
+  },
+  "tschaikowsky": {
+    "file": "Porträt_des_Komponisten_Pjotr_I._Tschaikowski_(1840-1893).jpg",
+    "author": "Nikolai Kuznetsov",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Portr%C3%A4t_des_Komponisten_Pjotr_I._Tschaikowski_(1840-1893).jpg"
+  },
+  "dvorak": {
+    "file": "Dvorak.jpg",
+    "author": "Unknown authorUnknown author",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Dvorak.jpg"
+  },
+  "grieg": {
+    "file": "Edvard_Grieg_by_Karl_Anderson_TM.T01607_(edit).jpg",
+    "author": "Karl Anderson",
+    "licence": "CC BY-SA 3.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Edvard_Grieg_by_Karl_Anderson_TM.T01607_(edit).jpg"
+  },
+  "troldhaugen": {
+    "file": "1885_bis_1907_lebte_hier_der_Komponist_Edvard_Grieg._02.jpg",
+    "author": "Holger Uwe Schmitt",
+    "licence": "CC BY-SA 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:1885_bis_1907_lebte_hier_der_Komponist_Edvard_Grieg._02.jpg"
+  },
+  "mahler": {
+    "file": "Photo_of_Gustav_Mahler_by_Moritz_Nähr_01.jpg",
+    "author": "Moritz Nähr",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Photo_of_Gustav_Mahler_by_Moritz_N%C3%A4hr_01.jpg"
+  },
+  "alma-mahler": {
+    "file": "Alma_Mahler_1899a.jpg",
+    "author": "Alma_Mahler_1899.jpg: Unknown authorUnknown author derivative work: Fewskulchor (talk)",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Alma_Mahler_1899a.jpg"
+  },
+  "satie": {
+    "file": "Satie_Cropped.jpg",
+    "author": "Delbo, 9, rue Vavin, Paris",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Satie_Cropped.jpg"
+  },
+  "richard-strauss": {
+    "file": "Max_Liebermann_Bildnis_Richard_Strauss.jpg",
+    "author": "Max Liebermann",
+    "licence": "CC0",
+    "licenceUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:Max_Liebermann_Bildnis_Richard_Strauss.jpg"
+  },
+  "bartok": {
+    "file": "Bartók_Béla_1927.jpg",
+    "author": "Unknown authorUnknown author",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Bart%C3%B3k_B%C3%A9la_1927.jpg"
+  },
+  "debussy": {
+    "file": "Claude_Debussy_ca_1908,_foto_av_Félix_Nadar.jpg",
+    "author": "Nadar",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Claude_Debussy_ca_1908,_foto_av_F%C3%A9lix_Nadar.jpg"
+  },
+  "ravel": {
+    "file": "Maurice_Ravel_1925.jpg",
+    "author": "Unknown authorUnknown author The image holder, the Bibliothèque nationale de France has not identified a photographer. (Follow link and click on \"Detailed information\".)",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Maurice_Ravel_1925.jpg"
+  },
+  "schoenberg": {
+    "file": "阿诺德·勋伯格肖像.jpg",
+    "author": "Man Ray",
+    "licence": "CC BY-SA 2.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:%E9%98%BF%E8%AF%BA%E5%BE%B7%C2%B7%E5%8B%8B%E4%BC%AF%E6%A0%BC%E8%82%96%E5%83%8F.jpg"
+  },
+  "berg-webern": {
+    "file": "Anton_Webern_in_Stettin,_October_1912.jpg",
+    "author": "unbekannt",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Anton_Webern_in_Stettin,_October_1912.jpg"
+  },
+  "schostakowitsch": {
+    "file": "Dmitri_Shostakovich_credit_Deutsche_Fotothek_adjusted.jpg",
+    "author": "Fotothek_df_roe-neg_0002792_002_Portrait_Dmitri_Dmitrijewitsch_Schostakowitchs_im_Publikum_der_Bachfeier.jpg: Roger &amp; Renate Rössing, credit Deutsche Fotothek. derivative work: Improvist (talk)",
+    "licence": "CC BY-SA 3.0 de",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:Dmitri_Shostakovich_credit_Deutsche_Fotothek_adjusted.jpg"
+  },
+  "strawinsky": {
+    "file": "Igor_Stravinsky_LOC_32392u.jpg",
+    "author": "George Grantham Bain Collection",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Igor_Stravinsky_LOC_32392u.jpg"
+  },
+  "nijinsky": {
+    "file": "Talisman_-Vayou_-Vaslav_Nijinsky_-1909.JPG",
+    "author": "Unknown photographer of the photography department of the Imperial Mariinsky Theatre. St. Petersburg, Russian Empire.",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Talisman_-Vayou_-Vaslav_Nijinsky_-1909.JPG"
+  }
+}

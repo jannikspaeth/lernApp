@@ -4,6 +4,7 @@ import { useEffect, useState } from 'react';
 import type { Card } from '@/lib/wissen';
 import { useT } from '@/lib/ui-lang';
 import Icon from '@/components/Icon';
+import AudioClip from '@/components/musik/AudioClip';
 
 // One knowledge question with four options: tap (or key 1–4) → feedback (+ background info) → Next (or Enter).
 export default function QuizCard({
@@ -65,9 +66,10 @@ export default function QuizCard({
           <img
             src={card.img}
             alt=""
-            className={/^\/(kunst|literatur|geo|umriss)\//.test(card.img) ? 'max-h-80 max-w-full rounded-lg border border-line bg-surface object-contain' : 'h-28 max-w-full rounded-lg border border-line'}
+            className={/^\/(kunst|literatur|musik|geo|umriss)\//.test(card.img) ? 'max-h-80 max-w-full rounded-lg border border-line bg-surface object-contain' : 'h-28 max-w-full rounded-lg border border-line'}
           />
         )}
+        {card.audio && <AudioClip sources={card.audio.sources} start={card.audio.start} />}
         <p className="text-xl md:text-[22px] text-ink leading-snug font-semibold tracking-tight">{card.q}</p>
       </div>
       <div className="grid gap-2">

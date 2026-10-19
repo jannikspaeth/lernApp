@@ -3,6 +3,7 @@ import type { Epoch, HistEvent } from '@/lib/laender/types';
 import { quizCounts, quizItems } from '@/lib/laender/types';
 import { LITERATUR, LITERATUR_CODE } from '@/lib/literatur';
 import { KUNST, KUNST_CODE } from '@/lib/kunst';
+import { MUSIK, MUSIK_CODE } from '@/lib/musik';
 import { bildView } from '@/lib/bild';
 import { DETAILED } from '@/lib/laender';
 import { COUNTRIES } from '@/lib/welt';
@@ -46,6 +47,34 @@ export function literaturEpochTiles(land: Epoch): Tile[] {
     cover: cover(ev.cover),
     tint: TINTS[i % TINTS.length],
     code: LITERATUR_CODE,
+    items: items([ev]),
+  }));
+}
+
+// Musik: one tile per genre.
+export function musikGenreTiles(): Tile[] {
+  return MUSIK.epochs.map((g, i) => ({
+    key: g.id,
+    href: `/musik/genres/${g.id}`,
+    title: g.name,
+    sub: `${g.events.length} Epochen · ${chapters(g.events)} Kapitel`,
+    cover: cover(g.cover),
+    tint: TINTS[i % TINTS.length],
+    code: MUSIK_CODE,
+    items: items(g.events),
+  }));
+}
+
+// Musik: the eras (or styles) of one genre.
+export function musikEpochTiles(g: Epoch): Tile[] {
+  return g.events.map((ev, i) => ({
+    key: ev.id,
+    href: `/musik/${ev.id}`,
+    title: ev.title,
+    sub: `${ev.date} · ${ev.subtopics?.length ?? 0} Kapitel`,
+    cover: cover(ev.cover),
+    tint: TINTS[i % TINTS.length],
+    code: MUSIK_CODE,
     items: items([ev]),
   }));
 }

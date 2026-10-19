@@ -1,0 +1,382 @@
+{
+  "guido-von-arezzo": {
+    "wiki": "Guido von Arezzo",
+    "title": "Denkmal für Guido von Arezzo",
+    "artist": "Arezzo",
+    "year": "1882"
+  },
+  "josquin": {
+    "wiki": "Josquin des Prez",
+    "title": "Josquin des Prez",
+    "artist": "Holzschnitt",
+    "year": "1611"
+  },
+  "hildegard": {
+    "wiki": "Hildegard von Bingen",
+    "title": "Hildegard von Bingen empfängt eine Vision",
+    "artist": "Rupertsberger Codex des „Liber Scivias“",
+    "year": "um 1180"
+  },
+  "palestrina": {
+    "wiki": "Giovanni Pierluigi da Palestrina",
+    "title": "Giovanni Pierluigi da Palestrina",
+    "artist": "",
+    "year": ""
+  },
+  "purcell": {
+    "wiki": "Henry Purcell",
+    "title": "Henry Purcell",
+    "artist": "Gemälde von John Closterman",
+    "year": "1695"
+  },
+  "telemann": {
+    "wiki": "Georg Philipp Telemann",
+    "title": "Georg Philipp Telemann",
+    "artist": "Gemälde von Georg Lichtensteger",
+    "year": "um 1745"
+  },
+  "monteverdi": {
+    "wiki": "Claudio Monteverdi",
+    "title": "Claudio Monteverdi",
+    "artist": "Gemälde von Bernardo Strozzi",
+    "year": "um 1630"
+  },
+  "vivaldi": {
+    "wiki": "Antonio Vivaldi",
+    "title": "Antonio Vivaldi",
+    "artist": "Kupferstich von François Morellon La Cave",
+    "year": "1725"
+  },
+  "bach": {
+    "wiki": "Johann Sebastian Bach",
+    "title": "Johann Sebastian Bach",
+    "artist": "Gemälde von Elias Gottlob Haußmann",
+    "year": "1746"
+  },
+  "thomaskirche": {
+    "wiki": "Thomaskirche (Leipzig)",
+    "title": "Die Thomaskirche in Leipzig",
+    "artist": "",
+    "year": ""
+  },
+  "haendel": {
+    "wiki": "Georg Friedrich Händel",
+    "title": "Georg Friedrich Händel",
+    "artist": "Gemälde von Balthasar Denner",
+    "year": "um 1726"
+  },
+  "gluck": {
+    "wiki": "Christoph Willibald Gluck",
+    "title": "Christoph Willibald Gluck",
+    "artist": "Gemälde von Joseph Siffred Duplessis",
+    "year": "1775"
+  },
+  "cpe-bach": {
+    "wiki": "Carl Philipp Emanuel Bach",
+    "title": "Carl Philipp Emanuel Bach",
+    "artist": "",
+    "year": ""
+  },
+  "haydn": {
+    "wiki": "Joseph Haydn",
+    "title": "Joseph Haydn",
+    "artist": "Gemälde von Thomas Hardy",
+    "year": "1791"
+  },
+  "esterhazy": {
+    "wiki": "Schloss Esterházy (Fertőd)",
+    "title": "Schloss Esterháza in Fertőd (Ungarn)",
+    "artist": "",
+    "year": ""
+  },
+  "mozart": {
+    "wiki": "Wolfgang Amadeus Mozart",
+    "title": "Wolfgang Amadeus Mozart",
+    "artist": "Johann Nepomuk della Croce (Ausschnitt aus dem Familienbild)",
+    "year": "um 1780"
+  },
+  "mozart-kinder": {
+    "wiki": "Leopold Mozart",
+    "title": "Leopold Mozart",
+    "artist": "",
+    "year": ""
+  },
+  "beethoven": {
+    "wiki": "Ludwig van Beethoven",
+    "title": "Ludwig van Beethoven",
+    "artist": "Gemälde von Joseph Karl Stieler",
+    "year": "1820"
+  },
+  "beethoven-haus": {
+    "wiki": "Beethoven-Haus",
+    "title": "Beethovens Geburtshaus in Bonn",
+    "artist": "",
+    "year": ""
+  },
+  "berlioz": {
+    "wiki": "Hector Berlioz",
+    "title": "Hector Berlioz",
+    "artist": "",
+    "year": ""
+  },
+  "paganini": {
+    "wiki": "Niccolò Paganini",
+    "title": "Niccolò Paganini",
+    "artist": "",
+    "year": ""
+  },
+  "weber": {
+    "wiki": "Carl Maria von Weber",
+    "title": "Carl Maria von Weber",
+    "artist": "Gemälde von Caroline Bardua",
+    "year": "1821"
+  },
+  "schubert": {
+    "wiki": "Franz Schubert",
+    "title": "Franz Schubert",
+    "artist": "Gemälde von Wilhelm August Rieder",
+    "year": "1875"
+  },
+  "schubertiade": {
+    "wiki": "Schubertiade",
+    "title": "Eine Schubertiade",
+    "artist": "Moritz von Schwind",
+    "year": "1868"
+  },
+  "mendelssohn": {
+    "wiki": "Felix Mendelssohn Bartholdy",
+    "title": "Felix Mendelssohn Bartholdy",
+    "artist": "Gemälde von Eduard Magnus",
+    "year": "1833"
+  },
+  "fanny-hensel": {
+    "wiki": "Fanny Hensel",
+    "title": "Fanny Hensel",
+    "artist": "",
+    "year": "1842"
+  },
+  "robert-schumann": {
+    "wiki": "Robert Schumann",
+    "title": "Robert Schumann",
+    "artist": "",
+    "year": ""
+  },
+  "clara-schumann": {
+    "wiki": "Clara Schumann",
+    "title": "Clara Schumann",
+    "artist": "Gemälde von Franz von Lenbach",
+    "year": "1878"
+  },
+  "chopin": {
+    "wiki": "Frédéric Chopin",
+    "title": "Frédéric Chopin",
+    "artist": "Fotografie von Louis-Auguste Bisson",
+    "year": "1849"
+  },
+  "george-sand": {
+    "wiki": "George Sand",
+    "title": "George Sand",
+    "artist": "Gemälde von Auguste Charpentier",
+    "year": "1838"
+  },
+  "liszt": {
+    "wiki": "Franz Liszt",
+    "title": "Franz Liszt",
+    "artist": "Fotografie von Joseph Albert",
+    "year": ""
+  },
+  "bizet": {
+    "wiki": "Georges Bizet",
+    "title": "Georges Bizet",
+    "artist": "Fotografie von Étienne Carjat",
+    "year": "1875"
+  },
+  "scala": {
+    "wiki": "Teatro alla Scala",
+    "title": "Das Teatro alla Scala in Mailand",
+    "artist": "",
+    "year": ""
+  },
+  "offenbach": {
+    "wiki": "Jacques Offenbach",
+    "title": "Jacques Offenbach",
+    "artist": "Fotografie von Nadar",
+    "year": "um 1860"
+  },
+  "rossini": {
+    "wiki": "Gioachino Rossini",
+    "title": "Gioachino Rossini",
+    "artist": "Fotografie von Étienne Carjat",
+    "year": "1865"
+  },
+  "verdi": {
+    "wiki": "Giuseppe Verdi",
+    "title": "Giuseppe Verdi",
+    "artist": "Fotografie von Giacomo Brogi",
+    "year": ""
+  },
+  "wagner": {
+    "wiki": "Richard Wagner",
+    "title": "Richard Wagner",
+    "artist": "Fotografie von Franz Hanfstaengl",
+    "year": "1871"
+  },
+  "festspielhaus": {
+    "wiki": "Bayreuther Festspielhaus",
+    "title": "Das Bayreuther Festspielhaus",
+    "artist": "",
+    "year": ""
+  },
+  "puccini": {
+    "wiki": "Giacomo Puccini",
+    "title": "Giacomo Puccini",
+    "artist": "",
+    "year": ""
+  },
+  "caruso": {
+    "wiki": "Enrico Caruso",
+    "title": "Enrico Caruso",
+    "artist": "",
+    "year": ""
+  },
+  "bruckner": {
+    "wiki": "Anton Bruckner",
+    "title": "Anton Bruckner",
+    "artist": "",
+    "year": ""
+  },
+  "smetana": {
+    "wiki": "Bedřich Smetana",
+    "title": "Bedřich Smetana",
+    "artist": "",
+    "year": ""
+  },
+  "mussorgski": {
+    "wiki": "Modest Mussorgski",
+    "title": "Modest Mussorgski",
+    "artist": "Gemälde von Ilja Repin",
+    "year": "1881"
+  },
+  "sibelius": {
+    "wiki": "Jean Sibelius",
+    "title": "Jean Sibelius",
+    "artist": "",
+    "year": ""
+  },
+  "brahms": {
+    "wiki": "Johannes Brahms",
+    "title": "Johannes Brahms",
+    "artist": "",
+    "year": ""
+  },
+  "johann-strauss": {
+    "wiki": "Johann Strauss (Sohn)",
+    "title": "Johann Strauss (Sohn)",
+    "artist": "",
+    "year": ""
+  },
+  "strauss-vater": {
+    "wiki": "Johann Strauss (Vater)",
+    "title": "Johann Strauss (Vater)",
+    "artist": "",
+    "year": ""
+  },
+  "tschaikowsky": {
+    "wiki": "Pjotr Iljitsch Tschaikowski",
+    "title": "Peter Tschaikowsky",
+    "artist": "",
+    "year": ""
+  },
+  "dvorak": {
+    "wiki": "Antonín Dvořák",
+    "title": "Antonín Dvořák",
+    "artist": "",
+    "year": ""
+  },
+  "grieg": {
+    "wiki": "Edvard Grieg",
+    "title": "Edvard Grieg",
+    "artist": "",
+    "year": ""
+  },
+  "troldhaugen": {
+    "wiki": "Troldhaugen",
+    "title": "Troldhaugen, Griegs Villa bei Bergen",
+    "artist": "",
+    "year": ""
+  },
+  "mahler": {
+    "wiki": "Gustav Mahler",
+    "title": "Gustav Mahler",
+    "artist": "",
+    "year": ""
+  },
+  "alma-mahler": {
+    "wiki": "Alma Mahler-Werfel",
+    "title": "Alma Mahler",
+    "artist": "",
+    "year": ""
+  },
+  "satie": {
+    "wiki": "Erik Satie",
+    "title": "Erik Satie",
+    "artist": "",
+    "year": ""
+  },
+  "richard-strauss": {
+    "wiki": "Richard Strauss",
+    "title": "Richard Strauss",
+    "artist": "",
+    "year": ""
+  },
+  "bartok": {
+    "wiki": "Béla Bartók",
+    "title": "Béla Bartók",
+    "artist": "",
+    "year": ""
+  },
+  "debussy": {
+    "wiki": "Claude Debussy",
+    "title": "Claude Debussy",
+    "artist": "Fotografie von Félix Nadar",
+    "year": "1908"
+  },
+  "ravel": {
+    "wiki": "Maurice Ravel",
+    "title": "Maurice Ravel",
+    "artist": "",
+    "year": ""
+  },
+  "strawinsky": {
+    "wiki": "Igor Strawinsky",
+    "title": "Igor Strawinsky",
+    "artist": "",
+    "year": "",
+    "en": "Igor Stravinsky"
+  },
+  "nijinsky": {
+    "wiki": "Vaslav Nijinsky",
+    "title": "Vaslav Nijinsky",
+    "artist": "",
+    "year": "",
+    "en": "Vaslav Nijinsky"
+  },
+  "schoenberg": {
+    "wiki": "Arnold Schönberg",
+    "title": "Arnold Schönberg",
+    "artist": "",
+    "year": ""
+  },
+  "berg-webern": {
+    "wiki": "Anton Webern",
+    "title": "Anton Webern",
+    "artist": "Fotografie",
+    "year": "1912"
+  },
+  "schostakowitsch": {
+    "wiki": "Dmitri Schostakowitsch",
+    "title": "Dmitri Schostakowitsch",
+    "artist": "",
+    "year": ""
+  }
+}

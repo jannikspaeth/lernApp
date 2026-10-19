@@ -1,0 +1,682 @@
+{
+  "h-veni-sancte": {
+    "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/9/96/Veni.sancte.spiritus.ogg/Veni.sancte.spiritus.ogg.mp3",
+    "ogg": "https://upload.wikimedia.org/wikipedia/commons/9/96/Veni.sancte.spiritus.ogg",
+    "seconds": 157,
+    "author": "Membeth",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Veni.sancte.spiritus.ogg"
+  },
+  "h-o-frondens": {
+    "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/3/37/O_frondens.ogg/O_frondens.ogg.mp3",
+    "ogg": "https://upload.wikimedia.org/wikipedia/commons/3/37/O_frondens.ogg",
+    "seconds": 118,
+    "author": "Hildegard of Bingen / user:Makemi",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:O_frondens.ogg"
+  },
+  "h-papae-marcelli-kyrie": {
+    "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/e/e1/Missa_Papae_Marcelli_-_I._Kyrie.flac/Missa_Papae_Marcelli_-_I._Kyrie.flac.mp3",
+    "ogg": "https://upload.wikimedia.org/wikipedia/commons/transcoded/e/e1/Missa_Papae_Marcelli_-_I._Kyrie.flac/Missa_Papae_Marcelli_-_I._Kyrie.flac.ogg",
+    "seconds": 214,
+    "author": "European Archive Music / Giovanni Pierluigi da Palestrina",
+    "licence": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:Missa_Papae_Marcelli_-_I._Kyrie.flac"
+  },
+  "h-papae-marcelli-agnus": {
+    "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/0/04/Missa_Papae_Marcelli_-_V._Agnus_Dei_I.flac/Missa_Papae_Marcelli_-_V._Agnus_Dei_I.flac.mp3",
+    "ogg": "https://upload.wikimedia.org/wikipedia/commons/transcoded/0/04/Missa_Papae_Marcelli_-_V._Agnus_Dei_I.flac/Missa_Papae_Marcelli_-_V._Agnus_Dei_I.flac.ogg",
+    "seconds": 148,
+    "author": "European Archive Music / Giovanni Pierluigi da Palestrina",
+    "licence": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:Missa_Papae_Marcelli_-_V._Agnus_Dei_I.flac"
+  },
+  "h-fireworks-ouverture": {
+    "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/d/d6/George_Frideric_Handel_-_Music_for_the_Royal_Fireworks_1_%28Overture%29.ogg/George_Frideric_Handel_-_Music_for_the_Royal_Fireworks_1_%28Overture%29.ogg.mp3",
+    "ogg": "https://upload.wikimedia.org/wikipedia/commons/d/d6/George_Frideric_Handel_-_Music_for_the_Royal_Fireworks_1_%28Overture%29.ogg",
+    "seconds": 136,
+    "author": "George Frideric Handel",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:George_Frideric_Handel_-_Music_for_the_Royal_Fireworks_1_(Overture).ogg"
+  },
+  "h-air": {
+    "mp3": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Air_-_Air_Force_Strings_-_United_States_Air_Force_Band.mp3",
+    "ogg": "https://upload.wikimedia.org/wikipedia/commons/transcoded/e/ec/Air_-_Air_Force_Strings_-_United_States_Air_Force_Band.mp3/Air_-_Air_Force_Strings_-_United_States_Air_Force_Band.mp3.ogg",
+    "seconds": 183,
+    "author": "Composition: Johann Sebastian Bach; Performance: United States Air Force Band, Air Force Strings; Recording: United States Air Force",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Air_-_Air_Force_Strings_-_United_States_Air_Force_Band.mp3"
+  },
+  "h-orfeo-toccata": {
+    "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/3/3d/Orfeo_-_Toccata.ogg/Orfeo_-_Toccata.ogg.mp3",
+    "ogg": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Orfeo_-_Toccata.ogg",
+    "seconds": 90,
+    "author": "Trisdee na Patalung",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Orfeo_-_Toccata.ogg"
+  },
+  "h-fruehling": {
+    "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/f/ff/Vivaldi_-_Four_Seasons_1_Spring_mvt_1_Allegro_-_John_Harrison_violin.oga/Vivaldi_-_Four_Seasons_1_Spring_mvt_1_Allegro_-_John_Harrison_violin.oga.mp3",
+    "ogg": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Vivaldi_-_Four_Seasons_1_Spring_mvt_1_Allegro_-_John_Harrison_violin.oga",
+    "seconds": 215,
+    "author": "Antonio Vivaldi",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Vivaldi_-_Four_Seasons_1_Spring_mvt_1_Allegro_-_John_Harrison_violin.oga"
+  },
+  "h-winter": {
+    "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/2/2a/Vivaldi_-_Four_Seasons_4_Winter_mvt_1_Allegro_non_molto_-_John_Harrison_violin.oga/Vivaldi_-_Four_Seasons_4_Winter_mvt_1_Allegro_non_molto_-_John_Harrison_violin.oga.mp3",
+    "ogg": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Vivaldi_-_Four_Seasons_4_Winter_mvt_1_Allegro_non_molto_-_John_Harrison_violin.oga",
+    "seconds": 209,
+    "author": "Music by Antonio Vivaldi published in 1725; Recording copyright John Harrison (JohnHarrisonViolin.com)",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Vivaldi_-_Four_Seasons_4_Winter_mvt_1_Allegro_non_molto_-_John_Harrison_violin.oga"
+  },
+  "h-toccata": {
+    "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/b/be/Toccata_et_Fugue_BWV565.ogg/Toccata_et_Fugue_BWV565.ogg.mp3",
+    "ogg": "https://upload.wikimedia.org/wikipedia/commons/b/be/Toccata_et_Fugue_BWV565.ogg",
+    "seconds": 514,
+    "author": "Johann Sebastian Bach (disputed), performed by Ashtar Moïra",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Toccata_et_Fugue_BWV565.ogg"
+  },
+  "h-brandenburg-3": {
+    "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/b/b0/Bach_-_Brandenburg_Concerto_No._3_-_1._Allegro.ogg/Bach_-_Brandenburg_Concerto_No._3_-_1._Allegro.ogg.mp3",
+    "ogg": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Bach_-_Brandenburg_Concerto_No._3_-_1._Allegro.ogg",
+    "seconds": 319,
+    "author": "Johann Sebastian Bach",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Bach_-_Brandenburg_Concerto_No._3_-_1._Allegro.ogg"
+  },
+  "h-wtk-praeludium-c": {
+    "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/b/b6/Kimiko_Ishizaka_-_Bach_-_Well-Tempered_Clavier%2C_Book_1_-_01_Prelude_No._1_in_C_major%2C_BWV_846.ogg/Kimiko_Ishizaka_-_Bach_-_Well-Tempered_Clavier%2C_Book_1_-_01_Prelude_No._1_in_C_major%2C_BWV_846.ogg.mp3",
+    "ogg": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Kimiko_Ishizaka_-_Bach_-_Well-Tempered_Clavier%2C_Book_1_-_01_Prelude_No._1_in_C_major%2C_BWV_846.ogg",
+    "seconds": 163,
+    "author": "Composed by Johann Sebastian Bach, performed by Kimiko Ishizaka",
+    "licence": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:Kimiko_Ishizaka_-_Bach_-_Well-Tempered_Clavier,_Book_1_-_01_Prelude_No._1_in_C_major,_BWV_846.ogg"
+  },
+  "h-jesus-bleibet": {
+    "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/2/27/Bach%2C_BWV_147%2C_10._Jesus_bleibet_meine_Freude.ogg/Bach%2C_BWV_147%2C_10._Jesus_bleibet_meine_Freude.ogg.mp3",
+    "ogg": "https://upload.wikimedia.org/wikipedia/commons/2/27/Bach%2C_BWV_147%2C_10._Jesus_bleibet_meine_Freude.ogg",
+    "seconds": 202,
+    "author": "Orchestra Gli Armonici",
+    "licence": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:Bach,_BWV_147,_10._Jesus_bleibet_meine_Freude.ogg"
+  },
+  "h-halleluja": {
+    "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/3/3f/Handel_Messiah_Hallelujah_by_Oratorio_Chorus.ogg/Handel_Messiah_Hallelujah_by_Oratorio_Chorus.ogg.mp3",
+    "ogg": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Handel_Messiah_Hallelujah_by_Oratorio_Chorus.ogg",
+    "seconds": 221,
+    "author": "G. F. Handel",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Handel_Messiah_Hallelujah_by_Oratorio_Chorus.ogg"
+  },
+  "h-wassermusik": {
+    "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/6/6e/1-George_Frideric_Handel_-_Water_Music_Suite_in_F_major_%28Overture%29_HWV348.ogg/1-George_Frideric_Handel_-_Water_Music_Suite_in_F_major_%28Overture%29_HWV348.ogg.mp3",
+    "ogg": "https://upload.wikimedia.org/wikipedia/commons/6/6e/1-George_Frideric_Handel_-_Water_Music_Suite_in_F_major_%28Overture%29_HWV348.ogg",
+    "seconds": 227,
+    "author": "George Frideric Handel",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:1-George_Frideric_Handel_-_Water_Music_Suite_in_F_major_(Overture)_HWV348.ogg"
+  },
+  "h-zadok": {
+    "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/3/32/Handel_-_Zadok_the_Priest%2C_HWV_258_%28St_Matthew%27s_Concert_Choir%2C_Giromella%29.oga/Handel_-_Zadok_the_Priest%2C_HWV_258_%28St_Matthew%27s_Concert_Choir%2C_Giromella%29.oga.mp3",
+    "ogg": "https://upload.wikimedia.org/wikipedia/commons/3/32/Handel_-_Zadok_the_Priest%2C_HWV_258_%28St_Matthew%27s_Concert_Choir%2C_Giromella%29.oga",
+    "seconds": 362,
+    "author": "St Matthew's Concert Choir; Damien Giromella, director",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Handel_-_Zadok_the_Priest,_HWV_258_(St_Matthew%27s_Concert_Choir,_Giromella).oga"
+  },
+  "h-kleine-nachtmusik": {
+    "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/6/68/Mozart_K525_Serenade_in_G_Major_1_-_Allegro.ogg/Mozart_K525_Serenade_in_G_Major_1_-_Allegro.ogg.mp3",
+    "ogg": "https://upload.wikimedia.org/wikipedia/commons/6/68/Mozart_K525_Serenade_in_G_Major_1_-_Allegro.ogg",
+    "seconds": 253,
+    "author": "Wolfgang Amadeus Mozart (1756–1791). The website lists the \"performer\" as the European Archive, which does not make sense (the link goes to https://musopen.org/music/performer/european-archive/ )",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Mozart_K525_Serenade_in_G_Major_1_-_Allegro.ogg"
+  },
+  "h-reigen-seliger-geister": {
+    "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c2/PDP-CH_-_New_York_Philharmonic_-_Arturo_Toscanini_-_Orfeo_ed_Euridice_-_Dance_of_the_Blessed_Spirits_-_Christoph_Willibald_Gluck_-_Hmv-d1784-42-664.flac/PDP-CH_-_New_York_Philharmonic_-_Arturo_Toscanini_-_Orfeo_ed_Euridice_-_Dance_of_the_Blessed_Spirits_-_Christoph_Willibald_Gluck_-_Hmv-d1784-42-664.flac.mp3",
+    "ogg": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c2/PDP-CH_-_New_York_Philharmonic_-_Arturo_Toscanini_-_Orfeo_ed_Euridice_-_Dance_of_the_Blessed_Spirits_-_Christoph_Willibald_Gluck_-_Hmv-d1784-42-664.flac/PDP-CH_-_New_York_Philharmonic_-_Arturo_Toscanini_-_Orfeo_ed_Euridice_-_Dance_of_the_Blessed_Spirits_-_Christoph_Willibald_Gluck_-_Hmv-d1784-42-664.flac.ogg",
+    "seconds": 289,
+    "author": "unbekannt",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:PDP-CH_-_New_York_Philharmonic_-_Arturo_Toscanini_-_Orfeo_ed_Euridice_-_Dance_of_the_Blessed_Spirits_-_Christoph_Willibald_Gluck_-_Hmv-d1784-42-664.flac"
+  },
+  "h-paukenschlag": {
+    "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/4/42/Haydn%3B_Symphony_No._94_%22Surprise%22%2C_2._Andante.ogg/Haydn%3B_Symphony_No._94_%22Surprise%22%2C_2._Andante.ogg.mp3",
+    "ogg": "https://upload.wikimedia.org/wikipedia/commons/4/42/Haydn%3B_Symphony_No._94_%22Surprise%22%2C_2._Andante.ogg",
+    "seconds": 438,
+    "author": "Boston Symphony Orchestra Serge Koussevitzky",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Haydn;_Symphony_No._94_%22Surprise%22,_2._Andante.ogg"
+  },
+  "h-trompetenkonzert": {
+    "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/8/88/Real_Filharmon%C3%ADa_de_Galicia_-_Haydn%27s_Trumpet_Concerto_in_E-flat_major%2C_Hob.VIIe-1_-_III._Finale_allegro.ogg/Real_Filharmon%C3%ADa_de_Galicia_-_Haydn%27s_Trumpet_Concerto_in_E-flat_major%2C_Hob.VIIe-1_-_III._Finale_allegro.ogg.mp3",
+    "ogg": "https://upload.wikimedia.org/wikipedia/commons/8/88/Real_Filharmon%C3%ADa_de_Galicia_-_Haydn%27s_Trumpet_Concerto_in_E-flat_major%2C_Hob.VIIe-1_-_III._Finale_allegro.ogg",
+    "seconds": 265,
+    "author": "Real Filharmonía de Galicia",
+    "licence": "CC BY 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Real_Filharmon%C3%ADa_de_Galicia_-_Haydn%27s_Trumpet_Concerto_in_E-flat_major,_Hob.VIIe-1_-_III._Finale_allegro.ogg"
+  },
+  "h-kaiserhymne": {
+    "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/75/Gott_erhalte%2C_Gott_besch%C3%BCtze_-_%281917_recording%29.ogg/Gott_erhalte%2C_Gott_besch%C3%BCtze_-_%281917_recording%29.ogg.mp3",
+    "ogg": "https://upload.wikimedia.org/wikipedia/commons/7/75/Gott_erhalte%2C_Gott_besch%C3%BCtze_-_%281917_recording%29.ogg",
+    "seconds": 167,
+    "author": "Joseph Haydn",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Gott_erhalte,_Gott_besch%C3%BCtze_-_(1917_recording).ogg"
+  },
+  "h-figaro-ouverture": {
+    "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/d/d2/Mozart_-_Le_nozze_di_Figaro%2C_K492_-_Overture_%28Musopen_Symphony%29.flac/Mozart_-_Le_nozze_di_Figaro%2C_K492_-_Overture_%28Musopen_Symphony%29.flac.mp3",
+    "ogg": "https://upload.wikimedia.org/wikipedia/commons/transcoded/d/d2/Mozart_-_Le_nozze_di_Figaro%2C_K492_-_Overture_%28Musopen_Symphony%29.flac/Mozart_-_Le_nozze_di_Figaro%2C_K492_-_Overture_%28Musopen_Symphony%29.flac.ogg",
+    "seconds": 241,
+    "author": "Wolfgang Amadeus Mozart",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Mozart_-_Le_nozze_di_Figaro,_K492_-_Overture_(Musopen_Symphony).flac"
+  },
+  "h-koenigin-der-nacht": {
+    "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/d/de/W._A._Mozart_-_Die_Zauberfl%C3%B6te_-_18._Der_H%C3%B6lle_Rache_kocht_in_meinem_Herzen_%28Ferenc_Fricsay%2C_1953%29.ogg/W._A._Mozart_-_Die_Zauberfl%C3%B6te_-_18._Der_H%C3%B6lle_Rache_kocht_in_meinem_Herzen_%28Ferenc_Fricsay%2C_1953%29.ogg.mp3",
+    "ogg": "https://upload.wikimedia.org/wikipedia/commons/d/de/W._A._Mozart_-_Die_Zauberfl%C3%B6te_-_18._Der_H%C3%B6lle_Rache_kocht_in_meinem_Herzen_%28Ferenc_Fricsay%2C_1953%29.ogg",
+    "seconds": 243,
+    "author": "Ferenc Fricsay; recorded 1953, released 1955",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:W._A._Mozart_-_Die_Zauberfl%C3%B6te_-_18._Der_H%C3%B6lle_Rache_kocht_in_meinem_Herzen_(Ferenc_Fricsay,_1953).ogg"
+  },
+  "h-sinfonie-40": {
+    "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/a8/Mozart_-_Symphony_No._40_in_G_minor%2C_K550_-_I._Molto_allegro_%28Musopen_Symphony%29.flac/Mozart_-_Symphony_No._40_in_G_minor%2C_K550_-_I._Molto_allegro_%28Musopen_Symphony%29.flac.mp3",
+    "ogg": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/a8/Mozart_-_Symphony_No._40_in_G_minor%2C_K550_-_I._Molto_allegro_%28Musopen_Symphony%29.flac/Mozart_-_Symphony_No._40_in_G_minor%2C_K550_-_I._Molto_allegro_%28Musopen_Symphony%29.flac.ogg",
+    "seconds": 359,
+    "author": "Wolfgang Amadeus Mozart",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Mozart_-_Symphony_No._40_in_G_minor,_K550_-_I._Molto_allegro_(Musopen_Symphony).flac"
+  },
+  "h-rondo-alla-turca": {
+    "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/b/bf/Mozart_-_Piano_Sonata_No._11_in_A_major_-_III._Allegro_%28Turkish_March%29.ogg/Mozart_-_Piano_Sonata_No._11_in_A_major_-_III._Allegro_%28Turkish_March%29.ogg.mp3",
+    "ogg": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Mozart_-_Piano_Sonata_No._11_in_A_major_-_III._Allegro_%28Turkish_March%29.ogg",
+    "seconds": 193,
+    "author": "Bernd Krueger",
+    "licence": "CC BY-SA 3.0 de",
+    "page": "https://commons.wikimedia.org/wiki/File:Mozart_-_Piano_Sonata_No._11_in_A_major_-_III._Allegro_(Turkish_March).ogg"
+  },
+  "h-lacrimosa": {
+    "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/5/5b/W._A._Mozart_-_Requiem%2C_K._626_%28Bruno_Walter%2C_Wiener_Philharmoniker%2C_Wiener_Staatsopernchor%2C_1956%29_-_08._Lacrimosa.ogg/W._A._Mozart_-_Requiem%2C_K._626_%28Bruno_Walter%2C_Wiener_Philharmoniker%2C_Wiener_Staatsopernchor%2C_1956%29_-_08._Lacrimosa.ogg.mp3",
+    "ogg": "https://upload.wikimedia.org/wikipedia/commons/5/5b/W._A._Mozart_-_Requiem%2C_K._626_%28Bruno_Walter%2C_Wiener_Philharmoniker%2C_Wiener_Staatsopernchor%2C_1956%29_-_08._Lacrimosa.ogg",
+    "seconds": 205,
+    "author": "Wolfgang Amadeus Mozart",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:W._A._Mozart_-_Requiem,_K._626_(Bruno_Walter,_Wiener_Philharmoniker,_Wiener_Staatsopernchor,_1956)_-_08._Lacrimosa.ogg"
+  },
+  "h-beethoven-5": {
+    "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/e/e6/Ludwig_van_Beethoven_-_symphony_no._5_in_c_minor%2C_op._67_-_i._allegro_con_brio.ogg/Ludwig_van_Beethoven_-_symphony_no._5_in_c_minor%2C_op._67_-_i._allegro_con_brio.ogg.mp3",
+    "ogg": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Ludwig_van_Beethoven_-_symphony_no._5_in_c_minor%2C_op._67_-_i._allegro_con_brio.ogg",
+    "seconds": 500,
+    "author": "Ludwig van Beethoven",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Ludwig_van_Beethoven_-_symphony_no._5_in_c_minor,_op._67_-_i._allegro_con_brio.ogg"
+  },
+  "h-mondschein": {
+    "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/4/48/Ludwig_van_Beethoven_-_sonata_no._14_in_c_sharp_minor_%27moonlight%27%2C_op._27_no._2_-_i._adagio_sostenuto.ogg/Ludwig_van_Beethoven_-_sonata_no._14_in_c_sharp_minor_%27moonlight%27%2C_op._27_no._2_-_i._adagio_sostenuto.ogg.mp3",
+    "ogg": "https://upload.wikimedia.org/wikipedia/commons/4/48/Ludwig_van_Beethoven_-_sonata_no._14_in_c_sharp_minor_%27moonlight%27%2C_op._27_no._2_-_i._adagio_sostenuto.ogg",
+    "seconds": 336,
+    "author": "Ludwig van Beethoven",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Ludwig_van_Beethoven_-_sonata_no._14_in_c_sharp_minor_%27moonlight%27,_op._27_no._2_-_i._adagio_sostenuto.ogg"
+  },
+  "h-fuer-elise": {
+    "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/1/15/For_Elise_%28F%C3%BCr_Elise%29_Beethoven_JMC_Han.ogg/For_Elise_%28F%C3%BCr_Elise%29_Beethoven_JMC_Han.ogg.mp3",
+    "ogg": "https://upload.wikimedia.org/wikipedia/commons/1/15/For_Elise_%28F%C3%BCr_Elise%29_Beethoven_JMC_Han.ogg",
+    "seconds": 160,
+    "author": "Ludwig van Beethoven",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:For_Elise_(F%C3%BCr_Elise)_Beethoven_JMC_Han.ogg"
+  },
+  "h-pathetique": {
+    "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/6/63/Beethoven%2C_Sonata_No._8_in_C_Minor_Pathetique%2C_Op._13_-_II._Adagio_cantabile.ogg/Beethoven%2C_Sonata_No._8_in_C_Minor_Pathetique%2C_Op._13_-_II._Adagio_cantabile.ogg.mp3",
+    "ogg": "https://upload.wikimedia.org/wikipedia/commons/6/63/Beethoven%2C_Sonata_No._8_in_C_Minor_Pathetique%2C_Op._13_-_II._Adagio_cantabile.ogg",
+    "seconds": 298,
+    "author": "Ludwig van Beethoven",
+    "licence": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:Beethoven,_Sonata_No._8_in_C_Minor_Pathetique,_Op._13_-_II._Adagio_cantabile.ogg"
+  },
+  "h-ode-an-die-freude": {
+    "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/9/9d/Anthem_of_Europe_%28US_Navy_instrumental_long_version%29.ogg/Anthem_of_Europe_%28US_Navy_instrumental_long_version%29.ogg.mp3",
+    "ogg": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Anthem_of_Europe_%28US_Navy_instrumental_long_version%29.ogg",
+    "seconds": 116,
+    "author": "unbekannt",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Anthem_of_Europe_(US_Navy_instrumental_long_version).ogg"
+  },
+  "h-marche-au-supplice": {
+    "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/e/ee/Hector_Berlioz_-_Symphonie_fantastique%2C_op._14_-_4._Marche_au_supplice_%28Igor_Markevitch%2C_Orchestre_Lamoureux%2C_1962%29.ogg/Hector_Berlioz_-_Symphonie_fantastique%2C_op._14_-_4._Marche_au_supplice_%28Igor_Markevitch%2C_Orchestre_Lamoureux%2C_1962%29.ogg.mp3",
+    "ogg": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Hector_Berlioz_-_Symphonie_fantastique%2C_op._14_-_4._Marche_au_supplice_%28Igor_Markevitch%2C_Orchestre_Lamoureux%2C_1962%29.ogg",
+    "seconds": 288,
+    "author": "Igor Markevitch, Orchestre Lamoureux",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Hector_Berlioz_-_Symphonie_fantastique,_op._14_-_4._Marche_au_supplice_(Igor_Markevitch,_Orchestre_Lamoureux,_1962).ogg"
+  },
+  "h-erlkoenig": {
+    "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/1/13/Schubert_-_Schumann-Heink_-_Erlk%C3%B6nig.ogg/Schubert_-_Schumann-Heink_-_Erlk%C3%B6nig.ogg.mp3",
+    "ogg": "https://upload.wikimedia.org/wikipedia/commons/1/13/Schubert_-_Schumann-Heink_-_Erlk%C3%B6nig.ogg",
+    "seconds": 237,
+    "author": "Franz Schubert - Ernestine Schumann-Heink",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Schubert_-_Schumann-Heink_-_Erlk%C3%B6nig.ogg"
+  },
+  "h-ave-maria": {
+    "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/5/5d/Schubert_-_Ave_Maria%2C_arr._for_violin_and_piano_%28Menuhin%2C_Baller%29.flac/Schubert_-_Ave_Maria%2C_arr._for_violin_and_piano_%28Menuhin%2C_Baller%29.flac.mp3",
+    "ogg": "https://upload.wikimedia.org/wikipedia/commons/transcoded/5/5d/Schubert_-_Ave_Maria%2C_arr._for_violin_and_piano_%28Menuhin%2C_Baller%29.flac/Schubert_-_Ave_Maria%2C_arr._for_violin_and_piano_%28Menuhin%2C_Baller%29.flac.ogg",
+    "seconds": 263,
+    "author": "Concert Films Corporation/Paul Gordon",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Schubert_-_Ave_Maria,_arr._for_violin_and_piano_(Menuhin,_Baller).flac"
+  },
+  "h-impromptu": {
+    "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/2/2f/Schubert-_Impromptu_B-flat1.ogg/Schubert-_Impromptu_B-flat1.ogg.mp3",
+    "ogg": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Schubert-_Impromptu_B-flat1.ogg",
+    "seconds": 106,
+    "author": "Franz Schubert",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Schubert-_Impromptu_B-flat1.ogg"
+  },
+  "h-hochzeitsmarsch": {
+    "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/cb/A_Midsummer_Night%27s_Dream_Op._61_Wedding_March_%28Mendelssohn%29_European_Archive.ogg/A_Midsummer_Night%27s_Dream_Op._61_Wedding_March_%28Mendelssohn%29_European_Archive.ogg.mp3",
+    "ogg": "https://upload.wikimedia.org/wikipedia/commons/c/cb/A_Midsummer_Night%27s_Dream_Op._61_Wedding_March_%28Mendelssohn%29_European_Archive.ogg",
+    "seconds": 294,
+    "author": "European Archive",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:A_Midsummer_Night%27s_Dream_Op._61_Wedding_March_(Mendelssohn)_European_Archive.ogg"
+  },
+  "h-hebriden": {
+    "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/2/24/Mendelssohn_-_Hebrides_Overture%2C_Op._26_%28Musopen_Symphony%29.flac/Mendelssohn_-_Hebrides_Overture%2C_Op._26_%28Musopen_Symphony%29.flac.mp3",
+    "ogg": "https://upload.wikimedia.org/wikipedia/commons/transcoded/2/24/Mendelssohn_-_Hebrides_Overture%2C_Op._26_%28Musopen_Symphony%29.flac/Mendelssohn_-_Hebrides_Overture%2C_Op._26_%28Musopen_Symphony%29.flac.ogg",
+    "seconds": 683,
+    "author": "Felix Mendelssohn",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Mendelssohn_-_Hebrides_Overture,_Op._26_(Musopen_Symphony).flac"
+  },
+  "h-violinkonzert-mendelssohn": {
+    "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/b/bc/Hankyung_Arte_Philharmonic_-_Mendelssohn%27s_Violin_Concerto_in_E_minor%2C_Op._64%2C_MWV_O_14_-_I._Allegro_molto_appassionato.ogg/Hankyung_Arte_Philharmonic_-_Mendelssohn%27s_Violin_Concerto_in_E_minor%2C_Op._64%2C_MWV_O_14_-_I._Allegro_molto_appassionato.ogg.mp3",
+    "ogg": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Hankyung_Arte_Philharmonic_-_Mendelssohn%27s_Violin_Concerto_in_E_minor%2C_Op._64%2C_MWV_O_14_-_I._Allegro_molto_appassionato.ogg",
+    "seconds": 833,
+    "author": "Hankyung Arte Philharmonic",
+    "licence": "CC BY 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Hankyung_Arte_Philharmonic_-_Mendelssohn%27s_Violin_Concerto_in_E_minor,_Op._64,_MWV_O_14_-_I._Allegro_molto_appassionato.ogg"
+  },
+  "h-traeumerei": {
+    "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/0/06/Robert_Schumann_-_scenes_from_childhood%2C_op._15_-_vii._dreaming.ogg/Robert_Schumann_-_scenes_from_childhood%2C_op._15_-_vii._dreaming.ogg.mp3",
+    "ogg": "https://upload.wikimedia.org/wikipedia/commons/0/06/Robert_Schumann_-_scenes_from_childhood%2C_op._15_-_vii._dreaming.ogg",
+    "seconds": 203,
+    "author": "Robert Schumann (1810-1856) (see Musopen for performance author information)",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Robert_Schumann_-_scenes_from_childhood,_op._15_-_vii._dreaming.ogg"
+  },
+  "h-schumann-klavierkonzert": {
+    "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/e/ea/Schumann_-_Piano_Concerto_in_A_minor_Op.54_-_I._Allegro.ogg/Schumann_-_Piano_Concerto_in_A_minor_Op.54_-_I._Allegro.ogg.mp3",
+    "ogg": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Schumann_-_Piano_Concerto_in_A_minor_Op.54_-_I._Allegro.ogg",
+    "seconds": 834,
+    "author": "Robert Schumann",
+    "licence": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:Schumann_-_Piano_Concerto_in_A_minor_Op.54_-_I._Allegro.ogg"
+  },
+  "h-nocturne-es": {
+    "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/8/89/Chopin_-_Nocturne_No._2_in_E-flat_major%2C_Op._9_No._2_%28Frank_Levy%29.flac/Chopin_-_Nocturne_No._2_in_E-flat_major%2C_Op._9_No._2_%28Frank_Levy%29.flac.mp3",
+    "ogg": "https://upload.wikimedia.org/wikipedia/commons/transcoded/8/89/Chopin_-_Nocturne_No._2_in_E-flat_major%2C_Op._9_No._2_%28Frank_Levy%29.flac/Chopin_-_Nocturne_No._2_in_E-flat_major%2C_Op._9_No._2_%28Frank_Levy%29.flac.ogg",
+    "seconds": 271,
+    "author": "Frédéric Chopin / Frank Lévy",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Chopin_-_Nocturne_No._2_in_E-flat_major,_Op._9_No._2_(Frank_Levy).flac"
+  },
+  "h-minutenwalzer": {
+    "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/9/93/Chopin_-_Waltz_No._6_in_D-flat_major%2C_Op._64%2C_No._1_%27Minute%27_%28Olga_Gurevich%29.flac/Chopin_-_Waltz_No._6_in_D-flat_major%2C_Op._64%2C_No._1_%27Minute%27_%28Olga_Gurevich%29.flac.mp3",
+    "ogg": "https://upload.wikimedia.org/wikipedia/commons/transcoded/9/93/Chopin_-_Waltz_No._6_in_D-flat_major%2C_Op._64%2C_No._1_%27Minute%27_%28Olga_Gurevich%29.flac/Chopin_-_Waltz_No._6_in_D-flat_major%2C_Op._64%2C_No._1_%27Minute%27_%28Olga_Gurevich%29.flac.ogg",
+    "seconds": 107,
+    "author": "Frédéric Chopin",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Chopin_-_Waltz_No._6_in_D-flat_major,_Op._64,_No._1_%27Minute%27_(Olga_Gurevich).flac"
+  },
+  "h-revolutionsetuede": {
+    "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/8/8a/Chopin_-_12_%C3%89tudes%2C_Op._10_-_No._12_in_C_minor_%27Revolutionary%27_%28Edward_Neeman%29.flac/Chopin_-_12_%C3%89tudes%2C_Op._10_-_No._12_in_C_minor_%27Revolutionary%27_%28Edward_Neeman%29.flac.mp3",
+    "ogg": "https://upload.wikimedia.org/wikipedia/commons/transcoded/8/8a/Chopin_-_12_%C3%89tudes%2C_Op._10_-_No._12_in_C_minor_%27Revolutionary%27_%28Edward_Neeman%29.flac/Chopin_-_12_%C3%89tudes%2C_Op._10_-_No._12_in_C_minor_%27Revolutionary%27_%28Edward_Neeman%29.flac.ogg",
+    "seconds": 165,
+    "author": "Frédéric Chopin",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Chopin_-_12_%C3%89tudes,_Op._10_-_No._12_in_C_minor_%27Revolutionary%27_(Edward_Neeman).flac"
+  },
+  "h-polonaise-heroique": {
+    "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/7b/Chopin_-_Polonaise_No._6_in_A-flat_major%2C_Op._53_%27H%C3%A9ro%C3%AFque%27_%28Luke_Faulkner%29.flac/Chopin_-_Polonaise_No._6_in_A-flat_major%2C_Op._53_%27H%C3%A9ro%C3%AFque%27_%28Luke_Faulkner%29.flac.mp3",
+    "ogg": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/7b/Chopin_-_Polonaise_No._6_in_A-flat_major%2C_Op._53_%27H%C3%A9ro%C3%AFque%27_%28Luke_Faulkner%29.flac/Chopin_-_Polonaise_No._6_in_A-flat_major%2C_Op._53_%27H%C3%A9ro%C3%AFque%27_%28Luke_Faulkner%29.flac.ogg",
+    "seconds": 439,
+    "author": "Frédéric Chopin / Luke Faulkner",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Chopin_-_Polonaise_No._6_in_A-flat_major,_Op._53_%27H%C3%A9ro%C3%AFque%27_(Luke_Faulkner).flac"
+  },
+  "h-trauermarsch": {
+    "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/ca/Chopin_Pitman_sonata_no_2_in_b_flat_minor_funeral_march_III_marche_funebre_lento.ogg/Chopin_Pitman_sonata_no_2_in_b_flat_minor_funeral_march_III_marche_funebre_lento.ogg.mp3",
+    "ogg": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Chopin_Pitman_sonata_no_2_in_b_flat_minor_funeral_march_III_marche_funebre_lento.ogg",
+    "seconds": 552,
+    "author": "Composer: Frédéric Chopin; Performer: Paul Pitman",
+    "licence": "Public Domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Chopin_Pitman_sonata_no_2_in_b_flat_minor_funeral_march_III_marche_funebre_lento.ogg"
+  },
+  "h-liebestraum": {
+    "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/f/f0/PDP-CH_-_Wilhelm_Backhaus_-_Liebestraum_No._3_in_A-flat_major%2C_S.541-3_%28Liszt%29_-_Hmv-d788-05754.flac/PDP-CH_-_Wilhelm_Backhaus_-_Liebestraum_No._3_in_A-flat_major%2C_S.541-3_%28Liszt%29_-_Hmv-d788-05754.flac.mp3",
+    "ogg": "https://upload.wikimedia.org/wikipedia/commons/transcoded/f/f0/PDP-CH_-_Wilhelm_Backhaus_-_Liebestraum_No._3_in_A-flat_major%2C_S.541-3_%28Liszt%29_-_Hmv-d788-05754.flac/PDP-CH_-_Wilhelm_Backhaus_-_Liebestraum_No._3_in_A-flat_major%2C_S.541-3_%28Liszt%29_-_Hmv-d788-05754.flac.ogg",
+    "seconds": 238,
+    "author": "unbekannt",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:PDP-CH_-_Wilhelm_Backhaus_-_Liebestraum_No._3_in_A-flat_major,_S.541-3_(Liszt)_-_Hmv-d788-05754.flac"
+  },
+  "h-ungarische-rhapsodie": {
+    "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/b/b2/PDP-CH_-_Philadelphia_Orchestra_-_Stokowski_-_Hungarian_Rhapsody_No._2_in_C-sharp_minor%2C_S_244-2_-_Liszt_-_Hmv-db3086-2a03100.flac/PDP-CH_-_Philadelphia_Orchestra_-_Stokowski_-_Hungarian_Rhapsody_No._2_in_C-sharp_minor%2C_S_244-2_-_Liszt_-_Hmv-db3086-2a03100.flac.mp3",
+    "ogg": "https://upload.wikimedia.org/wikipedia/commons/transcoded/b/b2/PDP-CH_-_Philadelphia_Orchestra_-_Stokowski_-_Hungarian_Rhapsody_No._2_in_C-sharp_minor%2C_S_244-2_-_Liszt_-_Hmv-db3086-2a03100.flac/PDP-CH_-_Philadelphia_Orchestra_-_Stokowski_-_Hungarian_Rhapsody_No._2_in_C-sharp_minor%2C_S_244-2_-_Liszt_-_Hmv-db3086-2a03100.flac.ogg",
+    "seconds": 251,
+    "author": "unbekannt",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:PDP-CH_-_Philadelphia_Orchestra_-_Stokowski_-_Hungarian_Rhapsody_No._2_in_C-sharp_minor,_S_244-2_-_Liszt_-_Hmv-db3086-2a03100.flac"
+  },
+  "h-campanella": {
+    "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/ca/Liszt-La_Campanella-Greiss.ogg/Liszt-La_Campanella-Greiss.ogg.mp3",
+    "ogg": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Liszt-La_Campanella-Greiss.ogg",
+    "seconds": 372,
+    "author": "Franz Liszt",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Liszt-La_Campanella-Greiss.ogg"
+  },
+  "h-carmen-vorspiel": {
+    "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/9/9f/Carmen_-_Prelude_to_Act_1.ogg/Carmen_-_Prelude_to_Act_1.ogg.mp3",
+    "ogg": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Carmen_-_Prelude_to_Act_1.ogg",
+    "seconds": 125,
+    "author": "Musopen",
+    "licence": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:Carmen_-_Prelude_to_Act_1.ogg"
+  },
+  "h-habanera": {
+    "mp3": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Habanera_%28ISRC_USUAN1100656%29.mp3",
+    "ogg": "https://upload.wikimedia.org/wikipedia/commons/transcoded/e/e8/Habanera_%28ISRC_USUAN1100656%29.mp3/Habanera_%28ISRC_USUAN1100656%29.mp3.ogg",
+    "seconds": 248,
+    "author": "Aria composed by : Georges Bizet; Singer: Jenny Lee Mitchell. ; Kevin MacLeod",
+    "licence": "CC BY 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Habanera_(ISRC_USUAN1100656).mp3"
+  },
+  "h-barbier-ouverture": {
+    "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/8/8c/PDP-CH_-_New_York_Philharmonic_-_Arturo_Toscanini_-_The_Barber_of_Seville_-_Gioachino_Rossini_-_Overture_-_Part_1_-_Electrola-ej576-42-846.flac/PDP-CH_-_New_York_Philharmonic_-_Arturo_Toscanini_-_The_Barber_of_Seville_-_Gioachino_Rossini_-_Overture_-_Part_1_-_Electrola-ej576-42-846.flac.mp3",
+    "ogg": "https://upload.wikimedia.org/wikipedia/commons/transcoded/8/8c/PDP-CH_-_New_York_Philharmonic_-_Arturo_Toscanini_-_The_Barber_of_Seville_-_Gioachino_Rossini_-_Overture_-_Part_1_-_Electrola-ej576-42-846.flac/PDP-CH_-_New_York_Philharmonic_-_Arturo_Toscanini_-_The_Barber_of_Seville_-_Gioachino_Rossini_-_Overture_-_Part_1_-_Electrola-ej576-42-846.flac.ogg",
+    "seconds": 221,
+    "author": "unbekannt",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:PDP-CH_-_New_York_Philharmonic_-_Arturo_Toscanini_-_The_Barber_of_Seville_-_Gioachino_Rossini_-_Overture_-_Part_1_-_Electrola-ej576-42-846.flac"
+  },
+  "h-tell-ouverture": {
+    "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/ce/William_Tell2.ogg/William_Tell2.ogg.mp3",
+    "ogg": "https://upload.wikimedia.org/wikipedia/commons/c/ce/William_Tell2.ogg",
+    "seconds": 259,
+    "author": "Sodero's Band",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:William_Tell2.ogg"
+  },
+  "h-va-pensiero": {
+    "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/5/50/ICBSA_Verdi_-_Nabucco%2C_Va_pensiero.ogg/ICBSA_Verdi_-_Nabucco%2C_Va_pensiero.ogg.mp3",
+    "ogg": "https://upload.wikimedia.org/wikipedia/commons/5/50/ICBSA_Verdi_-_Nabucco%2C_Va_pensiero.ogg",
+    "seconds": 278,
+    "author": "unbekannt",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:ICBSA_Verdi_-_Nabucco,_Va_pensiero.ogg"
+  },
+  "h-brindisi": {
+    "mp3": "https://upload.wikimedia.org/wikipedia/commons/3/3a/%22Brindisi%22_from_La_Traviata_-_Singing_Sergeants_-_United_States_Air_Force_Band.mp3",
+    "ogg": "https://upload.wikimedia.org/wikipedia/commons/transcoded/3/3a/%22Brindisi%22_from_La_Traviata_-_Singing_Sergeants_-_United_States_Air_Force_Band.mp3/%22Brindisi%22_from_La_Traviata_-_Singing_Sergeants_-_United_States_Air_Force_Band.mp3.ogg",
+    "seconds": 182,
+    "author": "Giuseppe Verdi",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:%22Brindisi%22_from_La_Traviata_-_Singing_Sergeants_-_United_States_Air_Force_Band.mp3"
+  },
+  "h-triumphmarsch": {
+    "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/3/32/Triumphal_March_from_Aida.ogg/Triumphal_March_from_Aida.ogg.mp3",
+    "ogg": "https://upload.wikimedia.org/wikipedia/commons/3/32/Triumphal_March_from_Aida.ogg",
+    "seconds": 308,
+    "author": "Giuseppe Verdi, performed by the w:United States Marine Corps Band, Timothy Foley, Director",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Triumphal_March_from_Aida.ogg"
+  },
+  "h-dies-irae-verdi": {
+    "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/b/b6/ICBSA_Verdi_-_Messa_da_requiem_parte_03%2C_Dies_irae.ogg/ICBSA_Verdi_-_Messa_da_requiem_parte_03%2C_Dies_irae.ogg.mp3",
+    "ogg": "https://upload.wikimedia.org/wikipedia/commons/b/b6/ICBSA_Verdi_-_Messa_da_requiem_parte_03%2C_Dies_irae.ogg",
+    "seconds": 122,
+    "author": "unbekannt",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:ICBSA_Verdi_-_Messa_da_requiem_parte_03,_Dies_irae.ogg"
+  },
+  "h-walkuerenritt": {
+    "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/2/29/Richard_Wagner_-_Ride_of_the_Valkyries.ogg/Richard_Wagner_-_Ride_of_the_Valkyries.ogg.mp3",
+    "ogg": "https://upload.wikimedia.org/wikipedia/commons/2/29/Richard_Wagner_-_Ride_of_the_Valkyries.ogg",
+    "seconds": 258,
+    "author": "Richard Wagner (1813–1883)",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Richard_Wagner_-_Ride_of_the_Valkyries.ogg"
+  },
+  "h-brautchor": {
+    "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/e/e8/Kevin_MacLeod_-_Wagner_Bridal_Chorus.ogg/Kevin_MacLeod_-_Wagner_Bridal_Chorus.ogg.mp3",
+    "ogg": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Kevin_MacLeod_-_Wagner_Bridal_Chorus.ogg",
+    "seconds": 139,
+    "author": "Kevin MacLeod",
+    "licence": "CC BY 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Kevin_MacLeod_-_Wagner_Bridal_Chorus.ogg"
+  },
+  "h-nessun-dorma": {
+    "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/0/03/%27Nessun_Dorma%27%2C_Aureliano_Pertile%2C_1927.ogg/%27Nessun_Dorma%27%2C_Aureliano_Pertile%2C_1927.ogg.mp3",
+    "ogg": "https://upload.wikimedia.org/wikipedia/commons/0/03/%27Nessun_Dorma%27%2C_Aureliano_Pertile%2C_1927.ogg",
+    "seconds": 183,
+    "author": "Giacomo Puccini(1858 - 1924), Aureliano Pertile (1885-1952)",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:%27Nessun_Dorma%27,_Aureliano_Pertile,_1927.ogg"
+  },
+  "h-babbino-caro": {
+    "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/7f/Frances_Alda%2C_O_mio_babbino_caro_%28Gianni_Schicchi%29.ogg/Frances_Alda%2C_O_mio_babbino_caro_%28Gianni_Schicchi%29.ogg.mp3",
+    "ogg": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Frances_Alda%2C_O_mio_babbino_caro_%28Gianni_Schicchi%29.ogg",
+    "seconds": 157,
+    "author": "Giacomo Puccini (1858–1924), Giovacchino Forzano (1884–1970), Frances Alda (1879–1952)",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Frances_Alda,_O_mio_babbino_caro_(Gianni_Schicchi).ogg"
+  },
+  "h-un-bel-di": {
+    "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c5/CC0-CH_-_Rosa_Ponselle%2C_soprano_with_orchestra_-_Madama_Butterfly_-_Un_bel_di_vedremo_-_Giacomo_Puccini_-_Columbia-7340-49571.flac/CC0-CH_-_Rosa_Ponselle%2C_soprano_with_orchestra_-_Madama_Butterfly_-_Un_bel_di_vedremo_-_Giacomo_Puccini_-_Columbia-7340-49571.flac.mp3",
+    "ogg": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c5/CC0-CH_-_Rosa_Ponselle%2C_soprano_with_orchestra_-_Madama_Butterfly_-_Un_bel_di_vedremo_-_Giacomo_Puccini_-_Columbia-7340-49571.flac/CC0-CH_-_Rosa_Ponselle%2C_soprano_with_orchestra_-_Madama_Butterfly_-_Un_bel_di_vedremo_-_Giacomo_Puccini_-_Columbia-7340-49571.flac.ogg",
+    "seconds": 278,
+    "author": "unbekannt",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:CC0-CH_-_Rosa_Ponselle,_soprano_with_orchestra_-_Madama_Butterfly_-_Un_bel_di_vedremo_-_Giacomo_Puccini_-_Columbia-7340-49571.flac"
+  },
+  "h-gelida-manina": {
+    "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/a8/PDP-CH_-_Beniamino_Gigli%2C_Tenor_-_La_boh%C3%A8me_-_Che_gelida_manina_-_Puccini_-_Hmv-db1538-8769a.flac/PDP-CH_-_Beniamino_Gigli%2C_Tenor_-_La_boh%C3%A8me_-_Che_gelida_manina_-_Puccini_-_Hmv-db1538-8769a.flac.mp3",
+    "ogg": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/a8/PDP-CH_-_Beniamino_Gigli%2C_Tenor_-_La_boh%C3%A8me_-_Che_gelida_manina_-_Puccini_-_Hmv-db1538-8769a.flac/PDP-CH_-_Beniamino_Gigli%2C_Tenor_-_La_boh%C3%A8me_-_Che_gelida_manina_-_Puccini_-_Hmv-db1538-8769a.flac.ogg",
+    "seconds": 253,
+    "author": "unbekannt",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:PDP-CH_-_Beniamino_Gigli,_Tenor_-_La_boh%C3%A8me_-_Che_gelida_manina_-_Puccini_-_Hmv-db1538-8769a.flac"
+  },
+  "h-moldau": {
+    "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/3/39/Smetana%2C_M%C3%A1_vlast_-_Vltava_-_The_Moldau.ogg/Smetana%2C_M%C3%A1_vlast_-_Vltava_-_The_Moldau.ogg.mp3",
+    "ogg": "https://upload.wikimedia.org/wikipedia/commons/3/39/Smetana%2C_M%C3%A1_vlast_-_Vltava_-_The_Moldau.ogg",
+    "seconds": 771,
+    "author": "Musopen Symphony Orchestra",
+    "licence": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:Smetana,_M%C3%A1_vlast_-_Vltava_-_The_Moldau.ogg"
+  },
+  "h-ungarischer-tanz": {
+    "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/e/ea/Hungarian_Dances_-_No._5_in_F_Sharp_Minor_%28Collections_in_piano%29_JMC%2CHan.ogg/Hungarian_Dances_-_No._5_in_F_Sharp_Minor_%28Collections_in_piano%29_JMC%2CHan.ogg.mp3",
+    "ogg": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Hungarian_Dances_-_No._5_in_F_Sharp_Minor_%28Collections_in_piano%29_JMC%2CHan.ogg",
+    "seconds": 70,
+    "author": "Jason M. C., Han",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Hungarian_Dances_-_No._5_in_F_Sharp_Minor_(Collections_in_piano)_JMC,Han.ogg"
+  },
+  "h-wiegenlied": {
+    "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/8/87/Brahms_-_Schumann-Heink_-_Wiegenlied_%28Berceuse%29_%281915%29.ogg/Brahms_-_Schumann-Heink_-_Wiegenlied_%28Berceuse%29_%281915%29.ogg.mp3",
+    "ogg": "https://upload.wikimedia.org/wikipedia/commons/8/87/Brahms_-_Schumann-Heink_-_Wiegenlied_%28Berceuse%29_%281915%29.ogg",
+    "seconds": 110,
+    "author": "Brahms - Schumann-Heink",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Brahms_-_Schumann-Heink_-_Wiegenlied_(Berceuse)_(1915).ogg"
+  },
+  "h-brahms-1": {
+    "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/a7/Brahms%2C_Symphony_No._1_in_C_Minor%2C_Op._68_-_I._Un_poco_sostenuto_-_Allegro.ogg/Brahms%2C_Symphony_No._1_in_C_Minor%2C_Op._68_-_I._Un_poco_sostenuto_-_Allegro.ogg.mp3",
+    "ogg": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Brahms%2C_Symphony_No._1_in_C_Minor%2C_Op._68_-_I._Un_poco_sostenuto_-_Allegro.ogg",
+    "seconds": 909,
+    "author": "Musopen Symphony Orchestra",
+    "licence": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:Brahms,_Symphony_No._1_in_C_Minor,_Op._68_-_I._Un_poco_sostenuto_-_Allegro.ogg"
+  },
+  "h-donauwalzer": {
+    "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/9/91/Strauss%2C_An_der_sch%C3%B6nen_blauen_Donau.ogg/Strauss%2C_An_der_sch%C3%B6nen_blauen_Donau.ogg.mp3",
+    "ogg": "https://upload.wikimedia.org/wikipedia/commons/9/91/Strauss%2C_An_der_sch%C3%B6nen_blauen_Donau.ogg",
+    "seconds": 178,
+    "author": "European Archive",
+    "licence": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:Strauss,_An_der_sch%C3%B6nen_blauen_Donau.ogg"
+  },
+  "h-radetzky": {
+    "mp3": "https://upload.wikimedia.org/wikipedia/commons/e/ef/USMC_Band_-_Radetzky_March.mp3",
+    "ogg": "https://upload.wikimedia.org/wikipedia/commons/transcoded/e/ef/USMC_Band_-_Radetzky_March.mp3/USMC_Band_-_Radetzky_March.mp3.ogg",
+    "seconds": 153,
+    "author": "United States Marine Band",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:USMC_Band_-_Radetzky_March.mp3"
+  },
+  "h-schwanensee": {
+    "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/1/1f/Tchaikovsky_Swan_Lake_Op.20_No.10._Sc%C3%A8ne.ogg/Tchaikovsky_Swan_Lake_Op.20_No.10._Sc%C3%A8ne.ogg.mp3",
+    "ogg": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Tchaikovsky_Swan_Lake_Op.20_No.10._Sc%C3%A8ne.ogg",
+    "seconds": 150,
+    "author": "Pyotr Ilyich Tchaikovsky",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Tchaikovsky_Swan_Lake_Op.20_No.10._Sc%C3%A8ne.ogg"
+  },
+  "h-zuckerfee": {
+    "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/0/0c/PDP-CH_-_National_Symphony_Orchestra_of_London_-_Stanford_Robinson%2C_conductor_-_The_Nutcracker_Suite%2C_Op._71_-_Dance_of_the_Sugar_Plum_Fairy_-_Russian_Dance_-_Tchaikovsky_-_Decca-k1142-ar9057.flac/PDP-CH_-_National_Symphony_Orchestra_of_London_-_Stanford_Robinson%2C_conductor_-_The_Nutcracker_Suite%2C_Op._71_-_Dance_of_the_Sugar_Plum_Fairy_-_Russian_Dance_-_Tchaikovsky_-_Decca-k1142-ar9057.flac.mp3",
+    "ogg": "https://upload.wikimedia.org/wikipedia/commons/transcoded/0/0c/PDP-CH_-_National_Symphony_Orchestra_of_London_-_Stanford_Robinson%2C_conductor_-_The_Nutcracker_Suite%2C_Op._71_-_Dance_of_the_Sugar_Plum_Fairy_-_Russian_Dance_-_Tchaikovsky_-_Decca-k1142-ar9057.flac/PDP-CH_-_National_Symphony_Orchestra_of_London_-_Stanford_Robinson%2C_conductor_-_The_Nutcracker_Suite%2C_Op._71_-_Dance_of_the_Sugar_Plum_Fairy_-_Russian_Dance_-_Tchaikovsky_-_Decca-k1142-ar9057.flac.ogg",
+    "seconds": 183,
+    "author": "unbekannt",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:PDP-CH_-_National_Symphony_Orchestra_of_London_-_Stanford_Robinson,_conductor_-_The_Nutcracker_Suite,_Op._71_-_Dance_of_the_Sugar_Plum_Fairy_-_Russian_Dance_-_Tchaikovsky_-_Decca-k1142-ar9057.flac"
+  },
+  "h-tschaikowsky-klavierkonzert": {
+    "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/4/48/Tchaikovsky%2C_Concerto_No.1_in_B-flat_minor_Op.23%2C_I._Allegro.ogg/Tchaikovsky%2C_Concerto_No.1_in_B-flat_minor_Op.23%2C_I._Allegro.ogg.mp3",
+    "ogg": "https://upload.wikimedia.org/wikipedia/commons/4/48/Tchaikovsky%2C_Concerto_No.1_in_B-flat_minor_Op.23%2C_I._Allegro.ogg",
+    "seconds": 1127,
+    "author": "Pyotr Ilyich Tchaikovsky",
+    "licence": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:Tchaikovsky,_Concerto_No.1_in_B-flat_minor_Op.23,_I._Allegro.ogg"
+  },
+  "h-1812": {
+    "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/6/66/1812_Overture_-_United_States_Marine_Band.opus/1812_Overture_-_United_States_Marine_Band.opus.mp3",
+    "ogg": "https://upload.wikimedia.org/wikipedia/commons/transcoded/6/66/1812_Overture_-_United_States_Marine_Band.opus/1812_Overture_-_United_States_Marine_Band.opus.ogg",
+    "seconds": 755,
+    "author": "Pyotr Ilyich Tchaikovsky",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:1812_Overture_-_United_States_Marine_Band.opus"
+  },
+  "h-neue-welt-largo": {
+    "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c3/Antonin_Dvorak_-_symphony_no._9_in_e_minor_%27from_the_new_world%27%2C_op._95_-_ii._largo.ogg/Antonin_Dvorak_-_symphony_no._9_in_e_minor_%27from_the_new_world%27%2C_op._95_-_ii._largo.ogg.mp3",
+    "ogg": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Antonin_Dvorak_-_symphony_no._9_in_e_minor_%27from_the_new_world%27%2C_op._95_-_ii._largo.ogg",
+    "seconds": 694,
+    "author": "Antonín Dvořák",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Antonin_Dvorak_-_symphony_no._9_in_e_minor_%27from_the_new_world%27,_op._95_-_ii._largo.ogg"
+  },
+  "h-neue-welt-finale": {
+    "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/1/17/Antonin_Dvorak_-_symphony_no._9_in_e_minor_%27from_the_new_world%27%2C_op._95_-_iv._allegro_con_fuoco.ogg/Antonin_Dvorak_-_symphony_no._9_in_e_minor_%27from_the_new_world%27%2C_op._95_-_iv._allegro_con_fuoco.ogg.mp3",
+    "ogg": "https://upload.wikimedia.org/wikipedia/commons/1/17/Antonin_Dvorak_-_symphony_no._9_in_e_minor_%27from_the_new_world%27%2C_op._95_-_iv._allegro_con_fuoco.ogg",
+    "seconds": 703,
+    "author": "Antonin Dvorak (composer)",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Antonin_Dvorak_-_symphony_no._9_in_e_minor_%27from_the_new_world%27,_op._95_-_iv._allegro_con_fuoco.ogg"
+  },
+  "h-humoreske": {
+    "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/7b/Dvo%C5%99%C3%A1k_-_Humoresque_Op._101_No._7.ogg/Dvo%C5%99%C3%A1k_-_Humoresque_Op._101_No._7.ogg.mp3",
+    "ogg": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Dvo%C5%99%C3%A1k_-_Humoresque_Op._101_No._7.ogg",
+    "seconds": 188,
+    "author": "Antonín Dvořák",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Dvo%C5%99%C3%A1k_-_Humoresque_Op._101_No._7.ogg"
+  },
+  "h-morgenstimmung": {
+    "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c2/Grieg_-_Peer_Gynt_Suite_No._1%2C_Op._46_-_I._Morning_Mood_%28Musopen_Symphony%29.flac/Grieg_-_Peer_Gynt_Suite_No._1%2C_Op._46_-_I._Morning_Mood_%28Musopen_Symphony%29.flac.mp3",
+    "ogg": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c2/Grieg_-_Peer_Gynt_Suite_No._1%2C_Op._46_-_I._Morning_Mood_%28Musopen_Symphony%29.flac/Grieg_-_Peer_Gynt_Suite_No._1%2C_Op._46_-_I._Morning_Mood_%28Musopen_Symphony%29.flac.ogg",
+    "seconds": 229,
+    "author": "Edvard Grieg",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Grieg_-_Peer_Gynt_Suite_No._1,_Op._46_-_I._Morning_Mood_(Musopen_Symphony).flac"
+  },
+  "h-bergkoenig": {
+    "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/8/84/Grieg_-_Peer_Gynt_Suite_No._1%2C_Op._46_-_IV._In_the_Hall_of_the_Mountain_King_%28Musopen_Symphony%29.flac/Grieg_-_Peer_Gynt_Suite_No._1%2C_Op._46_-_IV._In_the_Hall_of_the_Mountain_King_%28Musopen_Symphony%29.flac.mp3",
+    "ogg": "https://upload.wikimedia.org/wikipedia/commons/transcoded/8/84/Grieg_-_Peer_Gynt_Suite_No._1%2C_Op._46_-_IV._In_the_Hall_of_the_Mountain_King_%28Musopen_Symphony%29.flac/Grieg_-_Peer_Gynt_Suite_No._1%2C_Op._46_-_IV._In_the_Hall_of_the_Mountain_King_%28Musopen_Symphony%29.flac.ogg",
+    "seconds": 154,
+    "author": "Edvard Grieg",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Grieg_-_Peer_Gynt_Suite_No._1,_Op._46_-_IV._In_the_Hall_of_the_Mountain_King_(Musopen_Symphony).flac"
+  },
+  "h-grieg-klavierkonzert": {
+    "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/9/9a/Edvard_Grieg_-_piano_concerto_in_a_minor%2C_op._16_-_i._allegro_molto_moderato.ogg/Edvard_Grieg_-_piano_concerto_in_a_minor%2C_op._16_-_i._allegro_molto_moderato.ogg.mp3",
+    "ogg": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Edvard_Grieg_-_piano_concerto_in_a_minor%2C_op._16_-_i._allegro_molto_moderato.ogg",
+    "seconds": 755,
+    "author": "Edvard Grieg",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Edvard_Grieg_-_piano_concerto_in_a_minor,_op._16_-_i._allegro_molto_moderato.ogg"
+  },
+  "h-adagietto": {
+    "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/b/b2/Mahler_Symphony_No._5%2C_IV._Adagietto.ogg/Mahler_Symphony_No._5%2C_IV._Adagietto.ogg.mp3",
+    "ogg": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Mahler_Symphony_No._5%2C_IV._Adagietto.ogg",
+    "seconds": 621,
+    "author": "Peabody Symphony Orchestra",
+    "licence": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:Mahler_Symphony_No._5,_IV._Adagietto.ogg"
+  },
+  "h-mahler-5": {
+    "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/b/bd/Mahler_Symphony_No._5%2C_I._Trauermarsch.ogg/Mahler_Symphony_No._5%2C_I._Trauermarsch.ogg.mp3",
+    "ogg": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Mahler_Symphony_No._5%2C_I._Trauermarsch.ogg",
+    "seconds": 764,
+    "author": "Peabody Symphony Orchestra",
+    "licence": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:Mahler_Symphony_No._5,_I._Trauermarsch.ogg"
+  },
+  "h-gymnopedie": {
+    "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/aa/Satie_Gymnop%C3%A8die_n.1_DariaBaiocchi.wav/Satie_Gymnop%C3%A8die_n.1_DariaBaiocchi.wav.mp3",
+    "ogg": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/aa/Satie_Gymnop%C3%A8die_n.1_DariaBaiocchi.wav/Satie_Gymnop%C3%A8die_n.1_DariaBaiocchi.wav.ogg",
+    "seconds": 191,
+    "author": "Daria Baiocchi",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Satie_Gymnop%C3%A8die_n.1_DariaBaiocchi.wav"
+  },
+  "h-clair-de-lune": {
+    "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/6/67/Clair_de_Lune_by_Claude_Debussy_%281905%2C_piano_solo%29.opus/Clair_de_Lune_by_Claude_Debussy_%281905%2C_piano_solo%29.opus.mp3",
+    "ogg": "https://upload.wikimedia.org/wikipedia/commons/transcoded/6/67/Clair_de_Lune_by_Claude_Debussy_%281905%2C_piano_solo%29.opus/Clair_de_Lune_by_Claude_Debussy_%281905%2C_piano_solo%29.opus.ogg",
+    "seconds": 276,
+    "author": "Claude Debussy",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Clair_de_Lune_by_Claude_Debussy_(1905,_piano_solo).opus"
+  },
+  "h-faune": {
+    "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/4/43/Columbia-dwx1550ix-c-wlx1289.ogg/Columbia-dwx1550ix-c-wlx1289.ogg.mp3",
+    "ogg": "https://upload.wikimedia.org/wikipedia/commons/4/43/Columbia-dwx1550ix-c-wlx1289.ogg",
+    "seconds": 270,
+    "author": "Claude Debussy",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Columbia-dwx1550ix-c-wlx1289.ogg"
+  },
+  "h-bolero": {
+    "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c3/Bolero-Maurice_Ravel-1930.ogg/Bolero-Maurice_Ravel-1930.ogg.mp3",
+    "ogg": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Bolero-Maurice_Ravel-1930.ogg",
+    "seconds": 952,
+    "author": "Maurice Ravel",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Bolero-Maurice_Ravel-1930.ogg"
+  },
+  "h-pavane": {
+    "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/d/d6/Maurice_Ravel_-_Th%C3%A9r%C3%A8se_Dussaut_-_Pavane_pour_une_infante_d%C3%A9funte.ogg/Maurice_Ravel_-_Th%C3%A9r%C3%A8se_Dussaut_-_Pavane_pour_une_infante_d%C3%A9funte.ogg.mp3",
+    "ogg": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Maurice_Ravel_-_Th%C3%A9r%C3%A8se_Dussaut_-_Pavane_pour_une_infante_d%C3%A9funte.ogg",
+    "seconds": 308,
+    "author": "Maurice Ravel (1875-1937, composer) Thérèse Dussaut (pianist)",
+    "licence": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Maurice_Ravel_-_Th%C3%A9r%C3%A8se_Dussaut_-_Pavane_pour_une_infante_d%C3%A9funte.ogg"
+  }
+}
