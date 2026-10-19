@@ -49,7 +49,7 @@ export const UEBERBLICK: Subtopic = {
       ['Welchen ironischen Titel gab Satie einem Werk?', '„Drei Stücke in Birnenform“', ['„Sonate für einen Apfel“', '„Walzer für eine Zitrone“', '„Fuge für eine Gurke“'], 'Eine ironische Antwort auf den Vorwurf, seine Musik habe keine Form.'],
       ['Welche Maler gehören zum Expressionismus?', 'Kandinsky und Kokoschka', ['Monet und Renoir', 'Rubens und Rembrandt', 'Raffael und Tizian'], 'Kandinsky war mit Schönberg befreundet.'],
       ['In welchem Jahr fand die NS-Ausstellung „Entartete Musik“ statt?', '1938', ['1933', '1941', '1945'], 'In Düsseldorf.'],
-      ['Wer ist hier dargestellt?', 'Béla Bartók', ['Zoltán Kodály', 'Franz Liszt', 'Leoš Janáček'], null, 'bartok'],
+      ['Wer ist hier dargestellt?', 'Béla Bartók', ['Zoltán Kodály', 'Franz Liszt', 'Leoš Janáček'], 'Ein ungarischer Komponist.', 'bartok'],
       ['In welchen Ländern sammelte Bartók Volkslieder?', 'Ungarn, Rumänien und Slowakei', ['Spanien, Portugal und Italien', 'Norwegen, Schweden und Finnland', 'Irland, Schottland und Wales'], 'Mit seinem Kollegen Zoltán Kodály.'],
       ['Welcher Komponist lebte in ständiger Angst vor Stalin?', 'Dmitri Schostakowitsch', ['Igor Strawinsky', 'Sergei Rachmaninow', 'Béla Bartók'], 'Er hielt nachts einen gepackten Koffer bereit.'],
       ['Wann wurde „Carmina Burana“ uraufgeführt?', '1937', ['1913', '1924', '1950'], 'In Frankfurt am Main.'],

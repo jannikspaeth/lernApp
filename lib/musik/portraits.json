@@ -1068,5 +1068,30 @@
     "title": "Miriam Makeba",
     "artist": "",
     "year": ""
+  },
+  "johnny-cash": {
+    "wiki": "Johnny Cash",
+    "title": "Johnny Cash",
+    "artist": "",
+    "year": ""
+  },
+  "elton-john": {
+    "wiki": "Elton John",
+    "title": "Elton John",
+    "artist": "",
+    "year": ""
+  },
+  "falco": {
+    "wiki": "Falco (Musiker)",
+    "title": "Falco",
+    "artist": "",
+    "year": "",
+    "en": "Falco (musician)"
+  },
+  "celia-cruz": {
+    "wiki": "Celia Cruz",
+    "title": "Celia Cruz",
+    "artist": "",
+    "year": ""
   }
 }

@@ -3,6 +3,7 @@ import { UEBERBLICK } from './ueberblick';
 import { NIRVANA } from './nirvana';
 import { BEYONCE } from './beyonce';
 import { TAYLOR_SWIFT } from './taylor-swift';
+import { ADELE } from './adele';
 
 export const RP_HEUTE: HistEvent = {
   id: 'rp-heute',
@@ -11,5 +12,5 @@ export const RP_HEUTE: HistEvent = {
   text: [
     'Grunge, Britpop und Boygroups, dann Napster, Streaming und TikTok: Die Musik wird digital und global – mit neuen Superstars wie Beyoncé und Taylor Swift.',
   ],
-  subtopics: [UEBERBLICK, NIRVANA, BEYONCE, TAYLOR_SWIFT],
+  subtopics: [UEBERBLICK, NIRVANA, BEYONCE, ADELE, TAYLOR_SWIFT],
 };

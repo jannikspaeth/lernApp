@@ -3,6 +3,7 @@ import { UEBERBLICK } from './ueberblick';
 import { UDO_LINDENBERG } from './udo-lindenberg';
 import { NENA } from './nena';
 import { GROENEMEYER } from './groenemeyer';
+import { FALCO } from './falco';
 
 export const DP_80ER: HistEvent = {
   id: 'dp-80er',
@@ -11,5 +12,5 @@ export const DP_80ER: HistEvent = {
   text: [
     'Rock auf Deutsch wird cool: Von Udo Lindenberg über die Neue Deutsche Welle mit Nenas „99 Luftballons“ bis zu Grönemeyers „Bochum“ – und am Ende fällt die Mauer.',
   ],
-  subtopics: [UEBERBLICK, UDO_LINDENBERG, NENA, GROENEMEYER],
+  subtopics: [UEBERBLICK, UDO_LINDENBERG, NENA, FALCO, GROENEMEYER],
 };

@@ -1129,5 +1129,32 @@
     "licence": "CC BY-SA 3.0",
     "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
     "page": "https://commons.wikimedia.org/wiki/File:Miriam_makeba_01.jpg"
+  },
+  "johnny-cash": {
+    "file": "JC1970.jpg",
+    "author": "Dillan Stradlin",
+    "licence": "CC BY-SA 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:JC1970.jpg"
+  },
+  "elton-john": {
+    "file": "20240320SM2925_(Elton_John_2024_Gershwin_Prize_for_Popular_Song_portrait_crop).jpg",
+    "author": "Library of Congress Life",
+    "licence": "CC0",
+    "licenceUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:20240320SM2925_(Elton_John_2024_Gershwin_Prize_for_Popular_Song_portrait_crop).jpg"
+  },
+  "celia-cruz": {
+    "file": "Celia_Cruz_1957_color.jpg",
+    "author": "Ibrahim Arce (Narcy Studios photographer), most likely",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Celia_Cruz_1957_color.jpg"
+  },
+  "falco": {
+    "file": "Falco_Balkon_Lichtburg.png",
+    "author": "Kungfuman",
+    "licence": "CC BY-SA 3.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Falco_Balkon_Lichtburg.png"
   }
 }

@@ -4,6 +4,7 @@ import { RAY_CHARLES } from './ray-charles';
 import { ARETHA_FRANKLIN } from './aretha-franklin';
 import { JAMES_BROWN } from './james-brown';
 import { STEVIE_WONDER } from './stevie-wonder';
+import { MARVIN_GAYE } from './marvin-gaye';
 
 export const SH_SOUL: HistEvent = {
   id: 'sh-soul',
@@ -12,5 +13,5 @@ export const SH_SOUL: HistEvent = {
   text: [
     'Gospel trifft Rhythm and Blues: Mit Motown, Stax und großen Stimmen wird der Soul zum Klang der Bürgerrechtsbewegung – und James Brown erfindet den Funk.',
   ],
-  subtopics: [UEBERBLICK, RAY_CHARLES, ARETHA_FRANKLIN, JAMES_BROWN, STEVIE_WONDER],
+  subtopics: [UEBERBLICK, RAY_CHARLES, ARETHA_FRANKLIN, JAMES_BROWN, MARVIN_GAYE, STEVIE_WONDER],
 };

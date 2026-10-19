@@ -52,7 +52,7 @@ export const MAHLER: Subtopic = {
       ['Was verlangte Mahler von Alma?', 'Das Komponieren aufzugeben', ['Nach Amerika zu ziehen', 'Katholisch zu werden', 'Klavier zu unterrichten'], 'Später bereute er es und ließ ihre Lieder drucken.'],
       ['Mit wem hatte Alma 1910 eine Affäre?', 'Mit Walter Gropius', ['Mit Gustav Klimt', 'Mit Arnold Schönberg', 'Mit Franz Werfel'], 'Gropius wurde später ihr zweiter Mann.'],
       ['Warum nannte Mahler „Das Lied von der Erde“ nicht Sinfonie?', 'Aus Aberglauben wegen der Zahl Neun', ['Weil es zu kurz war', 'Weil Alma es verbot', 'Weil es keine Streicher hat'], 'Beethoven, Schubert und Bruckner starben nach der Neunten.'],
-      ['Wer ist hier dargestellt?', 'Alma Mahler', ['Clara Schumann', 'Cosima Wagner', 'Fanny Hensel'], null, 'alma-mahler'],
+      ['Wer ist hier dargestellt?', 'Alma Mahler', ['Clara Schumann', 'Cosima Wagner', 'Fanny Hensel'], 'Sie war Komponistin und später mit Gropius und Werfel verheiratet.', 'alma-mahler'],
       ['Wann starb Mahler?', '1911', ['1897', '1907', '1918'], 'Am 18. Mai in Wien.'],
     ],
   },
