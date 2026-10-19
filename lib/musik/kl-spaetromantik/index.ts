@@ -6,6 +6,9 @@ import { TSCHAIKOWSKY } from './tschaikowsky';
 import { DVORAK } from './dvorak';
 import { GRIEG } from './grieg';
 import { MAHLER } from './mahler';
+import { BRUCKNER } from './bruckner';
+import { SMETANA } from './smetana';
+import { MUSSORGSKI } from './mussorgski';
 
 export const KL_SPAETROMANTIK: HistEvent = {
   id: 'kl-spaetromantik',
@@ -14,5 +17,5 @@ export const KL_SPAETROMANTIK: HistEvent = {
   text: [
     'Riesige Orchester, Walzerseligkeit und der Klang der Heimat: Brahms bewahrt die Form, Strauss lässt Wien tanzen, und in Russland, Böhmen und Norwegen entstehen eigene nationale Stimmen.',
   ],
-  subtopics: [UEBERBLICK, BRAHMS, STRAUSS, TSCHAIKOWSKY, DVORAK, GRIEG, MAHLER],
+  subtopics: [UEBERBLICK, BRUCKNER, BRAHMS, STRAUSS, SMETANA, MUSSORGSKI, TSCHAIKOWSKY, DVORAK, GRIEG, MAHLER],
 };

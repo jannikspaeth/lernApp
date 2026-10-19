@@ -790,5 +790,61 @@
     "author": "unbekannt",
     "licence": "CC0",
     "page": "https://commons.wikimedia.org/wiki/File:The_original_German_yodel_ZS_V78-0637.wav"
+  },
+  "h-caprice-24": {
+    "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/3/3e/Paganini_-_Caprice_in_A_minor%2C_Op._1%2C_No._24_%28Menuhin%2C_Baller%29.flac/Paganini_-_Caprice_in_A_minor%2C_Op._1%2C_No._24_%28Menuhin%2C_Baller%29.flac.mp3",
+    "ogg": "https://upload.wikimedia.org/wikipedia/commons/transcoded/3/3e/Paganini_-_Caprice_in_A_minor%2C_Op._1%2C_No._24_%28Menuhin%2C_Baller%29.flac/Paganini_-_Caprice_in_A_minor%2C_Op._1%2C_No._24_%28Menuhin%2C_Baller%29.flac.ogg",
+    "seconds": 370,
+    "author": "Concert Films Corporation/Paul Gordon",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Paganini_-_Caprice_in_A_minor,_Op._1,_No._24_(Menuhin,_Baller).flac"
+  },
+  "h-freischuetz": {
+    "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/5/5d/Carl_Maria_von_Weber_-_der_freischutz%2C_j._277_-_overture.ogg/Carl_Maria_von_Weber_-_der_freischutz%2C_j._277_-_overture.ogg.mp3",
+    "ogg": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Carl_Maria_von_Weber_-_der_freischutz%2C_j._277_-_overture.ogg",
+    "seconds": 618,
+    "author": "(See Musopen for author information)",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Carl_Maria_von_Weber_-_der_freischutz,_j._277_-_overture.ogg"
+  },
+  "h-torero": {
+    "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/4/46/Pasquale_Amato%2C_Georges_Bizet%2C_Chanson_du_tor%C3%A9ador%2C_Carmen.ogg/Pasquale_Amato%2C_Georges_Bizet%2C_Chanson_du_tor%C3%A9ador%2C_Carmen.ogg.mp3",
+    "ogg": "https://upload.wikimedia.org/wikipedia/commons/4/46/Pasquale_Amato%2C_Georges_Bizet%2C_Chanson_du_tor%C3%A9ador%2C_Carmen.ogg",
+    "seconds": 208,
+    "author": "Singer: Pasquale Amato (1878-1942) Composer: Georges Bizet (1838-1875)",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Pasquale_Amato,_Georges_Bizet,_Chanson_du_tor%C3%A9ador,_Carmen.ogg"
+  },
+  "h-bruckner-7": {
+    "mp3": "https://upload.wikimedia.org/wikipedia/commons/5/5c/HSO_Bruckner-7_01.mp3",
+    "ogg": "https://upload.wikimedia.org/wikipedia/commons/transcoded/5/5c/HSO_Bruckner-7_01.mp3/HSO_Bruckner-7_01.mp3.ogg",
+    "seconds": 1075,
+    "author": "University of Music and Theatre Munich",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:HSO_Bruckner-7_01.mp3"
+  },
+  "h-kahler-berg": {
+    "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/ca/Modest_Mussorgsky_-_night_on_bald_mountain.ogg/Modest_Mussorgsky_-_night_on_bald_mountain.ogg.mp3",
+    "ogg": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Modest_Mussorgsky_-_night_on_bald_mountain.ogg",
+    "seconds": 733,
+    "author": "Modest Petrovich Mussorgsky",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Modest_Mussorgsky_-_night_on_bald_mountain.ogg"
+  },
+  "h-verkaufte-braut": {
+    "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c5/Smetana_-_Bartered_Bride_overture.ogg/Smetana_-_Bartered_Bride_overture.ogg.mp3",
+    "ogg": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Smetana_-_Bartered_Bride_overture.ogg",
+    "seconds": 388,
+    "author": "Composed by Bedřich Smetana (1824–84). Performed by Hamilton Harty (1879–1941) and the London Philharmonic Orchestra",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Smetana_-_Bartered_Bride_overture.ogg"
+  },
+  "h-zarathustra": {
+    "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/0/0b/Also_Sprach_Zarathustra_-_Einleitung.ogg/Also_Sprach_Zarathustra_-_Einleitung.ogg.mp3",
+    "ogg": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Also_Sprach_Zarathustra_-_Einleitung.ogg",
+    "seconds": 86,
+    "author": "Kevin MacLeod",
+    "licence": "CC BY 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Also_Sprach_Zarathustra_-_Einleitung.ogg"
   }
 }

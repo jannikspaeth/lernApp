@@ -5,6 +5,8 @@ import { MENDELSSOHN } from './mendelssohn';
 import { SCHUMANN } from './schumann';
 import { CHOPIN } from './chopin';
 import { LISZT } from './liszt';
+import { BERLIOZ } from './berlioz';
+import { PAGANINI } from './paganini';
 
 export const KL_ROMANTIK: HistEvent = {
   id: 'kl-romantik',
@@ -13,5 +15,5 @@ export const KL_ROMANTIK: HistEvent = {
   text: [
     'Gefühl, Nacht und Sehnsucht: Die Romantiker machen die Musik zur höchsten Kunst. Kunstlied und Klavierstück blühen auf, Virtuosen werden zu Stars.',
   ],
-  subtopics: [UEBERBLICK, SCHUBERT, MENDELSSOHN, SCHUMANN, CHOPIN, LISZT],
+  subtopics: [UEBERBLICK, PAGANINI, SCHUBERT, BERLIOZ, MENDELSSOHN, SCHUMANN, CHOPIN, LISZT],
 };

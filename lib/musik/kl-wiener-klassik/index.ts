@@ -1,5 +1,6 @@
 import type { HistEvent } from '../../laender/types';
 import { UEBERBLICK } from './ueberblick';
+import { GLUCK } from './gluck';
 import { HAYDN } from './haydn';
 import { MOZART } from './mozart';
 import { BEETHOVEN } from './beethoven';
@@ -11,5 +12,5 @@ export const KL_WIENER_KLASSIK: HistEvent = {
   text: [
     'Klarheit, Ebenmaß und Drama in Tönen: Haydn, Mozart und Beethoven machen Wien zur Hauptstadt der Musik und schaffen Sinfonie, Streichquartett und Sonate in ihrer klassischen Form.',
   ],
-  subtopics: [UEBERBLICK, HAYDN, MOZART, BEETHOVEN],
+  subtopics: [UEBERBLICK, GLUCK, HAYDN, MOZART, BEETHOVEN],
 };

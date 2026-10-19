@@ -4,6 +4,8 @@ import { MONTEVERDI } from './monteverdi';
 import { VIVALDI } from './vivaldi';
 import { BACH } from './bach';
 import { HAENDEL } from './haendel';
+import { PURCELL } from './purcell';
+import { TELEMANN } from './telemann';
 
 export const KL_BAROCK: HistEvent = {
   id: 'kl-barock',
@@ -12,5 +14,5 @@ export const KL_BAROCK: HistEvent = {
   text: [
     'Generalbass, Pracht und starke Gefühle: Im Barock entstehen Oper, Oratorium, Konzert und Fuge – von Monteverdis „Orfeo“ bis zu Bachs Passionen und Händels „Messias“.',
   ],
-  subtopics: [UEBERBLICK, MONTEVERDI, VIVALDI, BACH, HAENDEL],
+  subtopics: [UEBERBLICK, MONTEVERDI, PURCELL, VIVALDI, TELEMANN, BACH, HAENDEL],
 };

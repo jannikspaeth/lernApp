@@ -4,6 +4,7 @@ import { ROSSINI } from './rossini';
 import { VERDI } from './verdi';
 import { WAGNER } from './wagner';
 import { PUCCINI } from './puccini';
+import { BIZET } from './bizet';
 
 export const KL_OPER: HistEvent = {
   id: 'kl-oper',
@@ -12,5 +13,5 @@ export const KL_OPER: HistEvent = {
   text: [
     'Belcanto, Musikdrama und Verismo: Im 19. Jahrhundert ist die Oper die beliebteste Musik überhaupt. Rossini, Verdi, Wagner und Puccini schreiben die Werke, die bis heute die Spielpläne füllen.',
   ],
-  subtopics: [UEBERBLICK, ROSSINI, VERDI, WAGNER, PUCCINI],
+  subtopics: [UEBERBLICK, ROSSINI, VERDI, WAGNER, BIZET, PUCCINI],
 };

@@ -584,5 +584,46 @@
     "title": "Jodler (historische 78er-Aufnahme)",
     "composer": "traditionell (Alpen)",
     "performer": "78er-Aufnahme (Schwedische Nationalbibliothek)"
+  },
+  "h-caprice-24": {
+    "file": "Paganini - Caprice in A minor, Op. 1, No. 24 (Menuhin, Baller).flac",
+    "title": "Capriccio a-Moll op. 1 Nr. 24",
+    "composer": "Niccolò Paganini",
+    "performer": "Yehudi Menuhin, Adolph Baller"
+  },
+  "h-freischuetz": {
+    "file": "Carl Maria von Weber - der freischutz, j. 277 - overture.ogg",
+    "title": "„Der Freischütz“: Ouvertüre",
+    "composer": "Carl Maria von Weber",
+    "performer": "Musopen"
+  },
+  "h-torero": {
+    "file": "Pasquale Amato, Georges Bizet, Chanson du toréador, Carmen.ogg",
+    "title": "„Carmen“: Torero-Lied",
+    "composer": "Georges Bizet",
+    "performer": "Pasquale Amato"
+  },
+  "h-bruckner-7": {
+    "file": "HSO Bruckner-7 01.mp3",
+    "title": "Sinfonie Nr. 7 E-Dur: 1. Satz",
+    "composer": "Anton Bruckner",
+    "performer": "Hochschulsinfonieorchester München"
+  },
+  "h-kahler-berg": {
+    "file": "Modest Mussorgsky - night on bald mountain.ogg",
+    "title": "„Eine Nacht auf dem kahlen Berge“",
+    "composer": "Modest Mussorgski",
+    "performer": "Musopen"
+  },
+  "h-verkaufte-braut": {
+    "file": "Smetana - Bartered Bride overture.ogg",
+    "title": "„Die verkaufte Braut“: Ouvertüre",
+    "composer": "Bedřich Smetana"
+  },
+  "h-zarathustra": {
+    "file": "Also Sprach Zarathustra - Einleitung.ogg",
+    "title": "„Also sprach Zarathustra“: Einleitung",
+    "composer": "Richard Strauss",
+    "performer": "Kevin MacLeod"
   }
 }
