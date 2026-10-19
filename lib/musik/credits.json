@@ -511,5 +511,466 @@
     "author": "JPM Associates New York",
     "licence": "Public domain",
     "page": "https://commons.wikimedia.org/wiki/File:Birdland_club_entrance.jpg"
+  },
+  "little-richard": {
+    "file": "Little_Richard_in_2007.jpg",
+    "author": "Anna Bleker",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Little_Richard_in_2007.jpg"
+  },
+  "bill-haley": {
+    "file": "Bill_Haley_(1974).jpg",
+    "author": "Anefo",
+    "licence": "CC0",
+    "licenceUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:Bill_Haley_(1974).jpg"
+  },
+  "buddy-holly": {
+    "file": "Buddy_Holly_cropped.JPG",
+    "author": "Buddy_Holly_Brunswick_Records.jpg: Brunswick Records derivative work: GDuwenTell me!",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Buddy_Holly_cropped.JPG"
+  },
+  "elvis": {
+    "file": "Elvis_Presley_1970.jpg",
+    "author": "Ollie Atkins, chief White House photographer at the time. See ARC record.",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Elvis_Presley_1970.jpg"
+  },
+  "graceland": {
+    "file": "Graceland_front.jpg",
+    "author": "User:Maha",
+    "licence": "CC BY 2.5",
+    "licenceUrl": "https://creativecommons.org/licenses/by/2.5",
+    "page": "https://commons.wikimedia.org/wiki/File:Graceland_front.jpg"
+  },
+  "chuck-berry": {
+    "file": "Chuck-berry-2007-07-18.jpg",
+    "author": "Håkan Henriksson (Narking)",
+    "licence": "CC BY 3.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Chuck-berry-2007-07-18.jpg"
+  },
+  "beach-boys": {
+    "file": "Beach_Boys_1967_(cropped_and_restored).jpg",
+    "author": "Capitol Records",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Beach_Boys_1967_(cropped_and_restored).jpg"
+  },
+  "woodstock": {
+    "file": "Woodstock_redmond_stage.JPG",
+    "author": "Derek Redmond and Paul Campbell",
+    "licence": "CC BY-SA 3.0",
+    "licenceUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Woodstock_redmond_stage.JPG"
+  },
+  "beatles": {
+    "file": "The_Beatles_1963_Dezo_Hoffman_Capitol_Records_press_photo_2.jpg",
+    "author": "Dezo Hoffmann, Distributed by Capitol Records",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:The_Beatles_1963_Dezo_Hoffman_Capitol_Records_press_photo_2.jpg"
+  },
+  "rolling-stones": {
+    "file": "Rolling_Stones_bow_post-show,_London,_22_May_2018_(41437870545).jpg",
+    "author": "Raph_PH",
+    "licence": "CC BY 2.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Rolling_Stones_bow_post-show,_London,_22_May_2018_(41437870545).jpg"
+  },
+  "mick-jagger": {
+    "file": "RStonesHydePark030722_(49_of_125)_(52193656268)_(cropped).jpg",
+    "author": "Raph_PH",
+    "licence": "CC BY 2.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:RStonesHydePark030722_(49_of_125)_(52193656268)_(cropped).jpg"
+  },
+  "bob-dylan": {
+    "file": "DylanYoungKilkenny140719v2_(50_of_52)_(52246124397)_(cropped).jpg",
+    "author": "Raph_PH",
+    "licence": "CC BY 2.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:DylanYoungKilkenny140719v2_(50_of_52)_(52246124397)_(cropped).jpg"
+  },
+  "joan-baez": {
+    "file": "Joan_Baez_at_The_Egg_(Albany,_NY),_March_2016_(cropped).jpg",
+    "author": "Jtgphoto",
+    "licence": "CC BY-SA 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Joan_Baez_at_The_Egg_(Albany,_NY),_March_2016_(cropped).jpg"
+  },
+  "hendrix": {
+    "file": "Jimi_Hendrix_1967.png",
+    "author": "A. Vente",
+    "licence": "CC BY-SA 3.0 nl",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0/nl/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:Jimi_Hendrix_1967.png"
+  },
+  "black-sabbath": {
+    "file": "Sabs.jpg",
+    "author": "Warner Bros. Records",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Sabs.jpg"
+  },
+  "bee-gees": {
+    "file": "The_Bee_Gees.png",
+    "author": "NCRV",
+    "licence": "CC BY-SA 3.0 nl",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0/nl/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:The_Bee_Gees.png"
+  },
+  "led-zeppelin": {
+    "file": "LedZeppelinChicago75.jpg",
+    "author": "more19562003",
+    "licence": "CC BY 2.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:LedZeppelinChicago75.jpg"
+  },
+  "jimmy-page": {
+    "file": "Jimmy_Page_at_the_Echo_music_award_2013.jpg",
+    "author": "Avda",
+    "licence": "CC BY-SA 3.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Jimmy_Page_at_the_Echo_music_award_2013.jpg"
+  },
+  "pink-floyd": {
+    "file": "PinkFloyd1973.jpg",
+    "author": "TimDuncan",
+    "licence": "CC BY 3.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:PinkFloyd1973.jpg"
+  },
+  "syd-barrett": {
+    "file": "Syd_barrett.jpg",
+    "author": "Bojars",
+    "licence": "CC BY-SA 3.0",
+    "licenceUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Syd_barrett.jpg"
+  },
+  "freddie-mercury": {
+    "file": "FreddieMercuryNov1977.jpg",
+    "author": "Carl Lender at https://www.flickr.com/photos/clender/",
+    "licence": "CC BY-SA 3.0",
+    "licenceUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:FreddieMercuryNov1977.jpg"
+  },
+  "queen": {
+    "file": "Queen_A_Night_At_The_Opera_(1975_Elektra_publicity_photo_02).jpg",
+    "author": "Koh Hasebe; Distributed by Elektra Records",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Queen_A_Night_At_The_Opera_(1975_Elektra_publicity_photo_02).jpg"
+  },
+  "bowie": {
+    "file": "David-Bowie_Chicago_2002-08-08_photoby_Adam-Bielawski-cropped.jpg",
+    "author": "Adam Bielawski",
+    "licence": "CC BY-SA 3.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:David-Bowie_Chicago_2002-08-08_photoby_Adam-Bielawski-cropped.jpg"
+  },
+  "abba": {
+    "file": "ABBA_-_TopPop_1974_5.png",
+    "author": "AVRO",
+    "licence": "CC BY-SA 3.0 nl",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0/nl/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:ABBA_-_TopPop_1974_5.png"
+  },
+  "whitney-houston": {
+    "file": "Whitney_Houston_(cropped3).JPEG",
+    "author": "PH2 Mark Kettenhofen",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Whitney_Houston_(cropped3).JPEG"
+  },
+  "depeche-mode": {
+    "file": "Tierecke_dm.jpg",
+    "author": "Nir Nussbaum",
+    "licence": "CC BY-SA 2.5",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+    "page": "https://commons.wikimedia.org/wiki/File:Tierecke_dm.jpg"
+  },
+  "live-aid": {
+    "file": "Live_Aid_at_JFK_Stadium,_Philadelphia,_PA.jpg",
+    "author": "Squelle",
+    "licence": "CC BY-SA 3.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Live_Aid_at_JFK_Stadium,_Philadelphia,_PA.jpg"
+  },
+  "michael-jackson": {
+    "file": "Michael_Jackson_in_1988.jpg",
+    "author": "Zoran Veselinovic",
+    "licence": "CC BY-SA 2.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Michael_Jackson_in_1988.jpg"
+  },
+  "jackson-5": {
+    "file": "Jackson_5_1974.jpg",
+    "author": "The Jackson 5",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Jackson_5_1974.jpg"
+  },
+  "madonna": {
+    "file": "Madonna_Rebel_Heart_Tour_2015_-_Stockholm_(23051472299)_(cropped).jpg",
+    "author": "chrisweger",
+    "licence": "CC BY-SA 2.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Madonna_Rebel_Heart_Tour_2015_-_Stockholm_(23051472299)_(cropped).jpg"
+  },
+  "bono": {
+    "file": "Bono_singing_in_Indianapolis_on_Joshua_Tree_Tour_2017_9-10-17.jpg",
+    "author": "Daniel Hazard",
+    "licence": "CC BY-SA 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Bono_singing_in_Indianapolis_on_Joshua_Tree_Tour_2017_9-10-17.jpg"
+  },
+  "billie-eilish": {
+    "file": "BillieEilishO2160622_(11_of_45)_(52152972296)_(cropped_2).jpg",
+    "author": "Raph_PH",
+    "licence": "CC BY 2.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:BillieEilishO2160622_(11_of_45)_(52152972296)_(cropped_2).jpg"
+  },
+  "kurt-cobain": {
+    "file": "Nirvana_around_1992_(cropped).jpg",
+    "author": "P.B. Rage from USA",
+    "licence": "CC BY-SA 2.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Nirvana_around_1992_(cropped).jpg"
+  },
+  "beyonce": {
+    "file": "Beyoncé_-_Tottenham_Hotspur_Stadium_-_1st_June_2023_(10_of_118)_(52946364598)_(best_crop).jpg",
+    "author": "Raph_PH",
+    "licence": "CC BY 2.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Beyonc%C3%A9_-_Tottenham_Hotspur_Stadium_-_1st_June_2023_(10_of_118)_(52946364598)_(best_crop).jpg"
+  },
+  "taylor-swift": {
+    "file": "Taylor_Swift_at_the_2023_MTV_Video_Music_Awards_(3).png",
+    "author": "iHeartRadioCA",
+    "licence": "CC BY 3.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Taylor_Swift_at_the_2023_MTV_Video_Music_Awards_(3).png"
+  },
+  "janis-joplin": {
+    "file": "Janis_Joplin_1970.JPG",
+    "author": "Grossman Glotzer Management Corporation",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Janis_Joplin_1970.JPG"
+  },
+  "abbey-road": {
+    "file": "The_Beatles_Abbey_Road_album_cover.jpg",
+    "author": "John Kosh / Iain Macmillan",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:The_Beatles_Abbey_Road_album_cover.jpg"
+  },
+  "hansa-studios": {
+    "file": "Berlin,_Kreuzberg,_Koethener_Strasse_38,_Meistersaal.jpg",
+    "author": "Jörg Zägel",
+    "licence": "CC BY-SA 3.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Berlin,_Kreuzberg,_Koethener_Strasse_38,_Meistersaal.jpg"
+  },
+  "prince": {
+    "file": "Prince_promo_picture_(1988;_cropped_and_retouched).png",
+    "author": "Unknown authorUnknown author, based on File:Prince promo picture (1988; cropped).png",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Prince_promo_picture_(1988;_cropped_and_retouched).png"
+  },
+  "u2": {
+    "file": "U2_on_Joshua_Tree_Tour_2017_Brussels_8-1-17.jpg",
+    "author": "Remy",
+    "licence": "CC BY 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:U2_on_Joshua_Tree_Tour_2017_Brussels_8-1-17.jpg"
+  },
+  "oasis": {
+    "file": "Oasis_-_Principality_Stadium,_Cardiff_-_Friday_4th_July_2025_member_collage.jpg",
+    "author": "Raph_PH",
+    "licence": "CC BY 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Oasis_-_Principality_Stadium,_Cardiff_-_Friday_4th_July_2025_member_collage.jpg"
+  },
+  "adele": {
+    "file": "Adele_2016.jpg",
+    "author": "Marc E.",
+    "licence": "CC BY 2.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Adele_2016.jpg"
+  },
+  "nirvana": {
+    "file": "Nirvana_around_1992.jpg",
+    "author": "P.B. Rage from USA",
+    "licence": "CC BY-SA 2.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Nirvana_around_1992.jpg"
+  },
+  "supremes": {
+    "file": "Supremes1965NL.jpg",
+    "author": "Eric Koch for Anefo",
+    "licence": "CC0",
+    "licenceUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:Supremes1965NL.jpg"
+  },
+  "otis-redding": {
+    "file": "Otis_Redding_1967.JPG",
+    "author": "Stax Records",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Otis_Redding_1967.JPG"
+  },
+  "marvin-gaye": {
+    "file": "Marvin_Gaye_(1973).png",
+    "author": "Tamla",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Marvin_Gaye_(1973).png"
+  },
+  "ray-charles": {
+    "file": "Ray_Charles_FIJM_2003.jpg",
+    "author": "Victor Diaz Lamich",
+    "licence": "CC BY 3.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Ray_Charles_FIJM_2003.jpg"
+  },
+  "aretha-franklin": {
+    "file": "Aretha_Franklin_1998.jpg",
+    "author": "Kingkongphoto &amp; www.celebrity-photos.com from Laurel Maryland, USA",
+    "licence": "CC BY-SA 2.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Aretha_Franklin_1998.jpg"
+  },
+  "james-brown": {
+    "file": "James_Brown_Live_Hamburg_1973_1702730029.jpg",
+    "author": "Heinrich Klaffs",
+    "licence": "CC BY-SA 2.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:James_Brown_Live_Hamburg_1973_1702730029.jpg"
+  },
+  "stevie-wonder": {
+    "file": "SWonderBSTHyde060719-72_(cropped).jpg",
+    "author": "Raph_PH",
+    "licence": "CC BY 2.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:SWonderBSTHyde060719-72_(cropped).jpg"
+  },
+  "dj-kool-herc": {
+    "file": "Kool_Herc.jpg",
+    "author": "Richard Alexander Caraballo",
+    "licence": "CC BY 3.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Kool_Herc.jpg"
+  },
+  "run-dmc": {
+    "file": "Run_DMC_(cropped).png",
+    "author": "Jeff Pinilla",
+    "licence": "CC BY 3.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Run_DMC_(cropped).png"
+  },
+  "public-enemy": {
+    "file": "Public_Enemy_at_Castillo_Negro,_Tenerife,_Islas_Canarias,_20_April_2007.jpg",
+    "author": "Ventura Mendoza of Santa Cruz de Tenerife, España",
+    "licence": "CC BY 2.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Public_Enemy_at_Castillo_Negro,_Tenerife,_Islas_Canarias,_20_April_2007.jpg"
+  },
+  "tupac": {
+    "file": "Tupac's_passport_headshot.jpg",
+    "author": "Unknown authorUnknown author",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Tupac%27s_passport_headshot.jpg"
+  },
+  "eminem": {
+    "file": "Eminem_-_Concert_for_Valor_in_Washington,_D.C._Nov._11,_2014_(2)_(cropped).jpg",
+    "author": "DoD News Features",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Eminem_-_Concert_for_Valor_in_Washington,_D.C._Nov._11,_2014_(2)_(cropped).jpg"
+  },
+  "kendrick-lamar": {
+    "file": "KendrickSZASPurs230725-20_-_54683275660_cropped.jpg",
+    "author": "Raph_PH",
+    "licence": "CC BY 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:KendrickSZASPurs230725-20_-_54683275660_cropped.jpg"
+  },
+  "theremin": {
+    "file": "Theramin-Alexandra-Stepanoff-1930.jpg",
+    "author": "What's On the Air Company",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Theramin-Alexandra-Stepanoff-1930.jpg"
+  },
+  "moog": {
+    "file": "1st_commercial_Moog_synthesizer_(1964,_commissioned_by_the_Alwin_Nikolai_Dance_Theater_of_NY)_@_Stearns_Collection_(Stearns_2035),_University_of_Michigan.jpg",
+    "author": "Chad",
+    "licence": "CC BY-SA 2.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:1st_commercial_Moog_synthesizer_(1964,_commissioned_by_the_Alwin_Nikolai_Dance_Theater_of_NY)_@_Stearns_Collection_(Stearns_2035),_University_of_Michigan.jpg"
+  },
+  "daft-punk": {
+    "file": "Daft_Punk_in_2013_2-_centered.jpg",
+    "author": "Sony Music Entertainment, additional editing by W.carter",
+    "licence": "CC BY 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Daft_Punk_in_2013_2-_centered.jpg"
+  },
+  "cole-porter": {
+    "file": "Cole_Porter_1934.jpg",
+    "author": "Unknown authorUnknown author",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Cole_Porter_1934.jpg"
+  },
+  "rodgers-hammerstein": {
+    "file": "Rodgers_and_Hammerstein_and_Berlin_and_Tamiris_NYWTS.jpg",
+    "author": "Al Aumuller, World Telegram staff photographer",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Rodgers_and_Hammerstein_and_Berlin_and_Tamiris_NYWTS.jpg"
+  },
+  "gershwin": {
+    "file": "George_Gershwin_1937.jpg",
+    "author": "Carl Van Vechten",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:George_Gershwin_1937.jpg"
+  },
+  "bernstein": {
+    "file": "Leonard_Bernstein_1971-2.jpg",
+    "author": "Marion S. Trikosko",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Leonard_Bernstein_1971-2.jpg"
+  },
+  "lloyd-webber": {
+    "file": "AndrewLloydWebber-byPhilipRomano.jpg",
+    "author": "PhilipRomanoPhoto",
+    "licence": "CC BY-SA 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:AndrewLloydWebber-byPhilipRomano.jpg"
+  },
+  "her-majestys-theatre": {
+    "file": "His_Majesty’s_Theatre_London_August_2023.jpg",
+    "author": "AirshipJungleman29",
+    "licence": "CC BY-SA 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:His_Majesty%E2%80%99s_Theatre_London_August_2023.jpg"
+  },
+  "kinoorgel": {
+    "file": "Los_angeles_orpheum_wurlitzer_console.JPG",
+    "author": "Oleknutlee",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Los_angeles_orpheum_wurlitzer_console.JPG"
+  },
+  "morricone": {
+    "file": "Ennio_Morricone_Cannes_2007.jpg",
+    "author": "Olivier Strecker",
+    "licence": "CC BY-SA 3.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Ennio_Morricone_Cannes_2007.jpg"
+  },
+  "john-williams": {
+    "file": "John_Williams_with_Boston_Pops-1.jpg",
+    "author": "Chris Devers",
+    "licence": "CC BY-SA 2.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:John_Williams_with_Boston_Pops-1.jpg"
+  },
+  "hans-zimmer": {
+    "file": "Hans-Zimmer-profile.jpg",
+    "author": "ColliderVideo. Uploader cropped.",
+    "licence": "CC BY 3.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Hans-Zimmer-profile.jpg"
   }
 }

@@ -9,6 +9,16 @@ import { KL_MODERNE } from './kl-moderne';
 import { JZ_WURZELN } from './jz-wurzeln';
 import { JZ_SWING } from './jz-swing';
 import { JZ_MODERN } from './jz-modern';
+import { RP_50ER } from './rp-50er';
+import { RP_60ER } from './rp-60er';
+import { RP_70ER } from './rp-70er';
+import { RP_80ER } from './rp-80er';
+import { RP_HEUTE } from './rp-heute';
+import { SH_SOUL } from './sh-soul';
+import { SH_HIPHOP } from './sh-hiphop';
+import { SH_ELEKTRONIK } from './sh-elektronik';
+import { MF_MUSICAL } from './mf-musical';
+import { MF_FILM } from './mf-film';
 
 // Musik: genres (epochs) → eras or styles (events) → overview + composers/musicians (subtopics),
 // reusing the history types. Progress is stored like the countries' under
@@ -31,6 +41,24 @@ const RAW: CountryHistory = {
       period: 'um 1890 – heute',
       events: [JZ_WURZELN, JZ_SWING, JZ_MODERN],
     },
+    {
+      id: 'rock-pop',
+      name: 'Rock und Pop',
+      period: '1950 – heute',
+      events: [RP_50ER, RP_60ER, RP_70ER, RP_80ER, RP_HEUTE],
+    },
+    {
+      id: 'soul-hiphop',
+      name: 'Soul, Hip-Hop und Elektronik',
+      period: '1955 – heute',
+      events: [SH_SOUL, SH_HIPHOP, SH_ELEKTRONIK],
+    },
+    {
+      id: 'musical-film',
+      name: 'Musical und Filmmusik',
+      period: '1895 – heute',
+      events: [MF_MUSICAL, MF_FILM],
+    },
   ],
 };
 
@@ -50,7 +78,10 @@ export function findKapitel(epocheId: string, subId: string): { land: Epoch; eve
 
 // A well-known musician (portrait) per genre and per era for the tiles.
 const COVERS: Record<string, string> = {
-  klassik: 'beethoven', jazz: 'armstrong',
+  klassik: 'beethoven', jazz: 'armstrong', 'rock-pop': 'freddie-mercury',
+  'rp-50er': 'elvis', 'rp-60er': 'beatles', 'rp-70er': 'bowie', 'rp-80er': 'michael-jackson', 'rp-heute': 'taylor-swift',
+  'soul-hiphop': 'aretha-franklin', 'sh-soul': 'james-brown', 'sh-hiphop': 'kendrick-lamar', 'sh-elektronik': 'daft-punk',
+  'musical-film': 'bernstein', 'mf-musical': 'gershwin', 'mf-film': 'john-williams',
   'jz-wurzeln': 'joplin', 'jz-swing': 'ellington', 'jz-modern': 'miles-davis',
   'kl-mittelalter': 'hildegard', 'kl-barock': 'bach', 'kl-wiener-klassik': 'mozart', 'kl-romantik': 'chopin',
   'kl-oper': 'verdi', 'kl-spaetromantik': 'tschaikowsky', 'kl-moderne': 'debussy',

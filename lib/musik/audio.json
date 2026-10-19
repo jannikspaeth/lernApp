@@ -542,5 +542,17 @@
     "title": "„American Patrol“",
     "composer": "Frank W. Meacham",
     "performer": "Glenn Miller"
+  },
+  "h-theremin": {
+    "file": "Epro theremin middle bach.ogg",
+    "title": "Theremin-Klang (Melodie von Bach)",
+    "composer": "Effebit",
+    "performer": "Fabio Pesce"
+  },
+  "h-rhapsody-in-blue": {
+    "file": "Paul Whiteman Concert Orchestra - Rhapsody in Blue Part 01.mp3",
+    "title": "„Rhapsody in Blue“ (1. Teil, historische Aufnahme)",
+    "composer": "George Gershwin",
+    "performer": "Paul Whiteman Concert Orchestra"
   }
 }

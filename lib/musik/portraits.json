@@ -500,5 +500,432 @@
     "title": "John Coltrane",
     "artist": "",
     "year": ""
+  },
+  "little-richard": {
+    "wiki": "Little Richard",
+    "title": "Little Richard",
+    "artist": "",
+    "year": ""
+  },
+  "bill-haley": {
+    "wiki": "Bill Haley",
+    "title": "Bill Haley",
+    "artist": "",
+    "year": ""
+  },
+  "buddy-holly": {
+    "wiki": "Buddy Holly",
+    "title": "Buddy Holly",
+    "artist": "",
+    "year": ""
+  },
+  "elvis": {
+    "wiki": "Elvis Presley",
+    "title": "Elvis Presley",
+    "artist": "",
+    "year": ""
+  },
+  "graceland": {
+    "wiki": "Graceland",
+    "title": "Graceland in Memphis",
+    "artist": "",
+    "year": ""
+  },
+  "chuck-berry": {
+    "wiki": "Chuck Berry",
+    "title": "Chuck Berry",
+    "artist": "",
+    "year": ""
+  },
+  "beach-boys": {
+    "wiki": "The Beach Boys",
+    "title": "The Beach Boys",
+    "artist": "",
+    "year": "",
+    "en": "The Beach Boys"
+  },
+  "woodstock": {
+    "wiki": "Woodstock-Festival",
+    "title": "Das Woodstock-Festival",
+    "artist": "",
+    "year": "1969"
+  },
+  "janis-joplin": {
+    "wiki": "Janis Joplin",
+    "title": "Janis Joplin",
+    "artist": "",
+    "year": "",
+    "en": "Janis Joplin"
+  },
+  "beatles": {
+    "wiki": "The Beatles",
+    "title": "The Beatles",
+    "artist": "",
+    "year": "",
+    "en": "The Beatles"
+  },
+  "abbey-road": {
+    "wiki": "Abbey Road",
+    "title": "Der Zebrastreifen an der Abbey Road",
+    "artist": "",
+    "year": "",
+    "en": "Abbey Road"
+  },
+  "rolling-stones": {
+    "wiki": "The Rolling Stones",
+    "title": "The Rolling Stones",
+    "artist": "",
+    "year": ""
+  },
+  "mick-jagger": {
+    "wiki": "Mick Jagger",
+    "title": "Mick Jagger",
+    "artist": "",
+    "year": ""
+  },
+  "bob-dylan": {
+    "wiki": "Bob Dylan",
+    "title": "Bob Dylan",
+    "artist": "",
+    "year": ""
+  },
+  "joan-baez": {
+    "wiki": "Joan Baez",
+    "title": "Joan Baez",
+    "artist": "",
+    "year": ""
+  },
+  "hendrix": {
+    "wiki": "Jimi Hendrix",
+    "title": "Jimi Hendrix",
+    "artist": "",
+    "year": ""
+  },
+  "black-sabbath": {
+    "wiki": "Black Sabbath",
+    "title": "Black Sabbath",
+    "artist": "",
+    "year": "",
+    "en": "Black Sabbath"
+  },
+  "bee-gees": {
+    "wiki": "Bee Gees",
+    "title": "Die Bee Gees",
+    "artist": "",
+    "year": ""
+  },
+  "led-zeppelin": {
+    "wiki": "Led Zeppelin",
+    "title": "Led Zeppelin",
+    "artist": "",
+    "year": ""
+  },
+  "jimmy-page": {
+    "wiki": "Jimmy Page",
+    "title": "Jimmy Page",
+    "artist": "",
+    "year": ""
+  },
+  "pink-floyd": {
+    "wiki": "Pink Floyd",
+    "title": "Pink Floyd",
+    "artist": "",
+    "year": ""
+  },
+  "syd-barrett": {
+    "wiki": "Syd Barrett",
+    "title": "Syd Barrett",
+    "artist": "",
+    "year": ""
+  },
+  "freddie-mercury": {
+    "wiki": "Freddie Mercury",
+    "title": "Freddie Mercury",
+    "artist": "",
+    "year": ""
+  },
+  "queen": {
+    "wiki": "Queen (Band)",
+    "title": "Queen",
+    "artist": "",
+    "year": "",
+    "en": "Queen (band)"
+  },
+  "bowie": {
+    "wiki": "David Bowie",
+    "title": "David Bowie",
+    "artist": "",
+    "year": ""
+  },
+  "hansa-studios": {
+    "wiki": "Hansa Tonstudio",
+    "title": "Die Hansa-Studios in Berlin",
+    "artist": "",
+    "year": "",
+    "en": "Hansa Tonstudio"
+  },
+  "abba": {
+    "wiki": "ABBA",
+    "title": "ABBA",
+    "artist": "",
+    "year": ""
+  },
+  "whitney-houston": {
+    "wiki": "Whitney Houston",
+    "title": "Whitney Houston",
+    "artist": "",
+    "year": ""
+  },
+  "depeche-mode": {
+    "wiki": "Depeche Mode",
+    "title": "Depeche Mode",
+    "artist": "",
+    "year": ""
+  },
+  "live-aid": {
+    "wiki": "Live Aid",
+    "title": "Live Aid",
+    "artist": "",
+    "year": "1985"
+  },
+  "michael-jackson": {
+    "wiki": "Michael Jackson",
+    "title": "Michael Jackson",
+    "artist": "",
+    "year": ""
+  },
+  "jackson-5": {
+    "wiki": "The Jackson Five",
+    "title": "Die Jackson 5",
+    "artist": "",
+    "year": ""
+  },
+  "madonna": {
+    "wiki": "Madonna (Künstlerin)",
+    "title": "Madonna",
+    "artist": "",
+    "year": ""
+  },
+  "prince": {
+    "wiki": "Prince (Musiker)",
+    "title": "Prince",
+    "artist": "",
+    "year": "",
+    "en": "Prince (musician)"
+  },
+  "u2": {
+    "wiki": "U2",
+    "title": "U2",
+    "artist": "",
+    "year": "",
+    "en": "U2"
+  },
+  "bono": {
+    "wiki": "Bono",
+    "title": "Bono",
+    "artist": "",
+    "year": ""
+  },
+  "oasis": {
+    "wiki": "Oasis (Band)",
+    "title": "Oasis",
+    "artist": "",
+    "year": "",
+    "en": "Oasis (band)"
+  },
+  "adele": {
+    "wiki": "Adele",
+    "title": "Adele",
+    "artist": "",
+    "year": "",
+    "en": "Adele"
+  },
+  "billie-eilish": {
+    "wiki": "Billie Eilish",
+    "title": "Billie Eilish",
+    "artist": "",
+    "year": ""
+  },
+  "nirvana": {
+    "wiki": "Nirvana (Band)",
+    "title": "Nirvana",
+    "artist": "",
+    "year": "",
+    "en": "Nirvana (band)"
+  },
+  "kurt-cobain": {
+    "wiki": "Kurt Cobain",
+    "title": "Kurt Cobain",
+    "artist": "",
+    "year": ""
+  },
+  "beyonce": {
+    "wiki": "Beyoncé",
+    "title": "Beyoncé",
+    "artist": "",
+    "year": ""
+  },
+  "taylor-swift": {
+    "wiki": "Taylor Swift",
+    "title": "Taylor Swift",
+    "artist": "",
+    "year": ""
+  },
+  "supremes": {
+    "wiki": "The Supremes",
+    "title": "The Supremes",
+    "artist": "",
+    "year": ""
+  },
+  "otis-redding": {
+    "wiki": "Otis Redding",
+    "title": "Otis Redding",
+    "artist": "",
+    "year": ""
+  },
+  "marvin-gaye": {
+    "wiki": "Marvin Gaye",
+    "title": "Marvin Gaye",
+    "artist": "",
+    "year": ""
+  },
+  "ray-charles": {
+    "wiki": "Ray Charles",
+    "title": "Ray Charles",
+    "artist": "",
+    "year": ""
+  },
+  "aretha-franklin": {
+    "wiki": "Aretha Franklin",
+    "title": "Aretha Franklin",
+    "artist": "",
+    "year": ""
+  },
+  "james-brown": {
+    "wiki": "James Brown",
+    "title": "James Brown",
+    "artist": "",
+    "year": ""
+  },
+  "stevie-wonder": {
+    "wiki": "Stevie Wonder",
+    "title": "Stevie Wonder",
+    "artist": "",
+    "year": ""
+  },
+  "dj-kool-herc": {
+    "wiki": "DJ Kool Herc",
+    "title": "DJ Kool Herc",
+    "artist": "",
+    "year": ""
+  },
+  "run-dmc": {
+    "wiki": "Run-D.M.C.",
+    "title": "Run-DMC",
+    "artist": "",
+    "year": ""
+  },
+  "public-enemy": {
+    "wiki": "Public Enemy",
+    "title": "Public Enemy",
+    "artist": "",
+    "year": ""
+  },
+  "tupac": {
+    "wiki": "Tupac Shakur",
+    "title": "Tupac Shakur",
+    "artist": "",
+    "year": ""
+  },
+  "eminem": {
+    "wiki": "Eminem",
+    "title": "Eminem",
+    "artist": "",
+    "year": ""
+  },
+  "kendrick-lamar": {
+    "wiki": "Kendrick Lamar",
+    "title": "Kendrick Lamar",
+    "artist": "",
+    "year": ""
+  },
+  "theremin": {
+    "wiki": "Theremin",
+    "title": "Ein Theremin",
+    "artist": "",
+    "year": ""
+  },
+  "moog": {
+    "wiki": "Moog-Synthesizer",
+    "title": "Ein Moog-Synthesizer",
+    "artist": "",
+    "year": ""
+  },
+  "daft-punk": {
+    "wiki": "Daft Punk",
+    "title": "Daft Punk",
+    "artist": "",
+    "year": "",
+    "en": "Daft Punk"
+  },
+  "cole-porter": {
+    "wiki": "Cole Porter",
+    "title": "Cole Porter",
+    "artist": "",
+    "year": ""
+  },
+  "rodgers-hammerstein": {
+    "wiki": "Rodgers and Hammerstein",
+    "title": "Richard Rodgers und Oscar Hammerstein II",
+    "artist": "",
+    "year": ""
+  },
+  "gershwin": {
+    "wiki": "George Gershwin",
+    "title": "George Gershwin",
+    "artist": "",
+    "year": ""
+  },
+  "bernstein": {
+    "wiki": "Leonard Bernstein",
+    "title": "Leonard Bernstein",
+    "artist": "",
+    "year": ""
+  },
+  "lloyd-webber": {
+    "wiki": "Andrew Lloyd Webber",
+    "title": "Andrew Lloyd Webber",
+    "artist": "",
+    "year": ""
+  },
+  "her-majestys-theatre": {
+    "wiki": "His Majesty’s Theatre",
+    "title": "His Majesty’s Theatre in London",
+    "artist": "",
+    "year": ""
+  },
+  "kinoorgel": {
+    "wiki": "Kinoorgel",
+    "title": "Eine Kinoorgel",
+    "artist": "",
+    "year": ""
+  },
+  "morricone": {
+    "wiki": "Ennio Morricone",
+    "title": "Ennio Morricone",
+    "artist": "",
+    "year": ""
+  },
+  "john-williams": {
+    "wiki": "John Williams (Komponist)",
+    "title": "John Williams",
+    "artist": "",
+    "year": ""
+  },
+  "hans-zimmer": {
+    "wiki": "Hans Zimmer",
+    "title": "Hans Zimmer",
+    "artist": "",
+    "year": ""
   }
 }
