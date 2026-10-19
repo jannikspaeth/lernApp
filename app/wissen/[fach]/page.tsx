@@ -2,10 +2,11 @@ import { notFound } from 'next/navigation';
 import { MIX, SUBJECTS, getSubject } from '@/lib/wissen';
 import SubjectView from '@/components/wissen/SubjectView';
 import TileWall, { ContinueCard } from '@/components/wissen/TileWall';
-import { geschichteLandTiles, kunstEpochTiles, literaturLandTiles, musikGenreTiles } from '@/lib/wissen/tiles';
+import { geschichteLandTiles, kunstEpochTiles, literaturLandTiles, musikGenreTiles, philoBereichTiles } from '@/lib/wissen/tiles';
 import { KUNST } from '@/lib/kunst';
 import { LITERATUR } from '@/lib/literatur';
 import { MUSIK } from '@/lib/musik';
+import { PHILOSOPHIE } from '@/lib/philosophie';
 import { categoryCover } from '@/lib/geografie/bilder';
 import QuizList from '@/components/geo/QuizList';
 import { QUIZZES } from '@/lib/geografie/quizzes';
@@ -43,6 +44,19 @@ function history(fach: string) {
         <>
           <ContinueCard prefix="/musik/" label="Weiter in der Musikgeschichte" />
           <TileWall tiles={musikGenreTiles()} />
+        </>
+      ),
+    };
+  }
+  if (fach === 'philosophie') {
+    const n = PHILOSOPHIE.epochs.reduce((k, g) => k + g.events.reduce((m, ev) => m + (ev.subtopics?.length ?? 0), 0), 0);
+    return {
+      title: ['History of philosophy', 'Geschichte der Philosophie'] as [string, string],
+      sub: [`${PHILOSOPHIE.epochs.length} areas, ${n} chapters`, `${PHILOSOPHIE.epochs.length} Bereiche, ${n} Kapitel`] as [string, string],
+      node: (
+        <>
+          <ContinueCard prefix="/philosophie/" label="Weiter in der Philosophie" />
+          <TileWall tiles={philoBereichTiles()} />
         </>
       ),
     };

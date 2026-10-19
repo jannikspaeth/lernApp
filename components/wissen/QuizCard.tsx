@@ -66,7 +66,7 @@ export default function QuizCard({
           <img
             src={card.img}
             alt=""
-            className={/^\/(kunst|literatur|musik|geo|umriss)\//.test(card.img) ? 'max-h-80 max-w-full rounded-lg border border-line bg-surface object-contain' : 'h-28 max-w-full rounded-lg border border-line'}
+            className={/^\/(kunst|literatur|musik|philosophie|geo|umriss)\//.test(card.img) ? 'max-h-80 max-w-full rounded-lg border border-line bg-surface object-contain' : 'h-28 max-w-full rounded-lg border border-line'}
           />
         )}
         {card.audio && <AudioClip sources={card.audio.sources} start={card.audio.start} />}

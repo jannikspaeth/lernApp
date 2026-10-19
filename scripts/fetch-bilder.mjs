@@ -10,6 +10,7 @@ const SETS = {
   literatur: { registry: 'lib/literatur/portraits.json', credits: 'lib/literatur/credits.json', out: 'public/literatur' },
   geschichte: { registry: 'lib/geschichte/portraits.json', credits: 'lib/geschichte/credits.json', out: 'public/geschichte' },
   musik: { registry: 'lib/musik/portraits.json', credits: 'lib/musik/credits.json', out: 'public/musik' },
+  philosophie: { registry: 'lib/philosophie/portraits.json', credits: 'lib/philosophie/credits.json', out: 'public/philosophie' },
   geografie: { registry: 'lib/geografie/bilder.json', credits: 'lib/geografie/credits.json', out: 'public/geo' },
 };
 

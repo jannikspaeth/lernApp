@@ -4,6 +4,7 @@ import { quizCounts, quizItems } from '@/lib/laender/types';
 import { LITERATUR, LITERATUR_CODE } from '@/lib/literatur';
 import { KUNST, KUNST_CODE } from '@/lib/kunst';
 import { MUSIK, MUSIK_CODE } from '@/lib/musik';
+import { PHILOSOPHIE, PHILO_CODE } from '@/lib/philosophie';
 import { bildView } from '@/lib/bild';
 import { DETAILED } from '@/lib/laender';
 import { COUNTRIES } from '@/lib/welt';
@@ -75,6 +76,34 @@ export function musikEpochTiles(g: Epoch): Tile[] {
     cover: cover(ev.cover),
     tint: TINTS[i % TINTS.length],
     code: MUSIK_CODE,
+    items: items([ev]),
+  }));
+}
+
+// Philosophie: one tile per area (epoch or region).
+export function philoBereichTiles(): Tile[] {
+  return PHILOSOPHIE.epochs.map((g, i) => ({
+    key: g.id,
+    href: `/philosophie/bereiche/${g.id}`,
+    title: g.name,
+    sub: `${g.period} · ${chapters(g.events)} Kapitel`,
+    cover: cover(g.cover),
+    tint: TINTS[i % TINTS.length],
+    code: PHILO_CODE,
+    items: items(g.events),
+  }));
+}
+
+// Philosophie: the schools or periods of one area.
+export function philoEpochTiles(g: Epoch): Tile[] {
+  return g.events.map((ev, i) => ({
+    key: ev.id,
+    href: `/philosophie/${ev.id}`,
+    title: ev.title,
+    sub: `${ev.date} · ${ev.subtopics?.length ?? 0} Kapitel`,
+    cover: cover(ev.cover),
+    tint: TINTS[i % TINTS.length],
+    code: PHILO_CODE,
     items: items([ev]),
   }));
 }
