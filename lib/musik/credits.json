@@ -1061,5 +1061,73 @@
     "licence": "CC BY-SA 4.0",
     "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
     "page": "https://commons.wikimedia.org/wiki/File:2016225231723_2016-08-12_Rocco_del_Schlacko_-_Sven_-_5DS_R_-_0236_-_5DSR7614_mod.jpg"
+  },
+  "gardel": {
+    "file": "Carlosgardel10.jpg",
+    "author": "Unknown authorUnknown author",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Carlosgardel10.jpg"
+  },
+  "buena-vista": {
+    "file": "ZMF_2015_Buena_Vista_Social_Club_Orchestra_IMGP9357.jpg",
+    "author": "Ice Boy Tell",
+    "licence": "CC BY-SA 3.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:ZMF_2015_Buena_Vista_Social_Club_Orchestra_IMGP9357.jpg"
+  },
+  "tito-puente": {
+    "file": "Tito_Puentes.jpg",
+    "author": "Kingkongphoto &amp; www.celebrity-photos.com from Laurel Maryland, USA",
+    "licence": "CC BY-SA 2.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Tito_Puentes.jpg"
+  },
+  "piazzolla": {
+    "file": "Astor_Piazzolla.jpg",
+    "author": "unbekannt",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Astor_Piazzolla.jpg"
+  },
+  "bandoneon": {
+    "file": "Buenos_Aires_-_Bandoneon_tango_player_-_7435.jpg",
+    "author": "Jorge Royan",
+    "licence": "CC BY-SA 3.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Buenos_Aires_-_Bandoneon_tango_player_-_7435.jpg"
+  },
+  "bob-marley": {
+    "file": "Bob-Marley-in-Concert_Zurich_05-30-80.jpg",
+    "author": "Ueli Frey",
+    "licence": "CC BY-SA 3.0",
+    "licenceUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Bob-Marley-in-Concert_Zurich_05-30-80.jpg"
+  },
+  "djembe": {
+    "file": "Lenke_djembe_from_Mali.jpeg",
+    "author": "Djembe Art",
+    "licence": "CC BY-SA 3.0",
+    "licenceUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Lenke_djembe_from_Mali.jpeg"
+  },
+  "oud": {
+    "file": "Ūd_MET_DP340079.jpg",
+    "author": "Creator:Manol (Emmanuel Venios)",
+    "licence": "CC0",
+    "licenceUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:%C5%AAd_MET_DP340079.jpg"
+  },
+  "ravi-shankar": {
+    "file": "Ravi_Shankar.jpg",
+    "author": "Markgoff2972",
+    "licence": "CC BY-SA 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Ravi_Shankar.jpg"
+  },
+  "miriam-makeba": {
+    "file": "Miriam_makeba_01.jpg",
+    "author": "Paul Weinberg",
+    "licence": "CC BY-SA 3.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Miriam_makeba_01.jpg"
   }
 }

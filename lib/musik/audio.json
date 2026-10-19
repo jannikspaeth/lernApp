@@ -554,5 +554,35 @@
     "title": "„Rhapsody in Blue“ (1. Teil, historische Aufnahme)",
     "composer": "George Gershwin",
     "performer": "Paul Whiteman Concert Orchestra"
+  },
+  "h-gardel": {
+    "file": "Carlos Gardel - Flor de fango (1918).ogg",
+    "title": "„Flor de fango“ (Tango, 1918)",
+    "composer": "Augusto Gentile / Pascual Contursi",
+    "performer": "Carlos Gardel"
+  },
+  "h-sitar": {
+    "file": "Sitar sample yaman.ogg",
+    "title": "Raga Yaman auf der Sitar",
+    "composer": "traditionell (indische Klassik)",
+    "performer": "Tito Dutta"
+  },
+  "h-gamelan": {
+    "file": "Gamelan angka 1 Kraton Ngayogyakarta.ogg",
+    "title": "Gamelan aus dem Kraton von Yogyakarta",
+    "composer": "traditionell (Java)",
+    "performer": "RTB45"
+  },
+  "h-flamenco": {
+    "file": "Fundación Joaquín Díaz - ATO 00576 20 - Tientos flamencos.ogg",
+    "title": "„Tientos flamencos“",
+    "composer": "traditionell (Andalusien)",
+    "performer": "Fundación Joaquín Díaz"
+  },
+  "h-jodler": {
+    "file": "The original German yodel ZS V78-0637.wav",
+    "title": "Jodler (historische 78er-Aufnahme)",
+    "composer": "traditionell (Alpen)",
+    "performer": "78er-Aufnahme (Schwedische Nationalbibliothek)"
   }
 }

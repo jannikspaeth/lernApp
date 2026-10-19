@@ -750,5 +750,45 @@
     "author": "George Gershwin",
     "licence": "Public domain",
     "page": "https://commons.wikimedia.org/wiki/File:Paul_Whiteman_Concert_Orchestra_-_Rhapsody_in_Blue_Part_01.mp3"
+  },
+  "h-gardel": {
+    "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/d/db/Carlos_Gardel_-_Flor_de_fango_%281918%29.ogg/Carlos_Gardel_-_Flor_de_fango_%281918%29.ogg.mp3",
+    "ogg": "https://upload.wikimedia.org/wikipedia/commons/d/db/Carlos_Gardel_-_Flor_de_fango_%281918%29.ogg",
+    "seconds": 171,
+    "author": "Pascual Contursi (1898-1932) - Augusto Gentile (1891-1932)",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Carlos_Gardel_-_Flor_de_fango_(1918).ogg"
+  },
+  "h-sitar": {
+    "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/1/14/Sitar_sample_yaman.ogg/Sitar_sample_yaman.ogg.mp3",
+    "ogg": "https://upload.wikimedia.org/wikipedia/commons/1/14/Sitar_sample_yaman.ogg",
+    "seconds": 103,
+    "author": "Tito Dutta",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Sitar_sample_yaman.ogg"
+  },
+  "h-gamelan": {
+    "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/6/68/Gamelan_angka_1_Kraton_Ngayogyakarta.ogg/Gamelan_angka_1_Kraton_Ngayogyakarta.ogg.mp3",
+    "ogg": "https://upload.wikimedia.org/wikipedia/commons/6/68/Gamelan_angka_1_Kraton_Ngayogyakarta.ogg",
+    "seconds": 134,
+    "author": "RTB45",
+    "licence": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Gamelan_angka_1_Kraton_Ngayogyakarta.ogg"
+  },
+  "h-flamenco": {
+    "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/f/f0/Fundaci%C3%B3n_Joaqu%C3%ADn_D%C3%ADaz_-_ATO_00576_20_-_Tientos_flamencos.ogg/Fundaci%C3%B3n_Joaqu%C3%ADn_D%C3%ADaz_-_ATO_00576_20_-_Tientos_flamencos.ogg.mp3",
+    "ogg": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Fundaci%C3%B3n_Joaqu%C3%ADn_D%C3%ADaz_-_ATO_00576_20_-_Tientos_flamencos.ogg",
+    "seconds": 155,
+    "author": "unbekannt",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Fundaci%C3%B3n_Joaqu%C3%ADn_D%C3%ADaz_-_ATO_00576_20_-_Tientos_flamencos.ogg"
+  },
+  "h-jodler": {
+    "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/5/5d/The_original_German_yodel_ZS_V78-0637.wav/The_original_German_yodel_ZS_V78-0637.wav.mp3",
+    "ogg": "https://upload.wikimedia.org/wikipedia/commons/transcoded/5/5d/The_original_German_yodel_ZS_V78-0637.wav/The_original_German_yodel_ZS_V78-0637.wav.ogg",
+    "seconds": 166,
+    "author": "unbekannt",
+    "licence": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:The_original_German_yodel_ZS_V78-0637.wav"
   }
 }

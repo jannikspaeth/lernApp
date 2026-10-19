@@ -1008,5 +1008,65 @@
     "title": "Helene Fischer",
     "artist": "",
     "year": ""
+  },
+  "gardel": {
+    "wiki": "Carlos Gardel",
+    "title": "Carlos Gardel",
+    "artist": "",
+    "year": ""
+  },
+  "buena-vista": {
+    "wiki": "Buena Vista Social Club",
+    "title": "Buena Vista Social Club",
+    "artist": "",
+    "year": ""
+  },
+  "tito-puente": {
+    "wiki": "Tito Puente",
+    "title": "Tito Puente",
+    "artist": "",
+    "year": ""
+  },
+  "piazzolla": {
+    "wiki": "Astor Piazzolla",
+    "title": "Astor Piazzolla",
+    "artist": "",
+    "year": ""
+  },
+  "bandoneon": {
+    "wiki": "Bandoneon",
+    "title": "Ein Bandoneon",
+    "artist": "",
+    "year": ""
+  },
+  "bob-marley": {
+    "wiki": "Bob Marley",
+    "title": "Bob Marley",
+    "artist": "",
+    "year": ""
+  },
+  "djembe": {
+    "wiki": "Djembe",
+    "title": "Eine Djembe",
+    "artist": "",
+    "year": ""
+  },
+  "oud": {
+    "wiki": "Oud",
+    "title": "Eine Oud",
+    "artist": "",
+    "year": ""
+  },
+  "ravi-shankar": {
+    "wiki": "Ravi Shankar",
+    "title": "Ravi Shankar",
+    "artist": "",
+    "year": ""
+  },
+  "miriam-makeba": {
+    "wiki": "Miriam Makeba",
+    "title": "Miriam Makeba",
+    "artist": "",
+    "year": ""
   }
 }

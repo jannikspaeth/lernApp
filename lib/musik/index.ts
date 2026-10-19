@@ -22,6 +22,8 @@ import { MF_FILM } from './mf-film';
 import { DP_SCHLAGER } from './dp-schlager';
 import { DP_80ER } from './dp-80er';
 import { DP_HEUTE } from './dp-heute';
+import { WM_AMERIKA } from './wm-amerika';
+import { WM_TRADITIONEN } from './wm-traditionen';
 
 // Musik: genres (epochs) → eras or styles (events) → overview + composers/musicians (subtopics),
 // reusing the history types. Progress is stored like the countries' under
@@ -68,6 +70,12 @@ const RAW: CountryHistory = {
       period: '1920 – heute',
       events: [DP_SCHLAGER, DP_80ER, DP_HEUTE],
     },
+    {
+      id: 'weltmusik',
+      name: 'Weltmusik',
+      period: 'Jahrtausende – heute',
+      events: [WM_AMERIKA, WM_TRADITIONEN],
+    },
   ],
 };
 
@@ -92,6 +100,7 @@ const COVERS: Record<string, string> = {
   'soul-hiphop': 'aretha-franklin', 'sh-soul': 'james-brown', 'sh-hiphop': 'kendrick-lamar', 'sh-elektronik': 'daft-punk',
   'musical-film': 'bernstein', 'mf-musical': 'gershwin', 'mf-film': 'john-williams',
   deutsch: 'nena', 'dp-schlager': 'udo-juergens', 'dp-80er': 'udo-lindenberg', 'dp-heute': 'rammstein',
+  weltmusik: 'bob-marley', 'wm-amerika': 'gardel', 'wm-traditionen': 'ravi-shankar',
   'jz-wurzeln': 'joplin', 'jz-swing': 'ellington', 'jz-modern': 'miles-davis',
   'kl-mittelalter': 'hildegard', 'kl-barock': 'bach', 'kl-wiener-klassik': 'mozart', 'kl-romantik': 'chopin',
   'kl-oper': 'verdi', 'kl-spaetromantik': 'tschaikowsky', 'kl-moderne': 'debussy',

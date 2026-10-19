@@ -111,6 +111,15 @@ Flow: `/login` → `/` (subjects) → Sprachen: `/heute` (→ `/sprache` for lan
   `/weltgeschichte/land/[code]/[event]/[sub]`, progress `land.<code>.<event>.<sub>.<level>.<n>`; the check script then
   requires ≥ 20 per level). Germany is written this way in full depth (`lib/laender/de/`, one file per epoch, 60 subtopics);
   all 35 detailed countries are now written in this format (rewrite finished 2026-10-11).
+- **Musik** (`lib/musik/`, code `MUS`): genres (Klassik, Jazz, Rock & Pop, Soul/Hip-Hop/Elektronik, Musical & Film,
+  deutschsprachige Popmusik, Weltmusik) as `CountryHistory` epochs → eras (events, ids prefixed `kl-`, `jz-`, `rp-`, …)
+  → overview + one chapter per composer/musician. Routes `/musik/genres/[genre]`, `/musik/[epoche]`,
+  `/musik/[epoche]/[kapitel]`; progress `land.mus.<era>.<chapter>.<level>.<n>`. Portraits `lib/musik/portraits.json`
+  (`node scripts/fetch-bilder.mjs musik`, `public/musik`). **Listening examples**: `lib/musik/audio.json` (Commons file,
+  work, performer) + `audio-credits.json` from `node scripts/fetch-audio.mjs` (mp3/ogg stream URLs, streamed from
+  upload.wikimedia.org, not stored). `Subtopic.audio` renders `components/musik/AudioClip.tsx` in EventView; a quiz
+  card's 5th entry may be an audio key (QuizCard plays it). Only PD/free recordings — no audio for copyrighted music.
+  Check with `npx tsx scripts/check-musik.ts`.
 - Modes: **Quiz** (4 options) or **Flashcards** (reveal + self-grade), per-device choice. Rounds of 10:
   due first, then new (`pickRound`). SRS in `lib/wissen/progress.ts` (levels 0–6, 0/1/3/7/14/30/60 days,
   learned from level 4, wrong → level 1).
