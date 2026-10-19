@@ -19,6 +19,9 @@ import { SH_HIPHOP } from './sh-hiphop';
 import { SH_ELEKTRONIK } from './sh-elektronik';
 import { MF_MUSICAL } from './mf-musical';
 import { MF_FILM } from './mf-film';
+import { DP_SCHLAGER } from './dp-schlager';
+import { DP_80ER } from './dp-80er';
+import { DP_HEUTE } from './dp-heute';
 
 // Musik: genres (epochs) → eras or styles (events) → overview + composers/musicians (subtopics),
 // reusing the history types. Progress is stored like the countries' under
@@ -59,6 +62,12 @@ const RAW: CountryHistory = {
       period: '1895 – heute',
       events: [MF_MUSICAL, MF_FILM],
     },
+    {
+      id: 'deutsch',
+      name: 'Deutschsprachige Popmusik',
+      period: '1920 – heute',
+      events: [DP_SCHLAGER, DP_80ER, DP_HEUTE],
+    },
   ],
 };
 
@@ -82,6 +91,7 @@ const COVERS: Record<string, string> = {
   'rp-50er': 'elvis', 'rp-60er': 'beatles', 'rp-70er': 'bowie', 'rp-80er': 'michael-jackson', 'rp-heute': 'taylor-swift',
   'soul-hiphop': 'aretha-franklin', 'sh-soul': 'james-brown', 'sh-hiphop': 'kendrick-lamar', 'sh-elektronik': 'daft-punk',
   'musical-film': 'bernstein', 'mf-musical': 'gershwin', 'mf-film': 'john-williams',
+  deutsch: 'nena', 'dp-schlager': 'udo-juergens', 'dp-80er': 'udo-lindenberg', 'dp-heute': 'rammstein',
   'jz-wurzeln': 'joplin', 'jz-swing': 'ellington', 'jz-modern': 'miles-davis',
   'kl-mittelalter': 'hildegard', 'kl-barock': 'bach', 'kl-wiener-klassik': 'mozart', 'kl-romantik': 'chopin',
   'kl-oper': 'verdi', 'kl-spaetromantik': 'tschaikowsky', 'kl-moderne': 'debussy',

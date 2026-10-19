@@ -927,5 +927,86 @@
     "title": "Hans Zimmer",
     "artist": "",
     "year": ""
+  },
+  "comedian-harmonists": {
+    "wiki": "Comedian Harmonists",
+    "title": "Die Comedian Harmonists",
+    "artist": "",
+    "year": ""
+  },
+  "peter-alexander": {
+    "wiki": "Peter Alexander",
+    "title": "Peter Alexander mit Erni Bieler",
+    "artist": "",
+    "year": ""
+  },
+  "caterina-valente": {
+    "wiki": "Caterina Valente",
+    "title": "Caterina Valente",
+    "artist": "",
+    "year": ""
+  },
+  "udo-juergens": {
+    "wiki": "Udo Jürgens",
+    "title": "Udo Jürgens",
+    "artist": "",
+    "year": ""
+  },
+  "wolf-biermann": {
+    "wiki": "Wolf Biermann",
+    "title": "Wolf Biermann",
+    "artist": "",
+    "year": ""
+  },
+  "udo-lindenberg": {
+    "wiki": "Udo Lindenberg",
+    "title": "Udo Lindenberg",
+    "artist": "",
+    "year": ""
+  },
+  "nena": {
+    "wiki": "Nena",
+    "title": "Nena",
+    "artist": "",
+    "year": ""
+  },
+  "groenemeyer": {
+    "wiki": "Herbert Grönemeyer",
+    "title": "Herbert Grönemeyer",
+    "artist": "",
+    "year": ""
+  },
+  "fanta-vier": {
+    "wiki": "Die Fantastischen Vier",
+    "title": "Die Fantastischen Vier",
+    "artist": "",
+    "year": "",
+    "en": "Die Fantastischen Vier"
+  },
+  "die-toten-hosen": {
+    "wiki": "Die Toten Hosen",
+    "title": "Die Toten Hosen",
+    "artist": "",
+    "year": ""
+  },
+  "tokio-hotel": {
+    "wiki": "Tokio Hotel",
+    "title": "Tokio Hotel",
+    "artist": "",
+    "year": "",
+    "en": "Tokio Hotel"
+  },
+  "rammstein": {
+    "wiki": "Rammstein",
+    "title": "Rammstein",
+    "artist": "",
+    "year": "",
+    "en": "Rammstein"
+  },
+  "helene-fischer": {
+    "wiki": "Helene Fischer",
+    "title": "Helene Fischer",
+    "artist": "",
+    "year": ""
   }
 }
