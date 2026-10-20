@@ -686,5 +686,212 @@
     "title": "Gandhi beim Salzmarsch",
     "artist": "",
     "year": ""
+  },
+  "klagemauer": {
+    "wiki": "Klagemauer",
+    "title": "Die Klagemauer in Jerusalem",
+    "artist": "",
+    "year": ""
+  },
+  "menora": {
+    "wiki": "Menora",
+    "title": "Menora-Relief aus der antiken Synagoge von Ostia",
+    "artist": "",
+    "year": ""
+  },
+  "opferung-isaaks": {
+    "wiki": "Opferung Isaaks",
+    "title": "Die Opferung Isaaks",
+    "artist": "Caravaggio",
+    "year": "um 1603",
+    "file": "Sacrifice of Isaac-Caravaggio (Uffizi).jpg"
+  },
+  "mose-michelangelo": {
+    "wiki": "Moses (Michelangelo)",
+    "title": "Mose",
+    "artist": "Michelangelo",
+    "year": "1513–1515"
+  },
+  "tora-rolle": {
+    "wiki": "Sefer Tora",
+    "title": "Lesung aus der Tora-Rolle",
+    "artist": "",
+    "year": ""
+  },
+  "talmud": {
+    "wiki": "Talmud",
+    "title": "Titelblatt der Wilnaer Talmud-Ausgabe",
+    "artist": "",
+    "year": "1880–1886"
+  },
+  "sederteller": {
+    "wiki": "Sederteller",
+    "title": "Sederteller",
+    "artist": "",
+    "year": "",
+    "file": "Passover Seder plate with wine and matzot.jpg"
+  },
+  "chanukkia": {
+    "wiki": "Chanukkia",
+    "title": "Chanukkia am vierten Abend",
+    "artist": "",
+    "year": "",
+    "file": "A modern, nickelplate Hanukkah menorah with 5 candles lit.jpg"
+  },
+  "moses-mendelssohn": {
+    "wiki": "Moses Mendelssohn",
+    "title": "Moses Mendelssohn",
+    "artist": "Anton Graff",
+    "year": "1771"
+  },
+  "neue-synagoge-berlin": {
+    "wiki": "Neue Synagoge (Berlin)",
+    "title": "Die Neue Synagoge in Berlin",
+    "artist": "",
+    "year": "",
+    "file": "Berlin-Neue Synagoge-Oranienburger Str-04-2006-gje.jpg"
+  },
+  "bergpredigt": {
+    "wiki": "Bergpredigt",
+    "title": "Die Bergpredigt",
+    "artist": "Carl Heinrich Bloch",
+    "year": "1877",
+    "file": "Bloch-SermonOnTheMount.jpg"
+  },
+  "grabeskirche": {
+    "wiki": "Grabeskirche",
+    "title": "Die Grabeskirche in Jerusalem",
+    "artist": "",
+    "year": ""
+  },
+  "bekehrung-paulus": {
+    "wiki": "Die Bekehrung des Paulus (Caravaggio)",
+    "title": "Die Bekehrung des Paulus",
+    "artist": "Caravaggio",
+    "year": "1600–1601",
+    "file": "Conversion on the Way to Damascus-Caravaggio (c.1600-1).jpg"
+  },
+  "konstantin": {
+    "wiki": "Kolossalstatue Konstantins",
+    "title": "Kopf der Kolossalstatue Konstantins",
+    "artist": "Kapitolinische Museen, Rom",
+    "year": "um 313–324",
+    "file": "0 Constantinus I - Palazzo dei Conservatori (2) (cropped).JPG"
+  },
+  "codex-sinaiticus": {
+    "wiki": "Codex Sinaiticus",
+    "title": "Codex Sinaiticus: das Ende des Johannesevangeliums",
+    "artist": "",
+    "year": "4. Jh."
+  },
+  "adventskranz": {
+    "wiki": "Adventskranz",
+    "title": "Adventskranz",
+    "artist": "",
+    "year": ""
+  },
+  "taufe-jesu": {
+    "wiki": "Taufe Christi (Verrocchio)",
+    "title": "Die Taufe Christi",
+    "artist": "Andrea del Verrocchio und Leonardo da Vinci",
+    "year": "1470–1475"
+  },
+  "martin-luther": {
+    "wiki": "Martin Luther",
+    "title": "Martin Luther",
+    "artist": "Werkstatt Lucas Cranachs d. Ä.",
+    "year": "1528",
+    "file": "Lucas Cranach d.Ä. - Martin Luther, 1528 (Veste Coburg).jpg"
+  },
+  "ikone-rubljow": {
+    "wiki": "Dreifaltigkeitsikone",
+    "title": "Die Dreifaltigkeit",
+    "artist": "Andrei Rubljow",
+    "year": "um 1411–1425"
+  },
+  "kaaba": {
+    "wiki": "Kaaba",
+    "title": "Die Kaaba in Mekka",
+    "artist": "",
+    "year": ""
+  },
+  "blaue-moschee": {
+    "wiki": "Sultan-Ahmed-Moschee",
+    "title": "Die Sultan-Ahmed-Moschee (Blaue Moschee) in Istanbul",
+    "artist": "",
+    "year": "1609–1616"
+  },
+  "prophetenmoschee": {
+    "wiki": "Prophetenmoschee",
+    "title": "Die Prophetenmoschee in Medina",
+    "artist": "",
+    "year": ""
+  },
+  "hira": {
+    "wiki": "Hira",
+    "title": "Der Berg Hira (Dschabal an-Nur) mit der Höhle bei Mekka",
+    "artist": "",
+    "year": "",
+    "file": "Jabal al-Nour And cave Hira.jpg"
+  },
+  "blauer-koran": {
+    "wiki": "Blauer Koran",
+    "title": "Blatt aus dem „Blauen Koran“",
+    "artist": "",
+    "year": "9./10. Jh.",
+    "file": "Folio Blue Quran Met 2004.88.jpg"
+  },
+  "kalligrafie-basmala": {
+    "wiki": "Basmala",
+    "title": "Die Basmala als Kalligrafie",
+    "artist": "",
+    "year": "",
+    "file": "Triangular interlaced basmala calligraphy.jpg"
+  },
+  "hadsch": {
+    "wiki": "Haddsch",
+    "title": "Pilger an der Kaaba beim Hadsch",
+    "artist": "",
+    "year": ""
+  },
+  "gebet-moschee": {
+    "wiki": "Salat (Gebet)",
+    "title": "Gebet in einer Moschee",
+    "artist": "",
+    "year": ""
+  },
+  "imam-husain-schrein": {
+    "wiki": "Imam-Husain-Schrein",
+    "title": "Der Imam-Husain-Schrein in Kerbela",
+    "artist": "",
+    "year": ""
+  },
+  "derwische": {
+    "wiki": "Mevlevi-Orden",
+    "title": "Tanzende Derwische des Mevlevi-Ordens",
+    "artist": "",
+    "year": "",
+    "file": "Whirling Dervishes at Hodjapasha.jpg"
+  },
+  "felsendom": {
+    "wiki": "Felsendom",
+    "title": "Der Felsendom in Jerusalem",
+    "artist": "",
+    "year": "691",
+    "file": "Jerusalem-2013(2)-Temple Mount-Dome of the Rock (SE exposure).jpg"
+  },
+  "mezquita": {
+    "wiki": "Mezquita-Catedral de Córdoba",
+    "title": "Bögen der Mezquita in Córdoba",
+    "artist": "",
+    "year": "",
+    "file": "Interior Mezquita Cordoba Spain.jpg"
+  },
+  "alhambra": {
+    "wiki": "Alhambra",
+    "title": "Die Alhambra in Granada",
+    "artist": "",
+    "year": "",
+    "file": "Granada - View from Mirador de San Nicolás - 02.jpg"
   }
 }

@@ -682,5 +682,220 @@
     "author": "Unknown authorUnknown author",
     "licence": "Public domain",
     "page": "https://commons.wikimedia.org/wiki/File:Rigveda_MS2097.jpg"
+  },
+  "klagemauer": {
+    "file": "Jerusalem_Western_Wall_BW_1.JPG",
+    "author": "Berthold Werner",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Jerusalem_Western_Wall_BW_1.JPG"
+  },
+  "menora": {
+    "file": "Ostia_Antica_Synagogue_Menora.jpg",
+    "author": "Daniel Ventura",
+    "licence": "CC BY-SA 3.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Ostia_Antica_Synagogue_Menora.jpg"
+  },
+  "opferung-isaaks": {
+    "file": "Sacrifice of Isaac-Caravaggio (Uffizi).jpg",
+    "author": "Caravaggio",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Sacrifice_of_Isaac-Caravaggio_(Uffizi).jpg"
+  },
+  "mose-michelangelo": {
+    "file": "Mosé_(2475015425).jpg",
+    "author": "Dino Quinzani from Brescia, Italy",
+    "licence": "CC BY-SA 2.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Mos%C3%A9_(2475015425).jpg"
+  },
+  "tora-rolle": {
+    "file": "ReadingOfTheTorah.jpg",
+    "author": "Roy Lindman",
+    "licence": "CC BY-SA 3.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:ReadingOfTheTorah.jpg"
+  },
+  "talmud": {
+    "file": "Babylonischer_Talmud_-_Titelblatt_der_Wilnaer_Ausgabe_(1880_-_1886).jpg",
+    "author": "sf2000",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Babylonischer_Talmud_-_Titelblatt_der_Wilnaer_Ausgabe_(1880_-_1886).jpg"
+  },
+  "chanukkia": {
+    "file": "A modern, nickelplate Hanukkah menorah with 5 candles lit.jpg",
+    "author": "Gatorfan252525",
+    "licence": "CC BY-SA 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:A_modern,_nickelplate_Hanukkah_menorah_with_5_candles_lit.jpg"
+  },
+  "moses-mendelssohn": {
+    "file": "Moses_Mendelson_P7160073.JPG",
+    "author": "After Anton Graff",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Moses_Mendelson_P7160073.JPG"
+  },
+  "sederteller": {
+    "file": "Passover Seder plate with wine and matzot.jpg",
+    "author": "Mikael Häggström",
+    "licence": "CC0",
+    "licenceUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:Passover_Seder_plate_with_wine_and_matzot.jpg"
+  },
+  "neue-synagoge-berlin": {
+    "file": "Berlin-Neue Synagoge-Oranienburger Str-04-2006-gje.jpg",
+    "author": "Gerd Eichmann",
+    "licence": "CC BY-SA 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Berlin-Neue_Synagoge-Oranienburger_Str-04-2006-gje.jpg"
+  },
+  "bergpredigt": {
+    "file": "Bloch-SermonOnTheMount.jpg",
+    "author": "Carl Bloch",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Bloch-SermonOnTheMount.jpg"
+  },
+  "grabeskirche": {
+    "file": "Jerusalem_Holy_Sepulchre_BW_19.JPG",
+    "author": "Berthold Werner",
+    "licence": "CC BY-SA 3.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Jerusalem_Holy_Sepulchre_BW_19.JPG"
+  },
+  "bekehrung-paulus": {
+    "file": "Conversion on the Way to Damascus-Caravaggio (c.1600-1).jpg",
+    "author": "Caravaggio",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Conversion_on_the_Way_to_Damascus-Caravaggio_(c.1600-1).jpg"
+  },
+  "codex-sinaiticus": {
+    "file": "Ende_Johannesevangelium.jpg",
+    "author": "Unbekannt, 4. Jahrhundert",
+    "licence": "CC0",
+    "licenceUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:Ende_Johannesevangelium.jpg"
+  },
+  "adventskranz": {
+    "file": "Advent_wreath.jpg",
+    "author": "unbekannt",
+    "licence": "CC BY 2.5",
+    "licenceUrl": "https://creativecommons.org/licenses/by/2.5",
+    "page": "https://commons.wikimedia.org/wiki/File:Advent_wreath.jpg"
+  },
+  "taufe-jesu": {
+    "file": "The_Baptism_of_Christ_(Verrocchio_&_Leonardo).jpg",
+    "author": "Andrea del Verrocchio / Leonardo da Vinci",
+    "licence": "CC BY-SA 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:The_Baptism_of_Christ_(Verrocchio_%26_Leonardo).jpg"
+  },
+  "martin-luther": {
+    "file": "Lucas Cranach d.Ä. - Martin Luther, 1528 (Veste Coburg).jpg",
+    "author": "Lucas Cranach the Elder",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Lucas_Cranach_d.%C3%84._-_Martin_Luther,_1528_(Veste_Coburg).jpg"
+  },
+  "ikone-rubljow": {
+    "file": "Andrej_Rublëv_001.jpg",
+    "author": "Eloquence",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Andrej_Rubl%C3%ABv_001.jpg"
+  },
+  "konstantin": {
+    "file": "0 Constantinus I - Palazzo dei Conservatori (2) (cropped).JPG",
+    "author": "unknown",
+    "licence": "CC BY-SA 3.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:0_Constantinus_I_-_Palazzo_dei_Conservatori_(2)_(cropped).JPG"
+  },
+  "kaaba": {
+    "file": "The_Ka'ba,_Great_Mosque_of_Mecca,_Saudi_Arabia_(4).jpg",
+    "author": "Richard Mortel",
+    "licence": "CC BY 2.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:The_Ka%27ba,_Great_Mosque_of_Mecca,_Saudi_Arabia_(4).jpg"
+  },
+  "blaue-moschee": {
+    "file": "Sultan_Ahmed_Mosque_Istanbul_Turkey_retouched.jpg",
+    "author": "Dersaadet",
+    "licence": "CC BY-SA 3.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Sultan_Ahmed_Mosque_Istanbul_Turkey_retouched.jpg"
+  },
+  "prophetenmoschee": {
+    "file": "The_Enlightened_City.jpg",
+    "author": "Omar Chatriwala from Doha, Qatar",
+    "licence": "CC BY 2.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:The_Enlightened_City.jpg"
+  },
+  "hadsch": {
+    "file": "A_packed_house_-_Flickr_-_Al_Jazeera_English.jpg",
+    "author": "Al Jazeera English",
+    "licence": "CC BY-SA 2.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:A_packed_house_-_Flickr_-_Al_Jazeera_English.jpg"
+  },
+  "gebet-moschee": {
+    "file": "Mosque.jpg",
+    "author": "Antonio Melina/Agência Brasil",
+    "licence": "CC BY 3.0 br",
+    "licenceUrl": "https://creativecommons.org/licenses/by/3.0/br/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:Mosque.jpg"
+  },
+  "imam-husain-schrein": {
+    "file": "Kerbela_Hussein_Moschee.jpg",
+    "author": "SFC Larry E. Johns, USA",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Kerbela_Hussein_Moschee.jpg"
+  },
+  "mezquita": {
+    "file": "Interior Mezquita Cordoba Spain.jpg",
+    "author": "Jialiang Gao www.peace-on-earth.org",
+    "licence": "CC BY-SA 2.5",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+    "page": "https://commons.wikimedia.org/wiki/File:Interior_Mezquita_Cordoba_Spain.jpg"
+  },
+  "alhambra": {
+    "file": "Granada - View from Mirador de San Nicolás - 02.jpg",
+    "author": "Diego Delso",
+    "licence": "CC BY-SA 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Granada_-_View_from_Mirador_de_San_Nicol%C3%A1s_-_02.jpg"
+  },
+  "hira": {
+    "file": "Jabal al-Nour And cave Hira.jpg",
+    "author": "Sadath i",
+    "licence": "CC BY-SA 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Jabal_al-Nour_And_cave_Hira.jpg"
+  },
+  "blauer-koran": {
+    "file": "Folio Blue Quran Met 2004.88.jpg",
+    "author": "Unknown authorUnknown author",
+    "licence": "CC BY 2.5",
+    "licenceUrl": "https://creativecommons.org/licenses/by/2.5",
+    "page": "https://commons.wikimedia.org/wiki/File:Folio_Blue_Quran_Met_2004.88.jpg"
+  },
+  "kalligrafie-basmala": {
+    "file": "Triangular interlaced basmala calligraphy.jpg",
+    "author": "IslamicPx",
+    "licence": "CC0",
+    "licenceUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:Triangular_interlaced_basmala_calligraphy.jpg"
+  },
+  "derwische": {
+    "file": "Whirling Dervishes at Hodjapasha.jpg",
+    "author": "Kemal.kubbe",
+    "licence": "CC BY-SA 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Whirling_Dervishes_at_Hodjapasha.jpg"
+  },
+  "felsendom": {
+    "file": "Jerusalem-2013(2)-Temple Mount-Dome of the Rock (SE exposure).jpg",
+    "author": "Godot13",
+    "licence": "CC BY-SA 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Jerusalem-2013(2)-Temple_Mount-Dome_of_the_Rock_(SE_exposure).jpg"
   }
 }

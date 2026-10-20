@@ -16,8 +16,11 @@ import { ZJ_EXISTENZ } from './zj-existenz';
 import { ZJ_GESELLSCHAFT } from './zj-gesellschaft';
 import { OS_CHINA } from './os-china';
 import { OS_INDIEN } from './os-indien';
+import { RE_JUDENTUM } from './re-judentum';
+import { RE_CHRISTENTUM } from './re-christentum';
+import { RE_ISLAM } from './re-islam';
 
-// Philosophie: areas (epochs: periods or regions) → schools or periods (events) → overview +
+// Philosophie: areas (epochs: periods, regions or the world religions) → schools or periods (events) → overview +
 // one chapter per thinker (subtopics), reusing the history types. Progress is stored like the
 // countries' under `land.phi.<school>.<chapter>.<level>.<n>`, so school and chapter ids must stay stable.
 export const PHILO_CODE = 'PHI';
@@ -61,6 +64,12 @@ const RAW: CountryHistory = {
       period: 'um 1500 v. Chr. – heute',
       events: [OS_CHINA, OS_INDIEN],
     },
+    {
+      id: 'religionen',
+      name: 'Weltreligionen',
+      period: 'um 1800 v. Chr. – heute',
+      events: [RE_JUDENTUM, RE_CHRISTENTUM, RE_ISLAM],
+    },
   ],
 };
 
@@ -87,6 +96,7 @@ const COVERS: Record<string, string> = {
   jh19: 'nietzsche', 'jh-idealismus': 'hegel', 'jh-19': 'marx',
   jh20: 'sartre', 'zj-analytisch': 'wittgenstein', 'zj-existenz': 'camus', 'zj-gesellschaft': 'arendt',
   osten: 'konfuzius', 'os-china': 'laozi', 'os-indien': 'buddha',
+  religionen: 'klagemauer', 're-judentum': 'tora-rolle', 're-christentum': 'abendmahl', 're-islam': 'kaaba',
 };
 
 export const PHILOSOPHIE: CountryHistory = {
