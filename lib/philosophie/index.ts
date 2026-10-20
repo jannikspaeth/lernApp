@@ -21,6 +21,8 @@ import { RE_CHRISTENTUM } from './re-christentum';
 import { RE_ISLAM } from './re-islam';
 import { RE_HINDUISMUS } from './re-hinduismus';
 import { RE_BUDDHISMUS } from './re-buddhismus';
+import { RE_OSTASIEN } from './re-ostasien';
+import { RE_WEITERE } from './re-weitere';
 
 // Philosophie: areas (epochs: periods, regions or the world religions) → schools or periods (events) → overview +
 // one chapter per thinker (subtopics), reusing the history types. Progress is stored like the
@@ -70,7 +72,7 @@ const RAW: CountryHistory = {
       id: 'religionen',
       name: 'Weltreligionen',
       period: 'um 1800 v. Chr. – heute',
-      events: [RE_JUDENTUM, RE_CHRISTENTUM, RE_ISLAM, RE_HINDUISMUS, RE_BUDDHISMUS],
+      events: [RE_JUDENTUM, RE_CHRISTENTUM, RE_ISLAM, RE_HINDUISMUS, RE_BUDDHISMUS, RE_OSTASIEN, RE_WEITERE],
     },
   ],
 };
@@ -99,6 +101,7 @@ const COVERS: Record<string, string> = {
   jh20: 'sartre', 'zj-analytisch': 'wittgenstein', 'zj-existenz': 'camus', 'zj-gesellschaft': 'arendt',
   osten: 'konfuzius', 'os-china': 'laozi', 'os-indien': 'buddha',
   religionen: 'klagemauer', 're-judentum': 'tora-rolle', 're-christentum': 'abendmahl', 're-islam': 'kaaba', 're-hinduismus': 'shiva-nataraja', 're-buddhismus': 'dalai-lama',
+  're-ostasien': 'itsukushima-torii', 're-weitere': 'goldener-tempel',
 };
 
 export const PHILOSOPHIE: CountryHistory = {
