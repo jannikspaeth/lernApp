@@ -893,5 +893,165 @@
     "artist": "",
     "year": "",
     "file": "Granada - View from Mirador de San Nicolás - 02.jpg"
+  },
+  "om": {
+    "wiki": "Om",
+    "title": "Die heilige Silbe Om",
+    "artist": "",
+    "year": ""
+  },
+  "varanasi": {
+    "wiki": "Varanasi",
+    "title": "Ghats am Ganges in Varanasi",
+    "artist": "",
+    "year": ""
+  },
+  "shiva-nataraja": {
+    "wiki": "Nataraja",
+    "title": "Shiva Nataraja",
+    "artist": "Chola-Bronze, Südindien",
+    "year": "um 11. Jh."
+  },
+  "ganesha": {
+    "wiki": "Ganesha",
+    "title": "Ganesha",
+    "artist": "",
+    "year": ""
+  },
+  "vishnu": {
+    "wiki": "Vishnu",
+    "title": "Vishnu und Lakshmi auf der Weltenschlange",
+    "artist": "",
+    "year": ""
+  },
+  "krishna-arjuna": {
+    "wiki": "Bhagavad Gita",
+    "title": "Krishna und Arjuna auf dem Streitwagen",
+    "artist": "",
+    "year": ""
+  },
+  "ramayana": {
+    "wiki": "Ramayana",
+    "title": "Szene aus dem Ramayana als Tempelrelief",
+    "artist": "",
+    "year": ""
+  },
+  "sadhu": {
+    "wiki": "Sadhu",
+    "title": "Ein Sadhu",
+    "artist": "",
+    "year": ""
+  },
+  "ambedkar": {
+    "wiki": "Bhimrao Ramji Ambedkar",
+    "title": "B. R. Ambedkar",
+    "artist": "",
+    "year": ""
+  },
+  "holi": {
+    "wiki": "Holi",
+    "title": "Krishna, Radha und die Hirtenmädchen feiern Holi",
+    "artist": "Indische Miniatur",
+    "year": ""
+  },
+  "kumbh-mela": {
+    "wiki": "Kumbh Mela",
+    "title": "Pilger beim Bad während der Kumbh Mela in Haridwar",
+    "artist": "",
+    "year": ""
+  },
+  "meenakshi-tempel": {
+    "wiki": "Meenakshi-Tempel",
+    "title": "Der Meenakshi-Tempel in Madurai",
+    "artist": "",
+    "year": ""
+  },
+  "mahabodhi-tempel": {
+    "wiki": "Mahabodhi-Tempel",
+    "title": "Der Mahabodhi-Tempel in Bodhgaya",
+    "artist": "",
+    "year": ""
+  },
+  "dharma-rad": {
+    "wiki": "Dharmachakra",
+    "title": "Rad des Dharma mit zwei Hirschen auf dem Jokhang-Tempel in Lhasa",
+    "artist": "",
+    "year": "",
+    "file": "Jokhang, Tibet -5443 - Dharma Wheel and deers.jpg"
+  },
+  "shwedagon": {
+    "wiki": "Shwedagon-Pagode",
+    "title": "Die Shwedagon-Pagode in Yangon",
+    "artist": "",
+    "year": ""
+  },
+  "moenche-almosen": {
+    "wiki": "Almosengang",
+    "title": "Mönche beim Almosengang in Laos",
+    "artist": "",
+    "year": "",
+    "file": "Luang Prabang Monks Alm Dawn 01.jpg"
+  },
+  "borobudur": {
+    "wiki": "Borobudur",
+    "title": "Borobudur auf Java",
+    "artist": "",
+    "year": "um 800"
+  },
+  "guanyin": {
+    "wiki": "Guanyin",
+    "title": "Guanyin",
+    "artist": "",
+    "year": ""
+  },
+  "leshan-buddha": {
+    "wiki": "Großer Buddha von Leshan",
+    "title": "Der Große Buddha von Leshan",
+    "artist": "",
+    "year": "713–803"
+  },
+  "xuanzang": {
+    "wiki": "Xuanzang",
+    "title": "Xuanzang auf der Reise",
+    "artist": "Japanische Hängerolle",
+    "year": "14. Jh."
+  },
+  "potala": {
+    "wiki": "Potala-Palast",
+    "title": "Der Potala-Palast in Lhasa",
+    "artist": "",
+    "year": "",
+    "file": "Potala Palace in Lhasa, Tibet.jpg"
+  },
+  "dalai-lama": {
+    "wiki": "Tendzin Gyatsho",
+    "title": "Der 14. Dalai Lama, Tendzin Gyatsho",
+    "artist": "",
+    "year": ""
+  },
+  "gebetsfahnen": {
+    "wiki": "Gebetsfahne",
+    "title": "Tibetische Gebetsfahnen",
+    "artist": "",
+    "year": ""
+  },
+  "ryoanji": {
+    "wiki": "Ryōan-ji",
+    "title": "Der Steingarten des Ryoan-ji in Kyoto",
+    "artist": "",
+    "year": ""
+  },
+  "bodhidharma": {
+    "wiki": "Bodhidharma",
+    "title": "Bodhidharma",
+    "artist": "Hakuin Ekaku",
+    "year": "18. Jh."
+  },
+  "kamakura-buddha": {
+    "wiki": "Großer Buddha von Kamakura",
+    "title": "Der Große Buddha von Kamakura",
+    "artist": "",
+    "year": "1252",
+    "file": "Daibutsu (Kotoku-in) (5711706217).jpg"
   }
 }

@@ -897,5 +897,176 @@
     "licence": "CC BY-SA 4.0",
     "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
     "page": "https://commons.wikimedia.org/wiki/File:Jerusalem-2013(2)-Temple_Mount-Dome_of_the_Rock_(SE_exposure).jpg"
+  },
+  "varanasi": {
+    "file": "Babasteve-View_of_Varanasi_from_the_Ganges.jpg",
+    "author": "unbekannt",
+    "licence": "CC BY 2.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Babasteve-View_of_Varanasi_from_the_Ganges.jpg"
+  },
+  "shiva-nataraja": {
+    "file": "Shiva_Nataraja_Musée_Guimet_25971.jpg",
+    "author": "Unknown authorUnknown author",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Shiva_Nataraja_Mus%C3%A9e_Guimet_25971.jpg"
+  },
+  "ganesha": {
+    "file": "Ganesh_maharashtra.jpg",
+    "author": "Jonoikobangali",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Ganesh_maharashtra.jpg"
+  },
+  "vishnu": {
+    "file": "Vishnu1.jpg",
+    "author": "Unknown authorUnknown author",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Vishnu1.jpg"
+  },
+  "krishna-arjuna": {
+    "file": "GitaUpadeshTirumala.jpg",
+    "author": "w:User:Raji.srinivas",
+    "licence": "CC BY-SA 3.0",
+    "licenceUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:GitaUpadeshTirumala.jpg"
+  },
+  "ramayana": {
+    "file": "Ramayana_In_carving_(2444648102).jpg",
+    "author": "B Balaji from Chennai, India",
+    "licence": "CC BY 2.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Ramayana_In_carving_(2444648102).jpg"
+  },
+  "sadhu": {
+    "file": "Sadhu_Vârânasî.jpg",
+    "author": "Pierre-Emmanuel BOITON",
+    "licence": "CC BY-SA 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Sadhu_V%C3%A2r%C3%A2nas%C3%AE.jpg"
+  },
+  "ambedkar": {
+    "file": "Dr._Bhimrao_Ambedkar.jpg",
+    "author": "Unknown authorUnknown author",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Dr._Bhimrao_Ambedkar.jpg"
+  },
+  "holi": {
+    "file": "A_Holi_Festival_-_Krishna_Radha_and_Gopis.jpg",
+    "author": "Unknown artistUnknown artist",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:A_Holi_Festival_-_Krishna_Radha_and_Gopis.jpg"
+  },
+  "kumbh-mela": {
+    "file": "Third_Shahi_Snan_in_Hari_Ki_Pauri.jpg",
+    "author": "Coupdoeil / Philipp Eyer",
+    "licence": "CC BY-SA 3.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Third_Shahi_Snan_in_Hari_Ki_Pauri.jpg"
+  },
+  "meenakshi-tempel": {
+    "file": "Madurai_meenakshi_temple.jpg",
+    "author": "No machine-readable author provided. Ssriraman assumed (based on copyright claims).",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Madurai_meenakshi_temple.jpg"
+  },
+  "om": {
+    "file": "Aum.svg",
+    "author": "Original: Unknown Vector: Melian",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Aum.svg"
+  },
+  "mahabodhi-tempel": {
+    "file": "Mahabodhitemple.jpg",
+    "author": "Bpilgrim",
+    "licence": "CC BY-SA 2.5",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+    "page": "https://commons.wikimedia.org/wiki/File:Mahabodhitemple.jpg"
+  },
+  "shwedagon": {
+    "file": "Shwedagon-Pano.jpg",
+    "author": "unbekannt",
+    "licence": "Attribution",
+    "page": "https://commons.wikimedia.org/wiki/File:Shwedagon-Pano.jpg"
+  },
+  "moenche-almosen": {
+    "file": "Luang Prabang Monks Alm Dawn 01.jpg",
+    "author": "Benh LIEU SONG",
+    "licence": "CC BY-SA 3.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Luang_Prabang_Monks_Alm_Dawn_01.jpg"
+  },
+  "borobudur": {
+    "file": "Borobudur-Nothwest-view.jpg",
+    "author": "Gunawan Kartapranata",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Borobudur-Nothwest-view.jpg"
+  },
+  "guanyin": {
+    "file": "Liao_Dynasty_-_Guan_Yin_statue.jpg",
+    "author": "Rebecca Arnett from Castleton, Vermont, USA",
+    "licence": "CC BY-SA 2.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Liao_Dynasty_-_Guan_Yin_statue.jpg"
+  },
+  "leshan-buddha": {
+    "file": "Leshan_Buddha_Statue_View.JPG",
+    "author": "Ariel Steiner",
+    "licence": "CC BY-SA 2.5",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+    "page": "https://commons.wikimedia.org/wiki/File:Leshan_Buddha_Statue_View.JPG"
+  },
+  "xuanzang": {
+    "file": "Xuan_Zang.jpg",
+    "author": "Unknown painter, Dun Huang, circa 851-900 A.D.",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Xuan_Zang.jpg"
+  },
+  "dalai-lama": {
+    "file": "Dalai_Lama_in_2012_02.jpg",
+    "author": "Christopher Michel",
+    "licence": "CC BY-SA 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Dalai_Lama_in_2012_02.jpg"
+  },
+  "gebetsfahnen": {
+    "file": "Gebetsflaggen-tsemo-gompa-leh.JPG",
+    "author": "Wotan",
+    "licence": "CC BY 2.5",
+    "licenceUrl": "https://creativecommons.org/licenses/by/2.5",
+    "page": "https://commons.wikimedia.org/wiki/File:Gebetsflaggen-tsemo-gompa-leh.JPG"
+  },
+  "ryoanji": {
+    "file": "Kare-sansui_zen_garden,_Ryōan-ji,_Kyoto_20190416_1.jpg",
+    "author": "DXR",
+    "licence": "CC BY-SA 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Kare-sansui_zen_garden,_Ry%C5%8Dan-ji,_Kyoto_20190416_1.jpg"
+  },
+  "bodhidharma": {
+    "file": "Bodhidarma.jpg",
+    "author": "unbekannt",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Bodhidarma.jpg"
+  },
+  "dharma-rad": {
+    "file": "Jokhang, Tibet -5443 - Dharma Wheel and deers.jpg",
+    "author": "Dennis G. Jarvis",
+    "licence": "CC BY-SA 2.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Jokhang,_Tibet_-5443_-_Dharma_Wheel_and_deers.jpg"
+  },
+  "potala": {
+    "file": "Potala Palace in Lhasa, Tibet.jpg",
+    "author": "Jan Kranendonk (https://www.jankranendonk.nl)",
+    "licence": "CC BY-SA 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Potala_Palace_in_Lhasa,_Tibet.jpg"
+  },
+  "kamakura-buddha": {
+    "file": "Daibutsu (Kotoku-in) (5711706217).jpg",
+    "author": "KimonBerlin",
+    "licence": "CC BY-SA 2.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Daibutsu_(Kotoku-in)_(5711706217).jpg"
   }
 }

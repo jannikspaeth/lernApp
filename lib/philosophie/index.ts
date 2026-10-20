@@ -19,6 +19,8 @@ import { OS_INDIEN } from './os-indien';
 import { RE_JUDENTUM } from './re-judentum';
 import { RE_CHRISTENTUM } from './re-christentum';
 import { RE_ISLAM } from './re-islam';
+import { RE_HINDUISMUS } from './re-hinduismus';
+import { RE_BUDDHISMUS } from './re-buddhismus';
 
 // Philosophie: areas (epochs: periods, regions or the world religions) → schools or periods (events) → overview +
 // one chapter per thinker (subtopics), reusing the history types. Progress is stored like the
@@ -68,7 +70,7 @@ const RAW: CountryHistory = {
       id: 'religionen',
       name: 'Weltreligionen',
       period: 'um 1800 v. Chr. – heute',
-      events: [RE_JUDENTUM, RE_CHRISTENTUM, RE_ISLAM],
+      events: [RE_JUDENTUM, RE_CHRISTENTUM, RE_ISLAM, RE_HINDUISMUS, RE_BUDDHISMUS],
     },
   ],
 };
@@ -96,7 +98,7 @@ const COVERS: Record<string, string> = {
   jh19: 'nietzsche', 'jh-idealismus': 'hegel', 'jh-19': 'marx',
   jh20: 'sartre', 'zj-analytisch': 'wittgenstein', 'zj-existenz': 'camus', 'zj-gesellschaft': 'arendt',
   osten: 'konfuzius', 'os-china': 'laozi', 'os-indien': 'buddha',
-  religionen: 'klagemauer', 're-judentum': 'tora-rolle', 're-christentum': 'abendmahl', 're-islam': 'kaaba',
+  religionen: 'klagemauer', 're-judentum': 'tora-rolle', 're-christentum': 'abendmahl', 're-islam': 'kaaba', 're-hinduismus': 'shiva-nataraja', 're-buddhismus': 'dalai-lama',
 };
 
 export const PHILOSOPHIE: CountryHistory = {
