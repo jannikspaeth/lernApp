@@ -1199,5 +1199,171 @@
     "author": "Unknown authorUnknown author",
     "licence": "Public domain",
     "page": "https://commons.wikimedia.org/wiki/File:Yukaghir_shaman.jpg"
+  },
+  "apollo-belvedere": {
+    "file": "Apollo_Belvedere-Vatican_Museums.jpg",
+    "author": "Yair Haklai",
+    "licence": "CC BY-SA 3.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Apollo_Belvedere-Vatican_Museums.jpg"
+  },
+  "herakles-farnese": {
+    "file": "Herakles_Farnese_MAN_Napoli_Inv6001_n01.jpg",
+    "author": "Glycon of Athens (copy), Lysippos (original type)",
+    "licence": "CC BY 2.5",
+    "licenceUrl": "https://creativecommons.org/licenses/by/2.5",
+    "page": "https://commons.wikimedia.org/wiki/File:Herakles_Farnese_MAN_Napoli_Inv6001_n01.jpg"
+  },
+  "theseus-minotauros": {
+    "file": "Kylix Theseus Minotauros Louvre F83.jpg",
+    "author": "unbekannt",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Kylix_Theseus_Minotauros_Louvre_F83.jpg"
+  },
+  "trojanisches-pferd": {
+    "file": "Mykonos_Pithos_2240_(Trojan_Horse_detail).jpg",
+    "author": "AbelDionis",
+    "licence": "CC0",
+    "licenceUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:Mykonos_Pithos_2240_(Trojan_Horse_detail).jpg"
+  },
+  "prometheus-rubens": {
+    "file": "Rubens - Prometheus Bound.jpg",
+    "author": "Frans Snyders / Peter Paul Rubens",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Rubens_-_Prometheus_Bound.jpg"
+  },
+  "ikarus-bruegel": {
+    "file": "Landschaft_mit_Sturz_des_Ikarus_Pieter_Breughel_d_Ä.jpg",
+    "author": "After Pieter Brueghel the Elder",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Landschaft_mit_Sturz_des_Ikarus_Pieter_Breughel_d_%C3%84.jpg"
+  },
+  "charon": {
+    "file": "Sabouroff_Painter_ARV_846_196_Hermes_leading_a_deceased_to_Charon_(01).jpg",
+    "author": "ArchaiOptix",
+    "licence": "CC BY-SA 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Sabouroff_Painter_ARV_846_196_Hermes_leading_a_deceased_to_Charon_(01).jpg"
+  },
+  "zeus-otricoli": {
+    "file": "Zeus Otricoli Pio-Clementino Inv257.jpg",
+    "author": "Unknown artistUnknown artist",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Zeus_Otricoli_Pio-Clementino_Inv257.jpg"
+  },
+  "perseus-cellini": {
+    "file": "Perseus Medusa Cellini Lanzi Florence.jpg",
+    "author": "Jebulon",
+    "licence": "CC0",
+    "licenceUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:Perseus_Medusa_Cellini_Lanzi_Florence.jpg"
+  },
+  "urteil-paris": {
+    "file": "Rubens - Judgement of Paris.jpg",
+    "author": "Peter Paul Rubens",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Rubens_-_Judgement_of_Paris.jpg"
+  },
+  "odysseus-sirenen": {
+    "file": "John William Waterhouse - Ulysses and the Sirens (1891).jpg",
+    "author": "John William Waterhouse",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:John_William_Waterhouse_-_Ulysses_and_the_Sirens_(1891).jpg"
+  },
+  "polyphem": {
+    "file": "Odysseus macht Polyphem betrunken (Tischbein).jpg",
+    "author": "Johann Heinrich Wilhelm Tischbein",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Odysseus_macht_Polyphem_betrunken_(Tischbein).jpg"
+  },
+  "raub-proserpina": {
+    "file": "04 2024 Rape of Proserpina by Bernini Galleria Borghese Rome 7501.jpg",
+    "author": "Mariordo",
+    "licence": "CC BY-SA 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:04_2024_Rape_of_Proserpina_by_Bernini_Galleria_Borghese_Rome_7501.jpg"
+  },
+  "vestatempel": {
+    "file": "Temple of Vesta Forum Romanum Rome.jpg",
+    "author": "Jebulon",
+    "licence": "CC0",
+    "licenceUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:Temple_of_Vesta_Forum_Romanum_Rome.jpg"
+  },
+  "janus": {
+    "file": "Janus-Vatican.JPG",
+    "author": "Fubar Obfusco",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Janus-Vatican.JPG"
+  },
+  "kapitolinische-woelfin": {
+    "file": "The Capitoline Wolf, Musei Capitolini, Rome (13840968834).jpg",
+    "author": "Carole Raddato from FRANKFURT, Germany",
+    "licence": "CC BY-SA 2.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:The_Capitoline_Wolf,_Musei_Capitolini,_Rome_(13840968834).jpg"
+  },
+  "raub-sabinerinnen": {
+    "file": "Cortona Rape of the Sabine Women 01.jpg",
+    "author": "Pietro da Cortona",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Cortona_Rape_of_the_Sabine_Women_01.jpg"
+  },
+  "codex-regius": {
+    "file": "Codex Regius of Eddaic Poems.jpg",
+    "author": "Unknown authorUnknown author",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Codex_Regius_of_Eddaic_Poems.jpg"
+  },
+  "odin-sleipnir": {
+    "file": "The Vikings. Odin Riding his Eight Legs Horse, Sleipnir.jpg",
+    "author": "Becherel",
+    "licence": "CC BY-SA 3.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:The_Vikings._Odin_Riding_his_Eight_Legs_Horse,_Sleipnir.jpg"
+  },
+  "thor-hammer": {
+    "file": "Mårten Winge - Tors strid med jättarna - NMH 139-1920 - Nationalmuseum.jpg",
+    "author": "Mårten Eskil Winge",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:M%C3%A5rten_Winge_-_Tors_strid_med_j%C3%A4ttarna_-_NMH_139-1920_-_Nationalmuseum.jpg"
+  },
+  "loki-gefesselt": {
+    "file": "Loke_and_Sigyn_(Mårten_Winge)_-_Nationalmuseum_-_18041.tif",
+    "author": "Mårten Eskil Winge",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Loke_and_Sigyn_(M%C3%A5rten_Winge)_-_Nationalmuseum_-_18041.tif"
+  },
+  "siegfried-drache": {
+    "file": "Hylestad I, right - Fafnir and Sigurd.jpg",
+    "author": "Jeblad",
+    "licence": "CC BY-SA 3.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Hylestad_I,_right_-_Fafnir_and_Sigurd.jpg"
+  },
+  "beowulf": {
+    "file": "Beowulf Cotton MS Vitellius A XV f. 132r.jpg",
+    "author": "anonymous Anglo-Saxon poet",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Beowulf_Cotton_MS_Vitellius_A_XV_f._132r.jpg"
+  },
+  "yggdrasil": {
+    "file": "Yggdrasil.jpg",
+    "author": "Oluf Bagge",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Yggdrasil.jpg"
+  },
+  "ragnaroek": {
+    "file": "Ragnarök by Doepler.jpg",
+    "author": "Emil Doepler",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Ragnar%C3%B6k_by_Doepler.jpg"
+  },
+  "walkueren": {
+    "file": "The Ride of the Valkyries by William T. Maud.jpg",
+    "author": "William T. Maud (British, 1865 – 1903)",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:The_Ride_of_the_Valkyries_by_William_T._Maud.jpg"
   }
 }

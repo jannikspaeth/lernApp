@@ -23,6 +23,9 @@ import { RE_HINDUISMUS } from './re-hinduismus';
 import { RE_BUDDHISMUS } from './re-buddhismus';
 import { RE_OSTASIEN } from './re-ostasien';
 import { RE_WEITERE } from './re-weitere';
+import { MY_GRIECHISCH } from './my-griechisch';
+import { MY_ROEMISCH } from './my-roemisch';
+import { MY_GERMANISCH } from './my-germanisch';
 
 // Philosophie: areas (epochs: periods, regions or the world religions) → schools or periods (events) → overview +
 // one chapter per thinker (subtopics), reusing the history types. Progress is stored like the
@@ -74,6 +77,12 @@ const RAW: CountryHistory = {
       period: 'um 1800 v. Chr. – heute',
       events: [RE_JUDENTUM, RE_CHRISTENTUM, RE_ISLAM, RE_HINDUISMUS, RE_BUDDHISMUS, RE_OSTASIEN, RE_WEITERE],
     },
+    {
+      id: 'mythologie',
+      name: 'Mythologie',
+      period: 'um 2500 v. Chr. – heute',
+      events: [MY_GRIECHISCH, MY_ROEMISCH, MY_GERMANISCH],
+    },
   ],
 };
 
@@ -102,6 +111,7 @@ const COVERS: Record<string, string> = {
   osten: 'konfuzius', 'os-china': 'laozi', 'os-indien': 'buddha',
   religionen: 'klagemauer', 're-judentum': 'tora-rolle', 're-christentum': 'abendmahl', 're-islam': 'kaaba', 're-hinduismus': 'shiva-nataraja', 're-buddhismus': 'dalai-lama',
   're-ostasien': 'itsukushima-torii', 're-weitere': 'goldener-tempel',
+  mythologie: 'geburt-der-venus', 'my-griechisch': 'laokoon', 'my-roemisch': 'kapitolinische-woelfin', 'my-germanisch': 'odin-sleipnir',
 };
 
 export const PHILOSOPHIE: CountryHistory = {
