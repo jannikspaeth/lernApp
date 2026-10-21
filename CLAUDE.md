@@ -121,14 +121,15 @@ Flow: `/login` → `/` (subjects) → Sprachen: `/heute` (→ `/sprache` for lan
   card's 5th entry may be an audio key (QuizCard plays it). Only PD/free recordings — no audio for copyrighted music.
   Check with `npx tsx scripts/check-musik.ts`.
 - **Philosophie** (`lib/philosophie/`, code `PHI`): areas (Antike, Mittelalter, Neuzeit und Aufklärung, 19. Jh.,
-  20. Jh. und Gegenwart, Östliche Philosophie, Weltreligionen) as `CountryHistory` epochs → schools/periods/religions (events, ids prefixed
-  `an-`, `ma-`, `nz-`, `jh-`, `zj-`, `os-`, `re-`) → overview + one chapter per thinker (12/12/10 questions, every one with
+  20. Jh. und Gegenwart, Östliche Philosophie, Weltreligionen, Mythologie) as `CountryHistory` epochs → schools/periods/religions (events, ids prefixed
+  `an-`, `ma-`, `nz-`, `jh-`, `zj-`, `os-`, `re-`, `my-`) → overview + one chapter per thinker (12/12/10 questions, every one with
   info). Routes `/philosophie/bereiche/[bereich]`, `/philosophie/[epoche]`, `/philosophie/[epoche]/[kapitel]`; progress
   `land.phi.<school>.<chapter>.<level>.<n>`; tiles `philoBereichTiles`/`philoEpochTiles`. Portraits
   `lib/philosophie/portraits.json` (`node scripts/fetch-bilder.mjs philosophie`, `public/philosophie`); chapters reuse
   keys from Kunst/Literatur/Geschichte where they exist (e.g. `voltaire`, `sartre`, `gandhi`, `schule-von-athen`) —
   never add a duplicate key (the check fails). Check with `npx tsx scripts/check-philosophie.ts`. The area Weltreligionen (`religionen`) has 7 events (Judentum, Christentum, Islam, Hinduismus, Buddhismus,
-  Religionen Ostasiens, Weitere Religionen) with 36 chapters on religions instead of thinkers. The old flat topics in
+  Religionen Ostasiens, Weitere Religionen) with 36 chapters on religions instead of thinkers; Mythologie (`mythologie`) has 8 events (griechisch, römisch,
+  germanisch, ägyptisch, mesopotamisch, keltisch/Artus, Mittel- und Südamerika, weitere) with 27 chapters. The old flat topics in
   `lib/wissen/philosophie.ts` (Denker, Weltreligionen, Mythologie) stay as "Schnell üben" tiles.
 - Modes: **Quiz** (4 options) or **Flashcards** (reveal + self-grade), per-device choice. Rounds of 10:
   due first, then new (`pickRound`). SRS in `lib/wissen/progress.ts` (levels 0–6, 0/1/3/7/14/30/60 days,

@@ -1354,5 +1354,265 @@
     "artist": "",
     "year": "um 1000",
     "file": "Beowulf Cotton MS Vitellius A XV f. 132r.jpg"
+  },
+  "ra-horachte": {
+    "wiki": "Re (ägyptische Mythologie)",
+    "title": "Der Sonnengott Ra-Harachte (moderne Zeichnung)",
+    "artist": "",
+    "year": ""
+  },
+  "anubis": {
+    "wiki": "Anubis",
+    "title": "Statue des Anubis",
+    "artist": "Gregorianisch-Ägyptisches Museum, Vatikan",
+    "year": "",
+    "file": "Statue of Anubis, Inv. 22840 (Gregorian Egyptian Museum).jpg"
+  },
+  "bastet": {
+    "wiki": "Bastet",
+    "title": "Die Gayer-Anderson-Katze, ein Bild der Bastet",
+    "artist": "British Museum",
+    "year": "um 600 v. Chr.",
+    "file": "Gayer-Anderson Cat, British Museum.jpg"
+  },
+  "totengericht": {
+    "wiki": "Totengericht",
+    "title": "Das Wiegen des Herzens im Totenbuch des Hunefer",
+    "artist": "",
+    "year": "um 1300 v. Chr.",
+    "file": "El pesado del corazón en el Papiro de Hunefer.jpg"
+  },
+  "tutanchamun-maske": {
+    "wiki": "Totenmaske des Tutanchamun",
+    "title": "Die Totenmaske des Tutanchamun",
+    "artist": "",
+    "year": "um 1323 v. Chr.",
+    "file": "CairoEgMuseumTaaMaskMostlyPhotographed.jpg"
+  },
+  "pyramiden-gizeh": {
+    "wiki": "Pyramiden von Gizeh",
+    "title": "Die Pyramiden von Gizeh",
+    "artist": "",
+    "year": ""
+  },
+  "osiris": {
+    "wiki": "Osiris",
+    "title": "Osiris im Grab des Sennedjem",
+    "artist": "",
+    "year": "um 1250 v. Chr.",
+    "file": "Deir el-Medina-10-Grab 1-Sennedjem-Osiris-1982-gje.jpg"
+  },
+  "isis-horus": {
+    "wiki": "Isis",
+    "title": "Isis stillt das Horuskind",
+    "artist": "Museo Egizio, Turin",
+    "year": "",
+    "file": "Statuette of Isis nursing Horus, alabaster - Museo Egizio (Turin) C 173 p01.jpg"
+  },
+  "ischtar-tor": {
+    "wiki": "Ischtar-Tor",
+    "title": "Das Ischtar-Tor im Pergamonmuseum",
+    "artist": "",
+    "year": "um 575 v. Chr.",
+    "file": "Ishtar gate in Pergamon museum.jpg"
+  },
+  "zikkurat-ur": {
+    "wiki": "Zikkurat von Ur",
+    "title": "Die Zikkurat von Ur",
+    "artist": "",
+    "year": "",
+    "file": "Ancient ziggurat at Ali Air Base Iraq 2005.jpg"
+  },
+  "burney-relief": {
+    "wiki": "Burney-Relief",
+    "title": "Das Burney-Relief („Königin der Nacht“)",
+    "artist": "",
+    "year": "um 1800–1750 v. Chr.",
+    "file": "British Museum Queen of the Night.jpg"
+  },
+  "sintfluttafel": {
+    "wiki": "Gilgamesch-Epos",
+    "title": "Die Sintfluttafel des Gilgamesch-Epos",
+    "artist": "British Museum",
+    "year": "7. Jh. v. Chr."
+  },
+  "gilgamesch-relief": {
+    "wiki": "Gilgamesch",
+    "title": "Held mit Löwe aus dem Palast Sargons II.",
+    "artist": "Louvre",
+    "year": "8. Jh. v. Chr."
+  },
+  "gundestrup-kessel": {
+    "wiki": "Kessel von Gundestrup",
+    "title": "Der Kessel von Gundestrup",
+    "artist": "",
+    "year": "um 100 v. Chr."
+  },
+  "newgrange": {
+    "wiki": "Newgrange",
+    "title": "Newgrange in Irland",
+    "artist": "",
+    "year": "um 3200 v. Chr."
+  },
+  "cuchulainn": {
+    "wiki": "Cú Chulainn",
+    "title": "Der Tod des Cú Chulainn, Statue im General Post Office in Dublin",
+    "artist": "Oliver Sheppard",
+    "year": "1911–1912",
+    "file": "Cúchulainn statue.jpg"
+  },
+  "tafelrunde": {
+    "wiki": "Tafelrunde",
+    "title": "Die Ritter der Tafelrunde und die Erscheinung des Grals",
+    "artist": "Französische Buchmalerei",
+    "year": "15. Jh."
+  },
+  "dame-vom-see": {
+    "wiki": "Herrin vom See",
+    "title": "König Artus bittet die Dame vom See um Excalibur",
+    "artist": "Walter Crane",
+    "year": "1911",
+    "file": "CRANE King Arthur asks the lady of the lake for the sword Excalibur.jpg"
+  },
+  "tristan-isolde": {
+    "wiki": "Tristan und Isolde",
+    "title": "Tristan und Isolde beim Schachspiel auf dem Schiff",
+    "artist": "Französische Buchmalerei",
+    "year": "um 1470"
+  },
+  "sonnenstein": {
+    "wiki": "Sonnenstein (Azteken)",
+    "title": "Der Sonnenstein der Azteken",
+    "artist": "Museo Nacional de Antropología, Mexiko-Stadt",
+    "year": "",
+    "en": "Aztec sun stone"
+  },
+  "quetzalcoatl": {
+    "wiki": "Quetzalcoatl",
+    "title": "Kopf der Gefiederten Schlange am Tempel in Teotihuacan",
+    "artist": "",
+    "year": "um 200 n. Chr."
+  },
+  "teotihuacan": {
+    "wiki": "Teotihuacán",
+    "title": "Teotihuacan mit der Sonnenpyramide",
+    "artist": "",
+    "year": ""
+  },
+  "machu-picchu": {
+    "wiki": "Machu Picchu",
+    "title": "Machu Picchu",
+    "artist": "",
+    "year": ""
+  },
+  "titicacasee": {
+    "wiki": "Titicacasee",
+    "title": "Der Titicacasee",
+    "artist": "",
+    "year": "",
+    "file": "Lake Titicaca on the Andes from Bolivia.jpg"
+  },
+  "inti-raymi": {
+    "wiki": "Inti Raymi",
+    "title": "Das Sonnenfest Inti Raymi in Cusco",
+    "artist": "",
+    "year": ""
+  },
+  "chichen-itza": {
+    "wiki": "Chichén Itzá",
+    "title": "Die Pyramide El Castillo in Chichén Itzá",
+    "artist": "",
+    "year": "",
+    "file": "El Castillo Stitch 2008 Edit 1.jpg"
+  },
+  "popol-vuh": {
+    "wiki": "Popol Vuh",
+    "title": "Erste Seite der Popol-Vuh-Abschrift von Francisco Ximénez",
+    "artist": "",
+    "year": "um 1701",
+    "file": "Empiezan las historias(Popol vuh).jpg"
+  },
+  "ballspielplatz": {
+    "wiki": "Mesoamerikanisches Ballspiel",
+    "title": "Ballspielplatz in Monte Albán",
+    "artist": "",
+    "year": ""
+  },
+  "baba-jaga": {
+    "wiki": "Baba Jaga",
+    "title": "Baba Jaga",
+    "artist": "Iwan Bilibin",
+    "year": "1900"
+  },
+  "perun-idol": {
+    "wiki": "Perun",
+    "title": "Perun (moderne Darstellung)",
+    "artist": "",
+    "year": ""
+  },
+  "swantewit": {
+    "wiki": "Svantevit",
+    "title": "Swantewit mit vier Gesichtern",
+    "artist": "",
+    "year": ""
+  },
+  "sampo-verteidigung": {
+    "wiki": "Sampo",
+    "title": "Die Verteidigung des Sampo",
+    "artist": "Akseli Gallen-Kallela",
+    "year": "1896"
+  },
+  "aino-triptychon": {
+    "wiki": "Aino (Mythologie)",
+    "title": "Aino-Triptychon",
+    "artist": "Akseli Gallen-Kallela",
+    "year": "1891",
+    "file": "Akseli Gallen-Kallela - Aino Myth, Triptych - Google Art Project.jpg"
+  },
+  "lemminkainen-mutter": {
+    "wiki": "Lemminkäinen",
+    "title": "Lemminkäinens Mutter",
+    "artist": "Akseli Gallen-Kallela",
+    "year": "1897"
+  },
+  "nuewa-fuxi": {
+    "wiki": "Nüwa",
+    "title": "Nüwa und Fuxi",
+    "artist": "Seidenmalerei aus Astana",
+    "year": "7. Jh.",
+    "file": "Anonymous-Fuxi and Nüwa2.jpg"
+  },
+  "drachen-neun": {
+    "wiki": "Neun-Drachen-Wand",
+    "title": "Die Neun-Drachen-Wand in Peking",
+    "artist": "",
+    "year": "",
+    "file": "20090528 Beijing Nine Dragon Wall 7984.jpg"
+  },
+  "change-mond": {
+    "wiki": "Chang’e",
+    "title": "Chang’e fliegt zum Mond",
+    "artist": "",
+    "year": ""
+  },
+  "moai": {
+    "wiki": "Moai",
+    "title": "Moai auf der Osterinsel",
+    "artist": "",
+    "year": ""
+  },
+  "maori-schnitzerei": {
+    "wiki": "Whare whakairo",
+    "title": "Māori-Schnitzerei",
+    "artist": "",
+    "year": "",
+    "en": "Māori carving"
+  },
+  "kilauea": {
+    "wiki": "Kīlauea",
+    "title": "Lavasee im Krater des Kīlauea",
+    "artist": "",
+    "year": "",
+    "file": "Kilauea Lava Lake (12792432484).jpg"
   }
 }

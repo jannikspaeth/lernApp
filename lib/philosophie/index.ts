@@ -26,6 +26,11 @@ import { RE_WEITERE } from './re-weitere';
 import { MY_GRIECHISCH } from './my-griechisch';
 import { MY_ROEMISCH } from './my-roemisch';
 import { MY_GERMANISCH } from './my-germanisch';
+import { MY_AEGYPTISCH } from './my-aegyptisch';
+import { MY_MESOPOTAMIEN } from './my-mesopotamien';
+import { MY_KELTEN } from './my-kelten';
+import { MY_AMERIKA } from './my-amerika';
+import { MY_WEITERE } from './my-weitere';
 
 // Philosophie: areas (epochs: periods, regions or the world religions) → schools or periods (events) → overview +
 // one chapter per thinker (subtopics), reusing the history types. Progress is stored like the
@@ -81,7 +86,7 @@ const RAW: CountryHistory = {
       id: 'mythologie',
       name: 'Mythologie',
       period: 'um 2500 v. Chr. – heute',
-      events: [MY_GRIECHISCH, MY_ROEMISCH, MY_GERMANISCH],
+      events: [MY_GRIECHISCH, MY_ROEMISCH, MY_GERMANISCH, MY_AEGYPTISCH, MY_MESOPOTAMIEN, MY_KELTEN, MY_AMERIKA, MY_WEITERE],
     },
   ],
 };
@@ -112,6 +117,8 @@ const COVERS: Record<string, string> = {
   religionen: 'klagemauer', 're-judentum': 'tora-rolle', 're-christentum': 'abendmahl', 're-islam': 'kaaba', 're-hinduismus': 'shiva-nataraja', 're-buddhismus': 'dalai-lama',
   're-ostasien': 'itsukushima-torii', 're-weitere': 'goldener-tempel',
   mythologie: 'geburt-der-venus', 'my-griechisch': 'laokoon', 'my-roemisch': 'kapitolinische-woelfin', 'my-germanisch': 'odin-sleipnir',
+  'my-aegyptisch': 'totengericht', 'my-mesopotamien': 'ischtar-tor',
+  'my-kelten': 'tafelrunde', 'my-amerika': 'sonnenstein', 'my-weitere': 'moai',
 };
 
 export const PHILOSOPHIE: CountryHistory = {
