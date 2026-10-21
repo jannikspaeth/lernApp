@@ -5,6 +5,7 @@ import { LITERATUR, LITERATUR_CODE } from '@/lib/literatur';
 import { KUNST, KUNST_CODE } from '@/lib/kunst';
 import { MUSIK, MUSIK_CODE } from '@/lib/musik';
 import { PHILOSOPHIE, PHILO_CODE } from '@/lib/philosophie';
+import { WISSENSCHAFT, WIS_CODE } from '@/lib/wissenschaft';
 import { bildView } from '@/lib/bild';
 import { DETAILED } from '@/lib/laender';
 import { COUNTRIES } from '@/lib/welt';
@@ -104,6 +105,34 @@ export function philoEpochTiles(g: Epoch): Tile[] {
     cover: cover(ev.cover),
     tint: TINTS[i % TINTS.length],
     code: PHILO_CODE,
+    items: items([ev]),
+  }));
+}
+
+// Wissenschaft: one tile per area (Weltall, Physik, Chemie …).
+export function wisBereichTiles(): Tile[] {
+  return WISSENSCHAFT.epochs.map((g, i) => ({
+    key: g.id,
+    href: `/wissenschaft/bereiche/${g.id}`,
+    title: g.name,
+    sub: `${g.events.length} Themen · ${chapters(g.events)} Kapitel`,
+    cover: cover(g.cover, 'center'),
+    tint: TINTS[i % TINTS.length],
+    code: WIS_CODE,
+    items: items(g.events),
+  }));
+}
+
+// Wissenschaft: the topics of one area.
+export function wisEpochTiles(g: Epoch): Tile[] {
+  return g.events.map((ev, i) => ({
+    key: ev.id,
+    href: `/wissenschaft/${ev.id}`,
+    title: ev.title,
+    sub: `${ev.subtopics?.length ?? 0} Kapitel`,
+    cover: cover(ev.cover, 'center'),
+    tint: TINTS[i % TINTS.length],
+    code: WIS_CODE,
     items: items([ev]),
   }));
 }

@@ -2,11 +2,12 @@ import { notFound } from 'next/navigation';
 import { MIX, SUBJECTS, getSubject } from '@/lib/wissen';
 import SubjectView from '@/components/wissen/SubjectView';
 import TileWall, { ContinueCard } from '@/components/wissen/TileWall';
-import { geschichteLandTiles, kunstEpochTiles, literaturLandTiles, musikGenreTiles, philoBereichTiles } from '@/lib/wissen/tiles';
+import { geschichteLandTiles, kunstEpochTiles, literaturLandTiles, musikGenreTiles, philoBereichTiles, wisBereichTiles } from '@/lib/wissen/tiles';
 import { KUNST } from '@/lib/kunst';
 import { LITERATUR } from '@/lib/literatur';
 import { MUSIK } from '@/lib/musik';
 import { PHILOSOPHIE } from '@/lib/philosophie';
+import { WISSENSCHAFT } from '@/lib/wissenschaft';
 import { categoryCover } from '@/lib/geografie/bilder';
 import QuizList from '@/components/geo/QuizList';
 import { QUIZZES } from '@/lib/geografie/quizzes';
@@ -57,6 +58,19 @@ function history(fach: string) {
         <>
           <ContinueCard prefix="/philosophie/" label="Weiter in der Philosophie" />
           <TileWall tiles={philoBereichTiles()} />
+        </>
+      ),
+    };
+  }
+  if (fach === 'wissenschaft') {
+    const n = WISSENSCHAFT.epochs.reduce((k, g) => k + g.events.reduce((m, ev) => m + (ev.subtopics?.length ?? 0), 0), 0);
+    return {
+      title: ['Science in depth', 'Wissenschaft im Detail'] as [string, string],
+      sub: [`${WISSENSCHAFT.epochs.length} areas, ${n} chapters`, `${WISSENSCHAFT.epochs.length} Bereiche, ${n} Kapitel`] as [string, string],
+      node: (
+        <>
+          <ContinueCard prefix="/wissenschaft/" label="Weiter in der Wissenschaft" />
+          <TileWall tiles={wisBereichTiles()} />
         </>
       ),
     };

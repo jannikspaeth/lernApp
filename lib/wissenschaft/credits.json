@@ -1,0 +1,531 @@
+{
+  "sonnensystem": {
+    "file": "Solar_System_True_Color_DE.png",
+    "author": "Omarius257",
+    "licence": "CC BY-SA 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Solar_System_True_Color_DE.png"
+  },
+  "sonne": {
+    "file": "Sun920607.jpg",
+    "author": "NASA",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Sun920607.jpg"
+  },
+  "sonnenfinsternis": {
+    "file": "Solar_eclipse_1999_4.jpg",
+    "author": "Luc Viatour",
+    "licence": "CC BY-SA 3.0",
+    "licenceUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Solar_eclipse_1999_4.jpg"
+  },
+  "merkur": {
+    "file": "Mercury_in_color_-_Prockter07-edit1.jpg",
+    "author": "National Aeronautics and Space Administration/Johns Hopkins University Applied Physics Laboratory/Carnegie Institution of Washington",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Mercury_in_color_-_Prockter07-edit1.jpg"
+  },
+  "venus-planet": {
+    "file": "PIA23791-Venus-RealAndEnhancedContrastViews-20200608_(cropped).jpg",
+    "author": "NASA/JPL-Caltech",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:PIA23791-Venus-RealAndEnhancedContrastViews-20200608_(cropped).jpg"
+  },
+  "blue-marble": {
+    "file": "The Earth seen from Apollo 17.jpg",
+    "author": "NASA/Apollo 17 crew; taken by either Harrison Schmitt or Ron Evans",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:The_Earth_seen_from_Apollo_17.jpg"
+  },
+  "vollmond": {
+    "file": "Full_Moon_Luc_Viatour.jpg",
+    "author": "Luc Viatour",
+    "licence": "CC BY-SA 3.0",
+    "licenceUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Full_Moon_Luc_Viatour.jpg"
+  },
+  "mars": {
+    "file": "Mars_-_August_30_2021_-_Flickr_-_Kevin_M._Gill.png",
+    "author": "Kevin Gill from Los Angeles, CA, United States",
+    "licence": "CC BY 2.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Mars_-_August_30_2021_-_Flickr_-_Kevin_M._Gill.png"
+  },
+  "perseverance": {
+    "file": "Mars_2020_selfie_containing_both_perseverance_rover_and_ingenuity.gif",
+    "author": "NASA",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Mars_2020_selfie_containing_both_perseverance_rover_and_ingenuity.gif"
+  },
+  "jupiter": {
+    "file": "Jupiter_OPAL_2024_(cropped).png",
+    "author": "NASA/STSCI (S.T.A.R.S)",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Jupiter_OPAL_2024_(cropped).png"
+  },
+  "planet-saturn": {
+    "file": "Saturn_from_Cassini_Orbiter_(2004-10-06).jpg",
+    "author": "NASA/JPL/Space Science Institute",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Saturn_from_Cassini_Orbiter_(2004-10-06).jpg"
+  },
+  "uranus": {
+    "file": "Uranus_Voyager2_color_calibrated.png",
+    "author": "Ardenau4",
+    "licence": "CC0",
+    "licenceUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:Uranus_Voyager2_color_calibrated.png"
+  },
+  "neptun": {
+    "file": "Neptune_Voyager2_color_calibrated,_brightened.png",
+    "author": "NASA / Voyager 2 / User:Ardenau4",
+    "licence": "CC0",
+    "licenceUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:Neptune_Voyager2_color_calibrated,_brightened.png"
+  },
+  "halleyscher-komet": {
+    "file": "Lspn_comet_halley.jpg",
+    "author": "NASA/W. Liller",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Lspn_comet_halley.jpg"
+  },
+  "hubble-ultra-deep-field": {
+    "file": "Hubble_ultra_deep_field_high_rez_edit1.jpg",
+    "author": "NASA and the European Space Agency. Edited by Noodle snacks",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Hubble_ultra_deep_field_high_rez_edit1.jpg"
+  },
+  "orion-sternbild": {
+    "file": "OrionCC.jpg",
+    "author": "Till Credner",
+    "licence": "CC BY-SA 3.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:OrionCC.jpg"
+  },
+  "orionnebel": {
+    "file": "Orion_Nebula_-_Hubble_2006_mosaic_18000.jpg",
+    "author": "NASA, ESA, M. Robberto (Space Telescope Science Institute/ESA) and the Hubble Space Telescope Orion Treasury Project Team",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Orion_Nebula_-_Hubble_2006_mosaic_18000.jpg"
+  },
+  "krebsnebel": {
+    "file": "The_Crab_Nebula_(weic2326a).jpg",
+    "author": "NASA, ESA, CSA, STScI, T. Temim (Princeton University)",
+    "licence": "CC BY 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:The_Crab_Nebula_(weic2326a).jpg"
+  },
+  "m87-schwarzes-loch": {
+    "file": "Black hole - Messier 87 crop max res.jpg",
+    "author": "Event Horizon Telescope, uploader cropped and converted TIF to JPG",
+    "licence": "CC BY 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Black_hole_-_Messier_87_crop_max_res.jpg"
+  },
+  "andromeda": {
+    "file": "M31-Andromede-16-09-2023-Hamois.jpg",
+    "author": "Lviatour",
+    "licence": "CC BY-SA 2.5",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+    "page": "https://commons.wikimedia.org/wiki/File:M31-Andromede-16-09-2023-Hamois.jpg"
+  },
+  "hintergrundstrahlung": {
+    "file": "WMAP_2012.png",
+    "author": "NASA / WMAP Science Team",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:WMAP_2012.png"
+  },
+  "trappist-1": {
+    "file": "Comparison_between_the_Sun_and_the_ultracool_dwarf_star_TRAPPIST-1.jpg",
+    "author": "ESO",
+    "licence": "CC BY 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Comparison_between_the_Sun_and_the_ultracool_dwarf_star_TRAPPIST-1.jpg"
+  },
+  "arecibo-teleskop": {
+    "file": "The_Arecibo_Observatory's_main_reflector_and_platform.jpg",
+    "author": "Juan.Alcaide231",
+    "licence": "CC BY-SA 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:The_Arecibo_Observatory%27s_main_reflector_and_platform.jpg"
+  },
+  "himmelsscheibe-nebra": {
+    "file": "Himmelsscheibe.Nebra.vorne.P1034154.jpg",
+    "author": "WFS.Berlin",
+    "licence": "CC0",
+    "licenceUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:Himmelsscheibe.Nebra.vorne.P1034154.jpg"
+  },
+  "ptolemaeus": {
+    "file": "Klaudios_Ptolemaios,_Venice,_Gr._Z._388.jpg",
+    "author": "Ptolemy",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Klaudios_Ptolemaios,_Venice,_Gr._Z._388.jpg"
+  },
+  "kopernikus": {
+    "file": "Kopernikus,_Nikolaus_-_Reußner_1578_Portrait1.jpg",
+    "author": "Christoph Murer, Tobias Stimmer",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Kopernikus,_Nikolaus_-_Reu%C3%9Fner_1578_Portrait1.jpg"
+  },
+  "heliozentrisches-weltbild": {
+    "file": "Copernican heliocentrism diagram.jpg",
+    "author": "Own work from Copernicus 1543",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Copernican_heliocentrism_diagram.jpg"
+  },
+  "kepler": {
+    "file": "Jean_Keppler.jpg",
+    "author": "Reproduction photographique Claude TRUONG-NGOC",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Jean_Keppler.jpg"
+  },
+  "tycho-brahe": {
+    "file": "Tycho_Brahe.JPG",
+    "author": "Eduard Ender (1822-1883)",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Tycho_Brahe.JPG"
+  },
+  "galilei-prozess": {
+    "file": "Galileo_before_the_Holy_Office_-_Joseph-Nicolas_Robert-Fleury,_1847.png",
+    "author": "Joseph-Nicolas Robert-Fleury",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Galileo_before_the_Holy_Office_-_Joseph-Nicolas_Robert-Fleury,_1847.png"
+  },
+  "william-herschel": {
+    "file": "William_Herschel01.jpg",
+    "author": "Lemuel Francis Abbott",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:William_Herschel01.jpg"
+  },
+  "caroline-herschel": {
+    "file": "1829_Melchior_Gommar_Tieleman,_Ölgemälde_Caroline_Herschel_Hannover.tif",
+    "author": "Ölgemälde: Melchior Gommar Tieleman; Foto des gemeinfreien Gemäldes: unbekannt",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:1829_Melchior_Gommar_Tieleman,_%C3%96lgem%C3%A4lde_Caroline_Herschel_Hannover.tif"
+  },
+  "edwin-hubble": {
+    "file": "Studio_portrait_photograph_of_Edwin_Powell_Hubble_(cropped).JPG",
+    "author": "Johan Hagemeyer",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Studio_portrait_photograph_of_Edwin_Powell_Hubble_(cropped).JPG"
+  },
+  "hawking": {
+    "file": "Stephen_Hawking.StarChild.jpg",
+    "author": "NASA",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Stephen_Hawking.StarChild.jpg"
+  },
+  "goddard-rakete": {
+    "file": "Dr._Robert_H._Goddard_-_GPN-2002-000131.jpg",
+    "author": "NASA",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Dr._Robert_H._Goddard_-_GPN-2002-000131.jpg"
+  },
+  "v2-rakete": {
+    "file": "Fusée_V2.jpg",
+    "author": "AElfwine",
+    "licence": "CC BY-SA 3.0",
+    "licenceUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Fus%C3%A9e_V2.jpg"
+  },
+  "sputnik": {
+    "file": "Sputnik_asm.jpg",
+    "author": "NSSDC, NASA[1]",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Sputnik_asm.jpg"
+  },
+  "gagarin": {
+    "file": "Yuri-Gagarin-1961-Helsinki-crop.jpg",
+    "author": "Arto Jousi / /Suomen valokuvataiteen museo / Alma Media / Uuden Suomen kokoelma",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Yuri-Gagarin-1961-Helsinki-crop.jpg"
+  },
+  "aldrin-mond": {
+    "file": "Aldrin Apollo 11 original.jpg",
+    "author": "Neil Armstrong",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Aldrin_Apollo_11_original.jpg"
+  },
+  "earthrise": {
+    "file": "NASA-Apollo8-Dec24-Earthrise.jpg",
+    "author": "NASA/Bill Anders",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:NASA-Apollo8-Dec24-Earthrise.jpg"
+  },
+  "iss": {
+    "file": "The_station_pictured_from_the_SpaceX_Crew_Dragon_1.jpg",
+    "author": "NASA",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:The_station_pictured_from_the_SpaceX_Crew_Dragon_1.jpg"
+  },
+  "space-shuttle": {
+    "file": "Sts115-s-040.jpg",
+    "author": "NASA",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Sts115-s-040.jpg"
+  },
+  "voyager": {
+    "file": "Voyager_spacecraft.jpg",
+    "author": "NASA/JPL",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Voyager_spacecraft.jpg"
+  },
+  "golden-record": {
+    "file": "The Sounds of Earth Record Cover - GPN-2000-001978.jpg",
+    "author": "NASA/JPL",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:The_Sounds_of_Earth_Record_Cover_-_GPN-2000-001978.jpg"
+  },
+  "hubble-teleskop": {
+    "file": "Hubble_01_Cropped.jpg",
+    "author": "NASA/JSC",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Hubble_01_Cropped.jpg"
+  },
+  "pillars-of-creation": {
+    "file": "Eagle_nebula_pillars.jpg",
+    "author": "Credit: NASA, Jeff Hester, and Paul Scowen (Arizona State University)",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Eagle_nebula_pillars.jpg"
+  },
+  "ariane-5": {
+    "file": "Ariane_5_with_James_Webb_Space_Telescope_Prelaunch_(51773093465).jpg",
+    "author": "Chris Gunn",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Ariane_5_with_James_Webb_Space_Telescope_Prelaunch_(51773093465).jpg"
+  },
+  "pluto": {
+    "file": "Pluto in True Color - High-Res.jpg",
+    "author": "NASA/Johns Hopkins University Applied Physics Laboratory/Southwest Research Institute/Alex Parker",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Pluto_in_True_Color_-_High-Res.jpg"
+  },
+  "milchstrasse": {
+    "file": "ESO - Milky Way.jpg",
+    "author": "ESO/S. Brunier",
+    "licence": "CC BY 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:ESO_-_Milky_Way.jpg"
+  },
+  "lemaitre": {
+    "file": "Lemaitre.jpg",
+    "author": "unknown photographer, probably a CalTech employee. Cropped by Artistosteles",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Lemaitre.jpg"
+  },
+  "hooker-teleskop": {
+    "file": "100 inch Hooker Telescope 900 px.jpg",
+    "author": "Ken Spencer",
+    "licence": "CC BY-SA 3.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:100_inch_Hooker_Telescope_900_px.jpg"
+  },
+  "falcon-9-landung": {
+    "file": "ORBCOMM-2 First-Stage Landing (23271687254).jpg",
+    "author": "SpaceX",
+    "licence": "CC0",
+    "licenceUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:ORBCOMM-2_First-Stage_Landing_(23271687254).jpg"
+  },
+  "archimedes": {
+    "file": "Retrato_de_un_erudito_(¿Arquímedes?),_por_Domenico_Fetti.jpg",
+    "author": "Domenico Fetti",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Retrato_de_un_erudito_(%C2%BFArqu%C3%ADmedes%3F),_por_Domenico_Fetti.jpg"
+  },
+  "archimedische-schraube": {
+    "file": "Archimedes_screw.JPG",
+    "author": "The original uploader was Ianmacm at English Wikipedia.",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Archimedes_screw.JPG"
+  },
+  "principia": {
+    "file": "Newton-Principia-Mathematica_1-500x700.jpg",
+    "author": "Isaac Newton",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Newton-Principia-Mathematica_1-500x700.jpg"
+  },
+  "joule": {
+    "file": "James_Prescott_Joule_by_John_Collier,_1882.jpg",
+    "author": "John Collier",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:James_Prescott_Joule_by_John_Collier,_1882.jpg"
+  },
+  "anders-celsius": {
+    "file": "Anders-Celsius-Head.jpg",
+    "author": "Olof Arenius",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Anders-Celsius-Head.jpg"
+  },
+  "boltzmann-grab": {
+    "file": "Boltzmann2.jpg",
+    "author": "Unknown authorUnknown author",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Boltzmann2.jpg"
+  },
+  "ueberschallknall": {
+    "file": "F4_p4_red_planedrop.jpg",
+    "author": "NASA photo",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:F4_p4_red_planedrop.jpg"
+  },
+  "christian-doppler": {
+    "file": "Cdoppler.jpg",
+    "author": "Unknown authorUnknown author",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Cdoppler.jpg"
+  },
+  "franklin-drachen": {
+    "file": "Benjamin_West,_English_(born_America)_-_Benjamin_Franklin_Drawing_Electricity_from_the_Sky_-_Google_Art_Project.jpg",
+    "author": "Benjamin West",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Benjamin_West,_English_(born_America)_-_Benjamin_Franklin_Drawing_Electricity_from_the_Sky_-_Google_Art_Project.jpg"
+  },
+  "leidener-flasche": {
+    "file": "Leid-flasch.gif",
+    "author": "The original uploader was WHell at German Wikipedia.",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Leid-flasch.gif"
+  },
+  "alessandro-volta": {
+    "file": "Alessandro_Volta.jpeg",
+    "author": "unbekannt",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Alessandro_Volta.jpeg"
+  },
+  "volta-saeule": {
+    "file": "Voltaic_pile.svg",
+    "author": "Borbrav, svg version by Luigi Chiesa",
+    "licence": "CC BY-SA 3.0",
+    "licenceUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Voltaic_pile.svg"
+  },
+  "faraday": {
+    "file": "M_Faraday_Th_Phillips_oil_1842.jpg",
+    "author": "Thomas Phillips",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:M_Faraday_Th_Phillips_oil_1842.jpg"
+  },
+  "faraday-weihnachtsvorlesung": {
+    "file": "Faraday_Michael_Christmas_lecture_detail.jpg",
+    "author": "Alexander Blaikley",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Faraday_Michael_Christmas_lecture_detail.jpg"
+  },
+  "maxwell": {
+    "file": "James_Clerk_Maxwell_big.jpg",
+    "author": "digitized from an engraving by G. J. Stodart from a photograph by Fergus of Greenock",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:James_Clerk_Maxwell_big.jpg"
+  },
+  "roentgen-hand": {
+    "file": "First medical X-ray by Wilhelm Röntgen of his wife Anna Bertha Ludwig's hand - 18951222.jpg",
+    "author": "Wilhelm Röntgen",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:First_medical_X-ray_by_Wilhelm_R%C3%B6ntgen_of_his_wife_Anna_Bertha_Ludwig%27s_hand_-_18951222.jpg"
+  },
+  "regenbogen": {
+    "file": "Double-alaskan-rainbow.jpg",
+    "author": "Eric Rolph at English Wikipedia",
+    "licence": "CC BY-SA 2.5",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+    "page": "https://commons.wikimedia.org/wiki/File:Double-alaskan-rainbow.jpg"
+  },
+  "prisma": {
+    "file": "Prism-side-fs_PNr°0117.jpg",
+    "author": "D-Kuru",
+    "licence": "CC BY-SA 3.0 at",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0/at/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:Prism-side-fs_PNr%C2%B00117.jpg"
+  },
+  "max-planck": {
+    "file": "Max_Planck_by_Hugo_Erfurth_1938cr_-_restoration1.jpg",
+    "author": "Hugo Erfurth",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Max_Planck_by_Hugo_Erfurth_1938cr_-_restoration1.jpg"
+  },
+  "solvay-1927": {
+    "file": "Solvay conference 1927.jpg",
+    "author": "Benjamin Couprie",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Solvay_conference_1927.jpg"
+  },
+  "einstein": {
+    "file": "Albert_Einstein_1921_by_F_Schmutzer.jpg",
+    "author": "Ferdinand Schmutzer",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Albert_Einstein_1921_by_F_Schmutzer.jpg"
+  },
+  "eddington-finsternis": {
+    "file": "Highest_resolution_image_of_the_1919_solar_eclipse.tif",
+    "author": "ESO/Landessternwarte Heidelberg-Königstuhl/F. W. Dyson, A. S. Eddington, &amp; C. Davidson",
+    "licence": "CC BY 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Highest_resolution_image_of_the_1919_solar_eclipse.tif"
+  },
+  "niels-bohr": {
+    "file": "Niels_Bohr.jpg",
+    "author": "The American Institute of Physics credits the photo [1] to AB Lagrelius &amp; Westphal, which is the Swedish company used by the Nobel Foundation for most photos of its book series Les Prix Nobel.",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Niels_Bohr.jpg"
+  },
+  "heisenberg": {
+    "file": "Bundesarchiv_Bild183-R57262,_Werner_Heisenberg.jpg",
+    "author": "Unknown authorUnknown author",
+    "licence": "CC BY-SA 3.0 de",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild183-R57262,_Werner_Heisenberg.jpg"
+  },
+  "marie-curie": {
+    "file": "Marie_Curie_(Nobel-Chem).jpg",
+    "author": "Fotograv. - Generalstabens Litografiska Anstalt Stockholm",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Marie_Curie_(Nobel-Chem).jpg"
+  },
+  "pierre-marie-curie": {
+    "file": "Pierre_Curie_by_Dujardin_c1906.jpg",
+    "author": "Dujardin",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Pierre_Curie_by_Dujardin_c1906.jpg"
+  },
+  "lise-meitner": {
+    "file": "Lise_Meitner_(edited_2).png",
+    "author": "Harris &amp; Ewing",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Lise_Meitner_(edited_2).png"
+  },
+  "atompilz-nagasaki": {
+    "file": "Nagasakibomb.jpg",
+    "author": "Charles Levy",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Nagasakibomb.jpg"
+  },
+  "peter-higgs": {
+    "file": "Nobel_Prize_24_2013.jpg",
+    "author": "Bengt Nyman",
+    "licence": "CC BY 2.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Nobel_Prize_24_2013.jpg"
+  },
+  "urkilogramm": {
+    "file": "Prototype kilogram replica.JPG",
+    "author": "Japs 88",
+    "licence": "CC BY-SA 3.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Prototype_kilogram_replica.JPG"
+  },
+  "perpetuum-mobile": {
+    "file": "Orffyreus Das Mersseburgische Perpetuum Mobile.jpg",
+    "author": "Johann Ernst Elias Bessler (Orffyreus)",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Orffyreus_Das_Mersseburgische_Perpetuum_Mobile.jpg"
+  },
+  "lhc-tunnel": {
+    "file": "CERN LHC Tunnel1.jpg",
+    "author": "Julian Herzog (Website)",
+    "licence": "CC BY-SA 3.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:CERN_LHC_Tunnel1.jpg"
+  }
+}

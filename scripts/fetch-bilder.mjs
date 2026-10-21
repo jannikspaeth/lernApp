@@ -11,6 +11,7 @@ const SETS = {
   geschichte: { registry: 'lib/geschichte/portraits.json', credits: 'lib/geschichte/credits.json', out: 'public/geschichte' },
   musik: { registry: 'lib/musik/portraits.json', credits: 'lib/musik/credits.json', out: 'public/musik' },
   philosophie: { registry: 'lib/philosophie/portraits.json', credits: 'lib/philosophie/credits.json', out: 'public/philosophie' },
+  wissenschaft: { registry: 'lib/wissenschaft/bilder.json', credits: 'lib/wissenschaft/credits.json', out: 'public/wissenschaft' },
   geografie: { registry: 'lib/geografie/bilder.json', credits: 'lib/geografie/credits.json', out: 'public/geo' },
 };
 
@@ -72,6 +73,7 @@ for (const key of keys) {
       licenceUrl: strip(md.LicenseUrl?.value) || undefined,
       page: info.descriptionurl,
     };
+    fs.writeFileSync(creditsFile, JSON.stringify(credits, null, 2) + '\n'); // saved per picture, so an aborted run keeps them
     console.log(`ok   ${key} ← ${file} [${licence}]`);
   } catch (e) {
     problems.push(`${key}: ${e.message}`);

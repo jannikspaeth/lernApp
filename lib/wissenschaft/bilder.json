@@ -1,0 +1,534 @@
+{
+  "sonnensystem": {
+    "wiki": "Sonnensystem",
+    "title": "Die Sonne und die acht Planeten",
+    "artist": "Grafik, nicht maßstabsgetreu",
+    "year": ""
+  },
+  "sonne": {
+    "wiki": "Sonne",
+    "title": "Die Sonne",
+    "artist": "NASA, Solar Dynamics Observatory",
+    "year": ""
+  },
+  "sonnenfinsternis": {
+    "wiki": "Sonnenfinsternis",
+    "title": "Totale Sonnenfinsternis mit Korona",
+    "artist": "",
+    "year": ""
+  },
+  "merkur": {
+    "wiki": "Merkur (Planet)",
+    "title": "Merkur",
+    "artist": "NASA, Sonde MESSENGER",
+    "year": ""
+  },
+  "venus-planet": {
+    "wiki": "Venus (Planet)",
+    "title": "Venus",
+    "artist": "NASA",
+    "year": ""
+  },
+  "blue-marble": {
+    "wiki": "The Blue Marble",
+    "title": "„The Blue Marble“",
+    "artist": "Besatzung von Apollo 17",
+    "year": "1972",
+    "en": "The Blue Marble",
+    "file": "The Earth seen from Apollo 17.jpg"
+  },
+  "vollmond": {
+    "wiki": "Mond",
+    "title": "Der Vollmond",
+    "artist": "",
+    "year": ""
+  },
+  "mars": {
+    "wiki": "Mars (Planet)",
+    "title": "Mars",
+    "artist": "Kevin M. Gill",
+    "year": ""
+  },
+  "perseverance": {
+    "wiki": "Perseverance (Rover)",
+    "title": "Rover Perseverance auf dem Mars (Selbstporträt)",
+    "artist": "NASA/JPL",
+    "year": ""
+  },
+  "jupiter": {
+    "wiki": "Jupiter (Planet)",
+    "title": "Jupiter mit dem Großen Roten Fleck",
+    "artist": "NASA/ESA",
+    "year": ""
+  },
+  "planet-saturn": {
+    "wiki": "Saturn (Planet)",
+    "title": "Saturn mit seinen Ringen",
+    "artist": "NASA, Sonde Cassini",
+    "year": ""
+  },
+  "uranus": {
+    "wiki": "Uranus (Planet)",
+    "title": "Uranus",
+    "artist": "NASA, Voyager 2",
+    "year": "1986"
+  },
+  "neptun": {
+    "wiki": "Neptun (Planet)",
+    "title": "Neptun",
+    "artist": "NASA, Voyager 2",
+    "year": "1989"
+  },
+  "pluto": {
+    "wiki": "Pluto (Zwergplanet)",
+    "title": "Pluto mit seinem „Herz“",
+    "artist": "NASA, New Horizons",
+    "year": "2015",
+    "file": "Pluto in True Color - High-Res.jpg"
+  },
+  "halleyscher-komet": {
+    "wiki": "Halleyscher Komet",
+    "title": "Der Halleysche Komet",
+    "artist": "",
+    "year": "1986"
+  },
+  "hubble-ultra-deep-field": {
+    "wiki": "Hubble Ultra Deep Field",
+    "title": "Hubble Ultra Deep Field",
+    "artist": "NASA/ESA, Hubble-Teleskop",
+    "year": "",
+    "en": "Hubble Ultra Deep Field"
+  },
+  "orion-sternbild": {
+    "wiki": "Orion (Sternbild)",
+    "title": "Das Sternbild Orion",
+    "artist": "",
+    "year": ""
+  },
+  "orionnebel": {
+    "wiki": "Orionnebel",
+    "title": "Der Orionnebel",
+    "artist": "NASA/ESA, Hubble-Teleskop",
+    "year": ""
+  },
+  "krebsnebel": {
+    "wiki": "Krebsnebel",
+    "title": "Der Krebsnebel, Rest der Supernova von 1054",
+    "artist": "NASA/ESA, Hubble-Teleskop",
+    "year": ""
+  },
+  "m87-schwarzes-loch": {
+    "wiki": "Messier 87",
+    "title": "Das Schwarze Loch in M87",
+    "artist": "Event Horizon Telescope",
+    "year": "2019",
+    "file": "Black hole - Messier 87 crop max res.jpg"
+  },
+  "milchstrasse": {
+    "wiki": "Milchstraße",
+    "title": "Die Milchstraße am Nachthimmel",
+    "artist": "ESO",
+    "year": "",
+    "file": "ESO - Milky Way.jpg"
+  },
+  "andromeda": {
+    "wiki": "Andromedagalaxie",
+    "title": "Die Andromedagalaxie",
+    "artist": "",
+    "year": ""
+  },
+  "hintergrundstrahlung": {
+    "wiki": "Kosmische Hintergrundstrahlung",
+    "title": "Die kosmische Hintergrundstrahlung",
+    "artist": "NASA, WMAP-Satellit",
+    "year": ""
+  },
+  "lemaitre": {
+    "wiki": "Georges Lemaître",
+    "title": "Georges Lemaître",
+    "artist": "",
+    "year": "",
+    "file": "Lemaitre.jpg"
+  },
+  "trappist-1": {
+    "wiki": "TRAPPIST-1",
+    "title": "Größenvergleich: die Sonne und der Zwergstern TRAPPIST-1",
+    "artist": "ESO",
+    "year": ""
+  },
+  "arecibo-teleskop": {
+    "wiki": "Arecibo-Observatorium",
+    "title": "Das Radioteleskop von Arecibo",
+    "artist": "",
+    "year": ""
+  },
+  "himmelsscheibe-nebra": {
+    "wiki": "Himmelsscheibe von Nebra",
+    "title": "Himmelsscheibe von Nebra",
+    "artist": "Bronzezeit",
+    "year": "um 1800–1600 v. Chr."
+  },
+  "ptolemaeus": {
+    "wiki": "Claudius Ptolemäus",
+    "title": "Claudius Ptolemäus (Phantasiebild)",
+    "artist": "",
+    "year": ""
+  },
+  "kopernikus": {
+    "wiki": "Nikolaus Kopernikus",
+    "title": "Nikolaus Kopernikus",
+    "artist": "",
+    "year": ""
+  },
+  "heliozentrisches-weltbild": {
+    "wiki": "De revolutionibus orbium coelestium",
+    "title": "Das heliozentrische Weltbild aus „De revolutionibus“",
+    "artist": "Nikolaus Kopernikus",
+    "year": "1543",
+    "file": "Copernican heliocentrism diagram.jpg"
+  },
+  "kepler": {
+    "wiki": "Johannes Kepler",
+    "title": "Johannes Kepler",
+    "artist": "",
+    "year": "1610"
+  },
+  "tycho-brahe": {
+    "wiki": "Tycho Brahe",
+    "title": "Tycho Brahe",
+    "artist": "",
+    "year": ""
+  },
+  "galilei-prozess": {
+    "wiki": "Galileo affair",
+    "title": "Galilei vor der Inquisition",
+    "artist": "Joseph-Nicolas Robert-Fleury",
+    "year": "1847",
+    "en": "Galileo affair"
+  },
+  "william-herschel": {
+    "wiki": "Wilhelm Herschel",
+    "title": "William Herschel",
+    "artist": "Lemuel Francis Abbott",
+    "year": "1785"
+  },
+  "caroline-herschel": {
+    "wiki": "Caroline Herschel",
+    "title": "Caroline Herschel",
+    "artist": "",
+    "year": ""
+  },
+  "edwin-hubble": {
+    "wiki": "Edwin Hubble",
+    "title": "Edwin Hubble",
+    "artist": "",
+    "year": ""
+  },
+  "hooker-teleskop": {
+    "wiki": "Hooker Telescope",
+    "title": "Das Hooker-Teleskop auf dem Mount Wilson",
+    "artist": "",
+    "year": "",
+    "en": "Hooker Telescope",
+    "file": "100 inch Hooker Telescope 900 px.jpg"
+  },
+  "hawking": {
+    "wiki": "Stephen Hawking",
+    "title": "Stephen Hawking",
+    "artist": "NASA",
+    "year": ""
+  },
+  "goddard-rakete": {
+    "wiki": "Robert H. Goddard",
+    "title": "Robert Goddard",
+    "artist": "",
+    "year": "",
+    "en": "Robert H. Goddard"
+  },
+  "v2-rakete": {
+    "wiki": "Aggregat 4",
+    "title": "Eine V2-Rakete",
+    "artist": "",
+    "year": ""
+  },
+  "sputnik": {
+    "wiki": "Sputnik 1",
+    "title": "Sputnik 1 (Nachbau)",
+    "artist": "",
+    "year": ""
+  },
+  "gagarin": {
+    "wiki": "Juri Alexejewitsch Gagarin",
+    "title": "Juri Gagarin",
+    "artist": "",
+    "year": ""
+  },
+  "aldrin-mond": {
+    "wiki": "Buzz Aldrin",
+    "title": "Buzz Aldrin auf dem Mond",
+    "artist": "Neil Armstrong, NASA",
+    "year": "1969",
+    "file": "Aldrin Apollo 11 original.jpg"
+  },
+  "earthrise": {
+    "wiki": "Earthrise",
+    "title": "„Earthrise“",
+    "artist": "William Anders, NASA",
+    "year": "1968",
+    "en": "Earthrise",
+    "file": "NASA-Apollo8-Dec24-Earthrise.jpg"
+  },
+  "iss": {
+    "wiki": "Internationale Raumstation",
+    "title": "Die Internationale Raumstation",
+    "artist": "NASA",
+    "year": ""
+  },
+  "space-shuttle": {
+    "wiki": "Space Shuttle",
+    "title": "Start eines Space Shuttles",
+    "artist": "NASA",
+    "year": ""
+  },
+  "voyager": {
+    "wiki": "Voyager 1",
+    "title": "Eine Voyager-Sonde",
+    "artist": "NASA/JPL",
+    "year": ""
+  },
+  "golden-record": {
+    "wiki": "Voyager Golden Record",
+    "title": "Die „Golden Record“ der Voyager-Sonden",
+    "artist": "NASA/JPL",
+    "year": "1977",
+    "en": "Voyager Golden Record",
+    "file": "The Sounds of Earth Record Cover - GPN-2000-001978.jpg"
+  },
+  "hubble-teleskop": {
+    "wiki": "Hubble-Weltraumteleskop",
+    "title": "Das Hubble-Weltraumteleskop",
+    "artist": "NASA",
+    "year": ""
+  },
+  "pillars-of-creation": {
+    "wiki": "Säulen der Schöpfung",
+    "title": "„Säulen der Schöpfung“ im Adlernebel",
+    "artist": "NASA/ESA, Hubble-Teleskop",
+    "year": ""
+  },
+  "falcon-9-landung": {
+    "wiki": "Falcon 9",
+    "title": "Landung der ersten Falcon-9-Erststufe",
+    "artist": "SpaceX",
+    "year": "2015",
+    "file": "ORBCOMM-2 First-Stage Landing (23271687254).jpg"
+  },
+  "ariane-5": {
+    "wiki": "Ariane 5",
+    "title": "Start einer Ariane 5",
+    "artist": "",
+    "year": ""
+  },
+  "urkilogramm": {
+    "wiki": "Urkilogramm",
+    "title": "Nachbildung des Urkilogramms",
+    "artist": "",
+    "year": "",
+    "file": "Prototype kilogram replica.JPG"
+  },
+  "archimedes": {
+    "wiki": "Archimedes",
+    "title": "Archimedes",
+    "artist": "Domenico Fetti",
+    "year": "1620"
+  },
+  "archimedische-schraube": {
+    "wiki": "Archimedische Schraube",
+    "title": "Archimedische Schraube",
+    "artist": "",
+    "year": ""
+  },
+  "principia": {
+    "wiki": "Philosophiae Naturalis Principia Mathematica",
+    "title": "Titelblatt der „Principia“",
+    "artist": "Isaac Newton",
+    "year": "1687"
+  },
+  "joule": {
+    "wiki": "James Prescott Joule",
+    "title": "James Prescott Joule",
+    "artist": "",
+    "year": ""
+  },
+  "perpetuum-mobile": {
+    "wiki": "Perpetuum mobile",
+    "title": "Das Perpetuum mobile des Orffyreus",
+    "artist": "",
+    "year": "1715",
+    "file": "Orffyreus Das Mersseburgische Perpetuum Mobile.jpg"
+  },
+  "anders-celsius": {
+    "wiki": "Anders Celsius",
+    "title": "Anders Celsius",
+    "artist": "Olof Arenius",
+    "year": ""
+  },
+  "boltzmann-grab": {
+    "wiki": "Ludwig Boltzmann",
+    "title": "Ludwig Boltzmann",
+    "artist": "",
+    "year": ""
+  },
+  "ueberschallknall": {
+    "wiki": "Überschallknall",
+    "title": "Stoßwellen zweier Überschallflugzeuge (Schlierenaufnahme)",
+    "artist": "NASA",
+    "year": "2019"
+  },
+  "christian-doppler": {
+    "wiki": "Christian Doppler",
+    "title": "Christian Doppler",
+    "artist": "",
+    "year": ""
+  },
+  "franklin-drachen": {
+    "wiki": "Benjamin Franklin Drawing Electricity from the Sky",
+    "title": "Benjamin Franklin holt die Elektrizität vom Himmel",
+    "artist": "Benjamin West",
+    "year": "um 1816",
+    "en": "Benjamin Franklin Drawing Electricity from the Sky"
+  },
+  "leidener-flasche": {
+    "wiki": "Leidener Flasche",
+    "title": "Leidener Flasche",
+    "artist": "",
+    "year": ""
+  },
+  "alessandro-volta": {
+    "wiki": "Alessandro Volta",
+    "title": "Alessandro Volta",
+    "artist": "",
+    "year": ""
+  },
+  "volta-saeule": {
+    "wiki": "Voltasche Säule",
+    "title": "Voltasche Säule",
+    "artist": "",
+    "year": ""
+  },
+  "faraday": {
+    "wiki": "Michael Faraday",
+    "title": "Michael Faraday",
+    "artist": "",
+    "year": ""
+  },
+  "faraday-weihnachtsvorlesung": {
+    "wiki": "Royal Institution Christmas Lectures",
+    "title": "Faraday bei einer Weihnachtsvorlesung",
+    "artist": "Alexander Blaikley",
+    "year": "1856",
+    "en": "Royal Institution Christmas Lectures"
+  },
+  "maxwell": {
+    "wiki": "James Clerk Maxwell",
+    "title": "James Clerk Maxwell",
+    "artist": "",
+    "year": ""
+  },
+  "roentgen-hand": {
+    "wiki": "Röntgenstrahlung",
+    "title": "Röntgenbild der Hand von Anna Bertha Röntgen",
+    "artist": "Wilhelm Conrad Röntgen",
+    "year": "1895",
+    "file": "First medical X-ray by Wilhelm Röntgen of his wife Anna Bertha Ludwig's hand - 18951222.jpg"
+  },
+  "regenbogen": {
+    "wiki": "Regenbogen",
+    "title": "Regenbogen",
+    "artist": "",
+    "year": ""
+  },
+  "prisma": {
+    "wiki": "Prisma (Optik)",
+    "title": "Lichtzerlegung im Prisma",
+    "artist": "",
+    "year": ""
+  },
+  "max-planck": {
+    "wiki": "Max Planck",
+    "title": "Max Planck",
+    "artist": "",
+    "year": ""
+  },
+  "solvay-1927": {
+    "wiki": "Solvay-Konferenz",
+    "title": "Die Solvay-Konferenz 1927",
+    "artist": "Benjamin Couprie",
+    "year": "1927",
+    "file": "Solvay conference 1927.jpg"
+  },
+  "einstein": {
+    "wiki": "Albert Einstein",
+    "title": "Albert Einstein",
+    "artist": "",
+    "year": ""
+  },
+  "eddington-finsternis": {
+    "wiki": "Eddington experiment",
+    "title": "Aufnahme der Sonnenfinsternis von 1919",
+    "artist": "Arthur Eddington, Frank Dyson",
+    "year": "1919",
+    "en": "Eddington experiment"
+  },
+  "niels-bohr": {
+    "wiki": "Niels Bohr",
+    "title": "Niels Bohr",
+    "artist": "",
+    "year": ""
+  },
+  "heisenberg": {
+    "wiki": "Werner Heisenberg",
+    "title": "Werner Heisenberg",
+    "artist": "",
+    "year": ""
+  },
+  "marie-curie": {
+    "wiki": "Marie Curie",
+    "title": "Marie Curie",
+    "artist": "",
+    "year": ""
+  },
+  "pierre-marie-curie": {
+    "wiki": "Pierre Curie",
+    "title": "Pierre Curie",
+    "artist": "",
+    "year": "",
+    "en": "Pierre Curie"
+  },
+  "lise-meitner": {
+    "wiki": "Lise Meitner",
+    "title": "Lise Meitner",
+    "artist": "",
+    "year": ""
+  },
+  "atompilz-nagasaki": {
+    "wiki": "Atombombenabwürfe auf Hiroshima und Nagasaki",
+    "title": "Atompilz über Nagasaki",
+    "artist": "US Army",
+    "year": "1945",
+    "file": "Nagasakibomb.jpg"
+  },
+  "lhc-tunnel": {
+    "wiki": "Large Hadron Collider",
+    "title": "Der Tunnel des Large Hadron Collider",
+    "artist": "CERN",
+    "year": "",
+    "file": "CERN LHC Tunnel1.jpg"
+  },
+  "peter-higgs": {
+    "wiki": "Peter Higgs",
+    "title": "Peter Higgs",
+    "artist": "",
+    "year": ""
+  }
+}
