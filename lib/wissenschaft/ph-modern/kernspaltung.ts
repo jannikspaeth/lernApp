@@ -37,9 +37,9 @@ export const KERNSPALTUNG: Subtopic = {
       ['Wer brachte 1942 in Chicago den ersten Kernreaktor zum Laufen?', 'Enrico Fermi', ['J. Robert Oppenheimer', 'Otto Hahn', 'Niels Bohr'], 'Am 2. Dezember 1942.'],
       ['Wie hieß der erste Atombombentest 1945?', '„Trinity“', ['„Manhattan“', '„Little Boy“', '„Fat Man“'], 'In der Wüste von New Mexico.'],
       ['Aus welchem Buch zitierte Oppenheimer „Jetzt bin ich der Tod geworden“?', 'Aus der Bhagavad Gita', ['Aus der Bibel', 'Aus Goethes Faust', 'Aus Shakespeares Hamlet'], 'Ein indischer heiliger Text.'],
-      ['Wer erhielt den Nobelpreis für die Entdeckung der Kernspaltung?', 'Otto Hahn allein', ['Hahn und Meitner gemeinsam', 'Lise Meitner allein', 'Fermi und Hahn'], 'Ein berühmtes Versäumnis.'],
+      ['Wer erhielt den Nobelpreis für die Entdeckung der Kernspaltung?', 'Otto Hahn', ['Hahn und Meitner gemeinsam', 'Lise Meitner', 'Fermi und Hahn'], 'Ein berühmtes Versäumnis.'],
       ['Welches Element ist nach Lise Meitner benannt?', 'Meitnerium', ['Curium', 'Einsteinium', 'Hahnium'], 'Element 109.'],
-      ['Was zerstörte 2011 die Kühlung in Fukushima?', 'Ein Tsunami', ['Ein Brand', 'Ein Flugzeugabsturz', 'Ein Bedienfehler allein'], 'Nach einem schweren Erdbeben.'],
+      ['Was zerstörte 2011 die Kühlung in Fukushima?', 'Ein Tsunami', ['Ein Brand', 'Ein Flugzeugabsturz', 'Ein Bedienfehler'], 'Nach einem schweren Erdbeben.'],
       ['Wo ging 1954 das erste Kernkraftwerk ans Stromnetz?', 'In Obninsk in der Sowjetunion', ['In Chicago', 'In Calder Hall', 'In Karlsruhe'], 'Südwestlich von Moskau.'],
     ],
     schwer: [

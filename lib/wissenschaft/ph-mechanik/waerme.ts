@@ -19,7 +19,7 @@ export const WAERME: Subtopic = {
       ['Bei wie viel Grad Celsius liegt der absolute Nullpunkt?', 'Bei –273,15 °C', ['Bei 0 °C', 'Bei –100 °C', 'Bei –1.000 °C'], 'Kälter geht es nicht.'],
       ['Wie viele Grad liegen auf der Celsius-Skala zwischen Gefrier- und Siedepunkt des Wassers?', '100', ['180', '273', '50'], 'Von 0 bis 100 Grad.'],
       ['In welchem Land benutzt man im Alltag noch Grad Fahrenheit?', 'In den USA', ['In Deutschland', 'In Frankreich', 'In Japan'], 'Nach Daniel Gabriel Fahrenheit.'],
-      ['Warum schwimmt Eis auf dem Wasser?', 'Wasser dehnt sich beim Gefrieren aus', ['Eis ist hohl', 'Eis enthält Luftblasen allein', 'Eis ist schwerer'], 'Die Dichteanomalie des Wassers.'],
+      ['Warum schwimmt Eis auf dem Wasser?', 'Wasser dehnt sich beim Gefrieren aus', ['Eis ist hohl', 'Eis enthält Luftblasen', 'Eis ist schwerer'], 'Die Dichteanomalie des Wassers.'],
       ['Welche drei Aggregatzustände kennt man aus dem Alltag?', 'Fest, flüssig, gasförmig', ['Heiß, warm, kalt', 'Hart, weich, flüssig', 'Groß, mittel, klein'], 'Je nach Temperatur.'],
       ['Wie erreicht uns die Wärme der Sonne?', 'Durch Wärmestrahlung', ['Durch Wärmeleitung', 'Durch Konvektion', 'Durch Wind'], 'Auch durch das Vakuum.'],
       ['Welche Stoffe leiten Wärme gut?', 'Metalle', ['Holz', 'Styropor', 'Luft'], 'Deshalb wird ein Metalllöffel im Tee heiß.'],

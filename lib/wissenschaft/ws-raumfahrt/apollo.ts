@@ -40,7 +40,7 @@ export const APOLLO: Subtopic = {
       ['Womit fuhren die Astronauten ab Apollo 15?', 'Mit einem elektrischen Mondauto', ['Mit Fahrrädern', 'Mit einem Raupenfahrzeug mit Benzin', 'Gar nicht'], 'Dem Lunar Roving Vehicle.'],
       ['Warum mussten die Apollo-11-Astronauten nach der Rückkehr in Quarantäne?', 'Man fürchtete Mondkeime', ['Sie waren krank', 'Wegen der Strahlung', 'Aus Geheimhaltung'], 'Drei Wochen lang.'],
       ['Wie hoch war die Saturn V?', 'Etwa 110 Meter', ['Etwa 11 Meter', 'Etwa 50 Meter', 'Etwa 300 Meter'], 'Fast 3.000 Tonnen beim Start.'],
-      ['Was beweist bis heute, dass die Mondlandungen stattfanden?', 'Laser-Reflektoren und Fotos der Landestellen', ['Nur die Fernsehbilder', 'Die Aussagen der Astronauten allein', 'Nichts'], 'Mit Fußspuren.'],
+      ['Was beweist bis heute, dass die Mondlandungen stattfanden?', 'Laser-Reflektoren und Fotos der Landestellen', ['Nur die Fernsehbilder', 'Die Aussagen der Astronauten', 'Nichts'], 'Mit Fußspuren.'],
     ],
     schwer: [
       ['Wie viele Menschen arbeiteten auf dem Höhepunkt am Apollo-Programm?', 'Rund 400.000', ['Rund 4.000', 'Rund 40.000', 'Rund 4 Millionen'], 'In Behörden und Firmen.'],

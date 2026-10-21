@@ -20,7 +20,7 @@ export const FARADAY: Subtopic = {
       ['Wessen Gehilfe wurde Faraday 1813?', 'Humphry Davy', ['Isaac Newton', 'Alessandro Volta', 'James Watt'], 'An der Royal Institution in London.'],
       ['Welche Maschine verwandelt Bewegung in Strom?', 'Der Generator', ['Der Elektromotor', 'Die Batterie', 'Die Glühbirne'], 'Sie beruht auf der Induktion.'],
       ['Welches Prinzip zeigte Faradays Apparatur von 1821?', 'Das des Elektromotors', ['Das der Dampfmaschine', 'Das des Telefons', 'Das des Radios'], 'Ein Draht kreiste um einen Magneten.'],
-      ['Was schützt die Insassen eines Autos bei einem Blitzeinschlag?', 'Der Faradaysche Käfig', ['Die Gummireifen allein', 'Die Klimaanlage', 'Das Radio'], 'Im geschlossenen Metallkäfig gibt es kein Feld.'],
+      ['Was schützt die Insassen eines Autos bei einem Blitzeinschlag?', 'Der Faradaysche Käfig', ['Die Gummireifen', 'Die Klimaanlage', 'Das Radio'], 'Im geschlossenen Metallkäfig gibt es kein Feld.'],
       ['Wie kann man magnetische Feldlinien sichtbar machen?', 'Mit Eisenfeilspänen auf Papier', ['Mit Wasser', 'Mit Licht', 'Mit Salz'], 'Sie ordnen sich entlang der Linien.'],
       ['Für wen begründete Faraday die Weihnachtsvorlesungen?', 'Für Kinder', ['Für den König', 'Für Soldaten', 'Für Professoren'], 'Sie finden bis heute statt.'],
       ['Welche Ehrung lehnte Faraday ab?', 'Den Adelstitel', ['Ein Gehalt', 'Ein Haus', 'Eine Bibliothek'], 'Er blieb bescheiden.'],

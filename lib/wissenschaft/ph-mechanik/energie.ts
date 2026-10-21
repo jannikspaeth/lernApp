@@ -21,7 +21,7 @@ export const ENERGIE: Subtopic = {
       ['Welche Energie steckt in einem rollenden Ball?', 'Bewegungsenergie', ['Lageenergie', 'Kernenergie', 'Chemische Energie'], 'Auch kinetische Energie genannt.'],
       ['Welche Energie steckt im Wasser eines hoch gelegenen Stausees?', 'Lageenergie', ['Bewegungsenergie', 'Kernenergie', 'Strahlungsenergie'], 'Auch potenzielle Energie genannt.'],
       ['Was ist ein Perpetuum mobile?', 'Eine Maschine, die ewig ohne Energiezufuhr läuft', ['Ein schnelles Auto', 'Eine Uhr mit Batterie', 'Ein Windrad'], 'Es ist unmöglich.'],
-      ['In welche Form wird bei Maschinen meist Energie „verloren“?', 'Wärme', ['Licht', 'Schall allein', 'Strom'], 'Vor allem durch Reibung.'],
+      ['In welche Form wird bei Maschinen meist Energie „verloren“?', 'Wärme', ['Licht', 'Schall', 'Strom'], 'Vor allem durch Reibung.'],
       ['Wofür steht PS?', 'Pferdestärke', ['Physikalische Spannung', 'Power Speed', 'Pro Sekunde'], 'Eine alte Einheit der Leistung.'],
       ['Wie misst die Stromrechnung die Energie?', 'In Kilowattstunden', ['In PS', 'In Newton', 'In Kilokalorien'], 'Eine kWh sind 3,6 Millionen Joule.'],
       ['Wie viele Kilokalorien braucht ein Erwachsener etwa am Tag?', 'Rund 2.000 bis 2.500', ['Rund 200', 'Rund 20.000', 'Rund 50'], 'Je nach Körper und Bewegung.'],

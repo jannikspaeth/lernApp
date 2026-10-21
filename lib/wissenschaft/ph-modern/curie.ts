@@ -24,7 +24,7 @@ export const CURIE: Subtopic = {
       ['Wie heißt das Gerät, das bei jedem Strahlungsteilchen knackt?', 'Geigerzähler', ['Thermometer', 'Barometer', 'Kompass'], 'Nach Hans Geiger.'],
       ['Woran starb Marie Curie vermutlich?', 'An den Folgen der Strahlung', ['An einem Unfall', 'An der Grippe', 'Im Krieg'], 'An einer Blutkrankheit, 1934.'],
       ['Was ist die Halbwertszeit?', 'Die Zeit, nach der die Hälfte der Atome zerfallen ist', ['Die halbe Lebenszeit eines Menschen', 'Die Hälfte eines Jahres', 'Die Zeit bis zur Explosion'], 'Für jedes radioaktive Element fest.'],
-      ['Womit bestimmt man das Alter von Knochen und Holz?', 'Mit der Radiokarbonmethode', ['Mit dem Geigerzähler allein', 'Mit Röntgenstrahlen', 'Mit einem Kompass'], 'Über den Zerfall von Kohlenstoff-14.'],
+      ['Womit bestimmt man das Alter von Knochen und Holz?', 'Mit der Radiokarbonmethode', ['Mit dem Geigerzähler', 'Mit Röntgenstrahlen', 'Mit einem Kompass'], 'Über den Zerfall von Kohlenstoff-14.'],
       ['Wer ist auf diesem Bild zu sehen?', 'Marie Curie', ['Lise Meitner', 'Ada Lovelace', 'Rosalind Franklin'], 'Die erste Nobelpreisträgerin.', 'marie-curie'],
       ['Wer ist auf diesem Bild zu sehen, Ehemann und Forschungspartner von Marie Curie?', 'Pierre Curie', ['Henri Becquerel', 'Ernest Rutherford', 'Wilhelm Röntgen'], 'Gemeinsam entdeckten sie Polonium und Radium.', 'pierre-marie-curie'],
     ],

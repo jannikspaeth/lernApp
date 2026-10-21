@@ -15,7 +15,7 @@ export const OEKOLOGIE: Subtopic = {
   ],
   quiz: {
     leicht: [
-      ['Womit beschäftigt sich die Ökologie?', 'Mit den Beziehungen der Lebewesen zu ihrer Umwelt', ['Mit dem Aufbau von Atomen', 'Mit der Geschichte der Menschheit', 'Mit dem Wetter allein'], 'Die Lehre vom Haushalt der Natur.'],
+      ['Womit beschäftigt sich die Ökologie?', 'Mit den Beziehungen der Lebewesen zu ihrer Umwelt', ['Mit dem Aufbau von Atomen', 'Mit der Geschichte der Menschheit', 'Mit dem Wetter'], 'Die Lehre vom Haushalt der Natur.'],
       ['Wer prägte 1866 den Begriff „Ökologie“?', 'Ernst Haeckel', ['Charles Darwin', 'Alexander von Humboldt', 'Rachel Carson'], 'Ein Zoologe in Jena.'],
       ['Wie nennt man Lebewesen, die mit Sonnenlicht Nährstoffe aufbauen?', 'Produzenten', ['Konsumenten', 'Destruenten', 'Parasiten'], 'Vor allem grüne Pflanzen.'],
       ['Wie nennt man Lebewesen, die tote Pflanzen und Tiere zersetzen?', 'Destruenten', ['Produzenten', 'Konsumenten', 'Räuber'], 'Bakterien, Pilze, Regenwürmer.'],
@@ -50,7 +50,7 @@ export const OEKOLOGIE: Subtopic = {
       ['Wie viel der wichtigsten Nutzpflanzen sind auf Tierbestäubung angewiesen?', 'Rund drei Viertel', ['Rund ein Prozent', 'Rund die Hälfte genau', 'Keine'], 'Zumindest teilweise.'],
       ['Von welchem Massenaussterben sprechen viele Forscher heute?', 'Vom sechsten', ['Vom ersten', 'Vom zweiten', 'Vom zehnten'], 'Verursacht durch den Menschen.'],
       ['Wann wurde DDT in der Bundesrepublik verboten?', '1972', ['1945', '1990', '2010'], 'Im selben Jahr wie in den USA.'],
-      ['Welchen Greifvogel bedrohte DDT in den USA besonders?', 'Den Weißkopfseeadler', ['Den Steinadler', 'Den Kondor allein', 'Den Uhu'], 'Er hat sich erholt.'],
+      ['Welchen Greifvogel bedrohte DDT in den USA besonders?', 'Den Weißkopfseeadler', ['Den Steinadler', 'Den Kondor', 'Den Uhu'], 'Er hat sich erholt.'],
       ['Wann reiste Humboldt durch Südamerika?', '1799 bis 1804', ['1831 bis 1836', '1768 bis 1771', '1850 bis 1855'], 'Mit dem Botaniker Aimé Bonpland.'],
       ['Welche Dienste leisten gesunde Ökosysteme unter anderem?', 'Sie reinigen Wasser und speichern Kohlenstoff', ['Sie erzeugen Erdöl in Jahren', 'Sie stoppen Erdbeben', 'Sie verhindern jeden Regen'], 'Sogenannte Ökosystemleistungen.'],
     ],

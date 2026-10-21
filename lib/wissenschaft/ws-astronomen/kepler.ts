@@ -34,7 +34,7 @@ export const KEPLER: Subtopic = {
       ['Was lehrte das Weltbild von Tycho Brahe?', 'Sonne und Mond kreisen um die Erde, die Planeten um die Sonne', ['Alles kreist um die Sonne', 'Alles kreist um die Erde', 'Die Erde kreist um den Mond'], 'Ein Kompromiss.'],
       ['Wie heißt Keplers Werk von 1609 mit den ersten beiden Gesetzen?', '„Astronomia nova“', ['„Harmonices mundi“', '„Somnium“', '„De revolutionibus“'], '„Neue Astronomie“.'],
       ['Was besagt Keplers drittes Gesetz?', 'Die Quadrate der Umlaufzeiten verhalten sich wie die Kuben der Abstände', ['Planeten laufen auf Kreisen', 'Alle Planeten sind gleich schnell', 'Die Sonne steht im Mittelpunkt eines Kreises'], 'Veröffentlicht 1619.'],
-      ['Mit welchen geometrischen Körpern erklärte Kepler zuerst die Planetenabstände?', 'Mit den fünf platonischen Körpern', ['Mit Kugeln und Kegeln', 'Mit Pyramiden', 'Mit Würfeln allein'], 'Im „Mysterium Cosmographicum“ 1596.'],
+      ['Mit welchen geometrischen Körpern erklärte Kepler zuerst die Planetenabstände?', 'Mit den fünf platonischen Körpern', ['Mit Kugeln und Kegeln', 'Mit Pyramiden', 'Mit Würfeln'], 'Im „Mysterium Cosmographicum“ 1596.'],
       ['Was waren die „Rudolfinischen Tafeln“?', 'Tafeln zur genauen Berechnung der Planetenpositionen', ['Ein Gesetzbuch', 'Steintafeln aus Prag', 'Ein Kalender für Bauern'], 'Erschienen 1627.'],
       ['Was bewies Tycho über den Kometen von 1577?', 'Dass er weiter entfernt war als der Mond', ['Dass er auf die Erde stürzte', 'Dass er aus Eis bestand', 'Dass er wiederkehrt'], 'Der Himmel war also veränderlich.'],
       ['Welchem Feldherrn erstellte Kepler ein Horoskop?', 'Wallenstein', ['Tilly', 'Gustav Adolf', 'Prinz Eugen'], 'Um Geld zu verdienen.'],

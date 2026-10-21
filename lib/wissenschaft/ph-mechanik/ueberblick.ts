@@ -32,7 +32,7 @@ export const UEBERBLICK: Subtopic = {
       ['Wie wurde der Meter 1791 festgelegt?', 'Als zehnmillionster Teil der Strecke vom Nordpol zum Äquator', ['Als Länge eines Königsfußes', 'Als Strecke, die Licht in einer Sekunde läuft', 'Als Armlänge Napoleons'], 'Im Zuge der Französischen Revolution.'],
       ['Wie war das Kilogramm ursprünglich definiert?', 'Als Masse eines Liters Wasser', ['Als Masse eines Goldbarrens', 'Als Masse von 1.000 Getreidekörnern', 'Als Masse eines Menschen'], 'Später durch das Urkilogramm ersetzt.'],
       ['Wo lag das Urkilogramm?', 'In einem Tresor in Sèvres bei Paris', ['In London', 'In Berlin', 'In Washington'], 'Über 130 Jahre lang.'],
-      ['Wodurch ist das Kilogramm seit 2019 definiert?', 'Durch das Plancksche Wirkungsquantum', ['Durch die Lichtgeschwindigkeit allein', 'Durch die Masse der Erde', 'Durch ein neues Metallstück'], 'Eine Konstante der Quantenphysik.'],
+      ['Wodurch ist das Kilogramm seit 2019 definiert?', 'Durch das Plancksche Wirkungsquantum', ['Durch die Lichtgeschwindigkeit', 'Durch die Masse der Erde', 'Durch ein neues Metallstück'], 'Eine Konstante der Quantenphysik.'],
       ['Womit wird die Sekunde gemessen?', 'Mit Atomuhren', ['Mit Sonnenuhren', 'Mit Pendeluhren', 'Mit Sanduhren'], 'Sie gehen extrem genau.'],
       ['Welche SI-Einheit misst die Temperatur?', 'Kelvin', ['Celsius', 'Fahrenheit', 'Candela'], 'Celsius ist davon abgeleitet.'],
       ['Wofür steht die SI-Einheit Ampere?', 'Für die elektrische Stromstärke', ['Für die Lichtstärke', 'Für die Stoffmenge', 'Für die Spannung'], 'Nach André-Marie Ampère.'],

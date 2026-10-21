@@ -47,7 +47,7 @@ export const UEBERBLICK: Subtopic = {
       ['Was hielt Linné über die Arten noch für wahr?', 'Sie seien unveränderlich und von Gott geschaffen', ['Sie entwickelten sich ständig', 'Sie stammten vom Mars', 'Sie seien zufällig entstanden'], 'Erst Darwin änderte das Bild.'],
       ['Wie heißt die Stieleiche wissenschaftlich?', 'Quercus robur', ['Fagus sylvatica', 'Pinus sylvestris', 'Betula pendula'], 'Ein Beispiel der binären Nomenklatur.'],
       ['In welcher Stadt führten Miller und Urey ihren Versuch durch?', 'Chicago', ['Cambridge', 'Berlin', 'Paris'], 'An der University of Chicago.'],
-      ['Welche Gase füllten Miller und Urey in ihre Kolben?', 'Methan, Ammoniak und Wasserstoff mit Wasser', ['Sauerstoff und Stickstoff', 'Helium und Neon', 'Kohlendioxid allein'], 'Eine vermutete Uratmosphäre.'],
+      ['Welche Gase füllten Miller und Urey in ihre Kolben?', 'Methan, Ammoniak und Wasserstoff mit Wasser', ['Sauerstoff und Stickstoff', 'Helium und Neon', 'Kohlendioxid'], 'Eine vermutete Uratmosphäre.'],
       ['Wann tauchten die ersten größeren vielzelligen Tiere auf?', 'Vor etwa 600 Millionen Jahren', ['Vor 3 Milliarden Jahren', 'Vor 60 Millionen Jahren', 'Vor 6 Millionen Jahren'], 'Lange gab es nur Einzeller.'],
       ['Wann gingen die ersten Wirbeltiere an Land?', 'Vor rund 375 Millionen Jahren', ['Vor 66 Millionen Jahren', 'Vor 540 Millionen Jahren', 'Vor 1 Milliarde Jahren'], 'Fische mit kräftigen Flossen.'],
       ['Wie viele Arten sind insgesamt beschrieben?', 'Rund zwei Millionen', ['Rund 20.000', 'Rund 200 Millionen', 'Rund 2 Milliarden'], 'Davon über eine Million Insekten.'],

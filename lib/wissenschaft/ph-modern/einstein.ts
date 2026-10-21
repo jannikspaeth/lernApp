@@ -21,7 +21,7 @@ export const EINSTEIN: Subtopic = {
       ['Was kann nach der Relativitätstheorie nicht schneller sein als das Licht?', 'Nichts', ['Nur Schall', 'Nur Raketen', 'Nur Elektronen'], 'Die Lichtgeschwindigkeit ist eine Grenze.'],
       ['Was geschieht nach Einstein mit bewegten Uhren?', 'Sie gehen langsamer', ['Sie gehen schneller', 'Sie bleiben stehen', 'Sie laufen rückwärts'], 'Die Zeitdilatation.'],
       ['Was ist Schwerkraft nach der Allgemeinen Relativitätstheorie?', 'Eine Krümmung von Raum und Zeit', ['Eine magnetische Kraft', 'Ein unsichtbares Seil', 'Eine Strahlung der Sonne'], 'Masse verbeult die Raumzeit.'],
-      ['Wofür erhielt Einstein den Nobelpreis?', 'Für die Erklärung des Photoeffekts', ['Für die Relativitätstheorie', 'Für die Atombombe', 'Für E = mc² allein'], 'Die Relativitätstheorie war noch umstritten.'],
+      ['Wofür erhielt Einstein den Nobelpreis?', 'Für die Erklärung des Photoeffekts', ['Für die Relativitätstheorie', 'Für die Atombombe', 'Für E = mc²'], 'Die Relativitätstheorie war noch umstritten.'],
       ['In welches Land ging Einstein 1933?', 'In die USA', ['Nach England', 'In die Schweiz', 'Nach Israel'], 'Er kehrte nie nach Deutschland zurück.'],
       ['Was zeigt Einsteins berühmtes Foto von 1951?', 'Wie er die Zunge herausstreckt', ['Wie er Geige spielt', 'Wie er Fahrrad fährt', 'Wie er an der Tafel rechnet'], 'Es wurde zur Ikone.'],
       ['Welches Alltagsgerät würde ohne Relativitätstheorie falsch rechnen?', 'Das GPS im Handy', ['Der Toaster', 'Der Kühlschrank', 'Die Waschmaschine'], 'Um viele Kilometer pro Tag.'],

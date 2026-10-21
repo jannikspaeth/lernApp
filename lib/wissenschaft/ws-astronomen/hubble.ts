@@ -35,7 +35,7 @@ export const HUBBLE: Subtopic = {
       ['Wie groß war der Spiegel des Hooker-Teleskops?', '2,5 Meter (100 Zoll)', ['50 Zentimeter', '10 Meter', '30 Meter'], 'Damals das größte der Welt.'],
       ['Wer maß zuvor die Rotverschiebung vieler Galaxien?', 'Vesto Slipher', ['Milton Humason', 'Harlow Shapley', 'Henrietta Leavitt'], 'Hubble lieferte die Entfernungen.'],
       ['Wer war Hubbles Assistent bei der Entfernungsmessung?', 'Milton Humason', ['Vesto Slipher', 'Fritz Zwicky', 'Walter Baade'], 'Früher Maultiertreiber und Hausmeister.'],
-      ['Wie heißt das Gesetz nach der Empfehlung der IAU von 2018?', 'Hubble-Lemaître-Gesetz', ['Hubble-Einstein-Gesetz', 'Lemaître-Gesetz allein', 'Kepler-Hubble-Gesetz'], 'Lemaître hatte es 1927 theoretisch hergeleitet.'],
+      ['Wie heißt das Gesetz nach der Empfehlung der IAU von 2018?', 'Hubble-Lemaître-Gesetz', ['Hubble-Einstein-Gesetz', 'Lemaître-Gesetz', 'Kepler-Hubble-Gesetz'], 'Lemaître hatte es 1927 theoretisch hergeleitet.'],
       ['Welche Entfernung errechnete Hubble zuerst für Andromeda?', 'Fast eine Million Lichtjahre', ['2,5 Millionen Lichtjahre', '100.000 Lichtjahre', '4,2 Lichtjahre'], 'Heute weiß man: 2,5 Millionen.'],
       ['Mit welchem Hollywood-Star war Hubble befreundet?', 'Charlie Chaplin', ['Marilyn Monroe', 'John Wayne', 'Elvis Presley'], 'Er war selbst eine Berühmtheit.'],
       ['Woran starb Hubble 1953?', 'An einem Schlaganfall', ['Bei einem Unfall im Observatorium', 'An Krebs', 'Im Krieg'], 'Kurz nach der Arbeit am Palomar-Teleskop.'],

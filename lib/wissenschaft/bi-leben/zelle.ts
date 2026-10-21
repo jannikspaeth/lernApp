@@ -49,7 +49,7 @@ export const ZELLE: Subtopic = {
       ['Wie heißt die Zellteilung, bei der Ei- und Samenzellen entstehen?', 'Meiose', ['Mitose', 'Endosymbiose', 'Photosynthese'], 'Sie halbiert das Erbgut.'],
       ['Was begründete Virchow mit seiner Zelllehre in der Medizin?', 'Die Zellularpathologie', ['Die Homöopathie', 'Die Psychoanalyse', 'Die Impfung'], 'Krankheiten beruhen auf gestörten Zellen.'],
       ['Wie lang können Nervenzellen im Menschen werden?', 'Über einen Meter', ['Etwa ein Millimeter', 'Etwa zehn Zentimeter', 'Etwa zehn Meter'], 'Vom Rückenmark bis zum Zeh.'],
-      ['Wo werden in der Zelle Stoffe verpackt und verschickt?', 'Im Golgi-Apparat', ['Im Zellkern', 'In den Chloroplasten', 'In der Membran allein'], 'Wie eine Poststelle.'],
+      ['Wo werden in der Zelle Stoffe verpackt und verschickt?', 'Im Golgi-Apparat', ['Im Zellkern', 'In den Chloroplasten', 'In der Membran'], 'Wie eine Poststelle.'],
       ['Wie viele verschiedene Zelltypen hat der Mensch etwa?', 'Über 200', ['Genau 4', 'Etwa 20', 'Über 2 Millionen'], 'Nerven, Muskeln, Haut, Blut …'],
       ['Wer war Theodor Schwann?', 'Ein Zoologe, der die Zelltheorie für Tiere begründete', ['Ein Botaniker', 'Ein Physiker', 'Ein Chirurg'], 'Zusammen mit Schleiden.'],
       ['Was hat eine Pflanzenzelle außer Zellwand und Chloroplasten noch?', 'Eine große Vakuole mit Zellsaft', ['Zwei Zellkerne', 'Keine Mitochondrien', 'Ein Skelett'], 'Sie hält die Zelle prall.'],

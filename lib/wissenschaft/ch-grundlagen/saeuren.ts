@@ -25,7 +25,7 @@ export const SAEUREN: Subtopic = {
       ['Was bekommt durch ein Bad in Natronlauge seine braune Kruste?', 'Die Brezel', ['Das Croissant', 'Der Pfannkuchen', 'Das Toastbrot'], 'Laugengebäck.'],
       ['Woraus kann man in der Küche einen Indikator herstellen?', 'Aus Rotkohlsaft', ['Aus Milch', 'Aus Salz', 'Aus Mehl'], 'Er wechselt die Farbe.'],
       ['Welche Säure steckt in Autobatterien?', 'Schwefelsäure', ['Zitronensäure', 'Kohlensäure', 'Milchsäure'], 'Eine starke Säure.'],
-      ['Was löste in den 1980er-Jahren die Debatte um das „Waldsterben“ aus?', 'Saurer Regen', ['Zu viel Sonne', 'Borkenkäfer allein', 'Erdbeben'], 'Durch Schwefeldioxid aus Kraftwerken.'],
+      ['Was löste in den 1980er-Jahren die Debatte um das „Waldsterben“ aus?', 'Saurer Regen', ['Zu viel Sonne', 'Borkenkäfer', 'Erdbeben'], 'Durch Schwefeldioxid aus Kraftwerken.'],
       ['Welchen pH-Wert hat gesunde Haut etwa?', 'Etwa 5,5', ['Etwa 9', 'Etwa 1', 'Genau 7'], 'Ein leicht saurer Schutzmantel.'],
     ],
     mittel: [
@@ -39,8 +39,8 @@ export const SAEUREN: Subtopic = {
       ['Wie stellte man schon in der Antike Seife her?', 'Durch Kochen von Fett mit Holzasche', ['Aus Salz und Wasser', 'Aus Milch und Honig', 'Aus Sand und Öl'], 'Holzasche liefert die Lauge.'],
       ['Was hilft gegen Sodbrennen?', 'Mittel, die Magensäure neutralisieren', ['Zitronensaft', 'Essig', 'Kaffee'], 'Basische Stoffe.'],
       ['Wie viel des menschlichen CO₂-Ausstoßes nimmt das Meer etwa auf?', 'Etwa ein Viertel', ['Fast alles', 'Gar nichts', 'Etwa ein Prozent'], 'Es wird zu Kohlensäure.'],
-      ['Wovon hängt die Blütenfarbe von Hortensien ab?', 'Vom Säuregrad des Bodens', ['Von der Sonne', 'Vom Alter der Pflanze', 'Vom Gießwasser allein'], 'Blau in saurem, rosa in basischem Boden.'],
-      ['Was verringerte den sauren Regen deutlich?', 'Rauchgasentschwefelung und Autokatalysatoren', ['Mehr Kohlekraftwerke', 'Höhere Schornsteine allein', 'Weniger Regen'], 'Filter gegen Schwefeldioxid.'],
+      ['Wovon hängt die Blütenfarbe von Hortensien ab?', 'Vom Säuregrad des Bodens', ['Von der Sonne', 'Vom Alter der Pflanze', 'Vom Gießwasser'], 'Blau in saurem, rosa in basischem Boden.'],
+      ['Was verringerte den sauren Regen deutlich?', 'Rauchgasentschwefelung und Autokatalysatoren', ['Mehr Kohlekraftwerke', 'Höhere Schornsteine', 'Weniger Regen'], 'Filter gegen Schwefeldioxid.'],
     ],
     schwer: [
       ['Mit welcher Note bestand Arrhenius seine Doktorarbeit über Säuren?', 'Mit der schlechtesten Note', ['Mit Bestnote', 'Er fiel durch', 'Ohne Note'], 'Später bekam er dafür den Nobelpreis.'],
@@ -49,7 +49,7 @@ export const SAEUREN: Subtopic = {
       ['Welche Säure steckt in Cola?', 'Phosphorsäure', ['Salzsäure', 'Schwefelsäure', 'Ameisensäure'], 'Sie gibt den säuerlichen Geschmack.'],
       ['Warum untersuchte Sørensen den Säuregrad?', 'Für die Qualität von Bier', ['Für Medikamente', 'Für Schwimmbäder', 'Für Waffen'], 'In der Carlsberg-Brauerei.'],
       ['Welchen pH-Wert hat Rohrreiniger etwa?', '14', ['7', '1', '10'], 'Eine starke Lauge.'],
-      ['Woraus entsteht saurer Regen vor allem?', 'Aus Schwefeldioxid, das zu Schwefelsäure wird', ['Aus Kohlendioxid allein', 'Aus Sauerstoff', 'Aus Wasserdampf'], 'Aus Kohlekraftwerken und Fabriken.'],
+      ['Woraus entsteht saurer Regen vor allem?', 'Aus Schwefeldioxid, das zu Schwefelsäure wird', ['Aus Kohlendioxid', 'Aus Sauerstoff', 'Aus Wasserdampf'], 'Aus Kohlekraftwerken und Fabriken.'],
       ['Was erschwert die Versauerung der Meere?', 'Den Bau von Kalkschalen und -skeletten', ['Das Schwimmen von Fischen', 'Die Gezeiten', 'Die Fotosynthese an Land'], 'Betroffen sind Korallen und Muscheln.'],
       ['Warum heißt Rotkohl in manchen Gegenden Blaukraut?', 'Je nach Säure beim Kochen wird er rot oder blau', ['Er wächst blau', 'Er stammt aus Blau in Bayern', 'Wegen blauer Blüten'], 'Mit Essig wird er rot.'],
       ['Wie schützt sich der Magen vor seiner eigenen Säure?', 'Mit einer Schleimschicht', ['Mit einer Fettschicht', 'Mit Haaren', 'Gar nicht'], 'Sonst würde er sich selbst verdauen.'],

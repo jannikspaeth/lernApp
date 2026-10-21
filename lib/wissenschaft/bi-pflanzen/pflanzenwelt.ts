@@ -29,7 +29,7 @@ export const PFLANZENWELT: Subtopic = {
       ['Was zeigt dieses Bild, den massigsten Baum der Welt?', 'Den Riesenmammutbaum „General Sherman“', ['Eine Eiche im Schwarzwald', 'Einen Baobab in Afrika', 'Eine Palme'], 'In Kalifornien.', 'general-sherman'],
     ],
     mittel: [
-      ['Aus welchen Pflanzen entstand die Steinkohle?', 'Aus baumhohen Farnen und Schachtelhalmen', ['Aus Blumen', 'Aus Nadelbäumen allein', 'Aus Algen allein'], 'In der Karbonzeit.'],
+      ['Aus welchen Pflanzen entstand die Steinkohle?', 'Aus baumhohen Farnen und Schachtelhalmen', ['Aus Blumen', 'Aus Nadelbäumen', 'Aus Algen'], 'In der Karbonzeit.'],
       ['Wann kamen die Blütenpflanzen auf?', 'Vor rund 130 Millionen Jahren', ['Vor 470 Millionen Jahren', 'Vor 10.000 Jahren', 'Vor 3 Milliarden Jahren'], 'Noch zur Zeit der Dinosaurier.'],
       ['Was ist ein Samen?', 'Ein Pflanzenembryo mit Vorrat und Schutzhülle', ['Eine Spore', 'Eine Blüte', 'Ein Blatt'], 'Er übersteht Trockenheit.'],
       ['Welche Pflanze hat die größte Einzelblüte?', 'Die Rafflesia', ['Die Sonnenblume', 'Die Seerose', 'Die Titanenwurz'], 'Fast einen Meter breit.'],

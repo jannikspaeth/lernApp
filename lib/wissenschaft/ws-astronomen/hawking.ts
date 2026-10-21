@@ -46,7 +46,7 @@ export const HAWKING: Subtopic = {
       ['Wie viele Exemplare von „Eine kurze Geschichte der Zeit“ wurden verkauft?', 'Über zehn Millionen', ['Etwa 10.000', 'Etwa 100.000', 'Etwa eine Million'], 'Ein Welterfolg.'],
       ['Wie lange stand das Buch auf der Bestsellerliste der „Sunday Times“?', 'Über vier Jahre', ['Zwei Wochen', 'Ein halbes Jahr', 'Zehn Jahre ohne Pause'], 'Ein Rekord.'],
       ['Wann wurde Hawking Mitglied der Royal Society?', '1974, mit 32 Jahren', ['1963, mit 21 Jahren', '1988, mit 46 Jahren', '2009, mit 67 Jahren'], 'Ungewöhnlich jung.'],
-      ['Wie steuerte Hawking zuletzt seinen Sprachcomputer?', 'Mit einem Muskel seiner Wange', ['Mit den Augen allein', 'Mit der Hand', 'Mit der Stimme'], 'Über einen Sensor an der Brille.'],
+      ['Wie steuerte Hawking zuletzt seinen Sprachcomputer?', 'Mit einem Muskel seiner Wange', ['Mit den Augen', 'Mit der Hand', 'Mit der Stimme'], 'Über einen Sensor an der Brille.'],
       ['Von wann bis wann hatte Hawking den Lucasischen Lehrstuhl inne?', '1979 bis 2009', ['1963 bis 1985', '1988 bis 2018', '1965 bis 1975'], 'Dreißig Jahre lang.'],
       ['Warum hatten Hawkings Eltern London verlassen?', 'Wegen der deutschen Luftangriffe', ['Wegen der Pest', 'Wegen eines Berufswechsels', 'Wegen einer Überschwemmung'], 'Er kam deshalb in Oxford zur Welt.'],
       ['Welchen Spitznamen gaben ihm seine Schulkameraden?', '„Einstein“', ['„Newton“', '„Professor“', '„Galileo“'], 'Obwohl er kein Überflieger war.'],

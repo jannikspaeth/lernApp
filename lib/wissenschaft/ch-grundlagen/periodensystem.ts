@@ -23,7 +23,7 @@ export const PERIODENSYSTEM: Subtopic = {
       ['Welches ist das häufigste Element im Universum?', 'Wasserstoff', ['Sauerstoff', 'Eisen', 'Kohlenstoff'], 'Danach folgt Helium.'],
       ['Wo wurde Helium zuerst entdeckt?', 'Im Spektrum der Sonne', ['In einem Bergwerk', 'Im Meerwasser', 'In einem Ballon'], 'Daher der Name nach Helios.'],
       ['Wie legte Mendelejew seine Elemente aus?', 'Auf Karten, wie bei einer Patience', ['Auf einer Weltkarte', 'Mit Murmeln', 'Auf einem Schachbrett'], 'Bis er das Muster fand.'],
-      ['Was ließ Mendelejew in seiner Tabelle?', 'Lücken für unentdeckte Elemente', ['Leere Zeilen für Notizen', 'Platz für Metalle allein', 'Nichts'], 'Und er sagte deren Eigenschaften voraus.'],
+      ['Was ließ Mendelejew in seiner Tabelle?', 'Lücken für unentdeckte Elemente', ['Leere Zeilen für Notizen', 'Platz für Metalle', 'Nichts'], 'Und er sagte deren Eigenschaften voraus.'],
       ['Welche Elemente stehen im Periodensystem links und machen den größten Teil aus?', 'Die Metalle', ['Die Edelgase', 'Die Nichtmetalle', 'Die Halogene'], 'Rechts stehen die Nichtmetalle.'],
       ['Was zeigt dieses Bild?', 'Das Periodensystem der Elemente', ['Einen Stundenplan', 'Eine Sternkarte', 'Einen Kalender'], '118 Elemente in 7 Perioden.', 'periodensystem'],
       ['Aus welchem Land stammte Mendelejew?', 'Aus Russland', ['Aus Deutschland', 'Aus Frankreich', 'Aus Polen'], 'Geboren in Tobolsk in Sibirien.'],

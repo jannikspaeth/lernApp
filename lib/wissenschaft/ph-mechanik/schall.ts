@@ -20,7 +20,7 @@ export const SCHALL: Subtopic = {
       ['Wie schnell ist der Schall in Luft etwa?', 'Etwa 343 Meter pro Sekunde', ['Etwa 300.000 km pro Sekunde', 'Etwa 34 Meter pro Sekunde', 'Etwa 3.430 km pro Sekunde'], 'Rund 1.235 km/h.'],
       ['In welcher Einheit misst man die Frequenz eines Tons?', 'Hertz', ['Dezibel', 'Watt', 'Newton'], 'Schwingungen pro Sekunde.'],
       ['In welcher Einheit misst man die Lautstärke?', 'Dezibel', ['Hertz', 'Volt', 'Joule'], 'Eine logarithmische Skala.'],
-      ['Womit orientieren sich Fledermäuse?', 'Mit Ultraschall-Echos', ['Mit Infrarotlicht', 'Mit Magnetfeldern allein', 'Mit Geruch'], 'Sie rufen und lauschen dem Echo.'],
+      ['Womit orientieren sich Fledermäuse?', 'Mit Ultraschall-Echos', ['Mit Infrarotlicht', 'Mit Magnetfeldern', 'Mit Geruch'], 'Sie rufen und lauschen dem Echo.'],
       ['Wie hoch ist der Kammerton a?', '440 Hertz', ['100 Hertz', '1.000 Hertz', '20 Hertz'], 'Danach stimmen Orchester.'],
       ['Wie berechnet man ungefähr die Entfernung eines Gewitters?', 'Sekunden zwischen Blitz und Donner durch drei teilen', ['Sekunden mal zehn nehmen', 'Die Blitze zählen', 'Gar nicht'], 'Ergibt etwa Kilometer.'],
       ['Wie verändert sich der Ton eines vorbeifahrenden Krankenwagens?', 'Erst höher, dann tiefer', ['Erst tiefer, dann höher', 'Er bleibt gleich', 'Er wird nur lauter'], 'Der Doppler-Effekt.'],
@@ -30,7 +30,7 @@ export const SCHALL: Subtopic = {
     ],
     mittel: [
       ['Welchen Frequenzbereich hört ein junger Mensch?', 'Etwa 20 bis 20.000 Hertz', ['Etwa 1 bis 100 Hertz', 'Etwa 1.000 bis 100.000 Hertz', 'Alle Frequenzen'], 'Mit dem Alter sinkt die obere Grenze.'],
-      ['Womit verständigen sich Elefanten über Kilometer?', 'Mit Infraschall', ['Mit Ultraschall', 'Mit Licht', 'Mit Duftstoffen allein'], 'Töne unter 20 Hertz.'],
+      ['Womit verständigen sich Elefanten über Kilometer?', 'Mit Infraschall', ['Mit Ultraschall', 'Mit Licht', 'Mit Duftstoffen'], 'Töne unter 20 Hertz.'],
       ['Was bedeuten zehn Dezibel mehr?', 'Die zehnfache Schallintensität', ['Doppelt so viel Intensität', 'Zehn Prozent mehr', 'Hundertmal so viel'], 'Empfunden etwa als doppelt so laut.'],
       ['Ab welcher Lautstärke beginnt die Schmerzgrenze etwa?', 'Ab etwa 120 bis 130 dB', ['Ab etwa 30 dB', 'Ab etwa 60 dB', 'Ab etwa 300 dB'], 'Lauter als ein Rockkonzert.'],
       ['Wer beschrieb 1842 den nach ihm benannten Effekt?', 'Christian Doppler', ['Heinrich Hertz', 'Ernst Mach', 'Isaac Newton'], 'Ein Salzburger Physiker in Prag.', 'christian-doppler'],

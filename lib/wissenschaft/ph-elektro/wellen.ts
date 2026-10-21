@@ -46,7 +46,7 @@ export const WELLEN: Subtopic = {
       ['An welchem Tag entdeckte Röntgen die X-Strahlen?', '8. November 1895', ['14. März 1879', '1. Januar 1901', '29. August 1831'], 'In seinem Würzburger Labor.'],
       ['Woran starb Maxwell 1879?', 'An Krebs, mit 48 Jahren', ['An einem Unfall', 'An der Pest', 'Im hohen Alter'], 'Wie zuvor seine Mutter.'],
       ['Wie alt wurde Heinrich Hertz?', '36 Jahre', ['48 Jahre', '76 Jahre', '25 Jahre'], 'Er starb 1894.'],
-      ['Womit erzeugte Hertz seine Wellen?', 'Mit einem Funkeninduktor', ['Mit einer Batterie allein', 'Mit einem Laser', 'Mit einem Dynamo'], 'Ein Funke sprang in der Empfängerschleife über.'],
+      ['Womit erzeugte Hertz seine Wellen?', 'Mit einem Funkeninduktor', ['Mit einer Batterie', 'Mit einem Laser', 'Mit einem Dynamo'], 'Ein Funke sprang in der Empfängerschleife über.'],
       ['Mit wem entwickelte Maxwell die Theorie der Gasteilchen?', 'Ludwig Boltzmann', ['Michael Faraday', 'Lord Kelvin', 'Heinrich Hertz'], 'Die kinetische Gastheorie.'],
       ['Welchen Wellenlängenbereich sieht das menschliche Auge?', 'Etwa 380 bis 780 Nanometer', ['Etwa 1 bis 10 Meter', 'Etwa 1 bis 10 Millimeter', 'Etwa 0,01 bis 0,1 Nanometer'], 'Von Violett bis Rot.'],
       ['Worüber veröffentlichte Maxwell mit 14 Jahren eine Arbeit?', 'Über das Zeichnen von Ovalen', ['Über den Saturn', 'Über Elektrizität', 'Über Farben'], 'Ein Wunderkind.'],

@@ -24,7 +24,7 @@ export const LICHT: Subtopic = {
       ['Aus welchen drei Grundfarben mischen Bildschirme alle Farben?', 'Rot, Grün und Blau', ['Rot, Gelb und Blau', 'Schwarz, Weiß und Grau', 'Gelb, Grün und Violett'], 'Das RGB-System.'],
       ['Warum gibt es Schatten?', 'Licht breitet sich geradlinig aus', ['Weil Licht schwer ist', 'Weil Gegenstände dunkel sind', 'Weil die Sonne wandert'], 'Es kann nicht um Ecken.'],
       ['Wann erfand man in Italien die ersten Brillen?', 'Um 1280', ['Um 500', 'Um 1800', 'Um 1950'], 'Mit geschliffenen Linsen.'],
-      ['Durch was wird fast der gesamte Internetverkehr zwischen Kontinenten geleitet?', 'Durch Glasfaserkabel am Meeresgrund', ['Durch Satelliten allein', 'Durch Kupferdrähte in der Luft', 'Durch Funkmasten'], 'Licht in dünnen Glasfasern.'],
+      ['Durch was wird fast der gesamte Internetverkehr zwischen Kontinenten geleitet?', 'Durch Glasfaserkabel am Meeresgrund', ['Durch Satelliten', 'Durch Kupferdrähte in der Luft', 'Durch Funkmasten'], 'Licht in dünnen Glasfasern.'],
       ['Welche Farbe haben Sonnenuntergänge oft?', 'Rot und orange', ['Blau', 'Grün', 'Violett'], 'Das blaue Licht wird unterwegs weggestreut.'],
       ['Wofür werden Laser zum Beispiel eingesetzt?', 'Zum Lesen von Barcodes und für Augenoperationen', ['Zum Kochen von Suppe', 'Zum Heizen von Häusern', 'Zum Bewässern'], 'Und um Stahl zu schneiden.'],
     ],

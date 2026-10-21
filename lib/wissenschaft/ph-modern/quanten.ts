@@ -36,7 +36,7 @@ export const QUANTEN: Subtopic = {
       ['Wie deutete Max Born die Wellenfunktion?', 'Als Wahrscheinlichkeit, ein Teilchen an einem Ort zu finden', ['Als echte Wasserwelle', 'Als Magnetfeld', 'Als Temperatur'], 'In Göttingen, 1926.'],
       ['Was legt nach der Kopenhagener Deutung den Ort eines Teilchens fest?', 'Erst die Messung', ['Seine Masse', 'Die Gravitation', 'Der Zufall vor der Messung'], 'Vorher hat es keinen festen Ort.'],
       ['Wofür erhielten Clauser, Aspect und Zeilinger 2022 den Nobelpreis?', 'Für Experimente zur Verschränkung', ['Für das Higgs-Teilchen', 'Für Gravitationswellen', 'Für Quantencomputer'], 'Sie bewiesen, dass sie real ist.'],
-      ['Was lässt nach der Quantenphysik die Sonne leuchten?', 'Der Tunneleffekt', ['Die Unschärferelation allein', 'Der Photoeffekt', 'Die Supraleitung'], 'Teilchen schlüpfen durch Barrieren.'],
+      ['Was lässt nach der Quantenphysik die Sonne leuchten?', 'Der Tunneleffekt', ['Die Unschärferelation', 'Der Photoeffekt', 'Die Supraleitung'], 'Teilchen schlüpfen durch Barrieren.'],
       ['Wofür erhielt Niels Bohr 1922 den Nobelpreis?', 'Für sein Atommodell', ['Für die Unschärferelation', 'Für die Kernspaltung', 'Für das Elektron'], 'Mit erlaubten Elektronenbahnen.'],
       ['Wer beschrieb 1935 mit Podolsky und Rosen die Verschränkung?', 'Albert Einstein', ['Niels Bohr', 'Erwin Schrödinger', 'John Bell'], 'Das „EPR-Paradoxon“.'],
       ['Was zeigen Elektronen am Doppelspalt?', 'Interferenzmuster wie Wellen', ['Gar nichts', 'Nur zwei helle Punkte', 'Farben wie ein Regenbogen'], 'Sie verhalten sich wie Wellen.'],

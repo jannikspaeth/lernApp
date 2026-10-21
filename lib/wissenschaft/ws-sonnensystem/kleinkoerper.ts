@@ -20,7 +20,7 @@ export const KLEINKOERPER: Subtopic = {
       ['Wohin zeigt der Schweif eines Kometen?', 'Immer von der Sonne weg', ['Immer zur Sonne', 'Immer zur Erde', 'In Flugrichtung nach hinten'], 'Der Sonnenwind bläst ihn weg.'],
       ['Wie heißt ein Meteoroid, der in der Atmosphäre verglüht, umgangssprachlich?', 'Sternschnuppe', ['Komet', 'Nova', 'Polarlicht'], 'Fachsprachlich ein Meteor.'],
       ['Was ist ein Meteorit?', 'Ein Rest, der den Erdboden erreicht', ['Ein verglühender Stern', 'Ein Mond des Mars', 'Ein Kometenschweif'], 'Viele liegen in Museen.'],
-      ['Was löste vor 66 Millionen Jahren das Aussterben der Dinosaurier aus?', 'Ein Asteroideneinschlag', ['Eine Eiszeit allein', 'Eine Sonnenfinsternis', 'Ein Erdbeben'], 'Bei Chicxulub in Mexiko.'],
+      ['Was löste vor 66 Millionen Jahren das Aussterben der Dinosaurier aus?', 'Ein Asteroideneinschlag', ['Eine Eiszeit', 'Eine Sonnenfinsternis', 'Ein Erdbeben'], 'Bei Chicxulub in Mexiko.'],
       ['Wie oft kehrt der Halleysche Komet etwa wieder?', 'Alle 76 Jahre', ['Jedes Jahr', 'Alle 1.000 Jahre', 'Alle 7 Jahre'], 'Das nächste Mal 2061.'],
       ['In welchem Monat sieht man die Sternschnuppen der Perseiden?', 'Im August', ['Im Dezember', 'Im März', 'Im Mai'], 'Sie stammen vom Kometen Swift-Tuttle.'],
       ['Welche Form hat die helle Ebene auf Pluto?', 'Ein Herz', ['Ein Stern', 'Ein Kreuz', 'Ein Mond'], 'Fotografiert von New Horizons 2015.', 'pluto'],

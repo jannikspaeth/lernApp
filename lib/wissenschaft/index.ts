@@ -10,6 +10,7 @@ import { CH_GRUNDLAGEN } from './ch-grundlagen';
 import { CH_STOFFE } from './ch-stoffe';
 import { BI_LEBEN } from './bi-leben';
 import { BI_PFLANZEN } from './bi-pflanzen';
+import { BI_TIERE } from './bi-tiere';
 
 // Wissenschaft: areas (epochs: Weltall, Physik, Chemie, Biologie …) → topics (events) → overview + chapters
 // (subtopics), reusing the history types. Progress is stored like the countries' under
@@ -41,7 +42,7 @@ const RAW: CountryHistory = {
       id: 'biologie',
       name: 'Biologie',
       period: 'Zellen, Gene, Pflanzen und Tiere',
-      events: [BI_LEBEN, BI_PFLANZEN],
+      events: [BI_LEBEN, BI_PFLANZEN, BI_TIERE],
     },
   ],
 };
@@ -65,7 +66,7 @@ const COVERS: Record<string, string> = {
   weltall: 'pillars-of-creation', 'ws-sonnensystem': 'planet-saturn', 'ws-kosmos': 'andromeda', 'ws-astronomen': 'kopernikus', 'ws-raumfahrt': 'aldrin-mond',
   physik: 'einstein', 'ph-mechanik': 'newton', 'ph-elektro': 'faraday', 'ph-modern': 'marie-curie',
   chemie: 'mendelejew', 'ch-grundlagen': 'lavoisier', 'ch-stoffe': 'feuerwerk',
-  biologie: 'darwin', 'bi-leben': 'dna-doppelhelix', 'bi-pflanzen': 'amazonas-regenwald',
+  biologie: 'darwin', 'bi-leben': 'dna-doppelhelix', 'bi-pflanzen': 'amazonas-regenwald', 'bi-tiere': 'blauwal',
 };
 
 export const WISSENSCHAFT: CountryHistory = {

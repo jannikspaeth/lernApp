@@ -21,7 +21,7 @@ export const WASSER: Subtopic = {
       ['Wie viele Arme haben Schneeflocken?', 'Sechs', ['Vier', 'Fünf', 'Acht'], 'Die Moleküle ordnen sich sechseckig an.'],
       ['Wie viel des Wassers auf der Erde ist Süßwasser?', 'Etwa 2,5 Prozent', ['Etwa 50 Prozent', 'Etwa 25 Prozent', 'Etwa 97 Prozent'], 'Der Rest ist Salzwasser.'],
       ['Wo ist der größte Teil des Süßwassers gebunden?', 'Im Eis von Polkappen und Gletschern', ['In Flüssen', 'In Seen', 'In Wolken'], 'Mehr als zwei Drittel.'],
-      ['Was treibt den Wasserkreislauf an?', 'Die Sonne', ['Der Mond', 'Der Wind allein', 'Die Erdwärme'], 'Sie lässt Wasser verdunsten.'],
+      ['Was treibt den Wasserkreislauf an?', 'Die Sonne', ['Der Mond', 'Der Wind', 'Die Erdwärme'], 'Sie lässt Wasser verdunsten.'],
       ['Was hinterlässt „hartes“ Wasser?', 'Kalkflecken', ['Rostflecken', 'Salzkristalle', 'Ölflecken'], 'Es enthält Calcium und Magnesium.'],
       ['Wie viel Trinkwasser verbraucht ein Mensch in Deutschland etwa pro Tag im Haushalt?', 'Etwa 125 Liter', ['Etwa 2 Liter', 'Etwa 10 Liter', 'Etwa 1.000 Liter'], 'Vor allem für Toilette und Dusche.'],
       ['Welche Stoffe lösen sich nicht in Wasser?', 'Fette und Öle', ['Salz', 'Zucker', 'Viele Gase'], 'Ihre Moleküle sind ungeladen.'],

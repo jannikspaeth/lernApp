@@ -791,5 +791,111 @@
     "author": "Ben Zinner, USAID",
     "licence": "Public domain",
     "page": "https://commons.wikimedia.org/wiki/File:Norman_Borlaug,_2004_(cropped).jpg"
+  },
+  "brehm-tierleben": {
+    "file": "Brehms-tierleben-frontispiece.jpg",
+    "author": "Федор Алексис Флинзер(Flinzer)(1832–1911)",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Brehms-tierleben-frontispiece.jpg"
+  },
+  "quastenflosser": {
+    "file": "Latimeria_Paris.jpg",
+    "author": "sybarite48",
+    "licence": "CC BY 2.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Latimeria_Paris.jpg"
+  },
+  "blauwal": {
+    "file": "Blue_Whale_001_body_bw.jpg",
+    "author": "NOAA Fisheries (TBjornstad 11:17, 18 April 2007 (UTC))",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Blue_Whale_001_body_bw.jpg"
+  },
+  "schnabeltier": {
+    "file": "Platypus.jpg",
+    "author": "Stefan Kraft",
+    "licence": "CC BY-SA 3.0",
+    "licenceUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Platypus.jpg"
+  },
+  "wanderfalke": {
+    "file": "Faucon_pelerin_7_mai.jpg",
+    "author": "Georges Lignier (georges.lignier@wanadoo.fr)",
+    "licence": "CC BY-SA 3.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Faucon_pelerin_7_mai.jpg"
+  },
+  "dodo": {
+    "file": "ExtinctDodoBird.jpeg",
+    "author": "Roelant Savery",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:ExtinctDodoBird.jpeg"
+  },
+  "great-barrier-reef": {
+    "file": "GreatBarrierReef-EO.JPG",
+    "author": "NASA, by MISR",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:GreatBarrierReef-EO.JPG"
+  },
+  "krake": {
+    "file": "Pulpo_común_(Octopus_vulgaris),_franja_marina_Teno-Rasca,_Tenerife,_España,_2022-01-08,_DD_53.jpg",
+    "author": "Diego Delso",
+    "licence": "CC BY-SA 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Pulpo_com%C3%BAn_(Octopus_vulgaris),_franja_marina_Teno-Rasca,_Tenerife,_Espa%C3%B1a,_2022-01-08,_DD_53.jpg"
+  },
+  "honigbiene": {
+    "file": "Apis_mellifera_Western_honey_bee.jpg",
+    "author": "Andreas Trepte",
+    "licence": "CC BY-SA 2.5",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+    "page": "https://commons.wikimedia.org/wiki/File:Apis_mellifera_Western_honey_bee.jpg"
+  },
+  "karl-von-frisch": {
+    "file": "Karl_von_Frisch_-_Atelier_Veritas,_c._1926.jpg",
+    "author": "Stefanie Ludwig",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Karl_von_Frisch_-_Atelier_Veritas,_c._1926.jpg"
+  },
+  "komodowaran": {
+    "file": "Komodo_Dragons_in_the_wild_on_Rinca_island_Indonesia..jpg",
+    "author": "Markofjohnson",
+    "licence": "CC0",
+    "licenceUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:Komodo_Dragons_in_the_wild_on_Rinca_island_Indonesia..jpg"
+  },
+  "axolotl": {
+    "file": "Axolotl_Uni_Konstanz.JPG",
+    "author": "Faldrian",
+    "licence": "CC BY-SA 3.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Axolotl_Uni_Konstanz.JPG"
+  },
+  "tyrannosaurus-sue": {
+    "file": "FMNH_Sue_Tyrannosaurus_rex.jpg",
+    "author": "Zissoudisctrucker",
+    "licence": "CC BY-SA 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:FMNH_Sue_Tyrannosaurus_rex.jpg"
+  },
+  "giraffatitan-berlin": {
+    "file": "Giraffatitan_brancai_Naturkundemuseum_Berlin.jpg",
+    "author": "Axel Mauruszat",
+    "licence": "Attribution",
+    "page": "https://commons.wikimedia.org/wiki/File:Giraffatitan_brancai_Naturkundemuseum_Berlin.jpg"
+  },
+  "konrad-lorenz": {
+    "file": "Konrad_Lorenz.JPG",
+    "author": "Max Planck Gesellschaft (Eurobas)",
+    "licence": "CC BY-SA 3.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Konrad_Lorenz.JPG"
+  },
+  "jane-goodall": {
+    "file": "Jane_Goodall_2010.jpg",
+    "author": "Nicolas Richoffer",
+    "licence": "CC BY-SA 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Jane_Goodall_2010.jpg"
   }
 }

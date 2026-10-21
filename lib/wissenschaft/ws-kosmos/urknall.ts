@@ -39,7 +39,7 @@ export const URKNALL: Subtopic = {
       ['Wann leuchteten die ersten Sterne auf?', 'Nach etwa 100 bis 200 Millionen Jahren', ['Gleich beim Urknall', 'Nach 13 Milliarden Jahren', 'Nach drei Minuten'], 'Das Webb-Teleskop sucht nach ihnen.'],
       ['Wer erhielt 2011 den Nobelpreis für die beschleunigte Ausdehnung?', 'Perlmutter, Schmidt und Riess', ['Penzias und Wilson', 'Genzel und Ghez', 'Mayor und Queloz'], 'Sie beobachteten ferne Supernovae.'],
       ['Welche Satelliten vermaßen die Hintergrundstrahlung?', 'COBE, WMAP und Planck', ['Hubble, Kepler und TESS', 'Voyager 1 und 2', 'Sputnik und Explorer'], 'Mit immer höherer Genauigkeit.'],
-      ['Was wuchs aus den winzigen Temperaturschwankungen der Hintergrundstrahlung?', 'Galaxien und Galaxienhaufen', ['Planeten allein', 'Schwarze Löcher allein', 'Nichts'], 'Durch die Schwerkraft.'],
+      ['Was wuchs aus den winzigen Temperaturschwankungen der Hintergrundstrahlung?', 'Galaxien und Galaxienhaufen', ['Planeten', 'Schwarze Löcher', 'Nichts'], 'Durch die Schwerkraft.'],
       ['Was könnte am fernen Ende des Universums stehen?', 'Ein „Wärmetod“', ['Ein zweiter Urknall morgen', 'Eine neue Sonne', 'Eine Explosion der Erde'], 'Alles wird leer und kalt.'],
     ],
     schwer: [
@@ -48,7 +48,7 @@ export const URKNALL: Subtopic = {
       ['Wann erhielten Penzias und Wilson den Nobelpreis?', '1978', ['1965', '1990', '2006'], 'Für die Entdeckung der Hintergrundstrahlung.'],
       ['Wie groß sind die Temperaturschwankungen der Hintergrundstrahlung?', 'Etwa ein Hunderttausendstel Grad', ['Etwa ein Grad', 'Etwa 100 Grad', 'Es gibt keine'], 'Gemessen von COBE, WMAP und Planck.'],
       ['Welches leichte Element entstand beim Urknall in einer Spur?', 'Lithium', ['Kohlenstoff', 'Eisen', 'Sauerstoff'], 'Neben Wasserstoff und Helium.'],
-      ['Welche Beobachtung zeigte 1998 die beschleunigte Ausdehnung?', 'Die Helligkeit ferner Supernovae', ['Die Bahn des Mondes', 'Die Farbe der Sonne', 'Die Hintergrundstrahlung allein'], 'Sie waren lichtschwächer als erwartet.'],
+      ['Welche Beobachtung zeigte 1998 die beschleunigte Ausdehnung?', 'Die Helligkeit ferner Supernovae', ['Die Bahn des Mondes', 'Die Farbe der Sonne', 'Die Hintergrundstrahlung'], 'Sie waren lichtschwächer als erwartet.'],
       ['Welches Phänomen auf alten Röhrenfernsehern stammt teilweise vom Urknall?', 'Ein Teil des Bildrauschens („Schnee“)', ['Das Testbild', 'Der Ton', 'Das Bildflackern beim Umschalten'], 'Etwa ein Prozent davon.'],
       ['Wann startete der Planck-Satellit?', '2009', ['1989', '2001', '2021'], 'Der genaueste Vermesser der Hintergrundstrahlung.'],
       ['In welchem Wellenbereich liegt die Hintergrundstrahlung heute?', 'Mikrowellen', ['Röntgenstrahlen', 'Sichtbares Licht', 'Gammastrahlen'], 'Durch die Ausdehnung stark abgekühlt.'],

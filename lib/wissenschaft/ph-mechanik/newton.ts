@@ -36,7 +36,7 @@ export const NEWTON: Subtopic = {
       ['Welchen Satz schrieb Newton in einem Brief an Robert Hooke?', 'Er stehe auf den Schultern von Riesen', ['Er wisse, dass er nichts wisse', 'Gott würfle nicht', 'Wissen sei Macht'], 'Er habe deshalb weiter gesehen.'],
       ['Welches Amt übernahm Newton 1699?', 'Leiter der königlichen Münze', ['Erzbischof von Canterbury', 'Premierminister', 'Lordkanzler'], 'Er jagte Falschmünzer.'],
       ['Wie stellte sich Newton das Licht vor?', 'Als Strom winziger Teilchen', ['Als Welle im Äther', 'Als Wärme', 'Als Schall'], 'In seinen „Opticks“ von 1704.'],
-      ['Womit beschäftigte sich Newton außer Physik intensiv?', 'Mit Alchemie und Bibelauslegung', ['Mit Musik', 'Mit Malerei', 'Mit Politik als Abgeordneter allein'], 'Er schrieb mehr über Theologie als über Physik.'],
+      ['Womit beschäftigte sich Newton außer Physik intensiv?', 'Mit Alchemie und Bibelauslegung', ['Mit Musik', 'Mit Malerei', 'Mit Politik als Abgeordneter'], 'Er schrieb mehr über Theologie als über Physik.'],
       ['Was erklärte Newton mit seinem Gravitationsgesetz außer dem Apfelfall?', 'Mondbahn, Gezeiten und Planetenbahnen', ['Die Farben des Regenbogens', 'Den Blitz', 'Den Magnetismus'], 'Ein Gesetz für Himmel und Erde.'],
       ['Seit wann war Newton Präsident der Royal Society?', 'Seit 1703', ['Seit 1665', 'Seit 1687', 'Seit 1727'], 'Bis zu seinem Tod.'],
       ['In welchem Alter wurde Newton Lucasischer Professor?', 'Mit 26 Jahren', ['Mit 18 Jahren', 'Mit 46 Jahren', 'Mit 60 Jahren'], 'Im Jahr 1669.'],

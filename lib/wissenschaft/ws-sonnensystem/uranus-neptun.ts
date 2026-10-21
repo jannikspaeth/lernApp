@@ -49,7 +49,7 @@ export const URANUS_NEPTUN: Subtopic = {
       ['Wie kalt ist die Oberfläche von Triton etwa?', 'Etwa –235 °C', ['Etwa –50 °C', 'Etwa 0 °C', 'Etwa –100 °C'], 'Eine der kältesten im Sonnensystem.'],
       ['Wie kalt wird die Uranusatmosphäre?', 'Bis etwa –224 °C', ['Bis etwa –100 °C', 'Bis etwa –50 °C', 'Bis etwa –273 °C'], 'Kälter als die des ferneren Neptun.'],
       ['Wann flog Voyager 2 an Uranus vorbei?', '1986', ['1979', '1989', '1977'], 'Im Januar 1986.'],
-      ['Welche Gesetze bestätigte die Entdeckung Neptuns triumphal?', 'Newtons Gravitationsgesetz', ['Einsteins Relativitätstheorie', 'Keplers drittes Gesetz allein', 'Die Quantenmechanik'], 'Die Störung der Uranusbahn wurde damit berechnet.'],
+      ['Welche Gesetze bestätigte die Entdeckung Neptuns triumphal?', 'Newtons Gravitationsgesetz', ['Einsteins Relativitätstheorie', 'Keplers drittes Gesetz', 'Die Quantenmechanik'], 'Die Störung der Uranusbahn wurde damit berechnet.'],
       ['Wie viele bekannte Monde hat Uranus etwa?', '28', ['2', '95', '0'], 'Benannt nach literarischen Figuren.'],
       ['Woher kam William Herschel ursprünglich?', 'Aus Hannover', ['Aus London', 'Aus Paris', 'Aus Wien'], 'Er war auch Musiker und Komponist.'],
       ['Wie groß sind Uranus und Neptun etwa im Vergleich zur Erde?', 'Etwa viermal so groß', ['Etwa gleich groß', 'Etwa elfmal so groß', 'Etwa halb so groß'], 'Im Durchmesser.'],

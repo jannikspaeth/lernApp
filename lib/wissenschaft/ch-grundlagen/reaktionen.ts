@@ -45,7 +45,7 @@ export const REAKTIONEN: Subtopic = {
     schwer: [
       ['Wie viel Prozent der Industriechemikalien entstehen mithilfe von Katalysatoren?', 'Über 80 Prozent', ['Etwa 5 Prozent', 'Etwa 25 Prozent', 'Genau 50 Prozent'], 'Katalyse ist das Herz der Industrie.'],
       ['Welche Farbe erzeugt Barium im Feuerwerk?', 'Grün', ['Rot', 'Gelb', 'Violett'], 'Kupfer leuchtet blau.'],
-      ['Wie nennt man das Erkennen von Elementen an ihrer Flammenfarbe?', 'Flammenfärbung', ['Spektralanalyse allein', 'Titration', 'Chromatografie'], 'Natrium färbt die Flamme gelb.'],
+      ['Wie nennt man das Erkennen von Elementen an ihrer Flammenfarbe?', 'Flammenfärbung', ['Spektralanalyse', 'Titration', 'Chromatografie'], 'Natrium färbt die Flamme gelb.'],
       ['Um wie viel steigt die Reaktionsgeschwindigkeit als Faustregel bei zehn Grad mehr?', 'Sie verdoppelt sich etwa', ['Sie verzehnfacht sich', 'Sie halbiert sich', 'Gar nicht'], 'Die RGT-Regel.'],
       ['Was ist die Zellatmung chemisch gesehen?', 'Eine langsame, gezähmte Verbrennung von Nährstoffen', ['Eine Kernreaktion', 'Eine Neutralisation', 'Eine Kristallbildung'], 'Eine Redoxreaktion.'],
       ['Welche Eigenschaften haben Salze typischerweise?', 'Hart, spröde, hoher Schmelzpunkt', ['Weich, biegsam, flüssig', 'Gasförmig, leicht', 'Glänzend, verformbar'], 'Ein Ionengitter.'],

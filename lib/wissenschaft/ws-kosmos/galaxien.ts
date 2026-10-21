@@ -20,7 +20,7 @@ export const GALAXIEN: Subtopic = {
       ['Wer erkannte 1610, dass die Milchstraße aus einzelnen Sternen besteht?', 'Galileo Galilei', ['Isaac Newton', 'Edwin Hubble', 'Ptolemäus'], 'Mit seinem Fernrohr.'],
       ['Wie heißt die nächste große Galaxie?', 'Andromedagalaxie', ['Milchstraße', 'Sombrerogalaxie', 'Whirlpool-Galaxie'], 'Rund 2,5 Millionen Lichtjahre entfernt.'],
       ['Was wird in einigen Milliarden Jahren mit Milchstraße und Andromeda geschehen?', 'Sie stoßen zusammen und verschmelzen', ['Sie entfernen sich für immer', 'Sie erlöschen', 'Nichts'], 'In etwa vier bis fünf Milliarden Jahren.'],
-      ['Woher hat die Milchstraße ihren Namen?', 'Aus einer griechischen Sage über verschüttete Milch', ['Von einem Milchbauern', 'Von ihrer weißen Farbe allein', 'Von einem Astronomen namens Milch'], 'Die Milch der Göttin Hera.'],
+      ['Woher hat die Milchstraße ihren Namen?', 'Aus einer griechischen Sage über verschüttete Milch', ['Von einem Milchbauern', 'Von ihrer weißen Farbe', 'Von einem Astronomen namens Milch'], 'Die Milch der Göttin Hera.'],
       ['Wie viele Sterne hat die Milchstraße etwa?', '100 bis 400 Milliarden', ['Etwa 10.000', 'Etwa eine Million', 'Genau acht'], 'Die Schätzungen schwanken.'],
       ['Was hält Galaxien zusätzlich zusammen, ohne dass man es sieht?', 'Dunkle Materie', ['Magnetismus', 'Sternenstaub', 'Licht'], 'Sie macht ein Vielfaches der sichtbaren Masse aus.'],
       ['Was ist das fernste Objekt, das man mit bloßem Auge sehen kann?', 'Die Andromedagalaxie', ['Der Polarstern', 'Pluto', 'Neptun'], 'Als blasser Fleck.'],
