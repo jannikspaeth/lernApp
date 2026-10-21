@@ -11,6 +11,9 @@ import { CH_STOFFE } from './ch-stoffe';
 import { BI_LEBEN } from './bi-leben';
 import { BI_PFLANZEN } from './bi-pflanzen';
 import { BI_TIERE } from './bi-tiere';
+import { ME_KOERPER } from './me-koerper';
+import { ME_MEDIZIN } from './me-medizin';
+import { ME_MENSCH } from './me-mensch';
 
 // Wissenschaft: areas (epochs: Weltall, Physik, Chemie, Biologie …) → topics (events) → overview + chapters
 // (subtopics), reusing the history types. Progress is stored like the countries' under
@@ -44,6 +47,12 @@ const RAW: CountryHistory = {
       period: 'Zellen, Gene, Pflanzen und Tiere',
       events: [BI_LEBEN, BI_PFLANZEN, BI_TIERE],
     },
+    {
+      id: 'mensch',
+      name: 'Mensch und Medizin',
+      period: 'Körper, Heilkunst und Herkunft',
+      events: [ME_KOERPER, ME_MEDIZIN, ME_MENSCH],
+    },
   ],
 };
 
@@ -67,6 +76,7 @@ const COVERS: Record<string, string> = {
   physik: 'einstein', 'ph-mechanik': 'newton', 'ph-elektro': 'faraday', 'ph-modern': 'marie-curie',
   chemie: 'mendelejew', 'ch-grundlagen': 'lavoisier', 'ch-stoffe': 'feuerwerk',
   biologie: 'darwin', 'bi-leben': 'dna-doppelhelix', 'bi-pflanzen': 'amazonas-regenwald', 'bi-tiere': 'blauwal',
+  mensch: 'vitruvianischer-mensch', 'me-koerper': 'gehirn', 'me-medizin': 'louis-pasteur', 'me-mensch': 'chauvet-hoehle',
 };
 
 export const WISSENSCHAFT: CountryHistory = {

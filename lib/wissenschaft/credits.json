@@ -897,5 +897,196 @@
     "licence": "CC BY-SA 4.0",
     "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
     "page": "https://commons.wikimedia.org/wiki/File:Jane_Goodall_2010.jpg"
+  },
+  "skelett": {
+    "file": "Govard_Bidloo_t87.jpg",
+    "author": "Gerard de Lairesse",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Govard_Bidloo_t87.jpg"
+  },
+  "herz-anatomie": {
+    "file": "Dog_heart_2.jpg",
+    "author": "User:Uwe Gille",
+    "licence": "CC BY 2.5",
+    "licenceUrl": "https://creativecommons.org/licenses/by/2.5",
+    "page": "https://commons.wikimedia.org/wiki/File:Dog_heart_2.jpg"
+  },
+  "william-harvey": {
+    "file": "Harvey_William_color.jpg",
+    "author": "Daniël Mijtens",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Harvey_William_color.jpg"
+  },
+  "lunge": {
+    "file": "Illu_bronchi_lungs_numerical_labels.jpg",
+    "author": "An officer or employee of the United States Government, as described at File:Illu bronchi lungs.jpg, with modifications by User:Adrian J. Hunter",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Illu_bronchi_lungs_numerical_labels.jpg"
+  },
+  "gehirn": {
+    "file": "Chimp_Brain_in_a_jar.jpg",
+    "author": "Gaetan Lee . Tilt corrected by Kaldari.",
+    "licence": "CC BY 2.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Chimp_Brain_in_a_jar.jpg"
+  },
+  "cajal-neuron": {
+    "file": "Santiago_Ramón_y_Cajal_(1852-1934)_portrait_(restored).jpg",
+    "author": "Original photo is anonymous although published by Clark University in 1899. Restoration by Garrondo",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Santiago_Ram%C3%B3n_y_Cajal_(1852-1934)_portrait_(restored).jpg"
+  },
+  "auge": {
+    "file": "Human_eye,_anterior_view.jpg",
+    "author": "Rapidreflex",
+    "licence": "CC BY-SA 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Human_eye,_anterior_view.jpg"
+  },
+  "ohr-anatomie": {
+    "file": "Menschliche_Ohrmuschel.jpg",
+    "author": "Peter Niemayer",
+    "licence": "CC BY-SA 3.0",
+    "licenceUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Menschliche_Ohrmuschel.jpg"
+  },
+  "fresszelle": {
+    "file": "Macrophage.jpg",
+    "author": "The original uploader was Obli at English Wikipedia.",
+    "licence": "CC BY-SA 2.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Macrophage.jpg"
+  },
+  "antikoerper": {
+    "file": "Angel_of_the_West.jpg",
+    "author": "Julianva",
+    "licence": "CC BY-SA 3.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Angel_of_the_West.jpg"
+  },
+  "hippokrates": {
+    "file": "Herm_with_the_head_of_Hippocrates-Uffizi_(cropped).jpg",
+    "author": "Yair Haklai",
+    "licence": "CC BY-SA 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Herm_with_the_head_of_Hippocrates-Uffizi_(cropped).jpg"
+  },
+  "avicenna-kanon": {
+    "file": "The_Canon_of_Medicine.jpg",
+    "author": "Coffeetalkh",
+    "licence": "CC BY-SA 3.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:The_Canon_of_Medicine.jpg"
+  },
+  "pestarzt": {
+    "file": "Paul_Fürst,_Der_Doctor_Schnabel_von_Rom_(coloured_version).png",
+    "author": "I. Columbina, ad vivum delineavit. Paulus Fürst Excud〈i〉t.",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Paul_F%C3%BCrst,_Der_Doctor_Schnabel_von_Rom_(coloured_version).png"
+  },
+  "louis-pasteur": {
+    "file": "Louis_Pasteur,_foto_av_Paul_Nadar,_Crisco_edit.jpg",
+    "author": "Paul Nadar",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Louis_Pasteur,_foto_av_Paul_Nadar,_Crisco_edit.jpg"
+  },
+  "robert-koch": {
+    "file": "Robert_Koch.jpg",
+    "author": "Wilhelm Fechner",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Robert_Koch.jpg"
+  },
+  "alexander-fleming": {
+    "file": "Alexander-fleming.jpg",
+    "author": "unbekannt",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Alexander-fleming.jpg"
+  },
+  "penicillin-schale": {
+    "file": "Penicillium_notatum.jpg",
+    "author": "Crulina 98",
+    "licence": "CC BY-SA 3.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Penicillium_notatum.jpg"
+  },
+  "ether-day": {
+    "file": "The_First_Operation_Under_Ether_-_Robert_Hinckley.jpg",
+    "author": "Robert Cutler Hinckley",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:The_First_Operation_Under_Ether_-_Robert_Hinckley.jpg"
+  },
+  "kariko": {
+    "file": "Katalin_Karikó_at_the_United_States_Embassy_Sweden,_2023_Nobel_Reception_(cropped).jpg",
+    "author": "US Embassy Sweden",
+    "licence": "CC BY 2.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Katalin_Karik%C3%B3_at_the_United_States_Embassy_Sweden,_2023_Nobel_Reception_(cropped).jpg"
+  },
+  "neandertaler-rekonstruktion": {
+    "file": "Neanderthalensis.jpg",
+    "author": "Claire Houck from New York City, USA",
+    "licence": "CC BY-SA 2.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Neanderthalensis.jpg"
+  },
+  "svante-paabo": {
+    "file": "Professor_Svante_Paabo_ForMemRS_(cropped).jpg",
+    "author": "Duncan.Hull",
+    "licence": "CC BY-SA 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Professor_Svante_Paabo_ForMemRS_(cropped).jpg"
+  },
+  "chauvet-hoehle": {
+    "file": "Chauvet´s_cave_horses.jpg",
+    "author": "Thomas T. from somewhere on Earth",
+    "licence": "CC BY-SA 2.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Chauvet%C2%B4s_cave_horses.jpg"
+  },
+  "venus-hohle-fels": {
+    "file": "VenusHohlefels2.jpg",
+    "author": "Ramessos",
+    "licence": "CC BY-SA 3.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:VenusHohlefels2.jpg"
+  },
+  "verdauungssystem": {
+    "file": "Digestive system diagram de.svg",
+    "author": "eingedeutscht User:BMK / Mariana Ruiz, Jmarchn",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Digestive_system_diagram_de.svg"
+  },
+  "vesalius-fabrica": {
+    "file": "Muscle man, by Vesalius. Wellcome L0001644.jpg",
+    "author": "unbekannt",
+    "licence": "CC BY 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Muscle_man,_by_Vesalius._Wellcome_L0001644.jpg"
+  },
+  "leonardo-anatomie": {
+    "file": "Leonardo da Vinci - Studies of the foetus in the womb.jpg",
+    "author": "Leonardo da Vinci",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_-_Studies_of_the_foetus_in_the_womb.jpg"
+  },
+  "john-snow-karte": {
+    "file": "Snow-cholera-map-1.jpg",
+    "author": "John Snow",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Snow-cholera-map-1.jpg"
+  },
+  "lucy-skelett": {
+    "file": "Cast of the skeleton of Lucy at MHNG-IMG 1481-white.jpg",
+    "author": "Rama",
+    "licence": "CC BY-SA 3.0 fr",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0/fr/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:Cast_of_the_skeleton_of_Lucy_at_MHNG-IMG_1481-white.jpg"
+  },
+  "laetoli-fussspuren": {
+    "file": "Earliest known human footprints - one set - australopithecus afarensis - Smithsonian Museum of Natural History - 2012-05-17.jpg",
+    "author": "Tim Evanson",
+    "licence": "CC BY-SA 2.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Earliest_known_human_footprints_-_one_set_-_australopithecus_afarensis_-_Smithsonian_Museum_of_Natural_History_-_2012-05-17.jpg"
   }
 }

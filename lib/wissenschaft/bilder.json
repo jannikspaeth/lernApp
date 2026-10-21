@@ -884,5 +884,187 @@
     "title": "Jane Goodall",
     "artist": "",
     "year": ""
+  },
+  "skelett": {
+    "wiki": "Skelett des Menschen",
+    "title": "Menschliches Skelett (historischer Kupferstich)",
+    "artist": "",
+    "year": ""
+  },
+  "herz-anatomie": {
+    "wiki": "Herz",
+    "title": "Aufbau des menschlichen Herzens",
+    "artist": "",
+    "year": ""
+  },
+  "william-harvey": {
+    "wiki": "William Harvey",
+    "title": "William Harvey",
+    "artist": "",
+    "year": ""
+  },
+  "verdauungssystem": {
+    "wiki": "Verdauungstrakt",
+    "title": "Das Verdauungssystem des Menschen",
+    "artist": "",
+    "year": "",
+    "file": "Digestive system diagram de.svg"
+  },
+  "lunge": {
+    "wiki": "Lunge",
+    "title": "Die menschliche Lunge",
+    "artist": "",
+    "year": ""
+  },
+  "gehirn": {
+    "wiki": "Gehirn",
+    "title": "Ein menschliches Gehirn in einem Präparateglas",
+    "artist": "",
+    "year": ""
+  },
+  "cajal-neuron": {
+    "wiki": "Santiago Ramón y Cajal",
+    "title": "Santiago Ramón y Cajal",
+    "artist": "",
+    "year": ""
+  },
+  "auge": {
+    "wiki": "Auge",
+    "title": "Das menschliche Auge",
+    "artist": "",
+    "year": ""
+  },
+  "ohr-anatomie": {
+    "wiki": "Ohr",
+    "title": "Aufbau des Ohrs",
+    "artist": "",
+    "year": ""
+  },
+  "fresszelle": {
+    "wiki": "Makrophage",
+    "title": "Fresszellen unter dem Mikroskop",
+    "artist": "",
+    "year": ""
+  },
+  "antikoerper": {
+    "wiki": "Antikörper",
+    "title": "Skulptur eines Antikörpers",
+    "artist": "",
+    "year": ""
+  },
+  "hippokrates": {
+    "wiki": "Hippokrates von Kos",
+    "title": "Hippokrates",
+    "artist": "",
+    "year": ""
+  },
+  "avicenna-kanon": {
+    "wiki": "Kanon der Medizin",
+    "title": "Eine Handschrift des „Kanons der Medizin“",
+    "artist": "Avicenna",
+    "year": "",
+    "en": "The Canon of Medicine"
+  },
+  "vesalius-fabrica": {
+    "wiki": "De humani corporis fabrica",
+    "title": "Muskelmann aus der „Fabrica“",
+    "artist": "Andreas Vesalius",
+    "year": "1543",
+    "file": "Muscle man, by Vesalius. Wellcome L0001644.jpg"
+  },
+  "leonardo-anatomie": {
+    "wiki": "Leonardo da Vinci",
+    "title": "Studien zum Kind im Mutterleib",
+    "artist": "Leonardo da Vinci",
+    "year": "um 1510",
+    "file": "Leonardo da Vinci - Studies of the foetus in the womb.jpg"
+  },
+  "pestarzt": {
+    "wiki": "Pestarzt",
+    "title": "Pestarzt mit Schnabelmaske",
+    "artist": "",
+    "year": "1656"
+  },
+  "john-snow-karte": {
+    "wiki": "John Snow (Mediziner)",
+    "title": "John Snows Karte der Cholerafälle in Soho",
+    "artist": "John Snow",
+    "year": "1854",
+    "file": "Snow-cholera-map-1.jpg"
+  },
+  "louis-pasteur": {
+    "wiki": "Louis Pasteur",
+    "title": "Louis Pasteur",
+    "artist": "",
+    "year": ""
+  },
+  "robert-koch": {
+    "wiki": "Robert Koch",
+    "title": "Robert Koch",
+    "artist": "",
+    "year": ""
+  },
+  "alexander-fleming": {
+    "wiki": "Alexander Fleming",
+    "title": "Alexander Fleming",
+    "artist": "",
+    "year": ""
+  },
+  "penicillin-schale": {
+    "wiki": "Penicillin",
+    "title": "Penicillium-Schimmel in einer Petrischale",
+    "artist": "",
+    "year": ""
+  },
+  "ether-day": {
+    "wiki": "Ether Day",
+    "title": "Die erste öffentliche Äthernarkose",
+    "artist": "Robert C. Hinckley",
+    "year": "1882–1893",
+    "en": "Ether Day"
+  },
+  "kariko": {
+    "wiki": "Katalin Karikó",
+    "title": "Katalin Karikó",
+    "artist": "",
+    "year": ""
+  },
+  "lucy-skelett": {
+    "wiki": "Lucy (Fossil)",
+    "title": "Abguss des Skeletts von Lucy",
+    "artist": "",
+    "year": "",
+    "file": "Cast of the skeleton of Lucy at MHNG-IMG 1481-white.jpg"
+  },
+  "laetoli-fussspuren": {
+    "wiki": "Laetoli",
+    "title": "Abguss der Fußspuren von Laetoli",
+    "artist": "",
+    "year": "",
+    "file": "Earliest known human footprints - one set - australopithecus afarensis - Smithsonian Museum of Natural History - 2012-05-17.jpg"
+  },
+  "neandertaler-rekonstruktion": {
+    "wiki": "Neandertaler",
+    "title": "Skelett-Rekonstruktion eines Neandertalers",
+    "artist": "",
+    "year": ""
+  },
+  "svante-paabo": {
+    "wiki": "Svante Pääbo",
+    "title": "Svante Pääbo",
+    "artist": "",
+    "year": ""
+  },
+  "chauvet-hoehle": {
+    "wiki": "Grotte Chauvet",
+    "title": "Malereien in der Chauvet-Höhle",
+    "artist": "",
+    "year": "vor über 30.000 Jahren"
+  },
+  "venus-hohle-fels": {
+    "wiki": "Venus vom Hohlen Fels",
+    "title": "Venus vom Hohle Fels",
+    "artist": "",
+    "year": "vor rund 40.000 Jahren"
   }
 }
