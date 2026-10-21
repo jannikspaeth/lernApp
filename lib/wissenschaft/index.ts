@@ -6,6 +6,10 @@ import { WS_RAUMFAHRT } from './ws-raumfahrt';
 import { PH_MECHANIK } from './ph-mechanik';
 import { PH_ELEKTRO } from './ph-elektro';
 import { PH_MODERN } from './ph-modern';
+import { CH_GRUNDLAGEN } from './ch-grundlagen';
+import { CH_STOFFE } from './ch-stoffe';
+import { BI_LEBEN } from './bi-leben';
+import { BI_PFLANZEN } from './bi-pflanzen';
 
 // Wissenschaft: areas (epochs: Weltall, Physik, Chemie, Biologie …) → topics (events) → overview + chapters
 // (subtopics), reusing the history types. Progress is stored like the countries' under
@@ -26,6 +30,18 @@ const RAW: CountryHistory = {
       name: 'Physik',
       period: 'Kräfte, Energie, Licht und Atome',
       events: [PH_MECHANIK, PH_ELEKTRO, PH_MODERN],
+    },
+    {
+      id: 'chemie',
+      name: 'Chemie',
+      period: 'Atome, Elemente und Stoffe',
+      events: [CH_GRUNDLAGEN, CH_STOFFE],
+    },
+    {
+      id: 'biologie',
+      name: 'Biologie',
+      period: 'Zellen, Gene, Pflanzen und Tiere',
+      events: [BI_LEBEN, BI_PFLANZEN],
     },
   ],
 };
@@ -48,6 +64,8 @@ export function findKapitel(epocheId: string, subId: string): { land: Epoch; eve
 const COVERS: Record<string, string> = {
   weltall: 'pillars-of-creation', 'ws-sonnensystem': 'planet-saturn', 'ws-kosmos': 'andromeda', 'ws-astronomen': 'kopernikus', 'ws-raumfahrt': 'aldrin-mond',
   physik: 'einstein', 'ph-mechanik': 'newton', 'ph-elektro': 'faraday', 'ph-modern': 'marie-curie',
+  chemie: 'mendelejew', 'ch-grundlagen': 'lavoisier', 'ch-stoffe': 'feuerwerk',
+  biologie: 'darwin', 'bi-leben': 'dna-doppelhelix', 'bi-pflanzen': 'amazonas-regenwald',
 };
 
 export const WISSENSCHAFT: CountryHistory = {

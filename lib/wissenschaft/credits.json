@@ -527,5 +527,269 @@
     "licence": "CC BY-SA 3.0",
     "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
     "page": "https://commons.wikimedia.org/wiki/File:CERN_LHC_Tunnel1.jpg"
+  },
+  "alchemist": {
+    "file": "Joseph_Wright_of_Derby_The_Alchemist.jpg",
+    "author": "Joseph Wright of Derby",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Joseph_Wright_of_Derby_The_Alchemist.jpg"
+  },
+  "lavoisier": {
+    "file": "David_-_Portrait_of_Monsieur_Lavoisier_(cropped).jpg",
+    "author": "Jacques-Louis David",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:David_-_Portrait_of_Monsieur_Lavoisier_(cropped).jpg"
+  },
+  "dalton": {
+    "file": "John_Dalton_by_Charles_Turner.jpg",
+    "author": "Charles Turner / After James Lonsdale",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:John_Dalton_by_Charles_Turner.jpg"
+  },
+  "dalton-symbole": {
+    "file": "John Dalton's symbols for the elements..jpg",
+    "author": "Jaghrongle",
+    "licence": "CC BY-SA 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:John_Dalton%27s_symbols_for_the_elements..jpg"
+  },
+  "mendelejew": {
+    "file": "DIMendeleevCab.jpg",
+    "author": "Unknown authorUnknown author",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:DIMendeleevCab.jpg"
+  },
+  "periodensystem": {
+    "file": "Periodensystem_Einfach.svg",
+    "author": "Antonsusi",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Periodensystem_Einfach.svg"
+  },
+  "natriumchlorid": {
+    "file": "NaCl_polyhedra.svg",
+    "author": "Goran tek-en",
+    "licence": "CC BY-SA 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:NaCl_polyhedra.svg"
+  },
+  "feuerwerk": {
+    "file": "Duesseldorf_Firework_2007.jpg",
+    "author": "Ruben Wisniewski",
+    "licence": "CC BY-SA 3.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Duesseldorf_Firework_2007.jpg"
+  },
+  "zitrone": {
+    "file": "Lemon.jpg",
+    "author": "André Karwath aka Aka",
+    "licence": "CC BY-SA 2.5",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+    "page": "https://commons.wikimedia.org/wiki/File:Lemon.jpg"
+  },
+  "lackmus": {
+    "file": "Lackmus.jpg",
+    "author": "User:BXXXD",
+    "licence": "CC BY-SA 3.0",
+    "licenceUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Lackmus.jpg"
+  },
+  "wassertropfen": {
+    "file": "Dropphysics.jpg",
+    "author": "unbekannt",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Dropphysics.jpg"
+  },
+  "wasserlaeufer": {
+    "file": "Wasserläufer_bei_der_Paarung_crop.jpg",
+    "author": "Markus Gayda",
+    "licence": "CC BY-SA 3.0",
+    "licenceUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Wasserl%C3%A4ufer_bei_der_Paarung_crop.jpg"
+  },
+  "priestley": {
+    "file": "Joseph_Priestley.jpeg",
+    "author": "Rembrandt Peale",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Joseph_Priestley.jpeg"
+  },
+  "hindenburg": {
+    "file": "Hindenburg disaster.jpg",
+    "author": "Sam Shere",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Hindenburg_disaster.jpg"
+  },
+  "kekule": {
+    "file": "Heinrich_von_Angeli_-_Friedrich_August_Kekulé_von_Stradonitz.jpg",
+    "author": "Heinrich von Angeli",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Heinrich_von_Angeli_-_Friedrich_August_Kekul%C3%A9_von_Stradonitz.jpg"
+  },
+  "diamant": {
+    "file": "Diamond-1128734.jpg",
+    "author": "Jerry Cone",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Diamond-1128734.jpg"
+  },
+  "bakelit-telefon": {
+    "file": "Tischmikrofon_ca._1930.jpg",
+    "author": "Maximilian Schönherr",
+    "licence": "CC BY 3.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Tischmikrofon_ca._1930.jpg"
+  },
+  "alfred-nobel": {
+    "file": "Alfred_Nobel3.jpg",
+    "author": "Unknown authorUnknown author",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Alfred_Nobel3.jpg"
+  },
+  "fritz-haber": {
+    "file": "Portret_van_Professor_Fritz_Haber,_een_chemicus_uit_Duitsland_(foto_1918-_1934),_SFA002023057.jpg",
+    "author": "Unknown authorUnknown author",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Portret_van_Professor_Fritz_Haber,_een_chemicus_uit_Duitsland_(foto_1918-_1934),_SFA002023057.jpg"
+  },
+  "goldnugget": {
+    "file": "Gold nugget (Australia) 4 (16848647509).jpg",
+    "author": "James St. John",
+    "licence": "CC BY 2.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Gold_nugget_(Australia)_4_(16848647509).jpg"
+  },
+  "hochofen": {
+    "file": "Appleby Frodingham Steelworks - blast furnace - geograph.org.uk - 5924957.jpg",
+    "author": "Chris Allen",
+    "licence": "CC BY-SA 2.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Appleby_Frodingham_Steelworks_-_blast_furnace_-_geograph.org.uk_-_5924957.jpg"
+  },
+  "plastikmuell": {
+    "file": "Plastic Pollution in Santa Luzia, Cape Verde.jpg",
+    "author": "CaptainDarwin",
+    "licence": "CC BY-SA 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Plastic_Pollution_in_Santa_Luzia,_Cape_Verde.jpg"
+  },
+  "linne": {
+    "file": "Carl_von_Linné.png",
+    "author": "Alexander Roslin",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Carl_von_Linn%C3%A9.png"
+  },
+  "stromatolithen": {
+    "file": "Stromatolites_in_Sharkbay.jpg",
+    "author": "Paul Harrison",
+    "licence": "CC BY-SA 3.0",
+    "licenceUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Stromatolites_in_Sharkbay.jpg"
+  },
+  "e-coli": {
+    "file": "E._coli_Bacteria_(7316101966).jpg",
+    "author": "NIAID",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:E._coli_Bacteria_(7316101966).jpg"
+  },
+  "fliegenpilz": {
+    "file": "2006-10-25_Amanita_muscaria_crop.jpg",
+    "author": "Amanita_muscaria_3_vliegenzwammen_op_rij.jpg: Onderwijsgek derivative work: Ak ccm",
+    "licence": "CC BY-SA 3.0 nl",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0/nl/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:2006-10-25_Amanita_muscaria_crop.jpg"
+  },
+  "mendel": {
+    "file": "Gregor_Mendel_2.jpg",
+    "author": "Unknown authorUnknown author",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Gregor_Mendel_2.jpg"
+  },
+  "dna-doppelhelix": {
+    "file": "DNA_orbit_animated.gif",
+    "author": "Original uploader was Richard Wheeler (Zephyris) at en.wikipedia",
+    "licence": "CC BY-SA 3.0",
+    "licenceUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:DNA_orbit_animated.gif"
+  },
+  "darwin-finken": {
+    "file": "Darwin's_finches.jpeg",
+    "author": "John Gould (14.Sep.1804 - 3.Feb.1881)",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Darwin%27s_finches.jpeg"
+  },
+  "rachel-carson": {
+    "file": "Rachel-Carson.jpg",
+    "author": "U.S. Fish and Wildlife Service",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Rachel-Carson.jpg"
+  },
+  "hooke-kork": {
+    "file": "Cork Micrographia Hooke.png",
+    "author": "Robert Hooke",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Cork_Micrographia_Hooke.png"
+  },
+  "tierzelle": {
+    "file": "Animal Cell Structure.png",
+    "author": "Tmckn001",
+    "licence": "CC BY-SA 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Animal_Cell_Structure.png"
+  },
+  "humboldt-naturgemaelde": {
+    "file": "Zentralbibliothek Zürich - Ideen zu einer Geographie der Pflanzen nebst einem Naturgemälde der Tropenländer - 000012142.jpg",
+    "author": "Bonpland, Aimé, Arzt, Naturforscher, Entdeckungsreisender, Frankreich, 1773 - 1858",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Zentralbibliothek_Z%C3%BCrich_-_Ideen_zu_einer_Geographie_der_Pflanzen_nebst_einem_Naturgem%C3%A4lde_der_Tropenl%C3%A4nder_-_000012142.jpg"
+  },
+  "blatt-chloroplasten": {
+    "file": "Plagiomnium_affine_laminazellen.jpeg",
+    "author": "Kristian Peters -- Fabelfroh",
+    "licence": "CC BY-SA 3.0",
+    "licenceUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Plagiomnium_affine_laminazellen.jpeg"
+  },
+  "ingenhousz": {
+    "file": "Jan Ingenhousz.jpg",
+    "author": "Unknnown",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Jan_Ingenhousz.jpg"
+  },
+  "general-sherman": {
+    "file": "General_Sherman_1469870071.jpg",
+    "author": "Kimon Berlin",
+    "licence": "CC BY-SA 2.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:General_Sherman_1469870071.jpg"
+  },
+  "venusfliegenfalle": {
+    "file": "Venus Flytrap showing trigger hairs.jpg",
+    "author": "Noah Elhardt",
+    "licence": "CC BY-SA 2.5",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+    "page": "https://commons.wikimedia.org/wiki/File:Venus_Flytrap_showing_trigger_hairs.jpg"
+  },
+  "buchenwald": {
+    "file": "Buchenwald_1.jpg",
+    "author": "Darkone (Fotograf)",
+    "licence": "CC BY-SA 1.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/1.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Buchenwald_1.jpg"
+  },
+  "amazonas-regenwald": {
+    "file": "Amazon_rainforest.jpg",
+    "author": "Pfly",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Amazon_rainforest.jpg"
+  },
+  "weizenfeld": {
+    "file": "Weizenähren.jpg",
+    "author": "Eugen Staab",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Weizen%C3%A4hren.jpg"
+  },
+  "borlaug": {
+    "file": "Norman_Borlaug,_2004_(cropped).jpg",
+    "author": "Ben Zinner, USAID",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Norman_Borlaug,_2004_(cropped).jpg"
   }
 }

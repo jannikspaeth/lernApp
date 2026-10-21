@@ -530,5 +530,263 @@
     "title": "Peter Higgs",
     "artist": "",
     "year": ""
+  },
+  "alchemist": {
+    "wiki": "The Alchemist Discovering Phosphorus",
+    "title": "Der Alchemist entdeckt den Phosphor",
+    "artist": "Joseph Wright of Derby",
+    "year": "1771",
+    "en": "The Alchemist Discovering Phosphorus"
+  },
+  "lavoisier": {
+    "wiki": "Antoine Laurent de Lavoisier",
+    "title": "Antoine Lavoisier und Marie-Anne Paulze",
+    "artist": "Jacques-Louis David",
+    "year": "1788"
+  },
+  "dalton": {
+    "wiki": "John Dalton",
+    "title": "John Dalton",
+    "artist": "",
+    "year": ""
+  },
+  "dalton-symbole": {
+    "wiki": "John Dalton",
+    "title": "Daltons Symbole für die Elemente",
+    "artist": "John Dalton",
+    "year": "1808",
+    "file": "John Dalton's symbols for the elements..jpg"
+  },
+  "mendelejew": {
+    "wiki": "Dmitri Iwanowitsch Mendelejew",
+    "title": "Dmitri Mendelejew",
+    "artist": "",
+    "year": ""
+  },
+  "periodensystem": {
+    "wiki": "Periodensystem",
+    "title": "Das Periodensystem der Elemente",
+    "artist": "",
+    "year": ""
+  },
+  "natriumchlorid": {
+    "wiki": "Natriumchlorid",
+    "title": "Kristallgitter von Kochsalz (Natriumchlorid)",
+    "artist": "",
+    "year": ""
+  },
+  "feuerwerk": {
+    "wiki": "Feuerwerk",
+    "title": "Feuerwerk",
+    "artist": "",
+    "year": ""
+  },
+  "zitrone": {
+    "wiki": "Zitrone",
+    "title": "Zitronen",
+    "artist": "",
+    "year": ""
+  },
+  "lackmus": {
+    "wiki": "Lackmus",
+    "title": "Lackmus, ein Farbstoff aus Flechten",
+    "artist": "",
+    "year": ""
+  },
+  "wassertropfen": {
+    "wiki": "Tropfen",
+    "title": "Wassertropfen",
+    "artist": "",
+    "year": ""
+  },
+  "wasserlaeufer": {
+    "wiki": "Wasserläufer",
+    "title": "Wasserläufer",
+    "artist": "",
+    "year": ""
+  },
+  "priestley": {
+    "wiki": "Joseph Priestley",
+    "title": "Joseph Priestley",
+    "artist": "",
+    "year": ""
+  },
+  "hindenburg": {
+    "wiki": "LZ 129",
+    "title": "Das Unglück der „Hindenburg“ in Lakehurst",
+    "artist": "",
+    "year": "1937",
+    "file": "Hindenburg disaster.jpg"
+  },
+  "goldnugget": {
+    "wiki": "Gold",
+    "title": "Goldnugget",
+    "artist": "",
+    "year": "",
+    "file": "Gold nugget (Australia) 4 (16848647509).jpg"
+  },
+  "hochofen": {
+    "wiki": "Hochofen",
+    "title": "Hochofen eines Stahlwerks",
+    "artist": "",
+    "year": "",
+    "file": "Appleby Frodingham Steelworks - blast furnace - geograph.org.uk - 5924957.jpg"
+  },
+  "kekule": {
+    "wiki": "August Kekulé",
+    "title": "August Kekulé",
+    "artist": "",
+    "year": ""
+  },
+  "diamant": {
+    "wiki": "Diamant",
+    "title": "Rohdiamant",
+    "artist": "",
+    "year": ""
+  },
+  "bakelit-telefon": {
+    "wiki": "Bakelit",
+    "title": "Gegenstand aus Bakelit",
+    "artist": "",
+    "year": ""
+  },
+  "plastikmuell": {
+    "wiki": "Plastikmüll",
+    "title": "Plastikmüll an einem Strand auf den Kapverden",
+    "artist": "",
+    "year": "",
+    "file": "Plastic Pollution in Santa Luzia, Cape Verde.jpg"
+  },
+  "alfred-nobel": {
+    "wiki": "Alfred Nobel",
+    "title": "Alfred Nobel",
+    "artist": "",
+    "year": ""
+  },
+  "fritz-haber": {
+    "wiki": "Fritz Haber",
+    "title": "Fritz Haber",
+    "artist": "",
+    "year": ""
+  },
+  "linne": {
+    "wiki": "Carl von Linné",
+    "title": "Carl von Linné",
+    "artist": "Alexander Roslin",
+    "year": "1775"
+  },
+  "stromatolithen": {
+    "wiki": "Stromatolith",
+    "title": "Stromatolithen in der Shark Bay, Australien",
+    "artist": "",
+    "year": ""
+  },
+  "hooke-kork": {
+    "wiki": "Micrographia",
+    "title": "Korkzellen in Hookes „Micrographia“",
+    "artist": "Robert Hooke",
+    "year": "1665",
+    "file": "Cork Micrographia Hooke.png"
+  },
+  "tierzelle": {
+    "wiki": "Zelle (Biologie)",
+    "title": "Aufbau einer tierischen Zelle",
+    "artist": "",
+    "year": "",
+    "file": "Animal Cell Structure.png"
+  },
+  "e-coli": {
+    "wiki": "Escherichia coli",
+    "title": "Escherichia-coli-Bakterien (Elektronenmikroskop)",
+    "artist": "",
+    "year": ""
+  },
+  "fliegenpilz": {
+    "wiki": "Fliegenpilz",
+    "title": "Fliegenpilz",
+    "artist": "",
+    "year": ""
+  },
+  "mendel": {
+    "wiki": "Gregor Mendel",
+    "title": "Gregor Mendel",
+    "artist": "",
+    "year": ""
+  },
+  "dna-doppelhelix": {
+    "wiki": "Desoxyribonukleinsäure",
+    "title": "Modell der DNA-Doppelhelix",
+    "artist": "",
+    "year": ""
+  },
+  "darwin-finken": {
+    "wiki": "Darwinfinken",
+    "title": "Darwinfinken mit verschiedenen Schnäbeln",
+    "artist": "John Gould",
+    "year": "1845"
+  },
+  "humboldt-naturgemaelde": {
+    "wiki": "Naturgemälde",
+    "title": "Humboldts „Naturgemälde der Anden“ am Chimborazo",
+    "artist": "Alexander von Humboldt",
+    "year": "1807",
+    "file": "Zentralbibliothek Zürich - Ideen zu einer Geographie der Pflanzen nebst einem Naturgemälde der Tropenländer - 000012142.jpg"
+  },
+  "rachel-carson": {
+    "wiki": "Rachel Carson",
+    "title": "Rachel Carson",
+    "artist": "",
+    "year": ""
+  },
+  "blatt-chloroplasten": {
+    "wiki": "Chloroplast",
+    "title": "Pflanzenzellen mit Chloroplasten unter dem Mikroskop",
+    "artist": "",
+    "year": ""
+  },
+  "ingenhousz": {
+    "wiki": "Jan Ingenhousz",
+    "title": "Jan Ingenhousz",
+    "artist": "",
+    "year": "",
+    "file": "Jan Ingenhousz.jpg"
+  },
+  "general-sherman": {
+    "wiki": "General Sherman Tree",
+    "title": "Der Riesenmammutbaum „General Sherman“",
+    "artist": "",
+    "year": "",
+    "en": "General Sherman Tree"
+  },
+  "venusfliegenfalle": {
+    "wiki": "Venusfliegenfalle",
+    "title": "Venusfliegenfalle mit Fühlhaaren",
+    "artist": "",
+    "year": "",
+    "file": "Venus Flytrap showing trigger hairs.jpg"
+  },
+  "buchenwald": {
+    "wiki": "Rotbuche",
+    "title": "Wald aus Rotbuchen",
+    "artist": "",
+    "year": ""
+  },
+  "amazonas-regenwald": {
+    "wiki": "Amazonas-Regenwald",
+    "title": "Ausdehnung des Amazonas-Regenwalds",
+    "artist": "NASA",
+    "year": ""
+  },
+  "weizenfeld": {
+    "wiki": "Weizen",
+    "title": "Weizenähren",
+    "artist": "",
+    "year": ""
+  },
+  "borlaug": {
+    "wiki": "Norman Borlaug",
+    "title": "Norman Borlaug",
+    "artist": "",
+    "year": ""
   }
 }
