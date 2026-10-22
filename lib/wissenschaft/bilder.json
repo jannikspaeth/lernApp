@@ -1066,5 +1066,130 @@
     "title": "Venus vom Hohle Fels",
     "artist": "",
     "year": "vor rund 40.000 Jahren"
+  },
+  "erdaufbau": {
+    "wiki": "Schalenaufbau der Erde",
+    "title": "Modell des Schalenaufbaus der Erde",
+    "artist": "",
+    "year": "",
+    "file": "The layers of the Earth model.jpg"
+  },
+  "siccar-point": {
+    "wiki": "Siccar Point",
+    "title": "Siccar Point in Schottland",
+    "artist": "",
+    "year": ""
+  },
+  "alfred-wegener": {
+    "wiki": "Alfred Wegener",
+    "title": "Alfred Wegener",
+    "artist": "",
+    "year": ""
+  },
+  "pangaea": {
+    "wiki": "Pangaea",
+    "title": "Der Urkontinent Pangaea",
+    "artist": "",
+    "year": ""
+  },
+  "vesuv-ausbruch": {
+    "wiki": "Vesuv",
+    "title": "Der Vesuv über dem Golf von Neapel",
+    "artist": "",
+    "year": ""
+  },
+  "eyjafjallajoekull": {
+    "wiki": "Eyjafjallajökull",
+    "title": "Aschewolke des Eyjafjallajökull, April 2010",
+    "artist": "",
+    "year": "2010",
+    "file": "Eyjafjallajökull 17-4-2010.jpg"
+  },
+  "lissabon-1755": {
+    "wiki": "Erdbeben von Lissabon 1755",
+    "title": "Das Erdbeben von Lissabon (zeitgenössischer Stich)",
+    "artist": "",
+    "year": "1755",
+    "file": "1755 Lisbon earthquake.jpg"
+  },
+  "seismograph": {
+    "wiki": "Seismometer",
+    "title": "Seismograf",
+    "artist": "",
+    "year": ""
+  },
+  "grand-canyon": {
+    "wiki": "Grand Canyon",
+    "title": "Grand Canyon",
+    "artist": "",
+    "year": ""
+  },
+  "amethyst": {
+    "wiki": "Amethyst",
+    "title": "Amethyst",
+    "artist": "",
+    "year": ""
+  },
+  "cumulonimbus": {
+    "wiki": "Cumulonimbus",
+    "title": "Gewitterwolke (Cumulonimbus)",
+    "artist": "",
+    "year": ""
+  },
+  "luke-howard-wolken": {
+    "wiki": "Luke Howard",
+    "title": "Luke Howard",
+    "artist": "",
+    "year": ""
+  },
+  "hurrikan-katrina": {
+    "wiki": "Hurrikan Katrina",
+    "title": "Hurrikan Katrina im Satellitenbild",
+    "artist": "NASA/NOAA",
+    "year": "2005"
+  },
+  "tornado": {
+    "wiki": "Tornado",
+    "title": "Tornado",
+    "artist": "",
+    "year": ""
+  },
+  "koeppen-karte": {
+    "wiki": "Effektive Klimaklassifikation",
+    "title": "Klimazonen und ihre Vegetation",
+    "artist": "",
+    "year": ""
+  },
+  "aletschgletscher": {
+    "wiki": "Großer Aletschgletscher",
+    "title": "Großer Aletschgletscher",
+    "artist": "",
+    "year": ""
+  },
+  "keeling-kurve": {
+    "wiki": "Keeling-Kurve",
+    "title": "Die Keeling-Kurve",
+    "artist": "",
+    "year": ""
+  },
+  "warming-stripes": {
+    "wiki": "Warming stripes",
+    "title": "Die „Warming Stripes“ der globalen Temperatur",
+    "artist": "Ed Hawkins",
+    "year": "",
+    "en": "Warming stripes"
+  },
+  "hms-challenger": {
+    "wiki": "HMS Challenger (1858)",
+    "title": "Das Forschungsschiff HMS Challenger",
+    "artist": "",
+    "year": "",
+    "en": "HMS Challenger (1858)"
+  },
+  "gezeiten-saint-malo": {
+    "wiki": "Gezeiten",
+    "title": "Flut und Ebbe in der Bay of Fundy",
+    "artist": "",
+    "year": ""
   }
 }

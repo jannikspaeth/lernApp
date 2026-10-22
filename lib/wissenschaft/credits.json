@@ -1088,5 +1088,139 @@
     "licence": "CC BY-SA 2.0",
     "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0",
     "page": "https://commons.wikimedia.org/wiki/File:Earliest_known_human_footprints_-_one_set_-_australopithecus_afarensis_-_Smithsonian_Museum_of_Natural_History_-_2012-05-17.jpg"
+  },
+  "siccar-point": {
+    "file": "Siccar_Point_from_W.jpg",
+    "author": "dave souza",
+    "licence": "CC BY-SA 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Siccar_Point_from_W.jpg"
+  },
+  "alfred-wegener": {
+    "file": "Alfred_Wegener_ca.1924-30.jpg",
+    "author": "Unknown authorUnknown author",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Alfred_Wegener_ca.1924-30.jpg"
+  },
+  "pangaea": {
+    "file": "Pangaea_continents_german.png",
+    "author": "Von en:User:Kieff, verändert von Benutzer:TomCatX.",
+    "licence": "CC BY-SA 3.0",
+    "licenceUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Pangaea_continents_german.png"
+  },
+  "vesuv-ausbruch": {
+    "file": "Il_cratere_del_Vulcano_-_panoramio.jpg",
+    "author": "pietro scerrato",
+    "licence": "CC BY 3.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Il_cratere_del_Vulcano_-_panoramio.jpg"
+  },
+  "seismograph": {
+    "file": "Seismograph_Pinatubo.jpg",
+    "author": "http://de.wikipedia.org/wiki/Benutzer:Tsui",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Seismograph_Pinatubo.jpg"
+  },
+  "grand-canyon": {
+    "file": "Grand_Canyon_South_Rim_Trail_P4140464.jpg",
+    "author": "Alexander Migl",
+    "licence": "CC BY-SA 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Grand_Canyon_South_Rim_Trail_P4140464.jpg"
+  },
+  "amethyst": {
+    "file": "Amethyst_Druse.jpg",
+    "author": "Ra'ike (see also: de:Benutzer:Ra'ike)",
+    "licence": "CC BY 2.5",
+    "licenceUrl": "https://creativecommons.org/licenses/by/2.5",
+    "page": "https://commons.wikimedia.org/wiki/File:Amethyst_Druse.jpg"
+  },
+  "cumulonimbus": {
+    "file": "Kumulonimbuswolke_im_Abendlicht_über_Jena.JPG",
+    "author": "Uli Feuermeister",
+    "licence": "CC BY-SA 3.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Kumulonimbuswolke_im_Abendlicht_%C3%BCber_Jena.JPG"
+  },
+  "luke-howard-wolken": {
+    "file": "Luke_Howard.jpg",
+    "author": "unbekannt",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Luke_Howard.jpg"
+  },
+  "hurrikan-katrina": {
+    "file": "Katrina_2005-08-28_1702Z.jpg",
+    "author": "Jeff Schmaltz, MODIS Rapid Response Team, NASA/GSFC",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Katrina_2005-08-28_1702Z.jpg"
+  },
+  "tornado": {
+    "file": "F5_tornado_Elie_Manitoba_2007.jpg",
+    "author": "Justin Hobson (Justin1569 at English Wikipedia)",
+    "licence": "CC BY-SA 3.0",
+    "licenceUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:F5_tornado_Elie_Manitoba_2007.jpg"
+  },
+  "koeppen-karte": {
+    "file": "Biompyramide.jpg",
+    "author": "Fährtenleser",
+    "licence": "CC BY-SA 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Biompyramide.jpg"
+  },
+  "aletschgletscher": {
+    "file": "Grosser_Aletschgletscher_3196.JPG",
+    "author": "Dirk Beyer",
+    "licence": "CC BY-SA 3.0",
+    "licenceUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Grosser_Aletschgletscher_3196.JPG"
+  },
+  "keeling-kurve": {
+    "file": "Mauna_Loa_CO2_monthly_mean_concentration_DE.svg",
+    "author": "Oeneis",
+    "licence": "CC BY-SA 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Mauna_Loa_CO2_monthly_mean_concentration_DE.svg"
+  },
+  "warming-stripes": {
+    "file": "GLOBAL-STRIPES-1850-2025-hires.png",
+    "author": "Ed Hawkins (University of Reading)",
+    "licence": "CC BY 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:GLOBAL-STRIPES-1850-2025-hires.png"
+  },
+  "hms-challenger": {
+    "file": "HMS_challenger_William_Frederick_Mitchell.jpg",
+    "author": "William Frederick Mitchell",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:HMS_challenger_William_Frederick_Mitchell.jpg"
+  },
+  "gezeiten-saint-malo": {
+    "file": "Bay_of_Fundy.jpg",
+    "author": "Tttrung",
+    "licence": "CC BY-SA 3.0",
+    "licenceUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Bay_of_Fundy.jpg"
+  },
+  "erdaufbau": {
+    "file": "The layers of the Earth model.jpg",
+    "author": "Rajneesh kumar Thakur",
+    "licence": "CC BY-SA 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:The_layers_of_the_Earth_model.jpg"
+  },
+  "eyjafjallajoekull": {
+    "file": "Eyjafjallajökull 17-4-2010.jpg",
+    "author": "Bjarki Sigursveinsson",
+    "licence": "CC BY-SA 3.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Eyjafjallaj%C3%B6kull_17-4-2010.jpg"
+  },
+  "lissabon-1755": {
+    "file": "1755 Lisbon earthquake.jpg",
+    "author": "Unknown authorUnknown author",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:1755_Lisbon_earthquake.jpg"
   }
 }

@@ -14,6 +14,8 @@ import { BI_TIERE } from './bi-tiere';
 import { ME_KOERPER } from './me-koerper';
 import { ME_MEDIZIN } from './me-medizin';
 import { ME_MENSCH } from './me-mensch';
+import { ER_GEOLOGIE } from './er-geologie';
+import { ER_KLIMA } from './er-klima';
 
 // Wissenschaft: areas (epochs: Weltall, Physik, Chemie, Biologie …) → topics (events) → overview + chapters
 // (subtopics), reusing the history types. Progress is stored like the countries' under
@@ -53,6 +55,12 @@ const RAW: CountryHistory = {
       period: 'Körper, Heilkunst und Herkunft',
       events: [ME_KOERPER, ME_MEDIZIN, ME_MENSCH],
     },
+    {
+      id: 'erde',
+      name: 'Erde, Wetter und Klima',
+      period: 'Geologie, Atmosphäre und Ozeane',
+      events: [ER_GEOLOGIE, ER_KLIMA],
+    },
   ],
 };
 
@@ -77,6 +85,7 @@ const COVERS: Record<string, string> = {
   chemie: 'mendelejew', 'ch-grundlagen': 'lavoisier', 'ch-stoffe': 'feuerwerk',
   biologie: 'darwin', 'bi-leben': 'dna-doppelhelix', 'bi-pflanzen': 'amazonas-regenwald', 'bi-tiere': 'blauwal',
   mensch: 'vitruvianischer-mensch', 'me-koerper': 'gehirn', 'me-medizin': 'louis-pasteur', 'me-mensch': 'chauvet-hoehle',
+  erde: 'eyjafjallajoekull', 'er-geologie': 'grand-canyon', 'er-klima': 'cumulonimbus',
 };
 
 export const WISSENSCHAFT: CountryHistory = {
