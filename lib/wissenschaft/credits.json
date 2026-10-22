@@ -1222,5 +1222,92 @@
     "author": "Unknown authorUnknown author",
     "licence": "Public domain",
     "page": "https://commons.wikimedia.org/wiki/File:1755_Lisbon_earthquake.jpg"
+  },
+  "ishango-knochen": {
+    "file": "Os_d'Ishango_IRSNB.JPG",
+    "author": "Ben2",
+    "licence": "CC BY-SA 3.0",
+    "licenceUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Os_d%27Ishango_IRSNB.JPG"
+  },
+  "adam-ries": {
+    "file": "Ries.PNG",
+    "author": "Unknown authorUnknown author",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Ries.PNG"
+  },
+  "euklid-elemente": {
+    "file": "P._Oxy._I_29.jpg",
+    "author": "Euclid",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:P._Oxy._I_29.jpg"
+  },
+  "descartes-geometrie": {
+    "file": "GeometryDescartes.JPG",
+    "author": "Original uploader was User:Caton at [1]",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:GeometryDescartes.JPG"
+  },
+  "leonhard-euler": {
+    "file": "Leonhard_Euler_2.jpg",
+    "author": "Jakob Emanuel Handmann",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Leonhard_Euler_2.jpg"
+  },
+  "carl-friedrich-gauss": {
+    "file": "Carl_Friedrich_Gauss.jpg",
+    "author": "Gottlieb Biermann / After Christian Albrecht Jensen",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Carl_Friedrich_Gauss.jpg"
+  },
+  "pi-symbol": {
+    "file": "Pi-CM.svg",
+    "author": "American Mathematical Society",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Pi-CM.svg"
+  },
+  "ludolph-grab": {
+    "file": "Portret_van_Ludolph_van_Ceulen,_RP-P-OB-15.347.jpg",
+    "author": "Rijksmuseum",
+    "licence": "CC0",
+    "licenceUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:Portret_van_Ludolph_van_Ceulen,_RP-P-OB-15.347.jpg"
+  },
+  "georg-cantor": {
+    "file": "Georg_Cantor_(Porträt).jpg",
+    "author": "Unknown authorUnknown author",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Georg_Cantor_(Portr%C3%A4t).jpg"
+  },
+  "emmy-noether": {
+    "file": "Noether.jpg",
+    "author": "Unknown authorUnknown author Publisher: Mathematical Association of America [3], Brooklyn Museum [4], Agnes Scott College [5], [6]",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Noether.jpg"
+  },
+  "andrew-wiles": {
+    "file": "Andrew_wiles1-3.jpg",
+    "author": "\"copyright C. J. Mozzochi, Princeton N.J\"",
+    "licence": "Attribution",
+    "page": "https://commons.wikimedia.org/wiki/File:Andrew_wiles1-3.jpg"
+  },
+  "galtonbrett": {
+    "file": "Galton-Brett.svg",
+    "author": "PhysikingerC",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Galton-Brett.svg"
+  },
+  "al-chwarizmi": {
+    "file": "1983 CPA 5426.jpg",
+    "author": "А. Адашев",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:1983_CPA_5426.jpg"
+  },
+  "maryam-mirzakhani": {
+    "file": "Maryam Mirzakhani in Seoul 2014.jpg",
+    "author": "Gert-Martin Greuel",
+    "licence": "CC BY-SA 2.0 de",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/de/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:Maryam_Mirzakhani_in_Seoul_2014.jpg"
   }
 }

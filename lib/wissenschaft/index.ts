@@ -16,6 +16,8 @@ import { ME_MEDIZIN } from './me-medizin';
 import { ME_MENSCH } from './me-mensch';
 import { ER_GEOLOGIE } from './er-geologie';
 import { ER_KLIMA } from './er-klima';
+import { MA_GESCHICHTE } from './ma-geschichte';
+import { MA_IDEEN } from './ma-ideen';
 
 // Wissenschaft: areas (epochs: Weltall, Physik, Chemie, Biologie …) → topics (events) → overview + chapters
 // (subtopics), reusing the history types. Progress is stored like the countries' under
@@ -61,6 +63,12 @@ const RAW: CountryHistory = {
       period: 'Geologie, Atmosphäre und Ozeane',
       events: [ER_GEOLOGIE, ER_KLIMA],
     },
+    {
+      id: 'mathematik',
+      name: 'Mathematik',
+      period: 'Zahlen, Formen und Zufall',
+      events: [MA_GESCHICHTE, MA_IDEEN],
+    },
   ],
 };
 
@@ -86,6 +94,7 @@ const COVERS: Record<string, string> = {
   biologie: 'darwin', 'bi-leben': 'dna-doppelhelix', 'bi-pflanzen': 'amazonas-regenwald', 'bi-tiere': 'blauwal',
   mensch: 'vitruvianischer-mensch', 'me-koerper': 'gehirn', 'me-medizin': 'louis-pasteur', 'me-mensch': 'chauvet-hoehle',
   erde: 'eyjafjallajoekull', 'er-geologie': 'grand-canyon', 'er-klima': 'cumulonimbus',
+  mathematik: 'carl-friedrich-gauss', 'ma-geschichte': 'leonhard-euler', 'ma-ideen': 'pi-symbol',
 };
 
 export const WISSENSCHAFT: CountryHistory = {

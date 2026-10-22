@@ -13,7 +13,7 @@
  */
 
 const PAGES = 'pages-v4';
-const STATIC = 'static-v4';
+const STATIC = 'static-v5';
 const DATA = 'data-v4';
 const KEEP = [PAGES, STATIC, DATA];
 
@@ -25,7 +25,7 @@ const ROUTES = [
   '/redemittel', '/artikel', '/zahlen', '/schreiben',
   '/race', '/erfolge', '/help', '/profile', '/sprache', '/ueben',
 ];
-const FILES = ['/manifest.webmanifest', '/icon-192.png', '/icon-512.png', '/favicon.ico'];
+const FILES = ['/manifest.webmanifest', '/icon-192.png', '/icon-512.png', '/icon-maskable-512.png', '/favicon.ico'];
 
 self.addEventListener('install', event => {
   self.skipWaiting();
