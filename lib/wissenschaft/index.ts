@@ -18,6 +18,9 @@ import { ER_GEOLOGIE } from './er-geologie';
 import { ER_KLIMA } from './er-klima';
 import { MA_GESCHICHTE } from './ma-geschichte';
 import { MA_IDEEN } from './ma-ideen';
+import { TE_FRUEHE } from './te-fruehe';
+import { TE_INDUSTRIE } from './te-industrie';
+import { TE_DIGITAL } from './te-digital';
 
 // Wissenschaft: areas (epochs: Weltall, Physik, Chemie, Biologie …) → topics (events) → overview + chapters
 // (subtopics), reusing the history types. Progress is stored like the countries' under
@@ -69,6 +72,12 @@ const RAW: CountryHistory = {
       period: 'Zahlen, Formen und Zufall',
       events: [MA_GESCHICHTE, MA_IDEEN],
     },
+    {
+      id: 'technik',
+      name: 'Technik und Erfindungen',
+      period: 'Erfindungen, die die Welt veränderten',
+      events: [TE_FRUEHE, TE_INDUSTRIE, TE_DIGITAL],
+    },
   ],
 };
 
@@ -95,6 +104,10 @@ const COVERS: Record<string, string> = {
   mensch: 'vitruvianischer-mensch', 'me-koerper': 'gehirn', 'me-medizin': 'louis-pasteur', 'me-mensch': 'chauvet-hoehle',
   erde: 'eyjafjallajoekull', 'er-geologie': 'grand-canyon', 'er-klima': 'cumulonimbus',
   mathematik: 'carl-friedrich-gauss', 'ma-geschichte': 'leonhard-euler', 'ma-ideen': 'pi-symbol',
+  technik: 'james-watt',
+  'te-fruehe': 'gutenberg-bibel',
+  'te-industrie': 'stephenson-rocket',
+  'te-digital': 'zuse-z3',
 };
 
 export const WISSENSCHAFT: CountryHistory = {

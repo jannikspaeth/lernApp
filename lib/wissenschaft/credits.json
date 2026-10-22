@@ -1309,5 +1309,189 @@
     "licence": "CC BY-SA 2.0 de",
     "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/de/deed.en",
     "page": "https://commons.wikimedia.org/wiki/File:Maryam_Mirzakhani_in_Seoul_2014.jpg"
+  },
+  "kompass-china": {
+    "file": "Compass_in_a_wooden_frame.png",
+    "author": "Made by Liquid_2003.",
+    "licence": "Copyrighted free use",
+    "page": "https://commons.wikimedia.org/wiki/File:Compass_in_a_wooden_frame.png"
+  },
+  "gutenberg-bibel": {
+    "file": "Gutenberg_Bible,_Lenox_Copy,_New_York_Public_Library,_2009._Pic_01.jpg",
+    "author": "NYC Wanderer (Kevin Eng)",
+    "licence": "CC BY-SA 2.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Gutenberg_Bible,_Lenox_Copy,_New_York_Public_Library,_2009._Pic_01.jpg"
+  },
+  "gutenberg": {
+    "file": "Johannes_Gutenberg.jpg",
+    "author": "Printmaker, Larmessin, Nicolas de, (1632-1694)",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Johannes_Gutenberg.jpg"
+  },
+  "sonnenuhr": {
+    "file": "BadLiebenzellSonnenuhr_P1120632.jpg",
+    "author": "JuergenG",
+    "licence": "CC BY-SA 3.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:BadLiebenzellSonnenuhr_P1120632.jpg"
+  },
+  "james-watt": {
+    "file": "James_Watt_by_Henry_Howard.jpg",
+    "author": "Henry Howard",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:James_Watt_by_Henry_Howard.jpg"
+  },
+  "stephenson-rocket": {
+    "file": "Rocket_Tyseley_(2).jpg",
+    "author": "Tony Hisgett from Birmingham, UK",
+    "licence": "CC BY 2.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Rocket_Tyseley_(2).jpg"
+  },
+  "adler-lok": {
+    "file": "Adler_Originalfoto.jpg",
+    "author": "Unknown authorUnknown author",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Adler_Originalfoto.jpg"
+  },
+  "thomas-edison": {
+    "file": "Thomas_Edison2.jpg",
+    "author": "Louis Bachrach, Bachrach Studios, restored by Michel Vuijlsteke",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Thomas_Edison2.jpg"
+  },
+  "nikola-tesla": {
+    "file": "Tesla_circa_1890.jpeg",
+    "author": "Napoleon Sarony",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Tesla_circa_1890.jpeg"
+  },
+  "bell-telefon": {
+    "file": "Alexander_Graham_Bell.jpg",
+    "author": "Moffett Studio",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Alexander_Graham_Bell.jpg"
+  },
+  "braunsche-roehre": {
+    "file": "Cathode_ray_tube_de.svg",
+    "author": "FischX, Interiot, Raster:Theresa Knott",
+    "licence": "CC BY-SA 3.0",
+    "licenceUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Cathode_ray_tube_de.svg"
+  },
+  "benz-patent-motorwagen": {
+    "file": "Benz_Motorwagen_1.JPG",
+    "author": "Maxl",
+    "licence": "CC BY-SA 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Benz_Motorwagen_1.JPG"
+  },
+  "ford-model-t": {
+    "file": "1925_Ford_Model_T_touring.jpg",
+    "author": "ModelTMitch",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:1925_Ford_Model_T_touring.jpg"
+  },
+  "wright-flyer": {
+    "file": "First_flight2.jpg",
+    "author": "John T. Daniels",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:First_flight2.jpg"
+  },
+  "otto-lilienthal": {
+    "file": "Otto-lilienthal.jpg",
+    "author": "Photographer: A. Regis",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Otto-lilienthal.jpg"
+  },
+  "zuse-z3": {
+    "file": "Z3_Deutsches_Museum.JPG",
+    "author": "Venusianer at German Wikipedia",
+    "licence": "CC BY-SA 3.0",
+    "licenceUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Z3_Deutsches_Museum.JPG"
+  },
+  "eniac": {
+    "file": "Glen_Beck_and_Betty_Snyder_program_the_ENIAC_in_building_328_at_the_Ballistic_Research_Laboratory.jpg",
+    "author": "Unknown authorUnknown author",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Glen_Beck_and_Betty_Snyder_program_the_ENIAC_in_building_328_at_the_Ballistic_Research_Laboratory.jpg"
+  },
+  "tim-berners-lee": {
+    "file": "Sir_Tim_Berners-Lee.jpg",
+    "author": "Paul Clarke",
+    "licence": "CC BY-SA 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Sir_Tim_Berners-Lee.jpg"
+  },
+  "motorola-dynatac": {
+    "file": "DynaTAC8000X.jpg",
+    "author": "Redrum0486",
+    "licence": "CC BY-SA 3.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:DynaTAC8000X.jpg"
+  },
+  "iphone-2007": {
+    "file": "IPhone_First_Generation.jpg",
+    "author": "Carl Berkeley from Riverside California",
+    "licence": "CC BY-SA 2.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:IPhone_First_Generation.jpg"
+  },
+  "alan-turing": {
+    "file": "Alan_Turing_az_1930-as_években.jpg",
+    "author": "Unknown authorUnknown author",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Alan_Turing_az_1930-as_%C3%A9vekben.jpg"
+  },
+  "deep-blue": {
+    "file": "IBM_rs6000_SP_-_Deep_Blue.jpg",
+    "author": "Christina Xu",
+    "licence": "CC BY 2.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:IBM_rs6000_SP_-_Deep_Blue.jpg"
+  },
+  "windpark": {
+    "file": "Windpark-Wind-Farm.jpg",
+    "author": "Philip May",
+    "licence": "CC BY-SA 3.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Windpark-Wind-Farm.jpg"
+  },
+  "solarpark": {
+    "file": "SolarPowerPlantSerpa.jpg",
+    "author": "Original uploader was user:Ceinturion at en.wikipedia",
+    "licence": "CC BY-SA 3.0",
+    "licenceUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:SolarPowerPlantSerpa.jpg"
+  },
+  "rad-ljubljana": {
+    "file": "Ljubljana Marshes Wheel with axle (oldest wooden wheel yet discovered).jpg",
+    "author": "Petar Milošević",
+    "licence": "CC BY-SA 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Ljubljana_Marshes_Wheel_with_axle_(oldest_wooden_wheel_yet_discovered).jpg"
+  },
+  "harrison-h4": {
+    "file": "Harrison H4 chronometer.jpg",
+    "author": "Colonel Warden at en.wikipedia",
+    "licence": "CC BY-SA 3.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Harrison_H4_chronometer.jpg"
+  },
+  "watt-dampfmaschine": {
+    "file": "Maquina vapor Watt ETSIIM.jpg",
+    "author": "Nicolás Pérez",
+    "licence": "CC BY-SA 3.0",
+    "licenceUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Maquina_vapor_Watt_ETSIIM.jpg"
+  },
+  "cern-webserver": {
+    "file": "First Web Server.jpg",
+    "author": "User:Coolcaesar at en.wikipedia",
+    "licence": "CC BY-SA 3.0",
+    "licenceUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:First_Web_Server.jpg"
   }
 }

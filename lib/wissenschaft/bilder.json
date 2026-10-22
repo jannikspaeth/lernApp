@@ -1278,5 +1278,177 @@
     "title": "Galtonbrett",
     "artist": "",
     "year": ""
+  },
+  "rad-ljubljana": {
+    "wiki": "Rad von Ljubljana",
+    "title": "Rad von Ljubljana",
+    "artist": "",
+    "year": "um 3150 v. Chr.",
+    "file": "Ljubljana Marshes Wheel with axle (oldest wooden wheel yet discovered).jpg"
+  },
+  "kompass-china": {
+    "wiki": "Kompass",
+    "title": "Magnetkompass",
+    "artist": "",
+    "year": ""
+  },
+  "gutenberg-bibel": {
+    "wiki": "Gutenberg-Bibel",
+    "title": "Gutenberg-Bibel",
+    "artist": "Johannes Gutenberg",
+    "year": "um 1454"
+  },
+  "gutenberg": {
+    "wiki": "Johannes Gutenberg",
+    "title": "Johannes Gutenberg",
+    "artist": "",
+    "year": "Kupferstich, 16. Jh."
+  },
+  "harrison-h4": {
+    "wiki": "John Harrison",
+    "title": "Harrisons Marinechronometer H4",
+    "artist": "John Harrison",
+    "year": "1759",
+    "file": "Harrison H4 chronometer.jpg"
+  },
+  "sonnenuhr": {
+    "wiki": "Sonnenuhr",
+    "title": "Sonnenuhr",
+    "artist": "",
+    "year": ""
+  },
+  "james-watt": {
+    "wiki": "James Watt",
+    "title": "James Watt",
+    "artist": "Henry Howard",
+    "year": "um 1797"
+  },
+  "watt-dampfmaschine": {
+    "wiki": "Wattsche Dampfmaschine",
+    "title": "Wattsche Dampfmaschine",
+    "artist": "",
+    "year": "",
+    "file": "Maquina vapor Watt ETSIIM.jpg"
+  },
+  "stephenson-rocket": {
+    "wiki": "Rocket (Lokomotive)",
+    "title": "Stephensons „Rocket“ (Nachbau)",
+    "artist": "",
+    "year": "1829"
+  },
+  "adler-lok": {
+    "wiki": "Adler (Lokomotive)",
+    "title": "Lokomotive „Adler“",
+    "artist": "",
+    "year": "1835"
+  },
+  "thomas-edison": {
+    "wiki": "Thomas Alva Edison",
+    "title": "Thomas Alva Edison",
+    "artist": "",
+    "year": ""
+  },
+  "nikola-tesla": {
+    "wiki": "Nikola Tesla",
+    "title": "Nikola Tesla",
+    "artist": "Napoleon Sarony",
+    "year": "um 1890"
+  },
+  "bell-telefon": {
+    "wiki": "Alexander Graham Bell",
+    "title": "Alexander Graham Bell",
+    "artist": "",
+    "year": ""
+  },
+  "braunsche-roehre": {
+    "wiki": "Kathodenstrahlröhre",
+    "title": "Braunsche Röhre",
+    "artist": "",
+    "year": ""
+  },
+  "benz-patent-motorwagen": {
+    "wiki": "Benz Patent-Motorwagen Nummer 1",
+    "title": "Benz Patent-Motorwagen Nr. 1",
+    "artist": "Carl Benz",
+    "year": "1886"
+  },
+  "ford-model-t": {
+    "wiki": "Ford Modell T",
+    "title": "Ford Model T",
+    "artist": "",
+    "year": "1908"
+  },
+  "wright-flyer": {
+    "wiki": "Wright Flyer",
+    "title": "Erster Motorflug der Brüder Wright",
+    "artist": "John T. Daniels",
+    "year": "1903"
+  },
+  "otto-lilienthal": {
+    "wiki": "Otto Lilienthal",
+    "title": "Otto Lilienthal",
+    "artist": "",
+    "year": "um 1896"
+  },
+  "zuse-z3": {
+    "wiki": "Zuse Z3",
+    "title": "Zuse Z3 (Nachbau)",
+    "artist": "Konrad Zuse",
+    "year": "1941"
+  },
+  "eniac": {
+    "wiki": "ENIAC",
+    "title": "ENIAC",
+    "artist": "",
+    "year": "1946"
+  },
+  "tim-berners-lee": {
+    "wiki": "Tim Berners-Lee",
+    "title": "Tim Berners-Lee",
+    "artist": "",
+    "year": ""
+  },
+  "cern-webserver": {
+    "wiki": "CERN httpd",
+    "title": "Der erste Webserver am CERN",
+    "artist": "",
+    "year": "1990",
+    "file": "First Web Server.jpg"
+  },
+  "motorola-dynatac": {
+    "wiki": "Motorola DynaTAC",
+    "title": "Motorola DynaTAC 8000X",
+    "artist": "",
+    "year": "1983"
+  },
+  "iphone-2007": {
+    "wiki": "IPhone (1. Generation)",
+    "title": "iPhone der ersten Generation",
+    "artist": "",
+    "year": "2007"
+  },
+  "alan-turing": {
+    "wiki": "Alan Turing",
+    "title": "Alan Turing",
+    "artist": "",
+    "year": "um 1951"
+  },
+  "deep-blue": {
+    "wiki": "Deep Blue",
+    "title": "Deep Blue",
+    "artist": "IBM",
+    "year": "1997"
+  },
+  "windpark": {
+    "wiki": "Windpark",
+    "title": "Windpark",
+    "artist": "",
+    "year": ""
+  },
+  "solarpark": {
+    "wiki": "Photovoltaik-Freiflächenanlage",
+    "title": "Solarpark",
+    "artist": "",
+    "year": ""
   }
 }
