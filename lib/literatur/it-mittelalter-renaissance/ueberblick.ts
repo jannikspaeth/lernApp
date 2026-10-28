@@ -29,7 +29,7 @@ export const UEBERBLICK: Subtopic = {
     ],
     mittel: [
       ['Am Hof welches Kaisers entstand die erste Dichterschule?', 'Friedrichs II.', ['Karls des Großen', 'Ottos I.', 'Karls V.'], null],
-      ['Wo entstand sie?', 'Auf Sizilien', ['In Florenz', 'In Rom', 'In Mailand'], null],
+      ['Wo entstand die erste italienische Dichterschule?', 'Auf Sizilien', ['In Florenz', 'In Rom', 'In Mailand'], null],
       ['Wer dichtete den „Sonnengesang“?', 'Franz von Assisi', ['Dante', 'Thomas von Aquin', 'Petrarca'], null],
       ['Was bedeutet „dolce stil novo“?', 'Süßer neuer Stil', ['Heiliger Stil', 'Altes Lied', 'Neue Zeit'], null],
       ['Welche Wissenschaft wird Machiavelli zugerechnet?', 'Der modernen Politikwissenschaft', ['Der Medizin', 'Der Physik', 'Der Chemie'], null],

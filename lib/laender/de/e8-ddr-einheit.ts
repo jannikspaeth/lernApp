@@ -109,7 +109,7 @@ export const DDR: HistEvent = {
           ['Welches Land öffnete 1989 seine Grenze zu Österreich?', 'Ungarn', ['Polen', 'Tschechoslowakei', 'Rumänien']],
           ['In welcher Stadt fanden die Montagsdemonstrationen statt?', 'Leipzig', ['Dresden', 'Berlin', 'Rostock']],
           ['Was riefen die Demonstranten zuerst?', '„Wir sind das Volk!“', ['„Freiheit für alle!“', '„Nieder mit dem Kaiser!“', '„Deutschland den Deutschen!“']],
-          ['Was riefen sie später immer öfter?', '„Wir sind ein Volk!“', ['„Wir sind das Volk!“', '„Wir wollen raus!“', '„Es lebe die SED!“']],
+          ['Was riefen die Demonstranten 1989 später immer öfter?', '„Wir sind ein Volk!“', ['„Wir sind das Volk!“', '„Wir wollen raus!“', '„Es lebe die SED!“']],
           ['In welcher Kirche fanden in Leipzig Friedensgebete statt?', 'In der Nikolaikirche', ['In der Thomaskirche', 'In der Frauenkirche', 'Im Dom']],
           ['Wer verkündete 1989 in Prag die Ausreise der Flüchtlinge?', 'Hans-Dietrich Genscher', ['Helmut Kohl', 'Willy Brandt', 'Erich Honecker']],
           ['Wer verlas am 9. November 1989 die neue Reiseregelung?', 'Günter Schabowski', ['Erich Honecker', 'Egon Krenz', 'Helmut Kohl']],

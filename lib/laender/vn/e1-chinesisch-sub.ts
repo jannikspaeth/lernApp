@@ -40,7 +40,7 @@ export const CHINESISCH: Subtopic = {
       ['Wann wird den Hùng-Königen gedacht?', 'Am 10. Tag des dritten Mondmonats', ['Am 1. Januar', 'Am 2. September', 'Am 30. April']],
       ['Wann folgte das Reich Âu Lạc?', 'Um 257 v. Chr.', ['Um 111 v. Chr.', 'Um 40 n. Chr.', 'Um 938']],
       ['Wer gründete das Reich Nanyue?', 'Zhao Tuo', ['Ma Yuan', 'Su Ding', 'Kaiser Wu']],
-      ['Wann gründete er es?', '207 v. Chr.', ['111 v. Chr.', '257 v. Chr.', '40 n. Chr.']],
+      ['Wann gründete Zhao Tuo das Reich Nanyue?', '207 v. Chr.', ['111 v. Chr.', '257 v. Chr.', '40 n. Chr.']],
       ['Welcher Kaiser unterwarf Vietnam 111 v. Chr.?', 'Kaiser Wu', ['Kaiser Qin', 'Kaiser Tang', 'Kaiser Kublai']],
       ['Was übernahm China in der Verwaltung?', 'Beamtenprüfungen und Steuern', ['Nur Militär', 'Nur Religion', 'Nichts']],
       ['Was behielten die Vietnamesen?', 'Ihre Sprache und eine starke Stellung der Frauen', ['Die chinesische Schrift allein', 'Den Buddhismus allein', 'Das Kastenwesen']],

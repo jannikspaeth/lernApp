@@ -50,7 +50,7 @@ export const LINDGREN_MANKELL: Subtopic = {
       ['Wie heißt Jo Nesbøs Kommissar?', 'Harry Hole', ['Kurt Wallander', 'Martin Beck', 'Erlendur'], null],
       ['Wie heißt die schwedische Krimireihe von Sjöwall und Wahlöö?', 'Kommissar Beck', ['Wallander', 'Millennium', 'Hole'], null],
       ['Was erlitt Tranströmer 1990?', 'Einen Schlaganfall', ['Einen Unfall', 'Eine Haft', 'Eine Blindheit'], null],
-      ['Wie schrieb er danach weiter?', 'Mit der linken Hand und spielte Klavier', ['Mit Diktat', 'Gar nicht', 'Mit Hilfe seiner Frau'], null],
+      ['Wie schrieb Tranströmer nach seinem Schlaganfall weiter?', 'Mit der linken Hand und spielte Klavier', ['Mit Diktat', 'Gar nicht', 'Mit Hilfe seiner Frau'], null],
       ['Wozu gibt Tranströmers Lyrik laut Nobelkomitee Zugang?', 'Zur Wirklichkeit durch verdichtete Bilder', ['Zur Geschichte', 'Zu den Göttern', 'Zur Zukunft'], null],
     ],
   },

@@ -14,7 +14,7 @@ export const MANDELA: Subtopic = {
   quiz: {
     leicht: [
       ['Wie hieß die Verhandlungsrunde?', 'CODESA', ['UDF', 'COSATU', 'TRC']],
-      ['Wann begann sie?', 'Dezember 1991', ['Februar 1990', 'April 1994', 'Juli 1996']],
+      ['Wann begann die Verhandlungsrunde CODESA?', 'Dezember 1991', ['Februar 1990', 'April 1994', 'Juli 1996']],
       ['Welche Partei war Gegner des ANC?', 'Inkatha', ['Die UDF', 'Die PAC', 'Die COSATU']],
       ['Wer führte Inkatha?', 'Mangosuthu Buthelezi', ['Chris Hani', 'Thabo Mbeki', 'Desmond Tutu']],
       ['Wo gab es 1992 ein Massaker mit 45 Toten?', 'In Boipatong', ['In Sharpeville', 'In Soweto', 'In Langa']],
@@ -54,7 +54,7 @@ export const MANDELA: Subtopic = {
       ['Wofür stand RDP?', 'Programm für Wiederaufbau und Entwicklung', ['Reformen der Demokratie', 'Rote Demokratische Partei', 'Rand-Dollar-Politik']],
       ['Was war die GEAR-Politik?', 'Stabile Finanzen für Investoren', ['Staatsbetriebe', 'Verstaatlichung', 'Sozialismus']],
       ['Wie viele Amtszeiten diente Mandela?', 'Eine', ['Zwei', 'Drei', 'Vier']],
-      ['Wann trat er zurück?', '1999', ['1994', '1996', '2004']],
+      ['Wann schied Mandela aus dem Präsidentenamt?', '1999', ['1994', '1996', '2004']],
     ],
     schwer: [
       ['Was drohten Rechtsextreme?', 'Einen Aufstand', ['Einen Krieg mit Namibia', 'Den Austritt', 'Einen Boykott']],
@@ -70,11 +70,11 @@ export const MANDELA: Subtopic = {
       ['Was wurde Südafrika wieder?', 'Mitglied der Staatengemeinschaft', ['Kolonie', 'Neutrales Land', 'Diktatur']],
       ['Was war Mandelas Rücktritt?', 'Ein Vorbild für Afrika', ['Eine Niederlage', 'Ein Skandal', 'Ein Putsch']],
       ['Wann starb Mandela?', '5. Dezember 2013', ['11. Februar 1990', '18. Juli 2009', '27. April 1994']],
-      ['Wie alt wurde er?', '95 Jahre', ['75 Jahre', '85 Jahre', '105 Jahre']],
+      ['Wie alt wurde Nelson Mandela?', '95 Jahre', ['75 Jahre', '85 Jahre', '105 Jahre']],
       ['Wo war die Trauerfeier?', 'In Johannesburg', ['In Pretoria', 'In Kapstadt', 'In Durban']],
       ['Was ist „Madiba“?', 'Sein Clanname', ['Sein Kampfname', 'Sein Taufname', 'Sein Spitzname im Gefängnis']],
       ['Wann ist der Nelson-Mandela-Tag?', '18. Juli', ['27. April', '16. Juni', '11. Februar']],
-      ['Wofür engagierte er sich nach 1999?', 'Kinder, HIV-Aufklärung und Frieden', ['Politik', 'Wirtschaft', 'Sport']],
+      ['Wofür engagierte sich Mandela nach seiner Präsidentschaft?', 'Kinder, HIV-Aufklärung und Frieden', ['Politik', 'Wirtschaft', 'Sport']],
       ['In welchem Konflikt vermittelte er?', 'Im Burundi-Konflikt', ['Im Kongo', 'In Ruanda', 'In Libyen']],
       ['Was zeigt Mandelas Erbe?', 'Heilung durch Dialog statt Rache', ['Rache', 'Teilung', 'Isolation']],
     ],

@@ -38,7 +38,7 @@ export const KOENIGREICHE: Subtopic = {
       ['Wie nennt man die Hebräische Bibel mit anderem Wort?', 'Tanach', ['Talmud', 'Mischna', 'Midrasch']],
       ['Wer waren die Erzväter?', 'Abraham, Isaak und Jakob', ['Mose, Aaron, Josua', 'David, Salomo, Saul', 'Noah, Adam, Henoch']],
       ['Was ist die Merenptah-Stele?', 'Älteste außerbiblische Erwähnung Israels', ['Ein Tempel', 'Ein Grab', 'Ein Gesetz']],
-      ['Wann entstand sie etwa?', 'Um 1207 v. Chr.', ['Um 586 v. Chr.', 'Um 1000 v. Chr.', 'Um 70 n. Chr.']],
+      ['Wann entstand die Merenptah-Stele etwa?', 'Um 1207 v. Chr.', ['Um 586 v. Chr.', 'Um 1000 v. Chr.', 'Um 70 n. Chr.']],
       ['Wer führte die Stämme zuerst?', 'Die Richter', ['Die Könige', 'Die Priester', 'Die Propheten']],
       ['Wann lebte David etwa?', 'Um 1010–970 v. Chr.', ['Um 722 v. Chr.', 'Um 586 v. Chr.', 'Um 539 v. Chr.']],
       ['Was belegt die Inschrift von Tel Dan?', 'Das „Haus David“', ['Den Tempel Salomos', 'Den Exodus', 'Den Fall Samarias']],

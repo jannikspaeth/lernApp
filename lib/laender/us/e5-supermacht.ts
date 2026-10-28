@@ -232,7 +232,7 @@ export const E5: Epoch = {
               ['Wovon träumte King?', 'Dass seine Kinder nach ihrem Charakter beurteilt würden', ['Von Reichtum', 'Von einem eigenen Staat', 'Von der Präsidentschaft']],
               ['Was verbot der Civil Rights Act außerdem?', 'Diskriminierung bei der Arbeit', ['Waffenbesitz', 'Alkohol', 'Einwanderung']],
               ['Von wo nach wo marschierten Demonstranten 1965?', 'Von Selma nach Montgomery', ['Von Memphis nach Atlanta', 'Von New York nach Washington', 'Von Little Rock nach Dallas']],
-              ['Wofür marschierten sie 1965?', 'Für das Wahlrecht', ['Gegen den Vietnamkrieg', 'Für Gold', 'Für Steuersenkungen']],
+              ['Wofür marschierten Demonstranten 1965 von Selma nach Montgomery?', 'Für das Wahlrecht', ['Gegen den Vietnamkrieg', 'Für Gold', 'Für Steuersenkungen']],
               ['Wo schlug die Polizei am Bloody Sunday zu?', 'Auf der Edmund-Pettus-Brücke', ['Am Lincoln Memorial', 'In Memphis', 'In Little Rock']],
               ['Wann wurde Malcolm X ermordet?', '1965', ['1968', '1963', '1970']],
               ['Welche Bewegung entstand später?', 'Black Power und die Black Panther Party', ['Die Prohibitionsbewegung', 'Der Ku-Klux-Klan', 'Die Tea Party']],

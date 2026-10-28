@@ -31,7 +31,7 @@ export const HEUTE: Subtopic = {
       ['Wofür wird Nickel gebraucht?', 'Für Batterien von Elektroautos', ['Für Waffen allein', 'Für Schmuck', 'Für Geld']],
       ['Wie heißt ein bekanntes Start-up?', 'Gojek', ['Uber', 'Grab allein', 'Airbnb']],
       ['Wie soll die neue Hauptstadt heißen?', 'Nusantara', ['Jakarta Baru', 'Borneo City', 'Merdeka']],
-      ['Wo liegt sie?', 'Auf Borneo (Ostkalimantan)', ['Auf Java', 'Auf Bali', 'Auf Sumatra']],
+      ['Wo liegt Indonesiens neue Hauptstadt Nusantara?', 'Auf Borneo (Ostkalimantan)', ['Auf Java', 'Auf Bali', 'Auf Sumatra']],
       ['Was passiert mit Jakarta?', 'Es sinkt ab und wird überflutet', ['Es wächst nicht', 'Es wird kleiner', 'Es wird verkauft']],
     ],
     mittel: [

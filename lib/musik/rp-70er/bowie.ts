@@ -30,7 +30,7 @@ export const BOWIE: Subtopic = {
     ],
     mittel: [
       ['Wie hieß David Bowie eigentlich?', 'David Robert Jones', ['David Bowman', 'Davy Jones', 'Robert Bowie'], 'Er änderte den Namen wegen Davy Jones von den Monkees.'],
-      ['Nach was benannte er sich?', 'Nach dem Bowiemesser', ['Nach einer Stadt', 'Nach seinem Lehrer', 'Nach einem Film'], 'Ein amerikanisches Jagdmesser.'],
+      ['Wonach benannte sich David Bowie?', 'Nach dem Bowiemesser', ['Nach einer Stadt', 'Nach seinem Lehrer', 'Nach einem Film'], 'Ein amerikanisches Jagdmesser.'],
       ['Wann spielte die BBC „Space Oddity“ zur Mondlandung?', '1969', ['1961', '1972', '1981'], 'Im Fernsehen zur Apollo-11-Mission.'],
       ['Wann ließ Bowie Ziggy Stardust auf der Bühne „sterben“?', 'Am 3. Juli 1973', ['Am 8. Januar 1972', 'Am 10. Januar 2016', 'Am 6. Juni 1987'], 'Im Londoner Hammersmith Odeon.'],
       ['Wie nannte Bowie seine weiße Version des Soul?', '„Plastic Soul“', ['„Glam Soul“', '„Blue-eyed Funk“', '„Space Soul“'], 'Auf dem Album „Young Americans“.'],

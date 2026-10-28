@@ -16,7 +16,7 @@ export const BOETHIUS: Subtopic = {
   quiz: {
     leicht: [
       ['Wie heißt Boethius’ berühmtestes Werk?', '„Der Trost der Philosophie“', ['„Der Gottesstaat“', '„Bekenntnisse“', '„Der Fürst“'], 'Im Gefängnis geschrieben.'],
-      ['Wo schrieb Boethius dieses Werk?', 'Im Gefängnis', ['In einem Kloster', 'Am Königshof', 'Auf einer Reise'], 'In Pavia, vor seiner Hinrichtung.'],
+      ['Wo schrieb Boethius den „Trost der Philosophie“?', 'Im Gefängnis', ['In einem Kloster', 'Am Königshof', 'Auf einer Reise'], 'In Pavia, vor seiner Hinrichtung.'],
       ['Wer ist auf diesem Bild zu sehen?', 'Boethius', ['Augustinus', 'Theoderich', 'Cicero'], 'Eine mittelalterliche Buchmalerei.', 'boethius'],
       ['Welcher König regierte Italien zu Boethius’ Zeit?', 'Der Ostgote Theoderich', ['Karl der Große', 'Alarich', 'Attila'], 'Von Ravenna aus.'],
       ['Welche Sprache beherrschte Boethius als einer der letzten im Westen?', 'Griechisch', ['Hebräisch', 'Arabisch', 'Gotisch'], 'Daher konnte er übersetzen.'],

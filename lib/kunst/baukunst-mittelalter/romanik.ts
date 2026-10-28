@@ -28,7 +28,7 @@ export const ROMANIK: Subtopic = {
     ],
     mittel: [
       ['Wann wurde der Speyerer Dom begonnen?', 'Um 1030', ['Um 830', 'Um 1230', 'Um 1430'], 'Der Dom wurde um 1030 begonnen.'],
-      ['Wann wurde er geweiht?', '1061', ['861', '1161', '1261'], 'Der Speyerer Dom wurde 1061 geweiht.'],
+      ['Wann wurde der Speyerer Dom geweiht?', '1061', ['861', '1161', '1261'], 'Der Speyerer Dom wurde 1061 geweiht.'],
       ['Wie hoch ist das Mittelschiff etwa?', '33 Meter', ['13 Meter', '63 Meter', '93 Meter'], 'Das Mittelschiff ist rund 33 Meter hoch.'],
       ['Wie viele Kaiser und Könige liegen dort?', 'Acht', ['Zwei', 'Vier', 'Zwanzig'], 'Acht Kaiser und Könige liegen in der Krypta.'],
       ['Wann zerstörten Franzosen große Teile?', '1689', ['1489', '1789', '1889'], '1689 brannten französische Truppen Speyer nieder.'],
@@ -36,7 +36,7 @@ export const ROMANIK: Subtopic = {
       ['Wann wurde der Dom von Pisa begonnen?', '1063', ['863', '1263', '1463']],
       ['Wann begann der Turmbau?', '1173', ['973', '1373', '1573'], 'Die Bauarbeiten am Turm begannen 1173.'],
       ['Wie hoch ist der Turm etwa?', '56 Meter', ['16 Meter', '96 Meter', '156 Meter']],
-      ['Wie stark neigte er sich zuletzt etwa?', 'Um 4 Grad', ['Um 14 Grad', 'Um 40 Grad', 'Um 0,4 Grad'], 'Zuletzt neigte sich der Turm um etwa 4 Grad.'],
+      ['Wie stark neigte sich der Schiefe Turm von Pisa zuletzt etwa?', 'Um 4 Grad', ['Um 14 Grad', 'Um 40 Grad', 'Um 0,4 Grad'], 'Zuletzt neigte sich der Turm um etwa 4 Grad.'],
       ['Wann wurde der Turm stabilisiert?', '1990–2001', ['1790–1801', '1890–1901', '2010–2020'], 'Von 1990 bis 2001 wurde der Turm gesichert.'],
       ['Seit wann ist der Platz Welterbe?', '1987', ['1887', '1957', '2007'], 'Die Piazza dei Miracoli wurde 1987 Welterbe.'],
     ],

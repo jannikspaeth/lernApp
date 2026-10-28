@@ -6,6 +6,7 @@ import { KUNST, KUNST_CODE } from '@/lib/kunst';
 import { MUSIK, MUSIK_CODE } from '@/lib/musik';
 import { PHILOSOPHIE, PHILO_CODE } from '@/lib/philosophie';
 import { WISSENSCHAFT, WIS_CODE } from '@/lib/wissenschaft';
+import { POLITIK, POL_CODE } from '@/lib/politik';
 import { bildView } from '@/lib/bild';
 import { DETAILED } from '@/lib/laender';
 import { COUNTRIES } from '@/lib/welt';
@@ -133,6 +134,34 @@ export function wisEpochTiles(g: Epoch): Tile[] {
     cover: cover(ev.cover, 'center'),
     tint: TINTS[i % TINTS.length],
     code: WIS_CODE,
+    items: items([ev]),
+  }));
+}
+
+// Politik: one tile per area.
+export function polBereichTiles(): Tile[] {
+  return POLITIK.epochs.map((g, i) => ({
+    key: g.id,
+    href: `/politik/bereiche/${g.id}`,
+    title: g.name,
+    sub: `${g.events.length} Themen · ${chapters(g.events)} Kapitel`,
+    cover: cover(g.cover, 'center'),
+    tint: TINTS[i % TINTS.length],
+    code: POL_CODE,
+    items: items(g.events),
+  }));
+}
+
+// Politik: the topics of one area.
+export function polEpochTiles(g: Epoch): Tile[] {
+  return g.events.map((ev, i) => ({
+    key: ev.id,
+    href: `/politik/${ev.id}`,
+    title: ev.title,
+    sub: `${ev.subtopics?.length ?? 0} Kapitel`,
+    cover: cover(ev.cover, 'center'),
+    tint: TINTS[i % TINTS.length],
+    code: POL_CODE,
     items: items([ev]),
   }));
 }

@@ -27,7 +27,7 @@ export const DEMOKRATIE: Subtopic = {
       ['Welche Spiele gewann Seoul für 1988?', 'Die Olympischen Spiele', ['Die Weltmeisterschaft', 'Die Expo', 'Die Asienspiele allein']],
       ['Wann gingen Millionen in der Juni-Bewegung auf die Straße?', '1987', ['1979', '1980', '1997']],
       ['Wer kapitulierte am 29. Juni 1987?', 'Roh Tae-woo', ['Chun Doo-hwan', 'Park', 'Kim Young-sam']],
-      ['Was versprach er?', 'Die Direktwahl des Präsidenten', ['Den Rücktritt Chuns', 'Einen Krieg', 'Neuen König']],
+      ['Was versprach Roh Tae-woo am 29. Juni 1987?', 'Die Direktwahl des Präsidenten', ['Den Rücktritt Chuns', 'Einen Krieg', 'Neuen König']],
       ['Wer wurde im Dezember 1987 gewählt?', 'Roh Tae-woo', ['Kim Young-sam', 'Kim Dae-jung', 'Chun']],
       ['Wann waren die Olympischen Spiele in Seoul?', '1988', ['1980', '1992', '2002']],
       ['Wer war der erste zivile Präsident seit 1961?', 'Kim Young-sam', ['Roh Tae-woo', 'Kim Dae-jung', 'Chun']],

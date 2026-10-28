@@ -32,7 +32,7 @@ export const TAGORE_LU_XUN: Subtopic = {
       ['Wer schrieb das Vorwort zur englischen „Gitanjali“?', 'W. B. Yeats', ['T. S. Eliot', 'Ezra Pound', 'Rilke'], null],
       ['Wie viele Lieder schrieb Tagore etwa?', 'Über 2000', ['Etwa 20', 'Etwa 200', 'Etwa 20 000'], null],
       ['Wann gründete Tagore Santiniketan?', '1901', ['1861', '1913', '1941'], null],
-      ['Wogegen protestierte er 1919?', 'Gegen das Massaker von Amritsar', ['Gegen den Krieg', 'Gegen den Salzmarsch', 'Gegen den Kolonialismus allein'], 'Er gab den von den Briten verliehenen Adelstitel zurück.'],
+      ['Wogegen protestierte Tagore 1919?', 'Gegen das Massaker von Amritsar', ['Gegen den Krieg', 'Gegen den Salzmarsch', 'Gegen den Kolonialismus allein'], 'Er gab den von den Briten verliehenen Adelstitel zurück.'],
       ['Mit wem stritt Tagore fruchtbar?', 'Mit Gandhi', ['Mit Nehru', 'Mit Rushdie', 'Mit Lu Xun'], null],
       ['Wann lebte Lu Xun?', '1881–1936', ['1861–1941', '1900–1980', '1920–1990'], null],
       ['Wie hieß Lu Xun mit richtigem Namen?', 'Zhou Shuren', ['Mao Dun', 'Lao She', 'Ba Jin'], null],

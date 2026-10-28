@@ -16,7 +16,7 @@ export const ENDE: Subtopic = {
       ['Wann war der Aufstand in Soweto?', '16. Juni 1976', ['21. März 1960', '11. Februar 1990', '27. April 1994']],
       ['Wogegen protestierten die Schüler?', 'Gegen Afrikaans als Unterrichtssprache', ['Gegen Schulgeld', 'Gegen Passgesetze', 'Gegen Steuern']],
       ['Wer wurde als erster erschossen, bekannt durch ein Foto?', 'Hector Pieterson', ['Steve Biko', 'Nelson Mandela', 'Walter Sisulu']],
-      ['Wie alt war er?', '12 Jahre', ['2 Jahre', '22 Jahre', '42 Jahre']],
+      ['Wie alt war Hector Pieterson, als er 1976 in Soweto erschossen wurde?', '12 Jahre', ['2 Jahre', '22 Jahre', '42 Jahre']],
       ['Was ist der 16. Juni heute?', 'Nationalfeiertag (Youth Day)', ['Freedom Day', 'Heritage Day', 'Women’s Day']],
       ['Wer führte die Black Consciousness an?', 'Steve Biko', ['Mandela', 'Tutu', 'Sisulu']],
       ['Wie starb Biko?', 'In Polizeihaft zu Tode geprügelt', ['Er wurde erschossen', 'Er starb an Krankheit', 'Er wurde hingerichtet']],

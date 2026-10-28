@@ -202,7 +202,7 @@ export const E4: Epoch = {
               ['Welches Gebäude gilt als „Geschenk Stalins“?', 'Der Palast der Kultur und Wissenschaft', ['Der Wawel', 'Das Königsschloss', 'Das Stadion']],
               ['Welche sozialistische Musterstadt entstand bei Krakau?', 'Nowa Huta', ['Gdingen', 'Kattowitz', 'Lodz']],
               ['Wo streikten Arbeiter 1956?', 'In Posen', ['In Danzig', 'In Krakau', 'In Warschau']],
-              ['Wofür streikten sie?', '„Brot und Freiheit“', ['„Frieden und Land“', '„Gott und Vaterland“', '„Arbeit und Wodka“']],
+              ['Wofür streikten die Arbeiter in Posen 1956?', '„Brot und Freiheit“', ['„Frieden und Land“', '„Gott und Vaterland“', '„Arbeit und Wodka“']],
               ['Wer kam im „Polnischen Oktober“ 1956 an die Macht?', 'Władysław Gomułka', ['Edward Gierek', 'Wojciech Jaruzelski', 'Bolesław Bierut']],
               ['Was behielten die Bauern?', 'Ihr Land', ['Nichts', 'Ihre Fabriken', 'Ihre Schiffe']],
               ['Gegen wen richtete sich die Kampagne 1968?', 'Gegen Juden', ['Gegen Bauern', 'Gegen Deutsche', 'Gegen Priester']],

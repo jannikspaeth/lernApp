@@ -67,7 +67,7 @@ export const HEUTE: Subtopic = {
       ['Wie dreht man Nollywood-Filme oft?', 'In wenigen Tagen mit kleinem Budget', ['In Jahren mit großem Budget', 'Nur im Studio', 'Nur mit Stars']],
       ['Welche Rolle hat Okonjo-Iweala?', 'Generaldirektorin der WTO', ['UN-Generalsekretärin', 'IWF-Chefin', 'Weltbankpräsidentin']],
       ['Seit wann hat sie das Amt?', 'Seit 2021', ['Seit 2001', 'Seit 2011', 'Seit 2023']],
-      ['Was war an ihr neu?', 'Erste Frau und erste Afrikanerin in dem Amt', ['Erste Muslimin', 'Erste Asiatin', 'Erste Juristin']],
+      ['Was war neu an Ngozi Okonjo-Iweala als Chefin der WTO?', 'Erste Frau und erste Afrikanerin in dem Amt', ['Erste Muslimin', 'Erste Asiatin', 'Erste Juristin']],
       ['Welcher Basketballer ist Nigerianer?', 'Hakeem Olajuwon', ['Michael Jordan', 'LeBron James', 'Kobe Bryant']],
       ['Welcher Boxer?', 'Anthony Joshua', ['Tyson Fury', 'Muhammad Ali', 'Mike Tyson']],
       ['Wie viel Geld schicken Auswanderer jährlich?', 'Über 20 Milliarden Dollar', ['Über 20 Millionen', 'Über 200 Millionen', 'Über 2 Milliarden']],

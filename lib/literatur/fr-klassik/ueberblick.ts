@@ -18,7 +18,7 @@ export const UEBERBLICK: Subtopic = {
       ['Wo war das Zentrum des kulturellen Lebens?', 'Am Hof von Versailles', ['In der Sorbonne', 'In den Klöstern', 'In Lyon'], null],
       ['Wer ist auf diesem Porträt zu sehen?', 'Molière', ['Racine', 'Corneille', 'La Fontaine'], null, 'moliere'],
       ['Welche Akademie wurde 1635 gegründet?', 'Die Académie française', ['Die Sorbonne', 'Die Comédie-Française', 'Das Collège de France'], null],
-      ['Wer gründete sie?', 'Kardinal Richelieu', ['Ludwig XIV.', 'Mazarin', 'Colbert'], null],
+      ['Wer gründete 1635 die Académie française?', 'Kardinal Richelieu', ['Ludwig XIV.', 'Mazarin', 'Colbert'], null],
       ['Wie nennt man die Mitglieder der Académie?', 'Die Unsterblichen', ['Die Vierzig Weisen', 'Die Meister', 'Die Hüter'], 'Es sind 40 Mitglieder.'],
       ['Welche drei Einheiten sollte ein klassisches Drama wahren?', 'Handlung, Ort und Zeit', ['Vers, Reim und Rhythmus', 'Anfang, Mitte und Ende', 'Gott, König und Volk'], null],
       ['Wer schrieb Tragödien wie „Phèdre“?', 'Jean Racine', ['Molière', 'Corneille', 'Voltaire'], null],

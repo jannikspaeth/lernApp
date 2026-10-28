@@ -16,11 +16,11 @@ export const DOSTOJEWSKI: Subtopic = {
     leicht: [
       ['Wer schrieb „Schuld und Sühne“?', 'Fjodor Dostojewski', ['Lew Tolstoi', 'Iwan Turgenjew', 'Nikolai Gogol'], null, 'dostojewski'],
       ['Wie heißt der Student in „Schuld und Sühne“?', 'Raskolnikow', ['Myschkin', 'Karamasow', 'Stawrogin'], null],
-      ['Wen erschlägt er?', 'Eine alte Pfandleiherin', ['Einen Beamten', 'Seinen Vermieter', 'Einen Offizier'], null],
+      ['Wen erschlägt Raskolnikow in „Schuld und Sühne“?', 'Eine alte Pfandleiherin', ['Einen Beamten', 'Seinen Vermieter', 'Einen Offizier'], null],
       ['Was glaubt Raskolnikow vor der Tat?', 'Außergewöhnliche Menschen dürften Gesetze übertreten', ['Er sei unschuldig', 'Er werde nie gefasst', 'Die Tat sei ein Zufall'], null],
       ['Wer hilft Raskolnikow zur Umkehr?', 'Sonja', ['Porfiri', 'Dunja', 'Rasumichin'], null],
       ['Was geschah Dostojewski 1849?', 'Eine Scheinhinrichtung', ['Eine Beförderung', 'Eine Preisverleihung', 'Eine Flucht'], 'Die Begnadigung kam im letzten Augenblick.'],
-      ['Wohin wurde er danach verbannt?', 'Nach Sibirien', ['Nach Kasan', 'In den Kaukasus', 'Nach Finnland'], null],
+      ['Wohin wurde Dostojewski nach der Scheinhinrichtung verbannt?', 'Nach Sibirien', ['Nach Kasan', 'In den Kaukasus', 'Nach Finnland'], null],
       ['Woran litt Dostojewski?', 'An Epilepsie', ['An Tuberkulose', 'An Blindheit', 'An Gicht'], null],
       ['Welche Sucht ruinierte ihn immer wieder?', 'Die Spielsucht', ['Der Alkohol', 'Das Rauchen', 'Der Handel'], null],
       ['Wie heißt sein letztes großes Werk?', 'Die Brüder Karamasow', ['Der Idiot', 'Die Dämonen', 'Der Spieler'], null],
@@ -30,7 +30,7 @@ export const DOSTOJEWSKI: Subtopic = {
     mittel: [
       ['Wann lebte Dostojewski?', '1821–1881', ['1828–1910', '1809–1852', '1799–1837'], null],
       ['Was war Dostojewskis Vater?', 'Arzt an einem Armenkrankenhaus', ['Gutsbesitzer', 'Offizier', 'Priester'], null],
-      ['Warum wurde er verhaftet?', 'Er gehörte zu einem Kreis, der verbotene Schriften las', ['Wegen Mordes', 'Wegen Schulden', 'Wegen Spionage'], null],
+      ['Warum wurde Dostojewski 1849 verhaftet?', 'Er gehörte zu einem Kreis, der verbotene Schriften las', ['Wegen Mordes', 'Wegen Schulden', 'Wegen Spionage'], null],
       ['Wie lautete das Urteil zuerst?', 'Tod durch Erschießen', ['Lebenslange Haft', 'Verbannung ohne Arbeit', 'Geldstrafe'], null],
       ['Wie lange musste er Zwangsarbeit leisten?', 'Vier Jahre', ['Ein Jahr', 'Zehn Jahre', 'Zwanzig Jahre'], 'Danach folgte Militärdienst.'],
       ['Was las er in Sibirien?', 'Nur das Neue Testament', ['Zeitungen', 'Romane', 'Nichts'], null],

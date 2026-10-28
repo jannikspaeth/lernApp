@@ -15,7 +15,7 @@ export const JAPAN: Subtopic = {
   quiz: {
     leicht: [
       ['Wer schrieb das Genji-Monogatari?', 'Murasaki Shikibu', ['Sei Shōnagon', 'Bashō', 'Mishima'], null, 'murasaki'],
-      ['Wo lebte sie?', 'Am Kaiserhof von Kyōto', ['In Edo', 'In Ōsaka', 'In Nara'], null],
+      ['Wo lebte Murasaki Shikibu?', 'Am Kaiserhof von Kyōto', ['In Edo', 'In Ōsaka', 'In Nara'], null],
       ['Welche Zeit nennt man das Goldene Zeitalter der japanischen Kultur?', 'Die Heian-Zeit', ['Die Edo-Zeit', 'Die Meiji-Zeit', 'Die Showa-Zeit'], null],
       ['Wovon handelt der Roman?', 'Vom Leben des Prinzen Genji', ['Von einem Krieg', 'Von einer Reise', 'Von einem Mönch'], null],
       ['In welcher Sprache schrieben die Hofdamen?', 'Auf Japanisch', ['Auf Chinesisch', 'Auf Koreanisch', 'Auf Sanskrit'], null],

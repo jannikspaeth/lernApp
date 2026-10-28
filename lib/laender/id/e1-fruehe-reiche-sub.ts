@@ -49,7 +49,7 @@ export const FRUEHE_REICHE: Subtopic = {
       ['Wie ist der Borobudur gestaltet?', 'Als Mandala', ['Als Pyramide', 'Als Turm', 'Als Burg']],
       ['Wann entstand Prambanan?', 'Um 850', ['Um 400', 'Um 1293', 'Um 1814']],
       ['Wann wurde der Borobudur wiederentdeckt?', '1814', ['1891', '1602', '1942']],
-      ['Wer bedeckte ihn?', 'Vulkanasche', ['Eis', 'Sand', 'Wasser']],
+      ['Was bedeckte den Borobudur, bevor er wiederentdeckt wurde?', 'Vulkanasche', ['Eis', 'Sand', 'Wasser']],
       ['Wann regierte Airlangga?', '1019–1042', ['1289–1293', '800–830', '1025–1030']],
       ['Welches Königreich ging aus seinem Reich hervor?', 'Kediri', ['Majapahit', 'Srivijaya', 'Mataram']],
       ['Wer stürzte 1293 mit Hilfe der Mongolen einen Rivalen?', 'Raden Wijaya', ['Kertanegara', 'Airlangga', 'Gajah Mada']],

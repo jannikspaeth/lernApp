@@ -23,7 +23,7 @@ export const UEBERBLICK: Subtopic = {
       ['Welcher Kaiser gründete den Speyerer Dom?', 'Konrad II.', ['Otto der Große', 'Karl der Große', 'Friedrich Barbarossa'], 'Konrad II. war der erste Salierkaiser (1024–1039) und ließ den Dom als Grablege seiner Dynastie bauen.'],
       ['Wie heißt dieses Bauwerk in Italien?', 'Der Schiefe Turm von Pisa', ['Der Campanile von Venedig', 'Der Turm von Florenz', 'Der Mailänder Turm'], 'Der Turm gehört zum Dom-Ensemble auf der Piazza dei Miracoli.', 'pisa-dom'],
       ['Was ist der Schiefe Turm?', 'Der Glockenturm des Doms von Pisa', ['Ein Wachturm', 'Ein Leuchtturm', 'Ein Gefängnis']],
-      ['Warum neigt er sich?', 'Der Untergrund ist weich', ['Er wurde gesprengt', 'Er wurde schief gebaut', 'Ein Erdbeben'], 'Der Turm steht auf weichem Lehm und Sand und begann sich schon während des Baus zu neigen.'],
+      ['Warum neigt sich der Schiefe Turm von Pisa?', 'Der Untergrund ist weich', ['Er wurde gesprengt', 'Er wurde schief gebaut', 'Ein Erdbeben'], 'Der Turm steht auf weichem Lehm und Sand und begann sich schon während des Baus zu neigen.'],
       ['Welcher Stil folgte auf die Romanik?', 'Die Gotik', ['Die Renaissance', 'Der Barock', 'Die Antike']],
     ],
     mittel: [
@@ -37,7 +37,7 @@ export const UEBERBLICK: Subtopic = {
       ['Was sind Tympana?', 'Bogenfelder über Portalen', ['Fenster', 'Glocken', 'Altäre']],
       ['Was ist eine Zwerggalerie?', 'Eine Reihe kleiner Säulenbögen an der Außenwand', ['Eine Galerie mit Bildern', 'Eine Gruft', 'Ein Dachboden'], 'Zwerggalerien gliedern Außenwände rhythmisch mit kleinen Säulen.'],
       ['Wo stehen die Bernwardstüren?', 'In Hildesheim', ['In Speyer', 'In Pisa', 'In Köln'], 'Bischof Bernward ließ um 1015 die Bronzetüren für den Hildesheimer Dom gießen.'],
-      ['Woraus bestehen sie?', 'Aus Bronze', ['Aus Holz', 'Aus Stein', 'Aus Eisen']],
+      ['Woraus bestehen die Bernwardstüren?', 'Aus Bronze', ['Aus Holz', 'Aus Stein', 'Aus Eisen']],
       ['Wo entstand um 1140 die Gotik?', 'In Nordfrankreich', ['In Italien', 'In Deutschland', 'In England'], 'In Saint-Denis bei Paris begann Abt Suger um 1140 den Neubau im neuen Stil.'],
     ],
     schwer: [

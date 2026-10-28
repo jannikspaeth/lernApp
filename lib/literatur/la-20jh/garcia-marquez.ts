@@ -29,7 +29,7 @@ export const GARCIA_MARQUEZ: Subtopic = {
     ],
     mittel: [
       ['Wann lebte García Márquez?', '1927–2014', ['1936–2025', '1942–heute', '1904–1973'], null],
-      ['Wo wuchs er auf?', 'Bei den Großeltern in Aracataca', ['In Bogotá', 'In Mexiko-Stadt', 'In Paris'], null],
+      ['Wo wuchs García Márquez auf?', 'Bei den Großeltern in Aracataca', ['In Bogotá', 'In Mexiko-Stadt', 'In Paris'], null],
       ['Was erzählte ihm seine Großmutter?', 'Geistergeschichten wie Tatsachen', ['Märchen', 'Bibelgeschichten', 'Kriegsberichte'], null],
       ['Wann erschien „Hundert Jahre Einsamkeit“?', '1967', ['1927', '1982', '2000'], null],
       ['Über wie viele Generationen erzählt der Roman?', 'Sieben', ['Zwei', 'Drei', 'Zwölf'], null],

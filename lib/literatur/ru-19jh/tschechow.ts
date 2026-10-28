@@ -33,7 +33,7 @@ export const TSCHECHOW: Subtopic = {
       ['Was war Tschechows Großvater?', 'Ein Leibeigener, der sich freikaufte', ['Ein Adliger', 'Ein Priester', 'Ein Offizier'], null],
       ['Womit verdiente Tschechow als Student Geld?', 'Mit humoristischen Kurzgeschichten', ['Mit Unterricht', 'Mit Übersetzungen', 'Mit Zeichnungen'], 'Er schrieb unter Pseudonym.'],
       ['Wohin reiste Tschechow 1890?', 'Zur Gefangeneninsel Sachalin', ['Nach Sibirien ins Exil', 'Nach Italien', 'Nach Amerika'], null],
-      ['Was tat er dort?', 'Er befragte Tausende Sträflinge', ['Er arbeitete als Aufseher', 'Er hielt Vorträge', 'Er schrieb Theaterstücke'], null],
+      ['Was tat Tschechow 1890 auf der Insel Sachalin?', 'Er befragte Tausende Sträflinge', ['Er arbeitete als Aufseher', 'Er hielt Vorträge', 'Er schrieb Theaterstücke'], null],
       ['Welche Folge hatte die Reise?', 'Sie ruinierte seine Gesundheit', ['Sie machte ihn reich', 'Sie brachte ihm einen Orden', 'Sie blieb folgenlos'], null],
       ['Wie heißen Tschechows vier große Dramen?', 'Die Möwe, Onkel Wanja, Drei Schwestern und Der Kirschgarten', ['Iwanow, Der Bär, Der Heiratsantrag und Platonow', 'Die Nacht, Der Tag, Das Jahr und Die Zeit', 'Nur Die Möwe und Der Kirschgarten'], null],
       ['Wann erschien „Drei Schwestern“?', '1901', ['1891', '1911', '1896'], null],

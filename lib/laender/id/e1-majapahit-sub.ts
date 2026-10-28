@@ -18,7 +18,7 @@ export const MAJAPAHIT: Subtopic = {
       ['Welche Religion prägte es?', 'Hinduismus und Buddhismus', ['Islam', 'Christentum', 'Schamanismus allein']],
       ['Wer war der Reichsverweser?', 'Gajah Mada', ['Hayam Wuruk', 'Airlangga', 'Prapanca']],
       ['Wie hieß sein Schwur?', 'Palapa-Eid', ['Nusantara-Eid', 'Borobudur-Eid', 'Pancasila-Schwur']],
-      ['Was versprach er nicht mehr zu essen?', 'Gewürze (Palapa)', ['Reis', 'Fisch', 'Fleisch']],
+      ['Was versprach Gajah Mada in seinem Schwur nicht mehr zu essen?', 'Gewürze (Palapa)', ['Reis', 'Fisch', 'Fleisch']],
       ['Wie nennt man den Archipel?', 'Nusantara', ['Pancasila', 'Wayang', 'Sunda']],
       ['Wer schrieb das Nagarakretagama?', 'Prapanca', ['Gajah Mada', 'Multatuli', 'Hayam Wuruk']],
       ['Wie hieß die Hauptstadt?', 'Trowulan', ['Jakarta', 'Yogyakarta', 'Palembang']],

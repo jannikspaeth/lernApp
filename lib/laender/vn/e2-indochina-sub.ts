@@ -15,7 +15,7 @@ export const INDOCHINAKRIEG: Subtopic = {
     leicht: [
       ['Wer besetzte 1940 Nordvietnam?', 'Japan', ['China', 'Großbritannien', 'Thailand']],
       ['Wie hieß die Unabhängigkeitsfront von 1941?', 'Việt Minh', ['Vietcong', 'VNQDĐ', 'Cần Vương']],
-      ['Wo wurde sie gegründet?', 'In einer Höhle in Pác Bó', ['In Hanoi', 'In Saigon', 'In Huế']],
+      ['Wo wurde die Unabhängigkeitsfront Việt Minh gegründet?', 'In einer Höhle in Pác Bó', ['In Hanoi', 'In Saigon', 'In Huế']],
       ['Wer wurde General des Việt Minh?', 'Võ Nguyên Giáp', ['Ngô Đình Diệm', 'Bảo Đại', 'Hồ Chí Minh']],
       ['Was war Giáp früher?', 'Geschichtslehrer', ['Offizier', 'Arzt', 'Händler']],
       ['Wer lieferte Waffen gegen Japan?', 'Die USA', ['Die Sowjetunion', 'China', 'Frankreich']],

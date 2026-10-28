@@ -454,7 +454,7 @@ export const E2: Epoch = {
               ['Warum ist die karolingische Minuskel bis heute wichtig?', 'Unsere Kleinbuchstaben gehen auf sie zurück', ['Sie ist die Schrift der Bibel', 'Sie wird für Zahlen benutzt', 'Sie ist die Schrift der Kirche in Rom']],
               ['Wo wurden Bücher damals vor allem abgeschrieben?', 'In Klöstern', ['In Druckereien', 'In Universitäten', 'Auf Burgen']],
               ['Wie nennt man die Schreibstube eines Klosters?', 'Skriptorium', ['Refektorium', 'Dormitorium', 'Kreuzgang']],
-              ['Worauf schrieb man damals?', 'Auf Pergament', ['Auf Papier', 'Auf Tontafeln', 'Auf Birkenrinde']],
+              ['Worauf schrieb man in den Klöstern der Karolingerzeit?', 'Auf Pergament', ['Auf Papier', 'Auf Tontafeln', 'Auf Birkenrinde']],
               ['Woraus wurde Pergament hergestellt?', 'Aus Tierhaut', ['Aus Holz', 'Aus Schilf', 'Aus Baumwolle']],
               ['Welche Sprache war die Sprache der Gelehrten?', 'Latein', ['Griechisch', 'Fränkisch', 'Arabisch']],
               ['Konnte Karl selbst gut schreiben?', 'Nein, er versuchte es erst im Alter zu lernen', ['Ja, er schrieb viele Bücher', 'Ja, er war Schreiblehrer', 'Ja, er schrieb nur Griechisch']],

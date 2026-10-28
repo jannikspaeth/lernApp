@@ -23,7 +23,7 @@ export const CARAVAGGIO: Subtopic = {
       ['Woher stammte der Name Caravaggio?', 'Von einem Ort bei Mailand', ['Von einem Maler', 'Von einer Familie', 'Von einem Kloster'], 'Er heißt eigentlich Michelangelo Merisi, nach dem Herkunftsort der Familie bei Bergamo.'],
       ['Wie alt wurde Caravaggio?', '38 Jahre', ['28 Jahre', '58 Jahre', '78 Jahre']],
       ['Was tat Caravaggio 1606?', 'Er tötete einen Mann bei einem Streit', ['Er gründete eine Schule', 'Er ging nach Paris', 'Er heiratete'], 'Er tötete 1606 Ranuccio Tomassoni und wurde zum Tode verurteilt.'],
-      ['Wohin floh er danach?', 'Nach Neapel, Malta und Sizilien', ['Nach Paris', 'Nach Wien', 'Nach Madrid']],
+      ['Wohin floh Caravaggio nach dem Totschlag von 1606?', 'Nach Neapel, Malta und Sizilien', ['Nach Paris', 'Nach Wien', 'Nach Madrid']],
       ['Wie nennt man seine Nachfolger?', 'Caravaggisten', ['Karavellisten', 'Barockisten', 'Tenebristen'], 'Zu seinen Nachfolgern zählen Artemisia Gentileschi, Georges de La Tour und Jusepe de Ribera.'],
     ],
     mittel: [
@@ -38,7 +38,7 @@ export const CARAVAGGIO: Subtopic = {
       ['Was erhoffte er auf dem Weg nach Rom?', 'Eine Begnadigung', ['Einen Auftrag', 'Einen Titel', 'Eine Hochzeit'], 'Papst Paul V. sollte ihn begnadigen.'],
       ['Wo wurde er Ritter?', 'Auf Malta', ['In Rom', 'In Neapel', 'In Mailand'], '1608 wurde er in den Malteserorden aufgenommen, wenig später aber verhaftet und floh.'],
       ['Welcher Maler wurde von ihm geprägt?', 'Rembrandt', ['Botticelli', 'Giotto', 'Dürer'], 'Auch Rubens und Velázquez übernahmen viel von seinem Licht.'],
-      ['Wann wurde er wiederentdeckt?', 'Im 20. Jahrhundert', ['Im 17. Jahrhundert', 'Im 18. Jahrhundert', 'Im 15. Jahrhundert']],
+      ['Wann wurde Caravaggio wiederentdeckt?', 'Im 20. Jahrhundert', ['Im 17. Jahrhundert', 'Im 18. Jahrhundert', 'Im 15. Jahrhundert']],
     ],
     schwer: [
       ['Warum empörte seine Kunst manche Auftraggeber?', 'Heilige wirkten wie normale Menschen mit schmutzigen Füßen', ['Er malte zu klein', 'Er malte zu bunt', 'Er malte ohne Rahmen']],

@@ -29,7 +29,7 @@ export const HELLENISMUS: Subtopic = {
     mittel: [
       ['Aus welcher Insel stammten die Bildhauer des Laokoon?', 'Rhodos', ['Kreta', 'Samothrake', 'Milos'], 'Rhodos war ein Zentrum von Handel und Bildhauerei.'],
       ['Wann wurde die Laokoon-Gruppe in Rom gefunden?', '1506', ['1306', '1706', '1863']],
-      ['Wer kaufte sie?', 'Papst Julius II.', ['Michelangelo', 'Raffael', 'Leo X.']],
+      ['Wer kaufte die Laokoon-Gruppe nach ihrem Fund?', 'Papst Julius II.', ['Michelangelo', 'Raffael', 'Leo X.']],
       ['Wer schrieb 1766 eine Schrift „Laokoon“?', 'Lessing', ['Goethe', 'Winckelmann', 'Schiller'], 'Lessing erörterte 1766 den Unterschied zwischen bildender Kunst und Dichtung.'],
       ['Wann wurde die Nike gefunden?', '1863', ['1506', '1820', '1906'], 'Der französische Konsul Charles Champoiseau fand sie 1863.'],
       ['Wann wurde die Venus von Milo gefunden?', '1820', ['1506', '1863', '1920'], 'Ein Bauer fand die Statue 1820 auf der Insel Milos.'],

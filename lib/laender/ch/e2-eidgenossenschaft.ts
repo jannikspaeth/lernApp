@@ -203,7 +203,7 @@ export const E2: Epoch = {
               ['Was wurde aus den reformierten Kirchen entfernt?', 'Heiligenbilder und Orgeln', ['Kanzeln', 'Bibeln', 'Bänke']],
               ['Welche Orte blieben katholisch?', 'Die fünf Orte der Innerschweiz', ['Zürich und Bern', 'Basel und Schaffhausen', 'Genf und Waadt']],
               ['Was aßen die Soldaten 1529 gemeinsam?', 'Eine Milchsuppe', ['Käsefondue', 'Brot und Wein', 'Rösti']],
-              ['Wie heißt dieses Ereignis?', 'Kappeler Milchsuppe', ['Zürcher Wurstessen', 'Berner Brotteilen', 'Genfer Fondue']],
+              ['Wie heißt das gemeinsame Essen der verfeindeten Soldaten von 1529?', 'Kappeler Milchsuppe', ['Zürcher Wurstessen', 'Berner Brotteilen', 'Genfer Fondue']],
               ['Wann fiel Zwingli?', '1531', ['1529', '1522', '1564']],
               ['In welchem Krieg fiel Zwingli?', 'Im Zweiten Kappelerkrieg', ['Im Ersten Kappelerkrieg', 'Im Schwabenkrieg', 'Im Sonderbundskrieg']],
               ['Welcher Reformator wirkte in Genf?', 'Johannes Calvin', ['Zwingli', 'Luther', 'Bullinger']],

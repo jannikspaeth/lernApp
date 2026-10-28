@@ -27,7 +27,7 @@ export const SAFAWIDEN: Subtopic = {
       ['Wer belagerte 1722 Isfahan?', 'Mahmud Hotak', ['Nader Schah', 'Abbas', 'Ismail']],
       ['Woher kam Nader Schah?', 'Aus Chorasan', ['Aus Isfahan', 'Aus Schiraz', 'Aus Täbris']],
       ['Welche Stadt plünderte Nader 1739?', 'Delhi', ['Moskau', 'Bagdad', 'Kabul']],
-      ['Was erbeutete er unter anderem?', 'Den Pfauenthron', ['Den Eiffelturm', 'Die Bibel', 'Die Krone Roms']],
+      ['Was erbeutete Nader Schah 1739 in Delhi unter anderem?', 'Den Pfauenthron', ['Den Eiffelturm', 'Die Bibel', 'Die Krone Roms']],
       ['Welche Dynastie regierte in Teheran?', 'Die Qajaren', ['Die Safawiden', 'Die Zand', 'Die Afschariden']],
       ['Welches Land nahm Iran Gebiete im Kaukasus ab?', 'Russland', ['Großbritannien', 'Frankreich', 'Osmanisches Reich']],
       ['Wie nennt man den Wettstreit Russlands und Großbritanniens?', 'Das Große Spiel', ['Der Kalte Krieg', 'Der Weltkrieg', 'Das Orientspiel']],

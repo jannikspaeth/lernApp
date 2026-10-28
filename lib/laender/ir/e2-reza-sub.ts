@@ -54,7 +54,7 @@ export const REZA: Subtopic = {
       ['Auf wen setzte er im Zweiten Weltkrieg?', 'Auf Deutschland', ['Auf die USA', 'Auf Italien', 'Auf Japan']],
       ['Wie alt war Mohammad Reza 1941?', '21 Jahre', ['11 Jahre', '41 Jahre', '61 Jahre']],
       ['Wo starb Reza Schah?', 'In Südafrika', ['In Teheran', 'In London', 'In Paris']],
-      ['Wann starb er?', '1944', ['1925', '1941', '1953']],
+      ['Wann starb Reza Schah?', '1944', ['1925', '1941', '1953']],
     ],
     schwer: [
       ['Warum war die Revolution von 1906 besonders?', 'Sie war die erste in Asien mit parlamentarischer Verfassung als Ziel', ['Sie war die erste Revolution weltweit', 'Sie stürzte den Schah dauerhaft', 'Sie gründete eine Republik']],

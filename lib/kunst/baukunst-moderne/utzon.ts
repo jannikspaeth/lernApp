@@ -28,7 +28,7 @@ export const UTZON: Subtopic = {
     ],
     mittel: [
       ['Wann gewann Utzon den Wettbewerb?', '1957', ['1857', '1937', '1977'], 'Utzon gewann 1957 mit einer Skizze.'],
-      ['Wie alt war er damals?', '38 Jahre', ['18 Jahre', '58 Jahre', '78 Jahre'], 'Utzon war 38 Jahre alt.'],
+      ['Wie alt war Jørn Utzon, als er den Wettbewerb für die Oper von Sydney gewann?', '38 Jahre', ['18 Jahre', '58 Jahre', '78 Jahre'], 'Utzon war 38 Jahre alt.'],
       ['Wann wurde das Haus eröffnet?', '1973', ['1963', '1983', '1953'], 'Die Eröffnung war 1973.'],
       ['Wie lange dauerte der Bau?', 'Rund 14 Jahre', ['Rund 4 Jahre', 'Rund 24 Jahre', 'Rund 1 Jahr'], 'Der Bau dauerte von 1959 bis 1973.'],
       ['Wie hoch waren die Kosten etwa?', '102 Millionen Dollar', ['7 Millionen Dollar', '10 Millionen Dollar', '1 Milliarde Dollar'], 'Der Bau kostete rund 102 Millionen Dollar.'],

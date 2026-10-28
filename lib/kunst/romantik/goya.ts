@@ -28,7 +28,7 @@ export const GOYA: Subtopic = {
     ],
     mittel: [
       ['Wann lebte Goya?', '1746–1828', ['1646–1728', '1846–1928', '1746–1850']],
-      ['Wo wurde er geboren?', 'In Fuendetodos', ['In Madrid', 'In Sevilla', 'In Toledo'], 'Goya wurde 1746 in Fuendetodos bei Saragossa geboren.'],
+      ['Wo wurde Goya geboren?', 'In Fuendetodos', ['In Madrid', 'In Sevilla', 'In Toledo'], 'Goya wurde 1746 in Fuendetodos bei Saragossa geboren.'],
       ['Wann wurde er Erster Hofmaler?', '1799', ['1746', '1808', '1824']],
       ['Wessen Erster Hofmaler wurde er?', 'Karls IV.', ['Philipps IV.', 'Karls III.', 'Ferdinands VII.'], 'Karl IV. regierte Spanien 1788–1808.'],
       ['Wie heißt Goyas berühmtes Familienbild?', 'Die Familie Karls IV.', ['Las Meninas', 'Die Familie Philipps IV.', 'Die Kinder'], 'Goya malte die Familie 1800 und zeigte sie auffallend wenig schmeichelhaft.'],

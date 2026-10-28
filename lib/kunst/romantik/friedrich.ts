@@ -29,7 +29,7 @@ export const FRIEDRICH: Subtopic = {
     mittel: [
       ['Wann lebte Friedrich?', '1774–1840', ['1674–1740', '1874–1940', '1774–1850']],
       ['Was war sein Vater?', 'Seifensieder', ['Maler', 'Pfarrer', 'Kaufmann'], 'Sein Vater war Seifen- und Kerzenmacher.'],
-      ['Wo studierte er?', 'In Kopenhagen', ['In Dresden', 'In Rom', 'In Paris'], 'An der Kopenhagener Akademie studierte er 1794–1798.'],
+      ['Wo studierte Caspar David Friedrich?', 'In Kopenhagen', ['In Dresden', 'In Rom', 'In Paris'], 'An der Kopenhagener Akademie studierte er 1794–1798.'],
       ['Wann zog er nach Dresden?', '1798', ['1774', '1818', '1840']],
       ['Wann entstand der Wanderer etwa?', 'Um 1818', ['Um 1718', 'Um 1918', 'Um 1618']],
       ['Wo hängt der Wanderer?', 'In der Hamburger Kunsthalle', ['In Berlin', 'In Dresden', 'In München'], 'Das Bild (um 1818) gehört der Hamburger Kunsthalle.'],
@@ -37,8 +37,8 @@ export const FRIEDRICH: Subtopic = {
       ['Wer schrieb, man fühle sich beim Mönch die Augenlider weggeschnitten?', 'Heinrich von Kleist', ['Goethe', 'Novalis', 'Eichendorff'], 'Kleist schrieb 1810 über den Mönch am Meer.'],
       ['Wen heiratete Friedrich?', 'Caroline Bommer', ['Clara Schumann', 'Luise Seidler', 'Dora Stock']],
       ['Wo hängen die Kreidefelsen?', 'In Winterthur', ['In Berlin', 'In Hamburg', 'In München'], 'Das Bild (um 1818) befindet sich im Museum Oskar Reinhart in Winterthur.'],
-      ['Was erlitt er 1835?', 'Einen Schlaganfall', ['Einen Unfall', 'Eine Haft', 'Einen Brand'], 'Nach 1835 konnte er kaum noch malen.'],
-      ['Wann wurde er wiederentdeckt?', 'Um 1900', ['Um 1850', 'Um 1800', 'Um 1950']],
+      ['Was erlitt Caspar David Friedrich 1835?', 'Einen Schlaganfall', ['Einen Unfall', 'Eine Haft', 'Einen Brand'], 'Nach 1835 konnte er kaum noch malen.'],
+      ['Wann wurde Caspar David Friedrich wiederentdeckt?', 'Um 1900', ['Um 1850', 'Um 1800', 'Um 1950']],
     ],
     schwer: [
       ['Wie starb sein Bruder?', 'Er ertrank, als er Caspar aus dem Eis retten wollte', ['Er starb im Krieg', 'Er starb an Pest', 'Er verunglückte']],

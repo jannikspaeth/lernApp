@@ -51,9 +51,9 @@ export const SADAT: Subtopic = {
       ['Wie viel US-Militärhilfe erhält Ägypten jährlich?', 'Rund 1,3 Milliarden Dollar', ['Rund 13 Millionen', 'Rund 130 Millionen', 'Rund 13 Milliarden']],
       ['Wann wurde Ägypten aus der Liga ausgeschlossen?', '1979', ['1967', '1973', '1981']],
       ['Wie viele Gegner ließ Sadat im September 1981 verhaften?', 'Rund 1.500', ['Rund 15', 'Rund 150', 'Rund 15.000']],
-      ['Wann wurde er erschossen?', 'Bei einer Militärparade', ['Bei einer Rede', 'Bei einem Besuch', 'Im Palast']],
+      ['Wann wurde Anwar as-Sadat erschossen?', 'Bei einer Militärparade', ['Bei einer Rede', 'Bei einem Besuch', 'Im Palast']],
       ['Welche Gruppe tötete ihn?', 'Der Islamische Dschihad', ['Die Muslimbruderschaft', 'Die Wafd', 'Die PLO']],
-      ['Wer folgte ihm?', 'Husni Mubarak', ['Nasser', 'Nagib', 'Sisi']],
+      ['Wer folgte Sadat als Präsident Ägyptens?', 'Husni Mubarak', ['Nasser', 'Nagib', 'Sisi']],
       ['Was hält bis heute?', 'Der Frieden mit Israel', ['Die Arabische Liga', 'Der Warschauer Pakt', 'Die VAR']],
     ],
     schwer: [

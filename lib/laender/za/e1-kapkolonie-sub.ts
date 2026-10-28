@@ -14,10 +14,10 @@ export const KAPKOLONIE: Subtopic = {
   quiz: {
     leicht: [
       ['Wann landete van Riebeeck?', '6. April 1652', ['1488', '1806', '1835']],
-      ['Wen vertrat er?', 'Die niederländische Ostindien-Kompanie', ['Die britische Krone', 'Die portugiesische Krone', 'Die Hanse']],
-      ['Was sollte er bauen?', 'Eine Versorgungsstation für Schiffe', ['Eine Festung gegen Briten', 'Eine Goldmine', 'Eine Stadt']],
+      ['Wen vertrat Jan van Riebeeck am Kap?', 'Die niederländische Ostindien-Kompanie', ['Die britische Krone', 'Die portugiesische Krone', 'Die Hanse']],
+      ['Was sollte Jan van Riebeeck am Kap bauen?', 'Eine Versorgungsstation für Schiffe', ['Eine Festung gegen Briten', 'Eine Goldmine', 'Eine Stadt']],
       ['Wogegen halfen frisches Gemüse und Fleisch?', 'Gegen Skorbut', ['Gegen Pest', 'Gegen Malaria', 'Gegen Cholera']],
-      ['Was legte er an?', 'Einen Garten und ein Fort', ['Eine Mine', 'Einen Hafen', 'Eine Kathedrale']],
+      ['Was legte Jan van Riebeeck am Kap an?', 'Einen Garten und ein Fort', ['Eine Mine', 'Einen Hafen', 'Eine Kathedrale']],
       ['Woraus entstand Kapstadt?', 'Aus der Versorgungsstation', ['Aus einem Fort der Briten', 'Aus einer Missionsstation', 'Aus einem Dorf der Zulu']],
       ['Wer wollte nicht für die Niederländer arbeiten?', 'Die Khoikhoi', ['Die Zulu', 'Die Buren', 'Die Malaien']],
       ['Wer durfte als „Freibürger“ Land erwerben?', 'Siedler', ['Khoikhoi', 'Sklaven', 'Mönche']],
@@ -48,7 +48,7 @@ export const KAPKOLONIE: Subtopic = {
       ['Welche Wörter mischten sich ins Afrikaans?', 'Malaiische, portugiesische und Khoisan-Wörter', ['Englische und französische', 'Zulu und Xhosa', 'Deutsche und holländische']],
       ['Wann begann der erste Grenzkrieg?', '1779', ['1652', '1795', '1806']],
       ['Wie viele Grenzkriege gab es?', 'Neun', ['Drei', 'Fünf', 'Zwölf']],
-      ['Wann endeten sie?', '1879', ['1806', '1835', '1902']],
+      ['Wann endeten die Grenzkriege am Ostkap?', '1879', ['1806', '1835', '1902']],
       ['Wo erhoben sich Buren 1795?', 'In Graaff-Reinet', ['In Kapstadt', 'In Durban', 'In Pretoria']],
       ['Warum besetzten die Briten das Kap 1795?', 'Um es vor Frankreich zu schützen', ['Um Gold zu holen', 'Um Sklaven zu befreien', 'Um Mission zu betreiben']],
       ['Wer kontrollierte die Niederlande damals?', 'Napoleon (Frankreich)', ['Spanien', 'Preußen', 'Russland']],

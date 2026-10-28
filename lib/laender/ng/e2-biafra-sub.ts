@@ -19,7 +19,7 @@ export const BIAFRA: Subtopic = {
       ['Wo war Azikiwe damals?', 'Im Ausland', ['In Lagos', 'In Kano', 'In Enugu']],
       ['Wer übernahm die Macht?', 'Johnson Aguiyi-Ironsi', ['Yakubu Gowon', 'Ojukwu', 'Murtala Muhammed']],
       ['Welche Volksgruppe gehörte Ironsi an?', 'Den Igbo', ['Den Hausa', 'Den Yoruba', 'Den Fulani']],
-      ['Was schuf er?', 'Einen Einheitsstaat', ['Eine Föderation', 'Eine Monarchie', 'Eine Republik']],
+      ['Was schuf General Ironsi 1966?', 'Einen Einheitsstaat', ['Eine Föderation', 'Eine Monarchie', 'Eine Republik']],
       ['Wann war der Gegenputsch?', '29. Juli 1966', ['15. Januar 1966', '30. Mai 1967', '6. Juli 1967']],
       ['Wer wurde Staatschef?', 'Yakubu Gowon', ['Ojukwu', 'Ironsi', 'Obasanjo']],
       ['Wen erschlug man im Norden?', 'Igbo', ['Hausa', 'Yoruba', 'Fulani']],

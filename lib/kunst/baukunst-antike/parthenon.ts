@@ -24,7 +24,7 @@ export const PARTHENON: Subtopic = {
       ['Wo sind viele Skulpturen heute?', 'Im British Museum in London', ['Im Louvre', 'In Berlin', 'Im Vatikan'], 'Die „Elgin Marbles“ sind seit 1816 im British Museum.'],
       ['Wie nennt man den Burgberg Athens?', 'Akropolis', ['Palatin', 'Kapitol', 'Olymp'], '„Akropolis“ heißt „Oberstadt“.'],
       ['Wer entfernte die Skulpturen?', 'Lord Elgin', ['Napoleon', 'Schliemann', 'Byron']],
-      ['Was symbolisiert er heute?', 'Demokratie und klassische Kunst', ['Krieg', 'Reichtum', 'Macht']],
+      ['Was symbolisiert der Parthenon heute?', 'Demokratie und klassische Kunst', ['Krieg', 'Reichtum', 'Macht']],
     ],
     mittel: [
       ['Wann wurde der Parthenon gebaut?', '447–432 v. Chr.', ['247–232 v. Chr.', '447–432 n. Chr.', '1447–1432']],
@@ -35,7 +35,7 @@ export const PARTHENON: Subtopic = {
       ['Wie hoch war das Kultbild?', 'Rund 12 Meter', ['Rund 2 Meter', 'Rund 50 Meter', 'Rund 1 Meter'], 'Das Kultbild stand in der Cella.'],
       ['Woraus war das Kultbild?', 'Gold und Elfenbein', ['Bronze', 'Marmor', 'Holz']],
       ['Wann wurde der Parthenon 1687 zerstört?', 'Bei einem venezianischen Beschuss', ['Durch ein Erdbeben', 'Durch einen Brand', 'Durch eine Flut']],
-      ['Warum explodierte er?', 'Die Osmanen lagerten dort Schießpulver', ['Er war mit Gas gefüllt', 'Er wurde gesprengt von Griechen', 'Er stürzte ein']],
+      ['Warum explodierte der Parthenon 1687?', 'Die Osmanen lagerten dort Schießpulver', ['Er war mit Gas gefüllt', 'Er wurde gesprengt von Griechen', 'Er stürzte ein']],
       ['Wann wurde das Akropolis-Museum eröffnet?', '2009', ['1909', '1989', '2019'], 'Das Akropolis-Museum liegt am Fuß des Burgbergs.'],
       ['Wann wurde die Akropolis Welterbe?', '1987', ['1887', '1957', '2007']],
       ['Welches Fest zeigt das Fries?', 'Die Panathenäen', ['Die Olympischen Spiele', 'Die Dionysien', 'Die Mysterien']],

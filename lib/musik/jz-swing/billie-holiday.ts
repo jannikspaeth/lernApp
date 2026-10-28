@@ -26,7 +26,7 @@ export const BILLIE_HOLIDAY: Subtopic = {
       ['Wie alt wurde Billie Holiday?', '44', ['27', '64', '81'], 'Sie starb 1959 an den Folgen von Drogen und Alkohol.'],
       ['Welches Magazin nannte „Strange Fruit“ das „Lied des Jahrhunderts“?', '„Time“', ['„Rolling Stone“', '„Billboard“', '„Vogue“'], 'Das Magazin wählte es 1999.'],
       ['Welche spätere Sängerin nannte sie ihr Vorbild?', 'Amy Winehouse', ['Taylor Swift', 'Helene Fischer', 'Madonna'], 'Winehouse orientierte sich an Holidays Gesangsstil.'],
-      ['Wie wollte sie singen?', 'Wie Louis Armstrong Trompete spielte', ['Wie ein Opernstar', 'Wie ein Kinderchor', 'Wie eine Orgel'], 'Sie wollte mit der Stimme wie ein Instrument phrasieren.'],
+      ['Wie wollte Billie Holiday singen?', 'Wie Louis Armstrong Trompete spielte', ['Wie ein Opernstar', 'Wie ein Kinderchor', 'Wie eine Orgel'], 'Sie wollte mit der Stimme wie ein Instrument phrasieren.'],
     ],
     mittel: [
       ['Nach wem wählte sie ihren Künstlernamen?', 'Nach der Schauspielerin Billie Dove', ['Nach ihrer Großmutter', 'Nach einem Song', 'Nach einer Stadt'], 'Den Nachnamen hatte sie von ihrem Vater Clarence Holiday.'],
@@ -44,7 +44,7 @@ export const BILLIE_HOLIDAY: Subtopic = {
     ],
     schwer: [
       ['In welcher Stadt wurde Billie Holiday geboren?', 'In Philadelphia', ['In Baltimore', 'In New York', 'In Washington'], 'Sie wuchs aber in Baltimore auf.'],
-      ['Wann wurde sie geboren?', '1915', ['1905', '1920', '1925'], 'Am 7. April 1915.'],
+      ['Wann wurde Billie Holiday geboren?', '1915', ['1905', '1920', '1925'], 'Am 7. April 1915.'],
       ['Wo hörte sie als Mädchen Jazzplatten?', 'In einem Bordell, wo sie Botengänge machte', ['In der Kirche', 'In der Schule', 'Im Radio der Nachbarn'], 'Dort hörte sie Bessie Smith und Louis Armstrong.'],
       ['Mit wem machte sie 1933 ihre erste Aufnahme?', 'Mit Benny Goodman', ['Mit Duke Ellington', 'Mit Louis Armstrong', 'Mit Count Basie'], 'Benny Goodman spielte in dieser Aufnahme mit.'],
       ['Wann sang sie zum ersten Mal „Strange Fruit“?', '1939', ['1933', '1945', '1955'], 'Im Club Café Society in New York.'],

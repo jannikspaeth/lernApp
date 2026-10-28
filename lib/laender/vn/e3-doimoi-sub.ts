@@ -42,7 +42,7 @@ export const DOIMOI: Subtopic = {
       ['Auf welchem Parteitag?', 'Dem 6.', ['Dem 1.', 'Dem 10.', 'Dem 20.']],
       ['Was bekamen die Bauern?', 'Land zur eigenen Nutzung', ['Nichts', 'Eine Pension', 'Ein Gehalt']],
       ['Wie hoch war die Armut 1993?', 'Rund 58 Prozent', ['Rund 8 Prozent', 'Rund 18 Prozent', 'Rund 98 Prozent']],
-      ['Wie hoch ist sie heute etwa?', 'Unter 10 Prozent', ['Über 50 Prozent', 'Etwa 30 Prozent', 'Etwa 70 Prozent']],
+      ['Wie hoch ist die Armut in Vietnam heute etwa?', 'Unter 10 Prozent', ['Über 50 Prozent', 'Etwa 30 Prozent', 'Etwa 70 Prozent']],
       ['Wie stark wuchs die Wirtschaft?', 'Um sechs bis acht Prozent', ['Um null Prozent', 'Um 20 Prozent', 'Um zwei Prozent']],
       ['Wann zog Vietnam aus Kambodscha ab?', '1989', ['1979', '1995', '2000']],
       ['Wann normalisierte sich das Verhältnis zu China?', '1991', ['1979', '1986', '1995']],

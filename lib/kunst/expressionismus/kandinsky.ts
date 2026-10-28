@@ -22,7 +22,7 @@ export const KANDINSKY: Subtopic = {
       ['Womit verglich er Farben?', 'Mit Musik und Klängen', ['Mit Speisen', 'Mit Gerüchen', 'Mit Tieren']],
       ['Welche Gruppe gründete er mit Marc?', 'Den Blauen Reiter', ['Die Brücke', 'Das Bauhaus', 'De Stijl']],
       ['In welcher Stadt zog er 1896 hin?', 'München', ['Berlin', 'Paris', 'Dresden'], '1896 gab er seine Laufbahn auf und zog nach München.'],
-      ['Wo lehrte er später?', 'Am Bauhaus', ['An der Akademie in Dresden', 'An der Sorbonne', 'In Wien'], 'Er lehrte 1922–1933 am Bauhaus.'],
+      ['Wo lehrte Kandinsky später?', 'Am Bauhaus', ['An der Akademie in Dresden', 'An der Sorbonne', 'In Wien'], 'Er lehrte 1922–1933 am Bauhaus.'],
       ['Wie heißt sein berühmtes Buch?', 'Über das Geistige in der Kunst', ['Das Buch der Farben', 'Abstrakte Kunst', 'Die Kunst und der Mensch'], 'Das Buch erschien 1911.'],
       ['In welches Land emigrierte er 1933?', 'Frankreich', ['USA', 'England', 'Schweiz'], '1933 emigrierte er nach Frankreich.'],
     ],
@@ -38,7 +38,7 @@ export const KANDINSKY: Subtopic = {
       ['Wann wurde er Lehrer am Bauhaus?', '1922', ['1822', '1942', '1872'], 'Er begann 1922 in Weimar als Lehrer.'],
       ['In welchen Städten lehrte er am Bauhaus?', 'Weimar und Dessau', ['Berlin und München', 'Dresden und Köln', 'Wien und Prag'], 'Das Bauhaus zog 1925 von Weimar nach Dessau.'],
       ['Wann wurde er französischer Staatsbürger?', '1939', ['1839', '1919', '1933'], '1939 wurde er französischer Staatsbürger.'],
-      ['Wo starb er?', 'In Neuilly-sur-Seine', ['In München', 'In Moskau', 'In Weimar']],
+      ['Wo starb Kandinsky?', 'In Neuilly-sur-Seine', ['In München', 'In Moskau', 'In Weimar']],
     ],
     schwer: [
       ['Wie nannte Kandinsky seine sorgfältig geplanten Bilder?', 'Kompositionen', ['Impressionen', 'Improvisationen', 'Skizzen'], 'Die „Kompositionen“ waren seine am sorgfältigsten vorbereiteten Bilder.'],

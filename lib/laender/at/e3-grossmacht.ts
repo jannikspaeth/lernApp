@@ -58,7 +58,7 @@ export const E3: Epoch = {
               ['Bei welchem Ereignis erhielt Österreich Galizien?', 'Bei der ersten Teilung Polens', ['Im Frieden von Karlowitz', 'Im Siebenjährigen Krieg', 'Beim Wiener Kongress']],
               ['Welche Berater halfen bei den Reformen?', 'Haugwitz und Kaunitz', ['Metternich und Gentz', 'Wallenstein und Tilly', 'Starhemberg und Salm']],
               ['Was schuf Maria Theresia in der Verwaltung?', 'Eine zentrale Verwaltung', ['Eine Republik', 'Selbstständige Länder', 'Ein Parlament']],
-              ['Was baute sie militärisch auf?', 'Ein stehendes Heer', ['Eine Flotte in Indien', 'Eine Ritterarmee', 'Nichts']],
+              ['Was baute Maria Theresia militärisch auf?', 'Ein stehendes Heer', ['Eine Flotte in Indien', 'Eine Ritterarmee', 'Nichts']],
               ['Was schränkte Maria Theresia ein?', 'Die Folter', ['Die Schulpflicht', 'Die Steuern des Adels', 'Den Katholizismus']],
               ['Was ließ sie im ganzen Land machen?', 'Es vermessen', ['Es neu besiedeln', 'Es verkaufen', 'Es aufteilen']],
               ['Wann wurde der Tiergarten Schönbrunn gegründet?', '1752', ['1740', '1780', '1800']],
@@ -66,7 +66,7 @@ export const E3: Epoch = {
               ['Wem soll Mozart einen Heiratsantrag gemacht haben?', 'Der kleinen Marie Antoinette', ['Maria Theresia', 'Constanze', 'Sisi']],
               ['Wann starb Marie Antoinette?', '1793', ['1780', '1789', '1815']],
               ['Wann starb Franz Stephan?', '1765', ['1745', '1780', '1756']],
-              ['Mit wem regierte sie ab 1765 gemeinsam?', 'Mit ihrem Sohn Joseph II.', ['Mit Kaunitz', 'Mit Leopold II.', 'Mit Friedrich II.']],
+              ['Mit wem regierte Maria Theresia ab 1765 gemeinsam?', 'Mit ihrem Sohn Joseph II.', ['Mit Kaunitz', 'Mit Leopold II.', 'Mit Friedrich II.']],
               ['Wann starb Maria Theresia?', '1780', ['1765', '1790', '1740']],
             ],
             schwer: [

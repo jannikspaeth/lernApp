@@ -5,6 +5,7 @@ import { LITERATUR } from '@/lib/literatur';
 import { MUSIK } from '@/lib/musik';
 import { PHILOSOPHIE } from '@/lib/philosophie';
 import { WISSENSCHAFT } from '@/lib/wissenschaft';
+import { POLITIK } from '@/lib/politik';
 import { COUNTRY_COVERS } from '@/lib/geschichte/portraits';
 import { bildView } from '@/lib/bild';
 import { fachTiles } from '@/lib/wissen/faecher';
@@ -22,6 +23,10 @@ export interface DailyQuestion {
   chapter: string;
 }
 
+// Questions that lean on the chapter or the previous question ("Wann starb er?") make no sense on their own.
+const DEPENDENT = /(^|[\s(„])(er|sie|ihn|ihm|ihr|ihre[mnrs]?|sein|seine[mnrs]?|dort|damals|diese[mnrs]?|dieser|dabei|danach|daraufhin|dafür|damit)([\s?,.“)]|$)/i;
+const standalone = (q: string) => !DEPENDENT.test(q) && q.split(/\s+/).length >= 4;
+
 const src = (key?: string) => (key ? bildView(key)?.src ?? null : null);
 
 // A spread of chapters from one deep subject: the first easy/medium question with info and a picture.
@@ -35,8 +40,8 @@ function pick(fach: string, h: CountryHistory, base: (ev: string, sub: string) =
   for (let i = 0; i < n; i++) {
     const { ep, ei, ev, sub } = all[Math.floor(i * step)];
     const level = i % 2 ? sub.quiz.mittel : sub.quiz.leicht;
-    const card = level.find(c => c[2] && c[2].length >= 3 && c[3]) ?? sub.quiz.leicht[0];
-    if (!card || !card[2] || card[2].length < 3) continue;
+    const card = [...level, ...sub.quiz.leicht, ...sub.quiz.mittel].find(c => c[2] && c[2].length >= 3 && c[3] && standalone(c[0]));
+    if (!card || !card[2]) continue;
     const img = src(card[4] as string | undefined) ?? src(sub.images?.[0]) ?? src(ev.cover) ?? src(ep.cover) ?? fallback(ei);
     out.push({
       fach,
@@ -61,6 +66,7 @@ export function dailyPool(): DailyQuestion[] {
     pick('kunst', KUNST, (e, s) => `/kunst/${e}/${s}`, 20, cov('kunst')),
     pick('musik', MUSIK, (e, s) => `/musik/${e}/${s}`, 20, cov('musik')),
     pick('literatur', LITERATUR, (e, s) => `/literatur/${e}/${s}`, 20, cov('literatur')),
+    pick('politik', POLITIK, (e, s) => `/politik/${e}/${s}`, 20, cov('politik')),
     pick('philosophie', PHILOSOPHIE, (e, s) => `/philosophie/${e}/${s}`, 20, cov('philosophie')),
     Object.entries(DETAILED).flatMap(([code, h]) =>
       pick('geschichte', h, (e, s) => `/weltgeschichte/land/${code.toLowerCase()}/${e}/${s}`, 1, () => src(COUNTRY_COVERS[code])),
@@ -80,6 +86,7 @@ export function visitCovers(): Record<string, string | null> {
     '/musik': c.musik.cover,
     '/literatur': c.literatur.cover,
     '/philosophie': c.philosophie.cover,
+    '/politik': c.politik.cover,
     '/weltgeschichte': c.geschichte.cover,
     '/geografie': c.geografie.cover,
   };

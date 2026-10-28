@@ -23,7 +23,7 @@ export const TEILUNG: Subtopic = {
       ['Welche Provinzen wurden geteilt?', 'Punjab und Bengalen', ['Gujarat und Kerala', 'Goa und Assam', 'Kaschmir und Tibet']],
       ['Wie viele Menschen flohen etwa?', 'Rund 15 Millionen', ['Rund 15.000', 'Rund 150.000', 'Rund 150 Millionen']],
       ['Wer wurde 1948 erschossen?', 'Mahatma Gandhi', ['Nehru', 'Patel', 'Jinnah']],
-      ['Von wem wurde er erschossen?', 'Von Nathuram Godse', ['Von einem Briten', 'Von einem Muslim', 'Von einem Sikh']],
+      ['Von wem wurde Gandhi 1948 erschossen?', 'Von Nathuram Godse', ['Von einem Briten', 'Von einem Muslim', 'Von einem Sikh']],
       ['Wann starb Gandhi?', '30. Januar 1948', ['15. August 1947', '26. Januar 1950', '14. August 1947']],
       ['Wie hieß Nehrus berühmte Rede?', 'Tryst with Destiny', ['I Have a Dream', 'Quit India', 'Salt March']],
       ['Wer war Innenminister und einigte die Fürstenstaaten?', 'Sardar Patel', ['Ambedkar', 'Nehru', 'Mountbatten']],

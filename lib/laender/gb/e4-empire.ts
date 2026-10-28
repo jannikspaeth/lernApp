@@ -39,7 +39,7 @@ export const E4: Epoch = {
               ['Wo legte Clive den Grundstein der Herrschaft in Indien?', 'Bei Plassey', ['Bei Delhi', 'Bei Madras', 'Bei Bombay']],
               ['Was forderten die Kolonisten in Amerika?', '„No taxation without representation“', ['„God save the King“', '„Rule Britannia“', '„Liberté, égalité“']],
               ['Was warfen Bostoner Bürger 1773 ins Hafenbecken?', 'Tee', ['Gold', 'Kaffee', 'Zucker']],
-              ['Wie heißt dieses Ereignis?', 'Boston Tea Party', ['Boston Massacre', 'Bill of Rights', 'Mayflower']],
+              ['Wie nennt man den Protest von 1773, bei dem Tee ins Hafenbecken geworfen wurde?', 'Boston Tea Party', ['Boston Massacre', 'Bill of Rights', 'Mayflower']],
               ['Wann erklärten die Kolonien ihre Unabhängigkeit?', '4. Juli 1776', ['16. Dezember 1773', '1781', '1783']],
               ['Welches Land half den Amerikanern?', 'Frankreich', ['Portugal', 'Russland', 'Preußen']],
               ['Wo siegten die Amerikaner 1781 entscheidend?', 'Bei Yorktown', ['Bei Boston', 'Bei Québec', 'Bei Culloden']],

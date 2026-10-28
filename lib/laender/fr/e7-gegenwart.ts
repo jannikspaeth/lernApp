@@ -134,7 +134,7 @@ export const E7: Epoch = {
               ['Wann begann die FLN den Kampf?', '1. November 1954', ['13. Mai 1958', '19. März 1962', '7. Mai 1954']],
               ['Was geschah 1957 in Algier?', 'Die „Schlacht von Algier“', ['Die Unabhängigkeit', 'Ein Erdbeben', 'Ein Friedensschluss']],
               ['Was geschah am 13. Mai 1958?', 'Offiziere und Siedler putschten in Algier', ['Algerien wurde unabhängig', 'De Gaulle starb', 'Die FLN kapitulierte']],
-              ['Warum putschten sie 1958?', 'Sie fürchteten, Paris werde Algerien aufgeben', ['Sie wollten die Unabhängigkeit', 'Sie wollten einen König', 'Sie wollten nach Spanien']],
+              ['Warum putschten französische Offiziere 1958 in Algier?', 'Sie fürchteten, Paris werde Algerien aufgeben', ['Sie wollten die Unabhängigkeit', 'Sie wollten einen König', 'Sie wollten nach Spanien']],
               ['Wann wurde die Verfassung der Fünften Republik angenommen?', '28. September 1958', ['13. Mai 1958', '5. Juli 1962', '4. Oktober 1946']],
               ['Wann sprach de Gaulle vom Selbstbestimmungsrecht der Algerier?', '1959', ['1958', '1961', '1962']],
               ['Wie viele Generäle putschten 1961 in Algier?', 'Vier', ['Zwei', 'Zehn', 'Einer']],

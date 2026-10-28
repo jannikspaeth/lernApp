@@ -15,7 +15,7 @@ export const ATOM: Subtopic = {
     leicht: [
       ['Wann starb Khomeini?', '3. Juni 1989', ['1. Februar 1979', '20. August 1988', '14. Juli 2015']],
       ['Wer wurde sein Nachfolger als Oberster Führer?', 'Ali Chamenei', ['Rafsandschani', 'Chatami', 'Rohani']],
-      ['Wer wählte ihn?', 'Der Expertenrat', ['Das Volk', 'Das Parlament', 'Die Revolutionsgarden']],
+      ['Wer wählte Chamenei zum Obersten Führer?', 'Der Expertenrat', ['Das Volk', 'Das Parlament', 'Die Revolutionsgarden']],
       ['Wer war Präsident von 1989 bis 1997?', 'Rafsandschani', ['Chatami', 'Ahmadinedschad', 'Raisi']],
       ['Welcher Reformer wurde 1997 gewählt?', 'Mohammad Chatami', ['Hassan Rohani', 'Ali Chamenei', 'Raisi']],
       ['Was forderte Chatami?', 'Einen Dialog der Zivilisationen', ['Krieg mit dem Westen', 'Einen Gottesstaat', 'Eine Monarchie']],
@@ -31,7 +31,7 @@ export const ATOM: Subtopic = {
       ['Wie heißt das Abkommen abgekürzt?', 'JCPOA', ['NATO', 'TTIP', 'OPEC']],
       ['Wer stieg 2018 aus dem Abkommen aus?', 'Die USA unter Trump', ['Russland', 'China', 'Deutschland']],
       ['Wer wurde 2020 per Drohne getötet?', 'Qassem Soleimani', ['Ali Chamenei', 'Ebrahim Raisi', 'Hassan Rohani']],
-      ['Wo wurde er getötet?', 'In Bagdad', ['In Teheran', 'In Beirut', 'In Damaskus']],
+      ['Wo wurde General Soleimani 2020 getötet?', 'In Bagdad', ['In Teheran', 'In Beirut', 'In Damaskus']],
       ['Wer wurde 2021 Präsident?', 'Ebrahim Raisi', ['Rohani', 'Chatami', 'Pezeshkian']],
     ],
     mittel: [
@@ -40,7 +40,7 @@ export const ATOM: Subtopic = {
       ['Wann stürmten Sicherheitskräfte das Studentenwohnheim?', 'Im Juli 1999', ['Im Juni 2009', 'Im Mai 1997', 'Im Juli 2015']],
       ['Wer war Ahmadinedschad vorher?', 'Bürgermeister von Teheran', ['General', 'Ayatollah', 'Minister']],
       ['Wann wurde die Anlage in Natans enthüllt?', '2002', ['2006', '2015', '1989']],
-      ['Wer enthüllte sie?', 'Eine Oppositionsgruppe', ['Die CIA', 'Die IAEA', 'Israel']],
+      ['Wer enthüllte die Atomanlage in Natans?', 'Eine Oppositionsgruppe', ['Die CIA', 'Die IAEA', 'Israel']],
       ['Welche Anlage ist ein Schwerwasserreaktor?', 'Arak', ['Natans', 'Bushehr', 'Qom']],
       ['Wann verhängte der UN-Sicherheitsrat Sanktionen?', 'Ab 2006', ['Ab 1989', 'Ab 2015', 'Ab 1979']],
       ['Was traf die Sanktionen besonders?', 'Ölexporte, Banken und Finanzen', ['Landwirtschaft', 'Tourismus', 'Sport']],

@@ -6,6 +6,7 @@ import { LITERATUR, LITERATUR_CODE } from '@/lib/literatur';
 import { MUSIK, MUSIK_CODE } from '@/lib/musik';
 import { PHILOSOPHIE, PHILO_CODE } from '@/lib/philosophie';
 import { WISSENSCHAFT, WIS_CODE } from '@/lib/wissenschaft';
+import { POLITIK, POL_CODE } from '@/lib/politik';
 import { QUIZZES } from '@/lib/geografie/quizzes';
 import { CATS } from '@/lib/geografie/cats';
 import { COUNTRY_COVERS } from '@/lib/geschichte/portraits';
@@ -69,14 +70,7 @@ export function fachTiles(): Record<string, Omit<FachTile, 'id'>> {
     literatur: deep(LITERATUR, LITERATUR_CODE, ['countries', 'Länder'], 'goethe'),
     wissenschaft: deep(WISSENSCHAFT, WIS_CODE, ['areas', 'Bereiche'], 'einstein'),
     musik: deep(MUSIK, MUSIK_CODE, ['genres', 'Genres'], 'beethoven'),
-    politik: {
-      cover: src('reichstag'),
-      pos: 'center',
-      sub: ['Basic Law, EU, UN', 'Grundgesetz, EU, UNO'],
-      prefixes: [],
-      deepTotal: 0,
-      geoTotal: 0,
-    },
+    politik: deep(POLITIK, POL_CODE, ['areas', 'Bereiche'], 'reichstag', 'center'),
     philosophie: deep(PHILOSOPHIE, PHILO_CODE, ['areas', 'Bereiche'], 'sokrates'),
   };
 }

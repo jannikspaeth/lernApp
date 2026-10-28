@@ -23,7 +23,7 @@ export const DICKENS: Subtopic = {
       ['Wie heißt der Waisenjunge in „Große Erwartungen“?', 'Pip', ['Oliver', 'David', 'Nicholas'], null],
       ['In welcher Revolution spielt „Eine Geschichte aus zwei Städten“?', 'In der Französischen Revolution', ['In der Englischen Revolution', 'In der Amerikanischen Revolution', 'In der Märzrevolution'], null],
       ['Was musste Dickens als Kind tun?', 'In einer Fabrik arbeiten', ['Auf einem Schiff dienen', 'Betteln', 'Im Bergwerk arbeiten'], 'Er war damals zwölf Jahre alt.'],
-      ['Warum musste er arbeiten?', 'Sein Vater saß wegen Schulden im Gefängnis', ['Beide Eltern waren tot', 'Die Familie wanderte aus', 'Er lief von zu Hause weg'], null],
+      ['Warum musste Charles Dickens als Kind arbeiten?', 'Sein Vater saß wegen Schulden im Gefängnis', ['Beide Eltern waren tot', 'Die Familie wanderte aus', 'Er lief von zu Hause weg'], null],
       ['Wie erschienen Dickens’ Romane?', 'In Fortsetzungen', ['Nur als teure Bände', 'Als Theaterstücke', 'Als Zeitungsartikel ohne Handlung'], null],
       ['Wo ist Dickens begraben?', 'In der Westminster Abbey', ['In Portsmouth', 'In der St Paul’s Cathedral', 'In Rochester'], 'In der Dichterecke.'],
     ],

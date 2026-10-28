@@ -24,7 +24,7 @@ export default function FlashCard({
         <span className="inline-flex items-center h-6 px-2 rounded-md bg-surface border border-line text-xs font-semibold text-muted">{label}</span>
         {card.img && (
           // eslint-disable-next-line @next/next/no-img-element -- local SVG flags, no optimisation needed
-          <img src={card.img} alt="" className={/^\/(kunst|literatur|musik|philosophie|wissenschaft|geo|umriss)\//.test(card.img) ? 'max-h-72 max-w-full rounded-lg border border-line bg-surface object-contain' : 'h-28 max-w-full rounded-lg border border-line'} />
+          <img src={card.img} alt="" className={/^\/(kunst|literatur|musik|philosophie|wissenschaft|politik|geo|umriss)\//.test(card.img) ? 'max-h-72 max-w-full rounded-lg border border-line bg-surface object-contain' : 'h-28 max-w-full rounded-lg border border-line'} />
         )}
         <p className="text-xl md:text-[22px] text-ink leading-snug font-semibold tracking-tight">{card.q}</p>
       </div>

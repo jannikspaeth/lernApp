@@ -16,7 +16,7 @@ export const NAUMBURG: Subtopic = {
       ['Wer ist diese Figur?', 'Uta von Naumburg', ['Reglindis', 'Maria', 'Kunigunde'], null, 'uta-naumburg'],
       ['In welchem Dom steht sie?', 'Im Naumburger Dom', ['Im Kölner Dom', 'Im Bamberger Dom', 'Im Magdeburger Dom'], 'Der Naumburger Dom gehört seit 2018 zum UNESCO-Welterbe.'],
       ['Was waren die zwölf Figuren?', 'Stifter des Domes', ['Apostel', 'Propheten', 'Heilige'], 'Die Stifterfiguren zeigen zwölf Gründer des Doms aus dem 11. Jahrhundert.'],
-      ['Wer schuf sie?', 'Der Naumburger Meister', ['Tilman Riemenschneider', 'Veit Stoß', 'Peter Parler']],
+      ['Wer schuf die zwölf Stifterfiguren im Naumburger Dom?', 'Der Naumburger Meister', ['Tilman Riemenschneider', 'Veit Stoß', 'Peter Parler']],
       ['Wie heißt der Meister mit Namen?', 'Er ist unbekannt', ['Hans Multscher', 'Nikolaus Gerhaert', 'Adam Kraft'], 'Der Name „Naumburger Meister“ ist eine Notbezeichnung; seine Identität ist unbekannt.'],
       ['Was hält Uta mit der Hand?', 'Den Mantelkragen vors Gesicht', ['Eine Rose', 'Ein Schwert', 'Ein Buch'], 'Uta hebt den Kragen ihres Mantels und blickt streng in die Ferne.'],
       ['Wann entstanden die Figuren?', 'Um 1250', ['Um 1050', 'Um 1450', 'Um 1650'], 'Die Figuren entstanden um 1250.'],

@@ -30,7 +30,7 @@ export const LEVI_CALVINO_ECO: Subtopic = {
     mittel: [
       ['Wann lebte Primo Levi?', '1919–1987', ['1923–1985', '1932–2016', '1861–1928'], null],
       ['Wann wurde Levi nach Auschwitz gebracht?', 'Im Februar 1944', ['Im Mai 1940', 'Im Januar 1945', 'Im Herbst 1939'], null],
-      ['Wann wurde er befreit?', 'Im Januar 1945', ['Im Mai 1940', 'Im Februar 1944', 'Im Juni 1946'], null],
+      ['Wann wurde Primo Levi aus Auschwitz befreit?', 'Im Januar 1945', ['Im Mai 1940', 'Im Februar 1944', 'Im Juni 1946'], null],
       ['Wann erschien „Ist das ein Mensch?“', '1947', ['1963', '1944', '1972'], null],
       ['Wann lebte Calvino?', '1923–1985', ['1919–1987', '1932–2016', '1928–2020'], null],
       ['In welcher Gruppe kämpfte Calvino?', 'Bei den Partisanen', ['Bei der Armee', 'Bei der Marine', 'Bei den Faschisten'], null],

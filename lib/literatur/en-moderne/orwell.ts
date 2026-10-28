@@ -34,7 +34,7 @@ export const ORWELL: Subtopic = {
       ['Wie lange war Orwell in Burma?', 'Fünf Jahre', ['Ein Jahr', 'Zehn Jahre', 'Zwanzig Jahre'], null],
       ['Wie lebte Orwell für sein erstes Buch?', 'Als Tellerwäscher und Obdachloser', ['Als Reporter', 'Als Lehrer', 'Als Soldat'], 'In Paris und London.'],
       ['Wo kämpfte Orwell 1936?', 'In Spanien gegen Franco', ['In Frankreich', 'In Burma', 'In Indien'], null],
-      ['Was geschah ihm dort?', 'Er wurde am Hals angeschossen', ['Er wurde gefangen genommen', 'Er wurde ausgezeichnet', 'Er wurde Offizier'], null],
+      ['Was geschah George Orwell im Spanischen Bürgerkrieg?', 'Er wurde am Hals angeschossen', ['Er wurde gefangen genommen', 'Er wurde ausgezeichnet', 'Er wurde Offizier'], null],
       ['Warum musste Orwell aus Spanien fliehen?', 'Die stalinistische Seite verfolgte die eigenen Verbündeten', ['Franco siegte sofort', 'Er wurde entlassen', 'Er war krank'], null],
       ['Wie heißt sein Buch über Spanien?', 'Mein Katalonien', ['Der Weg nach Wigan Pier', 'Erledigt in Paris und London', 'Tage in Burma'], null],
       ['Wann erschien „Farm der Tiere“?', '1945', ['1935', '1949', '1955'], null],

@@ -28,7 +28,7 @@ export const PTOLEMAEER: Subtopic = {
       ['Wer war die letzte Herrscherin?', 'Kleopatra VII.', ['Hatschepsut', 'Nofretete', 'Arsinoe']],
       ['Wer verbündete sich 48 v. Chr. mit ihr?', 'Julius Caesar', ['Octavian', 'Pompeius', 'Marcus Antonius']],
       ['Wie hieß ihr Sohn mit Caesar?', 'Caesarion', ['Octavian', 'Antyllus', 'Ptolemaios']],
-      ['Mit wem verbündete sie sich später?', 'Marcus Antonius', ['Octavian', 'Brutus', 'Pompeius']],
+      ['Mit wem verbündete sich Kleopatra nach Caesars Tod?', 'Marcus Antonius', ['Octavian', 'Brutus', 'Pompeius']],
       ['Wo besiegte Octavian beide?', 'Bei Actium', ['Bei Marathon', 'Bei Issos', 'Bei Kadesch']],
       ['Wann starb Kleopatra?', '30 v. Chr.', ['48 v. Chr.', '332 v. Chr.', '44 v. Chr.']],
       ['Was wurde Ägypten danach?', 'Römische Provinz', ['Unabhängiges Reich', 'Persische Provinz', 'Byzantinisches Kaiserreich']],

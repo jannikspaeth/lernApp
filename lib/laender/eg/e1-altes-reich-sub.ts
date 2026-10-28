@@ -31,7 +31,7 @@ export const ALTES_REICH: Subtopic = {
       ['Wer baute die erste Stufenpyramide?', 'Djoser', ['Cheops', 'Snofru', 'Ramses']],
       ['Wer war sein Baumeister?', 'Imhotep', ['Manetho', 'Herodot', 'Narmer']],
       ['Wo steht die Große Pyramide?', 'In Gizeh', ['In Sakkara', 'In Luxor', 'In Theben']],
-      ['Wer ließ sie bauen?', 'Cheops (Chufu)', ['Chephren', 'Mykerinos', 'Djoser']],
+      ['Wer ließ die Große Pyramide von Gizeh bauen?', 'Cheops (Chufu)', ['Chephren', 'Mykerinos', 'Djoser']],
       ['Wer baute die Pyramiden?', 'Bezahlte Arbeiter und Bauern', ['Sklaven aus Rom', 'Außerirdische', 'Soldaten']],
     ],
     mittel: [

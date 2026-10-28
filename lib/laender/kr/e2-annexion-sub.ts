@@ -21,7 +21,7 @@ export const ANNEXION: Subtopic = {
       ['Welcher Vertrag machte Korea 1905 zum Protektorat?', 'Der Vertrag von Eulsa', ['Der Vertrag von Ganghwa', 'Der Vertrag von Portsmouth', 'Der Vertrag von Versailles']],
       ['Wer war erster japanischer Generalresident?', 'Ito Hirobumi', ['An Jung-geun', 'Hideyoshi', 'Meiji']],
       ['Wer erschoss Ito Hirobumi?', 'An Jung-geun', ['Yi Sun-sin', 'Kim Gu', 'Syngman Rhee']],
-      ['Wo erschoss er ihn?', 'In Harbin', ['In Seoul', 'In Tokio', 'In Busan']],
+      ['Wo erschoss An Jung-geun Ito Hirobumi?', 'In Harbin', ['In Seoul', 'In Tokio', 'In Busan']],
       ['Wann annektierte Japan Korea?', '1910', ['1895', '1905', '1919']],
       ['Wie hieß Korea unter Japan?', 'Chōsen', ['Joseon', 'Daehan', 'Goryeo']],
       ['Wer war der letzte Kaiser Koreas?', 'Sunjong', ['Gojong', 'Sejong', 'Taejo']],

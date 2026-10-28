@@ -48,7 +48,7 @@ export const SILLA_GORYEO: Subtopic = {
       ['Wie heißt der Text, den man auf Holzplatten schnitzte?', 'Tripitaka Koreana', ['Jikji', 'Samguk Sagi', 'Hangeul']],
       ['Wie viele Jahre vor Gutenberg druckte man den Jikji ungefähr?', 'Fast 80', ['Etwa 8', 'Etwa 800', 'Etwa 8.000']],
       ['Wer schlug 1019 die Kitan?', 'Gang Gam-chan', ['Eulji Mundeok', 'Yi Sun-sin', 'Wang Geon']],
-      ['Wo schlug er sie?', 'Bei Kuju', ['Bei Salsu', 'Bei Pyeongyang', 'Bei Hanyang']],
+      ['Wo schlug Gang Gam-chan 1019 die Kitan?', 'Bei Kuju', ['Bei Salsu', 'Bei Pyeongyang', 'Bei Hanyang']],
       ['Wann übernahmen Militärs die Macht?', 'Ab 1170', ['Ab 668', 'Ab 1392', 'Ab 1259']],
       ['Wann überfielen die Mongolen erstmals?', '1231', ['1170', '1259', '1388']],
       ['Wann unterwarf sich Goryeo den Mongolen?', '1259', ['1231', '1377', '1392']],

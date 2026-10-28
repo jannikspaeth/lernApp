@@ -54,7 +54,7 @@ export const DERG: Subtopic = {
       ['Wie viel Geld brachte es ein?', 'Über 100 Millionen Dollar', ['Über 100.000 Dollar', 'Über 1 Million Dollar', 'Über 10 Millionen Dollar']],
       ['Welche Allianz bildete die TPLF?', 'Die EPRDF', ['Die EPLF', 'Die OLF', 'Die EPRP']],
       ['Wann floh Mengistu?', 'Mai 1991', ['Mai 1974', 'Mai 1977', 'Mai 1985']],
-      ['Wohin floh er?', 'Nach Simbabwe', ['Nach Kuba', 'Nach Russland', 'Nach Eritrea']],
+      ['Wohin floh Mengistu 1991?', 'Nach Simbabwe', ['Nach Kuba', 'Nach Russland', 'Nach Eritrea']],
     ],
     schwer: [
       ['Warum war die Landreform bei Bauern populär?', 'Sie beendete die Feudalordnung', ['Sie gab Geld', 'Sie brachte Frieden', 'Sie senkte Steuern']],

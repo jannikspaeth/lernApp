@@ -14,7 +14,7 @@ export const KOLONIE: Subtopic = {
   quiz: {
     leicht: [
       ['Wie viele Afrikaner wurden etwa verschleppt?', 'Rund 12 Millionen', ['Rund 1,2 Millionen', 'Rund 120.000', 'Rund 120 Millionen']],
-      ['Wohin wurden sie verschleppt?', 'Über den Atlantik', ['Über den Indischen Ozean', 'Nach Arabien', 'Nach Europa']],
+      ['Wohin wurden die versklavten Afrikaner aus der Region Nigeria verschleppt?', 'Über den Atlantik', ['Über den Indischen Ozean', 'Nach Arabien', 'Nach Europa']],
       ['Welche Europäer kauften zuerst Sklaven?', 'Portugiesen', ['Briten', 'Franzosen', 'Niederländer']],
       ['Gegen was tauschte man Menschen?', 'Waffen, Stoffe, Alkohol, Metalle', ['Gold', 'Salz', 'Getreide']],
       ['Welche Stadt war ein Sklavenhafen?', 'Lagos', ['Abuja', 'Kano', 'Sokoto']],
@@ -25,7 +25,7 @@ export const KOLONIE: Subtopic = {
       ['Wann wurde die Sklaverei im Empire verboten?', '1833', ['1807', '1861', '1914']],
       ['Womit handelte man danach?', 'Mit Palmöl und Erdnüssen', ['Mit Gold', 'Mit Diamanten', 'Mit Kaffee']],
       ['Wer wurde 1864 erster schwarzer anglikanischer Bischof?', 'Samuel Ajayi Crowther', ['Usman dan Fodio', 'Nnamdi Azikiwe', 'Ahmadu Bello']],
-      ['Was übersetzte er?', 'Die Bibel ins Yoruba', ['Den Koran', 'Die Tora', 'Den Talmud']],
+      ['Was übersetzte Bischof Samuel Ajayi Crowther?', 'Die Bibel ins Yoruba', ['Den Koran', 'Die Tora', 'Den Talmud']],
       ['Wann annektierte Großbritannien Lagos?', '1861', ['1807', '1884', '1914']],
       ['Wie hieß die Handelsgesellschaft am Niger?', 'Royal Niger Company', ['VOC', 'Hudson’s Bay Company', 'Ostindien-Kompanie']],
       ['Wer verbannte den Oba von Benin?', 'Die Briten', ['Die Portugiesen', 'Die Franzosen', 'Die Deutschen']],

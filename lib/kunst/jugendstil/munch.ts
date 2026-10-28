@@ -37,7 +37,7 @@ export const MUNCH: Subtopic = {
       ['Wie lange blieb die Berliner Ausstellung offen?', 'Eine Woche', ['Ein Jahr', 'Einen Monat', 'Einen Tag']],
       ['Wann erlitt er einen Nervenzusammenbruch?', '1908', ['1808', '1928', '1858'], 'Nach dem Zusammenbruch 1908 war er in einer Kopenhagener Klinik.'],
       ['Wie viele Gemälde hinterließ er etwa?', 'Rund 1.100', ['Rund 110', 'Rund 11.000', 'Rund 100']],
-      ['Wo lebte er zuletzt?', 'In Ekely bei Oslo', ['In Paris', 'In Berlin', 'In Bergen']],
+      ['Wo lebte Edvard Munch zuletzt?', 'In Ekely bei Oslo', ['In Paris', 'In Berlin', 'In Bergen']],
       ['Welche Maler lernte er in Paris kennen?', 'Gauguin und Van Gogh', ['Monet und Renoir', 'Picasso und Braque', 'Dürer und Holbein'], 'In Paris lernte er Werke von Gauguin und Van Gogh kennen.'],
     ],
     schwer: [
@@ -46,7 +46,7 @@ export const MUNCH: Subtopic = {
       ['Wie viele Werke wurden 1937 etwa beschlagnahmt?', 'Rund 82', ['Rund 8', 'Rund 800', 'Rund 8.000'], 'Rund 82 Werke Munchs wurden 1937 aus deutschen Museen entfernt.'],
       ['Wann wurde der Schrei gestohlen?', '1994 und 2004', ['1894 und 1904', '1944 und 1954', '2010 und 2020'], 'Der Schrei wurde 1994 und 2004 gestohlen und jeweils wiedergefunden.'],
       ['Wie nannte Munch Krankheit, Wahnsinn und Tod?', '„Schwarze Engel“ an seiner Wiege', ['„Meine Lehrer“', '„Meine Modelle“', '„Meine Feinde“'], 'Munch schrieb: „Krankheit, Wahnsinn und Tod waren die schwarzen Engel an meiner Wiege.“'],
-      ['Wie arbeitete er nach 1908?', 'Heller und ruhiger', ['Dunkler und wilder', 'Gar nicht mehr', 'Nur noch in Grafik'], 'Nach 1908 malte er heller und optimistischer.'],
+      ['Wie veränderte sich Munchs Malerei nach 1908?', 'Heller und ruhiger', ['Dunkler und wilder', 'Gar nicht mehr', 'Nur noch in Grafik'], 'Nach 1908 malte er heller und optimistischer.'],
       ['Was vereint die Madonna?', 'Liebe, Lust und Tod', ['Krieg und Frieden', 'Reichtum und Armut', 'Jugend und Alter'], 'Die Madonna zeigt Liebe, Lust und Tod in einer Gestalt.'],
       ['Wie malte Munch seine Bilder?', 'Aus innerem Erleben in verzerrten Linien', ['Nach Fotos', 'Nach Vorbildern', 'Mit Schablonen'], 'Munch malte, wie er etwas erlebt hatte, nicht, wie er es sah.'],
       ['Wie alt war Munch beim Tod der Mutter?', 'Fünf Jahre', ['Fünfzehn Jahre', 'Zwanzig Jahre', 'Zwei Jahre']],

@@ -43,11 +43,11 @@ export const TURNER: Subtopic = {
     schwer: [
       ['Wofür steht die Temeraire noch?', 'Den Wandel durch die Industrialisierung', ['Den Sieg Englands', 'Die Königin', 'Die Seefahrt'], 'Das Bild steht für das Ende der Segelschiffe und den Beginn der Dampfzeit.'],
       ['Was nimmt Turners Spätwerk vorweg?', 'Den Impressionismus und die Abstraktion', ['Den Barock', 'Die Gotik', 'Den Klassizismus'], 'Turners späte Bilder gelten als Vorwegnahme des Impressionismus.'],
-      ['Was soll er zuletzt gesagt haben?', '„Die Sonne ist Gott.“', ['„Licht!“', '„Mehr Licht!“', '„Es ist vollbracht.“'], 'Seine letzten Worte sollen „Die Sonne ist Gott“ gewesen sein.'],
+      ['Was soll William Turner zuletzt gesagt haben?', '„Die Sonne ist Gott.“', ['„Licht!“', '„Mehr Licht!“', '„Es ist vollbracht.“'], 'Seine letzten Worte sollen „Die Sonne ist Gott“ gewesen sein.'],
       ['Was zeigt die 20-Pfund-Note seit 2020?', 'Turners Selbstporträt', ['Königin Victoria', 'Shakespeare', 'Dickens'], 'Seit 2020 zeigt die 20-Pfund-Note Turners Selbstporträt.'],
       ['Was suchte Turner in der Natur?', 'Das Erhabene', ['Das Idyllische', 'Das Gewöhnliche', 'Das Ordnende'], 'Das Erhabene meint Naturgewalt, die staunen und schaudern lässt.'],
       ['Wie war Turner im Wesen?', 'Eigenwillig und zurückgezogen', ['Gesellig', 'Politisch', 'Frömmelnd']],
-      ['Wohin reiste er?', 'Nach Italien, in die Schweiz und an den Rhein', ['Nach Ägypten', 'Nach Amerika', 'Nach Indien'], 'Er reiste mehrfach nach Italien, in die Schweiz und an den Rhein.'],
+      ['Wohin reiste William Turner, um Landschaften zu malen?', 'Nach Italien, in die Schweiz und an den Rhein', ['Nach Ägypten', 'Nach Amerika', 'Nach Indien'], 'Er reiste mehrfach nach Italien, in die Schweiz und an den Rhein.'],
       ['Was ist besonders an „Regen, Dampf und Geschwindigkeit“?', 'Eines der ersten Bilder, das Geschwindigkeit darstellt', ['Das erste Landschaftsbild', 'Das erste Porträt', 'Das erste Stillleben'], 'Das Bild zeigt eine moderne Lokomotive in einem Gewirr aus Licht und Regen.'],
       ['Welcher Fluss ist zu sehen?', 'Die Themse', ['Der Rhein', 'Die Seine', 'Der Tiber'], 'Die Brücke überquert die Themse bei Maidenhead.'],
       ['Welcher Maler steht Turner als Landschafter gegenüber?', 'John Constable', ['Rembrandt', 'Goya', 'Delacroix'], 'Constable stand für die ruhigere, naturgetreue Landschaftsmalerei.'],

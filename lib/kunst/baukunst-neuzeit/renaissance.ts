@@ -28,9 +28,9 @@ export const RENAISSANCE: Subtopic = {
     ],
     mittel: [
       ['Wann wurde der Dom von Florenz begonnen?', '1296', ['1096', '1496', '1696'], 'Der Grundstein wurde 1296 gelegt.'],
-      ['Wer begann ihn?', 'Arnolfo di Cambio', ['Brunelleschi', 'Giotto', 'Alberti']],
+      ['Wer begann den Bau des Doms von Florenz?', 'Arnolfo di Cambio', ['Brunelleschi', 'Giotto', 'Alberti']],
       ['Wann gewann Brunelleschi den Wettbewerb?', '1418', ['1218', '1518', '1618']],
-      ['Gegen wen gewann er?', 'Lorenzo Ghiberti', ['Michelangelo', 'Donatello', 'Masaccio']],
+      ['Gegen wen gewann Brunelleschi 1401 den Wettbewerb um die Baptisteriumstüren?', 'Lorenzo Ghiberti', ['Michelangelo', 'Donatello', 'Masaccio']],
       ['Wann wurde die Kuppel gebaut?', '1420–1436', ['1220–1236', '1520–1536', '1620–1636'], 'Die Kuppel entstand zwischen 1420 und 1436.'],
       ['Wie viele Ziegel wurden verbaut etwa?', 'Rund vier Millionen', ['Rund 40.000', 'Rund 400.000', 'Rund vier Milliarden'], 'Brunelleschi ließ rund vier Millionen Ziegel verbauen.'],
       ['Wie ist die Kuppel gebaut?', 'Als Doppelschale im Fischgrätenmuster', ['Als Betonschale', 'Als Holzgerüst', 'Als Glaskuppel']],

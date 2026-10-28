@@ -17,7 +17,7 @@ export const DAVID: Subtopic = {
       ['Wie heißt es?', 'Der Tod des Marat', ['Der Tod des Sokrates', 'Der Tod Caesars', 'Der Tod Napoleons'], 'Das Bild entstand 1793 und hängt in Brüssel.', 'marat'],
       ['Wer erstach Marat?', 'Charlotte Corday', ['Robespierre', 'Danton', 'Napoleon'], 'Charlotte Corday aus der Normandie erstach Marat am 13. Juli 1793.'],
       ['Wo wurde Marat erstochen?', 'In der Badewanne', ['Im Bett', 'Auf der Straße', 'Im Parlament'], 'Marat litt an einer Hautkrankheit und arbeitete oft in der Wanne.'],
-      ['Wie wirkt Marat im Bild?', 'Wie ein Märtyrer', ['Wie ein Verbrecher', 'Wie ein Schlafender', 'Wie ein König'], 'Marat wird als Märtyrer der Revolution dargestellt, der Arm hängt wie auf einer Pietà.'],
+      ['Wie wirkt Marat in Davids Gemälde?', 'Wie ein Märtyrer', ['Wie ein Verbrecher', 'Wie ein Schlafender', 'Wie ein König'], 'Marat wird als Märtyrer der Revolution dargestellt, der Arm hängt wie auf einer Pietà.', 'marat'],
       ['Wer reitet in diesem Gemälde?', 'Napoleon', ['Ludwig XIV.', 'Karl der Große', 'Hannibal'], null, 'napoleon-bernhard'],
       ['Wie heißt das Gemälde?', 'Napoleon überquert den Großen Sankt Bernhard', ['Napoleon in Ägypten', 'Napoleon bei Austerlitz', 'Napoleon in Russland'], 'Es gibt mehrere Fassungen; eine hängt in Schloss Malmaison.', 'napoleon-bernhard'],
       ['Womit überquerte Napoleon wirklich die Alpen?', 'Mit einem Maulesel', ['Mit einem Schimmel', 'Mit einem Elefanten', 'Mit einem Wagen'], 'Napoleon ritt in Wirklichkeit auf einem Maulesel, Pferde gab es dort nicht.'],

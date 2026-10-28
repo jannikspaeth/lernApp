@@ -15,7 +15,7 @@ export const MUBARAK: Subtopic = {
     leicht: [
       ['Wer folgte Sadat?', 'Husni Mubarak', ['Nasser', 'Sisi', 'Mursi']],
       ['Was war Mubarak vorher?', 'Luftwaffenchef', ['Armeechef', 'Polizeichef', 'Geheimdienstchef']],
-      ['Wie lange regierte er?', 'Fast 30 Jahre', ['Fast 10 Jahre', 'Fast 50 Jahre', 'Fast 3 Jahre']],
+      ['Wie lange regierte Husni Mubarak?', 'Fast 30 Jahre', ['Fast 10 Jahre', 'Fast 50 Jahre', 'Fast 3 Jahre']],
       ['Was galt bis 2011?', 'Der Ausnahmezustand', ['Die Pressefreiheit', 'Die Demokratie', 'Das Kriegsrecht nur 1981']],
       ['Wie hieß seine Partei?', 'NDP', ['Wafd', 'Freiheit und Gerechtigkeit', 'Al-Nur']],
       ['Wen hielt er für den Frieden?', 'Israel', ['Syrien', 'Libyen', 'Iran']],
@@ -36,7 +36,7 @@ export const MUBARAK: Subtopic = {
     ],
     mittel: [
       ['Wann wurde Mubarak geboren?', '1928', ['1918', '1938', '1948']],
-      ['Wie oft ließ er sich bestätigen?', 'Fünfmal', ['Einmal', 'Zweimal', 'Zehnmal']],
+      ['Wie oft ließ sich Mubarak per Referendum oder Wahl bestätigen?', 'Fünfmal', ['Einmal', 'Zweimal', 'Zehnmal']],
       ['Was tat der Staat mit der Muslimbruderschaft?', 'Er verbot sie, duldete sie aber', ['Er erlaubte sie', 'Er löste sie auf', 'Er verbündete sich']],
       ['Wie viele Ägypter lebten von weniger als zwei Dollar?', 'Rund 40 Prozent', ['Rund 4 Prozent', 'Rund 14 Prozent', 'Rund 90 Prozent']],
       ['Wie groß war die Bevölkerung 2011?', 'Über 80 Millionen', ['Über 8 Millionen', 'Über 18 Millionen', 'Über 180 Millionen']],
@@ -65,7 +65,7 @@ export const MUBARAK: Subtopic = {
       ['Wie viel der Sitze gewannen die Salafisten?', 'Etwa ein Viertel', ['Etwa die Hälfte', 'Etwa ein Zehntel', 'Fast alle']],
       ['Was tat Mursi im November 2012?', 'Er entzog seine Entscheidungen gerichtlicher Kontrolle', ['Er trat zurück', 'Er löste das Parlament auf', 'Er ließ Wahlen ansetzen']],
       ['Warum wurde seine Verfassung kritisiert?', 'Sie galt als islamisch geprägt', ['Sie war zu liberal', 'Sie war zu kurz', 'Sie war zu teuer']],
-      ['Wer lehnte sie ab?', 'Liberale, Frauen, Kopten und Normalbürger', ['Nur Armee', 'Nur Brüder', 'Nur Salafisten']],
+      ['Wer lehnte Mursis Verfassung von 2012 ab?', 'Liberale, Frauen, Kopten und Normalbürger', ['Nur Armee', 'Nur Brüder', 'Nur Salafisten']],
       ['Was belastete die Lage 2013?', 'Wirtschaftskrise, Stromausfälle, Benzinmangel', ['Kriege', 'Pest', 'Erdbeben']],
       ['Wann demonstrierten Millionen gegen Mursi?', '30. Juni 2013', ['25. Januar 2011', '14. August 2013', '3. Juli 2013']],
       ['Wo starb Mursi?', 'Vor Gericht', ['Im Exil', 'Bei einem Anschlag', 'Im Krankenhaus']],

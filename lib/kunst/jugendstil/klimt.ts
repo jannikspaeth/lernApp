@@ -28,7 +28,7 @@ export const KLIMT: Subtopic = {
     ],
     mittel: [
       ['Wann lebte Klimt?', '1862–1918', ['1762–1818', '1882–1938', '1862–1930']],
-      ['Wie alt wurde er?', '55 Jahre', ['35 Jahre', '75 Jahre', '45 Jahre']],
+      ['Wie alt wurde Gustav Klimt?', '55 Jahre', ['35 Jahre', '75 Jahre', '45 Jahre']],
       ['Wann entstand Judith I?', '1901', ['1801', '1921', '1851'], 'Judith I (1901) hängt im Belvedere.'],
       ['Wann entstand Adele Bloch-Bauer I?', '1907', ['1807', '1927', '1857'], 'Das Bild entstand 1907.'],
       ['Wann entstand Der Kuss?', '1908', ['1808', '1928', '1858'], 'Der Kuss entstand 1908.'],
@@ -45,7 +45,7 @@ export const KLIMT: Subtopic = {
       ['Was tat Klimt nach der Kritik?', 'Er gab den Auftrag zurück', ['Er vollendete sie', 'Er floh nach Paris', 'Er malte neu'], 'Klimt gab den Auftrag zurück und zahlte das Honorar zurück.'],
       ['Wann wurde Klimt erster Präsident der Secession?', '1897', ['1887', '1907', '1917']],
       ['Wer waren seine frühen Mitarbeiter?', 'Sein Bruder Ernst und Franz Matsch', ['Schiele und Kokoschka', 'Loos und Wagner', 'Olbrich und Hoffmann'], 'Mit Ernst Klimt und Franz Matsch bildete er die „Künstler-Compagnie“.'],
-      ['Woran arbeiteten sie früh?', 'An Wand- und Deckenbildern für Theater und Museen', ['An Altären', 'An Briefmarken', 'An Plakaten'], 'Sie schmückten das Burgtheater und das Kunsthistorische Museum in Wien.'],
+      ['Woran arbeitete Klimt mit seinen frühen Mitarbeitern?', 'An Wand- und Deckenbildern für Theater und Museen', ['An Altären', 'An Briefmarken', 'An Plakaten'], 'Sie schmückten das Burgtheater und das Kunsthistorische Museum in Wien.'],
       ['Wie nennt man die goldene Phase etwa zeitlich?', 'Um 1903–1909', ['Um 1850–1860', 'Um 1920–1930', 'Um 1880–1890']],
       ['Woher stammte Adele Bloch-Bauer?', 'Aus einer Wiener Zuckerindustriellen-Familie', ['Aus dem Adel', 'Aus einer Künstlerfamilie', 'Aus Paris'], 'Adele Bloch-Bauer war mit dem Zuckerindustriellen Ferdinand Bloch-Bauer verheiratet.'],
       ['Wer beschlagnahmte das Bild später?', 'Die Nationalsozialisten', ['Die Habsburger', 'Die Franzosen', 'Die Sowjets'], 'Die Nationalsozialisten beschlagnahmten es 1938 nach dem Anschluss Österreichs.'],

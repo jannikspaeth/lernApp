@@ -53,7 +53,7 @@ export const HEUTE: Subtopic = {
       ['Wann begann der Bau des Renaissance-Damms?', '2011', ['2001', '2016', '2025']],
       ['Wo bekämpft die Armee Terror seit 2013?', 'Auf dem Sinai', ['In Oberägypten', 'In Alexandria', 'Im Delta']],
       ['Welche Inseln gab Ägypten 2016 ab?', 'Tiran und Sanafir', ['Zypern und Kreta', 'Gaza und Sinai', 'Malta und Sizilien']],
-      ['An wen gab es sie ab?', 'Saudi-Arabien', ['Israel', 'Jordanien', 'Sudan']],
+      ['An wen gab Ägypten 2016 die Inseln Tiran und Sanafir ab?', 'Saudi-Arabien', ['Israel', 'Jordanien', 'Sudan']],
       ['Wie viel Prozent sind Kopten etwa?', 'Rund zehn Prozent', ['Rund ein Prozent', 'Rund 30 Prozent', 'Rund 50 Prozent']],
     ],
     schwer: [

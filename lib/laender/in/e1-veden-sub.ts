@@ -36,7 +36,7 @@ export const VEDEN: Subtopic = {
     ],
     mittel: [
       ['Wann kamen indoeuropäische Gruppen etwa nach Nordindien?', 'Ab etwa 1500 v. Chr.', ['Ab etwa 100 n. Chr.', 'Ab etwa 3000 v. Chr.', 'Ab etwa 800 n. Chr.']],
-      ['Wo ließen sie sich zuerst nieder?', 'Im Punjab, dem Fünfstromland', ['Im Dekkan', 'In Bengalen', 'In Kerala']],
+      ['Wo ließen sich die indoeuropäischen Gruppen in Indien zuerst nieder?', 'Im Punjab, dem Fünfstromland', ['Im Dekkan', 'In Bengalen', 'In Kerala']],
       ['Wie viele Hymnen hat der Rigveda etwa?', 'Über tausend', ['Etwa zehn', 'Etwa hundert', 'Über eine Million']],
       ['Wohin verlagerte sich die Kultur später?', 'Ins Gangestal', ['Ans Meer', 'In den Himalaya', 'In die Wüste Thar']],
       ['Was ermöglichte große Rodungen?', 'Eisenwerkzeuge', ['Dampfmaschinen', 'Traktoren', 'Sprengstoff']],

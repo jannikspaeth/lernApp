@@ -54,7 +54,7 @@ export const UNABH: Subtopic = {
       ['Wann wurde sie in einen Einheitsstaat umgewandelt?', '1950', ['1949', '1955', '1965']],
       ['Wie viele Indonesier starben im Krieg etwa?', '100.000 bis 200.000', ['Etwa 1.000', 'Etwa 10.000', 'Etwa 10 Millionen']],
       ['Wann entschuldigte sich König Willem-Alexander?', '2020', ['2005', '1949', '1975']],
-      ['Wofür entschuldigte er sich?', 'Für exzessive Gewalt', ['Für den Handel', 'Für die Sprache', 'Für Steuern']],
+      ['Wofür entschuldigte sich König Willem-Alexander 2020 in Indonesien?', 'Für exzessive Gewalt', ['Für den Handel', 'Für die Sprache', 'Für Steuern']],
     ],
     schwer: [
       ['Wie begrüßten Indonesier die Japaner zunächst?', 'Als Befreier von der Kolonialherrschaft', ['Als Feinde', 'Als Händler', 'Als Missionare']],

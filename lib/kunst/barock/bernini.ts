@@ -28,7 +28,7 @@ export const BERNINI: Subtopic = {
     ],
     mittel: [
       ['Wann lebte Bernini?', '1598–1680', ['1498–1580', '1698–1780', '1598–1700']],
-      ['Wo wurde er geboren?', 'In Neapel', ['In Rom', 'In Florenz', 'In Venedig'], 'Bernini wurde 1598 in Neapel geboren und kam als Kind nach Rom.'],
+      ['Wo wurde Bernini geboren?', 'In Neapel', ['In Rom', 'In Florenz', 'In Venedig'], 'Bernini wurde 1598 in Neapel geboren und kam als Kind nach Rom.'],
       ['Wann entstand Apollo und Daphne?', '1622–1625', ['1522–1525', '1722–1725', '1822–1825']],
       ['Was zeigt die Skulptur im entscheidenden Augenblick?', 'Die Verwandlung', ['Die Verfolgung', 'Die Ruhe', 'Den Abschied'], 'Der Moment der Verwandlung ist im Marmor eingefroren.'],
       ['In welcher Kapelle steht die Theresa?', 'Cornaro-Kapelle', ['Sixtinische Kapelle', 'Medici-Kapelle', 'Scrovegni-Kapelle'], 'Die Cornaro-Kapelle liegt in der Kirche Santa Maria della Vittoria.'],

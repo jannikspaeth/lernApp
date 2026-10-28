@@ -32,7 +32,7 @@ export const BULGAKOW_PASTERNAK: Subtopic = {
       ['Woher stammte Bulgakow?', 'Aus Kiew', ['Aus Moskau', 'Aus Odessa', 'Aus Petersburg'], null],
       ['Was geschah in den 1920er-Jahren mit seinen Stücken?', 'Sie wurden abgesetzt', ['Sie wurden gefeiert', 'Sie wurden verfilmt', 'Sie wurden exportiert'], null],
       ['Worum bat Bulgakow 1930 die Regierung?', 'Um Ausreise oder Arbeit', ['Um Geld', 'Um eine Wohnung', 'Um einen Orden'], null],
-      ['Was bekam er daraufhin?', 'Eine Stelle am Künstlertheater', ['Die Ausreiseerlaubnis', 'Einen Preis', 'Eine Wohnung in Moskau'], 'Ausreisen durfte er nie.'],
+      ['Was bekam Bulgakow, nachdem er 1930 an die Regierung geschrieben hatte?', 'Eine Stelle am Künstlertheater', ['Die Ausreiseerlaubnis', 'Einen Preis', 'Eine Wohnung in Moskau'], 'Ausreisen durfte er nie.'],
       ['Wie lange arbeitete Bulgakow an seinem Roman?', 'Von 1928 bis zu seinem Tod', ['Ein Jahr', 'Fünf Jahre', 'Zwanzig Jahre nach dem Krieg'], null],
       ['Wann erschien „Der Meister und Margarita“?', '1966/67', ['1940', '1957', '1989'], 'Zunächst gekürzt in einer Zeitschrift.'],
       ['Wann lebte Pasternak?', '1890–1960', ['1891–1940', '1889–1966', '1918–2008'], null],

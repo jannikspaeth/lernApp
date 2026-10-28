@@ -30,7 +30,7 @@ export const FALCO: Subtopic = {
     ],
     mittel: [
       ['Wie hieß Falco eigentlich?', 'Johann Hölzel', ['Hans Moser', 'Udo Jürgens', 'Wolfgang Ambros'], 'Seine Freunde nannten ihn Hans.'],
-      ['Nach wem benannte er sich?', 'Nach einem DDR-Skispringer', ['Nach einem Falken im Zoo', 'Nach einem Rennfahrer', 'Nach einem Comichelden'], 'Falko Weißpflog.'],
+      ['Nach wem benannte sich Falco?', 'Nach einem DDR-Skispringer', ['Nach einem Falken im Zoo', 'Nach einem Rennfahrer', 'Nach einem Comichelden'], 'Falko Weißpflog.'],
       ['Was war Falco von Geburt an besonders?', 'Das einzige überlebende Kind von Drillingen', ['Ein Zwilling', 'Ein Einzelkind mit sieben Halbbrüdern', 'Ein Adeliger'], 'Seine Geschwister starben kurz nach der Geburt.'],
       ['In welcher Wiener Band spielte Falco Bass?', 'Drahdiwaberl', ['Opus', 'EAV', 'STS'], 'Eine wilde Polit-Rockband.'],
       ['Wovon handelt „Der Kommissar“?', 'Von Drogen in der Wiener Szene', ['Von einem Fußballspiel', 'Von Mozart', 'Von Weihnachten'], 'Ein kühler Song über die Wiener Szene.'],

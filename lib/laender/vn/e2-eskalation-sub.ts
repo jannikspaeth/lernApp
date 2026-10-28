@@ -16,7 +16,7 @@ export const ESKALATION: Subtopic = {
       ['Wie hieß der Süden ab 1955?', 'Republik Vietnam', ['Demokratische Republik Vietnam', 'Staat Vietnam', 'Kaiserreich Annam']],
       ['Wer wurde Präsident im Süden?', 'Ngô Đình Diệm', ['Hồ Chí Minh', 'Bảo Đại', 'Nguyễn Văn Thiệu']],
       ['Welche Religion hatte Diệm?', 'Katholisch', ['Buddhistisch', 'Muslimisch', 'Hinduistisch']],
-      ['Wer unterstützte ihn?', 'Die USA', ['China', 'Die Sowjetunion', 'Frankreich']],
+      ['Wer unterstützte Ngô Đình Diệm?', 'Die USA', ['China', 'Die Sowjetunion', 'Frankreich']],
       ['Wer führte den Geheimdienst?', 'Sein Bruder Ngô Đình Nhu', ['Võ Nguyên Giáp', 'Madame Nhu', 'Thiệu']],
       ['Wohin wurden Bauern umgesiedelt?', 'In „Strategische Dörfer“', ['In Städte', 'In den Norden', 'Nach Laos']],
       ['Wie hieß die Befreiungsfront?', 'Nationale Befreiungsfront (NLF)', ['Việt Minh', 'VNQDĐ', 'Khmer Rouge']],

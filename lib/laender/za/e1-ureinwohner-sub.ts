@@ -30,7 +30,7 @@ export const UREINWOHNER: Subtopic = {
       ['Was bedeutet Mapungubwe?', 'Hügel der Schakale', ['Berg des Goldes', 'Stadt der Könige', 'Fluss der Löwen']],
       ['Was ist berühmt aus Mapungubwe?', 'Das goldene Nashorn', ['Die goldene Maske', 'Der goldene Löwe', 'Der goldene Schädel']],
       ['Wer rundete 1488 das Kap?', 'Bartolomeu Dias', ['Vasco da Gama', 'Kolumbus', 'Magellan']],
-      ['Wie nannte er es?', 'Kap der Stürme', ['Kap der Guten Hoffnung', 'Kap Horn', 'Kap Verde']],
+      ['Wie nannte Bartolomeu Dias das Kap, das er 1488 umrundete?', 'Kap der Stürme', ['Kap der Guten Hoffnung', 'Kap Horn', 'Kap Verde']],
       ['Wer fuhr 1497/98 nach Indien?', 'Vasco da Gama', ['Bartolomeu Dias', 'Cabral', 'Magellan']],
       ['Wann landeten die Niederländer am Kap?', '1652', ['1488', '1806', '1835']],
     ],

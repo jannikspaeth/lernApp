@@ -108,7 +108,7 @@ export const E1: Epoch = {
             leicht: [
               ['Welche sagenhafte Fürstin herrschte auf dem Vyšehrad?', 'Libuše', ['Eliška', 'Ludmila', 'Maria Theresia']],
               ['Wen wählte Libuše zum Mann?', 'Den Bauern Přemysl', ['Den König von Polen', 'Einen Ritter aus Bayern', 'Den heiligen Wenzel']],
-              ['Was tat Přemysl, als man ihn holte?', 'Er pflügte sein Feld', ['Er jagte im Wald', 'Er betete in der Kirche', 'Er kämpfte gegen Ungarn']],
+              ['Was tat Přemysl, als Libušes Boten ihn holten?', 'Er pflügte sein Feld', ['Er jagte im Wald', 'Er betete in der Kirche', 'Er kämpfte gegen Ungarn']],
               ['Welche Stadt soll Libuše vorhergesagt haben?', 'Prag', ['Brünn', 'Wien', 'Krakau']],
               ['Welches Geschlecht stammt von Přemysl ab?', 'Die Přemysliden', ['Die Luxemburger', 'Die Habsburger', 'Die Piasten']],
               ['Welcher Fürst gründete die Prager Burg?', 'Bořivoj', ['Wenzel', 'Ottokar II.', 'Karl IV.']],

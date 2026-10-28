@@ -17,7 +17,7 @@ export const HUGO: Subtopic = {
       ['Wer schrieb „Die Elenden“?', 'Victor Hugo', ['Alexandre Dumas', 'Honoré de Balzac', 'Émile Zola'], null, 'hugo'],
       ['Wie heißt die Hauptfigur in „Die Elenden“?', 'Jean Valjean', ['Javert', 'Marius', 'Gavroche'], null],
       ['Warum wird Jean Valjean verurteilt?', 'Wegen eines gestohlenen Brotes', ['Wegen Mordes', 'Wegen Hochverrats', 'Wegen Betrugs'], null],
-      ['Wer verfolgt ihn unerbittlich?', 'Der Polizist Javert', ['Der Bischof', 'Thénardier', 'Marius'], null],
+      ['Wer verfolgt Jean Valjean in „Die Elenden“ unerbittlich?', 'Der Polizist Javert', ['Der Bischof', 'Thénardier', 'Marius'], null],
       ['Wie heißt der Straßenjunge in dem Roman?', 'Gavroche', ['Cosette', 'Marius', 'Enjolras'], 'Er stirbt auf der Barrikade.'],
       ['Wie heißt Hugos Roman über eine Pariser Kathedrale?', 'Der Glöckner von Notre-Dame', ['Die Elenden', 'Die Arbeiter des Meeres', 'Der Mann, der lacht'], null],
       ['Wie heißt der Glöckner?', 'Quasimodo', ['Frollo', 'Phoebus', 'Clopin'], null],

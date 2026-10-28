@@ -17,7 +17,7 @@ export const BLIXEN_LAXNESS: Subtopic = {
       ['Wer schrieb „Jenseits von Afrika“?', 'Karen Blixen', ['Selma Lagerlöf', 'Sigrid Undset', 'Astrid Lindgren'], null, 'blixen'],
       ['Aus welchem Land stammt Karen Blixen?', 'Aus Dänemark', ['Aus Schweden', 'Aus Norwegen', 'Aus Finnland'], null],
       ['Wohin zog sie mit ihrem Mann?', 'Nach Kenia', ['Nach Indien', 'Nach Südafrika', 'Nach Ägypten'], null],
-      ['Was betrieb sie dort?', 'Eine Kaffeefarm', ['Eine Schule', 'Ein Hotel', 'Eine Mine'], null],
+      ['Was betrieb Karen Blixen in Kenia?', 'Eine Kaffeefarm', ['Eine Schule', 'Ein Hotel', 'Eine Mine'], null],
       ['Unter welchem Pseudonym schrieb sie?', 'Isak Dinesen', ['Karin Boye', 'Sally Salminen', 'Else Lasker'], null],
       ['Welche Schauspielerin spielte Blixen im Film?', 'Meryl Streep', ['Audrey Hepburn', 'Julia Roberts', 'Vivien Leigh'], null],
       ['Wer ist auf diesem Porträt zu sehen?', 'Halldór Laxness', ['Jon Fosse', 'Knut Hamsun', 'Tomas Tranströmer'], null, 'laxness'],
@@ -30,7 +30,7 @@ export const BLIXEN_LAXNESS: Subtopic = {
     mittel: [
       ['Wann lebte Blixen?', '1885–1962', ['1902–1998', '1959–heute', '1858–1940'], null],
       ['Wie hieß ihr Geliebter in Kenia?', 'Denys Finch Hatton', ['Bror Blixen', 'Robert Redford', 'Ernest Hemingway'], null],
-      ['Wie starb er?', 'Bei einem Flugzeugabsturz 1931', ['Auf der Jagd', 'Im Krieg', 'An Malaria'], null],
+      ['Wie starb Karen Blixens Geliebter Denys Finch Hatton?', 'Bei einem Flugzeugabsturz 1931', ['Auf der Jagd', 'Im Krieg', 'An Malaria'], null],
       ['Wann erschien „Jenseits von Afrika“?', '1937', ['1914', '1934', '1985'], null],
       ['Wie viele Oscars gewann der Film?', 'Sieben', ['Einen', 'Drei', 'Elf'], null],
       ['Welche Erzählung wurde ebenfalls mit einem Oscar ausgezeichnet?', 'Babettes Fest', ['Sieben phantastische Geschichten', 'Die Schneekönigin', 'Schloss im Moor'], null],

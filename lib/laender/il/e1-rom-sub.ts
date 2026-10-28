@@ -67,7 +67,7 @@ export const ROM: Subtopic = {
       ['Wo lagen Lernzentren?', 'In Galiläa und Babylonien', ['In Rom', 'In Athen', 'In Alexandria nur']],
       ['Wo lebten Juden in der Diaspora außer Babylonien?', 'In Alexandria, Spanien und im Rheinland', ['Nur in Arabien', 'Nur in Asien', 'Nur in Afrika']],
       ['Was durften Juden im Mittelalter oft nicht?', 'Boden besitzen', ['Handel treiben', 'Beten', 'Lesen']],
-      ['Was mussten sie oft tragen?', 'Besondere Kleidung', ['Waffen', 'Kronen', 'Schmuck']],
+      ['Was mussten Juden im Mittelalter oft tragen?', 'Besondere Kleidung', ['Waffen', 'Kronen', 'Schmuck']],
       ['Wann wurden Juden aus Portugal vertrieben?', '1496', ['1492', '1290', '1516']],
       ['Wohin flohen viele?', 'Ins Osmanische Reich oder nach Polen-Litauen', ['Nach Amerika', 'Nach Australien', 'Nach China']],
       ['Wo blieb eine kleine jüdische Gemeinde im Land?', 'In Safed, Tiberias und Jerusalem', ['In Gaza', 'In Aelia', 'In Caesarea']],

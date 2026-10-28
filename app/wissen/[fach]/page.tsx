@@ -2,12 +2,13 @@ import { notFound } from 'next/navigation';
 import { MIX, SUBJECTS, getSubject } from '@/lib/wissen';
 import SubjectView from '@/components/wissen/SubjectView';
 import TileWall, { ContinueCard } from '@/components/wissen/TileWall';
-import { geschichteLandTiles, kunstEpochTiles, literaturLandTiles, musikGenreTiles, philoBereichTiles, wisBereichTiles } from '@/lib/wissen/tiles';
+import { geschichteLandTiles, kunstEpochTiles, literaturLandTiles, musikGenreTiles, philoBereichTiles, polBereichTiles, wisBereichTiles } from '@/lib/wissen/tiles';
 import { KUNST } from '@/lib/kunst';
 import { LITERATUR } from '@/lib/literatur';
 import { MUSIK } from '@/lib/musik';
 import { PHILOSOPHIE } from '@/lib/philosophie';
 import { WISSENSCHAFT } from '@/lib/wissenschaft';
+import { POLITIK } from '@/lib/politik';
 import { categoryCover } from '@/lib/geografie/bilder';
 import QuizList from '@/components/geo/QuizList';
 import { QUIZZES } from '@/lib/geografie/quizzes';
@@ -71,6 +72,19 @@ function history(fach: string) {
         <>
           <ContinueCard prefix="/wissenschaft/" label="Weiter in der Wissenschaft" />
           <TileWall tiles={wisBereichTiles()} />
+        </>
+      ),
+    };
+  }
+  if (fach === 'politik') {
+    const n = POLITIK.epochs.reduce((k, g) => k + g.events.reduce((m, ev) => m + (ev.subtopics?.length ?? 0), 0), 0);
+    return {
+      title: ['Politics in depth', 'Politik im Detail'] as [string, string],
+      sub: [`${POLITIK.epochs.length} areas, ${n} chapters`, `${POLITIK.epochs.length} Bereiche, ${n} Kapitel`] as [string, string],
+      node: (
+        <>
+          <ContinueCard prefix="/politik/" label="Weiter in der Politik" />
+          <TileWall tiles={polBereichTiles()} />
         </>
       ),
     };

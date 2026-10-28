@@ -28,7 +28,7 @@ export const MONET: Subtopic = {
     ],
     mittel: [
       ['Wann lebte Monet?', '1840–1926', ['1740–1826', '1860–1940', '1840–1900'], 'Monet starb am 5. Dezember 1926 in Giverny.'],
-      ['Wie alt wurde er?', '86 Jahre', ['56 Jahre', '66 Jahre', '96 Jahre']],
+      ['Wie alt wurde Claude Monet?', '86 Jahre', ['56 Jahre', '66 Jahre', '96 Jahre']],
       ['Wann entstand das Mohnfeld bei Argenteuil?', '1873', ['1773', '1903', '1833'], 'Das Bild hängt im Musée d’Orsay.'],
       ['Wie viele Fassungen der Kathedrale von Rouen schuf er etwa?', 'Rund 30', ['Rund 3', 'Rund 300', 'Rund 3.000'], 'Die Serie zeigt die Fassade morgens, mittags, abends und bei Nebel.'],
       ['Wann malte er die Kathedralen-Serie?', '1892–1894', ['1792–1794', '1912–1914', '1842–1844']],

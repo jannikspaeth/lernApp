@@ -53,7 +53,7 @@ export const MANDAT: Subtopic = {
       ['Mit welchem Stimmenverhältnis wurde der Teilungsplan beschlossen?', '33 zu 13', ['10 zu 3', '50 zu 3', '13 zu 33']],
       ['Wie heißt die UN-Resolution?', 'Resolution 181', ['Resolution 242', 'Resolution 338', 'Resolution 194']],
       ['Wer stimmte dem Plan zu?', 'Die jüdische Seite', ['Die arabische Seite', 'Beide', 'Keine']],
-      ['Wer lehnte ihn ab?', 'Die arabische Seite', ['Die jüdische Seite', 'Beide', 'Keine']],
+      ['Wer lehnte den UN-Teilungsplan für Palästina ab?', 'Die arabische Seite', ['Die jüdische Seite', 'Beide', 'Keine']],
       ['Was begann noch am selben Abend?', 'Der Bürgerkrieg', ['Der Frieden', 'Der Krieg mit Ägypten', 'Die Teilung']],
     ],
     schwer: [

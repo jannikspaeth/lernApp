@@ -18,7 +18,7 @@ export const UEBERBLICK: Subtopic = {
       ['Wer malte dieses Hafenbild im Morgendunst?', 'Claude Monet', ['Auguste Renoir', 'Edgar Degas', 'Vincent van Gogh'], 'Das Bild entstand 1872 und zeigt den Hafen von Le Havre im Morgendunst.', 'impression-sonnenaufgang'],
       ['Wie heißt das Bild?', 'Impression, Sonnenaufgang', ['Der Hafen', 'Morgenlicht', 'Nebel über Le Havre'], 'Das Bild (1872) gab der Bewegung den Namen.', 'impression-sonnenaufgang'],
       ['Woher stammt der Name „Impressionismus“?', 'Von einem Spottwort eines Kritikers', ['Von den Malern selbst als Programm', 'Von einem König', 'Von einem Museum'], 'Der Kritiker Louis Leroy spottete 1874 über die Bilder als bloße „Impressionen“.'],
-      ['Wo malten sie gern?', 'Im Freien', ['Nur im Atelier', 'Nur in Kirchen', 'In Schlössern'], 'Das Malen im Freien heißt „en plein air“ und wurde durch die Farbtube erleichtert.'],
+      ['Wo malten die Impressionisten gern?', 'Im Freien', ['Nur im Atelier', 'Nur in Kirchen', 'In Schlössern'], 'Das Malen im Freien heißt „en plein air“ und wurde durch die Farbtube erleichtert.'],
       ['Wer malte dieses Mohnfeld?', 'Claude Monet', ['Paul Cézanne', 'Georges Seurat', 'Édouard Manet'], null, 'mohnfeld'],
       ['Wer malte dieses Tanzlokal in Montmartre?', 'Auguste Renoir', ['Claude Monet', 'Camille Pissarro', 'Alfred Sisley'], null, 'moulin-galette'],
       ['Wie malten sie ihre Schatten?', 'Farbig', ['Schwarz', 'Gar nicht', 'Grau'], 'Schatten malten sie mit Blau und Violett statt mit Schwarz.'],

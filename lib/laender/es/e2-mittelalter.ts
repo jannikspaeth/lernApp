@@ -230,7 +230,7 @@ export const E2: Epoch = {
               ['Was geschah mit El Cid unter dem König?', 'Er wurde verbannt', ['Er wurde König', 'Er wurde Bischof', 'Er wurde hingerichtet']],
               ['Was erzählt die Legende über El Cids Tod?', 'Man band ihn tot aufs Pferd, um Feinde zu erschrecken', ['Er wurde im Schlaf ermordet', 'Er wurde Mönch', 'Er floh nach Afrika']],
               ['Welche Reiche kämpften 1212 gemeinsam?', 'Kastilien, Aragón und Navarra', ['Portugal und Frankreich', 'León und Granada', 'Kastilien und die Almohaden']],
-              ['Wen besiegten sie 1212?', 'Die Almohaden', ['Die Almoraviden', 'Die Nasriden', 'Die Umayyaden']],
+              ['Wen besiegten die christlichen Reiche 1212 bei Las Navas de Tolosa?', 'Die Almohaden', ['Die Almoraviden', 'Die Nasriden', 'Die Umayyaden']],
               ['Wann eroberte Ferdinand III. Córdoba?', '1236', ['1085', '1248', '1212']],
               ['Wie nannte man Ferdinand III.?', '„Der Heilige“', ['„Der Weise“', '„Der Eroberer“', '„Der Kühne“']],
               ['Wie nannte man Jakob I.?', '„Der Eroberer“', ['„Der Heilige“', '„Der Weise“', '„Der Grausame“']],
