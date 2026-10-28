@@ -9,6 +9,9 @@ import { BR_ANFAENGE } from './br-anfaenge';
 import { BR_WANDEL } from './br-wandel';
 import { BR_DDR } from './br-ddr';
 import { BR_GEGENWART } from './br-gegenwart';
+import { EU_GESCHICHTE } from './eu-geschichte';
+import { EU_INSTITUTIONEN } from './eu-institutionen';
+import { EU_POLITIK } from './eu-politik';
 
 // Politik: areas (epochs: Grundlagen, Deutschland, Bundesrepublik, Europa, Internationales, Systeme, Gesellschaft)
 // → topics (events) → chapters (subtopics), reusing the history types. Progress is stored like the countries' under
@@ -36,6 +39,12 @@ const RAW: CountryHistory = {
       period: 'Von der Besatzung bis heute',
       events: [BR_ANFAENGE, BR_WANDEL, BR_DDR, BR_GEGENWART],
     },
+    {
+      id: 'europa',
+      name: 'Europäische Union',
+      period: 'Geschichte, Institutionen und Europa heute',
+      events: [EU_GESCHICHTE, EU_INSTITUTIONEN, EU_POLITIK],
+    },
   ],
 };
 
@@ -58,6 +67,7 @@ const COVERS: Record<string, string> = {
   grundlagen: 'perikles', 'gr-begriffe': 'montesquieu', 'gr-ideen': 'hambacher-fest',
   deutschland: 'reichstag', 'de-grundgesetz': 'grundgesetz-glaswand', 'de-organe': 'reichstag-kuppel', 'de-wahlen': 'wahlurne', 'de-recht': 'bundesgerichtshof',
   bundesrepublik: 'brandt', 'br-anfaenge': 'adenauer', 'br-wandel': 'kohl-mitterrand', 'br-ddr': 'mauerfall', 'br-gegenwart': 'merkel',
+  europa: 'eu-flaggen', 'eu-geschichte': 'schuman', 'eu-institutionen': 'berlaymont', 'eu-politik': 'schengen-denkmal',
 };
 
 export const POLITIK: CountryHistory = {

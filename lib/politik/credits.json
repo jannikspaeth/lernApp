@@ -437,5 +437,136 @@
     "licence": "CC BY-SA 3.0 de",
     "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
     "page": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_B_145_Bild-F015892-0010,_Bonn,_Konrad_Adenauer_und_Charles_de_Gaulle.jpg"
+  },
+  "schuman": {
+    "file": "Robert_Schuman_1958.jpg",
+    "author": "European Commission",
+    "licence": "CC BY 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Robert_Schuman_1958.jpg"
+  },
+  "monnet": {
+    "file": "Jean_Monnet.jpg",
+    "author": "AnonymousUnknown author (Keystone France)",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Jean_Monnet.jpg"
+  },
+  "roemische-vertraege": {
+    "file": "EU Roma Musei Capitolini hall.jpg",
+    "author": "Hadi",
+    "licence": "CC BY-SA 3.0",
+    "licenceUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:EU_Roma_Musei_Capitolini_hall.jpg"
+  },
+  "euro-skulptur": {
+    "file": "20230103 Euro-Skulptur Ottmar Hörl.jpg",
+    "author": "Flocci Nivis",
+    "licence": "CC BY 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:20230103_Euro-Skulptur_Ottmar_H%C3%B6rl.jpg"
+  },
+  "euro-muenzen": {
+    "file": "2 euro de.jpg",
+    "author": "TeodS",
+    "licence": "CC0",
+    "licenceUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:2_euro_de.jpg"
+  },
+  "hieronymus-kloster": {
+    "file": "Jerónimos Monastery in Belém - Lisbon - Portugal - 04.jpg",
+    "author": "NorbertNagel",
+    "licence": "CC BY-SA 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Jer%C3%B3nimos_Monastery_in_Bel%C3%A9m_-_Lisbon_-_Portugal_-_04.jpg"
+  },
+  "eu-parlament-strassburg": {
+    "file": "European Parliament Strasbourg Hemicycle - Diliff.jpg",
+    "author": "Diliff",
+    "licence": "CC BY-SA 3.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:European_Parliament_Strasbourg_Hemicycle_-_Diliff.jpg"
+  },
+  "berlaymont": {
+    "file": "Berlaymont building Brussels.jpg",
+    "author": "KenSwe72",
+    "licence": "CC BY 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Berlaymont_building_Brussels.jpg"
+  },
+  "von-der-leyen": {
+    "file": "Ursula_von_der_Leyen_2024.jpg",
+    "author": "European People's Party",
+    "licence": "CC BY 2.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Ursula_von_der_Leyen_2024.jpg"
+  },
+  "ezb-gebaeude": {
+    "file": "ECB headquarters, Frankfurt 140827 1.jpg",
+    "author": "DXR / Daniel Vorndran",
+    "licence": "CC BY-SA 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:ECB_headquarters,_Frankfurt_140827_1.jpg"
+  },
+  "lagarde": {
+    "file": "Christine_Lagarde_(cropped).jpg",
+    "author": "European Parliament from EU",
+    "licence": "CC BY 2.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Christine_Lagarde_(cropped).jpg"
+  },
+  "eu-flaggen": {
+    "file": "Berlaymont building (DSCF7542-DSCF7548).jpg",
+    "author": "Trougnouf (Benoit Brummer)",
+    "licence": "CC BY 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Berlaymont_building_(DSCF7542-DSCF7548).jpg"
+  },
+  "eu-reisepass": {
+    "file": "Polish passport (2018 series) (cropped).jpg",
+    "author": "JohnGold6000",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Polish_passport_(2018_series)_(cropped).jpg"
+  },
+  "schengen-denkmal": {
+    "file": "Luxembourg-Schengen-Memorial free borders-01ESD.jpg",
+    "author": "Rikki Mitterer",
+    "licence": "CC BY-SA 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Luxembourg-Schengen-Memorial_free_borders-01ESD.jpg"
+  },
+  "draghi": {
+    "file": "Mario_Draghi_in_2021_(cropped).jpg",
+    "author": "Fattili",
+    "licence": "CC BY-SA 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Mario_Draghi_in_2021_(cropped).jpg"
+  },
+  "brexit-protest": {
+    "file": "London July 24 2019 (49) Brexit Protest Westminster (48366701516).jpg",
+    "author": "DAVID HOLT from London, England",
+    "licence": "CC BY 2.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:London_July_24_2019_(49)_Brexit_Protest_Westminster_(48366701516).jpg"
+  },
+  "friedensnobelpreis-eu": {
+    "file": "Peace Prize 2012 to the EU (P-022389-00-03).jpg",
+    "author": "Europäische Kommission - Audiovisueller Dienst, Eve van Soens, Europaparlament, European Parliament, Parlement européen, CE - Service audiovisuel, EC - Audiovisual Service",
+    "licence": "CC BY 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Peace_Prize_2012_to_the_EU_(P-022389-00-03).jpg"
+  },
+  "eu-karte": {
+    "file": "EU27-2020 European Union map.svg",
+    "author": "User:Kolja21",
+    "licence": "CC BY-SA 3.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:EU27-2020_European_Union_map.svg"
+  },
+  "europa-gebaeude": {
+    "file": "Europa building Brussels 2026 01.jpg",
+    "author": "FrDr",
+    "licence": "CC BY-SA 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Europa_building_Brussels_2026_01.jpg"
   }
 }

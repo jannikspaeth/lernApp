@@ -427,5 +427,133 @@
     "title": "Olaf Scholz",
     "artist": "",
     "year": ""
+  },
+  "schuman": {
+    "wiki": "Robert Schuman",
+    "title": "Robert Schuman",
+    "artist": "",
+    "year": ""
+  },
+  "monnet": {
+    "wiki": "Jean Monnet",
+    "title": "Jean Monnet",
+    "artist": "",
+    "year": ""
+  },
+  "roemische-vertraege": {
+    "wiki": "Römische Verträge",
+    "title": "Saal der Horatier und Curiatier im Kapitol, Ort der Unterzeichnung 1957",
+    "artist": "",
+    "year": "",
+    "file": "EU Roma Musei Capitolini hall.jpg"
+  },
+  "eu-karte": {
+    "wiki": "Mitgliedstaaten der Europäischen Union",
+    "title": "Die Mitgliedstaaten der Europäischen Union",
+    "artist": "",
+    "year": "",
+    "file": "EU27-2020 European Union map.svg"
+  },
+  "euro-skulptur": {
+    "wiki": "Euro-Skulptur",
+    "title": "Euro-Skulptur in Frankfurt am Main",
+    "artist": "Ottmar Hörl",
+    "year": "2001",
+    "file": "20230103 Euro-Skulptur Ottmar Hörl.jpg"
+  },
+  "euro-muenzen": {
+    "wiki": "Deutsche Euromünzen",
+    "title": "Deutsche 2-Euro-Münze",
+    "artist": "",
+    "year": "",
+    "file": "2 euro de.jpg"
+  },
+  "hieronymus-kloster": {
+    "wiki": "Hieronymitenkloster",
+    "title": "Hieronymus-Kloster in Lissabon-Belém",
+    "artist": "",
+    "year": "",
+    "file": "Jerónimos Monastery in Belém - Lisbon - Portugal - 04.jpg"
+  },
+  "eu-parlament-strassburg": {
+    "wiki": "Europäisches Parlament",
+    "title": "Plenarsaal des Europäischen Parlaments in Straßburg",
+    "artist": "",
+    "year": "",
+    "file": "European Parliament Strasbourg Hemicycle - Diliff.jpg"
+  },
+  "berlaymont": {
+    "wiki": "Berlaymont-Gebäude",
+    "title": "Berlaymont-Gebäude in Brüssel",
+    "artist": "",
+    "year": "",
+    "file": "Berlaymont building Brussels.jpg"
+  },
+  "von-der-leyen": {
+    "wiki": "Ursula von der Leyen",
+    "title": "Ursula von der Leyen",
+    "artist": "",
+    "year": ""
+  },
+  "europa-gebaeude": {
+    "wiki": "Europa-Gebäude",
+    "title": "Europa-Gebäude in Brüssel",
+    "artist": "",
+    "year": "",
+    "file": "Europa building Brussels 2026 01.jpg"
+  },
+  "ezb-gebaeude": {
+    "wiki": "Europäische Zentralbank",
+    "title": "Sitz der Europäischen Zentralbank in Frankfurt am Main",
+    "artist": "",
+    "year": "",
+    "file": "ECB headquarters, Frankfurt 140827 1.jpg"
+  },
+  "lagarde": {
+    "wiki": "Christine Lagarde",
+    "title": "Christine Lagarde",
+    "artist": "",
+    "year": ""
+  },
+  "eu-flaggen": {
+    "wiki": "Flagge Europas",
+    "title": "Berlaymont-Gebäude mit EU-Bannern",
+    "artist": "",
+    "year": "",
+    "file": "Berlaymont building (DSCF7542-DSCF7548).jpg"
+  },
+  "eu-reisepass": {
+    "wiki": "Reisepass",
+    "title": "Polnischer Reisepass",
+    "artist": "",
+    "year": "2018",
+    "file": "Polish passport (2018 series) (cropped).jpg"
+  },
+  "schengen-denkmal": {
+    "wiki": "Schengen (Luxemburg)",
+    "title": "Denkmal für die offenen Grenzen in Schengen",
+    "artist": "",
+    "year": "",
+    "file": "Luxembourg-Schengen-Memorial free borders-01ESD.jpg"
+  },
+  "draghi": {
+    "wiki": "Mario Draghi",
+    "title": "Mario Draghi",
+    "artist": "",
+    "year": ""
+  },
+  "brexit-protest": {
+    "wiki": "Brexit",
+    "title": "Protest gegen den Brexit in Westminster",
+    "artist": "",
+    "year": "2019",
+    "file": "London July 24 2019 (49) Brexit Protest Westminster (48366701516).jpg"
+  },
+  "friedensnobelpreis-eu": {
+    "wiki": "Friedensnobelpreis 2012",
+    "title": "Logo der EU zum Friedensnobelpreis 2012",
+    "artist": "",
+    "year": "2012",
+    "file": "Peace Prize 2012 to the EU (P-022389-00-03).jpg"
   }
 }
