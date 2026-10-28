@@ -12,6 +12,9 @@ import { BR_GEGENWART } from './br-gegenwart';
 import { EU_GESCHICHTE } from './eu-geschichte';
 import { EU_INSTITUTIONEN } from './eu-institutionen';
 import { EU_POLITIK } from './eu-politik';
+import { IN_ORGANISATIONEN } from './in-organisationen';
+import { IN_KONFLIKTE } from './in-konflikte';
+import { IN_GLOBAL } from './in-global';
 
 // Politik: areas (epochs: Grundlagen, Deutschland, Bundesrepublik, Europa, Internationales, Systeme, Gesellschaft)
 // → topics (events) → chapters (subtopics), reusing the history types. Progress is stored like the countries' under
@@ -45,6 +48,12 @@ const RAW: CountryHistory = {
       period: 'Geschichte, Institutionen und Europa heute',
       events: [EU_GESCHICHTE, EU_INSTITUTIONEN, EU_POLITIK],
     },
+    {
+      id: 'international',
+      name: 'Internationale Politik',
+      period: 'Organisationen, Konflikte und globale Herausforderungen',
+      events: [IN_ORGANISATIONEN, IN_KONFLIKTE, IN_GLOBAL],
+    },
   ],
 };
 
@@ -68,6 +77,7 @@ const COVERS: Record<string, string> = {
   deutschland: 'reichstag', 'de-grundgesetz': 'grundgesetz-glaswand', 'de-organe': 'reichstag-kuppel', 'de-wahlen': 'wahlurne', 'de-recht': 'bundesgerichtshof',
   bundesrepublik: 'brandt', 'br-anfaenge': 'adenauer', 'br-wandel': 'kohl-mitterrand', 'br-ddr': 'mauerfall', 'br-gegenwart': 'merkel',
   europa: 'eu-flaggen', 'eu-geschichte': 'schuman', 'eu-institutionen': 'berlaymont', 'eu-politik': 'schengen-denkmal',
+  international: 'uno-hauptquartier', 'in-organisationen': 'sicherheitsrat', 'in-konflikte': 'reagan-brandenburger-tor', 'in-global': 'containerschiff',
 };
 
 export const POLITIK: CountryHistory = {
