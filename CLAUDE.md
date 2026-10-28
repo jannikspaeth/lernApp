@@ -131,6 +131,12 @@ Flow: `/login` → `/` (subjects) → Sprachen: `/heute` (→ `/sprache` for lan
   Religionen Ostasiens, Weitere Religionen) with 36 chapters on religions instead of thinkers; Mythologie (`mythologie`) has 8 events (griechisch, römisch,
   germanisch, ägyptisch, mesopotamisch, keltisch/Artus, Mittel- und Südamerika, weitere) with 27 chapters. The old flat topics in
   `lib/wissen/philosophie.ts` (Denker, Weltreligionen, Mythologie) stay as "Schnell üben" tiles.
+- **Politik** (`lib/politik/`, code `POL`): 7 areas (Grundlagen, Deutschland, Bundesrepublik, Europa, International, Systeme,
+  Gesellschaft) → topics (ids prefixed `gr-`, `de-`, `br-`, `eu-`, `in-`, `sy-`, `ge-`) → chapters (12/12/10 questions, every one with
+  info). Routes `/politik/bereiche/[bereich]`, `/politik/[epoche]`, `/politik/[epoche]/[kapitel]`; progress
+  `land.pol.<topic>.<chapter>.<level>.<n>`. Pictures `lib/politik/bilder.json` (`node scripts/fetch-bilder.mjs politik`, `public/politik`),
+  reusing keys from other sets. Current-affairs facts are dated ("Stand 2026") and must be re-checked when touched. Check with
+  `npx tsx scripts/check-politik.ts`; picture questions in all subjects with `npx tsx scripts/check-bildfragen.ts`.
 - Modes: **Quiz** (4 options) or **Flashcards** (reveal + self-grade), per-device choice. Rounds of 10:
   due first, then new (`pickRound`). SRS in `lib/wissen/progress.ts` (levels 0–6, 0/1/3/7/14/30/60 days,
   learned from level 4, wrong → level 1).
