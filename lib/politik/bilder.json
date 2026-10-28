@@ -818,5 +818,68 @@
     "artist": "",
     "year": "2016",
     "file": "2016-10-15 Mansudae Grand Monument.jpg"
+  },
+  "finanzministerium": {
+    "wiki": "Detlev-Rohwedder-Haus",
+    "title": "Detlev-Rohwedder-Haus, Sitz des Bundesfinanzministeriums",
+    "artist": "",
+    "year": "2015",
+    "file": "Detlev-Rohwedder-Haus 2015.jpg"
+  },
+  "inflation-1923": {
+    "wiki": "Deutsche Inflation 1914 bis 1923",
+    "title": "Tapezieren mit Geldscheinen während der Inflation",
+    "artist": "",
+    "year": "1923",
+    "file": "Bundesarchiv Bild 102-00104, Inflation, Tapezieren mit Geldscheinen.jpg"
+  },
+  "warnstreik": {
+    "wiki": "Warnstreik",
+    "title": "Warnstreik",
+    "artist": "",
+    "year": "",
+    "file": "Warnstreik.jpg"
+  },
+  "bluem": {
+    "wiki": "Norbert Blüm",
+    "title": "Norbert Blüm",
+    "artist": "",
+    "year": "",
+    "file": "KAS-Blüm, Norbert-Bild-20245-1 (cropped).jpg"
+  },
+  "charite": {
+    "wiki": "Charité",
+    "title": "Campus Charité Mitte in Berlin",
+    "artist": "",
+    "year": "2024",
+    "file": "20240815 Campus Charité Mitte.jpg"
+  },
+  "bundesagentur-arbeit": {
+    "wiki": "Bundesagentur für Arbeit",
+    "title": "Zentrale der Bundesagentur für Arbeit in Nürnberg",
+    "artist": "",
+    "year": "",
+    "file": "Bundesagentur für Arbeit, Zentrale.jpg"
+  },
+  "gastarbeiter": {
+    "wiki": "Armando Rodrigues de Sá",
+    "title": "Armando Rodrigues de Sá, der millionste Gastarbeiter, 1964",
+    "artist": "",
+    "year": "1964",
+    "file": "Geschichtsbilder Armando Rodrigues de Sá Der millionste Gastarbeiter, das Moped und die bundesdeutsche Einwanderungsgesellscha.jpg"
+  },
+  "selbert": {
+    "wiki": "Elisabeth Selbert",
+    "title": "Elisabeth Selbert, 1948",
+    "artist": "",
+    "year": "1948",
+    "file": "Elisabeth Selbert - SPD-Frauenkonferenz - Wuppertal 1948 - Edu Düwel (cropped).jpg"
+  },
+  "wilhelm-humboldt": {
+    "wiki": "Wilhelm von Humboldt",
+    "title": "Wilhelm von Humboldt",
+    "artist": "",
+    "year": "",
+    "file": "W.v.Humboldt.jpg"
   }
 }

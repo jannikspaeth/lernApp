@@ -822,5 +822,66 @@
     "licence": "CC BY-SA 4.0",
     "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
     "page": "https://commons.wikimedia.org/wiki/File:Sansad_Bhavan,_Delhi,_BNK.jpg"
+  },
+  "finanzministerium": {
+    "file": "Detlev-Rohwedder-Haus 2015.jpg",
+    "author": "Perituss",
+    "licence": "CC0",
+    "licenceUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:Detlev-Rohwedder-Haus_2015.jpg"
+  },
+  "inflation-1923": {
+    "file": "Bundesarchiv Bild 102-00104, Inflation, Tapezieren mit Geldscheinen.jpg",
+    "author": "Pahl, Georg",
+    "licence": "CC BY-SA 3.0 de",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_102-00104,_Inflation,_Tapezieren_mit_Geldscheinen.jpg"
+  },
+  "warnstreik": {
+    "file": "Warnstreik.jpg",
+    "author": "Richard Huber",
+    "licence": "CC BY-SA 3.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Warnstreik.jpg"
+  },
+  "bluem": {
+    "file": "KAS-Blüm, Norbert-Bild-20245-1 (cropped).jpg",
+    "author": "CDU",
+    "licence": "CC BY-SA 3.0 de",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:KAS-Bl%C3%BCm,_Norbert-Bild-20245-1_(cropped).jpg"
+  },
+  "charite": {
+    "file": "20240815 Campus Charité Mitte.jpg",
+    "author": "Flocci Nivis",
+    "licence": "CC BY 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:20240815_Campus_Charit%C3%A9_Mitte.jpg"
+  },
+  "bundesagentur-arbeit": {
+    "file": "Bundesagentur für Arbeit, Zentrale.jpg",
+    "author": "Zepraba",
+    "licence": "CC BY-SA 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Bundesagentur_f%C3%BCr_Arbeit,_Zentrale.jpg"
+  },
+  "gastarbeiter": {
+    "file": "Geschichtsbilder Armando Rodrigues de Sá Der millionste Gastarbeiter, das Moped und die bundesdeutsche Einwanderungsgesellscha.jpg",
+    "author": "Unknown authorUnknown author",
+    "licence": "CC0",
+    "licenceUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:Geschichtsbilder_Armando_Rodrigues_de_S%C3%A1_Der_millionste_Gastarbeiter,_das_Moped_und_die_bundesdeutsche_Einwanderungsgesellscha.jpg"
+  },
+  "selbert": {
+    "file": "Elisabeth Selbert - SPD-Frauenkonferenz - Wuppertal 1948 - Edu Düwel (cropped).jpg",
+    "author": "Edu Düwel (1903-1948)",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Elisabeth_Selbert_-_SPD-Frauenkonferenz_-_Wuppertal_1948_-_Edu_D%C3%BCwel_(cropped).jpg"
+  },
+  "wilhelm-humboldt": {
+    "file": "W.v.Humboldt.jpg",
+    "author": "Lithographie von Friedrich Oldermann nach einem Gemälde von Franz Krüger (https://www.sammlungen.hu-berlin.de/dokumente/6012/)",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:W.v.Humboldt.jpg"
   }
 }

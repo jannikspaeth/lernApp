@@ -17,6 +17,9 @@ import { IN_KONFLIKTE } from './in-konflikte';
 import { IN_GLOBAL } from './in-global';
 import { SY_DEMOKRATIEN } from './sy-demokratien';
 import { SY_AUTOKRATIEN } from './sy-autokratien';
+import { GE_WIRTSCHAFT } from './ge-wirtschaft';
+import { GE_SOZIALSTAAT } from './ge-sozialstaat';
+import { GE_THEMEN } from './ge-themen';
 
 // Politik: areas (epochs: Grundlagen, Deutschland, Bundesrepublik, Europa, Internationales, Systeme, Gesellschaft)
 // → topics (events) → chapters (subtopics), reusing the history types. Progress is stored like the countries' under
@@ -62,6 +65,12 @@ const RAW: CountryHistory = {
       period: 'Demokratien und Autokratien im Vergleich',
       events: [SY_DEMOKRATIEN, SY_AUTOKRATIEN],
     },
+    {
+      id: 'gesellschaft',
+      name: 'Wirtschaft und Gesellschaft',
+      period: 'Wirtschafts- und Sozialpolitik, gesellschaftliche Streitfragen',
+      events: [GE_WIRTSCHAFT, GE_SOZIALSTAAT, GE_THEMEN],
+    },
   ],
 };
 
@@ -87,6 +96,7 @@ const COVERS: Record<string, string> = {
   europa: 'eu-flaggen', 'eu-geschichte': 'schuman', 'eu-institutionen': 'berlaymont', 'eu-politik': 'schengen-denkmal',
   international: 'uno-hauptquartier', 'in-organisationen': 'sicherheitsrat', 'in-konflikte': 'reagan-brandenburger-tor', 'in-global': 'containerschiff',
   systeme: 'us-kapitol', 'sy-demokratien': 'westminster', 'sy-autokratien': 'kreml',
+  gesellschaft: 'ezb-gebaeude', 'ge-wirtschaft': 'erhard', 'ge-sozialstaat': 'bismarck', 'ge-themen': 'gastarbeiter',
 };
 
 export const POLITIK: CountryHistory = {
