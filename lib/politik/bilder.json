@@ -706,5 +706,117 @@
     "title": "Fridtjof Nansen",
     "artist": "",
     "year": ""
+  },
+  "us-kapitol": {
+    "wiki": "Kapitol (Washington, D.C.)",
+    "title": "Kapitol der Vereinigten Staaten, Westseite",
+    "artist": "",
+    "year": "",
+    "file": "United States Capitol - west front.jpg"
+  },
+  "weisses-haus": {
+    "wiki": "Weißes Haus",
+    "title": "Weißes Haus, Nordfassade",
+    "artist": "",
+    "year": "",
+    "file": "North Façade White House.JPG"
+  },
+  "electoral-college-karte": {
+    "wiki": "Electoral College",
+    "title": "Wahlleute je Bundesstaat",
+    "artist": "",
+    "year": "",
+    "file": "ElectoralCollege2028.svg"
+  },
+  "westminster": {
+    "wiki": "Palace of Westminster",
+    "title": "Palace of Westminster in London",
+    "artist": "",
+    "year": "2007",
+    "file": "Palace of Westminster, London - Feb 2007.jpg"
+  },
+  "downing-street": {
+    "wiki": "10 Downing Street",
+    "title": "Downing Street Nr. 10",
+    "artist": "",
+    "year": "",
+    "file": "10 Downing Street door (19067683852).jpg"
+  },
+  "elysee-palast": {
+    "wiki": "Élysée-Palast",
+    "title": "Élysée-Palast in Paris",
+    "artist": "",
+    "year": "2019",
+    "file": "Palais de l'Élysée 2019.jpg"
+  },
+  "de-gaulle": {
+    "wiki": "Charles de Gaulle",
+    "title": "Charles de Gaulle",
+    "artist": "",
+    "year": "um 1942",
+    "file": "De Gaulle-OWI (3x4 cropped).jpg"
+  },
+  "landsgemeinde": {
+    "wiki": "Landsgemeinde",
+    "title": "Landsgemeinde in Glarus",
+    "artist": "",
+    "year": "2009",
+    "file": "Landsgemeinde Glarus, 2009.jpg"
+  },
+  "bundeshaus-bern": {
+    "wiki": "Bundeshaus (Bern)",
+    "title": "Bundeshaus in Bern",
+    "artist": "",
+    "year": "2022",
+    "file": "Bundeshaus in Bern 2022.jpg"
+  },
+  "indisches-parlament": {
+    "wiki": "Sansad Bhavan",
+    "title": "Altes Parlamentsgebäude in Neu-Delhi (bis 2023)",
+    "artist": "",
+    "year": "",
+    "file": "Sansad Bhavan, Delhi, BNK.jpg"
+  },
+  "tiananmen-platz": {
+    "wiki": "Platz des Himmlischen Friedens",
+    "title": "Tor des Himmlischen Friedens am gleichnamigen Platz in Peking",
+    "artist": "",
+    "year": "",
+    "file": "Lascar The Tian'anmen (4498194542).jpg"
+  },
+  "xi-jinping": {
+    "wiki": "Xi Jinping",
+    "title": "Xi Jinping",
+    "artist": "",
+    "year": "2023",
+    "file": "Xi Jinping (2023-04-06).jpg"
+  },
+  "kreml": {
+    "wiki": "Moskauer Kreml",
+    "title": "Moskauer Kreml",
+    "artist": "",
+    "year": "",
+    "file": "Moscow. Moskva river. Kremlin P5162723 2600.jpg"
+  },
+  "putin": {
+    "wiki": "Wladimir Putin",
+    "title": "Wladimir Putin",
+    "artist": "",
+    "year": "",
+    "file": "Vladimir Putin official portrait (cropped).jpg"
+  },
+  "chomeini": {
+    "wiki": "Ruhollah Chomeini",
+    "title": "Ruhollah Chomeini",
+    "artist": "",
+    "year": "",
+    "file": "Ruhollah Khomeini portrait 2.jpg"
+  },
+  "pjoengjang-kim-statuen": {
+    "wiki": "Mansudae-Monument",
+    "title": "Mansudae-Monument in Pjöngjang",
+    "artist": "",
+    "year": "2016",
+    "file": "2016-10-15 Mansudae Grand Monument.jpg"
   }
 }

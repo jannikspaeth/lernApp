@@ -75,7 +75,7 @@ export const ATOM: Subtopic = {
       ['Wie hoch war die Zahl der Teilnehmer an Khomeinis Trauerfeier?', 'Millionen', ['Tausende', 'Hunderte', 'Zehn']],
       ['Warum wanderten junge Iraner aus?', 'Wegen Wirtschaftsnot und Perspektivlosigkeit', ['Wegen Krieg mit Irak', 'Wegen Hunger', 'Wegen Erdbeben']],
       ['Wer regierte Iran 2002?', 'Chatami als Präsident, Chamenei als Führer', ['Ahmadinedschad', 'Rohani', 'Raisi']],
-      ['Wer ist der Oberste Führer seit 1989?', 'Ali Chamenei', ['Ruhollah Khomeini', 'Ebrahim Raisi', 'Hassan Rohani']],
+      ['Wer war von 1989 bis 2026 Oberster Führer Irans?', 'Ali Chamenei', ['Ruhollah Khomeini', 'Ebrahim Raisi', 'Hassan Rohani']],
       ['Wann verhandelte Rohani?', 'Ab 2013', ['Ab 1997', 'Ab 2005', 'Ab 2021']],
     ],
   },

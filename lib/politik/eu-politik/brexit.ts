@@ -40,7 +40,7 @@ export const BREXIT: Subtopic = {
       ['Wo finden nach dem Austrittsabkommen Kontrollen statt?', 'In der Irischen See zwischen Großbritannien und Nordirland', ['An der Grenze zu Irland', 'Am Ärmelkanal', 'Gar nicht'], 'Eine umstrittene Lösung.'],
       ['Bis wann galt nach dem Austritt eine Übergangsphase?', 'Bis Ende 2020', ['Bis Ende 2019', 'Bis Ende 2025', 'Bis heute'], 'In letzter Minute kam ein Handelsabkommen.'],
       ['Was entschärfte 2023 den Streit um Nordirland?', 'Das „Windsor-Rahmenabkommen“', ['Das Karfreitagsabkommen', 'Ein neues Referendum', 'Der Wiedereintritt'], 'Weniger Kontrollen im Warenverkehr.'],
-      ['Was strebt die Regierung von Keir Starmer an?', 'Engere Beziehungen zur EU, aber keinen Wiedereintritt', ['Einen sofortigen Wiedereintritt', 'Den Abbruch aller Beziehungen', 'Den Beitritt zum Euro'], 'Seit 2024 im Amt.'],
+      ['Was strebt die britische Labour-Regierung seit 2024 gegenüber der EU an?', 'Engere Beziehungen zur EU, aber keinen Wiedereintritt', ['Einen sofortigen Wiedereintritt', 'Den Abbruch aller Beziehungen', 'Den Beitritt zum Euro'], 'Erst unter Keir Starmer, seit Juli 2026 unter Andy Burnham.'],
     ],
     schwer: [
       ['Wie viel Prozent stimmten 2016 für den Verbleib?', '48,1 Prozent', ['51,9 Prozent', '40 Prozent', '60 Prozent'], 'Ein knappes Nein zur EU.'],

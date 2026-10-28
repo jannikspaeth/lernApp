@@ -34,7 +34,7 @@ export const E2: Epoch = {
       title: 'Atomstreit und Protestbewegungen',
       date: 'seit 1989',
       text: [
-        'Seit Khomeinis Tod regiert Chamenei als Oberster Führer. Der Streit um das Atomprogramm, Sanktionen, regionale Konflikte und immer neue Protestwellen bestimmen das Land.',
+        'Nach Khomeinis Tod regierte Ali Chamenei 37 Jahre als Oberster Führer, bis er im Februar 2026 im Krieg mit den USA und Israel getötet wurde; ihm folgte sein Sohn Modschtaba. Der Streit um das Atomprogramm, Sanktionen, regionale Konflikte und immer neue Protestwellen bestimmen das Land.',
       ],
       subtopics: [ATOM, PROTESTE],
     },

@@ -15,6 +15,8 @@ import { EU_POLITIK } from './eu-politik';
 import { IN_ORGANISATIONEN } from './in-organisationen';
 import { IN_KONFLIKTE } from './in-konflikte';
 import { IN_GLOBAL } from './in-global';
+import { SY_DEMOKRATIEN } from './sy-demokratien';
+import { SY_AUTOKRATIEN } from './sy-autokratien';
 
 // Politik: areas (epochs: Grundlagen, Deutschland, Bundesrepublik, Europa, Internationales, Systeme, Gesellschaft)
 // → topics (events) → chapters (subtopics), reusing the history types. Progress is stored like the countries' under
@@ -54,6 +56,12 @@ const RAW: CountryHistory = {
       period: 'Organisationen, Konflikte und globale Herausforderungen',
       events: [IN_ORGANISATIONEN, IN_KONFLIKTE, IN_GLOBAL],
     },
+    {
+      id: 'systeme',
+      name: 'Politische Systeme der Welt',
+      period: 'Demokratien und Autokratien im Vergleich',
+      events: [SY_DEMOKRATIEN, SY_AUTOKRATIEN],
+    },
   ],
 };
 
@@ -78,6 +86,7 @@ const COVERS: Record<string, string> = {
   bundesrepublik: 'brandt', 'br-anfaenge': 'adenauer', 'br-wandel': 'kohl-mitterrand', 'br-ddr': 'mauerfall', 'br-gegenwart': 'merkel',
   europa: 'eu-flaggen', 'eu-geschichte': 'schuman', 'eu-institutionen': 'berlaymont', 'eu-politik': 'schengen-denkmal',
   international: 'uno-hauptquartier', 'in-organisationen': 'sicherheitsrat', 'in-konflikte': 'reagan-brandenburger-tor', 'in-global': 'containerschiff',
+  systeme: 'us-kapitol', 'sy-demokratien': 'westminster', 'sy-autokratien': 'kreml',
 };
 
 export const POLITIK: CountryHistory = {

@@ -714,5 +714,113 @@
     "licence": "CC BY-SA 4.0",
     "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
     "page": "https://commons.wikimedia.org/wiki/File:Brussels_NATO_Headquarters.jpg"
+  },
+  "us-kapitol": {
+    "file": "United States Capitol - west front.jpg",
+    "author": "Architect of the Capitol",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:United_States_Capitol_-_west_front.jpg"
+  },
+  "weisses-haus": {
+    "file": "North Façade White House.JPG",
+    "author": "Nishkid64",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:North_Fa%C3%A7ade_White_House.JPG"
+  },
+  "electoral-college-karte": {
+    "file": "ElectoralCollege2028.svg",
+    "author": "Kingofthedead",
+    "licence": "CC0",
+    "licenceUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:ElectoralCollege2028.svg"
+  },
+  "westminster": {
+    "file": "Palace of Westminster, London - Feb 2007.jpg",
+    "author": "Diliff",
+    "licence": "CC BY-SA 2.5",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+    "page": "https://commons.wikimedia.org/wiki/File:Palace_of_Westminster,_London_-_Feb_2007.jpg"
+  },
+  "downing-street": {
+    "file": "10 Downing Street door (19067683852).jpg",
+    "author": "bradhoc from USA",
+    "licence": "CC BY 2.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:10_Downing_Street_door_(19067683852).jpg"
+  },
+  "elysee-palast": {
+    "file": "Palais de l'Élysée 2019.jpg",
+    "author": "Leynadmar",
+    "licence": "CC BY-SA 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Palais_de_l%27%C3%89lys%C3%A9e_2019.jpg"
+  },
+  "de-gaulle": {
+    "file": "De Gaulle-OWI (3x4 cropped).jpg",
+    "author": "Office of War Information, Overseas Picture Division. [1] The image prefix (LC-USW3) at the Library of Congress image page matches that of pictures from the OWI collection (see prefix list here.",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:De_Gaulle-OWI_(3x4_cropped).jpg"
+  },
+  "landsgemeinde": {
+    "file": "Landsgemeinde Glarus, 2009.jpg",
+    "author": "Marc Schlumpf, www.icarus-design.ch",
+    "licence": "CC BY-SA 3.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Landsgemeinde_Glarus,_2009.jpg"
+  },
+  "bundeshaus-bern": {
+    "file": "Bundeshaus in Bern 2022.jpg",
+    "author": "August Geyler",
+    "licence": "CC BY-SA 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Bundeshaus_in_Bern_2022.jpg"
+  },
+  "tiananmen-platz": {
+    "file": "Lascar The Tian'anmen (4498194542).jpg",
+    "author": "Jorge Láscar from Australia",
+    "licence": "CC BY 2.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Lascar_The_Tian%27anmen_(4498194542).jpg"
+  },
+  "xi-jinping": {
+    "file": "Xi Jinping (2023-04-06).jpg",
+    "author": "Photographer: Dati Bendo",
+    "licence": "CC BY 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Xi_Jinping_(2023-04-06).jpg"
+  },
+  "kreml": {
+    "file": "Moscow. Moskva river. Kremlin P5162723 2600.jpg",
+    "author": "Alexxx1979",
+    "licence": "CC BY-SA 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Moscow._Moskva_river._Kremlin_P5162723_2600.jpg"
+  },
+  "putin": {
+    "file": "Vladimir Putin official portrait (cropped).jpg",
+    "author": "Presidential Press and Information Office",
+    "licence": "CC BY 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Vladimir_Putin_official_portrait_(cropped).jpg"
+  },
+  "chomeini": {
+    "file": "Ruhollah Khomeini portrait 2.jpg",
+    "author": "Unknown authorUnknown author",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Ruhollah_Khomeini_portrait_2.jpg"
+  },
+  "pjoengjang-kim-statuen": {
+    "file": "2016-10-15 Mansudae Grand Monument.jpg",
+    "author": "Jan Bockaert",
+    "licence": "CC BY-SA 2.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:2016-10-15_Mansudae_Grand_Monument.jpg"
+  },
+  "indisches-parlament": {
+    "file": "Sansad Bhavan, Delhi, BNK.jpg",
+    "author": "Nikhilb239",
+    "licence": "CC BY-SA 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Sansad_Bhavan,_Delhi,_BNK.jpg"
   }
 }
