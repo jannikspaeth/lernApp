@@ -5,6 +5,10 @@ import { DE_GRUNDGESETZ } from './de-grundgesetz';
 import { DE_ORGANE } from './de-organe';
 import { DE_WAHLEN } from './de-wahlen';
 import { DE_RECHT } from './de-recht';
+import { BR_ANFAENGE } from './br-anfaenge';
+import { BR_WANDEL } from './br-wandel';
+import { BR_DDR } from './br-ddr';
+import { BR_GEGENWART } from './br-gegenwart';
 
 // Politik: areas (epochs: Grundlagen, Deutschland, Bundesrepublik, Europa, Internationales, Systeme, Gesellschaft)
 // → topics (events) → chapters (subtopics), reusing the history types. Progress is stored like the countries' under
@@ -25,6 +29,12 @@ const RAW: CountryHistory = {
       name: 'Das politische System Deutschlands',
       period: 'Grundgesetz, Verfassungsorgane, Wahlen und Recht',
       events: [DE_GRUNDGESETZ, DE_ORGANE, DE_WAHLEN, DE_RECHT],
+    },
+    {
+      id: 'bundesrepublik',
+      name: 'Politische Geschichte der Bundesrepublik',
+      period: 'Von der Besatzung bis heute',
+      events: [BR_ANFAENGE, BR_WANDEL, BR_DDR, BR_GEGENWART],
     },
   ],
 };
@@ -47,6 +57,7 @@ export function findKapitel(epocheId: string, subId: string): { land: Epoch; eve
 const COVERS: Record<string, string> = {
   grundlagen: 'perikles', 'gr-begriffe': 'montesquieu', 'gr-ideen': 'hambacher-fest',
   deutschland: 'reichstag', 'de-grundgesetz': 'grundgesetz-glaswand', 'de-organe': 'reichstag-kuppel', 'de-wahlen': 'wahlurne', 'de-recht': 'bundesgerichtshof',
+  bundesrepublik: 'brandt', 'br-anfaenge': 'adenauer', 'br-wandel': 'kohl-mitterrand', 'br-ddr': 'mauerfall', 'br-gegenwart': 'merkel',
 };
 
 export const POLITIK: CountryHistory = {

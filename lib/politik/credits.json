@@ -300,5 +300,142 @@
     "licence": "CC BY-SA 3.0 de",
     "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
     "page": "https://commons.wikimedia.org/wiki/File:%C3%9Cberholte_Wahlplakate_zur_Bundestagswahl_1972_an_einer_Hauswand_(Kiel_54.711).jpg"
+  },
+  "potsdamer-konferenz": {
+    "file": "Attlee, Truman and Stalin at Potsdam.jpg",
+    "author": "Unknown official photographer",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Attlee,_Truman_and_Stalin_at_Potsdam.jpg"
+  },
+  "rosinenbomber": {
+    "file": "C-54 landing at Tempelhof 1948.jpg",
+    "author": "USAF",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:C-54_landing_at_Tempelhof_1948.jpg"
+  },
+  "erhard": {
+    "file": "Einde_bezoek_bondskanselier_dr_Ludwig_Erhard_en_gaf_persconferentie_in_het_Haag,_Bestanddeelnr_916-1325_(cropped).jpg",
+    "author": "Eric Koch for Anefo / Anefo",
+    "licence": "CC0",
+    "licenceUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:Einde_bezoek_bondskanselier_dr_Ludwig_Erhard_en_gaf_persconferentie_in_het_Haag,_Bestanddeelnr_916-1325_(cropped).jpg"
+  },
+  "dutschke": {
+    "file": "Rudi-2.jpg",
+    "author": "photo taken by photo machine, source is my private collection. I am the wife of Rudi Dutschke who is no longer alive. This one was never published.. Original uploader was Dodo von den Bergen at de.wikipedia",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Rudi-2.jpg"
+  },
+  "brandt": {
+    "file": "Bundesarchiv_B_145_Bild-F057884-0009,_Willy_Brandt.jpg",
+    "author": "Engelbert Reineke",
+    "licence": "CC BY-SA 3.0 de",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_B_145_Bild-F057884-0009,_Willy_Brandt.jpg"
+  },
+  "brandt-stoph-erfurt": {
+    "file": "Bundesarchiv B 145 Bild-F031400-0014, Erfurt, Treffen Willy Brandt mit Willi Stoph.jpg",
+    "author": "Ludwig Wegmann",
+    "licence": "CC BY-SA 3.0 de",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_B_145_Bild-F031400-0014,_Erfurt,_Treffen_Willy_Brandt_mit_Willi_Stoph.jpg"
+  },
+  "schmidt": {
+    "file": "Bundeskanzler_Helmut_Schmidt.jpg",
+    "author": "Hans Schafgans",
+    "licence": "CC BY-SA 2.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Bundeskanzler_Helmut_Schmidt.jpg"
+  },
+  "kohl": {
+    "file": "Helmut_Kohl_(1996).jpg",
+    "author": "Christian Lambiotte",
+    "licence": "CC BY 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Helmut_Kohl_(1996).jpg"
+  },
+  "kohl-mitterrand": {
+    "file": "KAS-Kohl, Helmut-Bild-14083-2.jpg",
+    "author": "CDU",
+    "licence": "CC BY-SA 3.0 de",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:KAS-Kohl,_Helmut-Bild-14083-2.jpg"
+  },
+  "ulbricht": {
+    "file": "Bundesarchiv_Bild_183-08618-0005,_Berlin,_2._Volkskammersitzung,_Bildung_DDR-Regierung.jpg",
+    "author": "Horst Sturm",
+    "licence": "CC BY-SA 3.0 de",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_183-08618-0005,_Berlin,_2._Volkskammersitzung,_Bildung_DDR-Regierung.jpg"
+  },
+  "honecker": {
+    "file": "Bundesarchiv_Bild_183-R1220-401,_Erich_Honecker.jpg",
+    "author": "Unknown authorUnknown author",
+    "licence": "CC BY-SA 3.0 de",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_183-R1220-401,_Erich_Honecker.jpg"
+  },
+  "mauerbau": {
+    "file": "Bundesarchiv Bild 183-88832-0004, Berlin, Mauerbau, Friedrichstraße.jpg",
+    "author": "Stöhr",
+    "licence": "CC BY-SA 3.0 de",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_183-88832-0004,_Berlin,_Mauerbau,_Friedrichstra%C3%9Fe.jpg"
+  },
+  "stasi-zentrale": {
+    "file": "Ehemalige-Stasi-Zentrale-Frankfurter-Allee-Ruschestr-Berlin-Lichtenberg.jpg",
+    "author": "Gunnar Klack",
+    "licence": "CC BY-SA 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Ehemalige-Stasi-Zentrale-Frankfurter-Allee-Ruschestr-Berlin-Lichtenberg.jpg"
+  },
+  "mielke": {
+    "file": "Bundesarchiv_Bild_183-R0522-177,_Erich_Mielke.jpg",
+    "author": "UnknownUnknown",
+    "licence": "CC BY-SA 3.0 de",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_183-R0522-177,_Erich_Mielke.jpg"
+  },
+  "montagsdemo": {
+    "file": "Bundesarchiv Bild 183-1989-1023-022, Leipzig, Montagsdemonstration.jpg",
+    "author": "Friedrich Gahlbeck",
+    "licence": "CC BY-SA 3.0 de",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_183-1989-1023-022,_Leipzig,_Montagsdemonstration.jpg"
+  },
+  "mauerfall": {
+    "file": "BerlinWall-BrandenburgGate.jpg",
+    "author": "Sue Ream, photographer (San Francisco, California)",
+    "licence": "CC BY 3.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:BerlinWall-BrandenburgGate.jpg"
+  },
+  "schroeder": {
+    "file": "2023-10-31_Einweihung_Reformationsfenster_(Fliegenfenster),_Kirchenfenster_von_Markus_Lüpertz_in_der_Marktkirche_von_Hannover_(100)_174_(cropped).jpg",
+    "author": "Bernd Schwabe in Hannover",
+    "licence": "CC BY-SA 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:2023-10-31_Einweihung_Reformationsfenster_(Fliegenfenster),_Kirchenfenster_von_Markus_L%C3%BCpertz_in_der_Marktkirche_von_Hannover_(100)_174_(cropped).jpg"
+  },
+  "merkel": {
+    "file": "Angela_Merkel_2023.jpg",
+    "author": "Raimond Spekking",
+    "licence": "CC BY-SA 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Angela_Merkel_2023.jpg"
+  },
+  "scholz": {
+    "file": "2025-01-23_Politik,_SPD-Kanzlerkandidat_Olaf_Scholz_im_Gespräch_in_Erfurt_STP_6070_(3x4_cropped).jpg",
+    "author": "Steffen Prößdorf",
+    "licence": "CC BY-SA 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:2025-01-23_Politik,_SPD-Kanzlerkandidat_Olaf_Scholz_im_Gespr%C3%A4ch_in_Erfurt_STP_6070_(3x4_cropped).jpg"
+  },
+  "adenauer-de-gaulle": {
+    "file": "Bundesarchiv B 145 Bild-F015892-0010, Bonn, Konrad Adenauer und Charles de Gaulle.jpg",
+    "author": "Ludwig Wegmann",
+    "licence": "CC BY-SA 3.0 de",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_B_145_Bild-F015892-0010,_Bonn,_Konrad_Adenauer_und_Charles_de_Gaulle.jpg"
   }
 }

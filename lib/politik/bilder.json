@@ -298,5 +298,134 @@
     "artist": "",
     "year": "2006",
     "file": "Vereidigung-msm-2006.jpg"
+  },
+  "potsdamer-konferenz": {
+    "wiki": "Potsdamer Konferenz",
+    "title": "Attlee, Truman und Stalin auf der Potsdamer Konferenz",
+    "artist": "",
+    "year": "1945",
+    "file": "Attlee, Truman and Stalin at Potsdam.jpg"
+  },
+  "rosinenbomber": {
+    "wiki": "Berliner Luftbrücke",
+    "title": "Ein Rosinenbomber landet in Tempelhof",
+    "artist": "",
+    "year": "1948",
+    "file": "C-54 landing at Tempelhof 1948.jpg"
+  },
+  "adenauer-de-gaulle": {
+    "wiki": "Élysée-Vertrag",
+    "title": "Konrad Adenauer und Charles de Gaulle in Bonn",
+    "artist": "",
+    "year": "1963",
+    "file": "Bundesarchiv B 145 Bild-F015892-0010, Bonn, Konrad Adenauer und Charles de Gaulle.jpg"
+  },
+  "erhard": {
+    "wiki": "Ludwig Erhard",
+    "title": "Ludwig Erhard",
+    "artist": "",
+    "year": ""
+  },
+  "dutschke": {
+    "wiki": "Rudi Dutschke",
+    "title": "Rudi Dutschke",
+    "artist": "",
+    "year": ""
+  },
+  "brandt": {
+    "wiki": "Willy Brandt",
+    "title": "Willy Brandt",
+    "artist": "",
+    "year": ""
+  },
+  "brandt-stoph-erfurt": {
+    "wiki": "Erfurter Gipfeltreffen 1970",
+    "title": "Willy Brandt und Willi Stoph in Erfurt",
+    "artist": "",
+    "year": "1970",
+    "file": "Bundesarchiv B 145 Bild-F031400-0014, Erfurt, Treffen Willy Brandt mit Willi Stoph.jpg"
+  },
+  "schmidt": {
+    "wiki": "Helmut Schmidt",
+    "title": "Helmut Schmidt",
+    "artist": "",
+    "year": ""
+  },
+  "kohl": {
+    "wiki": "Helmut Kohl",
+    "title": "Helmut Kohl",
+    "artist": "",
+    "year": ""
+  },
+  "kohl-mitterrand": {
+    "wiki": "Helmut Kohl",
+    "title": "CDU-Plakat zur Europawahl 1984 mit Kohl und Mitterrand in Verdun",
+    "artist": "",
+    "year": "1984",
+    "file": "KAS-Kohl, Helmut-Bild-14083-2.jpg"
+  },
+  "ulbricht": {
+    "wiki": "Walter Ulbricht",
+    "title": "Walter Ulbricht",
+    "artist": "",
+    "year": ""
+  },
+  "honecker": {
+    "wiki": "Erich Honecker",
+    "title": "Erich Honecker",
+    "artist": "",
+    "year": ""
+  },
+  "mauerbau": {
+    "wiki": "Bau der Berliner Mauer",
+    "title": "Mauerbau in der Friedrichstraße",
+    "artist": "",
+    "year": "1961",
+    "file": "Bundesarchiv Bild 183-88832-0004, Berlin, Mauerbau, Friedrichstraße.jpg"
+  },
+  "stasi-zentrale": {
+    "wiki": "Stasi-Zentrale",
+    "title": "Ehemalige Stasi-Zentrale in Berlin-Lichtenberg",
+    "artist": "",
+    "year": "",
+    "file": "Ehemalige-Stasi-Zentrale-Frankfurter-Allee-Ruschestr-Berlin-Lichtenberg.jpg"
+  },
+  "mielke": {
+    "wiki": "Erich Mielke",
+    "title": "Erich Mielke",
+    "artist": "",
+    "year": ""
+  },
+  "montagsdemo": {
+    "wiki": "Montagsdemonstrationen in der DDR",
+    "title": "Montagsdemonstration in Leipzig",
+    "artist": "",
+    "year": "1989",
+    "file": "Bundesarchiv Bild 183-1989-1023-022, Leipzig, Montagsdemonstration.jpg"
+  },
+  "mauerfall": {
+    "wiki": "Berliner Mauer",
+    "title": "Auf der Mauer am Brandenburger Tor im November 1989",
+    "artist": "",
+    "year": "1989",
+    "file": "BerlinWall-BrandenburgGate.jpg"
+  },
+  "schroeder": {
+    "wiki": "Gerhard Schröder",
+    "title": "Gerhard Schröder",
+    "artist": "",
+    "year": ""
+  },
+  "merkel": {
+    "wiki": "Angela Merkel",
+    "title": "Angela Merkel",
+    "artist": "",
+    "year": ""
+  },
+  "scholz": {
+    "wiki": "Olaf Scholz",
+    "title": "Olaf Scholz",
+    "artist": "",
+    "year": ""
   }
 }
