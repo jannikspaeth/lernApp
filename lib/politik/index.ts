@@ -1,6 +1,10 @@
 import type { CountryHistory, Epoch, HistEvent, Subtopic } from '../laender/types';
 import { GR_BEGRIFFE } from './gr-begriffe';
 import { GR_IDEEN } from './gr-ideen';
+import { DE_GRUNDGESETZ } from './de-grundgesetz';
+import { DE_ORGANE } from './de-organe';
+import { DE_WAHLEN } from './de-wahlen';
+import { DE_RECHT } from './de-recht';
 
 // Politik: areas (epochs: Grundlagen, Deutschland, Bundesrepublik, Europa, Internationales, Systeme, Gesellschaft)
 // → topics (events) → chapters (subtopics), reusing the history types. Progress is stored like the countries' under
@@ -15,6 +19,12 @@ const RAW: CountryHistory = {
       name: 'Grundlagen der Politik',
       period: 'Staat, Demokratie und politische Ideen',
       events: [GR_BEGRIFFE, GR_IDEEN],
+    },
+    {
+      id: 'deutschland',
+      name: 'Das politische System Deutschlands',
+      period: 'Grundgesetz, Verfassungsorgane, Wahlen und Recht',
+      events: [DE_GRUNDGESETZ, DE_ORGANE, DE_WAHLEN, DE_RECHT],
     },
   ],
 };
@@ -36,6 +46,7 @@ export function findKapitel(epocheId: string, subId: string): { land: Epoch; eve
 // A picture per area and per topic for the tiles.
 const COVERS: Record<string, string> = {
   grundlagen: 'perikles', 'gr-begriffe': 'montesquieu', 'gr-ideen': 'hambacher-fest',
+  deutschland: 'reichstag', 'de-grundgesetz': 'grundgesetz-glaswand', 'de-organe': 'reichstag-kuppel', 'de-wahlen': 'wahlurne', 'de-recht': 'bundesgerichtshof',
 };
 
 export const POLITIK: CountryHistory = {
