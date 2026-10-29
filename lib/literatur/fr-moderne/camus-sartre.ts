@@ -43,7 +43,7 @@ export const CAMUS_SARTRE: Subtopic = {
     ],
     schwer: [
       ['Was ist das Absurde bei Camus?', 'Der Mensch sucht Sinn, die Welt gibt keinen', ['Das Leben ist komisch', 'Alles ist sinnvoll', 'Der Mensch ist böse'], null],
-      ['Wogegen kämpft der Arzt in „Die Pest“?', 'Gegen die Seuche, ohne auf Rettung zu hoffen', ['Gegen die Behörden', 'Gegen die Kirche', 'Gegen die Armee'], null],
+      ['Wogegen kämpft der Arzt Rieux in Camus’ „Die Pest“?', 'Gegen die Seuche, ohne auf Rettung zu hoffen', ['Gegen die Behörden', 'Gegen die Kirche', 'Gegen die Armee'], null],
       ['Was folgt aus Sartres Freiheitsbegriff?', 'Der Mensch kann sich auf nichts herausreden', ['Alles ist erlaubt', 'Der Mensch ist unschuldig', 'Die Gesellschaft ist schuld'], 'Er ist „zur Freiheit verurteilt“.'],
       ['Worüber zerstritten sich Camus und Sartre 1952?', 'Über die Rechtfertigung revolutionärer Gewalt', ['Über Geld', 'Über eine Frau', 'Über den Nobelpreis'], 'Camus lehnte sie ab.'],
       ['Warum lehnte Sartre 1964 den Nobelpreis ab?', 'Ein Schriftsteller dürfe sich nicht zur Institution machen lassen', ['Er hielt ihn für zu klein', 'Er war krank', 'Er war im Ausland'], null],

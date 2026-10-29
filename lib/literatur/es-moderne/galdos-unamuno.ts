@@ -23,8 +23,8 @@ export const GALDOS_UNAMUNO: Subtopic = {
       ['Wo war Unamuno Rektor?', 'In Salamanca', ['In Madrid', 'In Bologna', 'In Paris'], null],
       ['Welches Fach lehrte Unamuno?', 'Griechisch', ['Mathematik', 'Medizin', 'Physik'], null],
       ['Wie heißt Unamunos Roman über Augusto Pérez?', 'Nebel', ['Der Schatten', 'Der Dunst', 'Das Meer'], null],
-      ['Was beschließt Augusto Pérez?', 'Sich das Leben zu nehmen', ['Auszuwandern', 'Zu heiraten', 'Ein Buch zu schreiben'], null],
-      ['Wen besucht Augusto vorher?', 'Den Autor Unamuno', ['Einen Priester', 'Seine Mutter', 'Den König'], null],
+      ['Was beschließt Augusto Pérez in Unamunos „Nebel“?', 'Sich das Leben zu nehmen', ['Auszuwandern', 'Zu heiraten', 'Ein Buch zu schreiben'], null],
+      ['Wen besucht Augusto Pérez in „Nebel“ vorher?', 'Den Autor Unamuno', ['Einen Priester', 'Seine Mutter', 'Den König'], null],
       ['Wann starb Unamuno?', '1936', ['1920', '1898', '1975'], null],
     ],
     mittel: [
@@ -38,7 +38,7 @@ export const GALDOS_UNAMUNO: Subtopic = {
       ['Wann erschien „Nebel“?', '1914', ['1884', '1936', '1950'], null],
       ['Wie nannte Unamuno seine Romane?', 'Nivolas', ['Novelas ejemplares', 'Episodios', 'Rimas'], 'Nach „niebla“, Nebel.'],
       ['Worum geht es in „Abel Sánchez“?', 'Um Neid und Hass zwischen zwei Freunden', ['Um eine Reise', 'Um einen Prozess', 'Um den Bürgerkrieg'], null],
-      ['Was entgegnete Augusto dem Autor?', 'Dann sei auch Unamuno nur ein Traum Gottes', ['Er werde klagen', 'Er werde ihn töten', 'Er bat um Vergebung'], null],
+      ['Was entgegnet Augusto Pérez in „Nebel“ dem Autor?', 'Dann sei auch Unamuno nur ein Traum Gottes', ['Er werde klagen', 'Er werde ihn töten', 'Er bat um Vergebung'], null],
       ['Wann hielt Unamuno seine berühmte Rede in Salamanca?', 'Im Oktober 1936', ['Im Mai 1898', 'Im Juni 1914', 'Im Winter 1975'], null],
     ],
     schwer: [
@@ -48,10 +48,10 @@ export const GALDOS_UNAMUNO: Subtopic = {
       ['Was ist Unamunos Suche?', 'Glaube im Zweifel, nicht in Sicherheit', ['Sicherheit durch Wissenschaft', 'Macht durch Politik', 'Ruhm durch Kunst'], null],
       ['Mit wem geriet Unamuno in Konflikt?', 'Mit den Diktaturen Primo de Riveras und Francos', ['Mit der Kirche allein', 'Mit der Universität', 'Mit Galdós'], null],
       ['Warum sagt Unamuno Augusto, er habe kein Recht zum Selbstmord?', 'Weil er nur eine Romanfigur sei', ['Weil es verboten sei', 'Weil es Sünde sei', 'Weil Hunger drohe'], null],
-      ['Was rief der General in Salamanca?', '„Es lebe der Tod!“', ['„Es lebe Spanien!“', '„Nieder mit Franco!“', '„Es lebe der König!“'], null],
+      ['Was rief der General 1936 bei Unamunos Rede in Salamanca?', '„Es lebe der Tod!“', ['„Es lebe Spanien!“', '„Nieder mit Franco!“', '„Es lebe der König!“'], null],
       ['Was antwortete Unamuno sinngemäß?', 'Man werde siegen, aber nicht überzeugen', ['Man solle schweigen', 'Man müsse fliehen', 'Er werde sich fügen'], null],
-      ['Was geschah mit Unamuno danach?', 'Absetzung, Hausarrest und Tod nach Wochen', ['Beförderung', 'Exil in Frankreich', 'Freilassung am Hof'], null],
-      ['Welche Haltung teilen beide Autoren?', 'Sie fragen nach Spaniens Zustand', ['Sie lobten die Kolonien', 'Sie schrieben nur Gedichte', 'Sie lebten im Ausland'], null],
+      ['Was geschah mit Unamuno nach seiner Rede 1936?', 'Absetzung, Hausarrest und Tod nach Wochen', ['Beförderung', 'Exil in Frankreich', 'Freilassung am Hof'], null],
+      ['Welche Frage teilen Galdós und Unamuno?', 'Die Frage nach Spaniens Zustand', ['Die Frage nach den Kolonien', 'Die Frage nach der Reimkunst', 'Die Frage nach dem Leben im Ausland'], null],
     ],
   },
 };

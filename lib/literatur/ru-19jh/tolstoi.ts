@@ -15,7 +15,7 @@ export const TOLSTOI: Subtopic = {
   quiz: {
     leicht: [
       ['Wer schrieb „Krieg und Frieden“?', 'Lew Tolstoi', ['Fjodor Dostojewski', 'Iwan Turgenjew', 'Anton Tschechow'], null, 'tolstoi'],
-      ['Welcher Krieg steht im Mittelpunkt?', 'Napoleons Feldzug gegen Russland', ['Der Krimkrieg', 'Der Erste Weltkrieg', 'Der Russisch-Japanische Krieg'], null],
+      ['Welcher Krieg steht im Mittelpunkt von „Krieg und Frieden“?', 'Napoleons Feldzug gegen Russland', ['Der Krimkrieg', 'Der Erste Weltkrieg', 'Der Russisch-Japanische Krieg'], null],
       ['Wie heißt Tolstois Roman über eine unglückliche Ehe?', 'Anna Karenina', ['Auferstehung', 'Die Kreutzersonate', 'Krieg und Frieden'], null],
       ['In wen verliebt sich Anna Karenina?', 'In den Offizier Wronski', ['In Lewin', 'In Pierre', 'In Fürst Andrei'], null],
       ['Wie endet Anna Karenina?', 'Sie wirft sich vor einen Zug', ['Sie kehrt zurück', 'Sie wandert aus', 'Sie stirbt an Fieber'], null],
@@ -32,9 +32,9 @@ export const TOLSTOI: Subtopic = {
       ['Aus welcher Familie stammte Tolstoi?', 'Aus einer Grafenfamilie', ['Aus einer Kaufmannsfamilie', 'Aus einer Priesterfamilie', 'Aus einer Bauernfamilie'], null],
       ['Womit wurde Tolstoi zuerst bekannt?', 'Mit Schilderungen der Belagerung von Sewastopol', ['Mit Gedichten', 'Mit einem Drama', 'Mit einem Reisebericht'], null],
       ['Wann erschien „Krieg und Frieden“?', '1869', ['1849', '1877', '1889'], null],
-      ['Wie viele Figuren kommen darin vor?', 'Über 500', ['Rund 50', 'Rund 5.000', 'Genau 100'], null],
+      ['Wie viele Figuren kommen in „Krieg und Frieden“ vor?', 'Über 500', ['Rund 50', 'Rund 5.000', 'Genau 100'], null],
       ['Welchen Zeitraum umfasst „Krieg und Frieden“?', '1805 bis 1820', ['1789 bis 1799', '1830 bis 1848', '1853 bis 1856'], null],
-      ['Was stellt Tolstoi darin infrage?', 'Dass große Männer die Geschichte lenken', ['Die Existenz Napoleons', 'Die Religion', 'Die Monarchie allein'], null],
+      ['Was stellt Tolstoi in „Krieg und Frieden“ infrage?', 'Dass große Männer die Geschichte lenken', ['Die Existenz Napoleons', 'Die Religion', 'Die Monarchie allein'], null],
       ['Wie beginnt „Anna Karenina“?', 'Alle glücklichen Familien gleichen einander', ['Es war einmal', 'Der Mensch ist frei geboren', 'Nennt mich Ismael'], null],
       ['Wann erschien „Anna Karenina“?', '1877', ['1857', '1887', '1869'], null],
       ['Welche Figur in „Anna Karenina“ trägt Züge Tolstois?', 'Lewin', ['Wronski', 'Karenin', 'Oblonski'], null],
@@ -43,7 +43,7 @@ export const TOLSTOI: Subtopic = {
     ],
     schwer: [
       ['Welche Doppelmoral zeigt „Anna Karenina“?', 'Der Ehebruch des Mannes wird hingenommen, der der Frau nicht', ['Arme werden bestraft, Reiche nicht', 'Bauern dürfen nicht heiraten', 'Offiziere stehen über dem Gesetz'], null],
-      ['Wonach sucht Lewin?', 'Nach einem sinnvollen Leben auf dem Land', ['Nach Reichtum', 'Nach einer Karriere in Petersburg', 'Nach Rache'], null],
+      ['Wonach sucht Lewin in „Anna Karenina“?', 'Nach einem sinnvollen Leben auf dem Land', ['Nach Reichtum', 'Nach einer Karriere in Petersburg', 'Nach Rache'], null],
       ['Was folgte aus Tolstois Krise um 1880?', 'Er wurde radikaler Christ eigener Prägung', ['Er hörte auf zu schreiben', 'Er wurde Atheist', 'Er trat in ein Kloster ein'], null],
       ['Worauf verzichtete Tolstoi später?', 'Auf die Rechte an seinen Werken', ['Auf sein Gut sofort', 'Auf seine Familie', 'Auf das Schreiben'], 'Das entzweite seine Familie.'],
       ['Wie lebte Tolstoi im Alter?', 'Einfach und mit Feldarbeit', ['Wie ein Fürst', 'Im Ausland', 'Im Kloster'], null],

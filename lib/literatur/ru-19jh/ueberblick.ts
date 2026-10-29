@@ -15,7 +15,7 @@ export const UEBERBLICK: Subtopic = {
   quiz: {
     leicht: [
       ['Wer herrschte im 19. Jahrhundert in Russland?', 'Der Zar', ['Ein Parlament', 'Ein Präsident', 'Die Kirche'], null],
-      ['Bis wann gab es die Leibeigenschaft?', 'Bis 1861', ['Bis 1800', 'Bis 1917', 'Bis 1900'], null],
+      ['Bis wann gab es in Russland die Leibeigenschaft?', 'Bis 1861', ['Bis 1800', 'Bis 1917', 'Bis 1900'], null],
       ['Wer ist auf diesem Porträt zu sehen?', 'Alexander Puschkin', ['Nikolai Gogol', 'Iwan Turgenjew', 'Lew Tolstoi'], null, 'puschkin'],
       ['Was schuf Puschkin?', 'Die moderne russische Literatursprache', ['Das russische Alphabet', 'Die erste Zeitung', 'Die Akademie'], null],
       ['Wer ist auf diesem Porträt zu sehen?', 'Iwan Turgenjew', ['Fjodor Dostojewski', 'Lew Tolstoi', 'Anton Tschechow'], null, 'turgenjew'],
@@ -23,13 +23,13 @@ export const UEBERBLICK: Subtopic = {
       ['Welchen Begriff prägte Turgenjew mit der Figur Basarow?', 'Nihilist', ['Anarchist', 'Sozialist', 'Dekabrist'], null],
       ['Welche beiden Autoren gelten als die Riesen des Jahrhunderts?', 'Dostojewski und Tolstoi', ['Gogol und Turgenjew', 'Puschkin und Tschechow', 'Gorki und Gontscharow'], null],
       ['Welche Sprache sprach die Oberschicht oft besser als Russisch?', 'Französisch', ['Deutsch', 'Englisch', 'Latein'], null],
-      ['Was gab es in Russland für Bücher?', 'Eine strenge Zensur', ['Völlige Freiheit', 'Keine Verlage', 'Nur Kirchendruck'], null],
+      ['Was galt im Zarenreich für Bücher?', 'Eine strenge Zensur', ['Völlige Freiheit', 'Es gab keine Verlage', 'Nur die Kirche durfte drucken'], null],
       ['Wer erneuerte am Ende des Jahrhunderts Erzählung und Drama?', 'Anton Tschechow', ['Maxim Gorki', 'Iwan Gontscharow', 'Nikolai Leskow'], null],
       ['Wer schilderte das Leben der Armen und kam selbst aus einfachen Verhältnissen?', 'Maxim Gorki', ['Lew Tolstoi', 'Iwan Turgenjew', 'Anton Tschechow'], null],
     ],
     mittel: [
-      ['Warum wurde die Literatur zum Ort der großen Fragen?', 'Offene politische Debatte war unmöglich', ['Es gab keine Zeitungen', 'Die Kirche verlangte es', 'Der Zar förderte sie'], null],
-      ['Was konnte Leibeigenen geschehen?', 'Sie wurden mit dem Land verkauft', ['Sie durften wählen', 'Sie zahlten keine Steuern', 'Sie konnten frei umziehen'], null],
+      ['Warum wurde die Literatur im Zarenreich zum Ort der großen Fragen?', 'Offene politische Debatte war unmöglich', ['Es gab keine Zeitungen', 'Die Kirche verlangte es', 'Der Zar förderte sie'], null],
+      ['Was konnte Leibeigenen in Russland geschehen?', 'Sie wurden mit dem Land verkauft', ['Sie durften wählen', 'Sie zahlten keine Steuern', 'Sie konnten frei umziehen'], null],
       ['Wann erschien „Väter und Söhne“?', '1862', ['1842', '1882', '1902'], null],
       ['Was zeigt „Väter und Söhne“?', 'Den Bruch zwischen den Generationen', ['Einen Krieg', 'Eine Hungersnot', 'Eine Revolution'], null],
       ['Welches Werk Turgenjews zeigt das Leben der Leibeigenen?', 'Aufzeichnungen eines Jägers', ['Väter und Söhne', 'Rudin', 'Erste Liebe'], null],
@@ -39,7 +39,7 @@ export const UEBERBLICK: Subtopic = {
       ['Was passierte Dostojewski 1849?', 'Er wurde beinahe hingerichtet', ['Er erhielt einen Preis', 'Er floh ins Ausland', 'Er wurde Offizier'], null],
       ['Ab wann wurde russische Literatur in Europa viel gelesen?', 'Ab den 1880er-Jahren', ['Ab 1800', 'Ab 1920', 'Erst nach 1945'], 'Übersetzungen machten sie bekannt.'],
       ['Welche Fragen stellte die russische Literatur?', 'Wie soll man leben und was ist Schuld?', ['Wie wird man reich?', 'Wie reist man?', 'Wie regiert man?'], null],
-      ['Was geschah mit vielen Schriftstellern?', 'Sie wurden verbannt', ['Sie wurden geadelt', 'Sie wurden Minister', 'Sie blieben unbehelligt'], null],
+      ['Was geschah im Zarenreich mit vielen Schriftstellern?', 'Sie wurden verbannt', ['Sie wurden geadelt', 'Sie wurden Minister', 'Sie blieben unbehelligt'], null],
     ],
     schwer: [
       ['Welche Stellung hatten Schriftsteller in Russland?', 'Ein Gewicht, das sie anderswo nicht hatten', ['Sie galten als unwichtig', 'Sie waren Beamte', 'Sie lebten im Ausland'], 'Zugleich standen sie unter Beobachtung.'],
@@ -47,7 +47,7 @@ export const UEBERBLICK: Subtopic = {
       ['Welche Wirkung hatten die „Aufzeichnungen eines Jägers“?', 'Sie gelten als Beitrag zur Befreiung der Leibeigenen', ['Sie wurden verboten und vergessen', 'Sie waren ein Jagdhandbuch', 'Sie blieben unbekannt'], null],
       ['Was ist das Besondere an Tschechows Dramen?', 'Sie verzichten auf große Ereignisse', ['Sie haben viele Schlachten', 'Sie sind in Versen', 'Sie sind sehr kurz'], null],
       ['Warum sprach die Oberschicht Französisch?', 'Es galt als Sprache der Bildung', ['Russisch war verboten', 'Der Zar befahl es', 'Es gab kein Russisch in Büchern'], null],
-      ['Welche Rolle spielte die Zensur für die Form?', 'Autoren schrieben verschlüsselt und indirekt', ['Sie schrieben kürzer', 'Sie schrieben auf Französisch', 'Sie hörten auf'], null],
+      ['Welche Rolle spielte die Zensur im Zarenreich für die Form?', 'Autoren schrieben verschlüsselt und indirekt', ['Sie schrieben kürzer', 'Sie schrieben auf Französisch', 'Sie hörten auf'], null],
       ['Welche Wirkung hatte die russische Literatur im Westen?', 'Sie beeinflusste die westliche Literatur stark', ['Sie blieb unbeachtet', 'Sie wurde verboten', 'Sie galt als altmodisch'], null],
       ['Welcher Autor steht am Anfang des goldenen Zeitalters?', 'Puschkin', ['Tolstoi', 'Tschechow', 'Gorki'], null],
       ['Was zeigen Gogols Erzählungen oft?', 'Das Groteske im Alltag der kleinen Beamten', ['Heldentaten', 'Das Landleben des Adels', 'Die Kirche'], null],

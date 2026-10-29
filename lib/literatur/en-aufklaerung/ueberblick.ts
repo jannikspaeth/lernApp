@@ -24,7 +24,7 @@ export const UEBERBLICK: Subtopic = {
       ['Welcher Roman begründete den Schauerroman?', 'Das Schloss von Otranto', ['Robinson Crusoe', 'Pamela', 'Tristram Shandy'], 'Geschrieben 1764 von Horace Walpole.'],
       ['Welcher schottische Dichter schrieb „Auld Lang Syne“?', 'Robert Burns', ['William Blake', 'Walter Scott', 'James Macpherson'], null],
       ['Wann wird „Auld Lang Syne“ gesungen?', 'Zum Jahreswechsel', ['Zu Ostern', 'Zum Erntedank', 'Zum Geburtstag des Königs'], null],
-      ['Für wen schrieb man jetzt vor allem?', 'Für ein bürgerliches Publikum', ['Für den Hof', 'Für die Kirche', 'Für Gelehrte auf Latein'], null],
+      ['Für wen schrieben englische Autoren im 18. Jahrhundert vor allem?', 'Für ein bürgerliches Publikum', ['Für den Hof', 'Für die Kirche', 'Für Gelehrte auf Latein'], null],
       ['Welcher Dichter war auch Maler und Grafiker?', 'William Blake', ['Alexander Pope', 'Samuel Johnson', 'Robert Burns'], null],
     ],
     mittel: [
@@ -48,10 +48,10 @@ export const UEBERBLICK: Subtopic = {
       ['Was zeigt „Pamela“ über die Form des Briefromans?', 'Die Leser erleben alles aus der Sicht der Schreibenden', ['Der Erzähler weiß alles', 'Es gibt keine Figuren', 'Die Handlung steht still'], null],
       ['Wie wirkt „Tristram Shandy“ auf die moderne Literatur?', 'Er nimmt Erzählspiele des 20. Jahrhunderts vorweg', ['Er blieb ohne Wirkung', 'Er begründete den Realismus', 'Er wurde nur in Schottland gelesen'], null],
       ['Welche Stimmung sucht der Schauerroman?', 'Grusel durch Burgen, Geheimnisse und Nacht', ['Heiterkeit', 'Nüchternheit', 'Ländliche Idylle'], null],
-      ['Was kündigt sich am Ende des Jahrhunderts an?', 'Die Hinwendung zu Natur, Volkslied und Gefühl', ['Die Rückkehr zum Hof', 'Das Ende des Romans', 'Die Herrschaft des Dramas'], null],
+      ['Was kündigte sich in der englischen Literatur am Ende des 18. Jahrhunderts an?', 'Die Hinwendung zu Natur, Volkslied und Gefühl', ['Die Rückkehr zum Hof', 'Das Ende des Romans', 'Die Herrschaft des Dramas'], null],
       ['Welche Gattung erfand England im 18. Jahrhundert maßgeblich?', 'Den modernen Roman', ['Das Sonett', 'Die Oper', 'Die Ballade'], null],
       ['Was unterschied Fielding von Richardson?', 'Breite Komik statt moralischer Briefe', ['Verse statt Prosa', 'Antike statt Gegenwart', 'Drama statt Roman'], null],
-      ['Wie viele Kaffeehäuser gab es in London etwa?', 'Mehrere hundert', ['Ein Dutzend', 'Zwei', 'Mehrere tausend'], null],
+      ['Wie viele Kaffeehäuser gab es im London des 18. Jahrhunderts etwa?', 'Mehrere hundert', ['Ein Dutzend', 'Zwei', 'Mehrere tausend'], null],
     ],
   },
 };

@@ -25,7 +25,7 @@ export const MILTON: Subtopic = {
       ['Für wen arbeitete Milton als Sekretär?', 'Für Oliver Cromwell', ['Für Karl I.', 'Für Karl II.', 'Für Elisabeth I.'], null],
       ['Wie heißt Miltons Schrift für die Pressefreiheit?', 'Areopagitica', ['Paradise Regained', 'Samson Agonistes', 'Lycidas'], 'Sie erschien 1644.'],
       ['Welche Versform hat „Paradise Lost“?', 'Blankvers', ['Reimpaare', 'Sonettform', 'Freie Verse'], null],
-      ['Welche Figur wurde besonders berühmt?', 'Satan', ['Eva', 'Der Erzengel Michael', 'Adam'], null],
+      ['Welche Figur aus „Paradise Lost“ wurde besonders berühmt?', 'Satan', ['Eva', 'Der Erzengel Michael', 'Adam'], null],
     ],
     mittel: [
       ['Wann lebte John Donne?', '1572–1631', ['1608–1674', '1564–1616', '1600–1650'], null],
@@ -35,7 +35,7 @@ export const MILTON: Subtopic = {
       ['Welcher Roman trägt einen Titel nach Donne?', 'Wem die Stunde schlägt', ['Der alte Mann und das Meer', 'Fiesta', 'In einem anderen Land'], 'Von Ernest Hemingway.'],
       ['Wann wurde Karl I. hingerichtet?', '1649', ['1642', '1660', '1667'], null],
       ['Wann erschien „Paradise Lost“?', '1667', ['1644', '1649', '1674'], null],
-      ['Aus wie vielen Büchern besteht „Paradise Lost“?', 'Aus zwölf', ['Aus vier', 'Aus zwanzig', 'Aus hundert'], null],
+      ['Aus wie vielen Büchern besteht „Paradise Lost“ in der Fassung von 1674?', 'Aus zwölf', ['Aus vier', 'Aus zwanzig', 'Aus hundert'], null],
       ['Was wollte Milton mit dem Epos erreichen?', 'Die Wege Gottes vor den Menschen rechtfertigen', ['Den König preisen', 'Die Kirche angreifen', 'Die Antike nachahmen'], null],
       ['Was geschah mit Milton nach 1660?', 'Er verlor Amt und Vermögen', ['Er wurde geadelt', 'Er wurde Bischof', 'Er zog nach Italien'], null],
       ['Wie entstand „Paradise Lost“ praktisch?', 'Milton diktierte es als Blinder', ['Er schrieb es selbst nieder', 'Er sang es', 'Ein Schüler verfasste es'], null],

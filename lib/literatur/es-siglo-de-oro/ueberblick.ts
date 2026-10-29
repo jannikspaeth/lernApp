@@ -24,7 +24,7 @@ export const UEBERBLICK: Subtopic = {
       ['Wie nennt man das spanische Nationaltheater des Goldenen Zeitalters?', 'Comedia', ['Tragödie', 'Zarzuela', 'Commedia dell’arte'], null],
       ['Welches Stück stammt von Calderón?', 'Das Leben ist ein Traum', ['Don Quijote', 'Fuenteovejuna', 'Carmen'], null],
       ['Woher kam das viele Gold und Silber Spaniens?', 'Aus den Kolonien in Amerika', ['Aus Afrika', 'Aus Indien', 'Aus den Alpen'], null],
-      ['Wo spielte das Theater oft?', 'In offenen Innenhöfen', ['In Kirchen', 'In Schlössern', 'Auf Schiffen'], 'Diese Höfe hießen „Corrales“.'],
+      ['Wo spielte das spanische Theater im Siglo de Oro oft?', 'In offenen Innenhöfen', ['In Kirchen', 'In Schlössern', 'Auf Schiffen'], 'Diese Höfe hießen „Corrales“.'],
       ['Welche Form der Lyrik brachte Garcilaso de la Vega nach Spanien?', 'Das Sonett', ['Das Haiku', 'Die Ballade', 'Die Ode'], null],
     ],
     mittel: [
@@ -46,12 +46,12 @@ export const UEBERBLICK: Subtopic = {
       ['Wie war das Publikum im Corral zusammengesetzt?', 'Adel und Volk zusammen', ['Nur Adel', 'Nur Geistliche', 'Nur Gelehrte'], null],
       ['Was zeichnet den Schelmenroman aus?', 'Ein armer Held schlägt sich mit List durch', ['Ein Ritter zieht in den Krieg', 'Ein König regiert', 'Ein Dichter reist'], null],
       ['Wozu führte die Entwicklung Spaniens im Barock literarisch?', 'Zu Nachdenklichkeit und Bitterkeit', ['Zu reinem Optimismus', 'Zu Schweigen', 'Zu Übersetzungen'], null],
-      ['Welche Themen dominieren im Barock?', 'Vergänglichkeit und Schein', ['Fortschritt und Technik', 'Liebe zur Natur allein', 'Politik der Zukunft'], null],
+      ['Welche Themen dominieren im spanischen Barock?', 'Vergänglichkeit und Schein', ['Fortschritt und Technik', 'Liebe zur Natur allein', 'Politik der Zukunft'], null],
       ['Welche Gestalten sind aus dem Siglo de Oro in ganz Europa bekannt?', 'Don Quijote und Don Juan', ['Faust und Gretchen', 'Hamlet und Ophelia', 'Tristan und Isolde'], null],
       ['Wohin gehörte Spanien nach seiner Expansion politisch?', 'Es herrschte über Amerika, die Niederlande und Teile Italiens', ['Nur über die Iberische Halbinsel', 'Über Skandinavien', 'Über Russland'], null],
       ['Wer waren die Autoren des Nationaltheaters?', 'Lope de Vega und Calderón', ['Cervantes und Quevedo', 'Góngora und Garcilaso', 'Alemán und Lazarillo'], null],
       ['Wie ist „Lazarillo de Tormes“ überliefert?', 'Anonym', ['Mit Namen Cervantes', 'Als Handschrift Quevedos', 'Als Theaterstück'], null],
-      ['In welcher Form sind die Gedichte der Mystiker besonders?', 'Von großer Innigkeit', ['Von scharfer Satire', 'Von Spott', 'Von Kriegslust'], null],
+      ['Was zeichnet die Gedichte der spanischen Mystiker besonders aus?', 'Von großer Innigkeit', ['Von scharfer Satire', 'Von Spott', 'Von Kriegslust'], null],
     ],
   },
 };

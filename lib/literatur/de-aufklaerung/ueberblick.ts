@@ -16,7 +16,7 @@ export const UEBERBLICK: Subtopic = {
     leicht: [
       ['Was fordert die Aufklärung vom Menschen?', 'Den eigenen Verstand zu gebrauchen', ['Dem Fürsten zu folgen', 'Der Kirche zu gehorchen', 'Dem Gefühl zu folgen'], null],
       ['Wer schrieb 1784 „Was ist Aufklärung?“', 'Immanuel Kant', ['Gotthold Ephraim Lessing', 'Johann Christoph Gottsched', 'Johann Gottfried Herder'], null],
-      ['Was bedeutet „Sapere aude“?', 'Habe Mut, dich deines eigenen Verstandes zu bedienen', ['Nutze den Tag', 'Bedenke den Tod', 'Erkenne dich selbst'], 'Kant machte den lateinischen Spruch zum Wahlspruch der Aufklärung.'],
+      ['Wie übersetzte Kant den Wahlspruch der Aufklärung „Sapere aude“?', 'Habe Mut, dich deines eigenen Verstandes zu bedienen', ['Nutze den Tag', 'Bedenke den Tod', 'Erkenne dich selbst'], 'Kant machte den lateinischen Spruch zum Wahlspruch der Aufklärung.'],
       ['Welcher Dichter ist hier zu sehen?', 'Gotthold Ephraim Lessing', ['Johann Christoph Gottsched', 'Friedrich Gottlieb Klopstock', 'Johann Gottfried Herder'], null, 'lessing'],
       ['Was sollte Literatur in der Aufklärung vor allem?', 'Erziehen und nützen', ['Nur unterhalten', 'Den Hof feiern', 'Die Kirche preisen'], null],
       ['Welche kurze Gattung mit Tieren war in der Aufklärung beliebt?', 'Die Fabel', ['Das Sonett', 'Die Ballade', 'Der Schwank'], 'Tiere stehen darin für menschliche Eigenschaften.'],
@@ -29,7 +29,7 @@ export const UEBERBLICK: Subtopic = {
     ],
     mittel: [
       ['Wie beginnt Kants Satz über die Aufklärung?', '„Aufklärung ist der Ausgang des Menschen aus seiner selbstverschuldeten Unmündigkeit“', ['„Der Mensch ist frei geboren“', '„Alle Menschen sind gleich“', '„Der Mensch ist das Maß aller Dinge“'], null],
-      ['Wann erschien Kants Aufsatz?', '1784', ['1684', '1884', '1730'], null],
+      ['Wann erschien Kants Aufsatz „Was ist Aufklärung?“', '1784', ['1684', '1884', '1730'], null],
       ['Wie heißt Gottscheds wichtigstes Buch?', 'Versuch einer Critischen Dichtkunst', ['Hamburgische Dramaturgie', 'Laokoon', 'Buch von der Deutschen Poeterey'], 'Es erschien 1730.'],
       ['Wann lebte Gottsched?', '1700–1766', ['1600–1666', '1800–1866', '1729–1781'], null],
       ['Wer schrieb das Epos „Der Messias“?', 'Friedrich Gottlieb Klopstock', ['Gellert', 'Gottsched', 'Lessing'], 'Es erschien ab 1748 in Hexametern.'],

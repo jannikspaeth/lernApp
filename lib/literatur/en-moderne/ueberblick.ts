@@ -24,7 +24,7 @@ export const UEBERBLICK: Subtopic = {
       ['Wie heißt die Londoner Künstlergruppe um Virginia Woolf?', 'Die Bloomsbury-Gruppe', ['Die Lake Poets', 'Die Angry Young Men', 'Die Präraffaeliten'], null],
       ['Wer schrieb „Schöne neue Welt“?', 'Aldous Huxley', ['George Orwell', 'H. G. Wells', 'Anthony Burgess'], null],
       ['Wer schrieb „Warten auf Godot“?', 'Samuel Beckett', ['Harold Pinter', 'Tom Stoppard', 'John Osborne'], null],
-      ['Worauf warten die beiden Männer bei Beckett?', 'Auf jemanden, der nie kommt', ['Auf einen Zug', 'Auf das Ende des Kriegs', 'Auf ihren Lohn'], null],
+      ['Worauf warten die beiden Männer in Becketts „Warten auf Godot“?', 'Auf jemanden, der nie kommt', ['Auf einen Zug', 'Auf das Ende des Kriegs', 'Auf ihren Lohn'], null],
       ['Wer schrieb „Der Herr der Ringe“?', 'J. R. R. Tolkien', ['C. S. Lewis', 'T. H. White', 'Mervyn Peake'], null],
     ],
     mittel: [

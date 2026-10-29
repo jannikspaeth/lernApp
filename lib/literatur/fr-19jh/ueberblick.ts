@@ -29,8 +29,8 @@ export const UEBERBLICK: Subtopic = {
     ],
     mittel: [
       ['Wann erschien „Rot und Schwarz“?', '1830', ['1810', '1850', '1870'], 'Von Stendhal.'],
-      ['Was zeigt „Rot und Schwarz“?', 'Aufstieg und Fall eines ehrgeizigen jungen Mannes', ['Eine Seereise', 'Einen Bauernaufstand', 'Eine Liebe im Kloster'], null],
-      ['Was sollte die „Menschliche Komödie“ erfassen?', 'Die ganze Gesellschaft', ['Nur den Adel', 'Nur Paris', 'Nur die Kirche'], null],
+      ['Was zeigt Stendhals „Rot und Schwarz“?', 'Aufstieg und Fall eines ehrgeizigen jungen Mannes', ['Eine Seereise', 'Einen Bauernaufstand', 'Eine Liebe im Kloster'], null],
+      ['Was sollte Balzacs „Menschliche Komödie“ erfassen?', 'Die ganze Gesellschaft', ['Nur den Adel', 'Nur Paris', 'Nur die Kirche'], null],
       ['Wann erschien „Madame Bovary“?', '1857', ['1837', '1877', '1885'], null],
       ['Welche beiden Werke standen 1857 vor Gericht?', 'Madame Bovary und Die Blumen des Bösen', ['Die Elenden und Germinal', 'Hernani und Der Cid', 'Nana und Bel Ami'], 'Beide wegen Unsittlichkeit.'],
       ['Was forderte Zola vom Schriftsteller?', 'Er solle arbeiten wie ein Naturforscher', ['Er solle verklären', 'Er solle unterhalten', 'Er solle predigen'], null],
@@ -42,9 +42,9 @@ export const UEBERBLICK: Subtopic = {
       ['Wer schrieb „Der Graf von Monte Christo“?', 'Alexandre Dumas', ['Victor Hugo', 'Eugène Sue', 'Jules Verne'], null],
     ],
     schwer: [
-      ['Was verwarfen die Romantiker?', 'Die klassischen Regeln des Dramas', ['Die französische Sprache', 'Den Roman', 'Das Theater'], null],
-      ['Was mischten die Romantiker bewusst?', 'Erhabenes und Groteskes', ['Vers und Zahl', 'Deutsch und Französisch', 'Musik und Malerei'], null],
-      ['Welche Epoche machte die Romantik wieder interessant?', 'Das Mittelalter', ['Die Antike', 'Den Barock', 'Die Renaissance'], null],
+      ['Was verwarfen die französischen Romantiker?', 'Die klassischen Regeln des Dramas', ['Die französische Sprache', 'Den Roman', 'Das Theater überhaupt'], null],
+      ['Was mischten die französischen Romantiker bewusst?', 'Erhabenes und Groteskes', ['Vers und Zahl', 'Deutsch und Französisch', 'Musik und Malerei'], null],
+      ['Welche Epoche machte die französische Romantik wieder interessant?', 'Das Mittelalter', ['Die Antike', 'Den Barock', 'Die Renaissance'], null],
       ['Was untersucht der Naturalismus besonders?', 'Milieu und Vererbung', ['Träume', 'Mythen', 'Das Jenseits'], null],
       ['Was machte Baudelaire dichtbar?', 'Großstadt, Rausch, Langeweile und das Hässliche', ['Die Natur', 'Die Antike', 'Das Landleben'], null],
       ['Welchen amerikanischen Autor übersetzte Baudelaire?', 'Edgar Allan Poe', ['Walt Whitman', 'Herman Melville', 'Mark Twain'], null],

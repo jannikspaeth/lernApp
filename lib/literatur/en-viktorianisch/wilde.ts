@@ -34,7 +34,7 @@ export const WILDE: Subtopic = {
       ['Wann erschien „Das Bildnis des Dorian Gray“?', '1890', ['1880', '1900', '1895'], null],
       ['Was schrieb Wilde im Vorwort zu dem Roman?', 'Es gebe nur gut oder schlecht geschriebene Bücher', ['Kunst müsse moralisch sein', 'Der Leser sei schuld', 'Der Roman sei wahr'], null],
       ['Wann erschien „Bunbury“?', '1895', ['1875', '1885', '1900'], null],
-      ['Wie viele Stücke liefen auf dem Höhepunkt gleichzeitig in London?', 'Zwei', ['Eines', 'Fünf', 'Zehn'], null],
+      ['Wie viele Stücke Wildes liefen auf seinem Höhepunkt gleichzeitig in London?', 'Zwei', ['Eines', 'Fünf', 'Zehn'], null],
       ['Wer war Lord Alfred Douglas?', 'Wildes junger Geliebter', ['Sein Verleger', 'Sein Anwalt', 'Sein Bruder'], null],
       ['Wie begann der Prozess 1895?', 'Wilde verklagte Douglas’ Vater wegen Verleumdung', ['Die Polizei verhaftete ihn', 'Ein Verleger zeigte ihn an', 'Er zeigte sich selbst an'], 'Er verlor und wurde danach selbst angeklagt.'],
       ['Wie heißt der lange Brief aus dem Gefängnis?', 'De Profundis', ['Die Ballade vom Zuchthaus zu Reading', 'Salome', 'Das Gespenst von Canterville'], null],
@@ -43,7 +43,7 @@ export const WILDE: Subtopic = {
     ],
     schwer: [
       ['Wie wurde Wilde berühmt, bevor er bedeutende Werke schrieb?', 'Durch Auftreten, Vortragsreisen und Witz', ['Durch ein Erbe', 'Durch Zeitungsartikel', 'Durch einen Skandal am Hof'], null],
-      ['Was zeigt das Bildnis Dorian Grays?', 'Jede Ausschweifung und jedes Verbrechen', ['Seine Träume', 'Seine Zukunft', 'Nichts Besonderes'], null],
+      ['Was zeigt das Bildnis in „Das Bildnis des Dorian Gray“?', 'Jede Ausschweifung und jedes Verbrechen Dorians', ['Seine Träume', 'Seine Zukunft', 'Nichts Besonderes'], null],
       ['Was führen Wildes Komödien vor?', 'Die Heuchelei der feinen Gesellschaft', ['Das Leben der Armen', 'Die Politik', 'Die Kirche'], 'Das Publikum ließ sich dabei glänzend unterhalten.'],
       ['Wie wirkt ein Paradox bei Wilde?', 'Es scheint sich zu widersprechen und trifft gerade dadurch', ['Es ist nur Unsinn', 'Es belehrt direkt', 'Es verschleiert'], null],
       ['Welche Haltung vertrat Wilde zur Moral in der Kunst?', 'Kunst lasse sich nicht moralisch beurteilen', ['Kunst müsse moralisch erziehen', 'Kunst sei immer unmoralisch', 'Kunst habe mit Moral nichts zu tun, aber mit Politik'], null],

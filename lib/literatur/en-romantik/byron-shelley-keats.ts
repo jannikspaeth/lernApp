@@ -16,7 +16,7 @@ export const BYRON_SHELLEY_KEATS: Subtopic = {
     leicht: [
       ['Wer ist auf diesem Porträt zu sehen?', 'Lord Byron', ['Percy Shelley', 'John Keats', 'William Wordsworth'], null, 'byron'],
       ['Wer schrieb „Frankenstein“?', 'Mary Shelley', ['Percy Shelley', 'Lord Byron', 'John Polidori'], null, 'mary-shelley'],
-      ['Woraus erschafft Frankenstein sein Wesen?', 'Aus Leichenteilen', ['Aus Lehm', 'Aus Metall', 'Aus einem Tier'], null],
+      ['Woraus erschafft Victor Frankenstein sein Wesen?', 'Aus Leichenteilen', ['Aus Lehm', 'Aus Metall', 'Aus einem Tier'], null],
       ['Wie heißt der Untertitel von „Frankenstein“?', 'Der moderne Prometheus', ['Das neue Leben', 'Der künstliche Mensch', 'Der Schöpfer'], null],
       ['Wie alt war Mary Shelley, als sie „Frankenstein“ schrieb?', '18 Jahre', ['28 Jahre', '38 Jahre', '15 Jahre'], null],
       ['Wo entstand die Idee zu „Frankenstein“?', 'In der Villa Diodati am Genfersee', ['In London', 'In Rom', 'In Oxford'], null],
@@ -44,7 +44,7 @@ export const BYRON_SHELLEY_KEATS: Subtopic = {
     schwer: [
       ['Was kennzeichnet den „byronic hero“?', 'Stolz, Schuld und Einsamkeit', ['Treue und Bescheidenheit', 'Bürgerlicher Fleiß', 'Fromme Geduld'], null],
       ['Was erbte Byron mit zehn Jahren?', 'Titel und Schulden', ['Ein großes Vermögen', 'Ein Schiff', 'Nichts'], null],
-      ['Was geschieht mit Frankensteins Geschöpf?', 'Es wird verstoßen und rächt sich am Schöpfer', ['Es wird geliebt', 'Es stirbt sofort', 'Es flieht und verschwindet spurlos'], null],
+      ['Was geschieht mit Frankensteins Geschöpf in Mary Shelleys Roman?', 'Es wird verstoßen und rächt sich am Schöpfer', ['Es wird geliebt', 'Es stirbt sofort', 'Es flieht und verschwindet spurlos'], null],
       ['Warum gilt „Frankenstein“ als Ursprung der Science-Fiction?', 'Ein Mensch schafft Leben durch Wissenschaft', ['Es spielt im Weltraum', 'Es gibt Maschinen', 'Es spielt in der Zukunft'], null],
       ['Welche Frage stellt „Frankenstein“ bis heute?', 'Welche Verantwortung der Schöpfer für sein Werk hat', ['Wie man Strom erzeugt', 'Ob es Geister gibt', 'Wie man reist'], null],
       ['Wie endet die „Ode auf eine griechische Urne“?', 'Schönheit sei Wahrheit und Wahrheit Schönheit', ['Mit einem Gebet', 'Mit einer Klage', 'Mit einem Abschied'], null],
