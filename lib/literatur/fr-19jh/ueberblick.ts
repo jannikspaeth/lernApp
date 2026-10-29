@@ -17,7 +17,7 @@ export const UEBERBLICK: Subtopic = {
       ['Bei welchem Drama prügelten sich 1830 Anhänger und Gegner?', 'Hernani', ['Der Cid', 'Phèdre', 'Ruy Blas'], 'Victor Hugos Stück setzte die Romantik durch.'],
       ['Wer ist auf diesem Porträt zu sehen?', 'Victor Hugo', ['Honoré de Balzac', 'Émile Zola', 'Gustave Flaubert'], null, 'hugo'],
       ['Wer schrieb „Die drei Musketiere“?', 'Alexandre Dumas', ['Victor Hugo', 'Jules Verne', 'Stendhal'], null],
-      ['Wie erschienen diese Abenteuerromane zuerst?', 'Als Zeitungsfortsetzungen', ['Als teure Bände', 'Als Theaterstücke', 'Als Hörspiele'], null],
+      ['Wie erschienen die Abenteuerromane von Alexandre Dumas zuerst?', 'Als Zeitungsfortsetzungen', ['Als teure Bände', 'Als Theaterstücke', 'Als Hörspiele'], null],
       ['Wer ist auf diesem Porträt zu sehen?', 'Honoré de Balzac', ['Victor Hugo', 'Gustave Flaubert', 'Stendhal'], null, 'balzac'],
       ['Wie heißt Balzacs Romanwerk?', 'Die menschliche Komödie', ['Die Rougon-Macquart', 'Die Elenden', 'Die verlorenen Illusionen'], null],
       ['Wer schrieb „Madame Bovary“?', 'Gustave Flaubert', ['Émile Zola', 'Stendhal', 'Guy de Maupassant'], null],

@@ -30,7 +30,7 @@ export const UEBERBLICK: Subtopic = {
     mittel: [
       ['Wie nennt man die Epoche des Kampfes um die Einheit?', 'Risorgimento', ['Rinascimento', 'Neorealismo', 'Futurismo'], null],
       ['Wann erschienen „Die Malavoglia“?', '1881', ['1827', '1923', '1980'], null],
-      ['Wovon handelt dieser Roman?', 'Von sizilianischen Fischern', ['Von Rittern', 'Von Kaufleuten', 'Von Bergleuten'], null],
+      ['Wovon handelt Vergas Roman „Die Malavoglia“?', 'Von sizilianischen Fischern', ['Von Rittern', 'Von Kaufleuten', 'Von Bergleuten'], null],
       ['Wer erhielt 1906 als erster Italiener den Nobelpreis?', 'Giosuè Carducci', ['Pirandello', 'Montale', 'Ungaretti'], null],
       ['Wer wurde zum Dichter des Rausches und Wegbereiter des Faschismus?', 'Gabriele D’Annunzio', ['Marinetti', 'Ungaretti', 'Carducci'], null],
       ['Wann erhielt Pirandello den Nobelpreis?', '1934', ['1906', '1975', '1997'], null],

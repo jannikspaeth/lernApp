@@ -42,7 +42,7 @@ export const UTZON: Subtopic = {
     ],
     schwer: [
       ['Wie sind alle Schalen geometrisch zusammenhängend?', 'Als Teile einer Kugel mit 75 Metern Radius', ['Als Teile eines Kegels', 'Als Teile eines Zylinders', 'Als Teile einer Pyramide'], 'Alle Schalen sind Ausschnitte einer Kugel mit 75 Metern Radius.'],
-      ['Was erlaubte diese Lösung?', 'Vorgefertigte gleiche Betonteile', ['Holzbau', 'Stahlbau', 'Glasbau'], 'So konnten die Betonteile industriell vorgefertigt werden.'],
+      ['Was erlaubte Utzons Idee, alle Schalen der Oper in Sydney aus einer Kugel zu schneiden?', 'Vorgefertigte gleiche Betonteile', ['Holzbau', 'Stahlbau', 'Glasbau'], 'So konnten die Betonteile industriell vorgefertigt werden.'],
       ['Wann fand Utzon die Kugel-Lösung?', '1961', ['1957', '1966', '1973'], 'Die Kugel-Lösung fand Utzon 1961.'],
       ['Wie viele Fliesen bedecken die Dächer etwa?', 'Rund eine Million', ['Rund 10.000', 'Rund 100.000', 'Rund eine Milliarde'], 'Rund eine Million Fliesen bedecken die Dächer.'],
       ['Warum trat Utzon zurück?', 'Streit mit dem Minister um Kosten', ['Krankheit', 'Mangel an Material', 'Neuer Auftrag'], 'Nach Streit um Kosten und Pläne trat Utzon zurück.'],

@@ -210,9 +210,9 @@ export const E4: Epoch = {
             mittel: [
               ['An welchem Tag wurde Olof Palme ermordet?', 'Am 28. Februar 1986', ['Am 28. September 1994', 'Am 3. September 1967', 'Am 7. März 2024']],
               ['Auf welcher Straße wurde Palme erschossen?', 'Auf dem Sveavägen', ['Auf der Drottninggatan', 'Auf dem Strandvägen', 'Auf der Kungsgatan']],
-              ['Mit wem war Palme an diesem Abend unterwegs?', 'Mit seiner Frau', ['Mit Leibwächtern', 'Mit dem König', 'Mit Journalisten']],
+              ['Mit wem war Olof Palme am Abend seiner Ermordung unterwegs?', 'Mit seiner Frau', ['Mit Leibwächtern', 'Mit dem König', 'Mit Journalisten']],
               ['Wen nannte die Staatsanwaltschaft 2020 als wahrscheinlichen Täter?', 'Stig Engström', ['Christer Pettersson', 'Anders Breivik', 'Raoul Wallenberg']],
-              ['Was platzte Anfang der 1990er-Jahre?', 'Eine Immobilienblase', ['Ein Staudamm', 'Die EU', 'Der Göta-Kanal']],
+              ['Was platzte Anfang der 1990er-Jahre in Schweden?', 'Eine Immobilienblase', ['Ein Staudamm', 'Die EU', 'Der Göta-Kanal']],
               ['Auf wie viel Prozent hob die Zentralbank 1992 kurzzeitig den Leitzins?', '500 Prozent', ['5 Prozent', '50 Prozent', '5.000 Prozent']],
               ['Was wurde nach der Krise der 1990er reformiert?', 'Das Rentensystem', ['Die Monarchie', 'Die Kirche', 'Die Armee']],
               ['Wie viel Prozent stimmten 1994 für den EU-Beitritt?', '52 Prozent', ['82 Prozent', '32 Prozent', '99 Prozent']],

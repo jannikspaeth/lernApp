@@ -48,7 +48,7 @@ export const MONTAIGNE: Subtopic = {
       ['Wann zog sich Montaigne in seinen Turm zurück?', '1571', ['1533', '1580', '1592'], 'Mit 38 Jahren.'],
       ['Wann erschienen die Essais zuerst?', '1580', ['1533', '1563', '1600'], 'Erweitert bis 1588.'],
       ['Wodurch wurde Montaigne morgens geweckt?', 'Durch Musik', ['Durch Glocken', 'Durch kaltes Wasser', 'Durch einen Hahn'], 'Um ihn nicht zu erschrecken.'],
-      ['Welcher Philosoph schrieb, durch Montaigne sei die Lust, auf dieser Erde zu leben, vermehrt worden?', 'Nietzsche', ['Kant', 'Hegel', 'Descartes'], 'In „Schopenhauer als Erzieher“.'],
+      ['Welcher Philosoph schrieb, durch Montaigne sei die Lust, auf der Erde zu leben, vermehrt worden?', 'Nietzsche', ['Kant', 'Hegel', 'Descartes'], 'In „Schopenhauer als Erzieher“.'],
       ['Wie viele Bücher etwa standen in Montaignes Bibliothek?', 'Rund 1.000', ['Rund 10', 'Rund 100', 'Über 100.000'], 'Für seine Zeit sehr viele.'],
       ['Wann starb La Boétie?', '1563', ['1533', '1572', '1592'], 'Sein früher Tod traf Montaigne tief.'],
       ['Was trägt nach Montaigne jeder Mensch in sich?', '„Die ganze Form der menschlichen Natur“', ['Einen göttlichen Funken allein', 'Die Erbsünde allein', 'Nichts Allgemeines'], 'Darum lohnt die Selbstbeschreibung.'],

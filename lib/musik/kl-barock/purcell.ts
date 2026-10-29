@@ -39,7 +39,7 @@ export const PURCELL: Subtopic = {
       ['Nach welchem Stück entstand „The Fairy Queen“?', 'Nach Shakespeares „Sommernachtstraum“', ['Nach „Romeo und Julia“', 'Nach „Macbeth“', 'Nach „Der Sturm“'], 'Sie entstand 1692.'],
       ['Wer singt in „King Arthur“ mit zitternder Stimme?', 'Der „Cold Genius“, ein Geist der Kälte', ['König Artus', 'Merlin', 'Ein Drache'], 'Die zitternden Töne malen die Kälte.'],
       ['Für wessen Beerdigung schrieb Purcell 1695 Musik?', 'Für Königin Maria II.', ['Für König Karl II.', 'Für Oliver Cromwell', 'Für seinen Vater'], 'Mit einem Marsch für Trompeten und Pauken.'],
-      ['Was geschah mit dieser Begräbnismusik?', 'Sie erklang auch bei Purcells eigener Beerdigung', ['Sie wurde verbrannt', 'Sie wurde nie gespielt', 'Sie wurde zur Hymne'], 'Purcell starb nur Monate nach der Königin.'],
+      ['Was geschah mit Purcells Musik zum Begräbnis von Königin Mary?', 'Sie erklang auch bei Purcells eigener Beerdigung', ['Sie wurde verbrannt', 'Sie wurde nie gespielt', 'Sie wurde zur Hymne'], 'Purcell starb nur Monate nach der Königin.'],
       ['Wie lange dauerte es nach Purcell bis zu neuen englischen Komponisten von Weltrang?', 'Über 200 Jahre', ['10 Jahre', '50 Jahre', '1.000 Jahre'], 'Erst mit Elgar und Britten.'],
     ],
     schwer: [

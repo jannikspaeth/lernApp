@@ -18,7 +18,7 @@ export const UEBERBLICK: Subtopic = {
       ['Worüber schrieb Jack London?', 'Über Alaska, Seefahrt und Armut', ['Über den Hof', 'Über Hollywood', 'Über die Antike'], null],
       ['Was löste Upton Sinclairs Roman von 1906 aus?', 'Neue Lebensmittelgesetze', ['Einen Krieg', 'Ein Verbot von Romanen', 'Eine Steuerreform'], 'Er handelte von den Schlachthöfen in Chicago.'],
       ['Wie nennt man die Autoren, die nach dem Ersten Weltkrieg nach Paris gingen?', 'Die verlorene Generation', ['Die Beat Generation', 'Die Harlem Renaissance', 'Die Lost Boys'], null],
-      ['Wer prägte diesen Namen?', 'Gertrude Stein', ['Ernest Hemingway', 'Scott Fitzgerald', 'Ezra Pound'], null],
+      ['Wer prägte den Namen „Lost Generation“?', 'Gertrude Stein', ['Ernest Hemingway', 'Scott Fitzgerald', 'Ezra Pound'], null],
       ['Wie heißt die Bewegung schwarzer Literatur in New York?', 'Die Harlem Renaissance', ['Die Beat Generation', 'Die verlorene Generation', 'Die Chicago School'], null],
       ['Wer ist auf diesem Porträt zu sehen?', 'Langston Hughes', ['Richard Wright', 'James Baldwin', 'Ralph Ellison'], null, 'hughes'],
       ['Wer schrieb „Früchte des Zorns“?', 'John Steinbeck', ['William Faulkner', 'Ernest Hemingway', 'Sinclair Lewis'], null],

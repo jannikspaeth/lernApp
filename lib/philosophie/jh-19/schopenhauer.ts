@@ -16,7 +16,7 @@ export const SCHOPENHAUER: Subtopic = {
   quiz: {
     leicht: [
       ['Wie heißt Schopenhauers Hauptwerk?', '„Die Welt als Wille und Vorstellung“', ['„Also sprach Zarathustra“', '„Entweder – Oder“', '„Das Kapital“'], 'Vollendet 1818.'],
-      ['Wie lautet der erste Satz dieses Werks?', '„Die Welt ist meine Vorstellung.“', ['„Gott ist tot.“', '„Im Anfang war die Tat.“', '„Alles fließt.“'], 'Anschluss an Kant.'],
+      ['Wie lautet der erste Satz von Schopenhauers „Die Welt als Wille und Vorstellung“?', '„Die Welt ist meine Vorstellung.“', ['„Gott ist tot.“', '„Im Anfang war die Tat.“', '„Alles fließt.“'], 'Anschluss an Kant.'],
       ['Wer ist auf diesem Bild zu sehen?', 'Arthur Schopenhauer', ['Hegel', 'Nietzsche', 'Kant'], 'Eine Fotografie aus seinen letzten Jahren.', 'schopenhauer'],
       ['Als Philosoph welcher Haltung gilt Schopenhauer?', 'Des Pessimismus', ['Des Optimismus', 'Des Fortschrittsglaubens', 'Des Materialismus'], 'Das Leben ist Leiden.'],
       ['Was ist das „Ding an sich“ für Schopenhauer?', 'Der Wille', ['Die Vernunft', 'Gott', 'Die Materie'], 'Ein blinder Drang in allem.'],

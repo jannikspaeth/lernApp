@@ -31,7 +31,7 @@ const QING_BLUETE: HistEvent = {
           ['Welcher Kaiser regierte am längsten?', 'Kangxi', ['Qianlong', 'Puyi', 'Qin Shi Huang']],
           ['Wie lange regierte Kangxi?', '61 Jahre', ['16 Jahre', '6 Jahre', '100 Jahre']],
           ['Mit welchem Land schloss Kangxi 1689 einen Vertrag?', 'Mit Russland', ['Mit England', 'Mit Japan', 'Mit Frankreich']],
-          ['Wie heißt dieser Vertrag?', 'Vertrag von Nertschinsk', ['Vertrag von Nanking', 'Vertrag von Shimonoseki', 'Vertrag von Tordesillas']],
+          ['Wie heißt der Grenzvertrag von 1689 zwischen China und Russland?', 'Vertrag von Nertschinsk', ['Vertrag von Nanking', 'Vertrag von Shimonoseki', 'Vertrag von Tordesillas']],
           ['Welches Wörterbuch ließ Kangxi verfassen?', 'Das Kangxi-Wörterbuch', ['Das Oxford Dictionary', 'Das Qianlong-Lexikon', 'Den Duden']],
           ['Wer unterrichtete Kangxi in Mathematik und Astronomie?', 'Jesuiten', ['Mönche aus Tibet', 'Britische Professoren', 'Japanische Gelehrte']],
           ['Welcher Kaiser eroberte Xinjiang?', 'Qianlong', ['Kangxi', 'Puyi', 'Hongwu']],

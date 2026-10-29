@@ -222,7 +222,7 @@ export const E3: Epoch = {
             ],
             mittel: [
               ['Wann wurde Heinrich von Navarra rechtmäßiger Thronerbe?', '1584', ['1572', '1589', '1598']],
-              ['Wer führte die katholische Liga an?', 'Heinrich von Guise', ['Heinrich III.', 'Katharina von Medici', 'Philipp II.']],
+              ['Wer führte in den französischen Religionskriegen die katholische Liga an?', 'Heinrich von Guise', ['Heinrich III.', 'Katharina von Medici', 'Philipp II.']],
               ['Welches Land unterstützte die Liga?', 'Spanien', ['England', 'Schweden', 'Venedig']],
               ['Wann wurde Heinrich III. aus Paris vertrieben?', '1588', ['1584', '1589', '1593']],
               ['Wo ließ Heinrich III. den Herzog von Guise ermorden?', 'Im Schloss Blois', ['Im Louvre', 'In Versailles', 'In Chambord']],

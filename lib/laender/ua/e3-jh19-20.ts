@@ -140,7 +140,7 @@ export const E3: Epoch = {
               ['Wann entstand die Westukrainische Volksrepublik?', 'Im November 1918', ['Im Januar 1919', 'Im März 1917', 'Im Jahr 1921']],
               ['Wer waren die „Weißen“?', 'Antibolschewistische russische Truppen', ['Ukrainische Kosaken', 'Polnische Soldaten', 'Deutsche Freikorps']],
               ['Wer beging Pogrome an Juden 1918–1920?', 'Verschiedene Truppen', ['Nur die Polen', 'Niemand', 'Nur die Deutschen']],
-              ['Wie viele Juden wurden in diesen Jahren ermordet?', 'Zehntausende', ['Einige Dutzend', 'Keine', 'Millionen']],
+              ['Wie viele Juden wurden in der Ukraine 1918–1920 in Pogromen ermordet?', 'Zehntausende', ['Einige Dutzend', 'Keine', 'Millionen']],
               ['Wann eroberten Petljura und Polen kurz Kiew?', 'Im Mai 1920', ['Im Januar 1918', 'Im April 1918', 'Im März 1921']],
               ['Wann wurde der Frieden von Riga geschlossen?', '1921', ['1918', '1922', '1920']],
               ['Welche Gebiete fielen 1921 an Polen?', 'Galizien und Wolhynien', ['Die Krim und der Donbas', 'Kiew und Charkiw', 'Odessa und Cherson']],

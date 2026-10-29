@@ -111,7 +111,7 @@ export const UNABHAENGIGKEIT: HistEvent = {
           ['Welche Erfindung probierte Pedro II. 1876 aus?', 'Das Telefon', ['Das Auto', 'Das Flugzeug', 'Das Radio']],
           ['Wo probierte er das Telefon aus?', 'Auf der Weltausstellung in Philadelphia', ['In Rio', 'In Paris', 'In London']],
           ['Wie galt Pedro II.?', 'Als bescheiden und gerecht', ['Als grausam', 'Als faul', 'Als ungebildet']],
-          ['Welches Produkt wurde zum wichtigsten Exportgut?', 'Kaffee', ['Zucker', 'Gold', 'Gummi']],
+          ['Welches Produkt wurde im 19. Jahrhundert zum wichtigsten Exportgut Brasiliens?', 'Kaffee', ['Zucker', 'Gold', 'Gummi']],
           ['Was wurde Brasilien beim Kaffee?', 'Der größte Produzent der Welt', ['Der kleinste Produzent', 'Ein Importeur', 'Gar nichts']],
           ['Wer arbeitete auf den Kaffeeplantagen?', 'Versklavte Afrikaner', ['Nur Portugiesen', 'Maschinen', 'Indigene Könige']],
           ['Gegen welches Land kämpfte Brasilien 1864–1870?', 'Gegen Paraguay', ['Gegen Argentinien', 'Gegen Uruguay', 'Gegen Portugal']],
@@ -201,7 +201,7 @@ export const REPUBLIK: HistEvent = {
           ['Was war Brasilien bei der Abschaffung der Sklaverei?', 'Das letzte Land Amerikas', ['Das erste Land der Welt', 'Das zweite Land Amerikas', 'Ein Vorreiter in Europa']],
           ['Was erhielten die Befreiten?', 'Weder Land noch Bildung', ['Viel Land', 'Gold', 'Häuser in Rio']],
           ['Wer unterstützte nach 1888 die Republikaner?', 'Viele wütende Plantagenbesitzer', ['Die Sklaven', 'Prinzessin Isabel', 'Der Papst']],
-          ['Wann wurde die Republik ausgerufen?', 'Am 15. November 1889', ['Am 13. Mai 1888', 'Am 7. September 1822', 'Am 1. Januar 1900']],
+          ['Wann wurde in Brasilien die Republik ausgerufen?', 'Am 15. November 1889', ['Am 13. Mai 1888', 'Am 7. September 1822', 'Am 1. Januar 1900']],
           ['Wer rief die Republik aus?', 'Marschall Deodoro da Fonseca', ['Pedro II.', 'Prinzessin Isabel', 'Getúlio Vargas']],
           ['Wie verlief der Putsch von 1889?', 'Fast ohne Blutvergießen', ['Mit Tausenden Toten', 'Als langer Krieg', 'Er scheiterte']],
           ['Wohin ging Pedro II. ins Exil?', 'Nach Europa', ['Nach Afrika', 'Nach Asien', 'In die USA']],
@@ -273,7 +273,7 @@ export const REPUBLIK: HistEvent = {
       quiz: {
         leicht: [
           ['Wie nannte man die Abwechslung der Präsidenten aus São Paulo und Minas Gerais?', 'Politik von Kaffee mit Milch', ['Politik von Zucker und Gold', 'Politik von Brot und Spielen', 'Politik der Tulpen']],
-          ['Wofür stand São Paulo in diesem Bild?', 'Für Kaffee', ['Für Milch', 'Für Gold', 'Für Zucker']],
+          ['Wofür stand São Paulo in der „Café com leite“-Politik?', 'Für Kaffee', ['Für Milch', 'Für Gold', 'Für Zucker']],
           ['Wofür stand Minas Gerais?', 'Für Milchwirtschaft', ['Für Kaffee', 'Für Kautschuk', 'Für Fischfang']],
           ['Wie hießen die lokalen Großgrundbesitzer, die Wahlen kontrollierten?', 'Coronéis', ['Bandeirantes', 'Tenentes', 'Quilombolas']],
           ['Welche Siedlung gründete Antônio Conselheiro?', 'Canudos', ['Palmares', 'Brasília', 'Manaus']],

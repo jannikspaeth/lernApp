@@ -29,7 +29,7 @@ export const TEILUNG: Subtopic = {
       ['Wer war Innenminister und einigte die Fürstenstaaten?', 'Sardar Patel', ['Ambedkar', 'Nehru', 'Mountbatten']],
       ['Um welche Region gab es den ersten Krieg?', 'Kaschmir', ['Goa', 'Assam', 'Sikkim']],
       ['Wann trat die Verfassung in Kraft?', '26. Januar 1950', ['15. August 1947', '30. Januar 1948', '2. Oktober 1950']],
-      ['Wie heißt dieser Feiertag?', 'Republic Day', ['Independence Day', 'Gandhi Jayanti', 'Diwali']],
+      ['Wie heißt der indische Feiertag am 26. Januar?', 'Republic Day', ['Independence Day', 'Gandhi Jayanti', 'Diwali']],
       ['Wer leitete den Redaktionsausschuss der Verfassung?', 'Bhimrao Ambedkar', ['Nehru', 'Gandhi', 'Patel']],
       ['Wer wurde erster Präsident?', 'Rajendra Prasad', ['Nehru', 'Ambedkar', 'Patel']],
       ['Was schaffte die Verfassung ab?', 'Die Unberührbarkeit', ['Das Wahlrecht', 'Die Religion', 'Den Staat']],

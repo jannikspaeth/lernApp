@@ -45,7 +45,7 @@ export const KOMPANIE: Subtopic = {
       ['Wie gewann Clive bei Plassey?', 'Mit Hilfe von Verrat in den feindlichen Reihen', ['Mit Atomwaffen', 'Mit einer riesigen Flotte', 'Durch Zufall']],
       ['Wann siegten die Briten bei Buxar?', '1764', ['1757', '1857', '1799']],
       ['Welches Recht erhielt die Kompanie 1765?', 'Steuern in Bengalen einzuziehen', ['Münzen zu prägen', 'Den Mogul zu stürzen', 'Kolonien zu gründen']],
-      ['Wie heißt dieses Steuerrecht?', 'Diwani', ['Mansab', 'Dschizya', 'Zamindari']],
+      ['Wie heißt das Steuerrecht in Bengalen, das 1765 an die Ostindien-Kompanie ging?', 'Diwani', ['Mansab', 'Dschizya', 'Zamindari']],
       ['Welche Katastrophe traf Bengalen 1770?', 'Eine Hungersnot', ['Ein Erdbeben', 'Eine Pest', 'Ein Vulkanausbruch']],
       ['Wer war ein früher Generalgouverneur?', 'Warren Hastings', ['Robert Clive', 'Lord Mountbatten', 'Lord Curzon']],
       ['Wann wurde der Punjab annektiert?', '1849', ['1757', '1799', '1857']],

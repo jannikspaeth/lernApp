@@ -50,7 +50,7 @@ export const HERAKLIT: Subtopic = {
       ['Was sollten nach Heraklit seine Mitbürger tun, weil sie einen tüchtigen Freund verbannt hatten?', 'Sich alle aufhängen', ['Ihn sofort zurückholen', 'Einen Tempel bauen', 'Die Demokratie einführen'], 'Er meinte seinen Freund Hermodoros.'],
       ['Welcher Philosoph des 19. Jahrhunderts bewunderte Heraklit besonders?', 'Friedrich Nietzsche', ['John Stuart Mill', 'Auguste Comte', 'Jeremy Bentham'], 'Er sah in ihm einen Denker des Werdens.'],
       ['Was bewirkt bei Heraklit die Veränderung?', 'Sie hält die Dinge zusammen', ['Sie zerstört alles endgültig', 'Sie ist bloßer Schein', 'Sie gilt nur für Menschen'], 'Beständigkeit besteht nur im Wandel.'],
-      ['Wer formulierte „panta rhei“ in dieser Kurzform?', 'Spätere Autoren', ['Heraklit selbst', 'Thales', 'Homer'], 'Platon berichtet die Lehre, die Kurzformel ist jünger.'],
+      ['Wer brachte Heraklits Lehre auf die Kurzform „panta rhei“?', 'Spätere Autoren', ['Heraklit selbst', 'Thales', 'Homer'], 'Platon berichtet die Lehre, die Kurzformel ist jünger.'],
       ['Wann lebte Heraklit etwa?', 'Um 520–460 v. Chr.', ['Um 650–590 v. Chr.', 'Um 400–340 v. Chr.', 'Um 200–140 v. Chr.'], 'Etwa Zeitgenosse des Parmenides.'],
       ['Welche Gegensatzpaare nennt Heraklit als Einheit?', 'Hunger und Sättigung, Krieg und Frieden', ['Gold und Silber', 'Athen und Sparta', 'Mann und Pferd'], 'Auch Tag und Nacht, Winter und Sommer.'],
     ],

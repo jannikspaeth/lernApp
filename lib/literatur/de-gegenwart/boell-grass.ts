@@ -20,7 +20,7 @@ export const BOELL_GRASS: Subtopic = {
       ['Welche besondere Fähigkeit hat Oskar?', 'Er kann mit seiner Stimme Glas zersingen', ['Er kann fliegen', 'Er kann Gedanken lesen', 'Er wird unsichtbar'], null],
       ['In welcher Stadt spielt „Die Blechtrommel“ vor allem?', 'In Danzig', ['In Köln', 'In Berlin', 'In Lübeck'], null],
       ['Wer schrieb „Die verlorene Ehre der Katharina Blum“?', 'Heinrich Böll', ['Günter Grass', 'Siegfried Lenz', 'Martin Walser'], null, 'boell'],
-      ['Wogegen richtet sich dieses Buch?', 'Gegen die Boulevardpresse', ['Gegen die Kirche', 'Gegen die Gewerkschaften', 'Gegen die Schule'], null],
+      ['Wogegen richtet sich Bölls „Die verlorene Ehre der Katharina Blum“?', 'Gegen die Boulevardpresse', ['Gegen die Kirche', 'Gegen die Gewerkschaften', 'Gegen die Schule'], null],
       ['Wann erhielt Böll den Nobelpreis?', '1972', ['1959', '1999', '1985'], null],
       ['Wann erhielt Grass den Nobelpreis?', '1999', ['1972', '1959', '2006'], null],
       ['In welcher Stadt wurde Böll geboren?', 'In Köln', ['In Danzig', 'In Bonn', 'In Düsseldorf'], null],
@@ -39,7 +39,7 @@ export const BOELL_GRASS: Subtopic = {
       ['Wann erschien „Die Blechtrommel“?', '1959', ['1949', '1969', '1979'], null],
       ['Wie heißt die Trilogie um die Blechtrommel?', 'Die Danziger Trilogie', ['Die Kölner Trilogie', 'Die Nachkriegstrilogie', 'Die Ostsee-Trilogie'], 'Dazu gehören „Katz und Maus“ und „Hundejahre“.'],
       ['Was erklärte Grass 2006?', 'Dass er als Siebzehnjähriger zur Waffen-SS eingezogen worden war', ['Dass er die Blechtrommel nicht allein schrieb', 'Dass er die DDR unterstützte', 'Dass er den Nobelpreis ablehnt'], null],
-      ['In welchem Buch stand dieses Geständnis?', 'Beim Häuten der Zwiebel', ['Ein weites Feld', 'Mein Jahrhundert', 'Grimms Wörter'], null],
+      ['In welchem Buch gestand Günter Grass, Mitglied der Waffen-SS gewesen zu sein?', 'Beim Häuten der Zwiebel', ['Ein weites Feld', 'Mein Jahrhundert', 'Grimms Wörter'], null],
     ],
     schwer: [
       ['Welche Perspektive hat die „Blechtrommel“?', 'Die Froschperspektive eines Dreijährigen', ['Die eines Richters', 'Die eines Soldaten', 'Die eines allwissenden Erzählers'], null],

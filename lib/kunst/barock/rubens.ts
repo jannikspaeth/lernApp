@@ -35,7 +35,7 @@ export const RUBENS: Subtopic = {
       ['Wie viele Bilder malte Rubens etwa?', 'Über 1.400', ['Über 140', 'Über 14', 'Über 14.000'], 'Rubens’ Werkstatt schuf über 1.400 Gemälde.'],
       ['Wie arbeitete Rubens, um so viele Bilder zu schaffen?', 'Mit großer Werkstatt und Helfern', ['Allein', 'Nur nach Auftrag', 'Mit Schablonen']],
       ['Für wen malte er einen Zyklus von 24 Bildern?', 'Für Maria de’ Medici', ['Für Ludwig XIV.', 'Für Karl V.', 'Für Philipp IV.'], 'Der Zyklus (1622–1625) feiert das Leben der Königin Maria de’ Medici.'],
-      ['Wo hängt dieser Zyklus?', 'Im Louvre', ['In der Alten Pinakothek', 'Im Prado', 'In Antwerpen']],
+      ['Wo hängt Rubens’ Medici-Zyklus?', 'Im Louvre', ['In der Alten Pinakothek', 'Im Prado', 'In Antwerpen']],
       ['Wie hieß Rubens’ zweite Frau?', 'Helene Fourment', ['Isabella Brant', 'Maria de’ Medici', 'Anna van Dyck'], 'Er heiratete Helene Fourment 1630, vier Jahre nach dem Tod seiner ersten Frau Isabella Brant.'],
       ['Wie alt war sie bei der Heirat?', '16 Jahre', ['26 Jahre', '36 Jahre', '6 Jahre']],
       ['Welche Maler beeinflusste Rubens später?', 'Watteau, Delacroix und Renoir', ['Dürer und Cranach', 'Giotto und Cimabue', 'Raffael und Leonardo'], 'Watteau, Delacroix und Renoir bewunderten seine Farbigkeit.'],

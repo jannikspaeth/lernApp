@@ -409,7 +409,7 @@ export const E2: Epoch = {
               ['Welches Haus begründete Heinrich IV.?', 'Das Haus Lancaster', ['Das Haus York', 'Das Haus Tudor', 'Das Haus Stuart']],
               ['Wann siegte Heinrich V. bei Agincourt?', '25. Oktober 1415', ['14. Oktober 1066', '26. August 1346', '22. August 1485']],
               ['Welcher Vertrag machte Heinrich V. 1420 zum Erben Frankreichs?', 'Vertrag von Troyes', ['Vertrag von Brétigny', 'Vertrag von Paris', 'Vertrag von Arras']],
-              ['Wann starb Heinrich V.?', '1422', ['1415', '1420', '1453']],
+              ['Wann starb der englische König Heinrich V.?', '1422', ['1415', '1420', '1453']],
             ],
             schwer: [
               ['Was bedeutet „Honi soit qui mal y pense“?', '„Ein Schelm, wer Böses dabei denkt“', ['„Gott und mein Recht“', '„Immer treu“', '„Für König und Vaterland“']],

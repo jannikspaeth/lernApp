@@ -38,7 +38,7 @@ export const VELAZQUEZ: Subtopic = {
       ['Welche Maler lernte er in Italien kennen?', 'Tizian und Rubens', ['Giotto und Cimabue', 'Dürer und Cranach', 'Rembrandt und Hals']],
       ['Was soll der Papst über sein Porträt gesagt haben?', '„Zu wahr!“', ['„Wunderbar!“', '„Zu schön!“', '„Zu klein!“'], 'Innozenz X. soll sein Porträt „troppo vero“ (zu wahr) genannt haben.'],
       ['Welcher Maler schuf 58 Variationen von Las Meninas?', 'Pablo Picasso', ['Salvador Dalí', 'Édouard Manet', 'Francisco Goya'], 'Picasso malte 1957 insgesamt 58 Variationen zu Las Meninas.'],
-      ['Wann entstand diese Serie?', '1957', ['1857', '1907', '1987']],
+      ['Wann malte Picasso seine 58 Variationen nach „Las Meninas“?', '1957', ['1857', '1907', '1987']],
     ],
     schwer: [
       ['Wen heiratete Velázquez?', 'Die Tochter seines Lehrers Pacheco', ['Eine Hofdame', 'Eine Prinzessin', 'Eine Nonne'], 'Er heiratete Juana Pacheco, die Tochter seines Lehrers Francisco Pacheco.'],

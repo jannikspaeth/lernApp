@@ -105,7 +105,7 @@ const FOEDERATION: HistEvent = {
           ['Wann entstand das Commonwealth of Australia?', 'Am 1. Januar 1901', ['Am 26. Januar 1788', 'Am 25. April 1915', 'Am 1. Januar 1851']],
           ['Wie viele Kolonien schlossen sich zusammen?', 'Sechs', ['Drei', 'Zehn', 'Zwei']],
           ['Unter welcher Krone stand Australien 1901?', 'Unter der britischen', ['Unter der niederländischen', 'Unter keiner', 'Unter der französischen']],
-          ['Wer wurde erster Premierminister?', 'Edmund Barton', ['Henry Parkes', 'John Curtin', 'Robert Menzies']],
+          ['Wer wurde erster Premierminister Australiens?', 'Edmund Barton', ['Henry Parkes', 'John Curtin', 'Robert Menzies']],
           ['Wer gilt als „Vater der Föderation“?', 'Henry Parkes', ['Edmund Barton', 'Ned Kelly', 'Banjo Paterson']],
           ['Welches berühmte Lied schrieb Banjo Paterson?', '„Waltzing Matilda“', ['„Advance Australia Fair“', '„Down Under“', '„God Save the Queen“']],
           ['Was besangen Lawson und Paterson?', 'Den Busch', ['Die Antarktis', 'London', 'Den Krieg']],

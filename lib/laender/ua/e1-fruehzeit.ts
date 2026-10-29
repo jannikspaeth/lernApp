@@ -115,7 +115,7 @@ export const E1: Epoch = {
               ['Welches germanische Volk kam im 3. Jahrhundert ans Schwarze Meer?', 'Die Goten', ['Die Franken', 'Die Sachsen', 'Die Vandalen']],
               ['Wer überrannte um 375 die Goten?', 'Die Hunnen', ['Die Römer', 'Die Slawen', 'Die Mongolen']],
               ['Wer sind die Vorfahren von Ukrainern, Belarussen und Russen?', 'Die Ostslawen', ['Die Skythen', 'Die Goten', 'Die Griechen']],
-              ['An welchem Fluss lebten die Polanen?', 'Am Dnipro', ['Am Rhein', 'An der Weichsel', 'An der Wolga']],
+              ['An welchem Fluss lebten die ostslawischen Polanen?', 'Am Dnipro', ['Am Rhein', 'An der Weichsel', 'An der Wolga']],
               ['Welcher Gott war der Donnergott der Ostslawen?', 'Perun', ['Thor', 'Zeus', 'Odin']],
               ['Nach wem ist Kiew der Legende nach benannt?', 'Nach dem ältesten Bruder Kyj', ['Nach einem König Kiewan', 'Nach einem Fluss', 'Nach einer Göttin']],
               ['Wie viele Brüder gründeten Kiew der Legende nach?', 'Drei', ['Zwei', 'Sieben', 'Zwölf']],

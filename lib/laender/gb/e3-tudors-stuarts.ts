@@ -280,7 +280,7 @@ export const E3: Epoch = {
           quiz: {
             leicht: [
               ['Wer wurde 1660 König von England?', 'Karl II.', ['Karl I.', 'Jakob II.', 'Oliver Cromwell']],
-              ['Wie nannte man Karl II.?', '„Merry Monarch“ (fröhlicher König)', ['„Bloody King“', '„Virgin King“', '„Lionheart“']],
+              ['Wie nannte man den englischen König Karl II.?', '„Merry Monarch“ (fröhlicher König)', ['„Bloody King“', '„Virgin King“', '„Lionheart“']],
               ['Welche wissenschaftliche Akademie entstand 1660 in London?', 'Die Royal Society', ['Die Académie française', 'Die Sorbonne', 'Oxford']],
               ['Welcher Forscher veröffentlichte das Gravitationsgesetz?', 'Isaac Newton', ['Galileo Galilei', 'Albert Einstein', 'Charles Darwin']],
               ['Welche Seuche wütete 1665 in London?', 'Die Pest', ['Die Cholera', 'Die Grippe', 'Die Pocken']],

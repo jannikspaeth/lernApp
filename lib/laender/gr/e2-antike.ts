@@ -335,7 +335,7 @@ export const E2: Epoch = {
               ['Wann zerstörten die Römer Korinth?', '146 v. Chr.', ['338 v. Chr.', '30 v. Chr.', '323 v. Chr.']],
               ['Wann fiel Ägypten an Rom?', '30 v. Chr.', ['146 v. Chr.', '323 v. Chr.', '476 n. Chr.']],
               ['Welcher römische Dichter schrieb, das eroberte Griechenland habe den Sieger erobert?', 'Horaz', ['Homer', 'Herodot', 'Platon']],
-              ['Was meinte Horaz mit diesem Satz?', 'Die Römer übernahmen die griechische Kultur', ['Griechen eroberten Rom im Krieg', 'Rom zerstörte die griechische Kultur', 'Griechenland wurde nie römisch']],
+              ['Was meinte Horaz mit dem Satz „Das eroberte Griechenland eroberte den wilden Sieger“?', 'Die Römer übernahmen die griechische Kultur', ['Griechen eroberten Rom im Krieg', 'Rom zerstörte die griechische Kultur', 'Griechenland wurde nie römisch']],
               ['Aus welcher Stadt stammte Archimedes?', 'Aus Syrakus', ['Aus Athen', 'Aus Sparta', 'Aus Babylon']],
               ['Welches Weltwunder stand außer dem Pharos in der hellenistischen Welt?', 'Der Koloss von Rhodos', ['Der Eiffelturm', 'Die Chinesische Mauer', 'Das Kolosseum']],
               ['Mit wie vielen Soldaten brach Alexander ungefähr auf?', 'Mit rund 40.000', ['Mit rund 4.000', 'Mit rund 400.000', 'Mit rund einer Million']],

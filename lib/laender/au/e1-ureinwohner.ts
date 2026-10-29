@@ -50,7 +50,7 @@ export const E1: Epoch = {
             mittel: [
               ['Warum war der Weg nach Sahul leichter als heute?', 'Der Meeresspiegel war niedriger', ['Es gab Brücken', 'Es gab Schiffe aus Metall', 'Die Kontinente berührten sich mit Asien']],
               ['Wo fand man eine der ältesten Bestattungen der Welt?', 'Am Mungo-See', ['Am Uluru', 'In Sydney', 'In Kakadu']],
-              ['Wie alt ist diese Bestattung etwa?', 'Rund 40.000 Jahre', ['Rund 4.000 Jahre', 'Rund 400 Jahre', 'Rund 400.000 Jahre']],
+              ['Wie alt ist die Bestattung am Lake Mungo etwa?', 'Rund 40.000 Jahre', ['Rund 4.000 Jahre', 'Rund 400 Jahre', 'Rund 400.000 Jahre']],
               ['Wie viele Menschen lebten vor 1788 etwa in Australien?', '750.000 bis über eine Million', ['Rund 10.000', 'Rund 50 Millionen', 'Rund 100']],
               ['Welches Volk baute die Aalfallen in Budj Bim?', 'Die Gunditjmara', ['Die Anangu', 'Die Eora', 'Die Yolŋu']],
               ['Wie alt sind die Kanäle von Budj Bim?', 'Über 6.000 Jahre', ['Rund 200 Jahre', 'Rund 600 Jahre', 'Über 60.000 Jahre']],

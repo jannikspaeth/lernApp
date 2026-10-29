@@ -36,7 +36,7 @@ export const BRECHT: Subtopic = {
       ['Über welche Länder führte sein Exil?', 'Dänemark, Schweden, Finnland und die USA', ['Frankreich und Spanien', 'Schweiz und Italien', 'Russland und China'], null],
       ['Was geschah 1947 in Washington?', 'Brecht musste vor einem Ausschuss aussagen', ['Er erhielt einen Preis', 'Sein Stück wurde uraufgeführt', 'Er wurde verhaftet'], 'Einen Tag später verließ er die USA.'],
       ['Welches Gedicht schrieb Brecht nach dem 17. Juni 1953?', 'Die Lösung', ['Die Buckower Elegien insgesamt', 'An die Nachgeborenen', 'Fragen eines lesenden Arbeiters'], null],
-      ['Was schlägt dieses Gedicht ironisch vor?', 'Die Regierung solle sich ein anderes Volk wählen', ['Das Volk solle schweigen', 'Die Regierung solle zurücktreten', 'Man solle feiern'], null],
+      ['Was schlägt Brechts Gedicht „Die Lösung“ ironisch vor?', 'Die Regierung solle sich ein anderes Volk wählen', ['Das Volk solle schweigen', 'Die Regierung solle zurücktreten', 'Man solle feiern'], null],
       ['Wie heißt Brechts Gedichtsammlung aus den 1950er-Jahren?', 'Buckower Elegien', ['Hauspostille', 'Svendborger Gedichte', 'Kriegsfibel'], null],
       ['Welches Stück spielt in China?', 'Der gute Mensch von Sezuan', ['Mutter Courage', 'Der kaukasische Kreidekreis', 'Leben des Galilei'], null],
       ['Wie bleibt die Hauptfigur dort gut?', 'Sie verkleidet sich als harter Vetter', ['Sie flieht', 'Sie wird reich', 'Sie betet'], null],

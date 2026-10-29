@@ -60,7 +60,7 @@ export const AKSUM: Subtopic = {
       ['Warum verlor das Rote Meer an Bedeutung?', 'Wegen des Aufstiegs des Islam und der Eroberung Ägyptens', ['Wegen Piraten', 'Wegen Stürmen', 'Wegen Rom']],
       ['Was schwächte Aksum im 7./8. Jahrhundert?', 'Klimawandel, Entwaldung, Seuchen, Verlust der Handelswege', ['Nur Krieg', 'Nur Pest', 'Nur Dürre']],
       ['Wer soll Aksum um 960 zerstört haben?', 'Gudit (Judith)', ['Ezana', 'Lalibela', 'Kaleb']],
-      ['Wie sehen Historiker diese Überlieferung?', 'Ursachen sind umstritten', ['Eindeutig bewiesen', 'Falsch', 'Unwichtig']],
+      ['Wie sicher ist die Überlieferung, dass Gudit Aksum zerstörte?', 'Sie ist umstritten', ['Eindeutig bewiesen', 'Sicher falsch', 'Unwichtig']],
       ['Wohin verlagerte sich das Machtzentrum?', 'Nach Süden ins Landesinnere', ['Nach Norden', 'Zur Küste', 'Nach Ägypten']],
       ['Wer darf zur Bundeslade?', 'Nur ein einziger Mönch', ['Der Kaiser', 'Alle Priester', 'Alle Pilger']],
       ['Wie heißt das Fest in Aksum?', 'Maryam Zion', ['Timkat', 'Meskel', 'Fasika']],

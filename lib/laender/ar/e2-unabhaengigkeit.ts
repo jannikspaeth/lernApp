@@ -40,7 +40,7 @@ export const E2: Epoch = {
               ['Wie heißt das Symbol in der Mitte der Flagge?', 'Sonne des Mai', ['Stern des Südens', 'Mond der Anden', 'Kreuz des Südens']],
               ['Wann schuf Belgrano die Flagge?', '1812', ['1810', '1816', '1853']],
               ['Welcher Tag ist Tag der Flagge?', 'Der 20. Juni', ['Der 25. Mai', 'Der 9. Juli', 'Der 12. Oktober']],
-              ['Wann wurde die Unabhängigkeit erklärt?', 'Am 9. Juli 1816', ['Am 25. Mai 1810', 'Am 20. Juni 1812', 'Am 1. Mai 1853']],
+              ['Wann wurde die Unabhängigkeit Argentiniens erklärt?', 'Am 9. Juli 1816', ['Am 25. Mai 1810', 'Am 20. Juni 1812', 'Am 1. Mai 1853']],
               ['Wo wurde die Unabhängigkeit erklärt?', 'In Tucumán', ['In Buenos Aires', 'In Córdoba', 'In Salta']],
               ['Welches Wort ruft die Nationalhymne dreimal?', '¡Libertad!', ['¡Victoria!', '¡Patria!', '¡Argentina!']],
               ['Mit wem gerieten die Provinzen in Streit?', 'Mit Buenos Aires', ['Mit Brasilien', 'Mit Chile', 'Mit Peru']],

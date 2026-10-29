@@ -43,7 +43,7 @@ export const E4: Epoch = {
               ['Welche Kolonie wurde am 11. November 1975 unabhängig?', 'Angola', ['Brasilien', 'Macau', 'Goa']],
               ['Wie nannte man die Portugiesen, die aus Afrika zurückkehrten?', 'Retornados', ['Emigrantes', 'Navegadores', 'Capitães']],
               ['Welches Land besetzte 1975 Osttimor?', 'Indonesien', ['Australien', 'China', 'Japan']],
-              ['Wann fanden die ersten freien Wahlen statt?', 'Am 25. April 1975', ['Am 25. April 1974', 'Am 1. Mai 1974', 'Im Jahr 1986']],
+              ['Wann fanden in Portugal die ersten freien Wahlen nach der Nelkenrevolution statt?', 'Am 25. April 1975', ['Am 25. April 1974', 'Am 1. Mai 1974', 'Im Jahr 1986']],
               ['Wie heißt der 25. April heute?', 'Tag der Freiheit', ['Tag der Arbeit', 'Tag der Republik', 'Tag der Entdeckungen']],
               ['Wann trat die neue demokratische Verfassung in Kraft?', '1976', ['1974', '1986', '1933']],
             ],
@@ -67,7 +67,7 @@ export const E4: Epoch = {
               ['Wie hoch war die Wahlbeteiligung 1975?', 'Über 90 Prozent', ['Rund 30 Prozent', 'Rund 50 Prozent', 'Genau 100 Prozent']],
               ['Welche Partei wurde 1975 stärkste Kraft?', 'Die Sozialisten', ['Die Kommunisten', 'Die Monarchisten', 'Die União Nacional']],
               ['Wer setzte sich am 25. November 1975 durch?', 'Gemäßigte Offiziere unter Ramalho Eanes', ['Linke Militärs unter Otelo', 'Die Kommunistische Partei', 'Anhänger Caetanos']],
-              ['Wer wurde 1976 Präsident?', 'António Ramalho Eanes', ['Mário Soares', 'Álvaro Cunhal', 'António de Spínola']],
+              ['Wer wurde 1976 Präsident Portugals?', 'António Ramalho Eanes', ['Mário Soares', 'Álvaro Cunhal', 'António de Spínola']],
             ],
             schwer: [
               ['Um wie viel Uhr lief „Grândola, Vila Morena“ im Radio?', 'Um 0:20 Uhr', ['Um 22:55 Uhr', 'Um 12:00 Uhr', 'Um 6:00 Uhr']],

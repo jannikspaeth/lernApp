@@ -60,7 +60,7 @@ export const CHINESISCH: Subtopic = {
       ['Wen gebar Âu Cơ der Legende nach?', '100 Söhne', ['Zwei Töchter', 'Ein Kind', 'Zehn Söhne']],
       ['Was erreichte Zhao Tuo für sein Reich?', 'Ein Reich im Süden, Nanyue', ['Eine Provinz Chinas', 'Ein Königreich Champa', 'Ein Kaiserreich']],
       ['Warum wurde die Herrschaft Chinas „hart“ erlebt?', 'Wegen Steuern, Kontrolle und Ausbeutung', ['Wegen Freiheit', 'Wegen Handelsverbot', 'Wegen Religionsfreiheit']],
-      ['Wie bewerten Vietnamesen diese Zeit?', 'Als Fremdherrschaft, aber auch Quelle von Widerstandsstolz', ['Als Goldenes Zeitalter', 'Als bedeutungslos', 'Als Befreiung']],
+      ['Wie bewerten Vietnamesen die Zeit der chinesischen Herrschaft?', 'Als Fremdherrschaft, aber auch Quelle von Widerstandsstolz', ['Als Goldenes Zeitalter', 'Als bedeutungslos', 'Als Befreiung']],
       ['Welche Rolle hatten die Frauen in Vietnam?', 'Eine starke Stellung', ['Gar keine Rechte', 'Nur im Kloster', 'Nur am Hof']],
       ['Was schwächte im 9. Jahrhundert China?', 'Der Niedergang der Tang-Dynastie', ['Der Aufstieg der Han', 'Der Bau der Mauer', 'Der Tod Wus']],
       ['Was erlaubte der Niedergang Tang?', 'Mehr Eigenständigkeit für lokale Adelsfamilien', ['Eine Eroberung Vietnams', 'Ein Bündnis mit Japan', 'Eine Hungersnot']],

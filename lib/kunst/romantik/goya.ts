@@ -18,7 +18,7 @@ export const GOYA: Subtopic = {
       ['Wer erschießt hier Spanier?', 'Französische Soldaten', ['Englische Soldaten', 'Preußische Soldaten', 'Russische Soldaten']],
       ['Was trägt der Mann in der Mitte?', 'Ein weißes Hemd', ['Eine Uniform', 'Einen Mantel', 'Eine Rüstung'], 'Der Mann im weißen Hemd hebt die Arme wie Christus am Kreuz.'],
       ['Wie heißt dieses düstere Bild?', 'Saturn verschlingt seinen Sohn', ['Der Schlaf der Vernunft', 'Der Hexensabbat', 'Das Gericht'], null, 'saturn'],
-      ['Wie nennt man diese Gruppe von Bildern?', 'Die Schwarzen Bilder', ['Die Caprichos', 'Die Tauromaquia', 'Die Disparates'], 'Goya malte sie 1819–1823 an die Wände seines Landhauses.'],
+      ['Wie nennt man Goyas düstere Wandbilder aus seinem Landhaus?', 'Die Schwarzen Bilder', ['Die Caprichos', 'Die Tauromaquia', 'Die Disparates'], 'Goya malte sie 1819–1823 an die Wände seines Landhauses.'],
       ['Wie heißt dieses Gemälde?', 'Die nackte Maja', ['Die Venus', 'Die Herzogin von Alba', 'Die Odaliske'], 'Die Maja gilt als einer der ersten nichtmythologischen Akte der spanischen Malerei.', 'nackte-maja'],
       ['Was war Goya am spanischen Hof?', 'Hofmaler', ['Hofnarr', 'Hofarzt', 'Hofbaumeister'], '1799 wurde er Erster Hofmaler Karls IV.'],
       ['Welche Krankheit machte ihn taub?', 'Eine unbekannte Krankheit um 1792', ['Ein Unfall', 'Eine Vergiftung', 'Ein Sturz'], 'Um 1792 verlor Goya sein Gehör.'],

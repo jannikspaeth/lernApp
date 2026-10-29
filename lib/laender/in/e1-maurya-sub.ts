@@ -23,7 +23,7 @@ export const MAURYA: Subtopic = {
       ['Welches Gebiet eroberte Ashoka in einem blutigen Krieg?', 'Kalinga', ['Bengalen', 'Gandhara', 'Kaschmir']],
       ['Wie reagierte Ashoka auf das Leid des Krieges?', 'Er bereute und wandte sich dem Buddhismus zu', ['Er eroberte weiter', 'Er dankte ab', 'Er floh']],
       ['Wohin ließ Ashoka seine Botschaften schreiben?', 'Auf Felsen und Säulen', ['In Bücher', 'Auf Münzen', 'Auf Seide']],
-      ['Wie nennt man diese Botschaften?', 'Edikte', ['Epen', 'Veden', 'Hymnen']],
+      ['Wie nennt man Ashokas in Stein gemeißelte Botschaften?', 'Edikte', ['Epen', 'Veden', 'Hymnen']],
       ['Wozu riefen die Edikte auf?', 'Zu Toleranz und Milde', ['Zum Krieg', 'Zur Steuerzahlung', 'Zur Götterverehrung allein']],
       ['Was legte Ashoka an den Straßen an?', 'Schattenbäume und Brunnen', ['Mauern', 'Zölle', 'Festungen']],
       ['Wohin brachten Ashokas Kinder den Buddhismus?', 'Nach Sri Lanka', ['Nach Japan', 'Nach Ägypten', 'Nach Rom']],

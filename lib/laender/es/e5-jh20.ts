@@ -50,7 +50,7 @@ export const E5: Epoch = {
             mittel: [
               ['Wie viele Soldaten starben bei Annual?', 'Über 10.000', ['Rund 100', 'Rund 1000', 'Über 100.000']],
               ['Was löste die Tragische Woche aus?', 'Der Einzug von Reservisten für Marokko', ['Ein Fußballspiel', 'Die Pest', 'Eine Königswahl']],
-              ['Wann war die Tragische Woche?', '1909', ['1921', '1931', '1898']],
+              ['Wann war die Tragische Woche in Barcelona?', '1909', ['1921', '1931', '1898']],
               ['Mit wessen Zustimmung kam Primo de Rivera an die Macht?', 'Mit Zustimmung des Königs', ['Mit Zustimmung der Republik', 'Gegen den König', 'Mit Zustimmung Frankreichs']],
               ['Was baute Primo de Rivera?', 'Straßen und Staudämme', ['Kolonien', 'Kathedralen', 'Atomkraftwerke']],
               ['Wann trat Primo de Rivera zurück?', '1930', ['1923', '1931', '1936']],

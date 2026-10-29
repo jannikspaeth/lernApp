@@ -17,7 +17,7 @@ export const SOLSCHENIZYN: Subtopic = {
       ['Wer schrieb „Der Archipel Gulag“?', 'Alexander Solschenizyn', ['Boris Pasternak', 'Michail Bulgakow', 'Warlam Schalamow'], null, 'solschenizyn'],
       ['Worum geht es in dem Buch?', 'Um das sowjetische Lagersystem', ['Um den Zweiten Weltkrieg', 'Um die Revolution', 'Um eine Seereise'], null],
       ['Wie heißt Solschenizyns Erzählung von 1962?', 'Ein Tag im Leben des Iwan Denissowitsch', ['Krebsstation', 'Der erste Kreis der Hölle', 'Matrjonas Hof'], null],
-      ['Was schildert diese Erzählung?', 'Einen einzigen gewöhnlichen Lagertag', ['Eine Flucht', 'Einen Prozess', 'Eine Befreiung'], null],
+      ['Was schildert Solschenizyns „Ein Tag im Leben des Iwan Denissowitsch“?', 'Einen einzigen gewöhnlichen Lagertag', ['Eine Flucht', 'Einen Prozess', 'Eine Befreiung'], null],
       ['Wer erlaubte den Druck persönlich?', 'Chruschtschow', ['Stalin', 'Breschnew', 'Gorbatschow'], null],
       ['Wie lange war Solschenizyn in Lager und Verbannung?', 'Acht Jahre', ['Ein Jahr', 'Zwanzig Jahre', 'Drei Monate'], null],
       ['Was geschah 1974 mit Solschenizyn?', 'Er wurde ausgebürgert und ausgeflogen', ['Er wurde erschossen', 'Er erhielt einen Orden', 'Er wurde Minister'], null],

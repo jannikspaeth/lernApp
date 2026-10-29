@@ -316,7 +316,7 @@ export const E4: Epoch = {
               ['Wann stießen ukrainische Truppen nach Kursk vor?', 'Im August 2024', ['Im Februar 2022', 'Im Juni 2023', 'Im November 2022']],
               ['In welche Länder flohen viele Ukrainer?', 'Nach Polen und Deutschland', ['Nach Island und Grönland', 'Nach China und Japan', 'Nach Australien']],
               ['Was lieferten westliche Staaten?', 'Waffen wie Raketenwerfer, Kampfpanzer und Flugabwehr', ['Nur Decken', 'Nichts', 'Atomwaffen']],
-              ['Wann begannen die EU-Beitrittsverhandlungen?', 'Im Juni 2024', ['Im Juni 2022', 'Im Jahr 2014', 'Im Jahr 2004']],
+              ['Wann begannen die EU-Beitrittsverhandlungen mit der Ukraine?', 'Im Juni 2024', ['Im Juni 2022', 'Im Jahr 2014', 'Im Jahr 2004']],
               ['Mit welchem Lied gewann Kalush Orchestra?', '„Stefania“', ['„1944“', '„Wild Dances“', '„Shum“']],
             ],
             schwer: [

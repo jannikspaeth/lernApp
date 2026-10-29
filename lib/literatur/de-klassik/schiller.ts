@@ -19,7 +19,7 @@ export const SCHILLER: Subtopic = {
       ['Welches Drama Schillers spielt in der Schweiz?', 'Wilhelm Tell', ['Maria Stuart', 'Wallenstein', 'Die Räuber'], null],
       ['Wie beginnt der berühmte Satz aus dem Rütlischwur?', '„Wir wollen sein ein einzig Volk von Brüdern“', ['„Alle Menschen werden Brüder“', '„Die Axt im Haus“', '„Der brave Mann denkt an sich selbst zuletzt“'], null],
       ['Welches Gedicht Schillers vertonte Beethoven?', 'An die Freude', ['Das Lied von der Glocke', 'Der Taucher', 'Die Bürgschaft'], 'Im Schlusschor seiner 9. Sinfonie.'],
-      ['Was ist diese Melodie heute?', 'Die Europahymne', ['Die deutsche Nationalhymne', 'Ein Kirchenlied', 'Eine Oper'], null],
+      ['Was ist Beethovens Vertonung von Schillers „Ode an die Freude“ heute?', 'Die Europahymne', ['Die deutsche Nationalhymne', 'Ein Kirchenlied', 'Eine Oper'], null],
       ['Welches Drama handelt von zwei Königinnen?', 'Maria Stuart', ['Die Jungfrau von Orleans', 'Wilhelm Tell', 'Don Carlos'], 'Maria Stuart und Elisabeth I. von England.'],
       ['Über wen schrieb Schiller „Die Jungfrau von Orleans“?', 'Über Jeanne d’Arc', ['Über Maria Theresia', 'Über Elisabeth I.', 'Über Katharina die Große'], null],
       ['Was musste Schiller auf der Militärschule studieren?', 'Medizin', ['Jura', 'Theologie', 'Philosophie'], 'Er wollte eigentlich schreiben.'],

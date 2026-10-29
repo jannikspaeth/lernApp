@@ -292,7 +292,7 @@ export const DREISSIGJAEHRIGER: HistEvent = {
           ['Welches Land trat 1635 offen in den Dreißigjährigen Krieg ein?', 'Frankreich', ['England', 'Russland', 'Italien']],
           ['Welche beiden Bündnisse standen sich vor dem Dreißigjährigen Krieg gegenüber?', 'Union und Liga', ['Hanse und Bund', 'Entente und Achse', 'NATO und Warschauer Pakt']],
           ['Welche Konfession hatte die Liga im Dreißigjährigen Krieg?', 'Katholisch', ['Evangelisch', 'Calvinistisch', 'Orthodox']],
-          ['Wer führte die katholische Liga an?', 'Maximilian I. von Bayern', ['Friedrich V. von der Pfalz', 'Gustav Adolf', 'Christian IV.']],
+          ['Wer führte im Dreißigjährigen Krieg die katholische Liga an?', 'Maximilian I. von Bayern', ['Friedrich V. von der Pfalz', 'Gustav Adolf', 'Christian IV.']],
           ['Welcher Feldherr der Liga siegte am Weißen Berg?', 'Tilly', ['Wallenstein', 'Pappenheim', 'Gustav Adolf']],
           ['Auf welcher Insel landeten die Schweden 1630?', 'Usedom', ['Rügen', 'Sylt', 'Fehmarn']],
           ['Wie lautete Wallensteins Grundsatz?', '„Der Krieg ernährt den Krieg“', ['„Gott mit uns“', '„Teile und herrsche“', '„Frieden um jeden Preis“']],

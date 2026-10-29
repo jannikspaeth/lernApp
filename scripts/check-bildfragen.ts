@@ -17,6 +17,11 @@ const PIC = /\b(dies(e|er|es|en)|abgebildete[nrs]?|gezeigte[nrs]?) (Bild|Gemäld
 // "Auf welchem Geldschein ist X abgebildet?" asks a fact, not about a picture.
 const NOT_PIC = /Geldschein|Banknote|Münze|Briefmarke|^Wo (ist|war|wurde)/i;
 
+// "dieser Vertrag", "diese Zeit" … only make sense with a picture or the previous question.
+// "Welches dieser Länder" refers to the options and is fine; quoted text is ignored.
+const DEMO = /\bdies(e|er|es|en|em)\s+[A-ZÄÖÜ]/;
+const demo = (q: string) => DEMO.test(q.replace(/„[^“]*“/g, '').replace(/\b(welche[rsmn]?|einige[rsmn]?|keine[rsmn]?|eine[rsmn]?|viele[rsmn]?) (der |)dies/gi, ''));
+
 let problems = 0;
 const out = (m: string) => { problems++; console.log('✗', m); };
 
@@ -29,11 +34,13 @@ for (const [name, h] of sets) {
         if (name !== 'MUS') out(`${name} ${path}/${l.id}: unknown picture "${key}" – ${q}`);
       }
       if (!key && PIC.test(q) && !NOT_PIC.test(q)) out(`${name} ${path}/${l.id}: refers to a picture but has none – ${q}`);
+      else if (!key && demo(q as string)) out(`${name} ${path}/${l.id}: needs the previous question or a picture – ${q}`);
     }
   }
 }
 for (const s of SUBJECTS) for (const t of s.topics) for (const c of t.cards) {
   if (!c.img && PIC.test(c.q) && !NOT_PIC.test(c.q)) out(`${s.id}/${t.id}: refers to a picture but has none – ${c.q}`);
+  else if (!c.img && demo(c.q)) out(`${s.id}/${t.id}: needs the previous question or a picture – ${c.q}`);
 }
 console.log(`${problems} problems`);
 process.exit(problems ? 1 : 0);

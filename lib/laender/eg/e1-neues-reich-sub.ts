@@ -14,7 +14,7 @@ export const NEUES_REICH: Subtopic = {
   quiz: {
     leicht: [
       ['Wer einte das Land um 2055 v. Chr.?', 'Mentuhotep II.', ['Ahmose I.', 'Ramses II.', 'Djoser']],
-      ['Wie heißt diese Epoche?', 'Mittleres Reich', ['Altes Reich', 'Neues Reich', 'Spätzeit']],
+      ['Wie heißt die Epoche, die mit Mentuhotep II. um 2055 v. Chr. begann?', 'Mittleres Reich', ['Altes Reich', 'Neues Reich', 'Spätzeit']],
       ['Welche bekannte Erzählung entstand?', 'Die Geschichte des Sinuhe', ['Die Odyssee', 'Das Totenbuch allein', 'Das Gilgamesch-Epos']],
       ['Was eroberten die Pharaonen der 12. Dynastie?', 'Nubien', ['Syrien', 'Libyen', 'Zypern']],
       ['Wie hießen die Fremdherrscher?', 'Hyksos', ['Hethiter', 'Assyrer', 'Perser']],

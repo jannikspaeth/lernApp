@@ -30,7 +30,7 @@ export const SILLA_GORYEO: Subtopic = {
       ['Wohin floh der Hof vor den Mongolen?', 'Auf die Insel Ganghwa', ['Nach Japan', 'Nach Peking', 'Nach Seoul']],
       ['Was wurde Goryeo 1259?', 'Ein Vasall des Yuan-Reiches', ['Ein Kaiserreich', 'Eine Republik', 'Ein Teil Japans']],
       ['Wer plünderte im 14. Jahrhundert Küsten?', 'Japanische Piraten', ['Chinesische Soldaten', 'Mongolische Reiter', 'Russische Seeleute']],
-      ['Wie nennt man diese Piraten?', 'Wokou', ['Hwarang', 'Chaebol', 'Yangban']],
+      ['Wie nennt man die japanischen Piraten, die Korea im Mittelalter plünderten?', 'Wokou', ['Hwarang', 'Chaebol', 'Yangban']],
       ['Wer gründete 1392 Joseon?', 'Yi Seong-gye', ['Wang Geon', 'Sejong', 'Park Chung-hee']],
       ['Wie lange bestand Goryeo?', '474 Jahre', ['47 Jahre', '4.740 Jahre', '100 Jahre']],
     ],

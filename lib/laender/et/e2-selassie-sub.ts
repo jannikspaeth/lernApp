@@ -46,7 +46,7 @@ export const SELASSIE: Subtopic = {
       ['Wer war Vizekönig?', 'Graziani', ['Badoglio', 'Baratieri', 'Mussolini']],
       ['Wann war das Attentat auf Graziani?', '19. Februar 1937', ['3. Oktober 1935', '5. Mai 1941', '12. September 1974']],
       ['Wie heißt das Massaker?', 'Yekatit 12', ['Meskel 17', 'Tir 5', 'Genbot 3']],
-      ['Wie lange dauerte die Besatzung?', '1936–1941', ['1935–1945', '1896–1913', '1974–1991']],
+      ['Wie lange dauerte die italienische Besatzung Äthiopiens?', '1936–1941', ['1935–1945', '1896–1913', '1974–1991']],
       ['Wer befreite zusammen das Land?', 'Britische Truppen und äthiopische Kämpfer', ['Amerikanische Truppen', 'Sowjetische Truppen', 'Französische Truppen']],
       ['Was wurde 1952 mit Eritrea gemacht?', 'Eine Föderation mit Äthiopien', ['Unabhängigkeit', 'Annexion', 'Teilung']],
       ['Wann wurde Eritrea annektiert?', '1962', ['1952', '1941', '1974']],

@@ -117,7 +117,7 @@ export const E1: Epoch = {
               ['Auf welcher Insel liegen die Ringburgen Eketorp und Ismantorp?', 'Auf Öland', ['Auf Gotland', 'Auf Island', 'Auf Seeland']],
               ['Welches Volk lebte um den Mälarsee?', 'Die Svear', ['Die Götar', 'Die Samen', 'Die Dänen']],
               ['Welches Volk lebte im Süden Schwedens?', 'Die Götar', ['Die Svear', 'Die Finnen', 'Die Sachsen']],
-              ['Was gibt es auf Gotland Besonderes aus dieser Zeit?', 'Bildsteine', ['Pyramiden', 'Römische Tempel', 'Burgen der Ritter']],
+              ['Was gibt es auf Gotland Besonderes aus der Eisenzeit?', 'Bildsteine', ['Pyramiden', 'Römische Tempel', 'Burgen der Ritter']],
               ['Nach welchem Ort ist die Vendelzeit benannt?', 'Nach Vendel in Uppland', ['Nach Venedig', 'Nach Vendée in Frankreich', 'Nach Wenden in Polen']],
               ['Worin wurden vornehme Krieger in der Vendelzeit bestattet?', 'In Booten', ['In Pyramiden', 'In Kirchen', 'In Höhlen']],
               ['Welcher Ort war Zentrum der Svear?', 'Gamla Uppsala', ['Stockholm', 'Göteborg', 'Malmö']],

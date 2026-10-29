@@ -38,7 +38,7 @@ export const AKBAR: Subtopic = {
       ['Wann wurde Akbar geboren?', '1542', ['1526', '1556', '1605']],
       ['Wer war Akbars Regent?', 'Bairam Khan', ['Todar Mal', 'Tansen', 'Hemu']],
       ['Gegen wen siegte Bairam Khan 1556?', 'Gegen Hemu', ['Gegen Ibrahim Lodi', 'Gegen Sher Shah', 'Gegen Timur']],
-      ['Wo fand diese Schlacht statt?', 'Bei Panipat', ['Bei Plassey', 'Bei Agra', 'Bei Goa']],
+      ['Wo siegte Akbars Heer 1556 entscheidend?', 'Bei Panipat', ['Bei Plassey', 'Bei Agra', 'Bei Goa']],
       ['Wie hieß das Verwaltungssystem?', 'Mansabdari', ['Zamindari', 'Panchayat', 'Kastenwesen']],
       ['Was bestimmte der Mansab-Rang?', 'Zahl der Soldaten und Einkommen', ['Die Religion', 'Den Wohnort', 'Den Beruf der Kinder']],
       ['Wie hießen die Provinzen?', 'Subas', ['Mahajanapadas', 'Varnas', 'Kantone']],

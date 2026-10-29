@@ -102,7 +102,7 @@ export const DIKTATUR: HistEvent = {
       quiz: {
         leicht: [
           ['Wer bildete 1976 die Junta?', 'Die Chefs von Heer, Marine und Luftwaffe', ['Gewerkschaftsführer', 'Bischöfe', 'Peronisten']],
-          ['Wer wurde 1976 Präsident?', 'General Jorge Rafael Videla', ['Galtieri', 'Onganía', 'Alfonsín']],
+          ['Wer wurde 1976 Präsident Argentiniens?', 'General Jorge Rafael Videla', ['Galtieri', 'Onganía', 'Alfonsín']],
           ['Wie nannte sich die Diktatur?', 'Prozess der Nationalen Reorganisation', ['Argentinische Revolution', 'Revolución Libertadora', 'Década Infame']],
           ['Wie heißt die Verfolgung der Gegner?', 'Schmutziger Krieg', ['Kalter Krieg', 'Falklandkrieg', 'Paraguaykrieg']],
           ['Wie viele Menschen verschwanden nach Angaben von Menschenrechtsgruppen?', 'Rund 30.000', ['Rund 300', 'Rund 3.000', 'Rund 300.000']],
@@ -136,7 +136,7 @@ export const DIKTATUR: HistEvent = {
           ['Welches Stadion liegt nahe der ESMA?', 'Das Stadion von River Plate', ['La Bombonera', 'Das Maracanã', 'Wembley']],
           ['Wer war Wirtschaftsminister der Junta?', 'Martínez de Hoz', ['Domingo Cavallo', 'López Rega', 'Kicillof']],
           ['Was tat Martínez de Hoz mit der Wirtschaft?', 'Er öffnete sie', ['Er verstaatlichte alles', 'Er schloss die Grenzen', 'Er schaffte das Geld ab']],
-          ['Was litt unter dieser Politik?', 'Industrie und Löhne', ['Die Auslandsschulden', 'Die Junta-Generäle', 'Die Importe']],
+          ['Was litt unter der Wirtschaftspolitik der argentinischen Militärjunta?', 'Industrie und Löhne', ['Die Auslandsschulden', 'Die Junta-Generäle', 'Die Importe']],
           ['Was setzte die Junta Anfang der 1980er unter Druck?', 'Wirtschaftskrise und Proteste', ['Ein Sieg im Fußball', 'Ein Erdbeben', 'Ein Sieg im Tennis']],
           ['Welchen Ausweg suchte Galtieri?', 'Ein patriotisches Abenteuer', ['Freie Wahlen', 'Seinen Rücktritt', 'Einen Vertrag mit Chile']],
           ['Wofür setzte sich Pérez Esquivel ein?', 'Für Menschenrechte', ['Für die Junta', 'Für den Fußball', 'Für Ölförderung']],

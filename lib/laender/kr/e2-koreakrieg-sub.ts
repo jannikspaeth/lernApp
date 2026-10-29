@@ -29,7 +29,7 @@ export const KOREAKRIEG: Subtopic = {
       ['Wie nannte China seine Soldaten?', 'Freiwillige', ['Söldner', 'Rekruten', 'Partisanen']],
       ['Wer entließ MacArthur?', 'Präsident Truman', ['Eisenhower', 'Kennedy', 'Stalin']],
       ['Wann endete der Krieg mit einem Waffenstillstand?', '27. Juli 1953', ['25. Juni 1950', '15. August 1945', '3. Oktober 1948']],
-      ['Wo wurde der Waffenstillstand unterzeichnet?', 'In Panmunjeom', ['In Seoul', 'In Tokio', 'In Peking']],
+      ['Wo wurde der Waffenstillstand im Koreakrieg unterzeichnet?', 'In Panmunjeom', ['In Seoul', 'In Tokio', 'In Peking']],
       ['Gibt es einen Friedensvertrag?', 'Nein', ['Ja, seit 1953', 'Ja, seit 1960', 'Ja, seit 2000']],
       ['Wie heißt die Grenzzone?', 'Demilitarisierte Zone', ['Pufferzone', 'Sperrbezirk', 'Neutrale Zone']],
       ['Welches Land schickte ein Feldlazarett?', 'Deutschland', ['Spanien', 'Italien', 'Polen']],

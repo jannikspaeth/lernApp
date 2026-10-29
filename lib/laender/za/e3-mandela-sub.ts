@@ -21,7 +21,7 @@ export const MANDELA: Subtopic = {
       ['Wer wurde 1993 ermordet?', 'Chris Hani', ['Steve Biko', 'Walter Sisulu', 'Oliver Tambo']],
       ['Wer verhinderte einen Bürgerkrieg?', 'Nelson Mandela', ['F. W. de Klerk', 'Desmond Tutu', 'Thabo Mbeki']],
       ['Wann war die erste freie Wahl?', '27. April 1994', ['11. Februar 1990', '10. Mai 1994', '16. Juni 1976']],
-      ['Wie heißt dieser Tag heute?', 'Freedom Day', ['Youth Day', 'Heritage Day', 'Human Rights Day']],
+      ['Wie heißt der 27. April heute in Südafrika?', 'Freedom Day', ['Youth Day', 'Heritage Day', 'Human Rights Day']],
       ['Wie viel Prozent erhielt der ANC?', 'Rund 62 Prozent', ['Rund 22 Prozent', 'Rund 42 Prozent', 'Rund 92 Prozent']],
       ['Wo wurde Mandela vereidigt?', 'In den Union Buildings in Pretoria', ['In Kapstadt', 'In Johannesburg', 'In Soweto']],
       ['Wer wurden Vizepräsidenten?', 'de Klerk und Thabo Mbeki', ['Tutu und Sisulu', 'Hani und Tambo', 'Zuma und Ramaphosa']],

@@ -281,7 +281,7 @@ export const E3: Epoch = {
               ['Was wollte Dubček?', 'Einen „Sozialismus mit menschlichem Antlitz“', ['Die Rückkehr der Monarchie', 'Den Anschluss an die Sowjetunion', 'Den Kapitalismus']],
               ['Wie nennt man die Reformzeit 1968?', 'Prager Frühling', ['Samtene Revolution', 'Normalisierung', 'Februarumsturz']],
               ['Was wurde 1968 aufgehoben?', 'Die Zensur', ['Die Kirche', 'Die Armee', 'Die Grenzen nach Osten']],
-              ['Wer wurde 1968 Präsident?', 'Ludvík Svoboda', ['Alexander Dubček', 'Václav Havel', 'Antonín Novotný']],
+              ['Wer wurde 1968 Präsident der Tschechoslowakei?', 'Ludvík Svoboda', ['Alexander Dubček', 'Václav Havel', 'Antonín Novotný']],
               ['Wie heißt das Manifest von Ludvík Vaculík?', '„Manifest der 2000 Worte“', ['„Charta 77“', '„Kommunistisches Manifest“', '„Die Wahrheit siegt“']],
               ['Wann marschierten Truppen des Warschauer Paktes ein?', 'In der Nacht vom 20. auf den 21. August 1968', ['Am 15. März 1939', 'Am 17. November 1989', 'Am 1. Januar 1968']],
               ['Welches Land führte den Einmarsch an?', 'Die Sowjetunion', ['Die DDR', 'Polen', 'Ungarn']],

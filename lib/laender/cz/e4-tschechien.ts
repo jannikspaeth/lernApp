@@ -36,7 +36,7 @@ export const E4: Epoch = {
               ['Wer wurde am 29. Dezember 1989 Präsident?', 'Václav Havel', ['Alexander Dubček', 'Václav Klaus', 'Gustáv Husák']],
               ['Was riefen die Menschen für Havel?', '„Havel auf die Burg!“', ['„Havel nach Moskau!“', '„Die Wahrheit siegt!“', '„Freiheit oder Tod!“']],
               ['Warum heißt die Revolution „samten“?', 'Weil sie ohne Gewalt verlief', ['Weil Samt verteilt wurde', 'Weil sie im Theater begann', 'Weil sie nur einen Tag dauerte']],
-              ['Wann fanden die ersten freien Wahlen statt?', 'Im Juni 1990', ['Im Dezember 1989', 'Im Januar 1993', 'Im Mai 2004']],
+              ['Wann fanden in der Tschechoslowakei die ersten freien Wahlen nach 1989 statt?', 'Im Juni 1990', ['Im Dezember 1989', 'Im Januar 1993', 'Im Mai 2004']],
               ['Wer gewann die ersten freien Wahlen 1990?', 'Das Bürgerforum', ['Die Kommunisten', 'Die Sudetendeutschen', 'Die Monarchisten']],
               ['Wie hieß der Streit um den Staatsnamen 1990?', 'Bindestrich-Krieg', ['Namenskrieg', 'Samtener Streit', 'Wortkrieg']],
               ['Wann zogen die sowjetischen Truppen ab?', '1991', ['1989', '1993', '1999']],

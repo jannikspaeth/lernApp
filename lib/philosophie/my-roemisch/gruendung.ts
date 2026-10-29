@@ -52,7 +52,7 @@ export const GRUENDUNG: Subtopic = {
       ['Als welcher Gott wurde Romulus verehrt?', 'Als Quirinus', ['Als Janus', 'Als Mars', 'Als Saturn'], 'Nach seiner Entrückung im Gewitter.'],
       ['Welcher König ordnete die römischen Kulte?', 'Numa Pompilius', ['Tarquinius Superbus', 'Servius Tullius', 'Ancus Marcius'], 'Der Nachfolger des Romulus.'],
       ['Wer verteidigte allein eine Tiberbrücke?', 'Horatius Cocles', ['Mucius Scaevola', 'Brutus', 'Camillus'], 'Gegen die Etrusker.'],
-      ['Welcher Historiker erzählte diese Sagen?', 'Livius', ['Tacitus', 'Sueton', 'Plinius'], 'Als Vorbilder römischer Tugend.'],
+      ['Welcher Historiker erzählte die Sagen von Roms Gründung?', 'Livius', ['Tacitus', 'Sueton', 'Plinius'], 'Als Vorbilder römischer Tugend.'],
     ],
   },
 };

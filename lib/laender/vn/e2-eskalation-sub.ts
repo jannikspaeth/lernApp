@@ -54,7 +54,7 @@ export const ESKALATION: Subtopic = {
       ['Wo lebten Guerillas in Tunneln?', 'In Củ Chi', ['In My Lai', 'In Huế', 'In Hanoi']],
       ['Wie war die Front?', 'Es gab keine klare Front', ['Eine klare Front am 17. Breitengrad', 'Eine Front am Mekong', 'Eine Front im Meer']],
       ['Was wuchs in den USA?', 'Die Antikriegsbewegung', ['Die Zustimmung', 'Der Handel', 'Die Wehrpflicht-Begeisterung']],
-      ['Was war neu an diesem Krieg?', 'Er war täglich im Fernsehen zu sehen', ['Er hatte Atombomben', 'Er war der kürzeste', 'Er wurde geheim geführt']],
+      ['Was war neu am Vietnamkrieg?', 'Er war täglich im Fernsehen zu sehen', ['Er hatte Atombomben', 'Er war der kürzeste', 'Er wurde geheim geführt']],
     ],
     schwer: [
       ['Worunter litten die Bauern im Süden?', 'Unter Landreformen und Umsiedlung', ['Unter Dürre', 'Unter dem Kaiser', 'Unter Steuerfreiheit']],

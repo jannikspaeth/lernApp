@@ -23,7 +23,7 @@ export const RENAISSANCE: Subtopic = {
       ['Wo findet Astolfo Rolands Verstand?', 'Auf dem Mond', ['In der Hölle', 'In Jerusalem', 'Auf dem Meer'], null],
       ['Wer schrieb „Das befreite Jerusalem“?', 'Torquato Tasso', ['Ariost', 'Dante', 'Machiavelli'], null, 'tasso'],
       ['Worum geht es in Tassos Epos?', 'Um den ersten Kreuzzug', ['Um Troja', 'Um Rom', 'Um die Entdeckung Amerikas'], null],
-      ['Wie heißt die Zauberin in diesem Epos?', 'Armida', ['Angelica', 'Kirke', 'Dido'], null],
+      ['Wie heißt die Zauberin in Tassos „Das befreite Jerusalem“?', 'Armida', ['Angelica', 'Kirke', 'Dido'], null],
       ['Welches Drama Goethes handelt von Tasso?', 'Torquato Tasso', ['Egmont', 'Iphigenie', 'Faust'], null],
       ['In welcher Stadt wirkte Ariost am Hof der Este?', 'In Ferrara', ['In Rom', 'In Florenz', 'In Mailand'], null],
     ],

@@ -44,7 +44,7 @@ export const SOZIALISMUS: Subtopic = {
     schwer: [
       ['In welcher Stadt erschien das Kommunistische Manifest?', 'In London', ['In Paris', 'In Berlin', 'In Trier'], 'In deutscher Sprache, Februar 1848.'],
       ['Wann schlossen sich die deutschen Arbeiterparteien zusammen?', '1875 in Gotha', ['1863 in Leipzig', '1890 in Berlin', '1918 in Weimar'], 'Ab 1890 hieß die Partei SPD.'],
-      ['Seit wann trägt die SPD diesen Namen?', 'Seit 1890', ['Seit 1863', 'Seit 1919', 'Seit 1946'], 'Nach dem Ende der Sozialistengesetze.'],
+      ['Seit wann heißt die SPD so?', 'Seit 1890', ['Seit 1863', 'Seit 1919', 'Seit 1946'], 'Nach dem Ende der Sozialistengesetze.'],
       ['Wann wurde der Achtstundentag in Deutschland eingeführt?', '1918', ['1890', '1933', '1949'], 'In der Novemberrevolution.'],
       ['Was versteht Marx unter Produktionsmitteln?', 'Fabriken, Maschinen und Boden', ['Geld und Gold', 'Bücher und Zeitungen', 'Waffen und Soldaten'], 'Wer sie besitzt, hat nach Marx die Macht.'],
       ['Wie nennt man Bernsteins Reformkurs?', 'Revisionismus', ['Leninismus', 'Anarchismus', 'Stalinismus'], 'Er wollte den Marxismus überprüfen.'],

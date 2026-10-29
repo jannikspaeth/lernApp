@@ -190,7 +190,7 @@ export const E4: Epoch = {
               ['Wer ist der Vorsitzende der AKP?', 'Recep Tayyip Erdoğan', ['Turgut Özal', 'Orhan Pamuk', 'Ekrem İmamoğlu']],
               ['Was war Erdoğan vorher?', 'Bürgermeister von Istanbul', ['General', 'Fußballspieler', 'Imam in Mekka']],
               ['Wann wurde Erdoğan Ministerpräsident?', '2003', ['2002', '2014', '2017']],
-              ['Wann begannen die EU-Beitrittsverhandlungen?', '2005', ['1987', '1999', '2016']],
+              ['Wann begannen die EU-Beitrittsverhandlungen mit der Türkei?', '2005', ['1987', '1999', '2016']],
               ['Wo begannen die Proteste 2013?', 'Im Gezi-Park in Istanbul', ['In Ankara', 'In Brüssel', 'In Izmir']],
               ['Wann wurde Erdoğan zum ersten Mal Präsident?', '2014', ['2003', '2017', '2023']],
               ['Wann fand der Putschversuch statt?', 'In der Nacht zum 15. Juli 2016', ['Am 12. September 1980', 'Am 27. Mai 1960', 'Am 6. Februar 2023']],

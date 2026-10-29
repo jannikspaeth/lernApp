@@ -18,7 +18,7 @@ export const PROUST: Subtopic = {
       ['Aus wie vielen Bänden besteht das Werk?', 'Aus sieben', ['Aus drei', 'Aus zwölf', 'Aus zwanzig'], null],
       ['Welches Gebäck löst die Erinnerung aus?', 'Eine Madeleine', ['Ein Croissant', 'Ein Baguette', 'Eine Brioche'], null],
       ['Worin taucht der Erzähler das Gebäck?', 'In Lindenblütentee', ['In Kaffee', 'In Wein', 'In Milch'], null],
-      ['Wie nennt Proust diese Art der Erinnerung?', 'Unwillkürliche Erinnerung', ['Bewusste Erinnerung', 'Traumerinnerung', 'Kollektive Erinnerung'], 'Ein Sinneseindruck holt die Vergangenheit zurück.'],
+      ['Wie nennt Proust die Erinnerung, die der Geschmack der Madeleine auslöst?', 'Unwillkürliche Erinnerung', ['Bewusste Erinnerung', 'Traumerinnerung', 'Kollektive Erinnerung'], 'Ein Sinneseindruck holt die Vergangenheit zurück.'],
       ['Womit war Prousts Schlafzimmer ausgekleidet?', 'Mit Kork', ['Mit Samt', 'Mit Holz', 'Mit Papier'], 'Gegen Lärm und Staub.'],
       ['Woran litt Proust sein Leben lang?', 'An Asthma', ['An Tuberkulose', 'An Blindheit', 'An Gicht'], null],
       ['Wann schrieb Proust meist?', 'In der Nacht', ['Am Morgen', 'Am Nachmittag', 'Nur im Sommer'], null],

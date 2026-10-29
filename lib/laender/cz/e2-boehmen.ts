@@ -291,7 +291,7 @@ export const E2: Epoch = {
               ['Welche berühmte Barockkirche steht auf der Prager Kleinseite?', 'Die Nikolauskirche', ['Der Veitsdom', 'Die Teynkirche', 'Die Bethlehemskapelle']],
               ['Welche Sprache sprachen Adel und Städte nach 1648 überwiegend?', 'Deutsch', ['Tschechisch', 'Latein', 'Französisch']],
               ['Wer sprach vor allem weiter Tschechisch?', 'Die Bauern', ['Der Adel', 'Die Jesuiten', 'Der Kaiser']],
-              ['Wie nannten tschechische Patrioten diese Zeit?', 'Temno (Dunkelheit)', ['Goldene Zeit', 'Wiedergeburt', 'Barockfrühling']],
+              ['Wie nannten tschechische Patrioten die Zeit nach der Schlacht am Weißen Berg?', 'Temno (Dunkelheit)', ['Goldene Zeit', 'Wiedergeburt', 'Barockfrühling']],
               ['Welche Kaiserin verlor Schlesien an Preußen?', 'Maria Theresia', ['Elisabeth', 'Katharina die Große', 'Libuše']],
               ['Was führte Maria Theresia 1774 ein?', 'Die allgemeine Schulpflicht', ['Die Pressefreiheit', 'Das Wahlrecht', 'Den Euro']],
               ['Wer erließ 1781 das Toleranzpatent?', 'Joseph II.', ['Maria Theresia', 'Rudolf II.', 'Franz Joseph']],

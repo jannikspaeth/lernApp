@@ -144,7 +144,7 @@ export const E4: Epoch = {
               ['Wohin flohen die DDR-Bürger beim Picknick?', 'Nach Österreich', ['Nach Jugoslawien', 'Nach Polen', 'Nach Westberlin direkt']],
               ['Warum wählte man den 23. Oktober 1989 für die Ausrufung der Republik?', 'Es war der Jahrestag des Aufstands', ['Es war Kádárs Geburtstag', 'Es war der Tag des Mauerfalls', 'Es war der Stephanstag']],
               ['Was endete mit der Ausrufung der Republik?', 'Die Volksrepublik', ['Die Monarchie', 'Die NATO-Mitgliedschaft', 'Die EU-Mitgliedschaft']],
-              ['Wann fanden die ersten freien Wahlen statt?', 'Im Frühjahr 1990', ['Im Herbst 1989', 'Im Jahr 1991', 'Im Jahr 1994']],
+              ['Wann fanden in Ungarn die ersten freien Wahlen nach 1989 statt?', 'Im Frühjahr 1990', ['Im Herbst 1989', 'Im Jahr 1991', 'Im Jahr 1994']],
               ['Was war Árpád Göncz außer Präsident?', 'Schriftsteller', ['General', 'Fußballspieler', 'Kardinal']],
               ['Wer war österreichischer Außenminister 1989?', 'Alois Mock', ['Bruno Kreisky', 'Kurt Waldheim', 'Franz Vranitzky']],
               ['Was zerschnitten die beiden Außenminister?', 'Den Stacheldraht des Grenzzauns', ['Ein Band zur Brückeneröffnung', 'Einen Vertrag', 'Eine Fahne']],

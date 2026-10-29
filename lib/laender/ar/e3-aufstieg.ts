@@ -129,9 +129,9 @@ export const E3: Epoch = {
             ],
             mittel: [
               ['Wann wurde das Sáenz-Peña-Gesetz erlassen?', '1912', ['1916', '1853', '1930']],
-              ['Wann war die erste freie Wahl?', '1916', ['1912', '1880', '1930']],
+              ['Wann war Argentiniens erste freie Präsidentschaftswahl?', '1916', ['1912', '1880', '1930']],
               ['Wofür steht UCR?', 'Radikale Bürgerunion', ['Union der Arbeiter', 'Republikanische Union', 'Vereinigte Kirchen']],
-              ['Wann war die Tragische Woche?', 'Im Januar 1919', ['Im Mai 1810', 'Im Juni 1943', 'Im Oktober 1945']],
+              ['Wann war die Tragische Woche in Buenos Aires?', 'Im Januar 1919', ['Im Mai 1810', 'Im Juni 1943', 'Im Oktober 1945']],
               ['Wer schlug den Streik 1919 nieder?', 'Polizei und Militär', ['Die Gewerkschaften', 'Die Kirche', 'Die Briten']],
               ['Wie heißen die Ereignisse in Patagonien 1920–1922?', 'Patagonia rebelde', ['Conquista del Desierto', 'Tragische Woche', 'Cordobazo']],
               ['Was erreichten die Studenten 1918?', 'Selbstverwaltung der Universitäten', ['Kostenlose Autos', 'Das Frauenwahlrecht', 'Die Abschaffung der Universitäten']],

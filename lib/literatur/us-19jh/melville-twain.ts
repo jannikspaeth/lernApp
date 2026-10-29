@@ -45,7 +45,7 @@ export const MELVILLE_TWAIN: Subtopic = {
       ['Worum geht es in „Moby-Dick“ über das Abenteuer hinaus?', 'Um Besessenheit, Schicksal und Gott', ['Um Handel und Gewinn', 'Um Liebe', 'Um Politik'], null],
       ['Wie reagierte das Publikum auf „Moby-Dick“?', 'Es verstand das Buch nicht', ['Es feierte es', 'Es verbot es', 'Es ignorierte Melville ganz'], 'Seine früheren Abenteuerbücher hatten sich gut verkauft.'],
       ['Welche Entscheidung trifft Huck gegenüber Jim?', 'Er verrät ihn nicht', ['Er liefert ihn aus', 'Er verlässt ihn', 'Er verkauft ihn'], null],
-      ['Was glaubt Huck über diese Entscheidung?', 'Dass er dafür in die Hölle kommt', ['Dass er belohnt wird', 'Dass niemand es merkt', 'Dass es gleichgültig ist'], 'Er tut es trotzdem.'],
+      ['Was glaubt Huck über seine Entscheidung, Jim nicht zu verraten?', 'Dass er dafür in die Hölle kommt', ['Dass er belohnt wird', 'Dass niemand es merkt', 'Dass es gleichgültig ist'], 'Er tut es trotzdem.'],
       ['Was ist sprachlich neu an „Huckleberry Finn“?', 'Es ist in Umgangssprache geschrieben', ['Es ist in Versen', 'Es ist auf Französisch', 'Es ist im Dialekt der Puritaner'], null],
       ['Was sagte Hemingway über das Buch?', 'Die moderne amerikanische Literatur komme aus diesem einen Buch', ['Es sei überschätzt', 'Es sei ein Kinderbuch', 'Es sei unlesbar'], null],
       ['Warum wird „Huckleberry Finn“ bis heute diskutiert?', 'Wegen der rassistischen Sprache seiner Zeit', ['Wegen seiner Länge', 'Wegen des Schlusses', 'Wegen des Autors'], null],

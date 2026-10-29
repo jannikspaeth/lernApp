@@ -20,7 +20,7 @@ export const UNABH: Subtopic = {
       ['Wie viele Menschen mussten als Zwangsarbeiter arbeiten etwa?', 'Etwa vier Millionen', ['Etwa 4.000', 'Etwa 40.000', 'Etwa 400']],
       ['Wann stellte Sukarno die Pancasila vor?', '1. Juni 1945', ['17. August 1945', '27. Dezember 1949', '28. Oktober 1928']],
       ['Wie viele Prinzipien hat die Pancasila?', 'Fünf', ['Drei', 'Sieben', 'Zehn']],
-      ['Wann wurde die Unabhängigkeit erklärt?', '17. August 1945', ['1. Juni 1945', '27. Dezember 1949', '10. November 1945']],
+      ['Wann wurde die Unabhängigkeit Indonesiens erklärt?', '17. August 1945', ['1. Juni 1945', '27. Dezember 1949', '10. November 1945']],
       ['Wer verlas die Erklärung?', 'Sukarno', ['Hatta', 'Sudirman', 'Suharto']],
       ['In welcher Stadt?', 'In Jakarta', ['In Surabaya', 'In Yogyakarta', 'In Bandung']],
       ['Wer wurde Vizepräsident?', 'Mohammad Hatta', ['Sudirman', 'Suharto', 'Sukarno']],

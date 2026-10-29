@@ -37,7 +37,7 @@ export const LESSING: Subtopic = {
       ['Worum geht es in „Laokoon“ (1766)?', 'Um den Unterschied zwischen Malerei und Dichtung', ['Um die antike Skulptur allein', 'Um die Musik', 'Um die Baukunst'], 'Die Malerei zeigt einen Augenblick, die Dichtung erzählt in der Zeit.'],
       ['Mit wem stritt Lessing über Religion?', 'Mit Hauptpastor Goeze', ['Mit Gottsched', 'Mit Herder', 'Mit Kant'], null],
       ['Was geschah 1778 nach dem Streit?', 'Lessing durfte nichts mehr zur Theologie schreiben', ['Er wurde eingesperrt', 'Er musste fliehen', 'Er wurde Pfarrer'], 'Deshalb wandte er sich dem Theater zu.'],
-      ['Wie nannte Lessing das Theater in diesem Zusammenhang?', 'Seine alte Kanzel', ['Seinen Thron', 'Sein Gefängnis', 'Seine Werkstatt'], null],
+      ['Wie nannte Lessing im Streit mit Hauptpastor Goeze das Theater?', 'Seine alte Kanzel', ['Seinen Thron', 'Sein Gefängnis', 'Seine Werkstatt'], null],
       ['Worum geht es in „Minna von Barnhelm“?', 'Um einen Offizier, der aus falschem Stolz seine Verlobte zurückweist', ['Um einen Streit zweier Brüder', 'Um einen Pakt mit dem Teufel', 'Um eine Flucht aus dem Gefängnis'], null],
       ['Worum geht es in „Emilia Galotti“?', 'Ein Fürst begehrt ein Bürgermädchen', ['Ein Bürger wird König', 'Zwei Freunde streiten um Geld', 'Ein Mädchen rettet einen Ritter'], null],
     ],

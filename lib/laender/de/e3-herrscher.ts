@@ -339,7 +339,7 @@ export const SALIER: HistEvent = {
           ['Wann erhielt ein Bischof in Italien seine weltlichen Rechte nach 1122?', 'Innerhalb von sechs Monaten nach der Weihe', ['Vor der Weihe', 'Nie', 'Erst nach seinem Tod']],
           ['Wann erhielt ein Bischof in Deutschland seine weltlichen Rechte nach 1122?', 'Vor der Weihe', ['Sechs Monate nach der Weihe', 'Erst nach einem Jahr', 'Nur mit Zustimmung des Papstes']],
           ['Wie nennt man die geistlichen und die weltlichen Rechte eines Bischofs?', 'Spiritualia und Temporalia', ['Regalia und Insignia', 'Sacramenta und Beneficia', 'Officia und Feuda']],
-          ['Wann starb Heinrich V.?', '1125', ['1106', '1122', '1138']],
+          ['Wann starb Kaiser Heinrich V.?', '1125', ['1106', '1122', '1138']],
           ['Welcher Sohn Heinrichs IV. rebellierte schon 1093?', 'Konrad', ['Heinrich V.', 'Friedrich', 'Rudolf']],
           ['Womit endete der Brief Heinrichs IV. an Papst Gregor VII. von 1076?', '„Steig herab, steig herab!“', ['„Gott will es!“', '„Ora et labora!“', '„Nach Canossa gehen wir nicht!“']],
           ['In welchem Konflikt sagte Bismarck „Nach Canossa gehen wir nicht“?', 'Im Kulturkampf gegen die katholische Kirche', ['Im Deutsch-Französischen Krieg', 'Im Streit mit Österreich', 'Im Konflikt mit den Sozialdemokraten']],

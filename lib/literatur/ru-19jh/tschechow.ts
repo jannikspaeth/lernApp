@@ -23,7 +23,7 @@ export const TSCHECHOW: Subtopic = {
       ['Was geschieht am Ende von „Der Kirschgarten“?', 'Das Gut wird verkauft', ['Die Familie bleibt', 'Ein Erbe rettet alles', 'Der Garten wird neu gepflanzt'], null],
       ['Was passiert in Tschechows Stücken an der Oberfläche?', 'Fast nichts', ['Viele Kämpfe', 'Eine Revolution', 'Mehrere Morde'], null],
       ['Wer machte „Die Möwe“ zum Erfolg?', 'Konstantin Stanislawski', ['Wsewolod Meyerhold', 'Maxim Gorki', 'Olga Knipper'], 'Am Moskauer Künstlertheater.'],
-      ['Was wurde zum Emblem dieses Theaters?', 'Die Möwe', ['Der Kirschbaum', 'Die Taube', 'Der Adler'], null],
+      ['Was wurde zum Emblem des Moskauer Künstlertheaters?', 'Die Möwe', ['Der Kirschbaum', 'Die Taube', 'Der Adler'], null],
       ['Woran starb Tschechow?', 'An Tuberkulose', ['An der Cholera', 'An einer Verletzung', 'An einem Herzleiden'], null],
       ['Wie alt wurde Tschechow?', '44 Jahre', ['34 Jahre', '54 Jahre', '64 Jahre'], null],
     ],

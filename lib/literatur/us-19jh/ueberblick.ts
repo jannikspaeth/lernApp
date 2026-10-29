@@ -19,7 +19,7 @@ export const UEBERBLICK: Subtopic = {
       ['Wer lebte zwei Jahre in einer Hütte am Walden-See?', 'Henry David Thoreau', ['Ralph Waldo Emerson', 'Walt Whitman', 'Herman Melville'], null, 'thoreau'],
       ['Wie heißt Thoreaus berühmtes Buch?', 'Walden', ['Grashalme', 'Der scharlachrote Buchstabe', 'Moby-Dick'], null],
       ['Welchen Aufsatz schrieb Thoreau nach einer Nacht im Gefängnis?', 'Über den zivilen Ungehorsam', ['Über die Natur', 'Über die Freiheit', 'Über den Krieg'], null],
-      ['Wen beeinflusste dieser Aufsatz später?', 'Gandhi und Martin Luther King', ['Lincoln und Washington', 'Marx und Engels', 'Churchill und Roosevelt'], null],
+      ['Wen beeinflusste Thoreaus Aufsatz über zivilen Ungehorsam später?', 'Gandhi und Martin Luther King', ['Lincoln und Washington', 'Marx und Engels', 'Churchill und Roosevelt'], null],
       ['Wer schrieb „Moby-Dick“?', 'Herman Melville', ['Nathaniel Hawthorne', 'Edgar Allan Poe', 'Mark Twain'], null],
       ['Wer schrieb „Onkel Toms Hütte“?', 'Harriet Beecher Stowe', ['Emily Dickinson', 'Louisa May Alcott', 'Margaret Fuller'], null],
       ['Worum geht es in dem Buch?', 'Um die Sklaverei', ['Um den Goldrausch', 'Um die Einwanderung', 'Um den Bürgerkrieg allein'], null],

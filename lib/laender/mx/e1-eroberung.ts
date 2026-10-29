@@ -38,7 +38,7 @@ export const EROBERUNG: HistEvent = {
           ['Als was gilt Cuauhtémoc heute?', 'Als Held', ['Als Verräter', 'Als Spanier', 'Als König Spaniens']],
           ['Welche Stadt ließ Cortés auf den Ruinen errichten?', 'Mexiko-Stadt', ['Veracruz', 'Puebla', 'Havanna']],
           ['Welche Waffen hatten die Spanier?', 'Stahlwaffen und Kanonen', ['Blasrohre', 'Atomwaffen', 'Keine']],
-          ['Welche Tiere brachten die Spanier mit?', 'Pferde', ['Elefanten', 'Kamele', 'Löwen']],
+          ['Welche Tiere, die die Azteken nicht kannten, brachten die Spanier mit?', 'Pferde', ['Elefanten', 'Kamele', 'Löwen']],
           ['Bei welcher Stadt landete Cortés?', 'Bei Veracruz', ['Bei Acapulco', 'Bei Cancún', 'Bei Tijuana']],
           ['Was hatten die Indigenen gegen die Pocken nicht?', 'Abwehrkräfte', ['Ärzte', 'Häuser', 'Wasser']],
         ],

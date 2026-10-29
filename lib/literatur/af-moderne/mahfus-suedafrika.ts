@@ -31,7 +31,7 @@ export const MAHFUS_SUEDAFRIKA: Subtopic = {
       ['Wann lebte Machfus?', '1911–2006', ['1923–2014', '1940–heute', '1930–2013'], null],
       ['Welche Zeit umfasst die Kairoer Trilogie?', '1917 bis 1944', ['1800–1850', '1950–1990', '1900–1914'], null],
       ['Welchen Roman Machfus verbot man als gotteslästerlich?', 'Die Kinder unseres Viertels', ['Zuckergässchen', 'Palast der Sehnsucht', 'Midaq-Gasse'], null],
-      ['Wann erschien dieser Roman?', '1959', ['1911', '1988', '1994'], null],
+      ['Wann erschien Machfus’ Roman „Die Kinder unseres Viertels“?', '1959', ['1911', '1988', '1994'], null],
       ['Wann lebte Gordimer?', '1923–2014', ['1911–2006', '1940–heute', '1930–2013'], null],
       ['Woher kam Gordimers Vater?', 'Aus Litauen', ['Aus Deutschland', 'Aus England', 'Aus Polen'], null],
       ['Welcher Bewegung gehörte sie an?', 'Dem ANC', ['Der Inkatha', 'Der Buren-Partei', 'Der Kommunistischen Partei Chinas'], null],
