@@ -34,7 +34,7 @@ export const E1: Epoch = {
               ['Welcher römische Geschichtsschreiber schrieb die „Germania“?', 'Tacitus', ['Cicero', 'Livius', 'Plinius']],
               ['Wie heißt die Schrift der Germanen?', 'Runen', ['Hieroglyphen', 'Keilschrift', 'Kyrillisch']],
               ['Wovon lebten die meisten Germanen?', 'Von der Landwirtschaft', ['Vom Seehandel', 'Vom Bergbau', 'Von der Jagd auf Elefanten']],
-              ['Wie hieß die Versammlung der freien Männer?', 'Thing', ['Senat', 'Reichstag', 'Konzil']],
+              ['Wie hieß bei den Germanen die Versammlung der freien Männer?', 'Thing', ['Senat', 'Reichstag', 'Konzil']],
               ['Wer war der oberste Gott der Germanen?', 'Wodan', ['Zeus', 'Jupiter', 'Osiris']],
               ['Wer war der Donnergott der Germanen?', 'Donar', ['Wodan', 'Loki', 'Tiu']],
               ['Welcher Wochentag ist nach dem Gott Donar benannt?', 'Donnerstag', ['Dienstag', 'Mittwoch', 'Samstag']],

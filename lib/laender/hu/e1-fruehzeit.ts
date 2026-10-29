@@ -52,7 +52,7 @@ export const E1: Epoch = {
               ['Was war Aquincum für die Römer?', 'Die wichtigste Stadt Pannoniens', ['Ein kleines Dorf', 'Ein Hafen am Meer', 'Ein Kloster']],
               ['In welchem Jahrhundert kämpfte Mark Aurel an der Donau?', 'Im 2. Jahrhundert', ['Im 1. Jahrhundert v. Chr.', 'Im 5. Jahrhundert', 'Im 9. Jahrhundert']],
               ['Wo schrieb Mark Aurel Teile seiner „Selbstbetrachtungen“?', 'Im Feldlager an der Donau', ['In Rom', 'In Athen', 'In Alexandria']],
-              ['Wofür war Pannonien wichtig?', 'Für das Heer', ['Für den Seehandel', 'Für den Weinexport nach Indien', 'Für die Seidenproduktion']],
+              ['Wofür war Pannonien für Rom wichtig?', 'Für das Heer', ['Für den Seehandel', 'Für den Weinexport nach Indien', 'Für die Seidenproduktion']],
               ['Wer stammte im 3. Jahrhundert aus Pannonien?', 'Mehrere Soldatenkaiser', ['Alle Päpste', 'Die ersten Ungarnkönige', 'Attila']],
               ['Wann wurde der heilige Martin geboren?', 'Um 316', ['Um 9 v. Chr.', 'Um 433', 'Um 895']],
               ['Aus welchem Jahrhundert stammen die Grabkammern in Pécs?', 'Aus dem 4. Jahrhundert', ['Aus dem 1. Jahrhundert', 'Aus dem 10. Jahrhundert', 'Aus dem 15. Jahrhundert']],

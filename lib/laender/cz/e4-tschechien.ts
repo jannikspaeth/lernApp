@@ -67,7 +67,7 @@ export const E4: Epoch = {
               ['Wer gewann 1992 die Wahl in der Slowakei?', 'Vladimír Mečiar', ['Václav Klaus', 'Alexander Dubček', 'Jozef Tiso']],
               ['Wer einigte sich 1992 auf die Teilung?', 'Václav Klaus und Vladimír Mečiar', ['Havel und Dubček', 'Husák und Gorbatschow', 'Masaryk und Štefánik']],
               ['Wann trat Havel 1992 zurück?', 'Im Juli 1992', ['Im Januar 1993', 'Im November 1989', 'Im Juni 1990']],
-              ['Was wünschten sich viele Slowaken?', 'Mehr Eigenständigkeit', ['Die Rückkehr der Kommunisten', 'Den Anschluss an Ungarn', 'Die Monarchie']],
+              ['Was wünschten sich viele Slowaken 1992?', 'Mehr Eigenständigkeit', ['Die Rückkehr der Kommunisten', 'Den Anschluss an Ungarn', 'Die Monarchie']],
             ],
             schwer: [
               ['Was bedeutet „Národní třída“?', 'Nationalstraße', ['Volksplatz', 'Freiheitsallee', 'Wenzelsweg']],
@@ -134,7 +134,7 @@ export const E4: Epoch = {
               ['Was war an Miloš Zemans Wahl neu?', 'Er wurde als Erster direkt vom Volk gewählt', ['Er wurde vom König ernannt', 'Er war der jüngste Präsident', 'Er kam aus der Slowakei']],
               ['Wann war Miloš Zeman Präsident?', '2013–2023', ['2003–2013', '1993–2003', '2023 bis heute']],
               ['Seit wann trägt der Prager Flughafen Havels Namen?', 'Seit 2012', ['Seit 1993', 'Seit 2004', 'Seit 2023']],
-              ['Wann hatte Tschechien die EU-Ratspräsidentschaft mit Regierungssturz?', '2009', ['2004', '2014', '1999']],
+              ['Wann hatte Tschechien die EU-Ratspräsidentschaft, während der die Regierung stürzte?', '2009', ['2004', '2014', '1999']],
               ['Was geschah während der tschechischen EU-Ratspräsidentschaft?', 'Die Regierung stürzte', ['Tschechien führte den Euro ein', 'Havel wurde wiedergewählt', 'Die Slowakei trat wieder bei']],
               ['Seit wann gehört Škoda zu Volkswagen?', 'Seit 1991', ['Seit 2004', 'Seit 1969', 'Seit 2012']],
               ['Wann überschwemmte die Moldau Prag?', '2002', ['1997', '2013', '1993']],
