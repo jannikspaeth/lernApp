@@ -14,8 +14,8 @@ export const UEBERBLICK: Subtopic = {
   ],
   quiz: {
     leicht: [
-      ['Welche Kulturen prägten die antike Kunst?', 'Griechen und Römer', ['Ägypter und Perser', 'Kelten und Germanen', 'Etrusker allein']],
-      ['Wie waren antike Statuen ursprünglich?', 'Bunt bemalt', ['Weiß wie heute', 'Vergoldet', 'Schwarz'], 'Reste von Farbe fand man an vielen Statuen; der weiße Marmor entstand erst durch Verwitterung.'],
+      ['Welche Kulturen prägten die antike Kunst?', 'Griechen und Römer', ['Ägypter und Perser', 'Kelten und Germanen', 'Etrusker und Phönizier']],
+      ['Wie waren antike Statuen ursprünglich?', 'Bunt bemalt', ['Weiß wie heute', 'Ganz vergoldet', 'Schwarz lackiert'], 'Reste von Farbe fand man an vielen Statuen; der weiße Marmor entstand erst durch Verwitterung.'],
       ['Was ist ein Kouros?', 'Eine Statue eines nackten Jünglings', ['Eine Statue eines Mädchens', 'Ein Tempel', 'Eine Vase'], 'Kouroi standen als Weihgaben oder Grabstatuen, ihr Pendant sind die Koren.'],
       ['Was ist eine Kore?', 'Eine Statue eines bekleideten Mädchens', ['Ein nackter Jüngling', 'Ein Kapitell', 'Ein Relief'], 'Die Koren der Akropolis tragen fein gefältelte Gewänder.'],
       ['Wie heißt dieser Tempel in Athen?', 'Der Parthenon', ['Das Pantheon', 'Das Kolosseum', 'Der Zeustempel'], null, 'parthenon'],
@@ -42,14 +42,14 @@ export const UEBERBLICK: Subtopic = {
       ['Wodurch wurde Pompeji verschüttet?', 'Durch den Ausbruch des Vesuvs', ['Durch ein Erdbeben', 'Durch eine Flut', 'Durch Feuer'], 'Die Asche konservierte Häuser, Wandmalereien und Mosaike besonders gut.'],
     ],
     schwer: [
-      ['Wie heißt der Typ des Diskobolos-Originals?', 'Ein Bronzeoriginal, nur in römischen Kopien erhalten', ['Ein Marmororiginal', 'Ein Holzoriginal', 'Ein Tonoriginal'], 'Der Diskobolos von Myron ist als Bronze verloren, bekannt sind römische Marmorkopien.'],
+      ['Was für ein Werk war der ursprüngliche Diskobolos?', 'Ein Bronzeoriginal, nur in römischen Kopien erhalten', ['Ein Marmororiginal', 'Ein Holzoriginal', 'Ein Tonoriginal'], 'Der Diskobolos von Myron ist als Bronze verloren, bekannt sind römische Marmorkopien.'],
       ['Wie nannte man die steife Haltung der Kouroi?', 'Archaisch', ['Klassisch', 'Hellenistisch', 'Römisch'], 'Das griechische Wort „archaios“ bedeutet altertümlich.'],
       ['Welche Eigenschaft zeichnet die hellenistische Kunst aus?', 'Dramatik und Gefühl', ['Strenge Symmetrie', 'Geometrische Muster', 'Flächigkeit']],
       ['Was sind Voluten?', 'Schneckenförmige Verzierungen am ionischen Kapitell', ['Blätter am Kapitell', 'Zähne am Gesims', 'Säulenfüße']],
       ['Was ist opus caementicium?', 'Römischer Beton', ['Ein Mosaik', 'Ein Fresko', 'Ein Relief']],
       ['Wann endet die Antike traditionell?', '476 n. Chr.', ['30 v. Chr.', '79 n. Chr.', '395 n. Chr.'], '476 setzte Odoaker den letzten weströmischen Kaiser Romulus Augustulus ab.'],
       ['Was zeigen die Wandbilder in Pompeji?', 'Alltag, Mythen und Landschaften', ['Nur Kämpfe', 'Nur Götter', 'Nur Kaiser']],
-      ['Welche Aufgabe hatten römische Kaiserstatuen?', 'Propaganda', ['Gebet', 'Grabschmuck', 'Spielzeug'], 'Statuen von Kaisern standen in jeder Stadt des Reiches und prägten das Bild des Herrschers.'],
+      ['Welche Aufgabe hatten römische Kaiserstatuen?', 'Propaganda', ['Gebet', 'Grabschmuck', 'Stadtgrenze'], 'Statuen von Kaisern standen in jeder Stadt des Reiches und prägten das Bild des Herrschers.'],
       ['Wo steht der Parthenon?', 'Auf der Akropolis in Athen', ['In Delphi', 'In Olympia', 'In Rom']],
       ['Welche Zeit des Wiederaufgreifens der Antike folgte im 18. Jahrhundert?', 'Der Klassizismus', ['Der Barock', 'Der Impressionismus', 'Die Romantik'], 'Entdeckungen wie Pompeji und Herculaneum (ab 1738) machten die Antike im 18. Jahrhundert neu populär.'],
     ],
