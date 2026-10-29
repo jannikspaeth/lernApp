@@ -74,7 +74,7 @@ export const PARK: Subtopic = {
       ['Was zeigt der Tod Jeon Tae-ils?', 'Einen Wendepunkt für die Arbeiterbewegung', ['Das Ende der Industrie', 'Ein Erdbeben', 'Einen Krieg']],
       ['Was war der Plan der Fünfjahrespläne?', 'Industrialisierung durch Export', ['Landwirtschaft allein', 'Abschottung', 'Rückzug']],
       ['Wann gründete Chung Ju-yung Hyundai?', '1947', ['1938', '1968', '1979']],
-      ['Wie war Parks Erbe laut Text?', 'Zwiespältig', ['Nur gut', 'Nur schlecht', 'Unbekannt']],
+      ['Wie wird das Erbe von Park Chung-hee heute meist bewertet?', 'Zwiespältig', ['Nur gut', 'Nur schlecht', 'Unbekannt']],
       ['Welche Bewegung rettete die Dörfer?', 'Saemaul-Undong ab 1970', ['Donghak ab 1894', 'Hallyu ab 1997', 'Silhak ab 1700']],
       ['Welche Einrichtung stellte 1968 Stahl her?', 'POSCO', ['Samsung', 'Hyundai', 'LG']],
     ],

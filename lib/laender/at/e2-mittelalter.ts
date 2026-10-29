@@ -138,7 +138,7 @@ export const E2: Epoch = {
               ['Was ist die Universität Wien heute?', 'Die älteste im heutigen deutschen Sprachraum', ['Die jüngste Österreichs', 'Eine Kunstakademie', 'Ein Kloster']],
               ['Was machte das Privilegium maius aus Österreich?', 'Ein „Erzherzogtum“', ['Ein Königreich', 'Ein Kaiserreich', 'Eine Republik']],
               ['Warum fälschte Rudolf IV. das Privilegium?', 'Um seinen Rang zu erhöhen', ['Um Geld zu bekommen', 'Um den Papst zu ärgern', 'Aus Versehen']],
-              ['Wie lange regierte Friedrich III.?', '53 Jahre', ['5 Jahre', '25 Jahre', '73 Jahre']],
+              ['Wie lange regierte der Habsburger Kaiser Friedrich III. (1440–1493)?', '53 Jahre', ['5 Jahre', '25 Jahre', '73 Jahre']],
               ['Wann wurde Friedrich III. in Rom gekrönt?', '1452', ['1438', '1493', '1365']],
               ['Was war an Friedrichs Krönung besonders?', 'Er war der letzte Kaiser, der in Rom vom Papst gekrönt wurde', ['Er war der erste Kaiser', 'Er krönte sich selbst', 'Er wurde in Wien gekrönt']],
               ['Wie wird AEIOU oft gedeutet?', '„Es ist Österreich bestimmt, die ganze Welt zu beherrschen“', ['„Alle Erben ins Österreichische Unterland“', '„Amen, Ehre, Ikone, Ordnung, Unterwerfung“', '„Alles Erdreich ist Österreich untertan“ als Gesetz']],

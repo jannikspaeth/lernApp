@@ -70,7 +70,7 @@ export const HEUTE: Subtopic = {
       ['Wofür steht Aditya-L1?', 'Beobachtung der Sonne', ['Erforschung des Mars', 'Landung auf dem Mond', 'Wettermessung']],
       ['In welchen Gruppen ist Indien Mitglied?', 'G20 und BRICS', ['EU und Nato', 'OPEC und ASEAN allein', 'Nur UNO']],
       ['Welche Probleme nennt der Text?', 'Luftverschmutzung, Wassermangel, Klimawandel', ['Zu viele Wälder', 'Zu wenig Menschen', 'Zu wenig Sprachen']],
-      ['Was verbindet laut Text das Land?', 'Bollywood und Cricket', ['Eishockey und Oper', 'Fußball und Schach', 'Golf und Tennis']],
+      ['Was verbindet nach verbreiteter Ansicht ganz Indien?', 'Bollywood und Cricket', ['Eishockey und Oper', 'Fußball und Schach', 'Golf und Tennis']],
       ['Wer zeigt die Rolle der Jugend?', 'Eine große junge Mittelschicht wächst', ['Eine alternde Mehrheit', 'Keine Mittelschicht', 'Nur Landbevölkerung']],
       ['Wie viele Einwohner hat Indien etwa?', 'Mehr als 1,4 Milliarden', ['Etwa 140 Millionen', 'Etwa 14 Millionen', 'Etwa 140 Milliarden']],
       ['Wann endete die Dominanz des Kongresses?', 'Mit dem Mehrparteiensystem ab den 1990ern', ['1947', '1964', '1950']],

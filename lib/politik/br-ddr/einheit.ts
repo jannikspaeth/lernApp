@@ -32,7 +32,7 @@ export const EINHEIT: Subtopic = {
       ['Wofür standen „Glasnost“ und „Perestroika“?', 'Für Offenheit und Umbau', ['Für Krieg und Frieden', 'Für Arbeit und Brot', 'Für Gold und Silber'], 'Gorbatschows Reformen.'],
       ['Was wiesen Bürgerrechtler bei den DDR-Kommunalwahlen im Mai 1989 nach?', 'Wahlfälschung', ['Eine hohe Wahlbeteiligung', 'Den Sieg der Opposition', 'Nichts Besonderes'], 'Das Vertrauen schwand weiter.'],
       ['Welche Botschaften besetzten Ausreisewillige 1989?', 'Die bundesdeutschen Botschaften in Prag und Warschau', ['Die sowjetische Botschaft in Berlin', 'Die US-Botschaft in Moskau', 'Die französische Botschaft in Bonn'], 'Sie durften schließlich ausreisen.'],
-      ['Welche Bürgerbewegung gründete sich 1989?', 'Das „Neue Forum“', ['Die „Nationale Front“', 'Die „Allianz für Deutschland“', 'Die „Freie Deutsche Jugend“'], 'Eine Plattform für Reformen.'],
+      ['Welche Bürgerbewegung gründete sich 1989 in der DDR?', 'Das „Neue Forum“', ['Die „Nationale Front“', 'Die „Allianz für Deutschland“', 'Die „Freie Deutsche Jugend“'], 'Eine Plattform für Reformen.'],
       ['Wie viele Menschen demonstrierten am 9. Oktober 1989 in Leipzig etwa?', 'Rund 70.000', ['Rund 700', 'Rund 7.000', 'Rund 7 Millionen'], 'Die Sicherheitskräfte griffen nicht ein.'],
       ['Wann wurde Erich Honecker zum Rücktritt gezwungen?', 'Am 18. Oktober 1989', ['Am 9. November 1989', 'Am 7. Oktober 1989', 'Am 3. Oktober 1990'], 'Egon Krenz folgte ihm.'],
       ['Wo fand am 4. November 1989 die größte freie Demonstration der DDR statt?', 'Auf dem Ost-Berliner Alexanderplatz', ['Auf dem Leipziger Augustusplatz', 'Vor dem Reichstag', 'In Dresden an der Frauenkirche'], 'Hunderttausende kamen.'],

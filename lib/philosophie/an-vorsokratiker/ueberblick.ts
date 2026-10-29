@@ -50,7 +50,7 @@ export const UEBERBLICK: Subtopic = {
       ['Wer prägte die Bezeichnung „Vorsokratiker“?', 'Die Philologie des 19. Jahrhunderts', ['Platon', 'Aristoteles', 'Die Kirchenväter'], 'Der Ausdruck ist modern.'],
       ['Wer waren die beiden Begründer des Atomismus?', 'Leukipp und Demokrit', ['Thales und Anaximander', 'Platon und Aristoteles', 'Zenon und Melissos'], 'Leukipp war wohl Demokrits Lehrer.'],
       ['Welche drei Denker stammten aus Milet?', 'Thales, Anaximander, Anaximenes', ['Heraklit, Parmenides, Zenon', 'Pythagoras, Empedokles, Demokrit', 'Sokrates, Platon, Aristoteles'], 'Man nennt sie die Milesier oder ionischen Naturphilosophen.'],
-      ['Was unterscheidet eine philosophische Erklärung nach dem Text grundsätzlich vom Mythos?', 'Sie muss Argumente haben, über die man streiten kann', ['Sie ist immer in Versen geschrieben', 'Sie kommt ohne Natur aus', 'Sie wird von Priestern verkündet'], 'Die Götter verschwanden nicht sofort, aber Begründung wurde Pflicht.'],
+      ['Was unterscheidet eine philosophische Erklärung grundsätzlich vom Mythos?', 'Sie muss Argumente haben, über die man streiten kann', ['Sie ist immer in Versen geschrieben', 'Sie kommt ohne Natur aus', 'Sie wird von Priestern verkündet'], 'Die Götter verschwanden nicht sofort, aber Begründung wurde Pflicht.'],
       ['Welcher Vorsokratiker war ein Zeitgenosse des Sokrates?', 'Demokrit', ['Thales', 'Anaximander', 'Pythagoras'], 'Demokrit lebte etwa 460–370 v. Chr.'],
       ['Welches Hesiod-Werk erzählt die Entstehung der Götter?', 'Die „Theogonie“', ['Die „Ilias“', 'Die „Odyssee“', 'Die „Metamorphosen“'], 'Aus dem Chaos entstehen Gaia, Eros und die Götter.'],
     ],

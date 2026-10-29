@@ -28,7 +28,7 @@ export const KRIEG: Subtopic = {
       ['Was griffen beide im Tankerkrieg an?', 'Handelsschiffe', ['Flugzeuge', 'Städte', 'Ölfelder in Kuwait']],
       ['Welches Schiff schoss 1988 ein Passagierflugzeug ab?', 'USS Vincennes', ['USS Missouri', 'USS Enterprise', 'USS Cole']],
       ['Wie viele Menschen starben im Flugzeug?', '290', ['29', '90', '900']],
-      ['Wann trat der Waffenstillstand in Kraft?', '20. August 1988', ['22. September 1980', '1. April 1979', '4. November 1979']],
+      ['Wann trat der Waffenstillstand im Iran-Irak-Krieg in Kraft?', '20. August 1988', ['22. September 1980', '1. April 1979', '4. November 1979']],
       ['Wie viele Jahre dauerte der Krieg?', 'Acht', ['Zwei', 'Vier', 'Zwölf']],
       ['Welche UN-Resolution nahm Iran an?', 'Resolution 598', ['Resolution 242', 'Resolution 678', 'Resolution 1441']],
       ['Was sagte Khomeini zur Annahme?', 'Er müsse einen Giftbecher trinken', ['Er sei stolz', 'Er habe gewonnen', 'Er sei schuldig']],

@@ -57,7 +57,7 @@ export const ENDE: Subtopic = {
       ['Wie viele Amerikaner fielen etwa?', 'Rund 58.000', ['Rund 580', 'Rund 5.800', 'Rund 580.000']],
     ],
     schwer: [
-      ['Wie viele Vietnamesen starben laut Text?', 'Bis zu drei Millionen', ['Bis zu 3.000', 'Bis zu 30.000', 'Bis zu 30 Millionen']],
+      ['Wie viele Vietnamesen starben im Vietnamkrieg?', 'Bis zu drei Millionen', ['Bis zu 3.000', 'Bis zu 30.000', 'Bis zu 30 Millionen']],
       ['Wie viele davon waren etwa Zivilisten?', 'Etwa zwei Millionen', ['Etwa 20.000', 'Etwa 200.000', 'Etwa 20 Millionen']],
       ['Was bedeutet „Vietnam-Syndrom“?', 'Zurückhaltung gegenüber Militäreinsätzen im Ausland', ['Eine Krankheit', 'Eine Kriegsbegeisterung', 'Ein Handelsabkommen']],
       ['Was lagert bis heute im Boden?', 'Blindgänger', ['Gold', 'Öl', 'Atommüll']],

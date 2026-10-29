@@ -75,7 +75,7 @@ export const E4: Epoch = {
               ['Welche Folge hatte die Schocktherapie sozial?', 'Massenarmut und sinkende Lebenserwartung', ['Allgemeiner Wohlstand', 'Vollbeschäftigung', 'Keine']],
               ['Welche Rolle spielten Fernsehsender 1996?', 'Sie verhalfen Jelzin zur Wiederwahl', ['Sie stürzten Jelzin', 'Sie waren verboten', 'Keine']],
               ['Was war der Rubelkrach 1998?', 'Zahlungsunfähigkeit und Währungsverfall', ['Ein Bankraub', 'Ein Wirtschaftsboom', 'Eine neue Währung']],
-              ['Was ist das Positive an den 1990ern laut Text?', 'Freie Medien, Parteien und Reisefreiheit', ['Hohe Renten', 'Niedrige Kriminalität', 'Stabile Preise']],
+              ['Was war das Positive an den 1990er-Jahren in Russland?', 'Freie Medien, Parteien und Reisefreiheit', ['Hohe Renten', 'Niedrige Kriminalität', 'Stabile Preise']],
               ['Woher stammt Putins Geheimdiensterfahrung?', 'Aus dem KGB, auch in Dresden', ['Aus der CIA', 'Aus der Armee in Afghanistan', 'Aus der Stasi direkt']],
               ['Was war ungewöhnlich an Jelzins Rücktritt?', 'Überraschend am Silvesterabend im Fernsehen', ['Er wurde abgewählt', 'Er wurde ermordet', 'Er floh']],
               ['Welche Verfassungsform entstand 1993?', 'Präsidialsystem mit starkem Präsidenten', ['Parlamentarische Monarchie', 'Rätesystem', 'Einparteienstaat']],

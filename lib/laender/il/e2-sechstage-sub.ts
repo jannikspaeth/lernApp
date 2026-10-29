@@ -60,7 +60,7 @@ export const SECHSTAGE: Subtopic = {
     schwer: [
       ['Was ist die Streitfrage der Resolution 242?', 'Ob „aus Gebieten“ oder „aus den Gebieten“', ['Ob Jerusalem geteilt wird', 'Ob Nasser zurücktritt', 'Ob Israel UN-Mitglied bleibt']],
       ['Wie viele Israelis leben etwa in Ostjerusalem?', 'Rund 230.000', ['Rund 2.300', 'Rund 23.000', 'Rund 2,3 Millionen']],
-      ['Was entschied der Internationale Gerichtshof laut Text?', 'Er sieht Siedlungen als völkerrechtswidrig', ['Er erlaubt Siedlungen', 'Er verbietet Israel', 'Er löst die PLO auf']],
+      ['Wie bewertete der Internationale Gerichtshof die israelischen Siedlungen?', 'Er sieht Siedlungen als völkerrechtswidrig', ['Er erlaubt Siedlungen', 'Er verbietet Israel', 'Er löst die PLO auf']],
       ['Was bestreitet Israel?', 'Dass Siedlungen völkerrechtswidrig sind', ['Dass Gaza besetzt war', 'Dass es Krieg gab', 'Dass es die PLO gibt']],
       ['Welches Gefühl brachte der Sieg von 1967 in Israel?', 'Unbesiegbarkeit', ['Angst', 'Müdigkeit', 'Gleichgültigkeit']],
       ['Wie war Israels Rolle 1948 in der Sicht vieler?', 'Ein bedrohter David', ['Ein Besatzer', 'Ein Kolonialherr', 'Ein Imperium']],

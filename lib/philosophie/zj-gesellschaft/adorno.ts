@@ -19,7 +19,7 @@ export const ADORNO: Subtopic = {
       ['Welcher Satz Adornos ist berühmt?', '„Es gibt kein richtiges Leben im falschen.“', ['„Gott ist tot.“', '„Ich denke, also bin ich.“', '„Wissen ist Macht.“'], 'Aus den „Minima Moralia“.'],
       ['Wer sind auf diesem Bild zu sehen?', 'Max Horkheimer und Theodor W. Adorno', ['Marx und Engels', 'Sartre und Camus', 'Heidegger und Jaspers'], 'Die Köpfe der Frankfurter Schule 1964, dahinter der junge Habermas.', 'adorno-horkheimer'],
       ['Wohin emigrierten Horkheimer und Adorno?', 'In die USA', ['Nach Russland', 'Nach China', 'Nach Spanien'], 'Nach New York und Los Angeles.'],
-      ['Was kritisierten sie im Kapitel „Kulturindustrie“?', 'Film, Radio und Schlager als Industrieprodukte', ['Die Malerei der Renaissance', 'Die Kirche', 'Die Mathematik'], 'Sie passten die Menschen an.'],
+      ['Was kritisierten Adorno und Horkheimer im Kapitel „Kulturindustrie“ der „Dialektik der Aufklärung“?', 'Film, Radio und Schlager als Industrieprodukte', ['Die Malerei der Renaissance', 'Die Kirche', 'Die Mathematik'], 'Sie passten die Menschen an.'],
       ['Wann kehrten beide nach Frankfurt zurück?', '1949', ['1933', '1945', '1968'], 'Sie bauten das Institut neu auf.'],
       ['Welche Kunst war Adorno besonders wichtig?', 'Die Musik', ['Die Architektur', 'Der Tanz', 'Die Malerei'], 'Er studierte Komposition bei Alban Berg.'],
       ['Was ist nach Adorno „die allererste Forderung an Erziehung“?', 'Dass Auschwitz nicht noch einmal sei', ['Dass Kinder gehorchen', 'Dass alle Latein lernen', 'Dass Schule Spaß macht'], 'Aus „Erziehung nach Auschwitz“ (1966).'],

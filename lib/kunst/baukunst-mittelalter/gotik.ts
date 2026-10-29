@@ -32,7 +32,7 @@ export const GOTIK: Subtopic = {
       ['Wer restaurierte Notre-Dame ab 1844?', 'Viollet-le-Duc', ['Haussmann', 'Eiffel', 'Mansart'], 'Viollet-le-Duc restaurierte Notre-Dame im 19. Jahrhundert.'],
       ['Wann wurde Notre-Dame nach dem Brand wieder eröffnet?', 'Dezember 2024', ['Dezember 2019', 'Dezember 2021', 'Dezember 2030'], 'Notre-Dame wurde im Dezember 2024 wiedereröffnet.'],
       ['Wann brannte Chartres ab?', '1194', ['994', '1394', '1594'], '1194 brannte die romanische Kathedrale größtenteils ab.'],
-      ['Wie viele Glasfenster hat Chartres etwa?', 'Rund 170', ['Rund 17', 'Rund 1.700', 'Rund 7'], 'Von den farbigen Fenstern sind etwa 170 erhalten.'],
+      ['Wie viele Glasfenster hat die Kathedrale von Chartres etwa?', 'Rund 170', ['Rund 17', 'Rund 1.700', 'Rund 7'], 'Von den farbigen Fenstern sind etwa 170 erhalten.'],
       ['Wie heißt die berühmte Farbe der Fenster?', 'Chartres-Blau', ['Chartres-Rot', 'Chartres-Gold', 'Chartres-Grün'], 'Das tiefe Blau der Fenster heißt Chartres-Blau.'],
       ['Seit wann ist Chartres Welterbe?', '1979', ['1879', '1949', '2009'], 'Chartres wurde 1979 Welterbe.'],
       ['Wann wurde der Kölner Dom begonnen?', '1248', ['1048', '1448', '1648']],

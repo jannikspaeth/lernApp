@@ -73,7 +73,7 @@ export const GAZA: Subtopic = {
       ['Was bedeutet die Blockade?', 'Beschränkung von Waren und Bewegung nach Gaza', ['Ein Freihandel', 'Ein Waffenstillstand', 'Ein Fluchtkorridor']],
       ['Wer war Gallant?', 'Früherer Verteidigungsminister Israels', ['Hamas-Chef', 'Hisbollah-Chef', 'US-Außenminister']],
       ['Wie beurteilt der Text die Zukunft Gazas?', 'Sie ist offen', ['Sie ist geklärt', 'Sie ist israelisch', 'Sie ist ägyptisch']],
-      ['Welche Länder vermitteln laut Text auf Grundlage eines Plans?', 'USA, Ägypten, Katar, Türkei', ['Nur die USA', 'Nur Katar', 'Nur die EU']],
+      ['Welche Länder vermitteln im Gazakrieg auf Grundlage eines Plans?', 'USA, Ägypten, Katar, Türkei', ['Nur die USA', 'Nur Katar', 'Nur die EU']],
       ['Was prägte die Jahre 2008–2021?', 'Mehrere Kriege zwischen Israel und der Hamas', ['Ein langer Frieden', 'Ein Bürgerkrieg in Israel', 'Eine Einigung']],
       ['Was sind die Abraham-Abkommen?', 'Normalisierungsabkommen arabischer Staaten mit Israel', ['Waffenstillstände', 'Friedenspläne für Gaza', 'Bündnisse gegen Iran']],
       ['Wie lange hielt der Waffenstillstand vom Januar 2025?', 'Nur kurz', ['Ein Jahr', 'Zehn Jahre', 'Dauerhaft']],

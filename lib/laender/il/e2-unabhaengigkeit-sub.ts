@@ -65,7 +65,7 @@ export const UNABHAENGIGKEIT: Subtopic = {
       ['Was war die Altstadt mit der Klagemauer 1949–1967?', 'Für Juden nicht zugänglich', ['Frei zugänglich', 'Unter Israel', 'Unter UNO']],
       ['Wie war die Lage der Mizrachim anfangs?', 'Oft schlechter gestellt als europäische Einwanderer', ['Besser gestellt', 'Gleich gestellt', 'Verbannt']],
       ['Wie nennt man das Land, aus dem Eichmann entführt wurde?', 'Argentinien', ['Chile', 'Brasilien', 'Kuba']],
-      ['Wie gewann Israel den Krieg 1948/49 laut Text?', 'Es behauptete sich und gewann mehr Gebiet als vorgesehen', ['Es verlor Gebiete', 'Es ergab sich', 'Es teilte die Macht']],
+      ['Wie ging der Krieg von 1948/49 für Israel aus?', 'Es behauptete sich und gewann mehr Gebiet als vorgesehen', ['Es verlor Gebiete', 'Es ergab sich', 'Es teilte die Macht']],
       ['Was bedeutete der Prozess gegen Eichmann?', 'Der Holocaust kam ins Bewusstsein der Welt', ['Ein Ende der Verfolgung', 'Ein Sieg Israels im Krieg', 'Ein Friedensvertrag']],
       ['Wer verwaltete das Westjordanland nach 1949?', 'Jordanien', ['Israel', 'Ägypten', 'Die UNO']],
       ['Wer druckte auf Israel beim Sinai-Rückzug?', 'USA und Sowjetunion', ['Ägypten allein', 'Frankreich', 'Saudi-Arabien']],

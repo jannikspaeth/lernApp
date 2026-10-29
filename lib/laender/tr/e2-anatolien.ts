@@ -259,7 +259,7 @@ export const E2: Epoch = {
               ['Was tat Mehmed zur Religion der Christen in Istanbul?', 'Er setzte einen neuen Patriarchen ein', ['Er verbot das Christentum', 'Er machte sie katholisch', 'Er vertrieb sie alle']],
               ['Wann wurde Konstantinopel gestürmt?', 'Am 29. Mai 1453', ['Am 6. April 1453', 'Am 12. Juni 1453', 'Am 1. Mai 1452']],
               ['Woran scheiterte Mehmed 1480 außer Otranto?', 'An Rhodos', ['An Wien', 'An Zypern', 'An Malta']],
-              ['Welche Sprache sprach Mehmed laut Text?', 'Mehrere Sprachen', ['Nur Türkisch', 'Nur Arabisch', 'Keine Fremdsprache']],
+              ['Welche Sprachen sprach Sultan Mehmed II.?', 'Mehrere Sprachen', ['Nur Türkisch', 'Nur Arabisch', 'Keine Fremdsprache']],
             ],
           },
         },

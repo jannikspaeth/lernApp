@@ -51,7 +51,7 @@ export const MEIJI: HistEvent = {
           ['Wann wurde die Meiji-Restauration verkündet?', 'Am 3. Januar 1868', ['Am 1. Januar 1900', 'Am 15. August 1868', 'Am 3. Juli 1853']],
           ['Wie hieß Kaiser Meiji mit Vornamen?', 'Mutsuhito', ['Hirohito', 'Akihito', 'Yoshihito']],
           ['Wann dauerte der Boshin-Krieg?', '1868–1869', ['1877', '1894–1895', '1904–1905']],
-          ['Wann wurde die Schulpflicht eingeführt?', '1872', ['1868', '1889', '1900']],
+          ['Wann wurde in Japan die Schulpflicht eingeführt?', '1872', ['1868', '1889', '1900']],
           ['Wann wurde die allgemeine Wehrpflicht eingeführt?', '1873', ['1868', '1889', '1904']],
           ['Wer rebellierte 1877?', 'Saigō Takamori', ['Tokugawa Yoshinobu', 'Itō Hirobumi', 'Perry']],
           ['Wie heißt der Aufstand von 1877?', 'Satsuma-Aufstand', ['Boshin-Krieg', 'Shimabara-Aufstand', 'Chōshū-Krieg']],

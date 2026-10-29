@@ -76,7 +76,7 @@ export const ANNEXION: Subtopic = {
       ['Welche Rolle spielte der Zar 1896?', 'Gojong suchte bei Russland Schutz', ['Er stürzte Gojong', 'Er annektierte Korea', 'Er half Japan']],
       ['Wo wurde die Märzbewegung gestartet?', 'In Seoul', ['In Busan', 'In Pjöngjang', 'In Tokio']],
       ['Warum gilt der 1. März als wichtig?', 'Er ist ein Feiertag der Unabhängigkeitsbewegung', ['Er ist Hangeul-Tag', 'Er ist Befreiungstag', 'Er ist Gründungstag']],
-      ['Wie hieß der letzte Kaiser mit Vornamen im Text?', 'Sunjong', ['Gojong', 'Sejong', 'Taejo']],
+      ['Wie hieß der letzte Kaiser Koreas?', 'Sunjong', ['Gojong', 'Sejong', 'Taejo']],
     ],
   },
 };

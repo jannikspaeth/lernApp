@@ -20,7 +20,7 @@ export const SICHERHEIT: Subtopic = {
       ['Wann wurde die Bundeswehr gegründet?', '1955', ['1949', '1945', '1961'], 'Zehn Jahre nach Kriegsende.'],
       ['Welcher Geheimdienst ist für das Ausland zuständig?', 'Der Bundesnachrichtendienst (BND)', ['Der Verfassungsschutz', 'Das BKA', 'Die Bundespolizei'], 'Mit Zentrale in Berlin.'],
       ['Was beobachtet der Verfassungsschutz?', 'Extremistische Bestrebungen und Spionage im Inland', ['Den Straßenverkehr', 'Das Wetter', 'Die Steuern'], 'Das Bundesamt sitzt in Köln.'],
-      ['Wann wurde die Wehrpflicht ausgesetzt?', '2011', ['1990', '2001', '2022'], 'Bis dahin galt sie für Männer.'],
+      ['Wann wurde die Wehrpflicht in Deutschland ausgesetzt?', '2011', ['1990', '2001', '2022'], 'Bis dahin galt sie für Männer.'],
       ['Was rief Olaf Scholz nach dem russischen Angriff auf die Ukraine aus?', 'Eine „Zeitenwende“', ['Einen „Neuanfang“', 'Eine „Wende“', 'Einen „Aufbruch“'], 'Im Februar 2022.'],
       ['Wie hoch war das Sondervermögen für die Bundeswehr von 2022?', '100 Milliarden Euro', ['10 Milliarden Euro', '1 Milliarde Euro', '1.000 Milliarden Euro'], 'Für bessere Ausrüstung.'],
       ['Wie nennt man das Leitbild des Soldaten in der Bundeswehr?', '„Staatsbürger in Uniform“', ['„Diener des Kaisers“', '„Krieger der Nation“', '„Soldat ohne Gewissen“'], 'Nach den Prinzipien der Inneren Führung.'],

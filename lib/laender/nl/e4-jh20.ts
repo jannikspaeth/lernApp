@@ -86,7 +86,7 @@ export const E4: Epoch = {
               ['Was war die NSB?', 'Niederländische NS-Partei', ['Widerstandsgruppe', 'Bahngesellschaft', 'Radiosender']],
               ['Welches Lager stand am Ende von Annes Weg?', 'Bergen-Belsen', ['Westerbork', 'Auschwitz', 'Dachau']],
               ['Was ist das Anne-Frank-Haus heute?', 'Ein Museum an der Prinsengracht', ['Ein Hotel', 'Ein Rathaus', 'Ein Gefängnis']],
-              ['Welche Haltung hatten viele Niederländer laut Text?', 'Manche versteckten Juden, manche kollaborierten', ['Alle kollaborierten', 'Alle leisteten Widerstand', 'Keiner wusste etwas']],
+              ['Wie verhielten sich die Niederländer unter deutscher Besatzung?', 'Manche versteckten Juden, manche kollaborierten', ['Alle kollaborierten', 'Alle leisteten Widerstand', 'Keiner wusste etwas']],
               ['Wann flog die Königin nach London?', 'Mai 1940', ['Mai 1945', 'September 1944', 'Februar 1941']],
               ['Warum wurde Rotterdam bombardiert?', 'Um die Niederlande zur Kapitulation zu zwingen', ['Weil es Hauptstadt war', 'Aus Versehen', 'Weil es neutral war']],
               ['Wie lange dauerte die Besatzung?', 'Fünf Jahre', ['Ein Jahr', 'Zehn Jahre', 'Zwei Jahre']],

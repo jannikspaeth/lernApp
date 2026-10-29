@@ -27,7 +27,7 @@ export const JOMKIPPUR: Subtopic = {
       ['Wer war Premierministerin?', 'Golda Meir', ['Indira Gandhi', 'Margaret Thatcher', 'Tzipi Livni']],
       ['Wann trat Golda Meir zurück?', '1974', ['1969', '1973', '1977']],
       ['Wer vermittelte durch Pendeldiplomatie?', 'Henry Kissinger', ['Jimmy Carter', 'Henry Ford', 'Richard Nixon']],
-      ['Welche Partei gewann 1977?', 'Der Likud', ['Die Arbeiterpartei', 'Mapai', 'Kadima']],
+      ['Welche Partei gewann 1977 die Wahl in Israel?', 'Der Likud', ['Die Arbeiterpartei', 'Mapai', 'Kadima']],
       ['Wer führte den Likud?', 'Menachem Begin', ['Ben-Gurion', 'Scharon', 'Rabin']],
       ['Wohin reiste Sadat 1977?', 'Nach Jerusalem', ['Nach Tel Aviv', 'Nach Washington', 'Nach Moskau']],
       ['Wo vermittelte Carter 1978?', 'In Camp David', ['In Oslo', 'In Genf', 'In Madrid']],

@@ -20,7 +20,7 @@ export const MERZ: Subtopic = {
       ['Mit welcher Partei regiert die Union unter Merz?', 'Mit der SPD', ['Mit den Grünen', 'Mit der FDP', 'Mit der AfD'], 'Eine schwarz-rote Koalition.'],
       ['Der wievielte Bundeskanzler ist Friedrich Merz?', 'Der zehnte', ['Der achte', 'Der zwölfte', 'Der fünfte'], 'Nach Olaf Scholz.'],
       ['Was war bei der Kanzlerwahl von Merz einmalig?', 'Er wurde erst im zweiten Wahlgang gewählt', ['Er wurde einstimmig gewählt', 'Er wurde vom Volk direkt gewählt', 'Es gab keinen Gegenkandidaten'], 'Im ersten fehlten ihm sechs Stimmen.'],
-      ['Wann fand die vorgezogene Bundestagswahl statt?', 'Am 23. Februar 2025', ['Am 26. September 2025', 'Am 6. Mai 2025', 'Am 16. Dezember 2024'], 'Nach dem Bruch der Ampel.'],
+      ['Wann fand die vorgezogene Bundestagswahl nach dem Bruch der Ampel statt?', 'Am 23. Februar 2025', ['Am 26. September 2025', 'Am 6. Mai 2025', 'Am 16. Dezember 2024'], 'Nach dem Bruch der Ampel.'],
       ['Welche Partei wurde 2025 zweitstärkste Kraft?', 'Die AfD', ['Die SPD', 'Die Grünen', 'Die Linke'], 'Mit 20,8 Prozent.'],
       ['Wer wurde 2025 Vizekanzler und Finanzminister?', 'Lars Klingbeil', ['Boris Pistorius', 'Christian Lindner', 'Robert Habeck'], 'Der SPD-Vorsitzende.'],
       ['Wie hoch ist das Sondervermögen für Infrastruktur und Klimaschutz von 2025?', '500 Milliarden Euro', ['100 Milliarden Euro', '50 Milliarden Euro', '5 Billionen Euro'], 'Über zwölf Jahre.'],
