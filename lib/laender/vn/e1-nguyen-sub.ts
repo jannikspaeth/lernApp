@@ -32,7 +32,7 @@ export const NGUYEN: Subtopic = {
       ['Wann wurde Gia Long Kaiser?', '1802', ['1788', '1858', '1883']],
       ['Wer half Nguyễn Ánh?', 'Frankreich und Siam', ['China und Japan', 'Die USA', 'Die Briten']],
       ['Wie nannte Gia Long das Land?', 'Việt Nam', ['Đại Việt', 'Annam', 'Đại Cồ Việt']],
-      ['Wohin verlegte er die Hauptstadt?', 'Nach Huế', ['Nach Hanoi', 'Nach Saigon', 'Nach Da Nang']],
+      ['Wohin verlegte Kaiser Gia Long die Hauptstadt?', 'Nach Huế', ['Nach Hanoi', 'Nach Saigon', 'Nach Da Nang']],
     ],
     mittel: [
       ['Seit wann war das Land faktisch geteilt?', 'Seit 1627', ['Seit 1527', 'Seit 1771', 'Seit 1802']],

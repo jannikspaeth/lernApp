@@ -17,7 +17,7 @@ export const MUBARAK: Subtopic = {
       ['Was war Mubarak vorher?', 'Luftwaffenchef', ['Armeechef', 'Polizeichef', 'Geheimdienstchef']],
       ['Wie lange regierte Husni Mubarak?', 'Fast 30 Jahre', ['Fast 10 Jahre', 'Fast 50 Jahre', 'Fast 3 Jahre']],
       ['Was galt bis 2011?', 'Der Ausnahmezustand', ['Die Pressefreiheit', 'Die Demokratie', 'Das Kriegsrecht nur 1981']],
-      ['Wie hieß seine Partei?', 'NDP', ['Wafd', 'Freiheit und Gerechtigkeit', 'Al-Nur']],
+      ['Wie hieß Mubaraks Partei?', 'NDP', ['Wafd', 'Freiheit und Gerechtigkeit', 'Al-Nur']],
       ['Wen hielt er für den Frieden?', 'Israel', ['Syrien', 'Libyen', 'Iran']],
       ['Wer war sein Verbündeter?', 'Die USA', ['Die Sowjetunion', 'Iran', 'China']],
       ['Wie hieß Mubaraks Sohn und möglicher Nachfolger?', 'Gamal', ['Alaa', 'Ahmed', 'Omar']],

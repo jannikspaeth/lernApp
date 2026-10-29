@@ -13,9 +13,9 @@ export const REIWA: Subtopic = {
   ],
   quiz: {
     leicht: [
-      ['Was platzte Anfang der 1990er-Jahre?', 'Die Spekulationsblase', ['Ein Staudamm', 'Ein Vulkan', 'Die Monarchie']],
+      ['Was platzte Anfang der 1990er-Jahre in Japan?', 'Die Spekulationsblase', ['Ein Staudamm', 'Ein Vulkan', 'Die Monarchie']],
       ['Wie nennt man die Zeit schwachen Wachstums danach?', 'Verlorenes Jahrzehnt', ['Goldenes Jahrzehnt', 'Wirtschaftswunder', 'Meiji-Zeit']],
-      ['Welche Stadt zerstörte 1995 ein Erdbeben?', 'Kobe', ['Tokio', 'Osaka', 'Hiroshima']],
+      ['Welche japanische Stadt zerstörte 1995 ein Erdbeben?', 'Kobe', ['Tokio', 'Osaka', 'Hiroshima']],
       ['Welche Sekte verübte 1995 einen Giftgasanschlag?', 'Aum Shinrikyō', ['Sōka Gakkai', 'Shintō-Schrein', 'Zen-Kloster']],
       ['Wo verübte Aum den Anschlag?', 'In der Tokioter U-Bahn', ['Im Flughafen Osaka', 'Im Kaiserpalast', 'In einem Stadion']],
       ['Welches Gift nutzte Aum?', 'Sarin', ['Arsen', 'Zyankali', 'Quecksilber']],
@@ -35,13 +35,13 @@ export const REIWA: Subtopic = {
       ['Wer wurde 2025 erste Premierministerin Japans?', 'Takaichi Sanae', ['Koike Yuriko', 'Prinzessin Aiko', 'Murasaki Shikibu']],
     ],
     mittel: [
-      ['Worauf saßen die Banken nach der Blase?', 'Auf faulen Krediten', ['Auf Gold', 'Auf Öl', 'Auf Reis']],
-      ['Was geschah mit den Preisen im verlorenen Jahrzehnt?', 'Sie sanken', ['Sie explodierten', 'Sie verdoppelten sich jährlich', 'Sie wurden verboten']],
+      ['Worauf saßen Japans Banken nach der Blase?', 'Auf faulen Krediten', ['Auf Gold', 'Auf Öl', 'Auf Reis']],
+      ['Was geschah in Japan im verlorenen Jahrzehnt mit den Preisen?', 'Sie sanken', ['Sie explodierten', 'Sie verdoppelten sich jährlich', 'Sie wurden verboten']],
       ['Wann war das Erdbeben von Kobe?', 'Am 17. Januar 1995', ['Am 20. März 1995', 'Am 11. März 2011', 'Am 1. September 1923']],
       ['Wie viele Menschen starben in Kobe?', 'Über 6.400', ['Rund 64', 'Über 64.000', 'Rund 640']],
       ['Wann war der Sarin-Anschlag?', 'Am 20. März 1995', ['Am 17. Januar 1995', 'Am 11. September 2001', 'Am 11. März 2011']],
       ['Wie viele Menschen starben beim Sarin-Anschlag?', '14', ['1.400', '140', '4']],
-      ['Wie viele Menschen starben 2011 oder werden vermisst?', 'Rund 18.500', ['Rund 1.850', 'Rund 185.000', 'Rund 185']],
+      ['Wie viele Menschen starben 2011 durch Beben und Tsunami in Japan oder werden vermisst?', 'Rund 18.500', ['Rund 1.850', 'Rund 185.000', 'Rund 185']],
       ['Was löste das Seebeben 2011 aus?', 'Einen gewaltigen Tsunami', ['Einen Vulkanausbruch', 'Einen Waldbrand', 'Einen Krieg']],
       ['Was geschah in Fukushima?', 'Kernschmelzen', ['Ein Staudammbruch', 'Ein Großbrand in einer Fabrik', 'Ein Flugzeugabsturz']],
       ['Womit wird Fukushima verglichen?', 'Mit Tschernobyl', ['Mit Hiroshima', 'Mit Minamata', 'Mit Bhopal']],

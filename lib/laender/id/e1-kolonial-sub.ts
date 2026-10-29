@@ -46,7 +46,7 @@ export const KOLONIAL: Subtopic = {
       ['Wann war der Aceh-Krieg?', '1873–1904', ['1825–1830', '1906–1908', '1926–1927']],
       ['Wann wurde Bali erobert?', '1906/08', ['1873', '1930', '1942']],
       ['Wann beherrschten die Niederländer den ganzen Archipel?', 'Um 1910', ['Um 1602', 'Um 1799', 'Um 1945']],
-      ['Wer stand in der Gesellschaft unten?', 'Die „Eingeborenen“', ['Die Europäer', 'Die Chinesen', 'Die Araber']],
+      ['Wer stand in der Gesellschaft Niederländisch-Indiens unten?', 'Die „Eingeborenen“', ['Die Europäer', 'Die Chinesen', 'Die Araber']],
       ['Wer galt als „Fremde Orientalen“?', 'Chinesen und Araber', ['Javaner', 'Europäer', 'Inder']],
       ['Wann ist der „Tag der nationalen Erweckung“?', '20. Mai', ['17. August', '28. Oktober', '1. Juni']],
       ['Was war Sarekat Islam?', 'Eine muslimische Handelsvereinigung', ['Eine Partei der Kommunisten', 'Eine Armee', 'Ein Orden']],

@@ -70,7 +70,7 @@ export const DEMOKRATIE: Subtopic = {
       ['Wer fügte sich 2015 der Niederlage?', 'Jonathan', ['Buhari', 'Atiku', 'Tinubu']],
       ['Wer war Tinubu früher?', 'Gouverneur von Lagos', ['General', 'Prediger', 'Journalist']],
       ['Zu welcher Volksgruppe gehört er?', 'Yoruba', ['Hausa', 'Igbo', 'Fulani']],
-      ['Wie hoch ist die Inflation?', 'Über 30 Prozent', ['Unter 1 Prozent', 'Etwa 5 Prozent', 'Etwa 15 Prozent']],
+      ['Wie hoch ist die Inflation in Nigeria in den letzten Jahren?', 'Über 30 Prozent', ['Unter 1 Prozent', 'Etwa 5 Prozent', 'Etwa 15 Prozent']],
       ['Wie viele leben unter der Armutsgrenze?', 'Rund 40 Prozent', ['Rund 4 Prozent', 'Rund 14 Prozent', 'Rund 80 Prozent']],
       ['Was passierte mit der Naira?', 'Sie stürzte ab', ['Sie stieg', 'Sie blieb stabil', 'Sie wurde abgeschafft']],
       ['In welcher Organisation ist Nigeria wichtig?', 'ECOWAS', ['EU', 'NATO', 'BRICS']],

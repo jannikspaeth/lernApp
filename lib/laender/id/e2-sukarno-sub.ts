@@ -29,7 +29,7 @@ export const SUKARNO: Subtopic = {
       ['Gegen welches Land richtete sich die Konfrontasi?', 'Malaysia', ['Singapur', 'Thailand', 'Australien']],
       ['Was erzwang Indonesien 1962?', 'Die Abtretung Westneuguineas', ['Die Abtretung Osttimors', 'Die Abtretung Borneos', 'Die Abtretung Singapurs']],
       ['Was tat Indonesien 1965?', 'Es trat aus den Vereinten Nationen aus', ['Es trat der EU bei', 'Es trat der NATO bei', 'Es griff Australien an']],
-      ['Wie hoch war die Inflation zeitweise?', 'Über 600 Prozent', ['Etwa 6 Prozent', 'Etwa 60 Prozent', 'Etwa 6.000 Prozent']],
+      ['Wie hoch war die Inflation in Brasilien um 1990 zeitweise?', 'Über 600 Prozent', ['Etwa 6 Prozent', 'Etwa 60 Prozent', 'Etwa 6.000 Prozent']],
       ['Wie heißt das Stadion in Jakarta?', 'Gelora Bung Karno', ['Monas', 'Merdeka', 'Istiqlal']],
       ['Wie ließ sich Sukarno nennen?', 'Bung Karno', ['Pak Harto', 'Bapak', 'Mas Soekarno']],
       ['Wer führte die PKI?', 'D. N. Aidit', ['Sudirman', 'Hatta', 'Suharto']],

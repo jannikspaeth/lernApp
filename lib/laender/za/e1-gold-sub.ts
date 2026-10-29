@@ -70,7 +70,7 @@ export const GOLD: Subtopic = {
       ['Was erhielten die Burenrepubliken im Frieden?', 'Wiederaufbauhilfe und Selbstverwaltung', ['Unabhängigkeit', 'Gebietsgewinne', 'Gold']],
       ['Was bekamen Schwarze nicht?', 'Das Wahlrecht', ['Land', 'Arbeit', 'Schulen']],
       ['Was war 1910 die Union?', 'Ein Dominion des britischen Empire', ['Eine Republik', 'Eine Kolonie', 'Ein Burenstaat']],
-      ['Wer wurde erster Premierminister?', 'Louis Botha', ['Jan Smuts', 'Paul Kruger', 'Cecil Rhodes']],
+      ['Wer wurde erster Premierminister Kanadas?', 'Louis Botha', ['Jan Smuts', 'Paul Kruger', 'Cecil Rhodes']],
       ['Wer durfte wählen?', 'Nur Weiße (im Kap einzelne andere)', ['Alle Männer', 'Alle Bürger', 'Nur Buren']],
       ['Was gründeten Schwarze 1912?', 'Den Nationalkongress, später ANC', ['Eine Gewerkschaft', 'Eine Kirche', 'Eine Armee']],
       ['Wie versöhnten sich die Weißen?', 'Auf Kosten der Schwarzen', ['Durch Krieg', 'Durch Teilung', 'Durch Handel']],

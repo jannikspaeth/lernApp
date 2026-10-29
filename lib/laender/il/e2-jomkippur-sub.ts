@@ -16,7 +16,7 @@ export const JOMKIPPUR: Subtopic = {
       ['Wer folgte Nasser?', 'Anwar as-Sadat', ['Hosni Mubarak', 'Saddam Hussein', 'Hafis al-Assad']],
       ['Wann begann der Jom-Kippur-Krieg?', '6. Oktober 1973', ['5. Juni 1967', '14. Mai 1948', '26. März 1979']],
       ['Was ist Jom Kippur?', 'Der höchste jüdische Feiertag', ['Ein Erntefest', 'Ein Siegesfest', 'Ein Neujahrsfest']],
-      ['Wer griff an?', 'Ägypten und Syrien', ['Jordanien und Libanon', 'Irak und Iran', 'Saudi-Arabien und Jemen']],
+      ['Wer griff Israel 1973 an?', 'Ägypten und Syrien', ['Jordanien und Libanon', 'Irak und Iran', 'Saudi-Arabien und Jemen']],
       ['Was überquerten die Ägypter?', 'Den Suezkanal', ['Den Jordan', 'Den Nil', 'Das Tote Meer']],
       ['Wie hieß Israels Verteidigungslinie am Kanal?', 'Bar-Lev-Linie', ['Maginot-Linie', 'Siegfried-Linie', 'Mannerheim-Linie']],
       ['Wer drang auf den Golanhöhen vor?', 'Syrische Panzer', ['Ägyptische Panzer', 'Irakische Flugzeuge', 'Libanesische Soldaten']],
