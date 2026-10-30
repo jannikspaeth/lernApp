@@ -20,7 +20,7 @@ export const UEBERBLICK: Subtopic = {
       ['Was zeigt das Bild?', 'Das Yin-Yang-Symbol', ['Das Rad des Dharma', 'Die Silbe Om', 'Einen Mandala'], 'Zwei gegensätzliche, einander ergänzende Kräfte.', 'yin-yang'],
       ['Wofür steht Yang?', 'Das Helle, Warme, Männliche', ['Das Dunkle, Kühle, Weibliche', 'Das Böse', 'Das Wasser'], 'Yin steht für das Dunkle, Weibliche, Kühle.'],
       ['Welches Bauwerk in Peking zeigt das Bild?', 'Den Himmelstempel', ['Die Verbotene Stadt', 'Die Große Mauer', 'Den Potala-Palast'], 'Hier opferte der Kaiser dem Himmel.', 'himmelstempel'],
-      ['Wen verehren Chinesen am Hausaltar?', 'Die Ahnen', ['Den Kaiser', 'Buddha allein', 'Die Sonne'], 'Mit Räucherstäbchen und Speisen.'],
+      ['Wen verehren Chinesen am Hausaltar?', 'Die Ahnen', ['Den Kaiser', 'Buddha', 'Die Sonne'], 'Mit Räucherstäbchen und Speisen.'],
       ['Welche Farbe vertreibt nach chinesischem Glauben böse Geister?', 'Rot', ['Weiß', 'Schwarz', 'Grün'], 'Darum ist das Neujahrsfest voller Rot.'],
       ['Was verschenkt man zum chinesischen Neujahr?', 'Rote Umschläge mit Geld', ['Ostereier', 'Weiße Blumen', 'Kerzen'], 'Für Glück im neuen Jahr.'],
       ['Wie viele Tierkreiszeichen hat der chinesische Kalender?', 'Zwölf', ['Sieben', 'Zehn', 'Fünf'], 'Von der Ratte bis zum Schwein.'],

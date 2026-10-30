@@ -23,7 +23,7 @@ export const BALZAC_FLAUBERT: Subtopic = {
       ['Was ist Emma Bovarys Mann von Beruf?', 'Landarzt', ['Lehrer', 'Notar', 'Kaufmann'], null],
       ['Woraus erträumt sich Emma Bovary ihr Leben?', 'Aus Romanen', ['Aus Zeitungen', 'Aus Träumen', 'Aus Briefen'], null],
       ['Wie endet Emma Bovary?', 'Sie nimmt Gift', ['Sie flieht nach Paris', 'Sie kehrt zurück', 'Sie wird reich'], null],
-      ['Weswegen wurde Flaubert wegen „Madame Bovary“ angeklagt?', 'Wegen Unsittlichkeit', ['Wegen Hochverrats', 'Wegen Betrugs', 'Wegen Gotteslästerung allein'], 'Er wurde freigesprochen.'],
+      ['Weswegen wurde Flaubert wegen „Madame Bovary“ angeklagt?', 'Wegen Unsittlichkeit', ['Wegen Hochverrats', 'Wegen Betrugs', 'Wegen Gotteslästerung'], 'Er wurde freigesprochen.'],
       ['Wonach suchte Flaubert beim Schreiben unermüdlich?', 'Das genau richtige Wort', ['Das schönste Wort', 'Das kürzeste Wort', 'Das seltenste Wort'], 'Auf Französisch „le mot juste“.'],
       ['Wer war Flauberts Schüler?', 'Guy de Maupassant', ['Émile Zola', 'Alphonse Daudet', 'Edmond de Goncourt'], null],
     ],

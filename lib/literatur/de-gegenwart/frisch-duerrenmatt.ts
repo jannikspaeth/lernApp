@@ -25,7 +25,7 @@ export const FRISCH_DUERRENMATT: Subtopic = {
       ['Wofür wird Andri in Frischs „Andorra“ gehalten?', 'Für einen Juden', ['Für einen Spion', 'Für einen Dieb', 'Für einen Fremden aus dem Nachbarland'], 'Er ist es in Wahrheit nicht.'],
       ['Was schaffen die Brandstifter in Frischs „Biedermann und die Brandstifter“ auf den Dachboden?', 'Benzinfässer', ['Kisten mit Büchern', 'Möbel', 'Geld'], null],
       ['Aus welchem Land stammen Max Frisch und Friedrich Dürrenmatt?', 'Aus der Schweiz', ['Aus Österreich', 'Aus Deutschland', 'Aus Frankreich'], null],
-      ['Welchen Beruf hatte Max Frisch zuerst?', 'Architekt', ['Pfarrer', 'Lehrer', 'Journalist allein'], null],
+      ['Welchen Beruf hatte Max Frisch zuerst?', 'Architekt', ['Pfarrer', 'Lehrer', 'Journalist'], null],
     ],
     mittel: [
       ['Wann lebte Max Frisch?', '1911–1991', ['1921–1990', '1917–1985', '1927–2015'], null],
@@ -38,11 +38,11 @@ export const FRISCH_DUERRENMATT: Subtopic = {
       ['Wann erschien „Der Besuch der alten Dame“?', '1956', ['1946', '1966', '1976'], null],
       ['Wie heißt die reiche Frau in Dürrenmatts „Der Besuch der alten Dame“?', 'Claire Zachanassian', ['Claire Zachanowa', 'Klara Wäscher', 'Clara Zachary'], null],
       ['Wann erschien „Die Physiker“?', '1962', ['1952', '1972', '1982'], null],
-      ['Welche Kriminalromane schrieb Dürrenmatt?', 'Der Richter und sein Henker und Das Versprechen', ['Der Prozess und Das Schloss', 'Die Panne allein', 'Der Verdacht und Der Besuch'], null],
+      ['Welche Kriminalromane schrieb Dürrenmatt?', 'Der Richter und sein Henker und Das Versprechen', ['Der Prozess und Das Schloss', 'Die Panne', 'Der Verdacht und Der Besuch'], null],
       ['Woran scheitert der Kommissar in Dürrenmatts „Das Versprechen“?', 'Am Zufall', ['An einem Verrat', 'An seiner Krankheit', 'An der Polizei'], null],
     ],
     schwer: [
-      ['Woran glaubt Walter Faber in „Homo faber“ nicht?', 'An den Zufall', ['An die Technik', 'An die Liebe', 'An Gott allein'], 'Gerade der Zufall zerstört sein Leben.'],
+      ['Woran glaubt Walter Faber in „Homo faber“ nicht?', 'An den Zufall', ['An die Technik', 'An die Liebe', 'An Gott'], 'Gerade der Zufall zerstört sein Leben.'],
       ['Was zeigt Frischs „Andorra“ über Vorurteile?', 'Der Zugeschriebene übernimmt irgendwann die fremde Rolle', ['Vorurteile verschwinden von selbst', 'Nur Fremde haben Vorurteile', 'Vorurteile schützen'], null],
       ['Was tut Biedermann in Frischs Stück am Ende?', 'Er reicht den Brandstiftern die Streichhölzer', ['Er ruft die Feuerwehr', 'Er wirft sie hinaus', 'Er zündet selbst an'], null],
       ['Wie sah Dürrenmatt die Welt?', 'Als grotesk, fassbar nur in der Komödie', ['Als geordnet und sinnvoll', 'Als tragisch im antiken Sinn', 'Als gleichgültig'], null],

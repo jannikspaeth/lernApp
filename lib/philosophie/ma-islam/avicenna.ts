@@ -16,7 +16,7 @@ export const AVICENNA: Subtopic = {
   quiz: {
     leicht: [
       ['Wie heißt Avicenna auf Arabisch?', 'Ibn Sina', ['Ibn Ruschd', 'Ibn Khaldun', 'Ibn Battuta'], 'Abu Ali al-Husain ibn Sina.'],
-      ['Wie heißt Avicennas berühmtes Medizinbuch?', '„Kanon der Medizin“', ['„Buch der Heilung“ allein', '„Corpus Hippocraticum“', '„Der Musterstaat“'], 'Bis ins 17. Jahrhundert Lehrbuch in Europa.'],
+      ['Wie heißt Avicennas berühmtes Medizinbuch?', '„Kanon der Medizin“', ['„Buch der Heilung“', '„Corpus Hippocraticum“', '„Der Musterstaat“'], 'Bis ins 17. Jahrhundert Lehrbuch in Europa.'],
       ['Wer ist auf diesem Bild zu sehen?', 'Avicenna', ['Averroes', 'Maimonides', 'Al-Ghazali'], 'Eine spätere Darstellung des „Fürsten der Ärzte“.', 'avicenna'],
       ['Als was arbeitete Avicenna vor allem?', 'Als Arzt', ['Als Kaufmann', 'Als Seefahrer', 'Als Baumeister'], 'Und als Wesir verschiedener Fürsten.'],
       ['In welchem heutigen Land wurde Avicenna geboren?', 'In Usbekistan', ['In Spanien', 'In Ägypten', 'In Marokko'], 'Bei Buchara.'],
@@ -37,7 +37,7 @@ export const AVICENNA: Subtopic = {
       ['Was durfte Avicenna nach der Heilung des Emirs benutzen?', 'Die Bibliothek von Buchara', ['Den Palast', 'Die Schatzkammer', 'Die Armee'], 'Mit 17 Jahren.'],
       ['Was schloss Avicenna aus dem schwebenden Menschen?', 'Die Seele ist vom Körper verschieden', ['Der Körper ist alles', 'Der Mensch kann fliegen', 'Gott existiert nicht'], 'Sie ist sich ihrer selbst unmittelbar bewusst.'],
       ['Wann wurde der Kanon ins Lateinische übersetzt?', 'Im 12. Jahrhundert', ['Im 10. Jahrhundert', 'Im 15. Jahrhundert', 'Im 18. Jahrhundert'], 'In Toledo.'],
-      ['Welche medizinische Maßnahme empfahl Avicenna bei Ansteckung?', 'Quarantäne', ['Aderlass allein', 'Fasten', 'Gebete'], 'Er beschrieb die Ansteckung bei Tuberkulose.'],
+      ['Welche medizinische Maßnahme empfahl Avicenna bei Ansteckung?', 'Quarantäne', ['Aderlass', 'Fasten', 'Gebete'], 'Er beschrieb die Ansteckung bei Tuberkulose.'],
       ['Wo starb Avicenna?', 'In Hamadan im Iran', ['In Buchara', 'In Bagdad', 'In Córdoba'], '1037.'],
       ['Wie floh Avicenna einmal aus der Gefangenschaft?', 'Verkleidet als Sufi', ['Mit einem Ballon', 'Durch einen Tunnel', 'Auf einem Elefanten'], 'Er führte ein unruhiges Wanderleben.'],
       ['Welcher Dichter nannte Avicenna unter den großen Geistern?', 'Dante', ['Shakespeare', 'Goethe', 'Petrarca'], 'In der „Göttlichen Komödie“.'],

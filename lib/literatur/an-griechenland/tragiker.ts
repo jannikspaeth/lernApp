@@ -47,7 +47,7 @@ export const TRAGIKER: Subtopic = {
       ['Was steht in Sophokles’ „Antigone“ gegeneinander?', 'Gewissen und Gesetz des Staates', ['Liebe und Ehre', 'Wissen und Glauben', 'Reichtum und Armut'], null],
       ['Welche Menschen zeigt Euripides besonders?', 'Auch Frauen und Fremde mit ihren Leidenschaften', ['Nur Götter', 'Nur Könige', 'Nur Helden des Krieges'], null],
       ['Wie erfolgreich war Euripides zu Lebzeiten im Wettstreit?', 'Er gewann nur wenige Preise', ['Er gewann am häufigsten', 'Er gewann nie', 'Er wurde Staatsdichter'], 'Nach seinem Tod wurde er am meisten gespielt.'],
-      ['Wer griff Euripides’ Stoffe später auf?', 'Racine und Goethe', ['Shakespeare allein', 'Cervantes', 'Dante'], null],
+      ['Wer griff Euripides’ Stoffe später auf?', 'Racine und Goethe', ['Shakespeare', 'Cervantes', 'Dante'], null],
       ['Wie setzten die Frauen in „Lysistrata“ den Frieden durch?', 'Sie verweigerten ihren Männern die Liebe', ['Sie bildeten ein Heer', 'Sie bestachen Generäle', 'Sie reisten nach Sparta'], null],
       ['Was zeigen Aristophanes’ Komödien über Athen?', 'Die Freiheit, Politiker öffentlich zu verlachen', ['Strenge Zensur', 'Die Unterdrückung des Volkes', 'Gesetzestreue'], null],
       ['Wo wurden die griechischen Dramen aufgeführt?', 'Im Theater unter freiem Himmel mit Masken', ['In geschlossenen Sälen', 'In Tempeln', 'In Gerichtshäusern'], null],

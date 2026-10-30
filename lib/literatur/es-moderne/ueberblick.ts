@@ -35,7 +35,7 @@ export const UEBERBLICK: Subtopic = {
       ['Wer brachte den Naturalismus nach Spanien?', 'Emilia Pardo Bazán', ['Rosalía de Castro', 'Almudena Grandes', 'Carmen Laforet'], null],
       ['Wer schrieb „Platero und ich“?', 'Juan Ramón Jiménez', ['Antonio Machado', 'Unamuno', 'Lorca'], null],
       ['Zu welchem Anlass traf sich die Generation von 27 1927?', 'Zum 300. Todestag Góngoras', ['Zur Krönung des Königs', 'Zum Ende des Krieges', 'Zur Gründung einer Zeitschrift'], null],
-      ['Wohin gingen viele Dichter nach dem Bürgerkrieg?', 'Ins Exil, etwa nach Mexiko und Argentinien', ['In die Kolonien', 'In den Vatikan', 'In die Sowjetunion allein'], null],
+      ['Wohin gingen viele Dichter nach dem Bürgerkrieg?', 'Ins Exil, etwa nach Mexiko und Argentinien', ['In die Kolonien', 'In den Vatikan', 'In die Sowjetunion'], null],
       ['Wer erhielt 1989 den Nobelpreis?', 'Camilo José Cela', ['Juan Ramón Jiménez', 'Vicente Aleixandre', 'Javier Marías'], null],
       ['Wann erschien „Die Familie des Pascual Duarte“?', '1942', ['1898', '1936', '1975'], null],
       ['Was herrschte unter Franco in der Literatur?', 'Zensur', ['Volle Freiheit', 'Förderung aller Autoren', 'Ein Verbot jeder Dichtung'], null],

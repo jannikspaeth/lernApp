@@ -48,7 +48,7 @@ export const MONTEVERDI: Subtopic = {
       ['Was ist laut Monteverdi in der „seconda pratica“ die Herrin der Harmonie?', 'Die Rede (das Wort)', ['Die Melodie', 'Der Rhythmus', 'Der Kontrapunkt'], 'Der Text sollte die Musik bestimmen, nicht umgekehrt.'],
       ['Wann wurde Monteverdi Kapellmeister in Mantua?', '1601', ['1590', '1613', '1630'], 'Zuvor hatte er schon über zehn Jahre am Hof gedient.'],
       ['Wessen Geliebte ist Poppea in Monteverdis letzter Oper?', 'Kaiser Neros', ['Kaiser Augustus’', 'Julius Cäsars', 'Alexanders des Großen'], 'Nero verstößt dafür seine Frau Octavia.'],
-      ['Was ist ungewöhnlich am Ende von „L’incoronazione di Poppea“?', 'Leidenschaft und Machthunger siegen', ['Alle Figuren sterben', 'Es gibt kein Ende', 'Ein Gott greift ein'], 'Die Liebenden triumphieren, obwohl sie skrupellos sind.'],
+      ['Was ist ungewöhnlich am Ende von Monteverdis „L’incoronazione di Poppea“?', 'Leidenschaft und Machthunger siegen', ['Alle Figuren sterben', 'Poppea wird verbannt', 'Ein Gott greift ein'], 'Die Liebenden triumphieren, obwohl sie skrupellos sind.'],
       ['In welcher Kirche wurde Monteverdi beigesetzt?', 'Santa Maria Gloriosa dei Frari', ['San Marco', 'Santi Giovanni e Paolo', 'San Giorgio Maggiore'], 'In der „Frari“ hängt auch Tizians berühmtes Altarbild.'],
       ['Mit welchem Instrument trat Monteverdi in Mantua zuerst in Dienst?', 'Mit der Gambe', ['Mit der Orgel', 'Mit der Trompete', 'Mit der Laute'], 'Er war auch Sänger.'],
       ['Wodurch stirbt Eurydike im Orpheus-Mythos?', 'Durch einen Schlangenbiss', ['Durch einen Sturz', 'Durch Gift', 'Durch ein Fieber'], 'Eurydike tritt auf der Flucht vor einem Verfolger auf die Schlange.'],

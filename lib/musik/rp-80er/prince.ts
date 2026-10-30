@@ -45,11 +45,11 @@ export const PRINCE: Subtopic = {
     schwer: [
       ['Wie groß war Prince ungefähr?', 'Etwa 1,57 Meter', ['Etwa 1,80 Meter', 'Etwa 1,95 Meter', 'Etwa 1,40 Meter'], 'Er trug gern hohe Absätze.'],
       ['Wann unterschrieb Prince bei Warner Bros.?', '1977', ['1970', '1984', '1993'], 'Mit 19 Jahren.'],
-      ['Wie hieß sein erstes Album?', '„For You“', ['„Purple Rain“', '„Dirty Mind“', '„Controversy“'], 'Erschienen 1978.'],
+      ['Wie hieß das erste Album von Prince?', '„For You“', ['„Purple Rain“', '„Dirty Mind“', '„Controversy“'], 'Erschienen 1978.'],
       ['Welches Prince-Lied löste Tipper Gores Kampagne aus?', '„Darling Nikki“', ['„Purple Rain“', '„Kiss“', '„Little Red Corvette“'], 'Eine Kampagne gegen anstößige Texte.'],
       ['Welcher Religionsgemeinschaft gehörte Prince später an?', 'Den Zeugen Jehovas', ['Den Mormonen', 'Der katholischen Kirche', 'Dem Buddhismus'], 'Ab etwa 2001.'],
       ['Wann änderte Prince seinen Namen in ein Symbol?', '1993', ['1984', '1999', '2007'], 'Er nannte das Symbol „Love Symbol“.'],
-      ['Wann nannte er sich wieder Prince?', '2000', ['1995', '2005', '2010'], 'Nach dem Ende seines Warner-Vertrags.'],
+      ['Wann nannte sich Prince wieder Prince?', '2000', ['1995', '2005', '2010'], 'Nach dem Ende seines Warner-Vertrags.'],
       ['Wann starb Prince?', 'Am 21. April 2016', ['Am 25. Juni 2009', 'Am 10. Januar 2016', 'Am 24. November 1991'], 'In Paisley Park.'],
       ['Wie viele Grammys gewann Prince?', 'Sieben', ['Einen', '13', '22'], 'Und einen Oscar.'],
       ['Welches Wahrzeichen wurde nach seinem Tod lila beleuchtet?', 'Die Niagarafälle', ['Die Freiheitsstatue', 'Der Kölner Dom', 'Das Kolosseum'], 'Wie viele Gebäude weltweit.'],

@@ -19,7 +19,7 @@ export const VOLTAIRE: Subtopic = {
       ['Wie lautet der Schlusssatz von „Candide“?', '„Wir müssen unseren Garten bestellen.“', ['„Alles ist gut.“', '„Ich denke, also bin ich.“', '„Es lebe der König.“'], 'Statt nutzloser Spekulation.'],
       ['Wer ist auf diesem Bild zu sehen?', 'Voltaire', ['Rousseau', 'Diderot', 'Montesquieu'], 'Nach dem Porträt von Nicolas de Largillière.', 'voltaire'],
       ['Wie hieß Voltaire eigentlich?', 'François-Marie Arouet', ['Charles de Secondat', 'Denis Diderot', 'Jean-Jacques Rousseau'], '„Voltaire“ war ein Künstlername.'],
-      ['In welchem Pariser Gefängnis saß Voltaire?', 'In der Bastille', ['Im Tower', 'In der Conciergerie allein', 'Im Louvre'], 'Zweimal.'],
+      ['In welchem Pariser Gefängnis saß Voltaire?', 'In der Bastille', ['Im Tower', 'In der Conciergerie', 'Im Louvre'], 'Zweimal.'],
       ['In welches Land musste Voltaire 1726 gehen?', 'Nach England', ['Nach Preußen', 'Nach Spanien', 'Nach Amerika'], 'Dort lernte er Locke und Newton kennen.'],
       ['Für welchen Wert kämpfte Voltaire besonders?', 'Für religiöse Toleranz', ['Für die Macht der Kirche', 'Für den Krieg', 'Für die Zensur'], 'Etwa im Fall Calas.'],
       ['Wen verspottet die Figur Pangloss?', 'Leibniz und seinen Optimismus', ['Rousseau', 'Newton', 'Friedrich II.'], '„Die beste aller möglichen Welten“.'],

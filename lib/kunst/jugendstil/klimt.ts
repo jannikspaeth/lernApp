@@ -14,7 +14,7 @@ export const KLIMT: Subtopic = {
   quiz: {
     leicht: [
       ['Wer malte dieses Bild?', 'Gustav Klimt', ['Egon Schiele', 'Edvard Munch', 'Oskar Kokoschka'], null, 'kuss'],
-      ['Was ist an Klimts „Der Kuss“ besonders?', 'Das Blattgold', ['Die riesige Leinwand allein', 'Die Farbe Blau', 'Die Kreidezeichnung']],
+      ['Was ist an Klimts „Der Kuss“ besonders?', 'Das Blattgold', ['Die riesige Leinwand', 'Die Farbe Blau', 'Die Kreidezeichnung']],
       ['Wo wurde Gustav Klimt geboren?', 'Bei Wien', ['Bei Berlin', 'Bei Paris', 'Bei Prag']],
       ['Was war Klimts Vater?', 'Ein Gold- und Silbergraveur', ['Ein Maler', 'Ein Bankier', 'Ein Lehrer']],
       ['Wie heißt dieses goldene Frauenporträt?', 'Adele Bloch-Bauer I', ['Judith I', 'Die Dame in Gold', 'Die Frau mit Hut'], 'Das Bild (1907) wird auch „Goldene Adele“ genannt.', 'adele-bloch-bauer'],
@@ -24,7 +24,7 @@ export const KLIMT: Subtopic = {
       ['Welche Künstlervereinigung leitete Klimt?', 'Die Wiener Secession', ['Die Brücke', 'Den Blauen Reiter', 'Das Bauhaus'], 'Klimt war 1897 Mitgründer und erster Präsident der Wiener Secession.'],
       ['Was zeigt Klimts „Der Kuss“?', 'Ein sich umarmendes Paar', ['Eine Schlacht', 'Eine Landschaft', 'Ein Stillleben']],
       ['Welcher Maler war Klimts Schüler und Freund?', 'Egon Schiele', ['Franz Marc', 'Paul Klee', 'Max Beckmann'], 'Schiele (1890–1918) starb im selben Jahr wie Klimt.'],
-      ['Woher kam die Idee für Klimts Goldstil?', 'Von byzantinischen Mosaiken', ['Von der Gotik', 'Vom Barock', 'Von Japan allein'], 'Mosaike in Ravenna beeindruckten ihn 1903 stark.'],
+      ['Woher kam die Idee für Klimts Goldstil?', 'Von byzantinischen Mosaiken', ['Von der Gotik', 'Vom Barock', 'Von Japan'], 'Mosaike in Ravenna beeindruckten ihn 1903 stark.'],
     ],
     mittel: [
       ['Wann lebte Klimt?', '1862–1918', ['1762–1818', '1882–1938', '1862–1930']],

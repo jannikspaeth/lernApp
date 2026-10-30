@@ -21,7 +21,7 @@ export const GOODMAN: Subtopic = {
       ['In welcher Stadt wurde Goodman geboren?', 'In Chicago', ['In New York', 'In New Orleans', 'In Los Angeles'], 'Er wuchs in armen Verhältnissen auf.'],
       ['Welchem Konzertsaal öffnete Goodman 1938 für den Jazz?', 'Der Carnegie Hall', ['Der Royal Albert Hall', 'Dem Weißen Haus', 'Der Metropolitan Opera'], 'Der Jazz war damit im großen Konzertsaal angekommen.'],
       ['Welches Stück war der Höhepunkt des Carnegie-Hall-Konzerts?', '„Sing, Sing, Sing“', ['„In the Mood“', '„Take the A Train“', '„What a Wonderful World“'], 'Mit dem wilden Schlagzeugsolo von Gene Krupa.'],
-      ['Wogegen setzte Goodman ein Zeichen?', 'Gegen die Rassentrennung', ['Gegen den Krieg', 'Gegen das Radio', 'Gegen klassische Musik'], 'Er spielte mit schwarzen Musikern wie Teddy Wilson und Lionel Hampton.'],
+      ['Wogegen setzte Benny Goodman mit seinen Bands ein Zeichen?', 'Gegen die Rassentrennung', ['Gegen den Krieg', 'Gegen die Prohibition', 'Gegen die Zensur im Radio'], 'Er spielte mit schwarzen Musikern wie Teddy Wilson und Lionel Hampton.'],
       ['Wo begann 1935 die Swing-Ära?', 'Im Palomar Ballroom in Los Angeles', ['Im Cotton Club', 'In der Carnegie Hall', 'In New Orleans'], 'Die Jugend tanzte und jubelte – der Swing-Boom begann.'],
       ['Wo bekam Goodman als Kind günstigen Unterricht?', 'In einer Synagoge', ['In der Schule', 'Beim Militär', 'In einem Kloster'], 'Später lernte er in einem Sozialzentrum namens Hull House.'],
       ['Welche klassische Musik spielte Goodman auch?', 'Mozarts Klarinettenwerke', ['Bachs Orgelwerke', 'Wagners Opern', 'Chopins Etüden'], 'Er spielte Mozarts Klarinettenkonzert und -quintett.'],
@@ -44,7 +44,7 @@ export const GOODMAN: Subtopic = {
     ],
     schwer: [
       ['Woher stammten Goodmans Eltern?', 'Aus dem Russischen Reich', ['Aus Irland', 'Aus Italien', 'Aus Deutschland'], 'Sie waren jüdische Einwanderer.'],
-      ['Das wievielte von zwölf Kindern war Benny?', 'Das neunte', ['Das erste', 'Das fünfte', 'Das zwölfte'], 'Die Familie war sehr arm.'],
+      ['Das wievielte von zwölf Kindern war Benny Goodman?', 'Das neunte', ['Das erste', 'Das fünfte', 'Das zwölfte'], 'Die Familie war sehr arm.'],
       ['An welchem Tag spielte Goodman im Palomar Ballroom?', '21. August 1935', ['16. Januar 1938', '30. Mai 1909', '1. Januar 1940'], 'Der Abend gilt als Beginn der Swing-Ära.'],
       ['An welchem Tag fand das Carnegie-Hall-Konzert statt?', '16. Januar 1938', ['21. August 1935', '7. Dezember 1941', '4. Juli 1936'], 'Eines der berühmtesten Konzerte der Jazzgeschichte.'],
       ['Wie lange dauerte „Sing, Sing, Sing“ in der Carnegie Hall?', 'Über zwölf Minuten', ['Drei Minuten', 'Eine Stunde', 'Eine Minute'], 'Die Musiker improvisierten immer weiter.'],

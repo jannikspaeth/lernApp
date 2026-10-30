@@ -26,7 +26,7 @@ export const UEBERBLICK: Subtopic = {
       ['Wie hießen die mittelalterlichen Liebessänger in Deutschland?', 'Minnesänger', ['Meistersinger', 'Barden', 'Troubadoure'], 'Troubadoure gab es in Südfrankreich.'],
       ['Welche Musikform entstand um 1600 in Florenz?', 'Die Oper', ['Die Sinfonie', 'Das Streichquartett', 'Die Messe'], 'Die erste erhaltene Oper ist „Euridice“ von Jacopo Peri (1600).'],
       ['Welcher Reformator ließ die Gemeinde deutsche Lieder singen?', 'Martin Luther', ['Johannes Calvin', 'Ulrich Zwingli', 'Philipp Melanchthon'], 'Luther schrieb selbst rund 36 Kirchenlieder.'],
-      ['Welches Saiteninstrument war in der Renaissance besonders beliebt?', 'Die Laute', ['Das Klavier', 'Die E-Gitarre', 'Die Harfe allein'], 'Die Laute mit ihrem bauchigen Korpus kam über die Araber nach Europa.'],
+      ['Welches Saiteninstrument war in der Renaissance besonders beliebt?', 'Die Laute', ['Das Klavier', 'Die Mandoline', 'Die Zither'], 'Die Laute mit ihrem bauchigen Korpus kam über die Araber nach Europa.'],
       ['Wer ist auf dieser Darstellung zu sehen?', 'Guido von Arezzo', ['Gregor der Große', 'Josquin des Prez', 'Martin Luther'], 'Der Mönch, auf den unsere Notenlinien und die Tonsilben zurückgehen.', 'guido-von-arezzo'],
     ],
     mittel: [
@@ -39,7 +39,7 @@ export const UEBERBLICK: Subtopic = {
       ['Wie nennt man die Musikrichtung des 14. Jahrhunderts?', 'Ars nova', ['Ars antiqua', 'Seconda pratica', 'Stile antico'], 'Sie brachte eine genauere Notenschrift.'],
       ['Woher kamen die führenden Musiker der Renaissance lange?', 'Aus Flandern und Nordfrankreich', ['Aus England', 'Aus Spanien', 'Aus Polen'], 'Man spricht von der franko-flämischen Schule.'],
       ['Wer ist auf diesem Bild zu sehen?', 'Josquin des Prez', ['Guillaume de Machaut', 'Palestrina', 'Guido von Arezzo'], 'Der berühmteste Komponist der franko-flämischen Schule.', 'josquin'],
-      ['Was ist die Imitation in der Vokalpolyphonie?', 'Stimmen ahmen eine Melodie nacheinander nach', ['Eine Stimme singt alles allein', 'Instrumente ersetzen den Chor', 'Alle singen dieselbe Note'], 'Wie in einem Kanon beginnt jede Stimme die Melodie etwas später.'],
+      ['Was ist die Imitation in der Vokalpolyphonie?', 'Stimmen ahmen eine Melodie nacheinander nach', ['Eine Stimme singt alles', 'Instrumente ersetzen den Chor', 'Alle singen dieselbe Note'], 'Wie in einem Kanon beginnt jede Stimme die Melodie etwas später.'],
       ['Welche weltliche Gattung war im Italien des 16. Jahrhunderts besonders beliebt?', 'Das Madrigal', ['Die Kantate', 'Das Oratorium', 'Die Sonate'], 'Madrigale vertonten Liebesgedichte, oft von Petrarca.'],
       ['Welcher Choral stammt von Martin Luther?', '„Ein feste Burg ist unser Gott“', ['„Stille Nacht“', '„Großer Gott, wir loben dich“', '„O Haupt voll Blut und Wunden“'], 'Heinrich Heine nannte es die „Marseillaise der Reformation“.'],
     ],

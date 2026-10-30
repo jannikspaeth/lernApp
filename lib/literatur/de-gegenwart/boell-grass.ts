@@ -47,7 +47,7 @@ export const BOELL_GRASS: Subtopic = {
       ['Welche Zeitung griff Böll in der „Katharina Blum“ erkennbar an?', 'Die „Bild“-Zeitung', ['Die „Zeit“', 'Die „FAZ“', 'Den „Spiegel“'], 'Das brachte ihm heftige Angriffe ein.'],
       ['Welche Themen prägen Bölls Werk?', 'Alltag kleiner Leute, Katholizismus und Doppelmoral', ['Abenteuer und Reisen', 'Antike Stoffe', 'Naturbeschreibungen'], null],
       ['Warum löste Grass’ Geständnis eine Debatte aus?', 'Er hatte zuvor streng über das Schweigen anderer geurteilt', ['Er hatte den Preis angenommen', 'Niemand glaubte ihm', 'Er wurde angeklagt'], null],
-      ['Wogegen wandte sich Günter Grass 1990?', 'Gegen die schnelle deutsche Einheit', ['Gegen die Westbindung', 'Gegen die EU', 'Gegen die Nato allein'], null],
+      ['Wogegen wandte sich Günter Grass 1990?', 'Gegen die schnelle deutsche Einheit', ['Gegen die Westbindung', 'Gegen die EU', 'Gegen die Nato'], null],
       ['Was verbindet Böll und Grass biografisch?', 'Beide gingen durch die Gruppe 47 und erhielten den Nobelpreis', ['Beide lebten im Exil', 'Beide schrieben nur Lyrik', 'Beide waren Verleger'], null],
       ['Welches Bild vom Schriftsteller prägten beide?', 'Den engagierten Autor, der sich einmischt', ['Den zurückgezogenen Dichter', 'Den Hofdichter', 'Den reinen Ästheten'], null],
       ['Was ist Oskar Matzeraths wichtigster Gegenstand?', 'Seine Blechtrommel', ['Ein Buch', 'Ein Spiegel', 'Eine Geige'], null],

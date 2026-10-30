@@ -43,7 +43,7 @@ export const UEBERBLICK: Subtopic = {
     ],
     schwer: [
       ['Wie viele Doppelverse hat das Mahabharata etwa?', 'Rund 100 000', ['Rund 10 000', 'Rund 1 000', 'Rund 1 000 000'], null],
-      ['Welche Rolle hatte das klassische Chinesisch in Ostasien?', 'Als gemeinsame Schriftsprache bis ins 19. Jahrhundert', ['Nur als Handelssprache', 'Als Sprache der Priester', 'Als Verwaltungssprache Japans allein'], null],
+      ['Welche Rolle hatte das klassische Chinesisch in Ostasien?', 'Als gemeinsame Schriftsprache bis ins 19. Jahrhundert', ['Nur als Handelssprache', 'Als Sprache der Priester', 'Als Verwaltungssprache Japans'], null],
       ['Welche Theaterform entstand im mittelalterlichen Japan?', 'Das No-Theater', ['Die Oper', 'Das Mysterienspiel', 'Das Ritterepos'], null],
       ['Was beschreibt das Heike Monogatari?', 'Den Krieg zwischen zwei Samurai-Clans', ['Die Liebe am Hof', 'Eine Reise', 'Ein Gerichtsverfahren'], null],
       ['Was ist das „Daodejing“?', 'Ein philosophisches Werk des Daoismus', ['Ein Roman', 'Ein Drama', 'Ein Gesetzbuch'], null],

@@ -16,11 +16,11 @@ export const UEBERBLICK: Subtopic = {
   quiz: {
     leicht: [
       ['In welchem New Yorker Stadtteil entstand der Hip-Hop?', 'In der Bronx', ['In Manhattan', 'In Brooklyn', 'In Queens'], 'Ein armer Stadtteil im Norden New Yorks.'],
-      ['Welcher DJ gilt als „Vater des Hip-Hop“?', 'DJ Kool Herc', ['DJ Bobo', 'DJ Ötzi', 'David Guetta'], 'Er legte auf Partys die Breaks zweier Platten hintereinander.'],
+      ['Welcher DJ gilt als „Vater des Hip-Hop“?', 'DJ Kool Herc', ['Grandmaster Flash', 'Afrika Bambaataa', 'David Guetta'], 'Er legte auf Partys die Breaks zweier Platten hintereinander.'],
       ['Was ist Rap?', 'Rhythmischer Sprechgesang', ['Ein Instrument', 'Ein Tanzschritt', 'Eine Gitarrentechnik'], 'Der MC reimt im Takt über einen Beat.'],
       ['Welcher Tanz gehört zum Hip-Hop?', 'Breakdance', ['Walzer', 'Tango', 'Ballett'], 'Akrobatische Bewegungen am Boden.'],
       ['Welche Kunst auf Wänden gehört zum Hip-Hop?', 'Graffiti', ['Mosaik', 'Fresko', 'Ölmalerei'], 'Bunte Schriftzüge auf Zügen und Mauern.'],
-      ['Was ist „Scratching“?', 'Die Platte rhythmisch unter der Nadel hin und her bewegen', ['Das Zerkratzen von Autos', 'Ein Gesangsstil', 'Ein Kleidungsstück'], 'Dadurch entsteht ein kratzendes Geräusch als Rhythmus.'],
+      ['Was ist „Scratching“ im Hip-Hop?', 'Die Platte rhythmisch unter der Nadel hin und her bewegen', ['Das Mischen zweier Lieder ohne Pause', 'Ein Gesangsstil', 'Ein Kleidungsstück'], 'Dadurch entsteht ein kratzendes Geräusch als Rhythmus.'],
       ['Welche Band nahm mit Aerosmith „Walk This Way“ auf?', 'Run-DMC', ['Public Enemy', 'Beastie Boys', 'N.W.A'], 'Ein Hip-Hop-Rock-Mix von 1986.'],
       ['Welcher deutsche Hip-Hop-Hit erschien 1992?', '„Die da!?!“', ['„99 Luftballons“', '„Atemlos“', '„Major Tom“'], 'Ein Durchbruch für Rap auf Deutsch.'],
       ['Wie heißt die deutsche Band, die „Die da!?!“ sang?', 'Die Fantastischen Vier', ['Die Toten Hosen', 'Die Ärzte', 'Fettes Brot'], 'Eine Band aus Stuttgart.'],
@@ -29,7 +29,7 @@ export const UEBERBLICK: Subtopic = {
       ['Welche Musik ist seit den 2000ern die meistgehörte in den USA?', 'Hip-Hop', ['Country', 'Jazz', 'Klassik'], 'Hip-Hop und R&B überholten den Rock.'],
     ],
     mittel: [
-      ['An welchem Tag gilt die Party als Geburtsstunde des Hip-Hop?', 'Am 11. August 1973', ['Am 1. August 1981', 'Am 15. August 1969', 'Am 4. Juli 1976'], 'Eine Schulanfangsparty, die Herc mit seiner Schwester organisierte.'],
+      ['An welchem Tag gilt eine Party in der Bronx als Geburtsstunde des Hip-Hop?', 'Am 11. August 1973', ['Am 1. August 1981', 'Am 15. August 1969', 'Am 4. Juli 1976'], 'Eine Schulanfangsparty, die Herc mit seiner Schwester organisierte.'],
       ['Was ist der „Break“ einer Platte?', 'Die Stelle, an der nur Schlagzeug und Bass spielen', ['Der Refrain', 'Ein Kratzer', 'Das Ende'], 'Genau dort tanzten die Breakdancer am liebsten.'],
       ['Aus welchem Land stammte DJ Kool Herc?', 'Aus Jamaika', ['Aus Puerto Rico', 'Aus Kuba', 'Aus Nigeria'], 'Er brachte die jamaikanische Soundsystem-Kultur mit.'],
       ['Wie viele „Elemente“ hat die Hip-Hop-Kultur?', 'Vier', ['Zwei', 'Sieben', 'Zehn'], 'DJing, Rap, Breakdance und Graffiti.'],

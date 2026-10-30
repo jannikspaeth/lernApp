@@ -26,7 +26,7 @@ export const ELVIS: Subtopic = {
       ['In welcher Stadt trat Elvis ab 1969 in Hunderten Shows auf?', 'In Las Vegas', ['In New York', 'In Miami', 'In Chicago'], 'Er trug dort glitzernde Overalls.'],
       ['Wie alt wurde Elvis?', '42', ['27', '55', '65'], 'Er starb 1977 in Graceland.'],
       ['Wen heiratete Elvis 1967?', 'Priscilla Beaulieu', ['Marilyn Monroe', 'Ann-Margret', 'Nancy Sinatra'], 'Sie hatte er als Soldat in Deutschland kennengelernt.'],
-      ['Als was gilt Elvis in Verkaufszahlen?', 'Als meistverkaufter Solokünstler der Geschichte', ['Als erfolglosester Sänger', 'Als bester Pianist', 'Als erster Rapper'], 'Mit geschätzt über 500 Millionen verkauften Tonträgern.'],
+      ['Als was gilt Elvis in Verkaufszahlen?', 'Als meistverkaufter Solokünstler der Geschichte', ['Als Künstler mit den meisten Grammys', 'Als erster Popstar mit Musikvideo', 'Als bester Pianist'], 'Mit geschätzt über 500 Millionen verkauften Tonträgern.'],
     ],
     mittel: [
       ['Wo wurde Elvis geboren?', 'In Tupelo, Mississippi', ['In Memphis', 'In Nashville', 'In New Orleans'], 'In einem kleinen Holzhaus.'],
@@ -48,7 +48,7 @@ export const ELVIS: Subtopic = {
       ['Wessen Blues war „That’s All Right“ ursprünglich?', 'Arthur Crudups', ['B. B. Kings', 'Muddy Waters’', 'Big Mama Thorntons'], 'Arthur „Big Boy“ Crudup.'],
       ['Welcher Gitarrist spielte bei Elvis’ ersten Aufnahmen?', 'Scotty Moore', ['Chet Atkins', 'Les Paul', 'Duane Eddy'], 'Mit Bill Black am Bass.'],
       ['An welche Plattenfirma ging Elvis’ Vertrag 1955?', 'RCA', ['Decca', 'Capitol', 'Atlantic'], 'Für damals sensationelle 40.000 Dollar.'],
-      ['Wie viel Prozent seiner Einnahmen behielt Parker zeitweise?', 'Bis zu 50 Prozent', ['5 Prozent', '10 Prozent', '90 Prozent'], 'Viel mehr als bei Managern üblich.'],
+      ['Wie viel Prozent von Elvis\' Einnahmen behielt Manager Parker zeitweise?', 'Bis zu 50 Prozent', ['5 Prozent', '10 Prozent', '90 Prozent'], 'Viel mehr als bei Managern üblich.'],
       ['In welchem Ort wohnte Elvis während seiner Armeezeit?', 'In Bad Nauheim', ['In Bad Homburg', 'In Heidelberg', 'In Grafenwöhr'], 'Ein Kurort in Hessen.'],
       ['Wann wurde Elvis’ Tochter Lisa Marie geboren?', '1968', ['1960', '1972', '1977'], 'Am 1. Februar 1968.'],
       ['Wann starb Elvis?', '1977', ['1969', '1973', '1985'], 'Am 16. August in Graceland.'],

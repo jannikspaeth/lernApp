@@ -19,7 +19,7 @@ export const QUEEN: Subtopic = {
       ['Wer ist auf diesem Bild zu sehen?', 'Freddie Mercury', ['Elton John', 'George Michael', 'Prince'], null, 'freddie-mercury'],
       ['Welches Queen-Lied hat einen opernhaften Mittelteil?', '„Bohemian Rhapsody“', ['„We Will Rock You“', '„Radio Ga Ga“', '„Under Pressure“'], 'Sechs Minuten ohne Refrain.'],
       ['Welches Queen-Lied stampft und klatscht man im Stadion?', '„We Will Rock You“', ['„Bohemian Rhapsody“', '„Killer Queen“', '„Somebody to Love“'], '„Stampf, stampf, klatsch“.'],
-      ['Welches Lied singen Sportler oft nach einem Sieg?', '„We Are the Champions“', ['„Another One Bites the Dust“', '„I Want to Break Free“', '„Radio Ga Ga“'], 'Von Freddie Mercury geschrieben.'],
+      ['Welches Queen-Lied singen Sportler oft nach einem Sieg?', '„We Are the Champions“', ['„Another One Bites the Dust“', '„I Want to Break Free“', '„Radio Ga Ga“'], 'Von Freddie Mercury geschrieben.'],
       ['Bei welchem Benefizkonzert hatte Queen 1985 ihren legendären Auftritt?', 'Live Aid', ['Woodstock', 'Live 8', 'Concert for Bangladesh'], 'Ihr Auftritt gilt als einer der besten der Rockgeschichte.'],
       ['In welchem Stadion fand Live Aid in London statt?', 'Im Wembley-Stadion', ['Im Olympiastadion', 'Im Old Trafford', 'In der Royal Albert Hall'], 'Vor 72.000 Zuschauern.'],
       ['Was studierte Brian May?', 'Astrophysik', ['Medizin', 'Jura', 'Kunst'], 'Seine Doktorarbeit beendete er erst 2007.'],

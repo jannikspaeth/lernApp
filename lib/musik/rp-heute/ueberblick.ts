@@ -38,7 +38,7 @@ export const UEBERBLICK: Subtopic = {
       ['Wie verdienen Musiker heute vor allem Geld?', 'Mit Konzerten', ['Mit CDs', 'Mit Notenbüchern', 'Mit Radiohonoraren'], 'Streaming bringt pro Abruf nur Bruchteile eines Cents.'],
       ['Über welche Plattform wurde Billie Eilish bekannt?', 'SoundCloud', ['MySpace', 'Facebook', 'LinkedIn'], 'Mit dem Lied „Ocean Eyes“.'],
       ['Welches Video war lange das meistgesehene auf YouTube?', '„Despacito“', ['„Gangnam Style“', '„Bohemian Rhapsody“', '„Hello“'], 'Von Luis Fonsi und Daddy Yankee, 2017.'],
-      ['Welches Programm korrigiert falsche Töne?', 'Auto-Tune', ['Photoshop', 'Excel', 'Word'], 'Es wurde auch als Stimmeffekt beliebt.'],
+      ['Welches Programm korrigiert falsche Töne beim Gesang?', 'Auto-Tune', ['Ein Equalizer', 'Ein Vocoder', 'Ein Metronom'], 'Es wurde auch als Stimmeffekt beliebt.'],
       ['Mit welchem Lied wurde Auto-Tune 1998 als Effekt berühmt?', 'Chers „Believe“', ['Madonnas „Vogue“', 'Britneys „Toxic“', 'Daft Punks „One More Time“'], 'Mit dem typischen „Roboter“-Klang.'],
       ['Wer ist auf diesem Bild zu sehen?', 'Oasis', ['Blur', 'Radiohead', 'Coldplay'], 'Die Britpop-Band der Brüder Liam und Noel Gallagher.', 'oasis'],
     ],

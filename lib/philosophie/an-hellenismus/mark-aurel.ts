@@ -36,7 +36,7 @@ export const MARK_AUREL: Subtopic = {
       ['Was tat er mit den Briefen des Usurpators Avidius Cassius?', 'Er verbrannte sie ungelesen', ['Er veröffentlichte sie', 'Er schickte sie dem Senat', 'Er bewahrte sie auf'], 'Um keine Mitverschwörer bestrafen zu müssen.'],
       ['Wovon hängt laut den Selbstbetrachtungen das Glück ab?', 'Von der Beschaffenheit der eigenen Gedanken', ['Vom Reichtum', 'Vom Wohlwollen der Götter', 'Vom Sieg im Krieg'], 'Ein zutiefst stoischer Gedanke.'],
       ['Was ist das erste Buch der Selbstbetrachtungen?', 'Eine Dankesliste an Menschen, die ihn prägten', ['Ein Kriegsbericht', 'Ein Gesetzbuch', 'Ein Gedicht an die Götter'], 'Von der Familie bis zu Lehrern.'],
-      ['Welche Gruppe wurde auch unter Mark Aurel verfolgt?', 'Die Christen', ['Die Stoiker', 'Die Senatoren', 'Die Juden allein'], 'Etwa 177 n. Chr. in Lyon.'],
+      ['Welche Gruppe wurde auch unter Mark Aurel verfolgt?', 'Die Christen', ['Die Stoiker', 'Die Senatoren', 'Die Juden'], 'Etwa 177 n. Chr. in Lyon.'],
       ['Wie ist die beste Rache laut Mark Aurel?', 'Nicht wie der Täter zu werden', ['Doppelt zurückschlagen', 'Den Täter verbannen', 'Den Göttern opfern'], 'Ein berühmter Satz der Selbstbetrachtungen.'],
       ['Warum überstand sein Reiterstandbild das Mittelalter?', 'Man hielt ihn für Kaiser Konstantin', ['Es war vergraben', 'Es lag in Konstantinopel', 'Es war aus Stein und wertlos'], 'Bronzestatuen heidnischer Kaiser wurden sonst eingeschmolzen.'],
       ['Welches Bauwerk in Rom zeigt seine Donaukriege?', 'Die Marcus-Säule', ['Das Kolosseum', 'Das Pantheon', 'Der Titusbogen'], 'Auf der Piazza Colonna.'],

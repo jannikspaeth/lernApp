@@ -45,7 +45,7 @@ export const MOZART: Subtopic = {
     ],
     schwer: [
       ['Welcher Taufname wurde zu „Amadeus“?', 'Theophilus', ['Chrysostomus', 'Joannes', 'Wolfgangus'], 'Theophilus heißt „Gottlieb“, lateinisch Amadeus.'],
-      ['Wann dauerte die große Westeuropareise der Mozarts?', '1763–1766', ['1756–1759', '1770–1773', '1777–1779'], 'Die Reise führte durch Deutschland, Frankreich, England, Holland und die Schweiz.'],
+      ['Von wann bis wann dauerte die große Westeuropareise der Familie Mozart?', '1763–1766', ['1756–1759', '1770–1773', '1777–1779'], 'Die Reise führte durch Deutschland, Frankreich, England, Holland und die Schweiz.'],
       ['Welchen päpstlichen Orden erhielt Mozart?', 'Ritter vom Goldenen Sporn', ['Orden vom Goldenen Vlies', 'Malteserorden', 'Ritter des Heiligen Grabes'], 'Nur wenige Musiker erhielten diese Auszeichnung, etwa auch Gluck.'],
       ['Welches Singspiel brachte Mozart 1782 großen Erfolg?', '„Die Entführung aus dem Serail“', ['„Bastien und Bastienne“', '„Der Schauspieldirektor“', '„Die Zauberflöte“'], 'Die Geschichte spielt in einem türkischen Palast.'],
       ['Welche Sinfonie ist hier zu hören?', 'Mozarts Sinfonie Nr. 40 g-Moll', ['Beethovens 5. Sinfonie', 'Haydns „Paukenschlag“-Sinfonie', 'Mozarts „Jupiter-Sinfonie“'], 'Eine seiner nur zwei Sinfonien in Moll.', 'h-sinfonie-40'],

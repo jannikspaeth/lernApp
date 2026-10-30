@@ -47,7 +47,7 @@ export const SOLSCHENIZYN: Subtopic = {
       ['Welche Haltung nahm Anna Achmatowa ein?', 'Sie blieb im Land und wurde Stimme der Schweigenden', ['Sie emigrierte', 'Sie schwieg ganz', 'Sie arbeitete für den Staat'], null],
       ['Was war an Solschenizyns „Iwan Denissowitsch“ 1962 neu?', 'Erstmals durften die Lager öffentlich beschrieben werden', ['Sie war besonders lang', 'Sie war in Versen', 'Sie spielte im Westen'], null],
       ['Warum holte Solschenizyn den Nobelpreis 1970 nicht ab?', 'Er fürchtete, nicht zurückkehren zu dürfen', ['Er war krank', 'Er lehnte ihn ab', 'Er wusste nichts davon'], null],
-      ['Wie sammelte Solschenizyn das Material für den „Archipel Gulag“?', 'Über Jahre aus Berichten von Überlebenden', ['Aus Archiven des Staates', 'Aus Zeitungen', 'Aus eigener Erinnerung allein'], null],
+      ['Wie sammelte Solschenizyn das Material für den „Archipel Gulag“?', 'Über Jahre aus Berichten von Überlebenden', ['Aus Archiven des Staates', 'Aus Zeitungen', 'Aus eigener Erinnerung'], null],
       ['Was kritisierte Solschenizyn im Exil auch?', 'Den Westen', ['Nur die Sowjetunion', 'Die Kirche', 'Die Literatur'], null],
       ['Welche Wirkung hatte „Der Archipel Gulag“?', 'Niemand konnte mehr sagen, man habe nichts gewusst', ['Keine', 'Er wurde nur in Russland gelesen', 'Er wurde als Roman gelesen'], null],
       ['Was überlebte Solschenizyn neben den Lagern?', 'Eine Krebserkrankung', ['Einen Flugzeugabsturz', 'Eine Hungersnot', 'Ein Attentat'], null],

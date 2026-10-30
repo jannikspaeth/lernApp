@@ -34,7 +34,7 @@ export const OCKHAM: Subtopic = {
       ['Zu welchem Schluss kam Ockham über Papst Johannes XXII.?', 'Der Papst selbst sei ein Ketzer', ['Der Papst sei ein Heiliger', 'Der Papst habe völlig recht', 'Der Papst sei abgesetzt'], 'Wegen seiner Lehre über die Armut.'],
       ['Mit wem floh Ockham 1328 aus Avignon?', 'Mit dem Ordensgeneral Michael von Cesena', ['Mit Meister Eckhart', 'Mit Kaiser Ludwig', 'Mit John Lutterell'], 'Nachts.'],
       ['Welcher Satz an den Kaiser wird Ockham zugeschrieben?', '„Verteidige du mich mit dem Schwert, ich verteidige dich mit der Feder.“', ['„Gebt dem Kaiser, was des Kaisers ist.“', '„Ich bin der Staat.“', '„Hier stehe ich, ich kann nicht anders.“'], 'Ein Bündnis von Macht und Gelehrsamkeit.'],
-      ['Woher erhalten Kaiser und König ihre Gewalt nach Ockham?', 'Vom Volk und von Gott, nicht vom Papst', ['Nur vom Papst', 'Vom Adel', 'Durch Erbschaft allein'], 'Eine Trennung geistlicher und weltlicher Macht.'],
+      ['Woher erhalten Kaiser und König ihre Gewalt nach Ockham?', 'Vom Volk und von Gott, nicht vom Papst', ['Nur vom Papst', 'Vom Adel', 'Durch Erbschaft'], 'Eine Trennung geistlicher und weltlicher Macht.'],
       ['Wie nannte Luther Ockham?', '„Meinen lieben Meister“', ['„Den Antichristen“', '„Den Ketzer aus England“', '„Den Vater der Scholastik“'], 'Luther lernte über Ockhams Schüler.'],
       ['Was sind Allgemeinbegriffe nach Ockham?', 'Zeichen im Denken, die für viele Einzeldinge stehen', ['Ewige Ideen', 'Gottes Gedanken in der Natur', 'Dinge außerhalb des Geistes'], 'Konzeptualismus.'],
       ['Womit beginnt nach Ockham die Erkenntnis?', 'Mit der Anschauung einzelner Dinge', ['Mit angeborenen Ideen', 'Mit der Bibel', 'Mit der Logik'], 'Ein Weg zum Empirismus.'],

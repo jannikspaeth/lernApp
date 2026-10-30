@@ -26,7 +26,7 @@ export const UEBERBLICK: Subtopic = {
       ['In welcher deutschen Stadt läuft „Der König der Löwen“ seit 2001?', 'In Hamburg', ['In Berlin', 'In München', 'In Köln'], 'Im eigens gebauten Theater im Hafen.'],
       ['Wovon handelt das Musical „Elisabeth“?', 'Von der Kaiserin Sisi', ['Von Elisabeth I. von England', 'Von einer Lehrerin', 'Von einer Sängerin'], 'Kaiserin Elisabeth von Österreich.'],
       ['Welches Musical brachte 1968 die Hippiekultur auf die Bühne?', '„Hair“', ['„Grease“', '„Cats“', '„Oklahoma!“'], 'Mit Liedern wie „Aquarius“.'],
-      ['Was ist ein Jukebox-Musical?', 'Ein Musical mit bekannten Popsongs', ['Ein Musical ohne Musik', 'Ein Musical für Kinder', 'Ein Musical auf dem Jahrmarkt'], 'Zum Beispiel „Mamma Mia!“ mit ABBA-Liedern.'],
+      ['Was ist ein Jukebox-Musical?', 'Ein Musical mit bekannten Popsongs', ['Ein Musical mit nur einem Darsteller', 'Ein Musical für Kinder', 'Ein Musical auf dem Jahrmarkt'], 'Zum Beispiel „Mamma Mia!“ mit ABBA-Liedern.'],
     ],
     mittel: [
       ['Welches Musical von 1927 gilt als erstes „richtiges“ Musical?', '„Show Boat“', ['„Oklahoma!“', '„Porgy and Bess“', '„Cats“'], 'Es erzählte ernsthaft von Rassismus.'],

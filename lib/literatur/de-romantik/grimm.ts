@@ -38,7 +38,7 @@ export const GRIMM: Subtopic = {
       ['Bis zu welchem Buchstaben kamen die Brüder Grimm im Wörterbuch?', 'Bis F', ['Bis C', 'Bis M', 'Bis Z'], null],
       ['Wann wurde das Deutsche Wörterbuch fertig?', '1961', ['1863', '1900', '2000'], 'Nach 123 Jahren Arbeit vieler Gelehrter.'],
       ['Wie heißt die Gruppe der Professoren, die 1837 protestierten?', 'Die Göttinger Sieben', ['Die Frankfurter Fünf', 'Die Berliner Acht', 'Die Marburger Vier'], null],
-      ['Wogegen protestierten die Göttinger Sieben?', 'Gegen die Aufhebung der Verfassung', ['Gegen eine Steuer', 'Gegen die Zensur allein', 'Gegen die Universität'], 'König Ernst August von Hannover hatte sie außer Kraft gesetzt.'],
+      ['Wogegen protestierten die Göttinger Sieben?', 'Gegen die Aufhebung der Verfassung', ['Gegen eine Steuer', 'Gegen die Zensur', 'Gegen die Universität'], 'König Ernst August von Hannover hatte sie außer Kraft gesetzt.'],
       ['Wo saß Jacob Grimm 1848 als Abgeordneter?', 'In der Frankfurter Paulskirche', ['Im Berliner Landtag', 'Im Wiener Reichstag', 'Im Reichstag in Bonn'], null],
     ],
     schwer: [

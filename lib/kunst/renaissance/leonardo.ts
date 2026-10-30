@@ -42,7 +42,7 @@ export const LEONARDO: Subtopic = {
     ],
     schwer: [
       ['Was zeigt die „Luftperspektive“?', 'Ferne Dinge wirken bläulich und unscharf', ['Alle Linien laufen zu einem Punkt', 'Dinge werden größer, je ferner sie sind', 'Farben werden kräftiger'], 'Auch in der Natur wirken ferne Berge durch die Luft blau und verschwommen; Leonardo übertrug das aufs Bild.'],
-      ['Was malte der junge Leonardo in Verrocchios „Taufe Christi“?', 'Einen Engel', ['Den Täufer Johannes', 'Die Landschaft allein', 'Die Taube des Heiligen Geistes']],
+      ['Was malte der junge Leonardo in Verrocchios „Taufe Christi“?', 'Einen Engel', ['Den Täufer Johannes', 'Die Landschaft', 'Die Taube des Heiligen Geistes']],
       ['Wohin nahm Leonardo die Mona Lisa mit?', 'Nach Frankreich', ['Nach Mailand', 'Nach Rom', 'Nach Spanien']],
       ['Wie heißt Leonardos letzter Wohnort in Frankreich?', 'Schloss Clos Lucé bei Amboise', ['Schloss Chambord', 'Versailles', 'Fontainebleau']],
       ['Was überstand Leonardos „Abendmahl“ 1943?', 'Einen Bombentreffer auf das Kloster', ['Eine Überschwemmung', 'Einen Brand', 'Einen Raub'], 'Die Wand blieb beim Bombenangriff im August 1943 stehen, obwohl das Refektorium sonst zerstört wurde.'],

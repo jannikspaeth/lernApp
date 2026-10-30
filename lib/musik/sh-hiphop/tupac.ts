@@ -25,7 +25,7 @@ export const TUPAC: Subtopic = {
       ['Welcher Biggie-Song erzählt seinen Aufstieg zum Star?', '„Juicy“', ['„Changes“', '„Dear Mama“', '„Keep Ya Head Up“'], 'Vom Album „Ready to Die“.'],
       ['Welchen Spitznamen hatte Christopher Wallace auch?', 'Biggie Smalls', ['Slim Shady', 'Puff Daddy', 'Ice Cube'], 'Er nannte sich auch The Notorious B.I.G.'],
       ['Mit wem sang Tupac „California Love“?', 'Mit Dr. Dre', ['Mit Eminem', 'Mit Jay-Z', 'Mit Kanye West'], 'Ein Hit über Kalifornien.'],
-      ['Welches Erinnerungslied wurde 1997 ein Welthit?', '„I’ll Be Missing You“', ['„Changes“', '„Gangsta’s Paradise“', '„Lose Yourself“'], 'Von Puff Daddy und Faith Evans.'],
+      ['Welches Erinnerungslied an Biggie wurde 1997 ein Welthit?', '„I’ll Be Missing You“', ['„Changes“', '„Gangsta’s Paradise“', '„Lose Yourself“'], 'Von Puff Daddy und Faith Evans.'],
       ['Wer nahm Biggie bei Bad Boy Records unter Vertrag?', 'Sean „Puffy“ Combs', ['Suge Knight', 'Dr. Dre', 'Jay-Z'], 'Er wurde später ein mächtiger Musikunternehmer.'],
     ],
     mittel: [

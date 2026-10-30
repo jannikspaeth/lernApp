@@ -33,7 +33,7 @@ export const UEBERBLICK: Subtopic = {
       ['Wann erschien „Väter und Söhne“?', '1862', ['1842', '1882', '1902'], null],
       ['Was zeigt „Väter und Söhne“?', 'Den Bruch zwischen den Generationen', ['Einen Krieg', 'Eine Hungersnot', 'Eine Revolution'], null],
       ['Welches Werk Turgenjews zeigt das Leben der Leibeigenen?', 'Aufzeichnungen eines Jägers', ['Väter und Söhne', 'Rudin', 'Erste Liebe'], null],
-      ['Welche Themen behandelte Gogol?', 'Beamtentum und Korruption', ['Die Seefahrt', 'Die Antike', 'Den Hof des Zaren allein'], null],
+      ['Welche Themen behandelte Gogol?', 'Beamtentum und Korruption', ['Die Seefahrt', 'Die Antike', 'Den Hof des Zaren'], null],
       ['Wie unterscheiden sich Dostojewski und Tolstoi?', 'Dostojewski fieberhaft und städtisch, Tolstoi breit und ländlich', ['Beide schrieben gleich', 'Tolstoi schrieb nur Lyrik', 'Dostojewski schrieb nur Dramen'], null],
       ['Trafen sich Dostojewski und Tolstoi?', 'Nein, nie', ['Ja, oft', 'Ja, einmal in Paris', 'Sie waren Nachbarn'], null],
       ['Was passierte Dostojewski 1849?', 'Er wurde beinahe hingerichtet', ['Er erhielt einen Preis', 'Er floh ins Ausland', 'Er wurde Offizier'], null],

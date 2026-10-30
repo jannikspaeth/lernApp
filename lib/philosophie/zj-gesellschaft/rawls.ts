@@ -31,7 +31,7 @@ export const RAWLS: Subtopic = {
     mittel: [
       ['Was garantiert der erste Grundsatz von Rawls?', 'Gleiche Grundfreiheiten für alle', ['Gleiches Einkommen für alle', 'Freiheit nur für Bürger', 'Freiheit nur für Reiche'], 'Meinungs-, Gewissensfreiheit, Wahlrecht.'],
       ['Wie heißt der gedachte Ausgangszustand bei Rawls?', 'Der „Urzustand“', ['Der „Naturzustand“', 'Der „Kriegszustand“', 'Der „Ruhezustand“'], 'Original position.'],
-      ['An wessen Vertragstheorien knüpfte Rawls an?', 'An Locke, Rousseau und Kant', ['An Hobbes allein', 'An Platon und Aristoteles', 'An Marx und Engels'], 'Der Gesellschaftsvertrag.'],
+      ['An wessen Vertragstheorien knüpfte Rawls an?', 'An Locke, Rousseau und Kant', ['An Hobbes', 'An Platon und Aristoteles', 'An Marx und Engels'], 'Der Gesellschaftsvertrag.'],
       ['Warum fallen die Grundsätze hinter dem Schleier fair aus?', 'Niemand kann seine eigene Lage bevorzugen', ['Weil alle gleich reich sind', 'Weil ein König entscheidet', 'Weil Gott hilft'], 'Unparteilichkeit.'],
       ['Wer kritisierte Rawls aus libertärer Sicht?', 'Robert Nozick', ['Michael Sandel', 'Thomas Nagel', 'Amartya Sen'], 'Der Staat dürfe nicht umverteilen.'],
       ['Was kritisierte Michael Sandel an Rawls?', 'Das Bild eines „ungebundenen Selbst“', ['Seine Liebe zur Freiheit', 'Seine Mathematik', 'Seine Religion'], 'Ein Kommunitarist.'],

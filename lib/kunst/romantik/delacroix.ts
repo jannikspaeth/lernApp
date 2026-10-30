@@ -46,7 +46,7 @@ export const DELACROIX: Subtopic = {
       ['Warum wurde Delacroix’ „Die Freiheit führt das Volk“ lange versteckt?', 'Sie galt als zu revolutionär', ['Sie war beschädigt', 'Sie war zu teuer', 'Sie war unvollendet'], 'Der Staat kaufte das Bild, versteckte es aber zeitweise.'],
       ['Welche Symbolfigur Frankreichs prägte Delacroix’ „Freiheit“ mit?', 'Marianne', ['Britannia', 'Germania', 'Helvetia'], 'Die Gestalt der Freiheit steht auch für die französische Republik.'],
       ['Welcher Dichter schuf die Figur Gavroche?', 'Victor Hugo', ['Alexandre Dumas', 'Honoré de Balzac', 'Émile Zola'], 'Victor Hugo (1802–1885) schrieb „Die Elenden“.'],
-      ['Wen beeinflusste Delacroix später?', 'Impressionisten und Van Gogh', ['Barockmaler', 'Klassizisten', 'Realisten allein']],
+      ['Wen beeinflusste Delacroix später?', 'Impressionisten und Van Gogh', ['Barockmaler', 'Klassizisten', 'Realisten']],
       ['Worum ging der Streit zwischen Delacroix und Ingres?', 'Farbe gegen Linie', ['Mythos gegen Wirklichkeit', 'Öl gegen Fresko', 'Religion gegen Politik'], 'Der Streit der Farbe (Delacroix) gegen die Linie (Ingres) bestimmte die Pariser Kunstdebatte.'],
       ['Was bewirkte die Julirevolution 1830?', 'Den Sturz Karls X.', ['Den Sturz Napoleons', 'Den Sturz Ludwigs XVI.', 'Den Sturz Robespierres'], 'Die Revolution stürzte Karl X. 1830.'],
       ['Was brachte Delacroix 1832 aus Marokko mit?', 'Skizzenbücher voller orientalischer Szenen', ['Gold und Silber', 'Teppiche zum Verkauf', 'Gewürze']],

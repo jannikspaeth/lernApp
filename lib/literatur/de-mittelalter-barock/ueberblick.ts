@@ -45,7 +45,7 @@ export const UEBERBLICK: Subtopic = {
       ['In welchem Kloster wurde das Hildebrandslied aufgeschrieben?', 'In Fulda', ['In St. Gallen', 'In Reichenau', 'In Cluny'], 'Es steht auf den Deckblättern einer lateinischen Handschrift.'],
       ['Warum sind so wenige althochdeutsche Texte erhalten?', 'Vieles wurde nur mündlich weitergegeben', ['Die Texte wurden verboten', 'Es gab keine Sprache dafür', 'Alle Klöster brannten ab'], 'Geschrieben wurde fast nur Lateinisch.'],
       ['Welches Versmaß führte Opitz für ernste Dichtung ein?', 'Den Alexandriner', ['Den Hexameter', 'Den Blankvers', 'Den Knittelvers'], 'Ein langer Vers mit Einschnitt in der Mitte.'],
-      ['Welchen Gegensatz stellt die Barockdichtung oft dar?', 'Diesseits und Jenseits', ['Stadt und Land', 'Arm und Reich allein', 'Jung und Alt'], 'Dazu kommen Schein und Sein, Lust und Tod.'],
+      ['Welchen Gegensatz stellt die Barockdichtung oft dar?', 'Diesseits und Jenseits', ['Stadt und Land', 'Arm und Reich', 'Jung und Alt'], 'Dazu kommen Schein und Sein, Lust und Tod.'],
       ['Welche Rolle spielte der Krieg für die Barockdichtung?', 'Er verstärkte das Gefühl der Vergänglichkeit', ['Er war kein Thema', 'Er machte sie heiter', 'Er verbot das Schreiben'], null],
       ['Was war ein Meistersinger?', 'Ein bürgerlicher Dichter in einer Zunft', ['Ein Hofdichter', 'Ein Mönch', 'Ein Spielmann ohne Zunft'], 'Die Meistersinger prüften ihre Lieder nach festen Regeln.'],
       ['Wie wurde höfische Dichtung dem Publikum vermittelt?', 'Vorgetragen oder gesungen', ['Gedruckt verteilt', 'Still gelesen', 'Auswendig gelernt in Schulen'], 'Lesen konnten damals nur wenige.'],

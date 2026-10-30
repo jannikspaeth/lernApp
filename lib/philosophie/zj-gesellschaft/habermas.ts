@@ -40,7 +40,7 @@ export const HABERMAS: Subtopic = {
       ['Welche Erfahrung machte Habermas nach eigener Aussage sensibel für Verständigung?', 'Mit einer Gaumenspalte schwer verstanden zu werden', ['Eine Reise nach Amerika', 'Der Krieg', 'Der Tod seines Vaters'], 'Er wurde als Kind operiert.'],
       ['Wer hielt den jungen Habermas für zu radikal?', 'Max Horkheimer', ['Adorno', 'Heidegger', 'Jaspers'], 'Am Frankfurter Institut.'],
       ['Wodurch funktionieren nach Habermas die „Systeme“ Wirtschaft und Verwaltung?', 'Über Geld und Macht', ['Über Liebe', 'Über Argumente', 'Über Religion'], 'Nicht über Verständigung.'],
-      ['Für wessen Einigung setzt sich Habermas ein?', 'Für die europäische Einigung', ['Für die Einigung der Kirchen allein', 'Für die Einigung der Parteien', 'Für die Einigung der USA'], 'Und eine europäische Verfassung.'],
+      ['Für wessen Einigung setzt sich Habermas ein?', 'Für die europäische Einigung', ['Für die Einigung der Kirchen', 'Für die Einigung der Parteien', 'Für die Einigung der USA'], 'Und eine europäische Verfassung.'],
     ],
     schwer: [
       ['In welcher Stadt wuchs Habermas auf?', 'In Gummersbach', ['In Düsseldorf', 'In Köln', 'In Bonn'], 'Geboren 1929 in Düsseldorf.'],
@@ -50,7 +50,7 @@ export const HABERMAS: Subtopic = {
       ['Wie verfiel die Öffentlichkeit nach Habermas im 20. Jahrhundert?', 'Durch Massenmedien und Werbung zur Konsumöffentlichkeit', ['Durch die Schulpflicht', 'Durch den Buchdruck', 'Durch die Eisenbahn'], 'Aus dem „Strukturwandel“.'],
       ['Was kritisierte Habermas in der Biotechnik?', 'Die genetische Optimierung des Menschen', ['Impfungen', 'Organtransplantationen', 'Brillen'], '„Die Zukunft der menschlichen Natur“ (2001).'],
       ['Was leitete Habermas’ Vater?', 'Die Industrie- und Handelskammer', ['Eine Universität', 'Eine Zeitung', 'Eine Kirche'], 'In Gummersbach.'],
-      ['Wo studierte Habermas?', 'In Göttingen, Zürich und Bonn', ['In Oxford und Paris', 'In Frankfurt allein', 'In Berlin und Wien'], 'Promotion in Bonn.'],
+      ['Wo studierte Habermas?', 'In Göttingen, Zürich und Bonn', ['In Oxford und Paris', 'In Frankfurt', 'In Berlin und Wien'], 'Promotion in Bonn.'],
       ['Wie löste Habermas sich von Adorno?', 'Er gab dessen Pessimismus auf und hielt an der Moderne fest', ['Er wurde Heideggerianer', 'Er gab die Philosophie auf', 'Er wurde Positivist'], 'Ein Erbe der Aufklärung.'],
       ['Was bedeutet „Lebenswelt“ bei Habermas?', 'Der Alltag, der durch Verständigung zusammengehalten wird', ['Die Natur', 'Die Biologie', 'Das Leben nach dem Tod'], 'Ein Begriff von Husserl.'],
     ],

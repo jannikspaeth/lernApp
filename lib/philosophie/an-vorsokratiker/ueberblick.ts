@@ -24,7 +24,7 @@ export const UEBERBLICK: Subtopic = {
       ['Woran erkennt man, dass die Vorsokratiker auch Naturforscher waren?', 'Sie trieben zugleich Mathematik und Astronomie', ['Sie bauten Tempel', 'Sie waren alle Ärzte', 'Sie schrieben Tragödien'], 'Philosophie und Wissenschaft waren noch nicht getrennt.'],
       ['Wie viele vollständige Bücher der Vorsokratiker sind erhalten?', 'Keines', ['Etwa zehn', 'Alle', 'Genau eines'], 'Wir kennen nur Fragmente, die andere zitierten.'],
       ['Welche Dichter erzählten vorher die Mythen von der Entstehung der Welt?', 'Homer und Hesiod', ['Sophokles und Euripides', 'Vergil und Ovid', 'Sappho und Pindar'], 'Hesiods „Theogonie“ beschreibt die Entstehung der Götter.'],
-      ['Wohin verschob sich der Blick der Philosophie im 5. Jahrhundert v. Chr.?', 'Auf den Menschen, Ethik und Staat', ['Auf die Sterne allein', 'Auf das Jenseits', 'Auf die Tiere'], 'Mit den Sophisten und Sokrates.'],
+      ['Wohin verschob sich der Blick der Philosophie im 5. Jahrhundert v. Chr.?', 'Auf den Menschen, Ethik und Staat', ['Auf die Sterne', 'Auf das Jenseits', 'Auf die Tiere'], 'Mit den Sophisten und Sokrates.'],
       ['Welcher Urstoff war für Thales der Ursprung von allem?', 'Wasser', ['Feuer', 'Luft', 'Erde'], 'Thales gilt als erster Philosoph.'],
       ['Wer erklärte alles aus unteilbaren Teilchen?', 'Die Atomisten Leukipp und Demokrit', ['Die Pythagoreer', 'Die Sophisten', 'Die Stoiker'], '„Atomos“ heißt unteilbar.'],
     ],

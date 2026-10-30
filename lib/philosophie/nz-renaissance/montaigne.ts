@@ -30,7 +30,7 @@ export const MONTAIGNE: Subtopic = {
     ],
     mittel: [
       ['Was nennt nach Montaigne jeder „Barbarei“?', 'Was nicht seiner Gewohnheit entspricht', ['Was die Bibel verbietet', 'Was Tiere tun', 'Was Könige tun'], 'Aus „Über die Kannibalen“.'],
-      ['Wen hielt Montaigne für barbarischer als die Kannibalen?', 'Europäer, die lebendige Menschen foltern und verbrennen', ['Die Türken', 'Die Spanier allein', 'Die Tiere'], 'Eine Kritik an den Religionskriegen.'],
+      ['Wen hielt Montaigne für barbarischer als die Kannibalen?', 'Europäer, die lebendige Menschen foltern und verbrennen', ['Die Türken', 'Die Spanier', 'Die Tiere'], 'Eine Kritik an den Religionskriegen.'],
       ['Wo traf Montaigne Ureinwohner Brasiliens?', 'In Rouen', ['In Bordeaux', 'In Rio', 'In Paris am Hof'], 'Im Jahr 1562.'],
       ['Welche Frage stellt Montaigne über seine Katze?', 'Ob sie vielleicht mehr mit ihm spielt als er mit ihr', ['Ob sie eine Seele hat', 'Ob sie sprechen kann', 'Ob sie Mäuse fängt'], 'Der Mensch ist nicht die Krone der Schöpfung.'],
       ['Wie heißt Montaignes längster Essay?', '„Apologie für Raymond Sebond“', ['„Über die Kannibalen“', '„Über die Freundschaft“', '„Über die Erziehung“'], 'Eine skeptische Untersuchung des Wissens.'],
@@ -51,7 +51,7 @@ export const MONTAIGNE: Subtopic = {
       ['Welcher Philosoph schrieb, durch Montaigne sei die Lust, auf der Erde zu leben, vermehrt worden?', 'Nietzsche', ['Kant', 'Hegel', 'Descartes'], 'In „Schopenhauer als Erzieher“.'],
       ['Wie viele Bücher etwa standen in Montaignes Bibliothek?', 'Rund 1.000', ['Rund 10', 'Rund 100', 'Über 100.000'], 'Für seine Zeit sehr viele.'],
       ['Wann starb La Boétie?', '1563', ['1533', '1572', '1592'], 'Sein früher Tod traf Montaigne tief.'],
-      ['Was trägt nach Montaigne jeder Mensch in sich?', '„Die ganze Form der menschlichen Natur“', ['Einen göttlichen Funken allein', 'Die Erbsünde allein', 'Nichts Allgemeines'], 'Darum lohnt die Selbstbeschreibung.'],
+      ['Was trägt nach Montaigne jeder Mensch in sich?', '„Die ganze Form der menschlichen Natur“', ['Einen göttlichen Funken', 'Die Erbsünde', 'Nichts Allgemeines'], 'Darum lohnt die Selbstbeschreibung.'],
       ['Welches Amt hatte Montaigne vor seinem Rückzug?', 'Richter am Parlament von Bordeaux', ['Bürgermeister von Paris', 'Botschafter in Rom', 'Hofprediger'], 'Das Parlament war ein Gerichtshof.'],
     ],
   },

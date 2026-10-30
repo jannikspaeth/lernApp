@@ -19,7 +19,7 @@ export const UEBERBLICK: Subtopic = {
       ['Gibt es seit dem 20. Jahrhundert eine einheitliche Musikepoche?', 'Nein, es gibt viele Richtungen nebeneinander', ['Ja, den Barock', 'Ja, die Romantik', 'Ja, den Jazz'], 'Man spricht von der Zeit der „Ismen“.'],
       ['Welche Musikrichtung begann in Frankreich mit Debussy?', 'Der Impressionismus', ['Der Expressionismus', 'Der Barock', 'Der Verismo'], 'Mit schwebenden Klangfarben statt klarer Formen.'],
       ['Wovon übernahm der musikalische Impressionismus seinen Namen?', 'Von der Malerei (Monet, Renoir)', ['Von einem Tanz', 'Von einem Musikinstrument', 'Von einer Oper'], 'Nach Monets Bild „Impression, soleil levant“ (1872).'],
-      ['Was gab Schönberg um 1908 auf?', 'Die Tonalität', ['Das Klavier', 'Das Komponieren', 'Die Notenschrift'], 'Er komponierte ohne Grundton und ohne Dur und Moll.'],
+      ['Was gab Schönberg um 1908 auf?', 'Die Tonalität', ['Die Orchestermusik', 'Den Kontrapunkt', 'Das Klavier'], 'Er komponierte ohne Grundton und ohne Dur und Moll.'],
       ['Welches Ballett löste 1913 in Paris einen Skandal aus?', '„Le Sacre du printemps“', ['„Schwanensee“', '„Der Feuervogel“', '„Boléro“'], 'Von Igor Strawinsky, choreografiert von Nijinsky.'],
       ['Welches ruhige Klavierstück ist das?', 'Eine „Gymnopédie“ von Erik Satie', ['„Clair de lune“ von Debussy', '„Für Elise“ von Beethoven', 'Ein Nocturne von Chopin'], 'Die erste der drei „Gymnopédies“ von 1888.', 'h-gymnopedie'],
       ['Wer ist auf diesem Bild zu sehen?', 'Erik Satie', ['Claude Debussy', 'Maurice Ravel', 'Igor Strawinsky'], 'Der ironische Außenseiter der französischen Musik.', 'satie'],
@@ -32,7 +32,7 @@ export const UEBERBLICK: Subtopic = {
     mittel: [
       ['Welche Tonleitern verwendeten die Impressionisten?', 'Ganzton- und Fünftonleitern', ['Nur C-Dur', 'Nur Kirchentonarten', 'Zwölftonreihen'], 'Ganztonleitern haben keine Halbtonschritte und klingen schwebend.'],
       ['Wie heißt die Gruppe um Schönberg, Berg und Webern?', 'Zweite Wiener Schule', ['Mächtiges Häuflein', 'Les Six', 'Neudeutsche Schule'], 'Die „erste“ Wiener Schule ist die Wiener Klassik.'],
-      ['Was bedeutet „atonal“?', 'Ohne Bezug auf einen Grundton und Dur/Moll', ['Ohne Rhythmus', 'Ohne Instrumente', 'Sehr leise'], 'Schönberg selbst mochte das Wort nicht.'],
+      ['Was bedeutet „atonal“?', 'Ohne Bezug auf einen Grundton und Dur/Moll', ['Ohne festen Rhythmus', 'Ohne Melodie', 'In alten Kirchentonarten'], 'Schönberg selbst mochte das Wort nicht.'],
       ['Was wollte der Expressionismus ausdrücken?', 'Seelische Abgründe, Angst und Schrecken', ['Fröhliche Tänze', 'Naturidylle', 'Höfische Pracht'], 'Wie in der Malerei von Kandinsky und Kokoschka.'],
       ['Welche Technik entwickelte Schönberg um 1921?', 'Die Zwölftontechnik', ['Den Generalbass', 'Die Sonatenform', 'Das Leitmotiv'], 'Alle zwölf Töne sind gleichberechtigt.'],
       ['Wie heißt die Rückkehr zu klaren Formen nach dem Ersten Weltkrieg?', 'Neoklassizismus', ['Neobarock', 'Spätromantik', 'Minimalismus'], 'Mit Rückgriff auf Barock und Klassik.'],
@@ -40,7 +40,7 @@ export const UEBERBLICK: Subtopic = {
       ['Wer schrieb die Musik zur „Dreigroschenoper“?', 'Kurt Weill', ['Paul Hindemith', 'Hanns Eisler', 'Carl Orff'], '1928, mit Texten von Bertolt Brecht.'],
       ['Was ist „Gebrauchsmusik“ bei Hindemith?', 'Musik für Laien und Schulen', ['Werbemusik', 'Filmmusik', 'Kirchenmusik'], 'Musik, die Laien selbst spielen konnten.'],
       ['Wer ist auf diesem Bild zu sehen?', 'Richard Strauss', ['Gustav Mahler', 'Arnold Schönberg', 'Carl Orff'], 'Er schrieb bis ins hohe Alter spätromantische Werke.', 'richard-strauss'],
-      ['Womit nahm Bartók Volkslieder auf?', 'Mit dem Phonographen', ['Mit dem Tonband', 'Mit dem Smartphone', 'Nur mit Bleistift'], 'Ein frühes Tonaufnahmegerät mit Wachswalzen.'],
+      ['Womit nahm Bartók Volkslieder auf?', 'Mit dem Phonographen', ['Mit dem Tonband', 'Mit dem Kassettenrekorder', 'Er notierte sie nur von Hand'], 'Ein frühes Tonaufnahmegerät mit Wachswalzen.'],
       ['Welchen Stil musste Musik in der Sowjetunion pflegen?', 'Den „sozialistischen Realismus“', ['Den Impressionismus', 'Die Zwölftonmusik', 'Den Jazz'], 'Die Musik sollte dem Volk und dem Staat dienen.'],
     ],
     schwer: [

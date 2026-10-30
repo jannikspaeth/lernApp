@@ -40,7 +40,7 @@ export const UEBERBLICK: Subtopic = {
       ['Welche Oper machte Gluck zum Opernreformer?', '„Orfeo ed Euridice“', ['„Die Zauberflöte“', '„Fidelio“', '„L’Orfeo“'], '1762 in Wien.'],
       ['Welches Stück hörst du?', 'Den „Reigen seliger Geister“ von Gluck', ['Bachs „Air“', 'Mozarts „Ave verum corpus“', 'Haydns „Kaiserhymne“'], 'Ein Flötensolo aus „Orfeo ed Euridice“.', 'h-reigen-seliger-geister'],
       ['Wogegen wandte sich Gluck?', 'Gegen die Eitelkeit der Sänger', ['Gegen das Orchester', 'Gegen das Ballett', 'Gegen deutsche Texte'], 'Sie verzierten ihre Arien so stark, dass die Handlung stillstand.'],
-      ['Wie trat Haydn noch als Angestellter auf?', 'In der Livree eines Fürstendieners', ['Im Mönchsgewand', 'In Uniform', 'Im Frack eines Bankiers'], 'Livree war die Uniform der fürstlichen Bediensteten.'],
+      ['Wie trat Haydn als Angestellter der Esterházy noch auf?', 'In der Livree eines Fürstendieners', ['Im Mönchsgewand', 'In Uniform', 'Im Frack eines Bankiers'], 'Livree war die Uniform der fürstlichen Bediensteten.'],
       ['Was ersetzte bei Beethoven oft das Menuett?', 'Das Scherzo', ['Die Fuge', 'Der Marsch', 'Die Arie'], '„Scherzo“ heißt auf Italienisch „Scherz“ – meist schneller und kräftiger als das Menuett.'],
     ],
     schwer: [
@@ -53,7 +53,7 @@ export const UEBERBLICK: Subtopic = {
       ['Welche deutsche Gattung erhob Mozart mit der „Zauberflöte“ zur Kunst?', 'Das Singspiel', ['Die Operette', 'Das Musikdrama', 'Das Oratorium'], 'Im Singspiel wechseln sich Gesang und gesprochene Dialoge ab.'],
       ['Welcher Komponist starb ein Jahr nach Beethoven?', 'Franz Schubert', ['Carl Maria von Weber', 'Joseph Haydn', 'Felix Mendelssohn Bartholdy'], 'Schubert starb 1828.'],
       ['Wer ist hier dargestellt?', 'Carl Philipp Emanuel Bach', ['Johann Sebastian Bach', 'Christoph Willibald Gluck', 'Johann Stamitz'], 'Der wichtigste Vertreter des empfindsamen Stils.', 'cpe-bach'],
-      ['Was verschwand mit dem Hammerklavier aus der Musik?', 'Der Generalbass', ['Die Melodie', 'Das Orchester', 'Die Oper'], 'Das Klavier konnte nun selbst die volle Harmonie spielen.'],
+      ['Was verschwand mit dem Hammerklavier aus der Musik?', 'Der Generalbass', ['Das Menuett', 'Die Fuge', 'Die Kadenz'], 'Das Klavier konnte nun selbst die volle Harmonie spielen.'],
     ],
   },
 };

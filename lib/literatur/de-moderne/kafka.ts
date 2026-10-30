@@ -39,7 +39,7 @@ export const KAFKA: Subtopic = {
       ['Wer will in Kafkas „Schloss“ Zutritt zur Verwaltung?', 'Der Landvermesser K.', ['Josef K.', 'Gregor Samsa', 'Karl Roßmann'], null],
       ['Wann schrieb Kafka den „Brief an den Vater“?', '1919', ['1909', '1929', '1915'], 'Abgeschickt hat er ihn nie.'],
       ['Wann erkrankte Kafka an Tuberkulose?', '1917', ['1907', '1923', '1900'], null],
-      ['Wer veröffentlichte Kafkas Romane?', 'Max Brod', ['Thomas Mann', 'Kurt Wolff allein', 'Dora Diamant'], null],
+      ['Wer veröffentlichte Kafkas Romane?', 'Max Brod', ['Thomas Mann', 'Kurt Wolff', 'Dora Diamant'], null],
     ],
     schwer: [
       ['Wie beginnt „Die Verwandlung“?', 'Gregor Samsa erwacht als ungeheueres Ungeziefer', ['Gregor verliert seine Arbeit', 'Die Familie zieht um', 'Ein Brief trifft ein'], null],

@@ -47,7 +47,7 @@ export const BLIXEN_LAXNESS: Subtopic = {
       ['Wie kann man Blixens „Jenseits von Afrika“ beschreiben?', 'Als Mischung aus Sachbericht und Elegie', ['Als Abenteuerroman', 'Als Krimi', 'Als Satire'], null],
       ['Wofür steht Laxness’ Roman „Sein eigener Herr“?', 'Für den Kampf eines Bauern um Unabhängigkeit', ['Für einen Krieg', 'Für eine Liebesgeschichte', 'Für eine Reise nach Amerika'], null],
       ['Wie ist die isländische Literatur mit Laxness verbunden?', 'Er erneuerte das alte isländische Erzählen', ['Er erfand die Sagas', 'Er übersetzte die Edda', 'Er schrieb auf Dänisch'], null],
-      ['Welche Weltanschauungen durchlief Laxness?', 'Katholizismus und später Sozialismus', ['Buddhismus', 'Islam', 'Atheismus allein'], null],
+      ['Welche Weltanschauungen durchlief Laxness?', 'Katholizismus und später Sozialismus', ['Buddhismus', 'Islam', 'Atheismus'], null],
       ['Wie viele Isländer erhielten bisher den Literaturnobelpreis?', 'Nur Laxness', ['Zwei', 'Fünf', 'Keiner'], null],
       ['Wofür zeichnete das Nobelkomitee Fosse aus?', 'Für Stücke und Prosa, die dem Unsagbaren eine Stimme geben', ['Für historische Romane', 'Für Kinderbücher', 'Für Krimis'], null],
       ['Wie heißt eines von Fosses Prosawerken?', 'Heptalogie', ['Hunger', 'Pan', 'Sein eigener Herr'], null],

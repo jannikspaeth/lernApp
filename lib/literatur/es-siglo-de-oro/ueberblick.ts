@@ -46,7 +46,7 @@ export const UEBERBLICK: Subtopic = {
       ['Wie war das Publikum im Corral zusammengesetzt?', 'Adel und Volk zusammen', ['Nur Adel', 'Nur Geistliche', 'Nur Gelehrte'], null],
       ['Was zeichnet den Schelmenroman aus?', 'Ein armer Held schlägt sich mit List durch', ['Ein Ritter zieht in den Krieg', 'Ein König regiert', 'Ein Dichter reist'], null],
       ['Wozu führte die Entwicklung Spaniens im Barock literarisch?', 'Zu Nachdenklichkeit und Bitterkeit', ['Zu reinem Optimismus', 'Zu Schweigen', 'Zu Übersetzungen'], null],
-      ['Welche Themen dominieren im spanischen Barock?', 'Vergänglichkeit und Schein', ['Fortschritt und Technik', 'Liebe zur Natur allein', 'Politik der Zukunft'], null],
+      ['Welche Themen dominieren im spanischen Barock?', 'Vergänglichkeit und Schein', ['Fortschritt und Technik', 'Liebe zur Natur', 'Politik der Zukunft'], null],
       ['Welche Gestalten sind aus dem Siglo de Oro in ganz Europa bekannt?', 'Don Quijote und Don Juan', ['Faust und Gretchen', 'Hamlet und Ophelia', 'Tristan und Isolde'], null],
       ['Wohin gehörte Spanien nach seiner Expansion politisch?', 'Es herrschte über Amerika, die Niederlande und Teile Italiens', ['Nur über die Iberische Halbinsel', 'Über Skandinavien', 'Über Russland'], null],
       ['Wer waren die Autoren des Nationaltheaters?', 'Lope de Vega und Calderón', ['Cervantes und Quevedo', 'Góngora und Garcilaso', 'Alemán und Lazarillo'], null],

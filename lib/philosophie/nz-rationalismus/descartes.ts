@@ -23,7 +23,7 @@ export const DESCARTES: Subtopic = {
       ['Als was gilt Descartes?', 'Als Vater der neuzeitlichen Philosophie', ['Als Vater der Scholastik', 'Als Vater des Empirismus', 'Als Vater der Psychoanalyse'], 'Er machte das denkende Ich zum Ausgangspunkt.'],
       ['In welchem Land lebte Descartes über 20 Jahre?', 'In der Niederländischen Republik', ['In Italien', 'In Deutschland', 'In Spanien'], 'Um ungestört arbeiten zu können.'],
       ['In welcher Stadt starb Descartes?', 'In Stockholm', ['In Paris', 'In Amsterdam', 'In Rom'], 'Am Hof Königin Christinas.'],
-      ['Was ist der Mensch nach Descartes zuerst?', 'Ein denkendes Ding', ['Ein Tier', 'Eine Maschine allein', 'Ein Bürger'], 'Lateinisch res cogitans.'],
+      ['Was ist der Mensch nach Descartes zuerst?', 'Ein denkendes Ding', ['Ein Tier', 'Eine Maschine', 'Ein Bürger'], 'Lateinisch res cogitans.'],
       ['Wie nennt man Descartes’ Trennung von Geist und Körper?', 'Kartesischer Dualismus', ['Monismus', 'Materialismus', 'Idealismus'], 'Zwei verschiedene Substanzen.'],
       ['Wie heißt Descartes’ Schrift von 1637?', '„Abhandlung über die Methode“', ['„Kritik der reinen Vernunft“', '„Ethik“', '„Leviathan“'], 'Auf Französisch geschrieben.'],
       ['Warum war der Unterricht bei Königin Christina eine Qual für Descartes?', 'Sie wollte ihn um fünf Uhr morgens', ['Sie sprach kein Französisch', 'Sie war Atheistin', 'Sie zahlte nichts'], 'Er war ein Langschläfer.'],

@@ -38,8 +38,8 @@ export const UEBERBLICK: Subtopic = {
       ['Wann begann „Tristram Shandy“ zu erscheinen?', '1759', ['1719', '1749', '1789'], null],
       ['Wer machte den Schauerroman populär?', 'Ann Radcliffe', ['Mary Shelley', 'Jane Austen', 'Fanny Burney'], null],
       ['Wer schrieb geschliffene Verssatiren und übersetzte Homer?', 'Alexander Pope', ['Samuel Johnson', 'Jonathan Swift', 'John Dryden'], null],
-      ['Was legte Johnsons Wörterbuch fest?', 'Die englische Rechtschreibung für lange Zeit', ['Die Aussprache', 'Die Grammatik allein', 'Die Dialekte'], null],
-      ['In welcher Sprache schrieb Robert Burns?', 'In schottischer Mundart', ['Auf Latein', 'Auf Gälisch allein', 'Auf Französisch'], null],
+      ['Was legte Johnsons Wörterbuch fest?', 'Die englische Rechtschreibung für lange Zeit', ['Die Aussprache', 'Die Grammatik', 'Die Dialekte'], null],
+      ['In welcher Sprache schrieb Robert Burns?', 'In schottischer Mundart', ['Auf Latein', 'Auf Gälisch', 'Auf Französisch'], null],
     ],
     schwer: [
       ['Woran erkennt man den neuen Roman formal?', 'An Namen, Daten und Geldbeträgen', ['An Versmaßen', 'An Chören', 'An Allegorien'], 'Er tut so, als berichte er Wirkliches.'],

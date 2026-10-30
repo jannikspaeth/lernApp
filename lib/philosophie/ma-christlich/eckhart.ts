@@ -50,7 +50,7 @@ export const ECKHART: Subtopic = {
       ['In welcher Stadt trat Eckhart in den Orden ein?', 'In Erfurt', ['In Köln', 'In Straßburg', 'In Paris'], 'Dort war er später auch Prior.'],
       ['Wann starb Eckhart vermutlich?', '1328', ['1260', '1302', '1349'], 'In oder auf dem Weg nach Avignon.'],
       ['Was hieß es über Eckharts Haltung vor dem Tod?', 'Er habe sich dem Urteil der Kirche unterworfen', ['Er habe die Kirche verflucht', 'Er sei zum Islam übergetreten', 'Er habe alles widerrufen und verbrannt'], 'So die Bulle von 1329.'],
-      ['Welche philosophischen Wörter gehen ganz oder in ihrer Bedeutung auf Eckhart zurück?', '„Eindruck“, „Wesen“, „Bildung“', ['„Vernunft“ und „Verstand“ allein', '„Atom“ und „Kosmos“', '„Demokratie“ und „Politik“'], 'Er schuf deutsche Begriffe der Philosophie.'],
+      ['Welche philosophischen Wörter gehen ganz oder in ihrer Bedeutung auf Eckhart zurück?', '„Eindruck“, „Wesen“, „Bildung“', ['„Vernunft“ und „Verstand“', '„Atom“ und „Kosmos“', '„Demokratie“ und „Politik“'], 'Er schuf deutsche Begriffe der Philosophie.'],
       ['Ab wann wirkte Eckhart in Straßburg?', 'Ab 1314', ['Ab 1260', 'Ab 1302', 'Ab 1326'], 'Danach in Köln.'],
       ['Wo wurde Gott nach Eckhart einmal „geboren“, wie er in jeder Seele geboren werden soll?', 'In Maria', ['In Rom', 'In Abraham', 'In der Kirche'], 'Die Gottesgeburt wiederholt sich in der Seele.'],
     ],

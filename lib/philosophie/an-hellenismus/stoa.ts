@@ -31,7 +31,7 @@ export const STOA: Subtopic = {
     mittel: [
       ['Womit verglichen die Stoiker die Philosophie?', 'Mit einem Garten: Logik Zaun, Physik Baum, Ethik Frucht', ['Mit einem Haus', 'Mit einem Schiff', 'Mit einem Körper ohne Kopf'], 'Die Ethik ist das Ziel.'],
       ['Was sind „adiaphora“?', 'Gleichgültige Dinge wie Reichtum und Gesundheit', ['Die höchsten Tugenden', 'Die Götter', 'Die Atome'], 'Für das Glück unwichtig.'],
-      ['Was sind Leidenschaften für die Stoiker?', 'Falsche Urteile', ['Göttliche Eingebungen', 'Notwendige Kräfte', 'Körperliche Krankheiten allein'], 'Man kann sie mit Vernunft überwinden.'],
+      ['Was sind Leidenschaften für die Stoiker?', 'Falsche Urteile', ['Göttliche Eingebungen', 'Notwendige Kräfte', 'Körperliche Krankheiten'], 'Man kann sie mit Vernunft überwinden.'],
       ['Was steht nach Epiktet in unserer Macht?', 'Unsere Urteile, Wünsche und Abneigungen', ['Unser Körper', 'Unser Besitz', 'Unser Ruf'], 'Darauf soll man sich konzentrieren.'],
       ['Welcher Satz stammt von Seneca?', '„Nicht weil es schwer ist, wagen wir es nicht, sondern weil wir es nicht wagen, ist es schwer.“', ['„Carpe diem.“', '„Veni, vidi, vici.“', '„Cogito, ergo sum.“'], 'Aus den Briefen an Lucilius.'],
       ['Wohin verbannte Kaiser Claudius Seneca?', 'Nach Korsika', ['Nach Sizilien', 'Nach Britannien', 'Nach Ägypten'], 'Acht Jahre lang.'],
@@ -49,7 +49,7 @@ export const STOA: Subtopic = {
       ['Wie fand Zenon zu Krates?', 'Ein Buchhändler zeigte auf ihn', ['Durch ein Orakel', 'Durch einen Traum', 'Durch Platon'], '„Folge diesem.“'],
       ['Woher stammte Epiktet?', 'Aus Hierapolis in Phrygien', ['Aus Córdoba', 'Aus Kition', 'Aus Rom'], 'Heute Pamukkale in der Türkei.'],
       ['Wer folgte Zenon als Leiter der Stoa?', 'Kleanthes', ['Epiktet', 'Seneca', 'Poseidonios'], 'Von ihm stammt der „Zeushymnus“.'],
-      ['Welche Schrift Senecas handelt von der Zeit?', '„Von der Kürze des Lebens“', ['„Vom Zorn“ allein', '„Über die Natur“', '„Der Staat“'], 'Das Leben ist lang genug, wenn man es gut nutzt.'],
+      ['Welche Schrift Senecas handelt von der Zeit?', '„Von der Kürze des Lebens“', ['„Vom Zorn“', '„Über die Natur“', '„Der Staat“'], 'Das Leben ist lang genug, wenn man es gut nutzt.'],
       ['Welches bekannte Gebet klingt stoisch?', 'Das Gelassenheitsgebet', ['Das Vaterunser', 'Das Ave Maria', 'Das Glaubensbekenntnis'], 'Hinnehmen, was man nicht ändern kann.'],
       ['Was gilt für die Stoiker als einziges Übel?', 'Das Laster', ['Der Tod', 'Die Armut', 'Der Schmerz'], 'Alles Äußere ist gleichgültig.'],
       ['Mit welcher Ware erlitt Zenon Schiffbruch?', 'Mit Purpur', ['Mit Wein', 'Mit Getreide', 'Mit Gold'], 'Vor Athen.'],

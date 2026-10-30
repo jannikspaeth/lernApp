@@ -46,7 +46,7 @@ export const VERGIL_HORAZ: Subtopic = {
       ['Wie starb Vergil?', 'Auf der Rückreise aus Griechenland', ['Im Bürgerkrieg', 'Auf der Jagd', 'Im Exil'], null],
       ['Wozu wurde Vergils „Aeneis“ in Rom?', 'Zum Schullektüre-Klassiker', ['Zum Gesetzbuch', 'Zum Gebetbuch', 'Zum Volkslied'], null],
       ['Was verlor Vergil im Bürgerkrieg?', 'Sein Landgut', ['Seine Frau', 'Sein Amt im Senat', 'Sein Augenlicht'], null],
-      ['Welche Haltung prägt Horaz’ Oden?', 'Mäßigung und Gelassenheit', ['Zorn und Rache', 'Ehrgeiz', 'Frömmigkeit allein'], null],
+      ['Welche Haltung prägt Horaz’ Oden?', 'Mäßigung und Gelassenheit', ['Zorn und Rache', 'Ehrgeiz', 'Frömmigkeit'], null],
       ['Wie heißt Horaz’ Dichtungslehre?', 'Ars poetica', ['Poetik', 'Georgica', 'Satyricon'], null],
       ['Welchen Stolz drückt Horaz am Ende seiner Oden aus?', 'Ein Denkmal dauernder als Erz geschaffen zu haben', ['Ein Landgut geschenkt bekommen', 'Der Liebling des Kaisers zu sein', 'Römischer Bürger zu sein'], null],
       ['Was bedeutet Horaz’ Vers „Dulce et decorum est pro patria mori“?', 'Es ist süß und ehrenvoll, für das Vaterland zu sterben', ['Man soll den Tag nutzen', 'Man soll maßhalten', 'Man soll schweigen'], null],

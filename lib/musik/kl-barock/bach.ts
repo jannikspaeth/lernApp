@@ -23,7 +23,7 @@ export const BACH: Subtopic = {
       ['Wie viele Kinder hatte Bach?', '20', ['2', '8', '35'], 'Nur zehn erreichten das Erwachsenenalter.'],
       ['Was hörst du hier?', 'Toccata und Fuge d-Moll', ['Das „Halleluja“', 'Die „Kleine Nachtmusik“', '„Für Elise“'], 'Das wohl berühmteste Orgelstück der Welt, BWV 565.', 'h-toccata'],
       ['Wie viele Brandenburgische Konzerte gibt es?', 'Sechs', ['Drei', 'Zwölf', 'Vier'], 'Jedes hat eine andere Besetzung, das 5. ein großes Cembalosolo.'],
-      ['Welche Passion schrieb Bach für Leipzig?', 'Die Matthäus-Passion', ['Die Lukas-Passion von Händel', 'Die Markus-Passion von Telemann', 'Die Schöpfung'], 'Auch die Johannes-Passion stammt von ihm.'],
+      ['Welche Passion schrieb Bach für Leipzig?', 'Die Matthäus-Passion', ['Die Brockes-Passion von Händel', 'Die Markus-Passion von Telemann', 'Die Lukas-Passion von Schütz'], 'Auch die Johannes-Passion stammt von ihm.'],
       ['Welches Oratorium von Bach wird in der Adventszeit gespielt?', 'Das Weihnachtsoratorium', ['Der „Messias“', 'Die „Schöpfung“', 'Der „Elias“'], 'Es besteht aus sechs Kantaten für die Festtage von Weihnachten bis Epiphanias.'],
       ['Wofür steht „S. D. G.“ unter Bachs Werken?', 'Soli Deo Gloria – allein Gott zur Ehre', ['Sehr dankbar geschrieben', 'Sebastian der Große', 'Sonate des Generalbasses'], 'Am Anfang schrieb er oft „J. J.“: „Jesu juva“, Jesus hilf.'],
       ['Wer führte 1829 die Matthäus-Passion wieder auf?', 'Felix Mendelssohn Bartholdy', ['Ludwig van Beethoven', 'Robert Schumann', 'Johannes Brahms'], 'Der 20-Jährige löste damit die Bach-Renaissance aus.'],

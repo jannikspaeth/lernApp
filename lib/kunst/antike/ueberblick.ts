@@ -36,7 +36,7 @@ export const UEBERBLICK: Subtopic = {
       ['Wann wurde der Parthenon gebaut?', '447–432 v. Chr.', ['800–700 v. Chr.', '323–300 v. Chr.', '72–80 n. Chr.']],
       ['Welche Ordnung hat der Parthenon?', 'Die dorische', ['Die ionische', 'Die korinthische', 'Die toskanische']],
       ['Wann entstand das Pantheon etwa?', 'Um 125 n. Chr.', ['Um 125 v. Chr.', 'Um 447 v. Chr.', 'Um 72 n. Chr.']],
-      ['Welcher Baustoff machte die römischen Kuppeln möglich?', 'Beton', ['Marmor', 'Holz', 'Ziegel allein']],
+      ['Welcher Baustoff machte die römischen Kuppeln möglich?', 'Beton', ['Marmor', 'Holz', 'Ziegel']],
       ['Wie heißt der römische Realismus in Porträts?', 'Verismus', ['Idealismus', 'Manierismus', 'Naturalismus'], 'Verismus kommt von lateinisch „verus“, wahr: Altersfalten und Warzen wurden nicht beschönigt.'],
       ['Wann wurde Pompeji verschüttet?', '79 n. Chr.', ['79 v. Chr.', '476 n. Chr.', '30 v. Chr.'], 'Der Ausbruch fiel nach der Überlieferung Plinius des Jüngeren auf den 24. August 79 n. Chr.'],
       ['Wodurch wurde Pompeji verschüttet?', 'Durch den Ausbruch des Vesuvs', ['Durch ein Erdbeben', 'Durch eine Flut', 'Durch Feuer'], 'Die Asche konservierte Häuser, Wandmalereien und Mosaike besonders gut.'],

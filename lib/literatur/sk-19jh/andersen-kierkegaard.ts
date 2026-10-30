@@ -48,7 +48,7 @@ export const ANDERSEN_KIERKEGAARD: Subtopic = {
       ['Wie lebte Andersen?', 'Unverheiratet und reisend', ['Verheiratet in Odense', 'Zurückgezogen auf dem Land', 'Als Pfarrer'], null],
       ['Wie deutet Kierkegaard Abraham?', 'Als Beispiel des Glaubenssprungs', ['Als Verbrecher', 'Als Helden', 'Als Philosophen'], null],
       ['Was beschreibt Kierkegaards „Der Begriff Angst“?', 'Die Angst als Schwindel der Freiheit', ['Die Angst vor dem Tod', 'Die Angst vor Strafe', 'Die Angst vor Gott'], null],
-      ['Wogegen kämpfte Kierkegaard?', 'Gegen die dänische Staatskirche', ['Gegen den König', 'Gegen die Universität', 'Gegen die Presse allein'], null],
+      ['Wogegen kämpfte Kierkegaard?', 'Gegen die dänische Staatskirche', ['Gegen den König', 'Gegen die Universität', 'Gegen die Presse'], null],
       ['Wie lebte Kierkegaard?', 'Als Spaziergänger in Kopenhagen, vom Erbe', ['Als Pfarrer', 'Als Professor', 'Als Kaufmann'], null],
       ['Warum löste Kierkegaard die Verlobung?', 'Um sein Leben dem Schreiben zu widmen', ['Wegen Armut', 'Wegen Krieg', 'Wegen Krankheit'], 'Der genaue Grund ist bis heute Gegenstand der Forschung.'],
       ['Was ist Andersens bleibende Wirkung?', 'Seine Märchen sind in über 100 Sprachen übersetzt', ['Er gründete eine Schule', 'Er schrieb Gesetze', 'Er leitete ein Theater'], null],

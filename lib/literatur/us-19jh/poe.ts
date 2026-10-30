@@ -24,7 +24,7 @@ export const POE: Subtopic = {
       ['Was war Poe beruflich?', 'Redakteur und Kritiker', ['Arzt', 'Anwalt', 'Lehrer'], null],
       ['Wie lebte Poe trotz seines Ruhms?', 'Fast immer in Armut', ['Im Wohlstand', 'Als Gutsbesitzer', 'Auf Reisen'], null],
       ['Wie alt wurde Poe?', '40 Jahre', ['30 Jahre', '50 Jahre', '60 Jahre'], null],
-      ['Wer übersetzte Poe ins Französische?', 'Charles Baudelaire', ['Victor Hugo', 'Stéphane Mallarmé allein', 'Gustave Flaubert'], null],
+      ['Wer übersetzte Poe ins Französische?', 'Charles Baudelaire', ['Victor Hugo', 'Stéphane Mallarmé', 'Gustave Flaubert'], null],
       ['Wo wurde Poe geboren?', 'In Boston', ['In Baltimore', 'In Richmond', 'In New York'], null],
     ],
     mittel: [
@@ -39,11 +39,11 @@ export const POE: Subtopic = {
       ['Was behauptete Poe über die Entstehung des „Raben“?', 'Er habe es nach genauem Plan gebaut', ['Es sei ihm im Traum erschienen', 'Es sei improvisiert', 'Ein Freund habe geholfen'], null],
       ['Wie wurde Poe 1849 gefunden?', 'Verwirrt und in fremder Kleidung auf der Straße', ['In seinem Haus', 'Auf einem Schiff', 'Im Gefängnis'], null],
       ['Was tat ein Gegner nach Poes Tod?', 'Er schrieb einen Nachruf, der ihn als haltlosen Trinker darstellte', ['Er vernichtete seine Werke', 'Er klagte die Familie an', 'Er gab seine Werke heraus'], null],
-      ['Wo wurde Poe früher geschätzt als in Amerika?', 'In Europa', ['In Asien', 'In Russland allein', 'Nirgends'], null],
+      ['Wo wurde Poe früher geschätzt als in Amerika?', 'In Europa', ['In Asien', 'In Russland', 'Nirgends'], null],
     ],
     schwer: [
       ['Wie löst Poes Detektiv Dupin seine Fälle?', 'Durch Beobachtung und Schlussfolgerung', ['Durch Geständnisse', 'Durch Zufall', 'Durch Verhöre'], null],
-      ['Welcher berühmte Detektiv steht in Dupins Nachfolge?', 'Sherlock Holmes', ['Hercule Poirot allein', 'Miss Marple', 'Philip Marlowe'], null],
+      ['Welcher berühmte Detektiv steht in Dupins Nachfolge?', 'Sherlock Holmes', ['Hercule Poirot', 'Miss Marple', 'Philip Marlowe'], null],
       ['Welche Themen bestimmen Poes Erzählungen?', 'Schuld, Wahnsinn und Selbstverrat', ['Reisen und Abenteuer', 'Liebe und Ehe', 'Handel und Geld'], null],
       ['Was verbindet Haus und Familie in Poes „Usher“?', 'Beide zerfallen zugleich', ['Das Haus rettet die Familie', 'Die Familie verlässt das Haus', 'Das Haus wird verkauft'], null],
       ['Warum gesteht der Mörder in Poes „Das verräterische Herz“?', 'Das eingebildete Geräusch wird unerträglich', ['Ein Zeuge erscheint', 'Die Polizei findet Spuren', 'Er bereut'], null],

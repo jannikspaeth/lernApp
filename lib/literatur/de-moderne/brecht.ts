@@ -16,7 +16,7 @@ export const BRECHT: Subtopic = {
     leicht: [
       ['Wer schrieb die „Dreigroschenoper“?', 'Bertolt Brecht', ['Kurt Weill', 'Erich Kästner', 'Carl Zuckmayer'], null, 'brecht'],
       ['Wer schrieb die Musik zur „Dreigroschenoper“?', 'Kurt Weill', ['Hanns Eisler', 'Paul Dessau', 'Alban Berg'], null],
-      ['Welches Lied aus der „Dreigroschenoper“ wurde weltberühmt?', 'Die Moritat von Mackie Messer', ['Die Seeräuber-Jenny allein', 'Das Lied von der Unzulänglichkeit', 'Der Kanonen-Song'], null],
+      ['Welches Lied aus der „Dreigroschenoper“ wurde weltberühmt?', 'Die Moritat von Mackie Messer', ['Die Seeräuber-Jenny', 'Das Lied von der Unzulänglichkeit', 'Der Kanonen-Song'], null],
       ['Wie heißt Brechts Theaterform?', 'Das epische Theater', ['Das absurde Theater', 'Das Naturalistische Theater', 'Das Dokumentartheater'], null],
       ['Wie heißt Brechts berühmtes Mittel?', 'Der Verfremdungseffekt', ['Der Sekundenstil', 'Die Montage', 'Der innere Monolog'], null],
       ['Was soll der Zuschauer bei Brecht tun?', 'Nachdenken und urteilen', ['Mitfühlen und weinen', 'Sich erholen', 'Mitspielen'], null],
@@ -43,7 +43,7 @@ export const BRECHT: Subtopic = {
     ],
     schwer: [
       ['Was soll Brechts Verfremdungseffekt bewirken?', 'Der Zuschauer soll Verhalten prüfen statt mitfühlen', ['Er soll sich erschrecken', 'Er soll lachen', 'Er soll mitspielen'], null],
-      ['Welche Mittel nutzt Brecht für den Verfremdungseffekt?', 'Songs, Spruchbänder und sichtbare Bühnentechnik', ['Dunkelheit und Musik', 'Masken und Chöre allein', 'Pantomime'], null],
+      ['Welche Mittel nutzt Brecht für den Verfremdungseffekt?', 'Songs, Spruchbänder und sichtbare Bühnentechnik', ['Dunkelheit und Musik', 'Masken und Chöre', 'Pantomime'], null],
       ['Welche Grundhaltung steckt hinter Brechts epischem Theater?', 'Die Verhältnisse sind von Menschen gemacht und änderbar', ['Das Schicksal bestimmt alles', 'Die Kunst ist zweckfrei', 'Die Natur ist das Vorbild'], null],
       ['Was ist Brechts Mutter Courage von Beruf?', 'Marketenderin', ['Bäuerin', 'Soldatin', 'Wirtin'], 'Sie zieht mit einem Wagen hinter den Heeren her.'],
       ['Was zeigt Brecht an der Mutter Courage?', 'Wer vom Krieg leben will, zahlt mit den Seinen', ['Krieg macht reich', 'Mut siegt', 'Frauen sind stärker'], null],

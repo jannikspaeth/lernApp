@@ -24,7 +24,7 @@ export const UEBERBLICK: Subtopic = {
       ['Wer schrieb Tragödien wie „Phèdre“?', 'Jean Racine', ['Molière', 'Corneille', 'Voltaire'], null],
       ['Wer schrieb berühmte Fabeln?', 'Jean de La Fontaine', ['Racine', 'Molière', 'Diderot'], null],
       ['Wer ist auf diesem Porträt zu sehen?', 'Voltaire', ['Rousseau', 'Diderot', 'Montesquieu'], null, 'voltaire'],
-      ['Wie nannte man die Denker der Aufklärung in Frankreich?', 'Philosophes', ['Encyclopédistes allein', 'Académiciens', 'Salonniers'], null],
+      ['Wie nannte man die Denker der Aufklärung in Frankreich?', 'Philosophes', ['Encyclopédistes', 'Académiciens', 'Salonniers'], null],
       ['Welche Revolution bereiteten die Ideen der Philosophes mit vor?', 'Die Französische Revolution', ['Die Julirevolution', 'Die Pariser Kommune', 'Die Märzrevolution'], null],
     ],
     mittel: [
@@ -38,7 +38,7 @@ export const UEBERBLICK: Subtopic = {
       ['Wo wurden die Ideen der französischen Aufklärung verbreitet?', 'In den Salons', ['In den Kirchen', 'In den Kasernen', 'Auf den Märkten'], 'Sie wurden oft von Frauen geführt.'],
       ['Wann starben Voltaire und Rousseau?', 'Beide 1778', ['Beide 1789', 'Voltaire 1750, Rousseau 1800', 'Beide 1715'], null],
       ['Wo liegen Voltaire und Rousseau begraben?', 'Im Panthéon', ['In Versailles', 'In Notre-Dame', 'Auf dem Père Lachaise'], null],
-      ['Was wurde Französisch im 17. Jahrhundert?', 'Die Sprache der Höfe und Gebildeten', ['Eine Kirchensprache', 'Eine Handelssprache allein', 'Eine Geheimsprache'], null],
+      ['Was wurde Französisch im 17. Jahrhundert?', 'Die Sprache der Höfe und Gebildeten', ['Eine Kirchensprache', 'Eine Handelssprache', 'Eine Geheimsprache'], null],
       ['Was erwartete Ludwig XIV. von der Kunst?', 'Dass sie seinen Glanz vermehrt', ['Dass sie ihn kritisiert', 'Dass sie die Kirche lobt', 'Dass sie das Volk belehrt'], null],
     ],
     schwer: [

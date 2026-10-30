@@ -39,7 +39,7 @@ export const MANN: Subtopic = {
       ['Welchen Roman schrieb Heinrich Mann über den Obrigkeitsgeist?', 'Der Untertan', ['Professor Unrat', 'Die kleine Stadt', 'Der Kopf'], null],
       ['Wann erschien „Doktor Faustus“?', '1947', ['1927', '1957', '1933'], null],
       ['Was ist Adrian Leverkühn in Thomas Manns „Doktor Faustus“ von Beruf?', 'Komponist', ['Maler', 'Arzt', 'Kaufmann'], 'Er schließt einen Pakt mit dem Teufel.'],
-      ['Wie hießen Thomas Manns schreibende Kinder?', 'Erika, Klaus und Golo', ['Heinrich und Viktor', 'Anna und Peter', 'Michael und Monika allein'], null],
+      ['Wie hießen Thomas Manns schreibende Kinder?', 'Erika, Klaus und Golo', ['Heinrich und Viktor', 'Anna und Peter', 'Michael und Monika'], null],
     ],
     schwer: [
       ['Was zeigt der Verfall der Familie in den „Buddenbrooks“?', 'Je künstlerischer die Söhne, desto untüchtiger im Geschäft', ['Die Familie wird durch Krieg zerstört', 'Ein Betrug ruiniert sie', 'Eine Seuche rafft sie hin'], null],

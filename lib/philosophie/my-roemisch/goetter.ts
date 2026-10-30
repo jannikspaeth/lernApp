@@ -46,7 +46,7 @@ export const GOETTER: Subtopic = {
       ['Wie hießen die namenlosen göttlichen Mächte der frühen Römer?', 'Numina', ['Manen', 'Laren', 'Genien'], 'In Feld, Haus und Grenze.'],
       ['Wie lange mussten Vestalinnen jungfräulich leben?', '30 Jahre', ['5 Jahre', '10 Jahre', 'Ihr ganzes Leben'], 'Danach durften sie heiraten.'],
       ['Was geschah mit einer Vestalin, die ihr Gelübde brach?', 'Sie wurde lebendig begraben', ['Sie wurde verbannt', 'Sie musste das Feuer neu entzünden', 'Sie wurde zur Sklavin'], 'Ihr Blut durfte nicht vergossen werden.'],
-      ['Was deuteten die Haruspices?', 'Die Eingeweide von Opfertieren', ['Den Vogelflug', 'Die Sterne', 'Blitze allein'], 'Nach etruskischem Vorbild.'],
+      ['Was deuteten die Haruspices?', 'Die Eingeweide von Opfertieren', ['Den Vogelflug', 'Die Sterne', 'Blitze'], 'Nach etruskischem Vorbild.'],
       ['Wie hieß der Hausaltar?', 'Lararium', ['Atrium', 'Tablinum', 'Forum'], 'Für die Laren.'],
       ['Welche Göttin holten die Römer 204 v. Chr. nach Rom?', 'Kybele (Magna Mater)', ['Isis', 'Astarte', 'Artemis'], 'Im Krieg gegen Hannibal.'],
       ['Was bedeutet „Divus“ für einen verstorbenen Kaiser?', 'Er wurde zum Gott erklärt', ['Er wurde verflucht', 'Er wurde heiliggesprochen', 'Er wurde verbannt'], 'Seit Augustus.'],

@@ -44,8 +44,8 @@ export const UEBERBLICK: Subtopic = {
     ],
     schwer: [
       ['Wann gab Kant seine berühmte Definition der Aufklärung?', '1784', ['1751', '1776', '1789'], 'In der „Berlinischen Monatsschrift“.'],
-      ['Welche Salonnièren prägten die Pariser Aufklärung?', 'Madame Geoffrin, du Deffand und Julie de Lespinasse', ['Marie Antoinette und Madame Pompadour allein', 'Jeanne d’Arc und Katharina von Medici', 'George Sand und Colette'], 'Gastgeberinnen der philosophes.'],
-      ['Wie nannte man die französischen Aufklärer?', '„Philosophes“', ['„Encyclopédistes“ allein', '„Jacobins“', '„Huguenots“'], 'Montesquieu, Voltaire, Rousseau, Diderot.'],
+      ['Welche Salonnièren prägten die Pariser Aufklärung?', 'Madame Geoffrin, du Deffand und Julie de Lespinasse', ['Marie Antoinette und Madame Pompadour', 'Jeanne d’Arc und Katharina von Medici', 'George Sand und Colette'], 'Gastgeberinnen der philosophes.'],
+      ['Wie nannte man die französischen Aufklärer?', '„Philosophes“', ['„Encyclopédistes“', '„Jacobins“', '„Huguenots“'], 'Montesquieu, Voltaire, Rousseau, Diderot.'],
       ['Wer war ein früher deutscher Aufklärungsphilosoph vor Kant?', 'Christian Wolff', ['Hegel', 'Fichte', 'Schelling'], 'Er prägte viele deutsche Fachbegriffe.'],
       ['Wer kritisierte die Aufklärung schon im 18. Jahrhundert?', 'Johann Georg Hamann', ['Moses Mendelssohn', 'Voltaire', 'Diderot'], 'Der „Magus des Nordens“.'],
       ['In welchem Jahr wurde die Verfassung der USA verabschiedet?', '1787', ['1776', '1789', '1803'], 'Mit Gewaltenteilung.'],

@@ -27,7 +27,7 @@ export const GERSHWIN: Subtopic = {
       ['In welcher Stadt wurde Gershwin geboren?', 'In New York', ['In Paris', 'In Chicago', 'In Moskau'], 'Im Stadtteil Brooklyn.'],
       ['Wie alt wurde Gershwin?', '38', ['28', '58', '78'], 'Er starb 1937.'],
       ['Woran starb Gershwin?', 'An einem Hirntumor', ['An Tuberkulose', 'Bei einem Unfall', 'An einem Herzinfarkt'], 'Er wurde nach einem Zusammenbruch operiert.'],
-      ['Mit wem waren alle Rollen in „Porgy and Bess“ besetzt?', 'Mit schwarzen Sängern', ['Mit Kindern', 'Mit Opernstars aus Europa', 'Mit Puppen'], 'Gershwin bestand darauf.'],
+      ['Mit wem waren alle Rollen in Gershwins „Porgy and Bess“ besetzt?', 'Mit schwarzen Sängern', ['Mit Kindern', 'Mit Opernstars aus Europa', 'Mit Laiendarstellern'], 'Gershwin bestand darauf.'],
     ],
     mittel: [
       ['Wie hieß Gershwin eigentlich?', 'Jacob Gershowitz', ['George Gerber', 'Jacob Gershon', 'Georg Gerschwind'], 'Seine Eltern waren Einwanderer.'],

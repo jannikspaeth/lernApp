@@ -33,7 +33,7 @@ export const FRUEHE_KIRCHE: Subtopic = {
       ['Aus welcher Stadt stammte Paulus?', 'Aus Tarsus', ['Aus Jerusalem', 'Aus Damaskus', 'Aus Antiochia'], 'In Kleinasien; er war römischer Bürger.'],
       ['Wie viele große Missionsreisen unternahm Paulus?', 'Drei', ['Eine', 'Sieben', 'Zwölf'], 'Durch Kleinasien und Griechenland.'],
       ['Was sind die ältesten Schriften des Neuen Testaments?', 'Die Briefe des Paulus', ['Die Evangelien', 'Die Offenbarung', 'Die Apostelgeschichte'], 'Um 50 bis 60 n. Chr.'],
-      ['Wodurch wird der Mensch laut Paulus gerecht?', 'Allein durch den Glauben und die Gnade', ['Durch das Befolgen des Gesetzes', 'Durch Opfer im Tempel', 'Durch gute Werke allein'], 'Ein Gedanke, an den Luther später anknüpfte.'],
+      ['Wodurch wird der Mensch laut Paulus gerecht?', 'Allein durch den Glauben und die Gnade', ['Durch das Befolgen des Gesetzes', 'Durch Opfer im Tempel', 'Durch gute Werke'], 'Ein Gedanke, an den Luther später anknüpfte.'],
       ['Was ist nach Paulus die größte von Glaube, Hoffnung und Liebe?', 'Die Liebe', ['Der Glaube', 'Die Hoffnung', 'Alle drei gleich'], 'Aus dem „Hohelied der Liebe“ im ersten Korintherbrief.'],
       ['Was beschloss das Apostelkonzil um 48?', 'Nichtjuden müssen sich nicht beschneiden lassen', ['Petrus wird Papst', 'Der Sonntag wird Feiertag', 'Die Bibel wird festgelegt'], 'So löste sich das Christentum vom Judentum.'],
       ['Warum galten Christen im Römischen Reich als verdächtig?', 'Sie verweigerten die Verehrung des Kaisers als Gott', ['Sie zahlten keine Steuern', 'Sie dienten nicht im Heer', 'Sie sprachen kein Latein'], 'Das galt als Staatsverrat.'],

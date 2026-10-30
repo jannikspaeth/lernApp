@@ -25,7 +25,7 @@ export const UEBERBLICK: Subtopic = {
       ['Welches Wort prägte Comte?', 'Soziologie', ['Psychologie', 'Ökonomie', 'Biologie'], 'Für die Wissenschaft von der Gesellschaft.'],
       ['Was ist nach dem Pragmatismus wahr?', 'Was sich in der Praxis bewährt', ['Was in der Bibel steht', 'Was die Mehrheit glaubt', 'Was Platon lehrte'], 'Wahrheit als Werkzeug.'],
       ['Wer entdeckte um 1900 das Unbewusste?', 'Sigmund Freud', ['Nietzsche', 'Darwin', 'Comte'], 'Der Mensch ist nicht Herr im eigenen Haus.'],
-      ['Welches Glück ist Maßstab des Utilitarismus?', 'Das Glück möglichst vieler Menschen', ['Das Glück des Königs', 'Das eigene Glück allein', 'Das Glück im Jenseits'], 'Bentham und Mill.'],
+      ['Welches Glück ist Maßstab des Utilitarismus?', 'Das Glück möglichst vieler Menschen', ['Das Glück des Königs', 'Das eigene Glück', 'Das Glück im Jenseits'], 'Bentham und Mill.'],
       ['Wer ist auf diesem Bild zu sehen?', 'Auguste Comte', ['Karl Marx', 'John Stuart Mill', 'Hegel'], 'Der Begründer des Positivismus.', 'comte'],
     ],
     mittel: [
@@ -50,7 +50,7 @@ export const UEBERBLICK: Subtopic = {
       ['Wie verstand Dewey die Demokratie?', 'Als Lebensform', ['Als bloße Wahlmethode', 'Als Herrschaft der Experten', 'Als Übergang zur Monarchie'], 'Nicht nur als Staatsform.'],
       ['Was zeigte Feuerbach mit dem umgedrehten Bibelsatz?', 'Der Mensch schuf Gott nach seinem Bild', ['Gott schuf den Menschen aus Lehm', 'Gott ist ein Tier', 'Der Mensch ist Gott'], 'Religion als Projektion.'],
       ['Welche verborgenen Kräfte deckten die „Meister des Verdachts“ auf?', 'Wirtschaftliche Interessen, Willen zur Macht, unbewusste Triebe', ['Engel, Dämonen, Götter', 'Atome, Gene, Zellen', 'Licht, Schall, Wärme'], 'Je einer pro Denker.'],
-      ['Wer übertrug den Positivismus auf Ethik und Logik in England?', 'John Stuart Mill', ['Thomas Carlyle', 'Charles Dickens', 'Herbert Spencer allein'], 'Mill schätzte Comte zeitweise.'],
+      ['Wer übertrug den Positivismus auf Ethik und Logik in England?', 'John Stuart Mill', ['Thomas Carlyle', 'Charles Dickens', 'Herbert Spencer'], 'Mill schätzte Comte zeitweise.'],
       ['Wovon stammt der Mensch nach Darwin ab?', 'Von affenähnlichen Vorfahren', ['Direkt von Adam', 'Von Fischen ohne Zwischenstufen', 'Von Göttern'], 'In „Die Abstammung des Menschen“ (1871).'],
       ['Wie nennt man den Zustand, in dem alle Werte ihren Halt verlieren?', 'Nihilismus', ['Idealismus', 'Positivismus', 'Pragmatismus'], 'Von lateinisch nihil, nichts.'],
     ],

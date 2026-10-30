@@ -42,7 +42,7 @@ export const HOEFISCHE_DICHTUNG: Subtopic = {
       ['Wie viele Dichter versammelt der Codex Manesse?', 'Rund 140', ['Rund 14', 'Rund 400', 'Rund 1.400'], 'Dazu kommen 137 ganzseitige Bilder.'],
     ],
     schwer: [
-      ['Welche Herrscherfamilie prägte die Zeit der höfischen Dichtung?', 'Die Staufer', ['Die Habsburger', 'Die Welfen allein', 'Die Salier'], null],
+      ['Welche Herrscherfamilie prägte die Zeit der höfischen Dichtung?', 'Die Staufer', ['Die Habsburger', 'Die Welfen', 'Die Salier'], null],
       ['Woher stammen die Stoffe um König Artus?', 'Aus Frankreich', ['Aus Italien', 'Aus Skandinavien', 'Aus Byzanz'], 'Chrétien de Troyes war Wolframs und Hartmanns Vorbild.'],
       ['Was unterscheidet Walthers Spruchdichtung vom Minnesang?', 'Sie äußert sich zu Politik und Zeitfragen', ['Sie ist auf Latein', 'Sie ist für die Kirche', 'Sie ist ungereimt'], null],
       ['Was erhielt Walther von der Vogelweide spät von Kaiser Friedrich II.?', 'Ein Lehen', ['Ein Kloster', 'Ein Adelstitel', 'Eine Stadt'], 'Bis dahin lebte er als fahrender Sänger.'],

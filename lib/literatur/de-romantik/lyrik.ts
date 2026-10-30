@@ -50,7 +50,7 @@ export const LYRIK: Subtopic = {
       ['Wie verhält sich Heine zur Romantik?', 'Er nimmt ihre Töne auf und bricht sie ironisch', ['Er lehnt sie ganz ab', 'Er folgt ihr ohne Abstand', 'Er kannte sie nicht'], null],
       ['Welche Wirkung hatte die Vertonung romantischer Gedichte?', 'Manche gelten heute als Volkslieder', ['Sie gerieten in Vergessenheit', 'Sie wurden verboten', 'Sie blieben ungesungen'], null],
       ['Welches Motiv steht in der Romantik für Aufbruch?', 'Das Wandern', ['Das Pflügen', 'Das Handeln', 'Das Bauen'], null],
-      ['Welcher Gedanke steht in der „Wünschelrute“?', 'In allen Dingen schläft ein Lied', ['Jeder Mensch ist allein', 'Die Natur ist stumm', 'Das Wort ist Macht'], null],
+      ['Welcher Gedanke steht in der „Wünschelrute“?', 'In allen Dingen schläft ein Lied', ['Jeder Mensch ist', 'Die Natur ist stumm', 'Das Wort ist Macht'], null],
       ['Woran arbeitete Novalis beruflich?', 'An der Salinenverwaltung und im Bergbau', ['An einer Zeitung', 'An einem Theater', 'An einer Schule'], null],
     ],
   },

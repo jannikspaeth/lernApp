@@ -29,7 +29,7 @@ export const UEBERBLICK: Subtopic = {
       ['Wer ist auf diesem Bild zu sehen?', 'Giovanni Pico della Mirandola', ['Marsilio Ficino', 'Lorenzo de’ Medici', 'Leonardo da Vinci'], 'Das Wunderkind der Florentiner Akademie.', 'pico'],
     ],
     mittel: [
-      ['Was umfassten die „studia humanitatis“?', 'Grammatik, Rhetorik, Dichtung, Geschichte, Moralphilosophie', ['Medizin, Recht, Theologie', 'Mathematik und Astronomie allein', 'Kriegskunst und Reiten'], 'Die Fächer, die den Menschen bilden.'],
+      ['Was umfassten die „studia humanitatis“?', 'Grammatik, Rhetorik, Dichtung, Geschichte, Moralphilosophie', ['Medizin, Recht, Theologie', 'Mathematik und Astronomie', 'Kriegskunst und Reiten'], 'Die Fächer, die den Menschen bilden.'],
       ['Welchen antiken Stil ahmten die Humanisten im Latein nach?', 'Den Ciceros', ['Den der Bibel', 'Den der Scholastiker', 'Den Homers'], 'Sie verachteten das Latein der Scholastik.'],
       ['Wie viele Thesen wollte Pico in Rom diskutieren?', '900', ['95', '13', '1.000.000'], 'Der Papst verbot die Disputation.'],
       ['Was sagt Gott in Picos Rede zu Adam?', 'Er solle sich selbst gestalten, wie er will', ['Er solle die Erde verlassen', 'Er sei ein Tier', 'Er dürfe nicht denken'], 'Der Mensch ist sein eigener Bildhauer.'],
@@ -48,7 +48,7 @@ export const UEBERBLICK: Subtopic = {
       ['Wann lebte Pico della Mirandola?', '1463–1494', ['1304–1374', '1401–1464', '1533–1592'], 'Er starb mit 31 Jahren.'],
       ['Wann entstand die gefälschte Konstantinische Schenkung tatsächlich?', 'Im 8. Jahrhundert', ['Im 4. Jahrhundert', 'Im 12. Jahrhundert', 'Im 15. Jahrhundert'], 'Nicht unter Kaiser Konstantin.'],
       ['Wo stand Ficinos Villa?', 'In Careggi bei Florenz', ['In Rom', 'In Venedig', 'In Mailand'], 'Ein Geschenk Cosimo de’ Medicis.'],
-      ['Wen übersetzte Ficino außer Platon?', 'Plotin', ['Aristoteles allein', 'Luther', 'Homer'], 'Auch hermetische Schriften.'],
+      ['Wen übersetzte Ficino außer Platon?', 'Plotin', ['Aristoteles', 'Luther', 'Homer'], 'Auch hermetische Schriften.'],
       ['Wozu kann der Mensch nach Pico werden?', 'Zum Tier herabsinken oder zum Göttlichen aufsteigen', ['Nur zum Engel', 'Nur zum Stein', 'Zu gar nichts'], 'Er hat keine festgelegte Natur.'],
       ['Was zeigten die Entdeckungsfahrten den Europäern?', 'Eine Welt, die in den alten Büchern nicht vorkam', ['Dass die Erde flach ist', 'Dass Aristoteles alles wusste', 'Dass es keine anderen Völker gibt'], 'Die Autorität der Alten wankte.'],
       ['Welche Gelehrten brachten 1453 Handschriften nach Italien?', 'Byzantinische Gelehrte', ['Arabische Ärzte', 'Spanische Mönche', 'Englische Juristen'], 'Damit konnte man Platon im Original lesen.'],

@@ -22,7 +22,7 @@ export const INDIGENE: Subtopic = {
       ['Wie heißt die Schöpfungszeit der australischen Aborigines?', 'Traumzeit', ['Urzeit', 'Goldene Zeit', 'Sternzeit'], 'Als die Ahnenwesen das Land formten.'],
       ['Welcher heilige Felsen in Australien zeigt das Bild?', 'Uluru', ['Der Grand Canyon', 'Der Tafelberg', 'Der Kilimandscharo'], 'Heilig für die Anangu; seit 2019 darf er nicht mehr bestiegen werden.', 'uluru'],
       ['Wen verehren viele Ureinwohner Nordamerikas?', 'Einen „Großen Geist“', ['Den Sonnengott Ra', 'Den Gott Odin', 'Die Göttin Kali'], 'Und Mutter Erde.'],
-      ['Wen verehren die Yoruba als Gottheiten?', 'Die Orishas', ['Die Kami', 'Die Devas', 'Die Lwa allein'], 'Über 400 Gottheiten.'],
+      ['Wen verehren die Yoruba als Gottheiten?', 'Die Orishas', ['Die Kami', 'Die Devas', 'Die Lwa'], 'Über 400 Gottheiten.'],
       ['Auf welcher Insel entstand der Vodou (Voodoo)?', 'Auf Haiti', ['Auf Kuba', 'Auf Jamaika', 'Auf Madagaskar'], 'Aus afrikanischen Religionen und Katholizismus.'],
       ['Woher stammt das Bild vom Voodoo als Zauberei mit Nadelpuppen?', 'Vor allem aus Hollywood-Filmen', ['Aus der Bibel', 'Aus afrikanischen Schriften', 'Aus haitianischen Gesetzen'], 'Tatsächlich geht es um Heilung und Gemeinschaft.'],
       ['Nach welchem germanischen Gott ist der Donnerstag benannt?', 'Nach Donar (Thor)', ['Nach Odin', 'Nach Freya', 'Nach Loki'], 'Der Freitag nach Frija.'],

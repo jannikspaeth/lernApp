@@ -47,7 +47,7 @@ export const DOSTOJEWSKI: Subtopic = {
       ['Wie schreibt Dostojewski?', 'Fiebrig, in langen Gesprächen und Geständnissen', ['Knapp und kühl', 'In Versen', 'In kurzen Szenen'], null],
       ['Was tut Dostojewski mit widersprüchlichen Weltanschauungen?', 'Er lässt sie aufeinanderprallen, ohne sie aufzulösen', ['Er entscheidet immer', 'Er vermeidet sie', 'Er erklärt sie am Schluss'], null],
       ['Warum schrieb Dostojewski oft unter Zeitdruck?', 'Um Spielschulden zu tilgen', ['Weil Verlage drängten', 'Weil er krank war', 'Weil er reisen wollte'], null],
-      ['Woran scheitert Fürst Myschkin?', 'An der Gesellschaft, weil er zu gut ist', ['An seiner Armut', 'An einer Krankheit allein', 'An einem Verbrechen'], null],
+      ['Woran scheitert Fürst Myschkin?', 'An der Gesellschaft, weil er zu gut ist', ['An seiner Armut', 'An einer Krankheit', 'An einem Verbrechen'], null],
       ['Welche Wirkung hatte die Scheinhinrichtung auf Dostojewski?', 'Sie prägte ihn für immer', ['Er vergaß sie bald', 'Er wurde danach Offizier', 'Sie machte ihn sofort berühmt'], null],
       ['Auf welche Denker wirkte Dostojewski?', 'Auf Nietzsche, Kafka und Camus', ['Auf Kant und Hegel', 'Auf Voltaire und Rousseau', 'Auf Descartes'], null],
       ['Wie viele Menschen folgten Dostojewskis Sarg?', 'Zehntausende', ['Nur die Familie', 'Hunderte', 'Niemand'], null],

@@ -43,15 +43,15 @@ export const DICKENS: Subtopic = {
     ],
     schwer: [
       ['Was prägte Dickens’ Werk aus seiner Kindheit?', 'Die Demütigung der Fabrikarbeit und die Angst vor dem Absturz', ['Die Freude am Landleben', 'Eine behütete Schulzeit', 'Eine Seereise'], 'Er sprach jahrzehntelang mit niemandem darüber.'],
-      ['Welche Missstände griff Dickens an?', 'Armenhäuser, Schuldgefängnisse und herzlose Schulen', ['Die Monarchie', 'Die Kirche allein', 'Die Landwirtschaft'], null],
+      ['Welche Missstände griff Dickens an?', 'Armenhäuser, Schuldgefängnisse und herzlose Schulen', ['Die Monarchie', 'Die Kirche', 'Die Landwirtschaft'], null],
       ['Was kritisiert „Bleak House“ besonders?', 'Eine Justiz, die Prozesse endlos verschleppt', ['Die Eisenbahn', 'Die Kolonien', 'Die Armee'], null],
-      ['Woran erkennt man Dickens’ Nebenfiguren?', 'An einer Redewendung oder Angewohnheit', ['An ihrer Kleidung allein', 'An ihrem Beruf', 'Sie bleiben namenlos'], null],
+      ['Woran erkennt man Dickens’ Nebenfiguren?', 'An einer Redewendung oder Angewohnheit', ['An ihrer Kleidung', 'An ihrem Beruf', 'Sie bleiben namenlos'], null],
       ['Wie enden Dickens’ Romane meist?', 'Versöhnlich', ['Tragisch', 'Offen', 'Ohne Schluss'], null],
       ['Welche Wirkung hatte „Ein Weihnachtslied“?', 'Es prägte das moderne Weihnachtsfest', ['Es wurde verboten', 'Es blieb unbeachtet', 'Es löste einen Streit mit der Kirche aus'], null],
       ['Was war neu an Dickens’ Stellung als Autor?', 'Er hatte als Erster ein Massenpublikum', ['Er schrieb für den Hof', 'Er wurde vom Staat bezahlt', 'Er veröffentlichte anonym'], null],
       ['Was erfährt Pip in „Große Erwartungen“ über seinen Reichtum?', 'Woher das Geld wirklich stammt', ['Dass es geraubt war und er es zurückgeben muss', 'Dass es nie existierte', 'Dass er es geerbt hat'], null],
       ['Welchen Einfluss hatte die Veröffentlichung in Folgen auf die Handlung?', 'Sie verlangte regelmäßige Höhepunkte', ['Sie machte die Bücher kürzer', 'Sie verhinderte Nebenfiguren', 'Sie zwang zu Versen'], null],
-      ['Wie klingen die Namen bei Dickens oft?', 'Nach dem Wesen der Figur', ['Nach Orten', 'Nach Berufen allein', 'Zufällig'], null],
+      ['Wie klingen die Namen bei Dickens oft?', 'Nach dem Wesen der Figur', ['Nach Orten', 'Nach Berufen', 'Zufällig'], null],
     ],
   },
 };

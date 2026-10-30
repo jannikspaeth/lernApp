@@ -31,7 +31,7 @@ export const OZEANIEN: Subtopic = {
     mittel: [
       ['Welche drei Punkte bilden das polynesische Dreieck?', 'Hawaii, Neuseeland und die Osterinsel', ['Fidschi, Samoa und Tonga', 'Tahiti, Australien und Japan', 'Hawaii, Japan und Chile'], 'Ein riesiges Gebiet im Pazifik.'],
       ['Wer trennte Rangi und Papa?', 'Tāne, der Gott der Wälder', ['Tangaroa', 'Maui', 'Tāwhirimātea'], 'Er stemmte sie mit seinen Beinen auseinander.'],
-      ['Was sind die Tränen Rangis?', 'Der Regen', ['Das Meer', 'Die Sterne', 'Der Tau allein'], 'Papas Seufzer steigen als Nebel auf.'],
+      ['Was sind die Tränen Rangis?', 'Der Regen', ['Das Meer', 'Die Sterne', 'Der Tau'], 'Papas Seufzer steigen als Nebel auf.'],
       ['Welcher Gott führt mit Stürmen Krieg gegen seine Brüder?', 'Tāwhirimātea, der Gott der Winde', ['Tangaroa', 'Tū', 'Tāne'], 'Er war gegen die Trennung der Eltern.'],
       ['Wie heißt die Nordinsel Neuseelands in der Māori-Überlieferung?', 'Te Ika-a-Māui, der Fisch des Maui', ['Aotearoa', 'Te Waka-a-Māui', 'Rapa Nui'], 'Maui fischte sie aus dem Meer.'],
       ['Von wem stahl Maui das Feuer?', 'Von der Feuergöttin Mahuika', ['Von Pele', 'Von der Sonne', 'Von Tangaroa'], 'Sie trug es in ihren Fingernägeln.'],

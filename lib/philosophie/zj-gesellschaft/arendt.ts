@@ -26,7 +26,7 @@ export const ARENDT: Subtopic = {
       ['Was entstand nach Arendt aus Gedankenlosigkeit?', 'Das Böse', ['Die Kunst', 'Die Liebe', 'Die Wissenschaft'], 'Nicht aus Bosheit.'],
       ['Wie lange war Arendt staatenlos?', '14 Jahre', ['Ein Jahr', 'Ihr ganzes Leben', 'Nie'], 'Von 1937 bis 1951.'],
       ['Wie nennt Arendt die Fähigkeit des Menschen, Neues zu beginnen?', '„Natalität“', ['„Mortalität“', '„Kreativität“', '„Produktivität“'], 'Jeder Mensch ist durch Geburt ein Anfang.'],
-      ['Was ist der Sinn von Politik nach Arendt?', 'Die Freiheit', ['Der Reichtum', 'Die Macht eines Einzelnen', 'Die Ordnung allein'], 'Gemeinsames Handeln freier Menschen.'],
+      ['Was ist der Sinn von Politik nach Arendt?', 'Die Freiheit', ['Der Reichtum', 'Die Macht eines Einzelnen', 'Die Ordnung'], 'Gemeinsames Handeln freier Menschen.'],
     ],
     mittel: [
       ['Wie beschrieb Arendt Eichmann?', 'Als erschreckend normalen, ehrgeizigen Bürokraten', ['Als dämonisches Monster', 'Als Genie des Bösen', 'Als Wahnsinnigen'], 'Er redete in Klischees.'],

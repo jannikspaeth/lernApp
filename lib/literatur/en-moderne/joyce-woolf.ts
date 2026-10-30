@@ -17,7 +17,7 @@ export const JOYCE_WOOLF: Subtopic = {
       ['Wer schrieb „Ulysses“?', 'James Joyce', ['Virginia Woolf', 'T. S. Eliot', 'Samuel Beckett'], null, 'joyce'],
       ['In welcher Stadt spielt „Ulysses“?', 'In Dublin', ['In London', 'In Paris', 'In Zürich'], null],
       ['Wie lange dauert die Handlung von „Ulysses“?', 'Einen einzigen Tag', ['Ein Jahr', 'Zehn Jahre', 'Eine Woche'], null],
-      ['Wie heißt die Hauptfigur in „Ulysses“?', 'Leopold Bloom', ['Stephen Dedalus allein', 'Clarissa Dalloway', 'Finnegan'], null],
+      ['Wie heißt die Hauptfigur in „Ulysses“?', 'Leopold Bloom', ['Stephen Dedalus', 'Clarissa Dalloway', 'Finnegan'], null],
       ['Wie heißt der Feiertag für „Ulysses“?', 'Bloomsday', ['Joyce Day', 'Dublin Day', 'Ulysses Day'], 'Er wird am 16. Juni gefeiert.'],
       ['Welches antike Werk steht hinter „Ulysses“?', 'Homers Odyssee', ['Die Ilias', 'Die Aeneis', 'Die Metamorphosen'], null],
       ['Wer ist auf diesem Porträt zu sehen?', 'Virginia Woolf', ['Katherine Mansfield', 'Vita Sackville-West', 'Doris Lessing'], null, 'woolf'],

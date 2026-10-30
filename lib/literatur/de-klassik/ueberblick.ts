@@ -22,7 +22,7 @@ export const UEBERBLICK: Subtopic = {
       ['Welche Epoche war das große Vorbild der Klassik?', 'Die Antike', ['Das Mittelalter', 'Der Barock', 'Die Gotik'], null],
       ['Welcher Dichter ist hier zu sehen?', 'Friedrich Schiller', ['Johann Gottfried Herder', 'Christoph Martin Wieland', 'Johann Wolfgang von Goethe'], null, 'schiller'],
       ['Wer holte Goethe 1775 nach Weimar?', 'Herzog Carl August', ['Friedrich der Große', 'Kaiser Joseph II.', 'Herzog Karl Eugen'], null],
-      ['Welche Revolution prägte das Denken der Klassiker?', 'Die Französische Revolution', ['Die Industrielle Revolution', 'Die Amerikanische Revolution allein', 'Die Märzrevolution'], 'Sie begann 1789.'],
+      ['Welche Revolution prägte das Denken der Klassiker?', 'Die Französische Revolution', ['Die Industrielle Revolution', 'Die Amerikanische Revolution', 'Die Märzrevolution'], 'Sie begann 1789.'],
       ['Wie nennt man das Jahr 1797 in der Weimarer Klassik?', 'Das Balladenjahr', ['Das Revolutionsjahr', 'Das Reisejahr', 'Das Briefjahr'], null],
       ['Wer ist auf diesem Porträt zu sehen?', 'Johann Wolfgang von Goethe', ['Friedrich Schiller', 'Johann Gottfried Herder', 'Christoph Martin Wieland'], null, 'goethe'],
       ['Was steht seit 1857 vor dem Weimarer Theater?', 'Das Goethe-Schiller-Denkmal', ['Ein Brunnen', 'Ein Obelisk', 'Eine Statue des Herzogs'], null],

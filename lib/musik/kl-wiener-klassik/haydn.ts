@@ -26,7 +26,7 @@ export const HAYDN: Subtopic = {
       ['Welches Oratorium über die Erschaffung der Welt schrieb Haydn?', '„Die Schöpfung“', ['„Der Messias“', '„Elias“', '„Paulus“'], 'Uraufgeführt 1798 in Wien; berühmt ist der Moment „Und es ward Licht“.'],
       ['Welche Hymne geht auf eine Melodie Haydns zurück?', 'Die deutsche Nationalhymne', ['Die Europahymne', 'Die französische Nationalhymne', 'Die britische Nationalhymne'], 'Mit dem Text „Einigkeit und Recht und Freiheit“ (dritte Strophe).'],
       ['In welche Stadt reiste Haydn zweimal und wurde gefeiert?', 'Nach London', ['Nach Paris', 'Nach Rom', 'Nach St. Petersburg'], 'In London verdiente er in kurzer Zeit mehr als in Jahren bei den Esterházy.'],
-      ['Welcher jüngere Komponist war Haydns Freund?', 'Mozart', ['Bach', 'Händel', 'Wagner'], 'Mozart nannte ihn „Papa“ und widmete ihm sechs Quartette.'],
+      ['Welcher jüngere Komponist war Haydns Freund?', 'Mozart', ['Bach', 'Händel', 'Gluck'], 'Mozart nannte ihn „Papa“ und widmete ihm sechs Quartette.'],
       ['Was tun die Musiker am Ende der „Abschiedssinfonie“?', 'Sie verlassen nacheinander das Podium', ['Sie singen ein Lied', 'Sie werfen Blumen', 'Sie spielen immer lauter'], 'Am Ende spielen nur noch zwei Geiger.'],
     ],
     mittel: [

@@ -45,7 +45,7 @@ export const UEBERBLICK: Subtopic = {
       ['Was wollte das Bauhaus verbinden?', 'Kunst, Handwerk und Industrie', ['Politik und Religion', 'Malerei und Musik', 'Theater und Tanz'], 'Das Bauhaus verband Kunst, Handwerk und Industrie.'],
       ['Welches Material erlaubte weite Spannweiten?', 'Stahlbeton', ['Holz', 'Ziegel', 'Naturstein']],
       ['Wer prägte den Internationalen Stil?', 'Le Corbusier, Mies und Gropius', ['Gaudí und Horta', 'Bernini und Maderno', 'Semper und Schinkel']],
-      ['Wofür steht die postmoderne Architektur?', 'Zitate, Farben und Spiel', ['Strenge Reduktion', 'Funktion allein', 'Rohen Beton'], 'Postmoderne Bauten zitieren oft frühere Epochen.'],
+      ['Wofür steht die postmoderne Architektur?', 'Zitate, Farben und Spiel', ['Strenge Reduktion', 'Funktion', 'Rohen Beton'], 'Postmoderne Bauten zitieren oft frühere Epochen.'],
       ['Wofür steht der Dekonstruktivismus in der Architektur?', 'Zersplitterte Formen', ['Strenge Ordnung', 'Symmetrie', 'Ornament'], 'Der Dekonstruktivismus arbeitet mit schiefen, zersplitterten Formen.'],
       ['Was ist heute ein zentrales Thema der Architektur?', 'Nachhaltigkeit', ['Reiches Ornament', 'Strenge Symmetrie', 'Neugotik']],
       ['Woraus wurde der Londoner Kristallpalast gebaut?', 'Eisen und Glas', ['Stein und Holz', 'Beton und Stahl', 'Marmor und Gold']],

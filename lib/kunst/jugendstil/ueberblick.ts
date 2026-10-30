@@ -50,7 +50,7 @@ export const UEBERBLICK: Subtopic = {
       ['Wohin leitete der Symbolismus in der Malerei über?', 'Zum Expressionismus', ['Zum Barock', 'Zum Klassizismus', 'Zum Realismus'], 'Der Symbolismus bereitete den Expressionismus vor.'],
       ['Was zeigt der Symbolismus statt der sichtbaren Welt?', 'Rätselhafte Bilder voller Sinnbilder', ['Genaue Porträts', 'Stillleben', 'Schlachten']],
       ['Wer baute in Barcelona Häuser mit bunten Mosaiken?', 'Gaudí', ['Olbrich', 'Wagner', 'Guimard'], 'Gaudí schmückte Fassaden und Dächer mit bunten Keramikscherben (Trencadís).'],
-      ['Wie heißt die Wiener Künstlervereinigung um Klimt?', 'Wiener Secession', ['Wiener Werkstätte allein', 'Wiener Barock', 'Wiener Klassik'], '„Secession“ bedeutet Abspaltung.'],
+      ['Wie heißt die Wiener Künstlervereinigung um Klimt?', 'Wiener Secession', ['Wiener Werkstätte', 'Wiener Barock', 'Wiener Klassik'], '„Secession“ bedeutet Abspaltung.'],
     ],
   },
 };

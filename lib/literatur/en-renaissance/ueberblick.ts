@@ -39,7 +39,7 @@ export const UEBERBLICK: Subtopic = {
       ['Woher kam das Sonett nach England?', 'Aus Italien', ['Aus Frankreich', 'Aus Spanien', 'Aus Deutschland'], null],
       ['Wer schrieb das Epos „The Faerie Queene“?', 'Edmund Spenser', ['Philip Sidney', 'John Milton', 'Ben Jonson'], null],
       ['Wann öffneten die Londoner Theater nach der Schließung von 1642 wieder?', '1660', ['1642', '1623', '1700'], 'Mit der Rückkehr des Königs.'],
-      ['Wovon lebten die elisabethanischen Theater?', 'Von Eintrittsgeldern', ['Von Kirchensteuern', 'Vom König allein', 'Von Spenden der Zünfte'], null],
+      ['Wovon lebten die elisabethanischen Theater?', 'Von Eintrittsgeldern', ['Von Kirchensteuern', 'Vom König', 'Von Spenden der Zünfte'], null],
     ],
     schwer: [
       ['Was ersetzte im elisabethanischen Theater die fehlenden Kulissen?', 'Kostüme, Musik und Sprache', ['Gemalte Prospekte', 'Lichteffekte', 'Pantomime'], null],
@@ -48,7 +48,7 @@ export const UEBERBLICK: Subtopic = {
       ['Warum war der Theaterbetrieb im London um 1600 neu?', 'Feste Häuser spielten täglich und lebten vom Publikum', ['Es gab Hoftheater', 'Die Kirche spielte', 'Nur Wanderbühnen zogen umher'], null],
       ['Welchen Rang hat die King James Bible für das Englische?', 'Sie prägte die Sprache wie Luthers Bibel das Deutsche', ['Sie blieb unbekannt', 'Sie war nur für Gelehrte', 'Sie wurde verboten'], null],
       ['Was führte 1642 zur Schließung der Theater?', 'Der englische Bürgerkrieg und die Puritaner', ['Die Pest', 'Ein Brand', 'Ein Erlass des Papstes'], null],
-      ['Wer sorgte für die Überlieferung von Shakespeares Stücken?', 'Zwei Schauspielerkollegen mit der First Folio', ['Der König', 'Die Universität Oxford', 'Ben Jonson allein'], null],
+      ['Wer sorgte für die Überlieferung von Shakespeares Stücken?', 'Zwei Schauspielerkollegen mit der First Folio', ['Der König', 'Die Universität Oxford', 'Ben Jonson'], null],
       ['Wie war das Globe gebaut?', 'Rund, aus Holz und unter freiem Himmel', ['Als Steinbau mit Dach', 'Als Saal im Palast', 'Als Zelt'], null],
       ['Welcher Dichter schrieb einen berühmten Sonettzyklus vor Shakespeare?', 'Philip Sidney', ['John Donne', 'John Milton', 'Ben Jonson'], null],
       ['Was kennzeichnet die englische Renaissance politisch?', 'Lösung von Rom, Seemacht und Handel', ['Rückkehr zum Katholizismus', 'Bündnis mit Spanien', 'Rückzug aus Europa'], null],

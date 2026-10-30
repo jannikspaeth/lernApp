@@ -26,7 +26,7 @@ export const UEBERBLICK: Subtopic = {
       ['Auf welcher Insel wurde Zeus versteckt geboren?', 'Auf Kreta', ['Auf Sizilien', 'Auf Zypern', 'Auf Rhodos'], 'In einer Höhle.'],
       ['Was gab Rhea Kronos statt Zeus zu verschlingen?', 'Einen Stein in Windeln', ['Ein Lamm', 'Einen Laib Brot', 'Eine Puppe aus Holz'], 'Kronos merkte den Betrug nicht.'],
       ['Wer muss das Himmelsgewölbe tragen?', 'Atlas', ['Herakles', 'Prometheus', 'Kronos'], 'Zur Strafe nach dem Titanenkrieg.'],
-      ['Was erhielt Zeus bei der Aufteilung der Welt?', 'Den Himmel', ['Das Meer', 'Die Unterwelt', 'Die Erde allein'], 'Poseidon das Meer, Hades die Unterwelt.'],
+      ['Was erhielt Zeus bei der Aufteilung der Welt?', 'Den Himmel', ['Das Meer', 'Die Unterwelt', 'Die Erde'], 'Poseidon das Meer, Hades die Unterwelt.'],
     ],
     mittel: [
       ['Wie heißt Hesiods Werk über die Herkunft der Götter?', 'Theogonie', ['Odyssee', 'Metamorphosen', 'Aeneis'], '„Götterentstehung“.'],

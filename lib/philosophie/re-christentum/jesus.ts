@@ -48,7 +48,7 @@ export const JESUS: Subtopic = {
       ['Welchen Beruf hatte Josef?', 'Zimmermann oder Bauhandwerker', ['Fischer', 'Hirte', 'Zöllner'], 'Das griechische Wort „tekton“ meint beides.'],
       ['Welche Brüder waren Fischer und unter den ersten Jüngern?', 'Simon Petrus und Andreas', ['Jakobus und Judas', 'Thomas und Philippus', 'Matthäus und Markus'], 'Am See Genezareth berufen.'],
       ['Wie heißt der Hügel, auf dem Jesus gekreuzigt wurde?', 'Golgota', ['Zion', 'Ölberg', 'Tabor'], '„Schädelstätte“, damals vor der Stadt.'],
-      ['Wer fand nach den Evangelien das leere Grab?', 'Frauen, darunter Maria Magdalena', ['Petrus und Johannes allein', 'Pontius Pilatus', 'Römische Soldaten'], 'Am Sonntagmorgen.'],
+      ['Wer fand nach den Evangelien das leere Grab?', 'Frauen, darunter Maria Magdalena', ['Petrus und Johannes', 'Pontius Pilatus', 'Römische Soldaten'], 'Am Sonntagmorgen.'],
       ['Wie oft verleugnete Petrus Jesus?', 'Dreimal', ['Einmal', 'Zweimal', 'Siebenmal'], 'Bevor der Hahn krähte.'],
       ['Nach wie vielen Tagen fuhr Jesus in den Himmel auf?', 'Nach 40 Tagen', ['Nach 3 Tagen', 'Nach 7 Tagen', 'Nach 50 Tagen'], 'Christi Himmelfahrt.'],
       ['Wie heißt Jesus im Islam?', 'Isa', ['Musa', 'Yahya', 'Ibrahim'], 'Ein großer Prophet, aber nicht Gottes Sohn.'],

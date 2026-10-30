@@ -36,7 +36,7 @@ export const CERVANTES: Subtopic = {
       ['Wann erschien der erste Teil des „Don Quijote“?', '1605', ['1554', '1615', '1650'], null],
       ['Wie alt war Cervantes beim Erscheinen des ersten Teils des „Don Quijote“ etwa?', 'Fast 58', ['25', '40', '70'], null],
       ['Wann erschien der zweite Teil des „Don Quijote“?', '1615', ['1605', '1620', '1599'], null],
-      ['Was kennen die Figuren im zweiten Teil des „Don Quijote“?', 'Den ersten Teil des Buches', ['Das Theater Lopes', 'Die Bibel allein', 'Gar nichts'], null],
+      ['Was kennen die Figuren im zweiten Teil des „Don Quijote“?', 'Den ersten Teil des Buches', ['Das Theater Lopes', 'Die Bibel', 'Gar nichts'], null],
       ['Wie heißt Don Quijote eigentlich?', 'Alonso Quijano', ['Miguel Saavedra', 'Pedro Alonso', 'Juan Panza'], null],
       ['Wie heißt Cervantes’ Novellensammlung von 1613?', 'Exemplarische Novellen', ['Gedichte aus dem Kerker', 'Die Mancha-Geschichten', 'Lieder der Mauren'], null],
       ['Wo starb Cervantes?', 'In Madrid', ['In Algier', 'In Sevilla', 'In Lepanto'], null],

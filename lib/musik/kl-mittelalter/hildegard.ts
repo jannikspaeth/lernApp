@@ -24,7 +24,7 @@ export const HILDEGARD: Subtopic = {
       ['Wer ist hier dargestellt?', 'Hildegard von Bingen', ['Jutta von Sponheim', 'Elisabeth von Thüringen', 'Heilige Ursula'], 'Die Miniatur zeigt sie beim Empfang einer Vision.', 'hildegard'],
       ['Für wen schrieb Hildegard ihre Musik?', 'Für die Nonnen ihres Klosters', ['Für den Kaiserhof', 'Für ein Opernhaus', 'Für Straßenmusikanten'], 'Die Gesänge erklangen im Stundengebet, das mehrmals täglich gesungen wurde.'],
       ['Was hörst du hier?', 'Einen einstimmigen Gesang Hildegards', ['Eine Bach-Fuge', 'Ein Madrigal', 'Eine Mozart-Arie'], 'Die Antiphon „O frondens virga“.', 'h-o-frondens'],
-      ['Welche Themen behandelte Hildegard außer Religion und Musik?', 'Natur und Heilkunde', ['Seefahrt', 'Kriegskunst', 'Astronomie der Neuzeit'], 'Viele ihrer Heilkräuter-Tipps werden noch heute als „Hildegard-Medizin“ vermarktet.'],
+      ['Welche Themen behandelte Hildegard außer Religion und Musik?', 'Natur und Heilkunde', ['Seefahrt', 'Kriegskunst', 'Baukunst'], 'Viele ihrer Heilkräuter-Tipps werden noch heute als „Hildegard-Medizin“ vermarktet.'],
       ['Wie alt wurde Hildegard ungefähr?', '81 Jahre', ['41 Jahre', '61 Jahre', '101 Jahre'], 'Das war für das Mittelalter ein außergewöhnlich hohes Alter.'],
       ['Welchen Titel erhielt Hildegard 2012?', 'Kirchenlehrerin', ['Kardinälin', 'Kaiserin', 'Patriarchin'], 'Zugleich wurde sie offiziell heiliggesprochen.'],
       ['Wo gründete Hildegard um 1150 ihr eigenes Kloster?', 'Auf dem Rupertsberg bei Bingen', ['In Köln', 'In Rom', 'Auf der Reichenau'], 'Das Kloster wurde im Dreißigjährigen Krieg 1632 zerstört.'],

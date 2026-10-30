@@ -37,7 +37,7 @@ export const MILL: Subtopic = {
       ['Was ist das „Auto-Icon“?', 'Benthams präparierter Leichnam im University College London', ['Ein Auto', 'Ein Gemälde', 'Ein Denkmal in Westminster'], 'Mit Wachskopf in einem Glasschrank.'],
       ['Wen liebte und heiratete Mill?', 'Harriet Taylor', ['Mary Wollstonecraft', 'Jane Austen', 'Florence Nightingale'], 'Erst 1851 nach dem Tod ihres Mannes.'],
       ['Wo starb Mill?', 'In Avignon', ['In London', 'In Paris', 'In Edinburgh'], 'Neben Harriet begraben.'],
-      ['Wer erzog John Stuart Mill?', 'Sein Vater James Mill', ['Jeremy Bentham allein', 'Eine Schule in Eton', 'Mönche'], 'Nach Benthams Grundsätzen.'],
+      ['Wer erzog John Stuart Mill?', 'Sein Vater James Mill', ['Jeremy Bentham', 'Eine Schule in Eton', 'Mönche'], 'Nach Benthams Grundsätzen.'],
       ['Wo arbeitete Mill 35 Jahre lang?', 'Bei der Ostindien-Kompanie', ['Bei der Bank of England', 'An der Universität Oxford', 'In der Armee'], 'Daneben schrieb er.'],
       ['Wofür kämpfte Bentham außer dem Tierschutz?', 'Für die Abschaffung von Sklaverei und Todesstrafe', ['Für die Monarchie', 'Für Kolonien', 'Für Zensur'], 'Ein großer Reformer.'],
       ['Welche Frage stürzte Mill mit 20 in eine Krise?', 'Ob er glücklich wäre, wenn alle Reformziele erreicht wären', ['Ob Gott existiert', 'Ob er Jurist werden soll', 'Ob er heiraten soll'], 'Die Antwort war Nein.'],

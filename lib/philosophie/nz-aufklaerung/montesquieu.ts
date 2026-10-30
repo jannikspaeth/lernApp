@@ -24,7 +24,7 @@ export const MONTESQUIEU: Subtopic = {
       ['Welche Verfassung bewunderte Montesquieu besonders?', 'Die englische', ['Die spanische', 'Die russische', 'Die türkische'], 'Nirgends sei der Bürger so frei.'],
       ['Welche Verfassung übernahm seine Gewaltenteilung fast wörtlich?', 'Die Verfassung der USA', ['Die Verfassung Chinas', 'Die Magna Carta', 'Die Bibel'], 'Von 1787.'],
       ['Was gibt es, wenn alle Gewalten in einer Hand liegen?', 'Keine Freiheit', ['Mehr Freiheit', 'Ewigen Frieden', 'Mehr Wohlstand'], 'Dann droht Tyrannei.'],
-      ['Wie verfährt die Macht nach Montesquieu am besten?', 'Die Macht muss die Macht bremsen', ['Die Macht gehört einem allein', 'Die Macht muss wachsen', 'Die Macht gehört der Kirche'], '„Checks and balances“.'],
+      ['Wie verfährt die Macht nach Montesquieu am besten?', 'Die Macht muss die Macht bremsen', ['Die Macht gehört einem', 'Die Macht muss wachsen', 'Die Macht gehört der Kirche'], '„Checks and balances“.'],
       ['An welchem Gerichtshof war Montesquieu Präsident?', 'Am Parlament von Bordeaux', ['Am Hof von Versailles', 'In der Académie française', 'In Rom'], 'Das Parlament war ein Gerichtshof.'],
       ['Welches Getränk stellte Montesquieu auf seinen Gütern her?', 'Wein', ['Bier', 'Kaffee', 'Tee'], 'Er verkaufte ihn bis nach England.'],
     ],

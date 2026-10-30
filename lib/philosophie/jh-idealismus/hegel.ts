@@ -18,7 +18,7 @@ export const HEGEL: Subtopic = {
       ['Wie heißt Hegels erstes Hauptwerk von 1807?', '„Phänomenologie des Geistes“', ['„Kritik der reinen Vernunft“', '„Das Kapital“', '„Sein und Zeit“'], 'Vollendet 1806 in Jena.'],
       ['Wen nannte Hegel „diese Weltseele“?', 'Napoleon', ['Friedrich den Großen', 'Goethe', 'Jesus'], 'Er sah ihn 1806 in Jena reiten.'],
       ['Wer ist auf diesem Bild zu sehen?', 'Georg Wilhelm Friedrich Hegel', ['Kant', 'Fichte', 'Schopenhauer'], 'Porträt von Jakob Schlesinger (1831).', 'hegel'],
-      ['Wie heißt Hegels Methode?', 'Dialektik', ['Induktion', 'Phänomenologie allein', 'Mäeutik'], 'Entwicklung durch Widersprüche.'],
+      ['Wie heißt Hegels Methode?', 'Dialektik', ['Induktion', 'Phänomenologie', 'Mäeutik'], 'Entwicklung durch Widersprüche.'],
       ['In welcher Stadt wurde Hegel geboren?', 'In Stuttgart', ['In Berlin', 'In Jena', 'In Tübingen'], 'Im selben Jahr wie Beethoven.'],
       ['Wessen Nachfolger wurde Hegel 1818 in Berlin?', 'Fichtes', ['Kants', 'Schellings', 'Humboldts'], 'Er wurde der berühmteste Philosoph Deutschlands.'],
       ['Was ist die Weltgeschichte für Hegel?', 'Der Fortschritt im Bewusstsein der Freiheit', ['Eine Kette von Zufällen', 'Ein ewiger Kreislauf', 'Ein Abstieg'], 'Aus seiner Geschichtsphilosophie.'],

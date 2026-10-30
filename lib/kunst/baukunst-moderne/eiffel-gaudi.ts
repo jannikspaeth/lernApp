@@ -43,7 +43,7 @@ export const EIFFEL_GAUDI: Subtopic = {
     schwer: [
       ['Warum sollte der Eiffelturm ursprünglich wieder abgebaut werden?', 'Er war nur für 20 Jahre geplant', ['Er war zu teuer', 'Er war zu hoch', 'Er war unsicher'], 'Der Turm sollte nach 20 Jahren abgebaut werden.'],
       ['Was rettete den Eiffelturm?', 'Seine Nutzung als Funkturm', ['Eine große Spende', 'Der Erste Weltkrieg', 'Ein Denkmalschutzgesetz']],
-      ['Wer entwarf den Eiffelturm ursprünglich?', 'Koechlin und Nouguier', ['Eiffel allein', 'Gaudí', 'Haussmann'], 'Koechlin und Nouguier entwarfen den Turm im Büro Eiffel.'],
+      ['Wer entwarf den Eiffelturm ursprünglich?', 'Koechlin und Nouguier', ['Eiffel', 'Gaudí', 'Haussmann'], 'Koechlin und Nouguier entwarfen den Turm im Büro Eiffel.'],
       ['Welche drei Fassaden hat die Sagrada Família?', 'Geburt, Passion und Glorie', ['Nord, Süd und Ost', 'Kreuz, Stern, Mond', 'Alt, Neu, Mittel'], 'Die Fassaden stehen für Geburt, Passion und Glorie Christi.'],
       ['Wie berechnete Gaudí die Statik?', 'Mit Modellen aus Seilen und Gewichten', ['Mit Computern', 'Mit Tabellen aus Paris', 'Gar nicht'], 'Gaudí nutzte Hängemodelle aus Seilen und Gewichten.'],
       ['Wer begann die Sagrada Família vor Gaudí?', 'Francisco de Paula del Villar', ['Eiffel', 'Palladio', 'Bramante'], 'Francisco de Paula del Villar begann den Bau 1882.'],

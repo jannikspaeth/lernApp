@@ -49,7 +49,7 @@ export const POPPER: Subtopic = {
       ['Wann starb Popper?', '1994', ['1969', '1980', '2002'], 'Am 17. September in London.'],
       ['Wer benannte seine Stiftungen nach Poppers Buch?', 'George Soros', ['Bill Gates', 'Warren Buffett', 'Elon Musk'], 'Die „Open Society Foundations“.'],
       ['Was soll Popper als moralische Regel zu Wittgenstein gesagt haben?', '„Man soll Gastredner nicht mit Schürhaken bedrohen.“', ['„Man soll nicht lügen.“', '„Man soll schweigen.“', '„Man soll nicht rauchen.“'], 'Danach verließ Wittgenstein den Raum.'],
-      ['Wessen Positivismus kritisierte Popper?', 'Den des Wiener Kreises', ['Den Comtes allein', 'Den Heideggers', 'Den der Scholastik'], 'Obwohl er ihm nahestand.'],
+      ['Wessen Positivismus kritisierte Popper?', 'Den des Wiener Kreises', ['Den Comtes', 'Den Heideggers', 'Den der Scholastik'], 'Obwohl er ihm nahestand.'],
       ['Wo lehrte Popper in Neuseeland?', 'In Christchurch', ['In Auckland', 'In Wellington', 'In Dunedin'], 'Am Canterbury University College.'],
       ['Welche Politiker beriefen sich auf Popper?', 'Helmut Schmidt und Václav Havel', ['Lenin und Stalin', 'Mao und Castro', 'Napoleon und Bismarck'], 'Verteidiger der offenen Gesellschaft.'],
       ['Wie viele Bände hatte die väterliche Bibliothek etwa?', 'Rund 10.000', ['Rund 100', 'Rund 1.000', 'Rund 100.000'], 'Ein bildungsbürgerliches Elternhaus.'],

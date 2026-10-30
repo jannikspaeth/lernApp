@@ -33,7 +33,7 @@ export const MARX: Subtopic = {
       ['Was bestimmt nach Marx das Bewusstsein?', 'Das gesellschaftliche Sein', ['Gott', 'Die Vernunft', 'Der Zufall'], 'Nicht umgekehrt.'],
       ['Wie heißt Marx’ Geschichtsauffassung?', 'Historischer Materialismus', ['Idealismus', 'Positivismus', 'Existenzialismus'], 'Die materiellen Verhältnisse bewegen die Geschichte.'],
       ['Was gehört nach Marx zum „Überbau“?', 'Recht, Politik, Religion und Kunst', ['Fabriken und Maschinen', 'Arbeit und Lohn', 'Felder und Bergwerke'], 'Die Basis ist die Wirtschaft.'],
-      ['Wovon ist der Arbeiter nach Marx entfremdet?', 'Vom Produkt, von der Tätigkeit, von den Mitmenschen und seinem Wesen', ['Nur von seiner Familie', 'Von Gott allein', 'Vom Staat'], 'Vier Formen der Entfremdung.'],
+      ['Wovon ist der Arbeiter nach Marx entfremdet?', 'Vom Produkt, von der Tätigkeit, von den Mitmenschen und seinem Wesen', ['Nur von seiner Familie', 'Von Gott', 'Vom Staat'], 'Vier Formen der Entfremdung.'],
       ['Wie lautet das Prinzip der klassenlosen Gesellschaft?', '„Jeder nach seinen Fähigkeiten, jedem nach seinen Bedürfnissen.“', ['„Jeder für sich.“', '„Gleicher Lohn für alle.“', '„Wer nicht arbeitet, soll nicht essen.“'], 'Aus der Kritik des Gothaer Programms.'],
       ['Welche Zeitung leitete Marx 1842 in Köln?', 'Die „Rheinische Zeitung“', ['Die „Vossische Zeitung“', 'Die „Frankfurter Allgemeine“', 'Den „Vorwärts“'], 'Bis die Zensur sie verbot.'],
       ['Wen heiratete Marx 1843?', 'Jenny von Westphalen', ['Helene Demuth', 'Rosa Luxemburg', 'Clara Zetkin'], 'Seine Jugendliebe aus Trier.'],

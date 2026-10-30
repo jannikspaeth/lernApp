@@ -36,7 +36,7 @@ export const UEBERBLICK: Subtopic = {
       ['Wie heißt der römische Beton?', 'Opus caementicium', ['Opus quadratum', 'Opus reticulatum', 'Opus sectile'], 'Opus caementicium heißt wörtlich Gussmauerwerk.'],
       ['Was bauten die Römer mit Rundbögen?', 'Aquädukte und Brücken', ['Nur Tempel', 'Nur Wohnhäuser', 'Nur Stadtmauern'], 'Aquädukte führten Wasser über viele Kilometer in die Städte.'],
       ['Was war Mittelpunkt römischer Städte?', 'Das Forum', ['Das Theater', 'Die Therme', 'Der Tempel'], 'Auf dem Forum fanden Handel, Politik und Gericht statt.'],
-      ['Welches Bauwerk steht in Berlin im Stil der Antike?', 'Das Brandenburger Tor', ['Der Fernsehturm', 'Der Reichstag allein', 'Das Rote Rathaus'], 'Das Brandenburger Tor (1788–1791) ist den Propyläen der Akropolis nachempfunden.'],
+      ['Welches Bauwerk steht in Berlin im Stil der Antike?', 'Das Brandenburger Tor', ['Der Fernsehturm', 'Der Reichstag', 'Das Rote Rathaus'], 'Das Brandenburger Tor (1788–1791) ist den Propyläen der Akropolis nachempfunden.'],
       ['Wie nannte man das Gebälk der Griechen?', 'Architrav, Fries und Gesims', ['Strebebogen', 'Rippe', 'Kuppel']],
       ['Welche Baubegriffe stammen aus dem Lateinischen?', 'Basilika, Forum und Atrium', ['Spitzbogen und Fiale', 'Strebewerk und Wimperg', 'Maßwerk und Krabbe']],
     ],

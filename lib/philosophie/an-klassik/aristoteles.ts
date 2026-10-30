@@ -36,7 +36,7 @@ export const ARISTOTELES: Subtopic = {
       ['Was ist der „unbewegte Beweger“?', 'Der letzte Ursprung aller Bewegung', ['Ein König', 'Ein Atom', 'Die Erde'], 'Er bewegt wie ein geliebtes Ziel.'],
       ['Woher hat die „Metaphysik“ ihren Namen?', 'Sie stand in der Ausgabe nach der Physik', ['Von einem Gott Metaphys', 'Von „meta“ wie „groß“', 'Von Platons Akademie'], 'Meta heißt „nach“.'],
       ['Nach wem ist die „Nikomachische Ethik“ benannt?', 'Nach Aristoteles’ Sohn Nikomachos', ['Nach einem König', 'Nach einer Stadt', 'Nach einem Gott'], 'Auch sein Vater hieß Nikomachos.'],
-      ['Wie erwirbt man nach Aristoteles Tugenden?', 'Durch Übung und Gewohnheit', ['Durch Geburt', 'Durch Gebet', 'Durch Bücher allein'], 'Wie man durch Zitherspielen Zitherspieler wird.'],
+      ['Wie erwirbt man nach Aristoteles Tugenden?', 'Durch Übung und Gewohnheit', ['Durch Geburt', 'Durch Gebet', 'Durch Bücher'], 'Wie man durch Zitherspielen Zitherspieler wird.'],
       ['Was liegt zwischen Geiz und Verschwendung?', 'Großzügigkeit', ['Armut', 'Gier', 'Sparsamkeit'], 'Ein Beispiel für die Lehre von der Mitte.'],
       ['Welches Ziel hat nach Aristoteles eine Eichel?', 'Eine Eiche zu werden', ['Gegessen zu werden', 'Zu verfaulen', 'Keines'], 'Alles strebt nach seinem Telos.'],
       ['Wie viele Verfassungen griechischer Staaten sammelte Aristoteles’ Schule?', '158', ['12', '50', '1.000'], 'Erhalten ist die „Verfassung der Athener“.'],

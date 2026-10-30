@@ -47,7 +47,7 @@ export const RAFFAEL: Subtopic = {
       ['Welche Komposition ist typisch für Raffaels Madonnen?', 'Ruhige Dreieckskomposition', ['Diagonale Unruhe', 'Kreisform', 'Zufällige Gruppierung']],
       ['Wer war Baldassare Castiglione?', 'Ein Diplomat, den Raffael porträtierte', ['Ein Papst', 'Ein Bildhauer', 'Ein Maler']],
       ['Wann wurde Raffael Bauleiter des Petersdoms?', '1514, nach Bramantes Tod', ['1508', '1520', '1504'], 'Er löste Bramante nach dessen Tod als Bauleiter ab.'],
-      ['Wie führte Raffael seine Werkstatt?', 'Mit vielen Schülern nach seinen Entwürfen', ['Ganz allein', 'Nur mit einem Gehilfen', 'Ohne feste Werkstatt'], 'Seine große Werkstatt konnte so viele Aufträge gleichzeitig erledigen.'],
+      ['Wie führte Raffael seine Werkstatt?', 'Mit vielen Schülern nach seinen Entwürfen', ['Ganz', 'Nur mit einem Gehilfen', 'Ohne feste Werkstatt'], 'Seine große Werkstatt konnte so viele Aufträge gleichzeitig erledigen.'],
       ['Wie gilt Raffael im Vergleich zu Leonardo und Michelangelo?', 'Als Maler der Anmut und Harmonie', ['Als Maler der Gewalt', 'Als Maler der Natur', 'Als Maler der Technik']],
       ['Was zeigt Raffaels Fresko „Galatea“?', 'Eine Meeresnymphe', ['Eine Göttin des Krieges', 'Eine Madonna', 'Eine Heilige']],
       ['Was blieb Raffaels Kunst bis ins 19. Jahrhundert?', 'Der Maßstab der Klassik', ['Ein Vorbild nur für den Barock', 'Ein Beispiel für den Manierismus', 'Ein Vorläufer des Impressionismus'], 'Bis zum Impressionismus galt Raffael an den Akademien als höchstes Vorbild.'],

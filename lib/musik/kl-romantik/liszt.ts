@@ -26,7 +26,7 @@ export const LISZT: Subtopic = {
       ['Wen heiratete Liszts Tochter Cosima später?', 'Richard Wagner', ['Johannes Brahms', 'Robert Schumann', 'Giuseppe Verdi'], 'Cosima war vorher mit dem Dirigenten Hans von Bülow verheiratet.'],
       ['In welcher Stadt war Liszt ab 1848 Hofkapellmeister?', 'In Weimar', ['In Wien', 'In Paris', 'In Budapest'], 'Er machte Weimar zu einem Zentrum der neuen Musik.'],
       ['Wo starb Liszt?', 'In Bayreuth', ['In Rom', 'In Weimar', 'In Budapest'], '1886, beim Besuch der Wagner-Festspiele.'],
-      ['Was wurde Liszt in Rom?', 'Abbé, ein Geistlicher', ['Kardinal', 'Papst', 'Bürgermeister'], 'Ein Abbé ist ein Geistlicher ohne Priesterweihe.'],
+      ['Was wurde Liszt in Rom?', 'Abbé, ein Geistlicher', ['Kardinal', 'Bischof', 'Bürgermeister'], 'Ein Abbé ist ein Geistlicher ohne Priesterweihe.'],
       ['Bei wem lernte Liszt in Wien Klavier?', 'Bei Carl Czerny', ['Bei Beethoven', 'Bei Mozart', 'Bei Clara Schumann'], 'Czerny war ein Schüler Beethovens.'],
     ],
     mittel: [

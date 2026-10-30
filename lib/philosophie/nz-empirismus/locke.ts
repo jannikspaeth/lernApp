@@ -22,7 +22,7 @@ export const LOCKE: Subtopic = {
       ['Welchen Beruf hatte Locke gelernt?', 'Arzt', ['Pfarrer', 'Kaufmann', 'Soldat'], 'Er rettete Shaftesbury das Leben.'],
       ['Was darf das Volk nach Locke tun, wenn die Regierung seine Rechte verletzt?', 'Sie absetzen', ['Nichts', 'Nur beten', 'Auswandern'], 'Ein Widerstandsrecht.'],
       ['Worüber schrieb Locke 1689 einen berühmten Brief?', 'Über die Toleranz', ['Über die Liebe', 'Über den Krieg', 'Über die Sterne'], 'Der Staat soll sich nicht in Glaubensfragen einmischen.'],
-      ['Wie entsteht Eigentum nach Locke?', 'Durch Arbeit', ['Durch Erbschaft allein', 'Durch Eroberung', 'Durch den König'], 'Man mischt seine Arbeit mit der Natur.'],
+      ['Wie entsteht Eigentum nach Locke?', 'Durch Arbeit', ['Durch Erbschaft', 'Durch Eroberung', 'Durch den König'], 'Man mischt seine Arbeit mit der Natur.'],
       ['Worauf beruht die Regierung nach Locke?', 'Auf der Zustimmung der Regierten', ['Auf Gottes Gnade', 'Auf militärischer Gewalt', 'Auf dem Willen des Papstes'], 'Ein Grundsatz der Demokratie.'],
       ['Welches Dokument übernahm Lockes Gedanken?', 'Die Unabhängigkeitserklärung der USA', ['Die Magna Carta', 'Die Bibel', 'Das Kommunistische Manifest'], '„Leben, Freiheit und das Streben nach Glück“.'],
       ['In welchem Land lebte Locke im Exil?', 'In den Niederlanden', ['In Frankreich', 'In Amerika', 'In Italien'], 'Von 1683 bis 1689.'],

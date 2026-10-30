@@ -25,7 +25,7 @@ export const UEBERBLICK: Subtopic = {
       ['Welcher Beruf gehörte zu Fontanes Leben?', 'Apotheker', ['Richter', 'Pfarrer', 'Lehrer'], 'Später arbeitete er als Journalist.'],
       ['Welche Strömung löste den Realismus um 1890 ab?', 'Der Naturalismus', ['Die Romantik', 'Der Barock', 'Das Biedermeier'], null],
       ['Welches Drama Hauptmanns handelt von einem Aufstand?', 'Die Weber', ['Vor Sonnenaufgang', 'Der Biberpelz', 'Die Ratten'], null],
-      ['Welche Technik prägte die Zeit des literarischen Realismus besonders?', 'Die Eisenbahn', ['Das Auto', 'Das Flugzeug', 'Das Telefon allein'], null],
+      ['Welche Technik prägte die Zeit des literarischen Realismus besonders?', 'Die Eisenbahn', ['Das Auto', 'Das Flugzeug', 'Das Telefon'], null],
     ],
     mittel: [
       ['Was meinte der Realismus mit „Verklärung“?', 'Die Wirklichkeit so zeigen, dass ein Sinn sichtbar wird', ['Die Wirklichkeit beschönigen bis zur Lüge', 'Die Wirklichkeit ganz weglassen', 'Nur schöne Landschaften zeigen'], null],

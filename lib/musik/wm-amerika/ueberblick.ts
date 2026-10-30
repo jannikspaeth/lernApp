@@ -22,7 +22,7 @@ export const UEBERBLICK: Subtopic = {
       ['Wer machte den Reggae weltberühmt?', 'Bob Marley', ['Carlos Santana', 'Shakira', 'Tito Puente'], 'Mit Liedern wie „One Love“.'],
       ['Welcher Welthit von 1964 ist ein Bossa Nova?', '„The Girl from Ipanema“', ['„La Bamba“', '„Despacito“', '„Macarena“'], 'Gesungen von Astrud Gilberto.'],
       ['Aus welchem Land kommen Mariachi-Kapellen?', 'Aus Mexiko', ['Aus Argentinien', 'Aus Peru', 'Aus Spanien'], 'Mit Trompeten, Geigen und Gitarren.'],
-      ['Wer wurde „Königin der Salsa“ genannt?', 'Celia Cruz', ['Shakira', 'Gloria Estefan', 'Frida Kahlo'], 'Mit ihrem Ruf „¡Azúcar!“.'],
+      ['Wer wurde „Königin der Salsa“ genannt?', 'Celia Cruz', ['Shakira', 'Gloria Estefan', 'Selena'], 'Mit ihrem Ruf „¡Azúcar!“.'],
       ['Welches Lied war jahrelang das meistgesehene YouTube-Video?', '„Despacito“', ['„Gangnam Style“', '„La Bamba“', '„Hips Don’t Lie“'], 'Von Luis Fonsi und Daddy Yankee.'],
       ['Aus welchem Land stammt Shakira?', 'Aus Kolumbien', ['Aus Mexiko', 'Aus Spanien', 'Aus Argentinien'], 'Aus Barranquilla.'],
       ['Welcher Film machte alte kubanische Musiker weltberühmt?', '„Buena Vista Social Club“', ['„Evita“', '„Rio“', '„Coco“'], 'Ein Film von 1999.'],

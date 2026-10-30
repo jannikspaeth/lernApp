@@ -43,10 +43,10 @@ export const UEBERBLICK: Subtopic = {
       ['Welche Mystiker gehören ins Mittelalter?', 'Bernhard von Clairvaux, Hildegard von Bingen, Meister Eckhart', ['Luther, Calvin, Zwingli', 'Descartes, Spinoza, Leibniz', 'Kant, Hegel, Fichte'], 'Sie suchten die innere Gotteserfahrung.'],
     ],
     schwer: [
-      ['Welche Ereignisse erschütterten im 14. Jahrhundert die mittelalterliche Ordnung?', 'Pest, Kirchenspaltung und neue Naturforschung', ['Reformation und Dreißigjähriger Krieg', 'Französische Revolution', 'Entdeckung Amerikas allein'], 'Ockham trennte Glaube und Wissen stärker.'],
+      ['Welche Ereignisse erschütterten im 14. Jahrhundert die mittelalterliche Ordnung?', 'Pest, Kirchenspaltung und neue Naturforschung', ['Reformation und Dreißigjähriger Krieg', 'Französische Revolution', 'Entdeckung Amerikas'], 'Ockham trennte Glaube und Wissen stärker.'],
       ['Was ist mit „Philosophia ancilla theologiae“ gemeint?', 'Philosophie als Magd der Theologie', ['Philosophie als Königin der Wissenschaften', 'Theologie als Magd der Philosophie', 'Philosophie gegen Theologie'], 'Ein mittelalterliches Schlagwort.'],
       ['Über welche Länder kamen die Aristoteles-Übersetzungen nach Europa?', 'Über Spanien und Sizilien', ['Über Irland und Schottland', 'Über Polen und Russland', 'Über Norwegen und Island'], 'Dort trafen arabische, jüdische und christliche Gelehrte aufeinander.'],
-      ['Mit wessen Kommentaren kam Aristoteles in den Westen?', 'Mit denen von Avicenna und Averroes', ['Mit denen von Luther', 'Mit denen von Cicero', 'Mit denen von Plotin allein'], 'Averroes hieß im Westen einfach „der Kommentator“.'],
+      ['Mit wessen Kommentaren kam Aristoteles in den Westen?', 'Mit denen von Avicenna und Averroes', ['Mit denen von Luther', 'Mit denen von Cicero', 'Mit denen von Plotin'], 'Averroes hieß im Westen einfach „der Kommentator“.'],
       ['Was gehört nicht zu den sieben freien Künsten?', 'Medizin', ['Dialektik', 'Musik', 'Astronomie'], 'Medizin war eine höhere Fakultät.'],
       ['In welchen Jahrhunderten wirkten die Kirchenväter?', 'Vom 2. bis 8. Jahrhundert', ['Vom 10. bis 13. Jahrhundert', 'Im 1. Jahrhundert v. Chr.', 'Vom 14. bis 16. Jahrhundert'], 'Die Patristik.'],
       ['Was wollten die Kirchenväter vor allem formulieren?', 'Die Grundlehren über Gott, Dreifaltigkeit und Christus', ['Neue Gesetze für Rom', 'Eine Naturwissenschaft', 'Eine Kriegsordnung'], 'Gegen Häresien und heidnische Kritik.'],

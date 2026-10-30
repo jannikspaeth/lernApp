@@ -45,7 +45,7 @@ export const UEBERBLICK: Subtopic = {
     schwer: [
       ['Wann wurde Island christlich?', 'Um das Jahr 1000', ['Um 800', 'Um 1200', 'Um 1500'], 'Danach wurden die Mythen weiter erzählt.'],
       ['Wann wurde der Codex Regius nach Island zurückgegeben?', '1971', ['1918', '1944', '2000'], 'Er hatte jahrhundertelang in Kopenhagen gelegen.'],
-      ['Welche frühen deutschen Zeugnisse germanischer Götter gibt es?', 'Die Merseburger Zaubersprüche', ['Das Hildebrandslied allein', 'Die Edda', 'Die Germania des Snorri'], 'Aus dem 10. Jahrhundert überliefert.'],
+      ['Welche frühen deutschen Zeugnisse germanischer Götter gibt es?', 'Die Merseburger Zaubersprüche', ['Das Hildebrandslied', 'Die Edda', 'Die Germania des Snorri'], 'Aus dem 10. Jahrhundert überliefert.'],
       ['Wer sind Odins Brüder?', 'Vili und Vé', ['Thor und Loki', 'Freyr und Njörd', 'Baldr und Höd'], 'Gemeinsam erschlugen sie Ymir.'],
       ['Woraus machten die Götter den Himmel?', 'Aus Ymirs Schädel', ['Aus seinem Blut', 'Aus seinen Knochen', 'Aus seinem Gehirn'], 'Vier Zwerge tragen ihn an den Ecken.'],
       ['Was bedeuten die Namen der drei Nornen?', 'Vergangenheit, Gegenwart und Zukunft', ['Geburt, Leben und Tod', 'Erde, Wasser und Feuer', 'Glück, Leid und Weisheit'], 'Urd, Verdandi und Skuld.'],

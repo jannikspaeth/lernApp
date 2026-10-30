@@ -43,7 +43,7 @@ export const RENOIR_MANET_DEGAS: Subtopic = {
     schwer: [
       ['Warum galt Manets „Olympia“ als Skandal?', 'Selbstbewusster Blick einer Pariserin, flache Malweise', ['Wegen grell bunter Farben', 'Wegen ihrer riesigen Größe', 'Wegen ihres hohen Preises']],
       ['Was beeinflusste Degas’ Bildaufbau?', 'Fotografie und japanische Holzschnitte', ['Barockmalerei', 'Gotische Fenster', 'Antike Statuen'], 'Degas schnitt Figuren wie auf einem Foto an und übernahm Blickwinkel aus Japan.'],
-      ['Was zeigt das Sonnenlicht in Renoirs „Bal du moulin de la Galette“?', 'Lichtflecken durch die Bäume', ['Kerzenlicht', 'Nachtlicht', 'Schatten allein'], 'Flecken von Sonnenlicht fallen auf Kleider und Gesichter der Tanzenden.'],
+      ['Was zeigt das Sonnenlicht in Renoirs „Bal du moulin de la Galette“?', 'Lichtflecken durch die Bäume', ['Kerzenlicht', 'Nachtlicht', 'Schatten'], 'Flecken von Sonnenlicht fallen auf Kleider und Gesichter der Tanzenden.'],
       ['Was fällt an Degas’ Bildaufbau auf?', 'Angeschnittene Figuren und ungewöhnliche Blickwinkel', ['Strenge Symmetrie', 'Gold im Hintergrund', 'Zentralperspektive'], 'Degas ordnete Figuren asymmetrisch an, oft angeschnitten am Bildrand.'],
       ['Wer war Manets „Olympia“ nicht?', 'Eine Göttin', ['Eine Pariserin', 'Ein Modell', 'Eine Frau der Gegenwart']],
       ['Stellte Manet auf den Impressionisten-Ausstellungen aus?', 'Nein, nie', ['Immer', 'Nur einmal', 'Nur 1874']],

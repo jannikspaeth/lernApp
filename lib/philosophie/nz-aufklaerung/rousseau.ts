@@ -40,7 +40,7 @@ export const ROUSSEAU: Subtopic = {
       ['Was geschah mit Rousseaus fünf Kindern?', 'Er gab sie ins Findelhaus', ['Er erzog sie nach dem „Emile“', 'Sie wurden berühmt', 'Sie lebten bei Voltaire'], 'Er bereute es später.'],
       ['Welcher Roman Rousseaus war der größte Bucherfolg des Jahrhunderts?', '„Julie oder die neue Héloïse“', ['„Emile“', '„Bekenntnisse“', '„Candide“'], 'Ein Briefroman, 1761.'],
       ['Wie beginnt der „Emile“?', '„Alles ist gut, wie es aus den Händen des Schöpfers kommt, alles entartet unter den Händen des Menschen.“', ['„Kinder sind kleine Erwachsene.“', '„Ohne Strafe keine Erziehung.“', '„Am Anfang war das Wort.“'], 'Die Gesellschaft verdirbt.'],
-      ['Wer berief sich in der Französischen Revolution auf Rousseau?', 'Die Jakobiner', ['Die Royalisten', 'Die Jesuiten', 'Die Girondisten allein'], 'Etwa Robespierre.'],
+      ['Wer berief sich in der Französischen Revolution auf Rousseau?', 'Die Jakobiner', ['Die Royalisten', 'Die Jesuiten', 'Die Girondisten'], 'Etwa Robespierre.'],
     ],
     schwer: [
       ['Wie lautet Rousseaus Satz über den ersten Eigentümer?', 'Er war der wahre Begründer der bürgerlichen Gesellschaft', ['Er war ein Held', 'Er war ein Gott', 'Er war Kain'], 'Aus der Ungleichheitsschrift von 1755.'],

@@ -16,7 +16,7 @@ export const UEBERBLICK: Subtopic = {
   quiz: {
     leicht: [
       ['Hatten Stummfilme Musik?', 'Ja, sie wurde live gespielt', ['Nein, nie', 'Nur im Fernsehen', 'Nur auf Schallplatte'], '„Stumm“ hieß nur: ohne gesprochene Worte.'],
-      ['Wer begleitete Stummfilme oft live?', 'Pianisten, Organisten oder Kinoorchester', ['Rapper', 'DJs', 'Chöre'], 'Sie spielten passend zur Handlung.'],
+      ['Wer begleitete Stummfilme oft live?', 'Pianisten, Organisten oder Kinoorchester', ['Sprecher mit Megafon', 'Grammophone', 'Militärkapellen'], 'Sie spielten passend zur Handlung.'],
       ['Mit welchem Film begann 1927 der Tonfilm?', '„Der Jazzsänger“', ['„King Kong“', '„Casablanca“', '„Star Wars“'], 'Mit Al Jolson, der darin singt und spricht.'],
       ['Wer schrieb die Musik zu „Star Wars“?', 'John Williams', ['Hans Zimmer', 'Ennio Morricone', 'Max Steiner'], 'Ab 1977.'],
       ['Aus welcher deutschen Stadt stammt Hans Zimmer?', 'Aus Frankfurt am Main', ['Aus Berlin', 'Aus München', 'Aus Hamburg'], 'Er lebt seit Langem in Los Angeles.'],
@@ -35,7 +35,7 @@ export const UEBERBLICK: Subtopic = {
       ['Welche Filmmusik schrieb Max Steiner 1933?', '„King Kong“', ['„Psycho“', '„Star Wars“', '„Der weiße Hai“'], 'Eine der ersten großen Orchestermusiken für einen Film.'],
       ['Welcher Wiener Komponist vertonte Abenteuerfilme wie „Robin Hood“?', 'Erich Wolfgang Korngold', ['Arnold Schönberg', 'Gustav Mahler', 'Hanns Eisler'], 'Er war als Wunderkind in Wien berühmt.'],
       ['Von welchem Opernkomponisten übernahm die Filmmusik das Leitmotiv?', 'Von Richard Wagner', ['Von Mozart', 'Von Verdi', 'Von Puccini'], 'Jede Figur bekommt ihr eigenes Thema.'],
-      ['Was ist „Mickey-Mousing“?', 'Die Musik ahmt jede Bewegung im Bild nach', ['Musik für Mäuse', 'Eine Pfeiftechnik', 'Ein Tanzschritt'], 'Benannt nach den Disney-Zeichentrickfilmen.'],
+      ['Was ist „Mickey-Mousing“ in der Filmmusik?', 'Die Musik ahmt jede Bewegung im Bild nach', ['Musik nur im Abspann', 'Eine Pfeiftechnik', 'Ein Tanzschritt'], 'Benannt nach den Disney-Zeichentrickfilmen.'],
       ['Was ist diegetische Filmmusik?', 'Musik, die auch die Figuren im Film hören', ['Musik nur im Abspann', 'Musik ohne Instrumente', 'Musik nur für Werbung'], 'Etwa ein Radio, das im Film läuft.'],
       ['Welches Lied schrieb Henry Mancini?', '„Moon River“', ['„Over the Rainbow“', '„My Heart Will Go On“', '„Skyfall“'], 'Aus „Frühstück bei Tiffany“.'],
       ['Welche Filme brachten das große Orchester zurück ins Kino?', '„Der weiße Hai“ und „Star Wars“', ['„Psycho“ und „Vertigo“', '„Casablanca“ und „King Kong“', '„Titanic“ und „Avatar“'], 'Beide von John Williams.'],
@@ -46,7 +46,7 @@ export const UEBERBLICK: Subtopic = {
       ['Seit wann gibt es Filmmusik?', 'Seit den ersten Filmen um 1895', ['Seit 1927', 'Seit 1950', 'Seit 1977'], 'Schon die ersten Filme wurden mit Musik gezeigt.'],
       ['Welche beiden Klassiker schrieb Max Steiner 1939 und 1942?', '„Vom Winde verweht“ und „Casablanca“', ['„King Kong“ und „Psycho“', '„Ben Hur“ und „Spartacus“', '„Robin Hood“ und „Zorro“'], 'Zwei der berühmtesten Hollywood-Filme.'],
       ['Welchen Stil hatte die klassische Hollywood-Filmmusik?', 'Spätromantisch', ['Barock', 'Zwölftönig', 'Minimalistisch'], 'Mit großem Orchester wie bei Wagner und Strauss.'],
-      ['Warum kamen viele europäische Komponisten nach Hollywood?', 'Sie flohen vor den Nationalsozialisten', ['Sie wurden entführt', 'Wegen des Wetters', 'Wegen eines Wettbewerbs'], 'Wie Korngold und Franz Waxman.'],
+      ['Warum kamen viele europäische Komponisten nach Hollywood?', 'Sie flohen vor den Nationalsozialisten', ['Sie wurden abgeworben, um Jazz zu lernen', 'Wegen hoher Steuern in Europa', 'Wegen eines Wettbewerbs'], 'Wie Korngold und Franz Waxman.'],
       ['Wann wurde „Psycho“ gedreht?', '1960', ['1945', '1975', '1985'], 'Ein Film von Alfred Hitchcock.'],
       ['Wer schrieb die Musik zu „Batman“ und „Die Simpsons“?', 'Danny Elfman', ['John Williams', 'Hans Zimmer', 'Alan Silvestri'], 'Ein Komponist mit verspieltem, düsterem Stil.'],
       ['Seit wann gibt es einen Oscar für Filmmusik?', '1935', ['1927', '1950', '1977'], 'Für Filme des Jahres 1934.'],

@@ -50,7 +50,7 @@ export const UEBERBLICK: Subtopic = {
       ['Was macht „Alice im Wunderland“ besonders?', 'Es stellt alle Logik auf den Kopf', ['Es ist streng moralisch', 'Es spielt in der Antike', 'Es hat keine Figuren'], null],
       ['Welche technische Neuerung prägte das viktorianische England?', 'Die Eisenbahn', ['Das Auto', 'Das Flugzeug', 'Das Radio'], null],
       ['Wie wuchsen die englischen Städte im 19. Jahrhundert?', 'Ungeheuer schnell, mit großem Elend', ['Langsam und geordnet', 'Gar nicht', 'Sie schrumpften'], null],
-      ['Welches Ehepaar schrieb gemeinsam berühmte Gedichte?', 'Robert und Elizabeth Barrett Browning', ['Die Rossettis allein', 'Die Carlyles', 'Die Shelleys'], null],
+      ['Welches Ehepaar schrieb gemeinsam berühmte Gedichte?', 'Robert und Elizabeth Barrett Browning', ['Die Rossettis', 'Die Carlyles', 'Die Shelleys'], null],
       ['Wann endete die viktorianische Epoche?', '1901', ['1890', '1914', '1880'], 'Mit dem Tod der Königin.'],
     ],
   },

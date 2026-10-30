@@ -49,7 +49,7 @@ export const UEBERBLICK: Subtopic = {
       ['Welcher Anteil der Muslime sind Araber?', 'Etwa ein Fünftel', ['Etwa die Hälfte', 'Etwa drei Viertel', 'Fast alle'], 'Die meisten Muslime leben in Asien.'],
       ['Wie groß ist der Anteil der Schiiten unter den Muslimen?', '10 bis 15 Prozent', ['Etwa die Hälfte', 'Unter 1 Prozent', '30 bis 40 Prozent'], 'Vor allem im Iran, Irak und Aserbaidschan.'],
       ['Woher stammt die Mondsichel als Symbol?', 'Aus dem Osmanischen Reich', ['Aus dem Koran', 'Von Mohammeds Fahne', 'Aus Mekka'], 'Sie ist kein religiöses Zeichen.'],
-      ['Woraus wird die Scharia abgeleitet?', 'Aus Koran und Sunna', ['Nur aus dem Koran', 'Aus dem römischen Recht', 'Aus den Beschlüssen der Kalifen allein'], 'Gelehrte legen sie in Rechtsschulen aus.'],
+      ['Woraus wird die Scharia abgeleitet?', 'Aus Koran und Sunna', ['Nur aus dem Koran', 'Aus dem römischen Recht', 'Aus den Beschlüssen der Kalifen'], 'Gelehrte legen sie in Rechtsschulen aus.'],
       ['Wo gilt die Scharia weitgehend auch im Strafrecht?', 'In Saudi-Arabien und Iran', ['In der Türkei und Indonesien', 'In Ägypten und Marokko', 'In Bosnien und Albanien'], 'Meist gilt sie nur im Familien- und Erbrecht.'],
       ['Wie versteht der Islam sich selbst im Verhältnis zu Abraham?', 'Als Wiederherstellung von Abrahams ursprünglichem Glauben', ['Als Abkehr von Abraham', 'Als Fortsetzung der griechischen Philosophie', 'Als neue, von Abraham unabhängige Religion'], 'Juden und Christen hätten ihn verfälscht.'],
       ['Welches Land hat nach Indonesien die meisten Muslime?', 'Pakistan', ['Saudi-Arabien', 'Iran', 'Nigeria'], 'Dann folgen Indien und Bangladesch.'],

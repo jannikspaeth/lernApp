@@ -19,7 +19,7 @@ export const PLATON: Subtopic = {
       ['Welche Schule gründete Platon?', 'Die Akademie', ['Das Lykeion', 'Die Stoa', 'Den Garten'], 'Um 387 v. Chr. in Athen.'],
       ['Welches Gleichnis ist das berühmteste Platons?', 'Das Höhlengleichnis', ['Das Gleichnis vom Sämann', 'Das Gleichnis vom Schiff im Sturm', 'Das Gleichnis vom verlorenen Sohn'], 'Aus der „Politeia“.'],
       ['Wer ist auf diesem Bild zu sehen?', 'Platon', ['Sokrates', 'Aristoteles', 'Seneca'], 'Eine römische Kopie einer Büste von Silanion.', 'platon'],
-      ['In welcher Form schrieb Platon seine Werke?', 'Als Dialoge', ['Als Gedichte', 'Als Briefe allein', 'Als Lehrbücher'], 'Fast immer mit Sokrates als Hauptfigur.'],
+      ['In welcher Form schrieb Platon seine Werke?', 'Als Dialoge', ['Als Gedichte', 'Als Briefe', 'Als Lehrbücher'], 'Fast immer mit Sokrates als Hauptfigur.'],
       ['Was sehen die Gefangenen im Höhlengleichnis?', 'Nur Schatten an der Wand', ['Das Meer', 'Die Sonne', 'Die Götter'], 'Sie halten die Schatten für die Wirklichkeit.'],
       ['Wie heißt Platons Hauptwerk über den idealen Staat?', '„Politeia“ (Der Staat)', ['„Der Fürst“', '„Leviathan“', '„Das Kapital“'], 'Mit dem Höhlengleichnis.'],
       ['Wer soll nach Platon im idealen Staat herrschen?', 'Die Philosophen', ['Die Reichsten', 'Die Krieger', 'Das ganze Volk'], 'Die Philosophenkönige.'],
@@ -31,7 +31,7 @@ export const PLATON: Subtopic = {
     mittel: [
       ['Wie viele Jahre bestand Platons Akademie?', 'Über 900 Jahre', ['Etwa 50 Jahre', 'Etwa 200 Jahre', 'Bis heute ununterbrochen'], 'Justinian schloss sie 529 n. Chr.'],
       ['Wohin reiste Platon dreimal, um einen Herrscher zu beraten?', 'Nach Syrakus auf Sizilien', ['Nach Persien', 'Nach Makedonien', 'Nach Sparta'], 'Zu Dionysios I. und II. – vergeblich.'],
-      ['Was ist Lernen nach Platon eigentlich?', 'Wiedererinnerung (Anamnesis)', ['Nachahmung', 'Gewöhnung', 'Erfahrung allein'], 'Die Seele hat die Ideen vor der Geburt geschaut.'],
+      ['Was ist Lernen nach Platon eigentlich?', 'Wiedererinnerung (Anamnesis)', ['Nachahmung', 'Gewöhnung', 'Erfahrung'], 'Die Seele hat die Ideen vor der Geburt geschaut.'],
       ['Welche drei Stände gibt es im Staat der „Politeia“?', 'Erwerbstätige, Wächter, Philosophenkönige', ['Adel, Klerus, Bauern', 'Sklaven, Freie, Götter', 'Kaiser, Senat, Volk'], 'Sie entsprechen Begierde, Mut und Vernunft.'],
       ['Wann herrscht nach Platon Gerechtigkeit im Staat?', 'Wenn jeder das Seine tut', ['Wenn alle gleich viel besitzen', 'Wenn der Stärkste regiert', 'Wenn es keine Gesetze gibt'], 'Jeder Stand erfüllt seine Aufgabe.'],
       ['Wovon handelt das „Symposion“?', 'Von der Liebe (Eros)', ['Vom Tod des Sokrates', 'Vom Kosmos', 'Von der Gesetzgebung'], 'Ein Gastmahl mit Reden auf Eros.'],

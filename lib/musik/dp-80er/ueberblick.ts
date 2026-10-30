@@ -39,10 +39,10 @@ export const UEBERBLICK: Subtopic = {
       ['Wann war die NDW etwa schon wieder vorbei?', '1984', ['1980', '1990', '1995'], 'Die Plattenfirmen veröffentlichten zu viel Belangloses.'],
       ['Wer wurde „Godmother of Punk“ genannt?', 'Nina Hagen', ['Nena', 'Nicole', 'Inga Humpe'], 'Sie kam aus Ost-Berlin.'],
       ['Wo durfte Lindenberg 1983 in der DDR auftreten?', 'Im Palast der Republik', ['In der Semperoper', 'Im Leipziger Gewandhaus', 'Auf dem Alexanderplatz'], 'Ein einmaliger Auftritt.'],
-      ['Wodurch wurde „Wind of Change“ inspiriert?', 'Durch ein Konzert in Moskau 1989', ['Durch einen Sturm in Hannover', 'Durch die Mondlandung', 'Durch die Fußball-WM'], 'Beim Moscow Music Peace Festival.'],
+      ['Wodurch wurde das Scorpions-Lied „Wind of Change“ inspiriert?', 'Durch ein Konzert in Moskau 1989', ['Durch den Mauerfall in Berlin', 'Durch die Montagsdemonstrationen in Leipzig', 'Durch die Wiedervereinigung 1990'], 'Beim Moscow Music Peace Festival.'],
     ],
     schwer: [
-      ['Ab wann sang Ton Steine Scherben?', 'Ab 1970', ['Ab 1960', 'Ab 1980', 'Ab 1989'], 'Mit politischen Texten.'],
+      ['Seit wann gab es die Band Ton Steine Scherben?', 'Ab 1970', ['Ab 1960', 'Ab 1980', 'Ab 1989'], 'Mit politischen Texten.'],
       ['Wer ist der Sänger von BAP?', 'Wolfgang Niedecken', ['Marius Müller-Westernhagen', 'Peter Maffay', 'Klaus Lage'], 'Er schreibt die Texte.'],
       ['Welche Band sang „Ein Jahr (Es geht voran)“?', 'Fehlfarben', ['Ideal', 'DAF', 'Trio'], 'Ein Klassiker des deutschen Punk und New Wave.'],
       ['Welche Band sang „Der Mussolini“?', 'DAF', ['Kraftwerk', 'Der Plan', 'Extrabreit'], 'Ein provokanter Elektro-Song.'],

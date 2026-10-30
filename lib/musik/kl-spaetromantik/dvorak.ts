@@ -48,7 +48,7 @@ export const DVORAK: Subtopic = {
       ['Welche tschechischen Tänze verarbeitete Dvořák?', 'Furiant und Polka', ['Mazurka und Polonaise', 'Csárdás und Verbunkos', 'Ländler und Walzer'], 'Der Furiant ist ein schneller Tanz mit wechselndem Takt.'],
       ['Wie oft besuchte Dvořák England?', 'Neunmal', ['Einmal', 'Dreimal', 'Zwanzigmal'], 'Dort wurde er besonders verehrt.'],
       ['Wo wurde die Sinfonie „Aus der Neuen Welt“ uraufgeführt?', 'In der Carnegie Hall', ['In Prag', 'In London', 'In Boston'], '1893.'],
-      ['Welches Instrument spielt die berühmte Largo-Melodie?', 'Das Englischhorn', ['Die Klarinette', 'Die Trompete', 'Die Geige'], 'Später wurde die Melodie zum Lied „Goin’ Home“.'],
+      ['Welches Instrument spielt die berühmte Largo-Melodie in Dvořáks „Aus der Neuen Welt“?', 'Das Englischhorn', ['Die Klarinette', 'Die Trompete', 'Die Geige'], 'Später wurde die Melodie zum Lied „Goin’ Home“.'],
       ['Wie heißt Dvořáks in Amerika entstandenes Streichquartett?', 'Das „Amerikanische“', ['Das „Kaiserquartett“', 'Das „Neue-Welt-Quartett“', 'Das „Iowa-Quartett“'], 'Geschrieben 1893 in Spillville, Iowa.'],
       ['Wann wurde Dvořák Direktor des Prager Konservatoriums?', '1901', ['1878', '1892', '1904'], 'Er leitete es bis zu seinem Tod.'],
       ['Auf welchem Friedhof liegt Dvořák begraben?', 'Vyšehrad-Friedhof', ['Olšany-Friedhof', 'Zentralfriedhof Wien', 'Altstädter Friedhof'], 'Die Ruhestätte großer Tschechen in Prag.'],

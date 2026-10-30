@@ -49,7 +49,7 @@ export const EPIKUR: Subtopic = {
       ['Wo lehrte Epikur, bevor er nach Athen kam?', 'In Mytilene und Lampsakos', ['In Alexandria und Rom', 'In Sparta und Korinth', 'In Milet und Ephesos'], 'Auf Lesbos und am Hellespont.'],
       ['Wer war Leontion?', 'Eine Hetäre im Garten, die eine Streitschrift schrieb', ['Epikurs Mutter', 'Eine Göttin', 'Ein Gegner Epikurs'], 'Frauen philosophierten im Garten mit.'],
       ['Was tröstete Epikur an seinem letzten Tag?', 'Die Erinnerung an Gespräche mit Freunden', ['Ein Gebet', 'Der Wein', 'Die Hoffnung auf ein Jenseits'], 'Sie wiege die Schmerzen auf.'],
-      ['Welche neuzeitlichen Denker entdeckten Epikur neu?', 'Gassendi und Jefferson', ['Luther und Calvin', 'Thomas von Aquin und Dante', 'Hegel und Marx allein'], 'Pierre Gassendi verband ihn mit dem Christentum.'],
+      ['Welche neuzeitlichen Denker entdeckten Epikur neu?', 'Gassendi und Jefferson', ['Luther und Calvin', 'Thomas von Aquin und Dante', 'Hegel und Marx'], 'Pierre Gassendi verband ihn mit dem Christentum.'],
       ['Warum zerstreut sich nach Epikur beim Tod jede Empfindung?', 'Weil sich die Atome der Seele auflösen', ['Weil die Seele in den Himmel fliegt', 'Weil die Götter sie nehmen', 'Weil die Seele wandert'], 'Ohne Empfindung kein Leid.'],
       ['Wann gründete Epikur den Garten?', '306 v. Chr.', ['387 v. Chr.', '335 v. Chr.', '270 v. Chr.'], 'Vor den Mauern Athens.'],
       ['Wie wurde „Epikureer“ später verwendet?', 'Als Schimpfwort für Genießer', ['Als Ehrentitel für Priester', 'Als Bezeichnung für Soldaten', 'Als Wort für Gärtner'], 'Eine Verzerrung seiner Lehre.'],

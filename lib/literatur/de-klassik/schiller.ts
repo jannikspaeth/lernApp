@@ -46,7 +46,7 @@ export const SCHILLER: Subtopic = {
       ['Was ermöglichte Schiller das freie Arbeiten in den 1790er-Jahren?', 'Eine Ehrengabe dänischer Gönner', ['Ein Erbe', 'Ein Gehalt des Kaisers', 'Der Verkauf seiner Dramen'], null],
       ['Worum kreisen Schillers Dramen vor allem?', 'Um Freiheit, Schuld und Würde', ['Um Liebe und Natur', 'Um Geld und Handel', 'Um Reisen und Abenteuer'], null],
       ['Wie reagierte Goethe auf Schillers Tod?', 'Er schrieb, er habe die Hälfte seines Daseins verloren', ['Er schwieg dazu', 'Er reiste sofort ab', 'Er schrieb ein Drama darüber'], null],
-      ['Woher nahm Schiller die Stoffe für seine Dramen?', 'Die Geschichte', ['Die Bibel', 'Die Mythologie allein', 'Eigene Reisen'], null],
+      ['Woher nahm Schiller die Stoffe für seine Dramen?', 'Die Geschichte', ['Die Bibel', 'Die Mythologie', 'Eigene Reisen'], null],
       ['Welches frühe Drama Schillers ist ein bürgerliches Trauerspiel?', 'Kabale und Liebe', ['Die Räuber', 'Don Carlos', 'Fiesco'], null],
       ['Wie verlief Schillers Leben nach der Flucht aus Stuttgart?', 'Jahre in Armut und auf der Flucht vor Gläubigern', ['Sofortiger Ruhm und Wohlstand', 'Rückkehr an den Hof', 'Ein Leben als Arzt'], null],
       ['Was unterscheidet Schillers Zugang von Goethes?', 'Er dachte stärker in Begriffen und Theorie', ['Er schrieb nur Gedichte', 'Er lehnte die Antike ab', 'Er schrieb nur Prosa'], null],

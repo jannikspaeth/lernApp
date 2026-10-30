@@ -36,7 +36,7 @@ export const DIOGENES: Subtopic = {
       ['Welches Vergehen soll Diogenes’ Vater begangen haben?', 'Geldfälschung', ['Mord', 'Tempelraub', 'Verrat'], 'Er war Münzmeister in Sinope.'],
       ['Was antwortete Diogenes, als Antisthenes ihn mit dem Stock vertrieb?', 'Er werde kein Holz finden, das hart genug sei', ['Er gehe sofort', 'Er rufe die Wachen', 'Er werde ihn verklagen'], 'Danach wurde er sein Schüler.'],
       ['Was besaß Diogenes der Überlieferung nach?', 'Mantel, Ranzen und Becher', ['Ein Haus und ein Pferd', 'Eine Bibliothek', 'Gar nichts, nicht einmal Kleidung'], 'Den Becher warf er später weg.'],
-      ['Warum tat Diogenes natürliche Dinge in der Öffentlichkeit?', 'Um zu zeigen, dass Natürliches nicht schändlich ist', ['Weil er kein Haus hatte allein', 'Um Geld zu verdienen', 'Weil die Götter es wollten'], 'Provokation gegen Konventionen.'],
+      ['Warum tat Diogenes natürliche Dinge in der Öffentlichkeit?', 'Um zu zeigen, dass Natürliches nicht schändlich ist', ['Weil er kein Haus hatte', 'Um Geld zu verdienen', 'Weil die Götter es wollten'], 'Provokation gegen Konventionen.'],
       ['Wohin wurde Diogenes als Sklave verkauft?', 'Nach Kreta', ['Nach Ägypten', 'Nach Persien', 'Nach Rom'], 'Nach der Gefangennahme durch Piraten.'],
       ['Was konnte Diogenes nach eigener Aussage auf dem Sklavenmarkt?', '„Menschen regieren“', ['„Kochen“', '„Rechnen“', '„Kämpfen“'], 'Man solle ihn an jemanden verkaufen, der einen Herrn brauche.'],
       ['Wer ist auf diesem Bild zu Diogenes gekommen?', 'Alexander der Große', ['Platon', 'Sokrates', 'Philipp II.'], 'Die berühmte Begegnung in Korinth.', 'diogenes-alexander'],

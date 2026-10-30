@@ -30,7 +30,7 @@ export const DAVID: Subtopic = {
       ['Wann lebte Jacques-Louis David?', '1748–1825', ['1648–1725', '1848–1925', '1748–1800']],
       ['Wann wurde Marat ermordet?', '13. Juli 1793', ['14. Juli 1789', '9. November 1799', '21. Januar 1793'], 'Marat wurde am 13. Juli 1793 ermordet und von David als Märtyrer gemalt.'],
       ['Welche Inschrift steht auf der Holzkiste in Davids „Tod des Marat“?', '„À Marat, David“', ['„Vive la République“', '„Liberté“', '„Mort aux tyrans“'], 'Die Kiste trägt die Widmung „À Marat, David“.'],
-      ['Wofür stimmte Jacques-Louis David 1793?', 'Für den Tod Ludwigs XVI.', ['Für die Begnadigung des Königs', 'Für die Republik allein', 'Für Napoleon'], 'David stimmte im Nationalkonvent für den Tod Ludwigs XVI.'],
+      ['Wofür stimmte Jacques-Louis David 1793?', 'Für den Tod Ludwigs XVI.', ['Für die Begnadigung des Königs', 'Für die Republik', 'Für Napoleon'], 'David stimmte im Nationalkonvent für den Tod Ludwigs XVI.'],
       ['Wann entstand Davids Gemälde „Napoleon überquert den Großen Sankt Bernhard“?', '1801', ['1784', '1793', '1815'], 'Das Gemälde entstand 1801.'],
       ['Welche Namen stehen auf den Felsen in Davids Napoleon-Gemälde?', 'Hannibal, Karl der Große und Bonaparte', ['Caesar, Alexander und Napoleon', 'Hannibal, Alexander, Caesar', 'Ludwig, Karl, Heinrich'], 'Die Namen sollen Napoleon in eine Reihe mit Hannibal und Karl dem Großen stellen.'],
       ['Welches Ereignis malte David 1807?', 'Die Krönung Napoleons', ['Die Schlacht bei Austerlitz', 'Den Sturm auf die Bastille', 'Den Tod Robespierres'], 'Das Gemälde „Die Krönung Napoleons“ (1807) ist rund 10 Meter breit.'],

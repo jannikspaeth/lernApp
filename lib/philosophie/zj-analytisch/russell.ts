@@ -44,7 +44,7 @@ export const RUSSELL: Subtopic = {
     ],
     schwer: [
       ['Wann erschien Freges „Begriffsschrift“?', '1879', ['1902', '1848', '1913'], 'Die Geburt der modernen Logik.'],
-      ['Was führte Frege in die Logik ein?', 'Quantoren wie „für alle“ und „es gibt“', ['Den Syllogismus', 'Wahrheitstafeln allein', 'Die Null'], 'Weit über Aristoteles hinaus.'],
+      ['Was führte Frege in die Logik ein?', 'Quantoren wie „für alle“ und „es gibt“', ['Den Syllogismus', 'Wahrheitstafeln', 'Die Null'], 'Weit über Aristoteles hinaus.'],
       ['Welche Konferenzen gingen aus dem Russell-Einstein-Manifest hervor?', 'Die Pugwash-Konferenzen', ['Die Haager Konferenzen', 'Die Konferenz von Jalta', 'Die Genfer Konventionen'], 'Friedensnobelpreis 1995.'],
       ['Welche drei Leidenschaften beherrschten nach Russell sein Leben?', 'Sehnsucht nach Liebe, Suche nach Erkenntnis, Mitleid mit der Menschheit', ['Geld, Macht und Ruhm', 'Mathematik, Musik und Malerei', 'Reisen, Essen und Schlafen'], 'Aus dem Prolog seiner Autobiografie.'],
       ['Was gründete Russell gegen den Vietnamkrieg?', 'Das Russell-Tribunal', ['Die NATO', 'Die Grünen', 'Amnesty International'], 'Ein Meinungstribunal.'],

@@ -34,7 +34,7 @@ export const TOLSTOI: Subtopic = {
       ['Wann erschien „Krieg und Frieden“?', '1869', ['1849', '1877', '1889'], null],
       ['Wie viele Figuren kommen in „Krieg und Frieden“ vor?', 'Über 500', ['Rund 50', 'Rund 5.000', 'Genau 100'], null],
       ['Welchen Zeitraum umfasst „Krieg und Frieden“?', '1805 bis 1820', ['1789 bis 1799', '1830 bis 1848', '1853 bis 1856'], null],
-      ['Was stellt Tolstoi in „Krieg und Frieden“ infrage?', 'Dass große Männer die Geschichte lenken', ['Die Existenz Napoleons', 'Die Religion', 'Die Monarchie allein'], null],
+      ['Was stellt Tolstoi in „Krieg und Frieden“ infrage?', 'Dass große Männer die Geschichte lenken', ['Die Existenz Napoleons', 'Die Religion', 'Die Monarchie'], null],
       ['Wie beginnt „Anna Karenina“?', 'Alle glücklichen Familien gleichen einander', ['Es war einmal', 'Der Mensch ist frei geboren', 'Nennt mich Ismael'], null],
       ['Wann erschien „Anna Karenina“?', '1877', ['1857', '1887', '1869'], null],
       ['Welche Figur in „Anna Karenina“ trägt Züge Tolstois?', 'Lewin', ['Wronski', 'Karenin', 'Oblonski'], null],

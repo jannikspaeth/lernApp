@@ -46,7 +46,7 @@ export const ERASMUS: Subtopic = {
       ['Bei welchem Drucker erschien Erasmus’ Neues Testament?', 'Bei Froben in Basel', ['Bei Gutenberg in Mainz', 'Bei Aldus in Venedig', 'Bei Caxton in London'], '1516.'],
       ['Wie heißt der Erzähler in „Utopia“?', 'Raphael Hythlodaeus', ['Hans Castorp', 'Lemuel Gulliver', 'Robinson Crusoe'], 'Sein Name bedeutet etwa „Schwätzer“.'],
       ['Was sagte Morus auf dem Schafott?', 'Er sterbe als „des Königs guter Diener, aber Gottes zuerst“', ['„Es lebe der König!“', '„Ich bereue alles.“', '„Mehr Licht!“'], 'Ein Bekenntnis zum Gewissen.'],
-      ['Wozu erklärte Johannes Paul II. Morus im Jahr 2000?', 'Zum Patron der Politiker', ['Zum Kirchenlehrer', 'Zum Märtyrer Englands allein', 'Zum Schutzheiligen der Juristen allein'], 'Heiliggesprochen wurde er 1935.'],
+      ['Wozu erklärte Johannes Paul II. Morus im Jahr 2000?', 'Zum Patron der Politiker', ['Zum Kirchenlehrer', 'Zum Märtyrer Englands', 'Zum Schutzheiligen der Juristen'], 'Heiliggesprochen wurde er 1935.'],
       ['In welches Kloster kam Erasmus als junger Mann?', 'Ins Augustinerkloster Steyn', ['Nach Cluny', 'Nach Montecassino', 'Nach Wittenberg'], 'Gedrängt von seinen Vormündern.'],
       ['Wann erschien die „Klage des Friedens“?', '1517', ['1509', '1524', '1536'], 'Eine frühe Friedensschrift.'],
       ['Wie oft wurde das „Lob der Torheit“ zu Erasmus’ Lebzeiten gedruckt?', 'Über 30-mal', ['Einmal', 'Dreimal', 'Nie'], 'Ein Bestseller.'],

@@ -24,7 +24,7 @@ export const HUGO: Subtopic = {
       ['Wie heißt die junge Frau in „Der Glöckner von Notre-Dame“?', 'Esmeralda', ['Cosette', 'Fantine', 'Éponine'], null],
       ['Welche Epoche setzte Hugo mit „Hernani“ durch?', 'Die Romantik', ['Die Klassik', 'Den Realismus', 'Den Naturalismus'], null],
       ['Wohin musste Hugo 1851 fliehen?', 'Ins Exil', ['Nach Algerien', 'Aufs Land', 'Ins Kloster'], null],
-      ['Auf welcher Insel lebte Hugo lange im Exil?', 'Auf Guernsey', ['Auf Korsika', 'Auf Elba', 'Auf Jersey allein'], null],
+      ['Auf welcher Insel lebte Hugo lange im Exil?', 'Auf Guernsey', ['Auf Korsika', 'Auf Elba', 'Auf Jersey'], null],
       ['Was bekam Hugo nach seinem Tod?', 'Ein Staatsbegräbnis', ['Ein Grab im Garten', 'Eine stille Beisetzung', 'Ein Grab in Guernsey'], null],
     ],
     mittel: [
@@ -42,7 +42,7 @@ export const HUGO: Subtopic = {
       ['Wie viele Menschen säumten bei seinem Begräbnis die Straßen?', 'Etwa zwei Millionen', ['Etwa zweitausend', 'Etwa zwanzigtausend', 'Etwa zwanzig Millionen'], null],
     ],
     schwer: [
-      ['Was klagt „Die Elenden“ an?', 'Ein Rechtssystem, das den Armen keine zweite Chance lässt', ['Die Kirche', 'Die Monarchie allein', 'Die Industrie'], null],
+      ['Was klagt „Die Elenden“ an?', 'Ein Rechtssystem, das den Armen keine zweite Chance lässt', ['Die Kirche', 'Die Monarchie', 'Die Industrie'], null],
       ['Was wird aus Jean Valjean nach der Entlassung aus dem Bagno?', 'Ein rechtschaffener Fabrikant und Bürgermeister', ['Ein Räuber', 'Ein Soldat', 'Ein Priester'], null],
       ['Welche drei Gattungen bediente Hugo?', 'Lyrik, Drama und Roman', ['Nur den Roman', 'Nur das Drama', 'Nur die Lyrik'], 'Dazu kamen politische Schriften.'],
       ['Wie änderte sich Hugos politische Haltung?', 'Vom Royalisten zum Demokraten', ['Vom Demokraten zum Royalisten', 'Sie blieb gleich', 'Er war immer unpolitisch'], null],

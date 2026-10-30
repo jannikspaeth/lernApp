@@ -49,7 +49,7 @@ export const DUERER: Subtopic = {
       ['Wie hieß Dürers Lehrbuch über den Körper?', 'Vier Bücher von menschlicher Proportion', ['Die Kunst des Zeichnens', 'Der Maler', 'Anatomie des Menschen'], 'Das Buch erschien 1528 kurz nach seinem Tod.'],
       ['Wo steht Dürers Haus heute als Museum?', 'In Nürnberg am Tiergärtnertor', ['In München', 'In Wien', 'In Augsburg'], 'Das Haus wurde 1509 von Dürer gekauft und ist heute Museum.'],
       ['Was hielt Dürer von der Reformation?', 'Er war Anhänger und bewunderte Luther', ['Er lehnte sie ab', 'Er war neutral', 'Er bekämpfte sie'], 'Er bewunderte Luther, seine religiöse Kunst zeigt evangelische Züge.'],
-      ['Warum konnte Dürer sein Werk in ganz Europa verbreiten?', 'Durch Holzschnitt und Kupferstich', ['Durch gemalte Kopien', 'Durch seine Reisen allein', 'Durch Briefe'], 'Bilder in vielen Abzügen ließen sich leicht verbreiten; Dürer vertrieb seine Drucke selbst.'],
+      ['Warum konnte Dürer sein Werk in ganz Europa verbreiten?', 'Durch Holzschnitt und Kupferstich', ['Durch gemalte Kopien', 'Durch seine Reisen', 'Durch Briefe'], 'Bilder in vielen Abzügen ließen sich leicht verbreiten; Dürer vertrieb seine Drucke selbst.'],
       ['In welchem Jahr starb Dürer?', '1528', ['1498', '1513', '1543']],
     ],
   },

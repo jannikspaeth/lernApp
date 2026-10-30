@@ -46,7 +46,7 @@ export const UEBERBLICK: Subtopic = {
       ['Wie wirken Gebäude der Renaissance?', 'Ruhig, geordnet und geometrisch', ['Bewegt und überladen', 'Düster und eng', 'Spitz und himmelwärts']],
       ['Was erzeugt barocke Deckenmalerei?', 'Illusion eines offenen Himmels', ['Eine Landkarte', 'Ein Ornament', 'Ein Wappen'], 'Barocke Deckenmalerei tut so, als öffne sich der Himmel.'],
       ['Welche Anlage war Vorbild für viele Fürsten?', 'Versailles', ['Der Louvre', 'Der Escorial', 'Der Kreml'], 'Fürsten von Wien bis Sankt Petersburg bauten ihre eigenen Versailles-Nachfolger.'],
-      ['Welcher Maßstab galt in der Renaissance?', 'Der Mensch', ['Gott allein', 'Der König', 'Die Natur']],
+      ['Welcher Maßstab galt in der Renaissance?', 'Der Mensch', ['Gott', 'Der König', 'Die Natur']],
       ['Wohin wirkten Palladios Villen?', 'Nach England und Amerika', ['Nach Asien', 'Nach Russland', 'Nach Afrika'], 'Palladios Villen wurden bis nach England und Amerika nachgeahmt.'],
       ['Wann endete der Barock etwa?', 'Um 1750', ['Um 1550', 'Um 1650', 'Um 1850'], 'Nach 1750 löste der Klassizismus den Barock ab.'],
       ['Wer wollte mit barocken Kirchen die Gläubigen überwältigen?', 'Die katholische Kirche', ['Die Reformatoren', 'Die Händler', 'Die Zünfte'], 'Die Gegenreformation setzte auf die Wirkung prunkvoller Kirchen.'],

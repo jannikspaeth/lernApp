@@ -36,7 +36,7 @@ export const BULGAKOW_PASTERNAK: Subtopic = {
       ['Wie lange arbeitete Bulgakow an „Der Meister und Margarita“?', 'Von 1928 bis zu seinem Tod', ['Ein Jahr', 'Fünf Jahre', 'Zwanzig Jahre nach dem Krieg'], null],
       ['Wann erschien „Der Meister und Margarita“?', '1966/67', ['1940', '1957', '1989'], 'Zunächst gekürzt in einer Zeitschrift.'],
       ['Wann lebte Pasternak?', '1890–1960', ['1891–1940', '1889–1966', '1918–2008'], null],
-      ['Als was war Pasternak zuerst angesehen?', 'Als Lyriker', ['Als Dramatiker', 'Als Journalist', 'Als Übersetzer allein'], null],
+      ['Als was war Pasternak zuerst angesehen?', 'Als Lyriker', ['Als Dramatiker', 'Als Journalist', 'Als Übersetzer'], null],
       ['Warum durfte „Doktor Schiwago“ nicht erscheinen?', 'Er zeigte die Revolution nicht als Heilsgeschichte', ['Er war zu lang', 'Er war auf Italienisch', 'Er war unvollendet'], null],
       ['Was geschah mit Pasternak nach dem Nobelpreis?', 'Er wurde aus dem Schriftstellerverband ausgeschlossen', ['Er wurde gefeiert', 'Er wurde verhaftet', 'Er durfte ausreisen'], null],
       ['Wie entschied sich Pasternak 1958 nach dem Nobelpreis?', 'Er lehnte den Preis ab und blieb', ['Er nahm ihn an und emigrierte', 'Er schwieg', 'Er floh heimlich'], null],

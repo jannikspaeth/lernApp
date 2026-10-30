@@ -24,7 +24,7 @@ export const UEBERBLICK: Subtopic = {
       ['Welche Kirche ließ Karl der Große in Aachen bauen?', 'Die Pfalzkapelle', ['Den Kölner Dom', 'Den Petersdom', 'Die Hagia Sophia']],
       ['Wie wirken romanische Kirchen?', 'Wuchtig mit dicken Mauern', ['Leicht und filigran', 'Hell und lichtdurchflutet', 'Hoch und schlank'], 'Dicke Mauern und kleine Fenster trugen die schweren Steingewölbe.'],
       ['Wodurch wurden gotische Fenster möglich?', 'Durch das Strebewerk', ['Durch dickere Mauern', 'Durch Holzbalken', 'Durch Kuppeln'], 'Das Strebewerk fing den Gewölbeschub ab, die Wände konnten für große Fenster geöffnet werden.'],
-      ['Wer baute die gotischen Kathedralen?', 'Die Bauhütten', ['Die Armee', 'Leibeigene Bauern allein', 'Mönche ohne Handwerker'], 'In den Bauhütten arbeiteten Steinmetze, Maurer und Zimmerleute unter einem Baumeister.'],
+      ['Wer baute die gotischen Kathedralen?', 'Die Bauhütten', ['Die Armee', 'Leibeigene Bauern', 'Mönche ohne Handwerker'], 'In den Bauhütten arbeiteten Steinmetze, Maurer und Zimmerleute unter einem Baumeister.'],
     ],
     mittel: [
       ['Wann entstand die Hagia Sophia?', '532–537', ['332–337', '732–737', '1032–1037']],

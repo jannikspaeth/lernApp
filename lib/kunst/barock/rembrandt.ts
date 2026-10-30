@@ -49,7 +49,7 @@ export const REMBRANDT: Subtopic = {
       ['Was nimmt Rembrandts Spätwerk vorweg?', 'Die freie Malweise späterer Epochen', ['Die Romanik', 'Die antike Malerei', 'Den Manierismus']],
       ['Wie heißt Rembrandts Haus in Amsterdam heute?', 'Museum Het Rembrandthuis', ['Rijksmuseum', 'Mauritshuis', 'Stedelijk'], 'Das Haus in Amsterdam ist heute das Museum Het Rembrandthuis.'],
       ['Welchen Zeitraum begleiten Rembrandts Selbstbildnisse?', 'Sein ganzes Leben', ['Nur die Jugend', 'Nur das Alter', 'Nur Amsterdam']],
-      ['Welche Stimmung zeigen Rembrandts späte Selbstbildnisse?', 'Innere Gefühle wie Nachdenklichkeit und Trauer', ['Heiterkeit', 'Stolz allein', 'Zorn']],
+      ['Welche Stimmung zeigen Rembrandts späte Selbstbildnisse?', 'Innere Gefühle wie Nachdenklichkeit und Trauer', ['Heiterkeit', 'Stolz', 'Zorn']],
       ['Wie endete Rembrandts Leben?', 'In Armut', ['Reich und geehrt', 'Im Exil in London', 'Als Hofmaler in Den Haag'], 'Er starb 1669 verarmt in Amsterdam und wurde in der Westerkerk beigesetzt.'],
     ],
   },

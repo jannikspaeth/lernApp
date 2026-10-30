@@ -26,7 +26,7 @@ export const BERKELEY: Subtopic = {
       ['Wie nennt man Berkeleys Lehre?', 'Immaterialismus (subjektiver Idealismus)', ['Materialismus', 'Empirismus ohne Gott', 'Atomismus'], 'Es gibt nur Geister und ihre Ideen.'],
       ['Wo studierte Berkeley?', 'Am Trinity College in Dublin', ['In Oxford', 'In Cambridge', 'In Edinburgh'], 'Mit 15 Jahren.'],
       ['Wofür warb Berkeley als Heilmittel?', 'Für Teerwasser', ['Für Wein', 'Für Kaffee', 'Für Tabak'], 'In seiner Schrift „Siris“.'],
-      ['Wessen Ideen ging Berkeley aus und führte sie weiter?', 'Lockes', ['Platons', 'Descartes’ allein', 'Hobbes’'], 'Er radikalisierte den Empirismus.'],
+      ['Wessen Ideen ging Berkeley aus und führte sie weiter?', 'Lockes', ['Platons', 'Descartes’', 'Hobbes’'], 'Er radikalisierte den Empirismus.'],
     ],
     mittel: [
       ['Wie heißen die Figuren in Berkeleys Dialogen?', 'Hylas und Philonous', ['Sokrates und Platon', 'Candide und Pangloss', 'Hiob und Gott'], 'Materie gegen Freund des Geistes.'],
@@ -48,7 +48,7 @@ export const BERKELEY: Subtopic = {
       ['Welches Buch veröffentlichte Berkeley 1709?', '„Versuch über eine neue Theorie des Sehens“', ['„Siris“', '„Drei Dialoge“', '„Der Analytiker“'], 'Über Entfernung und Größe im Sehen.'],
       ['Wann reiste Berkeley nach Amerika?', '1728', ['1709', '1734', '1750'], 'Mit seiner Frau.'],
       ['Was sollte nach Berkeley der, der Newtons Analysis glaubt, nicht tun?', 'Sich über die Geheimnisse der Religion beklagen', ['Mathematik studieren', 'In die Kirche gehen', 'Bücher lesen'], 'Aus „Der Analytiker“ (1734).'],
-      ['Welcher Positivist wurde von Berkeley beeinflusst?', 'Ernst Mach', ['Auguste Comte allein', 'Karl Marx', 'Friedrich Nietzsche'], 'Auch die Psychologie des Sehens.'],
+      ['Welcher Positivist wurde von Berkeley beeinflusst?', 'Ernst Mach', ['Auguste Comte', 'Karl Marx', 'Friedrich Nietzsche'], 'Auch die Psychologie des Sehens.'],
       ['Wo starb Berkeley?', 'In Oxford', ['In Dublin', 'In Cloyne', 'In London'], 'Am 14. Januar 1753.'],
       ['Wann erschien „Siris“?', '1744', ['1710', '1713', '1753'], 'Erfolgreicher als seine Philosophie.'],
       ['Warum ist eine unwahrnehmbare Materie nach Berkeley widersprüchlich?', 'Etwas Unwahrnehmbares könnte unseren Vorstellungen nicht ähneln', ['Weil sie zu schwer ist', 'Weil sie heilig ist', 'Weil sie sich bewegt'], 'Eine Idee kann nur einer Idee gleichen.'],

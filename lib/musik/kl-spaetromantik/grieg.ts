@@ -38,7 +38,7 @@ export const GRIEG: Subtopic = {
       ['Wie beginnt Griegs Klavierkonzert?', 'Mit einem Paukenwirbel und einem Sturz des Klaviers', ['Mit einem langen Orchestervorspiel', 'Mit einem Chor', 'Mit einem Flötensolo'], 'Ein dramatischer Anfang, der sofort berühmt wurde.'],
       ['Welches Konzert ist das?', 'Griegs Klavierkonzert a-Moll', ['Tschaikowskys Klavierkonzert Nr. 1', 'Schumanns Klavierkonzert', 'Mozarts Klavierkonzert Nr. 21'], 'Paukenwirbel und Klaviersturz von hoch nach tief.', 'h-grieg-klavierkonzert'],
       ['Wer spielte Griegs Klavierkonzert in Rom vom Blatt?', 'Franz Liszt', ['Clara Schumann', 'Johannes Brahms', 'Anton Rubinstein'], 'Liszt ermutigte den jungen Grieg sehr.'],
-      ['Wo spielt die „Morgenstimmung“ eigentlich im Drama?', 'In der Wüste Marokkos', ['In einem norwegischen Fjord', 'Auf einem Berg', 'In Paris'], 'Peer Gynt ist dort ein reicher Abenteurer.'],
+      ['Wo spielt die „Morgenstimmung“ eigentlich in Ibsens „Peer Gynt“?', 'In der Wüste Marokkos', ['In einem norwegischen Fjord', 'Auf einem Berg', 'In Paris'], 'Peer Gynt ist dort ein reicher Abenteurer.'],
       ['Zu wem kehrt Peer Gynt im Alter heim?', 'Zu Solveig', ['Zu Anitra', 'Zu Åse', 'Zu Ingrid'], 'Åse ist seine Mutter.'],
       ['Für welches Jubiläum schrieb Grieg die „Holberg-Suite“?', 'Für den 200. Geburtstag Ludvig Holbergs', ['Für Ibsens 50. Geburtstag', 'Für die Unabhängigkeit Norwegens', 'Für seine Hochzeit'], 'Holberg war ein dänisch-norwegischer Dichter des 18. Jahrhunderts.'],
       ['Welches Lied schrieb Grieg nach Hans Christian Andersen?', '„Ich liebe dich“', ['„Solveigs Lied“', '„Heidenröslein“', '„Ständchen“'], 'Auf Dänisch „Jeg elsker dig“.'],

@@ -43,7 +43,7 @@ export const VOLTAIRE_ROUSSEAU: Subtopic = {
     ],
     schwer: [
       ['Was erlebt Candide auf seiner Reise?', 'Krieg, Erdbeben, Folter und Betrug', ['Nur Glück', 'Eine Liebesgeschichte ohne Hindernis', 'Ein ruhiges Landleben'], null],
-      ['Was kritisiert Voltaires „Candide“?', 'Den Optimismus, der alles Leid rechtfertigt', ['Die Monarchie allein', 'Die Wissenschaft', 'Den Handel'], null],
+      ['Was kritisiert Voltaires „Candide“?', 'Den Optimismus, der alles Leid rechtfertigt', ['Die Monarchie', 'Die Wissenschaft', 'Den Handel'], null],
       ['Was bewunderte Voltaire an England?', 'Die größere Freiheit', ['Das Klima', 'Die Küche', 'Die Flotte'], null],
       ['Wie endete Voltaires Aufenthalt bei Friedrich dem Großen?', 'Die beiden zerstritten sich', ['Voltaire wurde Minister', 'Voltaire blieb bis zum Tod', 'Der König schickte ihn nach Russland'], null],
       ['Was begründet „Der Gesellschaftsvertrag“?', 'Die Volkssouveränität', ['Das Gottesgnadentum', 'Die Gewaltenteilung', 'Den freien Handel'], null],

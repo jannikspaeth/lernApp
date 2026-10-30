@@ -15,7 +15,7 @@ export const UEBERBLICK: Subtopic = {
   ],
   quiz: {
     leicht: [
-      ['Was behauptet der Empirismus?', 'Alles Wissen stammt aus der Erfahrung', ['Alles Wissen ist angeboren', 'Wissen ist unmöglich', 'Wissen kommt von Gott allein'], 'Von griechisch empeiria.'],
+      ['Was behauptet der Empirismus?', 'Alles Wissen stammt aus der Erfahrung', ['Alles Wissen ist angeboren', 'Wissen ist unmöglich', 'Wissen kommt von Gott'], 'Von griechisch empeiria.'],
       ['Womit verglich Locke den Geist eines Neugeborenen?', 'Mit einem unbeschriebenen Blatt', ['Mit einem vollen Buch', 'Mit einem Spiegel', 'Mit einem Uhrwerk'], 'Lateinisch tabula rasa.'],
       ['In welchem Land entwickelte sich der Empirismus vor allem?', 'In Großbritannien', ['In Frankreich', 'In Italien', 'In Deutschland'], 'Hobbes, Locke, Berkeley, Hume.'],
       ['Welcher König wurde 1649 enthauptet?', 'Karl I. von England', ['Ludwig XVI.', 'Heinrich VIII.', 'Jakob II.'], 'Nach dem Bürgerkrieg.'],

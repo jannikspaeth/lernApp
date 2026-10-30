@@ -50,7 +50,7 @@ export const HANS_ZIMMER: Subtopic = {
       ['Wann gewann Zimmer seinen ersten Oscar?', '1995', ['1988', '2000', '2010'], 'Für „Der König der Löwen“.'],
       ['Wann kam „Inception“ heraus?', '2010', ['2005', '2014', '2017'], 'Ein Film über Träume.'],
       ['Wann kam „Interstellar“ heraus?', '2014', ['2010', '2017', '2021'], 'Ein Film über Raumfahrt.'],
-      ['Wann gewann Zimmer seinen zweiten Oscar?', 'Für „Dune“ (2021)', ['Für „Gladiator“ (2000)', 'Für „Inception“ (2010)', 'Für „Interstellar“ (2014)'], 'Verliehen 2022.'],
+      ['Wofür und wann gewann Hans Zimmer seinen zweiten Oscar?', 'Für „Dune“ (2021)', ['Für „Gladiator“ (2000)', 'Für „Inception“ (2010)', 'Für „Interstellar“ (2014)'], 'Verliehen 2022.'],
       ['Wie viele Filmmusiken hat Zimmer ungefähr geschrieben?', 'Über 150', ['Etwa 15', 'Etwa 50', 'Über 1.500'], 'Für Filme aller Art.'],
       ['Seit wann tourt Zimmer mit großen Live-Shows?', 'Seit 2016', ['Seit 1990', 'Seit 2005', 'Seit 2023'], 'Durch Europa und die USA.'],
     ],

@@ -15,7 +15,7 @@ export const CAMUS: Subtopic = {
   ],
   quiz: {
     leicht: [
-      ['Welches Grundgefühl beschreibt Camus?', 'Das Absurde', ['Die Liebe', 'Die Hoffnung', 'Die Langeweile allein'], 'Der Mensch sucht Sinn, die Welt schweigt.'],
+      ['Welches Grundgefühl beschreibt Camus?', 'Das Absurde', ['Die Liebe', 'Die Hoffnung', 'Die Langeweile'], 'Der Mensch sucht Sinn, die Welt schweigt.'],
       ['Wer ist auf diesem Bild zu sehen?', 'Albert Camus', ['Jean-Paul Sartre', 'André Gide', 'Antoine de Saint-Exupéry'], 'Ein bekanntes Porträtfoto.', 'camus'],
       ['In welchem Land wurde Camus geboren?', 'In Algerien', ['In Frankreich', 'In Marokko', 'In Tunesien'], 'Damals französische Kolonie.'],
       ['Wie heißt Camus’ Roman von 1942 über Meursault?', '„Der Fremde“', ['„Die Pest“', '„Der Ekel“', '„Der Prozess“'], 'L’Étranger.'],
@@ -25,12 +25,12 @@ export const CAMUS: Subtopic = {
       ['Welchen Preis erhielt Camus 1957?', 'Den Literaturnobelpreis', ['Den Prix Goncourt', 'Den Friedensnobelpreis', 'Den Goethe-Preis'], 'Mit 44 Jahren.'],
       ['Wie starb Camus?', 'Bei einem Autounfall', ['An Tuberkulose', 'Im Krieg', 'Im Gefängnis'], 'Am 4. Januar 1960.'],
       ['Welche Position spielte Camus als Jugendlicher im Fußball?', 'Torwart', ['Stürmer', 'Verteidiger', 'Mittelfeld'], 'Bis zur Tuberkulose.'],
-      ['Mit wem brach Camus 1952 öffentlich?', 'Mit Sartre', ['Mit de Gaulle', 'Mit Malraux', 'Mit Beauvoir allein'], 'Wegen „Der Mensch in der Revolte“.'],
+      ['Mit wem brach Camus 1952 öffentlich?', 'Mit Sartre', ['Mit de Gaulle', 'Mit Malraux', 'Mit Beauvoir'], 'Wegen „Der Mensch in der Revolte“.'],
       ['Welcher Widerstandsbewegung schloss sich Camus an?', 'Der Résistance', ['Der Fremdenlegion', 'Der Vichy-Regierung', 'Der Kommunistischen Internationale'], 'Er leitete die Zeitung „Combat“.'],
     ],
     mittel: [
       ['Was ist nach Camus das einzige ernste philosophische Problem?', 'Der Selbstmord – ob das Leben sich lohnt', ['Die Existenz Gottes', 'Die Erkenntnis der Natur', 'Die beste Staatsform'], 'Erster Satz des „Mythos“.'],
-      ['Woraus entsteht das Absurde?', 'Aus dem Zusammenprall von Sinnverlangen und dem Schweigen der Welt', ['Aus Dummheit', 'Aus dem Willen Gottes', 'Aus Armut allein'], 'Ein Verhältnis zwischen Mensch und Welt.'],
+      ['Woraus entsteht das Absurde?', 'Aus dem Zusammenprall von Sinnverlangen und dem Schweigen der Welt', ['Aus Dummheit', 'Aus dem Willen Gottes', 'Aus Armut'], 'Ein Verhältnis zwischen Mensch und Welt.'],
       ['Was nennt Camus „philosophischen Selbstmord“?', 'Die Flucht in Religion oder Jenseitshoffnung', ['Den Tod eines Philosophen', 'Das Aufgeben der Philosophie für Geld', 'Den Schierlingsbecher'], 'Eine Ausflucht vor dem Absurden.'],
       ['Wie lautet der erste Satz von „Der Fremde“?', '„Heute ist Mama gestorben. Vielleicht auch gestern, ich weiß es nicht.“', ['„Ich bin ein Fremder.“', '„Es war ein heißer Tag.“', '„Ich habe einen Mann getötet.“'], 'Ein berühmter Romananfang.'],
       ['Wofür wird Meursault eigentlich verurteilt?', 'Dafür, dass er die erwarteten Gefühle nicht zeigt', ['Für Diebstahl', 'Für Verrat', 'Für Gotteslästerung'], 'Er weinte nicht am Grab der Mutter.'],
@@ -40,7 +40,7 @@ export const CAMUS: Subtopic = {
       ['Wem widmete Camus seine Nobelpreisrede?', 'Seinem Lehrer Louis Germain', ['Seiner Mutter', 'Sartre', 'De Gaulle'], 'Er hatte ihm das Gymnasium ermöglicht.'],
       ['Woran erkrankte Camus mit 17 Jahren?', 'An Tuberkulose', ['An Malaria', 'An Krebs', 'An der Pest'], 'Sie begleitete ihn lebenslang.'],
       ['Was fand man nach dem Unfall in Camus’ Tasche?', 'Eine ungenutzte Zugfahrkarte', ['Einen Liebesbrief', 'Den Nobelpreis', 'Eine Pistole'], 'Er war doch mit dem Auto gefahren.'],
-      ['Wie stand Camus im Algerienkrieg?', 'Zwischen den Fronten, für Versöhnung', ['Für die französischen Kolonialisten', 'Für die Unabhängigkeitsbewegung allein', 'Gleichgültig'], 'Er verurteilte Folter und Terror.'],
+      ['Wie stand Camus im Algerienkrieg?', 'Zwischen den Fronten, für Versöhnung', ['Für die französischen Kolonialisten', 'Für die Unabhängigkeitsbewegung', 'Gleichgültig'], 'Er verurteilte Folter und Terror.'],
     ],
     schwer: [
       ['Wie heißt Camus’ Geburtsort heute?', 'Dréan', ['Oran', 'Algier', 'Constantine'], 'Früher Mondovi.'],

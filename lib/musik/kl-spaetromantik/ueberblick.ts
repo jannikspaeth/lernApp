@@ -25,7 +25,7 @@ export const UEBERBLICK: Subtopic = {
       ['Aus welchem Land stammte Jean Sibelius?', 'Aus Finnland', ['Aus Schweden', 'Aus Norwegen', 'Aus Dänemark'], 'Er gilt als Nationalkomponist Finnlands.'],
       ['Welches Tier ist das berühmteste Stück im „Karneval der Tiere“?', 'Der Schwan', ['Der Löwe', 'Der Elefant', 'Das Känguru'], 'Saint-Saëns ließ das Werk zu Lebzeiten nur den Schwan veröffentlichen.'],
       ['Welche Musikerfamilie regierte in Wien mit Walzern?', 'Die Familie Strauss', ['Die Familie Bach', 'Die Familie Mozart', 'Die Familie Wagner'], 'Vater Johann und die Söhne Johann, Josef und Eduard.'],
-      ['Was kam um 1900 als neue Erfindung auf?', 'Die Schallplatte', ['Das Radio', 'Der CD-Player', 'Das Klavier'], 'Thomas Edison hatte 1877 den Phonographen erfunden.'],
+      ['Was kam um 1900 als neue Erfindung auf?', 'Die Schallplatte', ['Das Radio', 'Das Tonband', 'Der CD-Player'], 'Thomas Edison hatte 1877 den Phonographen erfunden.'],
       ['Wer ist auf diesem Bild zu sehen?', 'Anton Bruckner', ['Johannes Brahms', 'Gustav Mahler', 'Richard Wagner'], 'Der Organist aus Oberösterreich schrieb neun gewaltige Sinfonien.', 'bruckner'],
       ['Welcher englische Marsch erklingt bei der „Last Night of the Proms“?', '„Pomp and Circumstance“', ['„Land of the Free“', '„God Save the King“', 'Der „Radetzky-Marsch“'], 'Mit dem Text „Land of Hope and Glory“.'],
     ],

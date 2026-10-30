@@ -45,7 +45,7 @@ export const BUECHNER: Subtopic = {
       ['Was ist formal neu an „Woyzeck“?', 'Kurze Szenen ohne feste Reihenfolge', ['Fünf Akte nach klassischem Vorbild', 'Durchgehender Blankvers', 'Ein Chor wie in der Antike'], null],
       ['Warum war ein einfacher Soldat wie Woyzeck als tragische Figur neu?', 'Tragische Helden waren bis dahin meist hochgestellt', ['Soldaten durften nicht auftreten', 'Es gab keine Soldatenstücke', 'Die Zensur verbot es'], null],
       ['Was sagt Danton in Büchners Drama über die Revolution?', 'Sie frisst ihre eigenen Kinder wie Saturn', ['Sie ist die Mutter der Freiheit', 'Sie ist ein Gewitter', 'Sie ist der Wille des Volkes'], null],
-      ['Was zeigt Büchners „Dantons Tod“ statt Helden?', 'Menschen, die von der Entwicklung mitgerissen werden', ['Vorbildliche Revolutionäre', 'Siegreiche Feldherren', 'Unschuldige Opfer allein'], null],
+      ['Was zeigt Büchners „Dantons Tod“ statt Helden?', 'Menschen, die von der Entwicklung mitgerissen werden', ['Vorbildliche Revolutionäre', 'Siegreiche Feldherren', 'Unschuldige Opfer'], null],
       ['Was rechnet Büchners „Hessischer Landbote“ vor?', 'Wie viel von der Arbeit der Bauern an den Hof geht', ['Wie viele Soldaten es gibt', 'Wie teuer das Brot ist', 'Wie viele Adlige leben'], null],
       ['Wie wurde Büchners Flugschrift den Behörden bekannt?', 'Sie wurde verraten', ['Sie wurde zufällig gefunden', 'Büchner gestand selbst', 'Ein Verlag meldete sie'], null],
       ['Auf welche späteren Autoren wirkte Büchner?', 'Auf Hauptmann, Wedekind und Brecht', ['Auf Goethe und Schiller', 'Auf Novalis und Tieck', 'Auf Lessing und Herder'], null],

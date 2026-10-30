@@ -23,7 +23,7 @@ export const UEBERBLICK: Subtopic = {
       ['In welcher Stadt wurde der Existentialismus nach 1945 zur Mode?', 'In Paris', ['In Berlin', 'In Rom', 'In London'], 'In Saint-Germain-des-Prés.'],
       ['Was geht nach Sartre der Essenz voraus?', 'Die Existenz', ['Gott', 'Die Natur', 'Der Staat'], 'Der Mensch entwirft sich selbst.'],
       ['Welches Etikett wies Camus zurück?', '„Existentialist“', ['„Schriftsteller“', '„Franzose“', '„Nobelpreisträger“'], 'Er sprach vom Absurden.'],
-      ['In welchem Café trafen sich Sartre und Beauvoir?', 'Im „Café de Flore“', ['Im „Café Central“', 'Im „Café Sacher“', 'Im „Café Procope“ allein'], 'Und im „Les Deux Magots“.'],
+      ['In welchem Café trafen sich Sartre und Beauvoir?', 'Im „Café de Flore“', ['Im „Café Central“', 'Im „Café Sacher“', 'Im „Café Procope“'], 'Und im „Les Deux Magots“.'],
       ['Wo wurde Edith Stein ermordet?', 'In Auschwitz', ['In Dachau', 'In Buchenwald', 'In Theresienstadt'], '1942.'],
       ['Wer sprach von „Grenzsituationen“?', 'Karl Jaspers', ['Edmund Husserl', 'Albert Camus', 'Max Scheler'], 'Tod, Leiden, Kampf, Schuld.'],
       ['Wer ist auf diesem Bild zu sehen?', 'Edmund Husserl', ['Sigmund Freud', 'Max Weber', 'Karl Marx'], 'Der Begründer der Phänomenologie.', 'husserl'],

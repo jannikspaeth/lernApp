@@ -19,7 +19,7 @@ export const BEAUVOIR: Subtopic = {
       ['Welcher Satz stammt von Beauvoir?', '„Man kommt nicht als Frau zur Welt, man wird es.“', ['„Die Hölle, das sind die anderen.“', '„Ich denke, also bin ich.“', '„Gott ist tot.“'], 'Aus „Das andere Geschlecht“.'],
       ['Wer ist auf diesem Bild zu sehen?', 'Simone de Beauvoir', ['Hannah Arendt', 'Marguerite Duras', 'Coco Chanel'], 'Die Philosophin und Schriftstellerin.', 'beauvoir'],
       ['Wer war Beauvoirs Lebensgefährte?', 'Jean-Paul Sartre', ['Albert Camus', 'Michel Foucault', 'Jacques Lacan'], 'Ein lebenslanges, unverheiratetes Paar.'],
-      ['Als Mutter welcher Bewegung gilt Beauvoir?', 'Des modernen Feminismus', ['Des Kommunismus', 'Der Romantik', 'Des Existentialismus allein'], 'Ihr Buch wurde die „Bibel“ der Frauenbewegung.'],
+      ['Als Mutter welcher Bewegung gilt Beauvoir?', 'Des modernen Feminismus', ['Des Kommunismus', 'Der Romantik', 'Des Existentialismus'], 'Ihr Buch wurde die „Bibel“ der Frauenbewegung.'],
       ['In welcher Stadt wurde Beauvoir geboren?', 'In Paris', ['In Lyon', 'In Marseille', 'In Rouen'], 'Am 9. Januar 1908.'],
       ['Als was sieht die Gesellschaft die Frau nach Beauvoir?', 'Als „das Andere“', ['Als Subjekt', 'Als das Absolute', 'Als Göttin'], 'Der Mann ist das Subjekt.'],
       ['Welchen Literaturpreis erhielt Beauvoir 1954?', 'Den Prix Goncourt', ['Den Nobelpreis', 'Den Pulitzer-Preis', 'Den Booker-Preis'], 'Für „Die Mandarins von Paris“.'],
@@ -44,7 +44,7 @@ export const BEAUVOIR: Subtopic = {
     ],
     schwer: [
       ['Wie alt war Beauvoir bei ihrer Agrégation 1929?', '21 Jahre', ['18 Jahre', '30 Jahre', '25 Jahre'], 'Die jüngste ihres Jahrgangs.'],
-      ['Wo arbeitete Beauvoir als Lehrerin?', 'In Marseille, Rouen und Paris', ['In Lyon und Lille', 'In Le Havre allein', 'In Algier'], 'Bis 1943.'],
+      ['Wo arbeitete Beauvoir als Lehrerin?', 'In Marseille, Rouen und Paris', ['In Lyon und Lille', 'In Le Havre', 'In Algier'], 'Bis 1943.'],
       ['Wie heißt Beauvoirs erster Roman?', '„Sie kam und blieb“', ['„Die Mandarins von Paris“', '„Das Blut der anderen“', '„Die Welt der Frauen“'], '1943, über eine Dreiecksbeziehung.'],
       ['Wann wurde die Abtreibung in Frankreich legalisiert?', '1975', ['1949', '1968', '1990'], 'Durch das Gesetz von Simone Veil.'],
       ['Was trug Beauvoir bei ihrer Beerdigung am Finger?', 'Den Ring Nelson Algrens', ['Sartres Ehering', 'Einen Bischofsring', 'Keinen Ring'], 'Ein Geschenk aus Chicago.'],

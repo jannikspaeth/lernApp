@@ -48,11 +48,11 @@ export const HUME: Subtopic = {
       ['Wo arbeitete Hume kurz als Kaufmannsgehilfe?', 'In Bristol', ['In London', 'In Liverpool', 'In Amsterdam'], 'Nach seiner Lebenskrise.'],
       ['Als was arbeitete Hume in Edinburgh?', 'Als Bibliothekar der Juristenbibliothek', ['Als Richter', 'Als Pfarrer', 'Als Arzt'], 'Dort schrieb er die „Geschichte Englands“.'],
       ['Wann lebte Hume als Botschaftssekretär in Paris?', '1763–1765', ['1734–1737', '1748–1750', '1770–1776'], 'Gefeiert in den Salons.'],
-      ['Wen verstörte Humes heiterer Tod ohne religiösen Trost?', 'James Boswell', ['Adam Smith', 'Samuel Johnson allein', 'Rousseau'], 'Er besuchte ihn kurz vor dem Tod.'],
+      ['Wen verstörte Humes heiterer Tod ohne religiösen Trost?', 'James Boswell', ['Adam Smith', 'Samuel Johnson', 'Rousseau'], 'Er besuchte ihn kurz vor dem Tod.'],
       ['Wie hieß das Familiengut der Humes?', 'Ninewells', ['Abbotsford', 'Balmoral', 'Glamis'], 'Nahe der englischen Grenze.'],
       ['Was kann die Vernunft nach Hume leisten?', 'Sie sagt, wie man ein Ziel erreicht, nicht welches man wollen soll', ['Sie bestimmt alle Ziele', 'Sie kann gar nichts', 'Sie ersetzt die Gefühle'], 'Instrumentelle Vernunft.'],
       ['Wann starb Hume?', '1776', ['1750', '1789', '1800'], 'Im Jahr der amerikanischen Unabhängigkeit.'],
-      ['Welchen Gottesbeweis kritisierte Hume in den „Dialogen“?', 'Den Beweis aus der Ordnung der Welt', ['Den ontologischen Beweis allein', 'Den Beweis aus Wundern', 'Den moralischen Beweis'], 'Das Design-Argument.'],
+      ['Welchen Gottesbeweis kritisierte Hume in den „Dialogen“?', 'Den Beweis aus der Ordnung der Welt', ['Den ontologischen Beweis', 'Den Beweis aus Wundern', 'Den moralischen Beweis'], 'Das Design-Argument.'],
     ],
   },
 };

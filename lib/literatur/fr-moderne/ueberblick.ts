@@ -19,7 +19,7 @@ export const UEBERBLICK: Subtopic = {
       ['Wer schrieb das „Manifest des Surrealismus“?', 'André Breton', ['Louis Aragon', 'Paul Éluard', 'Tristan Tzara'], 'Es erschien 1924.'],
       ['Was wollten die Surrealisten zu Wort kommen lassen?', 'Das Unbewusste', ['Die Vernunft', 'Die Natur', 'Die Geschichte'], null],
       ['Welche Technik nutzten die Surrealisten?', 'Automatisches Schreiben', ['Den Alexandriner', 'Die Rahmenerzählung', 'Den Sekundenstil'], null],
-      ['Wessen Lehre war für die Surrealisten wichtig?', 'Sigmund Freuds', ['Karl Marx’ allein', 'Charles Darwins', 'Immanuel Kants'], null],
+      ['Wessen Lehre war für die Surrealisten wichtig?', 'Sigmund Freuds', ['Karl Marx’', 'Charles Darwins', 'Immanuel Kants'], null],
       ['Wer schrieb „Der kleine Prinz“?', 'Antoine de Saint-Exupéry', ['Albert Camus', 'André Malraux', 'Jean Giono'], null, 'saint-exupery'],
       ['Was war Saint-Exupéry von Beruf?', 'Pilot', ['Arzt', 'Lehrer', 'Diplomat'], null],
       ['Wie lautet der bekannteste Satz aus „Der kleine Prinz“?', 'Man sieht nur mit dem Herzen gut', ['Alle Menschen werden Brüder', 'Der Mensch ist frei geboren', 'Die Welt ist alles, was der Fall ist'], null],
@@ -29,7 +29,7 @@ export const UEBERBLICK: Subtopic = {
     ],
     mittel: [
       ['Wann erschien das „Manifest des Surrealismus“?', '1924', ['1914', '1934', '1944'], null],
-      ['Aus welcher Bewegung ging der Surrealismus hervor?', 'Aus dem Dadaismus', ['Aus dem Naturalismus', 'Aus dem Symbolismus allein', 'Aus dem Expressionismus'], null],
+      ['Aus welcher Bewegung ging der Surrealismus hervor?', 'Aus dem Dadaismus', ['Aus dem Naturalismus', 'Aus dem Symbolismus', 'Aus dem Expressionismus'], null],
       ['Was besagt der Existenzialismus über den Menschen?', 'Er ist nichts als das, wozu er sich macht', ['Er ist von Natur aus gut', 'Er ist durch die Erbanlagen bestimmt', 'Er ist Gottes Ebenbild'], null],
       ['Wann erschien „Das andere Geschlecht“?', '1949', ['1939', '1959', '1969'], null],
       ['Wofür wurde Beauvoirs Buch wichtig?', 'Für die moderne Frauenbewegung', ['Für die Arbeiterbewegung', 'Für die Friedensbewegung', 'Für die Umweltbewegung'], null],
@@ -43,7 +43,7 @@ export const UEBERBLICK: Subtopic = {
     ],
     schwer: [
       ['Wer lehnte den Nobelpreis als Einziger freiwillig ab?', 'Jean-Paul Sartre', ['Albert Camus', 'André Gide', 'Samuel Beckett'], 'Das war 1964.'],
-      ['Welche Erfahrung stand nach 1945 im Hintergrund?', 'Besatzung, Widerstand und Kollaboration', ['Die Kolonialkriege allein', 'Die Industrialisierung', 'Die Revolution von 1789'], null],
+      ['Welche Erfahrung stand nach 1945 im Hintergrund?', 'Besatzung, Widerstand und Kollaboration', ['Die Kolonialkriege', 'Die Industrialisierung', 'Die Revolution von 1789'], null],
       ['Was folgt für den Existenzialismus aus der Freiheit?', 'Volle Verantwortung für das eigene Handeln', ['Beliebigkeit', 'Gleichgültigkeit', 'Rückzug'], null],
       ['Welche Mittel nutzten die Surrealisten außer dem automatischen Schreiben?', 'Traumprotokolle und unerwartete Zusammenstellungen', ['Strenge Metrik', 'Historische Quellen', 'Statistiken'], null],
       ['Welche Künste speiste der Surrealismus?', 'Literatur, Malerei und Film', ['Nur die Malerei', 'Nur die Literatur', 'Nur die Musik'], null],
