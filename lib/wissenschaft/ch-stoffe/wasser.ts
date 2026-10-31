@@ -17,7 +17,7 @@ export const WASSER: Subtopic = {
     leicht: [
       ['Wie lautet die chemische Formel von Wasser?', 'H₂O', ['CO₂', 'NaCl', 'O₃'], 'Ein Sauerstoff- und zwei Wasserstoffatome.'],
       ['Zu wie viel Prozent besteht der menschliche Körper etwa aus Wasser?', 'Etwa 60 Prozent', ['Etwa 10 Prozent', 'Etwa 30 Prozent', 'Etwa 95 Prozent'], 'Wasser ist unentbehrlich.'],
-      ['Warum schwimmt Eis auf dem Wasser?', 'Eis ist leichter als flüssiges Wasser', ['Eis ist schwerer', 'Eis enthält Luftballons', 'Eis ist magnetisch'], 'Die Dichteanomalie.'],
+      ['Warum schwimmt Eis auf dem Wasser?', 'Eis ist leichter als flüssiges Wasser', ['Eis ist schwerer', 'Eis enthält Salz', 'Eis ist magnetisch'], 'Die Dichteanomalie.'],
       ['Wie viele Arme haben Schneeflocken?', 'Sechs', ['Vier', 'Fünf', 'Acht'], 'Die Moleküle ordnen sich sechseckig an.'],
       ['Wie viel des Wassers auf der Erde ist Süßwasser?', 'Etwa 2,5 Prozent', ['Etwa 50 Prozent', 'Etwa 25 Prozent', 'Etwa 97 Prozent'], 'Der Rest ist Salzwasser.'],
       ['Wo ist der größte Teil des Süßwassers gebunden?', 'Im Eis von Polkappen und Gletschern', ['In Flüssen', 'In Seen', 'In Wolken'], 'Mehr als zwei Drittel.'],
@@ -40,7 +40,7 @@ export const WASSER: Subtopic = {
       ['Wie viel des Süßwassers ist leicht zugänglich in Seen und Flüssen?', 'Weniger als ein Prozent', ['Etwa die Hälfte', 'Etwa ein Drittel', 'Fast alles'], 'Der Rest ist Eis oder Grundwasser.'],
       ['Wie lange bleibt ein Wassermolekül im Durchschnitt in der Atmosphäre?', 'Etwa neun Tage', ['Etwa neun Jahre', 'Etwa neun Minuten', 'Etwa 3.000 Jahre'], 'Im Ozean über 3.000 Jahre.'],
       ['Warum löst Wasser so viele Stoffe?', 'Seine geladenen Enden lagern sich an andere Teilchen an', ['Weil es heiß ist', 'Weil es schwer ist', 'Weil es Säure enthält'], 'Das wichtigste Lösungsmittel.'],
-      ['Wie viel Wasser steckt etwa in einer Tasse Kaffee?', 'Etwa 130 Liter', ['Etwa 0,2 Liter', 'Etwa 13.000 Liter', 'Etwa 1 Liter'], 'Für Anbau und Verarbeitung.'],
+      ['Wie viel Wasser wird insgesamt für eine Tasse Kaffee verbraucht, vom Anbau bis zur Tasse?', 'Etwa 130 Liter', ['Etwa 0,2 Liter', 'Etwa 13.000 Liter', 'Etwa 1 Liter'], 'Für Anbau und Verarbeitung.'],
     ],
     schwer: [
       ['Wie lange bleibt ein Wassermolekül im Ozean im Durchschnitt?', 'Über 3.000 Jahre', ['Neun Tage', 'Etwa ein Jahr', 'Etwa 100 Jahre'], 'Der größte Wasserspeicher.'],

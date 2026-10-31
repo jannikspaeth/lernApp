@@ -52,7 +52,7 @@ export const NUTZPFLANZEN: Subtopic = {
       ['Welche Pflanzen wurden in Mittelamerika zusammen angebaut?', 'Mais, Bohnen und Kürbis', ['Weizen, Gerste und Linsen', 'Reis, Soja und Tee', 'Kartoffeln, Quinoa und Mais'], 'Die „drei Schwestern“.'],
       ['Was ist der Erreger der Kartoffelfäule?', 'Ein pilzähnlicher Organismus (Phytophthora)', ['Ein Virus', 'Ein Käfer', 'Ein Bakterium'], 'Er befällt Blätter und Knollen.'],
       ['Wo liegt der „Fruchtbare Halbmond“?', 'Von der Levante bis zum heutigen Irak', ['In Nordafrika', 'In Indien', 'In Südeuropa'], 'Ein Bogen fruchtbaren Landes.'],
-      ['Welche Kulturpflanze mit der größten Erntemenge der Welt ist ein Getreide?', 'Mais', ['Reis', 'Weizen', 'Gerste'], 'Knapp vor Weizen und Reis.'],
+      ['Welches Getreide hat weltweit die größte Erntemenge?', 'Mais', ['Reis', 'Weizen', 'Gerste'], 'Knapp vor Weizen und Reis.'],
     ],
   },
 };

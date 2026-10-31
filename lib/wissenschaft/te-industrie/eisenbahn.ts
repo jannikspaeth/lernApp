@@ -52,7 +52,7 @@ export const EISENBAHN: Subtopic = {
       ['Wann lernte George Stephenson lesen?', 'Mit 18 Jahren', ['Mit 5 Jahren', 'Nie', 'Mit 40 Jahren'], 'Ein Bergmannssohn.'],
       ['Zu welchem Ereignis nahm Japan 1964 den Shinkansen in Betrieb?', 'Zu den Olympischen Spielen in Tokio', ['Zur Weltausstellung', 'Zum Kaisergeburtstag', 'Zum Kriegsende'], 'Der „Bullet Train“.'],
       ['Welcher Ökonom träumte von einem gesamtdeutschen Eisenbahnnetz?', 'Friedrich List', ['Karl Marx', 'Adam Smith', 'Friedrich Engels'], 'Er regte Leipzig–Dresden an.'],
-      ['Warum zerbrachen frühe Schienen unter den Lokomotiven?', 'Gusseisen war zu spröde', ['Holz faulte', 'Sie waren zu dünn aus Gold', 'Durch Rost'], 'Später nahm man Walzeisen und Stahl.'],
+      ['Warum zerbrachen frühe Schienen unter den Lokomotiven?', 'Gusseisen war zu spröde', ['Holz faulte', 'Sie waren aus Kupfer', 'Durch Rost'], 'Später nahm man Walzeisen und Stahl.'],
     ],
   },
 };

@@ -18,7 +18,7 @@ export const MARKTWIRTSCHAFT: Subtopic = {
       ['Was bestimmt in einer Marktwirtschaft die Preise?', 'Angebot und Nachfrage', ['Eine staatliche Planbehörde', 'Der König', 'Das Los'], 'Unternehmen konkurrieren um Käufer.'],
       ['Wer legt in einer Planwirtschaft fest, was produziert wird?', 'Eine staatliche Planbehörde', ['Die Kunden', 'Die Unternehmen selbst', 'Die Gewerkschaften'], 'In Fünfjahresplänen.'],
       ['Welche Wirtschaftsordnung hat Deutschland?', 'Die Soziale Marktwirtschaft', ['Die Planwirtschaft', 'Die freie Marktwirtschaft ohne Regeln', 'Die Tauschwirtschaft'], 'Seit 1948.'],
-      ['Welches Schlagwort prägte Ludwig Erhard?', '„Wohlstand für alle“', ['„Arbeit macht frei“', '„Mehr Demokratie wagen“', '„Wir schaffen das“'], 'Auch der Titel seines Buches.'],
+      ['Welches Schlagwort prägte Ludwig Erhard?', '„Wohlstand für alle“', ['„Wandel durch Annäherung“', '„Mehr Demokratie wagen“', '„Wir schaffen das“'], 'Auch der Titel seines Buches.'],
       ['Wie nennt man den Aufschwung der Bundesrepublik in den 1950er-Jahren?', 'Wirtschaftswunder', ['Gründerzeit', 'Goldene Zwanziger', 'Wende'], 'Er machte die Soziale Marktwirtschaft populär.'],
       ['Welche Behörde wacht in Deutschland über fairen Wettbewerb?', 'Das Bundeskartellamt', ['Die Bundesbank', 'Das Bundesverfassungsgericht', 'Der Bundesrechnungshof'], 'Sitz in Bonn.'],
       ['Was ist ein Kartell?', 'Eine verbotene Absprache zwischen Konkurrenten', ['Ein Kartenspiel', 'Eine Gewerkschaft', 'Ein staatliches Unternehmen'], 'Etwa über Preise.'],

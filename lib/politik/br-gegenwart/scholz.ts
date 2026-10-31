@@ -49,7 +49,7 @@ export const SCHOLZ: Subtopic = {
       ['Wann rief Scholz die „Zeitenwende“ aus?', 'Am 27. Februar 2022', ['Am 24. Februar 2022', 'Am 8. Dezember 2021', 'Am 1. März 2022'], 'In einer Sondersitzung des Bundestags.'],
       ['Wer löste den Bundestag nach der verlorenen Vertrauensfrage 2024 auf?', 'Bundespräsident Frank-Walter Steinmeier', ['Olaf Scholz selbst', 'Bundestagspräsidentin Bärbel Bas', 'Das Bundesverfassungsgericht'], 'Ende Dezember 2024.'],
       ['Bis wann blieb Scholz geschäftsführend im Amt?', 'Bis zur Wahl von Friedrich Merz im Mai 2025', ['Bis Dezember 2024', 'Bis zur Wahl im Februar 2025', 'Bis Ende 2025'], 'Rund ein halbes Jahr.'],
-      ['Welche Droge wurde unter der Ampel teilweise legalisiert?', 'Cannabis', ['Kokain', 'Alkohol für Jugendliche', 'Tabak für Kinder'], 'Seit April 2024 für Erwachsene.'],
+      ['Welche Droge wurde unter der Ampel teilweise legalisiert?', 'Cannabis', ['Kokain', 'Ecstasy', 'Heroin'], 'Seit April 2024 für Erwachsene.'],
       ['Wann stellte Scholz die Vertrauensfrage?', 'Am 16. Dezember 2024', ['Am 6. November 2024', 'Am 23. Februar 2025', 'Am 1. Januar 2025'], 'Er verlor sie wie beabsichtigt.'],
       ['Bis wann liefen die letzten drei deutschen Atomkraftwerke?', 'Bis April 2023', ['Bis Dezember 2022', 'Bis 2030', 'Sie laufen noch'], 'Wegen der Energiekrise verlängert.'],
       ['Welcher Unionskandidat verlor 2021 gegen Scholz?', 'Armin Laschet', ['Friedrich Merz', 'Markus Söder', 'Norbert Röttgen'], 'Ein Lachen im Flutgebiet schadete ihm.'],

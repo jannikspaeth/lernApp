@@ -34,7 +34,7 @@ export const REPTILIEN: Subtopic = {
       ['Mit wem sind Krokodile enger verwandt als mit Eidechsen?', 'Mit den Vögeln', ['Mit den Schlangen', 'Mit den Fischen', 'Mit den Fröschen'], 'Beide gehören zu den Archosauriern.'],
       ['Welches Reptil Neuseelands gilt als lebendes Fossil?', 'Die Brückenechse', ['Der Kiwi', 'Das Krokodil', 'Der Waran'], 'Tuatara genannt.'],
       ['Warum brauchen Amphibien feuchte Lebensräume?', 'Ihre dünne Haut dient zum Teil der Atmung', ['Sie trinken ständig', 'Sie haben keine Lungen', 'Sie fressen nur Algen'], 'Und sie trocknet leicht aus.'],
-      ['Was macht der Waldfrosch in Alaska im Winter?', 'Er friert fast vollständig ein und taut wieder auf', ['Er zieht in den Süden', 'Er gräbt sich ins Meer', 'Er schläft im Haus'], 'Ein Überlebenskünstler.'],
+      ['Was macht der Waldfrosch in Alaska im Winter?', 'Er friert fast vollständig ein und taut wieder auf', ['Er zieht in den Süden', 'Er gräbt sich ins Meer', 'Er überwintert im Wasser'], 'Ein Überlebenskünstler.'],
       ['Was dezimiert weltweit Hunderte Amphibienarten?', 'Ein eingeschleppter Hautpilz', ['Ein Virus aus Europa', 'Zu viel Regen', 'Vögel'], 'Er stammt aus Asien.'],
       ['Wie viele Reptilienarten gibt es heute etwa?', 'Rund 12.000', ['Rund 120', 'Rund 1.200', 'Rund 120.000'], 'Echsen, Schlangen, Schildkröten, Krokodile.'],
       ['Wie viele Schlangenarten gibt es etwa?', 'Rund 4.000', ['Rund 40', 'Rund 400', 'Rund 40.000'], 'Nur ein Teil ist giftig.'],
@@ -45,7 +45,7 @@ export const REPTILIEN: Subtopic = {
     schwer: [
       ['Wie viele Menschen sterben jährlich etwa an Schlangenbissen?', '80.000 bis 140.000', ['Etwa 100', 'Etwa 1.000', 'Über eine Million'], 'Vor allem in Asien und Afrika.'],
       ['Was bewirkt das Gift im Biss des Komodowarans?', 'Es hemmt die Blutgerinnung der Beute', ['Es lähmt sofort', 'Es macht blind', 'Es ist harmlos'], 'Lange glaubte man an Bakterien.'],
-      ['Was kann der Axolotl außer Beinen nachwachsen lassen?', 'Teile von Herz und Gehirn', ['Federn', 'Zähne aus Gold', 'Flügel'], 'Ein Wunder der Regeneration.'],
+      ['Was kann der Axolotl außer Beinen nachwachsen lassen?', 'Teile von Herz und Gehirn', ['Federn', 'Einen Panzer', 'Flügel'], 'Ein Wunder der Regeneration.'],
       ['Wo leben die Komodowarane?', 'Auf einigen indonesischen Inseln', ['In Australien', 'In Afrika', 'Auf Madagaskar'], 'Etwa auf Komodo.'],
       ['Wann eroberten Reptilien das trockene Land?', 'Vor über 300 Millionen Jahren', ['Vor 30 Millionen Jahren', 'Vor 3 Milliarden Jahren', 'Vor 3 Millionen Jahren'], 'Dank des Eis mit Schale.'],
       ['Was sieht man bei Riesenschlangen noch von den Beinen?', 'Winzige Reste', ['Vier kleine Füße', 'Gar nichts', 'Flossen'], 'Spuren der Evolution.'],

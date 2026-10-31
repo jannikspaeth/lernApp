@@ -17,7 +17,7 @@ export const SAPIENS: Subtopic = {
     leicht: [
       ['Was bedeutet „Homo sapiens“?', 'Weiser Mensch', ['Aufrechter Mensch', 'Geschickter Mensch', 'Starker Mensch'], 'Unsere eigene Art.'],
       ['Auf welchem Kontinent entstand Homo sapiens?', 'In Afrika', ['In Europa', 'In Asien', 'In Amerika'], 'Vor rund 300.000 Jahren.'],
-      ['Wie heißt die Theorie der Ausbreitung des modernen Menschen aus Afrika?', '„Out of Africa“', ['„Back to Africa“', '„Into Asia“', '„Big Bang“'], 'Vor etwa 70.000 bis 50.000 Jahren.'],
+      ['Wie heißt die Theorie der Ausbreitung des modernen Menschen aus Afrika?', '„Out of Africa“', ['„Back to Africa“', '„Into Asia“', '„Multiregionaler Ursprung“'], 'Vor etwa 70.000 bis 50.000 Jahren.'],
       ['Über welche Landbrücke kamen Menschen nach Amerika?', 'Beringia zwischen Sibirien und Alaska', ['Über Island', 'Über die Antarktis', 'Über Gibraltar'], 'In der Eiszeit lag der Meeresspiegel tiefer.'],
       ['Welche französische Höhle hat über 30.000 Jahre alte Tiermalereien?', 'Die Chauvet-Höhle', ['Die Blaue Grotte', 'Die Tropfsteinhöhle', 'Die Eishöhle'], 'Pferde, Löwen und Nashörner.', 'chauvet-hoehle'],
       ['Wer ist der „Mann aus dem Eis“?', 'Ötzi', ['Lucy', 'Tutanchamun', 'Toumaï'], 'Eine 5.300 Jahre alte Gletschermumie.'],

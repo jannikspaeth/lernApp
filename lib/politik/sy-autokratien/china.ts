@@ -25,7 +25,7 @@ export const CHINA: Subtopic = {
       ['Welche Wirtschaftsmacht ist China heute?', 'Die zweitgrößte Volkswirtschaft der Welt', ['Die kleinste in Asien', 'Die größte in Afrika', 'Eine reine Agrarwirtschaft'], 'Nach den USA.'],
       ['Welche Internetseiten sperrt die „Große Firewall“ in China zum Beispiel?', 'Google, Wikipedia und Facebook', ['Baidu und WeChat', 'Chinesische Staatsmedien', 'Keine'], 'Westliche Medien sind blockiert.'],
       ['Von welchem Land wurde Hongkong 1997 an China zurückgegeben?', 'Von Großbritannien', ['Von Portugal', 'Von Japan', 'Von den USA'], 'Nach 155 Jahren Kolonialherrschaft.'],
-      ['Welches Prinzip sollte in Hongkong bis 2047 Freiheiten sichern?', '„Ein Land, zwei Systeme“', ['„Ein Volk, ein Reich“', '„Teile und herrsche“', '„Alle Macht den Räten“'], 'Es wurde 2020 weitgehend ausgehöhlt.'],
+      ['Welches Prinzip sollte in Hongkong bis 2047 Freiheiten sichern?', '„Ein Land, zwei Systeme“', ['„Zwei Länder, ein System“', '„Teile und herrsche“', '„Alle Macht den Räten“'], 'Es wurde 2020 weitgehend ausgehöhlt.'],
     ],
     mittel: [
       ['Was war der „Große Sprung nach vorn“ in China?', 'Eine Kampagne Maos, die eine Hungersnot mit Millionen Toten auslöste', ['Ein Raumfahrtprogramm', 'Die Reformpolitik Dengs', 'Ein olympischer Wettbewerb'], '1958 bis 1961.'],

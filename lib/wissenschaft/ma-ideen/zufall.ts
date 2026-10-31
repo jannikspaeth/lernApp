@@ -20,7 +20,7 @@ export const ZUFALL: Subtopic = {
       ['Wer begründete 1654 mit Fermat die Wahrscheinlichkeitsrechnung?', 'Blaise Pascal', ['Isaac Newton', 'Carl Friedrich Gauß', 'Galileo Galilei'], 'In Briefen.', 'pascal'],
       ['Hat eine Roulettekugel ein Gedächtnis für frühere Würfe?', 'Nein, jeder Wurf ist unabhängig', ['Ja, nach zehnmal Rot kommt Schwarz', 'Ja, sie bevorzugt Rot', 'Nur in Monte Carlo'], 'Der Spielerfehlschluss.'],
       ['Wie viele Menschen braucht man, damit zwei mit über 50 % Wahrscheinlichkeit am selben Tag Geburtstag haben?', '23', ['183', '365', '50'], 'Das Geburtstagsparadoxon.'],
-      ['Sollte man beim Ziegenproblem die Tür wechseln?', 'Ja, das verdoppelt die Gewinnchance', ['Nein, es ist egal', 'Nein, das halbiert die Chance', 'Nur bei Ziegen'], 'Von 1/3 auf 2/3.'],
+      ['Sollte man beim Ziegenproblem die Tür wechseln?', 'Ja, das verdoppelt die Gewinnchance', ['Nein, es ist egal', 'Nein, das halbiert die Chance', 'Nur beim zweiten Spiel'], 'Von 1/3 auf 2/3.'],
       ['Wie stehen die Chancen auf den Lotto-Jackpot bei „6 aus 49“ mit Superzahl etwa?', '1 zu 140 Millionen', ['1 zu 49', '1 zu 1.000', '1 zu 14.000'], 'Extrem gering.'],
       ['Wie heißt die Glockenkurve auch?', 'Normalverteilung', ['Zufallskurve', 'Lottokurve', 'Pascalkurve'], 'Nach Gauß.'],
       ['Was zeigt das Galtonbrett?', 'Wie sich fallende Kugeln zu einer Glockenkurve stapeln', ['Wie man Lotto gewinnt', 'Wie ein Kompass funktioniert', 'Wie Pi entsteht'], 'Von Francis Galton.', 'galtonbrett'],

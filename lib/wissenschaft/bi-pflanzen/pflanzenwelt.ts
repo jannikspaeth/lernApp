@@ -21,7 +21,7 @@ export const PFLANZENWELT: Subtopic = {
       ['Wozu dienen Blüten?', 'Um Bestäuber anzulocken', ['Um Wasser zu speichern', 'Um Licht einzufangen', 'Um Feinde zu erschrecken'], 'Mit Farben, Düften und Nektar.'],
       ['Wie verbreitet der Löwenzahn seine Samen?', 'Mit dem Wind', ['Mit Wasser', 'Mit Vögeln', 'Durch Explosion'], 'Kleine Schirmchen.'],
       ['Welche Pflanze schnappt nach Insekten?', 'Die Venusfliegenfalle', ['Die Sonnenblume', 'Die Rose', 'Das Gänseblümchen'], 'Eine fleischfressende Pflanze.', 'venusfliegenfalle'],
-      ['Warum fangen fleischfressende Pflanzen Insekten?', 'Um an Stickstoff zu kommen', ['Weil sie keine Blätter haben', 'Um sich zu verteidigen', 'Aus Langeweile'], 'Sie wachsen auf nährstoffarmen Böden.'],
+      ['Warum fangen fleischfressende Pflanzen Insekten?', 'Um an Stickstoff zu kommen', ['Weil sie keine Blätter haben', 'Um sich zu verteidigen', 'Weil sie kein Wasser aufnehmen können'], 'Sie wachsen auf nährstoffarmen Böden.'],
       ['Was verursachen Pollen von Gräsern bei vielen Menschen?', 'Heuschnupfen', ['Sonnenbrand', 'Fieber', 'Kopfläuse'], 'Sie werden vom Wind verteilt.'],
       ['Welche Pflanze klappt bei Berührung ihre Blätter zusammen?', 'Die Mimose', ['Der Kaktus', 'Die Tulpe', 'Der Efeu'], 'Daher „mimosenhaft“.'],
       ['Welche Pflanze wächst an einem Tag fast einen Meter?', 'Bambus', ['Eiche', 'Kaktus', 'Moos'], 'Ein Riesengras.'],

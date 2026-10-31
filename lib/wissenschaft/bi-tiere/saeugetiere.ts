@@ -18,7 +18,7 @@ export const SAEUGETIERE: Subtopic = {
       ['Welches ist das größte Tier, das je gelebt hat?', 'Der Blauwal', ['Der Afrikanische Elefant', 'Der Tyrannosaurus', 'Der Walhai'], 'Bis zu 30 Meter lang.', 'blauwal'],
       ['Welches ist das schnellste Landtier?', 'Der Gepard', ['Der Löwe', 'Das Pferd', 'Die Gazelle'], 'Über 100 km/h im Sprint.'],
       ['Welches Säugetier legt Eier?', 'Das Schnabeltier', ['Das Känguru', 'Der Delfin', 'Die Fledermaus'], 'Auch die Ameisenigel.', 'schnabeltier'],
-      ['Welche Säugetiere können richtig fliegen?', 'Die Fledermäuse', ['Die Flughörnchen', 'Die Pinguine', 'Die Koalas'], 'Flughörnchen gleiten nur.'],
+      ['Welche Säugetiere können richtig fliegen?', 'Die Fledermäuse', ['Die Flughörnchen', 'Die Riesengleiter', 'Die Koalas'], 'Flughörnchen gleiten nur.'],
       ['Wie viele Halswirbel hat eine Giraffe?', 'Sieben', ['Siebzehn', 'Siebzig', 'Zwei'], 'Wie fast alle Säugetiere, nur sehr lange.'],
       ['Wo tragen Kängurus ihre Jungen?', 'In einem Beutel', ['Auf dem Rücken', 'Im Maul', 'In einem Nest'], 'Beuteltiere.'],
       ['Wovon ernährt sich der Blauwal?', 'Von Krill, winzigen Krebstierchen', ['Von Haien', 'Von Robben', 'Von Algen'], 'Mehrere Tonnen am Tag.'],
@@ -43,7 +43,7 @@ export const SAEUGETIERE: Subtopic = {
       ['Wie rufen sich Delfine gegenseitig?', 'Mit individuellen Pfiffen wie Namen', ['Mit Farben', 'Mit Gesten', 'Gar nicht'], 'Jeder hat seinen eigenen Pfiff.'],
     ],
     schwer: [
-      ['Welches Säugetier kann über 200 Jahre alt werden?', 'Der Grönlandwal', ['Der Elefant', 'Der Mensch', 'Die Riesenschildkröte'], 'Schildkröten sind Reptilien.'],
+      ['Welches Säugetier kann über 200 Jahre alt werden?', 'Der Grönlandwal', ['Der Elefant', 'Der Mensch', 'Der Orca'], 'Schildkröten sind Reptilien.'],
       ['Wann tauchten die ersten Säugetiere auf?', 'Vor rund 200 Millionen Jahren', ['Vor 66 Millionen Jahren', 'Vor 10 Millionen Jahren', 'Vor 500 Millionen Jahren'], 'Zur Zeit der Dinosaurier.'],
       ['Wann kehrten die Vorfahren der Wale ins Meer zurück?', 'Vor rund 50 Millionen Jahren', ['Vor 500 Millionen Jahren', 'Vor 5 Millionen Jahren', 'Vor 200 Millionen Jahren'], 'Landlebende Huftiere.'],
       ['Welche Säugetiere außer dem Schnabeltier legen Eier?', 'Die Ameisenigel', ['Die Igel', 'Die Gürteltiere', 'Die Faultiere'], 'In Australien und Neuguinea.'],

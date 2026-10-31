@@ -25,7 +25,7 @@ export const URANUS_NEPTUN: Subtopic = {
       ['Wie heißt der größte Mond des Neptun?', 'Triton', ['Titan', 'Oberon', 'Ganymed'], 'Er kreist rückwärts.'],
       ['Wo gibt es die schnellsten Winde im Sonnensystem?', 'Auf Neptun', ['Auf der Erde', 'Auf Mars', 'Auf Merkur'], 'Über 2.000 km/h.'],
       ['Welcher Planet ist auf diesem Bild zu sehen?', 'Neptun', ['Uranus', 'Erde', 'Venus'], 'Aufgenommen von Voyager 2.', 'neptun'],
-      ['Welcher Planet ist auf diesem Bild zu sehen?', 'Uranus', ['Neptun', 'Saturn', 'Mond'], 'Ein fast strukturloser blassblauer Ball.', 'uranus'],
+      ['Welcher Planet ist auf diesem Bild zu sehen?', 'Uranus', ['Neptun', 'Saturn', 'Venus'], 'Ein fast strukturloser blassblauer Ball.', 'uranus'],
       ['Wie viele Planeten kannte man vor 1781?', 'Sechs', ['Acht', 'Neun', 'Vier'], 'Alle mit bloßem Auge sichtbar, inklusive Erde.'],
     ],
     mittel: [

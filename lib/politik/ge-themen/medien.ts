@@ -17,7 +17,7 @@ export const MEDIEN: Subtopic = {
       ['Welcher Erfinder, auf diesem Bild zu sehen, legte mit dem Buchdruck den Grundstein für Zeitungen?', 'Johannes Gutenberg', ['Martin Luther', 'Albrecht Dürer', 'Carl Benz'], 'Um 1450 in Mainz.', 'gutenberg'],
       ['Wie werden die Medien wegen ihrer Kontrollfunktion oft genannt?', '„Vierte Gewalt“', ['„Erste Gewalt“', '„Dritte Kammer“', '„Zweites Parlament“'], 'Neben Parlament, Regierung und Gerichten.'],
       ['Welcher Grundgesetzartikel garantiert die Meinungs- und Pressefreiheit?', 'Artikel 5', ['Artikel 1', 'Artikel 20', 'Artikel 38'], '„Eine Zensur findet nicht statt.“'],
-      ['Was garantiert Artikel 5 des Grundgesetzes ausdrücklich nicht zu tun?', 'Zensur', ['Steuern', 'Wahlen', 'Gerichtsverfahren'], '„Eine Zensur findet nicht statt.“'],
+      ['Was findet nach Artikel 5 des Grundgesetzes ausdrücklich nicht statt?', 'Zensur', ['Steuern', 'Wahlen', 'Gerichtsverfahren'], '„Eine Zensur findet nicht statt.“'],
       ['Welche Sender gehören zum öffentlich-rechtlichen Rundfunk?', 'ARD, ZDF und Deutschlandradio', ['RTL und ProSieben', 'Netflix und Disney+', 'Sat.1 und Kabel Eins'], 'Finanziert durch den Rundfunkbeitrag.'],
       ['Wie finanzieren sich private Sender wie RTL vor allem?', 'Durch Werbung', ['Durch den Rundfunkbeitrag', 'Durch Steuern', 'Durch Spenden'], 'Im dualen Rundfunksystem.'],
       ['Wie hoch ist der Rundfunkbeitrag etwa pro Monat und Wohnung?', 'Rund 18 Euro', ['Rund 5 Euro', 'Rund 50 Euro', 'Rund 100 Euro'], 'Für ARD, ZDF und Deutschlandradio.'],

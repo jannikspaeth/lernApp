@@ -23,7 +23,7 @@ export const MERKUR_VENUS: Subtopic = {
       ['Woraus besteht die Atmosphäre der Venus vor allem?', 'Kohlendioxid', ['Sauerstoff', 'Stickstoff', 'Wasserdampf'], 'Über 96 Prozent CO₂.'],
       ['Nach welcher Göttin ist die Venus benannt?', 'Nach der römischen Liebesgöttin', ['Nach der Göttin der Jagd', 'Nach der Göttin des Herdfeuers', 'Nach der Göttin der Weisheit'], 'Wegen ihres strahlenden Lichts.'],
       ['Wie lange dauert ein Merkurjahr?', '88 Tage', ['365 Tage', '225 Tage', '12 Jahre'], 'Er ist der schnellste Planet.'],
-      ['Womit ist Merkurs Oberfläche übersät?', 'Mit Kratern', ['Mit Ozeanen', 'Mit Wäldern', 'Mit Gletschern'], 'Sie ähnelt dem Mond.', 'merkur'],
+      ['Welcher Planet mit kraterübersäter Oberfläche ist auf diesem Bild zu sehen?', 'Merkur', ['Mars', 'Venus', 'Pluto'], 'Sie ähnelt dem Mond.', 'merkur'],
       ['Woraus bestehen die Wolken der Venus?', 'Aus Schwefelsäure', ['Aus Wasser', 'Aus Staub', 'Aus Eis'], 'Sie reflektieren viel Sonnenlicht.'],
       ['Welcher Planet ist auf diesem Bild zu sehen?', 'Venus', ['Mars', 'Merkur', 'Uranus'], 'Ihre dichten Wolken verhüllen die Oberfläche.', 'venus-planet'],
       ['Wann kann man Merkur von der Erde aus sehen?', 'Nur kurz in der Dämmerung', ['Die ganze Nacht', 'Nur mittags', 'Nie'], 'Er steht immer nahe der Sonne.'],

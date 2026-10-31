@@ -31,7 +31,7 @@ export const VOEGEL: Subtopic = {
     mittel: [
       ['Wie schnell kann ein Strauß laufen?', 'Etwa 70 km/h', ['Etwa 20 km/h', 'Etwa 150 km/h', 'Etwa 5 km/h'], 'Fliegen kann er nicht.'],
       ['Wie heißt der kleinste Vogel der Welt?', 'Die Bienenelfe', ['Der Zaunkönig', 'Das Goldhähnchen', 'Der Spatz'], 'Ein Kolibri auf Kuba.'],
-      ['Was bewies der „Pfeilstorch“ von 1822?', 'Dass Störche nach Afrika ziehen', ['Dass Störche Babys bringen', 'Dass Störche schwimmen können', 'Dass Störche Pfeile fressen'], 'Mit einem afrikanischen Speer im Hals.'],
+      ['Was bewies der „Pfeilstorch“ von 1822?', 'Dass Störche nach Afrika ziehen', ['Dass Störche Babys bringen', 'Dass Störche schwimmen können', 'Dass Störche im Winter schlafen'], 'Mit einem afrikanischen Speer im Hals.'],
       ['Wie orientieren sich Zugvögel?', 'An Sonne, Sternen und Erdmagnetfeld', ['Nur an Straßen', 'Nur am Geruch', 'Gar nicht, sie folgen dem Wind'], 'Das Magnetfeld nehmen sie wohl mit den Augen wahr.'],
       ['Wie strömt die Luft durch die Lunge der Vögel?', 'In einer Richtung, dank Luftsäcken', ['Hin und zurück wie bei uns', 'Gar nicht', 'Nur durch die Haut'], 'Das ist sehr effizient.'],
       ['Welche Gänse überqueren den Himalaya?', 'Streifengänse', ['Graugänse', 'Kanadagänse', 'Hausgänse'], 'In über 7.000 Metern Höhe.'],

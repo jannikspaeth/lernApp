@@ -23,7 +23,7 @@ export const HUBBLE: Subtopic = {
       ['Was studierte Hubble in Oxford?', 'Jura', ['Medizin', 'Theologie', 'Musik'], 'Sein Vater wünschte sich einen Anwalt.'],
       ['Wie heißt Hubbles Ordnungsschema für Galaxienformen?', 'Stimmgabeldiagramm', ['Periodensystem', 'Stammbaum', 'Hertzsprung-Russell-Diagramm'], 'Es ähnelt einer Stimmgabel.'],
       ['Hat Hubble den Nobelpreis erhalten?', 'Nein, Astronomie zählte damals nicht dazu', ['Ja, 1929', 'Ja, zweimal', 'Ja, für Chemie'], 'Er kämpfte vergeblich dafür.'],
-      ['Welcher berühmte Physiker besuchte Hubble 1931?', 'Albert Einstein', ['Max Planck', 'Niels Bohr', 'Isaac Newton'], 'Danach gab er das statische Universum auf.'],
+      ['Welcher berühmte Physiker besuchte Hubble 1931?', 'Albert Einstein', ['Max Planck', 'Niels Bohr', 'Werner Heisenberg'], 'Danach gab er das statische Universum auf.'],
       ['Wie nennt man die Konstante im Gesetz der fliehenden Galaxien?', 'Hubble-Konstante', ['Gravitationskonstante', 'Plancksches Wirkungsquantum', 'Lichtgeschwindigkeit'], 'Ihr genauer Wert ist umstritten.'],
       ['Wer ist auf diesem Bild zu sehen?', 'Edwin Hubble', ['Albert Einstein', 'Carl Sagan', 'Stephen Hawking'], 'Mit seiner typischen Pfeife.', 'edwin-hubble'],
       ['Welches Teleskop ist auf diesem Bild zu sehen?', 'Das Hooker-Teleskop auf dem Mount Wilson', ['Das Hubble-Weltraumteleskop', 'Galileis Fernrohr', 'Das Radioteleskop von Arecibo'], 'Mit 2,5-Meter-Spiegel.', 'hooker-teleskop'],

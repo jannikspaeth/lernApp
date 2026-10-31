@@ -208,7 +208,7 @@ export const E6: Epoch = {
               ['Welcher Marschall bat 1940 um Waffenstillstand?', 'Pétain', ['Foch', 'De Gaulle', 'Joffre']],
               ['Wo wurde der Waffenstillstand 1940 unterzeichnet?', 'Im Eisenbahnwagen von Compiègne', ['In Versailles', 'In Berlin', 'In Vichy']],
               ['In welcher Stadt saß Pétains Regierung?', 'In Vichy', ['In Paris', 'In Lyon', 'In Algier']],
-              ['Welcher Wahlspruch ersetzte „Freiheit, Gleichheit, Brüderlichkeit“?', '„Arbeit, Familie, Vaterland“', ['„Gott mit uns“', '„Ein Volk, ein Reich“', '„Ordnung und Fortschritt“']],
+              ['Welcher Wahlspruch ersetzte „Freiheit, Gleichheit, Brüderlichkeit“?', '„Arbeit, Familie, Vaterland“', ['„Gott mit uns“', '„Gott, König, Vaterland“', '„Ordnung und Fortschritt“']],
               ['Wie nennt man die Zusammenarbeit mit den Deutschen?', 'Kollaboration', ['Résistance', 'Union sacrée', 'Appeasement']],
               ['Welcher Teil Frankreichs war ab 1940 zuerst besetzt?', 'Der Norden und die Atlantikküste', ['Nur Korsika', 'Der Süden', 'Gar keiner']],
               ['Wer nahm 1942 in Paris Juden fest?', 'Die französische Polizei', ['Nur die SS', 'Die britische Armee', 'Die Résistance']],

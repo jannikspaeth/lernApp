@@ -19,7 +19,7 @@ export const WETTLAUF: Subtopic = {
       ['Wer flog 1961 als erster Mensch ins All?', 'Juri Gagarin', ['Neil Armstrong', 'Alan Shepard', 'John Glenn'], 'Am 12. April 1961.'],
       ['Welches Land startete den ersten Satelliten?', 'Die Sowjetunion', ['Die USA', 'Deutschland', 'China'], 'Das löste den „Sputnikschock“ aus.'],
       ['Wie hieß die Hündin, die 1957 als erstes Lebewesen die Erde umkreiste?', 'Laika', ['Belka', 'Strelka', 'Lassie'], 'Eine Straßenhündin aus Moskau.'],
-      ['Wer war die erste Frau im All?', 'Walentina Tereschkowa', ['Sally Ride', 'Swetlana Sawizkaja', 'Marie Curie'], 'Im Jahr 1963.'],
+      ['Wer war die erste Frau im All?', 'Walentina Tereschkowa', ['Sally Ride', 'Swetlana Sawizkaja', 'Jelena Kondakowa'], 'Im Jahr 1963.'],
       ['Wie lange dauerte Gagarins Flug?', '108 Minuten', ['Drei Tage', 'Zehn Minuten', 'Eine Woche'], 'Eine Erdumrundung.'],
       ['Wer machte 1965 den ersten Weltraumspaziergang?', 'Alexei Leonow', ['Juri Gagarin', 'Neil Armstrong', 'Ed White'], 'Er schwebte zwölf Minuten im All.'],
       ['Welcher US-Präsident verkündete das Ziel der Mondlandung?', 'John F. Kennedy', ['Dwight D. Eisenhower', 'Richard Nixon', 'Lyndon B. Johnson'], 'Am 25. Mai 1961.'],

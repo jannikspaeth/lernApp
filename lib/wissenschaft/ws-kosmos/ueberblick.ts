@@ -26,7 +26,7 @@ export const UEBERBLICK: Subtopic = {
       ['Wie weit ist die Sonne in „Lichtzeit“ entfernt?', 'Gut acht Lichtminuten', ['Eine Lichtsekunde', 'Ein Lichtjahr', 'Eine Lichtstunde'], 'Der Mond ist gut eine Lichtsekunde entfernt.'],
       ['Woraus kann man ablesen, woraus ein Stern besteht?', 'Aus seinem Licht (Spektrum)', ['Aus seiner Form', 'Aus seinem Namen', 'Aus seinem Geräusch'], 'Jedes Element hat ein eigenes Linienmuster.'],
       ['Was zeigt dieses berühmte Bild des Hubble-Teleskops?', 'Tausende ferne Galaxien', ['Tausende Sterne der Milchstraße', 'Staub auf der Linse', 'Den Asteroidengürtel'], 'Das Hubble Ultra Deep Field.', 'hubble-ultra-deep-field'],
-      ['Welches Sternbild mit drei Gürtelsternen ist auf diesem Bild zu sehen?', 'Orion', ['Großer Bär', 'Kassiopeia', 'Skorpion'], 'Ein Jäger der griechischen Mythologie.', 'orion-sternbild'],
+      ['Welches Sternbild ist auf diesem Bild zu sehen?', 'Orion', ['Großer Bär', 'Kassiopeia', 'Skorpion'], 'Ein Jäger der griechischen Mythologie.', 'orion-sternbild'],
     ],
     mittel: [
       ['Wie viele Kilometer sind ein Lichtjahr ungefähr?', 'Etwa 9,46 Billionen', ['Etwa 300.000', 'Etwa 150 Millionen', 'Etwa 9,46 Milliarden'], 'Eine 9 mit zwölf Stellen danach.'],

@@ -19,7 +19,7 @@ export const KUNSTSTOFFE: Subtopic = {
       ['Wie hieß der erste vollsynthetische Kunststoff?', 'Bakelit', ['Nylon', 'Plexiglas', 'Teflon'], 'Erfunden 1907.'],
       ['Aus welchem Kunststoff ist dieser Gegenstand, typisch für Telefone und Radios?', 'Bakelit', ['Nylon', 'Teflon', 'Styropor'], 'Hart, hitzebeständig, isolierend.', 'bakelit-telefon'],
       ['Was beschichtet Pfannen, damit nichts anbrennt?', 'Teflon', ['Nylon', 'Bakelit', 'Styropor'], 'Entdeckt 1938.'],
-      ['Woraus wurden die ersten Nylonstrümpfe gemacht?', 'Aus Nylon', ['Aus Seide', 'Aus Wolle', 'Aus Baumwolle'], 'Die erste vollsynthetische Faser.'],
+      ['Welche Kunstfaser ersetzte ab 1940 die Seide in Damenstrümpfen?', 'Nylon', ['Kevlar', 'Polyester', 'Acryl'], 'Die erste vollsynthetische Faser.'],
       ['Was ist Mikroplastik?', 'Plastikteilchen kleiner als fünf Millimeter', ['Plastik aus der Mikrowelle', 'Sehr dünne Folie', 'Biologisch abbaubares Plastik'], 'Man findet es überall.'],
       ['Wie lange braucht eine Plastikflasche schätzungsweise zum Zerfall?', 'Rund 450 Jahre', ['Rund 4 Wochen', 'Rund 4 Jahre', 'Rund 45 Tage'], 'Sie zerfällt nur in kleinere Stücke.'],
       ['Welcher Kunststoff wird am meisten produziert?', 'Polyethylen', ['Teflon', 'Bakelit', 'Plexiglas'], 'Für Tüten und Flaschen.'],

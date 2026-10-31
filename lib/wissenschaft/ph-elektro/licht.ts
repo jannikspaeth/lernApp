@@ -39,7 +39,7 @@ export const LICHT: Subtopic = {
       ['Wer maß 1849 die Lichtgeschwindigkeit erstmals auf der Erde?', 'Hippolyte Fizeau', ['Ole Rømer', 'Albert Michelson', 'Heinrich Hertz'], 'Mit einem rotierenden Zahnrad.'],
       ['In welchem Winkel um den Gegenpunkt der Sonne erscheint der Regenbogen?', 'Etwa 42 Grad', ['Etwa 90 Grad', 'Etwa 10 Grad', 'Etwa 180 Grad'], 'Daher seine Kreisform.'],
       ['Wie wird Licht in einer Glasfaser geleitet?', 'Durch Totalreflexion', ['Durch Magnetismus', 'Durch Strom', 'Durch Schall'], 'Es wird an der Innenwand immer zurückgeworfen.'],
-      ['Was besonderes hat Laserlicht?', 'Es hat nur eine Farbe und schwingt im Gleichtakt', ['Es ist unsichtbar', 'Es ist schneller als normales Licht', 'Es ist heißer als die Sonne'], 'Darum lässt es sich fein bündeln.'],
+      ['Was ist das Besondere an Laserlicht?', 'Es hat nur eine Farbe und schwingt im Gleichtakt', ['Es ist unsichtbar', 'Es ist schneller als normales Licht', 'Es ist heißer als die Sonne'], 'Darum lässt es sich fein bündeln.'],
       ['Wie verhält sich der Einfallswinkel bei der Reflexion?', 'Er ist gleich dem Ausfallswinkel', ['Er ist doppelt so groß', 'Er ist immer 90 Grad', 'Er ist halb so groß'], 'Das Reflexionsgesetz.'],
     ],
     schwer: [

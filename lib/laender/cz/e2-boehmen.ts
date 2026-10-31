@@ -371,7 +371,7 @@ export const E2: Epoch = {
               ['Wie heißen die berühmten Werke aus Pilsen?', 'Škoda-Werke', ['Baťa-Werke', 'Tatra-Werke', 'Krupp-Werke']],
               ['Was stellte Tomáš Baťa her?', 'Schuhe', ['Autos', 'Bier', 'Glas']],
               ['In welcher Stadt gründete Baťa seine Fabrik?', 'In Zlín', ['In Prag', 'In Brünn', 'In Pilsen']],
-              ['Unter welchem Motto sammelten Tschechen für das Nationaltheater?', '„Das Volk sich selbst“', ['„Die Wahrheit siegt“', '„Gott mit uns“', '„Ein Volk, ein Reich“']],
+              ['Unter welchem Motto sammelten Tschechen für das Nationaltheater?', '„Das Volk sich selbst“', ['„Die Wahrheit siegt“', '„Gott mit uns“', '„Für Gott und Vaterland“']],
               ['Wann wurde das Nationaltheater eröffnet?', '1881', ['1818', '1918', '1848']],
               ['Was geschah kurz nach der Eröffnung mit dem Nationaltheater?', 'Es brannte ab', ['Es wurde verkauft', 'Es wurde verboten', 'Es stürzte ein']],
               ['Was bedeutet „Sokol“?', 'Falke', ['Adler', 'Löwe', 'Bär']],

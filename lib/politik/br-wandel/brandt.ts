@@ -20,7 +20,7 @@ export const BRANDT: Subtopic = {
       ['Mit welcher Partei regierte die SPD unter Brandt?', 'Mit der FDP', ['Mit der CDU', 'Mit den Grünen', 'Allein'], 'Die sozialliberale Koalition.'],
       ['Wie heißt Brandts Politik gegenüber dem Osten?', 'Neue Ostpolitik', ['Westbindung', 'Politik der Stärke', 'Zeitenwende'], 'Unter dem Leitwort „Wandel durch Annäherung“.'],
       ['Wo kniete Brandt 1970 nieder?', 'Vor dem Denkmal für die Helden des Warschauer Ghettos', ['Vor dem Kölner Dom', 'Am Grab des unbekannten Soldaten in Paris', 'An der Berliner Mauer'], 'Der „Kniefall von Warschau“.'],
-      ['Wofür erhielt Brandt 1971 den Friedensnobelpreis?', 'Für seine Entspannungspolitik', ['Für die Wiedervereinigung', 'Für die Gründung der EU', 'Für die Mondlandung'], 'Die Auszeichnung würdigte die Aussöhnung mit dem Osten.'],
+      ['Wofür erhielt Brandt 1971 den Friedensnobelpreis?', 'Für seine Entspannungspolitik', ['Für die Wiedervereinigung', 'Für die Gründung der EU', 'Für die Aussöhnung mit Frankreich'], 'Die Auszeichnung würdigte die Aussöhnung mit dem Osten.'],
       ['Welche Grenze erkannte die Bundesrepublik 1970 als unverletzlich an?', 'Die Oder-Neiße-Grenze', ['Die Grenze zu Frankreich', 'Die innerdeutsche Grenze als Staatsgrenze', 'Die Alpengrenze'], 'Im Warschauer Vertrag mit Polen.'],
       ['Wann wurden beide deutsche Staaten Mitglied der UNO?', '1973', ['1949', '1955', '1990'], 'Nach dem Grundlagenvertrag.'],
       ['Wer wurde 1974 als DDR-Spion im Kanzleramt enttarnt?', 'Günter Guillaume', ['Markus Wolf', 'Egon Bahr', 'Erich Mielke'], 'Brandt trat danach zurück.'],

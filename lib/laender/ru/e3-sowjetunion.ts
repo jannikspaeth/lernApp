@@ -35,7 +35,7 @@ export const E3: Epoch = {
               ['Wie hießen die Arbeiter- und Soldatenräte in Russland 1917?', 'Sowjets', ['Dumas', 'Semstwos', 'Kolchosen']],
               ['Wo lebte Lenin vor 1917 im Exil?', 'In der Schweiz', ['In England', 'In Amerika', 'In Japan']],
               ['Wie reiste Lenin 1917 nach Russland?', 'In einem plombierten Zug', ['Mit dem Flugzeug', 'Zu Fuß', 'Mit dem Schiff über Amerika']],
-              ['Welche Losung hatte Lenin 1917?', '„Frieden, Land, Brot“', ['„Freiheit, Gleichheit, Brüderlichkeit“', '„Gott, Zar, Vaterland“', '„Arbeit macht frei“']],
+              ['Welche Losung hatte Lenin 1917?', '„Frieden, Land, Brot“', ['„Freiheit, Gleichheit, Brüderlichkeit“', '„Gott, Zar, Vaterland“', '„Ruhe ist die erste Bürgerpflicht“']],
               ['Welches Gebäude stürmten die Bolschewiki im Oktober 1917?', 'Den Winterpalast', ['Den Kreml', 'Die Duma', 'Die Peter-und-Paul-Festung']],
               ['Welcher Kreuzer gab das Signal zum Sturm auf den Winterpalast?', 'Die Aurora', ['Die Potemkin', 'Die Kursk', 'Die Bismarck']],
               ['Wer übernahm im Oktober 1917 die Macht?', 'Lenin', ['Stalin', 'Kerenski', 'Nikolaus II.']],

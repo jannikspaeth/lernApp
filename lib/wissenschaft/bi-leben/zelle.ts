@@ -16,14 +16,14 @@ export const ZELLE: Subtopic = {
   quiz: {
     leicht: [
       ['Was ist der kleinste Baustein des Lebens?', 'Die Zelle', ['Das Organ', 'Das Gewebe', 'Das Atom'], 'Alle Lebewesen bestehen aus Zellen.'],
-      ['Mit welchem Gerät wurde die Zelle entdeckt?', 'Mit dem Mikroskop', ['Mit dem Fernrohr', 'Mit dem Röntgengerät', 'Mit einer Lupe ohne Glas'], 'Im 17. Jahrhundert.'],
+      ['Mit welchem Gerät wurde die Zelle entdeckt?', 'Mit dem Mikroskop', ['Mit dem Fernrohr', 'Mit dem Röntgengerät', 'Mit dem Stethoskop'], 'Im 17. Jahrhundert.'],
       ['Woran erinnerten Robert Hooke die Kammern im Kork?', 'An die Zellen von Mönchen in einem Kloster', ['An Bienenwaben', 'An Gefängniszellen', 'An Fenster'], 'Daher der Name.', 'hooke-kork'],
       ['Was enthält der Zellkern?', 'Das Erbgut (DNA)', ['Die Energie', 'Das Blut', 'Den Zucker'], 'Die Kommandozentrale.'],
       ['Welche Organellen nennt man die Kraftwerke der Zelle?', 'Die Mitochondrien', ['Die Ribosomen', 'Die Chloroplasten', 'Die Vakuolen'], 'Sie gewinnen Energie aus Zucker.'],
       ['Wo findet in Pflanzenzellen die Photosynthese statt?', 'In den Chloroplasten', ['Im Zellkern', 'In den Mitochondrien', 'In der Zellwand'], 'Sie enthalten das grüne Chlorophyll.'],
       ['Was haben Pflanzenzellen, Tierzellen aber nicht?', 'Eine feste Zellwand', ['Einen Zellkern', 'Eine Zellmembran', 'Mitochondrien'], 'Aus Zellulose.'],
       ['Aus wie vielen Zellen besteht ein erwachsener Mensch etwa?', 'Aus rund 30 bis 37 Billionen', ['Aus rund 1.000', 'Aus rund einer Million', 'Aus rund 100 Milliarden'], 'Von über 200 Typen.'],
-      ['Wie vermehren sich Zellen?', 'Durch Teilung', ['Durch Verschmelzen', 'Aus dem Nichts', 'Durch Blitze'], 'Jede Zelle aus einer Zelle.'],
+      ['Wie vermehren sich Zellen?', 'Durch Teilung', ['Durch Verschmelzen', 'Aus dem Nichts', 'Durch Kristallisation'], 'Jede Zelle aus einer Zelle.'],
       ['Was entsteht, wenn die Zellteilung außer Kontrolle gerät?', 'Krebs', ['Fieber', 'Eine Erkältung', 'Muskeln'], 'Zellen wuchern ungebremst.'],
       ['Was zeigt dieses Modell?', 'Eine tierische Zelle mit Organellen', ['Einen Planeten', 'Ein Atom', 'Eine Galaxie'], 'Mit Zellkern, Mitochondrien und mehr.', 'tierzelle'],
       ['Welche Zelle des Menschen ist die größte?', 'Die Eizelle', ['Die Hautzelle', 'Das rote Blutkörperchen', 'Die Samenzelle'], 'Gerade noch mit bloßem Auge sichtbar.'],

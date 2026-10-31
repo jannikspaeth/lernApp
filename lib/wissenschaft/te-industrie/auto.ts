@@ -19,7 +19,7 @@ export const AUTO: Subtopic = {
       ['Wie viele Räder hatte der erste Benz Patent-Motorwagen?', 'Drei', ['Zwei', 'Vier', 'Sechs'], 'Ein Dreirad.'],
       ['Wer unternahm 1888 die erste Fernfahrt mit einem Auto?', 'Bertha Benz', ['Carl Benz', 'Henry Ford', 'Gottlieb Daimler'], 'Von Mannheim nach Pforzheim.'],
       ['Wo kaufte Bertha Benz unterwegs Benzin?', 'In einer Apotheke', ['An einer Tankstelle', 'In einem Hotel', 'Bei einem Bauern'], 'In Wiesloch – die erste „Tankstelle“.'],
-      ['Wer führte 1913 das Fließband in der Autoproduktion ein?', 'Henry Ford', ['Carl Benz', 'Ferdinand Porsche', 'Karl Benz junior'], 'In Detroit.'],
+      ['Wer führte 1913 das Fließband in der Autoproduktion ein?', 'Henry Ford', ['Carl Benz', 'Ferdinand Porsche', 'Gottlieb Daimler'], 'In Detroit.'],
       ['Wie hieß Fords berühmtes Massenauto?', 'Model T', ['Käfer', 'Mustang', 'Golf'], 'Die „Tin Lizzie“.', 'ford-model-t'],
       ['Welches Auto wurde zum Symbol des deutschen Wirtschaftswunders?', 'Der VW Käfer', ['Der Mercedes 300', 'Der Trabant', 'Der Opel Kadett'], 'Über 21 Millionen gebaut.'],
       ['Wer erfand den nach ihm benannten selbstzündenden Motor?', 'Rudolf Diesel', ['Nikolaus Otto', 'Wilhelm Maybach', 'Robert Bosch'], 'In Augsburg.'],

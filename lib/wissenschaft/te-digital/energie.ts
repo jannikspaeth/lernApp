@@ -17,7 +17,7 @@ export const ENERGIE: Subtopic = {
     leicht: [
       ['Welche Energiequellen sind fossil?', 'Kohle, Erdöl und Erdgas', ['Sonne, Wind und Wasser', 'Holz und Biogas', 'Uran und Plutonium'], 'Entstanden über Millionen Jahre.'],
       ['Welches Gas setzen fossile Brennstoffe beim Verbrennen frei?', 'Kohlendioxid', ['Sauerstoff', 'Helium', 'Stickstoff'], 'Es erwärmt die Erde.'],
-      ['Wie viele Rotorblätter haben moderne Windräder meist?', 'Drei', ['Zwei', 'Vier', 'Sechs'], 'Sie treiben einen Generator an.', 'windpark'],
+      ['Was erzeugen die Anlagen auf diesem Bild?', 'Strom aus Windkraft', ['Strom aus Sonnenlicht', 'Wärme für Fernheizungen', 'Wasserstoff aus Meerwasser'], 'Sie treiben einen Generator an.', 'windpark'],
       ['Wie nennt man Windparks auf dem Meer?', 'Offshore', ['Onshore', 'Inshore', 'Seeside'], 'Dort weht der Wind stärker.'],
       ['Woraus bestehen die meisten Solarzellen?', 'Aus Silizium', ['Aus Kupfer', 'Aus Gold', 'Aus Holz'], 'Wie Computerchips.', 'solarpark'],
       ['Was ist die ursprüngliche Quelle fast aller erneuerbaren Energien?', 'Die Sonne', ['Der Mond', 'Das Erdinnere', 'Die Kohle'], 'Sie treibt auch Wind und Wasser an.'],

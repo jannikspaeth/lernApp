@@ -226,7 +226,7 @@ export const E7: Epoch = {
               ['Wann wurde de Gaulle direkt wiedergewählt?', '1965', ['1962', '1969', '1958']],
               ['Wogegen protestierten die Studenten 1968?', 'Gegen veraltete Universitäten, autoritäre Strukturen und den Vietnamkrieg', ['Gegen hohe Mieten', 'Gegen Deutschland', 'Gegen die Olympischen Spiele']],
               ['Wann war die „Nacht der Barrikaden“?', '10./11. Mai 1968', ['14. Juli 1968', '30. Mai 1968', '1. Mai 1968']],
-              ['Wie lautet eine weitere Parole von 1968?', '„Unter dem Pflaster liegt der Strand“', ['„Arbeit macht frei“', '„Make America great again“', '„Liberté, égalité, fraternité“']],
+              ['Wie lautet eine weitere Parole von 1968?', '„Unter dem Pflaster liegt der Strand“', ['„Ordnung und Fortschritt“', '„Make America great again“', '„Liberté, égalité, fraternité“']],
               ['Welchen Rang hat der französische Generalstreik von 1968 in der Geschichte?', 'Der größte der französischen Geschichte', ['Ein kleiner Streik', 'Ein Streik nur in Paris', 'Ein Streik der Bauern']],
               ['Was tat de Gaulle nach seiner Rückkehr aus Baden-Baden?', 'Er löste das Parlament auf und rief Neuwahlen aus', ['Er trat zurück', 'Er floh nach England', 'Er verhängte das Kriegsrecht']],
               ['Wann demonstrierten de Gaulles Anhänger auf den Champs-Élysées?', '30. Mai 1968', ['10. Mai 1968', '14. Juli 1968', '1. Juni 1968']],

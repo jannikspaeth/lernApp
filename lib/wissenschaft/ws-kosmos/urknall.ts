@@ -25,7 +25,7 @@ export const URKNALL: Subtopic = {
       ['Wie nennt man die Verschiebung des Lichts ferner Galaxien zum roten Ende?', 'Rotverschiebung', ['Blauverschiebung', 'Sonnenwind', 'Regenbogen'], 'Ein Zeichen, dass sie sich entfernen.'],
       ['Woher stammt der Name „Big Bang“?', 'Von einem Gegner der Theorie, der spottete', ['Von Einstein', 'Von der NASA', 'Aus einem Kinofilm'], 'Fred Hoyle, 1949 im Radio.'],
       ['Welches Teleskop sieht heute Galaxien aus der Frühzeit des Universums?', 'James-Webb-Teleskop', ['Galileis Fernrohr', 'Ein Opernglas', 'Das Teleskop von Herschel'], 'Es beobachtet im Infrarot.'],
-      ['Was wird die Ausdehnung des Universums nach heutigem Wissen?', 'Immer schneller', ['Immer langsamer', 'Sie stoppt morgen', 'Sie kehrt sich um'], 'Seit 1998 bekannt.'],
+      ['Was wird die Ausdehnung des Universums nach heutigem Wissen?', 'Immer schneller', ['Immer langsamer', 'Sie bleibt gleich schnell', 'Sie kehrt sich um'], 'Seit 1998 bekannt.'],
       ['Wer schlug 1931 ein „Uratom“ als Anfang vor?', 'Georges Lemaître', ['Fred Hoyle', 'Isaac Newton', 'Charles Darwin'], 'Ein belgischer Priester und Physiker.', 'lemaitre'],
     ],
     mittel: [

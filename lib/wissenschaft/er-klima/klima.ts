@@ -18,7 +18,7 @@ export const KLIMA: Subtopic = {
       ['Was ist Klima?', 'Der durchschnittliche Zustand des Wetters über lange Zeit', ['Das Wetter von morgen', 'Die Temperatur heute', 'Ein einzelner Sturm'], 'Meist über 30 Jahre.'],
       ['Warum ist es am Äquator wärmer als an den Polen?', 'Die Sonnenstrahlen fallen dort steiler ein', ['Der Äquator ist näher an der Sonne', 'Dort gibt es mehr Vulkane', 'Dort ist mehr Wasser'], 'An den Polen verteilt sich die Energie.'],
       ['Welche warme Meeresströmung heizt Westeuropa?', 'Der Golfstrom', ['Der Humboldtstrom', 'Der Labradorstrom', 'Der Kuroshio'], 'Die „Warmwasserheizung“ Europas.'],
-      ['Wie viele Klimazonen unterscheidet man grob?', 'Tropen, Subtropen, gemäßigte Zone, Polarzone', ['Nur warm und kalt', 'Sieben Kontinente', 'Zwölf Monate'], 'Je nach Breitengrad.', 'koeppen-karte'],
+      ['Welche Klimazonen unterscheidet man grob?', 'Tropen, Subtropen, gemäßigte Zone, Polarzone', ['Tropen, Wüsten und Steppen', 'Nordzone und Südzone', 'Hochland, Tiefland und Küste'], 'Je nach Breitengrad.', 'koeppen-karte'],
       ['Wann war der Höhepunkt der letzten Kaltzeit?', 'Vor rund 20.000 Jahren', ['Vor 2.000 Jahren', 'Vor 2 Millionen Jahren', 'Vor 200 Jahren'], 'Eisschilde bedeckten Nordeuropa.'],
       ['Was war während der letzten Eiszeit trockenes Land?', 'Die Nordsee', ['Die Alpen', 'Die Sahara', 'Das Mittelmeer ganz'], 'Mammuts weideten dort.'],
       ['Was sind Findlinge in Norddeutschland?', 'Große Steine, die das Eis aus Skandinavien brachte', ['Meteoriten', 'Vulkanbomben', 'Römische Bauten'], 'Zeugen der Eiszeit.'],
@@ -52,7 +52,7 @@ export const KLIMA: Subtopic = {
       ['Wie kalt kann es in Sibirien im Winter werden?', 'Unter minus 60 Grad', ['Etwa minus 10 Grad', 'Etwa 0 Grad', 'Unter minus 150 Grad'], 'Im Sommer über 30 Grad.'],
       ['Was zeigen holländische Winterbilder?', 'Die Kleine Eiszeit', ['Die letzte Kaltzeit', 'Die Mittelalterliche Warmzeit', 'Den heutigen Klimawandel'], 'Zugefrorene Kanäle.'],
       ['Was erklären natürliche Ursachen wie Sonnenaktivität und Vulkane?', 'Kleinere Klimaschwankungen wie die Kleine Eiszeit', ['Die heutige Erwärmung', 'Die Entstehung der Erde', 'Die Gezeiten'], 'Die heutige Erwärmung ist menschengemacht.'],
-      ['Welche Gebiete gelten nach der Definition „kaum Niederschlag“ als größte Wüste?', 'Die Antarktis', ['Die Sahara', 'Die Arabische Wüste', 'Die Gobi'], 'Eine kalte Wüste.'],
+      ['Welches Gebiet ist nach der Definition „kaum Niederschlag“ die größte Wüste der Erde?', 'Die Antarktis', ['Die Sahara', 'Die Arabische Wüste', 'Die Gobi'], 'Eine kalte Wüste.'],
     ],
   },
 };

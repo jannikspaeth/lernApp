@@ -49,7 +49,7 @@ export const RAT: Subtopic = {
       ['Aus welchem Land kommt Donald Tusk?', 'Aus Polen', ['Aus Tschechien', 'Aus Litauen', 'Aus Ungarn'], 'Später wieder polnischer Ministerpräsident.'],
       ['Seit wann gilt die doppelte Mehrheit im Rat?', 'Seit 2014', ['Seit 1957', 'Seit 1993', 'Seit 2024'], 'Eingeführt durch den Vertrag von Lissabon.'],
       ['Welche Ratsformation entscheidet etwa über die Agrarpolitik?', 'Der Rat der Agrar- und Fischereiminister', ['Der Europäische Rat', 'Der Rat der Außenminister', 'Der Europarat'], 'Je nach Thema tagen andere Minister.'],
-      ['Welches Land hatte die Ratspräsidentschaft in der zweiten Jahreshälfte 2026?', 'Irland', ['Deutschland', 'Frankreich', 'Polen'], 'Die Reihenfolge ist lange festgelegt.'],
+      ['Welches Land hat in der zweiten Jahreshälfte 2026 die Ratspräsidentschaft?', 'Irland', ['Deutschland', 'Frankreich', 'Polen'], 'Die Reihenfolge ist lange festgelegt.'],
       ['Wo tagt der Europäische Rat in der Regel?', 'In Brüssel', ['In Straßburg', 'In Luxemburg', 'Im jeweiligen Vorsitzland'], 'Seit 2017 im Europa-Gebäude.'],
       ['Wer bereitet die Gipfel des Europäischen Rates vor und leitet sie?', 'Der ständige Präsident des Europäischen Rates', ['Der Bundeskanzler', 'Die Präsidentin des Parlaments', 'Der Hohe Vertreter'], 'Seit dem Vertrag von Lissabon.'],
     ],

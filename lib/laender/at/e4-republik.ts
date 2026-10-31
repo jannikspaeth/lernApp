@@ -110,7 +110,7 @@ export const E4: Epoch = {
               ['Wer ermordete Dollfuß?', 'Österreichische Nationalsozialisten', ['Sozialdemokraten', 'Kommunisten', 'Monarchisten']],
               ['Wer folgte Dollfuß als Kanzler?', 'Kurt Schuschnigg', ['Arthur Seyß-Inquart', 'Karl Renner', 'Leopold Figl']],
               ['Woher stammte Hitler?', 'Aus Braunau am Inn', ['Aus Wien', 'Aus Linz', 'Aus München']],
-              ['Mit welchen Worten trat Schuschnigg zurück?', '„Gott schütze Österreich!“', ['„Österreich ist frei!“', '„Heil Hitler!“', '„Es lebe der Kaiser!“']],
+              ['Mit welchen Worten trat Schuschnigg zurück?', '„Gott schütze Österreich!“', ['„Österreich ist frei!“', '„Es lebe die Republik!“', '„Es lebe der Kaiser!“']],
               ['Wann marschierte die Wehrmacht in Österreich ein?', '12. März 1938', ['13. März 1938', '1. September 1939', '15. Mai 1955']],
               ['Stieß die Wehrmacht 1938 in Österreich auf Widerstand?', 'Nein, sie wurde vielerorts bejubelt', ['Ja, heftigen', 'Ja, in Wien', 'Ja, in Tirol']],
               ['Wo sprach Hitler am 15. März 1938?', 'Auf dem Wiener Heldenplatz', ['In Linz', 'In Braunau', 'In Salzburg']],

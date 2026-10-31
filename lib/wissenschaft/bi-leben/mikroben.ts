@@ -16,10 +16,10 @@ export const MIKROBEN: Subtopic = {
   quiz: {
     leicht: [
       ['Wie nennt man Lebewesen, die man nur unter dem Mikroskop sieht?', 'Mikroorganismen oder Mikroben', ['Makroben', 'Insekten', 'Moleküle'], 'Etwa Bakterien.'],
-      ['Haben Bakterien einen Zellkern?', 'Nein', ['Ja, immer', 'Ja, sogar zwei', 'Nur im Winter'], 'Sie sind Einzeller ohne Kern.'],
+      ['Haben Bakterien einen Zellkern?', 'Nein', ['Ja, immer', 'Ja, einen besonders großen', 'Nur die kugelförmigen'], 'Sie sind Einzeller ohne Kern.'],
       ['Wie viele Bakterien leben etwa in unserem Darm?', 'Rund 38 Billionen', ['Rund tausend', 'Rund eine Million', 'Gar keine'], 'Etwa so viele wie Körperzellen.'],
-      ['Wobei helfen Bakterien in der Küche?', 'Bei Joghurt, Käse und Sauerkraut', ['Beim Backen von Brot', 'Beim Kochen von Nudeln', 'Beim Braten von Fleisch'], 'Sie vergären Milch und Kohl.'],
-      ['Helfen Antibiotika gegen Viren?', 'Nein', ['Ja, immer', 'Nur gegen Grippe', 'Nur bei Kindern'], 'Viren haben keinen eigenen Stoffwechsel.'],
+      ['Wobei helfen Bakterien in der Küche?', 'Bei Joghurt, Käse und Sauerkraut', ['Beim Kochen von Reis', 'Beim Kochen von Nudeln', 'Beim Braten von Fleisch'], 'Sie vergären Milch und Kohl.'],
+      ['Helfen Antibiotika gegen Viren?', 'Nein', ['Ja, immer', 'Nur gegen Grippe', 'Nur gegen Schnupfen'], 'Viren haben keinen eigenen Stoffwechsel.'],
       ['Womit kann man sich vor vielen Viren schützen?', 'Mit Impfungen', ['Mit Antibiotika', 'Mit Vitamin C', 'Mit Sonnencreme'], 'Etwa gegen Masern oder Grippe.'],
       ['Welcher einzellige Pilz lässt Brotteig aufgehen?', 'Die Hefe', ['Der Fliegenpilz', 'Der Steinpilz', 'Der Schimmelpilz'], 'Und vergärt Zucker zu Alkohol.'],
       ['Aus welchem Pilz gewann man das erste Antibiotikum?', 'Aus dem Schimmelpilz Penicillium', ['Aus dem Fliegenpilz', 'Aus der Hefe', 'Aus dem Champignon'], 'Das Penicillin.'],

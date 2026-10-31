@@ -50,7 +50,7 @@ export const MODERNE: Subtopic = {
       ['Woher stammt Katalin Karikó?', 'Aus Ungarn', ['Aus Rumänien', 'Aus Deutschland', 'Aus Polen'], 'Sie forschte lange in den USA.'],
       ['Was zerstört bei Typ-1-Diabetes die Insulin bildenden Zellen?', 'Das eigene Immunsystem', ['Ein Virus', 'Zu viel Zucker', 'Ein Bakterium'], 'Eine Autoimmunkrankheit.'],
       ['Welches Narkosemittel folgte bald nach dem Äther?', 'Chloroform', ['Morphium', 'Kokain', 'Insulin'], 'Ab 1847.'],
-      ['Wer entwickelte neben Jonas Salk eine Polio-Schluckimpfung?', 'Albert Sabin', ['Jonas Edwards', 'Robert Koch', 'Emil von Behring'], 'Die „Schluckimpfung ist süß“.'],
+      ['Wer entwickelte neben Jonas Salk eine Polio-Schluckimpfung?', 'Albert Sabin', ['Edward Jenner', 'Robert Koch', 'Emil von Behring'], 'Die „Schluckimpfung ist süß“.'],
       ['Welche Krankheiten töten in armen Ländern noch Millionen?', 'Malaria, Tuberkulose und Durchfall', ['Pocken und Pest', 'Diabetes', 'Kinderlähmung'], 'Vermeidbare Krankheiten.'],
       ['Was ist die personalisierte Medizin?', 'Therapien, die auf das Erbgut des Einzelnen zugeschnitten sind', ['Medizin nur für Reiche', 'Selbstbehandlung ohne Arzt', 'Medizin aus der Apotheke'], 'Eine moderne Entwicklung.'],
     ],

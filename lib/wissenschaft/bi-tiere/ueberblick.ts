@@ -40,7 +40,7 @@ export const UEBERBLICK: Subtopic = {
       ['Wo wurde das Pferd vermutlich gezähmt?', 'In den Steppen Zentralasiens', ['In Ägypten', 'In Amerika', 'In Australien'], 'Vor etwa 5.500 Jahren.'],
       ['Zu welchen Tieren gehören Insekten, Spinnen und Krebse?', 'Zu den Gliederfüßern', ['Zu den Weichtieren', 'Zu den Stachelhäutern', 'Zu den Würmern'], 'Die artenreichste Tiergruppe.'],
       ['Wie viel der Amphibien sind laut IUCN etwa bedroht?', 'Rund 40 Prozent', ['Rund 4 Prozent', 'Gar keine', 'Fast alle'], 'Die am stärksten bedrohte Wirbeltierklasse.'],
-      ['Welche Tiere sind Stachelhäuter?', 'Seesterne und Seeigel', ['Igel und Stachelschweine', 'Kakteen', 'Kugelfische'], 'Wirbellose des Meeres.'],
+      ['Welche Tiere sind Stachelhäuter?', 'Seesterne und Seeigel', ['Igel und Stachelschweine', 'Seeanemonen', 'Kugelfische'], 'Wirbellose des Meeres.'],
     ],
     schwer: [
       ['Wann wurde der Hund vermutlich gezähmt?', 'Vor über 15.000 Jahren', ['Vor 500 Jahren', 'Vor 3.000 Jahren', 'Vor 1 Million Jahren'], 'Als erstes Haustier.'],

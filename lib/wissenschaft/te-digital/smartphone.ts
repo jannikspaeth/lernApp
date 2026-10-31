@@ -26,7 +26,7 @@ export const SMARTPHONE: Subtopic = {
       ['Wie bedient man ein Smartphone hauptsächlich?', 'Mit den Fingern auf einem Touchscreen', ['Mit einer Maus', 'Mit Zifferntasten', 'Mit einem Joystick'], 'Seit dem iPhone.'],
       ['Wie heißt Googles Smartphone-Betriebssystem?', 'Android', ['iOS', 'Windows', 'Symbian'], 'Auf rund drei Vierteln aller Smartphones.'],
       ['Wie viele Menschen besitzen etwa ein Smartphone?', 'Über vier Milliarden', ['Etwa 40 Millionen', 'Etwa 400 Millionen', 'Alle acht Milliarden'], 'Weltweit.'],
-      ['Welche Mobilfunkgeneration ist die neueste weit verbreitete?', '5G', ['2G', 'GSM', '1G'], 'Viel schneller als 4G.'],
+      ['Welche Mobilfunkgeneration ist die neueste weit verbreitete?', '5G', ['2G', '3G', '1G'], 'Viel schneller als 4G.'],
     ],
     mittel: [
       ['Wen rief Martin Cooper 1973 an?', 'Seinen Konkurrenten bei den Bell Labs', ['Seine Mutter', 'Den Präsidenten', 'Die Feuerwehr'], 'Ein kleiner Triumph.'],

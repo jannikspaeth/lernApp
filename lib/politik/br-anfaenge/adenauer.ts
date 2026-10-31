@@ -38,7 +38,7 @@ export const ADENAUER: Subtopic = {
       ['Was führte die Rentenreform von 1957 ein?', 'Die dynamische, an die Löhne gekoppelte Rente', ['Die Rente mit 67', 'Die Abschaffung der Rente', 'Eine Einheitsrente für alle'], 'Ein großer sozialpolitischer Schritt.'],
       ['Ab wann wurden „Gastarbeiter“ angeworben?', 'Ab 1955', ['Ab 1949', 'Ab 1973', 'Ab 1990'], 'Zuerst aus Italien.'],
       ['Welcher Minister musste in der Spiegel-Affäre zurücktreten?', 'Franz Josef Strauß', ['Ludwig Erhard', 'Gerhard Schröder (CDU)', 'Heinrich von Brentano'], 'Er hatte das Parlament belogen.'],
-      ['Warum gilt die Spiegel-Affäre als Wendepunkt?', 'Für die Pressefreiheit in der Bundesrepublik', ['Für die Wiedervereinigung', 'Für die Wirtschaft', 'Für den Sport'], 'Die Öffentlichkeit protestierte heftig.'],
+      ['Warum gilt die Spiegel-Affäre als Wendepunkt?', 'Für die Pressefreiheit in der Bundesrepublik', ['Für die Wiedervereinigung', 'Für die Wirtschaft', 'Für die Gleichberechtigung'], 'Die Öffentlichkeit protestierte heftig.'],
       ['Wann trat Adenauer zurück?', 'Im Oktober 1963', ['Im Mai 1959', 'Im Januar 1966', 'Im September 1961'], 'Mit 87 Jahren.'],
       ['Wer war Adenauers umstrittener Kanzleramtschef?', 'Hans Globke', ['Ludwig Erhard', 'Heinrich Lübke', 'Rainer Barzel'], 'Er hatte die Nürnberger Rassengesetze kommentiert.'],
     ],

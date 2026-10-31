@@ -51,7 +51,7 @@ export const EVOLUTION: Subtopic = {
       ['Was wusste Darwin noch nicht?', 'Wie Eigenschaften vererbt werden', ['Dass es Fossilien gibt', 'Dass Arten aussterben', 'Dass Finken Schnäbel haben'], 'Mendels Arbeit kannte er nicht.'],
       ['Was soll Wilberforce Huxley gefragt haben?', 'Ob er großväterlicher- oder großmütterlicherseits vom Affen abstamme', ['Ob er an Gott glaube', 'Ob er je einen Affen gesehen habe', 'Ob er Darwin kenne'], 'Eine berühmte Anekdote.'],
       ['Wann starb Darwin?', '1882', ['1859', '1871', '1900'], 'Mit 73 Jahren.'],
-      ['Was taten Darwins Galápagos-Finken nach seiner Erkenntnis?', 'Sie stammten von einem gemeinsamen Vorfahren vom Festland ab', ['Sie waren auf jeder Insel neu erschaffen', 'Sie stammten aus Europa', 'Sie waren alle eine einzige Art'], 'Und passten sich an.'],
+      ['Was erkannte Darwin über die Herkunft der Galápagos-Finken?', 'Sie stammten von einem gemeinsamen Vorfahren vom Festland ab', ['Sie waren auf jeder Insel neu erschaffen', 'Sie stammten aus Europa', 'Sie waren alle eine einzige Art'], 'Und passten sich an.'],
       ['Wodurch entsteht nach der modernen Theorie die Vielfalt, aus der die Selektion auswählt?', 'Durch Mutationen in der DNA', ['Durch Training', 'Durch Ernährung', 'Durch das Klima direkt'], 'Zufällige Veränderungen.'],
     ],
   },

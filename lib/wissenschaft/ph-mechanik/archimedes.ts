@@ -15,7 +15,7 @@ export const ARCHIMEDES: Subtopic = {
   ],
   quiz: {
     leicht: [
-      ['Was rief Archimedes, als er das Prinzip des Auftriebs fand?', '„Heureka!“', ['„Eureka Gold!“', '„Veni, vidi, vici!“', '„Alles fließt!“'], '„Ich hab’s gefunden!“'],
+      ['Was rief Archimedes, als er das Prinzip des Auftriebs fand?', '„Heureka!“', ['„Carpe diem!“', '„Veni, vidi, vici!“', '„Alles fließt!“'], '„Ich hab’s gefunden!“'],
       ['Wo kam Archimedes die Idee zum Auftrieb?', 'In der Badewanne', ['Auf einem Schiff', 'Im Tempel', 'Unter einem Apfelbaum'], 'Das Wasser lief über.'],
       ['In welcher Stadt lebte Archimedes?', 'Syrakus', ['Athen', 'Rom', 'Alexandria'], 'Auf Sizilien.'],
       ['Was soll Archimedes über den Hebel gesagt haben?', '„Gebt mir einen festen Punkt, und ich hebe die Welt aus den Angeln.“', ['„Wissen ist Macht.“', '„Ich denke, also bin ich.“', '„Alles ist Zahl.“'], 'Mit einem langen Hebel geht vieles.'],

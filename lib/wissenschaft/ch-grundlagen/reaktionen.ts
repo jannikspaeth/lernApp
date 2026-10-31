@@ -19,7 +19,7 @@ export const REAKTIONEN: Subtopic = {
       ['Was passiert bei einer chemischen Reaktion?', 'Aus Ausgangsstoffen entstehen neue Stoffe', ['Stoffe verschwinden spurlos', 'Nur die Farbe ändert sich', 'Atome entstehen neu'], 'Bindungen werden gelöst und geknüpft.'],
       ['Was braucht ein Feuer?', 'Brennstoff, Sauerstoff und Hitze', ['Nur Holz', 'Wasser und Luft', 'Strom und Licht'], 'Das Verbrennungsdreieck.'],
       ['Was tut ein Katalysator?', 'Er beschleunigt eine Reaktion, ohne verbraucht zu werden', ['Er stoppt jede Reaktion', 'Er wird bei der Reaktion verbraucht', 'Er kühlt Stoffe ab'], 'Etwa im Auto oder als Enzym.'],
-      ['Was entsteht, wenn Eisen mit Sauerstoff und Wasser reagiert?', 'Rost', ['Gold', 'Salz', 'Zucker'], 'Eine Redoxreaktion.'],
+      ['Was entsteht, wenn Eisen mit Sauerstoff und Wasser reagiert?', 'Rost', ['Grünspan', 'Salz', 'Kalk'], 'Eine Redoxreaktion.'],
       ['Wie nennt man Reaktionen, die Wärme abgeben?', 'Exotherm', ['Endotherm', 'Thermisch neutral', 'Isotherm'], 'Etwa jede Verbrennung.'],
       ['Warum löscht Wasser ein Feuer?', 'Es kühlt den Brennstoff ab', ['Es enthält Sauerstoff', 'Es ist schwerer als Feuer', 'Es erzeugt Strom'], 'Ohne Hitze kein Feuer.'],
       ['Warum leiten Metalle Strom so gut?', 'Ihre Elektronen bewegen sich frei', ['Sie sind schwer', 'Sie sind kalt', 'Sie glänzen'], 'Ein „Elektronensee“.'],

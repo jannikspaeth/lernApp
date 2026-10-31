@@ -23,7 +23,7 @@ export const KOHLENSTOFF: Subtopic = {
       ['Welches berühmte Medikament kam 1899 von Bayer auf den Markt?', 'Aspirin', ['Penicillin', 'Insulin', 'Paracetamol'], 'Acetylsalicylsäure.'],
       ['Was ist Graphen?', 'Eine einzelne Atomlage aus Kohlenstoff', ['Ein Mineral aus Gold', 'Ein Diagramm', 'Ein Kunststoff'], 'Reißfester als Stahl.'],
       ['Woraus entstanden Kohle, Erdöl und Erdgas?', 'Aus abgestorbenen Pflanzen und Kleinstlebewesen', ['Aus Vulkanlava', 'Aus Meteoriten', 'Aus Sand'], 'Über Jahrmillionen.'],
-      ['Was entsteht beim Verbrennen fossiler Brennstoffe?', 'Kohlendioxid', ['Sauerstoff', 'Gold', 'Wasserstoff'], 'Es erwärmt das Klima.'],
+      ['Was entsteht beim Verbrennen fossiler Brennstoffe?', 'Kohlendioxid', ['Sauerstoff', 'Helium', 'Wasserstoff'], 'Es erwärmt das Klima.'],
       ['Wie trennt man Erdöl in der Raffinerie?', 'Durch Destillation', ['Durch Filtern', 'Durch Magnete', 'Durch Einfrieren'], 'In Benzin, Diesel, Kerosin und mehr.'],
       ['Womit lösten Geim und Novoselov 2004 Graphen ab?', 'Mit Klebeband', ['Mit einem Laser', 'Mit einem Messer', 'Mit Säure'], 'Ein einfacher, genialer Trick.'],
       ['Welche Form haben Fullerene?', 'Die eines Fußballs', ['Die eines Würfels', 'Die einer Pyramide', 'Die eines Rings'], 'Aus 60 Kohlenstoffatomen.'],

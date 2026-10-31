@@ -21,7 +21,7 @@ export const ANTIBIOTIKA: Subtopic = {
       ['Helfen Antibiotika gegen eine Grippe?', 'Nein, Grippe wird von Viren verursacht', ['Ja, immer', 'Nur bei Kindern', 'Nur bei Fieber'], 'Antibiotika wirken nur gegen Bakterien.'],
       ['Was zeigte die liegen gebliebene Petrischale Flemings?', 'Um einen Schimmel herum waren Bakterien abgestorben', ['Die Bakterien leuchteten', 'Der Schimmel war gestorben', 'Nichts Besonderes'], 'Der Schimmel sonderte Penicillin ab.', 'penicillin-schale'],
       ['Wovor warnte Fleming schon in seiner Nobelrede?', 'Dass Bakterien unempfindlich werden könnten', ['Dass Penicillin giftig ist', 'Dass Pilze gefährlich sind', 'Dass es zu teuer wird'], 'Antibiotikaresistenz.'],
-      ['Warum werden Bakterien resistent?', 'Widerstandsfähige überleben und vermehren sich', ['Sie lernen aus Büchern', 'Sie werden von Viren geschützt', 'Durch Kälte'], 'Evolution im Zeitraffer.'],
+      ['Warum werden Bakterien resistent?', 'Widerstandsfähige überleben und vermehren sich', ['Weil sie das Antibiotikum fressen', 'Sie werden von Viren geschützt', 'Durch Kälte'], 'Evolution im Zeitraffer.'],
       ['Wie nannte Paul Ehrlich sein ideales Medikament?', '„Zauberkugel“', ['„Wunderpille“', '„Heiltrank“', '„Lebenselixier“'], 'Es sollte nur Erreger treffen.'],
       ['Welches Medikament kam 1910 gegen Syphilis auf den Markt?', 'Salvarsan', ['Aspirin', 'Penicillin', 'Insulin'], 'Von Paul Ehrlich.'],
       ['Wann erhielten Fleming, Florey und Chain den Nobelpreis?', '1945', ['1928', '1910', '1964'], 'Gemeinsam.'],

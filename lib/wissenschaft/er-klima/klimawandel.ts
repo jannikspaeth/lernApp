@@ -20,7 +20,7 @@ export const KLIMAWANDEL: Subtopic = {
       ['Was ist die Hauptursache des CO₂-Anstiegs?', 'Die Verbrennung von Kohle, Erdöl und Erdgas', ['Vulkane', 'Die Atmung der Menschen', 'Die Sonne'], 'Dazu die Abholzung.'],
       ['Wie heißt die berühmte Messreihe des CO₂ auf Hawaii?', 'Keeling-Kurve', ['Hockeyschläger-Kurve', 'Mauna-Kurve', 'Gauß-Kurve'], 'Seit 1958.', 'keeling-kurve'],
       ['Wie viel hat sich die Erde seit dem späten 19. Jahrhundert etwa erwärmt?', 'Um rund 1,3 Grad', ['Um rund 0,1 Grad', 'Um rund 10 Grad', 'Gar nicht'], 'An Land deutlich mehr.'],
-      ['Welches Jahr war das wärmste seit Beginn der Messungen?', '2024', ['1998', '2003', '2016'], 'Erstmals über 1,5 Grad.'],
+      ['Welches Jahr war bis 2025 das wärmste seit Beginn der Messungen?', '2024', ['1998', '2003', '2016'], 'Erstmals über 1,5 Grad.'],
       ['Wie heißt der Weltklimarat abgekürzt?', 'IPCC', ['WHO', 'UNESCO', 'NASA'], 'Seit 1988.'],
       ['Auf welche Erwärmung zielt das Pariser Abkommen?', 'Deutlich unter zwei Grad, möglichst 1,5 Grad', ['Genau fünf Grad', 'Null Grad', 'Zehn Grad'], 'Beschlossen 2015.'],
       ['Wer stieß 2018 die Bewegung „Fridays for Future“ an?', 'Greta Thunberg', ['Al Gore', 'Rachel Carson', 'Luisa Neubauer'], 'Eine schwedische Schülerin.'],

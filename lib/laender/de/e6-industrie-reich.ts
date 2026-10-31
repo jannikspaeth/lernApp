@@ -113,7 +113,7 @@ export const INDUSTRIALISIERUNG: HistEvent = {
           ['Nach wem ist der Dieselmotor benannt?', 'Nach seinem Erfinder Rudolf Diesel', ['Nach einem Fluss', 'Nach einem englischen Ingenieur', 'Nach einem Rennfahrer']],
           ['Was erfand Karl Drais?', 'Die Laufmaschine, den Vorläufer des Fahrrads', ['Das Auto', 'Das Telefon', 'Die Glühbirne']],
           ['Wer schrieb mit Friedrich Engels das „Kommunistische Manifest“?', 'Karl Marx', ['Ferdinand Lassalle', 'August Bebel', 'Lenin']],
-          ['Mit welchem Satz endet das Kommunistische Manifest?', '„Proletarier aller Länder, vereinigt euch!“', ['„Wir sind das Volk!“', '„Freiheit, Gleichheit, Brüderlichkeit!“', '„Arbeit macht frei!“']],
+          ['Mit welchem Satz endet das Kommunistische Manifest?', '„Proletarier aller Länder, vereinigt euch!“', ['„Wir sind das Volk!“', '„Freiheit, Gleichheit, Brüderlichkeit!“', '„Eigentum ist Diebstahl!“']],
           ['Wie heißt das Hauptwerk von Karl Marx?', '„Das Kapital“', ['„Der Staat“', '„Mein Kampf“', '„Der Fürst“']],
           ['Welche Partei entstand aus der Arbeiterbewegung?', 'Die SPD', ['Die CDU', 'Die FDP', 'Die Grünen']],
           ['Wie nannte Bismarck die Sozialdemokraten?', '„Reichsfeinde“', ['„Freunde des Reiches“', '„Patrioten“', '„Kaisertreue“']],

@@ -23,10 +23,10 @@ export const VULKANE: Subtopic = {
       ['Welcher Vulkan legte 2010 den Flugverkehr über Europa lahm?', 'Der Eyjafjallajökull auf Island', ['Der Ätna', 'Der Vesuv', 'Der Stromboli'], 'Mit einer riesigen Aschewolke.', 'eyjafjallajoekull'],
       ['Welches Jahr wurde nach dem Tambora-Ausbruch zum „Jahr ohne Sommer“?', '1816', ['1815', '1883', '1900'], 'Schnee im Juni.'],
       ['Wie nennt man die kreisrunden Vulkanseen der Eifel?', 'Maare', ['Fjorde', 'Lagunen', 'Kraterseen'], 'Entstanden durch Gasexplosionen.'],
-      ['Warum leben viele Menschen trotz der Gefahr an Vulkanen?', 'Vulkanische Böden sind besonders fruchtbar', ['Es ist dort kühl', 'Es gibt dort Gold', 'Es ist verboten wegzuziehen'], 'Etwa am Ätna.'],
+      ['Warum leben viele Menschen trotz der Gefahr an Vulkanen?', 'Vulkanische Böden sind besonders fruchtbar', ['Es ist dort kühl', 'Es gibt dort Gold', 'Dort gibt es keine Erdbeben'], 'Etwa am Ätna.'],
       ['Wie heiß kann Lava werden?', 'Über 1.000 Grad', ['Etwa 100 Grad', 'Etwa 300 Grad', 'Über eine Million Grad'], 'Glühend flüssiges Gestein.'],
       ['Welche Vulkaninsel explodierte 1883 mit einem gewaltigen Knall?', 'Krakatau', ['Hawaii', 'Island', 'Santorin'], 'In Indonesien.'],
-      ['Was liegt unter dem Yellowstone-Nationalpark?', 'Ein Supervulkan', ['Ein Meteorit', 'Ein Salzsee', 'Ein Goldschatz'], 'Sein letzter großer Ausbruch war vor 640.000 Jahren.'],
+      ['Was liegt unter dem Yellowstone-Nationalpark?', 'Ein Supervulkan', ['Ein Meteorit', 'Ein Salzsee', 'Ein Einschlagkrater'], 'Sein letzter großer Ausbruch war vor 640.000 Jahren.'],
     ],
     mittel: [
       ['Wer beschrieb den Ausbruch des Vesuvs 79 n. Chr. in Briefen?', 'Plinius der Jüngere', ['Seneca', 'Cicero', 'Julius Caesar'], 'An den Historiker Tacitus.'],

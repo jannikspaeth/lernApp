@@ -17,7 +17,7 @@ export const INSEKTEN: Subtopic = {
     leicht: [
       ['Wie viele Beine haben Insekten?', 'Sechs', ['Acht', 'Vier', 'Zehn'], 'Spinnen haben acht.'],
       ['Aus wie vielen Teilen besteht der Körper eines Insekts?', 'Drei: Kopf, Brust und Hinterleib', ['Zwei', 'Vier', 'Fünf'], 'Daher „Kerbtiere“.'],
-      ['Sind Spinnen Insekten?', 'Nein, sie haben acht Beine', ['Ja, immer', 'Nur Vogelspinnen', 'Nur im Winter'], 'Sie sind Spinnentiere.'],
+      ['Sind Spinnen Insekten?', 'Nein, sie haben acht Beine', ['Ja, immer', 'Nur Vogelspinnen', 'Ja, sie haben sechs Beine'], 'Sie sind Spinnentiere.'],
       ['Welche Insektengruppe hat die meisten Arten?', 'Die Käfer', ['Die Schmetterlinge', 'Die Bienen', 'Die Fliegen'], 'Rund 400.000 Arten.'],
       ['Wie nennt man die Verwandlung von der Raupe zum Schmetterling?', 'Metamorphose', ['Photosynthese', 'Evolution', 'Mutation'], 'Über das Puppenstadium.'],
       ['Wie viele Königinnen hat ein Bienenvolk normalerweise?', 'Eine', ['Zehn', 'Hundert', 'Keine'], 'Sie legt bis zu 2.000 Eier am Tag.'],
@@ -31,7 +31,7 @@ export const INSEKTEN: Subtopic = {
     mittel: [
       ['Wie viele Insektenarten sind beschrieben?', 'Über eine Million', ['Etwa 10.000', 'Etwa 100.000', 'Über 100 Millionen'], 'Mehr als alle anderen Tiere zusammen.'],
       ['Wie viele Insekten leben schätzungsweise gleichzeitig auf der Erde?', 'Rund zehn Trillionen', ['Rund zehn Millionen', 'Rund zehn Milliarden', 'Rund eine Million'], 'Eine 1 mit 19 Nullen.'],
-      ['Wie gaben Bienen beim Schwänzeltanz die Richtung an?', 'Im Winkel zur Sonne', ['Nach dem Wind', 'Nach dem Magnetfeld', 'Nach dem Mond'], 'Entdeckt von Karl von Frisch.'],
+      ['Wie geben Bienen beim Schwänzeltanz die Richtung an?', 'Im Winkel zur Sonne', ['Nach dem Wind', 'Nach dem Magnetfeld', 'Nach dem Mond'], 'Entdeckt von Karl von Frisch.'],
       ['Welche Ameisen betreiben Landwirtschaft mit Pilzgärten?', 'Blattschneiderameisen', ['Waldameisen', 'Feuerameisen', 'Wanderameisen'], 'Sie füttern die Pilze mit Blättern.'],
       ['Was geschieht in der Puppe eines Schmetterlings?', 'Der Körper wird aufgelöst und neu aufgebaut', ['Die Raupe schläft nur', 'Die Raupe frisst weiter', 'Die Raupe stirbt'], 'Eine vollständige Verwandlung.'],
       ['Wie lange leben fliegende Eintagsfliegen?', 'Stunden bis wenige Tage', ['Ein Jahr', 'Zehn Jahre', 'Genau einen Monat'], 'Als Larven leben sie Jahre.'],

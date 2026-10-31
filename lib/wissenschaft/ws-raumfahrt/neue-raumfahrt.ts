@@ -15,7 +15,7 @@ export const NEUE_RAUMFAHRT: Subtopic = {
   ],
   quiz: {
     leicht: [
-      ['Wofür steht GPS?', 'Ein Satellitennavigationssystem', ['Ein Handyhersteller', 'Eine Raumstation', 'Eine Rakete'], 'Global Positioning System der USA.'],
+      ['Was ist GPS?', 'Ein Satellitennavigationssystem', ['Ein Handyhersteller', 'Eine Raumstation', 'Eine Rakete'], 'Global Positioning System der USA.'],
       ['Wie heißt das europäische Satellitennavigationssystem?', 'Galileo', ['Kepler', 'Ariane', 'Copernicus'], 'Benannt nach Galileo Galilei.'],
       ['Welche Firma ließ 2015 erstmals eine Raketenstufe senkrecht landen?', 'SpaceX', ['Boeing', 'Airbus', 'NASA'], 'Gegründet von Elon Musk.', 'falcon-9-landung'],
       ['Warum sind wiederverwendbare Raketen wichtig?', 'Sie machen Starts viel billiger', ['Sie fliegen schneller', 'Sie sind leiser', 'Sie brauchen keinen Treibstoff'], 'Die teure Stufe wird mehrfach benutzt.'],
@@ -35,7 +35,7 @@ export const NEUE_RAUMFAHRT: Subtopic = {
       ['Wo steht das ESA-Kontrollzentrum ESOC?', 'In Darmstadt', ['In Paris', 'In Köln', 'In München'], 'Das Astronautenzentrum ist in Köln.'],
       ['Wann startete die Ariane 6 zum ersten Mal?', '2024', ['1979', '1996', '2015'], 'Nachfolgerin der Ariane 5.'],
       ['Seit wann bringt SpaceX Astronauten zur ISS?', 'Seit 2020', ['Seit 2002', 'Seit 2011', 'Seit 1998'], 'Mit der Crew-Dragon-Kapsel.'],
-      ['Wer war Chinas erster Raumfahrer?', 'Yang Liwei', ['Wang Yaping', 'Zhai Zhigang', 'Mao Zedong'], 'Im Jahr 2003.'],
+      ['Wer war Chinas erster Raumfahrer?', 'Yang Liwei', ['Wang Yaping', 'Zhai Zhigang', 'Jing Haipeng'], 'Im Jahr 2003.'],
       ['Wie heißt das europäische Erdbeobachtungsprogramm?', 'Copernicus', ['Galileo', 'Columbus', 'Hipparcos'], 'Mit den Sentinel-Satelliten.'],
       ['Was ist das „Kessler-Syndrom“?', 'Eine Kettenreaktion von Zusammenstößen im Orbit', ['Eine Krankheit von Astronauten', 'Ein Fehler in GPS', 'Ein Raketenantrieb'], 'Manche Bahnen könnten unbrauchbar werden.'],
       ['Welche Firma gehört Jeff Bezos?', 'Blue Origin', ['SpaceX', 'Virgin Galactic', 'Rocket Lab'], 'Sie bietet Kurzflüge für Touristen.'],

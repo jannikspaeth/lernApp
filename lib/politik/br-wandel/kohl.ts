@@ -21,7 +21,7 @@ export const KOHL: Subtopic = {
       ['Welche Szene zeigt das Foto auf diesem CDU-Plakat von 1984?', 'Kohl und Mitterrand, die sich in Verdun die Hand reichen', ['Die Unterzeichnung des Euro', 'Den Fall der Berliner Mauer', 'Die Wiedervereinigung'], 'Ein Bild der deutsch-französischen Versöhnung.', 'kohl-mitterrand'],
       ['Wann fiel die Berliner Mauer?', 'Am 9. November 1989', ['Am 3. Oktober 1990', 'Am 13. August 1961', 'Am 17. Juni 1953'], 'Kohl war damals in Polen.'],
       ['Wann wurde Deutschland wiedervereinigt?', 'Am 3. Oktober 1990', ['Am 9. November 1989', 'Am 1. Juli 1990', 'Am 1. Januar 1991'], 'Der Tag der Deutschen Einheit.'],
-      ['Was versprach Kohl den Ostdeutschen?', '„Blühende Landschaften“', ['„Freibier für alle“', '„Neue Autos“', '„Eine eigene Armee“'], 'Ein bekanntes Versprechen.'],
+      ['Was versprach Kohl den Ostdeutschen?', '„Blühende Landschaften“', ['„Wohlstand für alle“', '„Neue Autos“', '„Eine eigene Armee“'], 'Ein bekanntes Versprechen.'],
       ['Welche Währung bekamen die Ostdeutschen am 1. Juli 1990?', 'Die D-Mark', ['Den Euro', 'Die Ostmark', 'Den Dollar'], 'Die Wirtschafts- und Währungsunion.'],
       ['Wann wurde der Euro als Bargeld eingeführt?', '2002', ['1990', '1999', '2010'], 'Als Buchgeld schon 1999.'],
       ['Gegen wen verlor Kohl die Bundestagswahl 1998?', 'Gegen Gerhard Schröder', ['Gegen Oskar Lafontaine', 'Gegen Rudolf Scharping', 'Gegen Angela Merkel'], 'Danach regierte Rot-Grün.'],

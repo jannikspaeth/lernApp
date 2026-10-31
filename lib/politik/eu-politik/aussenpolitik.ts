@@ -48,7 +48,7 @@ export const AUSSENPOLITIK: Subtopic = {
       ['Wie heißt die EU-Mission gegen Piraterie vor Somalia?', 'Operation Atalanta', ['Operation Sophia', 'Operation Irini', 'Operation Barbarossa'], 'Seit 2008.'],
       ['Welche Gruppierung soll Stabilität im Süden der EU fördern?', 'Die Mittelmeerunion', ['Die Nordische Union', 'Die Alpenunion', 'Die Atlantikunion'], 'Mit Anrainern des Mittelmeers.'],
       ['Welche Länder gehören zum Mercosur?', 'Brasilien, Argentinien, Uruguay und Paraguay', ['Mexiko, Kanada und die USA', 'Chile, Peru und Kolumbien', 'Spanien und Portugal'], 'Ein großer Wirtschaftsraum.'],
-      ['Welche Sanktion traf den Ölhandel mit Russland?', 'Ein Ölembargo', ['Ein Ölgeschenk', 'Eine Ölsteuer für Europäer', 'Gar keine'], 'Ausnahmen gab es für Pipelines.'],
+      ['Welche Sanktion traf den Ölhandel mit Russland?', 'Ein Ölembargo', ['Ein Lieferstopp für Weizen', 'Eine Ölsteuer für Europäer', 'Gar keine'], 'Ausnahmen gab es für Pipelines.'],
       ['Welche Organisation leitet der Hohe Vertreter im Ausland?', 'Den Europäischen Auswärtigen Dienst', ['Die Europäische Armee', 'Die NATO-Kommandos', 'Die UN-Missionen'], 'Mit EU-Delegationen weltweit.'],
       ['Warum gilt die EU als wirtschaftlicher Riese?', 'Sie ist einer der größten Handelsblöcke der Welt', ['Sie hat die größte Armee', 'Sie hat die meisten Einwohner', 'Sie hat die meisten Atomwaffen'], 'Sie verhandelt Handelsabkommen gemeinsam.'],
       ['Wofür erhielt die EU den Friedensnobelpreis?', 'Für Frieden, Versöhnung, Demokratie und Menschenrechte in Europa über sechs Jahrzehnte', ['Für den Euro', 'Für den Brexit', 'Für die Raumfahrt'], 'Ein Rückblick auf die Gründungsidee.'],

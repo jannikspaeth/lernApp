@@ -50,7 +50,7 @@ export const USA: Subtopic = {
       ['Welcher Präsident war Donald Trump in seiner ersten Amtszeit?', 'Der 45.', ['Der 44.', 'Der 46.', 'Der 47.'], 'Seit 2025 ist er der 47.'],
       ['Womit kann der Kongress ein Veto des Präsidenten überstimmen?', 'Mit einer Zweidrittelmehrheit in beiden Kammern', ['Mit einfacher Mehrheit', 'Mit einer Volksabstimmung', 'Gar nicht'], 'Ein „override“.'],
       ['Was regeln die US-Bundesstaaten zum Beispiel selbst?', 'Das Strafrecht, einschließlich der Todesstrafe', ['Die Währung', 'Die Außenpolitik', 'Die Kriegserklärung'], 'In manchen Staaten gibt es die Todesstrafe, in anderen nicht.'],
-      ['Wann finden die nächsten Midterms statt?', 'Im November 2026', ['Im November 2025', 'Im November 2028', 'Im Januar 2027'], 'Zur Halbzeit der Amtszeit des Präsidenten.'],
+      ['Wann sind die Midterms in Donald Trumps zweiter Amtszeit?', 'Im November 2026', ['Im November 2025', 'Im November 2028', 'Im Januar 2027'], 'Zur Halbzeit der Amtszeit des Präsidenten.'],
       ['Wie wird ein Drittel des Senats erneuert?', 'Alle zwei Jahre wird ein Drittel neu gewählt', ['Alle sechs Jahre alle auf einmal', 'Gar nicht', 'Durch Los'], 'So bleibt Kontinuität.'],
     ],
   },

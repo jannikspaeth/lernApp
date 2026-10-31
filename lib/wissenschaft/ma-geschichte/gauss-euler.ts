@@ -24,7 +24,7 @@ export const GAUSS_EULER: Subtopic = {
       ['Welches Problem löste Euler 1736?', 'Das Königsberger Brückenproblem', ['Das Siebzehneck', 'Die Quadratur des Kreises', 'Fermats Satz'], 'Sieben Brücken, ein Spaziergang.'],
       ['Wofür steht der Buchstabe π, den Euler populär machte?', 'Für die Kreiszahl', ['Für die Unendlichkeit', 'Für eine Primzahl', 'Für die Null'], 'Etwa 3,14.'],
       ['Wie viele Abhandlungen und Bücher schrieb Euler etwa?', 'Über 800', ['Etwa 8', 'Etwa 80', 'Über 8.000'], 'Der fleißigste Mathematiker.'],
-      ['Wie arbeitete Euler, als er fast erblindet war?', 'Er rechnete im Kopf und diktierte', ['Gar nicht mehr', 'Mit Blindenschrift', 'Mit einem Computer'], 'Seine Produktivität stieg sogar.'],
+      ['Wie arbeitete Euler, als er fast erblindet war?', 'Er rechnete im Kopf und diktierte', ['Gar nicht mehr', 'Mit Blindenschrift', 'Mit einem Rechenschieber'], 'Seine Produktivität stieg sogar.'],
       ['Welches neue Gebiet begründete Euler mit dem Brückenproblem?', 'Die Graphentheorie', ['Die Algebra', 'Die Geometrie', 'Die Statistik'], 'Heute in Navigationsgeräten.'],
       ['Wie viele Brücken führten in Königsberg über den Pregel?', 'Sieben', ['Drei', 'Zwölf', 'Eine'], 'Ein Spaziergang über jede genau einmal war unmöglich.'],
     ],

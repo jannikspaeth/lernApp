@@ -22,7 +22,7 @@ export const UEBERBLICK: Subtopic = {
       ['Wie alt ist das Sonnensystem ungefähr?', 'Etwa 4,6 Milliarden Jahre', ['Etwa 6.000 Jahre', 'Etwa 460 Millionen Jahre', 'Etwa 46 Milliarden Jahre'], 'Es entstand aus einer Gas- und Staubwolke.'],
       ['Welche Planeten sind Gesteinsplaneten?', 'Merkur, Venus, Erde, Mars', ['Jupiter, Saturn, Uranus, Neptun', 'Erde, Mars, Jupiter, Saturn', 'Venus, Erde, Uranus, Neptun'], 'Die vier inneren Planeten haben eine feste Oberfläche.'],
       ['Wo liegt der Asteroidengürtel?', 'Zwischen Mars und Jupiter', ['Zwischen Erde und Mars', 'Hinter Neptun', 'Zwischen Venus und Erde'], 'Millionen Gesteinsbrocken kreisen dort.'],
-      ['Welcher Himmelskörper wurde 2006 zum Zwergplaneten erklärt?', 'Pluto', ['Merkur', 'Mond', 'Ceres'], 'Er hat seine Bahn nicht freigeräumt.'],
+      ['Welcher Himmelskörper wurde 2006 zum Zwergplaneten erklärt?', 'Pluto', ['Merkur', 'Mond', 'Vesta'], 'Er hat seine Bahn nicht freigeräumt.'],
       ['Wie heißt die Eselsbrücke für die Reihenfolge der Planeten?', '„Mein Vater erklärt mir jeden Sonntag unseren Nachthimmel“', ['„Meine Venus ertrinkt montags“', '„Jeder Satz macht neue Ufer“', '„Mama erklärt mir unsere neue Jacke“'], 'Merkur, Venus, Erde, Mars, Jupiter, Saturn, Uranus, Neptun.'],
       ['Welche zwei Planeten haben keinen Mond?', 'Merkur und Venus', ['Mars und Venus', 'Erde und Mars', 'Uranus und Neptun'], 'Alle anderen Planeten haben mindestens einen Mond.'],
       ['Wie lange braucht das Sonnenlicht bis zur Erde?', 'Gut acht Minuten', ['Eine Sekunde', 'Eine Stunde', 'Einen Tag'], 'Für eine Astronomische Einheit.'],

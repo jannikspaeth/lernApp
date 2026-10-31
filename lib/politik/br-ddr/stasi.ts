@@ -52,7 +52,7 @@ export const STASI: Subtopic = {
       ['Wie werden die zerrissenen Stasi-Akten wieder zusammengesetzt?', 'Von Hand und mit Computerhilfe', ['Gar nicht', 'Nur von Robotern in den USA', 'Durch Klebeband der Stasi selbst'], 'Ein Projekt über Jahrzehnte.'],
       ['Wann erhielt der Film „Das Leben der Anderen“ den Oscar?', '2007', ['1990', '1999', '2015'], 'Als bester fremdsprachiger Film.'],
       ['Wer drehte „Das Leben der Anderen“?', 'Florian Henckel von Donnersmarck', ['Wolfgang Becker', 'Leander Haußmann', 'Werner Herzog'], 'Sein Debütfilm.'],
-      ['Gegen wen berichteten IM teilweise sogar?', 'Gegen ihre eigenen Ehepartner', ['Nur gegen Fremde', 'Nur gegen Westdeutsche', 'Nur gegen Tiere'], 'Viele erfuhren das erst aus ihren Akten.'],
+      ['Gegen wen berichteten IM teilweise sogar?', 'Gegen ihre eigenen Ehepartner', ['Nur gegen Fremde', 'Nur gegen Westdeutsche', 'Nur gegen Ausländer'], 'Viele erfuhren das erst aus ihren Akten.'],
     ],
   },
 };

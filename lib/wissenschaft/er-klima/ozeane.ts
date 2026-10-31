@@ -30,7 +30,7 @@ export const OZEANE: Subtopic = {
     ],
     mittel: [
       ['Wie viel allen Wassers der Erde enthalten die Ozeane?', 'Etwa 97 Prozent', ['Etwa 50 Prozent', 'Etwa 70 Prozent', 'Etwa 10 Prozent'], 'Der Rest ist Süßwasser.'],
-      ['Woher stammt das Salz im Meer?', 'Flüsse lösten es aus Gesteinen und trugen es ins Meer', ['Aus dem Weltall', 'Aus Fischen', 'Aus Vulkanen'], 'Über Jahrmillionen.'],
+      ['Woher stammt das Salz im Meer?', 'Flüsse lösten es aus Gesteinen und trugen es ins Meer', ['Aus dem Weltall', 'Aus Fischen', 'Aus Regenwolken'], 'Über Jahrmillionen.'],
       ['Wie viele neue Arten entdeckte die Challenger-Expedition?', 'Über 4.700', ['Etwa 47', 'Etwa 470', 'Über 47.000'], 'Und vermaß alle Ozeane.'],
       ['Was vermaß die deutsche „Meteor“-Expedition 1925 bis 1927?', 'Den Boden des Südatlantiks mit Echolot', ['Den Pazifik mit Leinen', 'Die Arktis mit Schlitten', 'Den Mond'], 'Erstmals mit Schall.'],
       ['Was treibt die Oberflächenströmungen vor allem an?', 'Der Wind', ['Der Mond', 'Die Fische', 'Erdbeben'], 'Abgelenkt durch die Erddrehung.'],
