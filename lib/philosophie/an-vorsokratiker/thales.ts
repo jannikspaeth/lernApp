@@ -22,7 +22,7 @@ export const THALES: Subtopic = {
       ['Welcher mathematische Satz trägt seinen Namen?', 'Der Satz des Thales', ['Der Satz des Pythagoras', 'Der Strahlensatz', 'Der Kosinussatz'], 'Dreiecke im Halbkreis haben einen rechten Winkel.'],
       ['Wohin fiel Thales der Anekdote nach beim Sternegucken?', 'In einen Brunnen', ['Ins Meer', 'Von einem Turm', 'In eine Höhle'], 'Eine Magd lachte über ihn – erzählt von Platon.'],
       ['Zu welcher berühmten Gruppe zählte Thales?', 'Zu den Sieben Weisen', ['Zu den Zwölf Olympiern', 'Zu den Sophisten', 'Zu den Stoikern'], 'Berühmte Ratgeber und Staatsmänner Griechenlands.'],
-      ['Wie maß Thales die Höhe der Pyramiden?', 'Mit ihrem Schatten', ['Mit einem Seil von oben', 'Durch Zählen der Steine', 'Mit einem Vogel'], 'Wenn der eigene Schatten so lang ist wie der Körper.'],
+      ['Wie maß Thales die Höhe der Pyramiden?', 'Mit ihrem Schatten', ['Mit einem Seil von oben', 'Durch Zählen der Steine', 'Mit einer Wasseruhr'], 'Wenn der eigene Schatten so lang ist wie der Körper.'],
       ['Wie viele Schriften von Thales sind erhalten?', 'Keine', ['Drei', 'Eine ganze Bibliothek', 'Zehn Bücher'], 'Er hat wohl gar nichts geschrieben.'],
       ['Was nannte Anaximenes als Urstoff?', 'Die Luft', ['Das Wasser', 'Das Feuer', 'Den Stein'], 'Verdichtet wird sie zu Wasser und Erde.'],
       ['Was zeichnete Anaximander als Erster?', 'Eine Weltkarte', ['Ein Porträt', 'Einen Stadtplan von Athen', 'Ein Sternbild'], 'Die älteste bekannte griechische Weltkarte.'],

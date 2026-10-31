@@ -19,7 +19,7 @@ export const UEBERBLICK: Subtopic = {
       ['Wer schrieb das „Manifest des Surrealismus“?', 'André Breton', ['Louis Aragon', 'Paul Éluard', 'Tristan Tzara'], 'Es erschien 1924.'],
       ['Was wollten die Surrealisten zu Wort kommen lassen?', 'Das Unbewusste', ['Die Vernunft', 'Die Natur', 'Die Geschichte'], null],
       ['Welche Technik nutzten die Surrealisten?', 'Automatisches Schreiben', ['Den Alexandriner', 'Die Rahmenerzählung', 'Den Sekundenstil'], null],
-      ['Wessen Lehre war für die Surrealisten wichtig?', 'Sigmund Freuds', ['Karl Marx’', 'Charles Darwins', 'Immanuel Kants'], null],
+      ['Wessen Lehre war für die Surrealisten wichtig?', 'Sigmund Freuds', ['Adam Smiths', 'Charles Darwins', 'Immanuel Kants'], null],
       ['Wer schrieb „Der kleine Prinz“?', 'Antoine de Saint-Exupéry', ['Albert Camus', 'André Malraux', 'Jean Giono'], null, 'saint-exupery'],
       ['Was war Saint-Exupéry von Beruf?', 'Pilot', ['Arzt', 'Lehrer', 'Diplomat'], null],
       ['Wie lautet der bekannteste Satz aus „Der kleine Prinz“?', 'Man sieht nur mit dem Herzen gut', ['Alle Menschen werden Brüder', 'Der Mensch ist frei geboren', 'Die Welt ist alles, was der Fall ist'], null],

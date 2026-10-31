@@ -31,7 +31,7 @@ export const HELDEN: Subtopic = {
     mittel: [
       ['Wie heißt das Schwert Sigurds?', 'Gram', ['Excalibur', 'Balmung', 'Gungnir'], 'Aus den Bruchstücken des Schwertes seines Vaters geschmiedet.'],
       ['Wie verstand Sigurd die Sprache der Vögel?', 'Er kostete Drachenblut', ['Odin schenkte es ihm', 'Er trank aus Mimirs Brunnen', 'Ein Zwerg lehrte es ihn'], 'Als er sich am Drachenherz den Finger verbrannte.'],
-      ['Von wem stammte der verfluchte Schatz?', 'Vom Zwerg Andvari', ['Von Odin', 'Von den Riesen', 'Vom König Etzel'], 'Loki hatte ihn ihm abgepresst.'],
+      ['Von wem stammte der verfluchte Schatz in der Sigurd-Sage?', 'Vom Zwerg Andvari', ['Von Odin', 'Von den Riesen', 'Vom König Etzel'], 'Loki hatte ihn ihm abgepresst.'],
       ['Wer war Brynhild (Brünhild)?', 'Eine Walküre', ['Eine Zwergin', 'Siegfrieds Mutter', 'Die Königin der Hunnen'], 'Odin hatte sie in Zauberschlaf versetzt.'],
       ['Wodurch vergaß Sigurd Brynhild?', 'Durch einen Vergessenstrank', ['Durch einen Schlag auf den Kopf', 'Durch Lokis List', 'Durch Odins Fluch'], 'Königin Grimhild gab ihn ihm.'],
       ['Wie viele Strophen hat das Nibelungenlied etwa?', 'Fast 2.400', ['Etwa 100', 'Etwa 24.000', 'Etwa 700'], 'Um 1200 im Donauraum verfasst.'],

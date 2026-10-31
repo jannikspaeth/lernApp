@@ -31,7 +31,7 @@ export const UEBERBLICK: Subtopic = {
     mittel: [
       ['Welche Kräfte stehen für Yin?', 'Das Dunkle, Weiche, Ruhende', ['Das Helle, Harte, Aktive', 'Das Feuer', 'Der Himmel'], 'Yang ist das Helle und Aktive.'],
       ['Welche „Fünf Wandlungsphasen“ kennt die chinesische Lehre?', 'Holz, Feuer, Erde, Metall, Wasser', ['Erde, Wasser, Luft, Feuer, Äther', 'Gold, Silber, Kupfer, Eisen, Blei', 'Sonne, Mond, Sterne, Wind, Regen'], 'Sie bringen einander hervor und überwinden einander.'],
-      ['Welche Dynastie herrschte nur noch dem Namen nach?', 'Die Zhou-Dynastie', ['Die Ming-Dynastie', 'Die Han-Dynastie', 'Die Qing-Dynastie'], 'Das Land zerfiel in Fürstentümer.'],
+      ['Welche Dynastie herrschte in der Zeit der „hundert Schulen“ nur noch dem Namen nach?', 'Die Zhou-Dynastie', ['Die Ming-Dynastie', 'Die Han-Dynastie', 'Die Qing-Dynastie'], 'Das Land zerfiel in Fürstentümer.'],
       ['Wie hieß die Zeit von 475 bis 221 v. Chr.?', 'Die Zeit der Streitenden Reiche', ['Die Tang-Zeit', 'Die Zeit der drei Reiche', 'Die Mongolenzeit'], 'Voller Kriege.'],
       ['Was verurteilte Mozi?', 'Angriffskriege, verschwenderische Begräbnisse und teure Hofmusik', ['Die Landwirtschaft', 'Die Familie', 'Das Lernen'], 'Alles nach dem Nutzen für das Volk.'],
       ['Wofür waren die Mohisten Experten?', 'Für Verteidigungsanlagen', ['Für Seidenherstellung', 'Für Astronomie', 'Für Porzellan'], 'Sie halfen angegriffenen Städten.'],
@@ -51,7 +51,7 @@ export const UEBERBLICK: Subtopic = {
       ['Was geschah mit dem Mohismus nach der Reichseinigung?', 'Er verschwand fast ganz', ['Er wurde Staatsreligion', 'Er ging nach Japan', 'Er verband sich mit dem Islam'], 'Erst im 19. Jahrhundert wiederentdeckt.'],
       ['In welchen Ländern prägte der Neokonfuzianismus das Denken?', 'In China, Korea, Japan und Vietnam', ['In Indien und Persien', 'In Europa', 'In Afrika'], 'Bis ins 20. Jahrhundert.'],
       ['Wie lässt sich Mozis Nutzenprinzip vergleichen?', 'Mit einem frühen Utilitarismus', ['Mit dem Existentialismus', 'Mit der Stoa', 'Mit dem Idealismus'], 'Nutzen für das Volk.'],
-      ['Wie nannte sich der König von Qin nach der Einigung?', 'Qin Shihuangdi, „Erster Kaiser“', ['Sohn des Himmels', 'König der Könige', 'Großkhan'], '221 v. Chr.'],
+      ['Wie nannte sich der König von Qin nach der Einigung?', 'Qin Shihuangdi, „Erster Kaiser“', ['Pharao', 'König der Könige', 'Großkhan'], '221 v. Chr.'],
       ['Wie sollten Herrscher nach den Legalisten ihre Macht sichern?', 'Mit allen Mitteln', ['Durch Vorbild', 'Durch Rücktritt', 'Durch Meditation'], 'Han Feizi.'],
     ],
   },

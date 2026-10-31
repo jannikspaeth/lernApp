@@ -35,7 +35,7 @@ export const ANSELM: Subtopic = {
       ['Worüber stritt Anselm mit den englischen Königen?', 'Wer die Bischöfe einsetzen darf', ['Über Steuern', 'Über einen Krieg mit Frankreich', 'Über die Bibelübersetzung'], 'Der Investiturstreit.'],
       ['In welchem Kloster wurde Anselm Mönch und Abt?', 'Le Bec in der Normandie', ['Cluny', 'Montecassino', 'Saint-Denis'], 'Dort lehrte zuvor Lanfranc.'],
       ['Wie gelangt man nach Abaelard zur Wahrheit?', 'Durch Zweifeln und Untersuchen', ['Durch blinden Gehorsam', 'Durch Fasten', 'Durch Visionen'], 'Ein Kernsatz aus „Sic et non“.'],
-      ['Was geschah Abaelard auf Befehl Fulberts?', 'Er wurde überfallen und entmannt', ['Er wurde verbannt', 'Er wurde zum Bischof gemacht', 'Er wurde erschlagen'], 'Fulbert fühlte sich betrogen.'],
+      ['Was geschah Abaelard auf Befehl von Héloïses Onkel Fulbert?', 'Er wurde überfallen und entmannt', ['Er wurde verbannt', 'Er wurde zum Bischof gemacht', 'Er wurde erschlagen'], 'Fulbert fühlte sich betrogen.'],
       ['Wie heißt Abaelards Autobiografie?', '„Historia calamitatum“', ['„Confessiones“', '„Vita nuova“', '„Cur Deus homo“'], 'Geschichte meiner Leiden.'],
       ['Was entscheidet nach Abaelard über Gut und Böse einer Tat?', 'Die innere Absicht', ['Der äußere Erfolg', 'Das Urteil des Papstes', 'Der Zufall'], 'Eine Ethik der Gesinnung.'],
       ['Wer war Abaelards mächtigster Gegner?', 'Bernhard von Clairvaux', ['Anselm', 'Thomas von Aquin', 'Papst Gregor VII.'], 'Er warf ihm vor, den Glauben zu zerreden.'],

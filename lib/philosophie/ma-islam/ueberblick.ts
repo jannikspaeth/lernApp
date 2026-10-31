@@ -17,7 +17,7 @@ export const UEBERBLICK: Subtopic = {
     leicht: [
       ['In welcher Stadt stand das „Haus der Weisheit“?', 'In Bagdad', ['In Kairo', 'In Mekka', 'In Istanbul'], 'Gefördert von den Abbasiden-Kalifen.'],
       ['Was geschah im Haus der Weisheit vor allem?', 'Griechische Werke wurden ins Arabische übersetzt', ['Es wurden Kriege geplant', 'Es wurde Seide hergestellt', 'Es wurden Kalifen gekrönt'], 'Aristoteles, Platon, Euklid, Galen.'],
-      ['Wie nannte man die Philosophie auf Arabisch?', 'Falsafa', ['Hikma', 'Scharia', 'Sufismus'], 'Vom griechischen philosophia.'],
+      ['Wie nannte man die Philosophie auf Arabisch?', 'Falsafa', ['Kalam', 'Scharia', 'Sufismus'], 'Vom griechischen philosophia.'],
       ['Welches Wort stammt vom Buchtitel al-Chwarizmis?', 'Algebra', ['Alkohol', 'Atom', 'Alphabet'], '„Algorithmus“ kommt von seinem Namen.'],
       ['Wer galt als „der Philosoph der Araber“?', 'Al-Kindi', ['Al-Ghazali', 'Ibn Khaldun', 'Harun al-Raschid'], 'Er stammte aus Basra.'],
       ['Wie nannte man al-Farabi?', 'Den „zweiten Lehrer“', ['Den „letzten Propheten“', 'Den „großen Kalifen“', 'Den „ersten Lehrer“'], 'Nach Aristoteles, dem ersten.'],
@@ -35,7 +35,7 @@ export const UEBERBLICK: Subtopic = {
       ['Wie stellte sich al-Farabi den idealen Herrscher vor?', 'Als Philosoph und Prophet zugleich', ['Als Krieger', 'Als Kaufmann', 'Als gewählten Bürger'], 'Nach Platons Philosophenkönig.'],
       ['Wer schrieb „Die Inkohärenz der Philosophen“?', 'Al-Ghazali', ['Averroes', 'Avicenna', 'Al-Kindi'], 'Gegen Avicenna und al-Farabi.'],
       ['Als was lebte al-Ghazali nach seiner Krise?', 'Als Sufi (islamischer Mystiker)', ['Als Kalif', 'Als Händler', 'Als Soldat'], 'Nach 1095.'],
-      ['Was bewirkt nach al-Ghazali, dass Feuer Baumwolle verbrennt?', 'Gott', ['Das Feuer selbst notwendig', 'Die Luft', 'Der Zufall'], 'Ein Gedanke, der an Hume erinnert.'],
+      ['Was bewirkt nach al-Ghazali, dass Feuer Baumwolle verbrennt?', 'Gott', ['Das Feuer selbst', 'Die Luft', 'Der Zufall'], 'Ein Gedanke, der an Hume erinnert.'],
       ['Wann wurde Toledo von Christen erobert?', '1085', ['711', '1258', '1492'], 'Danach Zentrum der Übersetzer.'],
       ['Wer übersetzte in Toledo arabische Texte ins Lateinische?', 'Gerhard von Cremona', ['Thomas von Aquin', 'Boethius', 'Hunain ibn Ishaq'], 'Er übersetzte über 70 Werke.'],
       ['Wovon handelt Ibn Tufails Roman?', 'Von einem Jungen, der allein auf einer Insel aufwächst', ['Von einem Kalifen in Bagdad', 'Von einer Reise nach China', 'Von einem Krieg in Spanien'], '„Der Lebende, Sohn des Wachenden“.'],

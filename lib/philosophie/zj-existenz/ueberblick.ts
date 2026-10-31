@@ -18,7 +18,7 @@ export const UEBERBLICK: Subtopic = {
       ['Wer begründete die Phänomenologie?', 'Edmund Husserl', ['Martin Heidegger', 'Jean-Paul Sartre', 'Karl Jaspers'], 'Um 1900.'],
       ['Wie lautete der Leitspruch der Phänomenologie?', '„Zu den Sachen selbst!“', ['„Zurück zu Kant!“', '„Gott ist tot!“', '„Sapere aude!“'], 'Ohne vorschnelle Theorien.'],
       ['Was bedeutet „Phänomen“?', 'Das Erscheinende', ['Das Verborgene', 'Das Wunderbare', 'Das Unmögliche'], 'Von griechisch phainomenon.'],
-      ['Was ist jedes Bewusstsein nach der Intentionalität?', 'Bewusstsein von etwas', ['Bewusstsein von nichts', 'Ein Gefühl', 'Eine Illusion'], 'Wir denken immer an etwas.'],
+      ['Was ist jedes Bewusstsein nach Husserls Lehre der Intentionalität?', 'Bewusstsein von etwas', ['Bewusstsein von nichts', 'Ein Gefühl', 'Eine Illusion'], 'Wir denken immer an etwas.'],
       ['Welches Werk veröffentlichte Heidegger 1927?', '„Sein und Zeit“', ['„Das Sein und das Nichts“', '„Der Mythos des Sisyphos“', '„Wahrheit und Methode“'], 'Das wichtigste Werk der Existenzphilosophie.'],
       ['In welcher Stadt wurde der Existentialismus nach 1945 zur Mode?', 'In Paris', ['In Berlin', 'In Rom', 'In London'], 'In Saint-Germain-des-Prés.'],
       ['Was geht nach Sartre der Essenz voraus?', 'Die Existenz', ['Gott', 'Die Natur', 'Der Staat'], 'Der Mensch entwirft sich selbst.'],
@@ -43,7 +43,7 @@ export const UEBERBLICK: Subtopic = {
       ['Wer ist auf diesem Bild zu sehen?', 'Karl Jaspers', ['Martin Heidegger', 'Hans-Georg Gadamer', 'Max Weber'], 'Psychiater und Philosoph in Heidelberg.', 'jaspers'],
     ],
     schwer: [
-      ['Wie nennt man die Richtung auf dem europäischen Festland oft?', '„Kontinentale Philosophie“', ['„Insulare Philosophie“', '„Analytische Philosophie“', '„Atlantische Philosophie“'], 'Im Gegensatz zur analytischen.'],
+      ['Wie nennt man Phänomenologie, Existentialismus und ihre Nachfolger im Gegensatz zur analytischen Philosophie?', '„Kontinentale Philosophie“', ['„Insulare Philosophie“', '„Romanische Philosophie“', '„Atlantische Philosophie“'], 'Im Gegensatz zur analytischen.'],
       ['Was untersuchten die Phänomenologen unter anderem?', 'Wahrnehmung, Zeit, Leib, die anderen und die „Lebenswelt“', ['Atome und Moleküle', 'Steuern und Zölle', 'Planetenbahnen'], 'Die Erfahrung des Alltags.'],
       ['Wer entwickelte aus dem Strukturalismus den Poststrukturalismus?', 'Foucault und Derrida', ['Sartre und Camus', 'Husserl und Scheler', 'Jaspers und Marcel'], 'Seit den 1960er-Jahren.'],
       ['Was stellte der Strukturalismus in Frage?', 'Die Freiheit des Einzelnen', ['Die Existenz der Sprache', 'Die Mathematik', 'Die Geschichte der Kunst'], 'Unbewusste Strukturen bestimmen das Denken.'],

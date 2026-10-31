@@ -45,7 +45,7 @@ export const ZEN: Subtopic = {
     schwer: [
       ['Welche Zen-Schule betont das „Nur-Sitzen“?', 'Die Soto-Schule', ['Die Rinzai-Schule', 'Die Obaku-Schule', 'Die Tendai-Schule'], 'Begründet von Dogen.'],
       ['Wie heißt das „Nur-Sitzen“ auf Japanisch?', 'Shikantaza', ['Kinhin', 'Sesshin', 'Mondo'], 'Das Sitzen selbst ist schon Erleuchtung.'],
-      ['Was antwortete ein Meister auf die Frage, ob ein Hund Buddha-Natur habe?', '„Mu“', ['„Ja“', '„Wuff“', '„Frag den Hund“'], 'Eines der bekanntesten Koans.'],
+      ['Was antwortete ein Zen-Meister auf die Frage, ob ein Hund Buddha-Natur habe?', '„Mu“', ['„Ja“', '„Nur im Traum“', '„Erst nach seinem Tod“'], 'Eines der bekanntesten Koans.'],
       ['Wie viele Steine liegen im Garten des Ryoan-ji?', '15', ['7', '12', '108'], 'Von keinem Punkt aus sind alle zugleich zu sehen.'],
       ['Welche Ästhetik findet Schönheit im Einfachen und Vergänglichen?', 'Wabi-Sabi', ['Ikebana', 'Kawaii', 'Bushido'], 'Ein Grundbegriff der japanischen Kultur.'],
       ['Wer machte Zen durch englische Bücher im Westen bekannt?', 'D. T. Suzuki', ['Shunryu Suzuki', 'Thích Nhất Hạnh', 'Alan Watts'], 'Daisetz Teitaro Suzuki.'],

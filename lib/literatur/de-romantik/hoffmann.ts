@@ -37,7 +37,7 @@ export const HOFFMANN: Subtopic = {
       ['Wessen Größe erkannte Hoffmann als Musikkritiker früh?', 'Beethovens', ['Wagners', 'Brahms’', 'Schuberts'], null],
       ['Was bleibt in Hoffmanns Erzählungen oft offen?', 'Ob das Unheimliche wirklich geschieht', ['Wer der Erzähler ist', 'Wo die Handlung spielt', 'Wann sie spielt'], null],
       ['Wer erklärte am „Sandmann“ das Unheimliche?', 'Sigmund Freud', ['Carl Gustav Jung', 'Friedrich Nietzsche', 'Wilhelm Wundt'], 'In seinem Aufsatz von 1919.'],
-      ['Auf welche russischen Autoren wirkte Hoffmann?', 'Auf Gogol und Dostojewski', ['Auf Tolstoi und Turgenjew', 'Auf Puschkin', 'Auf Tschechow'], null],
+      ['Auf welche russischen Autoren wirkte Hoffmann?', 'Auf Gogol und Dostojewski', ['Auf Tolstoi und Turgenjew', 'Auf Majakowski', 'Auf Tschechow'], null],
       ['Welcher amerikanische Autor steht in seiner Nachfolge?', 'Edgar Allan Poe', ['Mark Twain', 'Herman Melville', 'Walt Whitman'], null],
       ['Woran starb Hoffmann?', 'An einer Rückenmarkskrankheit', ['An der Pest', 'An einer Verletzung', 'An Tuberkulose'], 'Er diktierte bis zuletzt, obwohl er gelähmt war.'],
     ],

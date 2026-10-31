@@ -20,7 +20,7 @@ export const UEBERBLICK: Subtopic = {
       ['Was bedeutet „Christus“?', 'Der Gesalbte', ['Der Sohn', 'Der Lehrer', 'Der Heilige'], 'Griechisch für das hebräische „Messias“.'],
       ['Was ist das wichtigste Zeichen der Christen?', 'Das Kreuz', ['Der Halbmond', 'Der Davidstern', 'Das Rad'], 'Jesus starb am Kreuz.'],
       ['Welches Tier diente frühen Christen als geheimes Erkennungszeichen?', 'Der Fisch', ['Das Lamm', 'Die Taube', 'Der Löwe'], 'Griechisch „Ichthys“.'],
-      ['Wie heißt die heilige Schrift der Christen?', 'Die Bibel', ['Der Talmud', 'Der Koran', 'Die Tora'], 'Altes und Neues Testament.'],
+      ['Wie heißt die heilige Schrift der Christen?', 'Die Bibel', ['Der Talmud', 'Der Koran', 'Die Veden'], 'Altes und Neues Testament.'],
       ['Wie heißt das Gebet, das Jesus seine Jünger lehrte?', 'Vaterunser', ['Ave Maria', 'Glaubensbekenntnis', 'Rosenkranz'], '„Vater unser im Himmel …“'],
       ['Was steht im Mittelpunkt der Lehre Jesu?', 'Die Liebe', ['Die Askese', 'Die Reinheit', 'Der Gehorsam gegenüber dem Kaiser'], 'Gottesliebe, Nächstenliebe, sogar Feindesliebe.'],
       ['Welches Gebäude zeigt das Bild?', 'Den Petersdom in Rom', ['Den Kölner Dom', 'Die Hagia Sophia', 'Notre-Dame in Paris'], 'Die größte Kirche des Christentums im Vatikan.', 'petersdom'],

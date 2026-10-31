@@ -33,7 +33,7 @@ export const BEETHOVEN: Subtopic = {
       ['Wer war Beethovens wichtigster Lehrer in Bonn?', 'Christian Gottlob Neefe', ['Joseph Haydn', 'Johann Georg Albrechtsberger', 'Antonio Salieri'], 'Neefe ließ ihn Bachs „Wohltemperiertes Klavier“ spielen.'],
       ['Was schrieb Graf Waldstein Beethoven ins Stammbuch?', 'Er solle Mozarts Geist aus Haydns Händen empfangen', ['Er solle nie heiraten', 'Er solle Opern schreiben', 'Er solle nach Paris gehen'], 'Mozart war 1791 gestorben.'],
       ['Wie heißt Beethovens erschütternder Brief von 1802?', 'Heiligenstädter Testament', ['Brief an die unsterbliche Geliebte', 'Bonner Bekenntnis', 'Wiener Manifest'], 'Heiligenstadt ist heute ein Teil von Wien.'],
-      ['Wie verständigte sich der taube Beethoven mit Besuchern?', 'Über Konversationshefte', ['Über Gebärdensprache', 'Über ein Hörrohr', 'Gar nicht'], 'Rund 140 Hefte sind erhalten.'],
+      ['Wie verständigte sich der taube Beethoven mit Besuchern?', 'Über Konversationshefte', ['Über Gebärdensprache', 'Über einen Dolmetscher', 'Gar nicht'], 'Rund 140 Hefte sind erhalten.'],
       ['Wem widmete Beethoven zunächst die „Eroica“?', 'Napoleon', ['Kaiser Franz', 'Goethe', 'Haydn'], 'Als Napoleon Kaiser wurde, zerriss er angeblich das Titelblatt.'],
       ['Wovon handelt die Oper „Fidelio“?', 'Eine Frau befreit ihren Mann aus dem Gefängnis', ['Ein Prinz sucht eine Flöte', 'Ein Verführer kommt in die Hölle', 'Ein Barbier hilft einem Grafen'], 'Leonore verkleidet sich als Mann namens Fidelio.'],
       ['Wie viele Klaviersonaten schrieb Beethoven?', '32', ['9', '18', '104'], 'Man nennt sie das „Neue Testament“ der Klaviermusik.'],

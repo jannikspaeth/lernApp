@@ -20,7 +20,7 @@ export const KORAN: Subtopic = {
       ['Wer ist nach islamischem Glauben der Urheber des Korans?', 'Gott', ['Mohammed', 'Der Kalif Uthman', 'Der Engel Gabriel'], 'Mohammed empfing ihn durch den Engel Gabriel.'],
       ['Wie heißen die Kapitel des Korans?', 'Suren', ['Psalmen', 'Sutras', 'Hadithe'], 'Es gibt 114 davon.'],
       ['Wie viele Suren hat der Koran?', '114', ['99', '150', '66'], 'Grob nach Länge geordnet.'],
-      ['Wie heißt die erste Sure?', 'Die Fatiha', ['Die Kuh', 'Yusuf', 'Maryam'], 'Die Eröffnende, das wichtigste Gebet.'],
+      ['Wie heißt die erste Sure des Korans?', 'Die Fatiha', ['Die Kuh', 'Yusuf', 'Maryam'], 'Die Eröffnende, das wichtigste Gebet.'],
       ['Was bedeutet „Bismillah ar-Rahman ar-Rahim“?', '„Im Namen Gottes, des Allerbarmers, des Barmherzigen“', ['„Gott ist groß“', '„Es gibt keinen Gott außer Gott“', '„Gott segne dich“'], 'Die Basmala, mit der fast alle Suren beginnen.'],
       ['Welche Formel ist auf dem Bild kunstvoll geschrieben?', 'Die Basmala', ['Das Vaterunser', 'Das Schma Israel', 'Das Om'], '„Im Namen Gottes, des Allerbarmers, des Barmherzigen“ als Kalligrafie.', 'kalligrafie-basmala'],
       ['Wie nennt man jemanden, der den ganzen Koran auswendig kann?', 'Hafiz', ['Imam', 'Mufti', 'Kalif'], '„Bewahrer“.'],

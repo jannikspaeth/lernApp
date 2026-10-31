@@ -50,7 +50,7 @@ export const UEBERBLICK: Subtopic = {
       ['Wie verstand Dewey die Demokratie?', 'Als Lebensform', ['Als bloße Wahlmethode', 'Als Herrschaft der Experten', 'Als Übergang zur Monarchie'], 'Nicht nur als Staatsform.'],
       ['Was zeigte Feuerbach mit dem umgedrehten Bibelsatz?', 'Der Mensch schuf Gott nach seinem Bild', ['Gott schuf den Menschen aus Lehm', 'Gott ist ein Tier', 'Der Mensch ist Gott'], 'Religion als Projektion.'],
       ['Welche verborgenen Kräfte deckten die „Meister des Verdachts“ auf?', 'Wirtschaftliche Interessen, Willen zur Macht, unbewusste Triebe', ['Engel, Dämonen, Götter', 'Atome, Gene, Zellen', 'Licht, Schall, Wärme'], 'Je einer pro Denker.'],
-      ['Wer übertrug den Positivismus auf Ethik und Logik in England?', 'John Stuart Mill', ['Thomas Carlyle', 'Charles Dickens', 'Herbert Spencer'], 'Mill schätzte Comte zeitweise.'],
+      ['Wer übertrug den Positivismus auf Ethik und Logik in England?', 'John Stuart Mill', ['Thomas Carlyle', 'Charles Dickens', 'Lewis Carroll'], 'Mill schätzte Comte zeitweise.'],
       ['Wovon stammt der Mensch nach Darwin ab?', 'Von affenähnlichen Vorfahren', ['Direkt von Adam', 'Von Fischen ohne Zwischenstufen', 'Von Göttern'], 'In „Die Abstammung des Menschen“ (1871).'],
       ['Wie nennt man den Zustand, in dem alle Werte ihren Halt verlieren?', 'Nihilismus', ['Idealismus', 'Positivismus', 'Pragmatismus'], 'Von lateinisch nihil, nichts.'],
     ],

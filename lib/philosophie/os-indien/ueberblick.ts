@@ -17,7 +17,7 @@ export const UEBERBLICK: Subtopic = {
     leicht: [
       ['Wie heißen die ältesten heiligen Texte Indiens?', 'Die Veden', ['Die Sutras', 'Die Mantras', 'Die Sagas'], 'Von Sanskrit veda, Wissen.'],
       ['Wie heißt das höchste Prinzip der Wirklichkeit in den Upanishaden?', 'Brahman', ['Karma', 'Samsara', 'Dharma'], 'Das Eine hinter der Vielfalt.'],
-      ['Wie heißt das innerste Selbst des Menschen?', 'Atman', ['Brahman', 'Nirwana', 'Mantra'], 'Es ist mit dem Brahman identisch.'],
+      ['Wie heißt in der indischen Philosophie das innerste Selbst des Menschen?', 'Atman', ['Brahman', 'Nirwana', 'Mantra'], 'Es ist mit dem Brahman identisch.'],
       ['Was bedeutet „Samsara“?', 'Der Kreislauf der Wiedergeburten', ['Ein Gebet', 'Ein Fest', 'Ein Gott'], 'Aus ihm sucht man Erlösung.'],
       ['Was ist „Karma“?', 'Die Folgen der eigenen Taten', ['Ein Tanz', 'Ein Opfer', 'Ein Priester'], 'Sie bestimmen die Wiedergeburt.'],
       ['Was ist „Ahimsa“?', 'Das Nicht-Verletzen jeglichen Lebens', ['Ein Gebet', 'Eine Kampfkunst', 'Eine Speise'], 'Zentral im Jainismus.'],
@@ -49,7 +49,7 @@ export const UEBERBLICK: Subtopic = {
       ['Wie viele „orthodoxe“ Schulen unterscheidet man?', 'Sechs', ['Zwei', 'Zwölf', 'Hundert'], 'Sie erkennen die Veden an.'],
       ['Welche orthodoxe Schule lehrte eine Atomlehre?', 'Das Vaisheshika', ['Das Yoga', 'Der Vedanta', 'Die Mimamsa'], 'Wie Demokrit in Griechenland.'],
       ['Womit beschäftigte sich die Mimamsa?', 'Mit der Auslegung der vedischen Rituale', ['Mit Medizin', 'Mit Astronomie', 'Mit Kriegskunst'], 'Eine der sechs Schulen.'],
-      ['Welche Erneuerer prägten das indische Denken im 20. Jahrhundert?', 'Vivekananda, Tagore und Gandhi', ['Nehru', 'Akbar und Ashoka', 'Shankara und Buddha'], 'Im Gespräch mit der Moderne.'],
+      ['Welche Erneuerer prägten das indische Denken im 20. Jahrhundert?', 'Vivekananda, Tagore und Gandhi', ['Nehru und Indira Gandhi', 'Akbar und Ashoka', 'Shankara und Buddha'], 'Im Gespräch mit der Moderne.'],
       ['Wer überlieferte die Veden lange mündlich?', 'Die Brahmanen (Priester)', ['Die Könige', 'Die Bauern', 'Die Händler'], 'Erst spät schriftlich.'],
       ['Welche Wege zur Erlösung kennt die Bhagavad Gita?', 'Erkenntnis, rechtes Handeln und liebende Hingabe', ['Reichtum, Macht und Ruhm', 'Krieg, Sieg und Beute', 'Fasten'], 'Jnana, Karma, Bhakti.'],
       ['Was tragen jainistische Mönche manchmal vor dem Mund?', 'Ein Tuch', ['Eine Maske aus Gold', 'Einen Schleier aus Seide', 'Einen Ring'], 'Um keine kleinen Lebewesen einzuatmen.'],

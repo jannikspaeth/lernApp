@@ -17,7 +17,7 @@ export const BAUDELAIRE_ZOLA: Subtopic = {
       ['Wer schrieb „Die Blumen des Bösen“?', 'Charles Baudelaire', ['Arthur Rimbaud', 'Paul Verlaine', 'Stéphane Mallarmé'], null, 'baudelaire'],
       ['Wann erschien Baudelaires „Die Blumen des Bösen“?', '1857', ['1837', '1877', '1898'], null],
       ['Was geschah mit „Die Blumen des Bösen“ vor Gericht?', 'Sechs Gedichte mussten entfernt werden', ['Er wurde ganz verboten', 'Er wurde freigesprochen', 'Er wurde preisgekrönt'], null],
-      ['Wie nannte Baudelaire seine lähmende Schwermut?', 'Spleen', ['Melancholie', 'Ennui', 'Vertigo'], null],
+      ['Wie nannte Baudelaire seine lähmende Schwermut?', 'Spleen', ['Melancholie', 'Nostalgie', 'Vertigo'], null],
       ['Welchen Großstadttypus entdeckte Baudelaire?', 'Den Flaneur', ['Den Arbeiter', 'Den Soldaten', 'Den Händler'], null],
       ['Welchen amerikanischen Autor übersetzte Baudelaire?', 'Edgar Allan Poe', ['Mark Twain', 'Walt Whitman', 'Herman Melville'], null],
       ['Wer ist auf diesem Porträt zu sehen?', 'Arthur Rimbaud', ['Paul Verlaine', 'Charles Baudelaire', 'Stéphane Mallarmé'], null, 'rimbaud'],

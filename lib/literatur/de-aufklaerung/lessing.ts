@@ -34,7 +34,7 @@ export const LESSING: Subtopic = {
       ['Wann erschien „Nathan der Weise“?', '1779', ['1679', '1829', '1755'], null],
       ['In welcher Versform ist der „Nathan“ geschrieben?', 'Im Blankvers', ['Im Alexandriner', 'Im Hexameter', 'In Prosa'], 'Ein reimloser Vers mit fünf Hebungen, wie bei Shakespeare.'],
       ['Wie heißt Lessings Sammlung von Theaterkritiken?', 'Hamburgische Dramaturgie', ['Critische Dichtkunst', 'Laokoon', 'Briefe über Literatur'], 'Sie erschien 1767 bis 1769.'],
-      ['Worum geht es in „Laokoon“ (1766)?', 'Um den Unterschied zwischen Malerei und Dichtung', ['Um die antike Skulptur', 'Um die Musik', 'Um die Baukunst'], 'Die Malerei zeigt einen Augenblick, die Dichtung erzählt in der Zeit.'],
+      ['Worum geht es in „Laokoon“ (1766)?', 'Um den Unterschied zwischen Malerei und Dichtung', ['Um die Gartenkunst', 'Um die Musik', 'Um die Baukunst'], 'Die Malerei zeigt einen Augenblick, die Dichtung erzählt in der Zeit.'],
       ['Mit wem stritt Lessing über Religion?', 'Mit Hauptpastor Goeze', ['Mit Gottsched', 'Mit Herder', 'Mit Kant'], null],
       ['Was geschah 1778 nach Lessings Streit mit Goeze?', 'Lessing durfte nichts mehr zur Theologie schreiben', ['Er wurde eingesperrt', 'Er musste fliehen', 'Er wurde Pfarrer'], 'Deshalb wandte er sich dem Theater zu.'],
       ['Wie nannte Lessing im Streit mit Hauptpastor Goeze das Theater?', 'Seine alte Kanzel', ['Seinen Thron', 'Sein Gefängnis', 'Seine Werkstatt'], null],

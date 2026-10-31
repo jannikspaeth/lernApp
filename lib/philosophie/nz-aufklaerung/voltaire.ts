@@ -22,7 +22,7 @@ export const VOLTAIRE: Subtopic = {
       ['In welchem Pariser Gefängnis saß Voltaire?', 'In der Bastille', ['Im Tower', 'In der Conciergerie', 'Im Louvre'], 'Zweimal.'],
       ['In welches Land musste Voltaire 1726 gehen?', 'Nach England', ['Nach Preußen', 'Nach Spanien', 'Nach Amerika'], 'Dort lernte er Locke und Newton kennen.'],
       ['Für welchen Wert kämpfte Voltaire besonders?', 'Für religiöse Toleranz', ['Für die Macht der Kirche', 'Für den Krieg', 'Für die Zensur'], 'Etwa im Fall Calas.'],
-      ['Wen verspottet die Figur Pangloss?', 'Leibniz und seinen Optimismus', ['Rousseau', 'Newton', 'Friedrich II.'], '„Die beste aller möglichen Welten“.'],
+      ['Wen verspottet in Voltaires „Candide“ die Figur Pangloss?', 'Leibniz und seinen Optimismus', ['Rousseau', 'Newton', 'Friedrich II.'], '„Die beste aller möglichen Welten“.'],
       ['An welchem Hof lebte Voltaire ab 1750 einige Jahre?', 'Am Hof Friedrichs II. in Potsdam', ['In Versailles', 'In Wien', 'In Sankt Petersburg'], 'An der Tafelrunde von Sanssouci.'],
       ['Wo liegt Voltaire heute begraben?', 'Im Pantheon in Paris', ['In Ferney', 'In Westminster Abbey', 'In Potsdam'], 'Seit 1791.'],
       ['Welches Erdbeben war Anlass für „Candide“?', 'Das Erdbeben von Lissabon 1755', ['Das Erdbeben von Messina', 'Das Erdbeben von San Francisco', 'Das Erdbeben von Pompeji'], 'Es erschütterte den Glauben an die beste Welt.'],
@@ -40,7 +40,7 @@ export const VOLTAIRE: Subtopic = {
       ['Warum lebte Voltaire in Ferney?', 'Nahe der Schweizer Grenze konnte er schnell fliehen', ['Weil der König es befahl', 'Weil es dort warm war', 'Weil er dort geboren war'], 'Ab 1759.'],
       ['Wessen Beerdigung beeindruckte Voltaire in England?', 'Die Newtons', ['Die Lockes', 'Die Shakespeares', 'Die eines Königs'], 'In Westminster Abbey.'],
       ['Von wem stammt tatsächlich der Satz „Ich missbillige, was Sie sagen, aber …“?', 'Von seiner Biografin Evelyn Beatrice Hall', ['Von Voltaire selbst', 'Von Rousseau', 'Von Friedrich II.'], 'Aus dem Jahr 1906.'],
-      ['Mit wem stritt Voltaire in Potsdam?', 'Mit dem Akademiepräsidenten Maupertuis', ['Mit Kant', 'Mit Lessing', 'Mit Bach'], 'Und schließlich mit Friedrich selbst.'],
+      ['Mit wem stritt Voltaire in Potsdam?', 'Mit dem Akademiepräsidenten Maupertuis', ['Mit Kant', 'Mit Lessing', 'Mit Euler'], 'Und schließlich mit Friedrich selbst.'],
     ],
     schwer: [
       ['Welches Jesuitenkolleg besuchte Voltaire?', 'Louis-le-Grand', ['La Flèche', 'Port-Royal', 'Sorbonne'], 'In Paris.'],

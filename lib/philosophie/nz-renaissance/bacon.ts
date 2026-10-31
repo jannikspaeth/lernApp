@@ -34,7 +34,7 @@ export const BACON: Subtopic = {
       ['Was sind die „Idole des Theaters“?', 'Täuschungen durch überlieferte philosophische Systeme', ['Täuschungen durch Schauspieler', 'Täuschungen durch die Sinne', 'Täuschungen durch Erziehung'], 'Sie führen erfundene Welten vor.'],
       ['Woraus stammen die „Idole der Höhle“?', 'Aus der eigenen Erziehung und Neigung', ['Aus der Sprache', 'Aus der Religion', 'Aus der Höhle von Lascaux'], 'In Anspielung auf Platons Höhle.'],
       ['Was gehört zu den „Idolen des Stammes“?', 'Wir glauben lieber, was wir wünschen', ['Wir sprechen ungenau', 'Wir folgen alten Büchern', 'Wir lieben unsere Familie'], 'Sie liegen in der menschlichen Natur.'],
-      ['Worauf sollte man bei der Induktion besonders achten?', 'Auf Gegenbeispiele', ['Auf Bestätigungen', 'Auf alte Autoritäten', 'Auf Träume'], 'Ein Fall kann eine Regel widerlegen.'],
+      ['Worauf sollte man nach Bacon bei der Induktion besonders achten?', 'Auf Gegenbeispiele', ['Nur auf Bestätigungen', 'Auf alte Autoritäten', 'Auf Träume'], 'Ein Fall kann eine Regel widerlegen.'],
       ['Wogegen richtet sich der Titel „Novum Organum“?', 'Gegen das „Organon“ des Aristoteles', ['Gegen die Bibel', 'Gegen Platons „Politeia“', 'Gegen Machiavellis „Fürsten“'], 'Ein neues Werkzeug des Denkens.'],
       ['Welche Institution hatte Bacons „Haus Salomons“ zum Vorbild?', 'Die Royal Society', ['Die Sorbonne', 'Das Britische Museum', 'Die Bank of England'], 'Gegründet 1660 in London.'],
       ['Wie kann man nach Bacon die Natur beherrschen?', 'Nur indem man ihr gehorcht', ['Durch Gewalt', 'Durch Gebete', 'Durch Zauberei'], 'Man muss ihre Ursachen kennen.'],

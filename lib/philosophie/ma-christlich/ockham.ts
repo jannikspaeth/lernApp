@@ -16,14 +16,14 @@ export const OCKHAM: Subtopic = {
   quiz: {
     leicht: [
       ['Wie heißt das berühmte Denkprinzip Ockhams?', 'Ockhams Rasiermesser', ['Ockhams Hammer', 'Ockhams Waage', 'Ockhams Schlüssel'], 'Überflüssige Annahmen wegschneiden.'],
-      ['Was besagt Ockhams Rasiermesser?', 'Man soll nicht mehr Annahmen machen als nötig', ['Man soll an allem zweifeln', 'Man soll immer dem Papst folgen', 'Man soll jeden Tag rasieren'], 'Die einfachere Erklärung ist vorzuziehen.'],
+      ['Was besagt Ockhams Rasiermesser?', 'Man soll nicht mehr Annahmen machen als nötig', ['Man soll an allem zweifeln', 'Man soll immer dem Papst folgen', 'Man soll Glauben und Wissen trennen'], 'Die einfachere Erklärung ist vorzuziehen.'],
       ['Wer ist auf diesem Bild zu sehen?', 'Wilhelm von Ockham', ['Thomas von Aquin', 'Meister Eckhart', 'John Wyclif'], 'Eine Skizze aus einer Handschrift seiner „Summa logicae“.', 'ockham'],
       ['Welchem Orden gehörte Ockham an?', 'Den Franziskanern', ['Den Dominikanern', 'Den Benediktinern', 'Den Templern'], 'Wie Duns Scotus und Roger Bacon.'],
       ['Aus welchem Land stammte Ockham?', 'Aus England', ['Aus Italien', 'Aus Frankreich', 'Aus Deutschland'], 'Aus dem Dorf Ockham in Surrey.'],
       ['In welcher Stadt lebte Ockham nach seiner Flucht?', 'In München', ['In Rom', 'In Paris', 'In London'], 'Unter dem Schutz Ludwigs des Bayern.'],
       ['Welche Position vertrat Ockham im Universalienstreit?', 'Den Nominalismus', ['Den Realismus', 'Den Idealismus', 'Den Materialismus'], 'Wirklich sind nur Einzeldinge.'],
       ['Was existiert nach Ockham wirklich?', 'Nur einzelne Dinge', ['Nur Allgemeinbegriffe', 'Nur Zahlen', 'Nur Gott'], 'Dieser Mensch, dieses Pferd.'],
-      ['Mit wem stritt Ockham?', 'Mit dem Papst', ['Mit dem Kaiser', 'Mit Thomas von Aquin persönlich', 'Mit Luther'], 'Mit Johannes XXII. im Armutsstreit.'],
+      ['Mit wem stritt Ockham im Armutsstreit?', 'Mit dem Papst', ['Mit dem Kaiser', 'Mit Thomas von Aquin persönlich', 'Mit Luther'], 'Mit Johannes XXII. im Armutsstreit.'],
       ['In welchem Roman ist Ockham Vorbild für eine Hauptfigur?', '„Der Name der Rose“', ['„Die Säulen der Erde“', '„Das Parfum“', '„Faust“'], 'William von Baskerville bei Umberto Eco.'],
       ['Wo studierte Ockham?', 'In Oxford', ['In Paris', 'In Bologna', 'In Prag'], 'Theologie und Logik.'],
       ['Welche Erklärung ist nach Ockham bei gleicher Leistung vorzuziehen?', 'Die einfachere', ['Die längere', 'Die ältere', 'Die frömmere'], 'Ein Sparsamkeitsprinzip.'],

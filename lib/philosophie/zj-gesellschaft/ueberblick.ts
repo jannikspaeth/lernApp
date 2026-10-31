@@ -18,7 +18,7 @@ export const UEBERBLICK: Subtopic = {
       ['Wie heißt die Denkschule um Horkheimer und Adorno?', 'Frankfurter Schule (Kritische Theorie)', ['Wiener Kreis', 'Berliner Schule', 'Pariser Kreis'], 'Seit den 1920er-Jahren.'],
       ['In welcher Stadt wurde 1923 das Institut für Sozialforschung gegründet?', 'In Frankfurt am Main', ['In Berlin', 'In Wien', 'In Heidelberg'], 'Finanziert von Felix Weil.'],
       ['Wessen Ideen verband die Frankfurter Schule?', 'Die von Marx und Freud', ['Die von Platon und Aristoteles', 'Die von Kant und Hume', 'Die von Thomas und Augustinus'], 'Um den Autoritarismus zu verstehen.'],
-      ['Wohin zog das Institut nach 1933?', 'Nach Genf und New York', ['Nach Moskau', 'Nach Rom', 'Nach Tokio'], 'Fast alle mussten emigrieren.'],
+      ['Wohin zog das Frankfurter Institut für Sozialforschung nach 1933?', 'Nach Genf und New York', ['Nach Moskau', 'Nach Rom', 'Nach Tokio'], 'Fast alle mussten emigrieren.'],
       ['Wer schrieb über das Kunstwerk im Zeitalter seiner Reproduzierbarkeit?', 'Walter Benjamin', ['Adorno', 'Habermas', 'Foucault'], '1935.'],
       ['Was verliert das Kunstwerk nach Benjamin durch Fotografie und Film?', 'Seine „Aura“', ['Seinen Preis', 'Seine Farbe', 'Seinen Rahmen'], 'Die Einmaligkeit des Originals.'],
       ['Wer schrieb „Eine Theorie der Gerechtigkeit“ (1971)?', 'John Rawls', ['Robert Nozick', 'Karl Popper', 'Peter Singer'], 'Eine Wiedergeburt der politischen Philosophie.'],

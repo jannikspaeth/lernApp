@@ -16,7 +16,7 @@ export const GOETHE: Subtopic = {
     leicht: [
       ['Wer schrieb „Faust“?', 'Johann Wolfgang von Goethe', ['Friedrich Schiller', 'Gotthold Ephraim Lessing', 'Heinrich von Kleist'], null, 'goethe'],
       ['In welcher Stadt wurde Goethe geboren?', 'In Frankfurt am Main', ['In Weimar', 'In Marbach', 'In Leipzig'], null],
-      ['Mit wem schließt Faust eine Wette?', 'Mit Mephisto', ['Mit Gott', 'Mit Wagner', 'Mit Gretchen'], null],
+      ['Mit wem schließt Faust eine Wette?', 'Mit Mephisto', ['Mit Valentin', 'Mit Wagner', 'Mit Gretchen'], null],
       ['Wie heißt die junge Frau, die Faust ins Unglück stürzt?', 'Gretchen', ['Lotte', 'Iphigenie', 'Helena'], null],
       ['Welchen Satz darf Faust nicht sagen?', '„Verweile doch, du bist so schön“', ['„Hier bin ich Mensch“', '„Mehr Licht“', '„Grau ist alle Theorie“'], 'Sonst ist seine Seele verloren.'],
       ['Welches Gedicht Goethes handelt von einem Vater, der mit seinem Kind durch die Nacht reitet?', 'Erlkönig', ['Der Fischer', 'Wandrers Nachtlied', 'Prometheus'], null],
@@ -49,7 +49,7 @@ export const GOETHE: Subtopic = {
       ['Welchen Rang gab Goethe selbst seiner Farbenlehre?', 'Er hielt sie für wichtiger als seine Dichtung', ['Er hielt sie für nebensächlich', 'Er verleugnete sie', 'Er veröffentlichte sie nie'], null],
       ['Wonach suchte Goethe in der Botanik?', 'Nach der Urpflanze', ['Nach dem Stammbaum der Arten', 'Nach der Photosynthese', 'Nach neuen Arten in Italien'], 'Er stellte sich eine Grundform vor, aus der alle Pflanzen abgeleitet sind.'],
       ['Wie sicher sind Goethes letzte Worte „Mehr Licht!“?', 'Sie sind nicht gesichert', ['Sie sind durch Briefe belegt', 'Er schrieb sie selbst auf', 'Sie stehen auf seinem Grab'], null],
-      ['Welche Ämter hatte Goethe in Weimar?', 'Unter anderem Bergbau und Wegebau', ['Nur das Theater', 'Das Finanzministerium', 'Keine, er war nur Dichter'], null],
+      ['Welche Ämter hatte Goethe in Weimar?', 'Unter anderem Bergbau und Wegebau', ['Nur das Theater', 'Das Postwesen', 'Keine, er war nur Dichter'], null],
       ['Wie lange arbeitete Goethe am „Faust“?', 'Fast sein ganzes Leben', ['Zwei Jahre', 'Zehn Jahre', 'Nur in Italien'], 'Erste Fassungen entstanden schon in den 1770er-Jahren.'],
       ['Welcher Roman Goethes von 1809 behandelt eine Ehe und chemische Anziehung als Bild?', 'Die Wahlverwandtschaften', ['Wilhelm Meisters Lehrjahre', 'Werther', 'Die Leiden des jungen Werthers'], null],
     ],

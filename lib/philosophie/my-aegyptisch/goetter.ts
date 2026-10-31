@@ -15,7 +15,7 @@ export const GOETTER: Subtopic = {
   ],
   quiz: {
     leicht: [
-      ['Wer war der wichtigste Gott der Ägypter?', 'Der Sonnengott Ra', ['Der Mondgott Thot', 'Der Wüstengott Seth', 'Der Kriegsgott Ares'], 'Er fährt in einer Barke über den Himmel.'],
+      ['Wer war der wichtigste Gott der Ägypter?', 'Der Sonnengott Ra', ['Der Mondgott Thot', 'Der Wüstengott Seth', 'Der Fruchtbarkeitsgott Min'], 'Er fährt in einer Barke über den Himmel.'],
       ['Welcher Gott ist auf dem Bild mit Falkenkopf und Sonnenscheibe zu sehen?', 'Ra', ['Anubis', 'Thot', 'Osiris'], 'Hier als Ra-Harachte, die Morgensonne.', 'ra-horachte'],
       ['Welches Tier hat Anubis als Kopf?', 'Einen Schakal', ['Einen Falken', 'Einen Ibis', 'Eine Katze'], 'Gott der Mumifizierung.'],
       ['Welcher Gott ist auf dem Bild mit Schakalkopf zu sehen?', 'Anubis', ['Horus', 'Seth', 'Bes'], 'Hier als römische Statue in einer Toga; Anubis ist Hüter der Gräber und Gott der Einbalsamierung.', 'anubis'],
@@ -29,9 +29,9 @@ export const GOETTER: Subtopic = {
       ['Wo stand der gewaltige Tempel des Amun-Ra?', 'In Karnak', ['In Gizeh', 'In Alexandria', 'In Abu Simbel'], 'Der größte religiöse Bezirk der Antike.'],
     ],
     mittel: [
-      ['Wie hieß der dunkle Urozean am Anfang?', 'Nun', ['Nut', 'Maat', 'Apophis'], 'Aus ihm erhob sich ein Urhügel.'],
+      ['Wie hieß in der ägyptischen Mythologie der dunkle Urozean am Anfang?', 'Nun', ['Nut', 'Maat', 'Apophis'], 'Aus ihm erhob sich ein Urhügel.'],
       ['Welcher Schöpfergott erschien auf dem Urhügel?', 'Atum', ['Ptah', 'Horus', 'Seth'], '„Der Vollendete“, in Heliopolis.'],
-      ['Wer verkörpert den Himmel?', 'Die Göttin Nut', ['Der Gott Geb', 'Der Gott Schu', 'Die Göttin Isis'], 'Sie beugt sich mit sternbedecktem Leib über die Erde.'],
+      ['Wer verkörpert in der ägyptischen Mythologie den Himmel?', 'Die Göttin Nut', ['Der Gott Geb', 'Der Gott Schu', 'Die Göttin Isis'], 'Sie beugt sich mit sternbedecktem Leib über die Erde.'],
       ['Wie viele Götter bildeten die „Neunheit“ von Heliopolis?', 'Neun', ['Drei', 'Zwölf', 'Sieben'], 'Von Atum bis zu Osiris, Isis, Seth und Nephthys.'],
       ['Wie erschuf Ptah die Welt nach dem Glauben von Memphis?', 'Durch Denken und Wort', ['Durch einen Kampf', 'Aus einem Ei', 'Aus Lehm'], 'Durch das Herz und die Zunge.'],
       ['Gegen wen kämpft Ra jede Nacht in der Unterwelt?', 'Gegen die Chaosschlange Apophis', ['Gegen Seth', 'Gegen Osiris', 'Gegen den Mond'], 'Sie will ihn verschlingen.'],
@@ -43,8 +43,8 @@ export const GOETTER: Subtopic = {
       ['Wer durfte das Allerheiligste eines Tempels betreten?', 'Nur der Pharao und die Priester', ['Jeder Ägypter', 'Nur Frauen', 'Nur Kinder'], 'Das Volk kam allenfalls in die Vorhöfe.'],
     ],
     schwer: [
-      ['Wer sind Schu und Tefnut?', 'Luft und Feuchtigkeit', ['Erde und Himmel', 'Sonne und Mond', 'Tag und Nacht'], 'Die ersten Kinder Atums.'],
-      ['Wer verkörpert die Erde?', 'Der Gott Geb', ['Die Göttin Nut', 'Der Gott Atum', 'Die Göttin Maat'], 'Bei den Ägyptern ist die Erde männlich, der Himmel weiblich.'],
+      ['Wer sind in der ägyptischen Mythologie Schu und Tefnut?', 'Luft und Feuchtigkeit', ['Erde und Himmel', 'Sonne und Mond', 'Tag und Nacht'], 'Die ersten Kinder Atums.'],
+      ['Wer verkörpert in der ägyptischen Mythologie die Erde?', 'Der Gott Geb', ['Die Göttin Nut', 'Der Gott Atum', 'Die Göttin Maat'], 'Bei den Ägyptern ist die Erde männlich, der Himmel weiblich.'],
       ['In wie vielen Stunden reist Ra durch die Unterwelt?', 'Zwölf', ['Sieben', 'Neun', 'Vierundzwanzig'], 'Den zwölf Stunden der Nacht.'],
       ['Wo wurden Katzen zu Ehren Bastets massenhaft mumifiziert?', 'In Bubastis', ['In Memphis', 'In Theben', 'In Heliopolis'], 'Zu Hunderttausenden.'],
       ['Wer schützte Schwangere und Kinder?', 'Der Zwerg Bes', ['Der Gott Seth', 'Der Gott Anubis', 'Die Göttin Sachmet'], 'Dickbäuchig und fratzenhaft, aber freundlich.'],

@@ -14,7 +14,7 @@ export const UEBERBLICK: Subtopic = {
   ],
   quiz: {
     leicht: [
-      ['Wie heißt die Zeit vor der Revolution von 1848?', 'Vormärz', ['Biedermeier', 'Gründerzeit', 'Restauration der Romantik'], 'Der Name kommt von der Märzrevolution.'],
+      ['Wie heißt die Zeit vor der Revolution von 1848?', 'Vormärz', ['Jugendstil', 'Gründerzeit', 'Wilhelminismus'], 'Der Name kommt von der Märzrevolution.'],
       ['Welche Haltung kennzeichnet das Biedermeier?', 'Rückzug ins Private', ['Aufruf zur Revolution', 'Verehrung der Antike', 'Begeisterung für Technik'], null],
       ['Welche Dichterin ist hier zu sehen?', 'Annette von Droste-Hülshoff', ['Bettina von Arnim', 'Karoline von Günderrode', 'Sophie Mereau'], null, 'droste'],
       ['Wie heißt die berühmte Erzählung der Droste?', 'Die Judenbuche', ['Die Judenbahn', 'Der Schimmelreiter', 'Das Heidedorf'], 'Sie handelt von einem ungeklärten Mord im Dorf.'],

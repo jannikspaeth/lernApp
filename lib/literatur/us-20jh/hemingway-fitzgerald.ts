@@ -49,7 +49,7 @@ export const HEMINGWAY_FITZGERALD: Subtopic = {
       ['Woher hat Gatsby sein Geld?', 'Aus dunklen Geschäften, nicht aus seiner Herkunft', ['Aus einem Erbe', 'Aus der Industrie', 'Aus dem Militär'], null],
       ['Was ist Fitzgeralds wiederkehrendes Thema?', 'Menschen, die in eine Welt wollen, die sie nicht aufnimmt', ['Krieg und Frieden', 'Natur und Einsamkeit', 'Arbeit und Fabrik'], null],
       ['Wie endete Fitzgeralds Leben?', 'Verschuldet in Hollywood, überzeugt gescheitert zu sein', ['Reich und gefeiert', 'Im Exil in Paris', 'Auf einer Reise'], null],
-      ['Was setzte Hemingway körperlich und seelisch zu?', 'Zwei Flugzeugabstürze und schwere Depressionen', ['Eine Kriegsverletzung', 'Blindheit', 'Taubheit'], null],
+      ['Was setzte Hemingway körperlich und seelisch zu?', 'Zwei Flugzeugabstürze und schwere Depressionen', ['Eine Lähmung', 'Blindheit', 'Taubheit'], null],
       ['Welche Haltung prägt Hemingways Figuren?', 'Haltung bewahren trotz Niederlage', ['Siegen um jeden Preis', 'Rückzug ins Private', 'Glaube an Gott'], null],
       ['Wie verhält sich Santiagos Kampf zum Ergebnis?', 'Er verliert den Fang und behält die Würde', ['Er gewinnt alles', 'Er gibt auf', 'Er wird reich'], null],
     ],

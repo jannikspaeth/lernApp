@@ -46,7 +46,7 @@ export const UEBERBLICK: Subtopic = {
       ['Was feiert Whitman in „Grashalme“?', 'Körper, Demokratie und das ganze Land', ['Die Kirche', 'Den Adel', 'Die Technik'], null],
       ['Was ist typisch für Dickinsons Gedichte?', 'Kürze, Rätselhaftigkeit und Gedankenstriche', ['Lange Erzählungen', 'Politische Parolen', 'Religiöse Lehren'], null],
       ['Wann wurde Dickinsons Werk entdeckt?', 'Erst nach ihrem Tod 1886', ['Zu Lebzeiten', 'Im 18. Jahrhundert', 'Erst nach 1950'], null],
-      ['Welche Gattung erfand Poe?', 'Die Detektiverzählung', ['Den historischen Roman', 'Die Science-Fiction', 'Die Ballade'], 'Mit der Figur des Detektivs Dupin.'],
+      ['Welche Gattung erfand Poe?', 'Die Detektiverzählung', ['Den historischen Roman', 'Den Briefroman', 'Die Ballade'], 'Mit der Figur des Detektivs Dupin.'],
       ['Welche Themen prägten die amerikanische Literatur im 19. Jahrhundert?', 'Weite, Natur, Sklaverei und Selbstbestimmung', ['Hof und Adel', 'Kirchenstreit', 'Kolonien in Afrika'], null],
       ['Wovon war die amerikanische Literatur lange abhängig?', 'Von England', ['Von Frankreich', 'Von Spanien', 'Von Deutschland'], null],
       ['Was bedeutet Transzendentalismus praktisch?', 'Vertrauen auf das eigene Selbst und die Natur', ['Rückkehr zur Kirche', 'Vertrauen auf den Staat', 'Glaube an die Technik'], null],

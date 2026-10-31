@@ -43,7 +43,7 @@ export const AUSTEN: Subtopic = {
     ],
     schwer: [
       ['Warum war Heirat für Frauen eine wirtschaftliche Entscheidung?', 'Frauen konnten kaum erben und keinen Beruf ergreifen', ['Die Kirche verlangte es', 'Es gab zu wenige Männer', 'Der Staat zahlte Prämien'], null],
-      ['Welchen Fehler erkennt Elizabeth Bennet an sich selbst?', 'Ihr vorschnelles Urteil', ['Ihren Geiz', 'Ihre Feigheit', 'Ihre Eitelkeit'], null],
+      ['Welchen Fehler erkennt Elizabeth Bennet an sich selbst?', 'Ihr vorschnelles Urteil', ['Ihren Geiz', 'Ihre Feigheit', 'Ihre Faulheit'], null],
       ['Wie urteilt Austen über ihre Gesellschaft?', 'Mit scharfer Ironie statt mit Anklage', ['Mit offener Empörung', 'Gar nicht', 'Mit Zustimmung ohne Abstand'], null],
       ['Was leistet die erlebte Rede?', 'Nähe zur Figur und feinen Spott zugleich', ['Objektive Distanz', 'Dramatische Spannung', 'Historische Genauigkeit'], null],
       ['Wie groß war Austens Lebenskreis?', 'Klein: Familie, Nachbarn und Landhäuser', ['Sie reiste durch Europa', 'Sie lebte in London', 'Sie lebte am Hof'], null],

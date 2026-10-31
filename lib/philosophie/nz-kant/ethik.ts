@@ -24,7 +24,7 @@ export const ETHIK: Subtopic = {
       ['Was erfüllt Kant mit Bewunderung und Ehrfurcht?', 'Der bestirnte Himmel über ihm und das moralische Gesetz in ihm', ['Der König und die Kirche', 'Das Meer und die Berge', 'Gold und Silber'], 'Der Satz steht auf seiner Grabtafel.'],
       ['Woraus muss die Moral nach Kant kommen?', 'Aus der reinen Vernunft', ['Aus dem Gefühl', 'Aus dem Nutzen', 'Aus der Gewohnheit'], 'Sie muss für alle unbedingt gelten.'],
       ['Wann ist eine Handlung nach Kant moralisch wertvoll?', 'Wenn sie aus Pflicht geschieht', ['Wenn sie Spaß macht', 'Wenn sie nützt', 'Wenn sie belohnt wird'], 'Nicht nur pflichtgemäß.'],
-      ['Darf man nach Kant ein falsches Versprechen geben?', 'Nein', ['Ja, in Geldnot', 'Ja, immer', 'Nur sonntags'], 'Die Maxime widerspricht sich selbst.'],
+      ['Darf man nach Kant ein falsches Versprechen geben?', 'Nein', ['Ja, in Geldnot', 'Ja, immer', 'Ja, wenn es niemand merkt'], 'Die Maxime widerspricht sich selbst.'],
       ['Wie nennt man eine persönliche Handlungsregel bei Kant?', 'Maxime', ['Kategorie', 'Postulat', 'Idee'], 'Sie wird mit dem Imperativ geprüft.'],
       ['Was zeigt dieses Bild?', 'Das Titelblatt der „Grundlegung zur Metaphysik der Sitten“', ['Die Bibel', 'Das Grundgesetz', 'Kants Grabplatte'], 'Erschienen 1785 in Riga.', 'kant-grundlegung'],
     ],

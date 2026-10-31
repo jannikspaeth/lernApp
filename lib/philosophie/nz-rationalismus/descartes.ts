@@ -52,7 +52,7 @@ export const DESCARTES: Subtopic = {
       ['Wie hieß die Mutter von Descartes’ Tochter?', 'Helena Jans van der Strom', ['Elisabeth von der Pfalz', 'Christina Wasa', 'Marie de Gournay'], 'Eine Dienstmagd in Amsterdam.'],
       ['Was ist die zweite Regel der Methode?', 'Jedes Problem in so viele Teile zerlegen wie möglich', ['Alles bezweifeln', 'Gott um Hilfe bitten', 'Nur Bücher lesen'], 'Analyse.'],
       ['Woran starb Descartes?', 'An einer Lungenentzündung', ['An der Pest', 'An Gift', 'An einem Sturz'], 'Am 11. Februar 1650.'],
-      ['Wie viele Jahre besuchte Descartes La Flèche?', 'Von 1606 bis 1614', ['Von 1596 bis 1600', 'Von 1618 bis 1628', 'Nur ein Jahr'], 'Etwa acht Jahre.'],
+      ['In welchen Jahren besuchte Descartes La Flèche?', 'Von 1606 bis 1614', ['Von 1596 bis 1600', 'Von 1618 bis 1628', 'Von 1630 bis 1635'], 'Etwa acht Jahre.'],
     ],
   },
 };

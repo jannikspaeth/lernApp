@@ -50,7 +50,7 @@ export const BRUNO: Subtopic = {
       ['Was gibt es nach Bruno nicht?', 'Die äußeren Kristallsphären mit den Fixsternen', ['Die Sonne', 'Die Erde', 'Die Sterne'], 'Das alte Weltbild fällt.'],
       ['Wohin blickt Brunos Denkmal?', 'Zum Vatikan', ['Zum Kolosseum', 'Nach Nola', 'Zum Himmel'], 'Ein Zeichen des Protests.'],
       ['Wie verhielt sich die Kirche im Jahr 2000 zu Bruno?', 'Sie bedauerte die Hinrichtung, rehabilitierte ihn aber nicht', ['Sie sprach ihn heilig', 'Sie hob alle Urteile auf', 'Sie schwieg völlig'], 'Unter Johannes Paul II.'],
-      ['Mit welcher Geheimlehre beschäftigte sich Bruno?', 'Der hermetischen Lehre', ['Der Kabbala', 'Dem Zen', 'Der Alchemie'], 'Dazu Magie und Gedächtniskunst.'],
+      ['Mit welcher Geheimlehre beschäftigte sich Bruno?', 'Der hermetischen Lehre', ['Dem Zen', 'Dem Sufismus', 'Der Astrologie der Maya'], 'Dazu Magie und Gedächtniskunst.'],
       ['Wann wurde Bruno an die römische Inquisition ausgeliefert?', '1593', ['1576', '1592', '1600'], 'Nach der Anzeige in Venedig 1592.'],
       ['Was warf man Bruno unter anderem vor?', 'Er leugne die Dreifaltigkeit und lehre unzählige Welten', ['Er habe Geld gefälscht', 'Er sei Spion Englands', 'Er habe den Papst beleidigt'], 'Dazu die Seelenwanderung.'],
     ],

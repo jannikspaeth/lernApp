@@ -29,7 +29,7 @@ export const HOBBES: Subtopic = {
       ['Wie beschreibt Hobbes das Leben im Naturzustand?', '„Einsam, arm, ekelhaft, tierisch und kurz“', ['„Frei und glücklich“', '„Lang und friedlich“', '„Reich und gesellig“'], 'Ohne Staat gibt es keine Kultur.'],
     ],
     mittel: [
-      ['Welche Zwillinge gebar Hobbes’ Mutter nach seinem Scherz?', 'Ihn und die Furcht', ['Ihn und seinen Bruder', 'Ihn und den Staat', 'Ihn und die Hoffnung'], 'Wegen der spanischen Armada 1588.'],
+      ['Welche Zwillinge gebar Hobbes’ Mutter nach seinem eigenen Scherz?', 'Ihn und die Furcht', ['Ihn und seinen Bruder', 'Ihn und den Staat', 'Ihn und die Hoffnung'], 'Wegen der spanischen Armada 1588.'],
       ['Was begeisterte Hobbes mit 40 Jahren?', 'Die Geometrie Euklids', ['Die Bibel', 'Die Musik', 'Die Malerei'], 'Er stieß auf den Satz des Pythagoras.'],
       ['Wohin floh Hobbes 1640?', 'Nach Paris', ['Nach Rom', 'Nach Amsterdam', 'Nach Amerika'], 'Er blieb elf Jahre.'],
       ['Wen unterrichtete Hobbes in Paris in Mathematik?', 'Den Prinzen von Wales, den späteren Karl II.', ['Ludwig XIV.', 'Descartes', 'Cromwells Sohn'], 'Im Exil des Hofes.'],
@@ -47,7 +47,7 @@ export const HOBBES: Subtopic = {
       ['Was rief Hobbes beim Satz des Pythagoras aus?', '„Bei Gott, das ist unmöglich!“', ['„Heureka!“', '„Ich denke, also bin ich!“', '„Das wusste ich schon!“'], 'Dann folgte er den Beweisen zurück.'],
       ['Was hält der Herrscher auf dem Titelbild des „Leviathan“?', 'Schwert und Bischofsstab', ['Zepter und Apfel', 'Buch und Feder', 'Waage und Schwert'], 'Weltliche und geistliche Macht.'],
       ['Was erwog das Parlament nach dem Brand von London 1666?', 'Den „Leviathan“ als gotteslästerlich zu untersuchen', ['Hobbes zum Bischof zu machen', 'Ein Denkmal für Hobbes', 'Den „Leviathan“ zur Pflichtlektüre zu machen'], 'Hobbes verbrannte einige Papiere.'],
-      ['Mit welchem Gelehrten-Mönch verkehrte Hobbes in Paris?', 'Marin Mersenne', ['Antoine Arnauld', 'Blaise Pascal', 'Pierre Gassendi'], 'Mersenne vernetzte Europas Gelehrte.'],
+      ['Mit welchem Gelehrten-Mönch verkehrte Hobbes in Paris?', 'Marin Mersenne', ['Antoine Arnauld', 'Blaise Pascal', 'Nicolas Malebranche'], 'Mersenne vernetzte Europas Gelehrte.'],
       ['Wer steht nach Hobbes nicht unter dem Vertrag?', 'Der Souverän', ['Die Bürger', 'Die Kirche', 'Die Richter'], 'Er ist an keine Gesetze gebunden.'],
       ['Worauf gründete Hobbes den absoluten Staat?', 'Auf das Eigeninteresse der Menschen', ['Auf Gottes Gnade', 'Auf das Erbrecht', 'Auf die Bibel'], 'Ein revolutionärer Gedanke.'],
       ['Was schrieb Hobbes mit 84 Jahren?', 'Eine Autobiografie in lateinischen Versen', ['Einen Roman', 'Eine Oper', 'Ein Mathematikbuch für Kinder'], 'Er blieb bis ins hohe Alter aktiv.'],

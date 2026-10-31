@@ -16,7 +16,7 @@ export const RICHTUNGEN: Subtopic = {
   quiz: {
     leicht: [
       ['Welche sind die beiden großen Richtungen des Islam?', 'Sunniten und Schiiten', ['Sufis und Aleviten', 'Katholiken und Protestanten', 'Wahhabiten und Ismailiten'], 'Sie trennten sich im Streit um Mohammeds Nachfolge.'],
-      ['Welche Richtung ist die größere?', 'Die Sunniten', ['Die Schiiten', 'Beide sind gleich groß', 'Die Sufis'], 'Etwa 85 bis 90 Prozent der Muslime.'],
+      ['Welche Richtung des Islam ist die größere?', 'Die Sunniten', ['Die Schiiten', 'Beide sind gleich groß', 'Die Sufis'], 'Etwa 85 bis 90 Prozent der Muslime.'],
       ['Was bedeutet „Kalif“?', 'Nachfolger, Stellvertreter', ['König', 'Prophet', 'Gelehrter'], 'Der politische Führer der Gemeinde.'],
       ['Wen hielten die Schiiten für Mohammeds rechtmäßigen Erben?', 'Ali', ['Abu Bakr', 'Umar', 'Uthman'], 'Seinen Vetter und Schwiegersohn.'],
       ['Woher kommt der Name „Schiiten“?', 'Von „Schiat Ali“, Partei Alis', ['Von einer Stadt namens Schia', 'Von einem Fluss', 'Vom Wort für „Schwert“'], 'Die Anhänger Alis.'],

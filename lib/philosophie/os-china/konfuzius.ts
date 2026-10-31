@@ -32,7 +32,7 @@ export const KONFUZIUS: Subtopic = {
       ['Woher stammt der Name „Confucius“?', 'Von Jesuiten des 16. Jahrhunderts', ['Von Marco Polo', 'Von den Römern', 'Von Konfuzius selbst'], 'Latinisiert aus Kong Fuzi.'],
       ['Was bedeutet „Kong Fuzi“?', 'Meister Kong', ['Großer Kaiser', 'Weiser Drache', 'Himmelssohn'], 'Kong ist der Familienname.'],
       ['Womit beginnen die Sprüche in den „Gesprächen“ meist?', '„Der Meister sprach“', ['„Es war einmal“', '„Im Anfang“', '„So spricht der Himmel“'], 'Kurze Dialoge und Sätze.'],
-      ['Welche fünf Grundbeziehungen kennt der Konfuzianismus?', 'Herrscher–Untertan, Vater–Sohn, älterer–jüngerer Bruder, Mann–Frau, Freund–Freund', ['Gott–Mensch, Mann–Frau, Herr–Sklave', 'Lehrer–Schüler', 'König–Adel–Volk'], 'Mit gegenseitigen Pflichten.'],
+      ['Welche fünf Grundbeziehungen kennt der Konfuzianismus?', 'Herrscher–Untertan, Vater–Sohn, älterer–jüngerer Bruder, Mann–Frau, Freund–Freund', ['Gott–Mensch, Mann–Frau, Herr–Sklave', 'Lehrer–Schüler und Meister–Lehrling', 'König–Adel–Volk'], 'Mit gegenseitigen Pflichten.'],
       ['Was ist „xiao“?', 'Die kindliche Ehrfurcht vor den Eltern', ['Ein Musikinstrument', 'Eine Kampfkunst', 'Ein Gericht'], 'Eine Grundtugend.'],
       ['Was ist die „Richtigstellung der Namen“?', 'Jeder soll wirklich sein, was sein Titel sagt', ['Eine Rechtschreibreform', 'Das Ändern von Namen', 'Eine Volkszählung'], 'Ein Fürst soll Fürst sein.'],
       ['Wie lange zog Konfuzius von Hof zu Hof?', 'Etwa 14 Jahre', ['Einen Monat', 'Sein ganzes Leben', '40 Jahre'], 'Ohne einen Fürsten zu finden.'],
@@ -52,7 +52,7 @@ export const KONFUZIUS: Subtopic = {
       ['Welchen Klassiker soll Konfuzius geordnet haben?', 'Das „Buch der Lieder“', ['Das „Daodejing“', 'Die „Kunst des Krieges“', 'Das „Lotos-Sutra“'], 'Eine alte Gedichtsammlung.'],
       ['Womit vergleicht Konfuzius den tugendhaften Herrscher?', 'Mit dem Polarstern, um den alle Sterne kreisen', ['Mit der Sonne', 'Mit einem Löwen', 'Mit einem Fluss'], 'Aus den „Gesprächen“.'],
       ['Wie wurde Konfuzius in der Kulturrevolution gesehen?', 'Als Symbol des Feudalismus, das bekämpft wurde', ['Als Held der Revolution', 'Als Gott', 'Gar nicht'], 'Heute wird er wieder gefeiert.'],
-      ['Wie lebte Menzius?', 'Um 372–289 v. Chr.', ['Um 551–479 v. Chr.', 'Um 100 v. Chr.', 'Um 1200 n. Chr.'], 'Etwa ein Jahrhundert nach Konfuzius.'],
+      ['Wann lebte Menzius?', 'Um 372–289 v. Chr.', ['Um 551–479 v. Chr.', 'Um 100 v. Chr.', 'Um 1200 n. Chr.'], 'Etwa ein Jahrhundert nach Konfuzius.'],
     ],
   },
 };

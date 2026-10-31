@@ -30,10 +30,10 @@ export const SARTRE: Subtopic = {
     ],
     mittel: [
       ['Was ist „Unaufrichtigkeit“ (mauvaise foi) nach Sartre?', 'Die Flucht vor der Freiheit, indem man sich wie ein Ding mit fester Rolle verhält', ['Lügen vor Gericht', 'Ein schlechter Glaube an Gott', 'Ein Verrat an Freunden'], 'Am Beispiel des Kellners.'],
-      ['Was zeigt das Beispiel des Kellners?', 'Er spielt Kellner sein, um sich der Freiheit zu entziehen', ['Kellner sind unfreundlich', 'Arbeit ist sinnlos', 'Cafés sind wichtig'], 'Aus „Das Sein und das Nichts“.'],
+      ['Was zeigt Sartres Beispiel des Kellners?', 'Er spielt Kellner sein, um sich der Freiheit zu entziehen', ['Kellner sind unfreundlich', 'Arbeit ist sinnlos', 'Cafés sind wichtig'], 'Aus „Das Sein und das Nichts“.'],
       ['Was unterscheidet Sartre mit „An-sich“ und „Für-sich“?', 'Das Sein der Dinge und das Bewusstsein', ['Gott und Welt', 'Mann und Frau', 'Reich und Arm'], 'Das Für-sich ist nie mit sich identisch.'],
-      ['Was entdeckt Roquentin an der Kastanienwurzel?', 'Dass alles Existierende grundlos und zufällig ist', ['Einen Schatz', 'Gott', 'Ein Verbrechen'], 'Er empfindet Ekel.'],
-      ['Warum wird ein Brieföffner anders als der Mensch hergestellt?', 'Sein Wesen steht fest, bevor er existiert', ['Weil er aus Metall ist', 'Weil er nützlich ist', 'Weil er billig ist'], 'Beim Menschen ist es umgekehrt.'],
+      ['Was entdeckt Roquentin in Sartres „Der Ekel“ an der Kastanienwurzel?', 'Dass alles Existierende grundlos und zufällig ist', ['Einen Schatz', 'Gott', 'Ein Verbrechen'], 'Er empfindet Ekel.'],
+      ['Warum unterscheidet sich ein Brieföffner nach Sartre vom Menschen?', 'Sein Wesen steht fest, bevor er existiert', ['Weil er aus Metall ist', 'Weil er nützlich ist', 'Weil er billig ist'], 'Beim Menschen ist es umgekehrt.'],
       ['Welche Zeitschrift gründete Sartre 1945?', '„Les Temps modernes“', ['„Le Monde“', '„Combat“', '„Tel Quel“'], 'Mit Beauvoir und Merleau-Ponty.'],
       ['Was forderte Sartre von Schriftstellern?', 'Engagierte Literatur, Partei zu ergreifen', ['Nur Unterhaltung', 'Schweigen', 'Nur Gedichte'], 'Littérature engagée.'],
       ['Wann brach Sartre mit der Sowjetunion?', 'Nach dem Einmarsch in Ungarn 1956', ['1945', '1968', '1980'], 'Nach langer Verteidigung.'],

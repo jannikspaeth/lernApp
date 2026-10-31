@@ -36,7 +36,7 @@ export const UEBERBLICK: Subtopic = {
       ['Welcher griechische Lyriker kämpfte in Gedichten gegen Tyrannen?', 'Alkaios', ['Anakreon', 'Pindar', 'Sappho'], null],
       ['Welcher griechische Lyriker besang vor allem den Wein?', 'Anakreon', ['Pindar', 'Hesiod', 'Alkaios'], null],
       ['Welche drei Tragiker gelten als die größten?', 'Aischylos, Sophokles und Euripides', ['Homer, Hesiod und Pindar', 'Platon, Sokrates und Aristoteles', 'Herodot, Thukydides und Xenophon'], null],
-      ['Was bewirkt die Tragödie laut Aristoteles?', 'Katharsis (Reinigung)', ['Heiterkeit', 'Belehrung', 'Furcht'], null],
+      ['Was bewirkt die Tragödie laut Aristoteles?', 'Katharsis (Reinigung)', ['Heiterkeit', 'Belehrung', 'Langeweile'], null],
       ['Wer schrieb die „Poetik“?', 'Aristoteles', ['Platon', 'Aristophanes', 'Herodot'], null],
       ['Über welchen Krieg schrieb Thukydides?', 'Über den Peloponnesischen Krieg', ['Über die Perserkriege', 'Über den Trojanischen Krieg', 'Über die Gallischen Kriege'], null],
       ['Wann starb Alexander der Große?', '323 v. Chr.', ['480 v. Chr.', '44 v. Chr.', '100 n. Chr.'], null],

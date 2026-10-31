@@ -18,7 +18,7 @@ export const HEGEL: Subtopic = {
       ['Wie heißt Hegels erstes Hauptwerk von 1807?', '„Phänomenologie des Geistes“', ['„Kritik der reinen Vernunft“', '„Das Kapital“', '„Sein und Zeit“'], 'Vollendet 1806 in Jena.'],
       ['Wen nannte Hegel „diese Weltseele“?', 'Napoleon', ['Friedrich den Großen', 'Goethe', 'Jesus'], 'Er sah ihn 1806 in Jena reiten.'],
       ['Wer ist auf diesem Bild zu sehen?', 'Georg Wilhelm Friedrich Hegel', ['Kant', 'Fichte', 'Schopenhauer'], 'Porträt von Jakob Schlesinger (1831).', 'hegel'],
-      ['Wie heißt Hegels Methode?', 'Dialektik', ['Induktion', 'Phänomenologie', 'Mäeutik'], 'Entwicklung durch Widersprüche.'],
+      ['Wie heißt Hegels Methode?', 'Dialektik', ['Induktion', 'Deduktion', 'Mäeutik'], 'Entwicklung durch Widersprüche.'],
       ['In welcher Stadt wurde Hegel geboren?', 'In Stuttgart', ['In Berlin', 'In Jena', 'In Tübingen'], 'Im selben Jahr wie Beethoven.'],
       ['Wessen Nachfolger wurde Hegel 1818 in Berlin?', 'Fichtes', ['Kants', 'Schellings', 'Humboldts'], 'Er wurde der berühmteste Philosoph Deutschlands.'],
       ['Was ist die Weltgeschichte für Hegel?', 'Der Fortschritt im Bewusstsein der Freiheit', ['Eine Kette von Zufällen', 'Ein ewiger Kreislauf', 'Ein Abstieg'], 'Aus seiner Geschichtsphilosophie.'],
@@ -39,7 +39,7 @@ export const HEGEL: Subtopic = {
       ['Welche drei Stufen hat die Sittlichkeit bei Hegel?', 'Familie, bürgerliche Gesellschaft, Staat', ['Kirche, Schule, Heer', 'Kind, Mann, Greis', 'Adel, Bürger, Bauern'], 'Aus der Rechtsphilosophie 1820.'],
       ['Wie beschimpfte Schopenhauer Hegel?', 'Als „geistlosen, unsauberen, ekelhaften Scharlatan“', ['Als „großen Lehrer“', 'Als „neuen Platon“', 'Als „Freund der Wahrheit“'], 'Er hasste Hegel.'],
       ['Wo arbeitete Hegel als Zeitungsredakteur?', 'In Bamberg', ['In Berlin', 'In Heidelberg', 'In Frankfurt'], 'Nach der Schließung der Jenaer Universität.'],
-      ['Wie nannten ihn seine Tübinger Freunde?', 'Den „alten Mann“', ['Den „jungen Gott“', 'Den „Schwätzer“', 'Den „Dichter“'], 'Wegen seiner bedächtigen Art.'],
+      ['Wie nannten Hegel seine Tübinger Freunde?', 'Den „alten Mann“', ['Den „jungen Gott“', 'Den „Schwätzer“', 'Den „Dichter“'], 'Wegen seiner bedächtigen Art.'],
       ['Wo liegt Hegel begraben?', 'Auf dem Dorotheenstädtischen Friedhof in Berlin', ['In Stuttgart', 'In Jena', 'In Heidelberg'], 'Neben Fichte.'],
     ],
     schwer: [

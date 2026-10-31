@@ -33,7 +33,7 @@ export const JAPAN_MODERNE: Subtopic = {
       ['Welcher Roman Sōsekis handelt von einem aufrichtigen jungen Lehrer auf dem Land?', 'Botchan', ['Kokoro', 'Schneeland', 'Tausend Kraniche'], null],
       ['Wann erschien Sōsekis „Kokoro“?', '1914', ['1905', '1935', '1949'], null],
       ['Wie heißt der rätselhafte ältere Mann in „Kokoro“?', 'Sensei', ['Botchan', 'Genji', 'Ah Q'], null],
-      ['Wessen Tod 1912 spielt in „Kokoro“ eine Rolle?', 'Der des Kaisers Meiji', ['Der des Shōgun', 'Der des Generals Nogi', 'Der des Dichters Bashō'], null],
+      ['Wessen Tod 1912 spielt in „Kokoro“ eine Rolle?', 'Der des Kaisers Meiji', ['Der des Shōgun', 'Der des Premierministers Itō', 'Der des Dichters Bashō'], null],
       ['Wann lebte Yasunari Kawabata?', '1899–1972', ['1867–1916', '1925–1970', '1949–heute'], null],
       ['Wovon handelt Kawabatas „Tausend Kraniche“?', 'Von einer Teezeremonie und alten Verstrickungen', ['Von einem Krieg', 'Vom Kaiserhof', 'Von einer Reise nach China'], null],
       ['Wann lebte Yukio Mishima?', '1925–1970', ['1899–1972', '1867–1916', '1949–heute'], null],

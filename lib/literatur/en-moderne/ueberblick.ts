@@ -42,7 +42,7 @@ export const UEBERBLICK: Subtopic = {
       ['Welcher britische Premierminister erhielt den Literaturnobelpreis?', 'Winston Churchill', ['David Lloyd George', 'Clement Attlee', 'Harold Macmillan'], null],
     ],
     schwer: [
-      ['Wogegen schrieben die Kriegsdichter an?', 'Gegen die Lüge vom süßen Heldentod', ['Gegen die Generäle', 'Gegen die Presse', 'Gegen den König'], null],
+      ['Wogegen schrieben die Kriegsdichter an?', 'Gegen die Lüge vom süßen Heldentod', ['Gegen die Frauenbewegung', 'Gegen die Presse', 'Gegen den König'], null],
       ['Was macht „The Waste Land“ so schwierig?', 'Es setzt Bruchstücke aus vielen Sprachen und Überlieferungen zusammen', ['Es ist sehr lang', 'Es ist ungereimt', 'Es ist handschriftlich'], null],
       ['Was fehlt modernen Romanen oft?', 'Ein sicherer Standpunkt des Erzählers', ['Jede Handlung', 'Figuren', 'Ein Titel'], null],
       ['Welche Rolle spielten Mythen in der Moderne?', 'Sie geben dem zerfallenen Stoff eine Ordnung', ['Sie wurden abgelehnt', 'Sie waren nur Zierde', 'Sie kamen nicht vor'], null],

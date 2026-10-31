@@ -48,7 +48,7 @@ export const DEMOKRIT: Subtopic = {
       ['Was werfen in Demokrits Fragment die Sinne dem Verstand vor?', 'Er stürze sich selbst, weil er seine Beweise von ihnen habe', ['Er sei zu langsam', 'Er glaube an Götter', 'Er sei nur ein Atom'], 'Demokrit sah die Grenzen seiner Theorie.'],
       ['Wie viele Schriften soll Demokrit verfasst haben?', 'Über 70', ['Genau 3', 'Etwa 10', 'Über 1.000'], 'Zu Physik, Ethik, Mathematik, Musik und Medizin.'],
       ['Welchen Bezug zu Parmenides’ Sein haben die Atome?', 'Sie entstehen und vergehen nicht', ['Sie sind bloßer Schein', 'Sie sind alle gleich groß', 'Sie sind göttlich'], 'Die Atomisten verteilten das Sein auf viele Teilchen.'],
-      ['Was bedeutet das Beispiel von „AN“ und „NA“?', 'Atome unterscheiden sich durch die Anordnung', ['Atome sind Buchstaben', 'Sprache ist Atomen fremd', 'Es gibt nur zwei Atome'], 'A und N unterscheiden sich in der Form.'],
+      ['Was zeigt Demokrits Beispiel von „AN“ und „NA“?', 'Atome unterscheiden sich durch die Anordnung', ['Atome sind Buchstaben', 'Sprache ist Atomen fremd', 'Es gibt nur zwei Atome'], 'A und N unterscheiden sich in der Form.'],
       ['Welche Neuzeit-Gelehrten beeinflusste Lukrez’ Werk?', 'Gassendi, Galilei und Newton', ['Luther und Zwingli', 'Dante und Petrarca', 'Rousseau und Voltaire'], 'Der Atomismus wurde Grundlage der Physik.'],
       ['Wodurch entstehen Farben nach Demokrit?', 'Wenn Atome auf die Sinnesorgane treffen', ['Durch die Sonne', 'Sie sind Eigenschaften der Atome', 'Durch göttliche Malerei'], 'Sie sind keine Eigenschaften der Atome selbst.'],
       ['Wann lebte Demokrit etwa?', 'Um 460–370 v. Chr.', ['Um 624–546 v. Chr.', 'Um 341–270 v. Chr.', 'Um 200–120 v. Chr.'], 'Ein Zeitgenosse des Sokrates.'],

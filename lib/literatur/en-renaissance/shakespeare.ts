@@ -20,7 +20,7 @@ export const SHAKESPEARE: Subtopic = {
       ['Welches Stück handelt von Liebenden aus verfeindeten Familien?', 'Romeo und Julia', ['Othello', 'Macbeth', 'Der Sturm'], 'Es spielt in Verona.'],
       ['Wer treibt Macbeth zum Mord an?', 'Die Hexen und seine Frau', ['Sein Bruder', 'Der König', 'Ein Geist'], null],
       ['Welches Gefühl treibt Othello ins Verderben?', 'Eifersucht', ['Geiz', 'Ehrgeiz', 'Neugier'], 'Jago schürt sie mit einer Intrige.'],
-      ['Was verteilt König Lear zu Beginn?', 'Sein Reich', ['Seine Schätze', 'Seine Krone', 'Seine Armee'], null],
+      ['Was verteilt König Lear zu Beginn?', 'Sein Reich', ['Seine Schätze', 'Seine Bibliothek', 'Seine Armee'], null],
       ['Wie viele Sonette schrieb Shakespeare?', '154', ['54', '254', '1.054'], null],
       ['Wie heißt die Gesamtausgabe von Shakespeares Stücken von 1623?', 'First Folio', ['Quarto', 'Sonnets', 'Complete Works'], null, 'first-folio'],
       ['Wie hieß Shakespeares Theatertruppe zuletzt?', 'King’s Men', ['Queen’s Men', 'Globe Players', 'Admiral’s Men'], 'Unter König Jakob I.'],

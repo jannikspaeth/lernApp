@@ -37,7 +37,7 @@ export const STEINBECK_FAULKNER: Subtopic = {
       ['Wann lebte Faulkner?', '1897–1962', ['1902–1968', '1899–1961', '1900–1950'], null],
       ['Wie heißt Faulkners Roman von 1929?', 'Schall und Wahn', ['Absalom, Absalom!', 'Licht im August', 'Als ich im Sterben lag'], null],
       ['Aus wie vielen Blickwinkeln wird Faulkners „Schall und Wahn“ erzählt?', 'Aus vier', ['Aus einem', 'Aus zwei', 'Aus zehn'], null],
-      ['Wessen Bewusstsein prägt den ersten Teil von „Schall und Wahn“?', 'Das eines geistig behinderten Mannes', ['Das eines Richters', 'Das eines Kindes', 'Das eines Soldaten'], null],
+      ['Wessen Bewusstsein prägt den ersten Teil von „Schall und Wahn“?', 'Das eines geistig behinderten Mannes', ['Das eines Richters', 'Das eines Priesters', 'Das eines Soldaten'], null],
       ['Womit verdiente Faulkner Geld?', 'Mit Drehbüchern in Hollywood', ['Mit einer Farm', 'Mit Vorträgen', 'Mit einer Zeitung'], null],
       ['Was sagte Faulkner in seiner Nobelpreisrede?', 'Der Mensch werde nicht nur überdauern, sondern sich behaupten', ['Die Literatur sei am Ende', 'Der Krieg sei unvermeidlich', 'Er habe nichts zu sagen'], null],
     ],

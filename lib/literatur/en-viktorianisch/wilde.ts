@@ -49,7 +49,7 @@ export const WILDE: Subtopic = {
       ['Welche Haltung vertrat Wilde zur Moral in der Kunst?', 'Kunst lasse sich nicht moralisch beurteilen', ['Kunst müsse moralisch erziehen', 'Kunst sei immer unmoralisch', 'Kunst habe mit Moral nichts zu tun, aber mit Politik'], null],
       ['Welches Urteil über „Bunbury“ ist verbreitet?', 'Es gilt als beste englische Komödie seit Shakespeare', ['Es gilt als misslungen', 'Es war ein Skandal', 'Es blieb unaufgeführt'], null],
       ['Wie endete Wildes Leben wirtschaftlich?', 'Mittellos', ['Wohlhabend', 'Als Gutsbesitzer', 'Mit einer Pension'], null],
-      ['Welche Sprache beherrschte Wilde als glänzender Schüler besonders?', 'Altgriechisch', ['Französisch', 'Latein', 'Italienisch'], null],
+      ['Welche Sprache beherrschte Wilde als glänzender Schüler besonders?', 'Altgriechisch', ['Deutsch', 'Spanisch', 'Italienisch'], null],
       ['Was folgte auf Wildes verlorenen Verleumdungsprozess?', 'Die Anklage gegen ihn selbst', ['Seine Ausweisung', 'Eine Geldstrafe', 'Ein Freispruch'], null],
       ['Welches Stück Wildes wurde in England zunächst verboten?', 'Salome', ['Bunbury', 'Ein idealer Gatte', 'Lady Windermeres Fächer'], 'Biblische Figuren durften nicht auf die Bühne.'],
     ],

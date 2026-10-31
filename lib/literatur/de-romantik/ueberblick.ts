@@ -23,7 +23,7 @@ export const UEBERBLICK: Subtopic = {
       ['Wer ist auf diesem Porträt zu sehen?', 'Joseph von Eichendorff', ['Novalis', 'Clemens Brentano', 'Ludwig Tieck'], null, 'eichendorff'],
       ['Welche Epoche entdeckte die Romantik neu?', 'Das Mittelalter', ['Die Antike', 'Den Barock', 'Die Renaissance'], null],
       ['Welche drei Städte waren Zentren der Romantik?', 'Jena, Heidelberg und Berlin', ['Weimar, Wien und München', 'Köln, Hamburg und Leipzig', 'Dresden, Bonn und Mainz'], null],
-      ['Wer übersetzte Shakespeare ins Deutsche?', 'August Wilhelm Schlegel', ['Friedrich Schlegel', 'Ludwig Tieck', 'Clemens Brentano'], 'Seine Fassung wird bis heute gespielt.'],
+      ['Wer übersetzte Shakespeare ins Deutsche?', 'August Wilhelm Schlegel', ['Friedrich Schlegel', 'Novalis', 'Clemens Brentano'], 'Seine Fassung wird bis heute gespielt.'],
       ['Was wurde aus romantischen Gedichten in der Musik?', 'Das Kunstlied', ['Die Oper', 'Die Sinfonie', 'Das Oratorium'], 'Schubert und Schumann vertonten viele davon.'],
       ['Welche Gattung wurde in der Romantik besonders wichtig?', 'Das Märchen', ['Das Lehrgedicht', 'Die Fabel', 'Das Epigramm'], null],
     ],
@@ -44,7 +44,7 @@ export const UEBERBLICK: Subtopic = {
     schwer: [
       ['Warum blieb „Heinrich von Ofterdingen“ unvollendet?', 'Novalis starb mit 28 Jahren', ['Er verlor das Interesse', 'Das Werk wurde verboten', 'Das Manuskript verbrannte'], 'Er starb 1801 an Tuberkulose.'],
       ['Was suchte die Romantik in der Volksdichtung?', 'Den ursprünglichen Geist eines Volkes', ['Unterhaltung für den Hof', 'Lehrstoff für Schulen', 'Vorbilder für Dramen'], null],
-      ['Wie verhielt sich die Romantik zur Nacht?', 'Sie galt als Ort von Traum und Erkenntnis', ['Sie wurde gemieden', 'Sie stand für den Tod', 'Sie spielte keine Rolle'], 'Novalis schrieb die „Hymnen an die Nacht“.'],
+      ['Wie verhielt sich die Romantik zur Nacht?', 'Sie galt als Ort von Traum und Erkenntnis', ['Sie wurde gemieden', 'Sie galt als Zeit der Arbeit', 'Sie spielte keine Rolle'], 'Novalis schrieb die „Hymnen an die Nacht“.'],
       ['Woraus entstand in der Romantik ein Nationalgefühl?', 'Aus der Sehnsucht nach einer gemeinsamen Vergangenheit', ['Aus der Begeisterung für Napoleon', 'Aus dem Handel', 'Aus der Kirche'], 'Es wurde später sehr verschieden ausgedeutet.'],
       ['Welche Form bevorzugte die Romantik statt des geschlossenen Werks?', 'Das Fragment', ['Das Lehrgedicht', 'Die Trilogie', 'Den Zyklus von Oden'], null],
       ['Wie stand Goethe zur Romantik?', 'Er stand ihr kritisch gegenüber', ['Er war ihr Anführer', 'Er ignorierte sie', 'Er schrieb ihre Theorie'], null],

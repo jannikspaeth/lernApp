@@ -46,7 +46,7 @@ export const GALDOS_UNAMUNO: Subtopic = {
       ['Welche Personen zeigt Galdós im Madrid der Zeit?', 'Händler, Beamte und Priester', ['Nur Adelige', 'Nur Soldaten', 'Nur Künstler'], null],
       ['Welche Bitte erfüllte sich bei Galdós nie?', 'Der Nobelpreis', ['Der Platz in der Akademie', 'Ein Denkmal', 'Eine Zeitung'], 'Er wurde mehrfach vorgeschlagen.'],
       ['Was ist Unamunos Suche?', 'Glaube im Zweifel, nicht in Sicherheit', ['Sicherheit durch Wissenschaft', 'Macht durch Politik', 'Ruhm durch Kunst'], null],
-      ['Mit wem geriet Unamuno in Konflikt?', 'Mit den Diktaturen Primo de Riveras und Francos', ['Mit der Kirche', 'Mit der Universität', 'Mit Galdós'], null],
+      ['Mit wem geriet Unamuno in Konflikt?', 'Mit den Diktaturen Primo de Riveras und Francos', ['Mit der Sowjetunion', 'Mit der Universität', 'Mit Galdós'], null],
       ['Warum sagt Unamuno Augusto, er habe kein Recht zum Selbstmord?', 'Weil er nur eine Romanfigur sei', ['Weil es verboten sei', 'Weil es Sünde sei', 'Weil Hunger drohe'], null],
       ['Was rief der General 1936 bei Unamunos Rede in Salamanca?', '„Es lebe der Tod!“', ['„Es lebe Spanien!“', '„Nieder mit Franco!“', '„Es lebe der König!“'], null],
       ['Was antwortete Unamuno sinngemäß?', 'Man werde siegen, aber nicht überzeugen', ['Man solle schweigen', 'Man müsse fliehen', 'Er werde sich fügen'], null],

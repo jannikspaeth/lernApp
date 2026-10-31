@@ -19,7 +19,7 @@ export const AUGUSTINUS: Subtopic = {
       ['In welcher heutigen Region wurde Augustinus geboren?', 'In Algerien (Nordafrika)', ['In Italien', 'In Griechenland', 'In Spanien'], 'In Thagaste, heute Souk Ahras.'],
       ['Wer ist auf diesem Bild zu sehen?', 'Augustinus', ['Thomas von Aquin', 'Martin Luther', 'Ambrosius'], 'Sein ältestes erhaltenes Bild, ein Fresko im Lateran (6. Jh.).', 'augustinus'],
       ['Wie hieß Augustinus’ fromme Mutter?', 'Monika', ['Maria', 'Helena', 'Klara'], 'Sie betete jahrelang für seine Bekehrung.'],
-      ['Wessen Bischof wurde Augustinus?', 'Von Hippo Regius', ['Von Rom', 'Von Mailand', 'Von Karthago'], 'Heute Annaba in Algerien.'],
+      ['Wo wurde Augustinus Bischof?', 'In Hippo Regius', ['In Rom', 'In Mailand', 'In Karthago'], 'Heute Annaba in Algerien.'],
       ['Was hörte Augustinus bei seiner Bekehrung?', '„Nimm und lies!“', ['„Steh auf und geh!“', '„Folge mir nach!“', '„Werde Bischof!“'], 'Lateinisch: Tolle, lege.'],
       ['Wie heißt Augustinus’ großes Werk über die zwei Staaten?', '„Vom Gottesstaat“', ['„Der Fürst“', '„Leviathan“', '„Utopia“'], 'Lateinisch De civitate Dei.'],
       ['Wer taufte Augustinus?', 'Bischof Ambrosius von Mailand', ['Der Papst', 'Monika', 'Hieronymus'], 'In der Osternacht 387.'],

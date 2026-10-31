@@ -43,7 +43,7 @@ export const BRECHT: Subtopic = {
     ],
     schwer: [
       ['Was soll Brechts Verfremdungseffekt bewirken?', 'Der Zuschauer soll Verhalten prüfen statt mitfühlen', ['Er soll sich erschrecken', 'Er soll lachen', 'Er soll mitspielen'], null],
-      ['Welche Mittel nutzt Brecht für den Verfremdungseffekt?', 'Songs, Spruchbänder und sichtbare Bühnentechnik', ['Dunkelheit und Musik', 'Masken und Chöre', 'Pantomime'], null],
+      ['Welche Mittel nutzt Brecht für den Verfremdungseffekt?', 'Songs, Spruchbänder und sichtbare Bühnentechnik', ['Dunkelheit und Musik', 'Kerzenlicht und Orgelmusik', 'Pantomime'], null],
       ['Welche Grundhaltung steckt hinter Brechts epischem Theater?', 'Die Verhältnisse sind von Menschen gemacht und änderbar', ['Das Schicksal bestimmt alles', 'Die Kunst ist zweckfrei', 'Die Natur ist das Vorbild'], null],
       ['Was ist Brechts Mutter Courage von Beruf?', 'Marketenderin', ['Bäuerin', 'Soldatin', 'Wirtin'], 'Sie zieht mit einem Wagen hinter den Heeren her.'],
       ['Was zeigt Brecht an der Mutter Courage?', 'Wer vom Krieg leben will, zahlt mit den Seinen', ['Krieg macht reich', 'Mut siegt', 'Frauen sind stärker'], null],

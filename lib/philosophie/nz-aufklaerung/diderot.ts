@@ -37,7 +37,7 @@ export const DIDEROT: Subtopic = {
       ['Wer half Diderot heimlich gegen die Zensur?', 'Der Zensurchef Malesherbes', ['Der Papst', 'Der Erzbischof von Paris', 'Die Jesuiten'], 'Er versteckte sogar Manuskripte.'],
       ['Was entdeckte Diderot 1764 entsetzt?', 'Sein Verleger hatte heimlich die letzten Bände zensiert', ['Seine Bibliothek war verbrannt', 'd’Alembert war tot', 'Der König hatte das Werk gelobt'], 'Le Breton strich kritische Stellen.'],
       ['Wofür wurde Diderot wegen des „Briefs über die Blinden“ bestraft?', 'Ein Blinder bezweifelt darin, dass die Natur einen Schöpfer beweist', ['Er beleidigte den König', 'Er lobte England', 'Er verriet Staatsgeheimnisse'], 'Er kam drei Monate in Haft.'],
-      ['Welche Gattung begründete Diderot mit seinen „Salons“?', 'Die Kunstkritik', ['Den Roman', 'Die Zeitung', 'Das Musical'], 'Über die Pariser Kunstausstellungen.'],
+      ['Welche Gattung begründete Diderot mit seinen „Salons“?', 'Die Kunstkritik', ['Den Roman', 'Die Zeitung', 'Die Fabel'], 'Über die Pariser Kunstausstellungen.'],
       ['Welcher Roman Diderots handelt von einem Diener und seinem Herrn?', '„Jacques der Fatalist“', ['„Die Nonne“', '„Candide“', '„Emile“'], 'Erst nach seinem Tod erschienen.'],
       ['Wen besuchte Diderot 1773/74?', 'Katharina die Große in Sankt Petersburg', ['Friedrich II. in Potsdam', 'Voltaire in Ferney', 'Hume in Edinburgh'], 'Seine Gönnerin.'],
       ['Wer kämpfte besonders gegen die Encyclopédie?', 'Jesuiten und Jansenisten', ['Die Freimaurer', 'Die Handwerker', 'Die Engländer'], 'Kirchliche Gegner.'],

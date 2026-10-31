@@ -33,7 +33,7 @@ export const PAGANINI: Subtopic = {
       ['Was tat Paganinis Vater, wenn der Junge nicht fleißig übte?', 'Er gab ihm nichts zu essen', ['Er schenkte ihm Süßes', 'Er schickte ihn ins Kloster', 'Er verkaufte die Geige'], 'Eine harte Erziehung.'],
       ['Mit wie vielen Jahren gab Paganini sein erstes Konzert?', 'Mit elf', ['Mit drei', 'Mit 20', 'Mit 30'], 'Schon mit sieben spielte er Geige.'],
       ['Was sind Flageoletttöne?', 'Zarte, pfeifende Obertöne', ['Sehr tiefe Töne', 'Laute Schläge', 'Gezupfte Töne'], 'Man berührt die Saite dafür nur leicht.'],
-      ['Was ist linkshändiges Pizzicato?', 'Zupfen mit der Greifhand', ['Spielen mit der linken Hand', 'Spielen hinter dem Rücken', 'Spielen mit Handschuh'], 'Gleichzeitig spielte er mit dem Bogen.'],
+      ['Was ist linkshändiges Pizzicato?', 'Zupfen mit der Greifhand', ['Spielen mit dem Bogen in der linken Hand', 'Spielen hinter dem Rücken', 'Spielen mit Handschuh'], 'Gleichzeitig spielte er mit dem Bogen.'],
       ['Wann wurden die 24 Capricci gedruckt?', '1820', ['1790', '1840', '1870'], 'Beim Verlag Ricordi in Mailand.'],
       ['An welcher Krankheit litt Paganini vermutlich zusätzlich?', 'An einer Bindegewebskrankheit wie Marfan', ['An Taubheit', 'An Farbenblindheit', 'An Gicht'], 'Sie machte seine Gelenke sehr beweglich.'],
       ['Warum förderte Paganini die Teufelsgerüchte?', 'Weil sie Publikum anlockten', ['Weil er gläubig war', 'Weil er Angst hatte', 'Er widersprach immer'], 'Er hielt auch seine Technik geheim.'],

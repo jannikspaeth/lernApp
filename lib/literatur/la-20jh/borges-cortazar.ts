@@ -19,7 +19,7 @@ export const BORGES_CORTAZAR: Subtopic = {
       ['Welchen Beruf hatte Borges lange?', 'Bibliothekar', ['Arzt', 'Lehrer', 'Journalist'], null],
       ['Was passierte mit Borges’ Augen?', 'Er erblindete', ['Er wurde kurzsichtig', 'Er bekam einen Star-Stich', 'Nichts'], null],
       ['Welche Form bevorzugte Borges?', 'Kurze Erzählungen und Essays', ['Lange Romane', 'Dramen', 'Opern'], null],
-      ['Welche Motive liebte Borges?', 'Labyrinthe, Spiegel und Bibliotheken', ['Seeschlachten', 'Gauchos', 'Familienkrisen'], null],
+      ['Welche Motive liebte Borges?', 'Labyrinthe, Spiegel und Bibliotheken', ['Seeschlachten', 'Weltraumreisen', 'Familienkrisen'], null],
       ['Wo stellt sich Borges das Universum als Bibliothek vor?', 'In „Die Bibliothek von Babel“', ['In „Axolotl“', 'In „Rayuela“', 'In „Das Aleph“'], null],
       ['Wer ist auf diesem Porträt zu sehen?', 'Julio Cortázar', ['Jorge Luis Borges', 'Mario Vargas Llosa', 'Carlos Fuentes'], null, 'cortazar'],
       ['Wo lebte Cortázar die meiste Zeit?', 'In Paris', ['In Buenos Aires', 'In Madrid', 'In Havanna'], null],

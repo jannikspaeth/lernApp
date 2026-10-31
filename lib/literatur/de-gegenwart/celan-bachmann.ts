@@ -38,7 +38,7 @@ export const CELAN_BACHMANN: Subtopic = {
       ['Wie heißt Paul Celans berühmte Büchnerpreis-Rede?', 'Der Meridian', ['Die Niemandsrose', 'Atemwende', 'Sprachgitter'], null],
       ['Wie wurde Celans Sprache im Spätwerk?', 'Immer knapper und dunkler', ['Immer einfacher', 'Immer länger', 'Immer fröhlicher'], null],
       ['Wann lebte Ingeborg Bachmann?', '1926–1973', ['1920–1970', '1917–1985', '1930–1990'], null],
-      ['Was studierte Ingeborg Bachmann?', 'Philosophie', ['Medizin', 'Jura', 'Germanistik'], null],
+      ['Was studierte Ingeborg Bachmann?', 'Philosophie', ['Medizin', 'Jura', 'Chemie'], null],
       ['Wie heißt der Briefwechsel zwischen Celan und Bachmann?', 'Herzzeit', ['Briefe an einen jungen Dichter', 'Sprachgitter', 'Zeitlos'], 'Er erschien 2008.'],
     ],
     schwer: [

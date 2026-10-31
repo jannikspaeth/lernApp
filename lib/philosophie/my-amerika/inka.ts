@@ -47,7 +47,7 @@ export const INKA: Subtopic = {
       ['Von welcher Insel ließ Viracocha Sonne und Mond aufsteigen?', 'Von der Isla del Sol', ['Von der Osterinsel', 'Von Galápagos', 'Von Chiloé'], 'Im Titicacasee.'],
       ['Wer war der Gott des Donners und des Regens?', 'Illapa', ['Inti', 'Viracocha', 'Chaac'], 'Bei den Inka.'],
       ['Was lehrte Mama Ocllo die Frauen?', 'Spinnen und Weben', ['Ackerbau', 'Kriegskunst', 'Rechnen mit Quipus'], 'Manco Cápac lehrte die Männer Ackerbau.'],
-      ['Aus welcher Höhle kamen nach einer Fassung die Gründer?', 'Aus einer Höhle bei Pacaritambo', ['Aus der Höhle von Altamira', 'Aus einer Höhle im Titicacasee', 'Aus einer Höhle bei Cusco'], 'Vier Geschwisterpaare.'],
+      ['Aus welcher Höhle kamen nach einer Fassung die Gründer des Inkareichs?', 'Aus einer Höhle bei Pacaritambo', ['Aus der Höhle von Altamira', 'Aus einer Höhle im Titicacasee', 'Aus einer Höhle bei Cusco'], 'Vier Geschwisterpaare.'],
       ['Was opfert man Pachamama bis heute?', 'Speisen, Coca-Blätter und Chicha', ['Menschen', 'Gold', 'Pferde'], 'Vor allem im August.'],
       ['Wie hieß die Zeremonie mit Kinderopfern auf Berggipfeln?', 'Capacocha', ['Inti Raymi', 'Huaca', 'Quipu'], 'Mumien wie „Juanita“ wurden gefunden.'],
       ['Wofür wird der „Intihuatana“ in Machu Picchu gedeutet?', 'Als „Sonnenpfosten“', ['Als Opferaltar', 'Als Thron', 'Als Grab des Herrschers'], 'Ein behauener Felsen.'],

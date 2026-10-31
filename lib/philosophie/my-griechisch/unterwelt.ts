@@ -15,13 +15,13 @@ export const UNTERWELT: Subtopic = {
   ],
   quiz: {
     leicht: [
-      ['Wer ist der Herr der Unterwelt?', 'Hades', ['Poseidon', 'Kronos', 'Ares'], 'Ein Bruder des Zeus.'],
-      ['Wie heißt der Fährmann der Toten?', 'Charon', ['Hermes', 'Kerberos', 'Minos'], 'Er setzt sie über den Fluss Styx.'],
+      ['Wer ist in der griechischen Mythologie der Herr der Unterwelt?', 'Hades', ['Poseidon', 'Kronos', 'Ares'], 'Ein Bruder des Zeus.'],
+      ['Wie heißt in der griechischen Mythologie der Fährmann der Toten?', 'Charon', ['Hermes', 'Kerberos', 'Minos'], 'Er setzt sie über den Fluss Styx.'],
       ['Wer wartet auf dem Bild im Kahn?', 'Der Fährmann Charon', ['Odysseus', 'Poseidon', 'Jason'], 'Er bringt die Seelen über den Totenfluss.', 'charon'],
       ['Warum legte man Toten eine Münze in den Mund?', 'Als Fährlohn für Charon', ['Als Geschenk für Hades', 'Für ein Mahl im Jenseits', 'Gegen böse Geister'], 'Den Obolus.'],
       ['Wie viele Köpfe hat Kerberos?', 'Drei', ['Einen', 'Neun', 'Hundert'], 'Der Höllenhund am Tor der Unterwelt.'],
-      ['Welcher Fluss lässt alles vergessen?', 'Die Lethe', ['Die Styx', 'Der Acheron', 'Der Nil'], 'Wer daraus trinkt, verliert jede Erinnerung.'],
-      ['Wohin kamen gute Menschen und Helden?', 'Ins Elysion', ['In den Tartaros', 'Auf den Olymp', 'Auf die Asphodeloswiese'], 'Ein Land ewigen Frühlings.'],
+      ['Welcher Fluss der griechischen Unterwelt lässt alles vergessen?', 'Die Lethe', ['Die Styx', 'Der Acheron', 'Der Nil'], 'Wer daraus trinkt, verliert jede Erinnerung.'],
+      ['Wohin kamen nach griechischem Glauben gute Menschen und Helden?', 'Ins Elysion', ['In den Tartaros', 'Auf den Olymp', 'Auf die Asphodeloswiese'], 'Ein Land ewigen Frühlings.'],
       ['Welche Pariser Straße ist nach dem Elysion benannt?', 'Die Champs-Élysées', ['Die Rue de Rivoli', 'Der Boulevard Haussmann', 'Die Avenue Montaigne'], 'Die „Elysischen Felder“.'],
       ['Wen raubte Hades in die Unterwelt?', 'Persephone', ['Eurydike', 'Helena', 'Ariadne'], 'Die Tochter der Demeter.'],
       ['Welche Skulptur zeigt das Bild?', 'Den Raub der Proserpina', ['Apollo und Daphne', 'Amor und Psyche', 'Die Laokoon-Gruppe'], 'Berninis Marmorgruppe: Pluto (Hades) raubt Proserpina (Persephone).', 'raub-proserpina'],
@@ -31,8 +31,8 @@ export const UNTERWELT: Subtopic = {
     mittel: [
       ['Was bedeutet „Styx“?', 'Die Verhasste', ['Die Dunkle', 'Die Kalte', 'Die Tiefe'], 'Bei ihr schworen die Götter ihre heiligsten Eide.'],
       ['Wer geleitete die Seelen zur Unterwelt?', 'Hermes', ['Charon', 'Hades', 'Thanatos'], 'Der Götterbote.'],
-      ['Was mussten Unbestattete tun?', 'Hundert Jahre am Ufer umherirren', ['Im Tartaros büßen', 'Ins Elysion gehen', 'Wiedergeboren werden'], 'Sie konnten Charon nicht bezahlen.'],
-      ['Wo wanderten die meisten Seelen umher?', 'Auf der Asphodeloswiese', ['Im Elysion', 'Im Tartaros', 'Am Olymp'], 'Ohne Freude und ohne Schmerz.'],
+      ['Was mussten nach griechischem Glauben Unbestattete tun?', 'Hundert Jahre am Ufer umherirren', ['Im Tartaros büßen', 'Ins Elysion gehen', 'Wiedergeboren werden'], 'Sie konnten Charon nicht bezahlen.'],
+      ['Wo wanderten in der griechischen Unterwelt die meisten Seelen umher?', 'Auf der Asphodeloswiese', ['Im Elysion', 'Im Tartaros', 'Am Olymp'], 'Ohne Freude und ohne Schmerz.'],
       ['Wer war einer der Richter der Toten?', 'König Minos', ['Zeus', 'Prometheus', 'Agamemnon'], 'Der frühere König von Kreta.'],
       ['Wie tief liegt der Tartaros?', 'So tief unter der Unterwelt, wie der Himmel über der Erde', ['Gleich unter der Erde', 'Am Grund des Meeres', 'Im Inneren des Ätna'], 'Der Ort der schlimmsten Frevler.'],
       ['Was müssen die Danaiden ewig tun?', 'Wasser in ein durchlöchertes Fass schöpfen', ['Einen Felsen rollen', 'Wolle spinnen', 'Ein Feuer hüten'], 'Sie hatten ihre Ehemänner ermordet.'],

@@ -23,7 +23,7 @@ export const FICHTE: Subtopic = {
       ['Wie heißt Fichtes Hauptwerk von 1794?', '„Grundlage der gesamten Wissenschaftslehre“', ['„Phänomenologie des Geistes“', '„Kritik der reinen Vernunft“', '„System des transzendentalen Idealismus“'], 'Er schrieb viele Fassungen.'],
       ['Welche Reden hielt Fichte 1807/08 in Berlin?', '„Reden an die deutsche Nation“', ['„Reden über die Religion“', '„Reden an die Jugend“', '„Reden gegen Napoleon“ im Parlament'], 'Im französisch besetzten Berlin.'],
       ['Welchen Streit gab es 1798/99 um Fichte?', 'Den Atheismusstreit', ['Den Pantheismusstreit', 'Den Universalienstreit', 'Den Investiturstreit'], 'Er verlor seine Professur in Jena.'],
-      ['Was wurde Fichte 1811 an der Berliner Universität?', 'Erster gewählter Rektor', ['Hausmeister', 'Bibliothekar', 'Ehrendoktor'], 'Die Universität war 1810 gegründet worden.'],
+      ['Was wurde Fichte 1811 an der Berliner Universität?', 'Erster gewählter Rektor', ['Dekan der Theologie', 'Bibliothekar', 'Ehrendoktor'], 'Die Universität war 1810 gegründet worden.'],
       ['Was setzt das Ich nach Fichte sich entgegen?', 'Ein Nicht-Ich', ['Ein Über-Ich', 'Ein Es', 'Ein Du'], 'Die Welt, an der es sich abarbeitet.'],
       ['Woran starb Fichte?', 'An Typhus', ['An der Pest', 'Im Krieg', 'An Altersschwäche'], 'Er steckte sich bei seiner Frau an.'],
       ['Wo wurde Fichte 1794 Professor?', 'In Jena', ['In Berlin', 'In Königsberg', 'In Leipzig'], 'Seine Vorlesungen waren überfüllt.'],
@@ -52,7 +52,7 @@ export const FICHTE: Subtopic = {
       ['Wie verlor Fichte seine Jenaer Professur?', 'Er drohte mit Rücktritt, und der Herzog nahm ihn an', ['Er wurde verhaftet', 'Er starb', 'Er ging freiwillig nach Paris'], '1799.'],
       ['Welches populäre Werk schrieb Fichte 1800 in Berlin?', '„Die Bestimmung des Menschen“', ['„Reden an die deutsche Nation“', '„Die Welt als Wille und Vorstellung“', '„Ideen zu einer Philosophie der Natur“'], 'Für ein breites Publikum.'],
       ['Wo wurde Fichte geboren?', 'In Rammenau in der Oberlausitz', ['In Leipzig', 'In Dresden', 'In Berlin'], 'Am 19. Mai 1762.'],
-      ['Was bestimmen im dritten Grundsatz einander wechselseitig?', 'Ich und Nicht-Ich', ['Gott und Welt', 'Leib und Seele', 'Staat und Kirche'], 'Die Synthese der beiden ersten.'],
+      ['Was bestimmen in Fichtes drittem Grundsatz einander wechselseitig?', 'Ich und Nicht-Ich', ['Gott und Welt', 'Leib und Seele', 'Staat und Kirche'], 'Die Synthese der beiden ersten.'],
     ],
   },
 };

@@ -15,14 +15,14 @@ export const RAGNAROEK: Subtopic = {
   ],
   quiz: {
     leicht: [
-      ['Wer war der schönste und beliebteste der Götter?', 'Baldr', ['Loki', 'Thor', 'Tyr'], 'Sohn Odins und Friggs.'],
+      ['Wer war in der nordischen Mythologie der schönste und beliebteste der Götter?', 'Baldr', ['Loki', 'Thor', 'Tyr'], 'Sohn Odins und Friggs.'],
       ['Woran starb Baldr?', 'An einem Mistelzweig', ['An einem Pfeil aus Eisen', 'Am Gift der Midgardschlange', 'Im Kampf mit Riesen'], 'Nur die Mistel hatte keinen Eid geschworen.'],
       ['Wer warf den tödlichen Mistelzweig?', 'Der blinde Höd', ['Loki', 'Thor', 'Odin'], 'Loki lenkte seine Hand.'],
       ['Wer steckte hinter Baldrs Tod?', 'Loki', ['Hel', 'Fenrir', 'Surt'], 'Er entlockte Frigg das Geheimnis.'],
       ['Wie heißt der nordische Weltuntergang?', 'Ragnarök', ['Apokalypse', 'Fimbulwinter', 'Walhall'], '„Schicksal der Götter“.'],
       ['Wie wurde Ragnarök oft übersetzt?', 'Götterdämmerung', ['Weltenende', 'Feuersturm', 'Jüngstes Gericht'], 'So heißt auch Wagners letzte Oper des „Ring“.'],
       ['Welcher gefesselte Gott ist auf dem Bild zu sehen?', 'Loki', ['Prometheus', 'Odin', 'Tyr'], 'Seine Frau Sigyn fängt das Gift der Schlange auf.', 'loki-gefesselt'],
-      ['Wie erklärte man Erdbeben?', 'Durch den zuckenden, gefesselten Loki', ['Durch Thors Hammer', 'Durch die Midgardschlange', 'Durch Odins Pferd'], 'Wenn das Gift ihn trifft.'],
+      ['Wie erklärte man in der nordischen Mythologie Erdbeben?', 'Durch den zuckenden, gefesselten Loki', ['Durch Thors Hammer', 'Durch die Midgardschlange', 'Durch Odins Pferd'], 'Wenn das Gift ihn trifft.'],
       ['Wer verschlingt Odin bei Ragnarök?', 'Der Wolf Fenrir', ['Die Midgardschlange', 'Der Riese Surt', 'Der Hund Garm'], 'Sein Sohn Vidar rächt ihn.'],
       ['Gegen wen kämpft Thor bei Ragnarök?', 'Gegen die Midgardschlange', ['Gegen Fenrir', 'Gegen Loki', 'Gegen Surt'], 'Er erschlägt sie, stirbt aber an ihrem Gift.'],
       ['Welche Szene zeigt das Bild?', 'Den Untergang Asgards bei Ragnarök', ['Die Schöpfung der Welt', 'Die Fesselung Fenrirs', 'Ein Festmahl in Walhall'], 'Emil Doepler malte die Burg der Götter im Weltenbrand.', 'ragnaroek'],

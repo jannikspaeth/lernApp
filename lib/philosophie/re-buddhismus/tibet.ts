@@ -25,7 +25,7 @@ export const TIBET: Subtopic = {
       ['Wie lautet das bekannteste tibetische Mantra?', '„Om mani padme hum“', ['„Hare Krishna“', '„Allahu akbar“', '„Amen“'], 'Das Mantra des Bodhisattvas des Mitgefühls.'],
       ['Was zeigt das Bild?', 'Gebetsfahnen', ['Wäscheleinen', 'Festgirlanden', 'Landesflaggen'], 'Der Wind soll die Gebete in die Welt tragen.', 'gebetsfahnen'],
       ['Woraus streuen Mönche Mandalas?', 'Aus farbigem Sand', ['Aus Reis', 'Aus Blumen', 'Aus Goldstaub'], 'Am Ende werden sie zerstört.'],
-      ['In welche Richtung dreht man Gebetsmühlen?', 'Im Uhrzeigersinn', ['Gegen den Uhrzeigersinn', 'Beliebig', 'Gar nicht, man berührt sie nur'], 'Jede Drehung gilt wie ein Aufsagen des Mantras.'],
+      ['In welche Richtung dreht man tibetische Gebetsmühlen?', 'Im Uhrzeigersinn', ['Gegen den Uhrzeigersinn', 'Beliebig', 'Gar nicht, man berührt sie nur'], 'Jede Drehung gilt wie ein Aufsagen des Mantras.'],
       ['In welchem Land ist der tibetische Buddhismus Staatsreligion?', 'In Bhutan', ['In Nepal', 'In der Mongolei', 'In Indien'], 'Ein kleines Königreich im Himalaya.'],
     ],
     mittel: [

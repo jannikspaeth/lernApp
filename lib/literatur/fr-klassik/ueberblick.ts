@@ -24,7 +24,7 @@ export const UEBERBLICK: Subtopic = {
       ['Wer schrieb Tragödien wie „Phèdre“?', 'Jean Racine', ['Molière', 'Corneille', 'Voltaire'], null],
       ['Wer schrieb berühmte Fabeln?', 'Jean de La Fontaine', ['Racine', 'Molière', 'Diderot'], null],
       ['Wer ist auf diesem Porträt zu sehen?', 'Voltaire', ['Rousseau', 'Diderot', 'Montesquieu'], null, 'voltaire'],
-      ['Wie nannte man die Denker der Aufklärung in Frankreich?', 'Philosophes', ['Encyclopédistes', 'Académiciens', 'Salonniers'], null],
+      ['Wie nannte man die Denker der Aufklärung in Frankreich?', 'Philosophes', ['Précieuses', 'Académiciens', 'Salonniers'], null],
       ['Welche Revolution bereiteten die Ideen der Philosophes mit vor?', 'Die Französische Revolution', ['Die Julirevolution', 'Die Pariser Kommune', 'Die Märzrevolution'], null],
     ],
     mittel: [

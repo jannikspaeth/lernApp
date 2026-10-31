@@ -22,7 +22,7 @@ export const KIERKEGAARD: Subtopic = {
       ['Mit wem war Kierkegaard verlobt?', 'Mit Regine Olsen', ['Mit Caroline Schlegel', 'Mit Lou Salomé', 'Mit Cosima Wagner'], 'Er löste die Verlobung 1841.'],
       ['Was ist der Glaube für Kierkegaard?', 'Ein Sprung, ein Wagnis', ['Sicheres Wissen', 'Eine Gewohnheit', 'Aberglaube'], 'Gegen den Verstand.'],
       ['Wessen System kritisierte Kierkegaard?', 'Hegels', ['Kants', 'Platons', 'Descartes’'], 'Es vergesse den Einzelnen.'],
-      ['Unter welchen Namen erschienen viele seiner Werke?', 'Unter Pseudonymen', ['Unter dem Namen seines Vaters', 'Ohne Titel', 'Nur auf Deutsch'], 'Etwa Johannes de Silentio.'],
+      ['Unter welchen Namen erschienen viele Werke Kierkegaards?', 'Unter Pseudonymen', ['Unter dem Namen seines Vaters', 'Ohne Titel', 'Nur auf Deutsch'], 'Etwa Johannes de Silentio.'],
       ['Wessen Opfergeschichte deutet „Furcht und Zittern“?', 'Abrahams', ['Moses’', 'Noahs', 'Jonas’'], 'Abraham soll Isaak opfern.'],
       ['Was ist nach Kierkegaard die Wahrheit?', '„Die Subjektivität“', ['„Das Ganze“', '„Die Zahl“', '„Das Gesetz“'], 'Wie man existiert, zählt.'],
       ['Wie alt wurde Kierkegaard?', '42 Jahre', ['80 Jahre', '25 Jahre', '65 Jahre'], 'Er starb 1855.'],
@@ -39,7 +39,7 @@ export const KIERKEGAARD: Subtopic = {
       ['Wie lautet Kierkegaards Satz über das Leben?', '„Das Leben kann nur rückwärts verstanden, muss aber vorwärts gelebt werden.“', ['„Das Leben ist Leiden.“', '„Lebe im Verborgenen.“', '„Carpe diem.“'], 'Aus seinen Tagebüchern.'],
       ['Welche Zeitschrift verspottete Kierkegaard 1846?', '„Der Korsar“', ['„Der Augenblick“', '„Die Fackel“', '„Der Spiegel“'], 'Wegen seiner Hosenbeine.'],
       ['Wessen Vorlesungen hörte Kierkegaard in Berlin?', 'Schellings', ['Hegels', 'Fichtes', 'Marx’'], '1841, bald enttäuscht.'],
-      ['Wie hieß seine Flugschriftenreihe gegen die Kirche?', '„Der Augenblick“', ['„Der Korsar“', '„Entweder – Oder“', '„Die Wiederholung“'], 'In seinem letzten Lebensjahr.'],
+      ['Wie hieß Kierkegaards Flugschriftenreihe gegen die Kirche?', '„Der Augenblick“', ['„Der Korsar“', '„Entweder – Oder“', '„Die Wiederholung“'], 'In seinem letzten Lebensjahr.'],
       ['Was glaubte Kierkegaards Vater?', 'Ein Fluch liege über der Familie', ['Er werde König', 'Gott existiere nicht', 'Sein Sohn werde Bischof'], 'Weil er als Junge Gott verflucht hatte.'],
     ],
     schwer: [

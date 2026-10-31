@@ -21,7 +21,7 @@ export const TANACH_TALMUD: Subtopic = {
       ['Wie nennen Christen den Teil der Bibel, der dem Tanach entspricht?', 'Altes Testament', ['Neues Testament', 'Apokryphen', 'Evangelium'], 'Nur Zählung und Reihenfolge der Bücher sind anders.'],
       ['Was zeigt das Bild?', 'Eine Tora-Rolle', ['Einen Koran', 'Eine Gutenberg-Bibel', 'Eine Papyrusrolle aus Ägypten'], 'Die Sefer Tora wird von Hand auf Pergament geschrieben.', 'tora-rolle'],
       ['Wo wird die Tora-Rolle in der Synagoge aufbewahrt?', 'Im Toraschrein', ['Im Keller', 'Auf dem Altar', 'Im Haus des Rabbiners'], 'Er ist nach Jerusalem ausgerichtet.'],
-      ['Wie viele Psalmen gibt es?', '150', ['10', '40', '613'], 'Viele werden König David zugeschrieben.'],
+      ['Wie viele Psalmen gibt es in der Bibel?', '150', ['10', '40', '613'], 'Viele werden König David zugeschrieben.'],
       ['Womit erzählt die Tora den Anfang der Welt?', 'Mit der Schöpfung in sieben Tagen', ['Mit dem Urknall', 'Mit einem kosmischen Ei', 'Mit dem Kampf der Titanen'], 'Das Buch Bereschit, „Im Anfang“.'],
       ['Wer baute nach der Tora die Arche?', 'Noah', ['Mose', 'Abraham', 'Adam'], 'Zur Rettung vor der Sintflut.'],
       ['Wie heißt das große Werk mit den Diskussionen der Rabbiner?', 'Talmud', ['Koran', 'Sohar', 'Zend-Avesta'], 'Er besteht aus Mischna und Gemara.'],

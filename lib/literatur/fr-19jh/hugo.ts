@@ -24,7 +24,7 @@ export const HUGO: Subtopic = {
       ['Wie heißt die junge Frau in „Der Glöckner von Notre-Dame“?', 'Esmeralda', ['Cosette', 'Fantine', 'Éponine'], null],
       ['Welche Epoche setzte Hugo mit „Hernani“ durch?', 'Die Romantik', ['Die Klassik', 'Den Realismus', 'Den Naturalismus'], null],
       ['Wohin musste Hugo 1851 fliehen?', 'Ins Exil', ['Nach Algerien', 'Aufs Land', 'Ins Kloster'], null],
-      ['Auf welcher Insel lebte Hugo lange im Exil?', 'Auf Guernsey', ['Auf Korsika', 'Auf Elba', 'Auf Jersey'], null],
+      ['Auf welcher Insel lebte Hugo lange im Exil?', 'Auf Guernsey', ['Auf Korsika', 'Auf Elba', 'Auf Sardinien'], null],
       ['Was bekam Hugo nach seinem Tod?', 'Ein Staatsbegräbnis', ['Ein Grab im Garten', 'Eine stille Beisetzung', 'Ein Grab in Guernsey'], null],
     ],
     mittel: [

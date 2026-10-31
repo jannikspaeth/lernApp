@@ -38,7 +38,7 @@ export const STORM_KELLER: Subtopic = {
       ['Wann lebte Gottfried Keller?', '1819–1890', ['1817–1888', '1797–1856', '1830–1900'], null],
       ['Welches Amt hatte Gottfried Keller von 1861 bis 1876?', 'Staatsschreiber des Kantons Zürich', ['Bürgermeister von Zürich', 'Professor in Bern', 'Richter in Basel'], null],
       ['Wie heißt Kellers Bildungsroman?', 'Der grüne Heinrich', ['Die Leute von Seldwyla', 'Martin Salander', 'Züricher Novellen'], null],
-      ['Woran scheitert der grüne Heinrich?', 'An seinem Plan, Maler zu werden', ['An einer Krankheit', 'An einem Krieg', 'An seinen Schulden'], null],
+      ['Woran scheitert der grüne Heinrich?', 'An seinem Plan, Maler zu werden', ['An einer Krankheit', 'An einem Krieg', 'An einem Duell'], null],
       ['Wie enden die Liebenden in „Romeo und Julia auf dem Dorfe“?', 'Sie gehen gemeinsam in den Tod', ['Sie heiraten', 'Sie trennen sich', 'Sie wandern aus'], null],
     ],
     schwer: [

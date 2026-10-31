@@ -25,7 +25,7 @@ export const MELVILLE_TWAIN: Subtopic = {
       ['An welchem Fluss wuchs Mark Twain auf?', 'Am Mississippi', ['Am Hudson', 'Am Missouri', 'Am Ohio'], null],
       ['Welchen Beruf hatte Mark Twain auf dem Mississippi?', 'Lotse', ['Kapitän', 'Koch', 'Heizer'], null],
       ['Was verkauft Tom Sawyer seinen Freunden?', 'Das Streichen des Zauns als Vorrecht', ['Eine Schatzkarte', 'Ein Floß', 'Sein Taschenmesser'], null],
-      ['Mit wem fährt Huckleberry Finn den Mississippi hinunter?', 'Mit dem entlaufenen Sklaven Jim', ['Mit Tom Sawyer', 'Mit seinem Vater', 'Mit einem Lotsen'], null],
+      ['Mit wem fährt Huckleberry Finn den Mississippi hinunter?', 'Mit dem entlaufenen Sklaven Jim', ['Mit Becky Thatcher', 'Mit seinem Vater', 'Mit einem Lotsen'], null],
     ],
     mittel: [
       ['Wann lebte Melville?', '1819–1891', ['1835–1910', '1809–1849', '1820–1900'], null],

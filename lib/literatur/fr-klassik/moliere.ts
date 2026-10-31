@@ -44,7 +44,7 @@ export const MOLIERE: Subtopic = {
     schwer: [
       ['Was verspottet Molière in fast jedem Stück?', 'Einen Menschen, der von einer fixen Idee beherrscht wird', ['Den König', 'Die Bauern', 'Das Ausland'], null],
       ['Was greift „Tartuffe“ an?', 'Die Heuchelei im Namen der Religion', ['Die Religion selbst', 'Den Adel', 'Die Justiz'], null],
-      ['Woran verzweifelt Molières „Menschenfeind“?', 'An der Verlogenheit der Gesellschaft', ['An seiner Armut', 'An seiner Krankheit', 'An der Liebe'], null],
+      ['Woran verzweifelt Molières „Menschenfeind“?', 'An der Verlogenheit der Gesellschaft', ['An seiner Armut', 'An seiner Krankheit', 'An seinem Beruf'], null],
       ['Wie verbindet Molière Typen und Wirklichkeit?', 'Er füllt Komödientypen mit genauer Gesellschaftsbeobachtung', ['Er kopiert die Italiener', 'Er erfindet alles neu', 'Er schreibt nach Chroniken'], null],
       ['In welcher Rolle brach Molière zusammen?', 'In der Titelrolle des eingebildeten Kranken', ['Als Tartuffe', 'Als Harpagon', 'Als Alceste'], 'Er war selbst schwer krank.'],
       ['Wie wurde Molière schließlich bestattet?', 'Nachts und nur nach Eingreifen des Königs', ['Mit großem Staatsbegräbnis', 'Außerhalb der Stadt ohne Zeremonie', 'In der Kathedrale'], null],
