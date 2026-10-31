@@ -54,7 +54,7 @@ function Badge({ b }: { b?: GeoBest }) {
 }
 
 // Quizzes of a category: a tile each (picture mosaic, title, best run); long runs of similar quizzes become compact chips.
-export default function QuizList({ rows, compactAll = false }: { rows: QuizRow[]; tint?: string; compactAll?: boolean }) {
+export default function QuizList({ rows, compactAll = false, base = '/geografie/quiz' }: { rows: QuizRow[]; tint?: string; compactAll?: boolean; base?: string }) {
   const t = useT();
   const best = useBests();
   const sections = [...new Set(rows.map(r => r.section))];
@@ -76,7 +76,7 @@ export default function QuizList({ rows, compactAll = false }: { rows: QuizRow[]
                   const b = best[r.id];
                   const perfect = b && b.solved === b.total;
                   return (
-                    <Link key={r.id} href={`/geografie/quiz/${r.id}`} className="flex items-center gap-2 bg-surface rounded-xl border border-line px-3 py-2.5 hover:border-accent/40 transition-colors">
+                    <Link key={r.id} href={`${base}/${r.id}`} className="flex items-center gap-2 bg-surface rounded-xl border border-line px-3 py-2.5 hover:border-accent/40 transition-colors">
                       {r.art[0] && (
                         // eslint-disable-next-line @next/next/no-img-element -- local SVG flag
                         <img src={r.art[0]} alt="" loading="lazy" className="h-4 w-6 object-cover rounded-sm border border-line shrink-0" />
@@ -95,7 +95,7 @@ export default function QuizList({ rows, compactAll = false }: { rows: QuizRow[]
                   return (
                     <Link
                       key={r.id}
-                      href={`/geografie/quiz/${r.id}`}
+                      href={`${base}/${r.id}`}
                       className="group flex flex-col bg-surface rounded-2xl border border-line overflow-hidden hover:border-accent/40 transition-colors focus-visible:outline-2 focus-visible:outline-accent"
                     >
                       <div className={`relative aspect-[16/10] bg-linear-to-br ${TINTS[(si + i) % TINTS.length]}`}>

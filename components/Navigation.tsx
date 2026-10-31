@@ -35,7 +35,7 @@ const SUBJECT_TOOLS: readonly Item[] = [
 
 const SECTIONS: readonly Section[] = [
   { id: 'start', href: '/', label: ['Home', 'Start'], icon: 'home', paths: [] },
-  { id: 'faecher', href: '/faecher', label: ['Subjects', 'Fächer'], icon: 'grid', paths: ['/faecher', '/wissen', '/weltgeschichte', '/karte', '/zeitstrahl'], sub: SUBJECT_TOOLS },
+  { id: 'faecher', href: '/faecher', label: ['Subjects', 'Fächer'], icon: 'grid', paths: ['/faecher', '/wissen', '/weltgeschichte', '/karte', '/zeitstrahl', '/nachrichten'], sub: SUBJECT_TOOLS },
   {
     id: 'sprachen', href: '/heute', label: ['Languages', 'Sprachen'], icon: 'languages',
     paths: ['/heute', '/ueben', '/vokabeln', '/konjugation', '/grammar', '/lesen', '/saetze', '/race', '/erfolge', '/sprache', '/redemittel', '/schreiben', '/artikel', '/zahlen'],

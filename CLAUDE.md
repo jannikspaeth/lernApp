@@ -137,6 +137,14 @@ Flow: `/login` → `/` (subjects) → Sprachen: `/heute` (→ `/sprache` for lan
   `land.pol.<topic>.<chapter>.<level>.<n>`. Pictures `lib/politik/bilder.json` (`node scripts/fetch-bilder.mjs politik`, `public/politik`),
   reusing keys from other sets. Current-affairs facts are dated ("Stand 2026") and must be re-checked when touched. Check with
   `npx tsx scripts/check-politik.ts`; picture questions in all subjects with `npx tsx scripts/check-bildfragen.ts`.
+- **Politik lists** `/politik/listen` (`lib/politik/listen.ts`, ids `pol-…`): typed "name them all" quizzes (chancellors,
+  Bundespräsidenten, US presidents, UK PMs, popes, UN secretaries-general …) run by the geography `QuizRunner`; bests live in
+  the `geo` progress map, `pol-` ids count for Politik on /faecher, not Geografie. Current office holders are "seit …" — re-check.
+- **News quiz** `/nachrichten` (`lib/nachrichten/fragen.json`, `components/nachrichten/NewsQuiz.tsx`): Deutschland/Welt ×
+  7 / 31 / 183 days, rounds of 10 (unseen first per device, big stories weighted for long periods), every answer links its
+  source. Filled daily by a scheduled Claude routine following `scripts/nachrichten-routine.md` (sources via
+  `python3 scripts/nachrichten-quellen.py [dates]`: Wikipedia "Current events" + tagesschau API); only append entries,
+  check with `npx tsx scripts/check-nachrichten.ts`.
 - Modes: **Quiz** (4 options) or **Flashcards** (reveal + self-grade), per-device choice. Rounds of 10:
   due first, then new (`pickRound`). SRS in `lib/wissen/progress.ts` (levels 0–6, 0/1/3/7/14/30/60 days,
   learned from level 4, wrong → level 1).

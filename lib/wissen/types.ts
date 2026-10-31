@@ -7,6 +7,7 @@ export interface Card {
   q: string;
   img?: string; // picture shown with the question (e.g. a flag, or an artwork: /kunst/<key>.jpg)
   credit?: string; // picture credit shown after answering (artworks)
+  source?: { href: string; label: string }; // link shown after answering (news questions)
   audio?: { sources: { src: string; type: string }[]; start: number }; // Musik: a listening example played with the question
   a: string;
   // Three wrong answers for the quiz. Missing → taken from the other answers of

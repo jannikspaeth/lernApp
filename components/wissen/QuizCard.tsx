@@ -114,6 +114,11 @@ export default function QuizCard({
             </p>
             {card.info && <p className="text-muted mt-1 leading-relaxed">{card.info}</p>}
             {card.credit && <p className="text-xs text-faint mt-2">{card.credit}</p>}
+            {card.source && (
+              <a href={card.source.href} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1 text-xs font-medium text-accent hover:underline mt-2">
+                {card.source.label} <Icon name="chevronRight" size={14} />
+              </a>
+            )}
           </div>
           <button
             onClick={() => onResult(correct)}

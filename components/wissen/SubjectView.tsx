@@ -329,6 +329,8 @@ const LINK_ICONS: Record<string, IconName> = {
   '/karte': 'map',
   '/zeitstrahl': 'hourglass',
   '/weltgeschichte': 'globe',
+  '/nachrichten': 'newspaper',
+  '/politik/listen': 'list',
 };
 
 // While a round runs, the tab bars step aside (see globals.css).

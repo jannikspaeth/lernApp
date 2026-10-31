@@ -38,7 +38,8 @@ export default function FaecherWall({ tiles }: { tiles: Record<string, Omit<Fach
               }
             }
             if (f.geoTotal) {
-              for (const b of Object.values(prog.geo ?? {})) done += b.solved;
+              // Politik's typed lists are stored with the geography bests, under `pol-` ids.
+              for (const [id, b] of Object.entries(prog.geo ?? {})) if (id.startsWith('pol-') === (s.id === 'politik')) done += b.solved;
             }
             total = Math.max(total, done);
             pct = total ? Math.round((done / total) * 100) : 0;

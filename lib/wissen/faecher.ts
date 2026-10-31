@@ -8,6 +8,7 @@ import { PHILOSOPHIE, PHILO_CODE } from '@/lib/philosophie';
 import { WISSENSCHAFT, WIS_CODE } from '@/lib/wissenschaft';
 import { POLITIK, POL_CODE } from '@/lib/politik';
 import { QUIZZES } from '@/lib/geografie/quizzes';
+import { POL_LISTEN } from '@/lib/politik/listen';
 import { CATS } from '@/lib/geografie/cats';
 import { COUNTRY_COVERS } from '@/lib/geschichte/portraits';
 import { bildView } from '@/lib/bild';
@@ -20,7 +21,7 @@ export interface FachTile {
   sub: [string, string];
   prefixes: string[]; // progress-key prefixes of the in-depth chapters (land.<code>.)
   deepTotal: number; // questions in those chapters
-  geoTotal: number; // places in the typed geography quizzes
+  geoTotal: number; // answers in the typed quizzes (Geografie; Politik's `pol-` lists)
 }
 
 const events = (h: CountryHistory): HistEvent[] => h.epochs.flatMap(ep => ep.events);
@@ -70,7 +71,7 @@ export function fachTiles(): Record<string, Omit<FachTile, 'id'>> {
     literatur: deep(LITERATUR, LITERATUR_CODE, ['countries', 'Länder'], 'goethe'),
     wissenschaft: deep(WISSENSCHAFT, WIS_CODE, ['areas', 'Bereiche'], 'einstein'),
     musik: deep(MUSIK, MUSIK_CODE, ['genres', 'Genres'], 'beethoven'),
-    politik: deep(POLITIK, POL_CODE, ['areas', 'Bereiche'], 'reichstag', 'center'),
+    politik: { ...deep(POLITIK, POL_CODE, ['areas', 'Bereiche'], 'reichstag', 'center'), geoTotal: POL_LISTEN.reduce((n, q) => n + q.items.length, 0) },
     philosophie: deep(PHILOSOPHIE, PHILO_CODE, ['areas', 'Bereiche'], 'sokrates'),
   };
 }
