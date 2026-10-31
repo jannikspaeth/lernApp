@@ -883,5 +883,18 @@
     "author": "Lithographie von Friedrich Oldermann nach einem Gemälde von Franz Krüger (https://www.sammlungen.hu-berlin.de/dokumente/6012/)",
     "licence": "Public domain",
     "page": "https://commons.wikimedia.org/wiki/File:W.v.Humboldt.jpg"
+  },
+  "stresemann": {
+    "file": "Bundesarchiv_Bild_146-1989-040-27,_Gustav_Stresemann.jpg",
+    "author": "UnknownUnknown",
+    "licence": "CC BY-SA 3.0 de",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_146-1989-040-27,_Gustav_Stresemann.jpg"
+  },
+  "wilhelm-ii": {
+    "file": "Kaiser_Wilhelm_II_of_Germany_-_1902.jpg",
+    "author": "Studio of Thomas Heinrich Voigt",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Kaiser_Wilhelm_II_of_Germany_-_1902.jpg"
   }
 }

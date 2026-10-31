@@ -81,6 +81,13 @@ export default function NewsQuiz({ questions, updated }: { questions: NewsQuesti
     return questions.filter(x => x.r === region && x.d >= from && x.d <= today);
   }, [questions, region, days, today]);
 
+  // Categories in the chosen pool, most frequent first ("Politik 12 · Sport 5 …").
+  const topics = useMemo(() => {
+    const n = new Map<string, number>();
+    for (const x of pool) n.set(x.k, (n.get(x.k) ?? 0) + 1);
+    return [...n.entries()].sort((a, b) => b[1] - a[1]);
+  }, [pool]);
+
   const counts = useMemo(() => {
     const out: Record<string, number> = {};
     if (!today) return out;
@@ -111,13 +118,13 @@ export default function NewsQuiz({ questions, updated }: { questions: NewsQuesti
         {!round && (
           <>
             <div className="space-y-3">
-              <Link href="/wissen/politik" className="inline-flex items-center gap-1 -ml-1 h-9 pr-2 text-sm font-medium text-muted hover:text-ink">
-                <Icon name="chevronLeft" size={18} /> {t('Politics', 'Politik')}
+              <Link href="/faecher" className="inline-flex items-center gap-1 -ml-1 h-9 pr-2 text-sm font-medium text-muted hover:text-ink">
+                <Icon name="chevronLeft" size={18} /> {t('Subjects', 'Fächer')}
               </Link>
               <div>
                 <h1 className="text-[28px] md:text-3xl font-bold text-ink tracking-tight">{t('News quiz', 'Nachrichten-Quiz')}</h1>
                 <p className="text-sm text-muted mt-1">
-                  {t('What happened in Germany and the world? New questions every day.', 'Was ist in Deutschland und der Welt passiert? Jeden Tag neue Fragen.')}
+                  {t('What happened in Germany and the world – politics, economy, sport, science, culture and more. New questions every day.', 'Was ist in Deutschland und der Welt passiert – Politik, Wirtschaft, Sport, Wissenschaft, Kultur und mehr. Jeden Tag neue Fragen.')}
                 </p>
               </div>
             </div>
@@ -165,6 +172,15 @@ export default function NewsQuiz({ questions, updated }: { questions: NewsQuesti
               >
                 {t(`Start · ${Math.min(ROUND, pool.length)} questions`, `Los geht’s · ${Math.min(ROUND, pool.length)} Fragen`)} <Icon name="arrowRight" size={18} />
               </button>
+              {topics.length > 0 && (
+                <div className="flex flex-wrap gap-1.5">
+                  {topics.map(([k, n]) => (
+                    <span key={k} className="inline-flex items-center gap-1 h-6 px-2 rounded-md bg-canvas border border-line text-[12px] text-muted">
+                      {k} <span className="tabular-nums text-faint">{n}</span>
+                    </span>
+                  ))}
+                </div>
+              )}
               {today && pool.length === 0 && (
                 <p className="text-[13px] text-muted text-center">{t('No questions for this period yet.', 'Für diesen Zeitraum gibt es noch keine Fragen.')}</p>
               )}

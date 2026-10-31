@@ -103,6 +103,17 @@ export default function FaecherWall({ tiles }: { tiles: Record<string, Omit<Fach
         </span>
         <Icon name="arrowRight" size={20} />
       </Link>
+
+      <Link href="/nachrichten" className="flex items-center gap-4 p-4 rounded-2xl bg-surface border border-line hover:border-accent/40 transition-colors">
+        <span className="w-10 h-10 rounded-xl bg-accent-soft text-accent flex items-center justify-center shrink-0">
+          <Icon name="newspaper" size={20} />
+        </span>
+        <span className="flex-1 min-w-0">
+          <span className="block font-semibold text-ink">{t('News quiz', 'Nachrichten-Quiz')}</span>
+          <span className="block text-[13px] text-muted">{t('Germany and the world: last week, month or half-year', 'Deutschland und die Welt: letzte Woche, letzter Monat, letztes halbes Jahr')}</span>
+        </span>
+        <Icon name="chevronRight" size={20} className="text-faint" />
+      </Link>
     </div>
   );
 }

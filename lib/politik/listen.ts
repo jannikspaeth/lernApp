@@ -279,5 +279,15 @@ list('bundestag-parteien', 'Deutschland', 'Parteien im Bundestag', 'Alle Parteie
   ['SSW', 'Südschleswigscher Wählerverband'],
 ]);
 
+// Tile picture per quiz (a key of lib/bild.ts), shown in the list on /politik/listen.
+export const POL_LISTEN_COVERS: Record<string, string> = {
+  'pol-bundeskanzler': 'adenauer', 'pol-bundespraesidenten': 'schloss-bellevue', 'pol-bundestagspraesidenten': 'bundestag-plenarsaal',
+  'pol-ddr-staatsoberhaeupter': 'honecker', 'pol-reichskanzler-kaiserreich': 'bismarck', 'pol-reichskanzler-weimar': 'stresemann',
+  'pol-staatsoberhaeupter-reich': 'wilhelm-ii', 'pol-us-praesidenten': 'weisses-haus', 'pol-britische-premiers': 'downing-street',
+  'pol-franzoesische-praesidenten': 'elysee-palast', 'pol-kremlchefs': 'kreml', 'pol-china-fuehrer': 'tiananmen-platz',
+  'pol-un-generalsekretaere': 'uno-hauptquartier', 'pol-eu-kommissionspraesidenten': 'berlaymont', 'pol-paepste': 'petersdom',
+  'pol-g7': 'g7-gipfel', 'pol-sicherheitsrat': 'sicherheitsrat', 'pol-bundestag-parteien': 'reichstag-kuppel',
+};
+
 export const POL_LISTEN = L;
 export const polListeById = (id: string) => L.find(q => q.id === id);

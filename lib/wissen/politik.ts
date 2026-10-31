@@ -9,7 +9,7 @@ export const politik: Subject = {
   blurb: ['Basic Law, state, EU and the UN', 'Grundgesetz, Staat, EU und Vereinte Nationen'],
   color: { bg: 'bg-indigo-50 dark:bg-indigo-950/50', text: 'text-indigo-800 dark:text-indigo-300', bar: 'bg-indigo-500', border: 'border-indigo-200 dark:border-indigo-900' },
   links: [
-    { href: '/nachrichten', icon: '📰', name: ['News quiz', 'Nachrichten-Quiz'], blurb: ['What happened last week, month or half-year?', 'Was ist letzte Woche, letzten Monat oder im letzten halben Jahr passiert?'] },
+    { href: '/nachrichten', icon: '📰', name: ['News quiz', 'Nachrichten-Quiz'], blurb: ['Politics, sport, science, culture – the last week, month or half-year', 'Politik, Sport, Wissenschaft, Kultur – letzte Woche, letzter Monat, letztes halbes Jahr'] },
     { href: '/politik/listen', icon: '📋', name: ['Name them all', 'Alle nennen'], blurb: ['Chancellors, US presidents, popes – type every name', 'Kanzler, US-Präsidenten, Päpste – alle Namen eintippen'] },
   ],
   topics: [

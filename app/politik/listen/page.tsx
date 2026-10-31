@@ -1,12 +1,13 @@
 import Link from 'next/link';
 import QuizList from '@/components/geo/QuizList';
-import { POL_LISTEN } from '@/lib/politik/listen';
+import { POL_LISTEN, POL_LISTEN_COVERS } from '@/lib/politik/listen';
+import { bildView } from '@/lib/bild';
 import Tx from '@/components/Tx';
 import Icon from '@/components/Icon';
 
 // Politik: typed "name them all" quizzes (chancellors, presidents, popes …).
 export default function PolListenPage() {
-  const rows = POL_LISTEN.map(q => ({ id: q.id, title: q.title, blurb: q.blurb, total: q.items.length, seconds: q.seconds, section: q.section, art: [], cover: null }));
+  const rows = POL_LISTEN.map(q => ({ id: q.id, title: q.title, blurb: q.blurb, total: q.items.length, seconds: q.seconds, section: q.section, art: [], cover: bildView(POL_LISTEN_COVERS[q.id] ?? '')?.src ?? null }));
   return (
     <main className="md:ml-56 min-h-screen bg-canvas pb-24 md:pb-10">
       <div className="max-w-2xl mx-auto px-5 pt-4 md:pt-8 space-y-6">

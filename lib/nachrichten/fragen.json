@@ -272,6 +272,22 @@
   "p": 2
  },
  {
+  "id": "2026-06-13.welt.1",
+  "d": "2026-06-13",
+  "r": "welt",
+  "k": "Sport",
+  "q": "Welches Team gewann im Juni 2026 die Meisterschaft der Basketball-Liga NBA – zum ersten Mal seit 1973?",
+  "a": "Die New York Knicks",
+  "w": [
+   "Die San Antonio Spurs",
+   "Die Boston Celtics",
+   "Die Los Angeles Lakers"
+  ],
+  "i": "Die Knicks besiegten im Finale die San Antonio Spurs mit 4:1 Siegen.",
+  "src": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_June_13",
+  "p": 2
+ },
+ {
   "id": "2026-06-14.de.1",
   "d": "2026-06-14",
   "r": "de",
@@ -284,6 +300,22 @@
    "1:0"
   ],
   "i": "Curaçao erzielte dabei sein erstes WM-Tor überhaupt.",
+  "src": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_June_14",
+  "p": 1
+ },
+ {
+  "id": "2026-06-14.welt.1",
+  "d": "2026-06-14",
+  "r": "welt",
+  "k": "Sport",
+  "q": "Welches Team gewann im Juni 2026 den Stanley Cup im Eishockey?",
+  "a": "Die Carolina Hurricanes",
+  "w": [
+   "Die Vegas Golden Knights",
+   "Die Edmonton Oilers",
+   "Die Florida Panthers"
+  ],
+  "i": "Für die Hurricanes war es der erste Titel seit 2006.",
   "src": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_June_14",
   "p": 1
  },
@@ -302,6 +334,22 @@
   "i": "Beide stehen bei 16 WM-Toren. Messi spielte zudem als erster Mann bei sechs Weltmeisterschaften.",
   "src": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_June_16",
   "p": 2
+ },
+ {
+  "id": "2026-06-16.welt.2",
+  "d": "2026-06-16",
+  "r": "welt",
+  "k": "Sport",
+  "q": "Welcher US-Sprinter stellte im Juni 2026 in Ostrava einen Weltrekord über 150 Meter auf?",
+  "a": "Noah Lyles",
+  "w": [
+   "Fred Kerley",
+   "Kenny Bednarek",
+   "Usain Bolt"
+  ],
+  "i": "Er lief 14,67 Sekunden.",
+  "src": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_June_16",
+  "p": 1
  },
  {
   "id": "2026-06-17.de.1",
@@ -752,6 +800,22 @@
   "p": 2
  },
  {
+  "id": "2026-08-15.de.1",
+  "d": "2026-08-15",
+  "r": "de",
+  "k": "Sport",
+  "q": "Welcher deutsche Schwimmer stellte im August 2026 bei der Europameisterschaft einen Weltrekord über 1.500 Meter Freistil auf?",
+  "a": "Johannes Liebmann",
+  "w": [
+   "Florian Wellbrock",
+   "Lukas Märtens",
+   "Paul Biedermann"
+  ],
+  "i": "Er schwamm 14:26,79 Minuten und verbesserte den olympischen Rekord von Bobby Finke aus dem Jahr 2024 um fast vier Sekunden.",
+  "src": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_August_15",
+  "p": 2
+ },
+ {
   "id": "2026-08-22.welt.1",
   "d": "2026-08-22",
   "r": "welt",
@@ -928,6 +992,22 @@
   "p": 3
  },
  {
+  "id": "2026-09-06.welt.1",
+  "d": "2026-09-06",
+  "r": "welt",
+  "k": "Sport",
+  "q": "Welcher Mercedes-Fahrer gewann im September 2026 als erster Italiener seit 60 Jahren den Formel-1-Grand-Prix in Monza?",
+  "a": "Kimi Antonelli",
+  "w": [
+   "Antonio Giovinazzi",
+   "Charles Leclerc",
+   "Lewis Hamilton"
+  ],
+  "i": "Zuletzt hatte 1966 Ludovico Scarfiotti als Italiener in Monza gewonnen. Eine Woche später gewann Antonelli auch das erste Rennen in Madrid.",
+  "src": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_September_6",
+  "p": 2
+ },
+ {
   "id": "2026-09-10.welt.1",
   "d": "2026-09-10",
   "r": "welt",
@@ -960,6 +1040,38 @@
   "p": 2
  },
  {
+  "id": "2026-09-12.de.1",
+  "d": "2026-09-12",
+  "r": "de",
+  "k": "Sport",
+  "q": "Welches deutsche Doppel verlor im September 2026 das Finale der US Open?",
+  "a": "Kevin Krawietz und Tim Pütz",
+  "w": [
+   "Alexander Zverev und Mischa Zverev",
+   "Andreas Mies und Jan-Lennard Struff",
+   "Laura Siegemund und Andrea Petković"
+  ],
+  "i": "Die Sieger Christian Harrison und Neal Skupski gaben im ganzen Turnier keinen Satz ab.",
+  "src": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_September_12",
+  "p": 1
+ },
+ {
+  "id": "2026-09-12.welt.1",
+  "d": "2026-09-12",
+  "r": "welt",
+  "k": "Sport",
+  "q": "Wer gewann im September 2026 die US Open der Frauen?",
+  "a": "Elena Rybakina",
+  "w": [
+   "Aryna Sabalenka",
+   "Iga Świątek",
+   "Coco Gauff"
+  ],
+  "i": "Rybakina besiegte die zweimalige Titelverteidigerin Sabalenka im Finale; es war ihr dritter Grand-Slam-Titel.",
+  "src": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_September_12",
+  "p": 1
+ },
+ {
   "id": "2026-09-13.de.1",
   "d": "2026-09-13",
   "r": "de",
@@ -974,6 +1086,22 @@
   "i": "Im Finale besiegten die US-Amerikanerinnen Frankreich mit 97:79 – ihr zwölfter WM-Titel.",
   "src": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_September_13",
   "p": 1
+ },
+ {
+  "id": "2026-09-13.de.2",
+  "d": "2026-09-13",
+  "r": "de",
+  "k": "Sport",
+  "q": "Welches Grand-Slam-Turnier gewann Alexander Zverev im September 2026 – sein erster Titel dort?",
+  "a": "Die US Open",
+  "w": [
+   "Die Australian Open",
+   "Die French Open",
+   "Wimbledon"
+  ],
+  "i": "Zverev schlug im Finale in New York den US-Amerikaner Ben Shelton in vier Sätzen. Es war sein zweiter Grand-Slam-Titel.",
+  "src": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_September_13",
+  "p": 3
  },
  {
   "id": "2026-09-13.welt.1",
@@ -1232,6 +1360,22 @@
   "p": 3
  },
  {
+  "id": "2026-10-01.welt.1",
+  "d": "2026-10-01",
+  "r": "welt",
+  "k": "Wissenschaft",
+  "q": "Was erprobt Google seit Oktober 2026 im Weltall?",
+  "a": "Rechenchips für künstliche Intelligenz",
+  "w": [
+   "Ein Hotel im Orbit",
+   "Einen Mobilfunkmast auf dem Mond",
+   "Eine Pflanzenfarm auf dem Mars"
+  ],
+  "i": "Rechenzentren im All könnten Ressourcen sparen, die sie auf der Erde verbrauchen.",
+  "src": "https://www.tagesschau.de/wissen/weltraum/ki-chips-im-all-100.html",
+  "p": 1
+ },
+ {
   "id": "2026-10-02.de.1",
   "d": "2026-10-02",
   "r": "de",
@@ -1246,6 +1390,22 @@
   "i": "Galeria ist Deutschlands letzte große Warenhauskette.",
   "src": "https://www.tagesschau.de/wirtschaft/galeria-insolvenz-100.html",
   "p": 1
+ },
+ {
+  "id": "2026-10-02.de.2",
+  "d": "2026-10-02",
+  "r": "de",
+  "k": "Wissenschaft",
+  "q": "Welches von Stechmücken übertragene Virus wurde im Oktober 2026 erstmals in Deutschland nachgewiesen?",
+  "a": "Das Sindbis-Virus",
+  "w": [
+   "Das Zika-Virus",
+   "Das Dengue-Virus",
+   "Das Chikungunya-Virus"
+  ],
+  "i": "Eine Infektion mit dem Sindbis-Virus verläuft meistens harmlos.",
+  "src": "https://www.tagesschau.de/wissen/gesundheit/sindbis-virus-100.html",
+  "p": 2
  },
  {
   "id": "2026-10-02.welt.1",
@@ -1376,6 +1536,22 @@
   "p": 1
  },
  {
+  "id": "2026-10-07.welt.1",
+  "d": "2026-10-07",
+  "r": "welt",
+  "k": "Gesellschaft",
+  "q": "Wogegen sprach sich die Weltgesundheitsorganisation im Oktober 2026 in neuen Leitlinien aus?",
+  "a": "Gegen Abnehmspritzen für Kinder",
+  "w": [
+   "Gegen Impfungen für Senioren",
+   "Gegen Zucker in Babynahrung",
+   "Gegen Sport bei Hitze"
+  ],
+  "i": "Hintergrund ist, dass weltweit immer mehr Kinder und Jugendliche fettleibig sind.",
+  "src": "https://www.tagesschau.de/wissen/gesundheit/who-warnt-vor-ausbreitung-von-fettleibigkeit-100.html",
+  "p": 1
+ },
+ {
   "id": "2026-10-08.welt.1",
   "d": "2026-10-08",
   "r": "welt",
@@ -1390,6 +1566,38 @@
   "i": "Das Nobelkomitee lobte ihr Werk, das im spielerischen Dialog mit der Antike neue Formen der Literatur schaffe.",
   "src": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_8",
   "p": 2
+ },
+ {
+  "id": "2026-10-08.welt.2",
+  "d": "2026-10-08",
+  "r": "welt",
+  "k": "Umwelt",
+  "q": "Um wie viel Prozent sind die beobachteten Bestände wildlebender Wirbeltiere laut WWF seit den 1970er-Jahren zurückgegangen?",
+  "a": "Um 69 Prozent",
+  "w": [
+   "Um 9 Prozent",
+   "Um 25 Prozent",
+   "Um 95 Prozent"
+  ],
+  "i": "In den Meeren betrug der Rückgang laut dem im Oktober 2026 veröffentlichten Bericht 59 Prozent.",
+  "src": "https://www.tagesschau.de/wissen/tiere/wwf-wildtierbestand-100.html",
+  "p": 2
+ },
+ {
+  "id": "2026-10-08.welt.3",
+  "d": "2026-10-08",
+  "r": "welt",
+  "k": "Sport",
+  "q": "Welche Basketballerin wurde im Oktober 2026 als erste Spielerin dreimal in Folge – und insgesamt zum Rekord fünften Mal – wertvollste Spielerin der WNBA?",
+  "a": "A’ja Wilson",
+  "w": [
+   "Caitlin Clark",
+   "Breanna Stewart",
+   "Diana Taurasi"
+  ],
+  "i": "Wilson spielt für die Las Vegas Aces.",
+  "src": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_8",
+  "p": 1
  },
  {
   "id": "2026-10-09.de.1",
@@ -1616,6 +1824,38 @@
   "p": 1
  },
  {
+  "id": "2026-10-15.de.5",
+  "d": "2026-10-15",
+  "r": "de",
+  "k": "Gesellschaft",
+  "q": "Ab welchem Alter sollen die Krankenkassen das Mammografie-Screening für Frauen künftig bezahlen, wie im Oktober 2026 beschlossen?",
+  "a": "Ab 45 Jahren",
+  "w": [
+   "Ab 35 Jahren",
+   "Ab 55 Jahren",
+   "Ab 60 Jahren"
+  ],
+  "i": "Bisher galt das Programm zur Früherkennung von Brustkrebs erst ab 50 Jahren.",
+  "src": "https://www.tagesschau.de/wissen/gesundheit/mammografie-ab-45-100.html",
+  "p": 2
+ },
+ {
+  "id": "2026-10-15.de.6",
+  "d": "2026-10-15",
+  "r": "de",
+  "k": "Umwelt",
+  "q": "Welcher Vogel wurde im Oktober 2026 zum neuen „Vogel des Jahres“ gekürt?",
+  "a": "Die Mehlschwalbe",
+  "w": [
+   "Der Kiebitz",
+   "Der Haussperling",
+   "Die Feldlerche"
+  ],
+  "i": "Ihr Bestand gilt als bedroht, weil Hitzewellen und verschwindende Nistplätze den Tieren zu schaffen machen.",
+  "src": "https://www.tagesschau.de/wissen/tiere/mehlschwalbe-vogel-des-jahres-100.html",
+  "p": 1
+ },
+ {
   "id": "2026-10-15.welt.1",
   "d": "2026-10-15",
   "r": "welt",
@@ -1664,6 +1904,38 @@
   "p": 1
  },
  {
+  "id": "2026-10-19.welt.2",
+  "d": "2026-10-19",
+  "r": "welt",
+  "k": "Wissenschaft",
+  "q": "Wohin fliegt die japanische Raumsonde MMX, die im Oktober 2026 mit dem deutsch-französischen Rover „Idefix“ startete?",
+  "a": "Zu den Marsmonden",
+  "w": [
+   "Zum Jupitermond Europa",
+   "Zum Saturnmond Titan",
+   "Zur Venus"
+  ],
+  "i": "Sie soll erstmals Gestein aus der Marsregion zur Erde bringen – geplant für 2031, vom Mond Phobos.",
+  "src": "https://www.tagesschau.de/wissen/weltraum/start-mission-mars-mond-100.html",
+  "p": 2
+ },
+ {
+  "id": "2026-10-19.welt.3",
+  "d": "2026-10-19",
+  "r": "welt",
+  "k": "Umwelt",
+  "q": "Welcher Anteil der Erdoberfläche soll laut dem Ziel, über das die Weltnaturkonferenz COP17 im Oktober 2026 beriet, bis 2030 wirksam geschützt sein?",
+  "a": "Ein Drittel (30 Prozent)",
+  "w": [
+   "Ein Zehntel",
+   "Die Hälfte",
+   "Drei Viertel"
+  ],
+  "i": "Das Ziel „30 bis 30“ wurde 2022 auf der Weltnaturkonferenz in Montreal beschlossen.",
+  "src": "https://www.tagesschau.de/wissen/klima/weltnaturkonferenz-in-armenien-startet-100.html",
+  "p": 1
+ },
+ {
   "id": "2026-10-20.welt.1",
   "d": "2026-10-20",
   "r": "welt",
@@ -1678,6 +1950,22 @@
   "i": "Die als „PHP2Shell“ bekannt gewordenen Lücken erlaubten das Ausführen von fremdem Code; Regierungen gaben Warnungen heraus.",
   "src": "https://www.tagesschau.de/wirtschaft/technologie/it-sicherheit-php-luecke-100.html",
   "p": 2
+ },
+ {
+  "id": "2026-10-21.welt.1",
+  "d": "2026-10-21",
+  "r": "welt",
+  "k": "Umwelt",
+  "q": "Auf wie viel Grad Erwärmung steuert die Erde laut einem Bericht des UN-Umweltprogramms vom Oktober 2026 zu?",
+  "a": "Rund 2,8 Grad",
+  "w": [
+   "Rund 1,2 Grad",
+   "Rund 1,5 Grad",
+   "Rund 5 Grad"
+  ],
+  "i": "Das Ziel des Pariser Abkommens, die Erwärmung auf 1,5 Grad zu begrenzen, wird demnach sicher verfehlt.",
+  "src": "https://www.tagesschau.de/wissen/klima/erderwaermung-un-bericht-102.html",
+  "p": 3
  },
  {
   "id": "2026-10-22.welt.1",
@@ -1712,6 +2000,38 @@
   "p": 1
  },
  {
+  "id": "2026-10-22.welt.3",
+  "d": "2026-10-22",
+  "r": "welt",
+  "k": "Kultur",
+  "q": "Welche britische Sängerin gewann im Oktober 2026 den Mercury Prize?",
+  "a": "Raye",
+  "w": [
+   "Adele",
+   "Dua Lipa",
+   "Florence Welch"
+  ],
+  "i": "Ausgezeichnet wurde ihr Album „This Music May Contain Hope“.",
+  "src": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_22",
+  "p": 1
+ },
+ {
+  "id": "2026-10-22.welt.4",
+  "d": "2026-10-22",
+  "r": "welt",
+  "k": "Sport",
+  "q": "Welcher japanische Turner gewann im Oktober 2026 zum vierten Mal in Folge den WM-Titel im Mehrkampf?",
+  "a": "Daiki Hashimoto",
+  "w": [
+   "Kohei Uchimura",
+   "Shinnosuke Oka",
+   "Kenzo Shirai"
+  ],
+  "i": "Die Weltmeisterschaften fanden in Rotterdam statt.",
+  "src": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_22",
+  "p": 1
+ },
+ {
   "id": "2026-10-23.de.1",
   "d": "2026-10-23",
   "r": "de",
@@ -1741,6 +2061,38 @@
   ],
   "i": "Die Täter wurden später verletzt festgenommen; Jordanien flog daraufhin Angriffe auf IS-Stellungen in Syrien.",
   "src": "https://en.wikipedia.org/wiki/2026",
+  "p": 1
+ },
+ {
+  "id": "2026-10-23.welt.2",
+  "d": "2026-10-23",
+  "r": "welt",
+  "k": "Umwelt",
+  "q": "Wie viele Hitzetote gab es laut einer im Oktober 2026 veröffentlichten Analyse im Sommer 2026 in Europa?",
+  "a": "Etwa 50.000",
+  "w": [
+   "Etwa 500",
+   "Etwa 5.000",
+   "Etwa 500.000"
+  ],
+  "i": "Die Forscher führen die Hitzewellen auf die vom Menschen verursachte Klimaerwärmung zurück.",
+  "src": "https://www.tagesschau.de/wissen/klima/hitzetote-sommer-studie-100.html",
+  "p": 2
+ },
+ {
+  "id": "2026-10-23.welt.3",
+  "d": "2026-10-23",
+  "r": "welt",
+  "k": "Sport",
+  "q": "Welcher Fußballer erhielt im Oktober 2026 den spanischen Prinzessin-von-Asturien-Preis für Sport?",
+  "a": "Lionel Messi",
+  "w": [
+   "Cristiano Ronaldo",
+   "Andrés Iniesta",
+   "Luka Modrić"
+  ],
+  "i": "Gewürdigt wurde vor allem seine Karriere beim FC Barcelona.",
+  "src": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_23",
   "p": 1
  },
  {
@@ -1789,6 +2141,22 @@
   ],
   "i": "Schon am Vortag hatte der erste Herbststurm Schäden angerichtet; Feuerwehren meldeten zahlreiche Einsätze.",
   "src": "https://www.tagesschau.de/inland/wetter-sturm-112.html",
+  "p": 1
+ },
+ {
+  "id": "2026-10-25.de.2",
+  "d": "2026-10-25",
+  "r": "de",
+  "k": "Gesellschaft",
+  "q": "Was geschah in Deutschland in der Nacht zum 25. Oktober 2026?",
+  "a": "Die Uhren wurden um eine Stunde zurückgestellt",
+  "w": [
+   "Die Uhren wurden um eine Stunde vorgestellt",
+   "Die Sommerzeit wurde dauerhaft eingeführt",
+   "Eine Schaltsekunde wurde eingefügt"
+  ],
+  "i": "Damit endete die Sommerzeit. Die EU-Kommission hatte schon 2018 vorgeschlagen, die Zeitumstellung abzuschaffen.",
+  "src": "https://www.tagesschau.de/wissen/gesundheit/zeitumstellung-sommerzeit-138.html",
   "p": 1
  },
  {
@@ -1918,6 +2286,22 @@
   "i": "Bei den Frauen gewann Alexia Putellas zum dritten Mal – ein Rekord, den sie sich mit anderen teilt.",
   "src": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_26",
   "p": 2
+ },
+ {
+  "id": "2026-10-26.welt.2",
+  "d": "2026-10-26",
+  "r": "welt",
+  "k": "Kultur",
+  "q": "Welches Wort kürte das Wörterbuch Dictionary.com im Oktober 2026 zum Wort des Jahres?",
+  "a": "„maxxing“",
+  "w": [
+   "„rizz“",
+   "„brat“",
+   "„slay“"
+  ],
+  "i": "Das Wort für das extreme Optimieren von etwas verbreitete sich stark in sozialen Netzwerken.",
+  "src": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_26",
+  "p": 1
  },
  {
   "id": "2026-10-27.de.1",
@@ -2142,6 +2526,22 @@
   "i": "Ihre Amtszeit wäre regulär erst im Oktober 2027 abgelaufen. Den Leitzins ließ die EZB am selben Tag bei 2,5 Prozent.",
   "src": "https://www.tagesschau.de/wirtschaft/finanzen/lagarde-ezb-ruecktritt-100.html",
   "p": 3
+ },
+ {
+  "id": "2026-10-29.welt.2",
+  "d": "2026-10-29",
+  "r": "welt",
+  "k": "Wissenschaft",
+  "q": "Was könnte das Ende Oktober 2026 entdeckte Objekt „2026 ED138“ sein – der erst sechste bekannte seiner Art im Sonnensystem?",
+  "a": "Ein Zwergplanet",
+  "w": [
+   "Ein Mond des Neptun",
+   "Ein Komet aus einer anderen Galaxie",
+   "Ein neunter Planet"
+  ],
+  "i": "Bekannte Zwergplaneten sind zum Beispiel Pluto und Ceres. Der Fund muss noch bestätigt werden.",
+  "src": "https://www.tagesschau.de/wissen/weltraum/zwergplanet-entdeckung-100.html",
+  "p": 2
  },
  {
   "id": "2026-10-30.de.1",

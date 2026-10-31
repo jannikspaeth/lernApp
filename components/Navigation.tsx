@@ -31,6 +31,7 @@ const LANGUAGE_TOOLS: readonly Item[] = [
 const SUBJECT_TOOLS: readonly Item[] = [
   ...SUBJECTS.map(s => ({ href: `/wissen/${s.id}`, label: s.name, icon: SUBJECT_ICONS[s.id] ?? 'book' })),
   { href: '/wissen/mix', label: ['Mixed round', 'Gemischte Runde'], icon: 'shuffle' },
+  { href: '/nachrichten', label: ['News quiz', 'Nachrichten-Quiz'], icon: 'newspaper' },
 ];
 
 const SECTIONS: readonly Section[] = [

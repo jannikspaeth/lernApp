@@ -6,7 +6,7 @@ um die Fragen zum Vortag und pusht nach `main`, worauf Vercel neu deployt.
 ## Ablauf
 
 1. `python3 scripts/nachrichten-quellen.py` – gibt das Material des Vortags aus (Europe/Berlin):
-   Wikipedia „Portal:Current events“ (Welt) und tagesschau.de Inland, Wirtschaft und Ausland.
+   Wikipedia „Portal:Current events“ (Welt) und tagesschau.de Inland, Wirtschaft, Ausland, Sport und Wissen.
    Fehlen Tage (Lücke seit dem jüngsten Datum in `fragen.json`), diese Tage als Argumente übergeben:
    `python3 scripts/nachrichten-quellen.py 2026-11-02 2026-11-03`.
 2. Daraus pro Tag **3–6 Fragen für Deutschland** (`"r": "de"`) und **3–6 für die Welt** (`"r": "welt"`) schreiben,
@@ -39,8 +39,14 @@ um die Fragen zum Vortag und pusht nach `main`, worauf Vercel neu deployt.
   keine laufenden Entwicklungen („Wer führt in den Umfragen?“).
 - **Jede Frage steht für sich**: Sie nennt Person, Ort und Zeit („Anfang November 2026“, „am 2. November 2026“),
   nie „gestern“, „diese Woche“, „er“ oder „das Land“. Das Prüfskript lehnt relative Zeitangaben ab.
-- Deutschland: Bundes- und Landespolitik, Wirtschaft, Gesellschaft, Sport und Kultur mit Deutschlandbezug.
-  Welt: internationale Politik, Wahlen, Konflikte, Wissenschaft, große Katastrophen, Weltsport.
+- **Alle Themen, nicht nur Politik**: Das Quiz soll das ganze Nachrichtengeschehen abdecken. Pro Tag und Region
+  höchstens die Hälfte der Fragen aus Politik und Wirtschaft zusammen; der Rest aus Sport, Wissenschaft, Kultur,
+  Gesellschaft, Umwelt, Katastrophen oder Recht – je nachdem, was der Tag hergibt (Wikipedia „Sports“, „Science and
+  technology“, „Arts and culture“, „Disasters“; tagesschau Sport und Wissen).
+- Deutschland: Bundes- und Landespolitik, Wirtschaft, Gesellschaft, Wissenschaft, Sport und Kultur mit Deutschlandbezug
+  (auch deutsche Sportler und Forscher im Ausland). Welt: internationale Politik, Wahlen, Konflikte, Wissenschaft und
+  Raumfahrt, Kultur und Preise, große Katastrophen, Weltsport.
+- Sportergebnisse nur, wenn die Quelle das Ergebnis nennt (die tagesschau-Sportmeldungen haben oft keinen Text).
   Keine reinen Kriminalfälle ohne politische Bedeutung, keine Börsen-Tagesbewegungen, keine Promi-Klatschthemen.
 - **Falsche Antworten**: gleiche Art wie die richtige (Person ↔ Person, Land ↔ Land, Zahl ↔ Zahl), plausibel,
   aber eindeutig falsch – nichts, was ebenfalls stimmen könnte, keine Scherzantworten.

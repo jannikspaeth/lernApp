@@ -881,5 +881,17 @@
     "artist": "",
     "year": "",
     "file": "W.v.Humboldt.jpg"
+  },
+  "stresemann": {
+    "wiki": "Gustav Stresemann",
+    "title": "Gustav Stresemann",
+    "artist": "",
+    "year": "um 1925"
+  },
+  "wilhelm-ii": {
+    "wiki": "Wilhelm II. (Deutsches Reich)",
+    "title": "Kaiser Wilhelm II.",
+    "artist": "",
+    "year": "um 1902"
   }
 }

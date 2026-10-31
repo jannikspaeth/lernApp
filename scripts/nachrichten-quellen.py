@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Prints the raw material for the news quiz of the given days (default: yesterday, Europe/Berlin):
 Wikipedia "Portal:Current events" (world, cleaned wikitext) and the tagesschau.de API (Inland, Wirtschaft,
-Ausland) with title, first sentence and URL. Used by the daily routine (scripts/nachrichten-routine.md).
+Ausland, Sport, Wissen) with title, first sentence and URL. Used by the daily routine (scripts/nachrichten-routine.md).
 Usage: python3 scripts/nachrichten-quellen.py [YYYY-MM-DD ...]"""
 import datetime, json, re, sys, time, urllib.parse, urllib.request
 from zoneinfo import ZoneInfo
@@ -57,7 +57,7 @@ def main():
     for day in days:
         src, text = wikipedia(day)
         print(f'=== {day} · WELT · {src}\n{text.strip() or "(noch keine Einträge)"}\n')
-        for r in ['inland', 'wirtschaft', 'ausland']:
+        for r in ['inland', 'wirtschaft', 'ausland', 'sport', 'wissen']:
             lines = tagesschau(day, r)
             print(f'=== {day} · TAGESSCHAU {r.upper()}\n' + ('\n'.join(lines) or '(keine Meldungen)') + '\n')
 
