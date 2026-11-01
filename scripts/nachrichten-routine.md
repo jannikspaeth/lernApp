@@ -9,7 +9,7 @@ um die Fragen zum Vortag und pusht nach `main`, worauf Vercel neu deployt.
    Wikipedia „Portal:Current events“ (Welt) und tagesschau.de Inland, Wirtschaft, Ausland, Sport und Wissen.
    Fehlen Tage (Lücke seit dem jüngsten Datum in `fragen.json`), diese Tage als Argumente übergeben:
    `python3 scripts/nachrichten-quellen.py 2026-11-02 2026-11-03`.
-2. Daraus pro Tag **3–6 Fragen für Deutschland** (`"r": "de"`) und **3–6 für die Welt** (`"r": "welt"`) schreiben,
+2. Daraus pro Tag **6–10 Fragen für Deutschland** (`"r": "de"`) und **6–10 für die Welt** (`"r": "welt"`) schreiben,
    ans Ende von `lib/nachrichten/fragen.json` anhängen (bestehende Einträge nie ändern oder umsortieren).
 3. Einträge löschen, deren Datum älter als 200 Tage ist.
 4. `npx tsx scripts/check-nachrichten.ts` muss `OK` melden, dann `npx tsc --noEmit`.

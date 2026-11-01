@@ -1360,6 +1360,22 @@
   "p": 3
  },
  {
+  "id": "2026-10-01.de.2",
+  "d": "2026-10-01",
+  "r": "de",
+  "k": "Umwelt",
+  "q": "Wie hoch war der Anteil von Ökostrom am deutschen Stromverbrauch in den ersten neun Monaten 2026?",
+  "a": "Fast 61 Prozent",
+  "w": [
+   "Rund 25 Prozent",
+   "Rund 40 Prozent",
+   "Rund 85 Prozent"
+  ],
+  "i": "Der Anteil erneuerbarer Energien steigt seit Jahren.",
+  "src": "https://www.tagesschau.de/wirtschaft/energie/oekostrom-wind-sonne-wasserkraft-rekord-100.html",
+  "p": 1
+ },
+ {
   "id": "2026-10-01.welt.1",
   "d": "2026-10-01",
   "r": "welt",
@@ -1472,6 +1488,22 @@
   "p": 2
  },
  {
+  "id": "2026-10-05.de.2",
+  "d": "2026-10-05",
+  "r": "de",
+  "k": "Wirtschaft",
+  "q": "Welcher Anteil der in Deutschland neu zugelassenen Autos war im Herbst 2026 zuletzt elektrisch?",
+  "a": "Mehr als jedes dritte",
+  "w": [
+   "Etwa jedes zwanzigste",
+   "Etwa jedes zehnte",
+   "Fast alle"
+  ],
+  "i": "Hohe Spritpreise und eine neue E-Auto-Prämie mit über 100.000 Anträgen trieben die Nachfrage.",
+  "src": "https://www.tagesschau.de/wirtschaft/verbraucher/neuzulassungen-pkw-kba-100.html",
+  "p": 1
+ },
+ {
   "id": "2026-10-06.de.1",
   "d": "2026-10-06",
   "r": "de",
@@ -1502,6 +1534,22 @@
   "i": "Tobias Rausch erhielt 48 von 82 Stimmen – mehr, als die AfD Abgeordnete hat. Die CDU diskutierte danach, ob Stimmen aus ihren Reihen kamen.",
   "src": "https://www.tagesschau.de/inland/innenpolitik/landtagspraesident-sachsen-anhalt-102.html",
   "p": 3
+ },
+ {
+  "id": "2026-10-06.de.3",
+  "d": "2026-10-06",
+  "r": "de",
+  "k": "Gesellschaft",
+  "q": "Um wie viele Menschen könnte die Bevölkerung Deutschlands laut einer Prognose vom Oktober 2026 bis 2045 schrumpfen?",
+  "a": "Um rund 1,5 Millionen",
+  "w": [
+   "Um rund 15.000",
+   "Um rund 150.000",
+   "Um rund 15 Millionen"
+  ],
+  "i": "Ländliche Gemeinden altern dabei stärker als Städte.",
+  "src": "https://www.tagesschau.de/inland/gesellschaft/bevoelkerungsrueckgang-bis-2045-100.html",
+  "p": 1
  },
  {
   "id": "2026-10-06.welt.1",
@@ -1662,6 +1710,22 @@
   "i": "Bas nannte persönliche Gründe, darunter den Tod ihrer Stieftochter, und kritisierte öffentliche Angriffe aus den Reihen der Union.",
   "src": "https://www.tagesschau.de/inland/innenpolitik/ruecktritt-bas-100.html",
   "p": 3
+ },
+ {
+  "id": "2026-10-12.de.2",
+  "d": "2026-10-12",
+  "r": "de",
+  "k": "Wirtschaft",
+  "q": "Um wie viel Prozent soll das Briefporto laut Plänen der Bundesnetzagentur vom Oktober 2026 steigen – so stark wie nie?",
+  "a": "Um 20,35 Prozent",
+  "w": [
+   "Um 3,5 Prozent",
+   "Um 8 Prozent",
+   "Um 50 Prozent"
+  ],
+  "i": "Auch Postkarten, Großbriefe und Pakete könnten 2027 teurer werden.",
+  "src": "https://www.tagesschau.de/wirtschaft/verbraucher/deutsche-post-preisanpassung-entwurf-bundesnetzagentur-100.html",
+  "p": 2
  },
  {
   "id": "2026-10-12.welt.1",
@@ -1856,6 +1920,38 @@
   "p": 1
  },
  {
+  "id": "2026-10-15.de.7",
+  "d": "2026-10-15",
+  "r": "de",
+  "k": "Konflikte",
+  "q": "Was soll das „Reservestärkungsgesetz“ einführen, das der Bundestag im Oktober 2026 beriet?",
+  "a": "Einen verpflichtenden Reservedienst",
+  "w": [
+   "Eine Wehrpflicht für alle Frauen",
+   "Die Abschaffung der Reserve",
+   "Einen Sold für alle Schüler"
+  ],
+  "i": "Es soll helfen, die Zahl der Reservisten der Bundeswehr zu erhöhen.",
+  "src": "https://www.tagesschau.de/inland/innenpolitik/bundeswehr-reservestaerkungsgesetz-100.html",
+  "p": 1
+ },
+ {
+  "id": "2026-10-15.de.8",
+  "d": "2026-10-15",
+  "r": "de",
+  "k": "Gesellschaft",
+  "q": "Was soll laut Plänen der Bundesregierung vom Oktober 2026 künftig als Personalausweis dienen können?",
+  "a": "Das Smartphone",
+  "w": [
+   "Der Führerschein",
+   "Die Krankenkassenkarte",
+   "Die Bankkarte"
+  ],
+  "i": "Der digitale Ausweis soll Behördengänge und Online-Dienste vereinfachen.",
+  "src": "https://www.tagesschau.de/inland/innenpolitik/digitaler-personalausweis-100.html",
+  "p": 1
+ },
+ {
   "id": "2026-10-15.welt.1",
   "d": "2026-10-15",
   "r": "welt",
@@ -1885,6 +1981,54 @@
   ],
   "i": "Der Staat soll für Kinder regelmäßig in ein Vorsorgedepot einzahlen. Die große Rentenreform steht dagegen noch aus.",
   "src": "https://www.tagesschau.de/inland/innenpolitik/faq-fruehstartrente-100.html",
+  "p": 2
+ },
+ {
+  "id": "2026-10-16.de.2",
+  "d": "2026-10-16",
+  "r": "de",
+  "k": "Wirtschaft",
+  "q": "Worauf verständigten sich Deutschland und Frankreich im Oktober 2026 in der Autopolitik?",
+  "a": "Auf eine Aufweichung des Verbrenner-Aus in der EU",
+  "w": [
+   "Auf ein Tempolimit in ganz Europa",
+   "Auf eine gemeinsame Automarke",
+   "Auf ein Verbot von E-Autos aus China"
+  ],
+  "i": "Neuwagen mit Verbrennungsmotor sollen auch künftig zugelassen werden können. Kurz darauf einigten sich Unterhändler im EU-Parlament auf einen Kompromiss.",
+  "src": "https://www.tagesschau.de/wirtschaft/energie/verbrenner-aus-lockerung-100.html",
+  "p": 2
+ },
+ {
+  "id": "2026-10-18.de.1",
+  "d": "2026-10-18",
+  "r": "de",
+  "k": "Gesellschaft",
+  "q": "In welcher Stadt begann im Oktober 2026 der erste Jahrgang einer neuen Medizin-Universität, die den Ärztemangel in der Lausitz lindern soll?",
+  "a": "Cottbus",
+  "w": [
+   "Görlitz",
+   "Bautzen",
+   "Senftenberg"
+  ],
+  "i": "Die Lausitz ist vom Kohleausstieg besonders betroffen; die Uni ist Teil des Strukturwandels.",
+  "src": "https://www.tagesschau.de/inland/innenpolitik/gesundheit-aerztemangel-brandenburg-100.html",
+  "p": 1
+ },
+ {
+  "id": "2026-10-19.de.1",
+  "d": "2026-10-19",
+  "r": "de",
+  "k": "Wirtschaft",
+  "q": "Mit welchem US-Chiphersteller vereinbarte die Bundesregierung im Oktober 2026 eine Kooperation bei der künstlichen Intelligenz?",
+  "a": "Nvidia",
+  "w": [
+   "Intel",
+   "AMD",
+   "Qualcomm"
+  ],
+  "i": "Die Vereinbarung soll die Wettbewerbsfähigkeit deutscher Unternehmen stärken.",
+  "src": "https://www.tagesschau.de/wirtschaft/technologie/bund-nvidia-zusammenarbeit-ki-100.html",
   "p": 2
  },
  {
@@ -1936,6 +2080,22 @@
   "p": 1
  },
  {
+  "id": "2026-10-20.de.1",
+  "d": "2026-10-20",
+  "r": "de",
+  "k": "Politik",
+  "q": "Welche Partei bestätigte im Oktober 2026 einen Hackerangriff auf ihre E-Mail-Konten, aus denen Daten veröffentlicht wurden?",
+  "a": "Die AfD",
+  "w": [
+   "Die CDU",
+   "Die SPD",
+   "Die Grünen"
+  ],
+  "i": "Die Täter waren zunächst unbekannt.",
+  "src": "https://www.tagesschau.de/inland/innenpolitik/afd-hackerangriff-102.html",
+  "p": 1
+ },
+ {
   "id": "2026-10-20.welt.1",
   "d": "2026-10-20",
   "r": "welt",
@@ -1952,6 +2112,38 @@
   "p": 2
  },
  {
+  "id": "2026-10-20.welt.2",
+  "d": "2026-10-20",
+  "r": "welt",
+  "k": "Politik",
+  "q": "Wen ernannte das rumänische Parlament im Oktober 2026 zum neuen Ministerpräsidenten?",
+  "a": "Luca Niculescu",
+  "w": [
+   "Ilie Bolojan",
+   "Nicușor Dan",
+   "Klaus Iohannis"
+  ],
+  "i": "Sein Vorgänger Ilie Bolojan war in einer politischen Krise zurückgetreten.",
+  "src": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_20",
+  "p": 1
+ },
+ {
+  "id": "2026-10-21.de.1",
+  "d": "2026-10-21",
+  "r": "de",
+  "k": "Politik",
+  "q": "Welche Panne passierte im Oktober 2026 beim Gesetz zur Erhöhung der Tabaksteuer?",
+  "a": "Laut Gesetzestext galt die höhere Steuer sofort statt erst ab 2027",
+  "w": [
+   "Die Erhöhung wurde versehentlich verdoppelt",
+   "Das Gesetz wurde ohne Abstimmung veröffentlicht",
+   "Zigaretten wurden steuerfrei gestellt"
+  ],
+  "i": "Der Fehler galt nur auf dem Papier und sollte korrigiert werden.",
+  "src": "https://www.tagesschau.de/inland/innenpolitik/tabaksteuer-aus-versehen-in-kraft-100.html",
+  "p": 1
+ },
+ {
   "id": "2026-10-21.welt.1",
   "d": "2026-10-21",
   "r": "welt",
@@ -1966,6 +2158,54 @@
   "i": "Das Ziel des Pariser Abkommens, die Erwärmung auf 1,5 Grad zu begrenzen, wird demnach sicher verfehlt.",
   "src": "https://www.tagesschau.de/wissen/klima/erderwaermung-un-bericht-102.html",
   "p": 3
+ },
+ {
+  "id": "2026-10-21.welt.2",
+  "d": "2026-10-21",
+  "r": "welt",
+  "k": "Recht",
+  "q": "Welche Strafe soll der Facebook-Konzern Meta laut einem Urteil in New Mexico vom Oktober 2026 zahlen – seine bisher höchste?",
+  "a": "25 Milliarden US-Dollar",
+  "w": [
+   "25 Millionen US-Dollar",
+   "250 Millionen US-Dollar",
+   "2,5 Billionen US-Dollar"
+  ],
+  "i": "Eine Jury befand, Meta habe Nutzer über Verletzungen ihrer Privatsphäre getäuscht.",
+  "src": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_21",
+  "p": 2
+ },
+ {
+  "id": "2026-10-22.de.1",
+  "d": "2026-10-22",
+  "r": "de",
+  "k": "Politik",
+  "q": "Ab welchem Jahr soll die geplante „Kapitalrente“ das deutsche Rentensystem ergänzen?",
+  "a": "Ab 2028",
+  "w": [
+   "Ab 2026",
+   "Ab 2035",
+   "Ab 2040"
+  ],
+  "i": "Ein Teil der Altersvorsorge soll dann am Kapitalmarkt angelegt werden.",
+  "src": "https://www.tagesschau.de/inland/innenpolitik/renten-reform-kapitalrente-100.html",
+  "p": 1
+ },
+ {
+  "id": "2026-10-22.de.2",
+  "d": "2026-10-22",
+  "r": "de",
+  "k": "Wirtschaft",
+  "q": "Was ergab die Steuerschätzung im Oktober 2026 für den Bund im kommenden Jahr?",
+  "a": "Mehr Steuereinnahmen als zunächst erwartet",
+  "w": [
+   "Deutlich weniger Steuereinnahmen",
+   "Genau gleich hohe Einnahmen wie 2026",
+   "Einen Einbruch um die Hälfte"
+  ],
+  "i": "Finanzminister Lars Klingbeil sieht trotzdem „keine neuen Spielräume“ für zusätzliche Ausgaben.",
+  "src": "https://www.tagesschau.de/inland/innenpolitik/steuerschaetzung-bund-klingbeil-100.html",
+  "p": 1
  },
  {
   "id": "2026-10-22.welt.1",
@@ -2032,6 +2272,38 @@
   "p": 1
  },
  {
+  "id": "2026-10-22.welt.5",
+  "d": "2026-10-22",
+  "r": "welt",
+  "k": "Politik",
+  "q": "Welche Diplomatin aus den Vereinigten Arabischen Emiraten kündigte im Oktober 2026 ihre Kandidatur für das Amt der UN-Generalsekretärin an?",
+  "a": "Lana Nusseibeh",
+  "w": [
+   "Rebeca Grynspan",
+   "Mia Mottley",
+   "Jacinda Ardern"
+  ],
+  "i": "Die Amtszeit von António Guterres endet am 31. Dezember 2026.",
+  "src": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_22",
+  "p": 1
+ },
+ {
+  "id": "2026-10-22.welt.6",
+  "d": "2026-10-22",
+  "r": "welt",
+  "k": "Katastrophen",
+  "q": "Wo forderte im Oktober 2026 ein Erdbeben der Stärke 7,0 mit Epizentrum in Nagqu 16 Todesopfer?",
+  "a": "In Tibet",
+  "w": [
+   "In Nepal",
+   "In der Mongolei",
+   "In Kasachstan"
+  ],
+  "i": "Tibet gehört zu den erdbebenreichsten Regionen Chinas.",
+  "src": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_22",
+  "p": 1
+ },
+ {
   "id": "2026-10-23.de.1",
   "d": "2026-10-23",
   "r": "de",
@@ -2046,6 +2318,22 @@
   "i": "Das Haus auf dem Obersalzberg stammt aus der NS-Zeit. Die Polizei vermutet Brandstiftung und nahm einen Verdächtigen fest.",
   "src": "https://www.tagesschau.de/inland/gesellschaft/berchtesgaden-feuer-nazihaus-100.html",
   "p": 2
+ },
+ {
+  "id": "2026-10-23.de.2",
+  "d": "2026-10-23",
+  "r": "de",
+  "k": "Politik",
+  "q": "Wovon will CSU-Chef Markus Söder Bundesländer mit „extremistischer“ Regierungsbeteiligung ausschließen?",
+  "a": "Vom Länderfinanzausgleich",
+  "w": [
+   "Vom Bundesrat",
+   "Von der Bundesversammlung",
+   "Von EU-Förderprogrammen"
+  ],
+  "i": "Ob eine solche Klausel verfassungsrechtlich möglich wäre, ist umstritten.",
+  "src": "https://www.tagesschau.de/inland/gesellschaft/extremismusklausel-laenderfinanzausgleich-soeder-100.html",
+  "p": 1
  },
  {
   "id": "2026-10-23.welt.1",
@@ -2096,6 +2384,22 @@
   "p": 1
  },
  {
+  "id": "2026-10-23.welt.4",
+  "d": "2026-10-23",
+  "r": "welt",
+  "k": "Gesellschaft",
+  "q": "Was beschloss das griechische Parlament im Oktober 2026 für Kinder und Jugendliche unter 15 Jahren?",
+  "a": "Ein Verbot sozialer Netzwerke ab 2027",
+  "w": [
+   "Eine Handypflicht im Unterricht",
+   "Ein Wahlrecht ab 14",
+   "Eine Ausgangssperre ab 20 Uhr"
+  ],
+  "i": "Plattformen müssen das Alter prüfen und sonst mit Strafen rechnen.",
+  "src": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_23",
+  "p": 2
+ },
+ {
   "id": "2026-10-24.de.1",
   "d": "2026-10-24",
   "r": "de",
@@ -2112,6 +2416,22 @@
   "p": 2
  },
  {
+  "id": "2026-10-24.de.2",
+  "d": "2026-10-24",
+  "r": "de",
+  "k": "Gesellschaft",
+  "q": "In welchem Jahr wurde das Anwerbeabkommen zwischen Deutschland und der Türkei unterzeichnet, an das im Oktober 2026 erinnert wurde?",
+  "a": "1961",
+  "w": [
+   "1955",
+   "1968",
+   "1973"
+  ],
+  "i": "Vor 65 Jahren kamen die ersten Arbeitskräfte aus der Türkei; viele blieben dauerhaft in Deutschland.",
+  "src": "https://www.tagesschau.de/inland/gesellschaft/anwerbeabkommen-tuerkei-100.html",
+  "p": 1
+ },
+ {
   "id": "2026-10-24.welt.1",
   "d": "2026-10-24",
   "r": "welt",
@@ -2125,6 +2445,38 @@
   ],
   "i": "Es war der dritte Sieg Armeniens; die Sängerin Naré gewann mit dem Lied „Boo!“.",
   "src": "https://en.wikipedia.org/wiki/2026",
+  "p": 1
+ },
+ {
+  "id": "2026-10-24.welt.2",
+  "d": "2026-10-24",
+  "r": "welt",
+  "k": "Gesellschaft",
+  "q": "In welchem Land demonstrierten Ende Oktober 2026 mehr als 400.000 Menschen, viele davon Schüler und Studierende, gegen Bildungspolitik und hohe Lebenshaltungskosten?",
+  "a": "Frankreich",
+  "w": [
+   "Belgien",
+   "Schweiz",
+   "Österreich"
+  ],
+  "i": "Am Abend kam es in Paris zu Krawallen. Die Proteste hatten im September begonnen und sich auf andere Länder ausgeweitet.",
+  "src": "https://www.tagesschau.de/ausland/europa/frankreich-vorbereitung-ausschreitungen-100.html",
+  "p": 2
+ },
+ {
+  "id": "2026-10-24.welt.3",
+  "d": "2026-10-24",
+  "r": "welt",
+  "k": "Politik",
+  "q": "Welche Partei gewann im Oktober 2026 die vorgezogene Wahl in der kanadischen Provinz British Columbia – zum ersten Mal seit fast hundert Jahren?",
+  "a": "Die Konservative Partei",
+  "w": [
+   "Die Neue Demokratische Partei",
+   "Die Liberale Partei",
+   "Die Grünen"
+  ],
+  "i": "Premier David Eby trat danach als Vorsitzender der NDP zurück.",
+  "src": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_24",
   "p": 1
  },
  {
@@ -2157,6 +2509,54 @@
   ],
   "i": "Damit endete die Sommerzeit. Die EU-Kommission hatte schon 2018 vorgeschlagen, die Zeitumstellung abzuschaffen.",
   "src": "https://www.tagesschau.de/wissen/gesundheit/zeitumstellung-sommerzeit-138.html",
+  "p": 1
+ },
+ {
+  "id": "2026-10-25.de.3",
+  "d": "2026-10-25",
+  "r": "de",
+  "k": "Wirtschaft",
+  "q": "Was kündigte Audi im Oktober 2026 auf einer Wahlkampfveranstaltung von US-Präsident Donald Trump an?",
+  "a": "Den Bau seines ersten Werks in den USA",
+  "w": [
+   "Den Rückzug aus China",
+   "Das Ende aller Verbrennermotoren",
+   "Den Umzug der Konzernzentrale nach Amerika"
+  ],
+  "i": "Trump droht immer wieder mit hohen Zöllen auf Autoimporte. Am Audi-Standort Neckarsulm wächst die Sorge um Arbeitsplätze.",
+  "src": "https://www.tagesschau.de/ausland/amerika/audi-usa-trump-100.html",
+  "p": 2
+ },
+ {
+  "id": "2026-10-25.de.4",
+  "d": "2026-10-25",
+  "r": "de",
+  "k": "Politik",
+  "q": "Was will Bundesinnenminister Alexander Dobrindt mit einem Gesetz erschweren, das im Oktober 2026 für Streit sorgte?",
+  "a": "Vergesellschaftungen, etwa von Wohnungen",
+  "w": [
+   "Demonstrationen vor Parlamenten",
+   "Volksentscheide auf Bundesebene",
+   "Die Einbürgerung nach drei Jahren"
+  ],
+  "i": "Die Bundesregierung will damit Plänen der Linkspartei in Berlin zuvorkommen. Justizministerin Hubig sieht „viele Fragezeichen“.",
+  "src": "https://www.tagesschau.de/inland/innenpolitik/dobrindt-vergesellschaftung-100.html",
+  "p": 1
+ },
+ {
+  "id": "2026-10-25.de.5",
+  "d": "2026-10-25",
+  "r": "de",
+  "k": "Umwelt",
+  "q": "Welchem Thema sollte Deutschland laut einer Rede von Bundespräsident Steinmeier Ende Oktober 2026 trotz anderer Krisen Vorrang geben?",
+  "a": "Dem Klimaschutz",
+  "w": [
+   "Der Raumfahrt",
+   "Dem Autobahnbau",
+   "Der Atomkraft"
+  ],
+  "i": "„Die Fieberkurve unseres Planeten zeigt deutlich nach oben“, mahnte Steinmeier.",
+  "src": "https://www.tagesschau.de/inland/umweltpreis-142.html",
   "p": 1
  },
  {
@@ -2224,6 +2624,70 @@
   "p": 1
  },
  {
+  "id": "2026-10-25.welt.5",
+  "d": "2026-10-25",
+  "r": "welt",
+  "k": "Politik",
+  "q": "Wofür zeigte sich der neue britische Premierminister Andy Burnham im Oktober 2026 offen?",
+  "a": "Für eine Rückkehr zur Freizügigkeit mit der EU",
+  "w": [
+   "Für einen Austritt aus der NATO",
+   "Für die Abschaffung der Monarchie",
+   "Für die Einführung des Euro"
+  ],
+  "i": "Burnham meint, der Brexit habe Großbritannien mehr geschadet als genützt.",
+  "src": "https://www.tagesschau.de/ausland/europa/burnham-freizuegigkeit-100.html",
+  "p": 2
+ },
+ {
+  "id": "2026-10-25.welt.6",
+  "d": "2026-10-25",
+  "r": "welt",
+  "k": "Gesellschaft",
+  "q": "Welche Stadt bekam im Oktober 2026 mit der Eröffnung des Western Sydney Airport einen zweiten großen Flughafen?",
+  "a": "Sydney",
+  "w": [
+   "Melbourne",
+   "Brisbane",
+   "Perth"
+  ],
+  "i": "Der Flughafen liegt im Westen der Metropolregion in New South Wales.",
+  "src": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_25",
+  "p": 1
+ },
+ {
+  "id": "2026-10-25.welt.7",
+  "d": "2026-10-25",
+  "r": "welt",
+  "k": "Politik",
+  "q": "Wer lag nach der ersten Runde der Präsidentschaftswahl in Bulgarien im Oktober 2026 vorn?",
+  "a": "Amtsinhaberin Ilijana Jotowa",
+  "w": [
+   "Bojko Borissow",
+   "Rumen Radew",
+   "Deljan Peewski"
+  ],
+  "i": "Wegen einer Rekord-Niedrigwahlbeteiligung und ohne absolute Mehrheit kam es zur Stichwahl gegen Andrej Gjurow.",
+  "src": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_25",
+  "p": 1
+ },
+ {
+  "id": "2026-10-25.welt.8",
+  "d": "2026-10-25",
+  "r": "welt",
+  "k": "Sport",
+  "q": "Warum verlegen die Veranstalter die Rallye Dakar 2027 aus Saudi-Arabien?",
+  "a": "Wegen Sicherheitsbedenken durch den Konflikt mit den Huthi",
+  "w": [
+   "Weil die Wüste dort zu klein ist",
+   "Wegen eines Verbots von Motorsport",
+   "Weil Saudi-Arabien keine Gebühren zahlte"
+  ],
+  "i": "Die Huthi-Rebellen hatten im Oktober mehrere Flughäfen in Saudi-Arabien angegriffen.",
+  "src": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_25",
+  "p": 1
+ },
+ {
   "id": "2026-10-26.de.1",
   "d": "2026-10-26",
   "r": "de",
@@ -2272,6 +2736,54 @@
   "p": 2
  },
  {
+  "id": "2026-10-26.de.4",
+  "d": "2026-10-26",
+  "r": "de",
+  "k": "Politik",
+  "q": "Welche Länder besuchte Bundeskanzler Friedrich Merz auf seiner Asienreise Ende Oktober 2026?",
+  "a": "Singapur, Japan und Südkorea",
+  "w": [
+   "China, Indien und Vietnam",
+   "Japan, China und Taiwan",
+   "Indonesien, Thailand und die Philippinen"
+  ],
+  "i": "Es ging um Wirtschaft, Sicherheit und Verteidigung. Zeitgleich reiste Bundespräsident Steinmeier nach China.",
+  "src": "https://www.tagesschau.de/ausland/asien/asien-reise-merz-steinmeier-100.html",
+  "p": 2
+ },
+ {
+  "id": "2026-10-26.de.5",
+  "d": "2026-10-26",
+  "r": "de",
+  "k": "Gesellschaft",
+  "q": "Was soll der „Gebäudetyp E“ ermöglichen, über den im Oktober 2026 beraten wurde?",
+  "a": "Schnelleres und günstigeres Bauen",
+  "w": [
+   "Häuser nur noch aus Holz",
+   "Pflicht zu Solaranlagen auf jedem Dach",
+   "Ein Verbot von Einfamilienhäusern"
+  ],
+  "i": "Bauherren sollen von teuren Standards abweichen dürfen, damit mehr bezahlbarer Wohnraum entsteht.",
+  "src": "https://www.tagesschau.de/inland/gebaeudetyp-e-104.html",
+  "p": 1
+ },
+ {
+  "id": "2026-10-26.de.6",
+  "d": "2026-10-26",
+  "r": "de",
+  "k": "Gesellschaft",
+  "q": "In welchem Beruf gab es laut einem Bericht von Ende Oktober 2026 so viele Auszubildende wie nie zuvor?",
+  "a": "Bestattungsfachkraft",
+  "w": [
+   "Schornsteinfeger",
+   "Hufschmied",
+   "Bäcker"
+  ],
+  "i": "Gleichzeitig werden Beerdigungen für Angehörige teurer.",
+  "src": "https://www.tagesschau.de/wirtschaft/arbeitsmarkt/mehr-ausbildung-bestattungsfachkraft-100.html",
+  "p": 1
+ },
+ {
   "id": "2026-10-26.welt.1",
   "d": "2026-10-26",
   "r": "welt",
@@ -2301,6 +2813,38 @@
   ],
   "i": "Das Wort für das extreme Optimieren von etwas verbreitete sich stark in sozialen Netzwerken.",
   "src": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_26",
+  "p": 1
+ },
+ {
+  "id": "2026-10-26.welt.3",
+  "d": "2026-10-26",
+  "r": "welt",
+  "k": "Gesellschaft",
+  "q": "In welchem Land gab es im Oktober 2026 Massenproteste gegen geplante Kürzungen beim öffentlich-rechtlichen Rundfunk?",
+  "a": "Tschechien",
+  "w": [
+   "Österreich",
+   "Schweiz",
+   "Dänemark"
+  ],
+  "i": "Die Regierung will die Mittel für den Rundfunk deutlich reduzieren.",
+  "src": "https://www.tagesschau.de/ausland/europa/tschechien-rundfunk-proteste-100.html",
+  "p": 1
+ },
+ {
+  "id": "2026-10-26.welt.4",
+  "d": "2026-10-26",
+  "r": "welt",
+  "k": "Konflikte",
+  "q": "Womit wurde im Oktober 2026 erstmals ein verwundeter ukrainischer Soldat aus dem Frontgebiet ausgeflogen?",
+  "a": "Mit einer Drohne",
+  "w": [
+   "Mit einem Heißluftballon",
+   "Mit einem Zeppelin",
+   "Mit einem Raketenrucksack"
+  ],
+  "i": "Drohnen spielen im Krieg in der Ukraine eine immer größere Rolle – nicht nur für Angriffe.",
+  "src": "https://www.tagesschau.de/ausland/europa/ukraine-soldat-rettung-drohne-100.html",
   "p": 1
  },
  {
@@ -2368,6 +2912,38 @@
   "p": 1
  },
  {
+  "id": "2026-10-27.de.5",
+  "d": "2026-10-27",
+  "r": "de",
+  "k": "Wirtschaft",
+  "q": "Was droht in der Metall- und Elektroindustrie, nachdem die IG Metall Ende Oktober 2026 das erste Angebot der Arbeitgeber abgelehnt hat?",
+  "a": "Warnstreiks",
+  "w": [
+   "Ein Verbot von Gewerkschaften",
+   "Die Schließung aller Werke",
+   "Eine gesetzliche Lohnsenkung"
+  ],
+  "i": "Die Tarifrunde gilt wegen der schwachen Autokonjunktur als besonders schwierig.",
+  "src": "https://www.tagesschau.de/wirtschaft/ig-metall-wirtschaftsmeldung-oktober2026-100.html",
+  "p": 1
+ },
+ {
+  "id": "2026-10-27.de.6",
+  "d": "2026-10-27",
+  "r": "de",
+  "k": "Politik",
+  "q": "Welche CDU-Politikerin wurde Ende Oktober 2026 als mögliche Kandidatin für das Amt der Bundespräsidentin genannt?",
+  "a": "Ines Claus",
+  "w": [
+   "Karin Prien",
+   "Silvia Breher",
+   "Gitta Connemann"
+  ],
+  "i": "Die CDU wünscht sich eine Kandidatin aus den eigenen Reihen; gewählt wird am 30. Januar 2027.",
+  "src": "https://www.tagesschau.de/inland/innenpolitik/moegliche-nachfolgerin-steinmeier-ines-claus-100.html",
+  "p": 1
+ },
+ {
   "id": "2026-10-27.welt.1",
   "d": "2026-10-27",
   "r": "welt",
@@ -2400,6 +2976,38 @@
   "p": 1
  },
  {
+  "id": "2026-10-27.welt.3",
+  "d": "2026-10-27",
+  "r": "welt",
+  "k": "Gesellschaft",
+  "q": "Welche unabhängige Nachrichtenseite ließ ein Gericht in Ägypten Ende Oktober 2026 schließen?",
+  "a": "Mada Masr",
+  "w": [
+   "Al-Ahram",
+   "Al Jazeera",
+   "Al-Arabiya"
+  ],
+  "i": "Reporter ohne Grenzen sprach von einer „ungeheuerlichen Entscheidung“; die Chefredakteurin wurde zu einer hohen Geldstrafe verurteilt.",
+  "src": "https://www.tagesschau.de/ausland/afrika/aegypten-nachrichtenseite-mada-masr-100.html",
+  "p": 1
+ },
+ {
+  "id": "2026-10-27.welt.4",
+  "d": "2026-10-27",
+  "r": "welt",
+  "k": "Umwelt",
+  "q": "Welchen Wert erreichte die Kohlendioxid-Konzentration der Atmosphäre 2025 laut einem Bericht der Weltwetterorganisation vom Oktober 2026?",
+  "a": "Rund 427 ppm (Teile pro Million)",
+  "w": [
+   "Rund 280 ppm",
+   "Rund 350 ppm",
+   "Rund 510 ppm"
+  ],
+  "i": "Genauer waren es 426,8 ppm – ein Rekord. Vor der Industrialisierung lag der Wert bei etwa 280 ppm.",
+  "src": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_27",
+  "p": 2
+ },
+ {
   "id": "2026-10-28.de.1",
   "d": "2026-10-28",
   "r": "de",
@@ -2429,6 +3037,54 @@
   ],
   "i": "Hintergrund sind die Handelskonflikte mit den USA und Chinas Exportoffensive.",
   "src": "https://www.tagesschau.de/wirtschaft/weltwirtschaft/merz-asienbesuch-japan-100.html",
+  "p": 1
+ },
+ {
+  "id": "2026-10-28.de.3",
+  "d": "2026-10-28",
+  "r": "de",
+  "k": "Politik",
+  "q": "Was beschloss die Bundesregierung Ende Oktober 2026 zum Schutz der Kritischen Infrastruktur?",
+  "a": "Mehr Prüfungen auf Sabotagerisiken",
+  "w": [
+   "Die Abschaltung aller Funkmasten",
+   "Einen Einsatz der Bundeswehr an jedem Bahnhof",
+   "Ein Verbot privater Drohnen"
+  ],
+  "i": "Die Bedrohung durch Sabotage und Spionage – etwa aus Russland – ist nach Einschätzung der Sicherheitsbehörden gestiegen.",
+  "src": "https://www.tagesschau.de/inland/innenpolitik/kritische-infrastruktur-sabotage-schutz-100.html",
+  "p": 1
+ },
+ {
+  "id": "2026-10-28.de.4",
+  "d": "2026-10-28",
+  "r": "de",
+  "k": "Wirtschaft",
+  "q": "Welche Sparte brachte der Industriekonzern thyssenkrupp Ende Oktober 2026 an die Börse?",
+  "a": "Die Werkstoffsparte",
+  "w": [
+   "Die Stahlsparte",
+   "Die Autozuliefersparte",
+   "Die Anlagenbausparte"
+  ],
+  "i": "Der Konzern spaltet sich seit Jahren in eigenständige Einheiten auf.",
+  "src": "https://www.tagesschau.de/wirtschaft/unternehmen/boersengang-tk-accelis-100.html",
+  "p": 1
+ },
+ {
+  "id": "2026-10-28.de.5",
+  "d": "2026-10-28",
+  "r": "de",
+  "k": "Politik",
+  "q": "Welche Partei beansprucht laut Kanzler Merz das Vorschlagsrecht für die Nachfolge von Bundespräsident Steinmeier?",
+  "a": "Die CDU",
+  "w": [
+   "Die SPD",
+   "Die CSU",
+   "Die Grünen"
+  ],
+  "i": "In der Union ist die Kandidatensuche zur Machtfrage geworden; die CSU hatte Ilse Aigner ins Spiel gebracht.",
+  "src": "https://www.tagesschau.de/inland/innenpolitik/nachfolge-steinmeier-100.html",
   "p": 1
  },
  {
@@ -2480,6 +3136,86 @@
   "p": 1
  },
  {
+  "id": "2026-10-28.welt.4",
+  "d": "2026-10-28",
+  "r": "welt",
+  "k": "Kultur",
+  "q": "Welcher iranische Regisseur und Gewinner der Goldenen Palme wurde im Oktober 2026 erneut zu einer Haftstrafe verurteilt?",
+  "a": "Jafar Panahi",
+  "w": [
+   "Asghar Farhadi",
+   "Majid Majidi",
+   "Mohammad Rasoulof"
+  ],
+  "i": "Die iranische Justiz geht seit Jahren gegen den regimekritischen Filmemacher vor.",
+  "src": "https://www.tagesschau.de/ausland/asien/panahi-iran-haftstrafe-100.html",
+  "p": 1
+ },
+ {
+  "id": "2026-10-28.welt.5",
+  "d": "2026-10-28",
+  "r": "welt",
+  "k": "Wirtschaft",
+  "q": "Welche Notenbank erhöhte im Oktober 2026 erstmals seit Juli 2023 ihren Leitzins, auf 2,5 Prozent?",
+  "a": "Die Bank of Canada",
+  "w": [
+   "Die US-Notenbank Fed",
+   "Die Bank of Japan",
+   "Die Schweizerische Nationalbank"
+  ],
+  "i": "Begründet wurde der Schritt mit der hohen Inflation, getrieben auch durch die Ölpreise im Iran-Krieg.",
+  "src": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_28",
+  "p": 1
+ },
+ {
+  "id": "2026-10-28.welt.6",
+  "d": "2026-10-28",
+  "r": "welt",
+  "k": "Wirtschaft",
+  "q": "Welches Unternehmen legte im Oktober 2026 den größten Börsengang der Geschichte Indiens hin?",
+  "a": "Jio Platforms",
+  "w": [
+   "Tata Motors",
+   "Infosys",
+   "Air India"
+  ],
+  "i": "Das Unternehmen nahm rund 3,2 Milliarden US-Dollar ein; die Nachfrage war mehr als zwanzigmal so groß.",
+  "src": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_28",
+  "p": 1
+ },
+ {
+  "id": "2026-10-28.welt.7",
+  "d": "2026-10-28",
+  "r": "welt",
+  "k": "Katastrophen",
+  "q": "Welcher Wirbelsturm traf Ende Oktober 2026 auf die Küste des indischen Bundesstaats Andhra Pradesh?",
+  "a": "Zyklon Arnab",
+  "w": [
+   "Hurrikan Milton",
+   "Taifun Haiyan",
+   "Zyklon Idai"
+  ],
+  "i": "Fast 100.000 Menschen in Andhra Pradesh und Odisha mussten zuvor ihre Häuser verlassen.",
+  "src": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_28",
+  "p": 1
+ },
+ {
+  "id": "2026-10-28.welt.8",
+  "d": "2026-10-28",
+  "r": "welt",
+  "k": "Politik",
+  "q": "Gegen welches Ministerium verhängten die USA im Oktober 2026 Sanktionen wegen seiner Rolle im Konflikt im Osten der DR Kongo?",
+  "a": "Das Verteidigungsministerium Ruandas",
+  "w": [
+   "Das Außenministerium Ugandas",
+   "Das Innenministerium Kenias",
+   "Das Verteidigungsministerium Burundis"
+  ],
+  "i": "Die USA werfen Ruanda vor, die M23-Rebellen zu unterstützen.",
+  "src": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_28",
+  "p": 1
+ },
+ {
   "id": "2026-10-29.de.1",
   "d": "2026-10-29",
   "r": "de",
@@ -2510,6 +3246,54 @@
   "i": "Der Konzern hatte zuvor einen Großteil seiner Tarifverträge gekündigt und will die Gehälter einfrieren.",
   "src": "https://www.tagesschau.de/wirtschaft/unternehmen/volkswagen-milliardenverlust-102.html",
   "p": 2
+ },
+ {
+  "id": "2026-10-29.de.3",
+  "d": "2026-10-29",
+  "r": "de",
+  "k": "Politik",
+  "q": "In welchem Land hielt Bundespräsident Frank-Walter Steinmeier Ende Oktober 2026 eine viel beachtete Rede an der Peking-Universität?",
+  "a": "China",
+  "w": [
+   "Japan",
+   "Südkorea",
+   "Vietnam"
+  ],
+  "i": "Steinmeier forderte fairen Handel und den Abbau des Handelsdefizits; es war eine seiner letzten großen Auslandsreisen im Amt.",
+  "src": "https://www.tagesschau.de/ausland/asien/steinmeier-china-102.html",
+  "p": 1
+ },
+ {
+  "id": "2026-10-29.de.4",
+  "d": "2026-10-29",
+  "r": "de",
+  "k": "Wirtschaft",
+  "q": "Über welche neue Steuer wurde in der schwarz-roten Koalition Ende Oktober 2026 diskutiert?",
+  "a": "Eine Steuer auf Umsätze, die durch künstliche Intelligenz erwirtschaftet werden",
+  "w": [
+   "Eine Steuer auf Streaming-Abos",
+   "Eine Steuer auf Kurzstreckenflüge",
+   "Eine Steuer auf Haustiere über 20 Kilo"
+  ],
+  "i": "Im Gespräch war, Umsätze durch KI zu besteuern, um Einnahmeausfälle auszugleichen.",
+  "src": "https://www.tagesschau.de/inland/ministerin-prien-ki-steuer-100.html",
+  "p": 1
+ },
+ {
+  "id": "2026-10-29.de.5",
+  "d": "2026-10-29",
+  "r": "de",
+  "k": "Wirtschaft",
+  "q": "Über welche Marke stieg der deutsche Leitindex DAX Ende Oktober 2026 wieder?",
+  "a": "26.000 Punkte",
+  "w": [
+   "16.000 Punkte",
+   "20.000 Punkte",
+   "30.000 Punkte"
+  ],
+  "i": "Auslöser war die Botschaft der großen Notenbanken, die Zinsen vorerst nicht zu verändern.",
+  "src": "https://www.tagesschau.de/wirtschaft/finanzen/marktberichte/marktbericht-dax-dow-alphabet-ki-fed-ezb-100.html",
+  "p": 1
  },
  {
   "id": "2026-10-29.welt.1",
@@ -2544,6 +3328,70 @@
   "p": 2
  },
  {
+  "id": "2026-10-29.welt.3",
+  "d": "2026-10-29",
+  "r": "welt",
+  "k": "Gesellschaft",
+  "q": "Um wie viel Prozent wuchs die Opiumproduktion in Afghanistan laut einem UN-Bericht vom Oktober 2026 innerhalb eines Jahres?",
+  "a": "Um 400 Prozent",
+  "w": [
+   "Um 4 Prozent",
+   "Um 40 Prozent",
+   "Um 4.000 Prozent"
+  ],
+  "i": "Als Grund nennen die Vereinten Nationen die große Armut im Land.",
+  "src": "https://www.tagesschau.de/ausland/asien/afghanistan-zunahme-opiumproduktion-100.html",
+  "p": 1
+ },
+ {
+  "id": "2026-10-29.welt.4",
+  "d": "2026-10-29",
+  "r": "welt",
+  "k": "Sport",
+  "q": "Mit welcher Stadt will sich Südafrika um Olympische Spiele bewerben?",
+  "a": "Durban",
+  "w": [
+   "Kapstadt",
+   "Johannesburg",
+   "Pretoria"
+  ],
+  "i": "Noch nie hat ein afrikanischer Staat Olympische Sommer- oder Paralympische Spiele ausgerichtet.",
+  "src": "https://www.tagesschau.de/ausland/afrika/suedafrika-olympia-bewerbung-durban-100.html",
+  "p": 1
+ },
+ {
+  "id": "2026-10-29.welt.5",
+  "d": "2026-10-29",
+  "r": "welt",
+  "k": "Wissenschaft",
+  "q": "Wie alt ist der Mars-Meteorit „Teghaza 001“ laut einer Ende Oktober 2026 veröffentlichten Untersuchung?",
+  "a": "Rund 4,1 Milliarden Jahre",
+  "w": [
+   "Rund 4.100 Jahre",
+   "Rund 41 Millionen Jahre",
+   "Rund 410 Millionen Jahre"
+  ],
+  "i": "Der Meteorit wurde 2022 in der Sahara in Mali gefunden.",
+  "src": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_29",
+  "p": 1
+ },
+ {
+  "id": "2026-10-29.welt.6",
+  "d": "2026-10-29",
+  "r": "welt",
+  "k": "Wirtschaft",
+  "q": "Welches Unternehmen will der Essenslieferdienst DoorDash laut Ankündigung vom Oktober 2026 für 17 Milliarden Dollar kaufen?",
+  "a": "Instacart",
+  "w": [
+   "Uber Eats",
+   "Delivery Hero",
+   "Just Eat"
+  ],
+  "i": "Instacart liefert in den USA Lebensmittel aus Supermärkten.",
+  "src": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_29",
+  "p": 1
+ },
+ {
   "id": "2026-10-30.de.1",
   "d": "2026-10-30",
   "r": "de",
@@ -2558,6 +3406,54 @@
   "i": "Im September hatte sie wegen der stark gestiegenen Energiepreise noch bei 3,3 Prozent gelegen.",
   "src": "https://www.tagesschau.de/wirtschaft/verbraucher/inflationsrate-deutschland-oktober-100.html",
   "p": 3
+ },
+ {
+  "id": "2026-10-30.de.2",
+  "d": "2026-10-30",
+  "r": "de",
+  "k": "Politik",
+  "q": "Wo bekräftigte Kanzler Merz zum Abschluss seiner Asienreise im Oktober 2026 die Hoffnung auf eine friedliche Wiedervereinigung Koreas?",
+  "a": "An der Demarkationslinie zwischen Süd- und Nordkorea",
+  "w": [
+   "In Pjöngjang",
+   "In Peking",
+   "In Tokio"
+  ],
+  "i": "Die schwer bewachte Grenze teilt die koreanische Halbinsel seit dem Waffenstillstand von 1953.",
+  "src": "https://www.tagesschau.de/ausland/asien/merz-asienreise-suedkorea-100.html",
+  "p": 1
+ },
+ {
+  "id": "2026-10-30.de.3",
+  "d": "2026-10-30",
+  "r": "de",
+  "k": "Recht",
+  "q": "Was verlangte ein früherer Schüler aus Landau wegen massiven Unterrichtsausfalls vor Gericht – ohne Erfolg?",
+  "a": "Eine bessere Abiturnote",
+  "w": [
+   "Die Schließung seiner Schule",
+   "Einen garantierten Studienplatz",
+   "Die Entlassung des Kultusministers"
+  ],
+  "i": "Er hatte das Land Rheinland-Pfalz verklagt, weil er sich durch den Unterrichtsausfall benachteiligt fühlte.",
+  "src": "https://www.tagesschau.de/inland/gesellschaft/unterrichtsausfall-klage-abgewiesen-100.html",
+  "p": 1
+ },
+ {
+  "id": "2026-10-30.de.4",
+  "d": "2026-10-30",
+  "r": "de",
+  "k": "Gesellschaft",
+  "q": "Was wollten die Behörden vor den bundesweiten „Gen Z“-Protesten am 31. Oktober 2026 verhindern?",
+  "a": "Die Anreise gewaltbereiter Demonstranten aus dem Ausland",
+  "w": [
+   "Jede Demonstration in Innenstädten",
+   "Die Teilnahme von Schülern unter 18",
+   "Live-Übertragungen im Fernsehen"
+  ],
+  "i": "Gewalttäter sollten schon an der Grenze zurückgewiesen werden. In Frankreich und Italien war es zuvor zu Krawallen gekommen.",
+  "src": "https://www.tagesschau.de/inland/gesellschaft/genz-proteste-polizei-gewalttaeter-100.html",
+  "p": 1
  },
  {
   "id": "2026-10-30.welt.1",
@@ -2624,6 +3520,54 @@
   "p": 1
  },
  {
+  "id": "2026-10-30.welt.5",
+  "d": "2026-10-30",
+  "r": "welt",
+  "k": "Politik",
+  "q": "Mit welchem Land vereinbarte die EU Ende Oktober 2026 auf einem Gipfel eine engere Allianz, auch bei der künstlichen Intelligenz?",
+  "a": "Kanada",
+  "w": [
+   "Japan",
+   "Australien",
+   "Indien"
+  ],
+  "i": "Beide wollen unabhängiger von den USA und China werden.",
+  "src": "https://www.tagesschau.de/ausland/amerika/eu-kanada-ki-100.html",
+  "p": 1
+ },
+ {
+  "id": "2026-10-30.welt.6",
+  "d": "2026-10-30",
+  "r": "welt",
+  "k": "Katastrophen",
+  "q": "In welchem Land stürzte Ende Oktober 2026 ein Militärhubschrauber der EU-Friedenstruppe ab, wobei vier Menschen starben?",
+  "a": "Bosnien und Herzegowina",
+  "w": [
+   "Kosovo",
+   "Mali",
+   "Libanon"
+  ],
+  "i": "Es handelte sich um einen Chinook der italienischen Luftwaffe nahe Brčko.",
+  "src": "https://www.tagesschau.de/ausland/europa/hubschrauber-bosnien-absturz-100.html",
+  "p": 1
+ },
+ {
+  "id": "2026-10-30.welt.7",
+  "d": "2026-10-30",
+  "r": "welt",
+  "k": "Sport",
+  "q": "Was entschied der Internationale Sportgerichtshof CAS Ende Oktober 2026 zum Eishockey?",
+  "a": "Russische Teams müssen wieder an allen internationalen Turnieren teilnehmen dürfen",
+  "w": [
+   "Eishockey fliegt aus dem olympischen Programm",
+   "Kanada wird für zehn Jahre gesperrt",
+   "Spiele dürfen nur noch zwei Drittel dauern"
+  ],
+  "i": "Der CAS hob damit Entscheidungen des Eishockey-Weltverbands IIHF auf.",
+  "src": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_30",
+  "p": 1
+ },
+ {
   "id": "2026-10-31.de.1",
   "d": "2026-10-31",
   "r": "de",
@@ -2669,6 +3613,118 @@
   ],
   "i": "Die Spiele in Senegals Hauptstadt dauern bis zum 13. November.",
   "src": "https://en.wikipedia.org/wiki/2026",
+  "p": 1
+ },
+ {
+  "id": "2026-10-31.welt.2",
+  "d": "2026-10-31",
+  "r": "welt",
+  "k": "Politik",
+  "q": "In welcher US-Stadt trafen sich Ende Oktober 2026 die Außenminister der G20-Staaten?",
+  "a": "Atlanta",
+  "w": [
+   "Chicago",
+   "Miami",
+   "Houston"
+  ],
+  "i": "Die Gräben waren tief; vor allem Russlands Außenminister Lawrow sparte nicht mit Kritik.",
+  "src": "https://www.tagesschau.de/ausland/amerika/g20-aussenminister-abschluss-100.html",
+  "p": 1
+ },
+ {
+  "id": "2026-10-31.welt.3",
+  "d": "2026-10-31",
+  "r": "welt",
+  "k": "Politik",
+  "q": "Welche UN-Friedensmission steht nach über 30 Jahren vor dem Aus, nachdem Russland Ende Oktober 2026 sein Veto einlegte?",
+  "a": "Die Mission in der Westsahara (MINURSO)",
+  "w": [
+   "Die Mission auf Zypern",
+   "Die Mission in Kaschmir",
+   "Die Mission auf den Golanhöhen"
+  ],
+  "i": "Die Mission sollte ursprünglich ein Referendum über die Zukunft der Westsahara vorbereiten.",
+  "src": "https://www.tagesschau.de/ausland/afrika/westsahara-un-mission-100.html",
+  "p": 2
+ },
+ {
+  "id": "2026-10-31.welt.4",
+  "d": "2026-10-31",
+  "r": "welt",
+  "k": "Gesellschaft",
+  "q": "Wie viele Menschen sind laut Stand Ende Oktober 2026 beim Ebola-Ausbruch in der Demokratischen Republik Kongo gestorben?",
+  "a": "Mehr als 5.000",
+  "w": [
+   "Rund 50",
+   "Rund 500",
+   "Mehr als 50.000"
+  ],
+  "i": "Mehr als 10.000 Menschen gelten als infiziert. Gegen die Bundibugyo-Variante gibt es noch keinen zugelassenen Impfstoff.",
+  "src": "https://www.tagesschau.de/ausland/afrika/kongo-ebola-tote-106.html",
+  "p": 3
+ },
+ {
+  "id": "2026-10-31.welt.5",
+  "d": "2026-10-31",
+  "r": "welt",
+  "k": "Konflikte",
+  "q": "Welche Waffenlieferungen an die Ukraine genehmigte die US-Regierung Ende Oktober 2026?",
+  "a": "Patriot-Flugabwehrsysteme",
+  "w": [
+   "Tomahawk-Marschflugkörper",
+   "F-35-Kampfjets",
+   "B-52-Bomber"
+  ],
+  "i": "Die Ukraine hatte zuvor beklagt, dass die USA Waffenlieferungen zurückhalten.",
+  "src": "https://www.tagesschau.de/ausland/amerika/usa-ukraine-patriot-100.html",
+  "p": 2
+ },
+ {
+  "id": "2026-10-31.welt.6",
+  "d": "2026-10-31",
+  "r": "welt",
+  "k": "Konflikte",
+  "q": "Aus welcher von Russland besetzten ukrainischen Stadt wurden Ende Oktober 2026 im Rahmen einer örtlichen Waffenruhe Zivilisten evakuiert?",
+  "a": "Oleschky",
+  "w": [
+   "Cherson",
+   "Mariupol",
+   "Melitopol"
+  ],
+  "i": "Mit 25 Bussen wurden Menschen herausgebracht. US-First-Lady Melania Trump sagte, sie habe die Waffenruhe vermittelt.",
+  "src": "https://www.tagesschau.de/ausland/europa/ukraine-evakuierung-oleschky-100.html",
+  "p": 2
+ },
+ {
+  "id": "2026-10-31.welt.7",
+  "d": "2026-10-31",
+  "r": "welt",
+  "k": "Umwelt",
+  "q": "In welchem Land ging die Weltnaturkonferenz COP17 Ende Oktober 2026 nach einer durchverhandelten Nacht mit einer Einigung zu Ende?",
+  "a": "Armenien",
+  "w": [
+   "Kolumbien",
+   "Kanada",
+   "Ägypten"
+  ],
+  "i": "Die Einigung gilt als wenig ehrgeizig. 2024 hatte die Konferenz in Kolumbien, 2022 in Kanada stattgefunden.",
+  "src": "https://www.tagesschau.de/ausland/asien/biodiversitaet-cop-armenien-100.html",
+  "p": 1
+ },
+ {
+  "id": "2026-10-31.welt.8",
+  "d": "2026-10-31",
+  "r": "welt",
+  "k": "Politik",
+  "q": "In welchem Land beendeten die Vereinten Nationen Ende Oktober 2026 ihre politische Mission nach mehr als drei Jahrzehnten?",
+  "a": "Somalia",
+  "w": [
+   "Haiti",
+   "Afghanistan",
+   "Libyen"
+  ],
+  "i": "Die UN unterstützen das Land künftig nur noch über kleinere Organisationen.",
+  "src": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_31",
   "p": 1
  }
 ]
