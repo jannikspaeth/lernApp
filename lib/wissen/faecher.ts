@@ -73,5 +73,6 @@ export function fachTiles(): Record<string, Omit<FachTile, 'id'>> {
     musik: deep(MUSIK, MUSIK_CODE, ['genres', 'Genres'], 'beethoven'),
     politik: { ...deep(POLITIK, POL_CODE, ['areas', 'Bereiche'], 'reichstag', 'center'), geoTotal: POL_LISTEN.reduce((n, q) => n + q.items.length, 0) },
     philosophie: deep(PHILOSOPHIE, PHILO_CODE, ['areas', 'Bereiche'], 'sokrates'),
+    allgemeinwissen: { cover: src('golden-record'), pos: 'center', sub: ['Topics, test and “Who are you?”', 'Themen, Test und „Wer bist du?“'], prefixes: [], deepTotal: 0, geoTotal: 0 },
   };
 }

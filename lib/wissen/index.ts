@@ -7,10 +7,11 @@ import { wissenschaft } from './wissenschaft';
 import { musik } from './musik';
 import { politik } from './politik';
 import { philosophie } from './philosophie';
+import { allgemeinwissen } from './allgemeinwissen';
 
 export type { Card, Subject, Topic } from './types';
 
-export const SUBJECTS: Subject[] = [geschichte, geografie, kunst, literatur, wissenschaft, musik, politik, philosophie];
+export const SUBJECTS: Subject[] = [geschichte, geografie, kunst, literatur, wissenschaft, musik, politik, philosophie, allgemeinwissen];
 
 // Every topic of every subject in one: the mixed round across all subjects.
 export const MIX: Subject = {

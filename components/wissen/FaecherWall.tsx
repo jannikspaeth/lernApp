@@ -114,6 +114,29 @@ export default function FaecherWall({ tiles }: { tiles: Record<string, Omit<Fach
         </span>
         <Icon name="chevronRight" size={20} className="text-faint" />
       </Link>
+
+      <div className="grid sm:grid-cols-2 gap-3">
+        <Link href="/wissen/allgemeinwissen/test" className="flex items-center gap-4 p-4 rounded-2xl bg-surface border border-line hover:border-accent/40 transition-colors">
+          <span className="w-10 h-10 rounded-xl bg-accent-soft text-accent flex items-center justify-center shrink-0">
+            <Icon name="target" size={20} />
+          </span>
+          <span className="flex-1 min-w-0">
+            <span className="block font-semibold text-ink">{t('General knowledge test', 'Allgemeinwissen-Test')}</span>
+            <span className="block text-[13px] text-muted">{t('30 questions, getting harder, with a rating', '30 Fragen, immer schwerer, mit Einstufung')}</span>
+          </span>
+          <Icon name="chevronRight" size={20} className="text-faint" />
+        </Link>
+        <Link href="/persoenlichkeit" className="flex items-center gap-4 p-4 rounded-2xl bg-surface border border-line hover:border-accent/40 transition-colors">
+          <span className="w-10 h-10 rounded-xl bg-accent-soft text-accent flex items-center justify-center shrink-0">
+            <Icon name="user" size={20} />
+          </span>
+          <span className="flex-1 min-w-0">
+            <span className="block font-semibold text-ink">{t('Who are you?', 'Wer bist du?')}</span>
+            <span className="block text-[13px] text-muted">{t('Which philosopher, painter, composer or writer?', 'Welcher Philosoph, Maler, Komponist, Schriftsteller?')}</span>
+          </span>
+          <Icon name="chevronRight" size={20} className="text-faint" />
+        </Link>
+      </div>
     </div>
   );
 }

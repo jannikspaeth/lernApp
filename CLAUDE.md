@@ -140,6 +140,13 @@ Flow: `/login` → `/` (subjects) → Sprachen: `/heute` (→ `/sprache` for lan
 - **Politik lists** `/politik/listen` (`lib/politik/listen.ts`, ids `pol-…`): typed "name them all" quizzes (chancellors,
   Bundespräsidenten, US presidents, UK PMs, popes, UN secretaries-general …) run by the geography `QuizRunner`; bests live in
   the `geo` progress map, `pol-` ids count for Politik on /faecher, not Geografie. Current office holders are "seit …" — re-check.
+- **Allgemeinwissen** (`lib/wissen/allgemeinwissen.ts`): a flat subject (8 topics × 20 cards: sayings, inventions, records,
+  sport, food, body, animals, everyday life). Its **test** `/wissen/allgemeinwissen/test` (`lib/wissen/allgemeinwissen-test.ts`,
+  `components/wissen/AllgemeinTest.tsx`) draws 10 leicht + 10 mittel + 10 schwer from its own pool and ends with a rating
+  (best score per device in localStorage).
+- **"Wer bist du?"** `/persoenlichkeit` (+ `/[id]`, `lib/persoenlichkeit/`): personality quizzes (Philosoph, Künstler, Komponist,
+  Schriftsteller), 10 questions, each option gives points to 1–2 results; the result links its chapter. Check pictures, chapter
+  paths and the balance of results (random runs) with `npx tsx scripts/check-persoenlichkeit.ts`.
 - **News quiz** `/nachrichten` (`lib/nachrichten/fragen.json`, `components/nachrichten/NewsQuiz.tsx`): Deutschland/Welt ×
   7 / 31 / 183 days, rounds of 10 (unseen first per device, big stories weighted for long periods), every answer links its
   source. Filled daily by a scheduled Claude routine following `scripts/nachrichten-routine.md` (sources via

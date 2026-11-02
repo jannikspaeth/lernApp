@@ -82,6 +82,7 @@ export const SUBJECT_ICONS: Record<string, IconName> = {
   musik: 'music',
   politik: 'landmark',
   philosophie: 'lightbulb',
+  allgemeinwissen: 'star',
   mix: 'shuffle',
 };
 
