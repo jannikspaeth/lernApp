@@ -51,7 +51,7 @@ export const JOYCE_WOOLF: Subtopic = {
       ['Was genügt in Virginia Woolfs Romanen als Handlung?', 'Ein Tag, ein Gang, ein Abendessen', ['Eine Reise um die Welt', 'Ein Krieg', 'Ein Prozess'], null],
       ['Worunter litt Woolf ihr Leben lang?', 'Unter schweren seelischen Krisen', ['Unter Armut', 'Unter Blindheit', 'Unter Verfolgung'], null],
       ['Warum musste „Ulysses“ in Paris erscheinen?', 'Englische und amerikanische Verlage lehnten ab', ['Joyce lebte dort', 'Es war billiger', 'Der Text war französisch'], null],
-      ['In welchem Jahr starben Joyce und Woolf?', '1941', ['1922', '1939', '1945'], null],
+      ['Wie hieß Virginia Woolfs Ehemann?', 'Leonard Woolf', ['Lytton Strachey', 'E. M. Forster', 'Clive Bell'], 'Mit ihm gründete sie einen eigenen Verlag.'],
     ],
   },
 };

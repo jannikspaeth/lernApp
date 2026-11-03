@@ -34,7 +34,7 @@ export const DEFOE_SWIFT: Subtopic = {
       ['Warum saß Defoe im Gefängnis?', 'Wegen einer Spottschrift gegen die Staatskirche', ['Wegen Diebstahls', 'Wegen Hochverrats im Krieg', 'Wegen Mordes'], 'Er stand auch am Pranger.'],
       ['Welcher Seemann war ein Vorbild für Robinson?', 'Alexander Selkirk', ['Francis Drake', 'James Cook', 'Walter Raleigh'], 'Er überlebte vier Jahre allein auf einer Pazifikinsel.'],
       ['Wann erschien „Gullivers Reisen“?', '1726', ['1719', '1740', '1759'], null],
-      ['Zu wem kommt Gulliver nach Liliput?', 'Zu Riesen', ['Zu sprechenden Vögeln', 'Nach Amerika', 'Nach Hause'], 'Das Land heißt Brobdingnag.'],
+      ['Zu wem kommt Gulliver auf seiner zweiten Reise nach Brobdingnag?', 'Zu Riesen', ['Zu sprechenden Vögeln', 'Zu vernünftigen Pferden', 'Zu unsterblichen Greisen'], 'Auf der ersten Reise war er selbst der Riese unter den Liliputanern.'],
       ['Was ist Laputa in „Gullivers Reisen“?', 'Eine fliegende Insel von Gelehrten', ['Ein Königreich der Riesen', 'Eine Insel der Pferde', 'Eine Stadt unter Wasser'], null],
       ['Wie heißen die vernünftigen Pferde bei Swift?', 'Houyhnhnms', ['Yahoos', 'Lilliputians', 'Struldbrugs'], null],
       ['Wen erkennt Gulliver in den Yahoos?', 'Die Menschen', ['Die Pferde', 'Die Soldaten', 'Die Gelehrten'], null],

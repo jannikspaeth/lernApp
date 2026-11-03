@@ -9,14 +9,14 @@ export const WILDE: Subtopic = {
     'Oscar Wilde wurde 1854 in Dublin geboren, als Sohn eines angesehenen Arztes und einer Dichterin. Er studierte in Dublin und Oxford, war ein glänzender Schüler des Altgriechischen und machte sich schon als Student durch Auftreten und Witz bekannt. In London wurde er zur Berühmtheit, bevor er ein bedeutendes Werk veröffentlicht hatte: durch seine Kleidung, seine Vortragsreisen und seine Gabe, in jedem Salon der Geistreichste zu sein.',
     'Wilde war der Wortführer des Ästhetizismus. Dessen Grundsatz lautet: Kunst hat keinen Zweck zu erfüllen, sie muss weder erziehen noch nützen, sie darf schön sein. Im Vorwort zu seinem Roman schrieb er, es gebe keine moralischen oder unmoralischen Bücher, sondern nur gut oder schlecht geschriebene. Seine Form war das Paradox: ein Satz, der sich selbst zu widersprechen scheint und gerade dadurch etwas trifft, etwa seine Bemerkung, er könne allem widerstehen außer der Versuchung.',
     'Sein einziger Roman „Das Bildnis des Dorian Gray“ (1890) erzählt von einem schönen jungen Mann, der wünscht, sein Porträt möge altern statt seiner. Der Wunsch erfüllt sich: Dorian bleibt jung und makellos, während das versteckte Bild jede Ausschweifung und jedes Verbrechen aufzeichnet. Das Buch wurde als unsittlich angegriffen.',
-    'Die größten Erfolge hatte Wilde mit Gesellschaftskomödien, in denen die feine Gesellschaft ihre eigene Heuchelei vorgeführt bekommt und dabei glänzend unterhalten wird: „Lady Windermeres Fächer“, „Ein idealer Gatte“ und vor allem „Bunbury oder Die Bedeutung, ernst zu sein“ (1895), das als beste englische Komödie seit Shakespeare gilt. Auf dem Höhepunkt seines Ruhms liefen zwei seiner Stücke gleichzeitig in London.',
+    'Die größten Erfolge hatte Wilde mit Gesellschaftskomödien, in denen die feine Gesellschaft ihre eigene Heuchelei vorgeführt bekommt und dabei glänzend unterhalten wird: „Lady Windermeres Fächer“, „Ein idealer Gatte“ und vor allem „Bunbury oder Die Bedeutung, ernst zu sein“ (1895), das als beste englische Komödie seit Shakespeare gilt. Auf dem Höhepunkt seines Ruhms liefen zwei seiner Stücke gleichzeitig in London. Sein Drama „Salome“ dagegen wurde in England zunächst verboten, weil biblische Figuren nicht auf die Bühne durften.',
     'Im selben Jahr 1895 zerbrach alles. Wilde hatte eine Beziehung zu dem jungen Lord Alfred Douglas; dessen Vater beschuldigte ihn öffentlich, Wilde verklagte ihn wegen Verleumdung, verlor und wurde daraufhin selbst wegen Homosexualität zu zwei Jahren Zuchthaus mit Zwangsarbeit verurteilt. Im Gefängnis von Reading schrieb er den langen Brief „De Profundis“, nach der Entlassung die „Ballade vom Zuchthaus zu Reading“. Gebrochen und mittellos starb er 1900 mit 46 Jahren in einem Pariser Hotel. 2017 wurde er in Großbritannien posthum begnadigt.',
   ],
   quiz: {
     leicht: [
       ['Wer schrieb „Das Bildnis des Dorian Gray“?', 'Oscar Wilde', ['Robert Louis Stevenson', 'Bram Stoker', 'Arthur Conan Doyle'], null, 'wilde'],
       ['Was geschieht mit Dorian Grays Porträt?', 'Es altert an seiner Stelle', ['Es verschwindet', 'Es wird gestohlen', 'Es wird schöner'], null],
-      ['Was bleibt bei Dorian Gray unverändert?', 'Sein junges Aussehen', ['Sein Charakter', 'Sein Vermögen', 'Sein Wohnort'], null],
+      ['Was war Oscar Wildes Mutter?', 'Eine Dichterin', ['Eine Schauspielerin', 'Eine Ärztin', 'Eine Malerin'], 'Sein Vater war ein angesehener Arzt.'],
       ['In welcher Stadt wurde Wilde geboren?', 'In Dublin', ['In London', 'In Oxford', 'In Paris'], null],
       ['Wofür war Wilde in Gesellschaft berühmt?', 'Für seinen Witz', ['Für seine Stimme', 'Für sein Vermögen', 'Für seine Reisen'], null],
       ['Wie heißt Wildes bekannteste Komödie?', 'Bunbury oder Die Bedeutung, ernst zu sein', ['Lady Windermeres Fächer', 'Ein idealer Gatte', 'Salome'], null],
@@ -25,7 +25,7 @@ export const WILDE: Subtopic = {
       ['Wozu wurde Wilde 1895 verurteilt?', 'Zu zwei Jahren Zuchthaus', ['Zu einer Geldstrafe', 'Zur Verbannung', 'Zu zehn Jahren Haft'], null],
       ['In welchem Gefängnis saß Wilde?', 'In Reading', ['Im Tower', 'In Newgate', 'In Pentonville'], null],
       ['Wo starb Oscar Wilde?', 'In Paris', ['In London', 'In Dublin', 'In Reading'], null],
-      ['Wie alt wurde Wilde?', '46 Jahre', ['36 Jahre', '56 Jahre', '66 Jahre'], null],
+      ['Wie viele Romane schrieb Oscar Wilde?', 'Nur einen', ['Drei', 'Sieben', 'Zwölf'], 'Sein einziger Roman ist „Das Bildnis des Dorian Gray“.'],
     ],
     mittel: [
       ['Wann lebte Oscar Wilde?', '1854–1900', ['1812–1870', '1840–1890', '1865–1910'], null],

@@ -9,8 +9,8 @@ export const UEBERBLICK: Subtopic = {
     'Der Erste Weltkrieg zerstörte den Glauben an Fortschritt und Ordnung. Fast eine Million Briten starben; die Dichter des Krieges, Wilfred Owen und Siegfried Sassoon, schrieben gegen die Lüge vom süßen Heldentod an. Danach suchte die Literatur neue Formen für eine Welt, die nicht mehr zusammenhing. Diese Bewegung nennt man Modernism.',
     'Ihre Mittel sind der Bewusstseinsstrom, Zeitsprünge, wechselnde Erzähler, Anspielungen auf Mythen und das Fehlen eines sicheren Standpunkts. T. S. Eliots Gedicht „The Waste Land“ (1922) setzt Bruchstücke aus vielen Sprachen und Überlieferungen zusammen und gilt als Schlüsselwerk; im selben Jahr erschien James Joyce’ „Ulysses“. Joseph Conrad, ein gebürtiger Pole, der erst mit über zwanzig Englisch lernte, hatte schon 1899 mit „Herz der Finsternis“ eine düstere Abrechnung mit dem Kolonialismus geschrieben.',
     'In London trafen sich die Schriftsteller und Künstler der Bloomsbury-Gruppe, zu der Virginia Woolf gehörte. In Irland schrieb William Butler Yeats, der 1923 den Nobelpreis erhielt, Gedichte zwischen Mythos und Politik; die irische Unabhängigkeit 1922 war für die Literatur der Insel ein Einschnitt. Die englischsprachige Literatur wurde in diesen Jahrzehnten endgültig eine Weltliteratur, geschrieben auch in Irland, Amerika, Indien, Afrika und der Karibik.',
-    'In den 1930er- und 1940er-Jahren rückten politische Fragen in den Vordergrund: George Orwell schrieb gegen jede Form von Diktatur, Aldous Huxley entwarf in „Schöne neue Welt“ (1932) eine Gesellschaft, die durch Genuss und Konditionierung regiert wird. Nach 1945 kam das absurde Theater: Samuel Becketts „Warten auf Godot“ (1953) zeigt zwei Männer, die auf jemanden warten, der nie kommt.',
-    'Die zweite Jahrhunderthälfte brachte große Erzähler aus dem ganzen Commonwealth und eine Fantasy-Tradition, die weltweit wirkt: J. R. R. Tolkiens „Der Herr der Ringe“ (1954/55) und später die Harry-Potter-Bände von J. K. Rowling. Nobelpreise gingen unter anderem an Yeats, Eliot, Churchill, Golding, Seamus Heaney, Doris Lessing, Harold Pinter und Kazuo Ishiguro.',
+    'In den 1930er- und 1940er-Jahren rückten politische Fragen in den Vordergrund: George Orwell schrieb gegen jede Form von Diktatur, Aldous Huxley entwarf in „Schöne neue Welt“ (1932) eine Gesellschaft, die durch Genuss und Konditionierung regiert wird. Nach 1945 kam das absurde Theater: Samuel Becketts „Warten auf Godot“ (1953) zeigt zwei Männer, Wladimir und Estragon, die auf jemanden warten, der nie kommt.',
+    'Die zweite Jahrhunderthälfte brachte große Erzähler aus dem ganzen Commonwealth und eine Fantasy-Tradition, die weltweit wirkt: J. R. R. Tolkiens „Der Herr der Ringe“ (1954/55) und später die Harry-Potter-Bände von J. K. Rowling. Nobelpreise gingen unter anderem an Yeats, Eliot, Churchill, Golding, Seamus Heaney, Doris Lessing, Harold Pinter und den in Japan geborenen Kazuo Ishiguro.',
   ],
   quiz: {
     leicht: [
@@ -35,9 +35,9 @@ export const UEBERBLICK: Subtopic = {
       ['Wann erschien „Herz der Finsternis“?', '1899', ['1879', '1919', '1922'], null],
       ['Wann erhielt Yeats den Nobelpreis?', '1923', ['1913', '1933', '1948'], null],
       ['Wann wurde Irland unabhängig?', '1922', ['1900', '1916', '1949'], null],
-      ['Wann erschien „Schöne neue Welt“?', '1932', ['1922', '1942', '1949'], null],
+      ['Woher stammte die Familie von Kazuo Ishiguro?', 'Aus Japan', ['Aus Indien', 'Aus China', 'Aus Nigeria'], 'Er kam als Kind nach England.'],
       ['Wodurch wird Huxleys Gesellschaft regiert?', 'Durch Genuss und Konditionierung', ['Durch Angst und Folter', 'Durch Religion', 'Durch Hunger'], null],
-      ['Wann erschien „Warten auf Godot“?', '1953', ['1933', '1963', '1945'], null],
+      ['Wie heißen die beiden Wartenden in Becketts „Warten auf Godot“?', 'Wladimir und Estragon', ['Rosenkranz und Güldenstern', 'Hamm und Clov', 'Bouvard und Pécuchet'], 'Das Stück erschien 1953.'],
       ['Wann erschien „Der Herr der Ringe“?', '1954/55', ['1937', '1964', '1944'], null],
       ['Welcher britische Premierminister erhielt den Literaturnobelpreis?', 'Winston Churchill', ['David Lloyd George', 'Clement Attlee', 'Harold Macmillan'], null],
     ],

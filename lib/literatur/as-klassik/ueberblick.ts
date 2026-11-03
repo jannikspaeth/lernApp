@@ -50,7 +50,7 @@ export const UEBERBLICK: Subtopic = {
       ['Welche Dichter inspirierten die Imagisten um Ezra Pound?', 'Chinesische Lyriker und das Haiku', ['Persische Mystiker', 'Indische Epiker', 'Arabische Chronisten'], null],
       ['Welcher Roman gehört zur Ming- und Qing-Zeit?', 'Der Traum der roten Kammer', ['Das Schahname', 'Das Man’yōshū', 'Das Genji-Monogatari'], null],
       ['Wann erlebte die neupersische Dichtung ihre Blüte?', 'Nach der arabischen Eroberung', ['Vor Alexander dem Großen', 'Nur unter den Mongolen', 'Erst im 19. Jahrhundert'], null],
-      ['Was zeigt Goethes Beschäftigung mit Hafis?', 'Das wachsende Interesse Europas an Asien', ['Das Ende der Romantik', 'Einen Streit mit Schiller', 'Eine Reise nach Persien'], null],
+      ['Welches zweite große indische Epos steht neben dem Mahabharata?', 'Das Ramayana', ['Die Bhagavadgita', 'Das Schahname', 'Das Kalevala'], 'Beide entstanden nach den Veden.'],
       ['Wie nennt man ein Gedichtbuch im persischen und arabischen Raum?', 'Diwan', ['Sutra', 'Saga', 'Kanon'], null],
     ],
   },

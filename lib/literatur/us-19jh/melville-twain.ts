@@ -37,7 +37,7 @@ export const MELVILLE_TWAIN: Subtopic = {
       ['Wann wurde „Moby-Dick“ wiederentdeckt?', 'In den 1920er-Jahren', ['Sofort nach Erscheinen', 'Um 1890', 'Erst nach 1950'], null],
       ['Welche Erzählung fand man in Melvilles Nachlass?', 'Billy Budd', ['Bartleby', 'Typee', 'Omoo'], null],
       ['Woher stammt der Name „Mark Twain“?', 'Aus der Lotensprache', ['Aus der Bibel', 'Von einem Freund', 'Aus einem Roman'], 'Er bedeutet „zwei Faden Wassertiefe“.'],
-      ['Wann erschien „Tom Sawyer“?', '1876', ['1856', '1896', '1884'], null],
+      ['Wie lebte Melville nach seiner Desertion in der Südsee?', 'Eine Zeit lang bei den Einheimischen', ['Als Gefangener der Marine', 'Allein auf einer unbewohnten Insel', 'Als Händler in einem Hafen'], 'Daraus machte er erfolgreiche Abenteuerbücher.'],
       ['Wann erschien „Huckleberry Finn“?', '1884', ['1864', '1894', '1876'], null],
       ['Wovor flieht Huckleberry Finn?', 'Vor seinem trinkenden Vater', ['Vor der Polizei', 'Vor einem Lehrer', 'Vor einer Bande'], null],
     ],
@@ -51,7 +51,7 @@ export const MELVILLE_TWAIN: Subtopic = {
       ['Warum wird „Huckleberry Finn“ bis heute diskutiert?', 'Wegen der rassistischen Sprache seiner Zeit', ['Wegen seiner Länge', 'Wegen des Schlusses', 'Wegen des Autors'], null],
       ['Wodurch wurde Mark Twain zum Medienstar?', 'Durch Vortragsreisen und Reiseberichte', ['Durch Zeitungsbesitz', 'Durch Filme', 'Durch Politik'], null],
       ['Welche Berufe hatte Mark Twain außerdem?', 'Setzer, Goldsucher und Reporter', ['Arzt und Anwalt', 'Lehrer und Pfarrer', 'Soldat und Richter'], null],
-      ['Wie starb Melville in Bezug auf seinen Ruhm?', 'Fast vergessen', ['Als gefeierter Autor', 'Als reicher Mann', 'Als Nationalheld'], null],
+      ['Womit hatte Melville vor „Moby-Dick“ Erfolg?', 'Mit Abenteuerbüchern über seine Südsee-Erlebnisse', ['Mit Gedichtbänden', 'Mit Theaterstücken', 'Mit Zeitungsreportagen aus New York'], 'Mit „Moby-Dick“ verlor er dann seine Leser.'],
     ],
   },
 };

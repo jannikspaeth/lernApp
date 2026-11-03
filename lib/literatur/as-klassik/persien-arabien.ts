@@ -10,7 +10,7 @@ export const PERSIEN_ARABIEN: Subtopic = {
     '„Tausendundeine Nacht“ ist eine Sammlung von Märchen aus Indien, Persien und dem arabischen Raum, die über Jahrhunderte gewachsen ist und im 14.–16. Jahrhundert in Kairo ihre heutige Gestalt fand. Der Rahmen: Der König Schahriyar lässt jeden Morgen seine Frau töten, bis Scheherazade ihm jede Nacht eine Geschichte erzählt und an der spannendsten Stelle aufhört; nach 1001 Nächten ist er geheilt. Darin finden sich Aladin, Sindbad der Seefahrer und Ali Baba. Europa lernte das Werk 1704–1717 durch Antoine Galland kennen.',
     'In Persien entstand nach der arabischen Eroberung eine eigene Dichtung. Firdausi (940–1020) schrieb in 30 Jahren das „Schahname“, das „Königsbuch“ mit 50 000 Doppelversen, das die Geschichte Persiens von den Urzeiten bis zur arabischen Eroberung erzählt, darunter die tragische Geschichte von Rostam und Sohrab, in der ein Vater seinen Sohn im Zweikampf tötet. Es hat bis heute zur Bewahrung der persischen Sprache beigetragen.',
     'Omar Chayyam (um 1048 – um 1131) war Mathematiker und Astronom und verbesserte den persischen Kalender. Nebenbei schrieb er „Rubaijat“, Vierzeiler über die Kürze des Lebens und über Wein, die in der englischen Nachdichtung von Edward FitzGerald (1859) weltberühmt wurden. Seine Skepsis gegenüber Religion, seine Mahnung, den Augenblick zu genießen, und die Frage nach dem Sinn des Lebens sprechen viele Leser bis heute an.',
-    'Dschalaladdin Rumi (1207–1273) wurde in Balch im heutigen Afghanistan geboren, floh mit der Familie vor den Mongolen und lebte in Konya in der heutigen Türkei. Er war Gelehrter und Prediger, bis er den Wanderderwisch Schams-e Täbris traf, der sein Freund und Lehrer wurde. Nach dessen Tod schrieb Rumi das „Masnavi“, ein Lehrgedicht in rund 25 000 Versen, und gedichtete Liebesverse an Gott und den Freund. Seine Anhänger gründeten den Orden der „tanzenden Derwische“. Hafis (um 1315–1390) schrieb Lyrik über Liebe und Wein und wurde in Deutschland durch Goethes „West-östlichen Divan“ gefeiert.',
+    'Dschalaladdin Rumi (1207–1273) wurde in Balch im heutigen Afghanistan geboren, floh mit der Familie vor den Mongolen und lebte in Konya in der heutigen Türkei. Er war Gelehrter und Prediger, bis er den Wanderderwisch Schams-e Täbris traf, der sein Freund und Lehrer wurde. Nach dessen Tod schrieb Rumi das „Masnavi“, ein Lehrgedicht in rund 25 000 Versen, und gedichtete Liebesverse an Gott und den Freund. Seine Anhänger gründeten den Orden der „tanzenden Derwische“. Hafis (um 1315–1390) aus Schiras schrieb Lyrik über Liebe und Wein und wurde in Deutschland durch Goethes „West-östlichen Divan“ gefeiert.',
   ],
   quiz: {
     leicht: [
@@ -49,8 +49,8 @@ export const PERSIEN_ARABIEN: Subtopic = {
       ['Welche Haltung zeigen Omar Chayyams Rubaijat?', 'Skepsis und Mahnung, den Augenblick zu genießen', ['Fromme Demut', 'Kriegsbegeisterung', 'Treue zum Staat'], null],
       ['Wovor floh Rumis Familie?', 'Vor den Mongolen', ['Vor den Kreuzfahrern', 'Vor den Türken', 'Vor den Pocken'], null],
       ['Wie viele Verse hat Rumis Masnavi etwa?', 'Rund 25 000', ['Rund 250', 'Rund 2 500', 'Rund 250 000'], null],
-      ['Wann lebte Hafis?', 'Um 1315–1390', ['940–1020', '1048–1131', '1207–1273'], null],
-      ['Wessen Verlust machte Rumi zum Dichter?', 'Der Wanderderwisch Schams-e Täbris', ['Hafis', 'Saadi', 'Der Kalif'], null],
+      ['Worüber schrieb Hafis seine Lyrik vor allem?', 'Über Liebe und Wein', ['Über Schlachten und Könige', 'Über Mathematik und Sterne', 'Über das Leben der Bauern'], 'Goethe feierte ihn im „West-östlichen Divan“.'],
+      ['Aus welcher Stadt stammte der Dichter Hafis?', 'Aus Schiras', ['Aus Konya', 'Aus Bagdad', 'Aus Samarkand'], 'Sein Grab dort wird bis heute besucht.'],
       ['Was gilt als Meisterwerk der arabischen Sprache?', 'Der Koran', ['Das Schahname', 'Die Rubaijat', 'Das Masnavi'], null],
     ],
   },

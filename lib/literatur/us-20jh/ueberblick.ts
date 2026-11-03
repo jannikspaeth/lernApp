@@ -33,7 +33,7 @@ export const UEBERBLICK: Subtopic = {
       ['Wann entstand die Harlem Renaissance?', 'In den 1920er-Jahren', ['In den 1890er-Jahren', 'In den 1950er-Jahren', 'In den 1970er-Jahren'], null],
       ['Welche Erzählerin gehört zur Harlem Renaissance?', 'Zora Neale Hurston', ['Toni Morrison', 'Edith Wharton', 'Willa Cather'], null],
       ['Wann begann die Weltwirtschaftskrise?', '1929', ['1919', '1939', '1945'], null],
-      ['Wann erschien „Früchte des Zorns“?', '1939', ['1929', '1949', '1959'], null],
+      ['Aus wessen Sicht erlebt man den Prozess in „Wer die Nachtigall stört“?', 'Aus der Sicht eines Kindes', ['Aus der Sicht des Angeklagten', 'Aus der Sicht eines Geschworenen', 'Aus der Sicht des Richters'], 'Harper Lees Roman erschien 1960.'],
       ['Worüber schrieb Faulkner?', 'Über eine erfundene Grafschaft in Mississippi', ['Über New York', 'Über Kalifornien', 'Über Chicago'], null],
       ['Was wirkt in Faulkners Romanen nach?', 'Sklaverei und Bürgerkrieg', ['Die Einwanderung', 'Der Goldrausch', 'Die Prohibition'], null],
       ['Wann erschien „Der Fänger im Roggen“?', '1951', ['1941', '1961', '1971'], null],
@@ -51,7 +51,7 @@ export const UEBERBLICK: Subtopic = {
       ['Welcher Amerikaner erhielt als Erster den Literaturnobelpreis?', 'Sinclair Lewis', ['Eugene O’Neill', 'Pearl S. Buck', 'William Faulkner'], null],
       ['Welcher amerikanische Dramatiker erhielt den Literaturnobelpreis?', 'Eugene O’Neill', ['Tennessee Williams', 'Arthur Miller', 'Edward Albee'], null],
       ['Wodurch wurde die amerikanische Literatur ab den 1970er-Jahren vielstimmiger?', 'Durch Autorinnen und Autoren verschiedener Herkunft', ['Durch neue Verlage', 'Durch das Fernsehen', 'Durch Übersetzungen'], null],
-      ['Wo lebte die „verlorene Generation“ vor allem?', 'In Paris', ['In London', 'In Berlin', 'In Rom'], null],
+      ['In welcher Stadt lagen die Schlachthöfe aus Upton Sinclairs Roman?', 'In Chicago', ['In New York', 'In Kansas City', 'In Detroit'], 'Der Roman löste neue Lebensmittelgesetze aus.'],
     ],
   },
 };

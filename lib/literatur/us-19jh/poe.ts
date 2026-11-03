@@ -23,7 +23,7 @@ export const POE: Subtopic = {
       ['Wo spielt Poes „Die Grube und das Pendel“?', 'In einer Folterkammer der Inquisition', ['Auf einem Schiff', 'In einem Schloss', 'In einer Kirche'], null],
       ['Was war Poe beruflich?', 'Redakteur und Kritiker', ['Arzt', 'Anwalt', 'Lehrer'], null],
       ['Wie lebte Poe trotz seines Ruhms?', 'Fast immer in Armut', ['Im Wohlstand', 'Als Gutsbesitzer', 'Auf Reisen'], null],
-      ['Wie alt wurde Poe?', '40 Jahre', ['30 Jahre', '50 Jahre', '60 Jahre'], null],
+      ['In welcher Stadt starb Edgar Allan Poe?', 'In Baltimore', ['In Boston', 'In Richmond', 'In Philadelphia'], 'Die Umstände seines Todes sind ungeklärt.'],
       ['Wer übersetzte Poe ins Französische?', 'Charles Baudelaire', ['Victor Hugo', 'Émile Zola', 'Gustave Flaubert'], null],
       ['Wo wurde Poe geboren?', 'In Boston', ['In Baltimore', 'In Richmond', 'In New York'], null],
     ],
@@ -51,7 +51,7 @@ export const POE: Subtopic = {
       ['Welchen Ruf hatte Poe als Kritiker?', 'Er war gefürchtet', ['Er war milde', 'Er schrieb keine Kritiken', 'Er lobte alles'], null],
       ['Über welchen Umweg wirkte Poe auf die moderne Literatur?', 'Über die französische Übersetzung', ['Über deutsche Schulen', 'Über englische Zeitungen', 'Über russische Autoren'], null],
       ['Welche Rolle spielt der Rabe in Poes Gedicht?', 'Er antwortet auf jede Frage gleich', ['Er spricht lange Reden', 'Er greift an', 'Er fliegt davon'], null],
-      ['Woran litt Poes Leben wirtschaftlich?', 'Er konnte vom Schreiben kaum leben', ['Er verlor ein Erbe', 'Er wurde bestohlen', 'Er zahlte hohe Steuern'], null],
+      ['Wie alt war Poe, als seine Mutter starb?', 'Zwei Jahre', ['Zehn Jahre', 'Sechzehn Jahre', 'Sie überlebte ihn'], 'Der Vater war schon vorher verschwunden.'],
     ],
   },
 };

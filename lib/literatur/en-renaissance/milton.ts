@@ -51,7 +51,7 @@ export const MILTON: Subtopic = {
       ['Was tat Milton nach der Hinrichtung des Königs?', 'Er verteidigte die Republik in Streitschriften', ['Er schwieg', 'Er floh nach Frankreich', 'Er wurde Mönch'], null],
       ['Wohin reiste Milton als junger Mann?', 'Nach Italien', ['Nach Amerika', 'Nach Spanien', 'In die Türkei'], null],
       ['Welches Bild nutzt Donne für zwei Liebende?', 'Die Schenkel eines Zirkels', ['Zwei Bäume', 'Zwei Flüsse', 'Zwei Sterne'], null],
-      ['Was tat Milton, bevor er erblindete?', 'Er diente der Republik als Lateinsekretär', ['Er leitete ein Theater', 'Er lehrte in Cambridge', 'Er war Kaufmann'], null],
+      ['Womit vergleicht Donne die Seele in einem seiner kühnen Bilder?', 'Mit einer Landkarte', ['Mit einem Spiegel', 'Mit einer Kerze', 'Mit einem Schiff'], 'Solche Vergleiche nennt man metaphysisch.'],
     ],
   },
 };

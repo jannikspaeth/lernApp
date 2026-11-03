@@ -43,7 +43,7 @@ export const UEBERBLICK: Subtopic = {
     ],
     schwer: [
       ['Was verbarg sich hinter der strengen viktorianischen Moral?', 'Elend und vieles, worüber man nicht sprach', ['Nichts, sie wurde gelebt', 'Ein neues Staatswesen', 'Eine religiöse Erweckung'], null],
-      ['Warum schrieb Mary Ann Evans unter einem Männernamen?', 'Um als Autorin ernst genommen zu werden', ['Um Steuern zu sparen', 'Weil ihr Mann es verlangte', 'Weil Frauen nicht drucken durften'], null],
+      ['Wer schrieb „Dracula“?', 'Bram Stoker', ['Robert Louis Stevenson', 'Arthur Conan Doyle', 'Wilkie Collins'], 'Der Roman erschien 1897.'],
       ['Welche Wirkung hatte Darwins Buch auf die Literatur?', 'Es stellte religiöse Gewissheiten infrage', ['Es war ohne Wirkung', 'Es verbot religiöse Stoffe', 'Es förderte das Märchen'], null],
       ['Was zeigt „Tess von den d’Urbervilles“?', 'Wie eine Frau an Moral und Gesellschaft zugrunde geht', ['Den Aufstieg einer Fabrikantin', 'Eine Seereise', 'Einen Kriminalfall'], null],
       ['Welche Gattung begründete Conan Doyle?', 'Den modernen Detektivroman', ['Den Schauerroman', 'Den historischen Roman', 'Die Science-Fiction'], null],

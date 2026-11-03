@@ -33,7 +33,7 @@ export const HEMINGWAY_FITZGERALD: Subtopic = {
       ['Wo lebte Hemingway in den 1920er-Jahren?', 'In Paris', ['In Kuba', 'In Spanien', 'In Florida'], null],
       ['Aus welchem Krieg berichtete Hemingway als Reporter?', 'Aus dem Spanischen Bürgerkrieg', ['Aus dem Koreakrieg', 'Aus dem Vietnamkrieg', 'Aus dem Burenkrieg'], null],
       ['Wann erschien „Fiesta“?', '1926', ['1916', '1936', '1946'], null],
-      ['Wann erschien „Der alte Mann und das Meer“?', '1952', ['1942', '1962', '1932'], null],
+      ['Wo lebte Hemingway nach seinen Pariser Jahren?', 'In Florida und auf Kuba', ['In Kalifornien und Mexiko', 'In London und Rom', 'In Alaska und Kanada'], 'Er war begeisterter Jäger und Fischer.'],
       ['Wie viele Tage hatte Santiago vor seinem großen Fang nichts gefangen?', '84 Tage', ['8 Tage', '184 Tage', '40 Tage'], null],
       ['Welchen Preis erhielt Hemingway 1953 für „Der alte Mann und das Meer“?', 'Den Pulitzer-Preis', ['Den Nobelpreis', 'Den Booker-Preis', 'Den Goncourt-Preis'], null],
       ['Wie starb Hemingway?', 'Er nahm sich 1961 das Leben', ['Bei einem Flugzeugabsturz', 'An einer Krankheit', 'Bei einer Jagd'], null],
