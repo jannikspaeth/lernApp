@@ -38,7 +38,7 @@ export const TRAGIKER: Subtopic = {
       ['Wann lebte Sophokles?', '497–406 v. Chr.', ['525–456 v. Chr.', '480–350 v. Chr.', '450–385 v. Chr.'], null],
       ['Wie oft gewann Sophokles etwa den Dichterwettstreit?', 'Etwa 24-mal', ['Einmal', 'Dreimal', 'Hundertmal'], null],
       ['Wogegen richtet sich Euripides’ Stück „Die Troerinnen“?', 'Gegen den Krieg', ['Gegen die Götter', 'Gegen die Perser', 'Gegen Sparta'], null],
-      ['Wann lebte Aristophanes etwa?', 'Um 450 – um 385 v. Chr.', ['Um 525–456 v. Chr.', 'Um 497–406 v. Chr.', 'Um 480–406 v. Chr.'], null],
+      ['Was kennzeichnet die Komödien des Aristophanes?', 'Spott und Fantasie', ['Strenge Regeln und Trauer', 'Belehrung ohne Witz', 'Religiöse Andacht'], 'Er lebte um 450 – um 385 v. Chr.'],
       ['Was gründen die Vögel in Aristophanes’ Komödie „Die Vögel“?', 'Wolkenkuckucksheim', ['Eine Insel', 'Ein Tempel', 'Ein Schiff'], null],
     ],
     schwer: [

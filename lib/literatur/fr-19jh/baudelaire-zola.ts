@@ -47,7 +47,7 @@ export const BAUDELAIRE_ZOLA: Subtopic = {
       ['Wie endete die Dreyfus-Affäre?', 'Dreyfus wurde rehabilitiert', ['Er blieb verurteilt', 'Er floh', 'Er starb in Haft'], null],
       ['Woran starb Zola?', 'An einer Kohlenmonoxidvergiftung', ['An Tuberkulose', 'Im Duell', 'An Altersschwäche'], 'Ob es ein Unfall war, ist bis heute umstritten.'],
       ['Was bedeutet der Titel „Die Blumen des Bösen“?', 'Schönheit, die aus dem Verfall wächst', ['Eine Gartenbeschreibung', 'Ein Kriegsbild', 'Ein Gebet'], null],
-      ['Welche Haltung verbindet Baudelaire mit der Moderne?', 'Der Blick auf das Hässliche als Gegenstand der Kunst', ['Die Rückkehr zur Antike', 'Der Glaube an den Fortschritt', 'Die Naturverehrung'], null],
+      ['Womit handelte Arthur Rimbaud in Afrika?', 'Mit Waffen und Kaffee', ['Mit Elfenbein und Gold', 'Mit Gewürzen und Tee', 'Mit Büchern'], 'Er hatte mit 20 Jahren aufgehört zu dichten.'],
       ['Was kennzeichnet die Verse Paul Verlaines?', 'Musikalische Weichheit', ['Strenge Logik', 'Epische Breite', 'Derber Spott'], null],
       ['Warum wurde Zolas „Germinal“ ein Klassiker?', 'Es schildert den Arbeitskampf mit großer Wucht', ['Es ist sehr kurz', 'Es ist komisch', 'Es spielt am Hof'], null],
       ['Welche Rolle spielte die Presse im Fall Dreyfus?', 'Sie machte den Fall zur öffentlichen Auseinandersetzung', ['Sie schwieg', 'Sie war verboten', 'Sie berichtete erst nach Jahren'], null],

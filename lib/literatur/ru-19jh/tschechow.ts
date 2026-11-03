@@ -25,7 +25,7 @@ export const TSCHECHOW: Subtopic = {
       ['Wer machte „Die Möwe“ zum Erfolg?', 'Konstantin Stanislawski', ['Wsewolod Meyerhold', 'Maxim Gorki', 'Olga Knipper'], 'Am Moskauer Künstlertheater.'],
       ['Was wurde nach Tschechows Stück zum Emblem des Moskauer Künstlertheaters?', 'Die Möwe', ['Der Kirschbaum', 'Die Taube', 'Der Adler'], null],
       ['Woran starb Tschechow?', 'An Tuberkulose', ['An der Cholera', 'An einer Verletzung', 'An einem Herzleiden'], null],
-      ['Wie alt wurde Tschechow?', '44 Jahre', ['34 Jahre', '54 Jahre', '64 Jahre'], null],
+      ['Was schrieb Tschechow nach seiner Reise nach Sachalin?', 'Einen Bericht über die Zustände', ['Einen Abenteuerroman', 'Ein Drama über Sträflinge', 'Nichts, er schwieg darüber'], 'Er war quer durch Sibirien gereist.'],
     ],
     mittel: [
       ['Wann lebte Tschechow?', '1860–1904', ['1828–1910', '1821–1881', '1868–1936'], null],
@@ -51,7 +51,7 @@ export const TSCHECHOW: Subtopic = {
       ['Warum verschwieg Tschechow seine Krankheit lange?', 'Er war Arzt und kannte die Prognose', ['Er wusste nichts davon', 'Er fürchtete Haft', 'Er wollte reisen'], null],
       ['Was zeigt „Der Kirschgarten“ gesellschaftlich?', 'Den Niedergang des Landadels', ['Den Aufstieg der Arbeiter', 'Die Revolution', 'Die Industrialisierung der Städte'], null],
       ['Welches Theater prägte Tschechows Stücke?', 'Das Moskauer Künstlertheater', ['Das Bolschoi-Theater', 'Das Mariinski-Theater', 'Das Maly-Theater'], null],
-      ['Wie viele Sträflinge befragte Tschechow auf Sachalin etwa?', 'Mehrere Tausend', ['Ein Dutzend', 'Hundert', 'Niemanden'], null],
+      ['Wann wurde „Der Kirschgarten“ uraufgeführt?', 'In Tschechows Todesjahr 1904', ['Zehn Jahre vor seinem Tod', 'Nach der Revolution von 1917', '1896, zusammen mit der „Möwe“'], 'Es war sein letztes Drama.'],
     ],
   },
 };

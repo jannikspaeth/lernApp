@@ -46,7 +46,7 @@ export const UEBERBLICK: Subtopic = {
       ['Was kennzeichnet einen Nihilisten im Sinne Turgenjews?', 'Er erkennt keine überlieferte Autorität an', ['Er ist gewalttätig', 'Er ist gläubig', 'Er ist Künstler'], null],
       ['Welche Wirkung hatten die „Aufzeichnungen eines Jägers“?', 'Sie gelten als Beitrag zur Befreiung der Leibeigenen', ['Sie wurden verboten und vergessen', 'Sie waren ein Jagdhandbuch', 'Sie blieben unbekannt'], null],
       ['Was ist das Besondere an Tschechows Dramen?', 'Sie verzichten auf große Ereignisse', ['Sie haben viele Schlachten', 'Sie sind in Versen', 'Sie sind sehr kurz'], null],
-      ['Warum sprach die Oberschicht Französisch?', 'Es galt als Sprache der Bildung', ['Russisch war verboten', 'Der Zar befahl es', 'Es gab kein Russisch in Büchern'], null],
+      ['Welcher Teil der Bevölkerung lebte in Russland bis 1861 als Leibeigene?', 'Die Mehrheit', ['Etwa ein Zehntel', 'Nur die Bewohner Sibiriens', 'Nur Kriegsgefangene'], 'Erst 1861 wurde die Leibeigenschaft aufgehoben.'],
       ['Welche Rolle spielte die Zensur im Zarenreich für die Form?', 'Autoren schrieben verschlüsselt und indirekt', ['Sie schrieben kürzer', 'Sie schrieben auf Französisch', 'Sie hörten auf'], null],
       ['Welche Wirkung hatte die russische Literatur im Westen?', 'Sie beeinflusste die westliche Literatur stark', ['Sie blieb unbeachtet', 'Sie wurde verboten', 'Sie galt als altmodisch'], null],
       ['Welcher Autor steht am Anfang des goldenen Zeitalters?', 'Puschkin', ['Tolstoi', 'Tschechow', 'Gorki'], null],

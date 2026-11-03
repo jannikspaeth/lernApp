@@ -28,7 +28,7 @@ export const OVID_CICERO: Subtopic = {
       ['Welche philosophische Haltung vertrat Seneca?', 'Die Stoa', ['Den Epikureismus', 'Den Skeptizismus', 'Den Zynismus'], 'Gelassenheit gegenüber dem, was man nicht ändern kann.'],
     ],
     mittel: [
-      ['Wann lebte Ovid?', '43 v. Chr. – 17 n. Chr.', ['70–19 v. Chr.', '65–8 v. Chr.', '106–43 v. Chr.'], null],
+      ['Welchen Beruf sollte Ovid eigentlich ergreifen?', 'Jurist', ['Priester', 'Soldat', 'Arzt'], 'Er schrieb lieber Verse.'],
       ['Wann verbannte Augustus Ovid?', '8 n. Chr.', ['44 v. Chr.', '27 v. Chr.', '65 n. Chr.'], null],
       ['In welcher Stadt lebte Ovid in der Verbannung?', 'In Tomis', ['In Neapel', 'In Alexandria', 'In Karthago'], null],
       ['Wie nannte Ovid den Grund seiner Verbannung?', 'Ein Gedicht und einen Irrtum', ['Einen Mord', 'Eine Verschwörung', 'Schulden'], null],
@@ -50,8 +50,8 @@ export const OVID_CICERO: Subtopic = {
       ['Wie lautet eine berühmte Weisheit Senecas über das Leben?', 'Das Leben ist lang, wenn man es zu nutzen weiß', ['Das Leben ist nur ein Traum', 'Das Leben ist ein ewiger Kampf', 'Das Leben ist ein Spiel der Götter'], null],
       ['Wie heißen Senecas philosophische Briefe?', 'Briefe an Lucilius', ['Briefe an Nero', 'Briefe an Cicero', 'Briefe an Augustus'], null],
       ['Wessen Werke beeinflussten Shakespeares Tragödien?', 'Senecas Tragödien', ['Ciceros Reden', 'Ovids Liebesbriefe', 'Caesars Kriegsberichte'], null],
-      ['Welche Rolle hatte Seneca am Kaiserhof?', 'Berater Neros', ['Feldherr', 'Dichter am Hof', 'Priester'], null],
-      ['Was war Ovids „Ars amatoria“?', 'Eine witzige Anleitung zum Verführen', ['Ein Gesetzbuch', 'Ein Kochbuch', 'Eine Grammatik'], null],
+      ['Was rät Seneca in seinen „Briefen an Lucilius“ vor allem?', 'Gelassen zu bleiben bei dem, was man nicht ändern kann', ['Die Lust zu suchen und Schmerz zu meiden', 'Sich ganz aus der Welt zurückzuziehen', 'Dem Kaiser in allem zu gehorchen'], 'Lucilius war ein Freund Senecas.'],
+      ['In was wird Arachne in Ovids „Metamorphosen“ verwandelt?', 'In eine Spinne', ['In eine Eule', 'In eine Schlange', 'In einen Schmetterling'], 'Das Werk erzählt über 250 Verwandlungen.'],
     ],
   },
 };

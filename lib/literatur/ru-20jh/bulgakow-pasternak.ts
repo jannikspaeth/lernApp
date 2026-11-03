@@ -48,7 +48,7 @@ export const BULGAKOW_PASTERNAK: Subtopic = {
       ['Was bedeutet „Manuskripte brennen nicht“?', 'Wahre Literatur lässt sich nicht vernichten', ['Papier ist feuerfest', 'Bücher sind wertlos', 'Autoren sollen Abschriften machen'], null],
       ['Warum ist der Pilatus-Teil in Bulgakows Roman wichtig?', 'Er spiegelt Macht, Angst und Verantwortung', ['Er ist nur Beiwerk', 'Er erklärt die Religion', 'Er ist eine Parodie'], null],
       ['Wovon handelt „Doktor Schiwago“?', 'Vom Zerrieben-Werden zwischen Revolution, Bürgerkrieg und Liebe', ['Von einer Seuche', 'Von einem Prozess', 'Von einer Expedition'], null],
-      ['Was wurde Pasternak 1958 zur Wahl gestellt?', 'Den Preis abzulehnen oder das Land zu verlassen', ['Preis oder Gefängnis', 'Preis oder Berufsverbot', 'Preis oder Umzug'], null],
+      ['Was ist Juri Schiwago außer Arzt?', 'Dichter', ['Offizier', 'Priester', 'Maler'], 'Pasternak selbst war vor allem als Lyriker angesehen.'],
       ['Wer kam zu Pasternaks Beerdigung?', 'Tausende trotz offizieller Ächtung', ['Nur die Familie', 'Niemand', 'Die Regierung'], null],
       ['Wann nahm Pasternaks Sohn die Medaille entgegen?', '1989', ['1960', '1970', '2000'], null],
       ['Was verbindet „Der Meister und Margarita“ und „Doktor Schiwago“?', 'Beide konnten zu Lebzeiten der Autoren nicht frei erscheinen', ['Beide wurden sofort gedruckt', 'Beide wurden als Film verboten', 'Beide blieben unvollendet'], null],

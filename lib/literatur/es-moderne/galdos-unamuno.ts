@@ -8,7 +8,7 @@ export const GALDOS_UNAMUNO: Subtopic = {
   text: [
     'Benito Pérez Galdós (1843–1920) wurde auf Gran Canaria geboren und zog mit 19 Jahren nach Madrid, um Jura zu studieren, schrieb aber bald nur noch. Er gilt nach Cervantes als größter spanischer Romanschriftsteller. In seinen „Episodios nacionales“ (46 Bände) erzählt er die Geschichte Spaniens vom Seesieg bei Trafalgar 1805 bis zum Jahr 1880 als Romane, in denen erfundene Figuren die großen Ereignisse miterleben.',
     'Sein Meisterwerk ist „Fortunata y Jacinta“ (1886/87): zwei Frauen, die dasselbe Mann lieben, die eine aus der Unterschicht, die andere aus dem Bürgertum, und dahinter das ganze Madrid der Zeit mit Händlern, Beamten und Priestern. Galdós beschrieb die Gesellschaft mit Genauigkeit und Mitgefühl, und er kritisierte die Macht der Kirche und die Rückständigkeit des Landes. Er wurde im Alter fast blind und wurde mehrfach, aber vergeblich, für den Nobelpreis vorgeschlagen.',
-    'Miguel de Unamuno (1864–1936) war Philosoph, Dichter, Romanautor und Professor für Griechisch in Salamanca, wo er auch Rektor der Universität war. Sein Thema war die Frage, wie der Mensch mit dem Wissen um den Tod leben kann: „Das tragische Lebensgefühl“ (1912). Er suchte Glauben im Zweifel, nicht in Sicherheit, und war leidenschaftlich eigensinnig; mit den Diktaturen von Primo de Rivera und später Franco geriet er in Konflikt.',
+    'Miguel de Unamuno (1864–1936), geboren in Bilbao im Baskenland, war Philosoph, Dichter, Romanautor und Professor für Griechisch in Salamanca, wo er auch Rektor der Universität war. Sein Thema war die Frage, wie der Mensch mit dem Wissen um den Tod leben kann: „Das tragische Lebensgefühl“ (1912). Er suchte Glauben im Zweifel, nicht in Sicherheit, und war leidenschaftlich eigensinnig; mit den Diktaturen von Primo de Rivera und später Franco geriet er in Konflikt.',
     'In seinem Roman „Nebel“ (Niebla, 1914) beschließt der Held Augusto Pérez, sich das Leben zu nehmen, und besucht vorher den Autor Unamuno, der ihm sagt, er habe kein Recht dazu, weil er nur eine Romanfigur sei. Augusto antwortet, dann sei auch Unamuno nur ein Traum Gottes. Unamuno nannte solche Bücher „Nivolas“, weil sie sich nicht an die Regeln des Romans hielten. Ein anderes Buch, „Abel Sánchez“ (1917), erzählt von Neid und Hass zwischen zwei Freunden.',
     'Berühmt wurde Unamuno auch durch eine Szene im Oktober 1936, kurz nach Beginn des Bürgerkriegs. Bei einer Feier in der Universität Salamanca rief ein Franco-General „Es lebe der Tod!“ Unamuno antwortete, man werde siegen, aber nicht überzeugen, denn dazu brauche man, was ihnen fehle: Vernunft und Recht. Er wurde abgesetzt, unter Hausarrest gestellt und starb wenige Wochen später.',
   ],
@@ -25,7 +25,7 @@ export const GALDOS_UNAMUNO: Subtopic = {
       ['Wie heißt Unamunos Roman über Augusto Pérez?', 'Nebel', ['Der Schatten', 'Der Dunst', 'Das Meer'], null],
       ['Was beschließt Augusto Pérez in Unamunos „Nebel“?', 'Sich das Leben zu nehmen', ['Auszuwandern', 'Zu heiraten', 'Ein Buch zu schreiben'], null],
       ['Wen besucht Augusto Pérez in „Nebel“ vorher?', 'Den Autor Unamuno', ['Einen Priester', 'Seine Mutter', 'Den König'], null],
-      ['Wann starb Unamuno?', '1936', ['1920', '1898', '1975'], null],
+      ['In welcher Stadt wurde Miguel de Unamuno geboren?', 'In Bilbao', ['In Salamanca', 'In Madrid', 'In Sevilla'], 'Bilbao liegt im Baskenland.'],
     ],
     mittel: [
       ['Wann lebte Galdós?', '1843–1920', ['1864–1936', '1798–1860', '1900–1975'], null],

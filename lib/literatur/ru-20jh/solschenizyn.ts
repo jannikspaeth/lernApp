@@ -39,7 +39,7 @@ export const SOLSCHENIZYN: Subtopic = {
       ['Wie viele Überlebende befragte Solschenizyn für den „Archipel Gulag“?', 'Über 200', ['Rund 20', 'Rund 2.000', 'Nur sich selbst'], null],
       ['Welchen Zeitraum behandelt „Der Archipel Gulag“?', '1918 bis 1956', ['1941 bis 1945', '1953 bis 1964', '1900 bis 1917'], null],
       ['Wo wurde „Der Archipel Gulag“ zuerst gedruckt?', 'In Paris', ['In Moskau', 'In New York', 'In London'], 'Nachdem der Geheimdienst ein Exemplar gefunden hatte.'],
-      ['Wann kehrte Solschenizyn nach Russland zurück?', '1994', ['1974', '1984', '2004'], null],
+      ['Was löste 1973 den Druck des „Archipel Gulag“ in Paris aus?', 'Der Geheimdienst hatte ein Exemplar gefunden', ['Solschenizyn erhielt den Nobelpreis', 'Stalin war gestorben', 'Ein Verlag hatte ihn bestochen'], 'Ein Jahr später wurde er ausgebürgert.'],
     ],
     schwer: [
       ['Was antwortete Achmatowa der Frau in der Gefängnisschlange auf die Frage, ob sie das beschreiben könne?', '„Ich kann“', ['„Niemals“', '„Ich weiß nicht“', '„Später“'], 'Die Frau hatte gefragt, ob sie das beschreiben könne.'],
@@ -51,7 +51,7 @@ export const SOLSCHENIZYN: Subtopic = {
       ['Was kritisierte Solschenizyn im Exil auch?', 'Den Westen', ['Nur die Sowjetunion', 'Die Kirche', 'Die Literatur'], null],
       ['Welche Wirkung hatte „Der Archipel Gulag“?', 'Niemand konnte mehr sagen, man habe nichts gewusst', ['Keine', 'Er wurde nur in Russland gelesen', 'Er wurde als Roman gelesen'], null],
       ['Was überlebte Solschenizyn neben den Lagern?', 'Eine Krebserkrankung', ['Einen Flugzeugabsturz', 'Eine Hungersnot', 'Ein Attentat'], null],
-      ['Wie lange lebte Solschenizyn im Exil?', 'Zwanzig Jahre', ['Zwei Jahre', 'Fünf Jahre', 'Vierzig Jahre'], null],
+      ['In welchem US-Bundesstaat lebte Solschenizyn im Exil?', 'In Vermont', ['In Kalifornien', 'In Alaska', 'In New York'], 'Er lebte dort zurückgezogen.'],
     ],
   },
 };

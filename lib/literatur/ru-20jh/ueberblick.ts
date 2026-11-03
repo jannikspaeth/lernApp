@@ -49,7 +49,7 @@ export const UEBERBLICK: Subtopic = {
       ['Wo erschien „Doktor Schiwago“ zuerst?', 'In Italien', ['In Frankreich', 'In der Sowjetunion', 'In den USA'], 'Das war 1957.'],
       ['Wo erschien „Archipel Gulag“ zuerst?', 'In Paris', ['In Moskau', 'In London', 'In New York'], 'Das war 1973.'],
       ['Welche Rolle spielte Gorki nach der Revolution?', 'Er galt als Vorbild des sozialistischen Realismus', ['Er emigrierte für immer', 'Er wurde verfolgt und erschossen', 'Er schrieb nicht mehr'], null],
-      ['Was unterscheidet Samisdat von Tamisdat?', 'Samisdat im Inland, Tamisdat im Ausland gedruckt', ['Samisdat war erlaubt', 'Tamisdat war handschriftlich', 'Es ist dasselbe'], null],
+      ['Was bedeutete die Revolution von 1917 für Iwan Bunin?', 'Er ging ins Exil', ['Er wurde Volkskommissar', 'Er wurde erschossen', 'Er wurde Leiter des Schriftstellerverbands'], 'Er lebte danach in Frankreich.'],
       ['Welcher Lyriker des silbernen Zeitalters erhielt später den Nobelpreis?', 'Boris Pasternak', ['Ossip Mandelstam', 'Alexander Blok', 'Marina Zwetajewa'], null],
       ['Welcher 1987 ausgezeichnete Dichter war aus der UdSSR ausgewiesen worden?', 'Joseph Brodsky', ['Andrej Sacharow', 'Jewgeni Jewtuschenko', 'Bulat Okudschawa'], null],
     ],

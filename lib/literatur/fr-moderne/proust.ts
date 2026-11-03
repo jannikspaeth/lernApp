@@ -24,7 +24,7 @@ export const PROUST: Subtopic = {
       ['Wann schrieb Proust meist?', 'In der Nacht', ['Am Morgen', 'Am Nachmittag', 'Nur im Sommer'], null],
       ['Wie heißt der Kindheitsort in Prousts „Suche nach der verlorenen Zeit“?', 'Combray', ['Balbec', 'Guermantes', 'Méséglise'], null],
       ['Was kann laut Proust die verlorene Zeit festhalten?', 'Die Kunst', ['Die Wissenschaft', 'Die Fotografie', 'Die Religion'], null],
-      ['Wie alt wurde Proust?', '51 Jahre', ['41 Jahre', '61 Jahre', '71 Jahre'], null],
+      ['Aus welcher Familie stammte Prousts Mutter?', 'Aus einer jüdischen Kaufmannsfamilie', ['Aus dem alten Adel', 'Aus einer Bauernfamilie', 'Aus einer Familie von Ärzten'], 'Prousts Vater war ein angesehener Arzt.'],
       ['In welcher Stadt lebte Proust?', 'In Paris', ['In Lyon', 'In Nizza', 'In Genf'], null],
     ],
     mittel: [
@@ -46,7 +46,7 @@ export const PROUST: Subtopic = {
       ['Welche gesellschaftliche Bewegung zeigt Prousts Roman?', 'Den Aufstieg des Bürgertums und den Verfall des Adels', ['Die Arbeiterbewegung', 'Die Bauernbefreiung', 'Die Kolonialherrschaft'], null],
       ['Warum ist der Madeleine-Moment so wichtig?', 'Er zeigt, dass ein Sinneseindruck die Vergangenheit zurückholt', ['Er erklärt die Handlung', 'Er führt die Hauptfigur ein', 'Er beendet den Roman'], null],
       ['Was leistet Prousts langer Satz?', 'Er schreibt eine Wahrnehmung mit allen Abzweigungen aus', ['Er fasst zusammen', 'Er beschleunigt die Handlung', 'Er imitiert Dialekt'], null],
-      ['Was steht am Ende von Prousts Romanwerk als Erkenntnis?', 'Dass die Kunst die verlorene Zeit bewahren kann', ['Dass alles vergeblich ist', 'Dass die Liebe siegt', 'Dass die Gesellschaft sich bessert'], null],
+      ['Für welchen Band erhielt Proust den Prix Goncourt?', 'Für den zweiten', ['Für den ersten', 'Für den letzten', 'Für das Gesamtwerk nach seinem Tod'], 'Der erste Band war 1913 auf eigene Kosten erschienen.'],
       ['Welcher Krieg kommt in den späten Bänden von Prousts Romanwerk vor?', 'Der Erste Weltkrieg', ['Der Deutsch-Französische Krieg', 'Der Zweite Weltkrieg', 'Der Krimkrieg'], null],
       ['Wie lebte Proust in seinen letzten Jahren?', 'Fast nur noch im Schlafzimmer', ['Auf Reisen', 'Auf dem Land', 'In der Schweiz'], null],
       ['Was beschreibt Proust an der Liebe besonders?', 'Die Eifersucht', ['Die Treue', 'Die Ehe', 'Die Freundschaft'], null],

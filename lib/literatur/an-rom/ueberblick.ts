@@ -47,7 +47,7 @@ export const UEBERBLICK: Subtopic = {
       ['Was war das Verdienst Ciceros für die lateinische Sprache?', 'Er formte sie zur Sprache der Bildung', ['Er erfand sie', 'Er schaffte sie ab', 'Er übersetzte sie'], null],
       ['Wie war die römische Literatur unter Nero?', 'Kritischer, unter dem Druck des Kaisers', ['Völlig frei', 'Ganz verboten', 'Nur religiös'], null],
       ['Was beschreibt der Dichter Lucan?', 'Den Bürgerkrieg', ['Die Gründung Roms', 'Die Liebe', 'Das Landleben'], null],
-      ['Welche neue Literatur brachte das Christentum?', 'Zum Beispiel Autobiografien wie die „Bekenntnisse“', ['Komödien', 'Epen', 'Oden'], null],
+      ['Wer schrieb „Der goldene Esel“?', 'Apuleius', ['Petron', 'Ovid', 'Juvenal'], 'Er stammte aus Nordafrika.'],
       ['Wie beeinflusste die römische Komödie spätere Dichter?', 'Molière und Shakespeare griffen sie auf', ['Sie blieb unbekannt', 'Sie wurde verboten', 'Sie wurde zu Prosa'], null],
       ['Wie lange blieb Latein in Europa Bildungssprache?', 'Bis weit in die Neuzeit', ['Nur bis zu Augustus', 'Nur bis zum Mittelalter', 'Nur in Rom'], null],
       ['Wie sind Tacitus’ Geschichtswerke?', 'Nüchtern und bitter', ['Heiter und verspielt', 'Gereimt', 'Legendenhaft'], null],

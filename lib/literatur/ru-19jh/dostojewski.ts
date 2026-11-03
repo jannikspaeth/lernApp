@@ -6,7 +6,7 @@ export const DOSTOJEWSKI: Subtopic = {
   date: '1821–1881',
   images: ['dostojewski'],
   text: [
-    'Fjodor Dostojewski wurde 1821 in Moskau geboren, wo sein Vater Arzt an einem Armenkrankenhaus war. Mit 28 Jahren wurde er als Mitglied eines Kreises von Intellektuellen verhaftet, die verbotene Schriften lasen. Das Urteil lautete auf Tod durch Erschießen. Am 22. Dezember 1849 wurden die Verurteilten auf den Platz geführt, die ersten an Pfähle gebunden, und erst im letzten Augenblick verlas man die Begnadigung: vier Jahre Zwangsarbeit in Sibirien und anschließend Militärdienst. Dieses Scheinhinrichtung prägte ihn für immer.',
+    'Fjodor Dostojewski wurde 1821 in Moskau geboren, wo sein Vater Arzt an einem Armenkrankenhaus war. Mit 28 Jahren wurde er als Mitglied eines Kreises von Intellektuellen verhaftet, die verbotene Schriften lasen. Das Urteil lautete auf Tod durch Erschießen. Am 22. Dezember 1849 wurden die Verurteilten auf den Platz geführt, die ersten an Pfähle gebunden, und erst im letzten Augenblick verlas man die Begnadigung: vier Jahre Zwangsarbeit in Sibirien und anschließend Militärdienst. Diese Scheinhinrichtung prägte ihn für immer.',
     'In Sibirien lebte er unter Mördern und Dieben, las nur das Neue Testament und kehrte als gläubiger, politisch konservativer Mensch zurück. Dazu kamen Epilepsie und eine Spielsucht, die ihn immer wieder ruinierte; mehrere Bücher schrieb er unter Zeitdruck, um Schulden zu tilgen. „Der Spieler“ diktierte er in 26 Tagen einer jungen Stenografin, die er kurz darauf heiratete.',
     '„Schuld und Sühne“ (1866) erzählt von dem verarmten Studenten Raskolnikow, der eine alte Pfandleiherin erschlägt, weil er glaubt, außergewöhnliche Menschen dürften über gewöhnliche Gesetze hinweggehen. Die Tat zerstört ihn innerlich; erst durch die Prostituierte Sonja und das Geständnis findet er einen Weg zurück. Der Roman ist zugleich Kriminalgeschichte und Untersuchung eines Gewissens.',
     'Es folgten „Der Idiot“ (1869) über den gutherzigen Fürsten Myschkin, der an der Gesellschaft scheitert, „Die Dämonen“ (1872) über eine Gruppe von Revolutionären, deren Ideen in Mord münden, und „Die Brüder Karamasow“ (1880), sein letztes und größtes Werk. Darin steht die Erzählung vom Großinquisitor: Christus kehrt im Spanien der Inquisition zurück und wird vom Großinquisitor festgenommen, der ihm vorwirft, den Menschen mit der Freiheit eine unerträgliche Last aufgebürdet zu haben.',
@@ -37,9 +37,9 @@ export const DOSTOJEWSKI: Subtopic = {
       ['Wie kam Dostojewski aus Sibirien zurück?', 'Als gläubiger und konservativer Mensch', ['Als Revolutionär', 'Als Atheist', 'Unverändert'], null],
       ['In wie vielen Tagen diktierte Dostojewski „Der Spieler“?', 'In 26 Tagen', ['In 6 Tagen', 'In 126 Tagen', 'In einem Jahr'], 'Er heiratete die Stenografin kurz darauf.'],
       ['Wann erschien „Schuld und Sühne“?', '1866', ['1846', '1886', '1876'], null],
-      ['Wann erschien „Der Idiot“?', '1869', ['1859', '1879', '1889'], null],
+      ['Was ist Sonja in „Schuld und Sühne“?', 'Eine Prostituierte', ['Eine Pfandleiherin', 'Raskolnikows Schwester', 'Eine Polizistin'], 'Der Roman erschien 1866.'],
       ['Worum geht es in Dostojewskis „Die Dämonen“?', 'Um Revolutionäre, deren Ideen in Mord münden', ['Um eine Familie auf dem Land', 'Um einen Krieg', 'Um eine Reise'], null],
-      ['Wann starb Dostojewski?', '1881', ['1871', '1891', '1861'], 'Kurz nach den „Brüdern Karamasow“.'],
+      ['Wem diktierte Dostojewski „Der Spieler“?', 'Einer jungen Stenografin, die er bald heiratete', ['Seinem Bruder', 'Einem Verleger', 'Einem Mitgefangenen aus Sibirien'], 'Er brauchte dafür nur 26 Tage.'],
     ],
     schwer: [
       ['Was wirft der Großinquisitor in „Die Brüder Karamasow“ Christus vor?', 'Er habe den Menschen mit der Freiheit eine unerträgliche Last aufgebürdet', ['Er sei nicht gekommen', 'Er habe zu wenig Wunder getan', 'Er habe die Kirche gegründet'], null],
@@ -51,7 +51,7 @@ export const DOSTOJEWSKI: Subtopic = {
       ['Welche Wirkung hatte die Scheinhinrichtung auf Dostojewski?', 'Sie prägte ihn für immer', ['Er vergaß sie bald', 'Er wurde danach Offizier', 'Sie machte ihn sofort berühmt'], null],
       ['Auf welche Denker wirkte Dostojewski?', 'Auf Nietzsche, Kafka und Camus', ['Auf Kant und Hegel', 'Auf Voltaire und Rousseau', 'Auf Descartes'], null],
       ['Wie viele Menschen folgten Dostojewskis Sarg?', 'Zehntausende', ['Nur die Familie', 'Hunderte', 'Niemand'], null],
-      ['Wie findet Raskolnikow einen Weg zurück?', 'Über Sonja und das Geständnis', ['Durch Flucht', 'Durch Reichtum', 'Durch einen Freispruch'], null],
+      ['Wo spielt die Erzählung vom Großinquisitor?', 'Im Spanien der Inquisition', ['Im Moskau der Zaren', 'Im antiken Rom', 'Im Jerusalem der Zeit Jesu'], 'Christus kehrt dort zurück und wird festgenommen.'],
     ],
   },
 };

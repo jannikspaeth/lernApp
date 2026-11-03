@@ -7,7 +7,7 @@ export const PUSCHKIN_GOGOL: Subtopic = {
   images: ['puschkin', 'gogol'],
   text: [
     'Alexander Puschkin wurde 1799 in Moskau geboren. Sein Urgroßvater mütterlicherseits, Abram Gannibal, stammte aus Afrika und war als Kind an den russischen Hof gekommen, wo er zum General aufstieg; Puschkin war auf diese Herkunft stolz. Schon als Schüler galt er als Wunderkind. Wegen spöttischer Gedichte gegen die Obrigkeit wurde er mit 21 Jahren aus Petersburg verbannt und blieb zeitlebens unter Aufsicht; eine Zeit lang war der Zar persönlich sein Zensor.',
-    'Puschkin schuf die moderne russische Literatursprache, indem er die gesprochene Sprache mit der Literatur verband. Sein Hauptwerk „Eugen Onegin“ (1833) ist ein Roman in Versen: Der gelangweilte Adlige Onegin weist die Liebe der jungen Tatjana zurück, erschießt im Duell seinen Freund Lenski und liebt Tatjana erst, als sie verheiratet ist und ihn zurückweist. Daneben schrieb er das Drama „Boris Godunow“, die Erzählung „Pique Dame“ und das Versepos „Der Bronzene Reiter“.',
+    'Puschkin schuf die moderne russische Literatursprache, indem er die gesprochene Sprache mit der Literatur verband. Sein Hauptwerk „Eugen Onegin“ (1833) ist ein Roman in Versen: Der gelangweilte Adlige Onegin weist die Liebe der jungen Tatjana zurück, erschießt im Duell seinen Freund Lenski und liebt Tatjana erst, als sie verheiratet ist und ihn zurückweist. Daneben schrieb er das Drama „Boris Godunow“, die Erzählung „Pique Dame“ über einen Offizier, der einer alten Gräfin das Geheimnis dreier Gewinnkarten entreißen will, und das Versepos „Der Bronzene Reiter“.',
     'Sein Ende glich seinem Werk: 1837 forderte er den französischen Offizier Georges d’Anthès, der seiner Frau nachstellte, zum Duell und starb zwei Tage später an der Schusswunde. Er wurde 37 Jahre alt. Für die russische Kultur ist Puschkin bis heute das, was für die deutsche Goethe ist; viele seiner Verse kennt man auswendig.',
     'Nikolai Gogol (1809–1852) kam aus der Ukraine nach Petersburg und wurde durch Erzählungen bekannt, in denen Unheimliches und Komisches ineinanderlaufen. In der Komödie „Der Revisor“ (1836) halten die korrupten Beamten einer Kleinstadt einen durchreisenden Hochstapler für den angekündigten Prüfer aus der Hauptstadt und überhäufen ihn mit Geschenken; am Schluss trifft der echte Revisor ein. Der Zar lachte bei der Uraufführung, die Beamten tobten.',
     'In der Erzählung „Der Mantel“ (1842) spart sich der arme Schreiber Akaki Akakijewitsch einen neuen Mantel vom Munde ab, wird noch am ersten Abend überfallen und beraubt, findet bei keiner Behörde Gehör und stirbt. Der Satz, die ganze russische Literatur sei aus Gogols „Mantel“ hervorgekommen, wird oft zitiert. Gogols Roman „Die toten Seelen“ (1842) erzählt von einem Betrüger, der verstorbene Leibeigene aufkauft, die in den Listen noch als lebend geführt werden. Den zweiten Teil verbrannte Gogol in einer religiösen Krise; kurz darauf starb er, nachdem er das Essen verweigert hatte.',
@@ -19,7 +19,7 @@ export const PUSCHKIN_GOGOL: Subtopic = {
       ['Wie heißt die junge Frau in „Eugen Onegin“?', 'Tatjana', ['Olga', 'Natascha', 'Anna'], null],
       ['Wen erschießt Onegin in Puschkins Versroman im Duell?', 'Seinen Freund Lenski', ['Seinen Bruder', 'Einen Offizier', 'Einen Fremden'], null],
       ['Wie starb Puschkin?', 'Bei einem Duell', ['An Tuberkulose', 'Im Gefängnis', 'Bei einem Unfall'], null],
-      ['Wie alt wurde Puschkin?', '37 Jahre', ['27 Jahre', '47 Jahre', '57 Jahre'], null],
+      ['Welche Erzählung Puschkins dreht sich um ein Kartenspiel?', '„Pique Dame“', ['„Der Mantel“', '„Die Nase“', '„Der Spieler“'], 'Puschkin schrieb auch das Versepos „Der Bronzene Reiter“.'],
       ['Wer ist auf diesem Porträt zu sehen?', 'Nikolai Gogol', ['Alexander Puschkin', 'Fjodor Dostojewski', 'Iwan Turgenjew'], null, 'gogol'],
       ['Wie heißt Gogols berühmte Komödie?', 'Der Revisor', ['Die Heirat', 'Der Mantel', 'Die Nase'], null],
       ['Wofür halten die Beamten in Gogols „Revisor“ den Hochstapler?', 'Für den Prüfer aus der Hauptstadt', ['Für einen Fürsten', 'Für einen Dieb', 'Für einen Arzt'], null],
@@ -50,8 +50,8 @@ export const PUSCHKIN_GOGOL: Subtopic = {
       ['Was geschah mit dem zweiten Teil von Gogols „Toten Seelen“?', 'Gogol verbrannte ihn', ['Er wurde verboten', 'Er ging verloren', 'Er erschien posthum'], 'Er war in einer religiösen Krise.'],
       ['Wie starb Gogol?', 'Nachdem er das Essen verweigert hatte', ['An der Cholera', 'Im Duell', 'Bei einem Brand'], null],
       ['Was verbindet Gogols Erzählungen?', 'Unheimliches und Komisches laufen ineinander', ['Strenge Logik', 'Historische Genauigkeit', 'Religiöse Erbauung'], null],
-      ['Welche Haltung hatte Puschkin zu seiner Herkunft?', 'Er war stolz auf seinen afrikanischen Urgroßvater', ['Er verschwieg sie', 'Er schämte sich', 'Er wusste nichts davon'], null],
-      ['Welche Gattung verbindet „Eugen Onegin“?', 'Roman und Versdichtung', ['Drama und Oper', 'Essay und Brief', 'Märchen und Sage'], null],
+      ['Wie hieß Puschkins afrikanischer Urgroßvater?', 'Abram Gannibal', ['Georges d’Anthès', 'Boris Godunow', 'Akaki Akakijewitsch'], 'Er war als Kind an den russischen Hof gekommen und wurde General.'],
+      ['Wer trifft am Schluss von Gogols „Revisor“ ein?', 'Der echte Revisor', ['Der Zar', 'Die Polizei', 'Der Bürgermeister der Hauptstadt'], 'Bis dahin hatten die Beamten einen Hochstapler beschenkt.'],
     ],
   },
 };
