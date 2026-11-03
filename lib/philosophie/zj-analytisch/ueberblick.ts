@@ -44,15 +44,15 @@ export const UEBERBLICK: Subtopic = {
     ],
     schwer: [
       ['Wer leitete den „Berliner Kreis“?', 'Hans Reichenbach', ['Moritz Schlick', 'Rudolf Carnap', 'Otto Neurath'], 'Ein verwandter Kreis.'],
-      ['Wer gehörte neben Carnap zum Wiener Kreis?', 'Otto Neurath, Herbert Feigl, Kurt Gödel', ['Adorno und Horkheimer', 'Husserl und Heidegger', 'Sartre und Camus'], 'Um Moritz Schlick.'],
+      ['Wer entwickelte neben Russell die moderne mathematische Logik?', 'Gottlob Frege', ['George Boole', 'Moritz Schlick', 'Thomas Kuhn'], 'Sie ging weit über die alte Logik des Aristoteles hinaus.'],
       ['Wie heißt die Oxforder Richtung um Ryle und Austin?', '„Ordinary language philosophy“', ['„Logical atomism“', '„Pragmatism“', '„Critical theory“'], 'Philosophie der Alltagssprache.'],
       ['Was soll das „chinesische Zimmer“ zeigen?', 'Regelbefolgen allein ist noch kein Verstehen', ['Chinesisch ist schwer', 'Computer verstehen alles', 'Sprache ist angeboren'], 'Gegen die starke KI-These.'],
-      ['Wann wurde Moritz Schlick ermordet?', '1936', ['1921', '1945', '1931'], 'Nationalsozialistische Zeitungen rechtfertigten die Tat.'],
+      ['Als was kam Ludwig Wittgenstein 1911 zu Russell nach Cambridge?', 'Als junger Ingenieur', ['Als Mathematikprofessor', 'Als Soldat', 'Als Musiker'], 'Er wurde der einflussreichste Denker der analytischen Philosophie.'],
       ['Wer prägte zusammen mit Russell die frühe analytische Philosophie in Cambridge?', 'George Edward Moore', ['Alfred Ayer', 'Karl Popper', 'John Rawls'], 'Gegen den englischen Hegelianismus.'],
       ['Was soll Nagels Fledermaus-Argument zeigen?', 'Subjektives Erleben lässt sich nicht einfach physikalisch beschreiben', ['Fledermäuse sind klüger als Menschen', 'Tiere haben keine Gefühle', 'Physik erklärt alles'], 'Ein Problem der Philosophie des Geistes.'],
       ['Wann erschien Kuhns Buch über wissenschaftliche Revolutionen?', '1962', ['1927', '1945', '1989'], 'Ein Klassiker der Wissenschaftstheorie.'],
       ['Wogegen wandten sich Russell und Moore um 1900?', 'Gegen den Hegelianismus in England', ['Gegen den Empirismus', 'Gegen die Mathematik', 'Gegen die Physik'], 'Den „britischen Idealismus“.'],
-      ['Welche Satzarten sind nach dem Wiener Kreis allein sinnvoll?', 'Logisch wahre und empirisch überprüfbare', ['Religiöse und poetische', 'Moralische und ästhetische', 'Alle Sätze'], 'Mathematik oder Erfahrung.'],
+      ['Wer rechtfertigte 1936 den Mord an Moritz Schlick?', 'Nationalsozialistische Zeitungen', ['Die Universität Wien', 'Der Wiener Kreis selbst', 'Die katholische Kirche offiziell'], 'Der Täter war ein ehemaliger Student.'],
     ],
   },
 };

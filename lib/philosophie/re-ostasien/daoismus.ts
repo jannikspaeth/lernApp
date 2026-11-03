@@ -45,7 +45,7 @@ export const DAOISMUS: Subtopic = {
     schwer: [
       ['Wann soll Laozi Zhang Daoling erschienen sein?', '142 n. Chr.', ['500 v. Chr.', '618 n. Chr.', '1949'], 'Der Beginn des religiösen Daoismus.'],
       ['Wie heißt ein daoistischer Unsterblicher?', 'Xian', ['Bodhisattva', 'Arhat', 'Kami'], 'Er lebt frei in den Bergen oder im Himmel.'],
-      ['Wann erfanden Alchemisten vermutlich das Schießpulver?', 'Im 9. Jahrhundert', ['Im 2. Jahrhundert v. Chr.', 'Im 14. Jahrhundert', 'Im 17. Jahrhundert'], 'Bei der Suche nach dem Lebenselixier.'],
+      ['Auf welchem Tier ritt Laozi der Legende nach am Ende seines Lebens nach Westen?', 'Auf einem Wasserbüffel', ['Auf einem Pferd', 'Auf einem Kranich', 'Auf einem Drachen'], 'Vorher soll er das Daodejing für einen Grenzwächter niedergeschrieben haben.'],
       ['Wer steht an der Spitze der daoistischen Götter?', 'Die „Drei Reinen“', ['Die „Acht Unsterblichen“', 'Die „Vier Himmelskönige“', 'Die „Fünf Drachen“'], 'Darunter der vergöttlichte Laozi.'],
       ['Wie heißt die daoistische Klosterschule?', 'Quanzhen', ['Zhengyi', 'Shangqing', 'Lingbao'], '„Schule der vollkommenen Wahrheit“, seit dem 12. Jahrhundert.'],
       ['Wo liegt das Zentrum der Quanzhen-Schule?', 'Im Tempel der Weißen Wolke in Peking', ['Im Shaolin-Kloster', 'Auf dem Wudang-Shan', 'In Taipeh'], 'Baiyun Guan.'],

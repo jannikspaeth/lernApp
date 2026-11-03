@@ -47,7 +47,7 @@ export const ARENDT: Subtopic = {
       ['Wen heiratete Arendt 1929?', 'Günther Anders', ['Heinrich Blücher', 'Walter Benjamin', 'Karl Jaspers'], 'Ihr erster Mann.'],
       ['Wer war Arendts zweiter Mann?', 'Heinrich Blücher', ['Günther Anders', 'Martin Heidegger', 'Kurt Blumenfeld'], 'Ein Autodidakt.'],
       ['Was lag auf Arendts Schreibmaschine, als sie starb?', 'Das erste Blatt des Teils „Urteilen“', ['Ein Brief an Heidegger', 'Ihr Testament', 'Ein Gedicht'], 'Aus „Vom Leben des Geistes“.'],
-      ['Warum ist der Mensch nach Arendt fähig, Neues zu beginnen?', 'Weil jeder Mensch durch seine Geburt ein Anfang ist', ['Weil er stirbt', 'Weil er arbeitet', 'Weil Gott es will'], 'Natalität statt Sterblichkeit.'],
+      ['Worüber schrieb Arendt ihre Doktorarbeit?', 'Über den Liebesbegriff bei Augustinus', ['Über Kants Ethik', 'Über Platons Staat', 'Über die Französische Revolution'], 'Sie schloss die Arbeit 1928 ab.'],
       ['An welcher New Yorker Hochschule lehrte Arendt?', 'An der New School for Social Research', ['An der Columbia University', 'An der NYU', 'An der Juilliard School'], 'Neben Chicago und Princeton.'],
       ['Was las Arendt mit 14 Jahren?', 'Kants „Kritik der reinen Vernunft“', ['Marx’ „Kapital“', 'Nietzsches „Zarathustra“', 'Hegels „Logik“'], 'In Königsberg, Kants Stadt.'],
       ['Wann erschien Arendts „Macht und Gewalt“?', '1970', ['1951', '1958', '1963'], 'Eine Unterscheidung beider Begriffe.'],

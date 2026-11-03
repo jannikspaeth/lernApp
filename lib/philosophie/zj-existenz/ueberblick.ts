@@ -52,7 +52,7 @@ export const UEBERBLICK: Subtopic = {
       ['Wessen Wiederentdeckung förderte die Existenzphilosophie?', 'Kierkegaards', ['Platons', 'Lockes', 'Comtes'], 'Nach dem Ersten Weltkrieg.'],
       ['Was kann der Mensch in Grenzsituationen nach Jaspers?', 'Zu sich selbst finden', ['Alles vergessen', 'Unsterblich werden', 'Nichts'], 'An den Grenzen des Daseins.'],
       ['Wann erschien „Wahrheit und Methode“?', '1960', ['1927', '1945', '1980'], 'Gadamers Hauptwerk.'],
-      ['Wer war Heideggers Schüler und Begründer der Hermeneutik?', 'Hans-Georg Gadamer', ['Jean-Paul Sartre', 'Karl Jaspers', 'Edmund Husserl'], 'Er wurde 102 Jahre alt.'],
+      ['Wer begründete den Strukturalismus, der den Existentialismus ablöste?', 'Claude Lévi-Strauss', ['Michel Foucault', 'Jacques Derrida', 'Maurice Merleau-Ponty'], 'Er erklärte das Denken aus unbewussten Strukturen von Sprache und Kultur.'],
     ],
   },
 };
