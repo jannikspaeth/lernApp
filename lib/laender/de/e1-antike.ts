@@ -346,7 +346,7 @@ export const E1: Epoch = {
               ['Welcher oströmische Kaiser eroberte im 6. Jahrhundert Italien und Nordafrika zurück?', 'Justinian', ['Konstantin', 'Theodosius', 'Valens']],
               ['Welches Volk fiel 568 in Italien ein und beendete damit die Völkerwanderung?', 'Die Langobarden', ['Die Hunnen', 'Die Vandalen', 'Die Franken']],
               ['Wer kämpfte 451 zusammen mit Römern gegen die Hunnen?', 'Germanische Verbündete wie die Westgoten', ['Die Vandalen', 'Die Perser', 'Die Wikinger']],
-              ['Wie hieß der König der Vandalen, der Nordafrika eroberte?', 'Geiserich', ['Alarich', 'Theoderich', 'Odoaker']],
+              ['In welchem Jahr plünderten die Vandalen Rom?', '455', ['410', '439', '476']],
               ['Welches Reich gründeten die Westgoten nach 410 zunächst?', 'Ein Reich in Südgallien und Spanien', ['Ein Reich in Britannien', 'Ein Reich in Skandinavien', 'Ein Reich in Ägypten']],
               ['Welche Rolle spielte Attila im Nibelungenlied?', 'Er erscheint dort als König Etzel', ['Er ist der Held Siegfried', 'Er kommt nicht vor', 'Er ist der König von Worms']],
               ['Was beschreibt der Begriff „Völkerwanderung“?', 'Die Wanderung vieler Völker ins Römische Reich ab dem 4. Jahrhundert', ['Die Auswanderung nach Amerika', 'Die Kreuzzüge', 'Die Ostsiedlung im Mittelalter']],
