@@ -49,7 +49,7 @@ export const OEKOLOGIE: Subtopic = {
       ['Welche Hirsche mieden nach der Rückkehr der Wölfe die offenen Flusstäler?', 'Die Wapitis', ['Die Rentiere', 'Die Rothirsche Europas', 'Die Elche'], 'Weiden und Pappeln wuchsen wieder.'],
       ['Wie viel der wichtigsten Nutzpflanzen sind auf Tierbestäubung angewiesen?', 'Rund drei Viertel', ['Rund ein Prozent', 'Rund ein Zehntel', 'Keine'], 'Zumindest teilweise.'],
       ['Von welchem Massenaussterben sprechen viele Forscher heute?', 'Vom sechsten', ['Vom ersten', 'Vom zweiten', 'Vom zehnten'], 'Verursacht durch den Menschen.'],
-      ['Wann wurde DDT in der Bundesrepublik verboten?', '1972', ['1945', '1990', '2010'], 'Im selben Jahr wie in den USA.'],
+      ['Welche Bäume konnten nach der Rückkehr der Wölfe in Yellowstone wieder wachsen?', 'Junge Weiden und Pappeln', ['Mammutbäume', 'Fichten und Tannen', 'Eichen und Buchen'], 'Die Wapitihirsche mieden nun die offenen Flusstäler.'],
       ['Welchen Greifvogel bedrohte DDT in den USA besonders?', 'Den Weißkopfseeadler', ['Den Steinadler', 'Den Kondor', 'Den Uhu'], 'Er hat sich erholt.'],
       ['Wann reiste Humboldt durch Südamerika?', '1799 bis 1804', ['1831 bis 1836', '1768 bis 1771', '1850 bis 1855'], 'Mit dem Botaniker Aimé Bonpland.'],
       ['Welche Dienste leisten gesunde Ökosysteme unter anderem?', 'Sie reinigen Wasser und speichern Kohlenstoff', ['Sie erzeugen Erdöl in Jahren', 'Sie stoppen Erdbeben', 'Sie verhindern jeden Regen'], 'Sogenannte Ökosystemleistungen.'],

@@ -52,7 +52,7 @@ export const DINOSAURIER: Subtopic = {
       ['Warum durfte Mary Anning der Geologischen Gesellschaft nicht beitreten?', 'Als Frau aus einfachen Verhältnissen', ['Weil sie zu jung war', 'Weil sie Ausländerin war', 'Weil sie keine Funde hatte'], 'Ihre Funde wurden oft unter fremden Namen veröffentlicht.'],
       ['Wo wurde „Sue“ gefunden?', 'In South Dakota', ['In Montana', 'In Kanada', 'In Patagonien'], 'Im Jahr 1990.'],
       ['Wie schwer konnte ein Tyrannosaurus werden?', 'Bis zu neun Tonnen', ['Bis zu 900 Kilogramm', 'Bis zu 90 Tonnen', 'Bis zu 90 Kilogramm'], 'Rund zwölf Meter lang.'],
-      ['Wo fand Mary Anning ihre Fossilien?', 'In Lyme Regis an der englischen Südküste', ['In Solnhofen', 'In der Wüste Gobi', 'In Montana'], 'An der „Jurassic Coast“.'],
+      ['Welches vollständige Meeresreptil fand Mary Anning als Erste?', 'Einen Plesiosaurier', ['Einen Mosasaurier', 'Einen Megalosaurus', 'Einen Archaeopteryx'], 'Schon als Kind hatte sie ein Ichthyosaurier-Skelett gefunden.'],
     ],
   },
 };

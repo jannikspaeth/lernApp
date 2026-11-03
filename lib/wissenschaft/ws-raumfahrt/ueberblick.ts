@@ -43,7 +43,7 @@ export const UEBERBLICK: Subtopic = {
       ['Wo lag das unterirdische V2-Werk?', 'Bei Nordhausen im Harz', ['In Peenemünde', 'Bei München', 'In Berlin-Tempelhof'], 'Das Lager hieß Mittelbau-Dora.'],
     ],
     schwer: [
-      ['Wann startete Goddards erste Flüssigkeitsrakete?', '16. März 1926', ['4. Oktober 1957', '20. Juni 1944', '12. April 1961'], 'In Auburn, Massachusetts.'],
+      ['Wie lange flog Goddards erste Flüssigkeitsrakete?', 'Nur zweieinhalb Sekunden', ['Zwei Minuten', 'Eine halbe Stunde', 'Bis in den Weltraum, rund zehn Minuten'], 'Sie bewies trotzdem das Prinzip des Flüssigkeitsantriebs.'],
       ['In welchem Jahr veröffentlichte Ziolkowski seinen grundlegenden Aufsatz?', '1903', ['1865', '1923', '1957'], 'Im selben Jahr flogen die Brüder Wright.'],
       ['Woran war Ziolkowski als Kind erkrankt, wodurch er fast taub wurde?', 'An Scharlach', ['An Masern', 'An Pocken', 'An Typhus'], 'Er brachte sich vieles selbst bei.'],
       ['Wie lang war eine V2-Rakete etwa?', '14 Meter', ['4 Meter', '40 Meter', '110 Meter'], 'Mit einer Tonne Sprengstoff.'],

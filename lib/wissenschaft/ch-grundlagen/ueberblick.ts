@@ -52,7 +52,7 @@ export const UEBERBLICK: Subtopic = {
       ['Welche Lehre übernahm Aristoteles von Empedokles?', 'Die Vier-Elemente-Lehre', ['Die Atomlehre', 'Die Phlogistonlehre', 'Die Lehre vom Stein der Weisen'], 'Sie galt bis in die Neuzeit.'],
       ['Wann erfand Böttger das europäische Porzellan?', '1708', ['1661', '1789', '1669'], 'Wenig später in Meißen produziert.'],
       ['Was untersucht die Biochemie?', 'Die Chemie des Lebens', ['Die Chemie der Gesteine', 'Die Chemie der Sterne', 'Die Chemie der Metalle'], 'Etwa Eiweiße und Erbgut.'],
-      ['Welches Verfahren entwickelten die Alchemisten?', 'Die Destillation', ['Die Elektrolyse', 'Die Kernspaltung', 'Die Chromatografie'], 'Etwa zur Herstellung von Alkohol.'],
+      ['In welcher Stadt wurde Böttgers Porzellan hergestellt?', 'In Meißen', ['In Dresden', 'In Berlin', 'In Nürnberg'], 'Böttger hatte eigentlich Gold für August den Starken machen sollen.'],
     ],
   },
 };

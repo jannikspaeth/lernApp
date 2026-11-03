@@ -38,7 +38,7 @@ export const UEBERBLICK: Subtopic = {
       ['Wer starb 1753 bei einem Blitzexperiment?', 'Georg Wilhelm Richmann', ['Benjamin Franklin', 'Pieter van Musschenbroek', 'Abbé Nollet'], 'In Sankt Petersburg.'],
       ['Was ließ Abbé Nollet 1746 vor Ludwig XV. vorführen?', '180 Gardesoldaten sprangen bei einem Stromstoß gleichzeitig in die Luft', ['Einen Blitz im Schloss', 'Eine leuchtende Glühbirne', 'Einen schwebenden Magneten'], 'Elektrizität war Salonvergnügen.'],
       ['Von wem stammen die Begriffe positive und negative Ladung?', 'Benjamin Franklin', ['William Gilbert', 'Thales von Milet', 'Michael Faraday'], 'Er dachte an einen Überschuss oder Mangel.'],
-      ['Wo entdeckte Musschenbroek die Leidener Flasche?', 'In Leiden', ['In Paris', 'In London', 'In Magdeburg'], 'Daher der Name.'],
+      ['Was war Benjamin Franklin außer Forscher?', 'Drucker, Schriftsteller und Staatsmann', ['Arzt und Apotheker', 'Kapitän und Kaufmann', 'Pfarrer und Lehrer'], 'Er lebte in Philadelphia.'],
       ['Wann sollen Chinesen spätestens den Kompass zur Seefahrt genutzt haben?', 'Im 11. Jahrhundert', ['Im 1. Jahrhundert v. Chr.', 'Im 16. Jahrhundert', 'Im 19. Jahrhundert'], 'Zur Zeit der Song-Dynastie.'],
       ['Wie viele Blitze zucken etwa pro Sekunde auf der Erde?', 'Rund 40 bis 50', ['Einer', 'Rund 5.000', 'Rund eine Million'], 'Vor allem in den Tropen.'],
     ],
