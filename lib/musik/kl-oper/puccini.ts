@@ -27,7 +27,7 @@ export const PUCCINI: Subtopic = {
       ['Wie hieß der berühmte Tenor, der Puccinis Arien auf Schallplatte populär machte?', 'Enrico Caruso', ['Luciano Pavarotti', 'Plácido Domingo', 'José Carreras'], 'Caruso war einer der ersten Schallplattenstars.'],
       ['Welche Arie ist das?', '„O mio babbino caro“', ['„Nessun dorma“', '„Casta diva“', 'Die Habanera'], 'Aus der Komödie „Gianni Schicchi“.', 'h-babbino-caro'],
       ['Was liebte Puccini neben der Musik?', 'Jagd, schnelle Autos und Motorboote', ['Briefmarken', 'Schach', 'Bergsteigen'], '1903 hatte er einen schweren Autounfall.'],
-      ['Welche Oper konnte Puccini nicht vollenden?', '„Turandot“', ['„Tosca“', '„La Bohème“', '„Madama Butterfly“'], 'Er starb 1924 vor der Vollendung.'],
+      ['Wovon handelt Puccinis „La fanciulla del West“?', 'Vom Wilden Westen zur Zeit des Goldrauschs', ['Von einem Seefahrer im Pazifik', 'Von einer Prinzessin in China', 'Von Malern in Paris'], 'Die Oper wurde 1910 in New York uraufgeführt.'],
     ],
     mittel: [
       ['In welcher Stadt wurde Puccini geboren?', 'In Lucca', ['In Florenz', 'In Pisa', 'In Mailand'], 'Seine Familie stellte seit Generationen die Kirchenmusiker der Stadt.'],

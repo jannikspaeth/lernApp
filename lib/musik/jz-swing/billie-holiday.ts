@@ -47,7 +47,7 @@ export const BILLIE_HOLIDAY: Subtopic = {
       ['Wann wurde Billie Holiday geboren?', '1915', ['1905', '1920', '1925'], 'Am 7. April 1915.'],
       ['Wo hörte Billie Holiday als Mädchen Jazzplatten?', 'In einem Bordell, wo sie Botengänge machte', ['In der Kirche', 'In der Schule', 'Im Radio der Nachbarn'], 'Dort hörte sie Bessie Smith und Louis Armstrong.'],
       ['Mit wem machte Billie Holiday 1933 ihre erste Aufnahme?', 'Mit Benny Goodman', ['Mit Duke Ellington', 'Mit Louis Armstrong', 'Mit Count Basie'], 'Benny Goodman spielte in dieser Aufnahme mit.'],
-      ['Wann sang Billie Holiday zum ersten Mal „Strange Fruit“?', '1939', ['1933', '1945', '1955'], 'Im Club Café Society in New York.'],
+      ['Was war das Besondere an dem New Yorker Club, in dem Billie Holiday „Strange Fruit“ zuerst sang?', 'Schwarze und Weiße saßen gemeinsam im Publikum', ['Er war nur für Musiker geöffnet', 'Dort durfte nur Klassik gespielt werden', 'Er lag auf einem Schiff'], 'Er war der erste Club dieser Art in New York.'],
       ['Was verlor Billie Holiday nach ihrer Haft?', 'Die Lizenz für Auftritte in New Yorker Clubs', ['Ihre Stimme', 'Ihren Führerschein', 'Ihre Staatsbürgerschaft'], 'Ohne diese „Cabaret Card“ durfte sie nicht in Clubs singen.'],
       ['Wie heißt Billie Holidays spätes Album von 1958?', '„Lady in Satin“', ['„Lady Sings the Blues“', '„Strange Fruit“', '„Body and Soul“'], 'Mit Streichern; ihre Stimme klingt rau und verletzlich.'],
       ['Wann starb Billie Holiday?', '1959', ['1949', '1965', '1971'], 'Am 17. Juli in New York.'],

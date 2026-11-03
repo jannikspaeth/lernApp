@@ -48,7 +48,7 @@ export const LLOYD_WEBBER: Subtopic = {
       ['Wann entstand „Joseph and the Amazing Technicolor Dreamcoat“?', '1968', ['1965', '1971', '1981'], 'Als Schulaufführung.'],
       ['Wann erschien „Jesus Christ Superstar“?', '1970', ['1965', '1976', '1981'], 'Ein Rockoper-Album.'],
       ['Wie viele Versionen von „Memory“ wurden ungefähr aufgenommen?', 'Über 150', ['Etwa 5', 'Etwa 20', 'Über 10.000'], 'Eines der meistgecoverten Musicallieder.'],
-      ['Bis wann lief „Das Phantom der Oper“ am Broadway?', '2023', ['2001', '2012', '2020'], 'Im April 2023.'],
+      ['Welches Musical Lloyd Webbers kam 2015 heraus?', '„School of Rock“', ['„Sunset Boulevard“', '„Starlight Express“', '„Evita“'], 'Sein Stil verbindet Rock, Pop und Orchesterklang.'],
       ['Wann wurde „Sunset Boulevard“ uraufgeführt?', '1993', ['1981', '1986', '2005'], 'Nach Billy Wilders Film.'],
       ['Für welches Lied gewann Lloyd Webber einen Oscar?', '„You Must Love Me“', ['„Memory“', '„Don’t Cry for Me Argentina“', '„The Phantom of the Opera“'], 'Für die Verfilmung von „Evita“.'],
       ['Wann wurde Lloyd Webber zum Ritter geschlagen?', '1992', ['1986', '1997', '2005'], 'Fünf Jahre vor dem Lord-Titel.'],

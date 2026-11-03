@@ -46,7 +46,7 @@ export const MENDELSSOHN: Subtopic = {
     schwer: [
       ['Wann zog die Familie Mendelssohn nach Berlin?', '1811', ['1809', '1821', '1829'], 'Napoleons Truppen hatten Hamburg besetzt.'],
       ['Wann besuchte Mendelssohn als Zwölfjähriger Goethe?', '1821', ['1815', '1826', '1832'], 'Er wohnte zwei Wochen in Goethes Haus in Weimar.'],
-      ['An welchem Tag führte Mendelssohn die „Matthäus-Passion“ auf?', '11. März 1829', ['3. Februar 1809', '4. November 1847', '28. Juli 1750'], 'Zum ersten Mal seit fast 80 Jahren.'],
+      ['Wie lange war Bachs „Matthäus-Passion“ vor Mendelssohns Aufführung nicht gespielt worden?', 'Fast 80 Jahre', ['Fast 8 Jahre', 'Rund 20 Jahre', 'Über 200 Jahre'], 'Die Aufführung löste die Wiederentdeckung Bachs aus.'],
       ['Wann wurde Mendelssohn Gewandhauskapellmeister?', '1835', ['1829', '1843', '1847'], 'Er leitete das Orchester bis zu seinem Tod.'],
       ['Zu welchem Anlass wurde der Hochzeitsmarsch 1858 populär?', 'Zur Hochzeit einer britischen Prinzessin', ['Zur Krönung Victorias', 'Zur Hochzeit Napoleons III.', 'Zur Hochzeit Kaiser Franz Josephs'], 'Victoria, die älteste Tochter Königin Victorias, heiratete Friedrich Wilhelm von Preußen.'],
       ['Welches Werk schrieb Mendelssohn als „Requiem für Fanny“?', 'Das Streichquartett f-Moll', ['Das Oratorium „Elias“', 'Das Violinkonzert e-Moll', 'Die „Lieder ohne Worte“'], 'Op. 80, komponiert im Sommer 1847.'],

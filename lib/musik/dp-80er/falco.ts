@@ -45,10 +45,10 @@ export const FALCO: Subtopic = {
     schwer: [
       ['Wann wurde Falco geboren?', '1957', ['1947', '1967', '1977'], 'Am 19. Februar 1957.'],
       ['In welchem Wiener Bezirk wuchs Falco auf?', 'In Margareten', ['In Döbling', 'In der Innenstadt', 'In Floridsdorf'], 'Ein Arbeiterbezirk.'],
-      ['Wann erschien „Der Kommissar“?', '1981', ['1975', '1986', '1990'], 'Seine erste Single.'],
+      ['Als was gilt Falcos „Der Kommissar“?', 'Als einer der ersten Rap-Songs auf Deutsch', ['Als erster deutscher Punksong', 'Als erste deutsche Disco-Platte', 'Als erster Schlager in Englisch'], 'Er wurde in vielen Ländern ein Hit.'],
       ['In welcher Stadt lebte Falco vor seinem Durchbruch eine Zeit lang?', 'In West-Berlin', ['In Paris', 'In London', 'In New York'], 'Er spielte dort Bass.'],
       ['Wann erschien „Falco 3“?', '1985', ['1980', '1990', '1995'], 'Mit Bolland & Bolland.'],
-      ['Wann stand „Rock Me Amadeus“ in den USA auf Platz 1?', 'Im Frühjahr 1986', ['1981', '1990', '1998'], 'Drei Wochen lang.'],
+      ['Was ist „Rock Me Amadeus“ in den US-Charts bis heute?', 'Der einzige deutschsprachige Nummer-eins-Song', ['Der meistverkaufte Song der 80er', 'Der erste Rap-Hit überhaupt', 'Der längste Nummer-eins-Song'], 'Auch in Großbritannien war es die Nummer eins.'],
       ['Wann zog Falco in die Dominikanische Republik?', '1996', ['1986', '1990', '1998'], 'Er suchte Ruhe.'],
       ['In welcher Stadt der Dominikanischen Republik starb Falco?', 'In Puerto Plata', ['In Santo Domingo', 'In Havanna', 'In San Juan'], 'An der Nordküste.'],
       ['Womit stieß Falcos Auto 1998 tödlich zusammen?', 'Mit einem Bus', ['Mit einem Zug', 'Mit einem Baum', 'Mit einem Lastwagen'], 'Er starb noch an der Unfallstelle.'],

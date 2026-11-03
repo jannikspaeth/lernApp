@@ -16,7 +16,7 @@ export const RAVI_SHANKAR: Subtopic = {
   ],
   quiz: {
     leicht: [
-      ['Welches Instrument spielte Ravi Shankar?', 'Sitar', ['Tabla', 'Gitarre', 'Flöte'], 'Ein indisches Saiteninstrument.'],
+      ['Bei welchem Popfestival spielte Shankar 1967?', 'Beim Monterey Pop Festival', ['Bei Live Aid', 'Beim Isle of Wight Festival', 'Beim Glastonbury Festival'], 'Zwei Jahre später spielte er in Woodstock.'],
       ['Wer ist auf diesem Bild zu sehen?', 'Ravi Shankar', ['George Harrison', 'Zakir Hussain', 'Mahatma Gandhi'], null, 'ravi-shankar'],
       ['Aus welchem Land stammte Ravi Shankar?', 'Aus Indien', ['Aus Pakistan', 'Aus Nepal', 'Aus Sri Lanka'], 'Er machte indische Musik im Westen bekannt.'],
       ['Welcher Beatle nahm bei Shankar Unterricht?', 'George Harrison', ['John Lennon', 'Paul McCartney', 'Ringo Starr'], 'Ab 1966.'],

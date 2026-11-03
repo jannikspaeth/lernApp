@@ -22,7 +22,7 @@ export const STRAUSS: Subtopic = {
       ['In welchem Takt steht ein Walzer?', 'Im Dreivierteltakt', ['Im Viervierteltakt', 'Im Zweivierteltakt', 'Im Sechsachteltakt'], 'Mit der Betonung auf der ersten Zählzeit: eins-zwei-drei.'],
       ['Wer ist auf diesem Bild zu sehen?', 'Johann Strauss (Sohn)', ['Johannes Brahms', 'Franz Lehár', 'Anton Bruckner'], null, 'johann-strauss'],
       ['Welche berühmte Operette schrieb Strauss?', '„Die Fledermaus“', ['„Die lustige Witwe“', '„Orpheus in der Unterwelt“', '„Im weißen Rößl“'], 'Die berühmteste Wiener Operette.'],
-      ['Welcher Marsch stammt von Johann Strauss (Vater)?', 'Der Radetzky-Marsch', ['Der Hochzeitsmarsch', 'Der Triumphmarsch', 'Der Kaiserjägermarsch'], 'Zu Ehren von Feldmarschall Radetzky, 1848.'],
+      ['Was galt am Walzer anfangs als unanständig?', 'Dass die Paare sich eng umfassten', ['Dass man barfuß tanzte', 'Dass er in Kirchen gespielt wurde', 'Dass nur Männer tanzten'], 'Der Walzer ist ein schneller Drehtanz im Dreivierteltakt.'],
       ['Bei welchem Konzert erklingen jedes Jahr Donauwalzer und Radetzky-Marsch?', 'Beim Neujahrskonzert der Wiener Philharmoniker', ['Bei der Last Night of the Proms', 'Bei den Salzburger Festspielen', 'Beim Eurovision Song Contest'], 'Am 1. Januar im Goldenen Saal des Musikvereins.'],
       ['Was tut das Publikum beim Radetzky-Marsch im Neujahrskonzert?', 'Es klatscht mit', ['Es tanzt', 'Es singt mit', 'Es steht auf'], 'Der Dirigent lenkt das Klatschen.'],
       ['Was sollte Johann Strauss (Sohn) nach dem Willen seines Vaters werden?', 'Bankkaufmann', ['Arzt', 'Priester', 'Offizier'], 'Der Vater wollte keinen Konkurrenten in der Familie.'],
@@ -46,7 +46,7 @@ export const STRAUSS: Subtopic = {
     schwer: [
       ['Was schrieb eine Zeitung nach dem Debüt von Johann Strauss (Sohn) 1844?', '„Gute Nacht, Lanner! Guten Abend, Vater Strauss! Guten Morgen, Strauss Sohn!“', ['„Ein neuer Mozart ist geboren!“', '„Der Walzer ist tot!“', '„Wien hat einen neuen Kaiser!“'], 'Joseph Lanner war der große Rivale des Vaters.'],
       ['Woran starb Johann Strauss (Vater) 1849?', 'An Scharlach', ['An Cholera', 'An Tuberkulose', 'An einem Unfall'], 'Er war nur 45 Jahre alt.'],
-      ['Wann entstand der Donauwalzer?', '1867', ['1848', '1874', '1885'], 'Zuerst als Chorwalzer, mit einem Text über die Donau.'],
+      ['Zu welcher Religion trat Strauss für eine seiner Ehen über?', 'Zum Protestantismus', ['Zum Judentum', 'Zum orthodoxen Christentum', 'Zum Islam'], 'Er wurde dafür sogar Bürger von Sachsen-Coburg und Gotha.'],
       ['Wo wurde der Donauwalzer mit Orchester ein Triumph?', 'Bei der Pariser Weltausstellung', ['Bei der Krönung in Budapest', 'In der Mailänder Scala', 'In London'], 'Damit wurde er international bekannt.'],
       ['Wann wurde „Die Fledermaus“ uraufgeführt?', '1874', ['1867', '1885', '1899'], 'Im Theater an der Wien.'],
       ['Welche Strauss-Operette folgte 1885?', '„Der Zigeunerbaron“', ['„Eine Nacht in Venedig“', '„Wiener Blut“', '„Die lustige Witwe“'], '„Die lustige Witwe“ stammt von Franz Lehár.'],

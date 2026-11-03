@@ -50,7 +50,7 @@ export const UEBERBLICK: Subtopic = {
       ['Wie heißt der Rap-Stil mit tiefen 808-Bässen und schnellen Hi-Hats?', 'Trap', ['G-Funk', 'Boom Bap', 'Grime'], 'Entstanden in Atlanta.'],
       ['Welcher Rapper erhielt 2018 den Pulitzerpreis für Musik?', 'Kendrick Lamar', ['Jay-Z', 'Eminem', 'Drake'], 'Für sein Album „DAMN.“.'],
       ['In welchem europäischen Land ist Hip-Hop besonders beliebt?', 'In Frankreich', ['In Island', 'In Portugal', 'In Malta'], 'Der zweitgrößte Hip-Hop-Markt der Welt.'],
-      ['Wer war ein Rapper der Westküste?', 'Tupac Shakur', ['The Notorious B.I.G.', 'Nas', 'Jay-Z'], 'Er wechselte von New York nach Kalifornien.'],
+      ['Welcher DJ der Bronx gehörte neben Kool Herc und Afrika Bambaataa zu den Pionieren?', 'Grandmaster Flash', ['Dr. Dre', 'Kanye West', 'DJ Shadow'], 'Er verfeinerte das Mischen zweier Platten.'],
       ['Was wurde 2023 zum Kulturdenkmal?', 'Das Haus Sedgwick Avenue 1520', ['Der Cotton Club', 'Das Apollo Theater', 'Graceland'], 'Der Geburtsort des Hip-Hop.'],
       ['Wer ist auf diesem Bild zu sehen?', 'DJ Kool Herc', ['Grandmaster Flash', 'Afrika Bambaataa', 'Dr. Dre'], 'Der DJ der legendären Party von 1973.', 'dj-kool-herc'],
     ],

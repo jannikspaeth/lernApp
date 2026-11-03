@@ -49,7 +49,7 @@ export const GILLESPIE: Subtopic = {
       ['Wann entstand „A Night in Tunisia“?', '1942', ['1932', '1952', '1962'], 'Ein berühmter Jazzstandard.'],
       ['Wie nennt man den Afro-Cuban Jazz auch?', '„Cubop“', ['„Cuban Swing“', '„Salsa Jazz“', '„Mambo Cool“'], 'Aus „Cuban“ und „Bebop“.'],
       ['Welchen kubanischen Trompeter förderte Gillespie?', 'Arturo Sandoval', ['Chano Pozo', 'Ibrahim Ferrer', 'Compay Segundo'], 'Er floh später in die USA.'],
-      ['Wann wurde Gillespies Trompete verbogen?', '1953', ['1937', '1945', '1964'], 'Bei einer Geburtstagsfeier.'],
+      ['Warum behielt Gillespie die verbogene Trompete?', 'Er konnte sich selbst so besser hören', ['Sie war ein Geschenk von Parker', 'Sie klang lauter im Radio', 'Er hatte kein Geld für eine neue'], 'Bei einer Geburtstagsfeier war jemand auf sie gefallen.'],
       ['Welcher spätere Produzent spielte 1956 in Gillespies Band?', 'Quincy Jones', ['Berry Gordy', 'Phil Spector', 'George Martin'], 'Damals ein junger Trompeter.'],
       ['Wen wollte Gillespie zum Chef der CIA machen?', 'Miles Davis', ['Duke Ellington', 'Charlie Parker', 'Louis Armstrong'], 'Ellington sollte Außenminister werden.'],
       ['Welches Orchester gründete Gillespie 1988?', 'Das United Nation Orchestra', ['Das Lincoln Center Orchestra', 'Die Jazz Messengers', 'Das Mahavishnu Orchestra'], 'Mit Musikern aus vielen Ländern.'],

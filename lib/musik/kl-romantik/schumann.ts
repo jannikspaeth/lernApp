@@ -46,7 +46,7 @@ export const SCHUMANN: Subtopic = {
     schwer: [
       ['Welche Dichter liebte Robert Schumann besonders?', 'Jean Paul und E. T. A. Hoffmann', ['Lessing und Klopstock', 'Brecht und Kafka', 'Homer und Vergil'], 'Beide schrieben fantastische, verspielte Erzählungen.'],
       ['Mit wie vielen Jahren trat Clara Wieck im Leipziger Gewandhaus auf?', 'Mit neun', ['Mit 15', 'Mit 18', 'Mit 21'], 'Ihr Vater förderte sie früh als Wunderkind.'],
-      ['Wann gründete Schumann die „Neue Zeitschrift für Musik“?', '1834', ['1828', '1840', '1850'], 'Zuerst hieß sie „Neue Leipziger Zeitschrift für Musik“.'],
+      ['Womit wollte Schumann seine Finger kräftigen, bevor seine Hand gelähmt wurde?', 'Vielleicht mit einer mechanischen Übungsvorrichtung', ['Mit Gewichtheben', 'Mit Geigenspiel', 'Mit stundenlangem Schreiben'], 'Um 1832 war seine Pianistenkarriere zu Ende.'],
       ['Wann heirateten Robert und Clara Schumann?', '12. September 1840', ['8. Juni 1830', '29. Juli 1856', '13. September 1819'], 'Einen Tag vor Claras 21. Geburtstag.'],
       ['Welcher Schumann-Zyklus erzählt aus Sicht einer Frau?', '„Frauenliebe und -leben“', ['„Dichterliebe“', '„Kreisleriana“', '„Carnaval“'], 'Nach Gedichten von Adelbert von Chamisso.'],
       ['Was schrieb Clara Schumann über Frauen und das Komponieren?', '„Ein Frauenzimmer muss nicht componiren wollen“', ['„Frauen komponieren besser als Männer“', '„Komponieren ist Männersache, Spielen nicht“', '„Ich will nur noch komponieren“'], 'Ein Satz aus ihrem Tagebuch.'],
