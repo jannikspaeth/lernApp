@@ -6,7 +6,7 @@ export const HOFFMANN: Subtopic = {
   date: '1776–1822',
   images: ['hoffmann'],
   text: [
-    'Ernst Theodor Amadeus Hoffmann wurde 1776 in Königsberg geboren. Er war Jurist und arbeitete als Richter, wollte aber eigentlich Komponist werden; aus Verehrung für Mozart ersetzte er seinen dritten Vornamen Wilhelm durch Amadeus. Er komponierte die Oper „Undine“, schrieb Musikkritiken und entdeckte als einer der Ersten die Größe Beethovens. Berühmt wurde er mit Erzählungen, die er oft nachts nach dem Dienst schrieb.',
+    'Ernst Theodor Amadeus Hoffmann wurde 1776 in Königsberg geboren. Er war Jurist und arbeitete als Richter, wollte aber eigentlich Komponist werden; aus Verehrung für Mozart ersetzte er seinen dritten Vornamen Wilhelm durch Amadeus. Als Napoleon Preußen besiegte, verlor er seine Stelle und schlug sich von 1808 bis 1813 in Bamberg als Kapellmeister, Musiklehrer und Theatermann durch. Er komponierte die Oper „Undine“, schrieb Musikkritiken und entdeckte als einer der Ersten die Größe Beethovens. Berühmt wurde er mit Erzählungen, die er oft nachts nach dem Dienst schrieb.',
     'Hoffmann steht für die „schwarze Romantik“: Bei ihm wird das Wunderbare bedrohlich. Seine Figuren verlieren den Boden unter den Füßen, Automaten wirken lebendig, Spiegel und Doppelgänger stellen die Identität infrage, und oft bleibt offen, ob das Unheimliche wirklich geschieht oder nur im Kopf der Figur. Diese Unentscheidbarkeit ist sein Markenzeichen.',
     'In „Der Sandmann“ (1816) verliebt sich der Student Nathanael in Olimpia, die sich als Automat erweist, und wird von der Kindheitsangst vor dem Sandmann in den Wahnsinn getrieben. „Der goldne Topf“ (1814) lässt einen Studenten zwischen bürgerlichem Dresden und einer Märchenwelt hin- und herpendeln. „Das Fräulein von Scuderi“ (1819) gilt als frühe Kriminalerzählung, denn darin wird ein Verbrechen aufgeklärt. Und „Nussknacker und Mausekönig“ (1816) wurde durch Tschaikowskis Ballett weltbekannt.',
     'Hoffmanns Wirkung war groß, besonders im Ausland. Edgar Allan Poe und die französische Literatur nahmen ihn auf, Sigmund Freud erklärte 1919 am „Sandmann“ seinen Begriff des Unheimlichen, und Jacques Offenbach machte aus seinen Erzählungen die Oper „Hoffmanns Erzählungen“. In Russland wirkte er auf Gogol und Dostojewski.',
@@ -28,7 +28,7 @@ export const HOFFMANN: Subtopic = {
       ['Wie alt wurde Hoffmann?', '46 Jahre', ['26 Jahre', '66 Jahre', '86 Jahre'], null],
     ],
     mittel: [
-      ['Wann lebte Hoffmann?', '1776–1822', ['1746–1800', '1800–1850', '1786–1859'], null],
+      ['In welcher Stadt arbeitete Hoffmann von 1808 bis 1813 als Kapellmeister und Theatermann?', 'In Bamberg', ['In Dresden', 'In Leipzig', 'In Weimar'], null],
       ['Wann erschien „Der Sandmann“?', '1816', ['1776', '1850', '1800'], null],
       ['Wann erschien „Der goldne Topf“?', '1814', ['1784', '1844', '1822'], null],
       ['Wie heißt der Student im „Sandmann“?', 'Nathanael', ['Anselmus', 'Medardus', 'Balthasar'], null],

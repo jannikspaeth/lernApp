@@ -7,7 +7,7 @@ export const LYRIK: Subtopic = {
   images: ['novalis', 'eichendorff'],
   text: [
     'Die Romantik ist die große Zeit der deutschen Lyrik. Ihre Gedichte sind kurz, liedhaft, oft in Volksliedstrophen gebaut und voller wiederkehrender Bilder: Mond, Nacht, Wald, Fluss, Posthorn, Wandern, Ferne. Viele wurden vertont und gingen so in den allgemeinen Besitz über; manche gelten heute als Volkslieder, obwohl sie Kunstdichtung sind.',
-    'Novalis, mit bürgerlichem Namen Friedrich von Hardenberg (1772–1801), war Bergbauingenieur und Dichter zugleich. Prägend wurde für ihn der Tod seiner Verlobten Sophie von Kühn, die mit 15 Jahren starb. Aus dieser Erfahrung entstanden die „Hymnen an die Nacht“ (1800), in denen die Nacht nicht Schrecken, sondern Trost und höhere Erkenntnis bedeutet und der Tod als Übergang erscheint. Novalis starb selbst mit 28 Jahren an Tuberkulose und hinterließ sein Hauptwerk als Fragment.',
+    'Novalis, mit bürgerlichem Namen Friedrich von Hardenberg (1772–1801), studierte an der Bergakademie Freiberg und war Bergbauingenieur und Dichter zugleich. Prägend wurde für ihn der Tod seiner Verlobten Sophie von Kühn, die mit 15 Jahren starb. Aus dieser Erfahrung entstanden die „Hymnen an die Nacht“ (1800), in denen die Nacht nicht Schrecken, sondern Trost und höhere Erkenntnis bedeutet und der Tod als Übergang erscheint. Novalis starb selbst mit 28 Jahren an Tuberkulose und hinterließ sein Hauptwerk als Fragment.',
     'Joseph von Eichendorff (1788–1857) stammte aus einem oberschlesischen Adelsgeschlecht, dessen Schloss Lubowitz die Familie verlor. Er war preußischer Beamter und schrieb nebenher. Seine Gedichte wirken einfach und sind doch kunstvoll gebaut: „Mondnacht“ mit den Zeilen „Es war, als hätt der Himmel die Erde still geküßt“, „Sehnsucht“ mit „Es schienen so golden die Sterne“ oder „Wünschelrute“ mit dem berühmten Gedanken, dass in allen Dingen ein Lied schläft, das zu singen beginnt, wenn man das Zauberwort trifft.',
     'Eichendorffs bekannteste Erzählung ist „Aus dem Leben eines Taugenichts“ (1826). Ein Müllersohn zieht mit seiner Geige in die Welt, arbeitet nicht gern, gerät in allerlei Verwicklungen, reist bis Italien und bekommt am Ende doch die Geliebte. Die Novelle verbindet Wanderlust und Heiterkeit mit leiser Ironie und gilt als Inbegriff romantischer Erzählkunst.',
     'Zur romantischen Lyrik gehören außerdem Clemens Brentano, dessen Gedicht von der schönen Lore Lay die Loreley-Sage in die Literatur brachte, und Heinrich Heine, der mit seinem „Buch der Lieder“ (1827) die Töne der Romantik aufnahm und zugleich ironisch brach. Schubert, Schumann, Brahms und Wolf vertonten diese Gedichte; Schumanns „Liederkreis“ nach Eichendorff gehört zu den berühmtesten Zyklen der Musikgeschichte.',
@@ -28,7 +28,7 @@ export const LYRIK: Subtopic = {
       ['Wer vertonte viele romantische Gedichte?', 'Robert Schumann', ['Johann Sebastian Bach', 'Georg Friedrich Händel', 'Joseph Haydn'], null],
     ],
     mittel: [
-      ['Wann lebte Novalis?', '1772–1801', ['1788–1857', '1749–1832', '1797–1856'], null],
+      ['An welcher Hochschule studierte Novalis Bergbau?', 'An der Bergakademie Freiberg', ['An der Universität Jena', 'An der Universität Göttingen', 'An der Bergschule Clausthal'], null],
       ['Welchen Beruf hatte Novalis?', 'Bergbauingenieur', ['Richter', 'Arzt', 'Lehrer'], null],
       ['Wessen Tod prägte Novalis besonders?', 'Der Tod seiner Verlobten Sophie von Kühn', ['Der Tod seines Vaters', 'Der Tod Schillers', 'Der Tod seines Bruders'], 'Sie starb mit 15 Jahren.'],
       ['Wann erschienen die „Hymnen an die Nacht“?', '1800', ['1780', '1820', '1850'], null],
@@ -51,7 +51,7 @@ export const LYRIK: Subtopic = {
       ['Welche Wirkung hatte die Vertonung romantischer Gedichte?', 'Manche gelten heute als Volkslieder', ['Sie gerieten in Vergessenheit', 'Sie wurden verboten', 'Sie blieben ungesungen'], null],
       ['Welches Motiv steht in der Romantik für Aufbruch?', 'Das Wandern', ['Das Pflügen', 'Das Handeln', 'Das Bauen'], null],
       ['Welcher Gedanke steht in der „Wünschelrute“?', 'In allen Dingen schläft ein Lied', ['Jeder Mensch ist', 'Die Natur ist stumm', 'Das Wort ist Macht'], null],
-      ['Woran arbeitete Novalis beruflich?', 'An der Salinenverwaltung und im Bergbau', ['An einer Zeitung', 'An einem Theater', 'An einer Schule'], null],
+      ['Welches Gedicht aus Eichendorffs „Taugenichts“ beginnt mit „Wem Gott will rechte Gunst erweisen“?', '„Der frohe Wandersmann“', ['„Mondnacht“', '„Wünschelrute“', '„Sehnsucht“'], null],
     ],
   },
 };

@@ -30,7 +30,7 @@ export const RENAISSANCE: Subtopic = {
     mittel: [
       ['Wann lebte Machiavelli?', '1469–1527', ['1474–1533', '1544–1595', '1265–1321'], null],
       ['Wie lange diente Machiavelli der Republik Florenz?', '14 Jahre', ['4 Jahre', '30 Jahre', '1 Jahr'], null],
-      ['Wann kehrten die Medici nach Florenz zurück?', '1512', ['1300', '1494', '1527'], null],
+      ['Was trug Machiavelli, wenn er abends an „Der Fürst“ schrieb?', 'Antike Kleider', ['Eine Mönchskutte', 'Seine Diplomatenuniform', 'Eine Rüstung'], 'Tagsüber war er mit Bauern und Holzfällern zusammen.'],
       ['Was geschah mit Machiavelli nach der Rückkehr der Medici 1512?', 'Er wurde entlassen, gefoltert und verbannt', ['Er wurde Papst', 'Er floh nach England', 'Er wurde Herzog'], null],
       ['Wann entstand „Der Fürst“?', '1513', ['1313', '1581', '1650'], null],
       ['Was fordert Machiavelli vom Herrscher?', 'Lieber gefürchtet als geliebt, wenn nicht beides geht', ['Immer ehrlich zu sein', 'Fromm zu leben', 'Bescheiden zu sein'], null],

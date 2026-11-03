@@ -7,10 +7,10 @@ export const UEBERBLICK: Subtopic = {
   images: ['fontane', 'keller'],
   text: [
     'Nach dem Scheitern der Revolution von 1848 verlor die politische Dichtung ihren Schwung. An ihre Stelle trat der Realismus: Die Literatur wandte sich der wirklichen Welt zu, dem Alltag, dem Beruf, der Familie, dem Geld. Es war die Zeit der Industrialisierung, der Eisenbahn und der Reichsgründung von 1871, in der das Bürgertum wirtschaftlich aufstieg und politisch zurückstand.',
-    'Realismus heißt aber nicht Abbilden ohne Auswahl. Die Autoren sprachen von „Verklärung“: Die Wirklichkeit sollte so dargestellt werden, dass sich in ihr ein Sinn zeigt. Das Hässliche, Rohe und Krankhafte blieb meist ausgespart; deshalb spricht man auch vom „poetischen Realismus“. Erzählt wird ruhig, mit Humor und mit genauem Blick für Dinge, Gesten und Gespräche. Groß ist die Rolle des Zufalls und der Dinge, die stellvertretend für Gefühle stehen.',
+    'Realismus heißt aber nicht Abbilden ohne Auswahl. Die Autoren sprachen von „Verklärung“: Die Wirklichkeit sollte so dargestellt werden, dass sich in ihr ein Sinn zeigt. Das Hässliche, Rohe und Krankhafte blieb meist ausgespart; deshalb spricht man auch vom „poetischen Realismus“, ein Begriff, den Otto Ludwig prägte. Das Programm vertrat die Zeitschrift „Die Grenzboten“; in die Bürgerhäuser brachte die Literatur das Familienblatt „Die Gartenlaube“. Erzählt wird ruhig, mit Humor und mit genauem Blick für Dinge, Gesten und Gespräche. Groß ist die Rolle des Zufalls und der Dinge, die stellvertretend für Gefühle stehen.',
     'Die wichtigste Form wurde die Novelle: eine mittellange Erzählung mit einem unerhörten Ereignis und oft einem Dingsymbol, das wie ein Zeichen durch den Text läuft. Paul Heyse nannte dieses Zeichen den „Falken“, nach einer Geschichte Boccaccios. Daneben entstand der Gesellschaftsroman, der ein ganzes Milieu zeigt, und die Dorfgeschichte.',
-    'Zu den großen Namen gehören Theodor Fontane in Berlin und der Mark Brandenburg, Theodor Storm in Husum an der Nordsee, Gottfried Keller und Conrad Ferdinand Meyer in der Schweiz, Wilhelm Raabe und Marie von Ebner-Eschenbach in Österreich. Viele von ihnen hatten einen bürgerlichen Beruf: Storm war Richter, Keller Staatsschreiber des Kantons Zürich, Fontane Apotheker und Journalist.',
-    'Um 1890 löste der Naturalismus den Realismus ab. Er wollte die Wirklichkeit ohne jede Verklärung zeigen, auch Armut, Alkohol, Krankheit und Dialekt. Gerhart Hauptmanns Drama „Die Weber“ (1892) über den schlesischen Weberaufstand gilt als sein Hauptwerk. Damit begann die literarische Moderne.',
+    'Zu den großen Namen gehören Theodor Fontane in Berlin und der Mark Brandenburg, Theodor Storm in Husum an der Nordsee, Gottfried Keller und Conrad Ferdinand Meyer in der Schweiz, Wilhelm Raabe in Braunschweig („Die schwarze Galeere“, „Stopfkuchen“) und Marie von Ebner-Eschenbach in Österreich. Conrad Ferdinand Meyer schrieb historische Novellen und Balladen. Viele von ihnen hatten einen bürgerlichen Beruf: Storm war Richter, Keller Staatsschreiber des Kantons Zürich, Fontane Apotheker und Journalist.',
+    'Um 1890 löste der Naturalismus den Realismus ab. Er wollte die Wirklichkeit ohne jede Verklärung zeigen, auch Armut, Alkohol, Krankheit und Dialekt; Arno Holz entwickelte dafür den „Sekundenstil“, der Geschehen fast Sekunde für Sekunde wiedergibt. Gerhart Hauptmanns Drama „Die Weber“ (1892) über den schlesischen Weberaufstand gilt als sein Hauptwerk. Damit begann die literarische Moderne.',
   ],
   quiz: {
     leicht: [
@@ -32,8 +32,8 @@ export const UEBERBLICK: Subtopic = {
       ['Warum spricht man auch vom „poetischen Realismus“?', 'Weil das Rohe und Hässliche meist ausgespart bleibt', ['Weil alles in Versen steht', 'Weil nur Gedichte entstanden', 'Weil die Sprache gehoben ist'], null],
       ['Was ist der „Falke“ in der Novellentheorie?', 'Ein Dingsymbol, das den Text durchzieht', ['Ein Vogelmotiv in der Lyrik', 'Der Held der Geschichte', 'Ein Erzähler'], 'Paul Heyse nannte es nach einer Geschichte Boccaccios so.'],
       ['Wie definierte man die Novelle?', 'Als Erzählung mit einem unerhörten Ereignis', ['Als kurzes Gedicht', 'Als Roman in Briefen', 'Als Drama in einem Akt'], 'Die Formulierung stammt von Goethe.'],
-      ['Welchen Beruf hatte Theodor Storm?', 'Richter', ['Apotheker', 'Arzt', 'Lehrer'], null],
-      ['Welchen Beruf hatte Gottfried Keller?', 'Staatsschreiber des Kantons Zürich', ['Richter', 'Pfarrer', 'Professor'], null],
+      ['In welcher Stadt lebte und schrieb Wilhelm Raabe?', 'In Braunschweig', ['In Husum', 'In Zürich', 'In Wien'], 'Raabe gehört neben Fontane, Storm und Keller zu den großen Realisten.'],
+      ['In welcher Landschaft spielen viele Werke Theodor Fontanes?', 'In der Mark Brandenburg', ['In Ostfriesland', 'Im Schwarzwald', 'In Oberbayern'], 'Fontane lebte in Berlin und durchwanderte die Mark.'],
       ['Welcher Autor schrieb „Die schwarze Galeere“ und „Stopfkuchen“?', 'Wilhelm Raabe', ['Conrad Ferdinand Meyer', 'Paul Heyse', 'Friedrich Spielhagen'], null],
       ['Welche österreichische Autorin gehört zum Realismus?', 'Marie von Ebner-Eschenbach', ['Bettina von Arnim', 'Annette von Droste-Hülshoff', 'Ricarda Huch'], null],
       ['Welche Romanform zeigt ein ganzes Milieu?', 'Der Gesellschaftsroman', ['Der Briefroman', 'Der Schelmenroman', 'Der Bildungsroman'], null],
@@ -49,7 +49,7 @@ export const UEBERBLICK: Subtopic = {
       ['Wer prägte den Begriff „poetischer Realismus“?', 'Otto Ludwig', ['Paul Heyse', 'Theodor Fontane', 'Gustav Freytag'], null],
       ['Welche Zeitschrift vertrat das Programm des Realismus?', 'Die Grenzboten', ['Das Athenäum', 'Die Horen', 'Die Gartenlaube'], null],
       ['Welche Zeitschrift verbreitete die Literatur ins Bürgerhaus?', 'Die Gartenlaube', ['Der Spiegel', 'Die Fackel', 'Die Horen'], 'Viele Romane erschienen zuerst als Fortsetzung.'],
-      ['Was unterscheidet Naturalismus und Realismus?', 'Der Naturalismus verzichtet auf jede Verklärung', ['Der Naturalismus ist älter', 'Der Realismus nutzt Dialekt', 'Der Naturalismus schreibt nur Gedichte'], null],
+      ['Welche erzählende Form entstand im Realismus neben Novelle und Gesellschaftsroman?', 'Die Dorfgeschichte', ['Der Schauerroman', 'Der Briefroman', 'Die Fabel'], 'Sie zeigt das Leben auf dem Land.'],
       ['Welches Verfahren entwickelte Arno Holz im Naturalismus?', 'Den Sekundenstil', ['Den inneren Monolog', 'Die Montage', 'Den Verfremdungseffekt'], 'Er erzählt in der Zeit, die das Geschehen wirklich dauert.'],
       ['Welcher Schweizer Dichter schrieb historische Novellen und Balladen?', 'Conrad Ferdinand Meyer', ['Gottfried Keller', 'Jeremias Gotthelf', 'Robert Walser'], null],
     ],

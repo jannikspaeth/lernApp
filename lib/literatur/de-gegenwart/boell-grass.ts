@@ -39,7 +39,7 @@ export const BOELL_GRASS: Subtopic = {
       ['Wann erschien „Die Blechtrommel“?', '1959', ['1949', '1969', '1979'], null],
       ['Wie heißt die Trilogie um die Blechtrommel?', 'Die Danziger Trilogie', ['Die Kölner Trilogie', 'Die Nachkriegstrilogie', 'Die Ostsee-Trilogie'], 'Dazu gehören „Katz und Maus“ und „Hundejahre“.'],
       ['Was erklärte Grass 2006?', 'Dass er als Siebzehnjähriger zur Waffen-SS eingezogen worden war', ['Dass er die Blechtrommel nicht allein schrieb', 'Dass er die DDR unterstützte', 'Dass er den Nobelpreis ablehnt'], null],
-      ['In welchem Buch gestand Günter Grass, Mitglied der Waffen-SS gewesen zu sein?', 'Beim Häuten der Zwiebel', ['Ein weites Feld', 'Mein Jahrhundert', 'Grimms Wörter'], null],
+      ['Welche beiden Bücher bilden mit der „Blechtrommel“ die Danziger Trilogie?', '„Katz und Maus“ und „Hundejahre“', ['„Der Butt“ und „Die Rättin“', '„Ein weites Feld“ und „Im Krebsgang“', '„Örtlich betäubt“ und „Mein Jahrhundert“'], 'Alle drei spielen in Grass’ Geburtsstadt Danzig.'],
     ],
     schwer: [
       ['Aus welcher Perspektive erzählt Grass’ „Blechtrommel“?', 'Die Froschperspektive eines Dreijährigen', ['Die eines Richters', 'Die eines Soldaten', 'Die eines allwissenden Erzählers'], null],
@@ -50,7 +50,7 @@ export const BOELL_GRASS: Subtopic = {
       ['Wogegen wandte sich Günter Grass 1990?', 'Gegen die schnelle deutsche Einheit', ['Gegen die Westbindung', 'Gegen die EU', 'Gegen die Nato'], null],
       ['Was verbindet Böll und Grass biografisch?', 'Beide gingen durch die Gruppe 47 und erhielten den Nobelpreis', ['Beide lebten im Exil', 'Beide schrieben nur Lyrik', 'Beide waren Verleger'], null],
       ['Welches Bild vom Schriftsteller prägten beide?', 'Den engagierten Autor, der sich einmischt', ['Den zurückgezogenen Dichter', 'Den Hofdichter', 'Den reinen Ästheten'], null],
-      ['Was ist Oskar Matzeraths wichtigster Gegenstand?', 'Seine Blechtrommel', ['Ein Buch', 'Ein Spiegel', 'Eine Geige'], null],
+      ['Welche Haltung hatte Böll zu seinem Beinamen „Gewissen der Nation“?', 'Er mochte ihn selbst nicht', ['Er hatte ihn selbst erfunden', 'Er ließ ihn auf seinen Grabstein schreiben', 'Er verklagte die Zeitung, die ihn prägte'], 'Böll sah sich als Schriftsteller, nicht als moralische Instanz.'],
       ['Welcher Film machte Grass’ „Blechtrommel“ weltbekannt?', 'Die Verfilmung von Volker Schlöndorff', ['Eine Verfilmung von Fassbinder', 'Eine Verfilmung von Wenders', 'Eine Verfilmung von Herzog'], 'Sie erhielt 1980 den Oscar für den besten fremdsprachigen Film.'],
     ],
   },

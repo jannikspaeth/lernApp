@@ -6,10 +6,10 @@ export const UEBERBLICK: Subtopic = {
   date: '1720–1785',
   images: ['lessing', 'herder'],
   text: [
-    'Die Aufklärung war die große geistige Bewegung des 18. Jahrhunderts. Ihr Grundgedanke: Der Mensch soll seinen eigenen Verstand gebrauchen, statt Obrigkeit, Kirche oder Tradition blind zu folgen. Immanuel Kant fasste das 1784 in einem berühmten Aufsatz zusammen: „Aufklärung ist der Ausgang des Menschen aus seiner selbstverschuldeten Unmündigkeit“, und gab das Motto aus: „Sapere aude! Habe Mut, dich deines eigenen Verstandes zu bedienen!“ Dazu gehörten die Forderung nach Toleranz, nach Bildung für alle und nach vernünftigen Gesetzen.',
+    'Die Aufklärung war die große geistige Bewegung des 18. Jahrhunderts. Ihr Grundgedanke: Der Mensch soll seinen eigenen Verstand gebrauchen, statt Obrigkeit, Kirche oder Tradition blind zu folgen. Der Königsberger Philosoph Immanuel Kant fasste das 1784 in einem berühmten Aufsatz zusammen: „Aufklärung ist der Ausgang des Menschen aus seiner selbstverschuldeten Unmündigkeit“, und gab das Motto aus: „Sapere aude! Habe Mut, dich deines eigenen Verstandes zu bedienen!“ Dazu gehörten die Forderung nach Toleranz, nach Bildung für alle und nach vernünftigen Gesetzen.',
     'Für die Literatur hatte das Folgen. Sie sollte nützen und erziehen, nicht nur unterhalten. Es entstanden neue Formen für ein neues Publikum: moralische Wochenschriften, Fabeln, Lehrgedichte, Briefe und der Roman. Lesen wurde zur bürgerlichen Gewohnheit; im Laufe des Jahrhunderts wuchs die Zahl der Leser stark, und es entstanden Leihbibliotheken und Lesegesellschaften. Zum ersten Mal konnten einzelne Schriftsteller vom Verkauf ihrer Bücher leben, auch wenn das selten blieb.',
     'Johann Christoph Gottsched (1700–1766) wollte das deutsche Theater nach französischem Vorbild erneuern. In seinem „Versuch einer Critischen Dichtkunst“ (1730) verlangte er klare Regeln, eine vernünftige Handlung und eine gehobene Sprache; die derbe Spaßfigur Hanswurst ließ er symbolisch von der Bühne verbannen. Gotthold Ephraim Lessing widersprach ihm: Nicht die Franzosen, sondern Shakespeare sei das richtige Vorbild, und auf der Bühne müsse der Mensch so erscheinen, wie er ist.',
-    'Neben der nüchternen Vernunft wuchs die Empfindsamkeit. Sie entdeckte das Gefühl, die Freundschaft und die Innerlichkeit, ohne die Vernunft zu verwerfen. Friedrich Gottlieb Klopstock schrieb mit dem „Messias“ (ab 1748) ein religiöses Epos in Hexametern und machte freie Rhythmen in der Lyrik möglich. Christian Fürchtegott Gellert wurde mit seinen Fabeln zum meistgelesenen deutschen Autor seiner Zeit.',
+    'Neben der nüchternen Vernunft wuchs die Empfindsamkeit. Sie entdeckte das Gefühl, die Freundschaft und die Innerlichkeit, ohne die Vernunft zu verwerfen. Friedrich Gottlieb Klopstock schrieb mit dem „Messias“ (ab 1748) ein religiöses Epos in Hexametern und machte freie Rhythmen in der Lyrik möglich. Christoph Martin Wieland übertrug als Erster rund zwanzig Dramen Shakespeares ins Deutsche. Christian Fürchtegott Gellert wurde mit seinen Fabeln zum meistgelesenen deutschen Autor seiner Zeit.',
     'Ab etwa 1765 lehnte sich eine junge Generation gegen die Regeln auf: der Sturm und Drang. Für sie zählten Genie, Natur, Leidenschaft und Freiheit mehr als Vernunft und Form. Herder, der junge Goethe und der junge Schiller gehören dazu. Die Aufklärung wurde damit nicht abgeschafft, aber um das Recht des Gefühls erweitert. Beide Strömungen zusammen bereiteten die Weimarer Klassik vor.',
   ],
   quiz: {
@@ -29,7 +29,7 @@ export const UEBERBLICK: Subtopic = {
     ],
     mittel: [
       ['Wie beginnt Kants Satz über die Aufklärung?', '„Aufklärung ist der Ausgang des Menschen aus seiner selbstverschuldeten Unmündigkeit“', ['„Der Mensch ist frei geboren“', '„Alle Menschen sind gleich“', '„Der Mensch ist das Maß aller Dinge“'], null],
-      ['Wann erschien Kants Aufsatz „Was ist Aufklärung?“', '1784', ['1684', '1884', '1730'], null],
+      ['In welcher Stadt lebte und lehrte Immanuel Kant?', 'In Königsberg', ['In Berlin', 'In Leipzig', 'In Göttingen'], null],
       ['Wie heißt Gottscheds wichtigstes Buch?', 'Versuch einer Critischen Dichtkunst', ['Hamburgische Dramaturgie', 'Laokoon', 'Buch von der Deutschen Poeterey'], 'Es erschien 1730.'],
       ['Wann lebte Gottsched?', '1700–1766', ['1600–1666', '1800–1866', '1729–1781'], null],
       ['Wer schrieb das Epos „Der Messias“?', 'Friedrich Gottlieb Klopstock', ['Gellert', 'Gottsched', 'Lessing'], 'Es erschien ab 1748 in Hexametern.'],
@@ -50,7 +50,7 @@ export const UEBERBLICK: Subtopic = {
       ['Was setzte der Sturm und Drang gegen die Regelpoetik?', 'Genie, Natur und Leidenschaft', ['Ordnung und Maß', 'Glaube und Kirche', 'Hof und Etikette'], null],
       ['Wer brachte Goethe in Straßburg auf Volkslied und Shakespeare?', 'Johann Gottfried Herder', ['Gottsched', 'Klopstock', 'Lessing'], 'Die Begegnung fand 1770 statt.'],
       ['Wie veränderte sich das Lesen im 18. Jahrhundert?', 'Es wurde zur bürgerlichen Gewohnheit', ['Es blieb auf Klöster beschränkt', 'Es ging stark zurück', 'Es war nur am Hof üblich'], null],
-      ['Was gilt als Gattung der Aufklärung schlechthin?', 'Die Fabel mit ihrer Lehre', ['Das Heldenepos', 'Das Trauerspiel der Märtyrer', 'Das Minnelied'], null],
+      ['Wer übersetzte als Erster rund zwanzig Dramen Shakespeares ins Deutsche?', 'Christoph Martin Wieland', ['August Wilhelm Schlegel', 'Gotthold Ephraim Lessing', 'Johann Gottfried Herder'], 'Später übersetzten Schlegel und Tieck Shakespeare noch einmal.'],
       ['Wie verhielt sich der Sturm und Drang zur Aufklärung?', 'Er erweiterte sie um das Recht des Gefühls', ['Er schaffte sie ganz ab', 'Er war ihr Vorläufer', 'Er hatte nichts mit ihr zu tun'], null],
     ],
   },

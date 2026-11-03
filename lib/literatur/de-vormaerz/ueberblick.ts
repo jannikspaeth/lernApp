@@ -6,7 +6,7 @@ export const UEBERBLICK: Subtopic = {
   date: '1815–1848',
   images: ['droste', 'heine'],
   text: [
-    'Nach dem Sieg über Napoleon ordnete der Wiener Kongress 1815 Europa neu. Die Hoffnungen auf Einheit und Verfassung wurden enttäuscht, die Fürsten behielten die Macht. Nach der Ermordung des Dichters August von Kotzebue beschlossen die deutschen Staaten 1819 die Karlsbader Beschlüsse: strenge Zensur, Überwachung der Universitäten, Verbot der Burschenschaften. Für die Literatur hieß das: Wer politisch schrieb, riskierte Verbot, Haft oder Flucht.',
+    'Nach dem Sieg über Napoleon ordnete der Wiener Kongress 1815 Europa neu. Die Hoffnungen auf Einheit und Verfassung wurden enttäuscht, die Fürsten behielten die Macht. Nach der Ermordung des Dichters August von Kotzebue durch den Burschenschafter Karl Ludwig Sand beschlossen die deutschen Staaten 1819 die Karlsbader Beschlüsse: strenge Zensur, Überwachung der Universitäten, Verbot der Burschenschaften. Für die Literatur hieß das: Wer politisch schrieb, riskierte Verbot, Haft oder Flucht.',
     'Daraus entstanden zwei entgegengesetzte Haltungen. Das Biedermeier zog sich ins Private zurück: in Familie, Garten, Natur und Innerlichkeit. Seine Dichtung ist still, genau beobachtend und oft wehmütig. Dazu zählen Eduard Mörike mit Gedichten wie „Er ist’s“, Adalbert Stifter mit seinen Erzählungen von der ruhigen Ordnung der Natur und die Lyrik von Annette von Droste-Hülshoff. Ihre Erzählung „Die Judenbuche“ (1842) über einen ungeklärten Mord im Dorf gilt als Meisterwerk und als frühe Kriminalnovelle.',
     'Der Vormärz dagegen wollte die Verhältnisse ändern. Der Name meint die Jahre vor der Märzrevolution von 1848. Autoren wie Heinrich Heine, Georg Herwegh, Ferdinand Freiligrath und Georg Büchner griffen Fürsten, Kirche und soziale Not an. 1835 verbot der Deutsche Bundestag die Schriften des „Jungen Deutschland“, einer Gruppe um Karl Gutzkow und Heinrich Laube, und nannte Heine ausdrücklich beim Namen. Viele gingen ins Exil, vor allem nach Paris und in die Schweiz.',
     'Die Literatur wurde politischer und zugleich alltagsnäher. Es entstanden Reisebilder, Reportagen, Flugschriften und politische Lieder. 1844 schrieb Heine „Die schlesischen Weber“ über den Aufstand der hungernden Weber, und Georg Weerth schrieb über die Lage der Arbeiter. 1841 dichtete Hoffmann von Fallersleben auf Helgoland das „Lied der Deutschen“, damals ein Ruf nach Einheit und Freiheit gegen die Kleinstaaterei.',
@@ -29,7 +29,7 @@ export const UEBERBLICK: Subtopic = {
     ],
     mittel: [
       ['Was ordnete Europa 1815 neu?', 'Der Wiener Kongress', ['Der Westfälische Frieden', 'Die Paulskirche', 'Der Deutsche Bund von 1866'], null],
-      ['Was folgte auf die Ermordung August von Kotzebues?', 'Die Karlsbader Beschlüsse', ['Die Revolution', 'Die Reichsgründung', 'Das Hambacher Fest'], null],
+      ['Wer ermordete 1819 den Dichter August von Kotzebue?', 'Der Burschenschafter Karl Ludwig Sand', ['Georg Büchner', 'Ein französischer Spion', 'Ein Offizier der Zensur'], 'Die Tat diente als Anlass für die Karlsbader Beschlüsse.'],
       ['Was wurde 1819 außerdem verboten?', 'Die Burschenschaften', ['Die Universitäten', 'Die Zeitungen insgesamt', 'Das Theater'], null],
       ['Welcher Dichter des Biedermeier schrieb „Er ist’s“?', 'Eduard Mörike', ['Adalbert Stifter', 'Nikolaus Lenau', 'Friedrich Rückert'], null],
       ['Welcher Autor des Biedermeier schrieb über die ruhige Ordnung der Natur?', 'Adalbert Stifter', ['Georg Büchner', 'Heinrich Heine', 'Georg Herwegh'], null],

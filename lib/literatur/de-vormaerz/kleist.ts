@@ -6,9 +6,9 @@ export const KLEIST: Subtopic = {
   date: '1777–1811',
   images: ['kleist'],
   text: [
-    'Heinrich von Kleist wurde 1777 in Frankfurt an der Oder in eine preußische Offiziersfamilie geboren. Mit 15 trat er in die Armee ein, quittierte den Dienst aber nach sieben Jahren, weil ihm das Soldatenleben zuwider war. Er suchte danach ruhelos nach einem Platz im Leben: Student, Beamter, Landwirt, Zeitungsherausgeber. Um 1801 erlebte er eine schwere Krise, oft „Kant-Krise“ genannt: Die Einsicht, dass der Mensch die Wahrheit vielleicht nie erkennen kann, nahm ihm den Boden.',
+    'Heinrich von Kleist wurde 1777 in Frankfurt an der Oder in eine preußische Offiziersfamilie geboren. Mit 15 trat er in die Armee ein, quittierte den Dienst aber nach sieben Jahren, weil ihm das Soldatenleben zuwider war. Er suchte danach ruhelos nach einem Platz im Leben: Student, Beamter, Landwirt, Zeitungsherausgeber. Um 1801 erlebte er eine schwere Krise, oft „Kant-Krise“ genannt: Die Einsicht, dass der Mensch die Wahrheit vielleicht nie erkennen kann, nahm ihm den Boden. Bald darauf löste er seine Verlobung mit der Generalstochter Wilhelmine von Zenge.',
     'Kleist steht zwischen Klassik und Romantik und passt in keine der beiden Schubladen. Seine Figuren geraten in Lagen, in denen Gefühl und Verstand, Recht und Gerechtigkeit, Vertrauen und Beweis auseinanderfallen. Seine Sprache ist berühmt für ihre langen, verschachtelten Sätze, die die Verwirrung der Figuren nachbilden. Goethe konnte wenig mit ihm anfangen; die Weimarer Aufführung des „Zerbrochnen Krugs“ 1808 unter Goethes Leitung wurde ein Misserfolg.',
-    'Zu seinen Dramen gehören „Der zerbrochne Krug“, ein Lustspiel, in dem der Dorfrichter Adam einen Fall verhandelt, in dem er selbst der Täter ist, „Penthesilea“ über die Amazonenkönigin, die den geliebten Achill im Rausch zerfleischt, „Das Käthchen von Heilbronn“ und „Prinz Friedrich von Homburg“, in dem ein Offizier trotz Siegs zum Tode verurteilt wird, weil er einen Befehl missachtet hat.',
+    'Zu seinen Dramen gehören „Der zerbrochne Krug“, ein Lustspiel, in dem der Dorfrichter Adam einen Fall verhandelt, in dem er selbst der Täter ist, „Penthesilea“ über die Amazonenkönigin, die den geliebten Achill im Rausch zerfleischt, „Das Käthchen von Heilbronn“ über ein Mädchen, das einem Ritter wie im Traum bedingungslos folgt, und „Prinz Friedrich von Homburg“, in dem ein Offizier trotz Siegs zum Tode verurteilt wird, weil er einen Befehl missachtet hat.',
     'In der Prosa schrieb Kleist einige der dichtesten Erzählungen der deutschen Literatur. „Michael Kohlhaas“ (1810) handelt von einem Pferdehändler, dem Unrecht geschieht; weil er vor Gericht kein Recht bekommt, zieht er brandschatzend durchs Land und wird vom rechtschaffenen Mann zum Mörder: eine Geschichte darüber, wie das Rechtsgefühl selbst zerstörerisch werden kann. „Die Marquise von O....“ beginnt damit, dass eine Frau durch die Zeitung den Vater ihres Kindes sucht, weil sie nicht weiß, wie sie schwanger wurde. „Das Erdbeben in Chili“ zeigt, wie eine Katastrophe zuerst Menschlichkeit und dann Fanatismus freisetzt. Dazu kommt der Essay „Über das Marionettentheater“ (1810).',
     'Kleists Zeitung „Berliner Abendblätter“ scheiterte an der Zensur, seine Stücke wurden kaum gespielt, er war verschuldet und ohne Aussicht. Am 21. November 1811 erschoss er am Kleinen Wannsee bei Berlin die todkranke Henriette Vogel auf deren Wunsch und danach sich selbst. Er wurde 34 Jahre alt. Erst lange nach seinem Tod erkannte man seinen Rang; heute gilt er als einer der größten deutschen Dramatiker und Erzähler, und der Kleist-Preis trägt seinen Namen.',
   ],
@@ -28,7 +28,7 @@ export const KLEIST: Subtopic = {
       ['Welcher Literaturpreis trägt Kleists Namen?', 'Der Kleist-Preis', ['Der Büchner-Preis', 'Der Fontane-Preis', 'Der Hölderlin-Preis'], null],
     ],
     mittel: [
-      ['Wann lebte Kleist?', '1777–1811', ['1797–1856', '1813–1837', '1749–1832'], null],
+      ['Mit welcher Generalstochter war Kleist eine Zeit lang verlobt?', 'Mit Wilhelmine von Zenge', ['Mit Henriette Vogel', 'Mit Marie von Kleist', 'Mit Rahel Varnhagen'], null],
       ['Wo wurde Kleist geboren?', 'In Frankfurt an der Oder', ['In Berlin', 'In Königsberg', 'In Potsdam'], null],
       ['Wie lange war Kleist Soldat?', 'Sieben Jahre', ['Ein Jahr', 'Zwanzig Jahre', 'Sein Leben lang'], 'Er trat mit 15 ein und quittierte den Dienst.'],
       ['Wie nennt man Kleists Krise um 1801?', 'Die Kant-Krise', ['Die Weimarer Krise', 'Die Pariser Krise', 'Die Glaubenskrise'], 'Er zweifelte daran, ob der Mensch Wahrheit erkennen kann.'],
@@ -39,7 +39,7 @@ export const KLEIST: Subtopic = {
       ['Wie ist Kleists Sprache bekannt?', 'Für lange, verschachtelte Sätze', ['Für kurze Hauptsätze', 'Für Dialekt', 'Für lateinische Einschübe'], null],
       ['Welchen Essay schrieb Kleist 1810?', 'Über das Marionettentheater', ['Über naive und sentimentalische Dichtung', 'Über die ästhetische Erziehung', 'Laokoon'], null],
       ['Mit wem starb Kleist zusammen?', 'Mit Henriette Vogel', ['Mit seiner Schwester Ulrike', 'Mit Wilhelmine von Zenge', 'Allein'], 'Sie war todkrank und hatte ihn darum gebeten.'],
-      ['Wann starb Kleist?', 'Am 21. November 1811', ['Am 21. November 1801', 'Am 9. Mai 1805', 'Am 22. März 1832'], null],
+      ['Welches Ritterschauspiel Kleists handelt von einem Mädchen, das einem Ritter bedingungslos folgt?', '„Das Käthchen von Heilbronn“', ['„Penthesilea“', '„Amphitryon“', '„Die Familie Schroffenstein“'], null],
     ],
     schwer: [
       ['Welches Thema verbindet viele Werke Kleists?', 'Der Zusammenprall von Gefühl und Verstand', ['Die Schönheit der Natur', 'Die Liebe zur Heimat', 'Der Glaube an Gott'], null],

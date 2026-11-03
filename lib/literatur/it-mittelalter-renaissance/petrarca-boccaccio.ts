@@ -17,7 +17,7 @@ export const PETRARCA_BOCCACCIO: Subtopic = {
       ['Wer schrieb den „Canzoniere“?', 'Francesco Petrarca', ['Dante', 'Boccaccio', 'Ariost'], null, 'petrarca'],
       ['Wem galten Petrarcas Gedichte?', 'Laura', ['Beatrice', 'Fiammetta', 'Lucia'], null],
       ['Welche Gedichtform verbreitete Petrarca?', 'Das Sonett', ['Die Terzine', 'Die Ode', 'Das Epigramm'], null],
-      ['Womit wurde Petrarca 1341 gekrönt?', 'Mit dem Dichterlorbeer', ['Mit der Krone', 'Mit einem Orden', 'Mit der Mitra'], null],
+      ['Wo sah Petrarca Laura zum ersten Mal?', 'In einer Kirche in Avignon', ['Auf dem Kapitol in Rom', 'In einem Garten in Florenz', 'Am Hof von Neapel'], 'Wer Laura war, ist bis heute unbekannt.'],
       ['Wo wurde Petrarca 1341 zum Dichter gekrönt?', 'Auf dem Kapitol in Rom', ['In Florenz', 'In Avignon', 'In Padua'], null],
       ['Wer schrieb das „Decamerone“?', 'Giovanni Boccaccio', ['Dante', 'Petrarca', 'Machiavelli'], null, 'boccaccio'],
       ['Vor welcher Krankheit fliehen die zehn Erzähler im „Decamerone“?', 'Vor der Pest', ['Vor der Cholera', 'Vor den Pocken', 'Vor der Malaria'], null],

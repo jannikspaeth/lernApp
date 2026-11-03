@@ -7,10 +7,10 @@ export const KAFKA: Subtopic = {
   images: ['kafka'],
   text: [
     'Franz Kafka wurde 1883 in Prag geboren, damals Teil Österreich-Ungarns. Er gehörte zur deutschsprachigen jüdischen Minderheit der Stadt, schrieb auf Deutsch und lebte zwischen den Sprachen und Welten. Sein Vater, ein selbstbewusster Kaufmann, war eine erdrückende Gestalt für ihn; 1919 schrieb er den nie abgeschickten „Brief an den Vater“, über hundert Seiten lang. Kafka studierte Jura und arbeitete bei einer Arbeiter-Unfall-Versicherungsanstalt, wo er als fähiger Beamter galt. Geschrieben hat er fast immer nachts.',
-    'Zu Lebzeiten veröffentlichte er wenig, darunter die Erzählungen „Das Urteil“ (1913), „Die Verwandlung“ (1915) und „In der Strafkolonie“. „Die Verwandlung“ beginnt mit einem der bekanntesten Sätze der Weltliteratur: Gregor Samsa erwacht eines Morgens und findet sich in ein „ungeheueres Ungeziefer“ verwandelt. Die Erzählung beschreibt nüchtern, wie die Familie zuerst erschrickt, dann pflegt, dann duldet und ihn schließlich loswerden will.',
+    'Zu Lebzeiten veröffentlichte er wenig, darunter die Erzählungen „Das Urteil“ (1913), die er im September 1912 in einer einzigen Nacht niederschrieb, „Die Verwandlung“ (1915) und „In der Strafkolonie“, in der eine Maschine den Verurteilten ihr Urteil in die Haut schreibt. „Die Verwandlung“ beginnt mit einem der bekanntesten Sätze der Weltliteratur: Gregor Samsa erwacht eines Morgens und findet sich in ein „ungeheueres Ungeziefer“ verwandelt. Die Erzählung beschreibt nüchtern, wie die Familie zuerst erschrickt, dann pflegt, dann duldet und ihn schließlich loswerden will.',
     'Kafkas drei Romane blieben unvollendet. In „Der Process“ wird Josef K. an seinem 30. Geburtstag verhaftet, ohne je zu erfahren, was ihm vorgeworfen wird; er kämpft gegen ein Gericht, das überall und nirgends ist, und wird am Ende „wie ein Hund“ getötet. Darin steht die Türhüterlegende „Vor dem Gesetz“: Ein Mann wartet sein Leben lang vor einem Tor, das nur für ihn bestimmt war. In „Das Schloss“ versucht der Landvermesser K. vergeblich, Zutritt zu einer Verwaltung zu bekommen, die ihn bestellt hat.',
     'Das Wort „kafkaesk“ beschreibt genau diese Erfahrung: eine Welt, in der alles genau geregelt scheint, in der die Regeln aber unerreichbar bleiben und der Einzelne schuldig ist, ohne zu wissen warum. Kafkas Sprache ist dabei völlig nüchtern; gerade die Sachlichkeit macht das Unmögliche glaubwürdig.',
-    'Kafka erkrankte 1917 an Tuberkulose und starb 1924 mit 40 Jahren in einem Sanatorium bei Wien. Seinem Freund Max Brod hatte er aufgetragen, alle unveröffentlichten Schriften zu verbrennen. Brod hielt sich nicht daran und gab „Der Process“ (1925), „Das Schloss“ (1926) und „Der Verschollene“ heraus. Ohne diesen Wortbruch kennte niemand Kafka. Seine drei Schwestern wurden im Holocaust ermordet.',
+    'Mit der Berlinerin Felice Bauer war er zweimal verlobt, heiratete aber nie. Kafka erkrankte 1917 an Tuberkulose und starb 1924 mit 40 Jahren in einem Sanatorium bei Wien. Seinem Freund Max Brod hatte er aufgetragen, alle unveröffentlichten Schriften zu verbrennen. Brod hielt sich nicht daran und gab „Der Process“ (1925), „Das Schloss“ (1926) und „Der Verschollene“ heraus. Ohne diesen Wortbruch kennte niemand Kafka. Seine drei Schwestern wurden im Holocaust ermordet.',
   ],
   quiz: {
     leicht: [
@@ -28,7 +28,7 @@ export const KAFKA: Subtopic = {
       ['Was bedeutet „kafkaesk“?', 'Bedrohlich undurchschaubar', ['Komisch übertrieben', 'Romantisch verträumt', 'Nüchtern sachlich'], null],
     ],
     mittel: [
-      ['Wann lebte Kafka?', '1883–1924', ['1875–1955', '1898–1956', '1860–1910'], null],
+      ['Wo starb Kafka?', 'In einem Sanatorium bei Wien', ['In Prag', 'In Berlin', 'In Meran'], null],
       ['Zu welchem Staat gehörte Prag bei Kafkas Geburt?', 'Zu Österreich-Ungarn', ['Zum Deutschen Reich', 'Zur Tschechoslowakei', 'Zu Russland'], null],
       ['In welcher Sprache schrieb Kafka?', 'Auf Deutsch', ['Auf Tschechisch', 'Auf Jiddisch', 'Auf Hebräisch'], null],
       ['Wann erschien „Die Verwandlung“?', '1915', ['1905', '1925', '1935'], null],
@@ -39,14 +39,14 @@ export const KAFKA: Subtopic = {
       ['Wer will in Kafkas „Schloss“ Zutritt zur Verwaltung?', 'Der Landvermesser K.', ['Josef K.', 'Gregor Samsa', 'Karl Roßmann'], null],
       ['Wann schrieb Kafka den „Brief an den Vater“?', '1919', ['1909', '1929', '1915'], 'Abgeschickt hat er ihn nie.'],
       ['Wann erkrankte Kafka an Tuberkulose?', '1917', ['1907', '1923', '1900'], null],
-      ['Wer veröffentlichte Kafkas Romane?', 'Max Brod', ['Thomas Mann', 'Samuel Fischer', 'Dora Diamant'], null],
+      ['Welche Erzählung schrieb Kafka 1912 in einer einzigen Nacht?', 'Das Urteil', ['Die Verwandlung', 'Ein Hungerkünstler', 'Der Bau'], null],
     ],
     schwer: [
-      ['Wie beginnt „Die Verwandlung“?', 'Gregor Samsa erwacht als ungeheueres Ungeziefer', ['Gregor verliert seine Arbeit', 'Die Familie zieht um', 'Ein Brief trifft ein'], null],
+      ['In welcher Erzählung Kafkas schreibt eine Maschine den Verurteilten ihr Urteil in die Haut?', 'In der Strafkolonie', ['Das Urteil', 'Ein Landarzt', 'Ein Hungerkünstler'], null],
       ['Was macht Kafkas Sprache so wirksam?', 'Sie bleibt völlig nüchtern', ['Sie ist überschwänglich', 'Sie ist in Versen', 'Sie nutzt Prager Dialekt'], 'Gerade dadurch wirkt das Unmögliche glaubwürdig.'],
       ['Wie endet Kafkas „Der Process“?', 'Josef K. wird „wie ein Hund“ getötet', ['Er wird freigesprochen', 'Er flieht', 'Das Verfahren wird eingestellt'], null],
       ['Wann wird Josef K. im „Process“ verhaftet?', 'An seinem 30. Geburtstag', ['Am Neujahrstag', 'Nach einer Reise', 'Nach einem Streit'], null],
-      ['Welche Erfahrung beschreibt das Wort „kafkaesk“?', 'Schuldig sein, ohne zu wissen warum', ['Glück im Unglück', 'Komische Verwechslung', 'Heldenhafter Kampf'], null],
+      ['Mit welcher Frau war Kafka zweimal verlobt?', 'Mit Felice Bauer', ['Mit Milena Jesenská', 'Mit Dora Diamant', 'Mit seiner Schwester Ottla'], 'Geheiratet hat er nie.'],
       ['Welche Rolle spielte Kafkas Vater für ihn?', 'Er war eine erdrückende Gestalt', ['Er förderte ihn', 'Er war früh gestorben', 'Er war selbst Schriftsteller'], null],
       ['Wann schrieb Franz Kafka meist?', 'Nachts', ['Am Vormittag', 'Im Büro', 'Im Urlaub'], null],
       ['Welcher Roman Kafkas spielt in Amerika?', 'Der Verschollene', ['Das Schloss', 'Der Process', 'Die Verwandlung'], 'Er ist auch unter dem Titel „Amerika“ bekannt.'],

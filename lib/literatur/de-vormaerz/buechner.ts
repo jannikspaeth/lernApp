@@ -6,7 +6,7 @@ export const BUECHNER: Subtopic = {
   date: '1813–1837',
   images: ['buechner'],
   text: [
-    'Georg Büchner wurde 1813 bei Darmstadt als Sohn eines Arztes geboren. Er studierte Medizin und Naturwissenschaften in Straßburg und Gießen und wurde mit 23 Jahren Doktor und Privatdozent in Zürich, wo er über das Nervensystem von Fischen forschte. Alles, was er geschrieben hat, entstand nebenbei, in drei Jahren, zwischen Studium, Flucht und Forschung. Er starb 1837 mit 23 Jahren an Typhus.',
+    'Georg Büchner wurde 1813 in Goddelau bei Darmstadt als Sohn eines Arztes geboren. Er studierte Medizin und Naturwissenschaften in Straßburg und Gießen und wurde mit 23 Jahren Doktor und Privatdozent in Zürich, wo er über das Nervensystem von Fischen forschte. Alles, was er geschrieben hat, entstand nebenbei, in drei Jahren, zwischen Studium, Flucht und Forschung. Er starb 1837 mit 23 Jahren an Typhus.',
     '1834 gründete er die „Gesellschaft der Menschenrechte“ und schrieb zusammen mit dem Pfarrer Friedrich Ludwig Weidig die Flugschrift „Der Hessische Landbote“. Sie beginnt mit dem Aufruf „Friede den Hütten! Krieg den Palästen!“ und rechnet dem Bauern vor, wie viel von seiner Arbeit an den Hof geht. Die Schrift wurde verraten; Büchner floh 1835 nach Straßburg, Weidig starb 1837 im Gefängnis.',
     '„Dantons Tod“ (1835) spielt in der Französischen Revolution, in der Zeit, als Robespierre seinen früheren Mitstreiter Danton auf die Guillotine schickt. Das Stück zeigt keine Helden, sondern Menschen, die von einer Entwicklung mitgerissen werden; berühmt ist Dantons Satz, die Revolution sei wie Saturn, die ihre eigenen Kinder frisst. Die Erzählung „Lenz“ (erst 1839 gedruckt) schildert die beginnende Geisteskrankheit des Dichters Jakob Michael Reinhold Lenz und beginnt mit dem knappen Satz „Den 20. Januar ging Lenz durchs Gebirg“.',
     'Sein berühmtestes Werk blieb unvollendet: „Woyzeck“. Der einfache Soldat Woyzeck lässt sich für Geld als Versuchsperson missbrauchen, wird vom Hauptmann und vom Doktor gedemütigt, hört Stimmen und ersticht am Ende seine Geliebte Marie. Grundlage war ein wirklicher Kriminalfall aus Leipzig. Das Stück bricht mit allem, was ein Drama bis dahin war: kurze Szenen ohne feste Reihenfolge, Umgangssprache, ein Armer als tragische Figur. Es wurde erst 1879 gedruckt und 1913 uraufgeführt. Alban Berg machte daraus 1925 die Oper „Wozzeck“.',
@@ -28,7 +28,7 @@ export const BUECHNER: Subtopic = {
       ['Wohin floh Büchner 1835?', 'Nach Straßburg', ['Nach Paris', 'Nach London', 'Nach Wien'], null],
     ],
     mittel: [
-      ['Wann lebte Büchner?', '1813–1837', ['1777–1811', '1797–1856', '1819–1898'], null],
+      ['In welchem Dorf bei Darmstadt wurde Georg Büchner geboren?', 'In Goddelau', ['In Gießen', 'In Offenbach', 'In Worms'], null],
       ['Was war Büchners Vater?', 'Arzt', ['Pfarrer', 'Richter', 'Lehrer'], null],
       ['Was wurde Büchner in Zürich?', 'Privatdozent', ['Professor für Literatur', 'Arzt am Spital', 'Pfarrer'], 'Er forschte über das Nervensystem von Fischen.'],
       ['Mit wem schrieb Büchner den „Hessischen Landboten“?', 'Mit Friedrich Ludwig Weidig', ['Mit Karl Gutzkow', 'Mit Georg Herwegh', 'Mit Heinrich Heine'], null],

@@ -7,8 +7,8 @@ export const SCHILLER: Subtopic = {
   images: ['schiller'],
   text: [
     'Friedrich Schiller wurde 1759 in Marbach am Neckar als Sohn eines Wundarztes und Offiziers geboren. Herzog Karl Eugen von Württemberg zwang die Familie, den begabten Jungen auf seine Militärschule zu schicken, wo Schiller gegen seinen Wunsch Medizin studierte und unter strenger Aufsicht lebte. Heimlich schrieb er dort „Die Räuber“. Nach der Uraufführung 1782 in Mannheim verbot ihm der Herzog weiteres Dichten; Schiller floh und lebte Jahre in Armut und auf der Flucht vor Gläubigern.',
-    '1789 wurde er auf Vermittlung Goethes Professor für Geschichte in Jena, zunächst ohne Gehalt. Er schrieb große historische Werke über den Abfall der Niederlande und den Dreißigjährigen Krieg; die Geschichte lieferte ihm zugleich Stoff für seine Dramen. 1791 erkrankte er schwer, vermutlich an Tuberkulose, und war fortan oft dem Tod nahe. Eine Ehrengabe dänischer Gönner und später die Freundschaft mit Goethe ab 1794 gaben ihm Freiheit zum Arbeiten.',
-    'Schillers Dramen kreisen um Freiheit, Schuld und die Würde des Menschen. Auf die Wallenstein-Trilogie (1800) über den Feldherrn des Dreißigjährigen Krieges folgten „Maria Stuart“ (1800) über den Konflikt zweier Königinnen, „Die Jungfrau von Orleans“ (1801) über Jeanne d’Arc und „Wilhelm Tell“ (1804) über den Schweizer Freiheitskampf. Berühmt ist der Rütlischwur mit dem Satz „Wir wollen sein ein einzig Volk von Brüdern“. Daneben stehen die Balladen des Jahres 1797, „Das Lied von der Glocke“ (1799) und theoretische Schriften über Tragödie und Schönheit.',
+    '1789 wurde er auf Vermittlung Goethes Professor für Geschichte in Jena, zunächst ohne Gehalt. Er schrieb große historische Werke über den Abfall der Niederlande und den Dreißigjährigen Krieg; die Geschichte lieferte ihm zugleich Stoff für seine Dramen. 1791 erkrankte er schwer, vermutlich an Tuberkulose, und war fortan oft dem Tod nahe. 1790 heiratete er Charlotte von Lengefeld. Eine Ehrengabe dänischer Gönner und später die Freundschaft mit Goethe ab 1794 gaben ihm Freiheit zum Arbeiten.',
+    'Schillers Dramen kreisen um Freiheit, Schuld und die Würde des Menschen. Auf die Wallenstein-Trilogie (1800) über den Feldherrn des Dreißigjährigen Krieges folgten „Maria Stuart“ (1800) über den Konflikt zweier Königinnen, „Die Jungfrau von Orleans“ (1801) über Jeanne d’Arc und „Wilhelm Tell“ (1804) über den Schweizer Freiheitskampf. Berühmt ist der Rütlischwur mit dem Satz „Wir wollen sein ein einzig Volk von Brüdern“. Daneben stehen Balladen wie „Der Taucher“ (1797) und „Die Bürgschaft“ (1798), „Das Lied von der Glocke“ (1799) und theoretische Schriften über Tragödie und Schönheit.',
     'Sein bekanntestes Gedicht ist die „Ode An die Freude“ (1785) mit der Zeile „Alle Menschen werden Brüder“. Beethoven vertonte sie im Schlusschor seiner 9. Sinfonie; diese Melodie ist heute die Europahymne. Schillers Denken über Kunst fasst die Schrift „Über die ästhetische Erziehung des Menschen“ (1795) zusammen: Nur wer als ganzer Mensch gebildet ist, kann frei und vernünftig handeln. Das Spiel, sagt Schiller dort, macht den Menschen erst ganz zum Menschen.',
     'Schiller starb am 9. Mai 1805 in Weimar mit nur 45 Jahren. Goethe erfuhr vom Tod seines Freundes erst mit Verzögerung und schrieb, er habe die Hälfte seines Daseins verloren. Schillers Werke wurden im 19. Jahrhundert zu Schullektüre und Festspielstoff; seine Verse gehören zu den meistzitierten der deutschen Sprache. Das Goethe-Schiller-Denkmal in Weimar zeigt die beiden als gleichberechtigtes Paar der deutschen Klassik.',
   ],
@@ -28,7 +28,7 @@ export const SCHILLER: Subtopic = {
       ['Welches lange Gedicht Schillers beschreibt eine Handwerksarbeit und das Menschenleben?', 'Das Lied von der Glocke', ['Der Handschuh', 'Der Taucher', 'Der Ring des Polykrates'], null],
     ],
     mittel: [
-      ['Wann lebte Schiller?', '1759–1805', ['1749–1832', '1729–1781', '1770–1831'], null],
+      ['In welcher Stadt wurden Schillers „Räuber“ 1782 uraufgeführt?', 'In Mannheim', ['In Stuttgart', 'In Weimar', 'In Berlin'], null],
       ['Wer zwang Schiller auf die Militärschule?', 'Herzog Karl Eugen von Württemberg', ['Herzog Carl August', 'Friedrich der Große', 'Kaiser Joseph II.'], null],
       ['Was tat Herzog Karl Eugen nach der Uraufführung der „Räuber“?', 'Er verbot Schiller das Dichten', ['Er machte ihn zum Hofdichter', 'Er ließ ihn verhaften', 'Er förderte ihn'], 'Schiller floh daraufhin aus Württemberg.'],
       ['Woran erkrankte Schiller 1791 schwer?', 'Vermutlich an Tuberkulose', ['An der Pest', 'An Cholera', 'An Typhus'], null],
@@ -36,9 +36,9 @@ export const SCHILLER: Subtopic = {
       ['Wann erschien „Wilhelm Tell“?', '1804', ['1784', '1824', '1799'], 'Es war sein letztes vollendetes Drama.'],
       ['Welche historischen Werke schrieb Schiller?', 'Über die Niederlande und den Dreißigjährigen Krieg', ['Über Rom und Griechenland', 'Über die Kreuzzüge', 'Über die Französische Revolution'], null],
       ['Welche Zeile steht in „An die Freude“?', '„Alle Menschen werden Brüder“', ['„Edel sei der Mensch“', '„Wir wollen sein ein einzig Volk“', '„Die Welt ist weit“'], null],
-      ['Wann erschien „An die Freude“?', '1785', ['1759', '1805', '1824'], null],
+      ['Wen heiratete Schiller 1790?', 'Charlotte von Lengefeld', ['Caroline von Wolzogen', 'Charlotte von Stein', 'Christiane Vulpius'], 'Caroline von Wolzogen war Charlottes Schwester.'],
       ['Welche Schrift Schillers behandelt die Bildung des Menschen durch Kunst?', 'Über die ästhetische Erziehung des Menschen', ['Über naive und sentimentalische Dichtung', 'Über Anmut und Würde', 'Über das Erhabene'], 'Sie erschien 1795.'],
-      ['Wann starb Schiller?', 'Am 9. Mai 1805', ['Am 22. März 1832', 'Am 10. November 1759', 'Am 9. Mai 1785'], null],
+      ['Welche Ballade Schillers erzählt von einem Freund, der als Bürge für einen Verurteilten einsteht?', 'Die Bürgschaft', ['Der Taucher', 'Der Handschuh', 'Die Kraniche des Ibykus'], null],
       ['Wer verschaffte Schiller die Professur in Jena?', 'Goethe', ['Herder', 'Wieland', 'Humboldt'], null],
     ],
     schwer: [

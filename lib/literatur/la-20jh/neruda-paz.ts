@@ -36,10 +36,10 @@ export const NERUDA_PAZ: Subtopic = {
       ['Welches Ereignis machte Neruda zum politischen Dichter?', 'Der Beginn des Spanischen Bürgerkriegs', ['Die Entdeckung Amerikas', 'Der Zweite Weltkrieg', 'Der Putsch in Chile'], null],
       ['Wie viele Tage nach dem Putsch in Chile 1973 starb Neruda?', 'Zwölf', ['Zwei', 'Hundert', 'Dreihundert'], null],
       ['Wer putschte 1973 in Chile?', 'General Pinochet', ['General Franco', 'General Perón', 'General Castro'], null],
-      ['Wann lebte Gabriela Mistral?', '1889–1957', ['1904–1973', '1914–1998', '1898–1936'], null],
-      ['Welches Frühwerk prägte Gabriela Mistral?', 'Sonette des Todes', ['Lieder der Kinder', 'Zeitgedichte', 'Reisebilder'], null],
+      ['Was hatte Gabriela Mistrals frühe „Sonette des Todes“ ausgelöst?', 'Der Selbstmord ihres Verlobten', ['Der Tod ihrer Mutter', 'Ein Erdbeben in Chile', 'Der Spanische Bürgerkrieg'], 'Später schrieb sie zärtliche Lieder für Kinder.'],
+      ['In welchen asiatischen Ländern lebte Neruda als Diplomat?', 'In Birma, Ceylon und auf Java', ['In China und Japan', 'In Indien und Persien', 'In Korea und Vietnam'], 'Später war er auch in Argentinien und Spanien.'],
       ['Wann erhielt Octavio Paz den Nobelpreis?', '1990', ['1945', '1971', '1982'], null],
-      ['Wann erschien Octavio Paz’ „Das Labyrinth der Einsamkeit“?', '1950', ['1924', '1968', '1990'], null],
+      ['Welcher Freund Nerudas wurde zu Beginn des Spanischen Bürgerkriegs ermordet?', 'Federico García Lorca', ['Antonio Machado', 'Miguel de Unamuno', 'Rafael Alberti'], 'Neruda erlebte den Kriegsbeginn in Madrid.'],
     ],
     schwer: [
       ['Wo wuchs Neruda auf?', 'Im regnerischen Süden Chiles', ['In der Wüste', 'In Santiago', 'In Argentinien'], null],

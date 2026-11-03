@@ -25,7 +25,7 @@ export const DANTE: Subtopic = {
       ['In welcher Sprache schrieb Dante die „Göttliche Komödie“?', 'In der toskanischen Volkssprache', ['Auf Latein', 'Auf Griechisch', 'Auf Provenzalisch'], null],
       ['Was steht bei Dante über dem Höllentor?', '„Lasst alle Hoffnung fahren“', ['„Willkommen“', '„Gott ist gnädig“', '„Nur Mut“'], null],
       ['Wo steht Dantes Grab?', 'In Ravenna', ['In Florenz', 'In Rom', 'In Verona'], null],
-      ['Wer wurde 1302 aus Florenz verbannt?', 'Dante', ['Petrarca', 'Boccaccio', 'Machiavelli'], null],
+      ['Wie heißt der zweite Teil der „Göttlichen Komödie“?', 'Purgatorio', ['Inferno', 'Paradiso', 'Vita nova'], 'Er führt den Läuterungsberg hinauf.'],
     ],
     mittel: [
       ['Wann lebte Dante?', '1265–1321', ['1304–1374', '1313–1375', '1469–1527'], null],
@@ -45,7 +45,7 @@ export const DANTE: Subtopic = {
       ['Warum ist Dante der „Vater der italienischen Sprache“?', 'Er machte das Toskanische zur Literatursprache', ['Er erfand Italienisch', 'Er übersetzte die Bibel', 'Er schrieb ein Wörterbuch'], null],
       ['Wie entsprechen die Strafen in Dantes Hölle den Sünden?', 'Wollüstige im Sturm, Verräter im Eis', ['Alle im Feuer', 'Alle im Wasser', 'Alle in Ketten'], null],
       ['Wen setzt Dante in die Hölle?', 'Auch Päpste und Zeitgenossen', ['Nur Heiden', 'Nur Fremde', 'Nur Tote der Antike'], null],
-      ['Was bedeutet der Reim aba bcb cdc?', 'Terzinen mit verschränktem Reim', ['Paarreim', 'Kreuzreim', 'Umarmender Reim'], null],
+      ['In welcher Schlacht kämpfte Dante 1289?', 'Bei Campaldino', ['Bei Legnano', 'Bei Montaperti', 'Bei Pavia'], 'Dante war Politiker und Soldat.'],
       ['Wie lange lebte Dante im Exil?', 'Etwa 19 Jahre', ['Etwa 2 Jahre', 'Etwa 5 Jahre', 'Etwa 40 Jahre'], null],
       ['Was drohte Dante bei einer Rückkehr nach Florenz?', 'Der Feuertod', ['Gefängnis', 'Verbannung auf eine Insel', 'Zwangsarbeit'], null],
       ['Was sagte T. S. Eliot über Dante?', 'Dante und Shakespeare teilen die moderne Welt unter sich', ['Dante ist unlesbar', 'Dante übertrifft Homer', 'Dante ist Shakespeares Schüler'], null],
