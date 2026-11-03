@@ -14,7 +14,7 @@ export const EU_GESETZGEBUNG: Subtopic = {
   ],
   quiz: {
     leicht: [
-      ['Wer macht in der EU immer den ersten Gesetzesvorschlag?', 'Die Kommission', ['Das Parlament', 'Der Europäische Gerichtshof', 'Die EZB'], 'Sie hat das Initiativrecht.'],
+      ['Was ist das Transparenzregister der EU?', 'Ein Verzeichnis, in das sich Lobby-Organisationen eintragen', ['Eine Liste aller EU-Gesetze', 'Das Register der Abgeordneten-Gehälter', 'Ein Archiv geheimer Ratsprotokolle'], 'Es soll zeigen, wer Einfluss auf Gesetze nimmt.'],
       ['Wer muss einem EU-Gesetz im ordentlichen Verfahren zustimmen?', 'Das Europäische Parlament und der Rat der EU', ['Nur die Kommission', 'Nur der Europäische Rat', 'Alle nationalen Parlamente'], 'Beide gleichberechtigt.'],
       ['Welche EU-Institution, die alle Gesetzesvorschläge macht, hat in diesem Gebäude ihren Sitz?', 'Die Europäische Kommission', ['Das Europäische Parlament', 'Der Europäische Gerichtshof', 'Die Europäische Zentralbank'], 'Das Berlaymont-Gebäude in Brüssel.', 'eu-flaggen'],
       ['Was gilt unmittelbar in allen Mitgliedstaaten?', 'Eine EU-Verordnung', ['Eine EU-Richtlinie', 'Eine EU-Empfehlung', 'Eine Stellungnahme'], 'Ohne Umsetzung in nationales Recht.'],
@@ -47,8 +47,8 @@ export const EU_GESETZGEBUNG: Subtopic = {
       ['In welchen Bereichen teilt die EU die Zuständigkeit mit den Staaten?', 'Binnenmarkt, Umwelt und Verbraucherschutz', ['Zölle und Geldpolitik', 'Schulen und Polizei', 'Rente und Kirchen'], 'Geteilte Zuständigkeiten.'],
       ['Welche Länder sind im Verhältnis große Empfänger von EU-Geldern?', 'Polen, Ungarn und Rumänien', ['Deutschland, Frankreich und die Niederlande', 'Luxemburg und Irland', 'Schweden und Dänemark'], 'Vor allem durch die Kohäsionspolitik.'],
       ['Was liefern Lobbyisten laut Befürwortern?', 'Fachwissen für die Gesetzgebung', ['Urteile', 'Wählerstimmen', 'Soldaten'], 'Kritiker warnen vor gekauftem Einfluss.'],
-      ['Seit wann gilt die Datenschutz-Grundverordnung?', 'Seit Mai 2018', ['Seit 2009', 'Seit 2002', 'Seit 2024'], 'Beschlossen 2016.'],
-      ['Wie nennt man Verhandlungen, deren Ergebnis Parlament und Rat danach formell bestätigen?', 'Trilog-Einigungen', ['Volksentscheide', 'Gipfelbeschlüsse', 'Urteile'], 'Sie gelten als intransparent.'],
+      ['Was fördert die EU mit Geld aus der Kohäsionspolitik zum Beispiel?', 'Straßen, Schulen und Unternehmen', ['Militärische Ausrüstung', 'Nationale Rentenkassen', 'Gehälter von Lehrern in allen Ländern'], 'Gefördert wird vor allem dort, wo die Wirtschaft schwach ist.'],
+      ['Was werfen Kritiker der Lobbyarbeit vor?', 'Dass man damit Einfluss kaufen kann', ['Dass sie illegal ist', 'Dass sie nur Umweltverbände betrifft', 'Dass sie Gesetze unmöglich macht'], 'Rund um die EU-Institutionen arbeiten Zehntausende Lobbyisten.'],
       ['Was führt die Kommission vor einem Gesetzesvorschlag oft durch?', 'Konsultationen mit Fachleuten, Verbänden und Bürgern', ['Eine Volksabstimmung in allen Ländern', 'Ein Gerichtsverfahren', 'Eine Wahl der Kommissare'], 'Etwa öffentliche Konsultationen im Internet.'],
       ['Warum wirkt der EU-Haushalt im Vergleich klein?', 'Er entspricht nur gut einem Prozent der Wirtschaftsleistung der EU', ['Weil die EU keine Ausgaben hat', 'Weil er in D-Mark berechnet wird', 'Weil er nur ein Jahr gilt'], 'Der Bundeshaushalt ist im Verhältnis viel größer.'],
       ['Welche Ebene regelt die Gesundheitsversorgung vor allem?', 'Die Mitgliedstaaten', ['Die EU', 'Die NATO', 'Die UNO'], 'Die EU unterstützt nur.'],

@@ -49,7 +49,7 @@ export const UKRAINE: Subtopic = {
       ['Wie viele Demonstranten wurden im Februar 2014 auf dem Maidan erschossen?', 'Über hundert', ['Keiner', 'Zehn', 'Über zehntausend'], 'Man nennt sie die „Himmlische Hundertschaft“.'],
       ['Wie traten die russischen Soldaten bei der Besetzung der Krim auf?', 'Ohne Hoheitsabzeichen', ['In Ausgehuniform', 'Als Touristen', 'Mit UN-Helmen'], 'Man nannte sie „grüne Männchen“.'],
       ['Wann scheiterte eine ukrainische Gegenoffensive weitgehend?', '2023', ['2022', '2014', '2025'], 'Danach begann ein Abnutzungskrieg.'],
-      ['Wann annektierte Russland die Krim?', 'Im März 2014', ['Im Februar 2022', 'Im Dezember 1991', 'Im August 2008'], 'Nach einem Scheinreferendum.'],
+      ['Weswegen erließ der Internationale Strafgerichtshof 2023 Haftbefehl gegen Putin?', 'Wegen der Verschleppung ukrainischer Kinder nach Russland', ['Wegen des Abschusses eines Flugzeugs', 'Wegen der Annexion der Krim', 'Wegen Wahlbetrugs'], 'Der Haftbefehl gilt in allen Vertragsstaaten des Gerichtshofs.'],
       ['Wer initiierte Verhandlungsversuche zum Ukraine-Krieg ab 2025?', 'US-Präsident Donald Trump', ['Die OPEC', 'Die FIFA', 'Das Internationale Olympische Komitee'], 'Bis Mitte 2026 ohne dauerhaften Frieden.'],
       ['Welche Region im Osten der Ukraine war ab 2014 umkämpft?', 'Der Donbas', ['Galizien', 'Transkarpatien', 'Die Bukowina'], 'Mit den Städten Donezk und Luhansk.'],
       ['Warum war der 24. Februar 2022 für viele eine Zäsur?', 'Erstmals seit 1945 versuchte ein Staat, ein europäisches Nachbarland vollständig zu erobern', ['Weil die EU gegründet wurde', 'Weil die NATO aufgelöst wurde', 'Weil Russland der EU beitrat'], 'Ein Bruch der europäischen Friedensordnung.'],

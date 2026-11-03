@@ -52,7 +52,7 @@ export const KLIMAPOLITIK: Subtopic = {
       ['Was gilt als Bezugspunkt für die 1,5-Grad-Grenze?', 'Das vorindustrielle Niveau', ['Das Jahr 2000', 'Das Jahr 1990', 'Die Eiszeit'], 'Etwa 1850 bis 1900.'],
       ['Welche Folgen hat der Klimawandel?', 'Hitzewellen, Dürren, Starkregen und steigender Meeresspiegel', ['Nur kältere Winter', 'Keine', 'Nur schöneres Wetter'], 'Weltweit spürbar.'],
       ['Welche Länder stoßen pro Kopf besonders viel CO₂ aus?', 'Die USA und Europa', ['Indien und Afrika', 'Bangladesch und Nepal', 'Die Pazifikinseln'], 'Im Vergleich zu ärmeren Ländern.'],
-      ['Wann wurde das Kyoto-Protokoll beschlossen?', '1997', ['1992', '2005', '2015'], 'In Japan.'],
+      ['Bis wann will die EU klimaneutral werden?', 'Bis 2050', ['Bis 2030', 'Bis 2045', 'Bis 2070'], 'Das Ziel gilt für alle Mitgliedstaaten zusammen.'],
     ],
   },
 };

@@ -45,8 +45,8 @@ export const BINNENMARKT: Subtopic = {
     schwer: [
       ['Was war das Besondere am Likör „Cassis de Dijon“?', 'Er hatte weniger Alkohol als deutsche Liköre', ['Er war zu süß', 'Er war blau', 'Er enthielt Gold'], 'Deutschland wollte ihn deshalb verbieten.'],
       ['Wer entschied 1979 im Fall „Cassis de Dijon“?', 'Der Europäische Gerichtshof', ['Das Bundesverfassungsgericht', 'Die Kommission', 'Ein Pariser Gericht'], 'Ein Meilenstein des Binnenmarkts.'],
-      ['Wann wurde die Entsenderichtlinie verschärft?', '2018', ['1993', '2004', '2024'], 'Gleicher Lohn für gleiche Arbeit am gleichen Ort.'],
-      ['Seit wann gilt die Pflicht zum USB-C-Anschluss für neue Handys?', 'Seit Ende 2024', ['Seit 2017', 'Seit 2020', 'Seit 2030'], 'Für viele weitere Geräte auch.'],
+      ['Wie viele Verbraucherinnen und Verbraucher umfasst der EU-Binnenmarkt etwa?', 'Rund 450 Millionen', ['Rund 45 Millionen', 'Rund 150 Millionen', 'Rund 1,5 Milliarden'], 'Er ist einer der größten Wirtschaftsräume der Welt.'],
+      ['Was soll der einheitliche USB-C-Ladeanschluss in der EU verringern?', 'Elektroschrott', ['Den Stromverbrauch', 'Die Handypreise', 'Die Roaming-Kosten'], 'Die Pflicht gilt für neue Handys und viele andere Geräte.'],
       ['Welche Kontrolle gibt es bei großen Unternehmensfusionen?', 'Sie müssen von der Kommission genehmigt werden', ['Gar keine', 'Sie müssen vom Volk gebilligt werden', 'Sie sind immer verboten'], 'Zum Schutz des Wettbewerbs.'],
       ['Was dürfen Staaten im Binnenmarkt nicht beliebig tun?', 'Ihre Unternehmen subventionieren', ['Steuern erheben', 'Gesetze erlassen', 'Wahlen abhalten'], 'Das Beihilferecht.'],
       ['Welches Abkommen verbindet die EU mit Norwegen, Island und Liechtenstein?', 'Das Abkommen über den Europäischen Wirtschaftsraum', ['Der Schengen-Vertrag', 'Der Vertrag von Maastricht', 'Der NATO-Vertrag'], 'Seit 1994.'],

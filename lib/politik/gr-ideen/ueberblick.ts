@@ -50,7 +50,7 @@ export const UEBERBLICK: Subtopic = {
       ['Worauf sollte man laut den Grundfragen der Politik achten statt auf Etiketten?', 'Auf Freiheit oder Gleichheit, Markt oder Staat, Bewahren oder Verändern', ['Auf die Farbe der Partei', 'Auf das Alter der Kandidaten', 'Auf die Zahl der Wahlplakate'], 'Und Nation oder Weltgemeinschaft.'],
       ['Wie stehen Konservative typischerweise zu raschem Wandel?', 'Skeptisch', ['Begeistert', 'Gleichgültig', 'Feindselig gegenüber jeder Tradition'], 'Sie wollen Bewährtes bewahren.'],
       ['Wie nennt man ein zusammenhängendes System politischer Vorstellungen?', 'Ideologie', ['Institution', 'Legislative', 'Koalition'], 'Etwa Liberalismus oder Sozialismus.'],
-      ['Wann stufte der Verfassungsschutz die AfD als gesichert rechtsextremistisch ein?', 'Im Mai 2025', ['Im Januar 2017', 'Im März 2021', 'Im Oktober 2023'], 'Zuvor galt sie als Verdachtsfall.'],
+      ['Wie reagierte die AfD auf ihre Einstufung durch den Verfassungsschutz 2025?', 'Sie klagte dagegen', ['Sie löste sich auf', 'Sie benannte sich um', 'Sie akzeptierte die Einstufung'], 'Der Streit ging vor Gericht.'],
       ['Wie viele Achsen nutzen Politikwissenschaftler oft für Parteipositionen?', 'Zwei', ['Eine', 'Fünf', 'Zehn'], 'Wirtschaftlich und gesellschaftlich.'],
     ],
   },

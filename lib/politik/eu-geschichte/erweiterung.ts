@@ -48,7 +48,7 @@ export const ERWEITERUNG: Subtopic = {
       ['Welche Länder gelten unter den Kandidaten als am weitesten fortgeschritten?', 'Montenegro und Albanien', ['Die Türkei und Serbien', 'Georgien und Moldau', 'Bosnien und Herzegowina und Kosovo'], 'Stand 2025.'],
       ['Wie oft lehnten die Norweger einen Beitritt in Volksabstimmungen ab?', 'Zweimal', ['Einmal', 'Nie', 'Viermal'], '1972 und 1994.'],
       ['Mit welchem Land wurde Grönland 1973 Teil der Gemeinschaft?', 'Mit Dänemark', ['Mit Norwegen', 'Mit Island', 'Mit Kanada'], 'Es ist ein autonomer Teil Dänemarks.'],
-      ['Welches Land war das 28. Mitglied?', 'Kroatien', ['Rumänien', 'Bulgarien', 'Malta'], 'Seit 1. Juli 2013.'],
+      ['Welches Land trat der Gemeinschaft 1981 bei?', 'Griechenland', ['Portugal', 'Österreich', 'Irland'], 'Spanien und Portugal folgten 1986.'],
       ['Welche Länder erhielten 2022 gleichzeitig den Kandidatenstatus?', 'Die Ukraine und die Republik Moldau', ['Serbien und Kosovo', 'Georgien und Armenien', 'Island und Norwegen'], 'Im Juni 2022.'],
       ['In wie viele Teile sind Beitrittsverhandlungen gegliedert?', 'In Dutzende Kapitel', ['In zwei Kapitel', 'In ein Kapitel', 'In Tausende Kapitel'], 'Etwa 35 Verhandlungskapitel.'],
       ['Welche Folge hatte die Freizügigkeit für Deutschland?', 'Hunderttausende Polen und Rumänen leben heute hier', ['Niemand zog nach Deutschland', 'Alle Deutschen zogen nach Osten', 'Die Grenzen wurden geschlossen'], 'Große Wanderungsbewegungen.'],

@@ -19,7 +19,7 @@ export const ENTSTEHUNG: Subtopic = {
       ['Welches Gremium arbeitete das Grundgesetz aus?', 'Der Parlamentarische Rat', ['Der Bundestag', 'Die Nationalversammlung', 'Der Bundesrat'], 'Er tagte ab September 1948 in Bonn.'],
       ['In welcher Stadt tagte das Gremium, an das diese Briefmarke von 1998 erinnert?', 'In Bonn', ['In Berlin', 'In Frankfurt am Main', 'In Weimar'], 'Der Parlamentarische Rat trat am 1. September 1948 in Bonn zusammen.', 'grundgesetz-unterzeichnung'],
       ['Wer war Präsident des Parlamentarischen Rates?', 'Konrad Adenauer', ['Theodor Heuss', 'Kurt Schumacher', 'Ludwig Erhard'], 'Später wurde er erster Bundeskanzler.'],
-      ['In welcher Stadt tagte der Parlamentarische Rat?', 'In Bonn', ['In Berlin', 'In Frankfurt am Main', 'In München'], 'Bonn wurde danach provisorische Hauptstadt.'],
+      ['Wie nennt man die Frauen im Parlamentarischen Rat?', 'Die „Mütter des Grundgesetzes“', ['Die „Weisen Frauen“', 'Die „Bonner Schwestern“', 'Die „Gründerinnen der Republik“'], 'Zu ihnen gehörte Elisabeth Selbert.'],
       ['Warum hieß die Verfassung „Grundgesetz“?', 'Weil sie nur vorläufig bis zur Einheit Deutschlands gelten sollte', ['Weil das Wort kürzer ist', 'Weil die Alliierten das Wort Verfassung verboten', 'Weil es nur Grundsteuern regelt'], 'Man wollte die Teilung nicht besiegeln.'],
       ['Wie viele Frauen gehörten dem Parlamentarischen Rat an?', 'Vier', ['Keine', 'Zwölf', 'Dreißig'], 'Die „Mütter des Grundgesetzes“.'],
       ['Wann wurde das Grundgesetz vom Parlamentarischen Rat beschlossen?', 'Am 8. Mai 1949', ['Am 1. September 1948', 'Am 23. Mai 1949', 'Am 14. August 1949'], 'Genau vier Jahre nach Kriegsende.'],

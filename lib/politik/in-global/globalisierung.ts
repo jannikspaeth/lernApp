@@ -43,7 +43,7 @@ export const GLOBALISIERUNG: Subtopic = {
     ],
     schwer: [
       ['Wie viele Menschen starben beim Einsturz von Rana Plaza?', 'Über 1.100', ['Etwa 11', 'Etwa 110', 'Über 11.000'], 'Ein Symbol für schlechte Arbeitsbedingungen.'],
-      ['Wann wurde der Container erstmals im Seeverkehr eingesetzt?', '1956', ['1906', '1936', '1976'], 'Er revolutionierte den Transport.'],
+      ['Was senkten das GATT und die Welthandelsorganisation WTO?', 'Die Zölle', ['Die Löhne', 'Die Transportzeiten', 'Die Steuern auf Gewinne'], 'Das machte den Welthandel billiger.'],
       ['Wer vereinbarte die globale Mindeststeuer?', 'Die OECD und die G20', ['Die NATO', 'Die WHO', 'Der Europarat'], 'Über 130 Länder stimmten zu.'],
       ['Welche Güter fehlten in der Corona-Pandemie besonders?', 'Masken, Medikamente und Computerchips', ['Kartoffeln und Brot', 'Autos ohne Räder', 'Bücher'], 'Lieferketten waren unterbrochen.'],
       ['Welche Ebene beschloss nach Deutschland ebenfalls Regeln für Lieferketten?', 'Die EU', ['Die UNO', 'Die NATO', 'Die Bundesländer'], 'Eine europäische Lieferkettenrichtlinie.'],

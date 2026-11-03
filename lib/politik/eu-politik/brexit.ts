@@ -43,7 +43,7 @@ export const BREXIT: Subtopic = {
       ['Was strebt die britische Labour-Regierung seit 2024 gegenüber der EU an?', 'Engere Beziehungen zur EU, aber keinen Wiedereintritt', ['Einen sofortigen Wiedereintritt', 'Den Abbruch aller Beziehungen', 'Den Beitritt zum Euro'], 'Erst unter Keir Starmer, seit Juli 2026 unter Andy Burnham.'],
     ],
     schwer: [
-      ['Wie viel Prozent stimmten 2016 für den Verbleib?', '48,1 Prozent', ['51,9 Prozent', '40 Prozent', '60 Prozent'], 'Ein knappes Nein zur EU.'],
+      ['Bei welchen beiden EU-Projekten machte Großbritannien nie mit?', 'Beim Euro und bei Schengen', ['Beim Binnenmarkt und bei der Zollunion', 'Beim Europäischen Parlament und beim Rat', 'Bei Erasmus und beim Roaming'], 'Viele Briten sahen die EU vor allem als Wirtschaftsgemeinschaft.'],
       ['Wann trat David Cameron zurück?', 'Am Tag nach dem Referendum', ['Ein Jahr später', 'Vor dem Referendum', 'Gar nicht'], 'Am 24. Juni 2016 kündigte er es an.'],
       ['Um welche Uhrzeit trat Großbritannien formal aus?', 'Um Mitternacht mitteleuropäischer Zeit', ['Um 12 Uhr mittags', 'Um 8 Uhr morgens', 'Um 18 Uhr'], 'In Großbritannien war es 23 Uhr.'],
       ['Was ermöglicht das Handels- und Kooperationsabkommen von 2020?', 'Zollfreien Warenhandel, aber mit neuen Kontrollen', ['Freizügigkeit wie vorher', 'Den Euro in Großbritannien', 'Gar keinen Handel'], 'Viele Firmen klagen über Bürokratie.'],
