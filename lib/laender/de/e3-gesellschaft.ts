@@ -289,7 +289,7 @@ export const GESELLSCHAFT: HistEvent = {
           ['Woran erkennt man slawische Ortsnamen oft?', 'An Endungen wie „-ow“ und „-itz“', ['An der Endung „-heim“', 'An der Endung „-ingen“', 'An der Endung „-hausen“']],
         ],
         mittel: [
-          ['Welche Stadt ist das kulturelle Zentrum der Sorben?', 'Bautzen', ['Cottbus', 'Görlitz', 'Dresden']],
+          ['Welche Stadt ist das kulturelle Zentrum der Sorben?', 'Bautzen', ['Leipzig', 'Görlitz', 'Dresden']],
           ['Wie heißt der Kriegszug gegen die Slawen von 1147?', 'Wendenkreuzzug', ['Kinderkreuzzug', 'Albigenserkreuzzug', 'Preußenkreuzzug']],
           ['Wer rief den Deutschen Orden gegen die Pruzzen zu Hilfe?', 'Herzog Konrad von Masowien', ['König Ottokar II.', 'Kaiser Friedrich II.', 'Papst Innozenz III.']],
           ['Mit welcher Urkunde bestätigte Friedrich II. dem Orden 1226 das Land?', 'Mit der Goldbulle von Rimini', ['Mit der Goldenen Bulle', 'Mit dem Privilegium minus', 'Mit dem Andreanum']],
