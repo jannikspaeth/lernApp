@@ -9,15 +9,11 @@ um die Fragen zum Vortag und pusht nach `main`, worauf Vercel neu deployt.
    Wikipedia „Portal:Current events“ (Welt) und tagesschau.de Inland, Wirtschaft, Ausland, Sport und Wissen.
    Fehlen Tage (Lücke seit dem jüngsten Datum in `fragen.json`), diese Tage als Argumente übergeben:
    `python3 scripts/nachrichten-quellen.py 2026-11-02 2026-11-03`.
-   **Wenn das Skript mit 403 / „Tunnel connection failed“ scheitert** (der Netzwerk-Proxy der Cloud-Umgebung sperrt
-   Wikipedia und tagesschau), dasselbe Material mit dem Werkzeug **WebFetch** holen – nicht aufgeben:
-   - Welt: `https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_2` (Monat englisch, Tag ohne führende Null).
-     WebFetch-Auftrag: „Gib alle Meldungen dieses Tages vollständig und wörtlich mit ihren Rubriken wieder.“
-   - Deutschland: `https://www.tagesschau.de/api2u/news?ressort=inland&date=261102` (Datum JJMMTT), ebenso für
-     `ressort=wirtschaft`, `ausland`, `sport`, `wissen`. WebFetch-Auftrag: „Liste jede Meldung mit Titel, Datum,
-     firstSentence/Teaser und shareURL auf.“ Nur Meldungen mit dem gesuchten Datum verwenden.
-   - Als `src` die Wikipedia-Tagesseite bzw. die shareURL der tagesschau-Meldung eintragen.
-   Erst wenn auch WebFetch nichts liefert, ohne Commit abbrechen und das im Bericht sagen.
+   **Wenn das Skript „BLOCKED“ meldet** (403 / „Tunnel connection failed“), sperrt der Netzwerk-Proxy der
+   Cloud-Umgebung die Quellen; WebFetch ist dann ebenfalls gesperrt. Nicht weiter versuchen, nichts erfinden,
+   ohne Commit abbrechen und im Bericht sagen: In den Netzwerk-Einstellungen der Umgebung müssen
+   `en.wikipedia.org` und `www.tagesschau.de` freigegeben werden. Fehlende Tage holt der nächste Lauf nach
+   (höchstens 7 Tage) – oder sie werden lokal nachgetragen.
 2. Daraus pro Tag **6–10 Fragen für Deutschland** (`"r": "de"`) und **6–10 für die Welt** (`"r": "welt"`) schreiben,
    ans Ende von `lib/nachrichten/fragen.json` anhängen (bestehende Einträge nie ändern oder umsortieren).
 3. Einträge löschen, deren Datum älter als 200 Tage ist.
