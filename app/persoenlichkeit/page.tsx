@@ -3,9 +3,17 @@ import { PERSONAS } from '@/lib/persoenlichkeit';
 import { bildView } from '@/lib/bild';
 import Icon from '@/components/Icon';
 import Tx from '@/components/Tx';
+import WerBinIch, { type PersonPicture } from '@/components/raten/WerBinIch';
+import { PERSONS } from '@/lib/wer-bin-ich';
 
-// "Who are you?" quizzes: one tile per quiz with four of its results as a picture mosaic.
+// "Wer bist du?": the guessing game (hints one by one, guess the famous person) and below it the
+// personality quizzes (one tile per quiz with four of its results as a picture mosaic).
 export default function PersoenlichkeitPage() {
+  const pictures: Record<string, PersonPicture> = {};
+  for (const p of PERSONS) {
+    const b = bildView(p.img);
+    pictures[p.id] = { src: b?.src ?? null, credit: b?.credit ?? '' };
+  }
   return (
     <main className="md:ml-56 min-h-screen bg-canvas pb-24 md:pb-10">
       <div className="max-w-2xl mx-auto px-5 pt-4 md:pt-8 space-y-6">
@@ -16,12 +24,19 @@ export default function PersoenlichkeitPage() {
           <div>
             <h1 className="text-[28px] md:text-3xl font-bold text-ink tracking-tight"><Tx en="Who are you?" de="Wer bist du?" /></h1>
             <p className="text-sm text-muted mt-1">
-              <Tx
-                en="Ten questions, no right or wrong – and at the end a philosopher, painter, composer or writer who suits you, with a link to their chapter."
-                de="Zehn Fragen ohne richtig oder falsch – am Ende steht ein Philosoph, Maler, Komponist oder Schriftsteller, der zu dir passt, mit Link zu seinem Kapitel."
-              />
+              <Tx en="Guess the famous person: hint by hint, from hard to easy." de="Rate die berühmte Person – Tipp für Tipp, von schwer bis leicht." />
             </p>
           </div>
+        </div>
+        <WerBinIch persons={PERSONS} pictures={pictures} />
+        <div className="pt-2">
+          <h2 className="text-lg font-semibold text-ink"><Tx en="Which thinker suits you?" de="Welcher Kopf passt zu dir?" /></h2>
+          <p className="text-sm text-muted mt-0.5">
+            <Tx
+              en="Ten questions, no right or wrong – at the end a philosopher, painter, composer or writer who suits you."
+              de="Zehn Fragen ohne richtig oder falsch – am Ende steht ein Philosoph, Maler, Komponist oder Schriftsteller, der zu dir passt."
+            />
+          </p>
         </div>
         <div className="grid sm:grid-cols-2 gap-3">
           {PERSONAS.map(p => (

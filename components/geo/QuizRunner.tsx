@@ -3,7 +3,7 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
 import Link from 'next/link';
 import Icon from '@/components/Icon';
-import { normName } from '@/lib/welt';
+import { editDistance, normName, shortForms, typoTolerance } from '@/lib/welt';
 import { useT } from '@/lib/ui-lang';
 import { useWissenProgress } from '@/components/laender/EventProgress';
 import QuizMap from '@/components/geo/QuizMap';
@@ -39,7 +39,15 @@ export default function QuizRunner({ quiz, backHref, backLabel }: { quiz: GeoQui
   }, [prog, quiz.id]);
 
   // Normalised spellings per item.
-  const keys = useMemo(() => quiz.items.map(i => [i.answer, ...i.accepts].map(normName).filter(Boolean)), [quiz]);
+  // Short forms ("St. Vincent") count too, unless they are another item's name.
+  const keys = useMemo(() => {
+    const full = quiz.items.map(i => [i.answer, ...i.accepts].map(normName).filter(Boolean));
+    const all = new Set(full.flat());
+    return quiz.items.map((i, n) => {
+      const extra = [i.answer, ...i.accepts].flatMap(shortForms).map(normName).filter(k => k && !all.has(k) && !full.some((f, m) => m !== n && f.some(x => x.startsWith(k))));
+      return [...new Set([...full[n], ...extra])];
+    });
+  }, [quiz]);
 
   useEffect(() => {
     if (phase !== 'running') return;
@@ -84,7 +92,14 @@ export default function QuizRunner({ quiz, backHref, backLabel }: { quiz: GeoQui
     const v = normName(raw);
     if (!v) return;
     const open = quiz.items.map((_, i) => i).filter(i => !solved.has(i));
-    const hits = open.filter(i => keys[i].includes(v));
+    let hits = open.filter(i => keys[i].includes(v));
+    // Small typos: accept when exactly one item (solved or not) is that close and the input isn't
+    // another item's exact name. While typing, wait as long as the input could still grow into a name.
+    if (hits.length === 0 && !keys.some(k => k.includes(v)) && (enter || !keys.some(k => k.some(x => x.startsWith(v))))) {
+      const tol = typoTolerance(v.length);
+      const near = tol === 0 ? [] : keys.map((k, i) => i).filter(i => keys[i].some(x => x.length >= 5 && editDistance(v, x, tol) <= Math.min(tol, typoTolerance(x.length))));
+      if (near.length === 1 && !solved.has(near[0])) hits = near;
+    }
     if (hits.length === 0) {
       if (enter) { setShake(true); setTimeout(() => setShake(false), 300); }
       return;

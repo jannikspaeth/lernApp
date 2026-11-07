@@ -22,9 +22,35 @@ function shuffle<T>(a: T[]): T[] {
   return r;
 }
 
-// 10 questions per level, easy first; within a level areas are spread out.
+const SEEN_KEY = 'lernapp_aw_test_seen';
+
+function readSeen(): Set<string> {
+  try {
+    const v = JSON.parse(localStorage.getItem(SEEN_KEY) ?? '[]');
+    return new Set(Array.isArray(v) ? v.filter((x): x is string => typeof x === 'string') : []);
+  } catch {
+    return new Set();
+  }
+}
+
+// 10 questions per level, easy first. Questions already asked in earlier runs come back only once
+// every question of that level has been asked (then that level starts over).
 function draw(): Item[] {
-  return TEST_LEVELS.flatMap(l => shuffle(TEST[l.id]).slice(0, PER_LEVEL).map(q => ({ level: l.id, q, options: shuffle([q[2], ...q[3]]) })));
+  const seen = readSeen();
+  const items = TEST_LEVELS.flatMap(l => {
+    const pool = TEST[l.id];
+    const fresh = shuffle(pool.filter(q => !seen.has(q[1])));
+    let pick = fresh.slice(0, PER_LEVEL);
+    if (pick.length < PER_LEVEL) {
+      for (const q of pool) seen.delete(q[1]);
+      const taken = new Set(pick.map(q => q[1]));
+      pick = [...pick, ...shuffle(pool.filter(q => !taken.has(q[1]))).slice(0, PER_LEVEL - pick.length)];
+    }
+    return pick.map(q => ({ level: l.id, q, options: shuffle([q[2], ...q[3]]) }));
+  });
+  for (const it of items) seen.add(it.q[1]);
+  try { localStorage.setItem(SEEN_KEY, JSON.stringify([...seen])); } catch { /* private mode: repeats are possible */ }
+  return items;
 }
 
 const isScore = (v: string): v is `${number}` => /^\d+$/.test(v);

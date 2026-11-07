@@ -11,7 +11,8 @@ export const allgemeinwissen: Subject = {
   color: { bg: 'bg-orange-50 dark:bg-orange-950/50', text: 'text-orange-800 dark:text-orange-300', bar: 'bg-orange-500', border: 'border-orange-200 dark:border-orange-900' },
   links: [
     { href: '/wissen/allgemeinwissen/test', icon: '🎯', name: ['General knowledge test', 'Allgemeinwissen-Test'], blurb: ['30 questions from every subject, getting harder – with your rating', '30 Fragen aus allen Fächern, immer schwerer – mit Einstufung'] },
-    { href: '/persoenlichkeit', icon: '🎭', name: ['Who are you?', 'Wer bist du?'], blurb: ['Which philosopher, painter, composer or writer are you?', 'Welcher Philosoph, Maler, Komponist oder Schriftsteller bist du?'] },
+    { href: '/persoenlichkeit', icon: '🎭', name: ['Who are you?', 'Wer bist du?'], blurb: ['Guess the famous person from hints that get easier', 'Rate die berühmte Person – Tipp für Tipp immer leichter'] },
+    { href: '/wissen/allgemeinwissen/promis', icon: '📸', name: ['Who is that?', 'Wer ist das?'], blurb: ['Celebrity photos – type the name', 'Promi-Fotos – schreib den Namen hin'] },
   ],
   topics: [
     topic(S, 'redewendungen', ['Sayings', 'Redewendungen'], '💬', [

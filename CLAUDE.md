@@ -87,7 +87,9 @@ Flow: `/login` → `/` (subjects) → Sprachen: `/heute` (→ `/sprache` for lan
 - **World map quiz** `/karte` (`components/welt/`): `WorldMap` = d3-geo + topojson SVG with pan/wheel/pinch zoom,
   one projection + bounding box per region, round tap targets for tiny countries (Tuvalu isn't on the map).
   Modes: find the named country (3 tries) or type all names (`normName`, accepted spellings in `alt`; a name that
-  begins another, e.g. "Niger", waits for Enter). Records per device in localStorage.
+  begins another, e.g. "Niger", waits for Enter). The typed geography quizzes (`components/geo/QuizRunner.tsx`) also forgive
+  small typos (`editDistance`/`typoTolerance` in `lib/welt`, only when exactly one name is that close) and accept short forms
+  of two-part names ("St. Vincent", "Trinidad"). Records per device in localStorage.
 - **Timelines** (`lib/wissen/zeitstrahl.ts`): events per region (Urgeschichte after Wikipedia's "Zeittafel der
   Menschheitsgeschichte", Europa, Asien, Afrika, Amerika, Ozeanien, Welt). Used by the timeline game `/zeitstrahl`
   (5 events, region filter, picked client-side only), the world-history pages and Geschichte's "Zeitleisten" quiz
@@ -143,8 +145,14 @@ Flow: `/login` → `/` (subjects) → Sprachen: `/heute` (→ `/sprache` for lan
 - **Allgemeinwissen** (`lib/wissen/allgemeinwissen.ts`): a flat subject (8 topics × 20 cards: sayings, inventions, records,
   sport, food, body, animals, everyday life). Its **test** `/wissen/allgemeinwissen/test` (`lib/wissen/allgemeinwissen-test.ts`,
   `components/wissen/AllgemeinTest.tsx`) draws 10 leicht + 10 mittel + 10 schwer from its own pool and ends with a rating
-  (best score per device in localStorage).
-- **"Wer bist du?"** `/persoenlichkeit` (+ `/[id]`, `lib/persoenlichkeit/`): personality quizzes (Philosoph, Künstler, Komponist,
+  (best score per device in localStorage). Questions already asked are remembered per device (`lernapp_aw_test_seen`) and only
+  come back once every question of that level was asked. **Promi quiz** `/wissen/allgemeinwissen/promis` (`lib/promis/index.ts`,
+  `components/raten/PromiQuiz.tsx`): celebrity photo → type the name; photos in `lib/promis/bilder.json`
+  (`node scripts/fetch-bilder.mjs promis`, `public/promis`, only free licences — view a contact sheet after adding).
+  Typed names are compared with `matchesName` (`lib/name-match.ts`: normName + small typos).
+- **"Wer bist du?"** `/persoenlichkeit`: first the guessing game "Wer bin ich?" (`lib/wer-bin-ich.ts`, `components/raten/WerBinIch.tsx`):
+  five hints per famous person from hard to easy, guess any time, 5 points after hint 1 down to 1; people unseen first per device.
+  Below it (+ `/[id]`, `lib/persoenlichkeit/`) the personality quizzes (Philosoph, Künstler, Komponist,
   Schriftsteller), 10 questions, each option gives points to 1–2 results; the result links its chapter. Check pictures, chapter
   paths and the balance of results (random runs) with `npx tsx scripts/check-persoenlichkeit.ts`.
 - **News quiz** `/nachrichten` (`lib/nachrichten/fragen.json`, `components/nachrichten/NewsQuiz.tsx`): Deutschland/Welt ×

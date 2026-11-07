@@ -1,0 +1,520 @@
+{
+  "taylor-swift": {
+    "wiki": "Taylor Swift",
+    "title": "Taylor Swift",
+    "artist": "",
+    "year": ""
+  },
+  "beyonce": {
+    "wiki": "Beyoncé",
+    "title": "Beyoncé",
+    "artist": "",
+    "year": ""
+  },
+  "rihanna": {
+    "wiki": "Rihanna",
+    "title": "Rihanna",
+    "artist": "",
+    "year": ""
+  },
+  "lady-gaga": {
+    "wiki": "Lady Gaga",
+    "title": "Lady Gaga",
+    "artist": "",
+    "year": ""
+  },
+  "ed-sheeran": {
+    "wiki": "Ed Sheeran",
+    "title": "Ed Sheeran",
+    "artist": "",
+    "year": ""
+  },
+  "adele": {
+    "wiki": "Adele",
+    "title": "Adele",
+    "artist": "",
+    "year": "",
+    "en": "Adele"
+  },
+  "michael-jackson": {
+    "wiki": "Michael Jackson",
+    "title": "Michael Jackson",
+    "artist": "",
+    "year": ""
+  },
+  "madonna": {
+    "wiki": "Madonna (Künstlerin)",
+    "title": "Madonna",
+    "artist": "",
+    "year": ""
+  },
+  "freddie-mercury": {
+    "wiki": "Freddie Mercury",
+    "title": "Freddie Mercury",
+    "artist": "",
+    "year": ""
+  },
+  "david-bowie": {
+    "wiki": "David Bowie",
+    "title": "David Bowie",
+    "artist": "",
+    "year": ""
+  },
+  "bob-marley": {
+    "wiki": "Bob Marley",
+    "title": "Bob Marley",
+    "artist": "",
+    "year": ""
+  },
+  "helene-fischer": {
+    "wiki": "Helene Fischer",
+    "title": "Helene Fischer",
+    "artist": "",
+    "year": ""
+  },
+  "groenemeyer": {
+    "wiki": "Herbert Grönemeyer",
+    "title": "Herbert Grönemeyer",
+    "artist": "",
+    "year": ""
+  },
+  "billie-eilish": {
+    "wiki": "Billie Eilish",
+    "title": "Billie Eilish",
+    "artist": "",
+    "year": ""
+  },
+  "shakira": {
+    "wiki": "Shakira",
+    "title": "Shakira",
+    "artist": "",
+    "year": ""
+  },
+  "eminem": {
+    "wiki": "Eminem",
+    "title": "Eminem",
+    "artist": "",
+    "year": ""
+  },
+  "elton-john": {
+    "wiki": "Elton John",
+    "title": "Elton John",
+    "artist": "",
+    "year": ""
+  },
+  "mick-jagger": {
+    "wiki": "Mick Jagger",
+    "title": "Mick Jagger",
+    "artist": "",
+    "year": ""
+  },
+  "paul-mccartney": {
+    "wiki": "Paul McCartney",
+    "title": "Paul McCartney",
+    "artist": "",
+    "year": ""
+  },
+  "udo-lindenberg": {
+    "wiki": "Udo Lindenberg",
+    "title": "Udo Lindenberg",
+    "artist": "",
+    "year": ""
+  },
+  "dicaprio": {
+    "wiki": "Leonardo DiCaprio",
+    "title": "Leonardo DiCaprio",
+    "artist": "",
+    "year": ""
+  },
+  "brad-pitt": {
+    "wiki": "Brad Pitt",
+    "title": "Brad Pitt",
+    "artist": "",
+    "year": ""
+  },
+  "angelina-jolie": {
+    "wiki": "Angelina Jolie",
+    "title": "Angelina Jolie",
+    "artist": "",
+    "year": ""
+  },
+  "tom-hanks": {
+    "wiki": "Tom Hanks",
+    "title": "Tom Hanks",
+    "artist": "",
+    "year": ""
+  },
+  "meryl-streep": {
+    "wiki": "Meryl Streep",
+    "title": "Meryl Streep",
+    "artist": "",
+    "year": ""
+  },
+  "scarlett-johansson": {
+    "wiki": "Scarlett Johansson",
+    "title": "Scarlett Johansson",
+    "artist": "",
+    "year": ""
+  },
+  "tom-cruise": {
+    "wiki": "Tom Cruise",
+    "title": "Tom Cruise",
+    "artist": "",
+    "year": ""
+  },
+  "johnny-depp": {
+    "wiki": "Johnny Depp",
+    "title": "Johnny Depp",
+    "artist": "",
+    "year": ""
+  },
+  "marilyn-monroe": {
+    "wiki": "Marilyn Monroe",
+    "title": "Marilyn Monroe",
+    "artist": "",
+    "year": ""
+  },
+  "chaplin": {
+    "wiki": "Charlie Chaplin",
+    "title": "Charlie Chaplin",
+    "artist": "",
+    "year": ""
+  },
+  "audrey-hepburn": {
+    "wiki": "Audrey Hepburn",
+    "title": "Audrey Hepburn",
+    "artist": "",
+    "year": ""
+  },
+  "schwarzenegger": {
+    "wiki": "Arnold Schwarzenegger",
+    "title": "Arnold Schwarzenegger",
+    "artist": "",
+    "year": ""
+  },
+  "morgan-freeman": {
+    "wiki": "Morgan Freeman",
+    "title": "Morgan Freeman",
+    "artist": "",
+    "year": ""
+  },
+  "jennifer-lawrence": {
+    "wiki": "Jennifer Lawrence",
+    "title": "Jennifer Lawrence",
+    "artist": "",
+    "year": ""
+  },
+  "keanu-reeves": {
+    "wiki": "Keanu Reeves",
+    "title": "Keanu Reeves",
+    "artist": "",
+    "year": ""
+  },
+  "til-schweiger": {
+    "wiki": "Til Schweiger",
+    "title": "Til Schweiger",
+    "artist": "",
+    "year": ""
+  },
+  "diane-kruger": {
+    "wiki": "Diane Kruger",
+    "title": "Diane Kruger",
+    "artist": "",
+    "year": ""
+  },
+  "christoph-waltz": {
+    "wiki": "Christoph Waltz",
+    "title": "Christoph Waltz",
+    "artist": "",
+    "year": "",
+    "file": "Christoph Waltz at 82nd Venice International Film Festival-1 (cropped).jpg"
+  },
+  "oprah": {
+    "wiki": "Oprah Winfrey",
+    "title": "Oprah Winfrey",
+    "artist": "",
+    "year": ""
+  },
+  "gottschalk": {
+    "wiki": "Thomas Gottschalk",
+    "title": "Thomas Gottschalk",
+    "artist": "",
+    "year": ""
+  },
+  "jauch": {
+    "wiki": "Günther Jauch",
+    "title": "Günther Jauch",
+    "artist": "",
+    "year": ""
+  },
+  "heidi-klum": {
+    "wiki": "Heidi Klum",
+    "title": "Heidi Klum",
+    "artist": "",
+    "year": ""
+  },
+  "ronaldo": {
+    "wiki": "Cristiano Ronaldo",
+    "title": "Cristiano Ronaldo",
+    "artist": "",
+    "year": ""
+  },
+  "messi": {
+    "wiki": "Lionel Messi",
+    "title": "Lionel Messi",
+    "artist": "",
+    "year": ""
+  },
+  "serena-williams": {
+    "wiki": "Serena Williams",
+    "title": "Serena Williams",
+    "artist": "",
+    "year": ""
+  },
+  "federer": {
+    "wiki": "Roger Federer",
+    "title": "Roger Federer",
+    "artist": "",
+    "year": ""
+  },
+  "usain-bolt": {
+    "wiki": "Usain Bolt",
+    "title": "Usain Bolt",
+    "artist": "",
+    "year": "",
+    "en": "Usain Bolt",
+    "file": "Usain Bolt portrait.jpg"
+  },
+  "schumacher": {
+    "wiki": "Michael Schumacher",
+    "title": "Michael Schumacher",
+    "artist": "",
+    "year": ""
+  },
+  "steffi-graf": {
+    "wiki": "Steffi Graf",
+    "title": "Steffi Graf",
+    "artist": "",
+    "year": ""
+  },
+  "boris-becker": {
+    "wiki": "Boris Becker",
+    "title": "Boris Becker",
+    "artist": "",
+    "year": ""
+  },
+  "beckenbauer": {
+    "wiki": "Franz Beckenbauer",
+    "title": "Franz Beckenbauer",
+    "artist": "",
+    "year": ""
+  },
+  "nowitzki": {
+    "wiki": "Dirk Nowitzki",
+    "title": "Dirk Nowitzki",
+    "artist": "",
+    "year": ""
+  },
+  "muhammad-ali": {
+    "wiki": "Muhammad Ali",
+    "title": "Muhammad Ali",
+    "artist": "",
+    "year": ""
+  },
+  "michael-jordan": {
+    "wiki": "Michael Jordan",
+    "title": "Michael Jordan",
+    "artist": "",
+    "year": ""
+  },
+  "lebron-james": {
+    "wiki": "LeBron James",
+    "title": "LeBron James",
+    "artist": "",
+    "year": ""
+  },
+  "lewis-hamilton": {
+    "wiki": "Lewis Hamilton",
+    "title": "Lewis Hamilton",
+    "artist": "",
+    "year": "",
+    "en": "Lewis Hamilton",
+    "file": "Lewis Hamilton 2021.jpg"
+  },
+  "neuer": {
+    "wiki": "Manuel Neuer",
+    "title": "Manuel Neuer",
+    "artist": "",
+    "year": ""
+  },
+  "thomas-mueller": {
+    "wiki": "Thomas Müller (Fußballspieler)",
+    "title": "Thomas Müller",
+    "artist": "",
+    "year": "",
+    "en": "Thomas Müller"
+  },
+  "simone-biles": {
+    "wiki": "Simone Biles",
+    "title": "Simone Biles",
+    "artist": "",
+    "year": ""
+  },
+  "elon-musk": {
+    "wiki": "Elon Musk",
+    "title": "Elon Musk",
+    "artist": "",
+    "year": ""
+  },
+  "bill-gates": {
+    "wiki": "Bill Gates",
+    "title": "Bill Gates",
+    "artist": "",
+    "year": ""
+  },
+  "steve-jobs": {
+    "wiki": "Steve Jobs",
+    "title": "Steve Jobs",
+    "artist": "",
+    "year": ""
+  },
+  "zuckerberg": {
+    "wiki": "Mark Zuckerberg",
+    "title": "Mark Zuckerberg",
+    "artist": "",
+    "year": ""
+  },
+  "obama": {
+    "wiki": "Barack Obama",
+    "title": "Barack Obama",
+    "artist": "",
+    "year": ""
+  },
+  "elizabeth-ii": {
+    "wiki": "Elisabeth II.",
+    "title": "Elisabeth II.",
+    "artist": "",
+    "year": ""
+  },
+  "charles-iii": {
+    "wiki": "Charles III.",
+    "title": "Charles III.",
+    "artist": "",
+    "year": ""
+  },
+  "papst-franziskus": {
+    "wiki": "Franziskus (Papst)",
+    "title": "Papst Franziskus",
+    "artist": "",
+    "year": ""
+  },
+  "greta-thunberg": {
+    "wiki": "Greta Thunberg",
+    "title": "Greta Thunberg",
+    "artist": "",
+    "year": ""
+  },
+  "dalai-lama": {
+    "wiki": "Tendzin Gyatsho",
+    "title": "Dalai Lama",
+    "artist": "",
+    "year": ""
+  },
+  "napoleon": {
+    "wiki": "Napoleon Bonaparte",
+    "title": "Napoleon Bonaparte",
+    "artist": "",
+    "year": "",
+    "file": "Jacques-Louis David - The Emperor Napoleon in His Study at the Tuileries - Google Art Project.jpg"
+  },
+  "caesar": {
+    "wiki": "Gaius Iulius Caesar",
+    "title": "Julius Caesar",
+    "artist": "",
+    "year": ""
+  },
+  "kolumbus": {
+    "wiki": "Christoph Kolumbus",
+    "title": "Christoph Kolumbus",
+    "artist": "",
+    "year": ""
+  },
+  "lincoln": {
+    "wiki": "Abraham Lincoln",
+    "title": "Abraham Lincoln",
+    "artist": "",
+    "year": ""
+  },
+  "churchill": {
+    "wiki": "Winston Churchill",
+    "title": "Winston Churchill",
+    "artist": "",
+    "year": ""
+  },
+  "kleopatra": {
+    "wiki": "Kleopatra VII.",
+    "title": "Kleopatra",
+    "artist": "",
+    "year": ""
+  },
+  "freud": {
+    "wiki": "Sigmund Freud",
+    "title": "Sigmund Freud",
+    "artist": "",
+    "year": ""
+  },
+  "van-gogh": {
+    "wiki": "Vincent van Gogh",
+    "title": "Vincent van Gogh",
+    "artist": "",
+    "year": ""
+  },
+  "leonardo": {
+    "wiki": "Leonardo da Vinci",
+    "title": "Leonardo da Vinci",
+    "artist": "",
+    "year": ""
+  },
+  "frida-kahlo": {
+    "wiki": "Frida Kahlo",
+    "title": "Frida Kahlo",
+    "artist": "",
+    "year": ""
+  },
+  "picasso": {
+    "wiki": "Pablo Picasso",
+    "title": "Pablo Picasso",
+    "artist": "",
+    "year": ""
+  },
+  "mlk": {
+    "wiki": "Martin Luther King",
+    "title": "Martin Luther King",
+    "artist": "",
+    "year": ""
+  },
+  "anne-frank": {
+    "wiki": "Anne Frank",
+    "title": "Anne Frank",
+    "artist": "",
+    "year": ""
+  },
+  "jfk": {
+    "wiki": "John F. Kennedy",
+    "title": "John F. Kennedy",
+    "artist": "",
+    "year": ""
+  },
+  "queen-victoria": {
+    "wiki": "Victoria (Vereinigtes Königreich)",
+    "title": "Königin Victoria",
+    "artist": "",
+    "year": ""
+  },
+  "armstrong": {
+    "wiki": "Neil Armstrong",
+    "title": "Neil Armstrong",
+    "artist": "",
+    "year": ""
+  }
+}

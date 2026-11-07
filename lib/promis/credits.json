@@ -1,0 +1,572 @@
+{
+  "taylor-swift": {
+    "file": "Taylor_Swift_at_the_2023_MTV_Video_Music_Awards_(3).png",
+    "author": "iHeartRadioCA",
+    "licence": "CC BY 3.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Taylor_Swift_at_the_2023_MTV_Video_Music_Awards_(3).png"
+  },
+  "beyonce": {
+    "file": "Beyoncé_-_Tottenham_Hotspur_Stadium_-_1st_June_2023_(10_of_118)_(52946364598)_(best_crop).jpg",
+    "author": "Raph_PH",
+    "licence": "CC BY 2.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Beyonc%C3%A9_-_Tottenham_Hotspur_Stadium_-_1st_June_2023_(10_of_118)_(52946364598)_(best_crop).jpg"
+  },
+  "rihanna": {
+    "file": "Rihanna_Fenty_2018.png",
+    "author": "SIGMA",
+    "licence": "CC BY 3.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Rihanna_Fenty_2018.png"
+  },
+  "lady-gaga": {
+    "file": "Lady_Gaga_at_the_White_House_in_2023_(3).jpg",
+    "author": "The White House",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Lady_Gaga_at_the_White_House_in_2023_(3).jpg"
+  },
+  "ed-sheeran": {
+    "file": "Ed_Sheeran-6886_(cropped).jpg",
+    "author": "Harald Krichel",
+    "licence": "CC BY-SA 3.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Ed_Sheeran-6886_(cropped).jpg"
+  },
+  "michael-jackson": {
+    "file": "Michael_Jackson_in_1988.jpg",
+    "author": "Zoran Veselinovic",
+    "licence": "CC BY-SA 2.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Michael_Jackson_in_1988.jpg"
+  },
+  "madonna": {
+    "file": "Madonna_Rebel_Heart_Tour_2015_-_Stockholm_(23051472299)_(cropped).jpg",
+    "author": "chrisweger",
+    "licence": "CC BY-SA 2.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Madonna_Rebel_Heart_Tour_2015_-_Stockholm_(23051472299)_(cropped).jpg"
+  },
+  "freddie-mercury": {
+    "file": "FreddieMercuryNov1977.jpg",
+    "author": "Carl Lender at https://www.flickr.com/photos/clender/",
+    "licence": "CC BY-SA 3.0",
+    "licenceUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:FreddieMercuryNov1977.jpg"
+  },
+  "david-bowie": {
+    "file": "David-Bowie_Chicago_2002-08-08_photoby_Adam-Bielawski-cropped.jpg",
+    "author": "Adam Bielawski",
+    "licence": "CC BY-SA 3.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:David-Bowie_Chicago_2002-08-08_photoby_Adam-Bielawski-cropped.jpg"
+  },
+  "bob-marley": {
+    "file": "Bob-Marley-in-Concert_Zurich_05-30-80.jpg",
+    "author": "Ueli Frey",
+    "licence": "CC BY-SA 3.0",
+    "licenceUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Bob-Marley-in-Concert_Zurich_05-30-80.jpg"
+  },
+  "helene-fischer": {
+    "file": "Helene_Fischer_2016.jpg",
+    "author": "Lemmes16",
+    "licence": "CC BY-SA 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Helene_Fischer_2016.jpg"
+  },
+  "groenemeyer": {
+    "file": "1LIVE_Krone_2014_Herbert_Grönemeyer_1.jpg",
+    "author": "Superbass",
+    "licence": "CC BY-SA 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:1LIVE_Krone_2014_Herbert_Gr%C3%B6nemeyer_1.jpg"
+  },
+  "billie-eilish": {
+    "file": "BillieEilishO2160622_(11_of_45)_(52152972296)_(cropped_2).jpg",
+    "author": "Raph_PH",
+    "licence": "CC BY 2.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:BillieEilishO2160622_(11_of_45)_(52152972296)_(cropped_2).jpg"
+  },
+  "shakira": {
+    "file": "2023-11-16_Gala_de_los_Latin_Grammy,_03_(cropped)02.jpg",
+    "author": "Junta de Andalucía",
+    "licence": "CC BY-SA 2.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:2023-11-16_Gala_de_los_Latin_Grammy,_03_(cropped)02.jpg"
+  },
+  "eminem": {
+    "file": "Eminem_-_Concert_for_Valor_in_Washington,_D.C._Nov._11,_2014_(2)_(cropped).jpg",
+    "author": "DoD News Features",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Eminem_-_Concert_for_Valor_in_Washington,_D.C._Nov._11,_2014_(2)_(cropped).jpg"
+  },
+  "elton-john": {
+    "file": "20240320SM2925_(Elton_John_2024_Gershwin_Prize_for_Popular_Song_portrait_crop).jpg",
+    "author": "Library of Congress Life",
+    "licence": "CC0",
+    "licenceUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:20240320SM2925_(Elton_John_2024_Gershwin_Prize_for_Popular_Song_portrait_crop).jpg"
+  },
+  "mick-jagger": {
+    "file": "RStonesHydePark030722_(49_of_125)_(52193656268)_(cropped).jpg",
+    "author": "Raph_PH",
+    "licence": "CC BY 2.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:RStonesHydePark030722_(49_of_125)_(52193656268)_(cropped).jpg"
+  },
+  "paul-mccartney": {
+    "file": "McCartneyO2101224_p2_(23_of_191)_(cropped).jpg",
+    "author": "Raph_PH",
+    "licence": "CC BY 2.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:McCartneyO2101224_p2_(23_of_191)_(cropped).jpg"
+  },
+  "udo-lindenberg": {
+    "file": "Pressekonferenz_Aktion_Birlikte_-_Zusammenstehen-8395.jpg",
+    "author": "Raimond Spekking",
+    "licence": "CC BY-SA 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Pressekonferenz_Aktion_Birlikte_-_Zusammenstehen-8395.jpg"
+  },
+  "dicaprio": {
+    "file": "Leonardo_DiCaprio_-_BFI_Southbank.jpg",
+    "author": "Raph_PH",
+    "licence": "CC BY 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Leonardo_DiCaprio_-_BFI_Southbank.jpg"
+  },
+  "brad-pitt": {
+    "file": "Brad_Pitt-69858.jpg",
+    "author": "Harald Krichel",
+    "licence": "CC BY-SA 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Brad_Pitt-69858.jpg"
+  },
+  "angelina-jolie": {
+    "file": "JolieMariaBFILFF181024_(18_of_28)_(54081064591)_(cropped).jpg",
+    "author": "Raph_PH",
+    "licence": "CC BY 2.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:JolieMariaBFILFF181024_(18_of_28)_(54081064591)_(cropped).jpg"
+  },
+  "tom-hanks": {
+    "file": "Tom_Hanks_at_the_Elvis_Premiere_2022.jpg",
+    "author": "Eva Rinaldi from Abbotsford, Australia",
+    "licence": "CC BY-SA 2.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Tom_Hanks_at_the_Elvis_Premiere_2022.jpg"
+  },
+  "meryl-streep": {
+    "file": "Meryl_Streep-_Press_conference_for_the_film_\"The_Devil_Wears_Prada_2\"_-_55194765350_(cropped1).jpg",
+    "author": "Ministry of culture, sports and Tourism- Lee Jeong-woo",
+    "licence": "CC BY-SA 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Meryl_Streep-_Press_conference_for_the_film_%22The_Devil_Wears_Prada_2%22_-_55194765350_(cropped1).jpg"
+  },
+  "scarlett-johansson": {
+    "file": "Scarlett_Johansson-8588.jpg",
+    "author": "Harald Krichel",
+    "licence": "CC BY-SA 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Scarlett_Johansson-8588.jpg"
+  },
+  "tom-cruise": {
+    "file": "Tom_Cruise_at_53rd_Saturn_Awards_2026-01.jpg",
+    "author": "Kevin Paul",
+    "licence": "CC BY 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Tom_Cruise_at_53rd_Saturn_Awards_2026-01.jpg"
+  },
+  "johnny-depp": {
+    "file": "Johnny_Depp_2020.jpg",
+    "author": "Harald Krichel",
+    "licence": "CC BY-SA 3.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Johnny_Depp_2020.jpg"
+  },
+  "marilyn-monroe": {
+    "file": "Marilyn_Monroe_1953_crop.jpg",
+    "author": "Los Angeles Times",
+    "licence": "CC BY 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Marilyn_Monroe_1953_crop.jpg"
+  },
+  "chaplin": {
+    "file": "Charlie_Chaplin_portrait_Getty_1739411952.jpg",
+    "author": "Strauss-Peyton Studio",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Charlie_Chaplin_portrait_Getty_1739411952.jpg"
+  },
+  "audrey-hepburn": {
+    "file": "AudreyKHepburn.jpg",
+    "author": "Bud Fraker (1916-2002) [1]",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:AudreyKHepburn.jpg"
+  },
+  "schwarzenegger": {
+    "file": "Arnold_Schwarzenegger_-_Austrian_World_Summit_2026_BHO-2906.jpg",
+    "author": "Bernhard Holub",
+    "licence": "CC BY-SA 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Arnold_Schwarzenegger_-_Austrian_World_Summit_2026_BHO-2906.jpg"
+  },
+  "morgan-freeman": {
+    "file": "Morgan_Freeman,_2006.jpg",
+    "author": "David Sifry",
+    "licence": "CC BY 2.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Morgan_Freeman,_2006.jpg"
+  },
+  "jennifer-lawrence": {
+    "file": "Jennifer_Lawrence_SDCC_2015_X-Men.jpg",
+    "author": "Gage Skidmore",
+    "licence": "CC BY-SA 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Jennifer_Lawrence_SDCC_2015_X-Men.jpg"
+  },
+  "keanu-reeves": {
+    "file": "Reunião_com_o_ator_norte-americano_Keanu_Reeves_(cropped).jpg",
+    "author": "Governo do Estado de São Paulo",
+    "licence": "CC BY 2.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Reuni%C3%A3o_com_o_ator_norte-americano_Keanu_Reeves_(cropped).jpg"
+  },
+  "til-schweiger": {
+    "file": "2022_Til_Schweiger_(cropped).jpg",
+    "author": "Stefan Brending (2eight)",
+    "licence": "CC BY-SA 3.0 de",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:2022_Til_Schweiger_(cropped).jpg"
+  },
+  "diane-kruger": {
+    "file": "Diane_Kruger-5300_(cropped).jpg",
+    "author": "Harald Krichel",
+    "licence": "CC BY-SA 3.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Diane_Kruger-5300_(cropped).jpg"
+  },
+  "christoph-waltz": {
+    "file": "Christoph Waltz at 82nd Venice International Film Festival-1 (cropped).jpg",
+    "author": "LucaFazPhoto",
+    "licence": "CC BY-SA 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Christoph_Waltz_at_82nd_Venice_International_Film_Festival-1_(cropped).jpg"
+  },
+  "oprah": {
+    "file": "Pre_Inaugural_Reception_(52639556983)_(cropped).jpg",
+    "author": "Maryland GovPics",
+    "licence": "CC BY 2.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Pre_Inaugural_Reception_(52639556983)_(cropped).jpg"
+  },
+  "gottschalk": {
+    "file": "Thomas_Gottschalk,_2024_cropped.jpg",
+    "author": "Elena Ternovaja",
+    "licence": "CC BY-SA 3.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Thomas_Gottschalk,_2024_cropped.jpg"
+  },
+  "jauch": {
+    "file": "2023_NDR-Talk-Show_-_Guenther_Jauch_-_by_2eight_-_9SC4547.jpg",
+    "author": "Stefan Brending (2eight)",
+    "licence": "CC BY-SA 3.0 de",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:2023_NDR-Talk-Show_-_Guenther_Jauch_-_by_2eight_-_9SC4547.jpg"
+  },
+  "heidi-klum": {
+    "file": "Heidi_Klum_at_the_2026_Cannes_Film_Festival_(cropped).jpg",
+    "author": "Gabriel Hutchinson",
+    "licence": "CC BY-SA 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Heidi_Klum_at_the_2026_Cannes_Film_Festival_(cropped).jpg"
+  },
+  "ronaldo": {
+    "file": "Cristiano_Ronaldo_Croatia_v_Portugal_2_July_2026-075_(cropped).jpg",
+    "author": "Bryan Berlin",
+    "licence": "CC BY-SA 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Cristiano_Ronaldo_Croatia_v_Portugal_2_July_2026-075_(cropped).jpg"
+  },
+  "messi": {
+    "file": "Leo_Messi_Argentina_v_Egypt_7_July_2026-1.jpg",
+    "author": "Bryan Berlin",
+    "licence": "CC BY-SA 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Leo_Messi_Argentina_v_Egypt_7_July_2026-1.jpg"
+  },
+  "serena-williams": {
+    "file": "Serena-Smiling-2020.png",
+    "author": "AndrewHenkelman",
+    "licence": "CC BY-SA 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Serena-Smiling-2020.png"
+  },
+  "federer": {
+    "file": "Roger_Federer_(19113580056).jpg",
+    "author": "Tatiana from Moscow, Russia",
+    "licence": "CC BY-SA 2.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Roger_Federer_(19113580056).jpg"
+  },
+  "schumacher": {
+    "file": "Michael_Schumacher,_September_2005.jpg",
+    "author": "Original: Aécio Neves – Wellington Pedro/Imprensa MG / Derivative work: F1fans, FMSky",
+    "licence": "CC BY 2.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Michael_Schumacher,_September_2005.jpg"
+  },
+  "steffi-graf": {
+    "file": "Steffi_Graf_in_Hamburg_2010_(cropped).jpg",
+    "author": "Steffi_Graf_in_Hamburg.jpg: Mark Henckel from Hamburg-Altona, Deutschland (http://sommer-in-hamburg.de/) derivative work: César",
+    "licence": "CC BY-SA 2.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Steffi_Graf_in_Hamburg_2010_(cropped).jpg"
+  },
+  "boris-becker": {
+    "file": "2026-09-09-Boris_Becker-Deutscher_Fernsehpreis_2026_-R_063425.jpg",
+    "author": "Superbass",
+    "licence": "CC BY-SA 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:2026-09-09-Boris_Becker-Deutscher_Fernsehpreis_2026_-R_063425.jpg"
+  },
+  "beckenbauer": {
+    "file": "Bundesarchiv_Bild_183-N0622-0035,_Fußball-Weltmeisterschaft,_Spiel_DDR-BRD_kaiser.jpg",
+    "author": "Mittelstädt, Rainer",
+    "licence": "CC BY-SA 3.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_183-N0622-0035,_Fu%C3%9Fball-Weltmeisterschaft,_Spiel_DDR-BRD_kaiser.jpg"
+  },
+  "nowitzki": {
+    "file": "Dirk_Nowitzki_-_2019202181209_2019-07-21_Champions_for_Charity_-_1829_-_B70I1864.jpg",
+    "author": "Sven Mandel",
+    "licence": "CC BY-SA 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Dirk_Nowitzki_-_2019202181209_2019-07-21_Champions_for_Charity_-_1829_-_B70I1864.jpg"
+  },
+  "muhammad-ali": {
+    "file": "Muhammad_Ali_NYWTS.jpg",
+    "author": "Ira Rosenberg",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Muhammad_Ali_NYWTS.jpg"
+  },
+  "michael-jordan": {
+    "file": "Michael_Jordan_in_2014.jpg",
+    "author": "DOD photo by D. Myles Cullen",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Michael_Jordan_in_2014.jpg"
+  },
+  "lebron-james": {
+    "file": "LeBron_James_(51959977144)_(cropped).jpg",
+    "author": "Erik Drost",
+    "licence": "CC BY 2.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:LeBron_James_(51959977144)_(cropped).jpg"
+  },
+  "neuer": {
+    "file": "20180602_FIFA_Friendly_Match_Austria_vs._Germany_Manuel_Neuer_850_0723.jpg",
+    "author": "Granada",
+    "licence": "CC BY-SA 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:20180602_FIFA_Friendly_Match_Austria_vs._Germany_Manuel_Neuer_850_0723.jpg"
+  },
+  "simone-biles": {
+    "file": "Simone_Biles_National_Team_2024.jpg",
+    "author": "Ocoudis",
+    "licence": "CC BY-SA 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Simone_Biles_National_Team_2024.jpg"
+  },
+  "elon-musk": {
+    "file": "Elon_Musk_(54816836217)_(cropped_2)_(b).jpg",
+    "author": "Gage Skidmore",
+    "licence": "CC BY-SA 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Elon_Musk_(54816836217)_(cropped_2)_(b).jpg"
+  },
+  "bill-gates": {
+    "file": "Bill_Gates_-_Nov._8,_2019.jpg",
+    "author": "Senator Chris Coons",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Bill_Gates_-_Nov._8,_2019.jpg"
+  },
+  "steve-jobs": {
+    "file": "Steve_Jobs_Headshot_2010_(cropped_4).jpg",
+    "author": "Matthew Yohe",
+    "licence": "CC BY-SA 3.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Steve_Jobs_Headshot_2010_(cropped_4).jpg"
+  },
+  "zuckerberg": {
+    "file": "Mark_Zuckerberg_F8_2018_Keynote_(cropped).jpg",
+    "author": "Anthony Quintano from Honolulu, HI, United States",
+    "licence": "CC BY 2.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Mark_Zuckerberg_F8_2018_Keynote_(cropped).jpg"
+  },
+  "obama": {
+    "file": "President_Barack_Obama.jpg",
+    "author": "Official White House Photo by Pete Souza",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:President_Barack_Obama.jpg"
+  },
+  "elizabeth-ii": {
+    "file": "Queen_Elizabeth_II_official_portrait_for_1959_tour_(retouched)_(cropped)_(3-to-4_aspect_ratio).jpg",
+    "author": "Donald McKague",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Queen_Elizabeth_II_official_portrait_for_1959_tour_(retouched)_(cropped)_(3-to-4_aspect_ratio).jpg"
+  },
+  "charles-iii": {
+    "file": "P20260428DT-3982_(Charles_III).jpg",
+    "author": "The White House",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:P20260428DT-3982_(Charles_III).jpg"
+  },
+  "papst-franziskus": {
+    "file": "Pope_Francis_Korea_Haemi_Castle_19.jpg",
+    "author": "Korea.net / Korean Culture and Information Service (Jeon Han)",
+    "licence": "CC BY-SA 2.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Pope_Francis_Korea_Haemi_Castle_19.jpg"
+  },
+  "greta-thunberg": {
+    "file": "Greta_Thunberg_in_November_in_Stockholm_(cropped)(2).jpg",
+    "author": "Kushal Das",
+    "licence": "CC BY-SA 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Greta_Thunberg_in_November_in_Stockholm_(cropped)(2).jpg"
+  },
+  "dalai-lama": {
+    "file": "Dalai_Lama_in_2012_02.jpg",
+    "author": "Christopher Michel",
+    "licence": "CC BY-SA 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Dalai_Lama_in_2012_02.jpg"
+  },
+  "napoleon": {
+    "file": "Jacques-Louis David - The Emperor Napoleon in His Study at the Tuileries - Google Art Project.jpg",
+    "author": "Jacques-Louis David",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Jacques-Louis_David_-_The_Emperor_Napoleon_in_His_Study_at_the_Tuileries_-_Google_Art_Project.jpg"
+  },
+  "caesar": {
+    "file": "Retrato_de_Julio_César_(26724093101)_(cropped).jpg",
+    "author": "Ángel M. Felicísimo from Mérida, España",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Retrato_de_Julio_C%C3%A9sar_(26724093101)_(cropped).jpg"
+  },
+  "kolumbus": {
+    "file": "Portrait_of_a_Man,_Said_to_be_Christopher_Columbus.jpg",
+    "author": "Sebastiano del Piombo",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Portrait_of_a_Man,_Said_to_be_Christopher_Columbus.jpg"
+  },
+  "lincoln": {
+    "file": "Abraham_Lincoln_O-77_matte_collodion_print.jpg",
+    "author": "Alexander Gardner",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Abraham_Lincoln_O-77_matte_collodion_print.jpg"
+  },
+  "churchill": {
+    "file": "Sir_Winston_Churchill_-_19086236948.jpg",
+    "author": "unbekannt",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Sir_Winston_Churchill_-_19086236948.jpg"
+  },
+  "kleopatra": {
+    "file": "Berlin_-_Altes_Museum_7922.jpg",
+    "author": "Phyrexian",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Berlin_-_Altes_Museum_7922.jpg"
+  },
+  "freud": {
+    "file": "Sigmund_Freud,_by_Max_Halberstadt_(cropped).jpg",
+    "author": "Max Halberstadt",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Sigmund_Freud,_by_Max_Halberstadt_(cropped).jpg"
+  },
+  "van-gogh": {
+    "file": "Self-portrait_-_Vincent_van_Gogh.jpg",
+    "author": "Vincent van Gogh",
+    "licence": "CC BY-SA 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Self-portrait_-_Vincent_van_Gogh.jpg"
+  },
+  "leonardo": {
+    "file": "Leonardo_da_Vinci_-_presumed_self-portrait_-_WGA12798.jpg",
+    "author": "Leonardo da Vinci",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_-_presumed_self-portrait_-_WGA12798.jpg"
+  },
+  "frida-kahlo": {
+    "file": "Guillermo_Kahlo,_Frida_Kahlo,_1932.jpg",
+    "author": "Guillermo Kahlo",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Guillermo_Kahlo,_Frida_Kahlo,_1932.jpg"
+  },
+  "picasso": {
+    "file": "Pablo_picasso_1.jpg",
+    "author": "Argentina. Revista Vea y Lea",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Pablo_picasso_1.jpg"
+  },
+  "mlk": {
+    "file": "Martin_Luther_King_Jr_NYWTS.jpg",
+    "author": "Dick DeMarsico",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Martin_Luther_King_Jr_NYWTS.jpg"
+  },
+  "anne-frank": {
+    "file": "Anne_Frank_lacht_naar_de_schoolfotograaf.jpg",
+    "author": "AnonymousUnknown author",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Anne_Frank_lacht_naar_de_schoolfotograaf.jpg"
+  },
+  "jfk": {
+    "file": "John_F._Kennedy,_White_House_color_photo_portrait.jpg",
+    "author": "Cecil W. Stoughton",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:John_F._Kennedy,_White_House_color_photo_portrait.jpg"
+  },
+  "queen-victoria": {
+    "file": "Queen_Victoria_by_Bassano.jpg",
+    "author": "Alexander Bassano",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Queen_Victoria_by_Bassano.jpg"
+  },
+  "armstrong": {
+    "file": "Neil_Armstrong_pose.jpg",
+    "author": "Unknown authorUnknown author",
+    "licence": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Neil_Armstrong_pose.jpg"
+  },
+  "adele": {
+    "file": "Adele_2016.jpg",
+    "author": "Marc E.",
+    "licence": "CC BY 2.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Adele_2016.jpg"
+  },
+  "thomas-mueller": {
+    "file": "FC_Red_Bull_Salzburg_gegen_Bayern_München_(2025-01-06_Testspiel)_19.jpg",
+    "author": "Werner100359",
+    "licence": "CC BY-SA 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:FC_Red_Bull_Salzburg_gegen_Bayern_M%C3%BCnchen_(2025-01-06_Testspiel)_19.jpg"
+  },
+  "usain-bolt": {
+    "file": "Usain Bolt portrait.jpg",
+    "author": "Samsung Belgium",
+    "licence": "CC BY 2.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Usain_Bolt_portrait.jpg"
+  },
+  "lewis-hamilton": {
+    "file": "Lewis Hamilton 2021.jpg",
+    "author": "Show do Esporte",
+    "licence": "CC BY 3.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Lewis_Hamilton_2021.jpg"
+  }
+}
