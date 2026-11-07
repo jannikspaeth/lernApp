@@ -150,11 +150,13 @@ Flow: `/login` → `/` (subjects) → Sprachen: `/heute` (→ `/sprache` for lan
   `components/raten/PromiQuiz.tsx`): celebrity photo → type the name; photos in `lib/promis/bilder.json`
   (`node scripts/fetch-bilder.mjs promis`, `public/promis`, only free licences — view a contact sheet after adding).
   Typed names are compared with `matchesName` (`lib/name-match.ts`: normName + small typos).
-- **"Wer bist du?"** `/persoenlichkeit`: first the guessing game "Wer bin ich?" (`lib/wer-bin-ich.ts`, `components/raten/WerBinIch.tsx`):
-  five hints per famous person from hard to easy, guess any time, 5 points after hint 1 down to 1; people unseen first per device.
-  Below it (+ `/[id]`, `lib/persoenlichkeit/`) the personality quizzes (Philosoph, Künstler, Komponist,
-  Schriftsteller), 10 questions, each option gives points to 1–2 results; the result links its chapter. Check pictures, chapter
-  paths and the balance of results (random runs) with `npx tsx scripts/check-persoenlichkeit.ts`.
+- **Allgemeinwissen games** (shown as big picture tiles by `components/wissen/AllgemeinHub.tsx` above the topic tiles):
+  test (above), "Wer bin ich?" `/wissen/allgemeinwissen/wer-bin-ich` (`lib/wer-bin-ich.ts`, `components/raten/WerBinIch.tsx`: five hints
+  per famous person from hard to easy, guess any time, 5 points after hint 1 down to 1, people unseen first per device), the promi quiz and
+  "Alle nennen" `/wissen/allgemeinwissen/listen` (`lib/wissen/allgemeinwissen-listen.ts`, ids `aw-…`, run by `QuizRunner`; bests in the
+  `geo` progress map count for Allgemeinwissen on /faecher). Content is our own (JetPunk only as a model for the formats — never copy its
+  quizzes). `/persoenlichkeit` (old personality quizzes, removed) redirects to "Wer bin ich?". Check everything with
+  `npx tsx scripts/check-allgemeinwissen.ts`.
 - **News quiz** `/nachrichten` (`lib/nachrichten/fragen.json`, `components/nachrichten/NewsQuiz.tsx`): Deutschland/Welt ×
   7 / 31 / 183 days, rounds of 10 (unseen first per device, big stories weighted for long periods), every answer links its
   source. Filled daily by a scheduled Claude routine following `scripts/nachrichten-routine.md` (sources via

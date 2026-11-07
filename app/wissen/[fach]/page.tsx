@@ -17,6 +17,7 @@ import { CATS } from '@/lib/geografie/cats';
 import MoreCountries from '@/components/wissen/MoreCountries';
 import { CONTINENTS, COUNTRIES, countryNames, normName } from '@/lib/welt';
 import { DETAILED } from '@/lib/laender';
+import AllgemeinHub from '@/components/wissen/AllgemeinHub';
 
 export const dynamicParams = false;
 
@@ -146,6 +147,13 @@ function history(fach: string) {
           <QuizList rows={quick} compactAll />
         </div>
       ),
+    };
+  }
+  if (fach === 'allgemeinwissen') {
+    return {
+      title: ['Quizzes & games', 'Quizze & Spiele'] as [string, string],
+      sub: ['test, guessing, typing', 'Test, Raten, Eintippen'] as [string, string],
+      node: <AllgemeinHub />,
     };
   }
   return null;

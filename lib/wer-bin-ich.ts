@@ -91,7 +91,7 @@ export const PERSONS: Person[] = [
     'Ich führte Indien in die Unabhängigkeit und wurde 1948 ermordet.',
   ] },
   { id: 'mandela', name: 'Nelson Mandela', accepts: ['Mandela', 'Madiba'], img: 'mandela', hints: [
-    'Mein Clanname Madiba wird in meinem Land bis heute liebevoll benutzt.',
+    'Ich stammte aus der Königsfamilie des Thembu-Volkes und lief als junger Mann vor einer arrangierten Ehe davon.',
     'Ich eröffnete mit einem Kollegen die erste schwarze Anwaltskanzlei meines Landes.',
     'Fast 18 Jahre meiner Haft verbrachte ich auf Robben Island.',
     '1993 erhielt ich zusammen mit Frederik de Klerk den Friedensnobelpreis.',
@@ -196,7 +196,7 @@ export const PERSONS: Person[] = [
     'Ich war der erste Bundeskanzler der Bundesrepublik Deutschland.',
   ] },
   { id: 'brandt', name: 'Willy Brandt', accepts: ['Brandt', 'Herbert Frahm'], img: 'brandt', hints: [
-    'Ich wurde als Herbert Frahm in Lübeck geboren und floh 1933 nach Norwegen.',
+    'Ich wurde in Lübeck unter einem anderen Namen geboren und floh 1933 nach Norwegen.',
     'Ich war Regierender Bürgermeister von Berlin, als die Mauer gebaut wurde.',
     'Mein Motto als Kanzler war „Mehr Demokratie wagen“.',
     '1970 kniete ich vor dem Denkmal für den Aufstand im Warschauer Ghetto.',

@@ -32,12 +32,12 @@ const SUBJECT_TOOLS: readonly Item[] = [
   ...SUBJECTS.map(s => ({ href: `/wissen/${s.id}`, label: s.name, icon: SUBJECT_ICONS[s.id] ?? 'book' })),
   { href: '/wissen/mix', label: ['Mixed round', 'Gemischte Runde'], icon: 'shuffle' },
   { href: '/nachrichten', label: ['News quiz', 'Nachrichten-Quiz'], icon: 'newspaper' },
-  { href: '/persoenlichkeit', label: ['Who are you?', 'Wer bist du?'], icon: 'user' },
+  { href: '/wissen/allgemeinwissen/wer-bin-ich', label: ['Who am I?', 'Wer bin ich?'], icon: 'user' },
 ];
 
 const SECTIONS: readonly Section[] = [
   { id: 'start', href: '/', label: ['Home', 'Start'], icon: 'home', paths: [] },
-  { id: 'faecher', href: '/faecher', label: ['Subjects', 'Fächer'], icon: 'grid', paths: ['/faecher', '/wissen', '/weltgeschichte', '/karte', '/zeitstrahl', '/nachrichten', '/persoenlichkeit'], sub: SUBJECT_TOOLS },
+  { id: 'faecher', href: '/faecher', label: ['Subjects', 'Fächer'], icon: 'grid', paths: ['/faecher', '/wissen', '/weltgeschichte', '/karte', '/zeitstrahl', '/nachrichten'], sub: SUBJECT_TOOLS },
   {
     id: 'sprachen', href: '/heute', label: ['Languages', 'Sprachen'], icon: 'languages',
     paths: ['/heute', '/ueben', '/vokabeln', '/konjugation', '/grammar', '/lesen', '/saetze', '/race', '/erfolge', '/sprache', '/redemittel', '/schreiben', '/artikel', '/zahlen'],

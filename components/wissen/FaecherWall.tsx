@@ -38,8 +38,9 @@ export default function FaecherWall({ tiles }: { tiles: Record<string, Omit<Fach
               }
             }
             if (f.geoTotal) {
-              // Politik's typed lists are stored with the geography bests, under `pol-` ids.
-              for (const [id, b] of Object.entries(prog.geo ?? {})) if (id.startsWith('pol-') === (s.id === 'politik')) done += b.solved;
+              // Typed lists of Politik (`pol-`) and Allgemeinwissen (`aw-`) are stored with the geography bests.
+              const owner = (id: string) => (id.startsWith('pol-') ? 'politik' : id.startsWith('aw-') ? 'allgemeinwissen' : 'geografie');
+              for (const [id, b] of Object.entries(prog.geo ?? {})) if (owner(id) === s.id) done += b.solved;
             }
             total = Math.max(total, done);
             pct = total ? Math.round((done / total) * 100) : 0;
@@ -126,13 +127,13 @@ export default function FaecherWall({ tiles }: { tiles: Record<string, Omit<Fach
           </span>
           <Icon name="chevronRight" size={20} className="text-faint" />
         </Link>
-        <Link href="/persoenlichkeit" className="flex items-center gap-4 p-4 rounded-2xl bg-surface border border-line hover:border-accent/40 transition-colors">
+        <Link href="/wissen/allgemeinwissen/wer-bin-ich" className="flex items-center gap-4 p-4 rounded-2xl bg-surface border border-line hover:border-accent/40 transition-colors">
           <span className="w-10 h-10 rounded-xl bg-accent-soft text-accent flex items-center justify-center shrink-0">
             <Icon name="user" size={20} />
           </span>
           <span className="flex-1 min-w-0">
-            <span className="block font-semibold text-ink">{t('Who are you?', 'Wer bist du?')}</span>
-            <span className="block text-[13px] text-muted">{t('Which philosopher, painter, composer or writer?', 'Welcher Philosoph, Maler, Komponist, Schriftsteller?')}</span>
+            <span className="block font-semibold text-ink">{t('Who am I?', 'Wer bin ich?')}</span>
+            <span className="block text-[13px] text-muted">{t('Guess the famous person, hint by hint', 'Rate die berühmte Person, Tipp für Tipp')}</span>
           </span>
           <Icon name="chevronRight" size={20} className="text-faint" />
         </Link>

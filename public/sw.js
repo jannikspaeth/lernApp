@@ -22,7 +22,7 @@ const ROUTES = [
   '/wissen/wissenschaft', '/wissen/musik', '/wissen/politik', '/wissen/philosophie', '/wissen/mix',
   '/karte', '/zeitstrahl', '/weltgeschichte', '/kunst', '/literatur', '/musik', '/philosophie', '/wissenschaft', '/politik',
   '/nachrichten', '/politik/listen', '/wissen/allgemeinwissen', '/wissen/allgemeinwissen/test', '/wissen/allgemeinwissen/promis',
-  '/persoenlichkeit', '/persoenlichkeit/philosoph', '/persoenlichkeit/kuenstler', '/persoenlichkeit/komponist', '/persoenlichkeit/schriftsteller',
+  '/wissen/allgemeinwissen/wer-bin-ich', '/wissen/allgemeinwissen/listen',
   '/heute', '/vokabeln', '/konjugation', '/grammar', '/saetze', '/lesen',
   '/redemittel', '/artikel', '/zahlen', '/schreiben',
   '/race', '/erfolge', '/help', '/profile', '/sprache', '/ueben',
