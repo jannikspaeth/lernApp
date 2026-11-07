@@ -15,6 +15,9 @@ def get(url):
         try:
             return json.load(urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=60))
         except Exception as e:  # rate limits: wait and retry
+            if 'Tunnel connection failed' in str(e):  # the cloud proxy blocks this host: retrying is pointless
+                sys.exit(f'BLOCKED {url}: {e}\nThe network proxy blocks this source. Fetch the pages with WebFetch instead '
+                         '(see scripts/nachrichten-routine.md).')
             print(f'# retry {url}: {e}', file=sys.stderr)
             time.sleep(10 * (k + 1))
     return {}
