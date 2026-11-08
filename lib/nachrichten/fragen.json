@@ -5006,5 +5006,213 @@
   "i": "Der Pick-up blieb hinter den Erwartungen zurück.",
   "src": "https://www.tagesschau.de/wirtschaft/unternehmen/tesla-produktion-cybertruck-100.html",
   "p": 1
+ },
+ {
+  "id": "2026-11-07.de.1",
+  "d": "2026-11-07",
+  "r": "de",
+  "k": "Politik",
+  "q": "Womit rechnet Verteidigungsminister Pistorius laut Bericht vom 7. November 2026 derzeit nicht?",
+  "a": "Mit einer Rückkehr zur Wehrpflicht",
+  "w": [
+   "Mit einem Ende der Ukraine-Hilfe",
+   "Mit einer Kürzung des Wehretats",
+   "Mit einem Austritt aus der NATO"
+  ],
+  "i": "Die Wiedereinführung der Wehrpflicht scheint zum jetzigen Zeitpunkt nicht nötig.",
+  "src": "https://www.tagesschau.de/inland/innenpolitik/bundeswehr-diskussion-wehrpflicht-100.html",
+  "p": 2
+ },
+ {
+  "id": "2026-11-07.de.2",
+  "d": "2026-11-07",
+  "r": "de",
+  "k": "Recht",
+  "q": "Welche Unterlagen will Justizministerin Hubig laut Bericht vom 7. November 2026 für die Prüfung eines AfD-Verbots nutzen?",
+  "a": "Von Hackern veröffentlichte AfD-Mails",
+  "w": [
+   "Abhörprotokolle des Verfassungsschutzes",
+   "Spendenlisten der Partei",
+   "Protokolle von Bundestagssitzungen"
+  ],
+  "i": "Hacker hatten zwei Wochen zuvor Hunderttausende Mails aus den Reihen der AfD veröffentlicht.",
+  "src": "https://www.tagesschau.de/inland/innenpolitik/hubig-afd-verbotsverfahren-leak-100.html",
+  "p": 2
+ },
+ {
+  "id": "2026-11-07.de.3",
+  "d": "2026-11-07",
+  "r": "de",
+  "k": "Gesellschaft",
+  "q": "Welche Bahnstrecke wird laut Bericht vom 7. November 2026 generalsaniert – mit schlimmeren Folgen für Pendler als befürchtet?",
+  "a": "Berlin–Hannover",
+  "w": [
+   "Hamburg–Berlin",
+   "Köln–Frankfurt",
+   "München–Nürnberg"
+  ],
+  "i": "Die Bauarbeiten haben massive Auswirkungen auf Pendlerinnen und Pendler.",
+  "src": "https://www.tagesschau.de/wirtschaft/verbraucher/bahn-berlin-hannover-bauarbeiten-pendler-100.html",
+  "p": 1
+ },
+ {
+  "id": "2026-11-07.de.4",
+  "d": "2026-11-07",
+  "r": "de",
+  "k": "Sport",
+  "q": "Wessen Tor reichte dem VfB Stuttgart am 7. November 2026 zum Sieg gegen Werder Bremen?",
+  "a": "Maximilian Mittelstädt",
+  "w": [
+   "Deniz Undav",
+   "Chris Führich",
+   "Angelo Stiller"
+  ],
+  "i": "Bremen spielte stark, verlor aber trotzdem.",
+  "src": "https://www.sportschau.de/fussball/bundesliga/mittelstaedt-tor-reicht-stuttgart-gegen-starke-bremer,spielbericht-vfb-stuttgart-werder-bremen-106.html",
+  "p": 1
+ },
+ {
+  "id": "2026-11-07.de.5",
+  "d": "2026-11-07",
+  "r": "de",
+  "k": "Sport",
+  "q": "Bei welchem Verein gewann der FC Bayern am 7. November 2026 dank Kimmich und Karl?",
+  "a": "Beim FSV Mainz 05",
+  "w": [
+   "Beim SC Freiburg",
+   "Bei der TSG Hoffenheim",
+   "Beim 1. FC Köln"
+  ],
+  "i": "Es war ein Arbeitssieg für die Münchner.",
+  "src": "https://www.sportschau.de/fussball/bundesliga/kimmich-und-karl-fuehren-bayern-zu-arbeitssieg-in-mainz,spielbericht-mainz-05-bayern-muenchen-100.html",
+  "p": 1
+ },
+ {
+  "id": "2026-11-07.de.6",
+  "d": "2026-11-07",
+  "r": "de",
+  "k": "Sport",
+  "q": "Gegen welches Land gewannen die deutschen Eishockey-Frauen am 7. November 2026 zum Auftakt ihrer WM?",
+  "a": "Österreich",
+  "w": [
+   "Schweiz",
+   "Tschechien",
+   "Finnland"
+  ],
+  "i": "Es war das erste Spiel des Turniers.",
+  "src": "https://www.sportschau.de/eishockey/deutsche-eishockey-frauen-siegen-zum-wm-start,spielbericht-wm-frauen-deutschland-oesterreich-102.html",
+  "p": 1
+ },
+ {
+  "id": "2026-11-07.welt.1",
+  "d": "2026-11-07",
+  "r": "welt",
+  "k": "Recht",
+  "q": "In welcher polnischen Stadt tötete ein Schütze am 7. November 2026 sechs Menschen?",
+  "a": "Krakau",
+  "w": [
+   "Warschau",
+   "Danzig",
+   "Breslau"
+  ],
+  "i": "15 Menschen wurden verletzt; der mutmaßliche Täter wurde angeschossen und gefasst.",
+  "src": "https://www.tagesschau.de/ausland/europa/schuesse-krakau-100.html",
+  "p": 2
+ },
+ {
+  "id": "2026-11-07.welt.2",
+  "d": "2026-11-07",
+  "r": "welt",
+  "k": "Politik",
+  "q": "Wen beauftragte Israels Präsident Herzog am 7. November 2026 mit der Regierungsbildung?",
+  "a": "Gadi Eisenkot",
+  "w": [
+   "Benjamin Netanjahu",
+   "Jair Lapid",
+   "Benny Gantz"
+  ],
+  "i": "Eisenkot hat 28 Tage Zeit, eine Koalition zu schmieden.",
+  "src": "https://www.tagesschau.de/ausland/asien/regierungsbildung-israel-eisenkot-100.html",
+  "p": 2
+ },
+ {
+  "id": "2026-11-07.welt.3",
+  "d": "2026-11-07",
+  "r": "welt",
+  "k": "Politik",
+  "q": "Welche Partei lag bei der Parlamentswahl in Neuseeland am 7. November 2026 nach vorläufigen Ergebnissen bei den Stimmen vorn?",
+  "a": "Labour",
+  "w": [
+   "National",
+   "Die Grünen",
+   "ACT"
+  ],
+  "i": "Die National Party von Christopher Luxon hatte dagegen die meisten Sitze; kleinere Parteien könnten entscheiden.",
+  "src": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_7",
+  "p": 2
+ },
+ {
+  "id": "2026-11-07.welt.4",
+  "d": "2026-11-07",
+  "r": "welt",
+  "k": "Politik",
+  "q": "Wer folgte Anfang November 2026 auf Susie Wiles als Stabschef von Präsident Trump?",
+  "a": "Stephen Miller",
+  "w": [
+   "J. D. Vance",
+   "Marco Rubio",
+   "Steve Bannon"
+  ],
+  "i": "Der 41-Jährige gilt als Hardliner; Trump geht damit auf Konfrontationskurs zu den Demokraten.",
+  "src": "https://www.tagesschau.de/ausland/amerika/trump-stabschef-miller-100.html",
+  "p": 2
+ },
+ {
+  "id": "2026-11-07.welt.5",
+  "d": "2026-11-07",
+  "r": "welt",
+  "k": "Sport",
+  "q": "Wer gewann am 7. November 2026 die Segelregatta Route du Rhum in Rekordzeit?",
+  "a": "Tom Laperche",
+  "w": [
+   "Charles Caudrelier",
+   "François Gabart",
+   "Armel Le Cléac’h"
+  ],
+  "i": "Er brauchte gut sechseinhalb Tage und war über sechs Stunden schneller als Caudrelier 2022.",
+  "src": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_7",
+  "p": 2
+ },
+ {
+  "id": "2026-11-07.welt.6",
+  "d": "2026-11-07",
+  "r": "welt",
+  "k": "Gesellschaft",
+  "q": "In welchem Land begann Papst Leo XIV. am 7. November 2026 seine Südamerika-Reise?",
+  "a": "Uruguay",
+  "w": [
+   "Argentinien",
+   "Brasilien",
+   "Peru"
+  ],
+  "i": "Uruguay gilt als säkularstes Land Südamerikas; die Reise führt in elf Tagen durch drei Länder.",
+  "src": "https://www.tagesschau.de/ausland/amerika/papst-suedamerika-104.html",
+  "p": 2
+ },
+ {
+  "id": "2026-11-07.welt.7",
+  "d": "2026-11-07",
+  "r": "welt",
+  "k": "Sport",
+  "q": "Wer fuhr am 7. November 2026 in Interlagos auf die Pole-Position für den Großen Preis von Brasilien?",
+  "a": "Lando Norris",
+  "w": [
+   "Max Verstappen",
+   "Charles Leclerc",
+   "Kimi Antonelli"
+  ],
+  "i": "Das Qualifying war von chaotischen Bedingungen geprägt.",
+  "src": "https://www.sportschau.de/motorsport/formel1/norris-rast-im-chaos-von-interlagos-zur-pole,gp-brasilien-qualifying-100.html",
+  "p": 1
  }
 ]
