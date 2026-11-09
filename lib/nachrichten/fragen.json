@@ -5214,5 +5214,293 @@
   "i": "Das Qualifying war von chaotischen Bedingungen geprägt.",
   "src": "https://www.sportschau.de/motorsport/formel1/norris-rast-im-chaos-von-interlagos-zur-pole,gp-brasilien-qualifying-100.html",
   "p": 1
+ },
+ {
+  "id": "2026-11-08.de.1",
+  "d": "2026-11-08",
+  "r": "de",
+  "k": "Politik",
+  "q": "Wen will Bundeskanzler Merz laut Bericht vom 8. November 2026 als Bundespräsidentin vorschlagen?",
+  "a": "Aigner",
+  "w": [
+   "Klöckner",
+   "Bas",
+   "Göring-Eckardt"
+  ],
+  "i": "Merz hatte sich bislang in der Frage der Nachfolge im Amt des Bundespräsidenten zurückgehalten.",
+  "src": "https://www.tagesschau.de/inland/innenpolitik/aigner-bundespraesidentin-merz-100.html",
+  "p": 3
+ },
+ {
+  "id": "2026-11-08.de.2",
+  "d": "2026-11-08",
+  "r": "de",
+  "k": "Politik",
+  "q": "Welche Steuer wird die Koalition laut Unionsfraktionschef Frei (Bericht vom 8. November 2026) doch nicht einführen?",
+  "a": "Plastiksteuer",
+  "w": [
+   "Zuckersteuer",
+   "Vermögensteuer",
+   "Flugsteuer"
+  ],
+  "i": "Frei sagte, die Koalition werde keine Plastiksteuer einführen.",
+  "src": "https://www.tagesschau.de/inland/innenpolitik/plastiksteuer-absage-100.html",
+  "p": 2
+ },
+ {
+  "id": "2026-11-08.de.3",
+  "d": "2026-11-08",
+  "r": "de",
+  "k": "Wirtschaft",
+  "q": "Was ermöglicht die Deutsche Börse in Frankfurt ab dem 8. November 2026 für DAX-Werte?",
+  "a": "Handel rund um die Uhr",
+  "w": [
+   "Handel nur noch digital ohne Börsenparkett",
+   "Handel in Euro und Dollar gleichzeitig",
+   "Handel nur für Privatanleger"
+  ],
+  "i": "Aktien lassen sich damit auch nachts kaufen und verkaufen.",
+  "src": "https://www.tagesschau.de/wirtschaft/finanzen/aktien-kauf-nachts-100.html",
+  "p": 2
+ },
+ {
+  "id": "2026-11-08.de.4",
+  "d": "2026-11-08",
+  "r": "de",
+  "k": "Sport",
+  "q": "Wer gewann am 8. November 2026 erstmals das Tennisturnier der Paris Masters?",
+  "a": "Carlos Alcaraz",
+  "w": [
+   "Jannik Sinner",
+   "Alexander Zverev",
+   "Novak Djokovic"
+  ],
+  "i": "Alcaraz sagte nach dem Finale: „Bin stolz auf mich“.",
+  "src": "https://www.sportschau.de/tennis/atp/bin-stolz-auf-mich-alcaraz-gewinnt-erstmals-paris-masters,paris-finale-100.html",
+  "p": 2
+ },
+ {
+  "id": "2026-11-08.de.5",
+  "d": "2026-11-08",
+  "r": "de",
+  "k": "Sport",
+  "q": "Welchen Platz belegte die deutsche Eishockey-Nationalmannschaft beim Deutschland Cup, der am 8. November 2026 endete?",
+  "a": "Rang zwei",
+  "w": [
+   "Rang eins",
+   "Rang drei",
+   "Rang vier"
+  ],
+  "i": "Das DEB-Team beendete das Turnier mit einem Spiel gegen die Slowakei.",
+  "src": "https://www.sportschau.de/eishockey/deb-team-beendet-deutschland-cup-auf-rang-zwei,spielbericht-deutschland-slowakei-deutschland-cup-100.html",
+  "p": 1
+ },
+ {
+  "id": "2026-11-08.de.6",
+  "d": "2026-11-08",
+  "r": "de",
+  "k": "Sport",
+  "q": "Wer knackte am 8. November 2026 den Ironman-Weltrekord?",
+  "a": "Magnus Ditlev",
+  "w": [
+   "Jan Frodeno",
+   "Patrick Lange",
+   "Kristian Blummenfelt"
+  ],
+  "i": "Sportschau meldete den neuen Weltrekord im Triathlon.",
+  "src": "https://www.sportschau.de/triathlon/magnus-ditlev-knackt-ironman-weltrekord,ironman-ditlev-weltrekord-100.html",
+  "p": 1
+ },
+ {
+  "id": "2026-11-08.de.7",
+  "d": "2026-11-08",
+  "r": "de",
+  "k": "Sport",
+  "q": "Gegen welche Mannschaft gewannen die deutschen Handballer am 8. November 2026 im letzten Länderspiel des Jahres souverän?",
+  "a": "Slowakei",
+  "w": [
+   "Österreich",
+   "Polen",
+   "Schweiz"
+  ],
+  "i": "Das Spiel gehörte zur EM-Qualifikation.",
+  "src": "https://www.sportschau.de/handball/nationalmannschaft/deutsche-handballer-siegen-souveraen-im-letzten-laenderspiel-des-jahres,handball-em-qualifikation-slowakei-deutschland-100.html",
+  "p": 1
+ },
+ {
+  "id": "2026-11-08.de.8",
+  "d": "2026-11-08",
+  "r": "de",
+  "k": "Gesellschaft",
+  "q": "Wie viele Kinder sind laut einer am 8. November 2026 veröffentlichten Sportschau-Recherche mindestens gedopt?",
+  "a": "Zehn Millionen",
+  "w": [
+   "100.000",
+   "500.000",
+   "eine Million"
+  ],
+  "i": "Die Recherche bilanziert Doping bei Kindern im Sport weltweit.",
+  "src": "https://www.sportschau.de/investigativ/erschuetternde-bilanz-mindestens-zehn-millionen-gedopte-kinder,gedopte-kinder-100.html",
+  "p": 2
+ },
+ {
+  "id": "2026-11-08.welt.1",
+  "d": "2026-11-08",
+  "r": "welt",
+  "k": "Politik",
+  "q": "Wer erhielt Anfang November 2026 in Israel offiziell den Auftrag zur Regierungsbildung?",
+  "a": "Eisenkot",
+  "w": [
+   "Netanjahu",
+   "Lapid",
+   "Bennett"
+  ],
+  "i": "Eisenkot ist Oppositionspolitiker; über die Art der Regierungsbildung wurde spekuliert.",
+  "src": "https://www.tagesschau.de/ausland/asien/israel-auftrag-regierungsbildung-eisenkot-100.html",
+  "p": 3
+ },
+ {
+  "id": "2026-11-08.welt.2",
+  "d": "2026-11-08",
+  "r": "welt",
+  "k": "Politik",
+  "q": "Wo riefen die Behörden am 8. November 2026 wegen über 3.300 ankommender Migranten im Monat den Notstand aus?",
+  "a": "El Hierro (Kanarische Inseln)",
+  "w": [
+   "Lampedusa",
+   "Malta",
+   "Lesbos"
+  ],
+  "i": "Die Insel gehört zu den spanischen Kanaren.",
+  "src": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_8",
+  "p": 2
+ },
+ {
+  "id": "2026-11-08.welt.3",
+  "d": "2026-11-08",
+  "r": "welt",
+  "k": "Katastrophen",
+  "q": "Wo entgleiste am 8. November 2026 ein Zug mit sieben Toten und 125 Verletzten?",
+  "a": "Bei Gizeh in Ägypten",
+  "w": [
+   "Bei Mumbai in Indien",
+   "Bei Nairobi in Kenia",
+   "Bei Casablanca in Marokko"
+  ],
+  "i": "Die Behörden meldeten sieben Tote und 125 Verwundete.",
+  "src": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_8",
+  "p": 2
+ },
+ {
+  "id": "2026-11-08.welt.4",
+  "d": "2026-11-08",
+  "r": "welt",
+  "k": "Katastrophen",
+  "q": "In welcher Präfektur lag am 8. November 2026 das Epizentrum eines Erdbebens in Zentraljapan mit mindestens 22 Verletzten?",
+  "a": "Shizuoka",
+  "w": [
+   "Hokkaido",
+   "Okinawa",
+   "Miyagi"
+  ],
+  "i": "Auch Aichi, Gifu, Nagano und Yamanashi waren betroffen; Behörden warnten vor weiteren Beben.",
+  "src": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_8",
+  "p": 2
+ },
+ {
+  "id": "2026-11-08.welt.5",
+  "d": "2026-11-08",
+  "r": "welt",
+  "k": "Katastrophen",
+  "q": "Vor welchem Land kenterte am 8. November 2026 ein Migrantenboot mit mindestens 34 Toten?",
+  "a": "Senegal",
+  "w": [
+   "Libyen",
+   "Griechenland",
+   "Tunesien"
+  ],
+  "i": "Das Boot kenterte vor der Küste bei Kébémer in der Region Louga.",
+  "src": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_8",
+  "p": 2
+ },
+ {
+  "id": "2026-11-08.welt.6",
+  "d": "2026-11-08",
+  "r": "welt",
+  "k": "Sport",
+  "q": "Wer gewann 2026 als erster Spieler der Liga-Geschichte zum zweiten Mal in Folge den Golden Boot der MLS (Meldung vom 8. November 2026)?",
+  "a": "Lionel Messi",
+  "w": [
+   "Luis Suárez",
+   "Heung-min Son",
+   "Thomas Müller"
+  ],
+  "i": "Messi traf in der Saison 26-mal für Inter Miami.",
+  "src": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_8",
+  "p": 2
+ },
+ {
+  "id": "2026-11-08.welt.7",
+  "d": "2026-11-08",
+  "r": "welt",
+  "k": "Sport",
+  "q": "Wer gewann am 8. November 2026 seine dritte NASCAR-Cup-Meisterschaft?",
+  "a": "Kyle Larson",
+  "w": [
+   "Chase Elliott",
+   "Denny Hamlin",
+   "Joey Logano"
+  ],
+  "i": "Larson ist der erste Fahrer seit 2010 mit zwei Titeln in Folge.",
+  "src": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_8",
+  "p": 1
+ },
+ {
+  "id": "2026-11-08.welt.8",
+  "d": "2026-11-08",
+  "r": "welt",
+  "k": "Sport",
+  "q": "Welches Team gewann am 8. November 2026 beim Sieg von Lando Norris in Brasilien die Konstrukteurs-WM der Formel 1?",
+  "a": "Mercedes",
+  "w": [
+   "Ferrari",
+   "Red Bull",
+   "Alpine"
+  ],
+  "i": "Norris gewann das Rennen, Mercedes sicherte sich den Teamtitel.",
+  "src": "https://www.sportschau.de/motorsport/formel1/bei-norris-sieg-mercedes-gewinnt-konstrukteurs-wm,gp-brasilien-108.html",
+  "p": 2
+ },
+ {
+  "id": "2026-11-08.welt.9",
+  "d": "2026-11-08",
+  "r": "welt",
+  "k": "Gesellschaft",
+  "q": "In welches Land reiste Papst Leo am 8. November 2026 nach dem Auftakt in Uruguay weiter?",
+  "a": "Argentinien",
+  "w": [
+   "Chile",
+   "Brasilien",
+   "Peru"
+  ],
+  "i": "Der Papst rief unterwegs zum Einsatz gegen Armut und Gewalt auf.",
+  "src": "https://www.tagesschau.de/ausland/amerika/papst-leo-suedamerika-uruguay-100.html",
+  "p": 2
+ },
+ {
+  "id": "2026-11-08.welt.10",
+  "d": "2026-11-08",
+  "r": "welt",
+  "k": "Recht",
+  "q": "Wer wurde am 8. November 2026 von der sudanesischen Armee festgenommen, obwohl der Internationale Strafgerichtshof ihn wegen Völkermords in Darfur sucht?",
+  "a": "Ahmed Haroun",
+  "w": [
+   "Omar al-Baschir",
+   "Abdel Fattah al-Burhan",
+   "Mohamed Hamdan Daglo"
+  ],
+  "i": "Haroun war Politiker der früheren Nationalen Kongresspartei.",
+  "src": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_8",
+  "p": 2
  }
 ]
