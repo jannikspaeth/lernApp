@@ -256,7 +256,7 @@ export const E2: Epoch = {
               ['Wie verließen nach 1620 Zehntausende Protestanten Böhmen?', 'Sie gingen ins Exil', ['Sie wurden Mönche', 'Sie traten dem Heer bei', 'Sie zogen nach Wien']],
               ['In welchem Werk forderte Comenius Schule für alle?', '„Didactica magna“', ['„Orbis pictus“', '„Systema Naturae“', '„Utopia“']],
               ['Was ließ sich der böhmische Feldherr des Kaisers von einem berühmten Astronomen erstellen?', 'Ein Horoskop', ['Eine Landkarte', 'Ein Fernrohr', 'Einen Kalender']],
-              ['Was ist das prächtige Prager Palais dieses Feldherrn heute?', 'Sitz des tschechischen Senats', ['Ein Museum für Comenius', 'Die Residenz des Präsidenten', 'Ein Hotel']],
+              ['Was ist das prächtige Prager Palais des böhmischen Feldherrn im Dreißigjährigen Krieg heute?', 'Sitz des tschechischen Senats', ['Ein Museum für Comenius', 'Die Residenz des Präsidenten', 'Ein Hotel']],
               ['Wer verteidigte 1648 die Karlsbrücke gegen die Schweden?', 'Studenten und Bürger', ['Wallensteins Armee', 'Kaiserliche Kroaten', 'Polnische Söldner']],
               ['Wohin floh der Winterkönig nach der Niederlage?', 'Nach Den Haag in den Niederlanden', ['Nach London', 'Nach Stockholm', 'Nach Rom']],
               ['Welche Stadt verließ Rudolf II., als er seine Residenz nach Prag verlegte?', 'Wien', ['Innsbruck', 'Graz', 'Linz']],
