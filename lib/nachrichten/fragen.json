@@ -5790,5 +5790,293 @@
   "i": "Es war der erste Papstbesuch in Argentinien seit fast vier Jahrzehnten; Leo kritisierte Mileis Politikstil.",
   "src": "https://www.tagesschau.de/ausland/amerika/papst-leo-argentinien-100.html",
   "p": 3
+ },
+ {
+  "id": "2026-11-10.de.1",
+  "d": "2026-11-10",
+  "r": "de",
+  "k": "Politik",
+  "q": "Welche Bundestagsfraktionen besuchte die Kandidatin für das Bundespräsidentenamt, Aigner, am 10. November 2026 nach ihrer Kür bei ihrer Vorstellung nicht?",
+  "a": "AfD und Linke",
+  "w": [
+   "SPD und Grüne",
+   "CDU/CSU und SPD",
+   "Grüne und AfD"
+  ],
+  "i": "Aigner stellte sich den Bundestagsfraktionen vor, aber nicht bei AfD und Linken.",
+  "src": "https://www.tagesschau.de/inland/innenpolitik/aigner-vorstellung-bundestagsfraktionen-100.html",
+  "p": 2
+ },
+ {
+  "id": "2026-11-10.de.2",
+  "d": "2026-11-10",
+  "r": "de",
+  "k": "Recht",
+  "q": "Welche Bundesministerin plant laut Meldung vom 10. November 2026 einen Preisdeckel beim Weiterverkauf von Tickets auf Ticketbörsen?",
+  "a": "Stefanie Hubig",
+  "w": [
+   "Katherina Reiche",
+   "Bärbel Bas",
+   "Karin Prien"
+  ],
+  "i": "Die Verbraucherschutzministerin will hohe Preisaufschläge beim Ticket-Weiterverkauf unterbinden.",
+  "src": "https://www.tagesschau.de/inland/innenpolitik/ticket-weiterverkauf-beschraenkung-100.html",
+  "p": 1
+ },
+ {
+  "id": "2026-11-10.de.3",
+  "d": "2026-11-10",
+  "r": "de",
+  "k": "Wirtschaft",
+  "q": "Um welchen Betrag will der Bund laut Meldung vom 10. November 2026 die E-Auto-Prämie für 2027 offenbar aufstocken?",
+  "a": "Um 917 Millionen Euro",
+  "w": [
+   "Um 92 Millionen Euro",
+   "Um 9,2 Milliarden Euro",
+   "Um 2,5 Milliarden Euro"
+  ],
+  "i": "Die Nachfrage nach der E-Auto-Prämie ist höher als erwartet.",
+  "src": "https://www.tagesschau.de/wirtschaft/verbraucher/e-autos-kaufpraemie-bundesregierung-100.html",
+  "p": 2
+ },
+ {
+  "id": "2026-11-10.de.4",
+  "d": "2026-11-10",
+  "r": "de",
+  "k": "Wirtschaft",
+  "q": "Welcher deutsche Chipkonzern meldete am 10. November 2026 dank des KI-Booms einen Rekordumsatz?",
+  "a": "Infineon",
+  "w": [
+   "Siemens Energy",
+   "SAP",
+   "Bosch"
+  ],
+  "i": "Der Konzern sieht noch kein Ende des KI-Booms.",
+  "src": "https://www.tagesschau.de/wirtschaft/finanzen/marktbericht-infineon-ki-100.html",
+  "p": 2
+ },
+ {
+  "id": "2026-11-10.de.5",
+  "d": "2026-11-10",
+  "r": "de",
+  "k": "Sport",
+  "q": "Gegen welche Mannschaft führten die Welcke-Zwillinge Deutschland am 10. November 2026 bei der Eishockey-WM ins Viertelfinale?",
+  "a": "Tschechien",
+  "w": [
+   "Schweden",
+   "Finnland",
+   "die Slowakei"
+  ],
+  "i": "Die Welcke-Zwillinge waren die Schlüsselspieler im Spiel gegen Tschechien.",
+  "src": "https://www.sportschau.de/eishockey/wm/welcke-zwillinge-fuehren-deutschland-ins-wm-viertelfinale,deutschland-tschechien-spielbericht-100.html",
+  "p": 2
+ },
+ {
+  "id": "2026-11-10.de.6",
+  "d": "2026-11-10",
+  "r": "de",
+  "k": "Sport",
+  "q": "In welcher Sportart gewann Deutschland am 10. November 2026 bei den Olympischen Jugendspielen 2026 Gold und Bronze?",
+  "a": "Taekwondo",
+  "w": [
+   "Judo",
+   "Ringen",
+   "Fechten"
+  ],
+  "i": "Die Medaillen gingen laut Bericht an Geschwister und Familienmitglieder.",
+  "src": "https://www.sportschau.de/olympia/gold-und-bronze-fuer-deutschland-im-taekwondo,youth-olympic-games-2026-122.html",
+  "p": 1
+ },
+ {
+  "id": "2026-11-10.de.7",
+  "d": "2026-11-10",
+  "r": "de",
+  "k": "Sport",
+  "q": "Wie viele deutsche Fans waren laut Bericht vom 10. November 2026 beim „Geisterspiel“ der Nationalmannschaft in Serbien dabei?",
+  "a": "50",
+  "w": [
+   "500",
+   "5.000",
+   "15"
+  ],
+  "i": "Das Spiel in Belgrad fand unter Zuschauerbeschränkungen statt.",
+  "src": "https://www.sportschau.de/fussball/nationalmannschaft/50-deutsche-fans-beim-geisterspiel-in-serbien,serbien-fussball-stadion-100.html",
+  "p": 1
+ },
+ {
+  "id": "2026-11-10.de.8",
+  "d": "2026-11-10",
+  "r": "de",
+  "k": "Gesellschaft",
+  "q": "Welche Sportart hat laut Meldung vom 10. November 2026 in Deutschlands Sportvereinen unangefochten die meisten Mitglieder?",
+  "a": "Fußball",
+  "w": [
+   "Turnen",
+   "Tennis",
+   "Handball"
+  ],
+  "i": "Die Sportvereine haben insgesamt mehr als 30 Millionen Mitglieder, andere Sportarten verloren Mitglieder.",
+  "src": "https://www.tagesschau.de/inland/gesellschaft/sportvereine-mitglieder-102.html",
+  "p": 1
+ },
+ {
+  "id": "2026-11-10.welt.1",
+  "d": "2026-11-10",
+  "r": "welt",
+  "k": "Konflikte",
+  "q": "In welcher Stadt begann am 10. November 2026 eine dritte Runde US-vermittelter Gespräche zwischen Delegationen der Ukraine und Russlands?",
+  "a": "Abu Dhabi",
+  "w": [
+   "Genf",
+   "Istanbul",
+   "Riad"
+  ],
+  "i": "Es geht um humanitäre Folgen, Kriegsgefangene und Sicherheitsgarantien.",
+  "src": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_10",
+  "p": 3
+ },
+ {
+  "id": "2026-11-10.welt.2",
+  "d": "2026-11-10",
+  "r": "welt",
+  "k": "Konflikte",
+  "q": "Wie viele Soldaten verurteilte ein Militärgericht in Goma (Demokratische Republik Kongo) am 10. November 2026 zum Tod?",
+  "a": "66",
+  "w": [
+   "6",
+   "16",
+   "160"
+  ],
+  "i": "Ihnen wurden Feigheit, Meuterei und Befehlsverweigerung nach Kämpfen mit M23-nahen Rebellen vorgeworfen.",
+  "src": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_10",
+  "p": 2
+ },
+ {
+  "id": "2026-11-10.welt.3",
+  "d": "2026-11-10",
+  "r": "welt",
+  "k": "Konflikte",
+  "q": "In welchem Land töteten mutmaßliche al-Shabaab-Kämpfer am 10. November 2026 in Mandera County mindestens acht Menschen?",
+  "a": "Kenia",
+  "w": [
+   "Äthiopien",
+   "Uganda",
+   "Tansania"
+  ],
+  "i": "Mandera County liegt an der Grenze zu Somalia; unter den Toten waren zwei Polizeireservisten.",
+  "src": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_10",
+  "p": 2
+ },
+ {
+  "id": "2026-11-10.welt.4",
+  "d": "2026-11-10",
+  "r": "welt",
+  "k": "Katastrophen",
+  "q": "Wie viele Menschen starben laut Meldung bei einem Massenunfall mit über 80 Fahrzeugen auf der Autobahn Trakia bei Jambol (Bulgarien) am 10. November 2026 mindestens?",
+  "a": "Elf",
+  "w": [
+   "Drei",
+   "Dreißig",
+   "Fünfzig"
+  ],
+  "i": "Mindestens 51 weitere Menschen wurden schwer verletzt.",
+  "src": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_10",
+  "p": 2
+ },
+ {
+  "id": "2026-11-10.welt.5",
+  "d": "2026-11-10",
+  "r": "welt",
+  "k": "Katastrophen",
+  "q": "In welchem Land starben am 10. November 2026 fünf Schülerinnen, als ein Schulbus in der Provinz Kandal in einen Teich stürzte?",
+  "a": "Kambodscha",
+  "w": [
+   "Vietnam",
+   "Thailand",
+   "Laos"
+  ],
+  "i": "21 weitere Menschen wurden verletzt.",
+  "src": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_10",
+  "p": 1
+ },
+ {
+  "id": "2026-11-10.welt.6",
+  "d": "2026-11-10",
+  "r": "welt",
+  "k": "Wissenschaft",
+  "q": "Vor welcher möglichen Nebenwirkung soll bei GLP-1-Medikamenten wie Semaglutid laut Anordnung der US-Arzneimittelbehörde FDA vom 10. November 2026 gewarnt werden?",
+  "a": "Dauerhafte Erblindung durch eine Sehnervenerkrankung",
+  "w": [
+   "Dauerhafter Hörverlust",
+   "Gedächtnisverlust",
+   "Haarausfall"
+  ],
+  "i": "Es geht um eine Erkrankung des Sehnervs (NAION); die Mittel werden auch zum Abnehmen genutzt.",
+  "src": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_10",
+  "p": 2
+ },
+ {
+  "id": "2026-11-10.welt.7",
+  "d": "2026-11-10",
+  "r": "welt",
+  "k": "Recht",
+  "q": "Welches Gericht erklärte am 10. November 2026 die Strafbarkeit einvernehmlicher gleichgeschlechtlicher Handlungen in Trinidad und Tobago für verfassungswidrig?",
+  "a": "Der Judicial Committee of the Privy Council",
+  "w": [
+   "Der Internationale Gerichtshof",
+   "Der Europäische Gerichtshof für Menschenrechte",
+   "Der Oberste Gerichtshof der USA"
+  ],
+  "i": "Der Fall geht auf eine Klage des Aktivisten Jason Jones zurück.",
+  "src": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_10",
+  "p": 2
+ },
+ {
+  "id": "2026-11-10.welt.8",
+  "d": "2026-11-10",
+  "r": "welt",
+  "k": "Politik",
+  "q": "Welcher Politiker kündigte am 10. November 2026 wegen Zweifeln an der Echtheit seines Schulabschlusses seinen Rücktritt als Vizepräsident Indonesiens an?",
+  "a": "Gibran Rakabuming Raka",
+  "w": [
+   "Prabowo Subianto",
+   "Joko Widodo",
+   "Anies Baswedan"
+  ],
+  "i": "Es geht um Kontroversen zu seinem Highschool-Diplom.",
+  "src": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_10",
+  "p": 3
+ },
+ {
+  "id": "2026-11-10.welt.9",
+  "d": "2026-11-10",
+  "r": "welt",
+  "k": "Wissenschaft",
+  "q": "Welches Land kündigte am 10. November 2026 verpflichtende Schutzvorkehrungen für KI-Firmen und eine neue Aufsichtsbehörde an?",
+  "a": "Australien",
+  "w": [
+   "Kanada",
+   "Neuseeland",
+   "Irland"
+  ],
+  "i": "Premierminister Anthony Albanese nannte unter anderem Meldepflichten für Sicherheitsvorfälle und unabhängige Modellprüfungen.",
+  "src": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_10",
+  "p": 2
+ },
+ {
+  "id": "2026-11-10.welt.10",
+  "d": "2026-11-10",
+  "r": "welt",
+  "k": "Umwelt",
+  "q": "Wie entwickeln sich laut Meldung vom 10. November 2026 die globalen fossilen CO2-Emissionen im Global Carbon Budget?",
+  "a": "Sie gehen leicht zurück",
+  "w": [
+   "Sie steigen auf ein Rekordhoch",
+   "Sie brechen um die Hälfte ein",
+   "Sie bleiben exakt unverändert"
+  ],
+  "i": "Experten warnen, dies könne nur ein vorübergehender Effekt sein.",
+  "src": "https://www.tagesschau.de/wissen/klima/emissionen-klimawandel-global-carbon-budget-100.html",
+  "p": 2
  }
 ]
