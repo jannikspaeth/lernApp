@@ -6078,5 +6078,277 @@
   "i": "Experten warnen, dies könne nur ein vorübergehender Effekt sein.",
   "src": "https://www.tagesschau.de/wissen/klima/emissionen-klimawandel-global-carbon-budget-100.html",
   "p": 2
+ },
+ {
+  "id": "2026-11-11.de.1",
+  "d": "2026-11-11",
+  "r": "de",
+  "k": "Politik",
+  "q": "Welche nationale Reserve beschloss das Bundeskabinett am 11. November 2026 aufzubauen?",
+  "a": "Eine Gasreserve",
+  "w": [
+   "Eine Ölreserve",
+   "Eine Getreidereserve",
+   "Eine Kohlereserve"
+  ],
+  "i": "Mit der Reserve will die Regierung die Versorgung in Krisensituationen sichern; sie soll 24 Terawattstunden umfassen.",
+  "src": "https://www.tagesschau.de/inland/gasreserve-126.html",
+  "p": 2
+ },
+ {
+  "id": "2026-11-11.de.2",
+  "d": "2026-11-11",
+  "r": "de",
+  "k": "Politik",
+  "q": "Welche Bundesministerin legte am 11. November 2026 einen Gesetzentwurf zum Unterhaltsvorschuss mit einer Einkommensgrenze vor?",
+  "a": "Karin Prien",
+  "w": [
+   "Bärbel Bas",
+   "Dorothee Bär",
+   "Nina Warken"
+  ],
+  "i": "Prien ist Familienministerin; der Entwurf sieht eine Einkommensgrenze beim Unterhaltsvorschuss vor.",
+  "src": "https://www.tagesschau.de/inland/innenpolitik/prien-unterhaltsvorschuss-gesetzentwurf-100.html",
+  "p": 1
+ },
+ {
+  "id": "2026-11-11.de.3",
+  "d": "2026-11-11",
+  "r": "de",
+  "k": "Politik",
+  "q": "Wer ist laut Berichten vom 11. November 2026 die künftige Bundespräsidentin, die sich im Bundestag vorstellte?",
+  "a": "Ilse Aigner",
+  "w": [
+   "Julia Klöckner",
+   "Annalena Baerbock",
+   "Katarina Barley"
+  ],
+  "i": "Bei zwei Bundestagsfraktionen ließ sich Aigner bei ihrer Vorstellung nicht blicken.",
+  "src": "https://www.tagesschau.de/inland/innenpolitik/aigner-fraktionen-100.html",
+  "p": 3
+ },
+ {
+  "id": "2026-11-11.de.4",
+  "d": "2026-11-11",
+  "r": "de",
+  "k": "Wirtschaft",
+  "q": "Was fordert der Sachverständigenrat der Wirtschaftsweisen in seinem Jahresgutachten vom 11. November 2026 trotz erwarteten Wachstums?",
+  "a": "Harte Sparmaßnahmen",
+  "w": [
+   "Eine allgemeine Steuersenkung",
+   "Eine Verdopplung der Staatsausgaben",
+   "Die Abschaffung der Schuldenbremse"
+  ],
+  "i": "Der Rat erwartet deutliches Wachstum, verlangt aber harte Einschnitte.",
+  "src": "https://www.tagesschau.de/wirtschaft/konjunktur/wirtschaftsweise-jahresgutachten-2026-100.html",
+  "p": 2
+ },
+ {
+  "id": "2026-11-11.de.5",
+  "d": "2026-11-11",
+  "r": "de",
+  "k": "Recht",
+  "q": "Wen nahm der Bundesgerichtshof am 11. November 2026 in einem Urteil in die Pflicht, Klagen von Kunden zu unterstützen?",
+  "a": "Rechtsschutzversicherungen",
+  "w": [
+   "Krankenkassen",
+   "Autoversicherer",
+   "Banken"
+  ],
+  "i": "Rechtsschutzversicherungen verweigern Kunden häufig die Unterstützung von Klagen – laut BGH zu Unrecht.",
+  "src": "https://www.tagesschau.de/wirtschaft/verbraucher/bgh-urteil-rechtsschutzversicherung-100.html",
+  "p": 2
+ },
+ {
+  "id": "2026-11-11.de.6",
+  "d": "2026-11-11",
+  "r": "de",
+  "k": "Gesellschaft",
+  "q": "In welchen beiden Städten begann am 11. November 2026 der Karneval in den rheinischen Hochburgen meist friedlich?",
+  "a": "Köln und Düsseldorf",
+  "w": [
+   "Hamburg und Bremen",
+   "München und Nürnberg",
+   "Berlin und Dresden"
+  ],
+  "i": "Die Jecken läuteten dort die fünfte Jahreszeit ein.",
+  "src": "https://www.tagesschau.de/inland/gesellschaft/karneval-start-koeln-duesseldorf-100.html",
+  "p": 1
+ },
+ {
+  "id": "2026-11-11.de.7",
+  "d": "2026-11-11",
+  "r": "de",
+  "k": "Sport",
+  "q": "Auf welche Mannschaft trifft Deutschland im November 2026 im Viertelfinale der Eishockey-Weltmeisterschaft?",
+  "a": "Finnland",
+  "w": [
+   "Kanada",
+   "Schweden",
+   "Tschechien"
+  ],
+  "i": "Die Paarung stand nach dem Vorrundenspiel der Deutschen fest.",
+  "src": "https://www.sportschau.de/eishockey/wm/deutschland-trifft-im-viertelfinale-auf-finnland,deutschland-schweiz-spielbericht-100.html",
+  "p": 2
+ },
+ {
+  "id": "2026-11-11.de.8",
+  "d": "2026-11-11",
+  "r": "de",
+  "k": "Umwelt",
+  "q": "In welcher Stadt fand im November 2026 der Klimagipfel statt, bei dem Guterres und Erdoğan mehr Ehrgeiz forderten?",
+  "a": "Antalya",
+  "w": [
+   "Baku",
+   "Belém",
+   "Dubai"
+  ],
+  "i": "Aktivisten kritisierten das Fehlen von Kanzler Merz.",
+  "src": "https://www.tagesschau.de/wissen/klima/klimakonferenz/klimagipfel-antalya-100.html",
+  "p": 2
+ },
+ {
+  "id": "2026-11-11.welt.1",
+  "d": "2026-11-11",
+  "r": "welt",
+  "k": "Politik",
+  "q": "Wer wurde laut Projektionen von AP und CNN im November 2026 zum Senator von Mississippi gewählt?",
+  "a": "Scott Colom",
+  "w": [
+   "Cindy Hyde-Smith",
+   "Roger Wicker",
+   "Bennie Thompson"
+  ],
+  "i": "Der Demokrat besiegte die republikanische Amtsinhaberin Cindy Hyde-Smith und ist der erste schwarze Senator des Staates seit Blanche Bruce.",
+  "src": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_11",
+  "p": 3
+ },
+ {
+  "id": "2026-11-11.welt.2",
+  "d": "2026-11-11",
+  "r": "welt",
+  "k": "Politik",
+  "q": "Wer reichte am 11. November 2026 sein Rücktrittsgesuch als Vizepräsident Indonesiens ein?",
+  "a": "Gibran Rakabuming Raka",
+  "w": [
+   "Anies Baswedan",
+   "Ganjar Pranowo",
+   "Prabowo Subianto"
+  ],
+  "i": "Hintergrund sind Fragen zu seinen Bildungsabschlüssen; die Regierung bestätigte die Annahme zunächst nicht.",
+  "src": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_11",
+  "p": 3
+ },
+ {
+  "id": "2026-11-11.welt.3",
+  "d": "2026-11-11",
+  "r": "welt",
+  "k": "Politik",
+  "q": "Wofür begann am 11. November 2026 in Spanien ein Generalstreik?",
+  "a": "Für bezahlbares Wohnen",
+  "w": [
+   "Für die Abschaffung der Monarchie",
+   "Für höhere Rüstungsausgaben",
+   "Gegen den EU-Beitritt der Ukraine"
+  ],
+  "i": "Es war erstmals seit Jahren ein Generalstreik in Spanien; die Idee stammt von einem Mieterverbund.",
+  "src": "https://www.tagesschau.de/ausland/europa/spanien-generalstreik-wohnungskrise-100.html",
+  "p": 3
+ },
+ {
+  "id": "2026-11-11.welt.4",
+  "d": "2026-11-11",
+  "r": "welt",
+  "k": "Katastrophen",
+  "q": "Wegen welchen Sturms schloss Portugal am 11. November 2026 rund 8.000 Schulen?",
+  "a": "Sturm Charles",
+  "w": [
+   "Sturm Daniel",
+   "Sturm Anna",
+   "Sturm Boris"
+  ],
+  "i": "Auch der zweite Tag des Web Summit in Lissabon wurde abgesagt.",
+  "src": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_11",
+  "p": 2
+ },
+ {
+  "id": "2026-11-11.welt.5",
+  "d": "2026-11-11",
+  "r": "welt",
+  "k": "Recht",
+  "q": "In welchem Land wurden am 11. November 2026 mehr als 6.000 Schulen nach Bombendrohungen evakuiert?",
+  "a": "Italien",
+  "w": [
+   "Spanien",
+   "Frankreich",
+   "Griechenland"
+  ],
+  "i": "Die Behörden nannten zunächst keine möglichen Hintergründe.",
+  "src": "https://www.tagesschau.de/ausland/europa/bombendrohungen-italien-100.html",
+  "p": 2
+ },
+ {
+  "id": "2026-11-11.welt.6",
+  "d": "2026-11-11",
+  "r": "welt",
+  "k": "Gesellschaft",
+  "q": "Wie viele bestätigte Ebola-Fälle gab es laut Meldung vom 11. November 2026 in der Demokratischen Republik Kongo mindestens?",
+  "a": "Mehr als 11.000",
+  "w": [
+   "Etwa 1.100",
+   "Etwa 3.000",
+   "Mehr als 110.000"
+  ],
+  "i": "Es gab dort mindestens 5.387 Todesfälle in 8 der 26 Provinzen.",
+  "src": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_11",
+  "p": 2
+ },
+ {
+  "id": "2026-11-11.welt.7",
+  "d": "2026-11-11",
+  "r": "welt",
+  "k": "Sport",
+  "q": "Welche Nationalmannschaft zog am 11. November 2026 ihre U17 von der WM in Katar wegen Sicherheitsbedenken zurück?",
+  "a": "USA",
+  "w": [
+   "Brasilien",
+   "Deutschland",
+   "Japan"
+  ],
+  "i": "Genannt wurden Sicherheitsbedenken im Zusammenhang mit dem Konflikt zwischen den Huthi und Saudi-Arabien.",
+  "src": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_11",
+  "p": 2
+ },
+ {
+  "id": "2026-11-11.welt.8",
+  "d": "2026-11-11",
+  "r": "welt",
+  "k": "Umwelt",
+  "q": "Wozu wurde am 11. November 2026 ein US-Ozeandampfer vor Destin in Florida versenkt?",
+  "a": "Als weltgrößtes künstliches Riff",
+  "w": [
+   "Als schwimmendes Hotel",
+   "Als Museumsschiff im Hafen",
+   "Zur Verschrottung im Meer"
+  ],
+  "i": "Das Schiff liegt vor der Küste bei Destin–Fort Walton Beach.",
+  "src": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_11",
+  "p": 1
+ },
+ {
+  "id": "2026-11-11.welt.9",
+  "d": "2026-11-11",
+  "r": "welt",
+  "k": "Konflikte",
+  "q": "In welcher Provinz der Demokratischen Republik Kongo töteten ADF-Rebellen am 11. November 2026 mindestens 22 Menschen?",
+  "a": "Ituri",
+  "w": [
+   "Nord-Kivu",
+   "Kasai",
+   "Tanganjika"
+  ],
+  "i": "Die Angriffe der Islamischen-Staat-nahen Rebellen betrafen acht Orte im Gebiet Mambasa.",
+  "src": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_11",
+  "p": 2
  }
 ]
