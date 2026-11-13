@@ -6350,5 +6350,309 @@
   "i": "Die Angriffe der Islamischen-Staat-nahen Rebellen betrafen acht Orte im Gebiet Mambasa.",
   "src": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_11",
   "p": 2
+ },
+ {
+  "id": "2026-11-12.de.1",
+  "d": "2026-11-12",
+  "r": "de",
+  "k": "Politik",
+  "q": "Welche Steuer wurde nach dem Haushaltskompromiss der Koalition am 12. November 2026 nicht gesenkt?",
+  "a": "Stromsteuer",
+  "w": [
+   "Grundsteuer",
+   "Kfz-Steuer",
+   "Mehrwertsteuer auf Lebensmittel"
+  ],
+  "i": "Die Koalition einigte sich im Ringen um den Haushalt auf einen Kompromiss: Die Zuckersteuer wird verschoben, die Stromsteuer nicht gesenkt.",
+  "src": "https://www.tagesschau.de/inland/innenpolitik/koalition-haushalt-kompromiss-100.html",
+  "p": 3
+ },
+ {
+  "id": "2026-11-12.de.2",
+  "d": "2026-11-12",
+  "r": "de",
+  "k": "Politik",
+  "q": "Welches Gesetz mit mehr Förderung für Kita-Kinder beschloss der Bundestag am 12. November 2026?",
+  "a": "Startchancengesetz",
+  "w": [
+   "Kita-Qualitätsgesetz",
+   "Bildungsgerechtigkeitsgesetz",
+   "Familienstartgesetz"
+  ],
+  "i": "Das Startchancengesetz sieht mehr Förderung für Kita-Kinder vor; kritisiert wird, dass die Förderung mit weniger Geld erfolgen soll.",
+  "src": "https://www.tagesschau.de/inland/innenpolitik/kita-startchancengesetz-100.html",
+  "p": 2
+ },
+ {
+  "id": "2026-11-12.de.3",
+  "d": "2026-11-12",
+  "r": "de",
+  "k": "Wirtschaft",
+  "q": "Welcher Autokonzern stoppte Anfang November 2026 Investitionen in deutsche Standorte, um den Druck in den Gesprächen über Kostensenkungen zu erhöhen?",
+  "a": "Mercedes",
+  "w": [
+   "Volkswagen",
+   "BMW",
+   "Porsche"
+  ],
+  "i": "In den Gesprächen um Kostensenkungen bei Mercedes war keine Lösung in Sicht; der Konzern erhöhte daraufhin den Druck.",
+  "src": "https://www.tagesschau.de/wirtschaft/unternehmen/mercedes-stopp-investitionen-100.html",
+  "p": 2
+ },
+ {
+  "id": "2026-11-12.de.4",
+  "d": "2026-11-12",
+  "r": "de",
+  "k": "Wirtschaft",
+  "q": "Welche Gewerkschaft beschloss am 12. November 2026 ganztägige Warnstreiks und warf den Arbeitgebern Blockadehaltung vor?",
+  "a": "IG Metall",
+  "w": [
+   "Verdi",
+   "IG BCE",
+   "EVG"
+  ],
+  "i": "Wo genau gestreikt werden soll, war zunächst noch unklar.",
+  "src": "https://www.tagesschau.de/wirtschaft/unternehmen/ig-metall-streiks-100.html",
+  "p": 2
+ },
+ {
+  "id": "2026-11-12.de.5",
+  "d": "2026-11-12",
+  "r": "de",
+  "k": "Gesellschaft",
+  "q": "In welchem Bundesland ermöglicht ein Modellprojekt ambulante Pflege nach individuellem Zeitbudget statt starrer Vorgaben?",
+  "a": "Rheinland-Pfalz",
+  "w": [
+   "Bayern",
+   "Niedersachsen",
+   "Sachsen"
+  ],
+  "i": "Das Modellprojekt soll der ambulanten Pflege mehr Freiraum geben.",
+  "src": "https://www.tagesschau.de/inland/gesellschaft/pflege-neues-modell-ambulant-100.html",
+  "p": 1
+ },
+ {
+  "id": "2026-11-12.de.6",
+  "d": "2026-11-12",
+  "r": "de",
+  "k": "Gesellschaft",
+  "q": "Welcher bayerische Rüstungskonzern meldete am 12. November 2026, Opfer eines Cyberangriffs geworden zu sein?",
+  "a": "Quantum Systems",
+  "w": [
+   "Rheinmetall",
+   "Heckler & Koch",
+   "Thyssenkrupp Marine Systems"
+  ],
+  "i": "Nach eigenen Angaben des Unternehmens handelte es sich um einen Cyberangriff.",
+  "src": "https://www.tagesschau.de/inland/quantum-systems-cyberangriff-100.html",
+  "p": 2
+ },
+ {
+  "id": "2026-11-12.de.7",
+  "d": "2026-11-12",
+  "r": "de",
+  "k": "Gesellschaft",
+  "q": "Chef welcher Krankenkasse rechnete Anfang November 2026 damit, dass die Abnehmspritze bald auf Rezept erhältlich ist?",
+  "a": "Barmer",
+  "w": [
+   "Techniker Krankenkasse",
+   "DAK-Gesundheit",
+   "AOK"
+  ],
+  "i": "Barmer-Chef Straub hält es für möglich, dass die Abnehmspritze bald zur Kassenleistung wird.",
+  "src": "https://www.tagesschau.de/wirtschaft/verbraucher/abnehmspritze-kassenleistung-100.html",
+  "p": 1
+ },
+ {
+  "id": "2026-11-12.de.8",
+  "d": "2026-11-12",
+  "r": "de",
+  "k": "Sport",
+  "q": "Bei welchem Multisportevent erreichten Deutschlands Beachhandballer am 12. November 2026 das Finale?",
+  "a": "Olympische Jugendspiele 2026",
+  "w": [
+   "Weltspiele der Studierenden",
+   "European Games",
+   "Mittelmeerspiele"
+  ],
+  "i": "Die deutschen Beachhandballer zogen bei den Olympischen Jugendspielen 2026 ins Finale ein.",
+  "src": "https://www.sportschau.de/olympia/deutschlands-beachhandballer-erreichen-finale,youth-olympic-games-2026-126.html",
+  "p": 1
+ },
+ {
+  "id": "2026-11-12.de.9",
+  "d": "2026-11-12",
+  "r": "de",
+  "k": "Sport",
+  "q": "Welcher deutsche Basketballer war am 12. November 2026 erneut Matchwinner des NBA-Teams aus Orlando?",
+  "a": "Franz Wagner",
+  "w": [
+   "Dennis Schröder",
+   "Daniel Theis",
+   "Maxi Kleber"
+  ],
+  "i": "Orlando gewann erneut dank Franz Wagner.",
+  "src": "https://www.sportschau.de/basketball/franz-wagner-erneut-orlandos-matchwinner,nba-1196.html",
+  "p": 1
+ },
+ {
+  "id": "2026-11-12.welt.1",
+  "d": "2026-11-12",
+  "r": "welt",
+  "k": "Konflikte",
+  "q": "Welches Land schickte Soldaten, die am 12. November 2026 gemeinsam mit haitianischen Kräften das Stade Sylvio Cator in Port-au-Prince nach zwei Jahren Bandenkontrolle einnahmen?",
+  "a": "El Salvador",
+  "w": [
+   "Dominikanische Republik",
+   "Kolumbien",
+   "Jamaika"
+  ],
+  "i": "Das Stadion in Haitis Hauptstadt war zwei Jahre lang von Gangs kontrolliert worden.",
+  "src": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_12",
+  "p": 2
+ },
+ {
+  "id": "2026-11-12.welt.2",
+  "d": "2026-11-12",
+  "r": "welt",
+  "k": "Politik",
+  "q": "Welcher US-Sondergesandte kündigte am 12. November 2026 mit Präsident Selenskyj an, dass europäische Vertreter an künftigen Friedensverhandlungen mit Russland teilnehmen?",
+  "a": "Jared Kushner",
+  "w": [
+   "Marco Rubio",
+   "J. D. Vance",
+   "Keith Kellogg"
+  ],
+  "i": "Russlands Präsident Putin stimmte zu, beharrt aber auf seinen Gebietsforderungen und lehnt ausländische Friedenstruppen in der Ukraine ab.",
+  "src": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_12",
+  "p": 3
+ },
+ {
+  "id": "2026-11-12.welt.3",
+  "d": "2026-11-12",
+  "r": "welt",
+  "k": "Wirtschaft",
+  "q": "Wer wurde am 12. November 2026 nach dem Rücktritt von Jensen Huang kommissarischer Chef von Nvidia?",
+  "a": "Colette Kress",
+  "w": [
+   "Lisa Su",
+   "Pat Gelsinger",
+   "Safra Catz"
+  ],
+  "i": "Huang trat nach Berichten über außereheliche Affären, darunter mit einer mutmaßlichen chinesischen Geheimdienstagentin, als Chef zurück. Kress war bisher Finanzchefin.",
+  "src": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_12",
+  "p": 3
+ },
+ {
+  "id": "2026-11-12.welt.4",
+  "d": "2026-11-12",
+  "r": "welt",
+  "k": "Katastrophen",
+  "q": "Wie viele Menschen starben am 12. November 2026 bei einem Massenunfall mit 18 Autos und fünf Lastwagen im Emirat Fudschaira?",
+  "a": "14",
+  "w": [
+   "6",
+   "25",
+   "40"
+  ],
+  "i": "Zusätzlich wurden 30 Menschen verletzt.",
+  "src": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_12",
+  "p": 2
+ },
+ {
+  "id": "2026-11-12.welt.5",
+  "d": "2026-11-12",
+  "r": "welt",
+  "k": "Katastrophen",
+  "q": "Wie hoch war Mitte November 2026 mindestens die Zahl der Toten nach dem Einsturz eines mehrstöckigen Gebäudes in New York?",
+  "a": "8",
+  "w": [
+   "2",
+   "15",
+   "25"
+  ],
+  "i": "Bei dem Einsturz gab es zudem Verletzte.",
+  "src": "https://www.tagesschau.de/ausland/amerika/new-york-gebaeude-einsturz-104.html",
+  "p": 2
+ },
+ {
+  "id": "2026-11-12.welt.6",
+  "d": "2026-11-12",
+  "r": "welt",
+  "k": "Recht",
+  "q": "Journalisten welchen Senders spionierten zwei Iraner aus, die ein britisches Gericht am 12. November 2026 verurteilte?",
+  "a": "Iran International",
+  "w": [
+   "BBC Persian",
+   "Al Jazeera",
+   "Deutsche Welle"
+  ],
+  "i": "Einer der Männer wurde auch wegen der Vorbereitung eines gewalttätigen Angriffs verurteilt; ein dritter Angeklagter wurde freigesprochen.",
+  "src": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_12",
+  "p": 2
+ },
+ {
+  "id": "2026-11-12.welt.7",
+  "d": "2026-11-12",
+  "r": "welt",
+  "k": "Recht",
+  "q": "Wie viele Festnahmen meldete Europol am 12. November 2026 für die Operation TorNado gegen Darknet-Marktplätze?",
+  "a": "354",
+  "w": [
+   "120",
+   "580",
+   "900"
+  ],
+  "i": "Die Ermittlungen liefen in 14 Ländern; sichergestellt wurden unter anderem rund 5,7 Tonnen Drogen und 209 Schusswaffen.",
+  "src": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_12",
+  "p": 2
+ },
+ {
+  "id": "2026-11-12.welt.8",
+  "d": "2026-11-12",
+  "r": "welt",
+  "k": "Wissenschaft",
+  "q": "Welcher Konzern war am 12. November 2026 von einem weltweiten Ausfall mehrerer Dienste wie Microsoft 365, Copilot und Teams betroffen?",
+  "a": "Microsoft",
+  "w": [
+   "Google",
+   "Amazon",
+   "Apple"
+  ],
+  "i": "Die Störung betraf Nutzer weltweit.",
+  "src": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_12",
+  "p": 1
+ },
+ {
+  "id": "2026-11-12.welt.9",
+  "d": "2026-11-12",
+  "r": "welt",
+  "k": "Sport",
+  "q": "Welche Spielerin besiegte Aryna Sabalenka am 12. November 2026 bei den WTA Finals und stand im Halbfinale?",
+  "a": "Mirra Andrejewa",
+  "w": [
+   "Iga Świątek",
+   "Coco Gauff",
+   "Jessica Pegula"
+  ],
+  "i": "Andrejewa zog durch den Sieg über Sabalenka ins Halbfinale ein.",
+  "src": "https://www.sportschau.de/tennis/andreeewa-besiegt-sabalenka-und-steht-im-halbfinale,wta-finals-130.html",
+  "p": 1
+ },
+ {
+  "id": "2026-11-12.welt.10",
+  "d": "2026-11-12",
+  "r": "welt",
+  "k": "Sport",
+  "q": "Welchen Trainer entließ Manchester United am 12. November 2026?",
+  "a": "Michael Carrick",
+  "w": [
+   "Erik ten Hag",
+   "Ruben Amorim",
+   "Ole Gunnar Solskjær"
+  ],
+  "i": "Als Nachfolger will der Klub Mauricio Pochettino verpflichten.",
+  "src": "https://www.sportschau.de/fussball/premier-league/manunited-entlaesst-carrick-und-will-pochettino,manchester-united-pochettino-carrick-100.html",
+  "p": 2
  }
 ]
