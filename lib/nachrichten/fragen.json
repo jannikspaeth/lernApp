@@ -6654,5 +6654,309 @@
   "i": "Als Nachfolger will der Klub Mauricio Pochettino verpflichten.",
   "src": "https://www.sportschau.de/fussball/premier-league/manunited-entlaesst-carrick-und-will-pochettino,manchester-united-pochettino-carrick-100.html",
   "p": 2
+ },
+ {
+  "id": "2026-11-13.de.1",
+  "d": "2026-11-13",
+  "r": "de",
+  "k": "Politik",
+  "q": "Wen will die AfD laut ARD-Informationen am 13. November 2026 für die Wahl des Bundespräsidenten nominieren?",
+  "a": "Den ehemaligen Fußballprofi Berthold",
+  "w": [
+   "Den ehemaligen Fußballtrainer Klopp",
+   "Den früheren Bundestagspräsidenten Schäuble",
+   "Den Schauspieler Til Schweiger"
+  ],
+  "i": "Die Nominierung wurde zunächst nur durch ARD-Recherchen bekannt.",
+  "src": "https://www.tagesschau.de/inland/innenpolitik/berthold-afd-wahl-bundespraesident-100.html",
+  "p": 2
+ },
+ {
+  "id": "2026-11-13.de.2",
+  "d": "2026-11-13",
+  "r": "de",
+  "k": "Politik",
+  "q": "Welchen Haushalt stellte der Haushaltsausschuss des Bundestags nach einer Nachtsitzung am 13. November 2026 fertig?",
+  "a": "Den Bundeshaushalt für 2027",
+  "w": [
+   "Den Bundeshaushalt für 2025",
+   "Den Bundeshaushalt für 2029",
+   "Einen Nachtragshaushalt für 2026"
+  ],
+  "i": "Der Ausschuss tagte die ganze Nacht und lag weit hinter dem Zeitplan.",
+  "src": "https://www.tagesschau.de/inland/bundeshaushalt-2027-100.html",
+  "p": 3
+ },
+ {
+  "id": "2026-11-13.de.3",
+  "d": "2026-11-13",
+  "r": "de",
+  "k": "Politik",
+  "q": "Welche Behörden bekommen nach einer vom Bundestag am 13. November 2026 beschlossenen Reform deutlich mehr Befugnisse?",
+  "a": "Bundesnachrichtendienst und Verfassungsschutz",
+  "w": [
+   "Bundeskriminalamt und Zoll",
+   "Bundeswehr und Technisches Hilfswerk",
+   "Bundespolizei und Bundesamt für Migration"
+  ],
+  "i": "Die Koalition reagierte damit auf die verschärfte Bedrohungslage.",
+  "src": "https://www.tagesschau.de/inland/innenpolitik/nachrichtendienst-reform-beschlossen-100.html",
+  "p": 3
+ },
+ {
+  "id": "2026-11-13.de.4",
+  "d": "2026-11-13",
+  "r": "de",
+  "k": "Wirtschaft",
+  "q": "Welches deutsche Unternehmen wurde Anfang November 2026 Ziel eines Cyberangriffs, hinter dem laut tagesschau vieles auf einen russischen Hintergrund deutet?",
+  "a": "Der Drohnenhersteller Quantum Systems",
+  "w": [
+   "Der Autozulieferer Bosch",
+   "Der Rüstungskonzern Rheinmetall",
+   "Der Softwarekonzern SAP"
+  ],
+  "i": "Die tagesschau fragte am 13. November 2026, wie der Drohnenhersteller zum Ziel wurde.",
+  "src": "https://www.tagesschau.de/wirtschaft/unternehmen/quantum-systems-cyberangriff-102.html",
+  "p": 2
+ },
+ {
+  "id": "2026-11-13.de.5",
+  "d": "2026-11-13",
+  "r": "de",
+  "k": "Wirtschaft",
+  "q": "Was wird nach Angaben der Post vom 13. November 2026 ab 2027 für Privatkunden deutlich teurer?",
+  "a": "Das Versenden von Paketen und Päckchen",
+  "w": [
+   "Das Versenden von Standardbriefen",
+   "Der Postfach-Service",
+   "Die Abholung von Paketen in Filialen"
+  ],
+  "i": "Die Post hebt die Paketpreise für Privatkunden zum Jahr 2027 an.",
+  "src": "https://www.tagesschau.de/wirtschaft/verbraucher/post-hebt-paketpreise-privatkunden-an-2027-100.html",
+  "p": 1
+ },
+ {
+  "id": "2026-11-13.de.6",
+  "d": "2026-11-13",
+  "r": "de",
+  "k": "Gesellschaft",
+  "q": "Was will Verkehrsminister Bilger laut Meldung vom 13. November 2026 bundesweit einführen?",
+  "a": "Handy-Blitzer",
+  "w": [
+   "Ein Tempolimit auf Autobahnen",
+   "Eine Pkw-Maut",
+   "Ein Alkoholverbot am Steuer"
+  ],
+  "i": "Kritiker warnen vor einem Eingriff in die Privatsphäre.",
+  "src": "https://www.tagesschau.de/inland/gesellschaft/handy-blitzer-kontrolle-ueberwachung-100.html",
+  "p": 1
+ },
+ {
+  "id": "2026-11-13.de.7",
+  "d": "2026-11-13",
+  "r": "de",
+  "k": "Sport",
+  "q": "Gegen welches Team erlebte die deutsche Eishockey-Nationalmannschaft am 13. November 2026 im WM-Viertelfinale ein Debakel?",
+  "a": "Finnland",
+  "w": [
+   "Schweden",
+   "Kanada",
+   "Tschechien"
+  ],
+  "i": "Die Sportschau sprach von einem Debakel für das DEB-Team.",
+  "src": "https://www.sportschau.de/eishockey/wm/deb-team-erlebt-im-wm-viertelfinale-debakel-gegen-finnland,deutschland-finnland-spielbericht-106.html",
+  "p": 2
+ },
+ {
+  "id": "2026-11-13.de.8",
+  "d": "2026-11-13",
+  "r": "de",
+  "k": "Sport",
+  "q": "Wer kandidiert laut Meldung vom 13. November 2026 offiziell gegen Engelhardt für den DOSB-Vorsitz?",
+  "a": "Mronz",
+  "w": [
+   "Weikert",
+   "Bach",
+   "Hörmann"
+  ],
+  "i": "Damit kommt es zu einem Zweikampf um den Vorsitz des Deutschen Olympischen Sportbundes.",
+  "src": "https://www.sportschau.de/mronz-kandidiert-offiziell-gegen-engelhardt-fuer-dosb-vorsitz,dosb-zweikampf-mronz-engelhardt-offiziell-100.html",
+  "p": 1
+ },
+ {
+  "id": "2026-11-13.de.9",
+  "d": "2026-11-13",
+  "r": "de",
+  "k": "Sport",
+  "q": "Welcher Trainer nominierte am 13. November 2026 den deutschen Kader für die Handball-WM 2027, unter anderem mit Pekeler und Häfner?",
+  "a": "Alfreð Gíslason",
+  "w": [
+   "Christian Prokop",
+   "Heiner Brand",
+   "Dagur Sigurðsson"
+  ],
+  "i": "Zum Aufgebot gehören auch die erfahrenen Spieler Pekeler und Häfner.",
+  "src": "https://www.sportschau.de/handball/wm/mit-pekeler-und-haefner-gislason-nominiert-wm-kader,handball-wm-2027-dhb-kader-100.html",
+  "p": 1
+ },
+ {
+  "id": "2026-11-13.welt.1",
+  "d": "2026-11-13",
+  "r": "welt",
+  "k": "Wirtschaft",
+  "q": "Wer trat am 13. November 2026 als Chef des Chipkonzerns Nvidia zurück?",
+  "a": "Jensen Huang",
+  "w": [
+   "Elon Musk",
+   "Tim Cook",
+   "Satya Nadella"
+  ],
+  "i": "Die Nvidia-Aktie brach ein und zog den DAX nach dessen Allzeithoch ins Minus.",
+  "src": "https://www.tagesschau.de/wirtschaft/finanzen/marktberichte/marktbericht-dax-dow-nvidia-106.html",
+  "p": 3
+ },
+ {
+  "id": "2026-11-13.welt.2",
+  "d": "2026-11-13",
+  "r": "welt",
+  "k": "Wirtschaft",
+  "q": "Welcher Konzern hatte am 13. November 2026 einen weltweiten Ausfall seiner Dienste, darunter Outlook?",
+  "a": "Microsoft",
+  "w": [
+   "Google",
+   "Amazon",
+   "Apple"
+  ],
+  "i": "Später sprach Microsoft von einer deutlichen Verbesserung der Lage in Nordamerika und Europa.",
+  "src": "https://www.tagesschau.de/wirtschaft/digitales/microsoft-outlook-ausfall-100.html",
+  "p": 2
+ },
+ {
+  "id": "2026-11-13.welt.3",
+  "d": "2026-11-13",
+  "r": "welt",
+  "k": "Politik",
+  "q": "Was meldete die US-Einwanderungsbehörde ICE am 13. November 2026 laut eigenen Angaben für das zurückliegende Jahr?",
+  "a": "Einen Rekord bei Abschiebungen",
+  "w": [
+   "Einen Rückgang der Abschiebungen",
+   "Einen Rekord bei Einbürgerungen",
+   "Das Ende von Abschiebungen"
+  ],
+  "i": "Fast eine halbe Million Menschen wurden demnach binnen eines Jahres abgeschoben.",
+  "src": "https://www.tagesschau.de/ausland/amerika/ice-einwanderungsbehoerde-abschiedbungen-rekord-100.html",
+  "p": 2
+ },
+ {
+  "id": "2026-11-13.welt.4",
+  "d": "2026-11-13",
+  "r": "welt",
+  "k": "Politik",
+  "q": "Wer soll Europa laut Beschluss vom 13. November 2026 bei Ukraine-Gesprächen mit Russland vertreten?",
+  "a": "Die EU-Institutionen und fünf Länder, darunter Deutschland",
+  "w": [
+   "Nur Frankreich und Deutschland",
+   "Nur die NATO",
+   "Ausschließlich Polen und die baltischen Staaten"
+  ],
+  "i": "Die Staats- und Regierungschefs berieten über die Teilnahme Europas am Verhandlungstisch.",
+  "src": "https://www.tagesschau.de/ausland/europa/eu-vertreter-ukraine-gespraeche-100.html",
+  "p": 3
+ },
+ {
+  "id": "2026-11-13.welt.5",
+  "d": "2026-11-13",
+  "r": "welt",
+  "k": "Konflikte",
+  "q": "Welche Einrichtung in Bahrain will der Iran am 13. November 2026 nach eigenen Angaben zerstört haben?",
+  "a": "Ein Frühwarnradar",
+  "w": [
+   "Einen Flughafen",
+   "Ein Kraftwerk",
+   "Eine Ölraffinerie"
+  ],
+  "i": "Der Iran nannte dies Vergeltung für einen US-Angriff auf Telekommunikationsanlagen bei Sirik.",
+  "src": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_13",
+  "p": 3
+ },
+ {
+  "id": "2026-11-13.welt.6",
+  "d": "2026-11-13",
+  "r": "welt",
+  "k": "Kultur",
+  "q": "Mit welchem Musiker nahm die im August 2026 verstorbene Dolly Parton ihr letztes aufgenommenes Lied als Duett auf?",
+  "a": "Bono",
+  "w": [
+   "Bruce Springsteen",
+   "Willie Nelson",
+   "Elton John"
+  ],
+  "i": "Das Lied erschien am 13. November 2026 auf U2s 16. Album Carnaval de Luz.",
+  "src": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_13",
+  "p": 2
+ },
+ {
+  "id": "2026-11-13.welt.7",
+  "d": "2026-11-13",
+  "r": "welt",
+  "k": "Katastrophen",
+  "q": "Welches Schiff sank am 13. November 2026 nach einer Kollision mit einem Tanker im Mississippi bei New Orleans?",
+  "a": "Das Kreuzfahrtschiff American Heritage",
+  "w": [
+   "Die Fähre Spirit of Louisiana",
+   "Das Containerschiff Ever Delta",
+   "Die Yacht Mississippi Queen"
+  ],
+  "i": "Alle 130 Menschen an Bord überlebten, einige wurden mit leichten Verletzungen behandelt.",
+  "src": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_13",
+  "p": 2
+ },
+ {
+  "id": "2026-11-13.welt.8",
+  "d": "2026-11-13",
+  "r": "welt",
+  "k": "Katastrophen",
+  "q": "In welchem indischen Ort kamen am 13. November 2026 bei einem Zusammenstoß von Bus und Lastwagen 24 Menschen ums Leben?",
+  "a": "Golaghat",
+  "w": [
+   "Mumbai",
+   "Jaipur",
+   "Kochi"
+  ],
+  "i": "Elf weitere Menschen wurden verletzt.",
+  "src": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_13",
+  "p": 1
+ },
+ {
+  "id": "2026-11-13.welt.9",
+  "d": "2026-11-13",
+  "r": "welt",
+  "k": "Recht",
+  "q": "Gegen welchen britischen Kinderbuchautor kündigte die Londoner Polizei am 13. November 2026 Ermittlungen wegen mutmaßlicher schwerer Sexualdelikte an?",
+  "a": "David Walliams",
+  "w": [
+   "Roald Dahl",
+   "Michael Morpurgo",
+   "Julia Donaldson"
+  ],
+  "i": "Die Ermittlungen der Metropolitan Police laufen getrennt von denen anderer Stellen.",
+  "src": "https://www.tagesschau.de/ausland/europa/ermittlungen-gb-walliams-100.html",
+  "p": 2
+ },
+ {
+  "id": "2026-11-13.welt.10",
+  "d": "2026-11-13",
+  "r": "welt",
+  "k": "Sport",
+  "q": "Wer erreichte am 13. November 2026 bei den WTA Finals das Halbfinale, nachdem sie zuvor einen Matchball abgewehrt hatte?",
+  "a": "Jessica Pegula",
+  "w": [
+   "Iga Świątek",
+   "Aryna Sabalenka",
+   "Coco Gauff"
+  ],
+  "i": "Sie wehrte erst einen Matchball ab und gewann dann die Partie.",
+  "src": "https://www.sportschau.de/tennis/erst-matchball-abgewehrt-dann-gewonnen-pegula-erreicht-halbfinale,wta-finals-134.html",
+  "p": 1
  }
 ]
