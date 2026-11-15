@@ -6958,5 +6958,277 @@
   "i": "Sie wehrte erst einen Matchball ab und gewann dann die Partie.",
   "src": "https://www.sportschau.de/tennis/erst-matchball-abgewehrt-dann-gewonnen-pegula-erreicht-halbfinale,wta-finals-134.html",
   "p": 1
+ },
+ {
+  "id": "2026-11-14.de.1",
+  "d": "2026-11-14",
+  "r": "de",
+  "k": "Politik",
+  "q": "Wer verkündete am 14. November 2026 als Erster offiziell seine Kandidatur für den SPD-Vorsitz?",
+  "a": "Hubertus Heil",
+  "w": [
+   "Lars Klingbeil",
+   "Boris Pistorius",
+   "Bärbel Bas"
+  ],
+  "i": "Der frühere Arbeitsminister Heil ging damit als erster Bewerber in das Rennen um den Parteivorsitz.",
+  "src": "https://www.tagesschau.de/inland/innenpolitik/heil-spd-vorsitz-kandidatur-100.html",
+  "p": 2
+ },
+ {
+  "id": "2026-11-14.de.2",
+  "d": "2026-11-14",
+  "r": "de",
+  "k": "Gesellschaft",
+  "q": "Welcher bayerische Politiker wurde am 14. November 2026 mit einem Trauerstaatsakt gewürdigt?",
+  "a": "Hubert Aiwanger",
+  "w": [
+   "Markus Söder",
+   "Florian Streibl",
+   "Thomas Kreuzer"
+  ],
+  "i": "Der Vize-Ministerpräsident und Freie-Wähler-Chef wurde unter dem Motto \"Ganz Bayern trauert\" gewürdigt.",
+  "src": "https://www.tagesschau.de/inland/aiwanger-trauerfeier-100.html",
+  "p": 3
+ },
+ {
+  "id": "2026-11-14.de.3",
+  "d": "2026-11-14",
+  "r": "de",
+  "k": "Gesellschaft",
+  "q": "Welche Maßnahme bewertete die Deutsche Bahn am 14. November 2026 nach eigener Bilanz positiv, weil es weniger Müll und weniger Konflikte gebe?",
+  "a": "Das Alkoholverbot",
+  "w": [
+   "Das Rauchverbot an Bahnhöfen",
+   "Das Hundeverbot in Zügen",
+   "Das Telefonierverbot im Ruhebereich"
+  ],
+  "i": "Nach Angaben der Bahn hat sich die Situation für Reisende und Mitarbeitende verbessert.",
+  "src": "https://www.tagesschau.de/inland/gesellschaft/bahn-alkohol-verbot-bilanz-100.html",
+  "p": 1
+ },
+ {
+  "id": "2026-11-14.de.4",
+  "d": "2026-11-14",
+  "r": "de",
+  "k": "Umwelt",
+  "q": "Für welche beiden Jahre wird Deutschland laut einem tagesschau-Bericht vom 14. November 2026 die selbst gesteckten Klimaziele verfehlen?",
+  "a": "2030 und 2040",
+  "w": [
+   "2025 und 2035",
+   "2035 und 2050",
+   "2028 und 2032"
+  ],
+  "i": "Deutschland sei beim Klimaschutz nur noch Mittelmaß, hieß es in dem Bericht.",
+  "src": "https://www.tagesschau.de/inland/gesellschaft/klimaschutz-klimaziele-deutschland-100.html",
+  "p": 2
+ },
+ {
+  "id": "2026-11-14.de.5",
+  "d": "2026-11-14",
+  "r": "de",
+  "k": "Sport",
+  "q": "Wer gewann am 14. November 2026 in Levi erstmals ein Slalom-Rennen im alpinen Skiweltcup?",
+  "a": "Emma Aicher",
+  "w": [
+   "Lena Dürr",
+   "Kira Weidle-Winkelmann",
+   "Andrea Filser"
+  ],
+  "i": "Für die deutsche Skirennläuferin war es der erste Slalom-Sieg.",
+  "src": "https://www.sportschau.de/wintersport/ski-alpin/erster-slalom-sieg-aicher-jubelt-in-levi,ski-alpin-levi-erster-slalom-sieg-emma-aicher-100.html",
+  "p": 2
+ },
+ {
+  "id": "2026-11-14.de.6",
+  "d": "2026-11-14",
+  "r": "de",
+  "k": "Sport",
+  "q": "Gegen welche Mannschaft bestreitet die deutsche Fußball-Nationalmannschaft nach dem Spiel in Serbien am 14. November 2026 ihr Endspiel in der Nations League?",
+  "a": "Niederlande",
+  "w": [
+   "Frankreich",
+   "Spanien",
+   "Portugal"
+  ],
+  "i": "Das DFB-Team sicherte sich durch den Erfolg in Serbien das Endspiel gegen die Niederländer.",
+  "src": "https://www.sportschau.de/fussball/nationalmannschaft/dfb-team-sichert-sich-sein-endspiel-gegen-niederlande,serbien-deutschland-spielbericht-100.html",
+  "p": 2
+ },
+ {
+  "id": "2026-11-14.de.7",
+  "d": "2026-11-14",
+  "r": "de",
+  "k": "Sport",
+  "q": "Gegen welchen Verein verlängerten die Füchse Berlin am 14. November 2026 in der Handball-Bundesliga ihre Siegesserie?",
+  "a": "THW Kiel",
+  "w": [
+   "SG Flensburg-Handewitt",
+   "SC Magdeburg",
+   "Rhein-Neckar Löwen"
+  ],
+  "i": "Die Berliner gewannen das Spitzenspiel gegen Kiel erneut.",
+  "src": "https://www.rbb24.de/sport/beitrag/2026/11/handball-bundesliga-fuechse-berlin-thw-kiel-spielbericht.html",
+  "p": 1
+ },
+ {
+  "id": "2026-11-14.welt.1",
+  "d": "2026-11-14",
+  "r": "welt",
+  "k": "Kultur",
+  "q": "Welches Land gewann am 14. November 2026 mit dem Lied \"Sobra-Sobra\" von Carmelle den ersten Eurovision Song Contest Asia in Bangkok?",
+  "a": "Philippinen",
+  "w": [
+   "Thailand",
+   "Südkorea",
+   "Indonesien"
+  ],
+  "i": "Der erstmals ausgetragene Wettbewerb fand in Thailands Hauptstadt Bangkok statt.",
+  "src": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_14",
+  "p": 2
+ },
+ {
+  "id": "2026-11-14.welt.2",
+  "d": "2026-11-14",
+  "r": "welt",
+  "k": "Wirtschaft",
+  "q": "Mit welchem Land schloss Kanada nach Angaben von Premier Mark Carney am 14. November 2026 die Verhandlungen über ein Freihandelsabkommen ab?",
+  "a": "Philippinen",
+  "w": [
+   "Vietnam",
+   "Indonesien",
+   "Thailand"
+  ],
+  "i": "Die Unterzeichnung wird für 2027 erwartet; mehr als 90 Prozent der Zolllinien sollen entfallen.",
+  "src": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_14",
+  "p": 2
+ },
+ {
+  "id": "2026-11-14.welt.3",
+  "d": "2026-11-14",
+  "r": "welt",
+  "k": "Wirtschaft",
+  "q": "Welches Unternehmen meldete am 14. November 2026, alle Systeme nach einem stundenlangen weltweiten Ausfall zentraler Cloud-Dienste wiederhergestellt zu haben?",
+  "a": "Microsoft",
+  "w": [
+   "Amazon",
+   "Google",
+   "Apple"
+  ],
+  "i": "Unternehmen und Verbraucher weltweit waren von der Störung betroffen.",
+  "src": "https://www.tagesschau.de/wirtschaft/unternehmen/microsoft-stoerung-behoben-100.html",
+  "p": 2
+ },
+ {
+  "id": "2026-11-14.welt.4",
+  "d": "2026-11-14",
+  "r": "welt",
+  "k": "Katastrophen",
+  "q": "In welcher US-Stadt kenterte am 14. November 2026 das Flusskreuzfahrtschiff \"American Heritage\" nach einem Zusammenprall mit einem Tanker?",
+  "a": "New Orleans",
+  "w": [
+   "Miami",
+   "Houston",
+   "Savannah"
+  ],
+  "i": "Alle Passagiere überlebten, 32 Menschen wurden verletzt.",
+  "src": "https://www.tagesschau.de/ausland/amerika/kreuzfahrtschiff-unfall-new-orleans-102.html",
+  "p": 2
+ },
+ {
+  "id": "2026-11-14.welt.5",
+  "d": "2026-11-14",
+  "r": "welt",
+  "k": "Politik",
+  "q": "Auf welches Datum verschob die Wahlkommission im Südsudan am 14. November 2026 die ersten Präsidentschafts- und Parlamentswahlen seit der Unabhängigkeit 2011?",
+  "a": "11. Februar 2027",
+  "w": [
+   "11. Mai 2027",
+   "22. März 2027",
+   "1. Juli 2027"
+  ],
+  "i": "Ursprünglich waren die Wahlen für den 22. Dezember 2026 angesetzt; Grund sind politische Spannungen und anhaltende Gewalt.",
+  "src": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_14",
+  "p": 2
+ },
+ {
+  "id": "2026-11-14.welt.6",
+  "d": "2026-11-14",
+  "r": "welt",
+  "k": "Recht",
+  "q": "Welche Strafe verhängte die italienische Datenschutzbehörde am 14. November 2026 gegen den Konzern Meta wegen des Zugriffs der Facebook-Android-App auf Fotos und Videos?",
+  "a": "805 Millionen Euro",
+  "w": [
+   "85 Millionen Euro",
+   "1,6 Milliarden Euro",
+   "12 Millionen Euro"
+  ],
+  "i": "Die Behörde sah einen Zugriff ohne gezielte Einwilligung oder Offenlegung.",
+  "src": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_14",
+  "p": 2
+ },
+ {
+  "id": "2026-11-14.welt.7",
+  "d": "2026-11-14",
+  "r": "welt",
+  "k": "Gesellschaft",
+  "q": "Wie viele Todesopfer des Dengue-Fiebers wurden in Bangladesch laut Meldung vom 14. November 2026 in diesem Jahr insgesamt gezählt?",
+  "a": "491",
+  "w": [
+   "91",
+   "191",
+   "791"
+  ],
+  "i": "Acht weitere Todesfälle brachten die Zahl der Opfer des Ausbruchs auf 491.",
+  "src": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_14",
+  "p": 1
+ },
+ {
+  "id": "2026-11-14.welt.8",
+  "d": "2026-11-14",
+  "r": "welt",
+  "k": "Sport",
+  "q": "Wer zog am 14. November 2026 ins Finale der WTA Finals ein?",
+  "a": "Mirra Andreeva",
+  "w": [
+   "Aryna Sabalenka",
+   "Jessica Pegula",
+   "Emma Raducanu"
+  ],
+  "i": "Andreeva setzte sich im Halbfinale gegen Pegula durch; Sabalenka war zuvor gegen Switolina ausgeschieden.",
+  "src": "https://www.sportschau.de/tennis/wta/mirra-andreeva-zieht-ins-finale-der-wta-finals-ein,wta-halbfinale-pegula-andreeva-100.html",
+  "p": 1
+ },
+ {
+  "id": "2026-11-14.welt.9",
+  "d": "2026-11-14",
+  "r": "welt",
+  "k": "Politik",
+  "q": "Was bieten die USA der Ukraine laut Präsident Selenskyj vom 14. November 2026 im Gegenzug für einen Gebietsverzicht an?",
+  "a": "Einen NATO-Beitritt",
+  "w": [
+   "Einen EU-Beitritt",
+   "Atomwaffen",
+   "Ein Ende aller Sanktionen gegen Russland"
+  ],
+  "i": "Selenskyj sagte, er würde die Frage unter bestimmten Bedingungen in einem Referendum zur Abstimmung stellen.",
+  "src": "https://www.tagesschau.de/ausland/europa/ukraine-usa-nato-gebietsverzicht-100.html",
+  "p": 3
+ },
+ {
+  "id": "2026-11-14.welt.10",
+  "d": "2026-11-14",
+  "r": "welt",
+  "k": "Recht",
+  "q": "Wie viel Bargeld wurde laut Meldung vom 14. November 2026 beim früheren ungarischen Entwicklungsminister Seszták gefunden?",
+  "a": "17,7 Millionen Euro",
+  "w": [
+   "1,8 Millionen Euro",
+   "5,2 Millionen Euro",
+   "38 Millionen Euro"
+  ],
+  "i": "Gegen Seszták wird wegen Bestechung ermittelt.",
+  "src": "https://www.tagesschau.de/ausland/europa/ungarn-bargeldfund-sesztak-100.html",
+  "p": 2
  }
 ]
