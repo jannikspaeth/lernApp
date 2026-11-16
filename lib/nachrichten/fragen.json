@@ -6958,5 +6958,517 @@
   "i": "Sie wehrte erst einen Matchball ab und gewann dann die Partie.",
   "src": "https://www.sportschau.de/tennis/erst-matchball-abgewehrt-dann-gewonnen-pegula-erreicht-halbfinale,wta-finals-134.html",
   "p": 1
+ },
+ {
+  "id": "2026-11-14.de.1",
+  "d": "2026-11-14",
+  "r": "de",
+  "k": "Politik",
+  "q": "Welches Amt strebt der frühere Bundesarbeitsminister Hubertus Heil an, für das er am 14. November 2026 als Erster offiziell seine Kandidatur verkündete?",
+  "a": "SPD-Vorsitz",
+  "w": [
+   "CDU-Vorsitz",
+   "Bundestagspräsidentschaft",
+   "Amt des Bundespräsidenten"
+  ],
+  "i": "Heil ist der erste offizielle Bewerber um den SPD-Vorsitz.",
+  "src": "https://www.tagesschau.de/inland/innenpolitik/heil-spd-vorsitz-kandidatur-100.html",
+  "p": 3
+ },
+ {
+  "id": "2026-11-14.de.2",
+  "d": "2026-11-14",
+  "r": "de",
+  "k": "Politik",
+  "q": "Für welchen bayerischen Politiker und Freie-Wähler-Chef fand am 14. November 2026 ein Trauerstaatsakt statt?",
+  "a": "Hubert Aiwanger",
+  "w": [
+   "Markus Söder",
+   "Horst Seehofer",
+   "Theo Waigel"
+  ],
+  "i": "Aiwanger war bayerischer Vize-Ministerpräsident und wurde mit einem Trauerstaatsakt gewürdigt.",
+  "src": "https://www.tagesschau.de/inland/aiwanger-trauerfeier-100.html",
+  "p": 3
+ },
+ {
+  "id": "2026-11-14.de.3",
+  "d": "2026-11-14",
+  "r": "de",
+  "k": "Gesellschaft",
+  "q": "Welche Idee des Kassenärzte-Chefs löste am 14. November 2026 breite Kritik aus?",
+  "a": "Schneller zum Facharzttermin, wenn man ihn selbst bezahlt",
+  "w": [
+   "Abschaffung der Hausarztpflicht",
+   "Pflicht zu einem Jahrespauschalbeitrag pro Arztbesuch",
+   "Verkürzung der Sprechzeiten in Praxen"
+  ],
+  "i": "Kritiker sehen darin eine Zwei-Klassen-Medizin.",
+  "src": "https://www.tagesschau.de/inland/reaktionen-selbstzahler-arzttermine-100.html",
+  "p": 2
+ },
+ {
+  "id": "2026-11-14.de.4",
+  "d": "2026-11-14",
+  "r": "de",
+  "k": "Gesellschaft",
+  "q": "Welche Wirkung des Alkoholverbots in Zügen nannte die Deutsche Bahn Mitte November 2026 in ihrer Bilanz?",
+  "a": "Weniger Müll und weniger Konflikte",
+  "w": [
+   "Mehr Zugverspätungen",
+   "Steigende Ticketpreise",
+   "Deutlich weniger Fahrgäste"
+  ],
+  "i": "Laut Bahn hat sich die Situation für Reisende und Mitarbeitende verbessert.",
+  "src": "https://www.tagesschau.de/inland/gesellschaft/bahn-alkohol-verbot-bilanz-100.html",
+  "p": 1
+ },
+ {
+  "id": "2026-11-14.de.5",
+  "d": "2026-11-14",
+  "r": "de",
+  "k": "Umwelt",
+  "q": "Für welche Jahre wird Deutschland laut einem Bericht vom 14. November 2026 seine selbst gesteckten Klimaziele verfehlen?",
+  "a": "2030 und 2040",
+  "w": [
+   "2025 und 2035",
+   "2035 und 2045",
+   "2028 und 2038"
+  ],
+  "i": "Deutschland gilt beim Klimaschutz nur noch als Mittelmaß.",
+  "src": "https://www.tagesschau.de/inland/gesellschaft/klimaschutz-klimaziele-deutschland-100.html",
+  "p": 2
+ },
+ {
+  "id": "2026-11-14.de.6",
+  "d": "2026-11-14",
+  "r": "de",
+  "k": "Sport",
+  "q": "Wer feierte am 14. November 2026 in Levi ihren ersten Slalom-Sieg im Ski-Weltcup?",
+  "a": "Emma Aicher",
+  "w": [
+   "Lena Dürr",
+   "Mikaela Shiffrin",
+   "Katharina Liensberger"
+  ],
+  "i": "Die deutsche Skirennläuferin gewann das Slalomrennen im finnischen Levi.",
+  "src": "https://www.sportschau.de/wintersport/ski-alpin/erster-slalom-sieg-aicher-jubelt-in-levi,ski-alpin-levi-erster-slalom-sieg-emma-aicher-100.html",
+  "p": 2
+ },
+ {
+  "id": "2026-11-14.welt.1",
+  "d": "2026-11-14",
+  "r": "welt",
+  "k": "Kultur",
+  "q": "Welches Land gewann am 14. November 2026 den ersten Eurovision Song Contest Asia in Bangkok?",
+  "a": "Philippinen",
+  "w": [
+   "Thailand",
+   "Südkorea",
+   "Japan"
+  ],
+  "i": "Carmelle gewann mit dem Lied „Sobra-Sobra“ die erste Ausgabe.",
+  "src": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_14",
+  "p": 2
+ },
+ {
+  "id": "2026-11-14.welt.2",
+  "d": "2026-11-14",
+  "r": "welt",
+  "k": "Gesellschaft",
+  "q": "Wofür machte die US-Regierung nach dem stundenlangen Startverbot an US-Flughäfen am 14. November 2026 vor allem verantwortlich?",
+  "a": "Ein veraltetes Flugsicherungssystem",
+  "w": [
+   "Einen Streik der Fluglotsen",
+   "Einen Hackerangriff auf die Airlines",
+   "Schwere Unwetter"
+  ],
+  "i": "Das Startverbot wurde nach mehreren Stunden aufgehoben, der Flugverkehr lief wieder an.",
+  "src": "https://www.tagesschau.de/ausland/amerika/usa-ende-startverbot-flughaefen-100.html",
+  "p": 2
+ },
+ {
+  "id": "2026-11-14.welt.3",
+  "d": "2026-11-14",
+  "r": "welt",
+  "k": "Katastrophen",
+  "q": "In welcher US-Stadt kenterte am 14. November 2026 das Flusskreuzfahrtschiff „American Heritage“ nach einem Zusammenprall mit einem Tanker?",
+  "a": "New Orleans",
+  "w": [
+   "Memphis",
+   "Houston",
+   "Savannah"
+  ],
+  "i": "32 Menschen wurden verletzt, alle Passagiere überlebten.",
+  "src": "https://www.tagesschau.de/ausland/amerika/kreuzfahrtschiff-unfall-new-orleans-102.html",
+  "p": 2
+ },
+ {
+  "id": "2026-11-14.welt.4",
+  "d": "2026-11-14",
+  "r": "welt",
+  "k": "Umwelt",
+  "q": "In welchem Land fand im November 2026 die UN-Klimakonferenz COP31 statt, bei der Tausende in Antalya demonstrierten?",
+  "a": "Türkei",
+  "w": [
+   "Aserbaidschan",
+   "Brasilien",
+   "Ägypten"
+  ],
+  "i": "Die Demonstranten forderten, dass die Industriestaaten stärker zur Kasse gebeten werden.",
+  "src": "https://www.tagesschau.de/ausland/europa/cop-tuerkei-protest-100.html",
+  "p": 2
+ },
+ {
+  "id": "2026-11-14.welt.5",
+  "d": "2026-11-14",
+  "r": "welt",
+  "k": "Recht",
+  "q": "Welche Summe muss Meta laut einer Entscheidung der italienischen Datenschutzbehörde vom 14. November 2026 zahlen?",
+  "a": "805 Millionen Euro",
+  "w": [
+   "85 Millionen Euro",
+   "1,2 Milliarden Euro",
+   "8 Millionen Euro"
+  ],
+  "i": "Die Facebook-Android-App hatte ohne ausdrückliche Einwilligung Zugriff auf Fotos und Videos der Nutzer.",
+  "src": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_14",
+  "p": 2
+ },
+ {
+  "id": "2026-11-14.welt.6",
+  "d": "2026-11-14",
+  "r": "welt",
+  "k": "Politik",
+  "q": "Auf welches Datum verschob die Wahlkommission des Südsudans am 14. November 2026 die ersten Präsidentschafts- und Parlamentswahlen seit der Unabhängigkeit?",
+  "a": "11. Februar 2027",
+  "w": [
+   "22. Dezember 2026",
+   "11. Mai 2027",
+   "1. Juli 2027"
+  ],
+  "i": "Ursprünglich waren die Wahlen für den 22. Dezember 2026 geplant; Gründe sind politische Spannungen und anhaltende Gewalt.",
+  "src": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_14",
+  "p": 2
+ },
+ {
+  "id": "2026-11-14.welt.7",
+  "d": "2026-11-14",
+  "r": "welt",
+  "k": "Wirtschaft",
+  "q": "Welcher Konzern hatte Mitte November 2026 mit einem stundenlangen Ausfall zentraler Cloud-Dienste weltweit Unternehmen und Verbraucher getroffen?",
+  "a": "Microsoft",
+  "w": [
+   "Amazon",
+   "Google",
+   "Oracle"
+  ],
+  "i": "Nach Konzernangaben waren am 14. November 2026 alle Systeme wiederhergestellt.",
+  "src": "https://www.tagesschau.de/wirtschaft/unternehmen/microsoft-stoerung-behoben-100.html",
+  "p": 2
+ },
+ {
+  "id": "2026-11-14.welt.8",
+  "d": "2026-11-14",
+  "r": "welt",
+  "k": "Politik",
+  "q": "Mit welchen beiden Staatschefs will sich US-Präsident Trump Mitte November 2026 treffen?",
+  "a": "Putin und Xi",
+  "w": [
+   "Modi und Erdoğan",
+   "Macron und Merz",
+   "Lula und Milei"
+  ],
+  "i": "Es wäre das erste Dreiertreffen der Staatschefs der USA, Russlands und Chinas.",
+  "src": "https://www.tagesschau.de/ausland/amerika/treffen-trump-putin-xi-100.html",
+  "p": 2
+ },
+ {
+  "id": "2026-11-15.de.1",
+  "d": "2026-11-15",
+  "r": "de",
+  "k": "Politik",
+  "q": "Wer will sich laut Bericht vom 15. November 2026 in rund einem Monat in Sachsen-Anhalt zum ersten AfD-Ministerpräsidenten wählen lassen?",
+  "a": "Ulrich Siegmund",
+  "w": [
+   "Björn Höcke",
+   "Tino Chrupalla",
+   "Maximilian Krah"
+  ],
+  "i": "Siegmund ist AfD-Spitzenkandidat in Sachsen-Anhalt.",
+  "src": "https://www.tagesschau.de/inland/gesellschaft/sachsen-anhalt-afd-migranten-residenzpflicht-100.html",
+  "p": 3
+ },
+ {
+  "id": "2026-11-15.de.2",
+  "d": "2026-11-15",
+  "r": "de",
+  "k": "Gesellschaft",
+  "q": "Als was gilt der Volkstrauertag, der am 15. November 2026 begangen wurde?",
+  "a": "Als staatlicher Gedenktag, nicht als gesetzlicher Feiertag",
+  "w": [
+   "Als gesetzlicher Feiertag",
+   "Als kirchlicher Hochfeiertag",
+   "Als Gedenktag der Vereinten Nationen"
+  ],
+  "i": "Der Volkstrauertag erinnert an die Opfer von Krieg und Gewaltherrschaft.",
+  "src": "https://www.tagesschau.de/inland/gesellschaft/volkstrauertag-bundestag-104.html",
+  "p": 1
+ },
+ {
+  "id": "2026-11-15.de.3",
+  "d": "2026-11-15",
+  "r": "de",
+  "k": "Gesellschaft",
+  "q": "Welche Kampagne beendete das Land Bremen am 15. November 2026 nach Kritik von Muslimen vorzeitig?",
+  "a": "Eine Kampagne gegen Islamismus",
+  "w": [
+   "Eine Kampagne gegen Rechtsextremismus",
+   "Eine Kampagne gegen Antisemitismus",
+   "Eine Kampagne gegen Drogenmissbrauch"
+  ],
+  "i": "Die Kampagne wurde nach Kritik von Muslimen vorzeitig beendet.",
+  "src": "https://www.butenunbinnen.de/nachrichten/kampagne-verfassungsschutz-hoegl-bremen-100.html",
+  "p": 1
+ },
+ {
+  "id": "2026-11-15.de.4",
+  "d": "2026-11-15",
+  "r": "de",
+  "k": "Wirtschaft",
+  "q": "Für welche Branche warnte ihr Präsident Dittrich am 15. November 2026 vor einem „stillen Sterben der Betriebe“?",
+  "a": "Handwerk",
+  "w": [
+   "Landwirtschaft",
+   "Einzelhandel",
+   "Gastronomie"
+  ],
+  "i": "Der Handwerkspräsident sieht eine sich verschärfende Krise.",
+  "src": "https://www.tagesschau.de/wirtschaft/unternehmen/handwerk-krise-100.html",
+  "p": 2
+ },
+ {
+  "id": "2026-11-15.de.5",
+  "d": "2026-11-15",
+  "r": "de",
+  "k": "Gesellschaft",
+  "q": "In welcher Region Deutschlands steht laut Bericht vom 15. November 2026 Europas größte Quallenfarm?",
+  "a": "Osthessen",
+  "w": [
+   "Ostfriesland",
+   "Oberbayern",
+   "Mecklenburg"
+  ],
+  "i": "Das Geschäft mit den Nesseltieren lohnt sich.",
+  "src": "https://www.tagesschau.de/wirtschaft/unternehmen/quallenzucht-100.html",
+  "p": 1
+ },
+ {
+  "id": "2026-11-15.de.6",
+  "d": "2026-11-15",
+  "r": "de",
+  "k": "Sport",
+  "q": "Gegen welche Nationalmannschaft spielt Deutschland unter Bundestrainer Klopp laut dessen Äußerung vom 15. November 2026 das „Endspiel des Jahres“?",
+  "a": "Niederlande",
+  "w": [
+   "Frankreich",
+   "Spanien",
+   "Portugal"
+  ],
+  "i": "Es geht um das Erreichen des Viertelfinals der Nations League.",
+  "src": "https://www.sportschau.de/fussball/nationalmannschaft/klopp-spricht-ueber-endspiel-des-jahres,juergen-klopp-pressekonferenz-niederlande-100.html",
+  "p": 2
+ },
+ {
+  "id": "2026-11-15.de.7",
+  "d": "2026-11-15",
+  "r": "de",
+  "k": "Sport",
+  "q": "Gegen wen gewann Alexander Zverev am 15. November 2026 seine Auftaktpartie bei den ATP Finals?",
+  "a": "Rafael Jódar",
+  "w": [
+   "Carlos Alcaraz",
+   "Jannik Sinner",
+   "Daniil Medwedew"
+  ],
+  "i": "Zverev startete mit einem Sieg ins Turnier.",
+  "src": "https://www.sportschau.de/tennis/zverev-gewinnt-auftakt-bei-atp-finals,zverev-jodar-100.html",
+  "p": 2
+ },
+ {
+  "id": "2026-11-15.de.8",
+  "d": "2026-11-15",
+  "r": "de",
+  "k": "Sport",
+  "q": "In welcher Sportart gewannen Hase und Volodin am 15. November 2026 den Grand Prix Skate America?",
+  "a": "Eiskunstlauf",
+  "w": [
+   "Rodeln",
+   "Eisschnelllauf",
+   "Biathlon"
+  ],
+  "i": "Das deutsche Paar siegte trotz eines Patzers.",
+  "src": "https://www.sportschau.de/wintersport/eiskunstlauf/trotz-patzer-hase-und-volodin-gewinnen-grand-prix-skate-america,hase-volodin-174.html",
+  "p": 1
+ },
+ {
+  "id": "2026-11-15.welt.1",
+  "d": "2026-11-15",
+  "r": "welt",
+  "k": "Politik",
+  "q": "Wer wurde am 15. November 2026 laut vorläufigem Ergebnis als Präsident Kap Verdes wiedergewählt?",
+  "a": "José Maria Neves",
+  "w": [
+   "Joana Rosa",
+   "Ulisses Correia e Silva",
+   "Jorge Carlos Fonseca"
+  ],
+  "i": "Neves kam auf 63,8 Prozent der Stimmen, Herausforderin Rosa räumte ihre Niederlage ein.",
+  "src": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_15",
+  "p": 3
+ },
+ {
+  "id": "2026-11-15.welt.2",
+  "d": "2026-11-15",
+  "r": "welt",
+  "k": "Politik",
+  "q": "Welcher Staat kündigte am 15. November 2026 an, ab dem 1. Dezember seine drei Grenzübergänge nach Russland zu schließen?",
+  "a": "Estland",
+  "w": [
+   "Lettland",
+   "Litauen",
+   "Finnland"
+  ],
+  "i": "Zuvor wurden Verdächtige nach einem versuchten Brandanschlag auf einen Drohnenhersteller festgenommen, den der Geheimdienst Russland zuschreibt.",
+  "src": "https://www.tagesschau.de/ausland/europa/estland-russland-grenze-geschlossen-100.html",
+  "p": 3
+ },
+ {
+  "id": "2026-11-15.welt.3",
+  "d": "2026-11-15",
+  "r": "welt",
+  "k": "Sport",
+  "q": "Wer gewann am 15. November 2026 das Einzel-Finale der WTA Finals gegen Jelina Switolina?",
+  "a": "Mirra Andrejewa",
+  "w": [
+   "Jelina Switolina",
+   "Aryna Sabalenka",
+   "Iga Świątek"
+  ],
+  "i": "Es war ihr erster Einzeltitel bei den WTA Finals; das Finale endete 7:5, 6:3.",
+  "src": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_15",
+  "p": 2
+ },
+ {
+  "id": "2026-11-15.welt.4",
+  "d": "2026-11-15",
+  "r": "welt",
+  "k": "Sport",
+  "q": "Wessen Rekord für die meisten Harry-Vardon-Trophäen egalisierte Rory McIlroy am 15. November 2026 mit seinem achten Race-to-Dubai-Titel?",
+  "a": "Colin Montgomerie",
+  "w": [
+   "Nick Faldo",
+   "Seve Ballesteros",
+   "Ian Woosnam"
+  ],
+  "i": "McIlroy wurde beim DP World Tour Championship Zweiter und sicherte sich damit den Titel.",
+  "src": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_15",
+  "p": 2
+ },
+ {
+  "id": "2026-11-15.welt.5",
+  "d": "2026-11-15",
+  "r": "welt",
+  "k": "Sport",
+  "q": "Wie viele Spiele lang war Spaniens Serie ohne Niederlage, die England am 15. November 2026 in der Nations League beendete?",
+  "a": "43",
+  "w": [
+   "23",
+   "33",
+   "53"
+  ],
+  "i": "England gewann 3:2 und stoppte die längste Serie einer Nationalmannschaft.",
+  "src": "https://www.sportschau.de/fussball/nationsleague/furioses-england-stoppt-spaniens-rekordserie,spielbericht-spanien-england-100.html",
+  "p": 2
+ },
+ {
+  "id": "2026-11-15.welt.6",
+  "d": "2026-11-15",
+  "r": "welt",
+  "k": "Wissenschaft",
+  "q": "Welche Rakete kehrte am 15. November 2026 erstmals mit ihrer oberen Stufe zur Startrampe zurück?",
+  "a": "Starship",
+  "w": [
+   "Falcon 9",
+   "New Glenn",
+   "Ariane 6"
+  ],
+  "i": "Die etwa 50 Meter große Oberstufe landete erstmals wieder auf der Erde.",
+  "src": "https://www.tagesschau.de/ausland/amerika/space-x-rakete-rueckkehr-100.html",
+  "p": 3
+ },
+ {
+  "id": "2026-11-15.welt.7",
+  "d": "2026-11-15",
+  "r": "welt",
+  "k": "Gesellschaft",
+  "q": "Nach wie vielen Tagen war die Fanfiction-Website Archive of Our Own am 15. November 2026 nach einem Cyberangriff wieder eingeschränkt nutzbar?",
+  "a": "17 Tage",
+  "w": [
+   "3 Tage",
+   "45 Tage",
+   "90 Tage"
+  ],
+  "i": "Die Plattform war nach einem Cyberangriff offline gewesen.",
+  "src": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_15",
+  "p": 1
+ },
+ {
+  "id": "2026-11-15.welt.8",
+  "d": "2026-11-15",
+  "r": "welt",
+  "k": "Sport",
+  "q": "Welche Nationalmannschaft gewann am 15. November 2026 zum vierten Mal in Folge die Rugby-League-WM der Frauen?",
+  "a": "Australien",
+  "w": [
+   "Neuseeland",
+   "England",
+   "Papua-Neuguinea"
+  ],
+  "i": "Australien besiegte Neuseeland im Finale in Brisbane mit 34:10.",
+  "src": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_15",
+  "p": 1
+ },
+ {
+  "id": "2026-11-15.welt.9",
+  "d": "2026-11-15",
+  "r": "welt",
+  "k": "Konflikte",
+  "q": "Wo soll nach Angaben der iranischen Revolutionsgarden am 15. November 2026 ein Supertanker nach einem Minentreffer gesunken sein?",
+  "a": "In der Straße von Hormus",
+  "w": [
+   "In der Straße von Malakka",
+   "Im Suezkanal",
+   "In der Meerenge Bab al-Mandab"
+  ],
+  "i": "Der Tanker hatte zwei Millionen Barrel Öl geladen.",
+  "src": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_15",
+  "p": 3
+ },
+ {
+  "id": "2026-11-15.welt.10",
+  "d": "2026-11-15",
+  "r": "welt",
+  "k": "Recht",
+  "q": "Wie viele Männer verurteilte ein jordanisches Gericht am 15. November 2026 wegen des Schusswaffenangriffs auf eine Kirche in Karak zum Tode?",
+  "a": "Drei",
+  "w": [
+   "Einen",
+   "Fünf",
+   "Zwölf"
+  ],
+  "i": "Bei dem Angriff am 23. Oktober 2026 starben neun Menschen; zwei Komplizen erhielten sechs Jahre Haft.",
+  "src": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_15",
+  "p": 2
  }
 ]
