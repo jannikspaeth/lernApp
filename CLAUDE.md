@@ -211,8 +211,12 @@ read-modify-write so a failed read can't overwrite real data with an empty list.
 - `vocab` — one row per user+word (SRS: levels 1–7 learning, 8 known; `next_review`, `last_reviewed`, `review_count`).
 - `stats` — one row per user. Cumulative totals + `streak` + **`daily` jsonb** (Berlin-date → activity count).
 - `conjugation`, `sentences`, `grammar` — one JSONB row per user (arrays of records).
-- `race` — one global row **per language**: `id='global'` (Italian), `id='global-es'`, `id='global-fr'`, holding
-  `{ dailyCounts, settledDates, highscores, stars, settledMonths }`. Also the `id='profiles'` row (see above) and
+- `race` — **one single global row for everyone, across every language**: `id='global-all'`, holding
+  `{ dailyCounts, settledDates, highscores, stars, settledMonths }`. The old per-language rows
+  (`id='global'` Italian, `id='global-es'`, `id='global-fr'`, `id='global-pt'`, `id='global-br'`) are
+  kept untouched as a frozen historical backup — `migrateLegacyRaceState()` in `lib/db.ts` folds their
+  `stars` (summed) and `highscores` (unioned, top 5) into `global-all` the first time it's read, so
+  nobody's standings were lost when the races merged. Also the `id='profiles'` row (see above) and
   one **extras** row per user+language, `id='extras:<user_id>'` (`UserExtras`: `mistakes`, `reading`, `rounds`;
   `/api/data/extras`, `updateExtras()` in `lib/storage.ts` queues read-modify-writes). Deleted with the profile.
 - `accounts` — `profile_id`, unique `name_key` (lower-cased name), `password_hash`.
@@ -268,14 +272,18 @@ alter table grammar     enable row level security;
 - **Audio**: `lib/speech.ts` (browser `speechSynthesis`, voice per language, `speakableText` strips notes/variants)
   + `components/SpeakButton.tsx` on flashcards, word list, sentences, verb tables, grammar and lessons; per-device
   auto-play for vocab (`lib/use-autoplay.ts`). No speech recognition.
-- `/lesen` — **Reading**: graded texts per language in `lib/reading/{it,es,fr}.ts` (18 it, 9 es, 9 fr) with
+- `/lesen` — **Reading**: graded texts per language in `lib/reading/{it,es,fr,pt,br}.ts` (18 per language, 6 each A1/A2/B1) with
   tap-to-translate (`lib/reading/lookup.ts`: text glossary → `common-words.ts` → vocab catalog → every verb form
   from the `forms` pack → plural/feminine/-issimo/gerund/clitic heuristics), per-paragraph translation, audio and
   comprehension questions (`recordExercise('reading')`, 2 race points per question; progress in extras). Every
   word of every text must resolve — when adding a text, run a lookup over all tokens and fill its `glossary`.
 
 - `/vokabeln` — Vocabulary: SRS flashcards (one at a time), **Learn in rounds of 20**, Review
-  (shuffled), Words list. Daily goal banner. Beginners (A1) learn an ordered starter set first
+  (shuffled) plus **Practise all words** (every met word or only known ones, optional topic; one mixed pass through the
+  whole pool, resumable — done words in `extras.vocabPass`, reset button starts over;
+  a right answer leaves the schedule alone, a wrong one drops the word as usual), Words list. A per-device
+  **Listening only** switch (`italienisch_vocab_listen`) hides the word on every card: it is read out
+  (replay + slow), German is typed; ignored where the browser can't speak. Daily goal banner. Beginners (A1) learn an ordered starter set first
   (`lib/vocab-starter.ts`) then flow into the full `lib/vocab-catalog.ts` (~2,900 words, A1–B1:
   hand-written core + `lib/vocab-b1.ts` B1 extension + `lib/vocab-imported.ts`, **generated** by `node scripts/import-vocab.mjs` from the Grund-/Ausbau-
   wortschatz CSVs in gitignored `scripts/data/`; correct entries in `scripts/vocab-import-fixes.mjs`
@@ -296,15 +304,23 @@ alter table grammar     enable row level security;
   `scripts/vocab-import-topics.mjs` (verbs auto-detected by ending).
 - `/grammar` — two tabs: **Exercises** (34 hand-written cloze sets covering A1–B1 in
   `lib/grammar-exercises.ts`, grouped by level, each with rule + examples; choose/type modes, progress
-  per topic in the `grammar` table) and **Lessons** (`lib/grammar-lessons.ts`; Italian: 29 lessons A1–B1 with a
-  `level`, grouped by level, every exercise topic links one via `lessonId`; es/fr: first-steps lessons only).
+  per topic in the `grammar` table; a topic's `explanation` is a string or — preferred — bullet points, plus
+  optional `tip`/`warn`) and **Lessons** (`lib/grammar-lessons.ts` + `lib/{es,fr,pt,br}/`; ~27–33 lessons
+  A1–B1 per language with a `level`, grouped by level, every exercise topic links one via `lessonId`). Lesson
+  sections are built from blocks (`body`, `points`, `table`, `examples`, `tip` → "Merke", `warn` → "Achtung";
+  rendered by `components/GrammarBlocks.tsx`, strings may use `**bold**` and `~~wrong~~`). Italian rules and
+  lessons use the full format; es/fr/pt/br still use plain `body` text and are to be converted the same way.
+  Topics have review intervals (`lib/grammar-review.ts`: level 1–6, 1/3/7/14/30/60 days; ≥80% right moves up,
+  less resets to level 1; `level`/`nextReview` on the `GrammarRecord`, legacy records derive a due date). Due
+  topics come first in the daily round's grammar part; the grammar page deliberately shows no due markers
+  (the user found them annoying).
 - `/race` — **THE RACE**: global competitive leaderboard (see below).
 - `/help`, `/profile` (account: language & level, achievements, help, app language, sign out, delete; `/konto`
   redirects here). `/ueben` is the hub of all exercise types (`PRACTICE` in `lib/sections.ts`). Practice rounds run in
   focus mode (`document.body.dataset.focus` hides the `.app-tabs` bars) and show the verdict in
   `components/practice/FeedbackBar.tsx`.
 - **Sync with the Italian app** (github.com/jannikspaeth/learnItalian, local copy in `../../Italienisch App/italienisch`):
-  the language pages were last brought up to its commit `84c72a8` (2026-10-17) — pull from the GitHub repo (a fresh clone; the local iCloud copy has evicted `.git` files and hangs), classify the changed files against the old base and merge (identical files copy, diverged ones `git merge-file`). Its icon components live in `components/LangIcon.tsx` (content icon names from `lib/icon-names.ts`); `components/Icon.tsx` stays this app's own set. Its look ("warm italiano": re-tuned
+  the language pages were last brought up to its commit `e649f58` (2026-11-17) — pull from the GitHub repo (a fresh clone; the local iCloud copy has evicted `.git` files and hangs), classify the changed files against the old base and merge (identical files copy, diverged ones `git merge-file`). Its icon components live in `components/LangIcon.tsx` (content icon names from `lib/icon-names.ts`); `components/Icon.tsx` stays this app's own set. Its look ("warm italiano": re-tuned
   `gray`/`red`/`green` palettes) is *not* taken over — when porting, map its classes to this app's tokens
   (`red-*` = accent → `accent`, but `red-*` for mistakes → `bad`; `green-*` → `good`; `gray-*` → `canvas`/`surface`/
   `line`/`ink`/`muted`).

@@ -15,6 +15,7 @@ import { Lang, LANG_STORAGE_KEY, dataUserId, isLang } from './lang';
 import { berlinToday } from './race';
 import { conjugationMatches } from './conjugation-match';
 import { nextVerbReview } from './verb-review';
+import { nextGrammarReview } from './grammar-review';
 import { GeoBest, WissenProgress, betterGeoBest, emptyProgress, normalizeProgress } from './wissen/progress';
 
 // ─── helpers ─────────────────────────────────────────────────────────────────
@@ -317,13 +318,16 @@ export async function upsertGrammarAttempt(
     mastered: mistakes.length === 0,
   };
   if (existing) {
-    Object.assign(existing, attempt, {
+    Object.assign(existing, attempt, nextGrammarReview(existing.level, correct, total), {
       totalAttempts: existing.totalAttempts + 1,
       totalCorrect: existing.totalCorrect + correct,
       totalQuestions: existing.totalQuestions + total,
     });
   } else {
-    records.unshift({ id: topicId, totalAttempts: 1, totalCorrect: correct, totalQuestions: total, ...attempt });
+    records.unshift({
+      id: topicId, totalAttempts: 1, totalCorrect: correct, totalQuestions: total, ...attempt,
+      ...nextGrammarReview(undefined, correct, total),
+    });
   }
   await putJson('/api/data/grammar', records);
 }
@@ -451,14 +455,14 @@ const emptyRace: RaceResponse = {
   stars: {},
 };
 
-// Global leaderboard of the active language — no user header needed. Tolerant read.
+// Global leaderboard, across every language — no user header needed. Tolerant read.
 export async function getRace(): Promise<RaceResponse> {
-  return getJson<RaceResponse>(`/api/race?lang=${currentLang()}`, emptyRace);
+  return getJson<RaceResponse>('/api/race', emptyRace);
 }
 
 // Accumulated months won (stars) per user, for app-wide display. Tolerant read.
 export async function getStars(): Promise<{ stars: Record<string, number>; month: string }> {
-  return getJson<{ stars: Record<string, number>; month: string }>(`/api/race/stars?lang=${currentLang()}`, {
+  return getJson<{ stars: Record<string, number>; month: string }>('/api/race/stars', {
     stars: {},
     month: '',
   });

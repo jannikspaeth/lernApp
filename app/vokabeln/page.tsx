@@ -8,6 +8,8 @@ import {
   recordExercise,
   getRace,
   recordMistakes,
+  getExtras,
+  updateExtras,
 } from '@/lib/storage';
 import { vocabMistake } from '@/lib/mistakes';
 import { VocabEntry, ProgressStats, RaceResponse } from '@/lib/types';
@@ -38,10 +40,10 @@ import ChallengeStrip from '@/components/ChallengeStrip';
 import Celebration from '@/components/Celebration';
 import SpeakButton from '@/components/SpeakButton';
 import FeedbackBar from '@/components/practice/FeedbackBar';
-import { X, Flame, PartyPopper, BookOpen, Volume2, ChevronRight, ChevronUp, ChevronDown, TriangleAlert } from 'lucide-react';
+import { X, Flame, PartyPopper, BookOpen, Volume2, Headphones, Turtle, ChevronRight, ChevronUp, ChevronDown, TriangleAlert } from 'lucide-react';
 import Icon from '@/components/LangIcon';
 import type { IconName } from '@/lib/icon-names';
-import { speak } from '@/lib/speech';
+import { speak, canSpeak, useSpeechSupported, SLOW_RATE } from '@/lib/speech';
 import { useAutoplay } from '@/lib/use-autoplay';
 import { useT, useUiLang, T } from '@/lib/ui-lang';
 
@@ -68,6 +70,7 @@ type WordGroup = 'none' | 'phase' | 'due' | 'topic';
 
 // Chosen Learn topic: 'all' or a topic id (validated so stale storage can't break it).
 const isTopicChoice = (v: string): v is string => v === 'all' || TOPIC_IDS.has(v);
+const isOnOff = (v: string): v is 'on' | 'off' => v === 'on' || v === 'off';
 
 interface SessionItem {
   de: string;
@@ -78,6 +81,7 @@ interface SessionItem {
   vocabId?: string;
   currentLevel: number;
   askTarget: boolean;    // true ⇒ target word shown, German is the answer
+  listen?: boolean;      // listening mode: the target word is only read out, not shown
   question: string;
   answer: string;
 }
@@ -157,6 +161,12 @@ export default function VokabelnPage() {
   const [current, setCurrent] = useState(0);
   const [doneCount, setDoneCount] = useState(0);
   const [sessionCorrect, setSessionCorrect] = useState(0);
+  // Free practice of words already met (known ones included) from the Review tab.
+  const [practiceAll, setPracticeAll] = useState(false);
+  const [practicePool, setPracticePool] = useState<'all' | 'known'>('all');
+  // Words already practised in the current pass (normWord keys, saved in extras):
+  // a pass runs through the whole pool once, in mixed order, across sessions.
+  const [passDone, setPassDone] = useState<Set<string>>(new Set());
   // Serializes per-word saves so concurrent writes don't clobber each other.
   const saveChain = useRef<Promise<unknown>>(Promise.resolve());
   const [saveError, setSaveError] = useState(false);
@@ -179,7 +189,11 @@ export default function VokabelnPage() {
 
   const [quizDir, setQuizDir] = useQuizDirection();
   const [autoplay, setAutoplay] = useAutoplay();
+  // Listening mode (per device): the word is only read out and German is typed.
+  const [listenSetting, setListenSetting] = useLocalSetting<'on' | 'off'>('italienisch_vocab_listen', 'off', isOnOff);
+  const listenOnly = listenSetting === 'on';
   const [topicSetting, setTopic] = useLocalSetting<string>('italienisch_vocab_topic', 'all', isTopicChoice);
+  const [practiceTopicSetting, setPracticeTopic] = useLocalSetting<string>('italienisch_practice_topic', 'all', isTopicChoice);
 
   // Add-your-own-word form state
   const [showAddForm, setShowAddForm] = useState(false);
@@ -215,11 +229,14 @@ export default function VokabelnPage() {
     setStats(s);
   }, [celebrate, t]);
   useEffect(() => { refresh(); }, [refresh]);
+  // Pass progress: read once; afterwards local state leads (saves are queued in order).
+  useEffect(() => { getExtras().then(e => setPassDone(new Set(e.vocabPass ?? []))).catch(() => {}); }, []);
 
   // Focus mode while a card is on screen: the tab bar steps aside (see globals.css).
   useEffect(() => {
     if (phase !== 'active') return;
     document.body.dataset.focus = '1';
+    window.scrollTo(0, 0);
     return () => { delete document.body.dataset.focus; };
   }, [phase]);
 
@@ -271,6 +288,23 @@ export default function VokabelnPage() {
   }
   const group: WordGroup = wordGroup === 'topic' && !pack.hasTopics ? 'none' : wordGroup;
 
+  // "Practise all words" pool: every word met (or only known ones), optionally one topic.
+  const practiceTopic = pack.hasTopics ? practiceTopicSetting : 'all';
+  const metWords = vocab.filter(v => getLevel(v) > 0);
+  const inPracticeTopic = (v: VocabEntry) => practiceTopic === 'all' || topicOfWord.get(norm(v.word)) === practiceTopic;
+  const practicePoolWords = (practicePool === 'known' ? bekanntWords : metWords).filter(inPracticeTopic);
+  const practiceWords = practicePoolWords.filter(v => !passDone.has(norm(v.word)));
+  const passCount = practicePoolWords.length - practiceWords.length;
+  // Per topic: known / met — shown in the picker; topics with no words met are hidden.
+  const practiceProgress: Record<string, TopicProgress> = { all: { seen: bekanntWords.length, total: metWords.length } };
+  for (const v of metWords) {
+    const tp = topicOfWord.get(norm(v.word));
+    if (!tp) continue;
+    const p = (practiceProgress[tp] ??= { seen: 0, total: 0 });
+    p.total++;
+    if (getLevel(v) >= VOCAB_KNOWN_LEVEL) p.seen++;
+  }
+
   // Every flashcard done today counts (repeats included) — sourced from the
   // per-day stats counter, not distinct words.
   const todayCount = stats?.daily?.[berlinToday()] ?? 0;
@@ -296,10 +330,13 @@ export default function VokabelnPage() {
     currentLevel = 0,
     extra?: { de?: string; conj?: readonly string[] },
   ): SessionItem {
-    const asksTarget = askTarget(quizDir);
+    // Listening needs speech; without it the card falls back to the normal direction.
+    const listen = listenOnly && canSpeak();
+    const asksTarget = listen || askTarget(quizDir);
     return {
       de, target, example, exampleDe: extra?.de, conj: extra?.conj, vocabId, currentLevel,
       askTarget: asksTarget,
+      listen,
       question: asksTarget ? target : de,
       answer:   asksTarget ? de : target,
     };
@@ -307,6 +344,7 @@ export default function VokabelnPage() {
 
   function reset() {
     setPhase('idle');
+    setPracticeAll(false);
     setItems([]);
     setCurrent(0);
     setDoneCount(0);
@@ -367,8 +405,44 @@ export default function VokabelnPage() {
 
   function startWiederholen() {
     if (!vocabLoaded || dueToday.length === 0) return;
+    setPracticeAll(false);
     // Show due words in random order rather than fixed DB order.
     setItems(shuffle(dueToday).map(v => {
+      const ex = examples.get(norm(v.word));
+      return makeItem(v.translation, v.word, ex?.text || v.example || '', v.id, getLevel(v), {
+        de: ex?.de,
+        conj: presentForms(verbs, v.word, ex),
+      });
+    }));
+    setCurrent(0);
+    setDoneCount(0);
+    setSessionCorrect(0);
+    setCombo(0);
+    setPhase('active');
+  }
+
+  // Practise any words already met — known ones included — whether they're due or not:
+  // every word of the pool not yet done in this pass, in mixed order. Stopping keeps the
+  // pass; "Reset" starts a new one.
+  function markPassed(key: string) {
+    setPassDone(prev => new Set(prev).add(key));
+    updateExtras(e => {
+      const done = new Set(e.vocabPass ?? []);
+      done.add(key);
+      return { ...e, vocabPass: [...done] };
+    }).catch(() => {});
+  }
+
+  function resetPass() {
+    if (!confirm(t('Start the pass over? Every word comes up again.', 'Durchgang zurücksetzen? Alle Wörter kommen dann wieder dran.'))) return;
+    setPassDone(new Set());
+    updateExtras(e => ({ ...e, vocabPass: [] })).catch(() => {});
+  }
+
+  function startUeben() {
+    if (!vocabLoaded || practiceWords.length === 0) return;
+    setPracticeAll(true);
+    setItems(shuffle(practiceWords).map(v => {
       const ex = examples.get(norm(v.word));
       return makeItem(v.translation, v.word, ex?.text || v.example || '', v.id, getLevel(v), {
         de: ex?.de,
@@ -436,6 +510,12 @@ export default function VokabelnPage() {
         };
         next = [changed, ...vocab];
       }
+    } else if (practiceAll && correct && conf !== 'bekannt' && conf !== 'again') {
+      // Free practice: getting a word right ahead of time doesn't move its schedule
+      // (a known word stays known). Wrong answers and "Again"/"Easy" count as usual.
+      const idx = vocab.findIndex(v => v.id === item.vocabId);
+      changed = { ...vocab[idx], lastReviewed: now, reviewCount: vocab[idx].reviewCount + 1 };
+      next = vocab.map(v => (v.id === item.vocabId ? changed : v));
     } else {
       const idx = vocab.findIndex(v => v.id === item.vocabId);
       changed = { ...vocab[idx], level: newLevel, nextReview: nr, lastReviewed: now, reviewCount: vocab[idx].reviewCount + 1 };
@@ -443,6 +523,7 @@ export default function VokabelnPage() {
     }
 
     persistVocab(next, changed);
+    if (practiceAll) markPassed(norm(item.target));
     // Optimistically bump today's flashcard count so the goal moves per card.
     setStats(prev => {
       if (!prev) return prev;
@@ -742,7 +823,15 @@ export default function VokabelnPage() {
               {t('Keep learning →', 'Weiterlernen →')}
             </button>
           )}
-          {tab === 'wiederholen' && dueToday.length > 0 && (
+          {tab === 'wiederholen' && practiceAll && practiceWords.length > 0 && (
+            <button
+              onClick={startUeben}
+              className="px-4 py-2.5 bg-warn hover:bg-warn/90 text-white rounded-xl text-sm font-semibold transition-colors"
+            >
+              {t('Keep practising →', 'Weiter üben →')}
+            </button>
+          )}
+          {tab === 'wiederholen' && !practiceAll && dueToday.length > 0 && (
             <button
               onClick={startWiederholen}
               className="px-4 py-2.5 bg-warn hover:bg-warn/90 text-white rounded-xl text-sm font-semibold transition-colors"
@@ -891,6 +980,7 @@ export default function VokabelnPage() {
                   </button>
                   <QuizDirectionToggle value={quizDir} onChange={setQuizDir} flag={info.flag} />
                   <AutoplayToggle value={autoplay} onChange={setAutoplay} />
+                  <ListenToggle value={listenOnly} onChange={on => setListenSetting(on ? 'on' : 'off')} />
                 </div>
                 {addWordSection}
               </>
@@ -904,7 +994,8 @@ export default function VokabelnPage() {
         {tab === 'wiederholen' && (
           <div className="space-y-4">
             {phase === 'idle' ? (
-              dueToday.length === 0 ? (
+              <>
+              {dueToday.length === 0 ? (
                 <div className="text-center py-14">
                   <PartyPopper className="w-10 h-10 text-accent mx-auto mb-3" />
                   <p className="text-sm font-medium text-muted">{t('No words due today!', 'Heute ist nichts fällig!')}</p>
@@ -928,8 +1019,78 @@ export default function VokabelnPage() {
                   </button>
                   <QuizDirectionToggle value={quizDir} onChange={setQuizDir} flag={info.flag} />
                   <AutoplayToggle value={autoplay} onChange={setAutoplay} />
+                  <ListenToggle value={listenOnly} onChange={on => setListenSetting(on ? 'on' : 'off')} />
                 </div>
-              )
+              )}
+              {vocab.length > 0 && (
+                <div className="bg-surface rounded-xl border border-line p-5 space-y-4">
+                  <div>
+                    <p className="text-sm font-semibold text-ink">{t('Practise all words', 'Alle Wörter üben')}</p>
+                    <p className="text-sm text-muted mt-1">
+                      {t(
+                        `Any time, even if nothing is due: one pass through every word in mixed order. Stop whenever you like — your place is kept. Right answers don't change a word's phase; wrong ones send it back to review.`,
+                        `Jederzeit, auch wenn nichts fällig ist: ein Durchgang durch alle Wörter, gemischt. Du kannst jederzeit aufhören – der Stand bleibt gespeichert. Richtige Antworten ändern die Phase nicht, falsche schicken das Wort zurück in die Wiederholung.`,
+                      )}
+                    </p>
+                  </div>
+                  {pack.hasTopics && (
+                    <TopicPicker value={practiceTopic} onChange={setPracticeTopic} progress={practiceProgress} hideEmpty />
+                  )}
+                  <div className="flex gap-1 bg-line-soft rounded-xl p-1">
+                    {([
+                      ['all', `${t('All', 'Alle')} (${metWords.filter(inPracticeTopic).length})`],
+                      ['known', `${t('Only known', 'Nur gekonnte')} (${bekanntWords.filter(inPracticeTopic).length})`],
+                    ] as ['all' | 'known', string][]).map(([id, label]) => (
+                      <button
+                        key={id}
+                        onClick={() => setPracticePool(id)}
+                        className={`flex-1 py-2 text-xs font-medium rounded-lg transition-colors ${
+                          practicePool === id ? 'bg-surface text-ink shadow-sm' : 'text-muted hover:text-ink'
+                        }`}
+                      >
+                        {label}
+                      </button>
+                    ))}
+                  </div>
+                  {practicePoolWords.length > 0 && (
+                    <div>
+                      <div className="flex items-center justify-between gap-2 text-xs text-muted">
+                        <span>
+                          {practiceWords.length === 0
+                            ? t(`Pass complete — all ${practicePoolWords.length} words done`, `Durchgang geschafft – alle ${practicePoolWords.length} Wörter geübt`)
+                            : t(`${passCount} of ${practicePoolWords.length} done · ${practiceWords.length} to go`, `${passCount} von ${practicePoolWords.length} geübt · noch ${practiceWords.length}`)}
+                        </span>
+                        {passDone.size > 0 && (
+                          <button onClick={resetPass} className="font-semibold text-muted underline hover:text-ink shrink-0">
+                            {t('Reset', 'Zurücksetzen')}
+                          </button>
+                        )}
+                      </div>
+                      <div className="mt-1.5 h-1.5 bg-line-soft rounded-full overflow-hidden">
+                        <div
+                          className="h-full bg-warn rounded-full"
+                          style={{ width: `${Math.round((passCount / practicePoolWords.length) * 100)}%` }}
+                        />
+                      </div>
+                    </div>
+                  )}
+                  <button
+                    onClick={startUeben}
+                    disabled={practiceWords.length === 0 || !vocabLoaded}
+                    className="w-full py-3 border-2 border-warn text-warn hover:bg-warn-soft disabled:border-line disabled:text-faint disabled:hover:bg-transparent rounded-xl font-semibold transition-colors"
+                  >
+                    {passCount > 0 && practiceWords.length > 0 ? t('Continue →', 'Weitermachen →') : t('Start practising →', 'Üben starten →')}
+                  </button>
+                  {dueToday.length === 0 && (
+                    <>
+                      <QuizDirectionToggle value={quizDir} onChange={setQuizDir} flag={info.flag} />
+                      <AutoplayToggle value={autoplay} onChange={setAutoplay} />
+                      <ListenToggle value={listenOnly} onChange={on => setListenSetting(on ? 'on' : 'off')} />
+                    </>
+                  )}
+                </div>
+              )}
+              </>
             ) : (
               sessionView
             )}
@@ -1085,9 +1246,11 @@ function Flashcard({
 
   // Auto-play: read the word out as soon as the target-language side is visible —
   // right away when it's the question, otherwise once the answer is revealed.
+  // In listening mode the word is always read out at once (that *is* the question).
   useEffect(() => {
-    if (autoplay && (item.askTarget || checked)) speak(item.target, lang);
-  }, [autoplay, item.askTarget, item.target, checked, lang]);
+    if (item.listen && !checked) speak(item.target, lang);
+    else if (autoplay && (item.askTarget || checked)) speak(item.target, lang);
+  }, [autoplay, item.listen, item.askTarget, item.target, checked, lang]);
 
   const evaluation = checked ? checkWordAnswer(answer, item.answer, lang) : null;
   const flag = langInfo(lang).flag;
@@ -1158,12 +1321,36 @@ function Flashcard({
       {/* Question */}
       <div className="text-center pb-1">
         <p className="text-xs font-semibold text-muted uppercase tracking-wider">
-          {t('Translate', 'Übersetze')} {item.askTarget ? `${flag} → 🇩🇪` : `🇩🇪 → ${flag}`}
+          {item.listen
+            ? <span className="inline-flex items-center gap-1"><Headphones className="w-3.5 h-3.5" /> {t('Listen and translate', 'Hör zu und übersetze')} {flag} → 🇩🇪</span>
+            : <>{t('Translate', 'Übersetze')} {item.askTarget ? `${flag} → 🇩🇪` : `🇩🇪 → ${flag}`}</>}
         </p>
-        <p className="font-display text-4xl text-ink mt-2 inline-flex items-center gap-2 flex-wrap justify-center">
-          {item.question}
-          {item.askTarget && <SpeakButton text={item.target} lang={lang} size="md" />}
-        </p>
+        {item.listen && !checked ? (
+          <div className="mt-3 flex items-center justify-center gap-3">
+            <button
+              type="button"
+              onClick={() => { speak(item.target, lang); inputRef.current?.focus(); }}
+              aria-label={t('Play again', 'Nochmal abspielen')}
+              className="w-20 h-20 rounded-full bg-accent hover:bg-accent-strong text-white flex items-center justify-center shadow-sm transition-colors"
+            >
+              <Volume2 className="w-9 h-9" />
+            </button>
+            <button
+              type="button"
+              onClick={() => { speak(item.target, lang, { rate: SLOW_RATE }); inputRef.current?.focus(); }}
+              aria-label={t('Play slowly', 'Langsam abspielen')}
+              title={t('Play slowly', 'Langsam abspielen')}
+              className="w-12 h-12 rounded-full bg-accent-soft hover:bg-accent-soft/80 text-accent flex items-center justify-center transition-colors"
+            >
+              <Turtle className="w-6 h-6" />
+            </button>
+          </div>
+        ) : (
+          <p className="font-display text-4xl text-ink mt-2 inline-flex items-center gap-2 flex-wrap justify-center">
+            {item.question}
+            {item.askTarget && <SpeakButton text={item.target} lang={lang} size="md" />}
+          </p>
+        )}
       </div>
 
       {!checked ? (
@@ -1316,6 +1503,29 @@ function Flashcard({
       )}
       </div>
     </div>
+  );
+}
+
+// ─── Listening-mode toggle ────────────────────────────────────────────────────
+
+function ListenToggle({ value, onChange }: { value: boolean; onChange: (v: boolean) => void }) {
+  const t = useT();
+  if (!useSpeechSupported()) return null;
+  return (
+    <button
+      type="button"
+      onClick={() => onChange(!value)}
+      className="w-full flex items-center justify-between gap-3 px-3 py-2 rounded-xl bg-canvas text-xs text-muted hover:bg-line-soft transition-colors text-left"
+    >
+      <span className="inline-flex items-center gap-1.5">
+        <Headphones className="w-4 h-4 text-accent shrink-0" />
+        <span>
+          {t('Listening only', 'Nur hören')}
+          <span className="block text-[11px] text-faint">{t('The word is read out, not shown – type the German meaning', 'Das Wort wird nur vorgelesen – tippe die deutsche Bedeutung')}</span>
+        </span>
+      </span>
+      <span className={`font-semibold shrink-0 ${value ? 'text-good' : 'text-faint'}`}>{value ? t('On', 'An') : t('Off', 'Aus')}</span>
+    </button>
   );
 }
 

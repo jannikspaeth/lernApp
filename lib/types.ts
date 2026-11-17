@@ -112,6 +112,8 @@ export interface GrammarRecord {
   recentMistakes: GrammarMistake[]; // from the most recent attempt
   lastAttempted: string;
   mastered: boolean;    // true when the most recent attempt had no mistakes
+  level?: number;       // review level (lib/grammar-review.ts); missing on older records
+  nextReview?: string;  // ISO date the topic is due again
 }
 
 // ─── The Race (cross-user competitive vocab leaderboard) ───────────────────────
@@ -235,4 +237,5 @@ export interface UserExtras {
   numbers?: BlitzRecord;                  // numbers, times and dates
   phrases?: Record<string, PhraseRecord>; // by phrase id
   writing?: WritingProgress;
+  vocabPass?: string[];                   // "Practise all words": normWord keys done in the current pass
 }
