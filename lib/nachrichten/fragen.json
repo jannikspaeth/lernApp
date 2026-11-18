@@ -1,21 +1,5 @@
 [
  {
-  "id": "2026-05-01.welt.1",
-  "d": "2026-05-01",
-  "r": "welt",
-  "k": "Wirtschaft",
-  "q": "Welches Land trat am 1. Mai 2026 nach sechs Jahrzehnten aus der OPEC aus?",
-  "a": "Die Vereinigten Arabischen Emirate",
-  "w": [
-   "Saudi-Arabien",
-   "Katar",
-   "Venezuela"
-  ],
-  "i": "Die Emirate gehören zu den größten Ölproduzenten der Organisation.",
-  "src": "https://en.wikipedia.org/wiki/2026",
-  "p": 2
- },
- {
   "id": "2026-05-05.de.1",
   "d": "2026-05-05",
   "r": "de",
@@ -7757,6 +7741,326 @@
   ],
   "i": "Zudem sieht die WHO Nachholbedarf beim Infektionsschutz.",
   "src": "https://www.tagesschau.de/wissen/gesundheit/who-antibiotika-resistenzen-100.html",
+  "p": 2
+ },
+ {
+  "id": "2026-11-17.de.1",
+  "d": "2026-11-17",
+  "r": "de",
+  "k": "Politik",
+  "q": "Worüber berieten die Spitzen von Union und SPD am 17. November 2026 in einer Nachtsitzung des Koalitionsausschusses?",
+  "a": "Über die Finanzierung einer Senkung der Stromsteuer",
+  "w": [
+   "Über eine Erhöhung des Bürgergelds",
+   "Über die Abschaffung der Kfz-Steuer",
+   "Über eine Senkung der Mehrwertsteuer"
+  ],
+  "i": "Die Koalitionsspitzen suchten Milliarden, um die Stromsteuer senken zu können; Kanzler Merz wollte an einer Senkung für alle festhalten.",
+  "src": "https://www.tagesschau.de/inland/innenpolitik/koalitionsausschuss-stromsteuer-merz-100.html",
+  "p": 2
+ },
+ {
+  "id": "2026-11-17.de.2",
+  "d": "2026-11-17",
+  "r": "de",
+  "k": "Politik",
+  "q": "Wie viel Ordnungsgeld muss die Linken-Abgeordnete Köktürk nach drei Ordnungsrufen im Bundestag laut einer Meldung vom 17. November 2026 zahlen?",
+  "a": "2.000 Euro",
+  "w": [
+   "500 Euro",
+   "5.000 Euro",
+   "10.000 Euro"
+  ],
+  "i": "Drei Ordnungsrufe reichten aus, damit gegen die Abgeordnete ein Ordnungsgeld fällig wurde.",
+  "src": "https://www.tagesschau.de/inland/innenpolitik/ordnungsgeld-koektuerk-bundestag-100.html",
+  "p": 1
+ },
+ {
+  "id": "2026-11-17.de.3",
+  "d": "2026-11-17",
+  "r": "de",
+  "k": "Wirtschaft",
+  "q": "Was tat die EU-Kommission am 17. November 2026 mit ihrer Konjunkturprognose für Deutschland?",
+  "a": "Sie hob sie stark an",
+  "w": [
+   "Sie senkte sie deutlich",
+   "Sie ließ sie unverändert",
+   "Sie setzte sie aus"
+  ],
+  "i": "Die Prognose für Deutschland wurde nach Angaben der tagesschau-Meldung stark nach oben korrigiert.",
+  "src": "https://www.tagesschau.de/wirtschaft/konjunktur/eu-kommission-wachstumsprognose-deutschland-100.html",
+  "p": 2
+ },
+ {
+  "id": "2026-11-17.de.4",
+  "d": "2026-11-17",
+  "r": "de",
+  "k": "Umwelt",
+  "q": "Wie hoch war der Anteil erneuerbarer Quellen am eingespeisten Strom in Deutschland laut einer Auswertung vom 17. November 2026?",
+  "a": "Fast 60 Prozent",
+  "w": [
+   "Gut 30 Prozent",
+   "Rund 45 Prozent",
+   "Über 80 Prozent"
+  ],
+  "i": "Der Anteil der Erneuerbaren am eingespeisten Strom wächst weiter.",
+  "src": "https://www.tagesschau.de/wirtschaft/energie/stromerzeugung-erneuerbare-energien-106.html",
+  "p": 2
+ },
+ {
+  "id": "2026-11-17.de.5",
+  "d": "2026-11-17",
+  "r": "de",
+  "k": "Gesellschaft",
+  "q": "Welches Bundesland ist laut dem Glücksatlas, über den am 17. November 2026 berichtet wurde, am zufriedensten?",
+  "a": "Bayern",
+  "w": [
+   "Schleswig-Holstein",
+   "Hamburg",
+   "Nordrhein-Westfalen"
+  ],
+  "i": "Insgesamt sank die Lebenszufriedenheit in Deutschland erstmals seit 2021 wieder leicht.",
+  "src": "https://www.tagesschau.de/inland/gesellschaft/gluecksatlas-166.html",
+  "p": 2
+ },
+ {
+  "id": "2026-11-17.de.6",
+  "d": "2026-11-17",
+  "r": "de",
+  "k": "Umwelt",
+  "q": "Wo zeigen sich nach einem Brand Mitte November 2026 erste Pflanzen als Zeichen der Erholung auf einer verwüsteten Landschaft?",
+  "a": "Im Hürtgenwald",
+  "w": [
+   "Im Harz",
+   "In der Sächsischen Schweiz",
+   "Im Schwarzwald"
+  ],
+  "i": "Der Brand im Hürtgenwald hinterließ eine verwüstete Landschaft, doch erste Pflanzen deuten auf eine Erholung der Natur hin.",
+  "src": "https://www.tagesschau.de/inland/gesellschaft/klimawandel-huertgenwald-zukunft-100.html",
+  "p": 1
+ },
+ {
+  "id": "2026-11-17.de.7",
+  "d": "2026-11-17",
+  "r": "de",
+  "k": "Recht",
+  "q": "Für welches Land soll ein in Brandenburg festgenommener mutmaßlicher Spion gearbeitet haben, über dessen Fall ARD und SWR am 17. November 2026 berichteten?",
+  "a": "Russland",
+  "w": [
+   "China",
+   "Iran",
+   "Nordkorea"
+  ],
+  "i": "Die Recherchen von ARD-Hauptstadtstudio und SWR verdeutlichen den Umfang des mutmaßlichen Verrats.",
+  "src": "https://www.tagesschau.de/inland/gesellschaft/spion-russland-festnahme-brandenburg-100.html",
+  "p": 2
+ },
+ {
+  "id": "2026-11-17.de.8",
+  "d": "2026-11-17",
+  "r": "de",
+  "k": "Gesellschaft",
+  "q": "Was beantragen laut einer Meldung vom 17. November 2026 deutlich mehr Menschen in Deutschland vor der geplanten Reform?",
+  "a": "Pflegegutachten",
+  "w": [
+   "Wohngeld",
+   "Elterngeld",
+   "Schwerbehindertenausweise"
+  ],
+  "i": "Die geplanten Einschnitte führen offenbar dazu, dass mehr Menschen versuchen, einen Pflegegrad zu bekommen.",
+  "src": "https://www.tagesschau.de/inland/gesellschaft/starker-anstieg-bei-pflegegutachten-vor-geplanter-reform-100.html",
+  "p": 1
+ },
+ {
+  "id": "2026-11-17.de.9",
+  "d": "2026-11-17",
+  "r": "de",
+  "k": "Sport",
+  "q": "Welchen Erfolg erzielte Tennisprofi Alexander Zverev am 17. November 2026 bei den ATP Finals?",
+  "a": "Den vorzeitigen Einzug ins Halbfinale",
+  "w": [
+   "Den Turniersieg",
+   "Das Aus in der Gruppenphase",
+   "Den Einzug ins Finale"
+  ],
+  "i": "Zverev sicherte sich nach seinem Spiel gegen Ben Shelton schon vor dem letzten Gruppenspiel das Halbfinale.",
+  "src": "https://www.sportschau.de/tennis/zverev-vorzeitig-im-finals-halbfinale,spielbericht-zverev-shelton-102.html",
+  "p": 2
+ },
+ {
+  "id": "2026-11-17.de.10",
+  "d": "2026-11-17",
+  "r": "de",
+  "k": "Sport",
+  "q": "Gegen welches Land spielten die deutschen Basketballerinnen am 17. November 2026 in der EM-Qualifikation?",
+  "a": "Portugal",
+  "w": [
+   "Spanien",
+   "Frankreich",
+   "Italien"
+  ],
+  "i": "Laut Sportschau machte das deutsche Team damit einen großen Schritt zur EM-Qualifikation.",
+  "src": "https://www.sportschau.de/basketball/nationalmannschaft/deutschland-macht-grossen-schritt-zur-em-qualifikation,spielbericht-basketball-frauen-portugal-deutschland-100.html",
+  "p": 1
+ },
+ {
+  "id": "2026-11-17.welt.1",
+  "d": "2026-11-17",
+  "r": "welt",
+  "k": "Politik",
+  "q": "Wer gewann zwei Wochen nach dem Wahltag die Senatswahl im US-Bundesstaat Alaska, wie am 17. November 2026 gemeldet wurde?",
+  "a": "Die Demokratin Mary Peltola",
+  "w": [
+   "Der Republikaner Dan Sullivan",
+   "Die Republikanerin Lisa Murkowski",
+   "Der Demokrat Mark Begich"
+  ],
+  "i": "Peltola besiegte den bisherigen Senator Dan Sullivan und baute damit den demokratischen Vorsprung im Senat weiter aus.",
+  "src": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_17",
+  "p": 3
+ },
+ {
+  "id": "2026-11-17.welt.2",
+  "d": "2026-11-17",
+  "r": "welt",
+  "k": "Politik",
+  "q": "Welches Land ist von der Rücktrittsankündigung des Präsidenten Ukhnaagiin Khürelsüch am 17. November 2026 betroffen?",
+  "a": "Die Mongolei",
+  "w": [
+   "Kirgisistan",
+   "Nepal",
+   "Georgien"
+  ],
+  "i": "Zuvor hatte ihn ein früherer Bürgermeister von Ulaanbaatar der Veruntreuung bei einem Bahnprojekt beschuldigt; das Parlament muss den Rücktritt annehmen.",
+  "src": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_17",
+  "p": 3
+ },
+ {
+  "id": "2026-11-17.welt.3",
+  "d": "2026-11-17",
+  "r": "welt",
+  "k": "Politik",
+  "q": "Wer hatte die Wahl in Serbien gewonnen, deren neues Parlament am 17. November 2026 erstmals zusammentrat?",
+  "a": "Die Studentenliste",
+  "w": [
+   "Die Serbische Fortschrittspartei",
+   "Die Sozialistische Partei Serbiens",
+   "Die Demokratische Partei"
+  ],
+  "i": "Die tagesschau sprach von einem historischen Wahlsieg der Studentenbewegung und einem Neustart für Serbiens Politik.",
+  "src": "https://www.tagesschau.de/ausland/europa/serbien-parlament-konstituierung-100.html",
+  "p": 3
+ },
+ {
+  "id": "2026-11-17.welt.4",
+  "d": "2026-11-17",
+  "r": "welt",
+  "k": "Wirtschaft",
+  "q": "Welche Länder einigten sich am 17. November 2026 vor dem APEC-Gipfel in Shenzhen auf weitere Zollsenkungen?",
+  "a": "Kanada und China",
+  "w": [
+   "Japan und Südkorea",
+   "Australien und Indien",
+   "Mexiko und Brasilien"
+  ],
+  "i": "Nach Gesprächen von Premier Mark Carney mit Xi Jinping senkte China Zölle auf kanadische Exporte im Wert von 400 Millionen kanadischen Dollar.",
+  "src": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_17",
+  "p": 2
+ },
+ {
+  "id": "2026-11-17.welt.5",
+  "d": "2026-11-17",
+  "r": "welt",
+  "k": "Wissenschaft",
+  "q": "Welches Land verlor nach Bolivien und Mexiko am 17. November 2026 laut der Panamerikanischen Gesundheitsorganisation ebenfalls den Masern-Eliminationsstatus?",
+  "a": "Die USA",
+  "w": [
+   "Argentinien",
+   "Chile",
+   "Peru"
+  ],
+  "i": "Die Organisation nannte für die USA über zwölf Monate anhaltende Übertragung im Land bei mehr als 5.700 Infektionen im Jahr 2026.",
+  "src": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_17",
+  "p": 3
+ },
+ {
+  "id": "2026-11-17.welt.6",
+  "d": "2026-11-17",
+  "r": "welt",
+  "k": "Katastrophen",
+  "q": "Wie viele Menschen kamen am 17. November 2026 beim Absturz einer russischen Antonow An-12 bei Kemerowo ums Leben?",
+  "a": "19",
+  "w": [
+   "8",
+   "31",
+   "54"
+  ],
+  "i": "Alle Menschen an Bord der Maschine der russischen Luftwaffe starben.",
+  "src": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_17",
+  "p": 2
+ },
+ {
+  "id": "2026-11-17.welt.7",
+  "d": "2026-11-17",
+  "r": "welt",
+  "k": "Katastrophen",
+  "q": "In welcher Stadt stießen am 17. November 2026 zwei Personenzüge auf einer Brücke zusammen, wobei mehr als 40 Menschen verletzt wurden?",
+  "a": "In Prag",
+  "w": [
+   "In Wien",
+   "In Budapest",
+   "In Warschau"
+  ],
+  "i": "Der Unfall ereignete sich am Prager Hauptbahnhof; nach Angaben der BBC wurden 46 Menschen verletzt.",
+  "src": "https://www.tagesschau.de/ausland/europa/tschechien-zug-unglueck-100.html",
+  "p": 2
+ },
+ {
+  "id": "2026-11-17.welt.8",
+  "d": "2026-11-17",
+  "r": "welt",
+  "k": "Konflikte",
+  "q": "Welches Bauwerk wurde am 17. November 2026 den zweiten Tag in Folge von ukrainischen Drohnen getroffen?",
+  "a": "Die Krim-Brücke",
+  "w": [
+   "Das Kernkraftwerk Saporischschja",
+   "Die Ölraffinerie von Wolgograd",
+   "Der Moskauer Flughafen Wnukowo"
+  ],
+  "i": "Zwei Menschen starben, der Fahrzeugverkehr wurde erneut gesperrt; ein Abschnitt der Straßenbrücke soll in die Meerenge von Kertsch gestürzt sein.",
+  "src": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_17",
+  "p": 3
+ },
+ {
+  "id": "2026-11-17.welt.9",
+  "d": "2026-11-17",
+  "r": "welt",
+  "k": "Wissenschaft",
+  "q": "Womit begründete Apple am 17. November 2026 den Ausfall mehrerer Dienste wie Apple Pay und iCloud?",
+  "a": "Mit einem internen Update",
+  "w": [
+   "Mit einem Cyberangriff",
+   "Mit einem Stromausfall im Rechenzentrum",
+   "Mit einem Hackerangriff auf Zulieferer"
+  ],
+  "i": "Ein Cyberangriff wurde vom Unternehmen ausdrücklich ausgeschlossen.",
+  "src": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_17",
+  "p": 1
+ },
+ {
+  "id": "2026-11-17.welt.10",
+  "d": "2026-11-17",
+  "r": "welt",
+  "k": "Sport",
+  "q": "Welche Mannschaft zog am 17. November 2026 durch ein Spiel gegen Dänemark ins Viertelfinale der Nations League ein?",
+  "a": "Norwegen",
+  "w": [
+   "Schweden",
+   "Island",
+   "Finnland"
+  ],
+  "i": "Ein Elfmeter brachte Norwegen laut Sportschau-Spielbericht ins Viertelfinale.",
+  "src": "https://www.sportschau.de/fussball/nationsleague/elfmeter-geschenk-bringt-norwegen-ins-viertelfinale,spielbericht-daenemark-norwegen-100.html",
   "p": 2
  }
 ]
