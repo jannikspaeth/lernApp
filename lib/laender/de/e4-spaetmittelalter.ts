@@ -124,7 +124,7 @@ export const E4: Epoch = {
               ['Brauchte der gewählte König nach der Goldenen Bulle die Zustimmung des Papstes?', 'Nein', ['Ja, immer', 'Nur bei Krieg', 'Nur in Italien']],
               ['Welchen Beinamen trägt Karls Sohn Wenzel?', '„Der Faule“', ['„Der Weise“', '„Der Starke“', '„Der Heilige“']],
               ['Bis wann galt die Goldene Bulle?', '1806', ['1500', '1648', '1918']],
-              ['Welcher jüngere Sohn Karls IV. wurde später ebenfalls Kaiser?', 'Sigismund', ['Ruprecht von der Pfalz', 'Jobst von Mähren', 'Albrecht II.']],
+              ['Welcher König gehörte nach der Goldenen Bulle zu den Kurfürsten?', 'Der König von Böhmen', ['Der König von Frankreich', 'Der König von Ungarn', 'Der König von Polen']],
               ['Wo wuchs Karl IV. auf?', 'Am französischen Königshof in Paris', ['In einem Kloster in Rom', 'In Wien', 'In London']],
               ['Wie entschied sich die Königswahl nach der Goldenen Bulle?', 'Mit der Mehrheit der Stimmen', ['Einstimmig', 'Per Los', 'Durch Zweikampf']],
               ['In welcher Stadt sollte der erste Reichstag eines neuen Königs stattfinden?', 'Nürnberg', ['Frankfurt', 'Aachen', 'Regensburg']],
