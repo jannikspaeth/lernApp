@@ -135,7 +135,7 @@ export const E2: Epoch = {
               ['Wie heißt der Kompromiss der US-Verfassung, der Sklaven nur teilweise mitzählte?', 'Drei-Fünftel-Kompromiss', ['Missouri-Kompromiss', 'Kompromiss von Gent', 'Kompromiss von 1850']],
               ['Wann kam die Bill of Rights hinzu?', '1791', ['1787', '1789', '1803']],
               ['Wer stand an der Spitze der ersten Parteien in den USA?', 'Hamilton und Jefferson', ['Washington und Adams', 'Lincoln und Douglas', 'Franklin und Paine']],
-              ['Worauf ist die Dolmetscherin Sacagawea heute abgebildet?', 'Auf einer Dollarmünze', ['Auf dem Zehndollarschein', 'Auf der Freiheitsstatue', 'Auf der Flagge von Montana']],
+              ['Auf welchem Zahlungsmittel erinnert man heute an die Dolmetscherin Sacagawea?', 'Auf einer Dollarmünze', ['Auf dem Zehndollarschein', 'Auf der Freiheitsstatue', 'Auf der Flagge von Montana']],
               ['Wie viel zahlten die USA für Louisiana?', '15 Millionen Dollar', ['15.000 Dollar', '1,5 Milliarden Dollar', '150 Dollar']],
               ['Was bewirkte der Louisiana-Kauf?', 'Er verdoppelte die Fläche der USA', ['Er halbierte sie', 'Er brachte Kanada', 'Nichts']],
               ['Wo lag das riesige Gebiet Louisiana, das die USA kauften?', 'Westlich des Mississippi', ['Östlich des Mississippi', 'In Kanada', 'In Alaska']],

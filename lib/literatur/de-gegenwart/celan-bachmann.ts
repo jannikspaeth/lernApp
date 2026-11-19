@@ -46,7 +46,7 @@ export const CELAN_BACHMANN: Subtopic = {
       ['Warum heißt das Gedicht „Todesfuge“?', 'Die Bilder kehren wieder und verschränken sich wie in einer Fuge', ['Es handelt von einem Komponisten', 'Es wurde vertont', 'Es hat drei Strophen'], null],
       ['Worunter litt Paul Celan jahrelang?', 'Unter dem falschen Vorwurf des Abschreibens', ['Unter Geldnot', 'Unter einem Schreibverbot', 'Unter dem Verlust seiner Bibliothek'], null],
       ['Wie starb Celan?', 'Er nahm sich 1970 in der Seine das Leben', ['An einer Krankheit', 'Bei einem Unfall', 'Im Lager'], null],
-      ['Welche Bände stehen für Celans Spätwerk?', 'Sprachgitter und Atemwende', ['Die gestundete Zeit und Malina', 'Mohn und Gedächtnis', 'Herzzeit'], null],
+      ['Welche Bände stehen für Celans Spätwerk?', 'Sprachgitter und Atemwende', ['Die gestundete Zeit und Malina', 'Die Blechtrommel und Katz und Maus', 'Herzzeit'], null],
       ['Was geschah nach Bachmanns zweitem Gedichtband „Anrufung des Großen Bären“?', 'Bachmann veröffentlichte kaum noch Gedichte', ['Sie hörte ganz auf zu schreiben', 'Sie schrieb nur noch Gedichte', 'Sie wurde Journalistin'], 'Sie wandte sich Hörspielen, Erzählungen und dem Roman zu.'],
       ['Mit welchem Schriftsteller lebte Bachmann zusammen?', 'Mit Max Frisch', ['Mit Heinrich Böll', 'Mit Paul Celan', 'Mit Günter Grass'], null],
       ['Wie starb Ingeborg Bachmann?', 'An den Folgen eines Brandes in ihrer Wohnung in Rom', ['Bei einem Autounfall', 'An einer Krankheit in Wien', 'Im Krieg'], null],

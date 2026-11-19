@@ -45,7 +45,7 @@ export const STORM_KELLER: Subtopic = {
       ['Welche Stimmung prägt Theodor Storms Erzählen?', 'Wehmut und Erinnerung', ['Spott und Satire', 'Zorn und Anklage', 'Heiterkeit'], null],
       ['Welche Macht steht bei Theodor Storm immer im Hintergrund?', 'Die Natur, besonders das Meer', ['Der Staat', 'Die Kirche', 'Das Geld'], null],
       ['Warum wehrt sich das Dorf im „Schimmelreiter“ gegen Hauke?', 'Es misstraut dem Neuen und dem Aufsteiger', ['Es ist zu arm', 'Der Deich ist verboten', 'Der Pfarrer verbietet es'], null],
-      ['Welche Erzählform nutzt der „Schimmelreiter“?', 'Eine Rahmenerzählung', ['Einen Briefwechsel', 'Ein Tagebuch', 'Einen inneren Monolog'], null],
+      ['Wo studierte Gottfried Keller, nachdem sein Malerplan gescheitert war?', 'In Heidelberg und Berlin', ['In Zürich und Bern', 'In Wien und Prag', 'In Paris und Rom']],
       ['Was prägt Gottfried Kellers Erzählen?', 'Humor und Ironie', ['Pathos', 'Düsternis', 'Sachliche Kälte'], null],
       ['Woran scheitern die Liebenden in Kellers Dorfnovelle?', 'Am Streit und Besitzdenken ihrer Väter', ['An einer Krankheit', 'An der Kirche', 'An einem Krieg'], null],
       ['Was zeigt Kellers „Kleider machen Leute“ über die Gesellschaft?', 'Sie urteilt nach dem äußeren Schein', ['Sie belohnt Fleiß', 'Sie schützt die Armen', 'Sie prüft genau'], null],

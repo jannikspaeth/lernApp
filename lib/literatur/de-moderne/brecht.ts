@@ -10,7 +10,7 @@ export const BRECHT: Subtopic = {
     'Dafür entwickelte er das epische Theater. Der Zuschauer soll sich nicht in die Figuren einfühlen, sondern ihr Verhalten prüfen. Dazu dient der Verfremdungseffekt: Songs unterbrechen die Handlung, Spruchbänder verraten vorher, was geschehen wird, Schauspieler treten aus der Rolle, die Bühne zeigt ihre Technik offen. „Es ist nicht so, dass es so sein muss“, lautet die Grundhaltung: Die Verhältnisse sind von Menschen gemacht und von Menschen zu ändern.',
     '1933, am Tag nach dem Reichstagsbrand, verließ Brecht Deutschland. Sein Exil führte ihn über Dänemark, Schweden und Finnland bis in die USA. In diesen Jahren entstanden seine wichtigsten Stücke: „Mutter Courage und ihre Kinder“ über eine Marketenderin, die im Dreißigjährigen Krieg vom Krieg leben will und dabei alle drei Kinder verliert; „Leben des Galilei“ über den Forscher, der seine Lehre widerruft; „Der gute Mensch von Sezuan“, in dem eine Frau nur gut bleiben kann, indem sie sich als harter Vetter verkleidet; und „Der kaukasische Kreidekreis“.',
     '1947 musste Brecht sich in Washington vor dem Ausschuss für unamerikanische Umtriebe verantworten und verließ die USA einen Tag später. 1949 ging er nach Ost-Berlin und gründete mit seiner Frau, der Schauspielerin Helene Weigel, das Berliner Ensemble, das bald als eines der besten Theater Europas galt. Nach dem Aufstand vom 17. Juni 1953 schrieb er das Gedicht „Die Lösung“ mit dem bitteren Vorschlag, die Regierung solle sich ein anderes Volk wählen.',
-    'Brecht war auch ein großer Lyriker: „Erinnerung an die Marie A.“, „Fragen eines lesenden Arbeiters“ und die „Buckower Elegien“ zeigen eine klare, einfache Sprache, die dennoch genau zielt. Er starb 1956 in Berlin. Seine Stücke gehören bis heute zu den meistgespielten der Welt, und das epische Theater veränderte die Bühne international.',
+    'Brecht war auch ein großer Lyriker: „Erinnerung an die Marie A.“, „Fragen eines lesenden Arbeiters“ („Wer baute das siebentorige Theben?“) und die „Buckower Elegien“ zeigen eine klare, einfache Sprache, die dennoch genau zielt. Er starb 1956 in Berlin. Seine Stücke gehören bis heute zu den meistgespielten der Welt, und das epische Theater veränderte die Bühne international.',
   ],
   quiz: {
     leicht: [
@@ -19,7 +19,7 @@ export const BRECHT: Subtopic = {
       ['Welches Lied aus der „Dreigroschenoper“ wurde weltberühmt?', 'Die Moritat von Mackie Messer', ['Die Seeräuber-Jenny', 'Das Lied von der Unzulänglichkeit', 'Der Kanonen-Song'], null],
       ['Wie heißt Brechts Theaterform?', 'Das epische Theater', ['Das absurde Theater', 'Das Naturalistische Theater', 'Das Dokumentartheater'], null],
       ['Wie heißt Brechts berühmtes Mittel?', 'Der Verfremdungseffekt', ['Der Sekundenstil', 'Die Montage', 'Der innere Monolog'], null],
-      ['In welcher Stadt hatte Brecht 1928 seinen großen Durchbruch?', 'In Berlin', ['In München', 'In Augsburg', 'In Wien'], 'Dort wurde die „Dreigroschenoper“ uraufgeführt.'],
+      ['In welcher Stadt hatte Brecht mit der „Dreigroschenoper“ seinen großen Durchbruch?', 'In Berlin', ['In München', 'In Augsburg', 'In Wien'], 'Dort wurde die „Dreigroschenoper“ uraufgeführt.'],
       ['In welchem Krieg spielt „Mutter Courage“?', 'Im Dreißigjährigen Krieg', ['Im Ersten Weltkrieg', 'Im Zweiten Weltkrieg', 'Im Siebenjährigen Krieg'], null],
       ['Was verliert Mutter Courage in Brechts Stück?', 'Alle drei Kinder', ['Ihren Wagen', 'Ihr Geld', 'Ihre Heimat'], null],
       ['Welches Stück handelt von einem Forscher, der widerruft?', 'Leben des Galilei', ['Mutter Courage', 'Der gute Mensch von Sezuan', 'Die Dreigroschenoper'], null],
@@ -50,7 +50,7 @@ export const BRECHT: Subtopic = {
       ['Welchen Konflikt zeigt „Leben des Galilei“?', 'Verantwortung der Wissenschaft gegenüber der Macht', ['Liebe gegen Pflicht', 'Arm gegen Reich', 'Jung gegen Alt'], null],
       ['Welche Weltanschauung vertrat Brecht?', 'Den Marxismus', ['Den Existenzialismus', 'Den Katholizismus', 'Den Liberalismus'], null],
       ['Wie ist Brechts lyrische Sprache?', 'Klar und einfach, aber genau zielend', ['Verschlungen und dunkel', 'Pathetisch und feierlich', 'Mundartlich und derb'], null],
-      ['Welches Gedicht fragt nach den Erbauern der Pyramiden und Mauern?', 'Fragen eines lesenden Arbeiters', ['An die Nachgeborenen', 'Die Lösung', 'Erinnerung an die Marie A.'], 'Es fragt, wer die großen Bauten wirklich errichtet hat.'],
+      ['Welches Gedicht fragt, wer das siebentorige Theben baute?', 'Fragen eines lesenden Arbeiters', ['An die Nachgeborenen', 'Die Lösung', 'Erinnerung an die Marie A.']],
       ['Welche Wirkung hatte Brechts episches Theater?', 'Es veränderte die Bühne international', ['Es blieb auf Berlin beschränkt', 'Es wurde schnell vergessen', 'Es betraf nur die Oper'], null],
     ],
   },

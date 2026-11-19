@@ -50,7 +50,7 @@ export const HEINE: Subtopic = {
       ['Welchen Kehrreim hat „Die schlesischen Weber“?', '„Wir weben, wir weben“', ['„Wir klagen, wir klagen“', '„Wir hungern, wir hungern“', '„Wir warten, wir warten“'], null],
       ['Warum blieb Heine in Deutschland wie in Frankreich Außenseiter?', 'Er galt in beiden Ländern als fremd', ['Er sprach kein Französisch', 'Er lehnte alle Freunde ab', 'Er war ein Adliger'], null],
       ['Wogegen kämpfte Heine mit seiner Feder?', 'Gegen Fürstenherrschaft, Nationalismus und Spießertum', ['Gegen die Industrialisierung', 'Gegen die Franzosen', 'Gegen die Demokratie'], null],
-      ['Wie verhält sich Heine zur Romantik?', 'Er nutzt ihre Formen und bricht sie ironisch', ['Er lehnt sie völlig ab', 'Er führt sie unverändert fort', 'Er kennt sie nicht'], null],
+      ['Aus welcher frühen Tragödie Heines stammt der Satz über Bücherverbrennungen?', '„Almansor“', ['„Ratcliff“', '„Atta Troll“', '„Romanzero“']],
       ['Wie lange lag Heine in der Matratzengruft?', 'Acht Jahre', ['Acht Monate', 'Zwei Jahre', 'Zwanzig Jahre'], 'Er schrieb in dieser Zeit weiter.'],
     ],
   },

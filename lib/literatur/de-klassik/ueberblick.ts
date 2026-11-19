@@ -33,7 +33,7 @@ export const UEBERBLICK: Subtopic = {
       ['Welche Fürstin machte Weimar zum geistigen Zentrum?', 'Anna Amalia', ['Maria Theresia', 'Katharina die Große', 'Luise von Preußen'], 'Ihre Bibliothek trägt heute ihren Namen.'],
       ['Wann begann die Freundschaft zwischen Goethe und Schiller?', '1794', ['1774', '1784', '1804'], null],
       ['Wie viele Briefe wechselten Goethe und Schiller etwa?', 'Über 1.000', ['Rund 50', 'Rund 100', 'Über 10.000'], null],
-      ['Welche Schrift Schillers behandelt die Erziehung durch Kunst?', 'Über die ästhetische Erziehung des Menschen', ['Die Räuber', 'Der Geisterseher', 'Vom Erhabenen'], 'Sie erschien 1795.'],
+      ['Was gaben Goethe und Schiller gemeinsam heraus?', 'Zeitschriften', ['Eine Enzyklopädie', 'Ein Wörterbuch', 'Eine Bibelübersetzung']],
       ['Wie nannte Schiller den Menschen, bei dem Pflicht und Neigung übereinstimmen?', 'Eine schöne Seele', ['Einen Helden', 'Einen Weisen', 'Einen Bürger'], null],
       ['Wer prägte den Satz von der „edlen Einfalt und stillen Größe“?', 'Johann Joachim Winckelmann', ['Herder', 'Lessing', 'Goethe'], 'Er beschrieb damit die griechische Kunst.'],
       ['Welche Versform herrscht im klassischen Drama?', 'Der Blankvers', ['Der Alexandriner', 'Der Knittelvers', 'Der Hexameter'], null],
@@ -51,7 +51,7 @@ export const UEBERBLICK: Subtopic = {
       ['Welche Ballade schrieb Goethe im Balladenjahr?', 'Der Zauberlehrling', ['Der Taucher', 'Die Bürgschaft', 'Der Handschuh'], null],
       ['Was heißt Humanität im Sinne der Klassik?', 'Die harmonische Ausbildung aller Kräfte des Menschen', ['Mitleid mit den Armen', 'Treue zum Fürsten', 'Glaube an Gott'], null],
       ['In welchen beiden italienischen Städten lebte Goethe während seiner Reise vor allem?', 'In Rom und Neapel', ['In Florenz und Venedig', 'In Mailand und Turin', 'In Genua und Pisa'], null],
-      ['Wie stand Goethe zur Romantik?', 'Goethe stand ihr kritisch gegenüber', ['Er förderte sie', 'Er erfand sie', 'Er kannte sie nicht'], 'Er sah darin eine Abkehr vom Maß der Antike.'],
+      ['Ab wann lebte Schiller in Weimar?', 'Ab 1799', ['Ab 1775', 'Ab 1786', 'Ab 1805']],
     ],
   },
 };
