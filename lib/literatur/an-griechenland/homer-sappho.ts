@@ -43,7 +43,7 @@ export const HOMER_SAPPHO: Subtopic = {
     ],
     schwer: [
       ['Warum zweifeln manche daran, dass es Homer gab?', 'Die Epen könnten aus einer langen Sängertradition stammen', ['Es gibt keine Texte', 'Er schrieb in Latein', 'Sie sind zu kurz'], null],
-      ['Wie wurden die Epen zuerst vorgetragen?', 'Mündlich, aus dem Gedächtnis, im Hexameter', ['Auf der Bühne', 'Als Prosa', 'Auf Papyrus gelesen'], null],
+      ['Wie viele Städte stritten sich in der Antike darum, Homers Heimat zu sein?', 'Sieben', ['Zwei', 'Zwölf', 'Hundert']],
       ['Was zeigt in der „Ilias“ die Rückgabe von Hektors Leichnam?', 'Mitgefühl zwischen Feinden', ['Rache', 'Sieg', 'Strafe'], null],
       ['Was zeigt die „Ilias“ über den Krieg?', 'Seine Größe und Sinnlosigkeit', ['Nur seinen Ruhm', 'Nur die Beute', 'Nur die Strategie'], null],
       ['Welche Eigenschaft zeichnet Odysseus aus?', 'Er ist listenreich', ['Er ist jähzornig', 'Er ist stark', 'Er ist unsterblich'], null],

@@ -16,8 +16,8 @@ export const UEBERBLICK: Subtopic = {
     leicht: [
       ['Wer ist auf diesem Porträt zu sehen?', 'Vergil', ['Ovid', 'Horaz', 'Cicero'], null, 'vergil'],
       ['Wer ist auf diesem Porträt zu sehen?', 'Ovid', ['Vergil', 'Horaz', 'Seneca'], null, 'ovid'],
-      ['Wer ist auf diesem Porträt zu sehen?', 'Cicero', ['Caesar', 'Seneca', 'Vergil'], null, 'cicero'],
-      ['In welcher Sprache schrieben die Römer?', 'Latein', ['Griechisch', 'Etruskisch', 'Italienisch'], null],
+      ['Welcher Grieche führte in Rom das erste Theaterstück in lateinischer Sprache auf?', 'Livius Andronicus', ['Plautus', 'Ennius', 'Terenz']],
+      ['Wie heißt ein großzügiger Geldgeber nach dem Förderer der Dichter unter Augustus?', 'Mäzen', ['Sponsor', 'Patron', 'Gönner']],
       ['Welches Epos schrieb Vergil?', 'Die Aeneis', ['Die Ilias', 'Die Metamorphosen', 'Das Satyricon'], null],
       ['Wer schrieb die „Metamorphosen“?', 'Ovid', ['Vergil', 'Horaz', 'Catull'], null],
       ['Wer schrieb Liebesgedichte an Lesbia?', 'Catull', ['Horaz', 'Ovid', 'Martial'], null],
@@ -28,7 +28,7 @@ export const UEBERBLICK: Subtopic = {
       ['Wer verfasste Tragödien und Briefe und war Lehrer Neros?', 'Seneca', ['Tacitus', 'Juvenal', 'Livius'], null],
     ],
     mittel: [
-      ['Wann führte Livius Andronicus das erste lateinische Stück auf?', '240 v. Chr.', ['500 v. Chr.', '44 v. Chr.', '100 n. Chr.'], null],
+      ['Wann wurde in Rom das erste Theaterstück in lateinischer Sprache aufgeführt?', '240 v. Chr.', ['500 v. Chr.', '44 v. Chr.', '100 n. Chr.']],
       ['Wer schrieb Komödien nach griechischen Vorbildern?', 'Plautus und Terenz', ['Vergil und Horaz', 'Ovid und Catull', 'Cicero und Caesar'], null],
       ['Welcher Dichter erzählte Roms Geschichte in Versen?', 'Ennius', ['Ovid', 'Martial', 'Juvenal'], null],
       ['Womit erklärt Lukrez die Welt?', 'Mit Atomen', ['Mit dem Willen der Götter', 'Mit Zahlen', 'Mit den vier Elementen'], null],

@@ -34,7 +34,7 @@ export const VERGIL_HORAZ: Subtopic = {
       ['Wie viele Bücher hat Vergils „Aeneis“?', 'Zwölf', ['Vier', 'Vierundzwanzig', 'Hundert'], null],
       ['Wie lange arbeitete Vergil an der „Aeneis“?', 'Elf Jahre', ['Ein Jahr', 'Fünf Jahre', 'Dreißig Jahre'], null],
       ['Was wollte Vergil vor seinem Tod mit der unvollendeten „Aeneis“ tun?', 'Sie verbrennen', ['Sie verkaufen', 'Sie übersetzen', 'Sie vorlesen'], 'Augustus ordnete die Veröffentlichung an.'],
-      ['Wann lebte Horaz?', '65–8 v. Chr.', ['70–19 v. Chr.', '43 v. Chr. – 17 n. Chr.', '106–43 v. Chr.'], null],
+      ['Was sind Vergils „Bucolica“?', 'Hirtengedichte', ['Ein Lehrgedicht über den Landbau', 'Ein Heldenepos', 'Liebesbriefe']],
       ['Was war der Vater von Horaz?', 'Ein freigelassener Sklave', ['Ein Senator', 'Ein General', 'Ein Dichter'], null],
       ['Welchem Lager schloss sich Horaz zuerst an?', 'Dem der Caesar-Mörder', ['Dem des Augustus', 'Dem des Antonius', 'Dem der Karthager'], null],
       ['Was schenkte Maecenas Horaz?', 'Ein Landgut in den Sabinerbergen', ['Einen Palast', 'Eine Villa in Neapel', 'Ein Schiff'], null],

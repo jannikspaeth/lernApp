@@ -35,7 +35,7 @@ export const TRAGIKER: Subtopic = {
       ['Wie viele Teile hat die „Orestie“?', 'Drei', ['Zwei', 'Fünf', 'Eins'], 'Sie ist eine Trilogie.'],
       ['Wer ermordet in der „Orestie“ Agamemnon?', 'Seine Frau Klytaimnestra', ['Orest', 'Priamos', 'Odysseus'], null],
       ['Wie endet die „Orestie“?', 'Ein Gericht in Athen spricht Orest frei', ['Orest wird getötet', 'Troja fällt', 'Agamemnon kehrt zurück'], null],
-      ['Wann lebte Sophokles?', '497–406 v. Chr.', ['525–456 v. Chr.', '480–350 v. Chr.', '450–385 v. Chr.'], null],
+      ['Bei welchem Fest wurden die Tragödien in Athen aufgeführt?', 'Bei den Großen Dionysien', ['Bei den Olympischen Spielen', 'Bei den Panathenäen', 'Bei den Mysterien von Eleusis']],
       ['Wie oft gewann Sophokles etwa den Dichterwettstreit?', 'Etwa 24-mal', ['Einmal', 'Dreimal', 'Hundertmal'], null],
       ['Wogegen richtet sich Euripides’ Stück „Die Troerinnen“?', 'Gegen den Krieg', ['Gegen die Götter', 'Gegen die Perser', 'Gegen Sparta'], null],
       ['Was kennzeichnet die Komödien des Aristophanes?', 'Spott und Fantasie', ['Strenge Regeln und Trauer', 'Belehrung ohne Witz', 'Religiöse Andacht'], 'Er lebte um 450 – um 385 v. Chr.'],

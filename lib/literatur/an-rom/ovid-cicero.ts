@@ -15,7 +15,7 @@ export const OVID_CICERO: Subtopic = {
   quiz: {
     leicht: [
       ['Wer schrieb die „Metamorphosen“?', 'Ovid', ['Vergil', 'Horaz', 'Seneca'], null, 'ovid'],
-      ['Wovon handeln Ovids „Metamorphosen“?', 'Von Verwandlungen', ['Von Kriegen', 'Von Reisen', 'Von Gesetzen'], null],
+      ['Wie wurden Ovids frühe Liebesgedichte in Rom aufgenommen?', 'Sie wurden Mode', ['Sie wurden verboten', 'Sie blieben unbeachtet', 'Sie galten als langweilig']],
       ['In was wird Daphne in Ovids „Metamorphosen“ verwandelt?', 'In einen Lorbeerbaum', ['In eine Blume', 'In eine Spinne', 'In einen Stern'], null],
       ['In was wird Narziss in Ovids „Metamorphosen“ verwandelt?', 'In eine Blume', ['In einen Baum', 'In einen Stern', 'In einen Vogel'], null],
       ['Wohin verbannte Augustus Ovid?', 'Ans Schwarze Meer', ['Nach Ägypten', 'Nach Britannien', 'Nach Spanien'], null],
