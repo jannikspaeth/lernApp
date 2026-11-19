@@ -36,9 +36,9 @@ export const BORGES_CORTAZAR: Subtopic = {
       ['Welches Familienmitglied war vor Borges ebenfalls erblindet?', 'Sein Vater', ['Seine Mutter', 'Sein Großvater', 'Seine Schwester'], 'Borges erblindete ab den 1930er-Jahren allmählich.'],
       ['Worum geht es in „Pierre Menard, Autor des Quijote“?', 'Ein Schriftsteller will den „Quijote“ neu schreiben', ['Ein Ritter wird Dichter', 'Eine Übersetzung geht verloren', 'Ein Bibliothekar wird blind'], null],
       ['Wann spielt Borges’ Erzählung „Der Garten der Pfade, die sich verzweigen“?', 'Im Ersten Weltkrieg', ['Im Mittelalter', 'In der Antike', 'Im Bürgerkrieg'], null],
-      ['Wann lebte Cortázar?', '1914–1984', ['1899–1986', '1904–1973', '1927–2014'], null],
+      ['Wie heißt der Held von Cortázars „Rayuela“?', 'Horacio Oliveira', ['Pierre Menard', 'Augusto Pérez', 'Florentino Ariza']],
       ['Wo wurde Cortázar geboren?', 'In Brüssel', ['In Buenos Aires', 'In Paris', 'In Madrid'], null],
-      ['Wann ging Cortázar nach Paris?', '1951', ['1921', '1963', '1984'], null],
+      ['Wann kehrte Borges nach seinen Jugendjahren in Europa nach Argentinien zurück?', '1921', ['1899', '1944', '1955']],
       ['Wann erschien „Rayuela“?', '1963', ['1944', '1951', '1982'], null],
     ],
     schwer: [

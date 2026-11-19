@@ -8,9 +8,9 @@ export const UEBERBLICK: Subtopic = {
   text: [
     'Die Literatur Lateinamerikas begann mit den Chronisten der Eroberung und den Dichtern des Barock. Die Nonne Juana Inés de la Cruz (1648–1695) aus Mexiko ist die erste große Dichterin der Neuen Welt: Sie verteidigte das Recht der Frauen auf Bildung und schrieb Sonette und Dramen. Nach der Unabhängigkeit im 19. Jahrhundert suchte man eigene Themen: den Gaucho in der Pampa in „Martín Fierro“ (1872) von José Hernández, später die Indios, die Städte und die Revolution.',
     'Um 1900 gab der Nicaraguaner Rubén Darío mit dem „Modernismo“ der ganzen spanischen Dichtung neue Klänge. Im 20. Jahrhundert wurden dann drei Dichter weltberühmt: Gabriela Mistral aus Chile (Nobelpreis 1945, als erste Lateinamerikanerin), Pablo Neruda (1971) und Octavio Paz aus Mexiko (1990). Ihre Gedichte handeln von Liebe, Natur, Gesellschaft und Heimat.',
-    'Parallel entstand die erzählende Literatur, die man später „Boom“ nannte. Jorge Luis Borges aus Argentinien schrieb in den 1940er-Jahren Erzählungen über Labyrinthe, Spiegel und Bibliotheken. Julio Cortázar („Rayuela“, 1963) spielte mit der Form des Romans, Carlos Fuentes beschrieb Mexiko, und der Peruaner Mario Vargas Llosa („Das grüne Haus“, 1966) wurde mit scharfen politischen Romanen berühmt. Der Kolumbianer Gabriel García Márquez schließlich schrieb mit „Hundert Jahre Einsamkeit“ (1967) den berühmtesten Roman des Kontinents.',
+    'Parallel entstand die erzählende Literatur, die man später „Boom“ nannte. Jorge Luis Borges aus Argentinien schrieb in den 1940er-Jahren Erzählungen über Labyrinthe, Spiegel und Bibliotheken. Julio Cortázar („Rayuela“, 1963) spielte mit der Form des Romans, Carlos Fuentes beschrieb Mexiko, Juan Rulfo ließ in „Pedro Páramo“ (1955) ein ganzes Dorf voller Toter sprechen, und der Peruaner Mario Vargas Llosa („Das grüne Haus“, 1966) wurde mit scharfen politischen Romanen berühmt. Der Kolumbianer Gabriel García Márquez schließlich schrieb mit „Hundert Jahre Einsamkeit“ (1967) den berühmtesten Roman des Kontinents.',
     'Der Stil, der hier entstand, heißt „magischer Realismus“ (auch: „das Wunderbare Wirkliche“): Wunderbares und Alltägliches stehen selbstverständlich nebeneinander, als wäre beides gleich wirklich. Er spiegelt eine Welt, in der Indio-Mythen, Katholizismus, Diktaturen und moderne Städte nebeneinander bestehen. Alejo Carpentier aus Kuba und der Guatemalteke Miguel Ángel Asturias (Nobelpreis 1967) bereiteten ihn vor.',
-    'Seit den 1970er-Jahren schreiben viele Autorinnen und Autoren über Diktatur, Exil und Erinnerung: Isabel Allende („Das Geisterhaus“, 1982), Roberto Bolaño („Die wilden Detektive“, 1998) oder Mario Benedetti. Heute hat die lateinamerikanische Literatur eine vielstimmige Gegenwart, etwa mit Samanta Schweblin und Fernanda Melchor, und prägt die Weltliteratur.',
+    'Seit den 1970er-Jahren schreiben viele Autorinnen und Autoren über Diktatur, Exil und Erinnerung: Isabel Allende („Das Geisterhaus“, 1982), Roberto Bolaño („Die wilden Detektive“, 1998) oder der Uruguayer Mario Benedetti. Heute hat die lateinamerikanische Literatur eine vielstimmige Gegenwart, etwa mit Samanta Schweblin und Fernanda Melchor, und prägt die Weltliteratur.',
   ],
   quiz: {
     leicht: [
@@ -20,11 +20,11 @@ export const UEBERBLICK: Subtopic = {
       ['Wie heißt der berühmteste Roman García Márquez’?', 'Hundert Jahre Einsamkeit', ['Das Geisterhaus', 'Rayuela', 'Das Haus der Bestien'], null],
       ['Wer ist die erste große Dichterin der Neuen Welt?', 'Juana Inés de la Cruz', ['Gabriela Mistral', 'Isabel Allende', 'Frida Kahlo'], null],
       ['Wie nennt man den Stil, in dem Wunderbares und Alltag nebeneinanderstehen?', 'Magischer Realismus', ['Naturalismus', 'Expressionismus', 'Barock'], null],
-      ['Wer schrieb „Das Geisterhaus“?', 'Isabel Allende', ['Gabriela Mistral', 'Samanta Schweblin', 'Fernanda Melchor'], null],
+      ['Aus welchem Land stammte Juana Inés de la Cruz?', 'Aus Mexiko', ['Aus Spanien', 'Aus Peru', 'Aus Kuba']],
       ['Wer war die erste Lateinamerikanerin mit dem Literaturnobelpreis?', 'Gabriela Mistral', ['Isabel Allende', 'Juana Inés de la Cruz', 'Rosario Castellanos'], null],
       ['Wer begründete den „Modernismo“?', 'Rubén Darío', ['Neruda', 'Borges', 'Octavio Paz'], null],
-      ['Aus welchem Land stammt Octavio Paz?', 'Aus Mexiko', ['Aus Chile', 'Aus Kolumbien', 'Aus Argentinien'], null],
-      ['Aus welchem Land stammt Mario Vargas Llosa?', 'Aus Peru', ['Aus Mexiko', 'Aus Kolumbien', 'Aus Kuba'], null],
+      ['Welcher Roman Juan Rulfos spielt in einem Dorf voller Toter?', '„Pedro Páramo“', ['„Rayuela“', '„Das grüne Haus“', '„Die wilden Detektive“']],
+      ['Aus welchem Land stammte Mario Benedetti?', 'Aus Uruguay', ['Aus Paraguay', 'Aus Bolivien', 'Aus Venezuela']],
       ['Wie nennt man den Aufschwung der lateinamerikanischen Erzählung ab 1960?', 'Boom', ['Aufbruch', 'Neustart', 'Welle'], null],
     ],
     mittel: [

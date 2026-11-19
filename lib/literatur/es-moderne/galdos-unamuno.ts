@@ -33,7 +33,7 @@ export const GALDOS_UNAMUNO: Subtopic = {
       ['Von welchem Seesieg an erzählt der Zyklus?', 'Trafalgar 1805', ['Lepanto 1571', 'Waterloo 1815', 'Cádiz 1898'], 'Mit Trafalgar beginnt der Zyklus; er reicht bis 1880.'],
       ['Was kritisierte Galdós?', 'Die Macht der Kirche und die Rückständigkeit des Landes', ['Die Industrie', 'Den Handel', 'Die Presse'], null],
       ['Wann erschien „Fortunata y Jacinta“?', '1886/87', ['1805', '1914', '1942'], null],
-      ['Wann lebte Unamuno?', '1864–1936', ['1843–1920', '1875–1939', '1898–1975'], null],
+      ['Was geschah mit Galdós im Alter?', 'Er wurde fast blind', ['Er wurde taub', 'Er ging ins Exil', 'Er wurde Minister']],
       ['Wie heißt Unamunos Buch über das Wissen um den Tod?', 'Das tragische Lebensgefühl', ['Der Nebel des Lebens', 'Über Liebe und Tod', 'Die Welt als Traum'], null],
       ['Wann erschien „Nebel“?', '1914', ['1884', '1936', '1950'], null],
       ['Wie nannte Unamuno seine Romane?', 'Nivolas', ['Novelas ejemplares', 'Episodios', 'Rimas'], 'Nach „niebla“, Nebel.'],

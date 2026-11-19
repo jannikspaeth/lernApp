@@ -25,7 +25,7 @@ export const CERVANTES: Subtopic = {
       ['Was ist „Don Quijote“ laut Literaturgeschichte?', 'Der erste moderne Roman', ['Das erste Drama', 'Das erste Gedicht', 'Das erste Märchen'], null],
       ['Worauf reitet Sancho Panza hinter Don Quijote her?', 'Auf einem Esel', ['Auf einem Maultier', 'Auf einem Ochsen', 'Er geht zu Fuß'], 'Don Quijote selbst reitet den Klepper Rosinante.'],
       ['Welcher Dichter starb am selben Tag wie Cervantes (nach der Überlieferung)?', 'Shakespeare', ['Molière', 'Dante', 'Goethe'], null],
-      ['In welcher Sprache schrieb Cervantes?', 'Spanisch', ['Katalanisch', 'Latein', 'Portugiesisch'], null],
+      ['In welcher Stadt bei Madrid wurde Cervantes geboren?', 'In Alcalá de Henares', ['In Toledo', 'In Salamanca', 'In Sevilla']],
     ],
     mittel: [
       ['Wann lebte Cervantes?', '1547–1616', ['1500–1560', '1564–1616', '1600–1681'], null],

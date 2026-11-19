@@ -36,7 +36,7 @@ export const LORCA_MACHADO: Subtopic = {
       ['Wie lange will Bernarda Alba ihre Töchter in Trauer einsperren?', 'Acht Jahre', ['Ein Jahr', 'Drei Monate', 'Zwanzig Jahre'], null],
       ['Wo wurde Lorca erschossen?', 'Bei Víznar nahe Granada', ['In Madrid', 'In Barcelona', 'In Valencia'], null],
       ['Welche Volkslieder prägten Lorca?', 'Der Cante jondo Andalusiens', ['Walzer', 'Madrigale', 'Choräle'], null],
-      ['Wann lebte Machado?', '1875–1939', ['1898–1936', '1864–1936', '1880–1950'], null],
+      ['In welchen Städten unterrichtete Antonio Machado?', 'In Soria und Baeza', ['In Madrid und Toledo', 'In Granada und Sevilla', 'In Paris und Collioure']],
       ['Wie heißt Machados berühmter Gedichtband?', 'Campos de Castilla', ['Dichter in New York', 'Rimas', 'Romancero gitano'], null],
       ['Zu welcher Gruppe gehörte Antonio Machado?', 'Zur Generation von 98', ['Zur Generation von 27', 'Zum Barock', 'Zur Romantik'], null],
       ['Wann floh Antonio Machado über die Pyrenäen?', '1939', ['1898', '1936', '1975'], null],
