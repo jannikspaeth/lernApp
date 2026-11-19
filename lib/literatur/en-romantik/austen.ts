@@ -23,7 +23,7 @@ export const AUSTEN: Subtopic = {
       ['Worum geht es in Austens Romanen meist?', 'Um Heirat, Geld und Charakter', ['Um Krieg und Politik', 'Um Seefahrt', 'Um Verbrechen'], null],
       ['Wie alt wurde Jane Austen?', '41 Jahre', ['31 Jahre', '51 Jahre', '71 Jahre'], null],
       ['Heiratete Jane Austen?', 'Nein', ['Ja, zweimal', 'Ja, spät', 'Ja, einen Pfarrer'], null],
-      ['Welcher Roman von Jane Austen erschien 1815?', 'Emma', ['Stolz und Vorurteil', 'Mansfield Park', 'Überredung'], null],
+      ['Wie viele Romane Jane Austens erschienen zu ihren Lebzeiten?', 'Vier', ['Einer', 'Sechs', 'Zehn']],
       ['Wo ist Jane Austen begraben?', 'In der Kathedrale von Winchester', ['In Westminster Abbey', 'In Bath', 'In Steventon'], null],
       ['Auf welcher britischen Banknote ist Jane Austen abgebildet?', 'Auf der Zehn-Pfund-Note', ['Auf der Fünf-Pfund-Note', 'Auf der Zwanzig-Pfund-Note', 'Auf der Fünfzig-Pfund-Note'], 'Seit 2017.'],
     ],

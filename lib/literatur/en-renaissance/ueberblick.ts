@@ -44,7 +44,7 @@ export const UEBERBLICK: Subtopic = {
     schwer: [
       ['Was ersetzte im elisabethanischen Theater die fehlenden Kulissen?', 'Kostüme, Musik und Sprache', ['Gemalte Prospekte', 'Lichteffekte', 'Pantomime'], null],
       ['Welche Rolle spielte Ben Jonson für den Druck von Dramen?', 'Er setzte durch, dass sie als Literatur gedruckt wurden', ['Er verbot den Druck', 'Er erfand den Buchdruck in England', 'Er übersetzte sie'], null],
-      ['Welchen Vers setzte Marlowe auf der Bühne durch?', 'Den Blankvers', ['Das Reimpaar', 'Den freien Vers', 'Die Prosa'], null],
+      ['Wie starb Christopher Marlowe?', 'Bei einem Streit in einer Wirtsstube', ['Auf dem Schafott', 'An der Pest', 'In der Seeschlacht gegen die Armada']],
       ['Warum war der Theaterbetrieb im London um 1600 neu?', 'Feste Häuser spielten täglich und lebten vom Publikum', ['Es gab Hoftheater', 'Die Kirche spielte', 'Nur Wanderbühnen zogen umher'], null],
       ['Welchen Rang hat die King James Bible für das Englische?', 'Sie prägte die Sprache wie Luthers Bibel das Deutsche', ['Sie blieb unbekannt', 'Sie war nur für Gelehrte', 'Sie wurde verboten'], null],
       ['Wie alt wurde Christopher Marlowe?', 'Nur 29 Jahre', ['49 Jahre', '69 Jahre', '19 Jahre'], 'Er starb 1593 bei einem Streit in einer Wirtsstube.'],
