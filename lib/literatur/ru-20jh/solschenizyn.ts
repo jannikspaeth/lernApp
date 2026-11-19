@@ -28,7 +28,7 @@ export const SOLSCHENIZYN: Subtopic = {
       ['Wie wurde Achmatowas „Requiem“ zunächst bewahrt?', 'Freundinnen lernten die Verse auswendig', ['In einem Tresor', 'Im Ausland gedruckt', 'Auf Mikrofilm'], null],
     ],
     mittel: [
-      ['Wann lebte Achmatowa?', '1889–1966', ['1892–1941', '1890–1960', '1918–2008'], null],
+      ['Wie hieß Achmatowas erster Mann, ein Dichter?', 'Nikolai Gumiljow', ['Ossip Mandelstam', 'Alexander Blok', 'Boris Pasternak']],
       ['Was geschah 1921 mit Achmatowas erstem Mann?', 'Er wurde erschossen', ['Er emigrierte', 'Er starb im Krieg', 'Er wurde verbannt'], 'Nikolai Gumiljow war selbst Dichter.'],
       ['Was geschah mit Achmatowas Sohn Lew?', 'Er saß viele Jahre in Lagern', ['Er emigrierte', 'Er wurde Offizier', 'Er blieb unbehelligt'], null],
       ['Wann durfte Anna Achmatowa nichts veröffentlichen?', 'Von 1925 bis 1940', ['Von 1917 bis 1920', 'Von 1950 bis 1960', 'Nie'], null],
