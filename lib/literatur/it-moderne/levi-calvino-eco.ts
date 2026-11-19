@@ -32,7 +32,7 @@ export const LEVI_CALVINO_ECO: Subtopic = {
       ['In welcher Stadt wurde Primo Levi geboren?', 'In Turin', ['In Mailand', 'In Rom', 'In Triest'], 'Er stammte aus einer jüdischen Familie.'],
       ['Wer befreite Primo Levi im Januar 1945?', 'Die Rote Armee', ['Die US-Armee', 'Italienische Partisanen', 'Die britische Armee'], 'Seine Heimreise beschreibt „Die Atempause“.'],
       ['Wann erschien „Ist das ein Mensch?“', '1947', ['1963', '1944', '1972'], null],
-      ['Wann lebte Calvino?', '1923–1985', ['1919–1987', '1932–2016', '1928–2020'], null],
+      ['In welcher Stadt an der Riviera wuchs Calvino auf?', 'In San Remo', ['In Genua', 'In Nizza', 'In Portofino']],
       ['In welcher Gruppe kämpfte Calvino?', 'Bei den Partisanen', ['Bei der Armee', 'Bei der Marine', 'Bei den Faschisten'], null],
       ['Welche drei Märchen bilden die Trilogie „Unsere Vorfahren“?', 'Der geteilte Visconte, Der Baron auf den Bäumen, Der Ritter, den es nicht gab', ['Pinocchio, Cipollino, Gianni', 'Die Verlobten, Die Malavoglia, Zeno', 'Inferno, Purgatorio, Paradiso'], null],
       ['Wie viele Städte beschreibt Calvino in „Die unsichtbaren Städte“?', '55', ['5', '12', '100'], null],

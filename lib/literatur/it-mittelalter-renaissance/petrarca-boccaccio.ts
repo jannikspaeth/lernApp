@@ -36,7 +36,7 @@ export const PETRARCA_BOCCACCIO: Subtopic = {
       ['Woraus besteht das Sonett Petrarcas?', 'Aus zwei Quartetten und zwei Terzetten', ['Aus vier Terzinen', 'Aus drei Quartetten', 'Aus sechs Distichen'], null],
       ['Welchen Berg bestieg Petrarca 1336?', 'Den Mont Ventoux', ['Den Montblanc', 'Den Vesuv', 'Den Ätna'], null],
       ['Wo starb Petrarca?', 'In Arquà bei Padua', ['In Avignon', 'In Florenz', 'In Rom'], null],
-      ['Wann lebte Boccaccio?', '1313–1375', ['1265–1321', '1304–1374', '1469–1527'], null],
+      ['In welcher Stadt wurde Petrarca geboren?', 'In Arezzo', ['In Florenz', 'In Avignon', 'In Padua']],
       ['Wann entstand das „Decamerone“ etwa?', '1349–1353', ['1250–1260', '1450–1460', '1550–1560'], null],
       ['Wie viele Frauen und Männer erzählen im „Decamerone“?', 'Sieben Frauen und drei Männer', ['Fünf und fünf', 'Drei Frauen und sieben Männer', 'Zehn Frauen'], null],
       ['Welche Geschichte aus dem „Decamerone“ nahm Lessing auf?', 'Die Ringparabel', ['Die Brücke', 'Die Falkennovelle', 'Griselda'], null],
