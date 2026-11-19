@@ -49,7 +49,7 @@ export const POE: Subtopic = {
       ['Warum gesteht der Mörder in Poes „Das verräterische Herz“?', 'Das eingebildete Geräusch wird unerträglich', ['Ein Zeuge erscheint', 'Die Polizei findet Spuren', 'Er bereut'], null],
       ['Welche weitere Gattung prägte Poe?', 'Frühe Science-Fiction', ['Den Western', 'Die Komödie', 'Das Versepos'], null],
       ['Welchen Ruf hatte Poe als Kritiker?', 'Er war gefürchtet', ['Er war milde', 'Er schrieb keine Kritiken', 'Er lobte alles'], null],
-      ['Über welchen Umweg wirkte Poe auf die moderne Literatur?', 'Über die französische Übersetzung', ['Über deutsche Schulen', 'Über englische Zeitungen', 'Über russische Autoren'], null],
+      ['Was blieb Poe gegenüber seiner Pflegefamilie verwehrt?', 'Die Adoption', ['Ein Schulbesuch', 'Ein Erbe des Vaters', 'Der Kontakt zur Mutter']],
       ['Welche Rolle spielt der Rabe in Poes Gedicht?', 'Er antwortet auf jede Frage gleich', ['Er spricht lange Reden', 'Er greift an', 'Er fliegt davon'], null],
       ['Wie alt war Poe, als seine Mutter starb?', 'Zwei Jahre', ['Zehn Jahre', 'Sechzehn Jahre', 'Sie überlebte ihn'], 'Der Vater war schon vorher verschwunden.'],
     ],

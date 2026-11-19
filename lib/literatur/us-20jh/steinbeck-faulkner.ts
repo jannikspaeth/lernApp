@@ -34,7 +34,7 @@ export const STEINBECK_FAULKNER: Subtopic = {
       ['Wie endet „Von Mäusen und Menschen“?', 'George erschießt Lennie', ['Beide bekommen die Farm', 'Lennie flieht', 'Beide werden verhaftet'], 'Er will ihn vor dem Lynchmob retten.'],
       ['Wann erschien „Früchte des Zorns“?', '1939', ['1929', '1949', '1937'], null],
       ['Wie reagierten Gegner auf „Früchte des Zorns“?', 'Das Buch wurde stellenweise verboten und verbrannt', ['Es wurde einhellig gelobt', 'Es blieb unbeachtet', 'Es wurde verfilmt und vergessen'], 'Es erhielt dennoch den Pulitzer-Preis.'],
-      ['Wann lebte Faulkner?', '1897–1962', ['1902–1968', '1899–1961', '1900–1950'], null],
+      ['Welchen Preis erhielt „Früchte des Zorns“ trotz aller Angriffe?', 'Den Pulitzer-Preis', ['Den Nobelpreis', 'Den National Book Award', 'Den Booker-Preis']],
       ['Wie heißt Faulkners Roman von 1929?', 'Schall und Wahn', ['Absalom, Absalom!', 'Licht im August', 'Als ich im Sterben lag'], null],
       ['Aus wie vielen Blickwinkeln wird Faulkners „Schall und Wahn“ erzählt?', 'Aus vier', ['Aus einem', 'Aus zwei', 'Aus zehn'], null],
       ['Wessen Bewusstsein prägt den ersten Teil von „Schall und Wahn“?', 'Das eines geistig behinderten Mannes', ['Das eines Richters', 'Das eines Priesters', 'Das eines Soldaten'], null],

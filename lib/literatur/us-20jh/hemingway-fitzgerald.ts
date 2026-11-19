@@ -7,10 +7,10 @@ export const HEMINGWAY_FITZGERALD: Subtopic = {
   images: ['hemingway', 'fitzgerald'],
   text: [
     'Ernest Hemingway (1899–1961) wurde bei Chicago geboren, arbeitete als junger Mann als Zeitungsreporter und meldete sich im Ersten Weltkrieg als Sanitätsfahrer nach Italien, wo er mit 18 Jahren schwer verwundet wurde. In den 1920er-Jahren lebte er in Paris, danach in Florida und auf Kuba; er war begeisterter Jäger, Fischer und Stierkampfzuschauer und berichtete aus dem Spanischen Bürgerkrieg und dem Zweiten Weltkrieg.',
-    'Hemingways Stil veränderte die Prosa des Jahrhunderts: kurze Hauptsätze, einfache Wörter, fast nur Dialog und äußere Handlung, keine Erklärungen von Gefühlen. Er nannte das die Eisberg-Theorie: Nur ein Achtel ist sichtbar, der Rest liegt unter der Oberfläche und wirkt gerade dadurch. „Fiesta“ (1926) zeigt die ziellose Nachkriegsjugend in Paris und Pamplona, „In einem andern Land“ den Krieg in Italien, „Wem die Stunde schlägt“ (1940) den Spanischen Bürgerkrieg.',
+    'Hemingways Stil veränderte die Prosa des Jahrhunderts: kurze Hauptsätze, einfache Wörter, fast nur Dialog und äußere Handlung, keine Erklärungen von Gefühlen. Er nannte das die Eisberg-Theorie: Nur ein Achtel ist sichtbar, der Rest liegt unter der Oberfläche und wirkt gerade dadurch. „Fiesta“ (1926) zeigt die ziellose Nachkriegsjugend in Paris und Pamplona, „In einem andern Land“ den Krieg in Italien, „Wem die Stunde schlägt“ (1940), dessen Titel aus einer Predigt John Donnes stammt, den Spanischen Bürgerkrieg.',
     '1952 erschien „Der alte Mann und das Meer“: Der alte Fischer Santiago fängt nach 84 erfolglosen Tagen einen riesigen Marlin, kämpft tagelang mit ihm und bringt am Ende nur das von Haien abgefressene Skelett in den Hafen. Dafür erhielt Hemingway 1953 den Pulitzer-Preis und 1954 den Nobelpreis. Krank, von zwei Flugzeugabstürzen gezeichnet und schwer depressiv, nahm er sich 1961 das Leben.',
     'F. Scott Fitzgerald (1896–1940) wurde mit 23 Jahren berühmt und lebte mit seiner Frau Zelda ein glanzvolles, teures Leben, das dem Jahrzehnt seinen Namen gab: Er prägte den Ausdruck „Jazz Age“. Sein Werk handelt immer wieder von Menschen, die mit Geld und Charme in eine Welt wollen, die sie nicht aufnimmt.',
-    '„Der große Gatsby“ (1925) erzählt von Jay Gatsby, der aus dem Nichts zu Reichtum gekommen ist und in einer Villa auf Long Island rauschende Feste gibt, nur um die verheiratete Daisy zurückzugewinnen, die er vor Jahren geliebt hat. Am Ende ist er tot, und zu seiner Beerdigung kommt fast niemand. Zu Lebzeiten war das Buch ein Misserfolg; heute gilt es als der amerikanische Roman schlechthin. Fitzgerald starb 1940 mit 44 Jahren in Hollywood, verschuldet und überzeugt, gescheitert zu sein.',
+    '„Der große Gatsby“ (1925) erzählt von Jay Gatsby, der aus dem Nichts, mit dunklen Geschäften, zu Reichtum gekommen ist und in einer Villa auf Long Island rauschende Feste gibt, nur um die verheiratete Daisy zurückzugewinnen, die er vor Jahren geliebt hat. Am Ende ist er tot, und zu seiner Beerdigung kommt fast niemand. Zu Lebzeiten war das Buch ein Misserfolg; heute gilt es als der amerikanische Roman schlechthin. Fitzgerald starb 1940 mit 44 Jahren in Hollywood, verschuldet und überzeugt, gescheitert zu sein.',
   ],
   quiz: {
     leicht: [
@@ -37,7 +37,7 @@ export const HEMINGWAY_FITZGERALD: Subtopic = {
       ['Wie viele Tage hatte Santiago vor seinem großen Fang nichts gefangen?', '84 Tage', ['8 Tage', '184 Tage', '40 Tage'], null],
       ['Welchen Preis erhielt Hemingway 1953 für „Der alte Mann und das Meer“?', 'Den Pulitzer-Preis', ['Den Nobelpreis', 'Den Booker-Preis', 'Den Goncourt-Preis'], null],
       ['Wie starb Hemingway?', 'Er nahm sich 1961 das Leben', ['Bei einem Flugzeugabsturz', 'An einer Krankheit', 'Bei einer Jagd'], null],
-      ['Wann lebte Fitzgerald?', '1896–1940', ['1899–1961', '1902–1968', '1888–1965'], null],
+      ['Wie alt war Fitzgerald, als er berühmt wurde?', '23 Jahre', ['18 Jahre', '33 Jahre', '40 Jahre']],
       ['Wie hieß Fitzgeralds Frau?', 'Zelda', ['Daisy', 'Hadley', 'Mary'], null],
       ['Wann erschien „Der große Gatsby“?', '1925', ['1915', '1935', '1945'], null],
     ],
@@ -50,7 +50,7 @@ export const HEMINGWAY_FITZGERALD: Subtopic = {
       ['Was ist Fitzgeralds wiederkehrendes Thema?', 'Menschen, die in eine Welt wollen, die sie nicht aufnimmt', ['Krieg und Frieden', 'Natur und Einsamkeit', 'Arbeit und Fabrik'], null],
       ['Wie endete Fitzgeralds Leben?', 'Verschuldet in Hollywood, überzeugt gescheitert zu sein', ['Reich und gefeiert', 'Im Exil in Paris', 'Auf einer Reise'], null],
       ['Was setzte Hemingway körperlich und seelisch zu?', 'Zwei Flugzeugabstürze und schwere Depressionen', ['Eine Lähmung', 'Blindheit', 'Taubheit'], null],
-      ['Welche Haltung prägt Hemingways Figuren?', 'Haltung bewahren trotz Niederlage', ['Siegen um jeden Preis', 'Rückzug ins Private', 'Glaube an Gott'], null],
+      ['Wo wurde Ernest Hemingway geboren?', 'Bei Chicago', ['In Florida', 'In Paris', 'In Havanna']],
       ['Wie verhält sich Santiagos Kampf zum Ergebnis?', 'Er verliert den Fang und behält die Würde', ['Er gewinnt alles', 'Er gibt auf', 'Er wird reich'], null],
     ],
   },
