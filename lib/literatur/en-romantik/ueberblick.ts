@@ -51,7 +51,7 @@ export const UEBERBLICK: Subtopic = {
       ['Welche Wirkung hatte Scotts historischer Roman?', 'Er wurde in ganz Europa nachgeahmt', ['Er blieb auf Schottland beschränkt', 'Er wurde verboten', 'Er blieb unbekannt'], null],
       ['Welche Zustände brachte die Industrialisierung?', 'Fabriken, Kinderarbeit und rauchende Städte', ['Wohlstand für alle', 'Rückkehr aufs Land', 'Weniger Arbeit'], null],
       ['Welche Erfahrungen interessierten die Romantiker besonders?', 'Träume und Rauschzustände', ['Buchhaltung und Handel', 'Höfische Etikette', 'Militärische Ordnung'], null],
-      ['Welcher Dichter verband Dichtung und Bildkunst?', 'William Blake', ['Wordsworth', 'Coleridge', 'Keats'], 'Er druckte seine Gedichte mit eigenen Illustrationen.'],
+      ['Mit welcher Haltung beschrieb Jane Austen die Welt der Landgentry?', 'Mit feiner Ironie', ['Mit offenem Zorn', 'Mit frommer Rührung', 'Mit kühler Gleichgültigkeit']],
     ],
   },
 };

@@ -28,7 +28,7 @@ export const DEFOE_SWIFT: Subtopic = {
       ['Wie alt war Defoe bei Erscheinen von „Robinson Crusoe“?', 'Fast 60 Jahre', ['Fast 30 Jahre', 'Fast 20 Jahre', 'Über 80 Jahre'], null],
     ],
     mittel: [
-      ['Wann lebte Daniel Defoe etwa?', 'Um 1660–1731', ['1667–1745', '1700–1760', '1564–1616'], null],
+      ['Welche öffentliche Strafe musste Defoe außer der Haft erdulden?', 'Den Pranger', ['Die Verbannung', 'Die Prügelstrafe', 'Den Verlust der Ohren']],
       ['Wann lebte Jonathan Swift?', '1667–1745', ['Um 1660–1731', '1709–1784', '1688–1744'], null],
       ['Was tat Defoe außer Schreiben?', 'Er war Kaufmann und Spion', ['Er war Arzt', 'Er war Richter', 'Er war Offizier'], null],
       ['Warum saß Defoe im Gefängnis?', 'Wegen einer Spottschrift gegen die Staatskirche', ['Wegen Diebstahls', 'Wegen Hochverrats im Krieg', 'Wegen Mordes'], 'Er stand auch am Pranger.'],

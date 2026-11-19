@@ -7,9 +7,9 @@ export const BYRON_SHELLEY_KEATS: Subtopic = {
   images: ['byron', 'percy-shelley', 'keats', 'mary-shelley'],
   text: [
     'Die zweite Generation der englischen Romantik bestand aus jungen Außenseitern, die in wenigen Jahren berühmt wurden und früh starben. Lord Byron (1788–1824) erbte mit zehn Jahren Titel und Schulden, hatte einen Klumpfuß und war von Jugend an eine öffentliche Person. „Childe Harolds Pilgerfahrt“ machte ihn 1812 über Nacht berühmt; er selbst sagte, er sei eines Morgens aufgewacht und berühmt gewesen. Lady Caroline Lamb beschrieb ihn als „verrückt, böse und gefährlich zu kennen“.',
-    'Nach Skandalen über sein Privatleben verließ Byron 1816 England für immer. Er lebte in der Schweiz und in Italien und schrieb dort sein Hauptwerk „Don Juan“, ein spöttisches Versepos, in dem der berühmte Verführer eher verführt wird. 1823 schloss er sich dem griechischen Freiheitskampf gegen die Osmanen an und starb 1824 in Missolonghi an einem Fieber, ohne je gekämpft zu haben. In Griechenland gilt er bis heute als Nationalheld.',
+    'Nach Skandalen über sein Privatleben verließ Byron 1816 England für immer. Er lebte in der Schweiz und in Italien und schrieb dort sein Hauptwerk „Don Juan“, ein spöttisches Versepos, in dem der berühmte Verführer eher verführt wird. 1823 schloss er sich dem griechischen Freiheitskampf gegen die Osmanen an und starb 1824 in Missolonghi an einem Fieber, ohne je gekämpft zu haben. In Griechenland gilt er bis heute als Nationalheld. Seine Tochter Ada Lovelace wurde eine Pionierin der Programmierung.',
     'Percy Bysshe Shelley (1792–1822) flog von der Universität Oxford, weil er eine Schrift über die Notwendigkeit des Atheismus verfasst hatte. Er war radikaler Gegner von Tyrannei und Krieg, schrieb „Prometheus Unbound“ und das Sonett „Ozymandias“, in dem von einem Herrscherstandbild in der Wüste nur noch Trümmer und die prahlende Inschrift übrig sind. Mit 29 Jahren ertrank er vor der italienischen Küste bei einem Sturm.',
-    'Im Sommer 1816, dem „Jahr ohne Sommer“ nach einem Vulkanausbruch, saßen Byron, Percy Shelley, dessen spätere Frau Mary und Byrons Arzt Polidori am Genfersee in der Villa Diodati fest. Zum Zeitvertreib schlug Byron vor, jeder solle eine Gespenstergeschichte schreiben. Aus Marys Beitrag wurde „Frankenstein oder Der moderne Prometheus“ (1818): Ein junger Forscher erschafft aus Leichenteilen ein Wesen, das lernt, spricht und leidet, von allen verstoßen wird und sich an seinem Schöpfer rächt. Mary Shelley war damals 18 Jahre alt; ihr Roman gilt als Ursprung der Science-Fiction.',
+    'Im Sommer 1816, dem „Jahr ohne Sommer“ nach einem Vulkanausbruch, saßen Byron, Percy Shelley, dessen spätere Frau Mary und Byrons Arzt Polidori am Genfersee in der Villa Diodati fest. Zum Zeitvertreib schlug Byron vor, jeder solle eine Gespenstergeschichte schreiben. Aus Marys Beitrag wurde „Frankenstein oder Der moderne Prometheus“ (1818): Ein junger Forscher erschafft aus Leichenteilen ein Wesen, das lernt, spricht und leidet, von allen verstoßen wird und sich an seinem Schöpfer rächt. Polidori schrieb dort „Der Vampyr“, die erste Vampirerzählung der englischen Literatur. Mary Shelley war damals 18 Jahre alt; ihr Roman gilt als Ursprung der Science-Fiction.',
     'John Keats (1795–1821) war Sohn eines Stallmeisters und ausgebildeter Apotheker und Wundarzt. In einem einzigen Jahr, 1819, schrieb er seine großen Oden, darunter „Ode an eine Nachtigall“ und „Ode auf eine griechische Urne“, die mit dem Satz endet, Schönheit sei Wahrheit und Wahrheit Schönheit. Kritiker verrissen ihn, er erkrankte an Tuberkulose und starb mit 25 Jahren in Rom. Auf seinem Grabstein steht auf seinen Wunsch kein Name, sondern der Satz, hier liege einer, dessen Name in Wasser geschrieben war.',
   ],
   quiz: {
@@ -29,7 +29,7 @@ export const BYRON_SHELLEY_KEATS: Subtopic = {
     ],
     mittel: [
       ['Wann lebte Lord Byron?', '1788–1824', ['1792–1822', '1795–1821', '1770–1850'], null],
-      ['Womit wurde Byron 1812 berühmt?', 'Mit „Childe Harolds Pilgerfahrt“', ['Mit „Don Juan“', 'Mit „Manfred“', 'Mit „Kain“'], null],
+      ['Welche berühmte Tochter hatte Lord Byron?', 'Ada Lovelace', ['Mary Shelley', 'Caroline Lamb', 'Augusta Leigh']],
       ['Wie beschrieb Lady Caroline Lamb Byron?', 'Als verrückt, böse und gefährlich zu kennen', ['Als still und fromm', 'Als langweilig', 'Als großzügig'], null],
       ['Wann verließ Byron England für immer?', '1816', ['1812', '1824', '1806'], 'Nach Skandalen über sein Privatleben.'],
       ['Wie heißt Byrons spöttisches Versepos?', 'Don Juan', ['Childe Harold', 'Lara', 'Beppo'], 'Darin wird der Verführer eher verführt.'],
@@ -42,7 +42,7 @@ export const BYRON_SHELLEY_KEATS: Subtopic = {
       ['Wann schrieb Keats seine großen Oden?', '1819', ['1809', '1829', '1816'], 'Alle in einem einzigen Jahr.'],
     ],
     schwer: [
-      ['Was kennzeichnet den „byronic hero“?', 'Stolz, Schuld und Einsamkeit', ['Treue und Bescheidenheit', 'Bürgerlicher Fleiß', 'Fromme Geduld'], null],
+      ['Welche Erzählung schrieb Byrons Arzt Polidori am Genfersee?', '„Der Vampyr“', ['„Dracula“', '„Carmilla“', '„Der Mönch“']],
       ['Was erbte Byron mit zehn Jahren?', 'Titel und Schulden', ['Ein großes Vermögen', 'Ein Schiff', 'Nichts'], null],
       ['Was geschieht mit Frankensteins Geschöpf in Mary Shelleys Roman?', 'Es wird verstoßen und rächt sich am Schöpfer', ['Es wird geliebt', 'Es stirbt sofort', 'Es flieht und verschwindet spurlos'], null],
       ['Warum gilt „Frankenstein“ als Ursprung der Science-Fiction?', 'Ein Mensch schafft Leben durch Wissenschaft', ['Es spielt im Weltraum', 'Es gibt Maschinen', 'Es spielt in der Zukunft'], null],
