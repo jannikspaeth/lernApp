@@ -204,7 +204,7 @@ export const BRD: HistEvent = {
           ['Wie heißt das Wirtschaftssystem der Bundesrepublik?', 'Soziale Marktwirtschaft', ['Planwirtschaft', 'Freie Marktwirtschaft ohne Regeln', 'Kommunismus']],
           ['Welches Auto wurde zum Symbol des Aufschwungs?', 'Der VW Käfer', ['Der Trabant', 'Der Mercedes 600', 'Der Opel Manta']],
           ['Wie nannte man die in den 1950er- und 1960er-Jahren angeworbenen ausländischen Arbeitskräfte?', 'Gastarbeiter', ['Wanderarbeiter', 'Saisonkräfte', 'Grenzgänger']],
-          ['Welches Spiel nennt man „Wunder von Bern“?', 'Das WM-Finale 1954', ['Das WM-Finale 2014', 'Das EM-Finale 1996', 'Das Olympia-Finale 1972']],
+          ['Wie nennt man den deutschen Sieg im WM-Finale 1954?', '„Wunder von Bern“', ['„Sommermärchen“', '„Wunder von Wembley“', '„Schmach von Cordoba“']],
           ['Gegen wen gewann Deutschland 1954 das WM-Finale?', 'Gegen Ungarn', ['Gegen Brasilien', 'Gegen England', 'Gegen Italien']],
           ['Wie endete das WM-Finale 1954?', '3:2', ['1:0', '7:1', '2:2']],
           ['Mit welchem französischen Präsidenten schloss Adenauer den Élysée-Vertrag?', 'Charles de Gaulle', ['François Mitterrand', 'Napoleon', 'Georges Pompidou']],
@@ -212,7 +212,7 @@ export const BRD: HistEvent = {
           ['Welche Wirtschaftsgemeinschaft wurde 1957 gegründet?', 'Die EWG', ['Die EU', 'Die NATO', 'Der Zollverein']],
           ['Welches Bundesland kam 1957 zur Bundesrepublik?', 'Das Saarland', ['Bayern', 'Berlin', 'Schleswig-Holstein']],
           ['Welche Zeitschrift war 1962 Ziel einer Durchsuchung?', '„Der Spiegel“', ['„Die Zeit“', '„Stern“', '„Bild“']],
-          ['Wer folgte Adenauer 1963 als Kanzler?', 'Ludwig Erhard', ['Willy Brandt', 'Kurt Georg Kiesinger', 'Helmut Schmidt']],
+          ['Wer folgte Adenauer als Kanzler?', 'Ludwig Erhard', ['Willy Brandt', 'Kurt Georg Kiesinger', 'Helmut Schmidt']],
           ['Mit welchem Land schloss Adenauer 1952 ein Abkommen über Entschädigungen?', 'Mit Israel', ['Mit Polen', 'Mit Frankreich', 'Mit den USA']],
         ],
         mittel: [
@@ -234,7 +234,7 @@ export const BRD: HistEvent = {
           ['Wie hieß Erhards Buch von 1957?', '„Wohlstand für alle“', ['„Mehr Demokratie wagen“', '„Das Kapital“', '„Die soziale Frage“']],
           ['Mit welchem Land schloss die Bundesrepublik 1955 das erste Anwerbeabkommen?', 'Italien', ['Türkei', 'Spanien', 'Griechenland']],
           ['Wann wurde das Anwerbeabkommen mit der Türkei geschlossen?', '1961', ['1955', '1973', '1949']],
-          ['Wer war Bundestrainer beim Wunder von Bern?', 'Sepp Herberger', ['Helmut Schön', 'Franz Beckenbauer', 'Joachim Löw']],
+          ['Wer war Bundestrainer beim deutschen WM-Sieg in der Schweiz?', 'Sepp Herberger', ['Helmut Schön', 'Franz Beckenbauer', 'Joachim Löw']],
           ['Welcher Minister musste wegen der Spiegel-Affäre zurücktreten?', 'Franz Josef Strauß', ['Ludwig Erhard', 'Gerhard Schröder (CDU)', 'Theodor Heuss']],
         ],
         schwer: [
@@ -275,7 +275,7 @@ export const BRD: HistEvent = {
       quiz: {
         leicht: [
           ['Wie nennt man die Studentenbewegung um 1968?', '„68er-Bewegung“', ['„Wandervogel“', '„Friedliche Revolution“', '„Burschenschaft“']],
-          ['Gegen welchen Krieg protestierten die Studenten der 68er-Bewegung?', 'Gegen den Vietnamkrieg', ['Gegen den Koreakrieg', 'Gegen den Irakkrieg', 'Gegen den Golfkrieg']],
+          ['Gegen welchen Krieg protestierten die Studenten Ende der 1960er-Jahre?', 'Gegen den Vietnamkrieg', ['Gegen den Koreakrieg', 'Gegen den Irakkrieg', 'Gegen den Golfkrieg']],
           ['Welcher Student wurde 1967 von einem Polizisten erschossen?', 'Benno Ohnesorg', ['Rudi Dutschke', 'Andreas Baader', 'Hanns Martin Schleyer']],
           ['Welcher Kanzler war ab 1969 für die SPD im Amt?', 'Willy Brandt', ['Helmut Schmidt', 'Helmut Kohl', 'Gerhard Schröder']],
           ['Was versprach Willy Brandt?', '„Mehr Demokratie wagen“', ['„Wohlstand für alle“', '„Wir schaffen das“', '„Keine Experimente“']],

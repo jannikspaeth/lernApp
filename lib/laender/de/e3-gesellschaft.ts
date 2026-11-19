@@ -212,7 +212,7 @@ export const GESELLSCHAFT: HistEvent = {
           ['Welches Stadtrecht verbreitete sich im Binnenland Ostmitteleuropas?', 'Das Magdeburger Recht', ['Das Lübische Recht', 'Das Kölner Recht', 'Das Römische Recht']],
           ['Welches Stadtrecht verbreitete sich an der Ostsee?', 'Das Lübische Recht', ['Das Magdeburger Recht', 'Das Nürnberger Recht', 'Das Sachsenrecht']],
           ['Wann wurde Lübeck erstmals gegründet?', '1143', ['1120', '1159', '1226']],
-          ['Wer gründete Lübeck 1143?', 'Graf Adolf II. von Holstein', ['Heinrich der Löwe', 'Kaiser Lothar III.', 'Albrecht der Bär']],
+          ['Wer gründete Lübeck erstmals?', 'Graf Adolf II. von Holstein', ['Heinrich der Löwe', 'Kaiser Lothar III.', 'Albrecht der Bär']],
           ['Wann fand der erste allgemeine Hansetag statt?', '1356', ['1226', '1370', '1500']],
           ['Wie hieß das Kontor der Hanse in London?', 'Stalhof', ['Peterhof', 'Bryggen', 'Fondaco']],
           ['In welcher russischen Stadt lag der Peterhof der Hanse?', 'Nowgorod', ['Moskau', 'Kiew', 'Smolensk']],
@@ -308,7 +308,7 @@ export const GESELLSCHAFT: HistEvent = {
           ['Welches slawische Volk lebte in Mecklenburg?', 'Die Abodriten', ['Die Sorben', 'Die Heveller', 'Die Liutizen']],
           ['Welches Stadtrecht übernahmen neue Städte im Osten meist?', 'Das Magdeburger Recht', ['Das Lübische Recht', 'Das Römische Recht', 'Das Kölner Recht']],
           ['Welcher Hochmeister machte Preußen 1525 zum weltlichen Herzogtum?', 'Albrecht von Brandenburg-Ansbach', ['Ulrich von Jungingen', 'Winrich von Kniprode', 'Hermann von Salza']],
-          ['Was verlor der Deutsche Orden 1466?', 'Westpreußen mit der Marienburg', ['Königsberg', 'Ganz Preußen', 'Livland']],
+          ['Was verlor der Deutsche Orden im Zweiten Thorner Frieden?', 'Westpreußen mit der Marienburg', ['Königsberg', 'Ganz Preußen', 'Livland']],
         ],
         schwer: [
           ['Von welchem Hevellerfürsten erbte Albrecht der Bär die Brandenburg?', 'Pribislaw-Heinrich', ['Jaxa von Köpenick', 'Niklot', 'Mieszko']],
