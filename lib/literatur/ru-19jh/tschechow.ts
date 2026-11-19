@@ -18,7 +18,7 @@ export const TSCHECHOW: Subtopic = {
       ['Welchen Beruf hatte Tschechow außer dem Schreiben?', 'Arzt', ['Lehrer', 'Richter', 'Offizier'], null],
       ['Wie nannte Tschechow die Medizin?', 'Seine rechtmäßige Frau', ['Seine Last', 'Seinen Beruf ohne Liebe', 'Sein Hobby'], 'Die Literatur nannte er seine Geliebte.'],
       ['Wie viele Erzählungen schrieb Tschechow etwa?', 'Rund 600', ['Rund 60', 'Rund 6.000', 'Rund 20'], null],
-      ['Wie heißt Tschechows Stück von 1896?', 'Die Möwe', ['Onkel Wanja', 'Drei Schwestern', 'Der Kirschgarten'], null],
+      ['Welches Tschechow-Drama trägt einen Verwandten im Titel?', 'Onkel Wanja', ['Die Möwe', 'Der Kirschgarten', 'Iwanow']],
       ['Welches Stück handelt von drei Schwestern, die nach Moskau wollen?', 'Drei Schwestern', ['Die Möwe', 'Der Kirschgarten', 'Onkel Wanja'], null],
       ['Was geschieht am Ende von Tschechows „Der Kirschgarten“?', 'Das Gut wird verkauft', ['Die Familie bleibt', 'Ein Erbe rettet alles', 'Der Garten wird neu gepflanzt'], null],
       ['Was passiert in Tschechows Stücken an der Oberfläche?', 'Fast nichts', ['Viele Kämpfe', 'Eine Revolution', 'Mehrere Morde'], null],
