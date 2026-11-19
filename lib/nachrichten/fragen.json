@@ -8062,5 +8062,293 @@
   "i": "Ein Elfmeter brachte Norwegen laut Sportschau-Spielbericht ins Viertelfinale.",
   "src": "https://www.sportschau.de/fussball/nationsleague/elfmeter-geschenk-bringt-norwegen-ins-viertelfinale,spielbericht-daenemark-norwegen-100.html",
   "p": 2
+ },
+ {
+  "id": "2026-11-18.de.1",
+  "d": "2026-11-18",
+  "r": "de",
+  "k": "Politik",
+  "q": "Welche Entlastung vereinbarten Union und SPD im Koalitionsausschuss am 18. November 2026 ab Januar für zunächst ein Jahr?",
+  "a": "Eine Senkung der Stromsteuer",
+  "w": [
+   "Eine Senkung der Mehrwertsteuer auf Lebensmittel",
+   "Eine Erhöhung des Kindergelds",
+   "Eine Abschaffung der CO2-Abgabe"
+  ],
+  "i": "Zusätzlich soll ein Spritpreisdeckel eingeführt werden; an der Befristung der Stromsteuersenkung gab es viel Kritik.",
+  "src": "https://www.tagesschau.de/inland/innenpolitik/koalitionsausschuss-einigung-stromsteuer-spritpreisdeckel-100.html",
+  "p": 3
+ },
+ {
+  "id": "2026-11-18.de.2",
+  "d": "2026-11-18",
+  "r": "de",
+  "k": "Recht",
+  "q": "Wie viele Stimmen fehlten dem BSW bei der Bundestagswahl 2025 nach den Angaben zur am 18. November 2026 in Karlsruhe gescheiterten Wahlbeschwerde zum Einzug?",
+  "a": "9.529",
+  "w": [
+   "3.529",
+   "19.529",
+   "39.529"
+  ],
+  "i": "Das BSW wollte eine Neuauszählung der Stimmen erreichen; seine Beschwerde scheiterte in Karlsruhe.",
+  "src": "https://www.tagesschau.de/inland/innenpolitik/bsw-beschwerde-abgelehnt-bundestagswahl-100.html",
+  "p": 3
+ },
+ {
+  "id": "2026-11-18.de.3",
+  "d": "2026-11-18",
+  "r": "de",
+  "k": "Wirtschaft",
+  "q": "Wen will die Bundesregierung laut Meldung vom 18. November 2026 als Chefvolkswirt der Europäischen Zentralbank vorschlagen?",
+  "a": "Markus Brunnermeier",
+  "w": [
+   "Clemens Fuest",
+   "Lars Feld",
+   "Jens Weidmann"
+  ],
+  "i": "Brunnermeier ist ein deutscher Ökonom; die Bundesregierung will ihn als Chefökonomen der EZB nominieren.",
+  "src": "https://www.tagesschau.de/wirtschaft/finanzen/bundesregierung-ezb-chefvolkswirt-100.html",
+  "p": 2
+ },
+ {
+  "id": "2026-11-18.de.4",
+  "d": "2026-11-18",
+  "r": "de",
+  "k": "Recht",
+  "q": "Welcher Streamingdienst darf laut einem Gerichtsurteil vom 18. November 2026 seine Preise nicht auf Grundlage seiner bisherigen Klausel erhöhen, weil diese unwirksam ist?",
+  "a": "DAZN",
+  "w": [
+   "Netflix",
+   "Disney+",
+   "Amazon Prime Video"
+  ],
+  "i": "Die Preiserhöhungen von DAZN waren auf viel Kritik gestoßen; ein Gericht erklärte die Klausel nun für unwirksam.",
+  "src": "https://www.tagesschau.de/wirtschaft/verbraucher/dazn-preise-urteil-100.html",
+  "p": 2
+ },
+ {
+  "id": "2026-11-18.de.5",
+  "d": "2026-11-18",
+  "r": "de",
+  "k": "Sport",
+  "q": "Welches deutsche Tennis-Doppel zog am 18. November 2026 bei den ATP Finals vorzeitig ins Halbfinale ein?",
+  "a": "Krawietz/Pütz",
+  "w": [
+   "Struff/Kohlmann",
+   "Hanfmann/Otte",
+   "Zverev/Struff"
+  ],
+  "i": "Kevin Krawietz und Tim Pütz sicherten sich den Halbfinaleinzug schon vor ihrem letzten Gruppenspiel.",
+  "src": "https://www.sportschau.de/tennis/krawietz-puetz-vorzeitig-im-halbfinale,atp-finals-krawietz-puetz-granollers-zeballos-100.html",
+  "p": 2
+ },
+ {
+  "id": "2026-11-18.de.6",
+  "d": "2026-11-18",
+  "r": "de",
+  "k": "Katastrophen",
+  "q": "In welchem Mittelgebirge gab es am 18. November 2026 laut tagesschau Orkanböen, während im Schwarzwald sehr viel Regen fiel?",
+  "a": "Im Harz",
+  "w": [
+   "Im Bayerischen Wald",
+   "In der Eifel",
+   "Im Erzgebirge"
+  ],
+  "i": "Für fast ganz Deutschland galten Unwetterwarnungen; bis dahin war vor allem Nordrhein-Westfalen betroffen.",
+  "src": "https://www.tagesschau.de/inland/gesellschaft/sturm-deutschland-106.html",
+  "p": 2
+ },
+ {
+  "id": "2026-11-18.de.7",
+  "d": "2026-11-18",
+  "r": "de",
+  "k": "Wissenschaft",
+  "q": "Für Forschung zu welcher Technologie wurde am 18. November 2026 der Deutsche Zukunftspreis des Bundespräsidenten vergeben?",
+  "a": "Mikrochips",
+  "w": [
+   "Batteriespeichern",
+   "Impfstoffen",
+   "Quantencomputern"
+  ],
+  "i": "Der Preis soll besonders innovative Forschung auszeichnen; ausgezeichnet wurden Mikrochip-Forscher.",
+  "src": "https://www.tagesschau.de/wissen/forschung/zukunftspreis-110.html",
+  "p": 2
+ },
+ {
+  "id": "2026-11-18.de.8",
+  "d": "2026-11-18",
+  "r": "de",
+  "k": "Gesellschaft",
+  "q": "Welcher Anteil der Jugendlichen in Deutschland hat laut einer am 18. November 2026 gemeldeten Erhebung schon Nikotinbeutel konsumiert?",
+  "a": "Jeder vierte",
+  "w": [
+   "Jeder zehnte",
+   "Jeder zweite",
+   "Jeder fünfzigste"
+  ],
+  "i": "Gesundheitsexperten sorgen sich wegen des konzentrierten Suchtstoffs und warnen vor einer Legalisierung.",
+  "src": "https://www.tagesschau.de/inland/gesellschaft/nikotinbeutel-jugendliche-100.html",
+  "p": 2
+ },
+ {
+  "id": "2026-11-18.welt.1",
+  "d": "2026-11-18",
+  "r": "welt",
+  "k": "Kultur",
+  "q": "Welchen Preis erzielte Vincent van Goghs Gemälde „Blühende Kastanienbäume“ von 1890 am 18. November 2026 bei Sotheby's in New York?",
+  "a": "190,4 Millionen US-Dollar",
+  "w": [
+   "95,8 Millionen US-Dollar",
+   "142,0 Millionen US-Dollar",
+   "250,0 Millionen US-Dollar"
+  ],
+  "i": "Das war ein neuer Auktionsrekord für ein Werk Van Goghs und übertraf den bisherigen Rekord von 2022.",
+  "src": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_18",
+  "p": 3
+ },
+ {
+  "id": "2026-11-18.welt.2",
+  "d": "2026-11-18",
+  "r": "welt",
+  "k": "Wissenschaft",
+  "q": "Welche Entfernung zur Erde erreichte die Raumsonde Voyager 1 laut Meldung vom 18. November 2026 als erstes menschengemachtes Objekt?",
+  "a": "Einen Lichttag",
+  "w": [
+   "Eine Lichtstunde",
+   "Einen Lichtmonat",
+   "Ein Lichtjahr"
+  ],
+  "i": "Die Sonde wurde 1977 gestartet und ist mehr als vier Jahrzehnte später einen Lichttag von der Erde entfernt.",
+  "src": "https://www.tagesschau.de/wissen/technologie/voyager-1-100.html",
+  "p": 3
+ },
+ {
+  "id": "2026-11-18.welt.3",
+  "d": "2026-11-18",
+  "r": "welt",
+  "k": "Sport",
+  "q": "Welcher Wicketkeeper stellte am 18. November 2026 im Test-Cricket gegen Südafrika in Johannesburg einen Weltrekord an Dismissals in einem Innings auf?",
+  "a": "Litton Das",
+  "w": [
+   "Rishabh Pant",
+   "Mushfiqur Rahim",
+   "Quinton de Kock"
+  ],
+  "i": "Der Bangladescher erzielte sechs Catches und zwei Stumpings in einem einzigen Innings.",
+  "src": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_18",
+  "p": 2
+ },
+ {
+  "id": "2026-11-18.welt.4",
+  "d": "2026-11-18",
+  "r": "welt",
+  "k": "Sport",
+  "q": "Welchen Gegner besiegte Carlos Alcaraz am 18. November 2026 bei den ATP Finals?",
+  "a": "Daniil Medwedew",
+  "w": [
+   "Novak Djokovic",
+   "Andrej Rubljow",
+   "Stefanos Tsitsipas"
+  ],
+  "i": "Sportschau beschrieb Alcaraz' Auftritt als furios; Medwedew hatte keine Chance.",
+  "src": "https://www.sportschau.de/tennis/alcaraz-laesst-auch-medwedew-keine-chance,spielbericht-atp-finals-mittwoch-100.html",
+  "p": 2
+ },
+ {
+  "id": "2026-11-18.welt.5",
+  "d": "2026-11-18",
+  "r": "welt",
+  "k": "Konflikte",
+  "q": "Welche Brücke wurde am 18. November 2026 laut AP von ukrainischen Kräften zum dritten Mal in vier Tagen getroffen, worauf Russland sie für den gesamten Verkehr sperrte?",
+  "a": "Die Krimbrücke",
+  "w": [
+   "Die Antoniwka-Brücke bei Cherson",
+   "Die Dnjepr-Brücke bei Saporischschja",
+   "Die Brücke von Belgorod"
+  ],
+  "i": "Die russischen Behörden schlossen die Brücke nach dem Angriff für jeden Verkehr.",
+  "src": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_18",
+  "p": 2
+ },
+ {
+  "id": "2026-11-18.welt.6",
+  "d": "2026-11-18",
+  "r": "welt",
+  "k": "Konflikte",
+  "q": "Seit welchem Monat galt am 18. November 2026 die Waffenruhe im Gazastreifen, die Israels Armee mit ihrer ersten Operation im Zentrum des Gebiets erstmals brach?",
+  "a": "Seit Oktober 2025",
+  "w": [
+   "Seit Juli 2025",
+   "Seit Dezember 2025",
+   "Seit Februar 2026"
+  ],
+  "i": "Laut BBC war es die erste Operation im zentralen Gazastreifen seit Inkrafttreten der im Oktober 2025 geschlossenen Vereinbarung.",
+  "src": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_18",
+  "p": 3
+ },
+ {
+  "id": "2026-11-18.welt.7",
+  "d": "2026-11-18",
+  "r": "welt",
+  "k": "Politik",
+  "q": "Welche Demokratin besiegte laut Meldung vom 18. November 2026 den republikanischen Amtsinhaber im Rennen um einen Senatssitz in Alaska?",
+  "a": "Mary Peltola",
+  "w": [
+   "Elissa Slotkin",
+   "Tammy Duckworth",
+   "Lisa Murkowski"
+  ],
+  "i": "Die Demokraten gewannen damit einen weiteren Senatssitz bei den Midterms.",
+  "src": "https://www.tagesschau.de/ausland/amerika/midterms-usa-alaska-100.html",
+  "p": 3
+ },
+ {
+  "id": "2026-11-18.welt.8",
+  "d": "2026-11-18",
+  "r": "welt",
+  "k": "Politik",
+  "q": "In welcher chinesischen Stadt trafen am 18. November 2026 Xi Jinping, Donald Trump und Wladimir Putin zum APEC-Gipfel ein?",
+  "a": "In Shenzhen",
+  "w": [
+   "In Shanghai",
+   "In Peking",
+   "In Hongkong"
+  ],
+  "i": "Auf dem Gipfel kam es erstmals zu einem Dreiertreffen der Staatschefs von China, den USA und Russland.",
+  "src": "https://www.tagesschau.de/ausland/asien/apec-gipfel-shenzen-trump-xi-putin-100.html",
+  "p": 3
+ },
+ {
+  "id": "2026-11-18.welt.9",
+  "d": "2026-11-18",
+  "r": "welt",
+  "k": "Wirtschaft",
+  "q": "Welcher US-Chipkonzern verdoppelte laut Quartalszahlen vom 18. November 2026 Umsatz und Gewinn und übertraf damit die Erwartungen der Analysten?",
+  "a": "Nvidia",
+  "w": [
+   "AMD",
+   "Intel",
+   "Qualcomm"
+  ],
+  "i": "Die Zahlen lagen deutlich über den Erwartungen von Analysten.",
+  "src": "https://www.tagesschau.de/wirtschaft/unternehmen/nvidia-quartalsergebnisse-100.html",
+  "p": 2
+ },
+ {
+  "id": "2026-11-18.welt.10",
+  "d": "2026-11-18",
+  "r": "welt",
+  "k": "Gesellschaft",
+  "q": "In welchem Land erlebte man laut tagesschau im November 2026 den schlimmsten Masern-Ausbruch seit mehr als 35 Jahren?",
+  "a": "In den USA",
+  "w": [
+   "In Indien",
+   "In Brasilien",
+   "In Großbritannien"
+  ],
+  "i": "Die USA gelten nicht mehr als masernfrei.",
+  "src": "https://www.tagesschau.de/ausland/amerika/masern-usa-118.html",
+  "p": 2
  }
 ]
