@@ -37,7 +37,7 @@ export const PERSIEN_ARABIEN: Subtopic = {
       ['Welche Tragödie erzählt das Schahname?', 'Rostam tötet seinen Sohn Sohrab', ['Alexander stirbt in Babylon', 'Ein König wird gestürzt', 'Persepolis brennt'], null],
       ['Wann lebte Omar Chayyam?', 'Um 1048 – um 1131', ['940–1020', '1207–1273', '1315–1390'], null],
       ['Wer machte die „Rubaijat“ im Westen berühmt?', 'Edward FitzGerald', ['Goethe', 'Rilke', 'Richard Burton'], null],
-      ['Wann lebte Rumi?', '1207–1273', ['940–1020', '1048–1131', '1315–1390'], null],
+      ['In welcher Stadt im heutigen Afghanistan wurde Rumi geboren?', 'In Balch', ['In Kabul', 'In Herat', 'In Kandahar']],
       ['In welcher Stadt lebte Rumi?', 'In Konya', ['In Bagdad', 'In Isfahan', 'In Samarkand'], null],
       ['Wer war Rumis Freund und Lehrer?', 'Schams-e Täbris', ['Hafis', 'Saadi', 'Attar'], null],
     ],

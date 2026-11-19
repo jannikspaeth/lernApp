@@ -33,7 +33,7 @@ export const GARCIA_MARQUEZ: Subtopic = {
       ['Was erzählte García Márquez’ Großmutter?', 'Geistergeschichten wie Tatsachen', ['Märchen', 'Bibelgeschichten', 'Kriegsberichte'], null],
       ['Wann erschien „Hundert Jahre Einsamkeit“?', '1967', ['1927', '1982', '2000'], null],
       ['Über wie viele Generationen erzählt „Hundert Jahre Einsamkeit“?', 'Sieben', ['Zwei', 'Drei', 'Zwölf'], null],
-      ['In welcher Stadt erschien „Hundert Jahre Einsamkeit“ 1967 zuerst?', 'In Buenos Aires', ['In Bogotá', 'In Mexiko-Stadt', 'In Madrid'], 'García Márquez lebte damals in Mexiko-Stadt, der Verlag saß in Argentinien.'],
+      ['In welcher Stadt erschien „Hundert Jahre Einsamkeit“ zuerst?', 'In Buenos Aires', ['In Bogotá', 'In Mexiko-Stadt', 'In Madrid'], 'García Márquez lebte damals in Mexiko-Stadt, der Verlag saß in Argentinien.'],
       ['Wie lange wartet Florentino in „Die Liebe in den Zeiten der Cholera“ auf seine Liebe?', 'Etwa 50 Jahre', ['Etwa 5 Jahre', 'Etwa 15 Jahre', 'Etwa 150 Jahre'], null],
       ['In welcher Stadt wurde Mario Vargas Llosa geboren?', 'In Arequipa', ['In Lima', 'In Cusco', 'In Quito'], 'Arequipa liegt im Süden Perus.'],
       ['Welches Buch von Vargas Llosa schildert eine Militärakademie?', 'Die Stadt und die Hunde', ['Das grüne Haus', 'Das Fest des Ziegenbocks', 'Das Geisterhaus'], null],

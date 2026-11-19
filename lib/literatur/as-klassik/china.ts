@@ -34,7 +34,7 @@ export const CHINA: Subtopic = {
       ['Wann lebte Li Bai?', '701–762', ['712–770', '618–907', '1644–1694'], null],
       ['Wessen Hofdichter war Li Bai?', 'Des Kaisers Xuanzong', ['Des Kaisers Qin Shihuang', 'Des Kaisers Kangxi', 'Des Kaisers Wudi'], null],
       ['Wie starb Li Bai der Legende nach?', 'Er ertrank beim Griff nach dem Mond im Wasser', ['Im Krieg', 'An Wein', 'Im Gefängnis'], null],
-      ['Wann lebte Du Fu?', '712–770', ['701–762', '618–907', '1644–1694'], null],
+      ['Wie viele Gedichte von Li Bai sind etwa erhalten?', 'Etwa tausend', ['Etwa hundert', 'Etwa zehntausend', 'Etwa fünfzig']],
       ['Welcher Aufstand erschütterte Du Fus Zeit?', 'Der des Generals An Lushan', ['Der Taiping-Aufstand', 'Der Boxeraufstand', 'Der Mongolensturm'], null],
       ['Wie viele Gedichte von Du Fu sind erhalten?', 'Rund 1400', ['Rund 140', 'Rund 14 000', 'Rund 14'], null],
       ['Wie nennt man Du Fu wegen seiner Zeitgedichte auch?', 'Dichterhistoriker', ['Dichterkaiser', 'Dichtermönch', 'Dichterfürst'], null],

@@ -8,9 +8,9 @@ export const UEBERBLICK: Subtopic = {
   text: [
     'Afrika hat eine alte mündliche Erzähltradition: Sagen, Sprichwörter, Preislieder und Märchen wurden von Erzählern, den „Griots“ in Westafrika, über Generationen weitergegeben. Neben dieser Tradition gab es seit Jahrhunderten schriftliche Literatur in Äthiopien (auf Ge’ez), in Ägypten und Nordafrika (auf Arabisch) und an der ostafrikanischen Küste (auf Swahili). Die Kolonialmächte brachten ab dem 19. Jahrhundert Englisch, Französisch und Portugiesisch, die zu Sprachen der modernen Literatur wurden.',
     'Die moderne Literatur Afrikas begann im 20. Jahrhundert mit den Gegenbewegungen zum Kolonialismus. In Frankreich entwarfen Léopold Sédar Senghor aus dem Senegal und Aimé Césaire aus Martinique in den 1930er-Jahren als Studenten in Paris die „Négritude“, die Besinnung auf die Werte der Schwarzen. Senghor wurde später erster Präsident des Senegal. Nach der Unabhängigkeit der meisten Länder um 1960 erzählten Autoren wie Chinua Achebe (Nigeria) und Ngũgĩ wa Thiong’o (Kenia) von der Zerstörung der alten Welt und von der Enttäuschung der neuen Staaten.',
-    'Mehrere Autoren erhielten den Nobelpreis: Wole Soyinka (Nigeria, 1986) als erster Schwarzer Afrikas, Nagib Machfus (Ägypten, 1988), Nadine Gordimer (Südafrika, 1991), J. M. Coetzee (Südafrika, 2003), Doris Lessing, die in Südrhodesien aufwuchs (2007), und Abdulrazak Gurnah aus Tansania (2021). Die südafrikanische Literatur wurde stark vom Kampf gegen die Apartheid geprägt, bis 1994 Nelson Mandela Präsident wurde.',
+    'Mehrere Autoren erhielten den Nobelpreis: Wole Soyinka (Nigeria, 1986) als erster Schwarzer Afrikas, Nagib Machfus (Ägypten, 1988), Nadine Gordimer (Südafrika, 1991), J. M. Coetzee (Südafrika, 2003), Doris Lessing, die in Südrhodesien aufwuchs (2007), und Abdulrazak Gurnah aus Tansania (2021). Die südafrikanische Literatur wurde stark vom Kampf gegen die Apartheid geprägt – Alan Paton rüttelte 1948 mit „Denn sie sollen getröstet werden“ die Welt auf –, bis 1994 Nelson Mandela Präsident wurde.',
     'Die Debatte, in welcher Sprache Afrika schreiben soll, bleibt lebendig. Achebe schrieb Englisch und nannte es „ein neues, an afrikanische Zwecke angepasstes Englisch“. Ngũgĩ wa Thiong’o verließ das Englische 1977 und schreibt seitdem auf Gikuyu, weil er die Kolonialsprachen als Fortsetzung der Fremdherrschaft sah. Amos Tutuola schrieb in den 1950er-Jahren in einem eigenwilligen Englisch Fantasyromane aus der Yoruba-Welt.',
-    'Heute stehen Autorinnen und Autoren wie Chimamanda Ngozi Adichie („Americanah“, 2013), Maaza Mengiste, Alain Mabanckou aus dem Kongo und Wole Soyinka für eine vielstimmige Literatur, die von Migration, Identität und Gesellschaft erzählt. Verlage und Festivals in Lagos, Nairobi, Kapstadt und Dakar verbreiten sie weltweit. Weil die Autorinnen und Autoren oft im Exil leben, ist die Frage nach „Heimat“ eines ihrer großen Themen.',
+    'Die Senegalesin Mariama Bâ schrieb 1979 den Briefroman „Ein so langer Brief“ über Frauen in der Polygamie. Heute stehen Autorinnen und Autoren wie die Nigerianerin Chimamanda Ngozi Adichie („Americanah“, 2013), die Äthiopierin Maaza Mengiste, Alain Mabanckou aus dem Kongo und Wole Soyinka für eine vielstimmige Literatur, die von Migration, Identität und Gesellschaft erzählt. Verlage und Festivals in Lagos, Nairobi, Kapstadt und Dakar verbreiten sie weltweit. Weil die Autorinnen und Autoren oft im Exil leben, ist die Frage nach „Heimat“ eines ihrer großen Themen.',
   ],
   quiz: {
     leicht: [
@@ -20,7 +20,7 @@ export const UEBERBLICK: Subtopic = {
       ['Wie nennt man die mündlichen Erzähler in Westafrika?', 'Griots', ['Derwische', 'Samurai', 'Barden'], null],
       ['In welcher Sprache wird an der Ostküste Afrikas traditionell geschrieben?', 'Swahili', ['Hausa', 'Zulu', 'Amharisch'], null],
       ['Wie heißt die Bewegung von Senghor und Césaire?', 'Négritude', ['Panafrikanismus', 'Apartheid', 'Ubuntu'], null],
-      ['Aus welchem Land stammt Chinua Achebe?', 'Aus Nigeria', ['Aus Kenia', 'Aus Südafrika', 'Aus Ägypten'], null],
+      ['Aus welchem Land stammt Chimamanda Ngozi Adichie?', 'Aus Nigeria', ['Aus Ghana', 'Aus Kenia', 'Aus Kamerun']],
       ['Wann erhielt Wole Soyinka den Nobelpreis?', '1986', ['1976', '1996', '2006'], null],
       ['Aus welchem Land stammt Nagib Machfus?', 'Aus Ägypten', ['Aus Nigeria', 'Aus Südafrika', 'Aus Kenia'], null],
       ['Aus welchem Land stammen Gordimer und Coetzee?', 'Aus Südafrika', ['Aus Kenia', 'Aus Ägypten', 'Aus Nigeria'], null],
@@ -28,11 +28,11 @@ export const UEBERBLICK: Subtopic = {
       ['Wer wurde 1994 Präsident Südafrikas?', 'Nelson Mandela', ['Desmond Tutu', 'Thabo Mbeki', 'Steve Biko'], null],
     ],
     mittel: [
-      ['Wann erhielt Nagib Machfus den Nobelpreis?', '1988', ['1986', '1991', '2003'], null],
+      ['Welche Senegalesin schrieb den Briefroman „Ein so langer Brief“?', 'Mariama Bâ', ['Aminata Sow Fall', 'Ken Bugul', 'Fatou Diome']],
       ['Welche Kolonialsprachen wurden zu Sprachen der modernen afrikanischen Literatur?', 'Englisch, Französisch und Portugiesisch', ['Deutsch, Italienisch und Spanisch', 'Niederländisch und Dänisch', 'Arabisch und Türkisch'], 'Die Kolonialmächte brachten sie ab dem 19. Jahrhundert.'],
       ['Wo wuchs die Nobelpreisträgerin Doris Lessing auf?', 'In Südrhodesien', ['In Kenia', 'In Südafrika', 'In Ägypten'], 'Sie erhielt den Nobelpreis 2007.'],
       ['Wer erhielt 2021 den Nobelpreis aus Tansania?', 'Abdulrazak Gurnah', ['Wole Soyinka', 'Ngũgĩ', 'Achebe'], null],
-      ['In welcher Sprache schreibt Ngũgĩ seit 1977?', 'Gikuyu', ['Englisch', 'Swahili', 'Französisch'], null],
+      ['Aus welchem Land stammt die Autorin Maaza Mengiste?', 'Aus Äthiopien', ['Aus Eritrea', 'Aus Somalia', 'Aus dem Sudan']],
       ['Welcher Dichter wurde erster Präsident des Senegal?', 'Léopold Sédar Senghor', ['Aimé Césaire', 'Achebe', 'Soyinka'], null],
       ['Woher stammt Aimé Césaire?', 'Aus Martinique', ['Aus Senegal', 'Aus Nigeria', 'Aus Haiti'], null],
       ['Um welches Jahr wurden die meisten afrikanischen Länder unabhängig?', 'Um 1960', ['Um 1900', 'Um 1945', 'Um 1990'], null],
@@ -43,7 +43,7 @@ export const UEBERBLICK: Subtopic = {
     ],
     schwer: [
       ['Was ist die Négritude?', 'Eine Bewegung, die sich auf die Kultur der Schwarzen besinnt', ['Eine Partei in Senegal', 'Ein Krieg in Westafrika', 'Ein Malstil aus Paris'], null],
-      ['Wie nannte Achebe sein Englisch?', 'Ein neues, an afrikanische Zwecke angepasstes Englisch', ['Ein Fremdenenglisch', 'Ein altes Englisch', 'Ein reines Englisch'], null],
+      ['Welcher Südafrikaner schrieb 1948 „Denn sie sollen getröstet werden“?', 'Alan Paton', ['J. M. Coetzee', 'André Brink', 'Athol Fugard']],
       ['Warum verließ Ngũgĩ das Englische?', 'Er sah die Kolonialsprachen als Fortsetzung der Fremdherrschaft', ['Er fand es zu schwer', 'Er wollte mehr Leser', 'Er hatte kein Verlagsangebot'], null],
       ['Wovon erzählten Achebe und Ngũgĩ nach der Unabhängigkeit?', 'Von der Zerstörung der alten Welt und der Enttäuschung der neuen Staaten', ['Von Märchen und Fabeln', 'Von Raumfahrt', 'Von fernen Zukunftswelten'], null],
       ['Welche Autorin erhielt 2007 den Nobelpreis?', 'Doris Lessing', ['Nadine Gordimer', 'Toni Morrison', 'Alice Munro'], null],

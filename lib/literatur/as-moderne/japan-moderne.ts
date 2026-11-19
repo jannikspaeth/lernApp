@@ -10,7 +10,7 @@ export const JAPAN_MODERNE: Subtopic = {
     'Mit „Kokoro“ (1914) schuf Sōseki seinen Hauptroman: Ein Student lernt einen rätselhaften älteren Mann kennen, „Sensei“, der sich schuldig fühlt, weil er einst einen Freund betrogen hat, dessen Selbstmord er verursachte. Nach dem Tod des Kaisers Meiji 1912 und dem Selbstmord eines Generals nimmt sich auch Sensei das Leben. Der Roman zeigt die Einsamkeit des modernen Menschen und das Ende einer Epoche. Sōseki steht auf dem 1000-Yen-Schein, der bis 2004 im Umlauf war.',
     'Yasunari Kawabata (1899–1972) verlor als Kind früh seine Eltern und Großeltern. Er erzählt in zarter, andeutender Sprache von Schönheit, Vergänglichkeit und Einsamkeit. „Schneeland“ (1935–48) handelt von einem Tokioter Dandy und einer Geisha in einem Bergdorf, „Tausend Kraniche“ (1949–51) von einer Teezeremonie, bei der vergangene Verstrickungen aufleben. 1968 erhielt er als erster Japaner den Nobelpreis; 1972 nahm er sich das Leben.',
     'Yukio Mishima (1925–1970) war Schriftsteller, Schauspieler, Bodybuilder und Nationalist. Er schrieb Romane wie „Geständnis einer Maske“ (1949) über einen jungen Homosexuellen und „Der Tempel der Morgendämmerung“. 1970 stürmte er mit Anhängern ein Armeegebäude in Tokio, forderte vergeblich die Rückkehr zum Kaisertum und beging rituellen Selbstmord (Seppuku). Sein Tod schockierte Japan.',
-    'Haruki Murakami (geb. 1949) führte in Kyōto ein Jazzlokal, bevor er mit „Wenn der Wind singt“ 1979 zu schreiben begann. Seine Romane wie „Naokos Lächeln“ (Norwegian Wood, 1987), „Mister Aufziehvogel“, „Kafka am Strand“ und „1Q84“ mischen Alltag mit Rätsel, Musik, Katzen und Traum. Er lebt viel im Ausland, läuft Marathon und übersetzt amerikanische Literatur. Er wird jedes Jahr als Nobelpreiskandidat gehandelt, hat ihn aber nie erhalten.',
+    'Haruki Murakami (geb. 1949) führte in Kyōto ein Jazzlokal, bevor er mit „Wenn der Wind singt“ 1979 zu schreiben begann. Seine Romane wie „Naokos Lächeln“ (Norwegian Wood, 1987), „Mister Aufziehvogel“, „Kafka am Strand“ und „1Q84“ mischen Alltag mit Rätsel, Musik, Katzen und Traum. Er lebt viel im Ausland, läuft Marathon und übersetzt amerikanische Literatur. Er wird jedes Jahr als Nobelpreiskandidat gehandelt, hatte ihn bis 2025 aber nicht erhalten.',
   ],
   quiz: {
     leicht: [
@@ -50,7 +50,7 @@ export const JAPAN_MODERNE: Subtopic = {
       ['Was war Mishima außer Schriftsteller?', 'Schauspieler und Bodybuilder', ['Minister', 'Arzt', 'Lehrer'], null],
       ['Welche Elemente mischt Murakami in seinen Romanen?', 'Alltag mit Rätsel, Musik, Katzen und Traum', ['Historische Schlachten und Politik', 'Bissige Satire auf Politiker', 'Antike Heldenepen'], null],
       ['Was tut Murakami neben dem Schreiben?', 'Er übersetzt amerikanische Literatur', ['Er unterrichtet Malerei', 'Er leitet ein Museum', 'Er komponiert Opern'], null],
-      ['Welchen Preis hat Murakami bisher nicht erhalten?', 'Den Nobelpreis', ['Den Booker-Preis', 'Den Jerusalem-Preis', 'Den Franz-Kafka-Preis'], null],
+      ['Welchen Preis hatte Murakami bis 2025 trotz aller Erwartungen nicht erhalten?', 'Den Nobelpreis', ['Den Booker-Preis', 'Den Jerusalem-Preis', 'Den Franz-Kafka-Preis'], null],
       ['Wie endete Kawabatas Leben?', 'Er nahm sich 1972 das Leben', ['Er starb an Krebs', 'Er fiel im Krieg', 'Er starb bei einem Flugzeugabsturz'], null],
     ],
   },

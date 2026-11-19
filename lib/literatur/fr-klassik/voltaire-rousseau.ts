@@ -36,7 +36,7 @@ export const VOLTAIRE_ROUSSEAU: Subtopic = {
       ['Wo lebte Voltaire zuletzt?', 'Auf seinem Gut Ferney', ['In Paris', 'In Potsdam', 'In Genf'], 'Von dort schrieb er tausende Briefe.'],
       ['Wann erschien „Der Gesellschaftsvertrag“?', '1762', ['1748', '1751', '1789'], null],
       ['Welches Erziehungsbuch schrieb Rousseau?', 'Émile', ['Der Gesellschaftsvertrag', 'Die neue Héloïse', 'Die Bekenntnisse'], 'Es erschien ebenfalls 1762.'],
-      ['Was geschah 1762 mit Rousseaus „Émile“ und „Gesellschaftsvertrag“?', 'Sie wurden verurteilt und verbrannt', ['Sie wurden Bestseller am Hof', 'Sie blieben unbeachtet', 'Sie wurden übersetzt und gefeiert'], 'Rousseau musste fliehen.'],
+      ['Was geschah mit Rousseaus „Émile“ und „Gesellschaftsvertrag“ nach dem Erscheinen?', 'Sie wurden verurteilt und verbrannt', ['Sie wurden Bestseller am Hof', 'Sie blieben unbeachtet', 'Sie wurden übersetzt und gefeiert'], 'Rousseau musste fliehen.'],
       ['Was ist das Besondere an Rousseaus „Bekenntnissen“?', 'Ihre bis dahin unbekannte Offenheit', ['Ihre Verse', 'Ihre Kürze', 'Ihre lateinische Sprache'], null],
       ['Was warfen Gegner Rousseau besonders vor?', 'Dass er seine Kinder ins Findelhaus gab', ['Dass er nie arbeitete', 'Dass er Geld nahm', 'Dass er floh'], null],
       ['Was schrieb Diderot neben der Encyclopédie?', 'Romane wie „Jakob und sein Herr“', ['Opern', 'Tragödien in Versen', 'Reiseberichte'], null],
