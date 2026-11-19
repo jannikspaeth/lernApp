@@ -50,7 +50,7 @@ export const UEBERBLICK: Subtopic = {
       ['Wie standen Voltaire und Rousseau zueinander?', 'Sie konnten einander nicht ausstehen', ['Sie waren enge Freunde', 'Sie kannten sich nicht', 'Sie arbeiteten zusammen'], null],
       ['Welche Rolle spielten Frauen in den französischen Salons?', 'Sie führten sie oft', ['Sie waren nicht zugelassen', 'Sie bedienten nur', 'Sie schrieben die Protokolle'], null],
       ['Was kennzeichnet Racines Sprache?', 'Große Strenge und Knappheit', ['Derbe Komik', 'Volkstümlichkeit', 'Lateinische Einschübe'], null],
-      ['Welche Gattung behandelte Molière?', 'Die Komödie', ['Die Tragödie', 'Das Epos', 'Die Ode'], null],
+      ['Welche Tragödie Racines nennt der Text neben „Phèdre“?', '„Andromaque“', ['„Le Cid“', '„Horace“', '„Zaïre“']],
       ['Welche Wirkung hatten La Fontaines Fabeln?', 'Generationen lernten sie auswendig', ['Sie wurden verboten', 'Sie blieben unbekannt', 'Sie waren nur für den Hof'], null],
     ],
   },

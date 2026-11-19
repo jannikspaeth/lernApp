@@ -24,7 +24,7 @@ export const UEBERBLICK: Subtopic = {
       ['Was war Saint-Exupéry von Beruf?', 'Pilot', ['Arzt', 'Lehrer', 'Diplomat'], null],
       ['Wie lautet der bekannteste Satz aus „Der kleine Prinz“?', 'Man sieht nur mit dem Herzen gut', ['Alle Menschen werden Brüder', 'Der Mensch ist frei geboren', 'Die Welt ist alles, was der Fall ist'], null],
       ['Wer ist auf diesem Porträt zu sehen?', 'Simone de Beauvoir', ['Marguerite Duras', 'Nathalie Sarraute', 'Annie Ernaux'], null, 'beauvoir'],
-      ['Wie heißt Beauvoirs berühmtes Buch?', 'Das andere Geschlecht', ['Die Mandarins von Paris', 'Das Alter', 'Memoiren einer Tochter aus gutem Hause'], null],
+      ['In wie viele Sprachen ist „Der kleine Prinz“ übersetzt?', 'In über 500', ['In rund 50', 'In rund 100', 'In über 5.000']],
       ['Welche Bewegung fragte, wie man ohne vorgegebene Ordnung leben soll?', 'Der Existenzialismus', ['Der Surrealismus', 'Der Naturalismus', 'Der Symbolismus'], null],
     ],
     mittel: [

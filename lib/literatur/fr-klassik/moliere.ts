@@ -7,7 +7,7 @@ export const MOLIERE: Subtopic = {
   images: ['moliere', 'racine'],
   text: [
     'Molière hieß eigentlich Jean-Baptiste Poquelin und wurde 1622 in Paris als Sohn eines wohlhabenden Hoftapezierers geboren. Er hätte das Amt des Vaters erben können, entschied sich aber mit 21 Jahren für das Theater, nahm den Künstlernamen Molière an und gründete eine Truppe. Sie ging in Paris bankrott, und Molière saß kurz im Schuldgefängnis. Danach zog er dreizehn Jahre lang als Wanderschauspieler durch die Provinz.',
-    '1658 kehrte er nach Paris zurück und spielte vor Ludwig XIV., der ihn fortan förderte. Von da an schrieb, inszenierte und spielte er seine eigenen Stücke. Er nahm die Figurentypen der italienischen Stegreifkomödie auf und verband sie mit genauer Beobachtung der französischen Gesellschaft. Seine Komödien verspotten immer einen Menschen, der von einer fixen Idee beherrscht wird.',
+    '1658 kehrte er nach Paris zurück und spielte vor Ludwig XIV., der ihn fortan förderte. Von da an schrieb, inszenierte und spielte er seine eigenen Stücke. Er nahm die Figurentypen der italienischen Stegreifkomödie auf und verband sie mit genauer Beobachtung der französischen Gesellschaft. Seine Komödien verspotten immer einen Menschen, der von einer fixen Idee beherrscht wird. Für Ballettkomödien wie „Der Bürger als Edelmann“ (1670) schrieb der Hofkomponist Jean-Baptiste Lully die Musik.',
     'In „Tartuffe“ (1664) schleicht sich ein scheinheiliger Frömmler in eine Familie ein und bringt den gutgläubigen Hausherrn fast um Haus und Tochter. Das Stück griff die Heuchelei im Namen der Religion so deutlich an, dass die Kirchenpartei seine Aufführung fünf Jahre lang verhinderte. „Der Geizige“ zeigt einen Vater, dem sein Geld wichtiger ist als seine Kinder; „Der eingebildete Kranke“ einen Mann, der sich in Krankheiten flüchtet und den Ärzten ausgeliefert ist; „Der Menschenfeind“ einen Mann, der aus Ehrlichkeit an der Gesellschaft verzweifelt.',
     'Am 17. Februar 1673 spielte Molière die Titelrolle des eingebildeten Kranken, obwohl er schwer krank war. Während der vierten Vorstellung brach er zusammen und starb wenige Stunden später. Weil Schauspieler als unehrenhaft galten und er dem Beruf nicht abgeschworen hatte, wurde er nur nach Eingreifen des Königs und nachts in geweihter Erde bestattet.',
     'Sieben Jahre nach seinem Tod vereinigte Ludwig XIV. mehrere Truppen zur Comédie-Française, die bis heute besteht und „das Haus des Molière“ genannt wird. Mit Molière, Corneille und Racine hat Frankreich seine drei klassischen Dramatiker: zwei für die Tragödie, einen für die Komödie. Racine (1639–1699) war der jüngere Rivale, der in strengen Versen zeigte, wie Menschen von Leidenschaften zerstört werden.',
@@ -39,7 +39,7 @@ export const MOLIERE: Subtopic = {
       ['Mit wie vielen Jahren entschied sich Molière für das Theater?', 'Mit 21', ['Mit 12', 'Mit 35', 'Mit 45'], 'Er hätte das Amt seines Vaters erben können.'],
       ['Warum war Molières Bestattung schwierig?', 'Schauspieler galten als unehrenhaft', ['Er war verschuldet', 'Er war Protestant', 'Er hatte kein Grab bezahlt'], 'Erst der König griff ein.'],
       ['Wann wurde die Comédie-Française gegründet?', 'Sieben Jahre nach Molières Tod', ['Zu seinen Lebzeiten', 'Hundert Jahre später', 'Erst nach der Revolution'], null],
-      ['Wann lebte Racine?', '1639–1699', ['1622–1673', '1606–1684', '1621–1695'], null],
+      ['Wer komponierte die Musik zu Molières „Der Bürger als Edelmann“?', 'Jean-Baptiste Lully', ['Jean-Philippe Rameau', 'Marc-Antoine Charpentier', 'François Couperin']],
     ],
     schwer: [
       ['Was verspottet Molière in fast jedem Stück?', 'Einen Menschen, der von einer fixen Idee beherrscht wird', ['Den König', 'Die Bauern', 'Das Ausland'], null],
@@ -51,7 +51,7 @@ export const MOLIERE: Subtopic = {
       ['Welche drei Namen stehen für die französische Klassik?', 'Molière, Corneille und Racine', ['Voltaire, Rousseau und Diderot', 'Hugo, Balzac und Zola', 'La Fontaine, Boileau und Perrault'], null],
       ['Wie nennt man die Comédie-Française bis heute?', '„Das Haus des Molière“', ['„Das Haus des Königs“', '„Das Theater der Unsterblichen“', '„Die Bühne von Versailles“'], 'Ludwig XIV. gründete sie sieben Jahre nach Molières Tod.'],
       ['Was zeigt Racine in seinen Tragödien?', 'Wie Leidenschaften Menschen zerstören', ['Wie Helden siegen', 'Wie Götter eingreifen', 'Wie Bürger aufsteigen'], null],
-      ['Warum durfte „Tartuffe“ zunächst nicht gespielt werden?', 'Der Angriff auf fromme Heuchelei traf mächtige Gegner', ['Es war zu lang', 'Es war zu teuer', 'Der König mochte es nicht'], null],
+      ['Was droht der gutgläubige Hausherr in „Tartuffe“ zu verlieren?', 'Haus und Tochter', ['Sein Amt am Hof', 'Seine Gesundheit', 'Sein Schiff']],
     ],
   },
 };

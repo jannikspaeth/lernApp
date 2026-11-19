@@ -36,7 +36,7 @@ export const BALZAC_FLAUBERT: Subtopic = {
       ['Wie arbeitete Balzac?', 'Nachts und mit viel Kaffee', ['Nur morgens', 'Nur im Sommer', 'Mit Sekretären'], null],
       ['Welcher Balzac-Roman handelt von einem Geizhals in der Provinz?', '„Eugénie Grandet“', ['„Vater Goriot“', '„Bel Ami“', '„Nana“'], 'Geld ist eines von Balzacs großen Themen.'],
       ['Wann lebte Flaubert?', '1821–1880', ['1799–1850', '1802–1885', '1850–1893'], null],
-      ['Wann erschien „Madame Bovary“?', '1857', ['1837', '1867', '1877'], null],
+      ['Wie lange nach seiner Heirat starb Balzac?', 'Fünf Monate', ['Fünf Tage', 'Fünf Jahre', 'Fünfzehn Jahre']],
       ['Wo lebte Flaubert zurückgezogen?', 'Bei Rouen', ['In Paris', 'In Lyon', 'In Marseille'], null],
       ['Was soll Flaubert über Emma gesagt haben?', '„Madame Bovary bin ich“', ['„Sie ist meine Mutter“', '„Sie hat wirklich gelebt“', '„Ich hasse sie“'], null],
       ['Welcher weitere Roman stammt von Flaubert?', 'Die Erziehung des Herzens', ['Nana', 'Der Rote und der Schwarze', 'Bel Ami'], null],

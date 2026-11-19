@@ -51,7 +51,7 @@ export const HUGO: Subtopic = {
       ['Welche Figur verkörpert bei Hugo das starre Gesetz?', 'Javert', ['Valjean', 'Thénardier', 'Enjolras'], null],
       ['Was wurde aus „Die Elenden“ im 20. Jahrhundert?', 'Eines der erfolgreichsten Musicals der Welt', ['Ein verbotenes Buch', 'Eine Oper von Verdi', 'Ein Lehrbuch'], null],
       ['Wo wurde Hugo beigesetzt?', 'Im Panthéon', ['Auf Guernsey', 'In Notre-Dame', 'Auf dem Père Lachaise'], null],
-      ['Welche Rolle spielt die Kathedrale im „Glöckner“?', 'Sie ist fast selbst eine Hauptfigur', ['Sie wird nur erwähnt', 'Sie ist Kulisse am Rand', 'Sie brennt zu Beginn'], null],
+      ['Wie wurde Hugo 1870 in Paris empfangen?', 'Wie ein Held', ['Mit Spott', 'Gar nicht, er blieb unbemerkt', 'Mit einer Anklage']],
     ],
   },
 };

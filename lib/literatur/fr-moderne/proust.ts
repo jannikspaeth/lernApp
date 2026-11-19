@@ -7,9 +7,9 @@ export const PROUST: Subtopic = {
   images: ['proust'],
   text: [
     'Marcel Proust wurde 1871 in Paris als Sohn eines angesehenen Arztes und einer jüdischen Kaufmannstochter geboren. Von Kindheit an litt er an schwerem Asthma. Er lebte lange als eleganter Gast der großen Salons, galt dort als geistreich, aber als Dilettant, und veröffentlichte zunächst nur Kleinigkeiten. Erst nach dem Tod seiner Mutter 1905 begann die Arbeit, die ihn berühmt machte.',
-    'Die letzten Jahre verbrachte er fast nur noch in seinem mit Kork ausgekleideten Schlafzimmer, um Lärm und Staub fernzuhalten. Er schlief am Tag, schrieb in der Nacht und überarbeitete sein Werk unaufhörlich, auf Zetteln, die er an die Seiten klebte, bis die Manuskripte sich wie Fahnen ausfalten ließen. Den ersten Band musste er 1913 auf eigene Kosten drucken lassen; ein Verlag hatte ihn abgelehnt, weil sich niemand dreißig Seiten über das Einschlafen antun wolle.',
+    'Die letzten Jahre verbrachte er fast nur noch in seinem mit Kork ausgekleideten Schlafzimmer, um Lärm und Staub fernzuhalten. Er schlief am Tag, schrieb in der Nacht und überarbeitete sein Werk unaufhörlich, auf Zetteln, die er an die Seiten klebte, bis die Manuskripte sich wie Fahnen ausfalten ließen. Den ersten Band, „In Swanns Welt“, musste er 1913 auf eigene Kosten drucken lassen; ein Verlag hatte ihn abgelehnt, weil sich niemand dreißig Seiten über das Einschlafen antun wolle.',
     '„Auf der Suche nach der verlorenen Zeit“ umfasst sieben Bände und rund 4.000 Seiten. Es ist die Geschichte eines Erzählers, der verstehen will, wie das eigene Leben zusammenhängt. Beschrieben werden die Pariser Gesellschaft, die Liebe und die Eifersucht, der Aufstieg des Bürgertums und der Verfall des Adels, die Affäre Dreyfus und der Erste Weltkrieg, vor allem aber die Zeit selbst.',
-    'Die berühmteste Stelle steht im ersten Band: Der Erzähler taucht ein Stück Gebäck, eine Madeleine, in Lindenblütentee, und mit dem Geschmack kehrt plötzlich die ganze Kindheit in Combray zurück, mit allen Häusern, Gärten und Menschen. Proust nennt das die unwillkürliche Erinnerung: Nicht das Nachdenken holt die Vergangenheit zurück, sondern ein zufälliger Sinneseindruck. Die Kunst, so der Schluss des Werks, kann diese verlorene Zeit festhalten.',
+    'Die berühmteste Stelle steht im ersten Band: Der Erzähler taucht ein Stück Gebäck, eine Madeleine, in Lindenblütentee, und mit dem Geschmack kehrt plötzlich die ganze Kindheit in Combray zurück, mit allen Häusern, Gärten und Menschen. Proust nennt das die unwillkürliche Erinnerung: Nicht das Nachdenken holt die Vergangenheit zurück, sondern ein zufälliger Sinneseindruck. Die Kunst, so der Schluss des Werks im letzten Band „Die wiedergefundene Zeit“, kann diese verlorene Zeit festhalten.',
     'Für den zweiten Band erhielt Proust 1919 den Prix Goncourt. Er starb 1922 mit 51 Jahren an einer Lungenentzündung; die letzten drei Bände erschienen aus dem Nachlass. Prousts langer, verschachtelter Satz, der eine Wahrnehmung mit allen Abzweigungen ausschreibt, gilt als unverwechselbar, und sein Werk zählt zu den größten Romanen des 20. Jahrhunderts.',
   ],
   quiz: {
@@ -25,7 +25,7 @@ export const PROUST: Subtopic = {
       ['Wie heißt der Kindheitsort in Prousts „Suche nach der verlorenen Zeit“?', 'Combray', ['Balbec', 'Guermantes', 'Méséglise'], null],
       ['Was kann laut Proust die verlorene Zeit festhalten?', 'Die Kunst', ['Die Wissenschaft', 'Die Fotografie', 'Die Religion'], null],
       ['Aus welcher Familie stammte Prousts Mutter?', 'Aus einer jüdischen Kaufmannsfamilie', ['Aus dem alten Adel', 'Aus einer Bauernfamilie', 'Aus einer Familie von Ärzten'], 'Prousts Vater war ein angesehener Arzt.'],
-      ['In welcher Stadt lebte Proust?', 'In Paris', ['In Lyon', 'In Nizza', 'In Genf'], null],
+      ['Wie heißt der erste Band von Prousts Romanwerk?', '„In Swanns Welt“', ['„Die wiedergefundene Zeit“', '„Die Gefangene“', '„Sodom und Gomorrha“']],
     ],
     mittel: [
       ['Wann lebte Proust?', '1871–1922', ['1850–1900', '1880–1940', '1865–1915'], null],
@@ -51,7 +51,7 @@ export const PROUST: Subtopic = {
       ['Wie lebte Proust in seinen letzten Jahren?', 'Fast nur noch im Schlafzimmer', ['Auf Reisen', 'Auf dem Land', 'In der Schweiz'], null],
       ['Was beschreibt Proust an der Liebe besonders?', 'Die Eifersucht', ['Die Treue', 'Die Ehe', 'Die Freundschaft'], null],
       ['Welchen Rang hat Prousts Romanwerk heute?', 'Es zählt zu den größten Romanen des 20. Jahrhunderts', ['Es gilt als vergessen', 'Es gilt als Kinderbuch', 'Es gilt als Sachbuch'], null],
-      ['Was unterscheidet unwillkürliche von bewusster Erinnerung?', 'Sie lässt sich nicht herbeidenken', ['Sie ist ungenau', 'Sie ist kürzer', 'Sie betrifft nur Träume'], null],
+      ['Wie heißt der letzte Band von Prousts Romanwerk?', '„Die wiedergefundene Zeit“', ['„In Swanns Welt“', '„Die Entflohene“', '„Im Schatten junger Mädchenblüte“']],
     ],
   },
 };
