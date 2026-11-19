@@ -31,7 +31,7 @@ export const HAMSUN_LAGERLOEF: Subtopic = {
       ['Wann lebte Hamsun?', '1859–1952', ['1858–1940', '1882–1949', '1905–2002'], null],
       ['In welcher Stadt spielt Hamsuns „Hunger“?', 'In Kristiania, dem heutigen Oslo', ['In Bergen', 'In Stockholm', 'In Kopenhagen'], 'Der Held streift hungernd durch die Stadt.'],
       ['Wer wurde von Hamsuns Stil beeinflusst?', 'Kafka, Joyce und Thomas Mann', ['Nur Ibsen', 'Nur Strindberg', 'Nur Cervantes'], null],
-      ['Wann erhielt Hamsun den Nobelpreis?', '1920', ['1909', '1928', '1952'], null],
+      ['Welcher Roman Hamsuns über einen Außenseiter erschien 1894?', 'Pan', ['Hunger', 'Segen der Erde', 'Victoria']],
       ['Welches Regime unterstützte Hamsun?', 'Das nationalsozialistische', ['Das faschistische Italiens', 'Das sowjetische', 'Das britische'], null],
       ['Wem schenkte Hamsun seine Nobelpreismedaille?', 'Goebbels', ['Hitler', 'Quisling', 'Göring'], null],
       ['Auf welchem Gut in Värmland wuchs Selma Lagerlöf auf?', 'Auf Mårbacka', ['Auf Rungstedlund', 'Auf Bullerbü', 'Auf Gripsholm'], 'Als Kind war sie lange gelähmt.'],
