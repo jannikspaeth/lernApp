@@ -8350,5 +8350,293 @@
   "i": "Die USA gelten nicht mehr als masernfrei.",
   "src": "https://www.tagesschau.de/ausland/amerika/masern-usa-118.html",
   "p": 2
+ },
+ {
+  "id": "2026-11-19.de.1",
+  "d": "2026-11-19",
+  "r": "de",
+  "k": "Politik",
+  "q": "Was kündigte Bundeskanzler Merz am 19. November 2026 beim Berliner Gipfel der „Koalition der Willigen“ zur Ukraine an?",
+  "a": "Er will baldige Gespräche mit Russland auf neutralem Boden",
+  "w": [
+   "Er kündigte einen Truppeneinsatz der Bundeswehr in der Ukraine an",
+   "Er forderte ein sofortiges Ende aller Russland-Sanktionen",
+   "Er schlug einen NATO-Beitritt der Ukraine für 2027 vor"
+  ],
+  "i": "Die „Koalition der Willigen“ versprach der Ukraine zugleich, ihr „so lange wie nötig“ zu helfen.",
+  "src": "https://www.tagesschau.de/inland/innenpolitik/gipfel-koalition-willige-ukraine-100.html",
+  "p": 3
+ },
+ {
+  "id": "2026-11-19.de.2",
+  "d": "2026-11-19",
+  "r": "de",
+  "k": "Wirtschaft",
+  "q": "Welcher Konzern nahm am 19. November 2026 Abstand von einer Übernahme des Konkurrenten Evonik?",
+  "a": "BASF",
+  "w": [
+   "Bayer",
+   "Henkel",
+   "Covestro"
+  ],
+  "i": "BASF blies die geplante Übernahme des Chemiekonzerns Evonik ab.",
+  "src": "https://www.tagesschau.de/wirtschaft/unternehmen/basf-evonik-uebernahme-absage-100.html",
+  "p": 2
+ },
+ {
+  "id": "2026-11-19.de.3",
+  "d": "2026-11-19",
+  "r": "de",
+  "k": "Wirtschaft",
+  "q": "An welchem europäischen KI-Start-up beteiligte sich die Deutsche Telekom laut Meldung vom 19. November 2026?",
+  "a": "Mistral",
+  "w": [
+   "Aleph Alpha",
+   "DeepL",
+   "Hugging Face"
+  ],
+  "i": "Firmen und Behörden sollen mit der Beteiligung „vertrauenswürdige KI aus Europa“ erhalten.",
+  "src": "https://www.tagesschau.de/wirtschaft/finanzen/mistral-telekom-ki-anthropic-marktbericht-100.html",
+  "p": 2
+ },
+ {
+  "id": "2026-11-19.de.4",
+  "d": "2026-11-19",
+  "r": "de",
+  "k": "Politik",
+  "q": "In welches Nachbarland reiste Verteidigungsminister Boris Pistorius Mitte November 2026, um für eine starke Partnerschaft zu werben?",
+  "a": "Nach Polen",
+  "w": [
+   "Nach Tschechien",
+   "Nach Dänemark",
+   "In die Niederlande"
+  ],
+  "i": "Pistorius setzte dabei auf Erinnerungskultur, von Brandts Kniefall bis zur gemeinsamen Verteidigung.",
+  "src": "https://www.tagesschau.de/inland/pistorius-reise-polen-100.html",
+  "p": 1
+ },
+ {
+  "id": "2026-11-19.de.5",
+  "d": "2026-11-19",
+  "r": "de",
+  "k": "Gesellschaft",
+  "q": "Wodurch hat sich laut dem Bundesamt für Sicherheit in der Informationstechnik (BSI) im November 2026 die IT-Sicherheitslage in Deutschland vor allem verschlechtert?",
+  "a": "Durch KI-Angriffe",
+  "w": [
+   "Durch Angriffe auf Mobilfunkmasten",
+   "Durch veraltete Passwörter in Behörden",
+   "Durch Ausfälle von Rechenzentren"
+  ],
+  "i": "Das BSI sieht eine erhöhte Gefahrenlage in seinem Lagebericht.",
+  "src": "https://www.tagesschau.de/inland/bsi-sicherheitslage-bericht-100.html",
+  "p": 2
+ },
+ {
+  "id": "2026-11-19.de.6",
+  "d": "2026-11-19",
+  "r": "de",
+  "k": "Umwelt",
+  "q": "Auf welches Jahr verschob die EU am 19. November 2026 ihre Vorgaben zum Treibhausgas Methan für Importe?",
+  "a": "Auf 2029",
+  "w": [
+   "Auf 2027",
+   "Auf 2031",
+   "Auf 2035"
+  ],
+  "i": "Die EU verschob die Vorgaben für Methan bei Energieimporten um zwei Jahre.",
+  "src": "https://www.tagesschau.de/wirtschaft/energie/eu-methan-100.html",
+  "p": 2
+ },
+ {
+  "id": "2026-11-19.de.7",
+  "d": "2026-11-19",
+  "r": "de",
+  "k": "Sport",
+  "q": "Welcher deutsche Tennisprofi wurde im November 2026 Gruppensieger und behielt dabei eine weiße Weste?",
+  "a": "Alexander Zverev",
+  "w": [
+   "Jan-Lennard Struff",
+   "Daniel Altmaier",
+   "Yannick Hanfmann"
+  ],
+  "i": "Zverev gewann damit alle Gruppenspiele.",
+  "src": "https://www.sportschau.de/tennis/atp/gruppensieger-zverev-behaelt-weisse-weste,zverev-fils-106.html",
+  "p": 2
+ },
+ {
+  "id": "2026-11-19.de.8",
+  "d": "2026-11-19",
+  "r": "de",
+  "k": "Sport",
+  "q": "Welche deutsche Torhüterin wurde im November 2026 zur besten Torhüterin der US-Profiliga NWSL gekürt?",
+  "a": "Ann-Katrin Berger",
+  "w": [
+   "Merle Frohms",
+   "Almuth Schult",
+   "Ena Mahmutovic"
+  ],
+  "i": "Berger spielt in den USA und ist auch deutsche Nationaltorhüterin.",
+  "src": "https://www.sportschau.de/fussball/mehr-internationale-ligen/berger-beste-torhueterin-in-usa,berger-nwsl-100.html",
+  "p": 1
+ },
+ {
+  "id": "2026-11-19.de.9",
+  "d": "2026-11-19",
+  "r": "de",
+  "k": "Sport",
+  "q": "Gegen welches Team fuhren die Basketballer des FC Bayern München im November 2026 in der Euroleague ihren ersten Heimsieg der Saison ein?",
+  "a": "Baskonia",
+  "w": [
+   "Real Madrid",
+   "Olympiakos Piräus",
+   "Fenerbahçe"
+  ],
+  "i": "Der Sieg gegen Baskonia war der erste Erfolg der Bayern in eigener Halle.",
+  "src": "https://www.sportschau.de/basketball/euroleague/bayerns-basketballer-fahren-ersten-heimsieg-ein,spielbericht-basketball-bayern-baskonia-100.html",
+  "p": 1
+ },
+ {
+  "id": "2026-11-19.welt.1",
+  "d": "2026-11-19",
+  "r": "welt",
+  "k": "Politik",
+  "q": "Wo trafen sich Xi Jinping, Wladimir Putin und Donald Trump am 19. November 2026 zu ihrem ersten Dreiergipfel?",
+  "a": "In Shenzhen",
+  "w": [
+   "In Peking",
+   "In Genf",
+   "In Singapur"
+  ],
+  "i": "Das Treffen fand am Rande des APEC-Gipfels statt; die Staatschefs gaben eine gemeinsame Erklärung ab, u. a. zu Atomkrieg und UN-Reform.",
+  "src": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_19",
+  "p": 3
+ },
+ {
+  "id": "2026-11-19.welt.2",
+  "d": "2026-11-19",
+  "r": "welt",
+  "k": "Politik",
+  "q": "Welcher Staatschef trat am 19. November 2026 zurück, was das Parlament annahm?",
+  "a": "Der mongolische Präsident Ukhnaagiin Khürelsükh",
+  "w": [
+   "Der kasachische Präsident Kassym-Schomart Tokajew",
+   "Der usbekische Präsident Schawkat Mirsijojew",
+   "Der kirgisische Präsident Sadyr Dschaparow"
+  ],
+  "i": "Parlamentspräsident Sandagiin Byambatsogt führt die Geschäfte, bis binnen vier Monaten neu gewählt wird.",
+  "src": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_19",
+  "p": 3
+ },
+ {
+  "id": "2026-11-19.welt.3",
+  "d": "2026-11-19",
+  "r": "welt",
+  "k": "Recht",
+  "q": "Was stellte der Internationale Gerichtshof (IGH) am 19. November 2026 im Fall der Rohingya fest?",
+  "a": "Myanmar hat einen Völkermord an den Rohingya begangen",
+  "w": [
+   "Myanmar hat sich keiner Verbrechen schuldig gemacht",
+   "Myanmar hat Kriegsverbrechen, aber keinen Völkermord begangen",
+   "Bangladesch trägt die Hauptschuld an der Vertreibung"
+  ],
+  "i": "Das höchste UN-Gericht sah die Absicht, einen „wesentlichen Teil“ der Rohingya zu vernichten.",
+  "src": "https://www.tagesschau.de/ausland/asien/urteil-voelkermord-rohingya-myanmar-100.html",
+  "p": 3
+ },
+ {
+  "id": "2026-11-19.welt.4",
+  "d": "2026-11-19",
+  "r": "welt",
+  "k": "Recht",
+  "q": "Wie beurteilte der Europäische Gerichtshof für Menschenrechte am 19. November 2026 Corona-Impfpflichten in bestimmten Einrichtungen?",
+  "a": "Sie verstießen nicht gegen Menschenrechte",
+  "w": [
+   "Sie verstießen gegen das Recht auf Leben",
+   "Sie verstießen gegen die Religionsfreiheit",
+   "Sie verstießen gegen das Folterverbot"
+  ],
+  "i": "Die Impfpflichten waren laut Gericht menschenrechtskonform.",
+  "src": "https://www.tagesschau.de/ausland/europa/egmr-corona-impfpflicht-100.html",
+  "p": 2
+ },
+ {
+  "id": "2026-11-19.welt.5",
+  "d": "2026-11-19",
+  "r": "welt",
+  "k": "Politik",
+  "q": "Mit welchem Land schlossen die Philippinen am 19. November 2026 beim APEC-Gipfel in Shenzhen ein Freihandelsabkommen – ihr erstes mit einem lateinamerikanischen Land?",
+  "a": "Mit Chile",
+  "w": [
+   "Mit Mexiko",
+   "Mit Argentinien",
+   "Mit Peru"
+  ],
+  "i": "Das Abkommen wurde beim 33. APEC-Gipfeltreffen der Staats- und Regierungschefs unterzeichnet.",
+  "src": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_19",
+  "p": 1
+ },
+ {
+  "id": "2026-11-19.welt.6",
+  "d": "2026-11-19",
+  "r": "welt",
+  "k": "Politik",
+  "q": "Welches Parlament ratifizierte am 19. November 2026 das Grönland-Abkommen mit den USA?",
+  "a": "Das dänische Parlament",
+  "w": [
+   "Das norwegische Parlament",
+   "Das isländische Parlament",
+   "Das kanadische Parlament"
+  ],
+  "i": "Damit kann das Abkommen in Kraft treten.",
+  "src": "https://www.tagesschau.de/ausland/europa/parlament-in-daenemark-ratifiziert-groenland-abkommen-100.html",
+  "p": 2
+ },
+ {
+  "id": "2026-11-19.welt.7",
+  "d": "2026-11-19",
+  "r": "welt",
+  "k": "Konflikte",
+  "q": "Welche Verkehrsverbindung auf die Krim stand am 19. November 2026 erneut unter Beschuss, sodass der Zugverkehr eingestellt werden musste?",
+  "a": "Die Krim-Brücke",
+  "w": [
+   "Die Perekop-Landenge",
+   "Die Dnipro-Brücke bei Cherson",
+   "Die Brücke von Kertsch-Nord"
+  ],
+  "i": "Der Zugverkehr auf die von Russland annektierte Halbinsel wurde gestoppt.",
+  "src": "https://www.tagesschau.de/ausland/europa/krim-bruecke-angriff-ukraine-zugverkehr-gestoppt-100.html",
+  "p": 2
+ },
+ {
+  "id": "2026-11-19.welt.8",
+  "d": "2026-11-19",
+  "r": "welt",
+  "k": "Konflikte",
+  "q": "Auf welche saudische Stadt feuerten die Houthis am 19. November 2026 Raketen, die das Public-Investment-Fund-Hochhaus beschädigten?",
+  "a": "Riad",
+  "w": [
+   "Dschidda",
+   "Mekka",
+   "Dammam"
+  ],
+  "i": "Verletzt wurde laut Bericht niemand.",
+  "src": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_19",
+  "p": 2
+ },
+ {
+  "id": "2026-11-19.welt.9",
+  "d": "2026-11-19",
+  "r": "welt",
+  "k": "Sport",
+  "q": "Wie lange wurde eine Marathon-Olympiasiegerin im November 2026 wegen Dopings gesperrt?",
+  "a": "Drei Jahre",
+  "w": [
+   "Ein Jahr",
+   "Sechs Monate",
+   "Acht Jahre"
+  ],
+  "i": "Die Sperre gegen die Olympiasiegerin im Marathon dauert drei Jahre.",
+  "src": "https://www.sportschau.de/leichtathletik/marathon-olympiasiegerin-drei-jahre-wegen-dopings-gesperrt,marathon-jepchirchir-102.html",
+  "p": 2
  }
 ]
