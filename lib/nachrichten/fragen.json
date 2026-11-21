@@ -8638,5 +8638,277 @@
   "i": "Die Sperre gegen die Olympiasiegerin im Marathon dauert drei Jahre.",
   "src": "https://www.sportschau.de/leichtathletik/marathon-olympiasiegerin-drei-jahre-wegen-dopings-gesperrt,marathon-jepchirchir-102.html",
   "p": 2
+ },
+ {
+  "id": "2026-11-20.de.1",
+  "d": "2026-11-20",
+  "r": "de",
+  "k": "Sport",
+  "q": "Welcher Stürmer fällt beim FC Bayern München nach der Bundesliga-Partie gegen den 1. FC Köln im November 2026 mehrere Monate verletzt aus?",
+  "a": "Harry Kane",
+  "w": [
+   "Serge Gnabry",
+   "Leroy Sané",
+   "Nick Woltemade"
+  ],
+  "i": "Kane und Michael Olise wurden in der Partie verletzt ausgewechselt; Köln überraschte in München.",
+  "src": "https://www.sportschau.de/fussball/bundesliga/fc-bayern-muenchen-mehrere-monate-ohne-harry-kane,kane-verletzung-100.html",
+  "p": 2
+ },
+ {
+  "id": "2026-11-20.de.2",
+  "d": "2026-11-20",
+  "r": "de",
+  "k": "Sport",
+  "q": "Gegen welches Land spielt die deutsche Fußball-Nationalmannschaft laut Auslosung im Viertelfinale der Nations League 2026?",
+  "a": "Belgien",
+  "w": [
+   "Frankreich",
+   "Spanien",
+   "Portugal"
+  ],
+  "i": "Die Auslosung der Viertelfinals fand im November 2026 statt.",
+  "src": "https://www.sportschau.de/fussball/nationsleague/deutschland-trifft-im-viertelfinale-auf-belgien,nations-league-auslosung-104.html",
+  "p": 2
+ },
+ {
+  "id": "2026-11-20.de.3",
+  "d": "2026-11-20",
+  "r": "de",
+  "k": "Politik",
+  "q": "Welches Gesetz stoppte der Bundesrat am 20. November 2026 vorerst?",
+  "a": "Das Startchancengesetz",
+  "w": [
+   "Die Frühstartrente",
+   "Die Reform der Notfallversorgung",
+   "Die digitale Brieftasche"
+  ],
+  "i": "Frühstartrente, Notfallreform und digitale Brieftasche erhielten dagegen grünes Licht.",
+  "src": "https://www.tagesschau.de/inland/innenpolitik/bundesrat-startchancengesetz-fruehstartrente-notfallreform-100.html",
+  "p": 2
+ },
+ {
+  "id": "2026-11-20.de.4",
+  "d": "2026-11-20",
+  "r": "de",
+  "k": "Politik",
+  "q": "Mit welchem Land will Verteidigungsminister Boris Pistorius im November 2026 die militärische Zusammenarbeit Deutschlands ausbauen?",
+  "a": "Polen",
+  "w": [
+   "Frankreich",
+   "Tschechien",
+   "Dänemark"
+  ],
+  "i": "Pistorius reiste im Zeichen der Erinnerungsarbeit nach Polen; beide Länder wollen mehr Verantwortung für die Sicherheit in Europa übernehmen.",
+  "src": "https://www.tagesschau.de/ausland/europa/polen-deutschland-militaer-100.html",
+  "p": 2
+ },
+ {
+  "id": "2026-11-20.de.5",
+  "d": "2026-11-20",
+  "r": "de",
+  "k": "Wirtschaft",
+  "q": "Wie lange dauerten die Warnstreiks der IG Metall, zu denen am 20. November 2026 mehr als Hunderttausend Beschäftigte die Arbeit niederlegten?",
+  "a": "24 Stunden",
+  "w": [
+   "2 Stunden",
+   "4 Stunden",
+   "72 Stunden"
+  ],
+  "i": "Die IG Metall will die ganztägigen Warnstreiks fortsetzen.",
+  "src": "https://www.tagesschau.de/wirtschaft/arbeitsmarkt/ig-metall-streik-112.html",
+  "p": 2
+ },
+ {
+  "id": "2026-11-20.de.6",
+  "d": "2026-11-20",
+  "r": "de",
+  "k": "Wirtschaft",
+  "q": "Wie viele Stellen will die Lufthansa Airlines laut einem Brief an die Mitarbeiter im November 2026 streichen?",
+  "a": "1.000",
+  "w": [
+   "100",
+   "5.000",
+   "10.000"
+  ],
+  "i": "Das geht aus einem Brief an die Beschäftigten hervor.",
+  "src": "https://www.tagesschau.de/wirtschaft/lufthansa-1000-stellen-100.html",
+  "p": 1
+ },
+ {
+  "id": "2026-11-20.de.7",
+  "d": "2026-11-20",
+  "r": "de",
+  "k": "Umwelt",
+  "q": "Wie hoch ist das Windrad, das im November 2026 in der Lausitz in Betrieb ging, höchstens?",
+  "a": "365 Meter",
+  "w": [
+   "150 Meter",
+   "220 Meter",
+   "500 Meter"
+  ],
+  "i": "Es ist ein sogenanntes Höhenwindrad; die Frage ist, ob solche Anlagen die Zukunft sind.",
+  "src": "https://www.tagesschau.de/wirtschaft/energie/groesstes-windrad-lausitz-100.html",
+  "p": 1
+ },
+ {
+  "id": "2026-11-20.de.8",
+  "d": "2026-11-20",
+  "r": "de",
+  "k": "Gesellschaft",
+  "q": "Wogegen gingen Jugendliche im November 2026 bundesweit unter anderem auf die Straße?",
+  "a": "Gegen eine mögliche Wehrpflicht",
+  "w": [
+   "Gegen ein Social-Media-Verbot",
+   "Gegen höhere Studiengebühren",
+   "Gegen die Abschaffung des Deutschlandtickets"
+  ],
+  "i": "Die Jugendlichen demonstrierten außerdem für bessere Bildung und mehr Klimaschutz.",
+  "src": "https://www.tagesschau.de/inland/gesellschaft/jugendproteste-114.html",
+  "p": 2
+ },
+ {
+  "id": "2026-11-20.welt.1",
+  "d": "2026-11-20",
+  "r": "welt",
+  "k": "Katastrophen",
+  "q": "In welchem Land kenterte im November 2026 ein Schiff mit Trauergästen, wobei rund 30 Menschen starben und etwa 300 vermisst wurden?",
+  "a": "Nigeria",
+  "w": [
+   "Bangladesch",
+   "Indonesien",
+   "Tansania"
+  ],
+  "i": "Das Unglück ereignete sich im Bundesstaat Bayelsa.",
+  "src": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_20",
+  "p": 3
+ },
+ {
+  "id": "2026-11-20.welt.2",
+  "d": "2026-11-20",
+  "r": "welt",
+  "k": "Konflikte",
+  "q": "In welcher polnischen Woiwodschaft schlug im November 2026 ein russischer Marschflugkörper vom Typ Kh-101 auf einem Feld ein?",
+  "a": "Lublin",
+  "w": [
+   "Masowien",
+   "Pommern",
+   "Schlesien"
+  ],
+  "i": "In Lublin und Karpatenvorland wurde Luftalarm ausgelöst; Warschau sprach von einer gezielten Provokation.",
+  "src": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_20",
+  "p": 3
+ },
+ {
+  "id": "2026-11-20.welt.3",
+  "d": "2026-11-20",
+  "r": "welt",
+  "k": "Politik",
+  "q": "Welcher türkische Oppositionspolitiker scheiterte im November 2026 mit seinem Einspruch gegen die Aberkennung des Hochschulabschlusses und darf damit nicht als Präsident kandidieren?",
+  "a": "Ekrem İmamoğlu",
+  "w": [
+   "Özgür Özel",
+   "Mansur Yavaş",
+   "Kemal Kılıçdaroğlu"
+  ],
+  "i": "Ohne Hochschulabschluss ist eine Kandidatur für das Präsidentenamt in der Türkei nicht möglich.",
+  "src": "https://www.tagesschau.de/ausland/europa/tuerkei-imamoglu-104.html",
+  "p": 3
+ },
+ {
+  "id": "2026-11-20.welt.4",
+  "d": "2026-11-20",
+  "r": "welt",
+  "k": "Politik",
+  "q": "Welcher britische Premierminister will London im November 2026 näher an die EU führen, weil er den Brexit für gescheitert hält?",
+  "a": "Burnham",
+  "w": [
+   "Starmer",
+   "Sunak",
+   "Johnson"
+  ],
+  "i": "Beim EU-Großbritannien-Gipfel wurden unter anderem Aufenthalte zum Studieren und Arbeiten erleichtert.",
+  "src": "https://www.tagesschau.de/ausland/europa/eu-uk-gipfel-100.html",
+  "p": 3
+ },
+ {
+  "id": "2026-11-20.welt.5",
+  "d": "2026-11-20",
+  "r": "welt",
+  "k": "Politik",
+  "q": "Welches Land wies im November 2026 einen russischen Diplomaten aus, weil Russland dort einen Anschlag auf einen ukrainisch-amerikanischen Rapper geplant haben soll?",
+  "a": "Dänemark",
+  "w": [
+   "Schweden",
+   "Norwegen",
+   "Finnland"
+  ],
+  "i": "Der geplante Anschlag auf dänischem Boden führte zur Ausweisung.",
+  "src": "https://www.tagesschau.de/ausland/europa/daenemark-attentatsversuch-100.html",
+  "p": 2
+ },
+ {
+  "id": "2026-11-20.welt.6",
+  "d": "2026-11-20",
+  "r": "welt",
+  "k": "Wirtschaft",
+  "q": "Welches KI-Unternehmen debütierte im November 2026 an der Börse?",
+  "a": "Anthropic",
+  "w": [
+   "Mistral AI",
+   "Cohere",
+   "Perplexity"
+  ],
+  "i": "Den Anfangshype konnte das Unternehmen am ersten Handelstag nicht halten, schloss aber mit deutlichem Kursplus.",
+  "src": "https://www.tagesschau.de/wirtschaft/unternehmen/anthropic-boersenstart-ipo-100.html",
+  "p": 3
+ },
+ {
+  "id": "2026-11-20.welt.7",
+  "d": "2026-11-20",
+  "r": "welt",
+  "k": "Sport",
+  "q": "Welcher Eisschnellläufer sah im November 2026 in Japan seine Siegesserie reißen?",
+  "a": "Jordan Stolz",
+  "w": [
+   "Patrick Roest",
+   "Ning Zhongyan",
+   "Laurent Dubreuil"
+  ],
+  "i": "Die Serie des Eisschnellläufers endete beim Weltcup in Japan.",
+  "src": "https://www.sportschau.de/wintersport/skispringen-freitag-in-der-quali-auf-platz-sechs,liveblog-wintersport-100.html",
+  "p": 2
+ },
+ {
+  "id": "2026-11-20.welt.8",
+  "d": "2026-11-20",
+  "r": "welt",
+  "k": "Sport",
+  "q": "Auf welchen Betrag erhöht die Profitour ATP im November 2026 die Preisgelder für Tennis-Profis?",
+  "a": "Mehr als 320 Millionen Euro",
+  "w": [
+   "Rund 150 Millionen Euro",
+   "Rund 200 Millionen Euro",
+   "Rund 500 Millionen Euro"
+  ],
+  "i": "Die Erhöhung wurde während der ATP Finals bekannt.",
+  "src": "https://www.sportschau.de/tennis/mehr-als-320-millionen-euro-fuer-tennis-profis,tennis-atp-preisgeld-100.html",
+  "p": 1
+ },
+ {
+  "id": "2026-11-20.welt.9",
+  "d": "2026-11-20",
+  "r": "welt",
+  "k": "Wissenschaft",
+  "q": "Welche berühmte mathematische Vermutung will der Mathematiker Levent Alpöge im November 2026 mit Hilfe von Claude bewiesen haben?",
+  "a": "Die Riemannsche Vermutung",
+  "w": [
+   "Die Goldbachsche Vermutung",
+   "Die Collatz-Vermutung",
+   "Die Zwillingsprimzahl-Vermutung"
+  ],
+  "i": "Es handelt sich um einen behaupteten Beweis, der noch nicht bestätigt ist.",
+  "src": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_20",
+  "p": 3
  }
 ]
