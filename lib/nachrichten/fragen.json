@@ -1,21 +1,5 @@
 [
  {
-  "id": "2026-05-05.de.1",
-  "d": "2026-05-05",
-  "r": "de",
-  "k": "Wirtschaft",
-  "q": "Welches Mainzer Unternehmen kündigte im Mai 2026 an, die Produktion seines Corona-Impfstoffs einzustellen?",
-  "a": "BioNTech",
-  "w": [
-   "CureVac",
-   "Bayer",
-   "Boehringer Ingelheim"
-  ],
-  "i": "Die Produktion übernimmt allein der Partner Pfizer; BioNTech baut sein Geschäft um.",
-  "src": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_May_5",
-  "p": 2
- },
- {
   "id": "2026-05-07.welt.1",
   "d": "2026-05-07",
   "r": "welt",
@@ -8910,5 +8894,309 @@
   "i": "Es handelt sich um einen behaupteten Beweis, der noch nicht bestätigt ist.",
   "src": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_20",
   "p": 3
+ },
+ {
+  "id": "2026-11-21.de.1",
+  "d": "2026-11-21",
+  "r": "de",
+  "k": "Politik",
+  "q": "Wer will laut Medienberichten im November 2026 die Autobahntankstellen vom Spritpreisdeckel ausnehmen?",
+  "a": "Wirtschaftsministerin Reiche",
+  "w": [
+   "Finanzminister Klingbeil",
+   "Verkehrsminister Schnieder",
+   "Bundeskanzler Merz"
+  ],
+  "i": "Laut Medienberichten soll der Spritpreisdeckel an Autobahntankstellen nicht gelten.",
+  "src": "https://www.tagesschau.de/inland/spritpreis-autobahntankstellen-ausnahme-100.html",
+  "p": 2
+ },
+ {
+  "id": "2026-11-21.de.2",
+  "d": "2026-11-21",
+  "r": "de",
+  "k": "Gesellschaft",
+  "q": "Wovon beklagen Hausärzte in Deutschland im November 2026 einen Mangel?",
+  "a": "Grippe-Impfstoff",
+  "w": [
+   "Masern-Impfstoff",
+   "Tetanus-Impfstoff",
+   "Gürtelrose-Impfstoff"
+  ],
+  "i": "Wer dieser Tage zum Impftermin kommt, wird mancherorts in der Hausarztpraxis vertröstet.",
+  "src": "https://www.tagesschau.de/inland/gesellschaft/grippe-impfstoff-hausaerzte-100.html",
+  "p": 2
+ },
+ {
+  "id": "2026-11-21.de.3",
+  "d": "2026-11-21",
+  "r": "de",
+  "k": "Gesellschaft",
+  "q": "Unter welchem Motto fanden im November 2026 in Deutschland Demonstrationen junger Menschen statt, die weitgehend friedlich endeten?",
+  "a": "„Gen Z regelt“",
+  "w": [
+   "„Fridays for Future“",
+   "„Letzte Generation“",
+   "„Jugend rettet“"
+  ],
+  "i": "Nach dem Ende der Demos gab es mancherorts Krawalle, eine Eskalation blieb aber aus.",
+  "src": "https://www.tagesschau.de/inland/gesellschaft/jugendproteste-krawalle-gen-z-100.html",
+  "p": 2
+ },
+ {
+  "id": "2026-11-21.de.4",
+  "d": "2026-11-21",
+  "r": "de",
+  "k": "Wirtschaft",
+  "q": "Welcher deutsche Konzern bekam im November 2026 von einem US-Gericht einen Vergleich mit Glyphosat-Klägern gebilligt?",
+  "a": "Bayer",
+  "w": [
+   "BASF",
+   "Merck",
+   "Henkel"
+  ],
+  "i": "Für Bayer könnten die Klagen wegen Glyphosat in den USA damit bald der Vergangenheit angehören.",
+  "src": "https://www.tagesschau.de/wirtschaft/bayer-glyphosat-vergleich-usa-100.html",
+  "p": 3
+ },
+ {
+  "id": "2026-11-21.de.5",
+  "d": "2026-11-21",
+  "r": "de",
+  "k": "Wirtschaft",
+  "q": "Wem hat der verstorbene Milliardär Klaus-Michael Kühne sein Vermögen vermacht?",
+  "a": "Der Kühne-Stiftung in der Schweiz",
+  "w": [
+   "Der Stadt Hamburg",
+   "Dem Hamburger SV",
+   "Dem Bund der Steuerzahler"
+  ],
+  "i": "Bei Kühne+Nagel ändert sich dadurch einiges.",
+  "src": "https://www.tagesschau.de/wirtschaft/unternehmen/klaus-michael-kuehne-unternehmer-vergangenheit-schindellegi-schweiz-100.html",
+  "p": 2
+ },
+ {
+  "id": "2026-11-21.de.6",
+  "d": "2026-11-21",
+  "r": "de",
+  "k": "Sport",
+  "q": "Welches deutsche Paar gewann im November 2026 beim Eiskunstlauf den Grand Prix von Finnland in Helsinki?",
+  "a": "Hocke/Kunkel",
+  "w": [
+   "Hase/Volodin",
+   "Zhang/Rymzhanov",
+   "Efimova/Pavlov"
+  ],
+  "i": "Der Sieg in Helsinki kam überraschend.",
+  "src": "https://www.sportschau.de/wintersport/eiskunstlauf/hocke-kunkel-siegen-ueberraschend-in-helsinki,eiskunstlauf-paare-104.html",
+  "p": 2
+ },
+ {
+  "id": "2026-11-21.de.7",
+  "d": "2026-11-21",
+  "r": "de",
+  "k": "Sport",
+  "q": "Welchen Gegner schlug Alexander Zverev im November 2026 im Halbfinale der ATP Finals?",
+  "a": "Daniil Medwedew",
+  "w": [
+   "Taylor Fritz",
+   "Ben Shelton",
+   "Alex de Minaur"
+  ],
+  "i": "Zverev folgte Carlos Alcaraz ins Finale.",
+  "src": "https://www.sportschau.de/tennis/atp/zverev-folgt-alcaraz-ins-traumfinale,spielbericht-atp-finals-zverev-medvedev-100.html",
+  "p": 3
+ },
+ {
+  "id": "2026-11-21.de.8",
+  "d": "2026-11-21",
+  "r": "de",
+  "k": "Sport",
+  "q": "Gegen welchen Gegner feierte Eintracht Frankfurt am 21. November 2026 in der Bundesliga einen Jubiläumssieg, den Torwart Atubolu rettete?",
+  "a": "TSG Hoffenheim",
+  "w": [
+   "VfB Stuttgart",
+   "FC Augsburg",
+   "Werder Bremen"
+  ],
+  "i": "Frankfurts Torwart Atubolu hielt famos.",
+  "src": "https://www.sportschau.de/fussball/bundesliga/famoser-atubolu-rettet-eintracht-jubilaeumssieg,spielbericht-eintracht-frankfurt-tsg-hoffenheim-106.html",
+  "p": 1
+ },
+ {
+  "id": "2026-11-21.de.9",
+  "d": "2026-11-21",
+  "r": "de",
+  "k": "Sport",
+  "q": "Welcher Fußballstar fällt Bayern München im November 2026 nach einer Operation monatelang aus?",
+  "a": "Harry Kane",
+  "w": [
+   "Joshua Kimmich",
+   "Michael Olise",
+   "Jamal Musiala"
+  ],
+  "i": "Kane wurde bereits operiert.",
+  "src": "https://www.sportschau.de/fussball/bundesliga/fc-bayern-muenchen-mehrere-monate-ohne-harry-kane,kane-verletzung-100.html",
+  "p": 2
+ },
+ {
+  "id": "2026-11-21.welt.1",
+  "d": "2026-11-21",
+  "r": "welt",
+  "k": "Wirtschaft",
+  "q": "Mit welchem Land unterzeichnete die EU im November 2026 ein Freihandelsabkommen, das die Zölle auf fast alle Waren abschafft?",
+  "a": "Indonesien",
+  "w": [
+   "Vietnam",
+   "Thailand",
+   "Argentinien"
+  ],
+  "i": "EU-Exporteure könnten dadurch jährlich Hunderte Millionen Euro sparen.",
+  "src": "https://www.tagesschau.de/wirtschaft/weltwirtschaft/eu-indonesien-handelsabkommen-102.html",
+  "p": 2
+ },
+ {
+  "id": "2026-11-21.welt.2",
+  "d": "2026-11-21",
+  "r": "welt",
+  "k": "Konflikte",
+  "q": "Welche südukrainische Industriestadt beschoss die russische Armee am Abend des 21. November 2026 mit ballistischen Raketen?",
+  "a": "Krywyj Rih",
+  "w": [
+   "Lwiw",
+   "Luzk",
+   "Tscherniwzi"
+  ],
+  "i": "Bei dem Angriff gab es viele Verletzte.",
+  "src": "https://www.tagesschau.de/ausland/europa/ukraine-krieg-russland-krywyj-rih-100.html",
+  "p": 2
+ },
+ {
+  "id": "2026-11-21.welt.3",
+  "d": "2026-11-21",
+  "r": "welt",
+  "k": "Katastrophen",
+  "q": "In welchem Land erschütterte am 21. November 2026 ein Erdbeben die Region, ohne dass zunächst Schäden oder Opfer bekannt wurden?",
+  "a": "Peru",
+  "w": [
+   "Chile",
+   "Neuseeland",
+   "Indonesien"
+  ],
+  "i": "Über Schäden oder Opfer war zunächst nichts bekannt.",
+  "src": "https://www.tagesschau.de/ausland/amerika/peru-erdbeben-102.html",
+  "p": 1
+ },
+ {
+  "id": "2026-11-21.welt.4",
+  "d": "2026-11-21",
+  "r": "welt",
+  "k": "Recht",
+  "q": "Wegen welchen Brandes in Kalifornien wurde im November 2026 ein 30-Jähriger schuldig gesprochen?",
+  "a": "Palisades Fire",
+  "w": [
+   "Camp Fire",
+   "Dixie Fire",
+   "Woolsey Fire"
+  ],
+  "i": "Dem Angeklagten drohen bis zu 40 Jahre Haft.",
+  "src": "https://www.tagesschau.de/ausland/amerika/prozess-pacific-palisades-feuer-kalifornien-100.html",
+  "p": 2
+ },
+ {
+  "id": "2026-11-21.welt.5",
+  "d": "2026-11-21",
+  "r": "welt",
+  "k": "Recht",
+  "q": "Der Kapitän welches Kreuzfahrtschiffs kam im November 2026 auf Bewährung aus der Haft frei?",
+  "a": "Costa Concordia",
+  "w": [
+   "Costa Allegra",
+   "Viking Sky",
+   "Sea Diamond"
+  ],
+  "i": "Die Costa Concordia kenterte 2012 nach einem riskanten Manöver, 32 Menschen starben.",
+  "src": "https://www.tagesschau.de/ausland/europa/costa-concordia-kapitaen-aus-haft-entlassen-100.html",
+  "p": 2
+ },
+ {
+  "id": "2026-11-21.welt.6",
+  "d": "2026-11-21",
+  "r": "welt",
+  "k": "Umwelt",
+  "q": "Welche UN-Konferenz ging im November 2026 in die Verlängerung, weil man sich nicht auf eine Abschlusserklärung einigen konnte?",
+  "a": "Die Weltklimakonferenz COP31",
+  "w": [
+   "Die Weltbiodiversitätskonferenz",
+   "Die Weltwasserkonferenz",
+   "Die Weltplastikkonferenz"
+  ],
+  "i": "Dass eine UN-Klimakonferenz pünktlich endet, passiert praktisch nie.",
+  "src": "https://www.tagesschau.de/wissen/klima/klimakonferenz/cop31-haengepartie-abschlusserklaerung-100.html",
+  "p": 2
+ },
+ {
+  "id": "2026-11-21.welt.7",
+  "d": "2026-11-21",
+  "r": "welt",
+  "k": "Politik",
+  "q": "Worüber erzielten die Staaten im November 2026 bei Verhandlungen nur einen Minimalkonsens, der Schranken vorsieht?",
+  "a": "Über „Killerroboter“ (autonome Waffensysteme)",
+  "w": [
+   "Über Atomwaffen",
+   "Über Cyberangriffe",
+   "Über Weltraumwaffen"
+  ],
+  "i": "Die Details der Regeln bleiben allerdings ungeklärt.",
+  "src": "https://www.tagesschau.de/ausland/europa/regeln-fuer-killerroboter-100.html",
+  "p": 2
+ },
+ {
+  "id": "2026-11-21.welt.8",
+  "d": "2026-11-21",
+  "r": "welt",
+  "k": "Kultur",
+  "q": "Welches Videospiel machte im November 2026 schon am ersten Verkaufstag Milliardenumsatz?",
+  "a": "GTA VI",
+  "w": [
+   "FIFA 27",
+   "Call of Duty",
+   "Minecraft 2"
+  ],
+  "i": "Das Spiel war bei Fans lange ersehnt.",
+  "src": "https://www.tagesschau.de/wirtschaft/unternehmen/milliardengewinn-gta-100.html",
+  "p": 2
+ },
+ {
+  "id": "2026-11-21.welt.9",
+  "d": "2026-11-21",
+  "r": "welt",
+  "k": "Sport",
+  "q": "Wer sicherte sich im November 2026 in Las Vegas die Pole-Position der Formel 1?",
+  "a": "Max Verstappen",
+  "w": [
+   "Lando Norris",
+   "Charles Leclerc",
+   "Lewis Hamilton"
+  ],
+  "i": "Kimi Antonelli war am schnellsten, Verstappen stand aber auf der Pole; George Russell startete neben ihm aus der ersten Reihe.",
+  "src": "https://www.sportschau.de/motorsport/formel1/verstappen-und-russell-in-las-vegas-aus-startreihe-eins,formel-eins-rennbericht-qualifying-las-vegas-100.html",
+  "p": 2
+ },
+ {
+  "id": "2026-11-21.welt.10",
+  "d": "2026-11-21",
+  "r": "welt",
+  "k": "Sport",
+  "q": "Wen schlug Carlos Alcaraz im November 2026 in einem Drei-Satz-Krimi im Halbfinale der ATP Finals?",
+  "a": "Ben Shelton",
+  "w": [
+   "Jannik Sinner",
+   "Novak Djokovic",
+   "Taylor Fritz"
+  ],
+  "i": "Alcaraz zog damit ins Finale ein.",
+  "src": "https://www.sportschau.de/tennis/atp/alcaraz-ringt-shelton-in-drei-satz-krimi-nieder,spielbericht-atp-finals-alcaraz-shelton-100.html",
+  "p": 2
  }
 ]
