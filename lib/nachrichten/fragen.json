@@ -9198,5 +9198,277 @@
   "i": "Alcaraz zog damit ins Finale ein.",
   "src": "https://www.sportschau.de/tennis/atp/alcaraz-ringt-shelton-in-drei-satz-krimi-nieder,spielbericht-atp-finals-alcaraz-shelton-100.html",
   "p": 2
+ },
+ {
+  "id": "2026-11-22.de.1",
+  "d": "2026-11-22",
+  "r": "de",
+  "k": "Recht",
+  "q": "Welches Delikt sollen Femizide nach dem Plan von Bundesjustizministerin Hubig im November 2026 eindeutig sein?",
+  "a": "Mord",
+  "w": [
+   "Totschlag",
+   "Körperverletzung mit Todesfolge",
+   "Nötigung"
+  ],
+  "i": "Hubig will den Mordparagrafen verschärfen, damit Femizide eindeutig als Mord erfasst werden.",
+  "src": "https://www.tagesschau.de/inland/innenpolitik/femizide-mord-gesetzentwurf-100.html",
+  "p": 3
+ },
+ {
+  "id": "2026-11-22.de.2",
+  "d": "2026-11-22",
+  "r": "de",
+  "k": "Gesellschaft",
+  "q": "Welcher Partei gehört die Berliner Politikerin Preisler an, die im November 2026 geschubst und getreten worden sein soll?",
+  "a": "FDP",
+  "w": [
+   "CDU",
+   "SPD",
+   "Grüne"
+  ],
+  "i": "Zwei Frauen sollen sie angegriffen haben; der Angriff wurde unter anderem von Bundesministerin Prien verurteilt.",
+  "src": "https://www.tagesschau.de/inland/innenpolitik/prien-angriff-preisler-100.html",
+  "p": 2
+ },
+ {
+  "id": "2026-11-22.de.3",
+  "d": "2026-11-22",
+  "r": "de",
+  "k": "Politik",
+  "q": "Welches Amt soll Freuding in der Bundeswehr künftig übernehmen, der im November 2026 hartes Durchgreifen bei sexualisiertem Fehlverhalten ankündigte?",
+  "a": "Generalinspekteur",
+  "w": [
+   "Wehrbeauftragter",
+   "Inspekteur des Heeres",
+   "Verteidigungsminister"
+  ],
+  "i": "Freuding sagte, solches Verhalten sei \"nicht meine Bundeswehr\", und kündigte an, unerbittlich hart durchzugreifen.",
+  "src": "https://www.tagesschau.de/inland/gesellschaft/bundeswehr-generalinspekteur-gegen-sexualisiertes-fehlverhalten-100.html",
+  "p": 2
+ },
+ {
+  "id": "2026-11-22.de.4",
+  "d": "2026-11-22",
+  "r": "de",
+  "k": "Wirtschaft",
+  "q": "In welcher Branche weitete die IG Metall im November 2026 ihre Warnstreiks im Norden aus?",
+  "a": "Metall- und Elektroindustrie",
+  "w": [
+   "Chemieindustrie",
+   "Bauwirtschaft",
+   "Öffentlicher Dienst"
+  ],
+  "i": "Schon am Freitag zuvor hatten bundesweit Beschäftigte der Branche die Arbeit niedergelegt.",
+  "src": "https://www.tagesschau.de/wirtschaft/unternehmen/ig-metall-warnstreik-102.html",
+  "p": 2
+ },
+ {
+  "id": "2026-11-22.de.5",
+  "d": "2026-11-22",
+  "r": "de",
+  "k": "Gesellschaft",
+  "q": "Wie viele Lebensjahre kostet Übergewicht in der Kindheit laut Studien im Schnitt, wie im November 2026 berichtet wurde?",
+  "a": "Zehn",
+  "w": [
+   "Zwei",
+   "Vier",
+   "Zwanzig"
+  ],
+  "i": "Arme Kinder sind dreimal häufiger betroffen als andere.",
+  "src": "https://www.tagesschau.de/inland/gesellschaft/armut-kinder-familien-100.html",
+  "p": 1
+ },
+ {
+  "id": "2026-11-22.de.6",
+  "d": "2026-11-22",
+  "r": "de",
+  "k": "Sport",
+  "q": "Wer gewann im November 2026 das Formel-1-Rennen in Las Vegas?",
+  "a": "Max Verstappen",
+  "w": [
+   "Charles Leclerc",
+   "Lewis Hamilton",
+   "Lando Norris"
+  ],
+  "i": "Das Rennen wurde als \"Windschatten-Roulette\" beschrieben; bei Ferrari eskalierte der Streit zwischen Leclerc und Hamilton.",
+  "src": "https://www.sportschau.de/motorsport/formel1/verstappen-gewinnt-windschatten-roulette-in-las-vegas,rennbericht-las-vegas-104.html",
+  "p": 2
+ },
+ {
+  "id": "2026-11-22.de.7",
+  "d": "2026-11-22",
+  "r": "de",
+  "k": "Sport",
+  "q": "Wer gewann im November 2026 den Slalom der Männer in Gurgl, bei dem Linus Straßer hinterherfuhr?",
+  "a": "Timon Haugan",
+  "w": [
+   "Clément Noël",
+   "Henrik Kristoffersen",
+   "Atle Lie McGrath"
+  ],
+  "i": "Straßer wurde für sein Risiko nicht belohnt.",
+  "src": "https://www.sportschau.de/wintersport/ski-alpin/strasser-faehrt-bei-haugans-slalomsieg-hinterher,rennbericht-gurgl-slalom-maenner-100.html",
+  "p": 1
+ },
+ {
+  "id": "2026-11-22.welt.1",
+  "d": "2026-11-22",
+  "r": "welt",
+  "k": "Konflikte",
+  "q": "Welches russische Schiff wurde im November 2026 im Hafen von Bengasi in Libyen von einer ukrainischen Marinedrohne getroffen und sank?",
+  "a": "Die Korvette Merkury",
+  "w": [
+   "Die Korvette Admiral Makarow",
+   "Die Fregatte Soobrazitelny",
+   "Der Kreuzer Moskwa"
+  ],
+  "i": "Mehrere Menschen starben, mindestens zehn wurden verletzt. Auch ein maltesisches Schiff wurde vor Bengasi getroffen.",
+  "src": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_22",
+  "p": 3
+ },
+ {
+  "id": "2026-11-22.welt.2",
+  "d": "2026-11-22",
+  "r": "welt",
+  "k": "Umwelt",
+  "q": "In welcher türkischen Stadt endete im November 2026 die Weltklimakonferenz COP31 ohne gemeinsame Abschlusserklärung?",
+  "a": "Antalya",
+  "w": [
+   "Istanbul",
+   "Ankara",
+   "Izmir"
+  ],
+  "i": "Die Teilnehmer konnten sich nicht einigen; die Kritik daran war scharf.",
+  "src": "https://www.tagesschau.de/wissen/klima/klimakonferenz/weltklimakonferenz-cop31-antalya-kein-abschlussdokument-100.html",
+  "p": 3
+ },
+ {
+  "id": "2026-11-22.welt.3",
+  "d": "2026-11-22",
+  "r": "welt",
+  "k": "Wissenschaft",
+  "q": "Welchen Planeten erreichte die Sonde BepiColombo im November 2026 nach rund zehn Milliarden Kilometern?",
+  "a": "Merkur",
+  "w": [
+   "Venus",
+   "Mars",
+   "Jupiter"
+  ],
+  "i": "Die Sonde der Raumfahrtagentur ESA hat damit ihr Ziel erreicht.",
+  "src": "https://www.tagesschau.de/wissen/weltraum/merkur-sonde-esa-100.html",
+  "p": 2
+ },
+ {
+  "id": "2026-11-22.welt.4",
+  "d": "2026-11-22",
+  "r": "welt",
+  "k": "Kultur",
+  "q": "In welcher Stadt fand im November 2026 die 63. Verleihung der Golden Horse Awards statt?",
+  "a": "Taipeh",
+  "w": [
+   "Hongkong",
+   "Shanghai",
+   "Singapur"
+  ],
+  "i": "Den Preis als bester Spielfilm gewann der Hongkonger Film We Are Born Good.",
+  "src": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_22",
+  "p": 1
+ },
+ {
+  "id": "2026-11-22.welt.5",
+  "d": "2026-11-22",
+  "r": "welt",
+  "k": "Sport",
+  "q": "Wer gewann im November 2026 das Finale der ATP Finals im Tennis gegen Alexander Zverev?",
+  "a": "Carlos Alcaraz",
+  "w": [
+   "Jannik Sinner",
+   "Novak Djokovic",
+   "Ben Shelton"
+  ],
+  "i": "Alcaraz siegte 6:2, 7:6 und gewann erstmals den Titel bei den ATP Finals.",
+  "src": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_22",
+  "p": 2
+ },
+ {
+  "id": "2026-11-22.welt.6",
+  "d": "2026-11-22",
+  "r": "welt",
+  "k": "Sport",
+  "q": "Wessen Rekord für die meisten Weltmeistertitel in der Premier-Klasse des Motorradrennsports egalisierte Marc Márquez im November 2026?",
+  "a": "Giacomo Agostini",
+  "w": [
+   "Valentino Rossi",
+   "Mick Doohan",
+   "Eddie Lawson"
+  ],
+  "i": "Márquez sicherte sich mit Platz acht beim Grand Prix von Portugal seinen achten MotoGP-Titel.",
+  "src": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_22",
+  "p": 3
+ },
+ {
+  "id": "2026-11-22.welt.7",
+  "d": "2026-11-22",
+  "r": "welt",
+  "k": "Politik",
+  "q": "Welches Ministeramt hatte Choi Kyo-jin inne, der im November 2026 in Südkorea zurücktrat?",
+  "a": "Bildungsminister",
+  "w": [
+   "Verteidigungsminister",
+   "Finanzminister",
+   "Justizminister"
+  ],
+  "i": "Anlass war die Kritik am Umgang mit KI-gestütztem Betrug bei der Hochschulzugangsprüfung. Präsident Lee Jae Myung nahm den Rücktritt an.",
+  "src": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_22",
+  "p": 2
+ },
+ {
+  "id": "2026-11-22.welt.8",
+  "d": "2026-11-22",
+  "r": "welt",
+  "k": "Katastrophen",
+  "q": "Wie viele Menschen wurden nach einem Fabrikbrand in der Provinz Banten in Indonesien im November 2026 mindestens vermisst?",
+  "a": "36",
+  "w": [
+   "6",
+   "12",
+   "90"
+  ],
+  "i": "Der Brand in einer Süßwarenfabrik im Regierungsbezirk Serang tötete mindestens drei Menschen.",
+  "src": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_22",
+  "p": 2
+ },
+ {
+  "id": "2026-11-22.welt.9",
+  "d": "2026-11-22",
+  "r": "welt",
+  "k": "Wirtschaft",
+  "q": "Wofür protestierten Textilarbeiter in Bangladesch im November 2026 mit Straßenblockaden und Zusammenstößen mit der Polizei?",
+  "a": "Für einen höheren Mindestlohn",
+  "w": [
+   "Für kürzere Arbeitszeiten",
+   "Gegen eine Rentenreform",
+   "Gegen steigende Lebensmittelpreise"
+  ],
+  "i": "Mehrere Fabriken in Gazipur erklärten Feiertage, Sicherheitskräfte wurden zusammengezogen.",
+  "src": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_22",
+  "p": 2
+ },
+ {
+  "id": "2026-11-22.welt.10",
+  "d": "2026-11-22",
+  "r": "welt",
+  "k": "Gesellschaft",
+  "q": "Für Kinder und Jugendliche unter welchem Alter gilt in Australien seit einem Jahr das Social-Media-Verbot, das im November 2026 Bilanz zog?",
+  "a": "Unter 16 Jahren",
+  "w": [
+   "Unter 12 Jahren",
+   "Unter 14 Jahren",
+   "Unter 18 Jahren"
+  ],
+  "i": "Die Bilanz fällt laut tagesschau durchwachsen aus: Das Verbot hat Lücken und Mängel.",
+  "src": "https://www.tagesschau.de/ausland/ozeanien/australien-social-media-108.html",
+  "p": 2
  }
 ]
