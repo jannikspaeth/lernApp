@@ -1,21 +1,5 @@
 [
  {
-  "id": "2026-05-07.welt.1",
-  "d": "2026-05-07",
-  "r": "welt",
-  "k": "Wirtschaft",
-  "q": "Was entschied ein US-Handelsgericht im Mai 2026 über Trumps weltweite Zölle von 10 Prozent?",
-  "a": "Sie sind rechtswidrig",
-  "w": [
-   "Sie müssen verdoppelt werden",
-   "Sie gelten nur noch für China",
-   "Sie sind dauerhaft gültig"
-  ],
-  "i": "Das Urteil fällte der U.S. Court of International Trade.",
-  "src": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_May_7",
-  "p": 1
- },
- {
   "id": "2026-05-13.de.1",
   "d": "2026-05-13",
   "r": "de",
@@ -9469,6 +9453,294 @@
   ],
   "i": "Die Bilanz fällt laut tagesschau durchwachsen aus: Das Verbot hat Lücken und Mängel.",
   "src": "https://www.tagesschau.de/ausland/ozeanien/australien-social-media-108.html",
+  "p": 2
+ },
+ {
+  "id": "2026-11-23.de.1",
+  "d": "2026-11-23",
+  "r": "de",
+  "k": "Gesellschaft",
+  "q": "Was erhielten am 23. November 2026 Hunderte Schulen in ganz Deutschland, darunter in Freiburg, Erfurt und Hamburg?",
+  "a": "Bombendrohungen",
+  "w": [
+   "Lösegeldforderungen",
+   "Unwetterwarnungen",
+   "Hackerangriffe auf Schulserver"
+  ],
+  "i": "Auch in Dänemark gingen Drohungen per E-Mail ein; die Polizei ordnete laut Wikipedia an, den Schulbetrieb normal fortzusetzen.",
+  "src": "https://www.tagesschau.de/inland/gesellschaft/bombendrohungen-schulen-102.html",
+  "p": 2
+ },
+ {
+  "id": "2026-11-23.de.2",
+  "d": "2026-11-23",
+  "r": "de",
+  "k": "Politik",
+  "q": "Wer soll nach dem plötzlichen Tod des bayerischen Wirtschaftsministers Aiwanger im November 2026 dessen Nachfolger als Minister werden?",
+  "a": "Tobias Gotthardt",
+  "w": [
+   "Florian Streibl",
+   "Markus Söder",
+   "Thorsten Glauber"
+  ],
+  "i": "Die Freien Wähler verteilen die Posten, die Aiwanger als zentrale Führungsfigur hatte, nach seinem Tod auf mehrere Schultern.",
+  "src": "https://www.tagesschau.de/inland/innenpolitik/aiwanger-nachfolge-gotthardt-100.html",
+  "p": 3
+ },
+ {
+  "id": "2026-11-23.de.3",
+  "d": "2026-11-23",
+  "r": "de",
+  "k": "Politik",
+  "q": "In welcher Stadt endete am 23. November 2026 die NATO-Jahrestagung mit einer deutlichen Warnung an Russland?",
+  "a": "Berlin",
+  "w": [
+   "Hamburg",
+   "München",
+   "Bonn"
+  ],
+  "i": "Die Versammlung der NATO-Parlamentarier fand erstmals seit Langem wieder in Deutschland statt; gefordert wurde eine Aufrüstung Europas.",
+  "src": "https://www.tagesschau.de/inland/nato-versammlung-berlin-100.html",
+  "p": 2
+ },
+ {
+  "id": "2026-11-23.de.4",
+  "d": "2026-11-23",
+  "r": "de",
+  "k": "Gesellschaft",
+  "q": "Welche Religionsgemeinschaft bekommt nach einer Einigung im November 2026 das Archiv einer NS-Verfolgten von der Bundeswehr?",
+  "a": "Die Zeugen Jehovas",
+  "w": [
+   "Die Evangelische Kirche",
+   "Die Katholische Kirche",
+   "Die Neuapostolische Kirche"
+  ],
+  "i": "Die Einigung betrifft das Archiv einer von den Nationalsozialisten verfolgten Frau, das bislang bei der Bundeswehr lag.",
+  "src": "https://www.tagesschau.de/inland/gesellschaft/zeugen-jehovas-kusserow-ns-verfolgung-100.html",
+  "p": 1
+ },
+ {
+  "id": "2026-11-23.de.5",
+  "d": "2026-11-23",
+  "r": "de",
+  "k": "Wirtschaft",
+  "q": "Welche Baumarktkette will sich im November 2026 mit OBI zusammenschließen und mehr als 600 Märkte unter einem Dach vereinen?",
+  "a": "Toom",
+  "w": [
+   "Hornbach",
+   "Bauhaus",
+   "Hagebau"
+  ],
+  "i": "OBI und Toom wollen ihre Märkte künftig gemeinsam betreiben; über 600 Märkte wären betroffen.",
+  "src": "https://www.tagesschau.de/wirtschaft/unternehmen/obi-toom-fusion-100.html",
+  "p": 2
+ },
+ {
+  "id": "2026-11-23.de.6",
+  "d": "2026-11-23",
+  "r": "de",
+  "k": "Wirtschaft",
+  "q": "Welche Gewerkschaft rief am 23. November 2026 in den festgefahrenen Tarifverhandlungen der Metall- und Elektroindustrie erneut zu Warnstreiks auf?",
+  "a": "Die IG Metall",
+  "w": [
+   "Verdi",
+   "Die IG BCE",
+   "Die EVG"
+  ],
+  "i": "Die Tarifverhandlungen der Branche stecken fest, daher gab es vielerorts erneut Warnstreiks.",
+  "src": "https://www.tagesschau.de/wirtschaft/unternehmen/streiks-ig-metall-norden-100.html",
+  "p": 2
+ },
+ {
+  "id": "2026-11-23.de.7",
+  "d": "2026-11-23",
+  "r": "de",
+  "k": "Sport",
+  "q": "Zu welchem Bobpiloten wechselte Anschieber Georg Fleischhauer, zuvor ein Rivale, im November 2026?",
+  "a": "Francesco Friedrich",
+  "w": [
+   "Johannes Lochner",
+   "Hans Peter Hannighofer",
+   "Adam Ammour"
+  ],
+  "i": "Fleischhauer erklärte im November 2026 seinen Wechsel, der als Coup im Bobsport gilt.",
+  "src": "https://www.sportschau.de/wintersport/bob/bob-anschieber-georg-fleischhauer-erklaert-wechsel,bob-anschieber-georg-fleischhauer-erklaert-wechsel-zu-francesco-friedrich-100.html",
+  "p": 1
+ },
+ {
+  "id": "2026-11-23.de.8",
+  "d": "2026-11-23",
+  "r": "de",
+  "k": "Sport",
+  "q": "Welcher Konzern steigt im November 2026 als Sponsor in den deutschen Bobsport ein, was der BSD-Chef verteidigte?",
+  "a": "Rheinmetall",
+  "w": [
+   "Siemens",
+   "Airbus",
+   "Thyssenkrupp"
+  ],
+  "i": "Das Sponsoring des Rüstungskonzerns im Bob sorgte für Diskussionen; der BSD-Chef verteidigte es öffentlich.",
+  "src": "https://www.sportschau.de/wintersport/bob/thomas-schwab-aeussert-sich-zu-rheinmetall-sponsoring-im-bob,bob-rheinmetall-sponsert-bsd-schwab-aeussert-sich-100.html",
+  "p": 1
+ },
+ {
+  "id": "2026-11-23.de.9",
+  "d": "2026-11-23",
+  "r": "de",
+  "k": "Gesellschaft",
+  "q": "Für wie viele weitere Jahre ist laut Meldung vom 23. November 2026 die Finanzierung des Stromspar-Checks für Haushalte mit wenig Geld gesichert?",
+  "a": "Drei Jahre",
+  "w": [
+   "Ein Jahr",
+   "Fünf Jahre",
+   "Zehn Jahre"
+  ],
+  "i": "Der Stromspar-Check ist eine kostenlose Energieberatung für Haushalte mit geringem Einkommen; es soll mehr Checks geben.",
+  "src": "https://www.tagesschau.de/wirtschaft/verbraucher/stromspar-checks-kostenlose-energieberatung-bundesumweltministerium-100.html",
+  "p": 1
+ },
+ {
+  "id": "2026-11-23.welt.1",
+  "d": "2026-11-23",
+  "r": "welt",
+  "k": "Wirtschaft",
+  "q": "Wen setzte der US-Konzern Nvidia am 23. November 2026 weniger als zwei Wochen nach dessen Rücktritt wieder als Präsident und Chef ein?",
+  "a": "Jensen Huang",
+  "w": [
+   "Lisa Su",
+   "Satya Nadella",
+   "Elon Musk"
+  ],
+  "i": "Huang war nach Enthüllungen über eine Affäre mit einer mutmaßlich für China spionierenden Frau zurückgetreten; die Rückkehr ließ die Aktienkurse steigen.",
+  "src": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_23",
+  "p": 3
+ },
+ {
+  "id": "2026-11-23.welt.2",
+  "d": "2026-11-23",
+  "r": "welt",
+  "k": "Politik",
+  "q": "Gegen fünf Militärführer welches Landes kündigte der britische Außenminister Ed Miliband am 23. November 2026 Sanktionen an?",
+  "a": "Myanmar",
+  "w": [
+   "Sudan",
+   "Thailand",
+   "Äthiopien"
+  ],
+  "i": "Zugleich erkannte Großbritannien den Völkermord an den Rohingya an.",
+  "src": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_23",
+  "p": 2
+ },
+ {
+  "id": "2026-11-23.welt.3",
+  "d": "2026-11-23",
+  "r": "welt",
+  "k": "Recht",
+  "q": "Welchem früheren katalanischen Regionalpräsidenten, der im Exil in Belgien lebt, gewährte Spaniens Oberstes Gericht am 23. November 2026 Amnestie?",
+  "a": "Carles Puigdemont",
+  "w": [
+   "Artur Mas",
+   "Quim Torra",
+   "Pere Aragonès"
+  ],
+  "i": "Damit sind die Verfahren gegen die Anführer der katalanischen Unabhängigkeitserklärung vom Oktober 2017 endgültig abgeschlossen.",
+  "src": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_23",
+  "p": 3
+ },
+ {
+  "id": "2026-11-23.welt.4",
+  "d": "2026-11-23",
+  "r": "welt",
+  "k": "Sport",
+  "q": "Welche Länder werden laut FIFA-Bestätigung vom 23. November 2026 gemeinsam die Frauen-Fußball-WM 2035 ausrichten?",
+  "a": "England, Nordirland, Schottland und Wales",
+  "w": [
+   "Spanien und Portugal",
+   "Deutschland, Österreich und die Schweiz",
+   "Japan und Südkorea"
+  ],
+  "i": "Die WM 2031 findet in Costa Rica, Jamaica, Mexiko und den USA statt.",
+  "src": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_23",
+  "p": 2
+ },
+ {
+  "id": "2026-11-23.welt.5",
+  "d": "2026-11-23",
+  "r": "welt",
+  "k": "Katastrophen",
+  "q": "In welchem Land brach im November 2026 ein Brand in einer Süßwarenfabrik aus, bei dem viele Tote befürchtet wurden?",
+  "a": "Indonesien",
+  "w": [
+   "Bangladesch",
+   "Vietnam",
+   "Indien"
+  ],
+  "i": "Zum Zeitpunkt des Ausbruchs sollen sich etwa 60 Menschen im Gebäude aufgehalten haben.",
+  "src": "https://www.tagesschau.de/ausland/asien/indonesien-brand-fabrik-tote-vermisste-100.html",
+  "p": 2
+ },
+ {
+  "id": "2026-11-23.welt.6",
+  "d": "2026-11-23",
+  "r": "welt",
+  "k": "Konflikte",
+  "q": "In dem Hafen welcher libyschen Stadt gab es im November 2026 eine Explosion auf einem russischen Kriegsschiff, das daraufhin sank?",
+  "a": "Bengasi",
+  "w": [
+   "Tripolis",
+   "Misrata",
+   "Tobruk"
+  ],
+  "i": "Die Ukraine bekannte sich zur Zerstörung der russischen Korvette \"Merkury\", die erst vor drei Jahren in Dienst gestellt wurde.",
+  "src": "https://www.tagesschau.de/ausland/afrika/russisches-schiff-libyen-100.html",
+  "p": 2
+ },
+ {
+  "id": "2026-11-23.welt.7",
+  "d": "2026-11-23",
+  "r": "welt",
+  "k": "Wissenschaft",
+  "q": "Was wird laut Beschluss der Generalkonferenz für Maß und Gewicht im November 2026 künftig abgeschafft?",
+  "a": "Die Schaltsekunde",
+  "w": [
+   "Das Schaltjahr",
+   "Die Sommerzeit",
+   "Die Zeitzonen"
+  ],
+  "i": "Künftig wird es keine Schaltsekunden mehr geben.",
+  "src": "https://www.tagesschau.de/wissen/forschung/schaltsekunde-abschaffung-100.html",
+  "p": 2
+ },
+ {
+  "id": "2026-11-23.welt.8",
+  "d": "2026-11-23",
+  "r": "welt",
+  "k": "Politik",
+  "q": "Welches zentralasiatische Land leitete am 23. November 2026 formal den Austritt aus dem Internationalen Strafgerichtshof ein?",
+  "a": "Tadschikistan",
+  "w": [
+   "Kasachstan",
+   "Usbekistan",
+   "Kirgisistan"
+  ],
+  "i": "Tadschikistan begann damit das Verfahren zum Rückzug aus dem Internationalen Strafgerichtshof.",
+  "src": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_23",
+  "p": 2
+ },
+ {
+  "id": "2026-11-23.welt.9",
+  "d": "2026-11-23",
+  "r": "welt",
+  "k": "Recht",
+  "q": "Wofür erhielt die iranische Sängerin Parastoo Ahmadi im November 2026 74 Peitschenhiebe?",
+  "a": "Für einen Auftritt bei einem Konzert ohne Hijab",
+  "w": [
+   "Für Kritik an der Regierung in sozialen Medien",
+   "Für einen Auftritt im Ausland",
+   "Für die Veröffentlichung eines Liedes"
+  ],
+  "i": "Der Fall steht im Zusammenhang mit der Kopftuchpflicht im Iran.",
+  "src": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_23",
   "p": 2
  }
 ]
